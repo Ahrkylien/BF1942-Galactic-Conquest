@@ -117,8 +117,8 @@ rem -----------------------------------------
 rem ---  ca51  ---
 rem ----------------------------------------- 
 Object.create ca51
-Object.absolutePosition 535.79/110.03/423.45
-Object.rotation -76.00/0.00/0.00
+Object.absolutePosition 541.61/110.03/410.91
+Object.rotation -28.18/0.00/0.00
 
 rem ----------------------------------------- 
 rem ---  ca53  ---
@@ -133,5 +133,12 @@ rem -----------------------------------------
 Object.create ca54
 Object.absolutePosition 584.46/94.14/506.54
 Object.rotation -121.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  ca55  ---
+rem ----------------------------------------- 
+Object.create ca55
+Object.absolutePosition 397.20/96.52/544.70
+Object.rotation 114.74/0.00/0.00
 
 rem EndOfFile

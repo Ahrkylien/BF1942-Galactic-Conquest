@@ -109,22 +109,6 @@ Object.setOSId 1
 Object.setTeam 0
 
 rem ----------------------------------------- 
-rem ---  ewebfullstation  ---
-rem ----------------------------------------- 
-Object.create ewebfullstation
-Object.absolutePosition 197.31/111.22/1199.43
-Object.rotation 39.00/0.00/0.00
-Object.setTeam 1
-
-rem ----------------------------------------- 
-rem ---  ewebfullstation  ---
-rem ----------------------------------------- 
-Object.create ewebfullstation
-Object.absolutePosition 189.61/111.20/1202.34
-Object.rotation -36.00/0.00/0.00
-Object.setTeam 1
-
-rem ----------------------------------------- 
 rem ---  r2d2spawner  ---
 rem ----------------------------------------- 
 Object.create r2d2spawner
@@ -164,7 +148,7 @@ rem -----------------------------------------
 rem ---  shipspawns  ---
 rem ----------------------------------------- 
 Object.create shipspawns
-Object.absolutePosition 161.43/91.40/1293.80
+Object.absolutePosition 168.18/91.40/1268.87
 Object.rotation -741.00/0.00/0.00
 Object.setTeam 1
 
@@ -217,9 +201,27 @@ rem -----------------------------------------
 rem ---  shipspawns  ---
 rem ----------------------------------------- 
 Object.create shipspawns
-Object.absolutePosition 1555.89/91.33/485.40
+Object.absolutePosition 1555.89/91.71/485.40
 Object.rotation 9.66/0.00/0.00
 Object.setOSId 4
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  shipspawns  ---
+rem ----------------------------------------- 
+Object.create shipspawns
+Object.absolutePosition 1633.13/91.14/491.35
+Object.rotation 40.42/0.00/0.00
+Object.setOSId 4
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  shipspawns  ---
+rem ----------------------------------------- 
+Object.create shipspawns
+Object.absolutePosition 415.90/91.48/508.68
+Object.rotation -150.07/0.00/0.00
+Object.setOSId 5
 Object.setTeam 0
 
 rem EndOfFile

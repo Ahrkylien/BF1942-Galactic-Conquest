@@ -1,35 +1,46 @@
-rem
-rem ***  ***
-rem
+rem ControlPoints.con created by Battlecraft 1942
+rem (\Program Files\Battlefield 1942\Mods\GCMOD\bf1942\levels\GC_BCanyon/conquest/ControlPoints.con)
+
+rem ----------------------------------------- 
+rem ---  bridge_passtemplate  ---
+rem ----------------------------------------- 
 Object.create bridge_passtemplate
-Object.absolutePosition 1425.66/120.33/1009.5
-rem
-rem ***  ***
-rem
+Object.absolutePosition 1425.66/120.33/1009.50
+
+rem ----------------------------------------- 
+rem ---  sand_swept_basetemplate  ---
+rem ----------------------------------------- 
 Object.create sand_swept_basetemplate
 Object.absolutePosition 1191.83/94.87/1038.76
-rem
-rem ***  ***
-rem
+
+rem ----------------------------------------- 
+rem ---  tusken_forttemplate  ---
+rem ----------------------------------------- 
 Object.create tusken_forttemplate
 Object.absolutePosition 1536.08/83.15/1591.42
-rem
-rem ***  ***
-rem
+
+rem ----------------------------------------- 
+rem ---  toshe_station  ---
+rem ----------------------------------------- 
 Object.create toshe_station
-Object.absolutePosition 1588.89/88.5/692.05
-rem
-rem ***  ***
-rem
+Object.absolutePosition 1588.89/88.50/692.05
+
+rem ----------------------------------------- 
+rem ---  the_citideltemplate  ---
+rem ----------------------------------------- 
 Object.create the_citideltemplate
-Object.absolutePosition 630.89/142/1600.65
-rem
-rem ***  ***
-rem
+Object.absolutePosition 630.89/142.00/1600.65
+
+rem ----------------------------------------- 
+rem ---  rebel_crash_sitetemplate  ---
+rem ----------------------------------------- 
 Object.create rebel_crash_sitetemplate
-Object.absolutePosition 1922.7/-16.2078/149.436
-rem
-rem ***  ***
-rem
+Object.absolutePosition 1922.70/-16.21/149.44
+
+rem ----------------------------------------- 
+rem ---  lost_citytemplate  ---
+rem ----------------------------------------- 
 Object.create lost_citytemplate
 Object.absolutePosition 1286.43/78.86/1610.55
+
+rem EndOfFile

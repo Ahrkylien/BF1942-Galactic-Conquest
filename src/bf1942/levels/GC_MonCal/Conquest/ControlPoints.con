@@ -1,36 +1,34 @@
-rem
-rem ***  ***
-rem
-Object.create impstarttemplate
-Object.absolutePosition 386.407/104.687/1724.26
-Object.setOSId 328248
-Object.setTeam 154939900
-rem
-rem ***  ***
-rem
-Object.create city_access_1template
-Object.absolutePosition 1453.79/94.0184/1421.3
-Object.setOSId 154607364
-Object.setTeam 0
-rem
-rem ***  ***
-rem
-Object.create city_access_2template
-Object.absolutePosition 1330.31/92.4239/1289.26
-Object.setOSId 0
-Object.setTeam 0
-rem
-rem ***  ***
-rem
-Object.create city_access_3template
-Object.absolutePosition 1597.82/94.2729/453.328
-Object.rotation -80/0/0
-Object.setOSId 65
-Object.setTeam 1048578
-rem
-rem ***  ***
-rem
-Object.create city_access_4template
-Object.absolutePosition 473.519/90.0785/505.05
-Object.setOSId 983538
-Object.setTeam 154964072
+rem ControlPoints.con created by Battlecraft 1942
+rem (\Program Files\Battlefield 1942\Mods\GCMOD\bf1942\levels\GC_MonCal/conquest/ControlPoints.con)
+
+rem ----------------------------------------- 
+rem ---  Imperial_Forward_Command  ---
+rem ----------------------------------------- 
+Object.create Imperial_Forward_Command
+Object.absolutePosition 386.41/104.69/1724.26
+
+rem ----------------------------------------- 
+rem ---  City_Dock  ---
+rem ----------------------------------------- 
+Object.create City_Dock
+Object.absolutePosition 1453.79/94.57/1421.30
+
+rem ----------------------------------------- 
+rem ---  City_Pump_Station  ---
+rem ----------------------------------------- 
+Object.create City_Pump_Station
+Object.absolutePosition 1330.31/93.74/1289.26
+
+rem ----------------------------------------- 
+rem ---  Southern_Pump_Station  ---
+rem ----------------------------------------- 
+Object.create Southern_Pump_Station
+Object.absolutePosition 1597.82/94.57/453.33
+
+rem ----------------------------------------- 
+rem ---  Southern_Habitat  ---
+rem ----------------------------------------- 
+Object.create Southern_Habitat
+Object.absolutePosition 473.52/93.50/505.05
+
+rem EndOfFile

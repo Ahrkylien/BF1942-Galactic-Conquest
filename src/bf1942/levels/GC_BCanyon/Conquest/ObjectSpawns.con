@@ -1,267 +1,324 @@
-rem
-rem ***  ***
-rem
+rem ObjectSpawns.con created by Battlecraft 1942
+rem (\Program Files\Battlefield 1942\Mods\GCMOD\bf1942\levels\GC_BCanyon/conquest/ObjectSpawns.con)
+
+rem ----------------------------------------- 
+rem ---  ambient-sandpeople_spawner  ---
+rem ----------------------------------------- 
 Object.create ambient-sandpeople_spawner
-Object.absolutePosition 0/100/0
+Object.absolutePosition 0.00/100.00/0.00
+Object.rotation 0.00/0.00/0.00
 Object.setOSId 5
 Object.setTeam 0
-rem
-rem ***  ***
-rem
+
+rem ----------------------------------------- 
+rem ---  skyhopalways  ---
+rem ----------------------------------------- 
 Object.create skyhopalways
-Object.absolutePosition 1590.4/89.56/666.71
-Object.rotation -181/0/0
-Object.setOSId 4
-rem
-rem ***  ***
-rem
+Object.absolutePosition 1590.40/89.56/666.71
+Object.rotation -181.00/0.00/0.00
+Object.setOSId 6
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  airtransport_spawn  ---
+rem ----------------------------------------- 
 Object.create airtransport_spawn
 Object.absolutePosition 651.88/148.46/1590.76
-Object.rotation -132/0/0
+Object.rotation -132.00/0.00/0.00
 Object.setOSId 5
 Object.setTeam 1
-rem
-rem ***  ***
-rem
+
+rem ----------------------------------------- 
+rem ---  droids  ---
+rem ----------------------------------------- 
 Object.create droids
 Object.absolutePosition 647.94/141.98/1569.54
+Object.rotation 0.00/0.00/0.00
 Object.setOSId 5
-Object.setTeam 0
-rem
-rem ***  ***
-rem
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  turbolaser_spawner  ---
+rem ----------------------------------------- 
 Object.create turbolaser_spawner
 Object.absolutePosition 611.47/141.61/1568.45
-Object.rotation -145/0/0
+Object.rotation -145.00/0.00/0.00
 Object.setOSId 5
 Object.setTeam 0
-rem
-rem ***  ***
-rem
+
+rem ----------------------------------------- 
+rem ---  swoopspawner  ---
+rem ----------------------------------------- 
 Object.create swoopspawner
 Object.absolutePosition 620.27/142.51/1580.73
-Object.rotation -181/0/0
+Object.rotation -181.00/0.00/0.00
 Object.setOSId 5
 Object.setTeam 0
-rem
-rem ***  ***
-rem
-Object.create atstlandspeed
-Object.absolutePosition 1559.93/83.43/1602.53
-Object.rotation 180/0/0
+
+rem ----------------------------------------- 
+rem ---  armorspawner  ---
+rem ----------------------------------------- 
+Object.create armorspawner
+Object.absolutePosition 1589.78/83.43/1592.43
+Object.rotation 253.94/0.00/0.00
 Object.setOSId 3
 Object.setTeam 0
-rem
-rem ***  ***
-rem
-Object.create atstlandspeed2
-Object.absolutePosition 1591.18/83.43/1592.29
-Object.rotation 271.61/0/0
+
+rem ----------------------------------------- 
+rem ---  atstgunship  ---
+rem ----------------------------------------- 
+Object.create atstgunship
+Object.absolutePosition 1558.08/83.43/1600.60
+Object.rotation 153.14/0.00/0.00
 Object.setOSId 3
 Object.setTeam 0
-rem
-rem ***  ***
-rem
-Object.create tiefighteronly
-Object.absolutePosition 1572.83/88.13/1602.61
-Object.rotation -181.59/0/0
-Object.setOSId 3
-rem
-rem ***  ***
-rem
-Object.create atstlandspeed
+
+rem ----------------------------------------- 
+rem ---  armorspawner  ---
+rem ----------------------------------------- 
+Object.create armorspawner
 Object.absolutePosition 1165.04/94.24/1043.54
-Object.rotation 64/0/0
+Object.rotation 64.00/0.00/0.00
 Object.setOSId 2
 Object.setTeam 0
-rem
-rem ***  ***
-rem
+
+rem ----------------------------------------- 
+rem ---  skyhoppertie  ---
+rem ----------------------------------------- 
 Object.create skyhoppertie
 Object.absolutePosition 1168.29/99.77/1059.45
+Object.rotation 0.00/0.00/0.00
 Object.setOSId 2
 Object.setTeam 0
-rem
-rem ***  ***
-rem
+
+rem ----------------------------------------- 
+rem ---  swoopspawner  ---
+rem ----------------------------------------- 
 Object.create swoopspawner
-Object.absolutePosition 1171.93/95.06/1028.91
-Object.rotation -92/0/0
+Object.absolutePosition 1171.93/95.62/1028.91
+Object.rotation -92.00/0.00/0.00
 Object.setOSId 2
 Object.setTeam 0
-rem
-rem ***  ***
-rem
+
+rem ----------------------------------------- 
+rem ---  skyhopalways  ---
+rem ----------------------------------------- 
 Object.create skyhopalways
-Object.absolutePosition 1902.8/63.2/1679.73
-Object.rotation -91/0/0
-Object.setOSId 3
-rem
-rem ***  ***
-rem
+Object.absolutePosition 1902.80/63.20/1679.73
+Object.rotation -91.00/0.00/0.00
+Object.setOSId 6
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  droids  ---
+rem ----------------------------------------- 
 Object.create droids
 Object.absolutePosition 1896.06/57.52/1689.89
-Object.rotation -101/0/0
-Object.setTeam 1
-rem
-rem ***  ***
-rem
+Object.rotation -101.00/0.00/0.00
+Object.setOSId 6
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  droids  ---
+rem ----------------------------------------- 
 Object.create droids
 Object.absolutePosition 149.43/40.33/1217.14
-Object.rotation -245/0/0
-Object.setTeam 1
-rem
-rem ***  ***
-rem
+Object.rotation -245.00/0.00/0.00
+Object.setOSId 6
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  skyhopalways  ---
+rem ----------------------------------------- 
 Object.create skyhopalways
 Object.absolutePosition 145.52/45.46/1197.16
-Object.rotation -239/0/0
-Object.setTeam 1
-rem
-rem ***  ***
-rem
+Object.rotation -239.00/0.00/0.00
+Object.setOSId 6
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  landspeederalways  ---
+rem ----------------------------------------- 
 Object.create landspeederalways
 Object.absolutePosition 1589.11/84.15/686.66
-Object.rotation 90/0/0
-Object.setOSId 4
+Object.rotation 90.00/0.00/0.00
+Object.setOSId 6
 Object.setTeam 0
-rem
-rem ***  ***
-rem
+
+rem ----------------------------------------- 
+rem ---  landspeederalways  ---
+rem ----------------------------------------- 
 Object.create landspeederalways
-Object.absolutePosition 1293.64/76.02/1574.45
-Object.rotation 1/0/0
-Object.setOSId 7
-rem
-rem ***  ***
-rem
+Object.absolutePosition 1292.79/76.31/1579.60
+Object.rotation 48.31/0.00/0.00
+Object.setOSId 6
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  droids  ---
+rem ----------------------------------------- 
 Object.create droids
 Object.absolutePosition 1419.81/120.31/1008.09
-Object.rotation 178/0/0
+Object.rotation 178.00/0.00/0.00
 Object.setOSId 1
-Object.setTeam 1
-rem
-rem ***  ***
-rem
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  landspeederewebalways  ---
+rem ----------------------------------------- 
 Object.create landspeederewebalways
-Object.absolutePosition 1964.12/0.71955/146.886
-Object.rotation -107/0/0
-Object.setOSId 6
-rem
-rem ***  ***
-rem
-Object.create landspeederewebalways
-Object.absolutePosition 1966.09/9.2713/171.298
-Object.rotation -14/0/0
-Object.setOSId 6
-rem
-rem ***  ***
-rem
-Object.create skyhopalways
-Object.absolutePosition 1926.71/15.53/217.04
-Object.rotation -71/0/0
+Object.absolutePosition 1964.12/0.72/146.89
+Object.rotation -107.00/0.00/0.00
 Object.setOSId 6
 Object.setTeam 0
-rem
-rem ***  ***
-rem
+
+rem ----------------------------------------- 
+rem ---  landspeederewebalways  ---
+rem ----------------------------------------- 
+Object.create landspeederewebalways
+Object.absolutePosition 1966.09/9.27/171.30
+Object.rotation -14.00/0.00/0.00
+Object.setOSId 6
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  skyhopalways  ---
+rem ----------------------------------------- 
+Object.create skyhopalways
+Object.absolutePosition 1926.63/14.79/217.43
+Object.rotation -71.00/0.00/0.00
+Object.setOSId 6
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  turbolaser_spawner  ---
+rem ----------------------------------------- 
 Object.create turbolaser_spawner
 Object.absolutePosition 672.99/141.49/1572.52
-Object.rotation -145/0/0
+Object.rotation -145.00/0.00/0.00
 Object.setOSId 5
 Object.setTeam 0
-rem
-rem ***  ***
-rem
+
+rem ----------------------------------------- 
+rem ---  swoopspawner  ---
+rem ----------------------------------------- 
 Object.create swoopspawner
-Object.absolutePosition 1419.89/121.04/911.91
-Object.rotation -87/0/0
+Object.absolutePosition 1421.46/121.04/909.85
+Object.rotation -87.00/0.00/0.00
 Object.setOSId 1
 Object.setTeam 0
-rem
-rem ***  ***
-rem
+
+rem ----------------------------------------- 
+rem ---  ambiant-sandpeople-real  ---
+rem ----------------------------------------- 
 Object.create ambiant-sandpeople-real
 Object.absolutePosition 1466.66/120.61/672.28
+Object.rotation 0.00/0.00/0.00
 Object.setTeam 1
-rem
-rem ***  ***
-rem
+
+rem ----------------------------------------- 
+rem ---  ambiant-sandpeople-real  ---
+rem ----------------------------------------- 
 Object.create ambiant-sandpeople-real
 Object.absolutePosition 1180.22/94.01/1101.76
+Object.rotation 0.00/0.00/0.00
 Object.setTeam 1
-rem
-rem ***  ***
-rem
+
+rem ----------------------------------------- 
+rem ---  ambiant-sandpeople-real  ---
+rem ----------------------------------------- 
 Object.create ambiant-sandpeople-real
-Object.absolutePosition 1335.6/73.57/1587.12
+Object.absolutePosition 1335.60/73.57/1587.12
+Object.rotation 0.00/0.00/0.00
 Object.setTeam 1
-rem
-rem ***  ***
-rem
+
+rem ----------------------------------------- 
+rem ---  ambiant-sandpeople-real  ---
+rem ----------------------------------------- 
 Object.create ambiant-sandpeople-real
 Object.absolutePosition 779.04/23.77/1717.22
+Object.rotation 0.00/0.00/0.00
 Object.setTeam 1
-rem
-rem ***  ***
-rem
-Object.create skyhoppertie
-Object.absolutePosition 1436.07/124.85/907.87
-Object.rotation 45/0/0
-Object.setOSId 1
-Object.setTeam 1
-rem
-rem ***  ***
-rem
+
+rem ----------------------------------------- 
+rem ---  droids  ---
+rem ----------------------------------------- 
 Object.create droids
 Object.absolutePosition 1606.39/84.13/660.67
+Object.rotation 0.00/0.00/0.00
 Object.setOSId 4
-Object.setTeam 1
-rem
-rem ***  ***
-rem
-Object.create atstlandspeed
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  armorspawner  ---
+rem ----------------------------------------- 
+Object.create armorspawner
 Object.absolutePosition 1302.09/78.33/1612.58
-Object.rotation 180/0/0
+Object.rotation 180.00/0.00/0.00
 Object.setOSId 7
 Object.setTeam 0
-rem
-rem ***  ***
-rem
+
+rem ----------------------------------------- 
+rem ---  swoopspawner  ---
+rem ----------------------------------------- 
 Object.create swoopspawner
 Object.absolutePosition 623.03/142.62/1580.71
-Object.rotation 180/0/0
+Object.rotation 180.00/0.00/0.00
 Object.setOSId 5
 Object.setTeam 0
-rem
-rem ***  ***
-rem
+
+rem ----------------------------------------- 
+rem ---  landspeederewebalways  ---
+rem ----------------------------------------- 
 Object.create landspeederewebalways
-Object.absolutePosition 1405.51/123.403/1059.62
-Object.rotation 87/0/0
+Object.absolutePosition 1979.71/8.49/180.97
+Object.rotation -20.67/0.00/0.00
+Object.setOSId 6
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  skiffspawner  ---
+rem ----------------------------------------- 
+Object.create skiffspawner
+Object.absolutePosition 1409.85/122.25/1060.42
+Object.rotation 88.28/0.00/0.00
 Object.setOSId 1
-rem
-rem ***  ***
-rem
-Object.create gunshiponly
-Object.absolutePosition 1567.74/85.8897/1588.5
-Object.rotation 197.5/0/0
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  skyhoppertie  ---
+rem ----------------------------------------- 
+Object.create skyhoppertie
+Object.absolutePosition 1572.73/88.23/1602.04
+Object.rotation 180.00/0.00/0.00
 Object.setOSId 3
+Object.setTeam 0
 
+rem ----------------------------------------- 
+rem ---  skyhopalways  ---
+rem ----------------------------------------- 
+Object.create skyhopalways
+Object.absolutePosition 1435.84/124.95/907.76
+Object.rotation 43.84/0.00/0.00
+Object.setOSId 1
+Object.setTeam 0
 
+rem ----------------------------------------- 
+rem ---  vehicleammo  ---
+rem ----------------------------------------- 
+Object.create vehicleammo
+Object.absolutePosition 1297.19/78.78/1588.14
+Object.rotation 0.00/0.00/0.00
+Object.setOSId 6
+Object.setTeam 0
 
+rem ----------------------------------------- 
+rem ---  vehicleammo  ---
+rem ----------------------------------------- 
+Object.create vehicleammo
+Object.absolutePosition 1297.55/78.86/1589.59
+Object.rotation 0.00/0.00/0.00
+Object.setOSId 5
+Object.setTeam 0
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+rem EndOfFile

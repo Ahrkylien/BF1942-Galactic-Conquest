@@ -1,0 +1,114 @@
+rem ***
+rem ***
+rem ***
+ObjectTemplate.create Bundle Eweb_Base
+ObjectTemplate.saveInSeparateFile 1
+beginrem
+	ObjectTemplate.HasArmor 1
+	ObjectTemplate.HitPoints 75
+	ObjectTemplate.MaxHitPoints 75
+	ObjectTemplate.Material 811
+endrem
+rem ---------------------------------------------------
+ObjectTemplate.addTemplate Eweb_Entry
+ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.setRotation 0/0/0
+ObjectTemplate.addTemplate Eweb_Carriage
+ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.setRotation 0/0/0
+rem ---------------------------------------------------
+
+rem ***
+rem ***
+rem ***
+ObjectTemplate.create Bundle Eweb_Carriage
+ObjectTemplate.networkableInfo Eweb_TurretInfo
+ObjectTemplate.geometry Eweb_carriage_m1
+ObjectTemplate.hasCollisionPhysics 1
+rem ---------------------------------------------------
+ObjectTemplate.addTemplate EwebSeat
+ObjectTemplate.setPosition 0/.8/-1.1
+ObjectTemplate.setRotation 0/0/0
+ObjectTemplate.addTemplate Eweb_Cannon
+ObjectTemplate.setPosition 0/1.1/0
+ObjectTemplate.setRotation 0/0/0
+rem ---------------------------------------------------
+ObjectTemplate.setAttachToListener 1
+
+
+LodSelectorTemplate.create DistCompareSelector Eweb_allcockpitSelector
+LodSelectorTemplate.addLodComparison 0.5
+LodSelectorTemplate.addLodDistance 10
+ObjectTemplate.create LodObject lodEweb_AllCockpit
+ObjectTemplate.addTemplate Eweb_AllCockpitExternal
+ObjectTemplate.addTemplate Eweb_AllCockpitInternal
+ObjectTemplate.lodselector Eweb_allcockpitSelector
+ObjectTemplate.create SimpleObject Eweb_AllCockpitExternal
+ObjectTemplate.geometry Eweb_cannon_m1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.create SimpleObject Eweb_AllCockpitInternal
+ObjectTemplate.geometry Eweb_cannon_m1
+
+rem ***
+rem ***
+rem ***
+ObjectTemplate.create RotationalBundle Eweb_Cannon
+ObjectTemplate.networkableInfo Eweb_GunInfo
+ObjectTemplate.addTemplate lodEweb_AllCockpit
+rem ObjectTemplate.geometry Eweb_cannon_m1
+rem ----------------------------------------------------------
+ObjectTemplate.addTemplate Eweb_Camera
+ObjectTemplate.setPosition 0/0.4/-0.5
+ObjectTemplate.setRotation 0/0/0
+ObjectTemplate.addTemplate ewebhanddummy
+ObjectTemplate.addTemplate ewebweaponfire
+ObjectTemplate.setPosition 0/0/1
+rem ----------------------------------------------------------
+ObjectTemplate.setMinRotation -70/-20/0
+ObjectTemplate.setMaxRotation 70/30/0
+ObjectTemplate.setMaxSpeed 180/180/0
+ObjectTemplate.setAcceleration 1000/1000/0
+ObjectTemplate.setInputToYaw c_pimouselookX
+ObjectTemplate.setInputToPitch c_pimouselookY
+ObjectTemplate.setAttachToListener 1
+
+
+rem ***
+rem ***
+rem ***
+ObjectTemplate.create AnimatedBundle ewebhanddummy
+ObjectTemplate.addSkeletonIK Bip01_R_Hand 0.2/-0.06/-0.25 -80/60/50
+ObjectTemplate.addSkeletonIK Bip01_L_Hand -0.2/-0.06/-0.25 -80/-60/50
+
+rem ***
+rem ***
+rem ***
+ObjectTemplate.create SeatObject EwebSeat
+ObjectTemplate.seatFlags c_SeatShowFullBodySoldier
+ObjectTemplate.seatFlags c_SeatShowStandingSoldier
+ObjectTemplate.seatFlags c_SeatIsOutside
+
+rem ***
+rem ***
+rem ***
+ObjectTemplate.create Camera Eweb_Camera
+ObjectTemplate.setMinRotation 0/0/0
+ObjectTemplate.setMaxRotation 0/0/0
+ObjectTemplate.setPivotPosition 0/0/0
+ObjectTemplate.setMaxSpeed 0/0/0
+ObjectTemplate.setAcceleration 0/0/0
+ObjectTemplate.setContinousRotationSpeed 0/0/0
+ObjectTemplate.setInputToYaw c_PIMouseLookX
+ObjectTemplate.setInputToPitch c_PIMouseLookY
+ObjectTemplate.setInputToRoll c_PINone
+ObjectTemplate.setHasTarget 0
+
+rem ***
+rem ***
+rem ***
+ObjectTemplate.create EntryPoint Eweb_Entry
+ObjectTemplate.setEntryRadius 3.2
+
+

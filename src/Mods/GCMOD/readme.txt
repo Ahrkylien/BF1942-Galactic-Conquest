@@ -1,14 +1,118 @@
 
-PLEASE READ THE GC MANUAL (located in the gc_manual folder in your GCMOD directory) for 
 
-information on how to play the game. This update log has only a list of changes between versions. With over 50 vehicles, with unique flying controls, and so many custom player abilities and gameplay types, you really need to read the manual to get the most out of GC. 
+Note: 4.2 is a patch file, requires Release 4 full install, and should be used to overwrite your existing GCMOD folder. Clients need only run the installer, server managers need to copy the files into their GCMOD folder. 
+
+PLEASE READ THE GC MANUAL (located in the gc_manual folder in your GCMOD directory) for information on how to play the game. This update log has only a list of changes between versions. With over 50 vehicles, with unique flying controls, and so many custom player abilities and gameplay types, you really need to read the manual to get the most out of GC. 
 
 Enjoy! 
 
--The GCDev Team
 
 
-GC Release 4:
+Release 4.2 fixes:
+------------------
+-Removed damage effect from Gas grenades to fix exploit problems. They are now only good for cover as smoke grenades. This is a quick fix, and the medic will get a new featured replacement in Release 5. The are also no longer reloadable, to fix a server spamming problem. 
+
+-New T3B and Firehawke projectile effect, easier to track and see. 
+
+-Fixed Bespin exploit under platform.
+
+-Fixed a crash caused by crewing the destroyed E-Web component of a vehicle. 
+
+-Temporarily removed E-Web station from Lok, Anchorhead.
+
+-New texture for hoth plates. (Trench)
+
+-Skiff added to Tatooine rebel starting spawn, increased to 4 possible land speeders at each landspeeder spawn.
+
+-Added Gunship and ATST-V to droid repair list, droids may now repair them. 
+
+-Droid wrecks/TL wrecks temporarily removed to fix a client effect crash.
+
+-Fixed a bug with the Judicature min-map correctly showing. 
+
+-Imperial Landing craft now auto-crews on spawn inside. 
+
+-Fixed a bug in the handling of the Landspeeder with E-web attachment. Now easier to drive. 
+
+-Fixed a bug in Tatooine, that prevented rebels from spawning if imperials were at their main base.
+
+-Fixed a bug with one of the ladders not being climbable at the starports.
+
+-Adjusted the droid spawn times, changed the armor on the mouse droid control so it can be destroyed. 
+
+-Fixed the MIAU scouting bug. Should now correctly show the scout screen when aiming artillery. 
+
+-Fixed a network code problem with the Carrack Cruiser. 
+
+-Created a standard fleet class for all soldiers on Taskforce. 
+
+-Echo trolley smoothed polys, for better look and texture. 
+
+-New Taskforce skymap, easyer to see things in. 
+
+-Fixed several Bespin and Tatooine building wallhack bugs.
+
+DeathStar:
+----------
+-Objective made slightly harder to hit. 
+
+-Adjusted Empire soldier spawn points. 
+
+
+Beggars Canyon:
+---------------
+-Made it so any team can take any tank.
+
+-Added 1 more landspeeder to Downed Runner and they spawn 2 for a total of 6 in 30 seconds.
+
+-Removed TIE fighter from Canyon Pass (if the rebels capture the point they get a skyhopper).
+
+-Added Skiff to the back trail of Canyon Pass (nice transport for getting to tusken fort).
+
+-Slightly adjusted tickets.  Ticket count slightly lowered, rebels start with a few more tickets and bleed is 1 per minute lower.
+
+-Added Vehicle ammo to the Lost City so the tanks and gunship have somewhere to reload.
+
+-Fixed exploit that players could get inside the Static Runner.
+
+-Terrain flattened out here and there.
+
+-Alarms and smoke added to downed runner.
+
+
+Mon Calamari:
+-------------
+-Made Skimmers/Amph spawn only 1 boat.  Felt that 2 per spawn was overkill and could cause them to spawn on top of each other if slightly moved.
+
+-Added 2 more amph spawns (1 more at each of the southern points).
+
+-Renamed the Control points, instead of city_access 1,2,3,4 they are.  Southern Habitat, Southern Pump Station, City Pump Station, City Dock.
+
+-Slightly moved the flags so they aren’t inside the meshes.
+
+-Removed the e-web full stations that fell through ground.
+
+-Fixed problem with flag beam called in debugger.
+
+
+Hoth:
+-----
+-Fixed echo exploit.
+
+-Holes in the ground in the back of echo base fixed.
+
+-Floating trench lights fixed.
+
+-Moved Health scanner so you don't get healed through the wall.
+
+-Brought Echo flag into the control room instead of under it.
+
+-Hoth sun rotated into the correct position. 
+
+
+
+
+GC Release 4.0:
 ----------------------------------------------------------------------------
 
 New Vehicles

@@ -180,7 +180,7 @@ ObjectTemplate.setPosition -9.774/3.6/0
 ObjectTemplate.addTemplate Imperial_LandingCraftSeat
 ObjectTemplate.setPosition -1.02948/0.4/22.7
 ObjectTemplate.addTemplate Imperial_LandingCraftEntry
-ObjectTemplate.setPosition -1.51678/6.97062e-007/21.5607
+ObjectTemplate.setPosition 1.51678/0/21.5607
 rem -------------------------------------
 ObjectTemplate.setSoldierExitLocation -1.51678/6.97062e-007/21.5607 180/0/0
 ObjectTemplate.setVehicleIcon "Vehicle/Icon_lander.dds"
@@ -247,6 +247,8 @@ ObjectTemplate.addTemplate Imperial_LandingCraftSeat
 ObjectTemplate.setPosition -4.0036/-0.543896/-10.179
 ObjectTemplate.addTemplate Imperial_LandingCraftEntry
 ObjectTemplate.setPosition -4.0036/-0.543896/-10.179
+ObjectTemplate.addTemplate Imperial_LandingCraftEntry
+ObjectTemplate.setPosition 1.51678/0/21.5607
 rem -------------------------------------
 ObjectTemplate.setSoldierExitLocation -4.0036/-0.543896/-8 0/0/0
 ObjectTemplate.setVehicleIcon "Vehicle/Icon_lander.dds"
@@ -269,6 +271,8 @@ ObjectTemplate.addTemplate Imperial_LandingCraftSeat
 ObjectTemplate.setPosition 1.41591/-0.543896/-10.179
 ObjectTemplate.addTemplate Imperial_LandingCraftEntry
 ObjectTemplate.setPosition 1.41591/-0.543896/-10.179
+ObjectTemplate.addTemplate Imperial_LandingCraftEntry
+ObjectTemplate.setPosition 1.51678/0/21.5607
 rem -------------------------------------
 ObjectTemplate.setSoldierExitLocation 1.41591/-0.543896/-8.179 0/0/0
 ObjectTemplate.setVehicleIcon "Vehicle/Icon_lander.dds"
@@ -287,6 +291,8 @@ ObjectTemplate.addTemplate Imperial_LandingCraftSeat
 ObjectTemplate.setPosition -1.29668/-0.543896/-10.179
 ObjectTemplate.addTemplate Imperial_LandingCraftEntry
 ObjectTemplate.setPosition -1.29668/-0.543896/-10.179
+ObjectTemplate.addTemplate Imperial_LandingCraftEntry
+ObjectTemplate.setPosition 1.51678/0/21.5607
 rem -------------------------------------
 ObjectTemplate.setSoldierExitLocation -1.29668/-0.543896/-8.179 0/0/0
 ObjectTemplate.setVehicleIcon "Vehicle/Icon_lander.dds"
@@ -305,6 +311,8 @@ ObjectTemplate.addTemplate Imperial_LandingCraftSeat
 ObjectTemplate.setPosition 3.87327/-0.543896/-10.179
 ObjectTemplate.addTemplate Imperial_LandingCraftEntry
 ObjectTemplate.setPosition 3.87327/-0.543896/-10.179
+ObjectTemplate.addTemplate Imperial_LandingCraftEntry
+ObjectTemplate.setPosition 1.51678/0/21.5607
 rem -------------------------------------
 ObjectTemplate.setSoldierExitLocation 3.87327/-0.543896/-8.179 0/0/0
 ObjectTemplate.setVehicleIcon "Vehicle/Icon_lander.dds"
@@ -540,6 +548,6 @@ ObjectTemplate.setSpawnPositionOffset 0/0/0
 ObjectTemplate.setSpawnPreventionDelay 0
 ObjectTemplate.setSpawnId 83
 ObjectTemplate.setGroup 65
-ObjectTemplate.setEnterOnSpawn 0
+ObjectTemplate.setEnterOnSpawn 1
 ObjectTemplate.setAIEnterOnSpawn 1
 ObjectTemplate.setSpawnAsParaTroper 0

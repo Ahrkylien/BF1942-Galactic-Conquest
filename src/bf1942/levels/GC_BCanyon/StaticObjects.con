@@ -1,1089 +1,1162 @@
+rem StaticObjects created by Battlecraft 1942
 rem
 rem ***  ***
 rem
 Object.create tat_snipertower
-Object.absolutePosition 1945.66/9.71767/207.016
-Object.Rotation -11.2/0/0
+Object.absolutePosition 1945.66/9.72/207.02
+Object.rotation -11.20/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create tat_medium
 Object.absolutePosition 1617.54/84.11/695.59
-Object.Rotation 90/0/0
+Object.rotation 90.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create windtower
 Object.absolutePosition 1829.98/6.77/145.92
-Object.Rotation 37/0/37
+Object.rotation 37.00/0.00/37.00
 rem
 rem ***  ***
 rem
 Object.create building9
 Object.absolutePosition 1582.67/84.32/687.23
-Object.Rotation 270/0/0
+Object.rotation 270.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create tat_medium
 Object.absolutePosition 1631.11/84.11/695.58
-Object.Rotation 0/0/0
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create tat_t16launch
-Object.absolutePosition 1590.34/83.94/666.8
-Object.Rotation -180/0/0
+Object.absolutePosition 1590.34/83.94/666.80
+Object.rotation -180.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create bridge1
 Object.absolutePosition 1431.98/120.25/978.16
-Object.Rotation -88/0/0
+Object.rotation -88.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create tat_grainsilo
 Object.absolutePosition 663.66/141.85/1576.69
-Object.Rotation -1/0/0
+Object.rotation -1.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create gcsupply
-Object.absolutePosition 644.01/142/1614.23
-Object.Rotation 0/0/0
+Object.absolutePosition 644.01/142.00/1614.23
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create tat_container
-Object.absolutePosition 660.6/141.87/1572.94
-Object.Rotation -91/0/0
+Object.absolutePosition 660.60/141.87/1572.94
+Object.rotation -91.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create tat_t16launch
 Object.absolutePosition 1435.74/119.95/907.45
-Object.Rotation 45/0/0
+Object.rotation 45.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create bridge1
 Object.absolutePosition 1430.85/120.18/940.55
-Object.Rotation -88/0/0
+Object.rotation -88.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create citywall3
-Object.absolutePosition 1425.2/117.65/996.9
-Object.Rotation 95/0/0
+Object.absolutePosition 1425.20/117.65/996.90
+Object.rotation 95.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create citywall3
 Object.absolutePosition 1416.17/117.65/999.01
-Object.Rotation 117/0/0
+Object.rotation 117.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create citywall3
 Object.absolutePosition 1439.74/117.65/997.81
-Object.Rotation 254/0/0
+Object.rotation 254.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create ammobox
 Object.absolutePosition 1437.13/120.33/1002.44
-Object.Rotation 0/0/0
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create evaporator
 Object.absolutePosition 1417.72/120.33/1000.41
-Object.Rotation 0/0/0
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create tat_small
 Object.absolutePosition 1435.76/120.08/1006.47
-Object.Rotation 87/0/0
+Object.rotation 87.00/0.00/0.00
 Object.geometry.scale 1.28/1.28/1.28
 rem
 rem ***  ***
 rem
 Object.create tat_medium
 Object.absolutePosition 1171.79/94.34/1034.87
-Object.Rotation 271/0/0
+Object.rotation 271.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create evaporator
-Object.absolutePosition 1173.45/94.62/1042.1
-Object.Rotation 105/0/0
+Object.absolutePosition 1173.45/94.62/1042.10
+Object.rotation 105.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create gcsupply
 Object.absolutePosition 1194.65/93.71/1073.98
-Object.Rotation 0/0/0
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create tat_snipertower
 Object.absolutePosition 1221.07/96.07/1030.34
-Object.Rotation 0/0/0
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create tat_jabba_enter
 Object.absolutePosition 1181.46/95.05/997.81
-Object.Rotation 0/0/0
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create evaporator
 Object.absolutePosition 1207.17/96.85/1025.97
-Object.Rotation 105/0/0
+Object.rotation 105.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create ammobox
-Object.absolutePosition 1170.58/94.67/1036.8
-Object.Rotation 0/0/0
+Object.absolutePosition 1170.58/94.67/1036.80
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create citywall2
 Object.absolutePosition 1517.25/83.16/1549.13
-Object.Rotation -184/0/0
+Object.rotation -184.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create citywall2
 Object.absolutePosition 1542.43/83.16/1544.57
-Object.Rotation 90/0/0
+Object.rotation 90.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create citywall2
 Object.absolutePosition 1532.37/83.16/1544.78
-Object.Rotation 90/0/0
+Object.rotation 90.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create citywall2
 Object.absolutePosition 1522.67/83.16/1544.92
-Object.Rotation 90/0/0
+Object.rotation 90.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create citywall2
 Object.absolutePosition 1516.87/83.16/1558.29
-Object.Rotation -181/0/0
+Object.rotation -181.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create citywall2
 Object.absolutePosition 1516.68/83.16/1568.27
-Object.Rotation -181/0/11
+Object.rotation -181.00/0.00/11.00
 rem
 rem ***  ***
 rem
 Object.create citywall2
 Object.absolutePosition 1516.73/83.16/1577.94
-Object.Rotation -181/0/0
+Object.rotation -181.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create citywall2
 Object.absolutePosition 1516.63/83.16/1586.94
-Object.Rotation -181/0/0
+Object.rotation -181.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create citywall2
 Object.absolutePosition 1516.35/83.16/1596.53
-Object.Rotation -181/0/0
+Object.rotation -181.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create citywall2
 Object.absolutePosition 1577.95/83.16/1545.92
-Object.Rotation -93/0/0
+Object.rotation -93.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create citywall2
 Object.absolutePosition 1587.79/83.16/1546.44
-Object.Rotation -93/0/0
+Object.rotation -93.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create citywall2
 Object.absolutePosition 1597.29/83.16/1546.96
-Object.Rotation -93/0/0
+Object.rotation -93.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create citywall2
 Object.absolutePosition 1606.99/83.16/1547.43
-Object.Rotation -93/0/0
+Object.rotation -93.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create citywall2
-Object.absolutePosition 1612.12/83.16/1551.6
-Object.Rotation -182/0/0
+Object.absolutePosition 1612.12/83.16/1551.60
+Object.rotation -182.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create citywall2
-Object.absolutePosition 1611.62/83.16/1561.1
-Object.Rotation -182/0/-3
+Object.absolutePosition 1611.62/83.16/1561.10
+Object.rotation -182.00/0.00/-3.00
 rem
 rem ***  ***
 rem
 Object.create citywall2
 Object.absolutePosition 1611.29/83.16/1570.45
-Object.Rotation -182/0/0
+Object.rotation -182.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create citywall2
 Object.absolutePosition 1610.83/83.16/1580.14
-Object.Rotation -182/0/5
+Object.rotation -182.00/0.00/5.00
 rem
 rem ***  ***
 rem
 Object.create citywall2
 Object.absolutePosition 1610.41/83.16/1589.68
-Object.Rotation -182/0/0
+Object.rotation -182.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create citywall2
 Object.absolutePosition 1610.03/83.16/1599.54
-Object.Rotation -182/0/6
+Object.rotation -182.00/0.00/6.00
 rem
 rem ***  ***
 rem
 Object.create citywall2
 Object.absolutePosition 1609.78/83.16/1609.41
-Object.Rotation -182/0/0
+Object.rotation -182.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create citywall2
-Object.absolutePosition 1546.3/83.16/1549.96
-Object.Rotation -4/0/0
+Object.absolutePosition 1546.30/83.16/1549.96
+Object.rotation -4.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create citywall2
 Object.absolutePosition 1545.83/83.16/1558.68
-Object.Rotation -4/0/0
+Object.rotation -4.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create citywall2
 Object.absolutePosition 1573.71/83.16/1550.44
-Object.Rotation -4/0/0
+Object.rotation -4.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create citywall2
 Object.absolutePosition 1573.04/83.16/1560.11
-Object.Rotation -4/0/0
+Object.rotation -4.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create citywall2
-Object.absolutePosition 1605.62/83.16/1614.8
-Object.Rotation -271/0/0
+Object.absolutePosition 1605.62/83.16/1614.80
+Object.rotation -271.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create citywall2
 Object.absolutePosition 1595.65/82.39/1614.39
-Object.Rotation -271/-2/68
+Object.rotation -271.00/-2.00/68.00
 rem
 rem ***  ***
 rem
 Object.create citywall2
 Object.absolutePosition 1586.36/83.16/1614.25
-Object.Rotation -271/0/0
+Object.rotation -271.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create citywall2
 Object.absolutePosition 1576.63/83.16/1614.03
-Object.Rotation -271/0/0
+Object.rotation -271.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create citywall2
-Object.absolutePosition 1567.3/82.72/1613.83
-Object.Rotation -271/0/0
+Object.absolutePosition 1567.30/82.72/1613.83
+Object.rotation -271.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create citywall2
 Object.absolutePosition 1557.89/82.49/1613.72
-Object.Rotation -271/0/-4
+Object.rotation -271.00/0.00/-4.00
 rem
 rem ***  ***
 rem
 Object.create citywall2
-Object.absolutePosition 1548.44/82.49/1613.6
-Object.Rotation -271/0/0
+Object.absolutePosition 1548.44/82.49/1613.60
+Object.rotation -271.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create citywall2
-Object.absolutePosition 1538.5/82.49/1613.47
-Object.Rotation -271/0/19
+Object.absolutePosition 1538.50/82.49/1613.47
+Object.rotation -271.00/0.00/19.00
 rem
 rem ***  ***
 rem
 Object.create citywall2
 Object.absolutePosition 1528.96/82.49/1613.36
-Object.Rotation -271/0/0
+Object.rotation -271.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create citywall2
 Object.absolutePosition 1519.64/82.49/1613.28
-Object.Rotation -271/0/3
+Object.rotation -271.00/0.00/3.00
 rem
 rem ***  ***
 rem
 Object.create citywall2
-Object.absolutePosition 1515.98/82.25/1609.5
-Object.Rotation -365/0/8
+Object.absolutePosition 1515.98/82.25/1609.50
+Object.rotation -365.00/0.00/8.00
 rem
 rem ***  ***
 rem
 Object.create citywall2
-Object.absolutePosition 1519.06/82.25/1601.7
-Object.Rotation -399/0/8
+Object.absolutePosition 1519.06/82.25/1601.70
+Object.rotation -399.00/0.00/8.00
 rem
 rem ***  ***
 rem
 Object.create tusken_hut1
 Object.absolutePosition 1535.54/83.43/1602.48
-Object.Rotation 6/0/0
+Object.rotation 6.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create tusken_hut1
 Object.absolutePosition 1545.48/83.43/1593.69
-Object.Rotation 71/0/0
+Object.rotation 71.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create tusken_hut1
-Object.absolutePosition 1539.07/83.43/1582.1
-Object.Rotation 148/0/0
+Object.absolutePosition 1539.07/83.43/1582.10
+Object.rotation 148.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create tusken_hut1
 Object.absolutePosition 1527.49/83.43/1588.06
-Object.Rotation -141/0/0
+Object.rotation -141.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create tusken_hut1
 Object.absolutePosition 1599.22/83.43/1603.13
-Object.Rotation 37/0/0
+Object.rotation 37.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create tusken_hut1
-Object.absolutePosition 1602.6/83.43/1590.63
-Object.Rotation 121/0/0
+Object.absolutePosition 1602.60/83.43/1590.63
+Object.rotation 121.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create tusken_hut1
 Object.absolutePosition 1587.76/83.43/1600.51
-Object.Rotation 320/0/0
+Object.rotation 320.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create tusken_hut1
 Object.absolutePosition 1592.19/83.43/1583.04
-Object.Rotation 187/0/0
+Object.rotation 187.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create tat_t16launch
-Object.absolutePosition 1572.8/83.21/1603.07
-Object.Rotation 180/0/0
+Object.absolutePosition 1572.80/83.21/1603.07
+Object.rotation 180.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create ammobox
-Object.absolutePosition 1599.3/83.37/1603.8
-Object.Rotation 0/0/0
+Object.absolutePosition 1599.30/83.37/1603.80
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create ammobox
 Object.absolutePosition 1544.55/83.37/1595.38
-Object.Rotation 0/0/0
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create building17
 Object.absolutePosition 655.37/140.42/1561.11
-Object.Rotation 0/0/0
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create building17
 Object.absolutePosition 615.06/140.42/1590.93
-Object.Rotation 0/0/0
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create citywall4
 Object.absolutePosition 622.74/139.62/1564.35
-Object.Rotation -64/0/0
+Object.rotation -64.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create citywall3
-Object.absolutePosition 617.1/139.68/1568.6
-Object.Rotation 144/0/0
+Object.absolutePosition 617.10/139.68/1568.60
+Object.rotation 144.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create citywall3
 Object.absolutePosition 611.57/140.19/1576.15
-Object.Rotation 144/0/0
+Object.rotation 144.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create citywall3
-Object.absolutePosition 607.74/140.19/1584.2
-Object.Rotation 175/0/0
+Object.absolutePosition 607.74/140.19/1584.20
+Object.rotation 175.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create citywall3
 Object.absolutePosition 614.02/140.19/1599.26
-Object.Rotation 175/0/0
+Object.rotation 175.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create citywall3
 Object.absolutePosition 616.11/140.19/1607.23
-Object.Rotation 228/0/0
+Object.rotation 228.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create citywall3
-Object.absolutePosition 622.8/140.19/1613.21
-Object.Rotation 228/0/0
+Object.absolutePosition 622.80/140.19/1613.21
+Object.rotation 228.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create citywall3
 Object.absolutePosition 630.55/140.19/1617.38
-Object.Rotation 262/0/0
+Object.rotation 262.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create citywall3
 Object.absolutePosition 648.51/140.19/1611.22
-Object.Rotation 315/0/0
+Object.rotation 315.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create citywall3
 Object.absolutePosition 655.07/140.19/1604.55
-Object.Rotation 322/0/0
+Object.rotation 322.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create citywall3
 Object.absolutePosition 662.01/140.19/1599.38
-Object.Rotation 280/0/0
+Object.rotation 280.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create citywall3
 Object.absolutePosition 668.18/140.19/1594.61
-Object.Rotation 345/0/0
+Object.rotation 345.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create citywall3
-Object.absolutePosition 670.7/140.19/1584.99
-Object.Rotation 345/0/0
+Object.absolutePosition 670.70/140.19/1584.99
+Object.rotation 345.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create citywall3
 Object.absolutePosition 669.54/138.48/1575.02
-Object.Rotation 390/14/1
+Object.rotation 390.00/14.00/1.00
 rem
 rem ***  ***
 rem
 Object.create citywall3
 Object.absolutePosition 665.35/140.19/1567.42
-Object.Rotation 390/0/0
+Object.rotation 390.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create citywall3
-Object.absolutePosition 632.2/139.62/1560.75
-Object.Rotation 276/0/0
+Object.absolutePosition 632.20/139.62/1560.75
+Object.rotation 276.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create citywall3
 Object.absolutePosition 641.99/139.92/1559.69
-Object.Rotation 276/0/0
+Object.rotation 276.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create ammobox
-Object.absolutePosition 633.75/142/1614.55
-Object.Rotation 0/0/0
+Object.absolutePosition 633.75/142.00/1614.55
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create medbed1
-Object.absolutePosition 630.36/142/1614.36
-Object.Rotation 0/0/0
+Object.absolutePosition 630.36/142.00/1614.36
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create tat_medium
-Object.absolutePosition 632.1/142/1612.83
-Object.Rotation -3/0/0
+Object.absolutePosition 632.10/142.00/1612.83
+Object.rotation -3.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create tat_t16launch
 Object.absolutePosition 1168.33/93.99/1059.51
-Object.Rotation 0/0/0
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create tent1
 Object.absolutePosition 617.35/141.21/1596.14
-Object.Rotation 0/0/0
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create tent1
 Object.absolutePosition 621.33/141.21/1591.01
-Object.Rotation 0/0/0
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create tent1
 Object.absolutePosition 614.73/141.21/1585.57
-Object.Rotation 0/0/0
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create tent1
 Object.absolutePosition 652.88/141.21/1566.28
-Object.Rotation 0/0/0
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create medunit
-Object.absolutePosition 1189.6/95.69/1008.63
-Object.Rotation 0/0/0
+Object.absolutePosition 1189.60/95.69/1008.63
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create building13
 Object.absolutePosition 1898.54/57.45/1705.59
-Object.Rotation 165/0/0
+Object.rotation 165.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create tat_t16launch
-Object.absolutePosition 1902.58/57.5/1679.61
-Object.Rotation -91/0/0
+Object.absolutePosition 1902.58/57.50/1679.61
+Object.rotation -91.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create evaporator
-Object.absolutePosition 1886.8/57.56/1719.33
-Object.Rotation 0/0/0
+Object.absolutePosition 1886.80/57.56/1719.33
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create evaporator
-Object.absolutePosition 1907.8/57.56/1606.6
-Object.Rotation 0/0/0
+Object.absolutePosition 1907.80/57.56/1606.60
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create talltower
 Object.absolutePosition 1980.02/59.89/1336.69
-Object.Rotation 30/0/-26
+Object.rotation 30.00/0.00/-26.00
 rem
 rem ***  ***
 rem
 Object.create building13
-Object.absolutePosition 141.46/39.8/1223.2
-Object.Rotation 21/0/0
+Object.absolutePosition 141.46/39.80/1223.20
+Object.rotation 21.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create tat_t16launch
 Object.absolutePosition 145.51/39.86/1197.22
-Object.Rotation -235/0/0
+Object.rotation -235.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create building12
 Object.absolutePosition 1240.37/73.57/1519.16
-Object.Rotation 0/0/0
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create tat_snipertower
 Object.absolutePosition 1253.67/74.92/1536.36
-Object.Rotation 0/0/-52
+Object.rotation 0.00/0.00/-52.00
 rem
 rem ***  ***
 rem
 Object.create ammobox
 Object.absolutePosition 1283.13/79.44/1614.68
-Object.Rotation 0/0/0
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create starport
-Object.absolutePosition 1247.74/74.71/1595.3
-Object.Rotation 100/0/0
+Object.absolutePosition 1247.74/74.71/1595.30
+Object.rotation 100.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create mediscanner
 Object.absolutePosition 1289.27/78.27/1612.28
-Object.Rotation 7/0/0
+Object.rotation 7.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create static_runner
-Object.absolutePosition 1918.8/21.37/126.73
-Object.Rotation -10/8/-14
+Object.absolutePosition 1918.80/21.37/126.73
+Object.rotation -10.00/8.00/-14.00
 rem
 rem ***  ***
 rem
 Object.create tat_container
-Object.absolutePosition 1949.64/9.10608/197.733
-Object.Rotation 0/0/0
+Object.absolutePosition 1949.64/9.11/197.73
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create tat_medium
-Object.absolutePosition 1877.2/12.9965/117.466
-Object.Rotation -56/-17/-5
+Object.absolutePosition 1877.20/13.00/117.47
+Object.rotation -56.00/-17.00/-5.00
 rem
 rem ***  ***
 rem
 Object.create tat_medium
-Object.absolutePosition 1953.26/9.814/193.833
-Object.Rotation 0/0/0
+Object.absolutePosition 1953.26/9.81/193.83
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create tat_t16launch
 Object.absolutePosition 1926.89/9.83/217.36
-Object.Rotation -75/0/0
+Object.rotation -75.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create e_scrapmetalsmoke
-Object.absolutePosition 1931.51/20.3396/104.418
-Object.Rotation 0/0/0
+Object.absolutePosition 1931.51/20.34/104.42
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create e_scrapmetalsmoke
-Object.absolutePosition 1934.4/29.61/130.51
-Object.Rotation 0/0/0
+Object.absolutePosition 1934.40/29.61/130.51
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create windtower
 Object.absolutePosition 885.93/40.89/515.16
-Object.Rotation 95/0/0
+Object.rotation 95.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create bc_stairs
 Object.absolutePosition 1449.17/53.72/944.52
-Object.Rotation -185/0/0
+Object.rotation -185.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create bc_stairs
 Object.absolutePosition 1452.09/61.53/933.95
-Object.Rotation -264/0/0
+Object.rotation -264.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create bc_stairs
-Object.absolutePosition 1463.3/69.32/934.15
-Object.Rotation -638/0/0
+Object.absolutePosition 1463.30/69.32/934.15
+Object.rotation -638.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create bc_stairs
 Object.absolutePosition 1474.09/77.12/935.57
-Object.Rotation -631/0/0
+Object.rotation -631.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create bc_stairs
 Object.absolutePosition 1484.89/85.11/934.58
-Object.Rotation -491/0/0
+Object.rotation -491.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create bc_stairs
-Object.absolutePosition 1476.5/92.92/927.3
-Object.Rotation -491/0/0
+Object.absolutePosition 1476.50/92.92/927.30
+Object.rotation -491.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create bc_stairs
-Object.absolutePosition 1468.3/100.71/920.04
-Object.Rotation -470/0/0
+Object.absolutePosition 1468.30/100.71/920.04
+Object.rotation -470.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create bc_stairs
 Object.absolutePosition 1458.07/108.55/916.36
-Object.Rotation -435/0/0
+Object.rotation -435.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create bc_stairs
-Object.absolutePosition 1902.5/19.03/1563.48
-Object.Rotation 0/0/0
+Object.absolutePosition 1902.50/19.03/1563.48
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create bc_stairs
 Object.absolutePosition 1901.07/26.91/1574.09
-Object.Rotation -47/0/0
+Object.rotation -47.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create bc_stairs
 Object.absolutePosition 1892.09/34.74/1580.77
-Object.Rotation -47/0/0
+Object.rotation -47.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create bc_stairs
 Object.absolutePosition 1884.19/42.79/1588.19
-Object.Rotation -15/0/0
+Object.rotation -15.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create bc_stairs
 Object.absolutePosition 1879.97/49.98/1598.35
-Object.Rotation -1/0/0
+Object.rotation -1.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create bc_stairs
 Object.absolutePosition 1564.29/84.27/678.05
-Object.Rotation 270/0/0
+Object.rotation 270.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create bc_stairs
-Object.absolutePosition 1553.65/92/676.43
-Object.Rotation 209.36/0/0
+Object.absolutePosition 1553.65/92.00/676.43
+Object.rotation 209.36/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create bc_stairs
-Object.absolutePosition 1548.38/99.8/666.86
-Object.Rotation -133.76/0/0
+Object.absolutePosition 1548.38/99.80/666.86
+Object.rotation -133.76/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create bc_stairs
-Object.absolutePosition 1540.5/107.69/659.4
-Object.Rotation 264.04/0/0
+Object.absolutePosition 1540.50/107.69/659.40
+Object.rotation 264.04/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create bc_stairs
 Object.absolutePosition 1250.48/90.04/1651.09
-Object.Rotation -76/-8/-49
+Object.rotation -76.00/-8.00/-49.00
 rem
 rem ***  ***
 rem
 Object.create e_scrapmetalsmoke
-Object.absolutePosition 1915.21/15.059/203.883
-Object.Rotation 0/0/0
+Object.absolutePosition 1915.21/15.06/203.88
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create e_scrapmetalsmoke
-Object.absolutePosition 1879.07/15.1125/121.673
-Object.Rotation 129/0/0
+Object.absolutePosition 1879.07/15.11/121.67
+Object.rotation 129.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create e_scrapmetalsmoke
-Object.absolutePosition 1901.78/28.4506/136.031
-Object.Rotation 0/0/0
+Object.absolutePosition 1901.78/28.45/136.03
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create tent1
 Object.absolutePosition 1621.54/84.12/705.04
-Object.Rotation 90/0/0
+Object.rotation 90.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create gcsupply
 Object.absolutePosition 1644.53/84.11/695.88
-Object.Rotation 0/0/0
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create gcsupply
 Object.absolutePosition 1644.27/84.12/709.29
-Object.Rotation 0/0/0
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create tat_medium
-Object.absolutePosition 1608.6/84.12/703.41
-Object.Rotation 0/0/0
+Object.absolutePosition 1608.60/84.12/703.41
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create building12
 Object.absolutePosition 1586.11/84.08/706.92
-Object.Rotation -363.59/0/0
+Object.rotation -363.59/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create building13
 Object.absolutePosition 1611.88/84.11/663.42
-Object.Rotation 270/0/0
+Object.rotation 270.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create citywall2
 Object.absolutePosition 1622.02/81.45/675.18
-Object.Rotation 0/0/0
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create citywall2
-Object.absolutePosition 1602.17/81.45/674.9
-Object.Rotation 0/0/0
+Object.absolutePosition 1602.17/81.45/674.90
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create citywall2
 Object.absolutePosition 1616.97/81.45/679.52
-Object.Rotation 270/0/0
+Object.rotation 270.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create wreck_landspeeder_static
 Object.absolutePosition 1615.65/83.55/676.46
-Object.Rotation 88.79/0.82/-17.48
+Object.rotation 88.79/0.82/-17.48
 rem
 rem ***  ***
 rem
 Object.create wreck_landspeeder_static2
-Object.absolutePosition 1614.68/83.31/675.8
-Object.Rotation 109.76/0/0
+Object.absolutePosition 1614.68/83.31/675.80
+Object.rotation 109.76/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create wreck_landspeeder_static
 Object.absolutePosition 1608.05/83.77/677.61
-Object.Rotation -194.9/0/-2.73
+Object.rotation -194.90/0.00/-2.73
 rem
 rem ***  ***
 rem
 Object.create wreck_falcon_static2
 Object.absolutePosition 1618.39/84.84/673.35
-Object.Rotation -68.39/-35.14/-96.81
+Object.rotation -68.39/-35.14/-96.81
 rem
 rem ***  ***
 rem
 Object.create building17
 Object.absolutePosition 1640.06/84.09/668.84
-Object.Rotation 0/0/0
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create ammobox
 Object.absolutePosition 1612.55/83.99/671.63
-Object.Rotation 0/0/0
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create tent1
 Object.absolutePosition 1649.17/84.05/669.11
-Object.Rotation 0/0/0
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create tat_medium
-Object.absolutePosition 1405.27/118.8/803.47
-Object.Rotation -88.05/0/0
+Object.absolutePosition 1405.27/118.80/803.47
+Object.rotation -88.05/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create medunit
 Object.absolutePosition 1405.14/118.94/803.42
-Object.Rotation 0/0/0
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create tat_grainsilo
 Object.absolutePosition 1405.03/119.24/792.55
-Object.Rotation 0/0/0
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create building17
-Object.absolutePosition 1595.87/83.4/1559.02
-Object.Rotation 0/0/0
+Object.absolutePosition 1595.87/83.40/1559.02
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create building17
 Object.absolutePosition 1533.38/83.43/1559.47
-Object.Rotation 0/0/0
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create ladder_7m_m1
 Object.absolutePosition 1532.19/88.56/1566.63
-Object.Rotation 180/3.48/0
+Object.rotation 180.00/3.48/0.00
 rem
 rem ***  ***
 rem
 Object.create ladder_7m_m1
 Object.absolutePosition 1594.66/88.61/1566.17
-Object.Rotation 180/3/0
+Object.rotation 180.00/3.00/0.00
 rem
 rem ***  ***
 rem
 Object.create tent1
-Object.absolutePosition 1579.57/83.4/1558.59
-Object.Rotation 0/0/0
+Object.absolutePosition 1579.57/83.40/1558.59
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create medunit
-Object.absolutePosition 1587.94/84.143/710.577
-Object.Rotation 0/0/0
+Object.absolutePosition 1587.94/84.14/710.58
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create bridge1
-Object.absolutePosition 1511.16/147.848/790.603
-Object.Rotation 270/0/0
+Object.absolutePosition 1511.16/147.85/790.60
+Object.rotation 270.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create bridge1
-Object.absolutePosition 1408.76/151.303/863.76
-Object.Rotation 0/0/0
-Object.geometry.scale 1.1/1/1
+Object.absolutePosition 1408.76/151.30/863.76
+Object.rotation 0.00/0.00/0.00
+Object.geometry.scale 1.10/1.00/1.00
 rem
 rem ***  ***
 rem
 Object.create bc_stairs
-Object.absolutePosition 1296.61/52.2743/991.435
-Object.Rotation 270/0/0
+Object.absolutePosition 1296.61/52.27/991.43
+Object.rotation 270.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create bc_stairs
-Object.absolutePosition 1286.15/60.2314/991.318
-Object.Rotation 180/0/0
+Object.absolutePosition 1286.15/60.23/991.32
+Object.rotation 180.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create bc_stairs
-Object.absolutePosition 1288.09/67.9845/980.614
-Object.Rotation 90/0/0
+Object.absolutePosition 1288.09/67.98/980.61
+Object.rotation 90.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create bc_stairs
-Object.absolutePosition 1298.7/75.7184/979.978
-Object.Rotation 180/0/0
-Object.geometry.scale 1/1/1.1
+Object.absolutePosition 1298.70/75.72/979.98
+Object.rotation 180.00/0.00/0.00
+Object.geometry.scale 1.00/1.00/1.10
 rem
 rem ***  ***
 rem
 Object.create windtower3
-Object.absolutePosition 1186.6/153/835.523
-Object.Rotation 0/0/0
+Object.absolutePosition 1186.60/153.00/835.52
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create windtower3
-Object.absolutePosition 1187.35/153/795.193
-Object.Rotation 0/0/0
+Object.absolutePosition 1187.35/153.00/795.19
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create windtower3
-Object.absolutePosition 1183.1/153/756.264
-Object.Rotation 0/0/0
+Object.absolutePosition 1183.10/153.00/756.26
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create windtower2
-Object.absolutePosition 1148.86/153/758.149
-Object.Rotation 0/0/0
+Object.absolutePosition 1148.86/153.00/758.15
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create windtower2
-Object.absolutePosition 1140.57/153/813.856
-Object.Rotation 0/0/0
+Object.absolutePosition 1140.57/153.00/813.86
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create windtower
-Object.absolutePosition 1224.1/153/796.126
-Object.Rotation 0/0/0
+Object.absolutePosition 1224.10/153.00/796.13
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create tat_medium
-Object.absolutePosition 1423.58/120.178/918.161
-Object.Rotation 270/0/0
+Object.absolutePosition 1423.58/120.18/918.16
+Object.rotation 270.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create ammobox
-Object.absolutePosition 1592.89/84.143/681.458
-Object.Rotation 270/0/0
+Object.absolutePosition 1592.89/84.14/681.46
+Object.rotation 270.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create medunit
-Object.absolutePosition 1424.9/120.276/920.465
-Object.Rotation 0/0/0
+Object.absolutePosition 1424.90/120.28/920.47
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create alarm1
+Object.absolutePosition 1921.81/28.28/103.15
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create alarm1
+Object.absolutePosition 1905.93/12.55/197.71
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create buildingsmokeidledark
+Object.absolutePosition 1933.03/18.97/152.50
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create buildingsmokeidledark
+Object.absolutePosition 1907.27/14.26/196.29
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create buildingsmokeidledark
+Object.absolutePosition 1904.63/19.31/203.68
+Object.rotation -150.92/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create buildingsmokeidledark
+Object.absolutePosition 1922.86/24.20/103.19
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create buildingsmokeidledark
+Object.absolutePosition 1910.29/19.09/203.06
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create buildingsmokeidledark
+Object.absolutePosition 1934.07/13.94/145.88
+Object.rotation -143.35/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create alarm1
+Object.absolutePosition 1913.17/20.21/157.57
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create buildingsmokeidledark
+Object.absolutePosition 1935.26/20.24/140.95
+Object.rotation 89.35/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create buildingsmokeidledark
+Object.absolutePosition 1907.91/22.62/197.98
+Object.rotation -73.95/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create buildingsmokeidledark
+Object.absolutePosition 1920.29/15.39/168.28
+Object.rotation 0.00/0.00/0.00

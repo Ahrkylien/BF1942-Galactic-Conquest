@@ -1,0 +1,5 @@
+rem *** alarm1 ***
+ObjectTemplate.create SimpleObject alarm1
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.triggerRadius 100
+ObjectTemplate.loadSoundScript alarm1.ssc

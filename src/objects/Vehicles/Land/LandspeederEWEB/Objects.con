@@ -13,7 +13,7 @@ ObjectTemplate.drag 1.49
 ObjectTemplate.GravityModifier CRD_NONE/2.5/0/0 
 ObjectTemplate.dragOffset 0/-1/2
 ObjectTemplate.mass 3000
-ObjectTemplate.inertiaModifier 2/4/2
+ObjectTemplate.inertiaModifier 2/1/2
 ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.hasResponsePhysics 1
 ObjectTemplate.hasArmor 1
@@ -37,7 +37,7 @@ ObjectTemplate.aiTemplate Willy
 rem -------------------------------------
 ObjectTemplate.addTemplate lodLandspeederEWEB
 rem -------------------------------------
-ObjectTemplate.setSoldierExitLocation -2.7/0/0 0/0/0
+ObjectTemplate.setSoldierExitLocation 2.7/0/0 0/0/0
 ObjectTemplate.setVehicleIcon "Vehicle/Icon_landspeeder.dds"
 ObjectTemplate.setVehicleIconPos 60/55
 ObjectTemplate.setPrimaryAmmoBar ABNone
@@ -104,11 +104,11 @@ ObjectTemplate.setPosition 0/-0.3524/-1.1
 ObjectTemplate.addTemplate LandspeederEWEBRotation
 ObjectTemplate.setPosition 0/0/0
 rem -------------------------------------
-ObjectTemplate.setSoldierExitLocation 2.7/0/0 0/0/0
+ObjectTemplate.setSoldierExitLocation -2.7/0/0 0/0/0
 ObjectTemplate.setVehicleIcon "Vehicle/Icon_landspeeder.dds"
 ObjectTemplate.setVehicleIconPos 73/61
 ObjectTemplate.setPrimaryAmmoBar ABNone
-ObjectTemplate.setCrossHairType CHTNone
+ObjectTemplate.setCrossHairType CHTIcon
 ObjectTemplate.setVehicleCategory VCLand
 ObjectTemplate.setVehicleType  VTScoutCar
 ObjectTemplate.setMinimapIcon "Minimap/minimap_icon_landspeeder_16x16.dds"
@@ -116,10 +116,10 @@ ObjectTemplate.setMinimapIcon "Minimap/minimap_icon_landspeeder_16x16.dds"
 rem *** LandspeederEWEBRotation ***
 ObjectTemplate.create RotationalBundle LandspeederEWEBRotation
 ObjectTemplate.networkableInfo eweb_TurretInfo
+ObjectTemplate.geometry Eweb_cannon_m1
 rem -------------------------------------
-ObjectTemplate.addTemplate EwebCamera
+ObjectTemplate.addTemplate Eweb_Camera
 ObjectTemplate.setPosition 0/0.4/-0.5
-ObjectTemplate.addTemplate EwebGunbarrel
 ObjectTemplate.addTemplate ewebweaponfire
 ObjectTemplate.setPosition 0/0/1.06
 ObjectTemplate.addTemplate ewebhanddummy

@@ -1,28 +1,37 @@
+rem ControlPointTemplates.con created by Battlecraft 1942
+rem (\Program Files\Battlefield 1942\Mods\GCMOD\bf1942\levels\GC_Hoth/conquest/ControlPointTemplates.con)
+
 NetworkableInfo.createNewInfo ControlPointInfo
 NetworkableInfo.setPredictionMode PMNone
 NetworkableInfo.setBasePriority c_NIGhostAlways
 
+rem ----------------------------------------- 
+rem ---  echobasecp  ---
+rem ----------------------------------------- 
 ObjectTemplate.create ControlPoint echobasecp
 ObjectTemplate.networkableInfo ControlPointInfo
 ObjectTemplate.setControlPointName Echobase
-ObjectTemplate.radius 17
+ObjectTemplate.radius 10
 ObjectTemplate.team 2
 ObjectTemplate.spawnGroupId 2
 ObjectTemplate.objectSpawnerId 2
+ObjectTemplate.areaValue 50
 ObjectTemplate.timeToGetControl 20
 ObjectTemplate.timeToLoseControl 20
-ObjectTemplate.geometry flagbase_m1
-ObjectTemplate.areaValue 50
 ObjectTemplate.disableIfEnemyInsideRadius 0
 ObjectTemplate.disableWhenLosingControl 0
 ObjectTemplate.loseControlWhenEnemyClose 1
 ObjectTemplate.loseControlWhenNotClose 0
+ObjectTemplate.geometry flagbase_m1
 ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.addTemplate AnimatedFlag
-ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.setPosition 0.000000/0.000000/0.000000
 ObjectTemplate.setTeamGeometry 1 flagge_m1
 ObjectTemplate.setTeamGeometry 2 flagus_m1
 
+rem ----------------------------------------- 
+rem ---  secondlinetrench  ---
+rem ----------------------------------------- 
 ObjectTemplate.create ControlPoint secondlinetrench
 ObjectTemplate.networkableInfo ControlPointInfo
 ObjectTemplate.setControlPointName Trench_Defence
@@ -30,20 +39,23 @@ ObjectTemplate.radius 17
 ObjectTemplate.team 2
 ObjectTemplate.spawnGroupId 4
 ObjectTemplate.objectSpawnerId 4
+ObjectTemplate.areaValue 30
 ObjectTemplate.timeToGetControl 10
 ObjectTemplate.timeToLoseControl 10
-ObjectTemplate.geometry flagbase_m1
-ObjectTemplate.areaValue 30
 ObjectTemplate.disableIfEnemyInsideRadius 0
 ObjectTemplate.disableWhenLosingControl 0
 ObjectTemplate.loseControlWhenEnemyClose 1
 ObjectTemplate.loseControlWhenNotClose 0
+ObjectTemplate.geometry flagbase_m1
 ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.addTemplate AnimatedFlag
-ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.setPosition 0.000000/0.000000/0.000000
 ObjectTemplate.setTeamGeometry 1 flagge_m1
 ObjectTemplate.setTeamGeometry 2 flagus_m1
 
+rem ----------------------------------------- 
+rem ---  firstlinetrench  ---
+rem ----------------------------------------- 
 ObjectTemplate.create ControlPoint firstlinetrench
 ObjectTemplate.networkableInfo ControlPointInfo
 ObjectTemplate.setControlPointName Fallen_Walker
@@ -51,20 +63,23 @@ ObjectTemplate.radius 30
 ObjectTemplate.team 0
 ObjectTemplate.spawnGroupId 3
 ObjectTemplate.objectSpawnerId 3
+ObjectTemplate.areaValue 20
 ObjectTemplate.timeToGetControl 10
 ObjectTemplate.timeToLoseControl 10
-ObjectTemplate.geometry flagbase_m1
-ObjectTemplate.areaValue 20
 ObjectTemplate.disableIfEnemyInsideRadius 0
 ObjectTemplate.disableWhenLosingControl 0
 ObjectTemplate.loseControlWhenEnemyClose 1
 ObjectTemplate.loseControlWhenNotClose 0
+ObjectTemplate.geometry flagbase_m1
 ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.addTemplate AnimatedFlag
-ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.setPosition 0.000000/0.000000/0.000000
 ObjectTemplate.setTeamGeometry 1 flagge_m1
 ObjectTemplate.setTeamGeometry 2 flagus_m1
 
+rem ----------------------------------------- 
+rem ---  imperialspawn  ---
+rem ----------------------------------------- 
 ObjectTemplate.create ControlPoint imperialspawn
 ObjectTemplate.networkableInfo ControlPointInfo
 ObjectTemplate.setControlPointName Imperial_Spawn
@@ -72,21 +87,24 @@ ObjectTemplate.radius 50
 ObjectTemplate.team 1
 ObjectTemplate.spawnGroupId 1
 ObjectTemplate.objectSpawnerId 1
+ObjectTemplate.areaValue 50
 ObjectTemplate.timeToGetControl 99999999
 ObjectTemplate.timeToLoseControl 999999999
-ObjectTemplate.unableToChangeTeam 1
-ObjectTemplate.geometry flagbase_m1
-ObjectTemplate.areaValue 50
 ObjectTemplate.disableIfEnemyInsideRadius 0
 ObjectTemplate.disableWhenLosingControl 0
 ObjectTemplate.loseControlWhenEnemyClose 1
 ObjectTemplate.loseControlWhenNotClose 0
+ObjectTemplate.unableToChangeTeam 1
+ObjectTemplate.geometry flagbase_m1
 ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.addTemplate AnimatedFlag
-ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.setPosition 0.000000/0.000000/0.000000
 ObjectTemplate.setTeamGeometry 1 flagge_m1
 ObjectTemplate.setTeamGeometry 2 flagus_m1
 
+rem ----------------------------------------- 
+rem ---  shieldgeneratorcp  ---
+rem ----------------------------------------- 
 ObjectTemplate.create ControlPoint shieldgeneratorcp
 ObjectTemplate.networkableInfo ControlPointInfo
 ObjectTemplate.setControlPointName Shield_Generator
@@ -94,17 +112,18 @@ ObjectTemplate.radius 29
 ObjectTemplate.team 2
 ObjectTemplate.spawnGroupId 6
 ObjectTemplate.objectSpawnerId 6
+ObjectTemplate.areaValue 20
 ObjectTemplate.timeToGetControl 10
 ObjectTemplate.timeToLoseControl 10
-ObjectTemplate.geometry flagbase_m1
-ObjectTemplate.areaValue 20
 ObjectTemplate.disableIfEnemyInsideRadius 0
 ObjectTemplate.disableWhenLosingControl 0
 ObjectTemplate.loseControlWhenEnemyClose 1
 ObjectTemplate.loseControlWhenNotClose 0
+ObjectTemplate.geometry flagbase_m1
 ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.addTemplate AnimatedFlag
-ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.setPosition 0.000000/0.000000/0.000000
 ObjectTemplate.setTeamGeometry 1 flagge_m1
 ObjectTemplate.setTeamGeometry 2 flagus_m1
 
+rem EndOfFile

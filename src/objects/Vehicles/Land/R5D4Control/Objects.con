@@ -53,7 +53,7 @@ ObjectTemplate.hasResponsePhysics 1
 rem -------------------------------------
 ObjectTemplate.addTemplate R5D4ControlComplex
 ObjectTemplate.addTemplate R5D4ControlComplex
-ObjectTemplate.addTemplate R5D4ControlWreck
+rem ObjectTemplate.addTemplate R5D4ControlWreck
 rem -------------------------------------
 ObjectTemplate.lodSelector R5D4ControlLodSelector
 
@@ -88,6 +88,6 @@ ObjectTemplate.geometry R5D4Control_Wreck_m1
 
 rem *** R5D4ControlLodSelector ***
 LodSelectorTemplate.create DistCompareSelector2 R5D4ControlLodSelector
-LodSelectorTemplate.hasDestroyedLod 1
+LodSelectorTemplate.hasDestroyedLod 0
 LodSelectorTemplate.addLodDistance 400
 

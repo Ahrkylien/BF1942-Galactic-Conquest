@@ -53,7 +53,7 @@ ObjectTemplate.hasResponsePhysics 1
 rem -------------------------------------
 ObjectTemplate.addTemplate R5D4ControlComplexImperial
 ObjectTemplate.addTemplate R5D4ControlComplexImperial
-ObjectTemplate.addTemplate R5D4ControlWreck
+rem ObjectTemplate.addTemplate R5D4ControlWreck
 rem -------------------------------------
 ObjectTemplate.lodSelector R5D4ControlLodSelectorImperial
 
@@ -74,6 +74,6 @@ rem -------------------------------------
 
 rem *** R5D4ControlLodSelectorImperial ***
 LodSelectorTemplate.create DistCompareSelector2 R5D4ControlLodSelectorImperial
-LodSelectorTemplate.hasDestroyedLod 1
+LodSelectorTemplate.hasDestroyedLod 0
 LodSelectorTemplate.addLodDistance 400
 

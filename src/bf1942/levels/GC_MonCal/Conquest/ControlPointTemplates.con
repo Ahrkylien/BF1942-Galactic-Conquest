@@ -1,109 +1,128 @@
+rem ControlPointTemplates.con created by Battlecraft 1942
+rem (\Program Files\Battlefield 1942\Mods\GCMOD\bf1942\levels\GC_MonCal/conquest/ControlPointTemplates.con)
+
 NetworkableInfo.createNewInfo ControlPointInfo
 NetworkableInfo.setPredictionMode PMNone
 NetworkableInfo.setBasePriority c_NIGhostAlways
 
-ObjectTemplate.create ControlPoint impstarttemplate
+rem ----------------------------------------- 
+rem ---  Imperial_Forward_Command  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ControlPoint Imperial_Forward_Command
 ObjectTemplate.networkableInfo ControlPointInfo
 ObjectTemplate.setControlPointName Imperial_Forward_Command
 ObjectTemplate.radius 7
 ObjectTemplate.team 1
 ObjectTemplate.spawnGroupId 1
 ObjectTemplate.objectSpawnerId 1
+ObjectTemplate.areaValue 30
 ObjectTemplate.timeToGetControl 10
 ObjectTemplate.timeToLoseControl 10
-ObjectTemplate.geometry flagbase_m1
-ObjectTemplate.hasCollisionPhysics 1
-ObjectTemplate.areaValue 30
 ObjectTemplate.disableIfEnemyInsideRadius 0
 ObjectTemplate.disableWhenLosingControl 0
 ObjectTemplate.loseControlWhenEnemyClose 1
 ObjectTemplate.loseControlWhenNotClose 0
+ObjectTemplate.geometry flagbase_m1
+ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.addTemplate AnimatedFlag
-ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.setPosition 0.000000/0.000000/0.000000
 ObjectTemplate.setTeamGeometry 1 flagge_m1
 ObjectTemplate.setTeamGeometry 2 flagus_m1
 
-ObjectTemplate.create ControlPoint city_access_4template
+rem ----------------------------------------- 
+rem ---  Southern_Habitat  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ControlPoint Southern_Habitat
 ObjectTemplate.networkableInfo ControlPointInfo
-ObjectTemplate.setControlPointName City_Access_4
+ObjectTemplate.setControlPointName Southern_Habitat
 ObjectTemplate.radius 17
 ObjectTemplate.team 2
 ObjectTemplate.spawnGroupId 5
 ObjectTemplate.objectSpawnerId 5
+ObjectTemplate.areaValue 30
 ObjectTemplate.timeToGetControl 10
 ObjectTemplate.timeToLoseControl 10
-ObjectTemplate.geometry flagbase_m1
-ObjectTemplate.hasCollisionPhysics 1
-ObjectTemplate.areaValue 30
 ObjectTemplate.disableIfEnemyInsideRadius 0
 ObjectTemplate.disableWhenLosingControl 0
 ObjectTemplate.loseControlWhenEnemyClose 1
 ObjectTemplate.loseControlWhenNotClose 0
+ObjectTemplate.geometry flagbase_m1
+ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.addTemplate AnimatedFlag
-ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.setPosition 0.000000/0.000000/0.000000
 ObjectTemplate.setTeamGeometry 1 flagge_m1
 ObjectTemplate.setTeamGeometry 2 flagus_m1
 
-ObjectTemplate.create ControlPoint city_access_3template
+rem ----------------------------------------- 
+rem ---  Southern_Pump_Station  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ControlPoint Southern_Pump_Station
 ObjectTemplate.networkableInfo ControlPointInfo
-ObjectTemplate.setControlPointName City_Access_3
+ObjectTemplate.setControlPointName Southern_Pump_Station
 ObjectTemplate.radius 11
 ObjectTemplate.team 2
 ObjectTemplate.spawnGroupId 4
 ObjectTemplate.objectSpawnerId 4
+ObjectTemplate.areaValue 30
 ObjectTemplate.timeToGetControl 10
 ObjectTemplate.timeToLoseControl 10
-ObjectTemplate.geometry flagbase_m1
-ObjectTemplate.hasCollisionPhysics 1
-ObjectTemplate.areaValue 30
 ObjectTemplate.disableIfEnemyInsideRadius 0
 ObjectTemplate.disableWhenLosingControl 0
 ObjectTemplate.loseControlWhenEnemyClose 1
 ObjectTemplate.loseControlWhenNotClose 0
+ObjectTemplate.geometry flagbase_m1
+ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.addTemplate AnimatedFlag
-ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.setPosition 0.000000/0.000000/0.000000
 ObjectTemplate.setTeamGeometry 1 flagge_m1
 ObjectTemplate.setTeamGeometry 2 flagus_m1
 
-ObjectTemplate.create ControlPoint city_access_2template
+rem ----------------------------------------- 
+rem ---  City_Pump_Station  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ControlPoint City_Pump_Station
 ObjectTemplate.networkableInfo ControlPointInfo
-ObjectTemplate.setControlPointName City_Access_2
+ObjectTemplate.setControlPointName City_Pump_Station
 ObjectTemplate.radius 9
 ObjectTemplate.team 2
 ObjectTemplate.spawnGroupId 3
 ObjectTemplate.objectSpawnerId 3
+ObjectTemplate.areaValue 30
 ObjectTemplate.timeToGetControl 10
 ObjectTemplate.timeToLoseControl 10
-ObjectTemplate.geometry flagbase_m1
-ObjectTemplate.hasCollisionPhysics 1
-ObjectTemplate.areaValue 30
 ObjectTemplate.disableIfEnemyInsideRadius 0
 ObjectTemplate.disableWhenLosingControl 0
 ObjectTemplate.loseControlWhenEnemyClose 1
 ObjectTemplate.loseControlWhenNotClose 0
+ObjectTemplate.geometry flagbase_m1
+ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.addTemplate AnimatedFlag
-ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.setPosition 0.000000/0.000000/0.000000
 ObjectTemplate.setTeamGeometry 1 flagge_m1
 ObjectTemplate.setTeamGeometry 2 flagus_m1
 
-ObjectTemplate.create ControlPoint city_access_1template
+rem ----------------------------------------- 
+rem ---  City_Dock  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ControlPoint City_Dock
 ObjectTemplate.networkableInfo ControlPointInfo
-ObjectTemplate.setControlPointName City_Access_1
+ObjectTemplate.setControlPointName City_Dock
 ObjectTemplate.radius 8
 ObjectTemplate.team 2
 ObjectTemplate.spawnGroupId 2
 ObjectTemplate.objectSpawnerId 2
+ObjectTemplate.areaValue 30
 ObjectTemplate.timeToGetControl 10
 ObjectTemplate.timeToLoseControl 10
-ObjectTemplate.geometry flagbase_m1
-ObjectTemplate.hasCollisionPhysics 1
-ObjectTemplate.areaValue 30
 ObjectTemplate.disableIfEnemyInsideRadius 0
 ObjectTemplate.disableWhenLosingControl 0
 ObjectTemplate.loseControlWhenEnemyClose 1
 ObjectTemplate.loseControlWhenNotClose 0
+ObjectTemplate.geometry flagbase_m1
+ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.addTemplate AnimatedFlag
-ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.setPosition 0.000000/0.000000/0.000000
 ObjectTemplate.setTeamGeometry 1 flagge_m1
 ObjectTemplate.setTeamGeometry 2 flagus_m1
 
+rem EndOfFile

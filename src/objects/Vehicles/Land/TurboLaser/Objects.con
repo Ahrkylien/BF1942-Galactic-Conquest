@@ -12,7 +12,7 @@ ObjectTemplate.criticalDamage 9
 ObjectTemplate.geometry DefGun_thing_M1
 ObjectTemplate.hpLostWhileCriticalDamage 0.9
 rem ObjectTemplate.addArmorEffect 9 e_Wreck1Smoke 0/2/0
-ObjectTemplate.addArmorEffect 0 e_scrapmetal_awing 0/2/0
+rem ObjectTemplate.addArmorEffect 0 e_scrapmetal_awing 0/2/0
 ObjectTemplate.addArmorEffect 0 e_ExplGas 0/10/0
 ObjectTemplate.aiTemplate apturret
 ObjectTemplate.timetoliveafterdeath 5
@@ -36,8 +36,6 @@ ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.hasResponsePhysics 1
 rem -------------------------------------
 ObjectTemplate.addTemplate TurboLaserComplex
-ObjectTemplate.addTemplate TurboLaserWreck
-ObjectTemplate.setPosition 0/2/0
 rem -------------------------------------
 ObjectTemplate.lodSelector lodTurboLaserSelector
 
@@ -115,7 +113,7 @@ ObjectTemplate.geometry Wreck_none
 
 rem *** lodTurboLaserSelector ***
 LodSelectorTemplate.create DistCompareSelector2 lodTurboLaserSelector
-LodSelectorTemplate.hasDestroyedLod 1
+LodSelectorTemplate.hasDestroyedLod 0
 
 
 rem *** TurboLaser2 ***

@@ -134,11 +134,11 @@ ObjectTemplate.setPosition 0/4.05/-4.331
 ObjectTemplate.addTemplate ImpartDoor
 ObjectTemplate.setPosition 1.362/0.227/-0.274
 ObjectTemplate.setRotation 0/0/0
-ObjectTemplate.addTemplate ImpartCamera
+ObjectTemplate.addTemplate ImpartGunnerCamera
 ObjectTemplate.setPosition 0/6.0/-7
 rem -------------------------------------
 ObjectTemplate.setSoldierExitLocation 3.5/0/0 0/0/0
-ObjectTemplate.GUIIndex 78
+ObjectTemplate.GUIIndex 21
 ObjectTemplate.setVehicleIcon "Vehicle/Icon_impart.dds"
 ObjectTemplate.setVehicleIconPos 33/43
 ObjectTemplate.setNumberOfWeaponIcons 1
@@ -161,6 +161,7 @@ ObjectTemplate.hasRestrictedExit 1
 rem *** ImpartTower ***
 ObjectTemplate.create RotationalBundle ImpartTower
 ObjectTemplate.setNetworkableInfo ImpartTurretInfo
+ObjectTemplate.setAttachToListener 1
 ObjectTemplate.loadSoundScript Sounds/ImpartTurretRotate.ssc
 ObjectTemplate.geometry Impart_Tower_M1
 ObjectTemplate.hasCollisionPhysics 1
@@ -177,6 +178,7 @@ ObjectTemplate.setInputToYaw c_PIMouseLookX
 rem *** ImpartGunBase ***
 ObjectTemplate.create RotationalBundle ImpartGunBase
 ObjectTemplate.setNetworkableInfo ImpartGunInfo
+ObjectTemplate.setAttachToListener 1
 ObjectTemplate.geometry Impart_Barrel1_M1
 ObjectTemplate.hasCollisionPhysics 1
 rem -------------------------------------
@@ -190,9 +192,10 @@ ObjectTemplate.setInputToPitch c_PIMouseLookY
 
 rem *** ImpartGunnerCamera ***
 ObjectTemplate.create Camera ImpartGunnerCamera
-ObjectTemplate.setMaxSpeed 0/0/0
-ObjectTemplate.setAcceleration 0/0/0
-ObjectTemplate.setInputToYaw c_PIMouseLookX
+ObjectTemplate.setPivotPosition 0/0/0
+ObjectTemplate.setMinRotation 0/-45/0
+ObjectTemplate.setMaxSpeed 0/15/0
+ObjectTemplate.setAcceleration 0/1000/0
 ObjectTemplate.setInputToPitch c_PIMouseLookY
 ObjectTemplate.CVMExternTrace 1
 

@@ -48,7 +48,7 @@ ObjectTemplate.setFlapLift 40
 
 rem *** Virtical Engine ***
 ObjectTemplate.create Engine NebulonBVEngine
-ObjectTemplate.setNetworkableInfo CarrackEngineInfo
+ObjectTemplate.setNetworkableInfo NebulonBEngineInfo
 ObjectTemplate.setMinRotation 0/0/-600
 ObjectTemplate.setMaxRotation 0/0/600
 ObjectTemplate.setMaxSpeed 0/0/600

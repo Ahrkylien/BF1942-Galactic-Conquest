@@ -7,8 +7,8 @@ ObjectTemplate.aiTemplate Stationary_Browning
 ObjectTemplate.saveInSeparateFile 1
 ObjectTemplate.setPcoId 0
 ObjectTemplate.HasArmor 1
-ObjectTemplate.HitPoints 5
-ObjectTemplate.MaxHitPoints 5
+ObjectTemplate.HitPoints 75
+ObjectTemplate.MaxHitPoints 75
 ObjectTemplate.Material 811
 Objecttemplate.GUIIndex 80
 ObjectTemplate.setVehicleIcon "Vehicle/Icon_SpyTurret.dds"
@@ -35,10 +35,12 @@ ObjectTemplate.setEntryRadius 3
 
 ObjectTemplate.create RotationalBundle Spy_TurretGunRotation
 ObjectTemplate.networkableInfo Spy_Turret_TurretInfo
+ObjectTemplate.geometry Eweb_cannon_m1
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.setHasResponsePhysics 1
 rem -------------------------------------
-ObjectTemplate.addTemplate EwebCamera
+ObjectTemplate.addTemplate Eweb_Camera
 ObjectTemplate.setPosition 0/0.4/-0.5
-ObjectTemplate.addTemplate EwebGunbarrel
 ObjectTemplate.addTemplate ewebweaponfire
 ObjectTemplate.setPosition 0/0/1.06
 ObjectTemplate.addTemplate ewebhanddummy
@@ -52,6 +54,7 @@ ObjectTemplate.setInputToPitch c_pimouselookY
 
 ObjectTemplate.create SeatObject STSeat
 ObjectTemplate.seatFlags c_SeatShowFullBodySoldier
+ObjectTemplate.seatFlags c_SeatShowStandingSoldier
 ObjectTemplate.seatFlags c_SeatIsOutside
 
 beginrem

@@ -14,10 +14,6 @@ ObjectTemplate.timeToLoseControl 10
 ObjectTemplate.geometry flagbase_m1
 ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.areaValue 40
-ObjectTemplate.disableIfEnemyInsideRadius 0
-ObjectTemplate.disableWhenLosingControl 0
-ObjectTemplate.loseControlWhenEnemyClose 1
-ObjectTemplate.loseControlWhenNotClose 0
 ObjectTemplate.addTemplate AnimatedFlag
 ObjectTemplate.setPosition 0/0/0
 ObjectTemplate.setTeamGeometry 1 flagge_m1
@@ -35,10 +31,6 @@ ObjectTemplate.timeToLoseControl 10
 ObjectTemplate.geometry flagbase_m1
 ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.areaValue 40
-ObjectTemplate.disableIfEnemyInsideRadius 0
-ObjectTemplate.disableWhenLosingControl 0
-ObjectTemplate.loseControlWhenEnemyClose 1
-ObjectTemplate.loseControlWhenNotClose 0
 ObjectTemplate.addTemplate AnimatedFlag
 ObjectTemplate.setPosition 0/0/0
 rem ObjectTemplate.addTemplate e_glowflagpole
@@ -58,10 +50,6 @@ ObjectTemplate.unableToChangeTeam 1
 ObjectTemplate.geometry flagbase_m1
 ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.areaValue 0
-ObjectTemplate.disableIfEnemyInsideRadius 0
-ObjectTemplate.disableWhenLosingControl 0
-ObjectTemplate.loseControlWhenEnemyClose 1
-ObjectTemplate.loseControlWhenNotClose 0
 ObjectTemplate.addTemplate AnimatedFlag
 ObjectTemplate.setPosition 0/0/0
 rem ObjectTemplate.addTemplate e_glowflagpole
@@ -80,10 +68,6 @@ ObjectTemplate.timeToLoseControl 10
 ObjectTemplate.geometry flagbase_m1
 ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.areaValue 40
-ObjectTemplate.disableIfEnemyInsideRadius 0
-ObjectTemplate.disableWhenLosingControl 0
-ObjectTemplate.loseControlWhenEnemyClose 1
-ObjectTemplate.loseControlWhenNotClose 0
 ObjectTemplate.addTemplate AnimatedFlag
 ObjectTemplate.setPosition 0/0/0
 rem ObjectTemplate.addTemplate e_glowflagpole
@@ -103,10 +87,6 @@ ObjectTemplate.unableToChangeTeam 1
 ObjectTemplate.geometry flagbase_m1
 ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.areaValue 0
-ObjectTemplate.disableIfEnemyInsideRadius 0
-ObjectTemplate.disableWhenLosingControl 0
-ObjectTemplate.loseControlWhenEnemyClose 1
-ObjectTemplate.loseControlWhenNotClose 0
 ObjectTemplate.addTemplate AnimatedFlag
 ObjectTemplate.setPosition 0/0/0
 rem ObjectTemplate.addTemplate e_glowflagpole
@@ -125,10 +105,6 @@ ObjectTemplate.timeToLoseControl 10
 ObjectTemplate.geometry flagbase_m1
 ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.areaValue 40
-ObjectTemplate.disableIfEnemyInsideRadius 0
-ObjectTemplate.disableWhenLosingControl 0
-ObjectTemplate.loseControlWhenEnemyClose 1
-ObjectTemplate.loseControlWhenNotClose 0
 ObjectTemplate.addTemplate AnimatedFlag
 ObjectTemplate.setPosition 0/0/0
 rem ObjectTemplate.addTemplate e_glowflagpole

@@ -52,7 +52,7 @@ ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.hasResponsePhysics 1
 rem -------------------------------------
 ObjectTemplate.addTemplate probedroidcontrolComplex
-ObjectTemplate.addTemplate probedroidcontrolWreck
+rem ObjectTemplate.addTemplate probedroidcontrolWreck
 rem -------------------------------------
 ObjectTemplate.lodSelector probedroidcontrolLodSelector
 
@@ -95,5 +95,5 @@ ObjectTemplate.geometry Wreck_APTurret1_M1
 
 rem *** probedroidcontrolLodSelector ***
 LodSelectorTemplate.create DistCompareSelector2 probedroidcontrolLodSelector
-LodSelectorTemplate.hasDestroyedLod 1
+LodSelectorTemplate.hasDestroyedLod 0
 rem LodSelectorTemplate.addLodDistance 400

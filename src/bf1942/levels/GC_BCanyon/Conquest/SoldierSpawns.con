@@ -1,123 +1,151 @@
-rem
-rem ***  ***
-rem
+rem SoldierSpawns.con created by Battlecraft 1942
+rem (\Program Files\Battlefield 1942\Mods\GCMOD\bf1942\levels\GC_BCanyon/conquest/SoldierSpawns.con)
+
+rem ----------------------------------------- 
+rem ---  cit01  ---
+rem ----------------------------------------- 
 Object.create cit01
-Object.absolutePosition 630.428/142/1612.2
-Object.rotation -191/0/0
-rem
-rem ***  ***
-rem
+Object.absolutePosition 630.43/142.00/1612.20
+Object.rotation -191.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  cit02  ---
+rem ----------------------------------------- 
 Object.create cit02
-Object.absolutePosition 611.605/142/1582.1
-Object.rotation -274/0/0
-rem
-rem ***  ***
-rem
+Object.absolutePosition 611.60/142.00/1582.10
+Object.rotation -274.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  tusk01  ---
+rem ----------------------------------------- 
 Object.create tusk01
 Object.absolutePosition 1598.67/83.43/1602.53
-Object.rotation 228/0/0
-rem
-rem ***  ***
-rem
+Object.rotation 228.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  tusk02  ---
+rem ----------------------------------------- 
 Object.create tusk02
 Object.absolutePosition 1528.43/83.41/1548.26
-Object.rotation 91.36/0/0
-rem
-rem ***  ***
-rem
+Object.rotation 91.36/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  tusk03  ---
+rem ----------------------------------------- 
 Object.create tusk03
 Object.absolutePosition 1575.56/83.43/1552.55
-rem
-rem ***  ***
-rem
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  mine01  ---
+rem ----------------------------------------- 
 Object.create mine01
 Object.absolutePosition 1189.85/95.12/1020.29
-rem
-rem ***  ***
-rem
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  mine02  ---
+rem ----------------------------------------- 
 Object.create mine02
-Object.absolutePosition 1172.73/94.7911/1036.64
-Object.rotation 91/0/0
-rem
-rem ***  ***
-rem
+Object.absolutePosition 1172.73/94.79/1036.64
+Object.rotation 91.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  mine03  ---
+rem ----------------------------------------- 
 Object.create mine03
 Object.absolutePosition 1220.43/96.04/1028.69
-Object.rotation -57/0/0
-rem
-rem ***  ***
-rem
+Object.rotation -57.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  bridge01  ---
+rem ----------------------------------------- 
 Object.create bridge01
-Object.absolutePosition 1432.03/120.33/911.52
-Object.rotation -184.6/0/0
-rem
-rem ***  ***
-rem
+Object.absolutePosition 1431.97/120.50/978.25
+Object.rotation 180.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  bridge02  ---
+rem ----------------------------------------- 
 Object.create bridge02
-Object.absolutePosition 1417.6/120.33/1010.64
-Object.rotation -268.93/0/0
-rem
-rem ***  ***
-rem
+Object.absolutePosition 1417.60/120.33/1010.64
+Object.rotation -268.93/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  bridge03  ---
+rem ----------------------------------------- 
 Object.create bridge03
-Object.absolutePosition 1435.8/120.33/1007.32
-Object.rotation -85/0/0
-rem
-rem ***  ***
-rem
+Object.absolutePosition 1435.80/120.33/1007.32
+Object.rotation -85.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  bridge04  ---
+rem ----------------------------------------- 
 Object.create bridge04
-Object.absolutePosition 1422.09/120.766/917.645
-Object.rotation 184/0/0
-rem
-rem ***  ***
-rem
+Object.absolutePosition 1422.09/120.77/917.65
+Object.rotation 184.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  insur01  ---
+rem ----------------------------------------- 
 Object.create insur01
-Object.absolutePosition 1618.5/84.14/695.67
-Object.rotation 267.13/0/0
-rem
-rem ***  ***
-rem
+Object.absolutePosition 1618.50/84.14/695.67
+Object.rotation 267.13/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  insur02  ---
+rem ----------------------------------------- 
 Object.create insur02
 Object.absolutePosition 1616.49/84.15/665.12
-Object.rotation -449.42/0/0
-rem
-rem ***  ***
-rem
+Object.rotation -449.42/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  insur03  ---
+rem ----------------------------------------- 
 Object.create insur03
-Object.absolutePosition 1587.53/84.15/705.626
-Object.rotation -294.98/0/0
-rem
-rem ***  ***
-rem
+Object.absolutePosition 1587.53/84.15/705.63
+Object.rotation -294.98/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  rebelstart01  ---
+rem ----------------------------------------- 
 Object.create rebelstart01
-Object.absolutePosition 1919.1/12.4724/185.38
-Object.rotation 113.9/0/0
-rem
-rem ***  ***
-rem
+Object.absolutePosition 1919.10/12.47/185.38
+Object.rotation 113.90/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  rebelstart02  ---
+rem ----------------------------------------- 
 Object.create rebelstart02
-Object.absolutePosition 1952.25/10.0665/193.711
-Object.rotation -194.9/0/0
-rem
-rem ***  ***
-rem
+Object.absolutePosition 1952.25/10.07/193.71
+Object.rotation -194.90/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  rebelstart03  ---
+rem ----------------------------------------- 
 Object.create rebelstart03
-Object.absolutePosition 1971.8/7.50484/162.793
-rem
-rem ***  ***
-rem
+Object.absolutePosition 1971.80/7.50/162.79
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  rebelstart04  ---
+rem ----------------------------------------- 
 Object.create rebelstart04
-Object.absolutePosition 1930.66/21.8972/103.978
-Object.rotation -277/0/0
-rem
-rem ***  ***
-rem
+Object.absolutePosition 1930.66/21.90/103.98
+Object.rotation -277.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  lostcit01  ---
+rem ----------------------------------------- 
 Object.create lostcit01
 Object.absolutePosition 1282.69/76.57/1571.32
-Object.rotation -78/0/0
-rem
-rem ***  ***
-rem
+Object.rotation -78.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  lostcit02  ---
+rem ----------------------------------------- 
 Object.create lostcit02
-Object.absolutePosition 1287.73/78.2144/1603.96
-Object.rotation 324/0/0
+Object.absolutePosition 1287.73/78.21/1603.96
+Object.rotation 324.00/0.00/0.00
+
+rem EndOfFile

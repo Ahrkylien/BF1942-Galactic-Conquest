@@ -284,7 +284,7 @@ ObjectTemplate.create Projectile HeavyBlasterProjectileBlueS
 ObjectTemplate.geometry projectile_m1
 ObjectTemplate.timeToLive CRD_NONE/20/0/0
 rem ObjectTemplate.addTemplate e_blaster_blue
-ObjectTemplate.addTemplate e_projectileBlaster
+ObjectTemplate.addTemplate e_projectiletank
 ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.gravityModifier 1
 ObjectTemplate.hasCollisionEffect 1

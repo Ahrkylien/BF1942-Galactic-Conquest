@@ -1,9 +1,9 @@
-NetworkableInfo.createNewInfo eweb_BodyInfo
+NetworkableInfo.createNewInfo Eweb_Base_BodyInfo
 NetworkableInfo.setPredictionMode PMLinear
 
-NetworkableInfo.createNewInfo eweb_TurretInfo
-NetworkableInfo.setPredictionMode PMLinear
 
-NetworkableInfo.createNewInfo eweb_firearmsInfo
-NetworkableInfo.setPredictionMode PMLinear
+
+
+
+
 

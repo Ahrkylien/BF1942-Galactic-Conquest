@@ -1,0 +1,52 @@
+################################################################
+#templateLevel HIGH
+
+newPatch
+
+#########################
+####### alarm1 ##########
+#########################
+load @ROOT/Sound/@RTD/alarm1.wav
+loop
+volume .5
+minDistance 30
+randomStartPitch .1/.1
+priority -9
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 35
+	param 50
+	param 1
+	param -1	
+endEffect
+
+################################################################
+
+#templateLevel MEDIUM
+
+newPatch
+
+#########################
+####### alarm1 ##########
+#########################
+load @ROOT/Sound/@RTD/alarm1.wav
+loop
+volume .5
+minDistance 15
+randomStartPitch .1/.1
+priority -9
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 15
+	param 25
+	param 1
+	param -1	
+endEffect

@@ -83,51 +83,6 @@ Object.setOSId 6
 Object.setTeam 0
 
 rem ----------------------------------------- 
-rem ---  Stationary_Eweb  ---
-rem ----------------------------------------- 
-Object.create Stationary_Eweb
-Object.absolutePosition 590.58/94.17/373.34
-Object.rotation 0.00/0.00/0.00
-Object.setOSId 2
-Object.setTeam 2
-
-rem ----------------------------------------- 
-rem ---  Stationary_Eweb  ---
-rem ----------------------------------------- 
-Object.create Stationary_Eweb
-Object.absolutePosition 560.34/83.30/479.75
-Object.rotation 0.00/0.00/0.00
-Object.setOSId 2
-Object.setTeam 0
-
-rem ----------------------------------------- 
-rem ---  Stationary_Eweb  ---
-rem ----------------------------------------- 
-Object.create Stationary_Eweb
-Object.absolutePosition 525.12/83.32/623.24
-Object.rotation 180.00/0.00/0.00
-Object.setOSId 1
-Object.setTeam 0
-
-rem ----------------------------------------- 
-rem ---  Stationary_Eweb  ---
-rem ----------------------------------------- 
-Object.create Stationary_Eweb
-Object.absolutePosition 411.58/94.17/552.44
-Object.rotation 90.00/0.00/0.00
-Object.setOSId 1
-Object.setTeam 0
-
-rem ----------------------------------------- 
-rem ---  Stationary_Eweb  ---
-rem ----------------------------------------- 
-Object.create Stationary_Eweb
-Object.absolutePosition 581.98/94.15/540.72
-Object.rotation 225.00/0.00/0.00
-Object.setOSId 1
-Object.setTeam 0
-
-rem ----------------------------------------- 
 rem ---  ATST_Spawner  ---
 rem ----------------------------------------- 
 Object.create ATST_Spawner

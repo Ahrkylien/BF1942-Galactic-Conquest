@@ -1,4 +1,5 @@
 EnvironmentSound.load Environment.ssc
+run alarm1.con
 
 
 

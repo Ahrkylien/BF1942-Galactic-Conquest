@@ -52,7 +52,7 @@ ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.hasResponsePhysics 1
 rem -------------------------------------
 ObjectTemplate.addTemplate MouseDroidControlComplex
-ObjectTemplate.addTemplate MouseDroidControlWreck
+rem ObjectTemplate.addTemplate MouseDroidControlWreck
 rem -------------------------------------
 ObjectTemplate.lodSelector MouseDroidControlLodSelector
 
@@ -89,6 +89,6 @@ ObjectTemplate.geometry mousedroidcontrol_wreck_m1
 
 rem *** MouseDroidControlLodSelector ***
 LodSelectorTemplate.create DistCompareSelector2 MouseDroidControlLodSelector
-LodSelectorTemplate.hasDestroyedLod 1
+LodSelectorTemplate.hasDestroyedLod 0
 
 

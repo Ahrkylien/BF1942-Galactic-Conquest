@@ -7,8 +7,8 @@ rem -----------------------------------------
 ObjectTemplate.create ObjectSpawner TLPerminant
 ObjectTemplate.setObjectTemplate 1 turbolaser
 ObjectTemplate.setObjectTemplate 2 turbolaser
-ObjectTemplate.MinSpawnDelay 25
-ObjectTemplate.MaxSpawnDelay 26
+ObjectTemplate.MinSpawnDelay 15
+ObjectTemplate.MaxSpawnDelay 25
 ObjectTemplate.SpawnDelayAtStart 0
 ObjectTemplate.TimeToLive 45
 ObjectTemplate.Distance 40
@@ -22,13 +22,13 @@ rem -----------------------------------------
 ObjectTemplate.create ObjectSpawner shipspawns
 ObjectTemplate.setObjectTemplate 1 waveskimmer
 ObjectTemplate.setObjectTemplate 2 amphibian
-ObjectTemplate.MinSpawnDelay 5
-ObjectTemplate.MaxSpawnDelay 10
+ObjectTemplate.MinSpawnDelay 15
+ObjectTemplate.MaxSpawnDelay 25
 ObjectTemplate.SpawnDelayAtStart 0
 ObjectTemplate.TimeToLive 35
 ObjectTemplate.Distance 25
 ObjectTemplate.DamageWhenLost 10
-ObjectTemplate.maxNrOfObjectSpawned 2
+ObjectTemplate.maxNrOfObjectSpawned 1
 ObjectTemplate.teamOnVehicle 0
 
 rem ----------------------------------------- 
@@ -38,7 +38,7 @@ ObjectTemplate.create ObjectSpawner r2d2spawner
 ObjectTemplate.setObjectTemplate 1 r2d2
 ObjectTemplate.setObjectTemplate 2 r2d2
 ObjectTemplate.MinSpawnDelay 25
-ObjectTemplate.MaxSpawnDelay 25
+ObjectTemplate.MaxSpawnDelay 26
 ObjectTemplate.SpawnDelayAtStart 0
 ObjectTemplate.TimeToLive 45
 ObjectTemplate.Distance 40
@@ -52,7 +52,7 @@ rem -----------------------------------------
 ObjectTemplate.create ObjectSpawner ewebfullstation
 ObjectTemplate.setObjectTemplate 1 eweb
 ObjectTemplate.setObjectTemplate 2 eweb
-ObjectTemplate.MinSpawnDelay 25
+ObjectTemplate.MinSpawnDelay 15
 ObjectTemplate.MaxSpawnDelay 25
 ObjectTemplate.SpawnDelayAtStart 0
 ObjectTemplate.TimeToLive 45
@@ -67,8 +67,8 @@ rem -----------------------------------------
 ObjectTemplate.create ObjectSpawner gunshipbomber
 ObjectTemplate.setObjectTemplate 1 tiebomber
 ObjectTemplate.setObjectTemplate 2 repgun
-ObjectTemplate.MinSpawnDelay 10
-ObjectTemplate.MaxSpawnDelay 20
+ObjectTemplate.MinSpawnDelay 15
+ObjectTemplate.MaxSpawnDelay 25
 ObjectTemplate.SpawnDelayAtStart 0
 ObjectTemplate.TimeToLive 40
 ObjectTemplate.Distance 40
@@ -82,7 +82,7 @@ rem -----------------------------------------
 ObjectTemplate.create ObjectSpawner tiexwing
 ObjectTemplate.setObjectTemplate 1 tiefighter
 ObjectTemplate.setObjectTemplate 2 ewing
-ObjectTemplate.MinSpawnDelay 10
+ObjectTemplate.MinSpawnDelay 15
 ObjectTemplate.MaxSpawnDelay 25
 ObjectTemplate.SpawnDelayAtStart 0
 ObjectTemplate.TimeToLive 45
@@ -97,8 +97,8 @@ rem -----------------------------------------
 ObjectTemplate.create ObjectSpawner implander
 ObjectTemplate.setObjectTemplate 1 imperial_landingcraft
 ObjectTemplate.setObjectTemplate 2 imperial_landingcraft
-ObjectTemplate.MinSpawnDelay 30
-ObjectTemplate.MaxSpawnDelay 50
+ObjectTemplate.MinSpawnDelay 40
+ObjectTemplate.MaxSpawnDelay 80
 ObjectTemplate.SpawnDelayAtStart 0
 ObjectTemplate.TimeToLive 80
 ObjectTemplate.Distance 40
@@ -112,7 +112,7 @@ rem -----------------------------------------
 ObjectTemplate.create ObjectSpawner turbolasersspawns
 ObjectTemplate.setObjectTemplate 1 turbolaser
 ObjectTemplate.setObjectTemplate 2 turbolaser
-ObjectTemplate.MinSpawnDelay 25
+ObjectTemplate.MinSpawnDelay 40
 ObjectTemplate.MaxSpawnDelay 80
 ObjectTemplate.SpawnDelayAtStart 0
 ObjectTemplate.TimeToLive 45

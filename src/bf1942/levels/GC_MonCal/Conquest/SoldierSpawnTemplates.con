@@ -1,76 +1,144 @@
+rem SoldierSpawnTemplates.con created by Battlecraft 1942
+rem (\Program Files\Battlefield 1942\Mods\GCMOD\bf1942\levels\GC_MonCal/conquest/SoldierSpawnTemplates.con)
+
+rem ----------------------------------------- 
+rem ---  ca13  ---
+rem ----------------------------------------- 
 ObjectTemplate.create SpawnPoint ca13
 ObjectTemplate.setSpawnId 7
 ObjectTemplate.setGroup 2
 
+rem ----------------------------------------- 
+rem ---  ca24  ---
+rem ----------------------------------------- 
 ObjectTemplate.create SpawnPoint ca24
 ObjectTemplate.setSpawnId 12
 ObjectTemplate.setGroup 3
 
+rem ----------------------------------------- 
+rem ---  ca14  ---
+rem ----------------------------------------- 
 ObjectTemplate.create SpawnPoint ca14
 ObjectTemplate.setSpawnId 8
 ObjectTemplate.setGroup 2
 
+rem ----------------------------------------- 
+rem ---  imp1  ---
+rem ----------------------------------------- 
 ObjectTemplate.create SpawnPoint imp1
 ObjectTemplate.setSpawnId 1
 ObjectTemplate.setGroup 1
 
+rem ----------------------------------------- 
+rem ---  imp2  ---
+rem ----------------------------------------- 
 ObjectTemplate.create SpawnPoint imp2
 ObjectTemplate.setSpawnId 2
 ObjectTemplate.setGroup 1
 
+rem ----------------------------------------- 
+rem ---  imp3  ---
+rem ----------------------------------------- 
 ObjectTemplate.create SpawnPoint imp3
 ObjectTemplate.setSpawnId 3
 ObjectTemplate.setGroup 1
 
+rem ----------------------------------------- 
+rem ---  ca51  ---
+rem ----------------------------------------- 
 ObjectTemplate.create SpawnPoint ca51
 ObjectTemplate.setSpawnId 17
 ObjectTemplate.setGroup 5
 
+rem ----------------------------------------- 
+rem ---  imp4  ---
+rem ----------------------------------------- 
 ObjectTemplate.create SpawnPoint imp4
 ObjectTemplate.setSpawnId 4
 ObjectTemplate.setGroup 1
 
+rem ----------------------------------------- 
+rem ---  ca41  ---
+rem ----------------------------------------- 
 ObjectTemplate.create SpawnPoint ca41
 ObjectTemplate.setSpawnId 16
 ObjectTemplate.setGroup 5
 
+rem ----------------------------------------- 
+rem ---  ca31  ---
+rem ----------------------------------------- 
 ObjectTemplate.create SpawnPoint ca31
 ObjectTemplate.setSpawnId 13
 ObjectTemplate.setGroup 4
 
+rem ----------------------------------------- 
+rem ---  ca53  ---
+rem ----------------------------------------- 
 ObjectTemplate.create SpawnPoint ca53
 ObjectTemplate.setSpawnId 18
 ObjectTemplate.setGroup 5
 
+rem ----------------------------------------- 
+rem ---  ca21  ---
+rem ----------------------------------------- 
 ObjectTemplate.create SpawnPoint ca21
 ObjectTemplate.setSpawnId 9
 ObjectTemplate.setGroup 3
 
+rem ----------------------------------------- 
+rem ---  ca32  ---
+rem ----------------------------------------- 
 ObjectTemplate.create SpawnPoint ca32
 ObjectTemplate.setSpawnId 14
 ObjectTemplate.setGroup 4
 
+rem ----------------------------------------- 
+rem ---  ca54  ---
+rem ----------------------------------------- 
 ObjectTemplate.create SpawnPoint ca54
 ObjectTemplate.setSpawnId 19
 ObjectTemplate.setGroup 5
 
+rem ----------------------------------------- 
+rem ---  ca11  ---
+rem ----------------------------------------- 
 ObjectTemplate.create SpawnPoint ca11
 ObjectTemplate.setSpawnId 5
 ObjectTemplate.setGroup 2
 
+rem ----------------------------------------- 
+rem ---  ca22  ---
+rem ----------------------------------------- 
 ObjectTemplate.create SpawnPoint ca22
 ObjectTemplate.setSpawnId 10
 ObjectTemplate.setGroup 3
 
+rem ----------------------------------------- 
+rem ---  ca33  ---
+rem ----------------------------------------- 
 ObjectTemplate.create SpawnPoint ca33
 ObjectTemplate.setSpawnId 15
 ObjectTemplate.setGroup 4
 
+rem ----------------------------------------- 
+rem ---  ca12  ---
+rem ----------------------------------------- 
 ObjectTemplate.create SpawnPoint ca12
 ObjectTemplate.setSpawnId 6
 ObjectTemplate.setGroup 2
 
+rem ----------------------------------------- 
+rem ---  ca23  ---
+rem ----------------------------------------- 
 ObjectTemplate.create SpawnPoint ca23
 ObjectTemplate.setSpawnId 11
 ObjectTemplate.setGroup 3
 
+rem ----------------------------------------- 
+rem ---  ca55  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint ca55
+ObjectTemplate.setSpawnId 20
+ObjectTemplate.setGroup 5
+
+rem EndOfFile

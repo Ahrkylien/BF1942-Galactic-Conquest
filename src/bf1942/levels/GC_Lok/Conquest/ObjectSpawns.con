@@ -209,15 +209,6 @@ Object.setOSId 2
 Object.setTeam 2
 
 rem ----------------------------------------- 
-rem ---  Ewebstationary  ---
-rem ----------------------------------------- 
-Object.create Ewebstationary
-Object.absolutePosition 930.38/107.76/1376.93
-Object.rotation 225.00/0.00/0.00
-Object.setOSId 5
-Object.setTeam 1
-
-rem ----------------------------------------- 
 rem ---  Turret  ---
 rem ----------------------------------------- 
 Object.create Turret
@@ -261,14 +252,5 @@ Object.absolutePosition 951.90/90.42/286.59
 Object.rotation 0.00/0.00/0.00
 Object.setOSId 2
 Object.setTeam 2
-
-rem ----------------------------------------- 
-rem ---  Ewebstationary  ---
-rem ----------------------------------------- 
-Object.create Ewebstationary
-Object.absolutePosition 1064.16/109.34/1367.86
-Object.rotation 135.00/0.00/0.00
-Object.setOSId 5
-Object.setTeam 1
 
 rem EndOfFile

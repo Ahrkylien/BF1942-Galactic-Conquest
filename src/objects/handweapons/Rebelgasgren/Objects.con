@@ -16,7 +16,7 @@ ObjectTemplate.hasArmor 1
 ObjectTemplate.material 70
 ObjectTemplate.hitpoints 10000
 ObjectTemplate.maxhitpoints 10000
-ObjectTemplate.AmmoType	2
+ObjectTemplate.AmmoType	99
 ObjectTemplate.timetoNotAllowChange 0.4
 
 ObjectTemplate.autoReload 1
@@ -73,7 +73,7 @@ ObjectTemplate.hasDynamicShadow 1
 ObjectTemplate.hasMobilePhysics 1
 ObjectTemplate.hasCollisionPhysics 1
 rem -------------------------------
-ObjectTemplate.addTemplate ImperialKill
+rem ObjectTemplate.addTemplate ImperialKill
 rem -----------------------------
 ObjectTemplate.hasPointPhysics 0
 ObjectTemplate.hasCollisionEffect 0
@@ -98,10 +98,10 @@ ObjectTemplate.projectileType 4
 rem -----------------------------------------
 ObjectTemplate.create SupplyDepot ImperialKill
 ObjectTemplate.radius 14
-ObjectTemplate.team 1
+ObjectTemplate.team 2
 ObjectTemplate.workOnVehicles 0
 ObjectTemplate.workOnSoldiers 1
-ObjectTemplate.setHealth -1 -7 0
+ObjectTemplate.setHealth -1 2 0
 rem -----------------------------------------
 
 

@@ -2,7 +2,14 @@ newPatch
 ############
 ### Near ###
 ############
-load @ROOT/Sound/@RTD/flag.wav
+load @ROOT/Sound/@RTD/silence.wav
+volume 0
+
+############
+### Base ###
+############
+load @ROOT/Sound/@RTD/flagbase.wav
+volume 0.7
 loop
 minDistance 2
 randomStartPitch 0.25 / 0.0

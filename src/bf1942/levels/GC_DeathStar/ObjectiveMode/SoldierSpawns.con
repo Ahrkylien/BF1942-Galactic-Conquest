@@ -10,7 +10,8 @@ rem
 rem ***  ***
 rem
 Object.create imp2
-Object.absolutePosition 952.893/139.145/3581.54
+Object.absolutePosition 878.893/139.145/3531.54
+Object.rotation 180/0/0
 Object.setOSId 112
 Object.setTeam 0
 rem
@@ -57,8 +58,8 @@ rem
 rem ***  ***
 rem
 Object.create imp8
-Object.absolutePosition 941.836/138.797/1433.08
-Object.rotation -179/0/0
+Object.absolutePosition 878.836/138.797/1478.08
+Object.rotation -90/0/0
 Object.setOSId 0
 Object.setTeam 0
 rem
