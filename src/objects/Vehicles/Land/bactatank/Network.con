@@ -1,0 +1,6 @@
+NetworkableInfo.createNewInfo bactatankInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo bactatank_pcoInfo
+NetworkableInfo.setPredictionMode PMNone
+NetworkableInfo.setBasePriority 0

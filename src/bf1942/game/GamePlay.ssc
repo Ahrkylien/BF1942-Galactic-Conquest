@@ -1,0 +1,64 @@
+############################
+### GainControlPoint	 ###
+############################
+newPatch
+load @ROOT/Sound/@RTD/@Language/ControlPointWon1.wav
+load @ROOT/Sound/@RTD/@Language/ControlPointWon2.wav
+load @ROOT/Sound/@RTD/@Language/ControlPointWon3.wav
+load @ROOT/Sound/@RTD/@Language/ControlPointWon4.wav
+load @ROOT/Sound/@RTD/@Language/ControlPointWon5.wav
+load @ROOT/Sound/@RTD/@Language/ControlPointWon6.wav
+
+randomPlay 1
+priority 11
+
+############################
+### LoseControlPoint	 ###
+############################
+newPatch
+load @ROOT/Sound/@RTD/@Language/ControlPointLost1.wav
+load @ROOT/Sound/@RTD/@Language/ControlPointLost2.wav
+load @ROOT/Sound/@RTD/@Language/ControlPointLost3.wav
+load @ROOT/Sound/@RTD/@Language/ControlPointLost4.wav
+load @ROOT/Sound/@RTD/@Language/ControlPointLost5.wav
+load @ROOT/Sound/@RTD/@Language/ControlPointLost6.wav
+
+randomPlay 1
+priority 11
+
+############################
+### AutoLoseTickets	 ###
+############################
+newPatch
+load @ROOT/Sound/@RTD/@Language/TicketsLosing1.wav
+load @ROOT/Sound/@RTD/@Language/TicketsLosing2.wav
+
+randomPlay 1
+priority 11
+
+############################
+### TicketLow	 ###
+############################
+newPatch
+load @ROOT/Sound/@RTD/@Language/TicketsLow1.wav
+load @ROOT/Sound/@RTD/@Language/TicketsLow2.wav
+
+randomPlay 1
+priority 11
+
+############################
+### LeavingCombat	 ###
+############################
+newPatch
+load @ROOT/Sound/@RTD/@Language/OutOfBounds.wav
+volume 0.7
+priority 11
+
+
+############################
+### RadioCrackle	 ###
+############################
+newPatch
+load @ROOT/Sound/@RTD/Comms.wav
+
+priority 11

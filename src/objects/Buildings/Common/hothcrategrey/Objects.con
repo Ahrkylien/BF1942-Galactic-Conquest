@@ -1,0 +1,6 @@
+ObjectTemplate.create SimpleObject hothcrategrey
+ObjectTemplate.aiTemplate hothcrategrey
+ObjectTemplate.geometry hothcrategrey
+ObjectTemplate.setHasCollisionPhysics 1
+
+

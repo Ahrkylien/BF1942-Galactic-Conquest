@@ -1,0 +1,16 @@
+AnimationStateMachine.copyState2 dl44 v_arg1
+AnimationStateMachine.copyState2 Bincoulars v_arg1
+AnimationStateMachine.copyState2 imp_binocs v_arg1
+AnimationStateMachine.copyState2 reb_binocs v_arg1
+AnimationStateMachine.copyState2 MedPack v_arg1
+AnimationStateMachine.copyState2 FragNade v_arg1
+AnimationStateMachine.copyState2 dh17 v_arg1
+AnimationStateMachine.copyState2 Kylan v_arg1
+AnimationStateMachine.copyState2 Razor v_arg1
+AnimationStateMachine.copyState2 SpeederPistol v_arg1
+AnimationStateMachine.copyState2 Cryoban v_arg1
+AnimationStateMachine.copyState2 Flechette v_arg1
+AnimationStateMachine.copyState2 E-11Sniper v_arg1
+AnimationStateMachine.copyState2 DressilianRifle v_arg1
+AnimationStateMachine.copyState2 Cryoban v_arg1
+AnimationStateMachine.copyState2 plx-2m v_arg1

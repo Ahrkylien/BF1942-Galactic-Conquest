@@ -1,0 +1,51 @@
+
+rem *** awingGunBarrel ***
+ObjectTemplate.create FireArms awingGuns
+ObjectTemplate.loadSoundScript Sounds/AWingLaser.ssc
+ObjectTemplate.aiTemplate awingMachineGun
+ObjectTemplate.setNetworkableInfo PlaneFireArmInfo
+rem -------------------------------------
+ObjectTemplate.visibleBarrelTemplate e_MuzzHeavy
+rem -------------------------------------
+ObjectTemplate.projectileTemplate awingProjectile
+ObjectTemplate.projectilePosition 0/-0.2/2
+rem ObjectTemplate.setTracerTemplate Tracer_Projectile CRD_NONE/3/0/0
+ObjectTemplate.magSize 10000
+ObjectTemplate.numOfMag 1
+ObjectTemplate.velocity 600
+ObjectTemplate.fireOnce 1
+ObjectTemplate.reloadtime 0.1
+ObjectTemplate.roundOfFire 5.4
+ObjectTemplate.addFireArmsPosition -3.0/-1.2/1.1 0/0/0
+ObjectTemplate.addFireArmsPosition 3.0/-1.2/1.1 0/0/0
+REM *** POWER DRAIN *** 
+objectTemplate.heatAddWhenFire 0.09
+objectTemplate.coolDownPerSec 0.7
+objectTemplate.timeDelayOnOverHeat 5
+REM *** POWER DRAIN ***
+
+ObjectTemplate.AmmoType	7
+
+rem *** awingProjectile ***
+ObjectTemplate.create Projectile awingProjectile
+ObjectTemplate.createNotInGrid 1
+ObjectTemplate.geometry red_laser
+ObjectTemplate.timeToLive CRD_NONE/1.5/0/0
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasCollisionEffect 1
+ObjectTemplate.gravityModifier 0
+ObjectTemplate.stopAtEndEffect 1
+ObjectTemplate.hasOnTimeEffect 1
+ObjectTemplate.invisibleAtEndEffect 1
+ObjectTemplate.dieAfterColl 1
+ObjectTemplate.invisible 0
+ObjectTemplate.material 702
+ObjectTemplate.material2 702
+ObjectTemplate.damageType 1
+ObjectTemplate.radius 5
+ObjectTemplate.forceOnExplosion 45
+ObjectTemplate.stopAtEndEffect 1
+ObjectTemplate.dieAfterColl 1
+rem ObjectTemplate.explodeNearEnemyDistance 2.0

@@ -1,0 +1,34 @@
+Game.setLocalized 1
+
+rem ** Allied Briefing **
+game.setAlliedCampaign BRIEFING_ALLIED_CAMPAIGN_KHARKOV
+game.setAlliedHints BRIEFING_ALLIED_HINTS_KHARKOV
+game.setAlliedObjectives BRIEFING_ALLIED_OBJECTIVES_KHARKOV
+game.setAlliedSkirmish BRIEFING_ALLIED_SKIRMISH_KHARKOV
+
+rem ** Axis Briefing **
+game.setAxisCampaign BRIEFING_AXIS_CAMPAIGN_KHARKOV
+game.setAxisHints BRIEFING_AXIS_HINTS_KHARKOV
+game.setAxisObjectives BRIEFING_AXIS_OBJECTIVES_KHARKOV
+game.setAxisSkirmish BRIEFING_AXIS_SKIRMISH_KHARKOV
+
+rem ** Allied Debriefing **
+game.setAlliedDebriefingMajorVictory DEBRIEFING_ALLIED_MAJOR_VICTORY_KHARKOV
+game.setAlliedDebriefingMinorVictory DEBRIEFING_ALLIED_MINOR_VICTORY_KHARKOV
+game.setAlliedDebriefingMajorDefeat DEBRIEFING_ALLIED_MAJOR_DEFEAT_KHARKOV
+game.setAlliedDebriefingMinorDefeat DEBRIEFING_ALLIED_MINOR_DEFEAT_KHARKOV
+
+rem ** Axis Debriefing **
+game.setAxisDebriefingMajorVictory DEBRIEFING_AXIS_MAJOR_VICTORY_KHARKOV
+game.setAxisDebriefingMinorVictory DEBRIEFING_AXIS_MINOR_VICTORY_KHARKOV
+game.setAxisDebriefingMajorDefeat DEBRIEFING_AXIS_MAJOR_DEFEAT_KHARKOV
+game.setAxisDebriefingMinorDefeat DEBRIEFING_AXIS_MINOR_DEFEAT_KHARKOV
+
+rem ** Multiplayer Briefing **
+game.setMultiplayerBriefingObjectives MULTIPLAYER_BRIEFING_HOTH
+game.setMultiplayerBriefingMapType MULTIPLAYER_MAP_TYPE_HEADON_MAP
+
+
+game.setLoadPicture Load/hoth.tga
+game.setServerInfoIcon ../../bf1942/levels/GC_Hoth/menu/serverInfo.dds
+game.setMapId "BF1942"

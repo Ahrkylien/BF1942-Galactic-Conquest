@@ -1,0 +1,6 @@
+ObjectTemplate.create SimpleObject atatdeadfront1
+ObjectTemplate.aiTemplate atatdeadfront1
+ObjectTemplate.geometry atatdeadfront1
+ObjectTemplate.setHasCollisionPhysics 1
+
+

@@ -1,0 +1,55 @@
+renderer.beginGlobalCluster awing
+
+GeometryTemplate.create StandardMesh AWing_Fuselage_M1
+GeometryTemplate.file \AWing\AWing_Fus
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+GeometryTemplate.setLodDistance 2 300
+GeometryTemplate.setLodDistance 3 400
+GeometryTemplate.setLodDistance 4 500
+GeometryTemplate.setLodDistance 5 900
+
+GeometryTemplate.create StandardMesh AWing_Wheel_Front
+GeometryTemplate.file \AWing\AWing_Wheel
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 60
+GeometryTemplate.setLodDistance 3 100
+
+GeometryTemplate.create StandardMesh AWing_Wheel_BR
+GeometryTemplate.file \AWing\AWing_Wheel
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 60
+GeometryTemplate.setLodDistance 3 100
+
+GeometryTemplate.create StandardMesh AWing_Wheel_BL
+GeometryTemplate.file \AWing\AWing_Wheel
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 60
+GeometryTemplate.setLodDistance 3 100
+
+renderer.endGlobalCluster
+
+
+GeometryTemplate.create StandardMesh Wreck_awing
+GeometryTemplate.file Wreck_awing1_m1
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 150
+GeometryTemplate.setLodDistance 2 200
+GeometryTemplate.setLodDistance 3 250
+GeometryTemplate.setLodDistance 4 300
+GeometryTemplate.setLodDistance 5 500
+
+GeometryTemplate.create StandardMesh awing_Low
+GeometryTemplate.file awing_Low
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 150
+GeometryTemplate.setLodDistance 2 200
+GeometryTemplate.setLodDistance 3 250
+GeometryTemplate.setLodDistance 4 300
+GeometryTemplate.setLodDistance 5 500

@@ -1,0 +1,26 @@
+ObjectTemplate.create Kit Rus_AT
+ObjectTemplate.setType AT
+ObjectTemplate.setKitTeam 2
+ObjectTemplate.geometry Kit_Allies_Antitank
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.networkableInfo KitInfo
+ObjectTemplate.addTemplate Russ_Helmet
+ObjectTemplate.addTemplate Bacpac_rus
+ObjectTemplate.addTemplate Russian_hippack
+
+ObjectTemplate.setHealthBarIcon "Ingame/Healthbar_empty_at_64x64.tga"
+ObjectTemplate.setHealthBarFullIcon "Ingame/Healthbar_full_at_64x64.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_alliesKnife.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_colt.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_bazooka.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_grenadeallies.tga"
+
+ObjectTemplate.setKitIcon 2 "kits/Icon_antitank_allies_selected.tga"
+ObjectTemplate.setKitName 2 "RESPAWN_AT"
+ObjectTemplate.setKitActiveName 2 "RESPAWN_ACTIVE_AT"
+
+ObjectTemplate.addTemplate Bazooka
+ObjectTemplate.addTemplate KnifeAllies
+ObjectTemplate.addTemplate Colt
+ObjectTemplate.addTemplate GrenadeAllies
+ObjectTemplate.aitemplate AT

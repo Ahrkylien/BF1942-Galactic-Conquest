@@ -1,0 +1,53 @@
+newPatch
+
+#############
+### Close ###
+#############
+load @ROOT/Sound/@RTD/snowspeeder-laser2-stereo.wav
+minDistance 10
+stereo
+stop FinishSample
+dopplerOff
+randomStartPitch 0.05 / 0.05
+priority 10
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 2
+	param 2
+	param 1
+	param -1
+endEffect
+
+################
+### Distance ###
+################
+load @ROOT/Sound/@RTD/snowspeeder-laser2-mono.wav
+minDistance 50
+stop FinishSample
+dopplerOff
+randomStartPitch 0.05 / 0.05
+priority 9
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 2
+	param 2
+	param 0
+	param 1	
+endEffect
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 130
+	param 250
+	param 1
+	param -1
+endEffect

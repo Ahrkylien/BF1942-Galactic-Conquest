@@ -1,0 +1,11 @@
+NetworkableInfo.createNewInfo apturretTurretInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo apturretGunInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo apturretCameraInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo apturretBodyInfo
+NetworkableInfo.setPredictionMode PMLinear

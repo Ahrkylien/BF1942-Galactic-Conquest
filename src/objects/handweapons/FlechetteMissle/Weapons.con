@@ -1,0 +1,37 @@
+ObjectTemplate.create Projectile FlechetteMissile
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.geometry flechetterocket
+ObjectTemplate.timeToLive CRD_UNIFORM/1.3/1.7/0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.gravityModifier 0.0
+ObjectTemplate.drag 1.0
+ObjectTemplate.mass 20
+ObjectTemplate.startEffectTemplate e_projectileFlechette
+ObjectTemplate.hasCollisionEffect 1
+ObjectTemplate.hasOnTimeEffect 1
+ObjectTemplate.invisibleAtEndEffect 1
+ObjectTemplate.stopAtEndEffect 1
+ObjectTemplate.dieAfterColl 1
+ObjectTemplate.invisible 0
+ObjectTemplate.damageType 1
+ObjectTemplate.radius 18
+ObjectTemplate.ForceOnExplosion 30
+rem ---------------------------------
+ObjectTemplate.material 540
+ObjectTemplate.material2 541
+ObjectTemplate.explodeNearEnemyDistance 10
+ObjectTemplate.endEffectTemplate e_ExplGranade
+rem ---------------------------------
+
+
+ObjectTemplate.addTemplate Flechette_Wing
+ObjectTemplate.setPosition 0/0/-1.5
+ObjectTemplate.setRotation 0/0/0
+
+
+ObjectTemplate.addTemplate Flechette_Engine
+ObjectTemplate.setPosition 0/0/-2
+ObjectTemplate.setRotation 0/0/0
+
+
+

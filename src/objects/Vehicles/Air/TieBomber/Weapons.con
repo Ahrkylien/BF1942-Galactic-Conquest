@@ -1,0 +1,30 @@
+rem *** TieBomberConcussionMissile ***
+ObjectTemplate.create FireArms TieBomberConcussionMissile
+ObjectTemplate.setNetworkableInfo PlaneFireArmInfo
+ObjectTemplate.projectileTemplate ConcussionMissile
+rem ObjectTemplate.visibleDummyProjectileTemplate ConcussionMissileDummy
+ObjectTemplate.magSize 20
+ObjectTemplate.numOfMag 10
+ObjectTemplate.velocity 200
+ObjectTemplate.autoReload 1
+ObjectTemplate.reloadtime 3
+ObjectTemplate.roundOfFire 1.8
+ObjectTemplate.fireingForce 1
+ObjectTemplate.AmmoType	8
+
+rem *** ConcussionMissileDummy ***
+ObjectTemplate.create SimpleObject ConcussionMissileDummy
+ObjectTemplate.geometry ConcussionMissileGeometry
+
+rem *** tiebomberBombDummy ***
+ObjectTemplate.create FireArms TIEBombRack
+ObjectTemplate.setNetworkableInfo PlaneFireArmInfo
+ObjectTemplate.aitemplate CorsairBombs
+ObjectTemplate.projectileTemplate TIEBomb
+ObjectTemplate.projectilePosition -1.7/-1/-0.2
+ObjectTemplate.magSize 30
+ObjectTemplate.numOfMag 1
+ObjectTemplate.velocity 0
+ObjectTemplate.roundOfFire 2
+ObjectTemplate.setInputFire c_PIAltFire
+ObjectTemplate.AmmoType 9

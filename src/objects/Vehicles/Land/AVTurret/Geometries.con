@@ -1,0 +1,33 @@
+renderer.beginGlobalCluster avturret
+
+GeometryTemplate.create StandardMesh AVBase
+GeometryTemplate.file AVBase
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 10
+GeometryTemplate.setLodDistance 2 15
+GeometryTemplate.setLodDistance 3 30
+GeometryTemplate.setLodDistance 4 50
+GeometryTemplate.setLodDistance 5 100
+
+GeometryTemplate.create StandardMesh AVTurret
+GeometryTemplate.file AVTurret
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 10
+GeometryTemplate.setLodDistance 2 15
+GeometryTemplate.setLodDistance 3 30
+GeometryTemplate.setLodDistance 4 50
+
+GeometryTemplate.create StandardMesh DefGun_thing_M1
+GeometryTemplate.file DefGun_thing_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 100
+GeometryTemplate.setLodDistance 3 200
+GeometryTemplate.setLodDistance 4 300
+GeometryTemplate.setLodDistance 5 400
+
+
+GeometryTemplate.create StandardMesh AVTurretWreck
+GeometryTemplate.file Wreck_avturret_m1
+
+renderer.endGlobalCluster

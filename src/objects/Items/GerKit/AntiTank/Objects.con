@@ -1,0 +1,25 @@
+ObjectTemplate.create Kit German_AT
+ObjectTemplate.setType AT
+ObjectTemplate.setKitTeam 1
+ObjectTemplate.geometry Kit_Axis_AntiTank
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.networkableInfo KitInfo
+ObjectTemplate.addTemplate German_hippack
+
+ObjectTemplate.setHealthBarIcon "Ingame/Healthbar_empty_at_64x64.tga"
+ObjectTemplate.setHealthBarFullIcon "Ingame/Healthbar_full_at_64x64.tga"
+ObjectTemplate.addWeaponIcon "Weapon/icon_axisknife.dds"
+ObjectTemplate.addWeaponIcon "Weapon/icon_speederpistol.dds"
+ObjectTemplate.addWeaponIcon "Weapon/icon_tl21.dds"
+ObjectTemplate.addWeaponIcon "Weapon/icon_cryoban.dds"
+
+ObjectTemplate.setKitIcon 2 "kits/Icon_antitank_axis_selected.tga"
+ObjectTemplate.setKitName 2 "RESPAWN_AT"
+ObjectTemplate.setKitActiveName 2 "RESPAWN_ACTIVE_AT"
+
+ObjectTemplate.addTemplate TL-21
+ObjectTemplate.addTemplate speederpistol
+ObjectTemplate.addTemplate KnifeAxis
+
+ObjectTemplate.addTemplate cryoban
+ObjectTemplate.aiTemplate  AT

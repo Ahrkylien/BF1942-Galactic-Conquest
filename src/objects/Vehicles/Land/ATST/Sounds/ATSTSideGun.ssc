@@ -1,0 +1,51 @@
+newPatch
+
+#############
+### Close ###
+#############
+load @ROOT/Sound/@RTD/atst-sidegun-stereo.wav
+minDistance 5
+randomStartPitch 0.05 / 0.05
+stereo
+priority 10
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 1
+	param 5
+	param 1
+	param -1	
+endEffect
+
+################
+### Distance ###
+################
+load @ROOT/Sound/@RTD/atst-sidegun-mono.wav
+minDistance 25
+randomStartPitch 0.05 / 0.05
+priority 9
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 5
+	param 5
+	param 0
+	param 1	
+endEffect
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 25
+	param 300
+	param 1
+	param -1	
+endEffect

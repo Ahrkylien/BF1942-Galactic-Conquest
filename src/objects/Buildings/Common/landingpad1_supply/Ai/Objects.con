@@ -1,0 +1,17 @@
+rem *** Plugins ***
+aiTemplatePlugIn.create Cover landingpad_supplyCover
+aiTemplatePlugIn.coverValue 40.0
+
+aiTemplatePlugIn.create Physical landingpad_supplyPhysical
+
+rem *** AITemplate ***
+aiTemplate.create landingpad1_supply
+aiTemplate.addType ITCover
+aiTemplate.addType ITStructure
+aiTemplate.addType ITNoTemperature
+aiTemplate.degeneration 1
+aiTemplate.allowedTimeDiff -1
+aiTemplate.basicTemp 1
+aiTemplate.commonKnowledge 1
+aiTemplate.addPlugIn landingpad1_supplyCover
+aiTemplate.addPlugIn landingpad1_supplyPhysical

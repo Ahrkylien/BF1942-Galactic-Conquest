@@ -1,0 +1,789 @@
+
+AnimationStateMachine.set1pAnimationSpeed Ub_Standdh17 0.20
+AnimationStateMachine.set1pAnimationSpeed Ub_Turndh17 0.70
+AnimationStateMachine.set1pAnimationSpeed Ub_StandAimdh17 0.33
+AnimationStateMachine.set1pAnimationSpeed Ub_WalkForwarddh17 0.50
+AnimationStateMachine.set1pAnimationSpeed Ub_WalkBackwarddh17 0.50
+AnimationStateMachine.set1pAnimationSpeed Ub_RunForwarddh17 1.40
+AnimationStateMachine.set1pAnimationSpeed Ub_RunBackwarddh17 1.36
+AnimationStateMachine.set1pAnimationSpeed Ub_StrafeLeftdh17 1.40
+AnimationStateMachine.set1pAnimationSpeed Ub_StrafeRightdh17 1.35
+AnimationStateMachine.set1pAnimationSpeed Ub_StandJumpdh17 0.40
+AnimationStateMachine.set1pAnimationSpeed Ub_RunJumpdh17 1.20
+AnimationStateMachine.set1pAnimationSpeed Ub_Firedh17 2
+rem AnimationStateMachine.set1pAnimationSpeed Ub_FireEnddh17 1.40
+AnimationStateMachine.set1pAnimationSpeed Ub_LieFiredh17 2
+rem AnimationStateMachine.set1pAnimationSpeed Ub_LieFireEnddh17 1.40
+AnimationStateMachine.set1pAnimationSpeed Ub_Idledh171 0.52
+AnimationStateMachine.set1pAnimationSpeed Ub_Idledh172 0.39
+AnimationStateMachine.set1pAnimationSpeed Ub_Idledh173 0.50
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchIdledh171 0.52
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchIdledh172 0.39
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchIdledh173 0.50
+AnimationStateMachine.set1pAnimationSpeed Ub_Crouchdh17 0.33
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchTurndh17 0.50
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchForwarddh17 0.86
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchBackwarddh17 0.86
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchStrafeLeftdh17 0.86
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchStrafeRightdh17 0.86
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchToLiedh17 0.60
+AnimationStateMachine.set1pAnimationSpeed Ub_LieToCrouchdh17 0.60
+AnimationStateMachine.set1pAnimationSpeed Ub_LieToStanddh17 0.60
+AnimationStateMachine.set1pAnimationSpeed Ub_Liedh17 0.20
+AnimationStateMachine.set1pAnimationSpeed Ub_LieForwarddh17 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_LieBackwarddh17 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_LieTurnLeftdh17 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_LieTurnRightdh17 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_LieStrafeLeftdh17 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_LieStrafeRightdh17 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_RunStandToLiedh17 1.50
+AnimationStateMachine.set1pAnimationSpeed Ub_StandReloaddh17 0.21
+AnimationStateMachine.set1pAnimationSpeed Ub_LieReloaddh17 0.21
+AnimationStateMachine.set1pAnimationSpeed Ub_StandRaiseWeapondh17 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchRaiseWeapondh17 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_LieRaiseWeapondh17 1.00
+
+rem *****dh17 3rd Person Animation Tweaking
+AnimationStateMachine.set3pAnimationSpeed Ub_Standdh17 0.60
+AnimationStateMachine.set3pAnimationSpeed Ub_Turndh17 1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_StandAimdh17 0.80
+AnimationStateMachine.set3pAnimationSpeed Ub_WalkForwarddh17 1.0
+AnimationStateMachine.set3pAnimationSpeed Ub_WalkBackwarddh17 -1.0
+AnimationStateMachine.set3pAnimationSpeed Ub_RunForwarddh17 1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_RunBackwarddh17 -1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_StrafeLeftdh17 1.30
+AnimationStateMachine.set3pAnimationSpeed Ub_StrafeRightdh17 1.30
+AnimationStateMachine.set3pAnimationSpeed Ub_StandJumpdh17 1.10
+AnimationStateMachine.set3pAnimationSpeed Ub_RunJumpdh17 1.22
+AnimationStateMachine.set3pAnimationSpeed Ub_Firedh17 2
+rem AnimationStateMachine.set3pAnimationSpeed Ub_FireEnddh17 2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieFiredh17 2
+rem AnimationStateMachine.set3pAnimationSpeed Ub_LieFireEnddh17 2.14
+AnimationStateMachine.set3pAnimationSpeed Ub_Idledh171 0.50
+AnimationStateMachine.set3pAnimationSpeed Ub_Idledh172 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_Idledh173 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchIdledh171 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchIdledh172 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchIdledh173 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_Crouchdh17 0.80
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchTurndh17 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchForwarddh17 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchBackwarddh17 -1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchStrafeLeftdh17 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchStrafeRightdh17 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchToLiedh17 1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_LieToCrouchdh17 -2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieToStanddh17 -3.00
+AnimationStateMachine.set3pAnimationSpeed Ub_Liedh17 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieForwarddh17 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieBackwarddh17 -0.80
+AnimationStateMachine.set3pAnimationSpeed Ub_LieTurnLeftdh17 2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieTurnRightdh17 2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieStrafeLeftdh17 2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieStrafeRightdh17 2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_RunStandToLiedh17 1.40
+AnimationStateMachine.set3pAnimationSpeed Ub_StandReloaddh17 0.47
+AnimationStateMachine.set3pAnimationSpeed Ub_LieReloaddh17 0.53
+AnimationStateMachine.set3pAnimationSpeed Ub_StandRaiseWeapondh17 -1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchRaiseWeapondh17 -1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_LieRaiseWeapondh17 -1.60
+
+rem *****dh17 Misc. Animation Tweaks
+AnimationStateMachine.set3pAnimationSpeed WeaponReloaddh17 0.21
+
+
+rem *****dl44 1st Person Animation Tweaks
+
+AnimationStateMachine.set1pAnimationSpeed Ub_Standdl44 0.20
+AnimationStateMachine.set1pAnimationSpeed Ub_Turndl44 0.70
+AnimationStateMachine.set1pAnimationSpeed Ub_StandAimdl44 0.33
+AnimationStateMachine.set1pAnimationSpeed Ub_WalkForwarddl44 0.50
+AnimationStateMachine.set1pAnimationSpeed Ub_WalkBackwarddl44 0.50
+AnimationStateMachine.set1pAnimationSpeed Ub_RunForwarddl44 1.40
+AnimationStateMachine.set1pAnimationSpeed Ub_RunBackwarddl44 1.36
+AnimationStateMachine.set1pAnimationSpeed Ub_StrafeLeftdl44 1.40
+AnimationStateMachine.set1pAnimationSpeed Ub_StrafeRightdl44 1.35
+AnimationStateMachine.set1pAnimationSpeed Ub_StandJumpdl44 0.40
+AnimationStateMachine.set1pAnimationSpeed Ub_RunJumpdl44 1.20
+AnimationStateMachine.set1pAnimationSpeed Ub_Firedl44 2.0
+AnimationStateMachine.set1pAnimationSpeed Ub_LieFiredl44 2.0
+AnimationStateMachine.set1pAnimationSpeed Ub_Idledl441 0.52
+AnimationStateMachine.set1pAnimationSpeed Ub_Idledl442 0.39
+AnimationStateMachine.set1pAnimationSpeed Ub_Idledl443 0.50
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchIdledl441 0.52
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchIdledl442 0.39
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchIdledl443 0.50
+AnimationStateMachine.set1pAnimationSpeed Ub_Crouchdl44 0.33
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchTurndl44 0.50
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchForwarddl44 0.86
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchBackwarddl44 0.86
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchStrafeLeftdl44 0.86
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchStrafeRightdl44 0.86
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchToLiedl44 0.60
+AnimationStateMachine.set1pAnimationSpeed Ub_LieToCrouchdl44 0.60
+AnimationStateMachine.set1pAnimationSpeed Ub_LieToStanddl44 0.60
+AnimationStateMachine.set1pAnimationSpeed Ub_Liedl44 0.20
+AnimationStateMachine.set1pAnimationSpeed Ub_LieForwarddl44 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_LieBackwarddl44 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_LieTurnLeftdl44 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_LieTurnRightdl44 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_LieStrafeLeftdl44 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_LieStrafeRightdl44 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_RunStandToLiedl44 1.50
+AnimationStateMachine.set1pAnimationSpeed Ub_StandReloaddl44 0.21
+AnimationStateMachine.set1pAnimationSpeed Ub_LieReloaddl44 0.21
+AnimationStateMachine.set1pAnimationSpeed Ub_StandRaiseWeapondl44 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchRaiseWeapondl44 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_LieRaiseWeapondl44 1.00
+
+rem *****dl44 3rd Person Animation Tweaking
+AnimationStateMachine.set3pAnimationSpeed Ub_Standdl44 0.60
+AnimationStateMachine.set3pAnimationSpeed Ub_Turndl44 1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_StandAimdl44 0.80
+AnimationStateMachine.set3pAnimationSpeed Ub_WalkForwarddl44 1.0
+AnimationStateMachine.set3pAnimationSpeed Ub_WalkBackwarddl44 -1.0
+AnimationStateMachine.set3pAnimationSpeed Ub_RunForwarddl44 1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_RunBackwarddl44 -1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_StrafeLeftdl44 1.30
+AnimationStateMachine.set3pAnimationSpeed Ub_StrafeRightdl44 1.30
+AnimationStateMachine.set3pAnimationSpeed Ub_StandJumpdl44 1.10
+AnimationStateMachine.set3pAnimationSpeed Ub_RunJumpdl44 1.22
+AnimationStateMachine.set3pAnimationSpeed Ub_Firedl44 2.43
+AnimationStateMachine.set3pAnimationSpeed Ub_LieFiredl44 2.43
+AnimationStateMachine.set3pAnimationSpeed Ub_Idledl441 0.50
+AnimationStateMachine.set3pAnimationSpeed Ub_Idledl442 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_Idledl443 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchIdledl441 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchIdledl442 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchIdledl443 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_Crouchdl44 0.80
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchTurndl44 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchForwarddl44 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchBackwarddl44 -1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchStrafeLeftdl44 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchStrafeRightdl44 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchToLiedl44 1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_LieToCrouchdl44 -2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieToStanddl44 -3.00
+AnimationStateMachine.set3pAnimationSpeed Ub_Liedl44 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieForwarddl44 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieBackwarddl44 -0.80
+AnimationStateMachine.set3pAnimationSpeed Ub_LieTurnLeftdl44 2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieTurnRightdl44 2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieStrafeLeftdl44 2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieStrafeRightdl44 2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_RunStandToLiedl44 1.40
+AnimationStateMachine.set3pAnimationSpeed Ub_StandReloaddl44 0.47
+AnimationStateMachine.set3pAnimationSpeed Ub_LieReloaddl44 0.53
+AnimationStateMachine.set3pAnimationSpeed Ub_StandRaiseWeapondl44 -1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchRaiseWeapondl44 -1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_LieRaiseWeapondl44 -1.60
+
+rem *****dl44 Misc. Animation Tweaks
+AnimationStateMachine.set3pAnimationSpeed WeaponReloaddl44 0.21
+
+
+rem *****speederpistol 1st Person Animation Tweaks
+
+AnimationStateMachine.set1pAnimationSpeed Ub_Standspeederpistol 0.20
+AnimationStateMachine.set1pAnimationSpeed Ub_Turnspeederpistol 0.70
+AnimationStateMachine.set1pAnimationSpeed Ub_StandAimspeederpistol 0.33
+AnimationStateMachine.set1pAnimationSpeed Ub_WalkForwardspeederpistol 0.50
+AnimationStateMachine.set1pAnimationSpeed Ub_WalkBackwardspeederpistol 0.50
+AnimationStateMachine.set1pAnimationSpeed Ub_RunForwardspeederpistol 1.40
+AnimationStateMachine.set1pAnimationSpeed Ub_RunBackwardspeederpistol 1.36
+AnimationStateMachine.set1pAnimationSpeed Ub_StrafeLeftspeederpistol 1.40
+AnimationStateMachine.set1pAnimationSpeed Ub_StrafeRightspeederpistol 1.35
+AnimationStateMachine.set1pAnimationSpeed Ub_StandJumpspeederpistol 0.40
+AnimationStateMachine.set1pAnimationSpeed Ub_RunJumpspeederpistol 1.20
+AnimationStateMachine.set1pAnimationSpeed Ub_Firespeederpistol 2.0
+AnimationStateMachine.set1pAnimationSpeed Ub_LieFirespeederpistol 2.0
+AnimationStateMachine.set1pAnimationSpeed Ub_Idlespeederpistol1 0.52
+AnimationStateMachine.set1pAnimationSpeed Ub_Idlespeederpistol2 0.39
+AnimationStateMachine.set1pAnimationSpeed Ub_Idlespeederpistol3 0.50
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchIdlespeederpistol1 0.52
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchIdlespeederpistol2 0.39
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchIdlespeederpistol3 0.50
+AnimationStateMachine.set1pAnimationSpeed Ub_Crouchspeederpistol 0.33
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchTurnspeederpistol 0.50
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchForwardspeederpistol 0.86
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchBackwardspeederpistol 0.86
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchStrafeLeftspeederpistol 0.86
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchStrafeRightspeederpistol 0.86
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchToLiespeederpistol 0.60
+AnimationStateMachine.set1pAnimationSpeed Ub_LieToCrouchspeederpistol 0.60
+AnimationStateMachine.set1pAnimationSpeed Ub_LieToStandspeederpistol 0.60
+AnimationStateMachine.set1pAnimationSpeed Ub_Liespeederpistol 0.20
+AnimationStateMachine.set1pAnimationSpeed Ub_LieForwardspeederpistol 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_LieBackwardspeederpistol 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_LieTurnLeftspeederpistol 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_LieTurnRightspeederpistol 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_LieStrafeLeftspeederpistol 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_LieStrafeRightspeederpistol 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_RunStandToLiespeederpistol 1.50
+AnimationStateMachine.set1pAnimationSpeed Ub_StandReloadspeederpistol 0.21
+AnimationStateMachine.set1pAnimationSpeed Ub_LieReloadspeederpistol 0.21
+AnimationStateMachine.set1pAnimationSpeed Ub_StandRaiseWeaponspeederpistol 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchRaiseWeaponspeederpistol 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_LieRaiseWeaponspeederpistol 1.00
+
+rem *****speederpistol 3rd Person Animation Tweaking
+AnimationStateMachine.set3pAnimationSpeed Ub_Standspeederpistol 0.60
+AnimationStateMachine.set3pAnimationSpeed Ub_Turnspeederpistol 1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_StandAimspeederpistol 0.80
+AnimationStateMachine.set3pAnimationSpeed Ub_WalkForwardspeederpistol 1.0
+AnimationStateMachine.set3pAnimationSpeed Ub_WalkBackwardspeederpistol -1.0
+AnimationStateMachine.set3pAnimationSpeed Ub_RunForwardspeederpistol 1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_RunBackwardspeederpistol -1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_StrafeLeftspeederpistol 1.30
+AnimationStateMachine.set3pAnimationSpeed Ub_StrafeRightspeederpistol 1.30
+AnimationStateMachine.set3pAnimationSpeed Ub_StandJumpspeederpistol 1.10
+AnimationStateMachine.set3pAnimationSpeed Ub_RunJumpspeederpistol 1.22
+AnimationStateMachine.set3pAnimationSpeed Ub_Firespeederpistol 2.43
+AnimationStateMachine.set3pAnimationSpeed Ub_LieFirespeederpistol 2.43
+AnimationStateMachine.set3pAnimationSpeed Ub_Idlespeederpistol1 0.50
+AnimationStateMachine.set3pAnimationSpeed Ub_Idlespeederpistol2 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_Idlespeederpistol3 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchIdlespeederpistol1 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchIdlespeederpistol2 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchIdlespeederpistol3 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_Crouchspeederpistol 0.80
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchTurnspeederpistol 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchForwardspeederpistol 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchBackwardspeederpistol -1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchStrafeLeftspeederpistol 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchStrafeRightspeederpistol 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchToLiespeederpistol 1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_LieToCrouchspeederpistol -2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieToStandspeederpistol -3.00
+AnimationStateMachine.set3pAnimationSpeed Ub_Liespeederpistol 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieForwardspeederpistol 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieBackwardspeederpistol -0.80
+AnimationStateMachine.set3pAnimationSpeed Ub_LieTurnLeftspeederpistol 2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieTurnRightspeederpistol 2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieStrafeLeftspeederpistol 2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieStrafeRightspeederpistol 2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_RunStandToLiespeederpistol 1.40
+AnimationStateMachine.set3pAnimationSpeed Ub_StandReloadspeederpistol 0.47
+AnimationStateMachine.set3pAnimationSpeed Ub_LieReloadspeederpistol 0.53
+AnimationStateMachine.set3pAnimationSpeed Ub_StandRaiseWeaponspeederpistol -1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchRaiseWeaponspeederpistol -1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_LieRaiseWeaponspeederpistol -1.60
+
+rem *****speederpistol Misc. Animation Tweaks
+AnimationStateMachine.set3pAnimationSpeed WeaponReloadspeederpistol 0.21
+
+rem **********a295 1st Person Animation Tweaks
+AnimationStateMachine.set1pAnimationSpeed Ub_Standa295 0.20
+AnimationStateMachine.set1pAnimationSpeed Ub_Turna295 0.70
+AnimationStateMachine.set1pAnimationSpeed Ub_StandAima295 0.44
+AnimationStateMachine.set1pAnimationSpeed Ub_WalkForwarda295 0.50
+AnimationStateMachine.set1pAnimationSpeed Ub_WalkBackwarda295 0.50
+AnimationStateMachine.set1pAnimationSpeed Ub_RunForwarda295 1.49
+AnimationStateMachine.set1pAnimationSpeed Ub_RunBackwarda295 1.46
+AnimationStateMachine.set1pAnimationSpeed Ub_StrafeLefta295 1.47
+AnimationStateMachine.set1pAnimationSpeed Ub_StrafeRighta295 1.45
+AnimationStateMachine.set1pAnimationSpeed Ub_StandJumpa295 0.40
+AnimationStateMachine.set1pAnimationSpeed Ub_RunJumpa295 1.20
+AnimationStateMachine.set1pAnimationSpeed Ub_Firea295 2.37
+AnimationStateMachine.set1pAnimationSpeed Ub_FireEnda295 1.4
+AnimationStateMachine.set1pAnimationSpeed Ub_LieFirea295 2.37
+AnimationStateMachine.set1pAnimationSpeed Ub_LieFireEnda295 1.4
+AnimationStateMachine.set1pAnimationSpeed Ub_Idlea2951 0.20
+AnimationStateMachine.set1pAnimationSpeed Ub_Idlea2952 0.71
+AnimationStateMachine.set1pAnimationSpeed Ub_Idlea2953 0.41
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchIdlea2951 0.20
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchIdlea2952 0.71
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchIdlea2953 0.41
+AnimationStateMachine.set1pAnimationSpeed Ub_Croucha295 0.44
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchTurna295 0.50
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchForwarda295 0.95
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchBackwarda295 0.95
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchStrafeLefta295 0.95
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchStrafeRighta295 0.95
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchToLiea295 0.60
+AnimationStateMachine.set1pAnimationSpeed Ub_LieToCroucha295 0.60
+AnimationStateMachine.set1pAnimationSpeed Ub_LieToStanda295 0.60
+AnimationStateMachine.set1pAnimationSpeed Ub_Liea295 0.44
+AnimationStateMachine.set1pAnimationSpeed Ub_LieForwarda295 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_LieBackwarda295 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_LieTurnLefta295 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_LieTurnRighta295 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_LieStrafeLefta295 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_LieStrafeRighta295 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_RunStandToLiea295 1.50
+AnimationStateMachine.set1pAnimationSpeed Ub_StandReloada295 0.28
+AnimationStateMachine.set1pAnimationSpeed Ub_LieReloada295 0.28
+AnimationStateMachine.set1pAnimationSpeed Ub_StandRaiseWeapona295 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchRaiseWeapona295 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_LieRaiseWeapona295 1.00
+
+rem *****a295 3rd Person Animation Tweaks
+AnimationStateMachine.set3pAnimationSpeed Ub_Standa295 0.60
+AnimationStateMachine.set3pAnimationSpeed Ub_Turna295 1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_StandAima295 0.80
+AnimationStateMachine.set3pAnimationSpeed Ub_WalkForwarda295 1.0
+AnimationStateMachine.set3pAnimationSpeed Ub_WalkBackwarda295 -1.0
+AnimationStateMachine.set3pAnimationSpeed Ub_RunForwarda295 1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_RunBackwarda295 -1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_StrafeLefta295 1.30
+AnimationStateMachine.set3pAnimationSpeed Ub_StrafeRighta295 1.30
+AnimationStateMachine.set3pAnimationSpeed Ub_StandJumpa295 1.10
+AnimationStateMachine.set3pAnimationSpeed Ub_RunJumpa295 1.22
+AnimationStateMachine.set3pAnimationSpeed Ub_Firea295 2.37
+AnimationStateMachine.set3pAnimationSpeed Ub_FireEnda295 1.4
+AnimationStateMachine.set3pAnimationSpeed Ub_LieFirea295 2.37
+AnimationStateMachine.set3pAnimationSpeed Ub_LieFireEnda295 1.4
+AnimationStateMachine.set3pAnimationSpeed Ub_Idlea2951 0.50
+AnimationStateMachine.set3pAnimationSpeed Ub_Idlea2952 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_Idlea2953 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchIdlea2951 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchIdlea2952 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchIdlea2953 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_Croucha295 0.80
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchTurna295 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchForwarda295 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchBackwarda295 -1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchStrafeLefta295 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchStrafeRighta295 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchToLiea295 1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_LieToCroucha295 -2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieToStanda295 -3.00
+AnimationStateMachine.set3pAnimationSpeed Ub_Liea295 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieForwarda295 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieBackwarda295 -0.80
+AnimationStateMachine.set3pAnimationSpeed Ub_LieTurnLefta295 2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieTurnRighta295 2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieStrafeLefta295 2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieStrafeRighta295 2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_RunStandToLiea295 1.40
+AnimationStateMachine.set3pAnimationSpeed Ub_StandReloada295 0.53 
+AnimationStateMachine.set3pAnimationSpeed Ub_LieReloada295 0.55
+AnimationStateMachine.set3pAnimationSpeed Ub_StandRaiseWeapona295 -1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchRaiseWeapona295 -1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_LieRaiseWeapona295 -1.60
+
+rem *****a295 Misc Animation Tweaks
+AnimationStateMachine.set3pAnimationSpeed WeaponReloada295 0.28
+
+rem **********e-11 1st Person Animation Tweaks
+AnimationStateMachine.set1pAnimationSpeed Ub_Stande-11 0.20
+AnimationStateMachine.set1pAnimationSpeed Ub_Turne-11 0.70
+AnimationStateMachine.set1pAnimationSpeed Ub_StandAime-11 0.44
+AnimationStateMachine.set1pAnimationSpeed Ub_WalkForwarde-11 0.50
+AnimationStateMachine.set1pAnimationSpeed Ub_WalkBackwarde-11 0.50
+AnimationStateMachine.set1pAnimationSpeed Ub_RunForwarde-11 1.49
+AnimationStateMachine.set1pAnimationSpeed Ub_RunBackwarde-11 1.46
+AnimationStateMachine.set1pAnimationSpeed Ub_StrafeLefte-11 1.47
+AnimationStateMachine.set1pAnimationSpeed Ub_StrafeRighte-11 1.45
+AnimationStateMachine.set1pAnimationSpeed Ub_StandJumpe-11 0.40
+AnimationStateMachine.set1pAnimationSpeed Ub_RunJumpe-11 1.20
+AnimationStateMachine.set1pAnimationSpeed Ub_Firee-11 7
+AnimationStateMachine.set1pAnimationSpeed Ub_FireEnde-11 2
+AnimationStateMachine.set1pAnimationSpeed Ub_LieFiree-11 7
+AnimationStateMachine.set1pAnimationSpeed Ub_LieFireEnde-11 2
+AnimationStateMachine.set1pAnimationSpeed Ub_Idlee-111 0.20
+AnimationStateMachine.set1pAnimationSpeed Ub_Idlee-112 0.71
+AnimationStateMachine.set1pAnimationSpeed Ub_Idlee-113 0.41
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchIdlee-111 0.20
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchIdlee-112 0.71
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchIdlee-113 0.41
+AnimationStateMachine.set1pAnimationSpeed Ub_Crouche-11 0.44
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchTurne-11 0.50
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchForwarde-11 0.95
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchBackwarde-11 0.95
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchStrafeLefte-11 0.95
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchStrafeRighte-11 0.95
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchToLiee-11 0.60
+AnimationStateMachine.set1pAnimationSpeed Ub_LieToCrouche-11 0.60
+AnimationStateMachine.set1pAnimationSpeed Ub_LieToStande-11 0.60
+AnimationStateMachine.set1pAnimationSpeed Ub_Liee-11 0.44
+AnimationStateMachine.set1pAnimationSpeed Ub_LieForwarde-11 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_LieBackwarde-11 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_LieTurnLefte-11 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_LieTurnRighte-11 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_LieStrafeLefte-11 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_LieStrafeRighte-11 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_RunStandToLiee-11 1.50
+AnimationStateMachine.set1pAnimationSpeed Ub_StandReloade-11 0.28
+AnimationStateMachine.set1pAnimationSpeed Ub_LieReloade-11 0.28
+AnimationStateMachine.set1pAnimationSpeed Ub_StandRaiseWeapone-11 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchRaiseWeapone-11 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_LieRaiseWeapone-11 1.00
+
+rem *****e-11 3rd Person Animation Tweaks
+AnimationStateMachine.set3pAnimationSpeed Ub_Stande-11 0.60
+AnimationStateMachine.set3pAnimationSpeed Ub_Turne-11 1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_StandAime-11 0.80
+AnimationStateMachine.set3pAnimationSpeed Ub_WalkForwarde-11 1.0
+AnimationStateMachine.set3pAnimationSpeed Ub_WalkBackwarde-11 -1.0
+AnimationStateMachine.set3pAnimationSpeed Ub_RunForwarde-11 1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_RunBackwarde-11 -1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_StrafeLefte-11 1.30
+AnimationStateMachine.set3pAnimationSpeed Ub_StrafeRighte-11 1.30
+AnimationStateMachine.set3pAnimationSpeed Ub_StandJumpe-11 1.10
+AnimationStateMachine.set3pAnimationSpeed Ub_RunJumpe-11 1.22
+AnimationStateMachine.set3pAnimationSpeed Ub_Firee-11 7
+AnimationStateMachine.set3pAnimationSpeed Ub_FireEnde-11 4
+AnimationStateMachine.set3pAnimationSpeed Ub_LieFiree-11 7
+AnimationStateMachine.set3pAnimationSpeed Ub_LieFireEnde-11 4
+AnimationStateMachine.set3pAnimationSpeed Ub_Idlee-111 0.50
+AnimationStateMachine.set3pAnimationSpeed Ub_Idlee-112 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_Idlee-113 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchIdlee-111 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchIdlee-112 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchIdlee-113 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_Crouche-11 0.80
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchTurne-11 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchForwarde-11 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchBackwarde-11 -1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchStrafeLefte-11 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchStrafeRighte-11 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchToLiee-11 1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_LieToCrouche-11 -2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieToStande-11 -3.00
+AnimationStateMachine.set3pAnimationSpeed Ub_Liee-11 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieForwarde-11 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieBackwarde-11 -0.80
+AnimationStateMachine.set3pAnimationSpeed Ub_LieTurnLefte-11 2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieTurnRighte-11 2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieStrafeLefte-11 2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieStrafeRighte-11 2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_RunStandToLiee-11 1.40
+AnimationStateMachine.set3pAnimationSpeed Ub_StandReloade-11 0.53 
+AnimationStateMachine.set3pAnimationSpeed Ub_LieReloade-11 0.55
+AnimationStateMachine.set3pAnimationSpeed Ub_StandRaiseWeapone-11 -1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchRaiseWeapone-11 -1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_LieRaiseWeapone-11 -1.60
+
+rem *****e-11 Misc Animation Tweaks
+AnimationStateMachine.set3pAnimationSpeed WeaponReloade-11 0.28
+
+
+
+
+rem ****a295 
+
+AnimationStateMachine.setactiveState Ub_Firea295
+AnimationStateMachine.setCameraShakeRoll 0 0.25 800.0
+AnimationStateMachine.setCameraShakePitch 0 0.10 900.0
+AnimationStateMachine.setCameraShakeYaw 0 0.10 700.0
+AnimationStateMachine.setCameraShakeLeftRight 0 0.01 2000
+AnimationStateMachine.setCameraShakeInOut 0 0.01 2000
+
+AnimationStateMachine.setactiveState Ub_LieFirea295
+AnimationStateMachine.setCameraShakeRoll 0 0.25 800.0
+AnimationStateMachine.setCameraShakePitch 0 0.10 900.0
+AnimationStateMachine.setCameraShakeYaw 0 0.10 700.0
+AnimationStateMachine.setCameraShakeLeftRight 0 0.01 2000
+AnimationStateMachine.setCameraShakeInOut 0 0.01 2000
+
+AnimationStateMachine.setActiveState Ub_StandAima295
+AnimationStateMachine.clearAllIdles
+AnimationStateMachine.setCameraShakePitch 0 0.25 1.5
+AnimationStateMachine.setCameraShakeYaw 0 0.2 0.5
+AnimationStateMachine.setCameraShakeMinFactor 0 0.075
+AnimationStateMachine.setCameraShakeFadeOut 0 0.25
+
+AnimationStateMachine.setActiveState Ub_Croucha295 
+AnimationStateMachine.clearAllIdles
+AnimationStateMachine.setCameraShakePitch 0 0.20 1.5
+AnimationStateMachine.setCameraShakeYaw 0 0.15 0.5
+AnimationStateMachine.setCameraShakeMinFactor 0 0.075
+AnimationStateMachine.setCameraShakeFadeOut 0 0.25
+
+AnimationStateMachine.setActiveState Ub_Liea295 
+AnimationStateMachine.clearAllIdles
+AnimationStateMachine.setCameraShakePitch 0 0.15 1.5
+AnimationStateMachine.setCameraShakeYaw 0 0.10 0.5
+AnimationStateMachine.setCameraShakeMinFactor 0 0.075
+AnimationStateMachine.setCameraShakeFadeOut 0 0.25
+
+AnimationStateMachine.setactiveState Ub_Firee-11
+AnimationStateMachine.setCameraShakeRoll 0 0.25 800.0
+AnimationStateMachine.setCameraShakePitch 0 0.10 900.0
+AnimationStateMachine.setCameraShakeYaw 0 0.10 700.0
+AnimationStateMachine.setCameraShakeLeftRight 0 0.01 2000
+AnimationStateMachine.setCameraShakeInOut 0 0.01 2000
+
+AnimationStateMachine.setactiveState Ub_LieFiree-11
+AnimationStateMachine.setCameraShakeRoll 0 0.25 800.0
+AnimationStateMachine.setCameraShakePitch 0 0.10 900.0
+AnimationStateMachine.setCameraShakeYaw 0 0.10 700.0
+AnimationStateMachine.setCameraShakeLeftRight 0 0.01 2000
+AnimationStateMachine.setCameraShakeInOut 0 0.01 2000
+
+AnimationStateMachine.setActiveState Ub_StandAime-11
+AnimationStateMachine.clearAllIdles
+AnimationStateMachine.setCameraShakePitch 0 0.25 1.5
+AnimationStateMachine.setCameraShakeYaw 0 0.2 0.5
+AnimationStateMachine.setCameraShakeMinFactor 0 0.075
+AnimationStateMachine.setCameraShakeFadeOut 0 0.25
+
+AnimationStateMachine.setActiveState Ub_Crouche-11 
+AnimationStateMachine.clearAllIdles
+AnimationStateMachine.setCameraShakePitch 0 0.20 1.5
+AnimationStateMachine.setCameraShakeYaw 0 0.15 0.5
+AnimationStateMachine.setCameraShakeMinFactor 0 0.075
+AnimationStateMachine.setCameraShakeFadeOut 0 0.25
+
+AnimationStateMachine.setActiveState Ub_Liee-11 
+AnimationStateMachine.clearAllIdles
+AnimationStateMachine.setCameraShakePitch 0 0.15 1.5
+AnimationStateMachine.setCameraShakeYaw 0 0.10 0.5
+AnimationStateMachine.setCameraShakeMinFactor 0 0.075
+AnimationStateMachine.setCameraShakeFadeOut 0 0.25
+
+AnimationStateMachine.setActiveState Ub_Firedh17
+AnimationStateMachine.setCameraShakePitch 0 4.0 10
+AnimationStateMachine.setCameraShakeFadeOut 0 4.0
+AnimationStateMachine.setCameraShakePitch 1 0.1 1.0
+AnimationStateMachine.setCameraShakeYaw 1 -0.03 2.3
+
+AnimationStateMachine.setActiveState Ub_LieFiredh17
+AnimationStateMachine.setCameraShakePitch 0 4.0 10
+AnimationStateMachine.setCameraShakeFadeOut 0 4.0
+AnimationStateMachine.setCameraShakePitch 1 0.1 1.0
+AnimationStateMachine.setCameraShakeYaw 1 -0.03 2.3
+
+AnimationStateMachine.setActiveState Ub_StandAimdh17 
+AnimationStateMachine.clearAllIdles
+AnimationStateMachine.setCameraShakePitch 0 0.25 1.5
+AnimationStateMachine.setCameraShakeYaw 0 0.2 0.5
+AnimationStateMachine.setCameraShakeMinFactor 0 0.075
+AnimationStateMachine.setCameraShakeFadeOut 0 0.25
+
+AnimationStateMachine.setActiveState Ub_Crouchdh17 
+AnimationStateMachine.clearAllIdles
+AnimationStateMachine.setCameraShakePitch 0 0.20 1.5
+AnimationStateMachine.setCameraShakeYaw 0 0.15 0.5
+AnimationStateMachine.setCameraShakeMinFactor 0 0.075
+AnimationStateMachine.setCameraShakeFadeOut 0 0.25
+
+AnimationStateMachine.setActiveState Ub_Liedh17 
+AnimationStateMachine.clearAllIdles
+AnimationStateMachine.setCameraShakePitch 0 0.15 1.5
+AnimationStateMachine.setCameraShakeYaw 0 0.10 0.5
+AnimationStateMachine.setCameraShakeMinFactor 0 0.075
+AnimationStateMachine.setCameraShakeFadeOut 0 0.25
+
+AnimationStateMachine.setActiveState Ub_Firedl44
+AnimationStateMachine.setCameraShakePitch 0 2.0 10
+AnimationStateMachine.setCameraShakeFadeOut 0 4.0
+AnimationStateMachine.setCameraShakePitch 1 0.1 1.0
+AnimationStateMachine.setCameraShakeYaw 1 -0.03 2.3
+
+AnimationStateMachine.setActiveState Ub_LieFiredl44
+AnimationStateMachine.setCameraShakePitch 0 2.0 10
+AnimationStateMachine.setCameraShakeFadeOut 0 4.0
+AnimationStateMachine.setCameraShakePitch 1 0.1 1.0
+AnimationStateMachine.setCameraShakeYaw 1 -0.03 2.3
+
+AnimationStateMachine.setActiveState Ub_StandAimdl44 
+AnimationStateMachine.clearAllIdles
+AnimationStateMachine.setCameraShakePitch 0 0.25 1.5
+AnimationStateMachine.setCameraShakeYaw 0 0.2 0.5
+AnimationStateMachine.setCameraShakeMinFactor 0 0.075
+AnimationStateMachine.setCameraShakeFadeOut 0 0.25
+
+AnimationStateMachine.setActiveState Ub_Crouchdl44
+AnimationStateMachine.clearAllIdles
+AnimationStateMachine.setCameraShakePitch 0 0.20 1.5
+AnimationStateMachine.setCameraShakeYaw 0 0.15 0.5
+AnimationStateMachine.setCameraShakeMinFactor 0 0.075
+AnimationStateMachine.setCameraShakeFadeOut 0 0.25
+
+AnimationStateMachine.setActiveState Ub_Liedl44
+AnimationStateMachine.clearAllIdles
+AnimationStateMachine.setCameraShakePitch 0 0.15 1.5
+AnimationStateMachine.setCameraShakeYaw 0 0.10 0.5
+AnimationStateMachine.setCameraShakeMinFactor 0 0.075
+AnimationStateMachine.setCameraShakeFadeOut 0 0.25
+
+
+rem **********tracker16 1st Person Animation Tweaks
+AnimationStateMachine.set1pAnimationSpeed Ub_Standtracker16 0.20
+AnimationStateMachine.set1pAnimationSpeed Ub_Turntracker16 0.70
+AnimationStateMachine.set1pAnimationSpeed Ub_StandAimtracker16 0.44
+AnimationStateMachine.set1pAnimationSpeed Ub_WalkForwardtracker16 0.50
+AnimationStateMachine.set1pAnimationSpeed Ub_WalkBackwardtracker16 0.50
+AnimationStateMachine.set1pAnimationSpeed Ub_RunForwardtracker16 1.49
+AnimationStateMachine.set1pAnimationSpeed Ub_RunBackwardtracker16 1.46
+AnimationStateMachine.set1pAnimationSpeed Ub_StrafeLefttracker16 1.47
+AnimationStateMachine.set1pAnimationSpeed Ub_StrafeRighttracker16 1.45
+AnimationStateMachine.set1pAnimationSpeed Ub_StandJumptracker16 0.40
+AnimationStateMachine.set1pAnimationSpeed Ub_RunJumptracker16 1.20
+AnimationStateMachine.set1pAnimationSpeed Ub_Firetracker16 3.77
+AnimationStateMachine.set1pAnimationSpeed Ub_FireEndtracker16 1.04
+AnimationStateMachine.set1pAnimationSpeed Ub_LieFiretracker16 3.77
+AnimationStateMachine.set1pAnimationSpeed Ub_LieFireEndtracker16 1.04
+AnimationStateMachine.set1pAnimationSpeed Ub_Idletracker161 0.20
+AnimationStateMachine.set1pAnimationSpeed Ub_Idletracker162 0.71
+AnimationStateMachine.set1pAnimationSpeed Ub_Idletracker163 0.41
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchIdletracker161 0.20
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchIdletracker162 0.71
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchIdletracker163 0.41
+AnimationStateMachine.set1pAnimationSpeed Ub_Crouchtracker16 0.44
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchTurntracker16 0.50
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchForwardtracker16 0.95
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchBackwardtracker16 0.95
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchStrafeLefttracker16 0.95
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchStrafeRighttracker16 0.95
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchToLietracker16 0.60
+AnimationStateMachine.set1pAnimationSpeed Ub_LieToCrouchtracker16 0.60
+AnimationStateMachine.set1pAnimationSpeed Ub_LieToStandtracker16 0.60
+AnimationStateMachine.set1pAnimationSpeed Ub_Lietracker16 0.44
+AnimationStateMachine.set1pAnimationSpeed Ub_LieForwardtracker16 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_LieBackwardtracker16 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_LieTurnLefttracker16 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_LieTurnRighttracker16 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_LieStrafeLefttracker16 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_LieStrafeRighttracker16 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_RunStandToLietracker16 1.50
+AnimationStateMachine.set1pAnimationSpeed Ub_StandReloadtracker16 0.28
+AnimationStateMachine.set1pAnimationSpeed Ub_LieReloadtracker16 0.28
+AnimationStateMachine.set1pAnimationSpeed Ub_StandRaiseWeapontracker16 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchRaiseWeapontracker16 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_LieRaiseWeapontracker16 1.00
+
+rem *****tracker16 3rd Person Animation Tweaks
+AnimationStateMachine.set3pAnimationSpeed Ub_Standtracker16 0.60
+AnimationStateMachine.set3pAnimationSpeed Ub_Turntracker16 1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_StandAimtracker16 0.80
+AnimationStateMachine.set3pAnimationSpeed Ub_WalkForwardtracker16 1.0
+AnimationStateMachine.set3pAnimationSpeed Ub_WalkBackwardtracker16 -1.0
+AnimationStateMachine.set3pAnimationSpeed Ub_RunForwardtracker16 1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_RunBackwardtracker16 -1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_StrafeLefttracker16 1.30
+AnimationStateMachine.set3pAnimationSpeed Ub_StrafeRighttracker16 1.30
+AnimationStateMachine.set3pAnimationSpeed Ub_StandJumptracker16 1.10
+AnimationStateMachine.set3pAnimationSpeed Ub_RunJumptracker16 1.22
+AnimationStateMachine.set3pAnimationSpeed Ub_Firetracker16 5.00
+AnimationStateMachine.set3pAnimationSpeed Ub_FireEndtracker16 2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieFiretracker16 5.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieFireEndtracker16 2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_Idletracker161 0.50
+AnimationStateMachine.set3pAnimationSpeed Ub_Idletracker162 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_Idletracker163 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchIdletracker161 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchIdletracker162 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchIdletracker163 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_Crouchtracker16 0.80
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchTurntracker16 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchForwardtracker16 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchBackwardtracker16 -1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchStrafeLefttracker16 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchStrafeRighttracker16 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchToLietracker16 1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_LieToCrouchtracker16 -2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieToStandtracker16 -3.00
+AnimationStateMachine.set3pAnimationSpeed Ub_Lietracker16 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieForwardtracker16 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieBackwardtracker16 -0.80
+AnimationStateMachine.set3pAnimationSpeed Ub_LieTurnLefttracker16 2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieTurnRighttracker16 2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieStrafeLefttracker16 2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieStrafeRighttracker16 2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_RunStandToLietracker16 1.40
+AnimationStateMachine.set3pAnimationSpeed Ub_StandReloadtracker16 0.53 
+AnimationStateMachine.set3pAnimationSpeed Ub_LieReloadtracker16 0.55
+AnimationStateMachine.set3pAnimationSpeed Ub_StandRaiseWeapontracker16 -1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchRaiseWeapontracker16 -1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_LieRaiseWeapontracker16 -1.60
+
+rem *****tracker16 Misc Animation Tweaks
+AnimationStateMachine.set3pAnimationSpeed WeaponReloadtracker16 0.28
+
+
+rem **********TL-21 1st Person Animation Tweaks
+AnimationStateMachine.set1pAnimationSpeed Ub_StandTL-21 0.20
+AnimationStateMachine.set1pAnimationSpeed Ub_TurnTL-21 0.70
+AnimationStateMachine.set1pAnimationSpeed Ub_StandAimTL-21 0.44
+AnimationStateMachine.set1pAnimationSpeed Ub_WalkForwardTL-21 0.50
+AnimationStateMachine.set1pAnimationSpeed Ub_WalkBackwardTL-21 0.50
+AnimationStateMachine.set1pAnimationSpeed Ub_RunForwardTL-21 1.49
+AnimationStateMachine.set1pAnimationSpeed Ub_RunBackwardTL-21 1.46
+AnimationStateMachine.set1pAnimationSpeed Ub_StrafeLeftTL-21 1.47
+AnimationStateMachine.set1pAnimationSpeed Ub_StrafeRightTL-21 1.45
+AnimationStateMachine.set1pAnimationSpeed Ub_StandJumpTL-21 0.40
+AnimationStateMachine.set1pAnimationSpeed Ub_RunJumpTL-21 1.20
+AnimationStateMachine.set1pAnimationSpeed Ub_FireTL-21 3.77
+AnimationStateMachine.set1pAnimationSpeed Ub_FireEndTL-21 1.04
+AnimationStateMachine.set1pAnimationSpeed Ub_LieFireTL-21 3.77
+AnimationStateMachine.set1pAnimationSpeed Ub_LieFireEndTL-21 1.04
+AnimationStateMachine.set1pAnimationSpeed Ub_IdleTL-211 0.20
+AnimationStateMachine.set1pAnimationSpeed Ub_IdleTL-212 0.71
+AnimationStateMachine.set1pAnimationSpeed Ub_IdleTL-213 0.41
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchIdleTL-211 0.20
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchIdleTL-212 0.71
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchIdleTL-213 0.41
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchTL-21 0.44
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchTurnTL-21 0.50
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchForwardTL-21 0.95
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchBackwardTL-21 0.95
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchStrafeLeftTL-21 0.95
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchStrafeRightTL-21 0.95
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchToLieTL-21 0.60
+AnimationStateMachine.set1pAnimationSpeed Ub_LieToCrouchTL-21 0.60
+AnimationStateMachine.set1pAnimationSpeed Ub_LieToStandTL-21 0.60
+AnimationStateMachine.set1pAnimationSpeed Ub_LieTL-21 0.44
+AnimationStateMachine.set1pAnimationSpeed Ub_LieForwardTL-21 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_LieBackwardTL-21 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_LieTurnLeftTL-21 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_LieTurnRightTL-21 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_LieStrafeLeftTL-21 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_LieStrafeRightTL-21 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_RunStandToLieTL-21 1.50
+AnimationStateMachine.set1pAnimationSpeed Ub_StandReloadTL-21 0.28
+AnimationStateMachine.set1pAnimationSpeed Ub_LieReloadTL-21 0.28
+AnimationStateMachine.set1pAnimationSpeed Ub_StandRaiseWeaponTL-21 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchRaiseWeaponTL-21 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_LieRaiseWeaponTL-21 1.00
+
+rem *****TL-21 3rd Person Animation Tweaks
+AnimationStateMachine.set3pAnimationSpeed Ub_StandTL-21 0.60
+AnimationStateMachine.set3pAnimationSpeed Ub_TurnTL-21 1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_StandAimTL-21 0.80
+AnimationStateMachine.set3pAnimationSpeed Ub_WalkForwardTL-21 1.0
+AnimationStateMachine.set3pAnimationSpeed Ub_WalkBackwardTL-21 -1.0
+AnimationStateMachine.set3pAnimationSpeed Ub_RunForwardTL-21 1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_RunBackwardTL-21 -1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_StrafeLeftTL-21 1.30
+AnimationStateMachine.set3pAnimationSpeed Ub_StrafeRightTL-21 1.30
+AnimationStateMachine.set3pAnimationSpeed Ub_StandJumpTL-21 1.10
+AnimationStateMachine.set3pAnimationSpeed Ub_RunJumpTL-21 1.22
+AnimationStateMachine.set3pAnimationSpeed Ub_FireTL-21 5.00
+AnimationStateMachine.set3pAnimationSpeed Ub_FireEndTL-21 2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieFireTL-21 5.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieFireEndTL-21 2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_IdleTL-211 0.50
+AnimationStateMachine.set3pAnimationSpeed Ub_IdleTL-212 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_IdleTL-213 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchIdleTL-211 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchIdleTL-212 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchIdleTL-213 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchTL-21 0.80
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchTurnTL-21 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchForwardTL-21 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchBackwardTL-21 -1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchStrafeLeftTL-21 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchStrafeRightTL-21 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchToLieTL-21 1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_LieToCrouchTL-21 -2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieToStandTL-21 -3.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieTL-21 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieForwardTL-21 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieBackwardTL-21 -0.80
+AnimationStateMachine.set3pAnimationSpeed Ub_LieTurnLeftTL-21 2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieTurnRightTL-21 2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieStrafeLeftTL-21 2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieStrafeRightTL-21 2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_RunStandToLieTL-21 1.40
+AnimationStateMachine.set3pAnimationSpeed Ub_StandReloadTL-21 0.53 
+AnimationStateMachine.set3pAnimationSpeed Ub_LieReloadTL-21 0.55
+AnimationStateMachine.set3pAnimationSpeed Ub_StandRaiseWeaponTL-21 -1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchRaiseWeaponTL-21 -1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_LieRaiseWeaponTL-21 -1.60
+
+rem *****TL-21 Misc Animation Tweaks
+AnimationStateMachine.set3pAnimationSpeed WeaponReloadTL-21 0.28

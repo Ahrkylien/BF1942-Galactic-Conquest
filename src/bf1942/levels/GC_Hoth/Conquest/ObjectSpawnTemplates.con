@@ -1,0 +1,131 @@
+rem
+rem *** tiefighter-awing ***
+rem
+objecttemplate.create objectspawner tiefighter-awing
+objecttemplate.setobjecttemplate 2 awing
+objecttemplate.setobjecttemplate 1 tiefighter
+objecttemplate.minspawndelay 10
+objecttemplate.maxspawndelay 30
+objecttemplate.spawndelayatstart 0
+objecttemplate.timetolive 45
+objecttemplate.distance 40
+objecttemplate.damagewhenlost 20
+rem
+rem *** atst-atst ***
+rem
+objecttemplate.create objectspawner atst-atst
+objecttemplate.setobjecttemplate 2 
+objecttemplate.setobjecttemplate 1 atst
+objecttemplate.minspawndelay 40
+objecttemplate.maxspawndelay 80
+objecttemplate.spawndelayatstart 0
+objecttemplate.timetolive 45
+objecttemplate.distance 40
+objecttemplate.damagewhenlost 10
+rem
+rem *** atat-atat (not yet finished)***
+rem
+objecttemplate.create objectspawner atat-atat
+objecttemplate.setobjecttemplate 2 
+objecttemplate.setobjecttemplate 1 atat
+objecttemplate.minspawndelay 40
+objecttemplate.maxspawndelay 80
+objecttemplate.spawndelayatstart 0
+objecttemplate.timetolive 45
+objecttemplate.distance 40
+objecttemplate.damagewhenlost 10
+rem
+rem *** landspeeder-landspeeder (not yet finished)***
+rem
+objecttemplate.create objectspawner landspeeder-landspeeder
+objecttemplate.setobjecttemplate 2 landspeeder
+objecttemplate.setobjecttemplate 1 landspeeder
+objecttemplate.minspawndelay 10
+objecttemplate.maxspawndelay 30
+objecttemplate.spawndelayatstart 0
+objecttemplate.timetolive 45
+objecttemplate.distance 40
+objecttemplate.damagewhenlost 10
+rem
+rem *** milleniumfalcon ***
+rem
+objecttemplate.create objectspawner milleniumfalconspawner
+objecttemplate.setobjecttemplate 2 milleniumfalcon
+objecttemplate.setobjecttemplate 1 
+objecttemplate.minspawndelay 10
+objecttemplate.maxspawndelay 30
+objecttemplate.spawndelayatstart 0
+objecttemplate.timetolive 45
+objecttemplate.distance 40
+objecttemplate.damagewhenlost 20
+rem
+rem *** tiefighter-xwing ***
+rem
+objecttemplate.create objectspawner tiefighter-xwing
+objecttemplate.setobjecttemplate 2 xwing
+objecttemplate.setobjecttemplate 1 tiefighter
+objecttemplate.minspawndelay 10
+objecttemplate.maxspawndelay 30
+objecttemplate.spawndelayatstart 0
+objecttemplate.timetolive 45
+objecttemplate.distance 40
+objecttemplate.damagewhenlost 20
+rem
+rem *** tiefighter-snowspeeder ***
+rem
+objecttemplate.create objectspawner tiefighter-snowspeeder
+objecttemplate.setobjecttemplate 2 snowspeeder
+objecttemplate.setobjecttemplate 1 tiefighter
+objecttemplate.minspawndelay 10
+objecttemplate.maxspawndelay 30
+objecttemplate.spawndelayatstart 0
+objecttemplate.timetolive 45
+objecttemplate.distance 40
+objecttemplate.damagewhenlost 20
+rem
+rem *** tiebomber-snowspeeder ***
+rem
+objecttemplate.create objectspawner tiebomber-snowspeeder
+objecttemplate.setobjecttemplate 2 snowspeeder
+objecttemplate.setobjecttemplate 1 tiebomber
+objecttemplate.minspawndelay 10
+objecttemplate.maxspawndelay 30
+objecttemplate.spawndelayatstart 0
+objecttemplate.timetolive 45
+objecttemplate.distance 40
+objecttemplate.damagewhenlost 20
+
+ObjectTemplate.create ObjectSpawner APTurretspawner
+ObjectTemplate.setObjectTemplate 2 APTurret
+ObjectTemplate.setObjectTemplate 1 APTurret
+ObjectTemplate.MinSpawnDelay 10
+ObjectTemplate.MaxSpawnDelay 10
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+
+ObjectTemplate.create ObjectSpawner AVTurretspawner
+ObjectTemplate.setObjectTemplate 2 AVTurret
+ObjectTemplate.setObjectTemplate 1 AVTurret
+ObjectTemplate.MinSpawnDelay 10
+ObjectTemplate.MaxSpawnDelay 10
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+
+rem
+rem *** tiefighterspawner***
+rem
+objecttemplate.create objectspawner tiefighterspawner
+objecttemplate.setobjecttemplate 2 
+objecttemplate.setobjecttemplate 1 tiefighter
+objecttemplate.minspawndelay 10
+objecttemplate.maxspawndelay 30
+objecttemplate.spawndelayatstart 0
+objecttemplate.timetolive 45
+objecttemplate.distance 40
+objecttemplate.damagewhenlost 20
+
+

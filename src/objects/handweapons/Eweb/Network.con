@@ -1,0 +1,6 @@
+NetworkableInfo.createNewInfo eweb_BodyInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo eweb_TurretInfo
+NetworkableInfo.setPredictionMode PMLinear
+

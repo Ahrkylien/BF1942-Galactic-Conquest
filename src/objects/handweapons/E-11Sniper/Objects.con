@@ -1,0 +1,86 @@
+ObjectTemplate.create HandFireArms E-11Sniper
+ObjectTemplate.itemIndex 3
+ObjectTemplate.networkableInfo HandFireArmsInfo
+ObjectTemplate.projectileTemplate E-11sniperProjectile
+rem ObjectTemplate.setTracerTemplate Tracer_Projectile CRD_UNIFORM/2/4/0
+ObjectTemplate.projectilePosition 0/0/0
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.unZoomBetweenFireTime 0
+ObjectTemplate.useScope 1
+ObjectTemplate.setScopeIcon "imp_E-11_sniper.tga"
+ObjectTemplate.magSize 30
+ObjectTemplate.numOfMag 1
+ObjectTemplate.magType 0
+ObjectTemplate.setHasMag 0
+ObjectTemplate.fireOnce 1
+ObjectTemplate.reloadtime 0.00001
+ObjectTemplate.roundOfFire 1.0
+ObjectTemplate.GUIIndex 7
+ObjectTemplate.setHudAmmoType ATIconAndHeatBar
+ObjectTemplate.setAmmoIcon "ammo/icon_laser_64x32.dds"
+ObjectTemplate.setCrossHairType CHTCrossHair
+
+objectTemplate.aiTemplate Mp18AI
+ObjectTemplate.zoomFov 0.08
+ObjectTemplate.altFireOnce 1
+ObjectTemplate.soldierZoomFov 0.6
+ObjectTemplate.soldierZoomPosition -0.05/0.02/0.06
+ObjectTemplate.soldierCameraPosition -0.01/-0.04/0.09
+ObjectTemplate.addRootSpeed 0
+ObjectTemplate.AmmoType	1
+
+
+
+rem ObjectTemplate.autoReload 1
+Rem *** Deviation Begin *****
+
+ObjectTemplate.velocity 3000
+ObjectTemplate.setRecoilForceUp CRD_UNIFORM/8/6/0
+ObjectTemplate.setRecoilForceLeftRight CRD_UNIFORM/2/2/0
+ObjectTemplate.setHasRecoilForce 1
+ObjectTemplate.setGoBackOnRecoil 1
+
+ObjectTemplate.setFireDev 0.0 0.0 0.0
+ObjectTemplate.setDevMod 0.0 0.0 0.0
+ObjectTemplate.setMinDev 0.0
+ObjectTemplate.setTurnDev 0 0 0 0
+ObjectTemplate.setSpeedDev 0.0 0.0 0.0 0.0
+ObjectTemplate.setMiscDev 0.0 0.0 0.0
+
+Rem *** Deviation  End *****
+
+ObjectTemplate.fireInCameraDof 1
+ObjectTemplate.loadSoundScript Sounds/E-11Sniper.ssc
+
+ObjectTemplate.createSkeleton animations/e-11sniper.ske
+ObjectTemplate.useSkeletonPartAsMain thompson
+ObjectTemplate.addTemplate E-11SniperLod
+
+ObjectTemplate.addTemplate e_MuzzThomp
+ObjectTemplate.setInputId -1
+ObjectTemplate.startoneffects 0
+ObjectTemplate.setPosition 0/0.058/0.3
+ObjectTemplate.setRotation 0/0/0
+
+
+rem *** Objects ***
+
+
+ObjectTemplate.create SimpleObject E-11SniperSimple
+ObjectTemplate.geometry E-11s_m1
+
+
+ObjectTemplate.create AnimatedBundle E-11SniperComplex
+ObjectTemplate.addTemplate e-11SniperSimple
+ObjectTemplate.setPosition 0/0.01/.08
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.createSkeleton animations/E-11.ske
+
+
+ObjectTemplate.create LodObject E-11SniperLod
+ObjectTemplate.lodselector HandWeaponLodSelector
+ObjectTemplate.addTemplate E-11SniperComplex
+ObjectTemplate.addTemplate E-11SniperSimple
+ObjectTemplate.setPosition 0/0.01/.08
+
+

@@ -1,0 +1,139 @@
+rem ################################### Neko&Loop's Lasers #########################
+
+rem -------------red---------------
+
+GeometryTemplate.create StandardMesh Tlight_r1
+GeometryTemplate.file Tlight_r1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 10000
+
+GeometryTemplate.create StandardMesh Tlight_r2
+GeometryTemplate.file Tlight_r2
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 10000
+
+GeometryTemplate.create StandardMesh Tlight_r3
+GeometryTemplate.file Tlight_r3
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 10000
+
+rem --------------green------------
+
+GeometryTemplate.create StandardMesh Tlight_g1
+GeometryTemplate.file Tlight_g1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 10000
+
+GeometryTemplate.create StandardMesh Tlight_g2
+GeometryTemplate.file Tlight_g2
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 10000
+
+GeometryTemplate.create StandardMesh Tlight_g3
+GeometryTemplate.file Tlight_g3
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 10000
+
+rem ####################################################################################
+
+
+GeometryTemplate.create StandardMesh tracklight_m1
+GeometryTemplate.file tracklight_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 30
+GeometryTemplate.setLodDistance 2 50
+GeometryTemplate.setLodDistance 3 100
+GeometryTemplate.setLodDistance 4 200
+GeometryTemplate.setLodDistance 5 500
+
+GeometryTemplate.create StandardMesh TLight_m1
+GeometryTemplate.file TLight_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 10000
+
+rem ################################### LASER FILES #########################
+
+
+GeometryTemplate.create StandardMesh blaster_redlaser
+GeometryTemplate.file laserbeam_red_small
+GeometryTemplate.hasDynamicShadow 0
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+GeometryTemplate.setLodDistance 2 300
+GeometryTemplate.setLodDistance 3 400
+GeometryTemplate.setLodDistance 4 500
+GeometryTemplate.setLodDistance 5 900
+
+GeometryTemplate.create StandardMesh blaster_greenlaser
+GeometryTemplate.file laserbeam_green_small
+GeometryTemplate.hasDynamicShadow 0
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+GeometryTemplate.setLodDistance 2 300
+GeometryTemplate.setLodDistance 3 400
+GeometryTemplate.setLodDistance 4 500
+GeometryTemplate.setLodDistance 5 900
+
+GeometryTemplate.create StandardMesh red_laser
+GeometryTemplate.file laserbeam_red
+GeometryTemplate.hasDynamicShadow 0
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+GeometryTemplate.setLodDistance 2 300
+GeometryTemplate.setLodDistance 3 400
+GeometryTemplate.setLodDistance 4 500
+GeometryTemplate.setLodDistance 5 900
+
+GeometryTemplate.create StandardMesh green_laser
+GeometryTemplate.file laserbeam_green
+GeometryTemplate.hasDynamicShadow 0
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+GeometryTemplate.setLodDistance 2 300
+GeometryTemplate.setLodDistance 3 400
+GeometryTemplate.setLodDistance 4 500
+GeometryTemplate.setLodDistance 5 900
+
+rem #################################LASER FILES ##########################
+
+GeometryTemplate.create StandardMesh protontorpedo
+GeometryTemplate.file protontorpedo
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 500
+
+
+GeometryTemplate.create StandardMesh projectile_m1
+GeometryTemplate.file projectile_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 30
+GeometryTemplate.setLodDistance 2 50
+GeometryTemplate.setLodDistance 3 100
+GeometryTemplate.setLodDistance 4 200
+GeometryTemplate.setLodDistance 5 500
+
+GeometryTemplate.create StandardMesh tripod_stick_m1
+GeometryTemplate.file tripod_stick_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 25
+GeometryTemplate.setLodDistance 2 50
+GeometryTemplate.setLodDistance 3 75
+GeometryTemplate.setLodDistance 4 100
+GeometryTemplate.setLodDistance 5 200
+
+GeometryTemplate.create StandardMesh tripod_stick_2_m1
+GeometryTemplate.file tripod_stick_2_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 25
+GeometryTemplate.setLodDistance 2 50
+GeometryTemplate.setLodDistance 3 75
+GeometryTemplate.setLodDistance 4 100
+GeometryTemplate.setLodDistance 5 200
+
+GeometryTemplate.create StandardMesh tripod_stick_mg42_m1
+GeometryTemplate.file tripod_stick_mg42_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 25
+GeometryTemplate.setLodDistance 2 50
+GeometryTemplate.setLodDistance 3 75
+GeometryTemplate.setLodDistance 4 100
+GeometryTemplate.setLodDistance 5 200

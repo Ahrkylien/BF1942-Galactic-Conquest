@@ -1,0 +1,92 @@
+
+rem *** e_muzzAVTurret ***
+
+ObjectTemplate.create EffectBundle e_muzzAVTurret
+ObjectTemplate.saveInSeparateFile 1
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_muzzAVTurret_Flare
+ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.addTemplate Em_muzzAVTurret_Flash
+ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.addTemplate Em_muzzAVTurret_Glint
+ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+
+rem -------------------------------------
+
+
+rem *** Em_muzzAVTurret_Flare ***
+ObjectTemplate.create Emitter Em_muzzAVTurret_Flare
+ObjectTemplate.template Fx_muzzAVTurret_Flare
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 800
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_NONE/120/0/0
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/-5/0/0
+ObjectTemplate.startRotation CRD_NONE/1/0/0
+ObjectTemplate.addChild 1
+
+
+rem *** Fx_muzzAVTurret_Flare ***
+ObjectTemplate.create SpriteParticle Fx_muzzAVTurret_Flare
+ObjectTemplate.timeToLive CRD_NONE/0.5/0.5/0
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+ObjectTemplate.sizeOverTime 0/0.4|25/0.3|50/0.2|75/0.1|100/0
+ObjectTemplate.texture e_muz1_I
+ObjectTemplate.initRotation CRD_UNIFORM/1/180/1
+ObjectTemplate.destBlendMode BMOne
+ObjectTemplate.colorRGBAOverTime 0/255/255/128/255|21/255/128/64/200|53/128/0/0/119|60/0/0/0/101|100/0/0/0/0
+
+
+rem *** Em_muzzAVTurret_Flash ***
+ObjectTemplate.create Emitter Em_muzzAVTurret_Flash
+ObjectTemplate.template Fx_muzzAVTurret_Flash
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 800
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_NONE/10/0/0
+ObjectTemplate.positionalSpeedInDof CRD_NONE/-1/0/0
+ObjectTemplate.startRotation CRD_NONE/1/0/0
+ObjectTemplate.addChild 1
+
+
+rem *** Fx_muzzAVTurret_Flash ***
+ObjectTemplate.create SpriteParticle Fx_muzzAVTurret_Flash
+ObjectTemplate.timeToLive CRD_NONE/0.2/0.2/0
+ObjectTemplate.size CRD_NONE/0.3/0/0
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+ObjectTemplate.sizeOverTime 0/0.4|25/0.3|50/0.2|75/0.1|100/0
+ObjectTemplate.texture e_muz2_I
+ObjectTemplate.initRotation CRD_NONE/1/180/1
+ObjectTemplate.destBlendMode BMOne
+ObjectTemplate.rotationSpeed CRD_NONE/0/0/0
+ObjectTemplate.colorRGBAOverTime 0/255/255/255/204|67/255/255/169/67|100/255/255/128/0
+
+
+rem *** Em_muzzAVTurret_Glint ***
+ObjectTemplate.create Emitter Em_muzzAVTurret_Glint
+ObjectTemplate.template Fx_muzzAVTurret_Glint
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 800
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_NONE/10/0/0
+ObjectTemplate.positionalSpeedInDof CRD_NONE/3/0/0
+ObjectTemplate.startRotation CRD_NONE/1/0/0
+ObjectTemplate.addChild 1
+
+
+rem *** Fx_muzzAVTurret_Glint ***
+ObjectTemplate.create SpriteParticle Fx_muzzAVTurret_Glint
+ObjectTemplate.timeToLive CRD_NONE/0.1/0.1/0
+ObjectTemplate.size CRD_NONE/0.3/0/0
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+ObjectTemplate.sizeOverTime 0/0.5|100/0.2
+ObjectTemplate.texture e_smoke5
+ObjectTemplate.initRotation CRD_UNIFORM/1/180/1
+ObjectTemplate.srcBlendMode BMInvSourceAlpha
+ObjectTemplate.rotationSpeed CRD_UNIFORM/0/0/0
+ObjectTemplate.rotationSpeedOverTime 0/5.87979|64/5.03995|100/6
+ObjectTemplate.colorRGBAOverTime 0/192/192/192/255|30/132/97/87/192|60/64/0/0/130|100/0/0/0/47

@@ -1,0 +1,27 @@
+ObjectTemplate.create Kit Jap_Assault
+ObjectTemplate.setType Assault
+ObjectTemplate.setKitTeam 1
+ObjectTemplate.geometry Kit_Axis_Assault
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.networkableInfo KitInfo
+
+ObjectTemplate.addTemplate Jap_Helmet
+ObjectTemplate.addTemplate Jap_hip_pack
+
+ObjectTemplate.setHealthBarIcon "Ingame/Healthbar_empty_assault_64x64.tga"
+ObjectTemplate.setHealthBarFullIcon "Ingame/Healthbar_full_assault_64x64.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_axisKnife.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_walter.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_sg44.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_grenadeaxis.tga"
+
+ObjectTemplate.setKitIcon 1 "kits/Icon_assault_axis_selected.tga"
+ObjectTemplate.setKitName 1 "RESPAWN_ASSAULT"
+ObjectTemplate.setKitActiveName 1 "RESPAWN_ACTIVE_ASSAULT"
+
+ObjectTemplate.addTemplate Sg44
+ObjectTemplate.addTemplate WalterP38
+ObjectTemplate.addTemplate KnifeAxis
+
+ObjectTemplate.addTemplate GrenadeAxis
+ObjectTemplate.aiTemplate  Assault

@@ -1,0 +1,45 @@
+
+
+rem *** APTurretGunBarrel ***
+ObjectTemplate.create FireArms APGun
+ObjectTemplate.setNetworkableInfo apturretGunInfo
+ObjectTemplate.loadSoundScript Sounds/apturretfire.ssc
+ObjectTemplate.aiTemplate apturretGunAI
+ObjectTemplate.addTemplate e_muzzAPTurret
+ObjectTemplate.setPosition 0/-1.25/-2.8
+ObjectTemplate.setRotation 180/0/0
+ObjectTemplate.projectileTemplate APTurretProjectile
+ObjectTemplate.projectilePosition 0/-1.25/-2.8
+ObjectTemplate.magSize 499
+ObjectTemplate.numOfMag 999
+ObjectTemplate.velocity 280
+ObjectTemplate.reloadtime 0.3
+ObjectTemplate.roundOfFire 1
+ObjectTemplate.recoilSpeed 10.0
+ObjectTemplate.recoilSize 50
+ObjectTemplate.setinputfire c_pifire
+
+rem *** APTurretProjectile ***
+ObjectTemplate.create Projectile APTurretProjectile
+ObjectTemplate.createNotInGrid 1
+ObjectTemplate.geometry Tlight_r2
+ObjectTemplate.tracerScaler 50.0
+ObjectTemplate.invisible 0
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.timeToLive CRD_NONE/3/0/0
+ObjectTemplate.gravityModifier 0
+ObjectTemplate.endEffectTemplate e_ExplDirt
+ObjectTemplate.material 504
+ObjectTemplate.material2 -1
+ObjectTemplate.radius 0
+ObjectTemplate.stopAtEndEffect 1
+ObjectTemplate.hasCollisionEffect 1
+
+
+
+
+
+
+

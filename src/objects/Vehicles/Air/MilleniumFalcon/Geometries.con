@@ -1,0 +1,66 @@
+renderer.beginGlobalCluster MilleniumFalcon
+GeometryTemplate.create StandardMesh MilleniumFalcon_fus_M1
+GeometryTemplate.file falconbody
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 10
+GeometryTemplate.setLodDistance 2 15
+GeometryTemplate.setLodDistance 3 30
+GeometryTemplate.setLodDistance 4 50
+GeometryTemplate.setLodDistance 5 100
+
+GeometryTemplate.create StandardMesh MFDoorGeom
+GeometryTemplate.file falcondoor
+
+GeometryTemplate.create StandardMesh backleftgdl
+GeometryTemplate.file backleftgdl
+
+GeometryTemplate.create StandardMesh backleftgdr
+GeometryTemplate.file backleftgdr
+
+GeometryTemplate.create StandardMesh backgearright
+GeometryTemplate.file backgearright
+
+GeometryTemplate.create StandardMesh backgearleft
+GeometryTemplate.file backgearleft
+
+GeometryTemplate.create StandardMesh backrightgdl
+GeometryTemplate.file backrightgdl
+
+GeometryTemplate.create StandardMesh backrightgdr
+GeometryTemplate.file backrightgdr
+
+GeometryTemplate.create StandardMesh barrel
+GeometryTemplate.file falcon_recoil_gun
+GeometryTemplate.scale 3.4
+
+GeometryTemplate.create StandardMesh frontgear
+GeometryTemplate.file frontgear
+
+GeometryTemplate.create StandardMesh frontgeardoor
+GeometryTemplate.file frontgeardoor
+GeometryTemplate.scale 0.75
+
+GeometryTemplate.create StandardMesh frontpad
+GeometryTemplate.file frontpad
+
+GeometryTemplate.create StandardMesh yrotator
+GeometryTemplate.file falcon_rotate_gun
+GeometryTemplate.scale 3.4
+
+GeometryTemplate.create StandardMesh xrotator
+GeometryTemplate.file falcon_base_gun
+GeometryTemplate.scale 3.4
+
+GEometryTemplate.create StandardMesh 1P_MilleniumFalcon_M1
+GeometryTemplate.file MilleniumCockpit
+renderer.endGlobalCluster
+
+GeometryTemplate.create StandardMesh MillFalcon_fus_L1
+GeometryTemplate.file falcon_low
+ObjectTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh Wreck_Falcon1
+GeometryTemplate.file Wreck_Falcon1_m1
+
+

@@ -1,0 +1,37 @@
+ObjectTemplate.create KitPart Bacpac_Big_ger
+ObjectTemplate.geometry Bacpac_Big_ger
+ObjectTemplate.setBoneName backpack
+ObjectTemplate.setCopyLinksCount 0
+
+ObjectTemplate.create Kit German_Engineer
+ObjectTemplate.setType Engineer
+ObjectTemplate.setKitTeam 1
+objectTemplate.geometry Kit_Axis_Engineer
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.networkableInfo KitInfo
+ObjectTemplate.addTemplate German_hippack
+ObjectTemplate.addTemplate Bacpac_Big_ger
+
+ObjectTemplate.setHealthBarIcon "Ingame/Healthbar_empty_engineer_64x64.tga"
+ObjectTemplate.setHealthBarFullIcon "Ingame/Healthbar_full_engineer_64x64.tga"
+ObjectTemplate.addWeaponIcon "Weapon/icon_axisknife.dds"
+ObjectTemplate.addWeaponIcon "Weapon/icon_razor.dds"
+ObjectTemplate.addWeaponIcon "Weapon/icon_eweb.dds"
+ObjectTemplate.addWeaponIcon "Weapon/icon_cryoban.dds"
+ObjectTemplate.addWeaponIcon "Weapon/icon_medpack.dds"
+ObjectTemplate.addWeaponIcon "Weapon/icon_hydrospanner.dds"
+
+ObjectTemplate.setKitIcon 4 "kits/Icon_engineer_axis_selected.tga"
+ObjectTemplate.setKitName 4 "RESPAWN_ENGINEER"
+ObjectTemplate.setKitActiveName 4 "RESPAWN_ACTIVE_ENGINEER"
+
+ObjectTemplate.addTemplate BuildEweb
+ObjectTemplate.addTemplate razor
+ObjectTemplate.addTemplate KnifeAxis
+ObjectTemplate.addTemplate Cryoban
+ObjectTemplate.addTemplate medpack
+ObjectTemplate.addTemplate RepairPack
+
+
+
+ObjectTemplate.aiTemplate  Engineer

@@ -1,0 +1,26 @@
+ObjectTemplate.create Kit Iraq_AT
+ObjectTemplate.setType AT
+ObjectTemplate.setKitTeam 1
+ObjectTemplate.geometry Kit_Axis_AntiTank
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.networkableInfo KitInfo
+ObjectTemplate.addTemplate Iraq_Helmet
+ObjectTemplate.addTemplate Iraq_hippack
+
+ObjectTemplate.setHealthBarIcon "Ingame/Healthbar_empty_at_64x64.tga"
+ObjectTemplate.setHealthBarFullIcon "Ingame/Healthbar_full_at_64x64.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_axisKnife.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_Hipo.tga"
+ObjectTemplate.addWeaponIcon "weapon/Icon_RPG7.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_grenadeaxis.tga"
+
+ObjectTemplate.setKitIcon 2 "kits/Icon_antitank_axis_selected.tga"
+ObjectTemplate.setKitName 2 "RESPAWN_AT"
+ObjectTemplate.setKitActiveName 2 "RESPAWN_ACTIVE_AT"
+
+ObjectTemplate.addTemplate RPG7
+ObjectTemplate.addTemplate Browninghipo
+ObjectTemplate.addTemplate KnifeAxis
+
+ObjectTemplate.addTemplate GrenadeAxis
+ObjectTemplate.aiTemplate  AT

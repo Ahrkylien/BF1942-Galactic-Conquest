@@ -1,0 +1,6 @@
+ObjectTemplate.create SimpleObject trenchgrate
+ObjectTemplate.aiTemplate trenchgrate
+ObjectTemplate.geometry trenchgrate
+ObjectTemplate.setHasCollisionPhysics 1
+
+

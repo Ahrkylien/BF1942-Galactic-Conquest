@@ -1,0 +1,69 @@
+#include ../../../Common/Sounds/EngineMap.ssc
+
+newPatch
+
+
+############
+### Main ###
+############
+
+load @ROOT/Sound/@RTD/snowspeeder-vtol.wav
+loop
+volume 0.9
+minDistance 20 
+priority 9
+*** Engine start ***
+beginEffect
+	controlDestination Volume
+	controlSource Time
+	envelope Ramp
+	param .4
+	param 1.2
+	param 0
+	param 1
+endEffect
+
+*** Engine Pitch ***
+beginEffect
+	controlDestination Pitch
+	controlSource Extern #map<Engine::Rpm>
+	envelope Ramp
+	param 0
+	param 1
+	param 1
+	param 0.03
+	
+endEffect
+
+*** Engine Volume Start ***
+beginEffect
+	controlDestination Volume
+	controlSource Extern #map<Engine::Rpm>
+	envelope Ramp
+	param 0
+	param 1
+	param 0.2
+	param 0.7
+endEffect
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 30
+	param 180
+	param 1
+	param -1	
+endEffect
+
+*** Engine stop ***
+beginEffect
+	controlDestination Volume
+	controlSource TimeRelease
+	envelope Ramp
+	param 0
+	param 0.2
+	param 1
+	param -1	
+endEffect

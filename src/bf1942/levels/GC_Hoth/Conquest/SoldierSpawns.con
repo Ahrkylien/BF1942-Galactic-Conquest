@@ -1,0 +1,277 @@
+rem *** rebelalliancespawn1 ***
+Object.create rebelalliancespawn1
+Object.absolutePosition 353.4326/11.25625/373.4856
+Object.rotation 35.25/0/0
+
+rem *** rebelalliancespawn2 ***
+Object.create rebelalliancespawn2
+Object.absolutePosition 349.344/4.06875/369.5197
+Object.rotation -134.5/0/0
+
+rem *** rebelalliancespawn3 ***
+Object.create rebelalliancespawn3
+Object.absolutePosition 337.3768/11.02188/383.7834
+Object.rotation -139.5/0/0
+
+rem *** rebelalliancespawn4 ***
+Object.create rebelalliancespawn4
+Object.absolutePosition 332.1949/11.06875/382.287
+Object.rotation 119/0/0
+
+rem *** rebelalliancespawn5 ***
+Object.create rebelalliancespawn5
+Object.absolutePosition 359.0694/4.271875/368.6499
+Object.rotation 49.5/0/0
+
+rem *** rebelalliancespawn6 ***
+Object.create rebelalliancespawn6
+Object.absolutePosition 349.9204/4.053125/374.924
+Object.rotation -132.75/0/0
+
+rem *** rebelalliancespawn7 ***
+Object.create rebelalliancespawn7
+Object.absolutePosition 357.6784/4.053125/372.9302
+Object.rotation -136.75/0/0
+
+rem *** rebelalliancespawn8 ***
+Object.create rebelalliancespawn8
+Object.absolutePosition 346.7256/11.95938/376.9843
+Object.rotation 43/0/0
+
+rem *** rebelalliancespawn9 ***
+Object.create rebelalliancespawn9
+Object.absolutePosition 356.2203/4.1625/371.3688
+Object.rotation 45.5/0/0
+
+rem *** rebelalliancespawn10 ***
+Object.create rebelalliancespawn10
+Object.absolutePosition 353.4631/11.81875/365.7483
+Object.rotation 142/0/0
+
+rem *** imperialspawn1 ***
+Object.create imperialspawn1
+Object.absolutePosition 1301.239/19.67813/1717.185
+Object.rotation 78.25/0/0
+
+rem *** imperialspawn2 ***
+Object.create imperialspawn2
+Object.absolutePosition 1306.936/19.74063/1722.504
+Object.rotation 91.5/0/0
+
+rem *** imperialspawn3 ***
+Object.create imperialspawn3
+Object.absolutePosition 1452.845/20.50625/1736.015
+
+rem *** imperialspawn4 ***
+Object.create imperialspawn4
+Object.absolutePosition 1316.367/16.27188/1842.127
+Object.rotation -151.75/0/0
+
+rem *** imperialspawn5 ***
+Object.create imperialspawn5
+Object.absolutePosition 1447.299/19.95938/1749.082
+Object.rotation 6.25/0/0
+
+rem *** imperialspawn6 ***
+Object.create imperialspawn6
+Object.absolutePosition 1316.599/19.58438/1733.173
+Object.rotation 76.5/0/0
+
+rem *** imperialspawn7 ***
+Object.create imperialspawn7
+Object.absolutePosition 1313.011/19.975/1727.537
+Object.rotation 87/0/0
+
+rem *** imperialspawn8 ***
+Object.create imperialspawn8
+Object.absolutePosition 1326.098/16.74063/1836.34
+Object.rotation -151.25/0/0
+
+rem *** imperialspawn9 ***
+Object.create imperialspawn9
+Object.absolutePosition 1449.898/19.89688/1743.388
+
+rem *** imperialspawn10 ***
+Object.create imperialspawn10
+Object.absolutePosition 1455.151/20.05313/1728.56
+
+rem *** firstspawn1 ***
+Object.create firstspawn1
+Object.absolutePosition 1071.849/15.6/1015.448
+
+rem *** firstspawn2 ***
+Object.create firstspawn2
+Object.absolutePosition 1101.477/15.6/1024.046
+
+rem *** firstspawn3 ***
+Object.create firstspawn3
+Object.absolutePosition 1118.319/17.11563/1017.891
+
+rem *** firstspawn4 ***
+Object.create firstspawn4
+Object.absolutePosition 1067.992/15.55313/1033.478
+
+rem *** firstspawn5 ***
+Object.create firstspawn5
+Object.absolutePosition 1100.939/19.36563/986.1688
+
+rem *** firstspawn6 ***
+Object.create firstspawn6
+Object.absolutePosition 1087.421/15.6/1018.507
+
+rem *** firstspawn7 ***
+Object.create firstspawn7
+Object.absolutePosition 1106.12/17.31875/1009.51
+
+rem *** firstspawn8 ***
+Object.create firstspawn8
+Object.absolutePosition 1087.29/15.6/1034.051
+
+rem *** firstspawn9 ***
+Object.create firstspawn9
+Object.absolutePosition 1105.058/18.17813/1000.636
+
+rem *** firstspawn10 ***
+Object.create firstspawn10
+Object.absolutePosition 1098.923/15.67813/1034.343
+
+rem *** secondspawn1 ***
+Object.create secondspawn1
+Object.absolutePosition 771.2737/14.81875/724.2136
+Object.rotation -90/0/0
+
+rem *** secondspawn2 ***
+Object.create secondspawn2
+Object.absolutePosition 682.02/14.75625/800.928
+Object.rotation -92.25/0/0
+
+rem *** secondspawn3 ***
+Object.create secondspawn3
+Object.absolutePosition 978.1653/14.94375/653.6899
+Object.rotation 80.75/0/0
+
+rem *** secondspawn4 ***
+Object.create secondspawn4
+Object.absolutePosition 947.4761/14.725/674.0699
+Object.rotation 87.5/0/0
+
+rem *** secondspawn5 ***
+Object.create secondspawn5
+Object.absolutePosition 1061.476/14.80313/656.0455
+Object.rotation -85.75/0/0
+
+rem *** secondspawn6 ***
+Object.create secondspawn6
+Object.absolutePosition 1017.135/14.83438/653.5744
+Object.rotation -97.25/0/0
+
+rem *** secondspawn7 ***
+Object.create secondspawn7
+Object.absolutePosition 831.6172/14.86563/697.7126
+Object.rotation 97.75/0/0
+
+rem *** secondspawn8 ***
+Object.create secondspawn8
+Object.absolutePosition 740.1574/15.0375/745.3029
+Object.rotation 91.75/0/0
+
+rem *** secondspawn9 ***
+Object.create secondspawn9
+Object.absolutePosition 886.4955/14.83438/673.8542
+Object.rotation -98/0/0
+
+rem *** secondspawn10 ***
+Object.create secondspawn10
+Object.absolutePosition 785.6606/14.81875/695.5782
+Object.rotation 84.25/0/0
+
+rem *** outpostspawn1 ***
+Object.create outpostspawn1
+Object.absolutePosition 332.9543/15.6/1675.977
+Object.rotation 50/0/0
+
+rem *** outpostspawn2 ***
+Object.create outpostspawn2
+Object.absolutePosition 389.8799/16.7875/1734.246
+Object.rotation -137/0/0
+
+rem *** outpostspawn5 ***
+Object.create outpostspawn5
+Object.absolutePosition 367.4344/15.80313/1697.354
+Object.rotation -48/0/0
+
+rem *** outpostspawn6 ***
+Object.create outpostspawn6
+Object.absolutePosition 382.3883/15.6/1693.996
+Object.rotation -153.25/0/0
+
+rem *** outpostspawn7 ***
+Object.create outpostspawn7
+Object.absolutePosition 373.4781/15.6/1683.637
+Object.rotation 46/0/0
+
+rem *** outpostspawn9 ***
+Object.create outpostspawn9
+Object.absolutePosition 329.8897/15.83438/1687.878
+Object.rotation 137.25/0/0
+
+rem *** outpostspawn10 ***
+Object.create outpostspawn10
+Object.absolutePosition 356.8378/15.83438/1707.373
+Object.rotation -226.5/0/0
+
+rem *** sgspawn1 ***
+Object.create sgspawn1
+Object.absolutePosition 1158.862/15.6/558.7894
+
+rem *** sgspawn2 ***
+Object.create sgspawn2
+Object.absolutePosition 1131.593/15.6/518.7714
+
+rem *** sgspawn3 ***
+Object.create sgspawn3
+Object.absolutePosition 1088.64/15.6/463.6737
+
+rem *** sgspawn4 ***
+Object.create sgspawn4
+Object.absolutePosition 1148.637/15.6/525.9697
+
+rem *** sgspawn5 ***
+Object.create sgspawn5
+Object.absolutePosition 1103.246/15.6/487.539
+
+rem *** sgspawn6 ***
+Object.create sgspawn6
+Object.absolutePosition 1106.472/15.6/499.5137
+
+rem *** sgspawn7 ***
+Object.create sgspawn7
+Object.absolutePosition 1124.544/15.6/501.7729
+
+rem *** sgspawn8 ***
+Object.create sgspawn8
+Object.absolutePosition 1173.651/15.6/559.5883
+
+rem *** sgspawn9 ***
+Object.create sgspawn9
+Object.absolutePosition 1155.701/15.6/542.3354
+
+rem *** sgspawn10 ***
+Object.create sgspawn10
+Object.absolutePosition 1102.952/15.6/472.5103
+
+rem *** outpostspawn3 ***
+Object.create outpostspawn3
+Object.absolutePosition 341.8173/15.6/1685.382
+Object.rotation -140/0/0
+
+rem *** outpostspawn4 ***
+Object.create outpostspawn4
+Object.absolutePosition 378.887/15.7875/1735.446
+Object.rotation 134.75/0/0
+
+rem *** outpostspawn8 ***
+Object.create outpostspawn8
+Object.absolutePosition 380.3188/15.6/1724.039
+Object.rotation 46.5/0/0
+

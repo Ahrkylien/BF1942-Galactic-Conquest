@@ -1,0 +1,4 @@
+ObjectTemplate.create Bundle flatsection	
+ObjectTemplate.geometry flatsection
+ObjectTemplate.setHasCollisionPhysics 1
+objectTemplate.aiTemplate flatsection

@@ -1,0 +1,73 @@
+ObjectTemplate.create HandFireArms Razor
+ObjectTemplate.itemIndex 2
+ObjectTemplate.networkableInfo HandFireArmsInfo
+ObjectTemplate.projectileTemplate razorProjectile
+ObjectTemplate.projectilePosition 0/0/0
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.magSize 60
+ObjectTemplate.numOfMag 1
+ObjectTemplate.magType 0
+ObjectTemplate.sethasmag 0
+ObjectTemplate.reloadtime 000000.1
+ObjectTemplate.roundOfFire 6.2
+ObjectTemplate.fireOnce 1
+objectTemplate.aiTemplate P38AI
+ObjectTemplate.zoomFov 0.7
+ObjectTemplate.altFireOnce 1
+ObjectTemplate.soldierZoomFov 0.5 
+ObjectTemplate.soldierZoomPosition -0.01/-0.01/0.1
+ObjectTemplate.soldierCameraPosition 0.02/-0.05/0.2
+ObjectTemplate.AmmoType	1
+
+
+Rem *** Deviation Begin *****
+
+ObjectTemplate.velocity 200
+ObjectTemplate.setRecoilForceUp CRD_UNIFORM/0.4/0.6/0
+ObjectTemplate.setRecoilForceLeftRight CRD_UNIFORM/-0.2/-0.2/0
+ObjectTemplate.setHasRecoilForce 1
+ObjectTemplate.setGoBackOnRecoil 1
+
+ObjectTemplate.setFireDev 1.0 0.5 0.01
+ObjectTemplate.setMinDev 0.05
+ObjectTemplate.setTurnDev 0 0 0 0
+ObjectTemplate.setSpeedDev 0.5 0.1 0.1 0.05
+ObjectTemplate.setMiscDev 1.0 1.0 0.05
+
+
+Rem *** Deviation  End *****
+
+ObjectTemplate.fireInCameraDof 1
+ObjectTemplate.loadSoundScript Sounds/razor.ssc
+ObjectTemplate.GUIIndex 1
+ObjectTemplate.setHudAmmoType ATIconAndHeatBar
+ObjectTemplate.setAmmoIcon "ammo/icon_laser_64x32.dds"
+ObjectTemplate.setCrossHairType CHTCrossHair
+
+ObjectTemplate.createSkeleton animations/Razor.ske
+ObjectTemplate.useSkeletonPartAsMain Razor
+ObjectTemplate.addTemplate RazorLod
+
+ObjectTemplate.addTemplate e_MuzzGun
+ObjectTemplate.setInputId -1
+ObjectTemplate.startoneffects 0
+ObjectTemplate.setPosition 0.005/0.03/0.165
+ObjectTemplate.setRotation 0/0/0
+
+
+ObjectTemplate.create SimpleObject RazorSimple
+ObjectTemplate.geometry Razor_m1
+
+ObjectTemplate.create AnimatedBundle RazorComplex
+ObjectTemplate.addTemplate RazorSimple
+ObjectTemplate.bindtoskeletonpart Base
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.createSkeleton animations/Razor.ske
+
+ObjectTemplate.create LodObject RazorLod
+ObjectTemplate.lodselector HandWeaponLodSelector
+ObjectTemplate.addTemplate RazorComplex
+ObjectTemplate.addTemplate RazorSimple
+
+
+

@@ -1,0 +1,88 @@
+ObjectTemplate.create HandFireArms PLX-2M
+ObjectTemplate.itemIndex 3
+ObjectTemplate.networkableInfo HandFireArmsInfo
+ObjectTemplate.projectileTemplate plx-2mProjectile
+ObjectTemplate.projectilePosition 0/0/0
+ObjectTemplate.ForceOnExplosion 2
+ObjectTemplate.magSize 6
+ObjectTemplate.numOfMag 2
+ObjectTemplate.magType 0
+ObjectTemplate.useScope 1
+ObjectTemplate.setScopeIcon "reb_plx_2m.tga"
+ObjectTemplate.autoReload 1
+ObjectTemplate.reloadtime 3
+ObjectTemplate.roundOfFire 1
+ObjectTemplate.fireOnce 1
+objectTemplate.aiTemplate PanzerschrekRPG
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.zoomFov 0.5
+ObjectTemplate.altFireOnce 1
+ObjectTemplate.soldierZoomFov 0.6 
+ObjectTemplate.soldierZoomPosition -0.05/-0.02/0
+ObjectTemplate.AmmoType	3
+
+ObjectTemplate.loadSoundScript Sounds/Plx-2m.ssc
+
+ObjectTemplate.GUIIndex 5
+ObjectTemplate.setHudAmmoType ATIcon
+ObjectTemplate.setAmmoIcon "Ammo/Icon_bazooka_64x32.tga"
+ObjectTemplate.setCrossHairType CHTIcon
+ObjectTemplate.setHasMag 1
+
+Rem *** Deviation Begin *****
+
+ObjectTemplate.velocity 500
+ObjectTemplate.minDeviation 0
+ObjectTemplate.maxDeviation 0
+
+ObjectTemplate.minDevStanding 0.2
+ObjectTemplate.minDevCrouching 0.1
+ObjectTemplate.minDevLying 0.05
+
+ObjectTemplate.subDevStanding 0.03
+ObjectTemplate.subDevCrouching 0.05
+ObjectTemplate.subDevLying 0.025
+
+ObjectTemplate.addDevWalk 0.01
+ObjectTemplate.addDevRun 0.02
+ObjectTemplate.addDevJump 0.05
+ObjectTemplate.addDevYaw 0.02
+ObjectTemplate.addDevPitch 0.02
+ObjectTemplate.addDevStrafe 0.01
+
+ObjectTemplate.addDevFire 0.08
+ObjectTemplate.subDev 0.01
+
+Rem *** Deviation  End *****
+ObjectTemplate.createSkeleton animations/Panzershreck.ske
+ObjectTemplate.useSkeletonPartAsMain base
+ObjectTemplate.addTemplate plx-2mLod
+
+ObjectTemplate.addTemplate e_muzzPlx-2m
+ObjectTemplate.setInputId -1
+ObjectTemplate.startoneffects 0
+ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.setRotation 0/0/0
+ObjectTemplate.fireInCameraDof 1
+
+
+rem ** Objects
+
+ObjectTemplate.create SimpleObject plx-2mRocket
+ObjectTemplate.geometry plx-2m_m1
+
+ObjectTemplate.create SimpleObject plx-2mSimple
+ObjectTemplate.geometry plx-2m_m1
+ObjectTemplate.setPosition -0.3/-2.0/-9.0
+
+ObjectTemplate.create AnimatedBundle plx-2mComplex
+ObjectTemplate.geometry plx-2m
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.createSkeleton animations/Panzershreck.ske
+ObjectTemplate.addTemplate plx-2mRocket
+rem ObjectTemplate.bindToSkeletonPart rocket
+
+ObjectTemplate.create LodObject plx-2mLod
+ObjectTemplate.lodselector HandWeaponLodSelector
+ObjectTemplate.addTemplate plx-2mComplex
+ObjectTemplate.addTemplate plx-2mSimple

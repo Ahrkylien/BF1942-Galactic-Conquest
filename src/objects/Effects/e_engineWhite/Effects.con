@@ -1,0 +1,53 @@
+rem
+rem *** e_engineWhite ***
+rem
+ObjectTemplate.create EffectBundle e_engineWhite
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_engineWhite
+ObjectTemplate.setPosition 0/0/0
+rem -------------------------------------
+
+
+rem *** Em_engineWhite ***
+ObjectTemplate.create Emitter Em_engineWhite
+ObjectTemplate.template Fx_engineWhite
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.looping 1
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.startProbability 1
+ObjectTemplate.lodDistance 1000
+ObjectTemplate.delay CRD_NONE/0/0/0
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.IntensityAtSpeed 5
+ObjectTemplate.intensity CRD_NONE/15/0/0
+ObjectTemplate.relativePositionInDof CRD_NONE/1/0/0
+ObjectTemplate.relativePositionInUp CRD_NONE/0/0/0
+ObjectTemplate.relativePositionInRight CRD_NONE/0/0/0
+ObjectTemplate.positionalSpeedInDof CRD_NONE/-7/0/0
+ObjectTemplate.positionalSpeedInUp CRD_NONE/0/0/0
+ObjectTemplate.positionalSpeedInRight CRD_NONE/0/0/0
+ObjectTemplate.rotationalSpeedInDof CRD_NONE/1/0/0
+ObjectTemplate.rotationalSpeedInUp CRD_NONE/1/0/0
+ObjectTemplate.rotationalSpeedInRight CRD_NONE/1/0/0
+ObjectTemplate.startRotation CRD_NONE/1/0/0
+
+
+rem *** Fx_engineWhite ***
+ObjectTemplate.create SpriteParticle Fx_engineWhite
+ObjectTemplate.timeToLive CRD_NONE/0.001/0/0
+ObjectTemplate.size CRD_NONE/1/0/0
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+ObjectTemplate.sizeOverTime 0/0.4|21/0.8|100/0.5
+ObjectTemplate.drag 0
+ObjectTemplate.texture e_fire4
+ObjectTemplate.useMipMaps 1
+ObjectTemplate.initRotation CRD_UNIFORM/1/180/1
+ObjectTemplate.XYSizeRatio CRD_NONE/1/0/0
+ObjectTemplate.srcBlendMode BMSourceAlpha
+ObjectTemplate.destBlendMode BMOne
+ObjectTemplate.rotationSpeed CRD_UNIFORM/200/300/1
+ObjectTemplate.colorRGBAOverTime 0/230/230/255/50|77/200/200/255/50|100/175/175/256/50
+

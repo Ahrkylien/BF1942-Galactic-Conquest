@@ -1,0 +1,190 @@
+rem *** awing ***
+ObjectTemplate.create PlayerControlObject awing
+ObjectTemplate.setNetworkableInfo awing_body_info
+ObjectTemplate.saveInSeparateFile 1
+objectTemplate.cullRadiusScale 5
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.drag 0.060
+ObjectTemplate.mass 4100
+ObjectTemplate.inertiaModifier 1.130/1.090/1.15
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.explosionRadius 8
+ObjectTemplate.explosionDamage 5
+ObjectTemplate.hasArmor 1
+ObjectTemplate.angleMod 1
+ObjectTemplate.speedMod 2
+ObjectTemplate.hitpoints 70
+ObjectTemplate.maxhitpoints 70
+ObjectTemplate.material 60
+ObjectTemplate.criticalDamage 10
+ObjectTemplate.hpLostWhileCriticalDamage 1.5
+ObjectTemplate.explosionForceMod 15
+ObjectTemplate.hpLostWhileUpSideDown 10
+ObjectTemplate.hpLostWhileDamageFromWater 10
+ObjectTemplate.addArmorEffect 65 em_CorsairDamage 0/0.103/2.11
+ObjectTemplate.addArmorEffect 65 em_PlaneDamage 0/0.103/2.61
+ObjectTemplate.addArmorEffect 20 e_CorsairFire 0/1/3
+ObjectTemplate.addArmorEffect 0 e_ExplGas 0/0/0
+ObjectTemplate.addArmorEffect 0 e_ScrapMetal_awing 0/0/0
+ObjectTemplate.addArmorEffect -1 WaterWaterExplosion 0/0/0
+ObjectTemplate.damageFromWater 1
+ObjectTemplate.aiTemplate awing
+rem -------------------------------------
+ObjectTemplate.addTemplate lodawing
+rem -------------------------------------
+ObjectTemplate.setSoldierExitLocation -1.5/0/0 0/0/0
+ObjectTemplate.GUIIndex 27
+ObjectTemplate.setVehicleIcon "Vehicle/Icon_awing.dds"
+ObjectTemplate.setVehicleIconPos 54/49
+ObjectTemplate.setNumberOfWeaponIcons 1
+ObjectTemplate.setPrimaryAmmoIcon "Ammo/icon_laser_64x64.dds"
+ObjectTemplate.setPrimaryAmmoBar ABAmmoBarHeatBar
+
+ObjectTemplate.setCrossHairType CHTIcon
+ObjectTemplate.setVehicleCategory VCAir
+ObjectTemplate.setVehicleType  VTFighter
+ObjectTemplate.setToolTipType  TTFighter
+ObjectTemplate.setMinimapIcon "Minimap/minimap_icon_tief_16x16.tga"
+
+rem *** lodawing ***
+ObjectTemplate.create LodObject lodawing
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate awingComplex
+ObjectTemplate.addTemplate awingSimple
+ObjectTemplate.addTemplate awingWreck
+rem -------------------------------------
+ObjectTemplate.lodSelector awingLodSelector
+
+
+rem *** awingComplex ***
+ObjectTemplate.create Bundle awingComplex
+ObjectTemplate.setNetworkableInfo awing_body_info
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate lodawingCockpit
+ObjectTemplate.addTemplate AWingEntry
+ObjectTemplate.setPosition 0/0/-0.499
+ObjectTemplate.addTemplate AWingCamera
+ObjectTemplate.setPosition 0/0.45/0.7
+rem ObjectTemplate.setPosition 0/1.078/-0.153
+ObjectTemplate.addTemplate AWingSeat
+ObjectTemplate.setPosition 0/0.45/0.7
+ObjectTemplate.addTemplate AWingEngine
+ObjectTemplate.setPosition 0/0/0
+rem ObjectTemplate.setPosition -1/1/-3
+
+ObjectTemplate.addTemplate awingFlapLeftMiddle
+ObjectTemplate.setPosition -2.736/-0.216/-0.699
+ObjectTemplate.setRotation 13/0/-9.498
+ObjectTemplate.addTemplate awingFlapLeftOuter
+ObjectTemplate.setPosition -5.357/0/0.048
+ObjectTemplate.setRotation 18.4/0/-8.999
+ObjectTemplate.addTemplate awingFlapRightMiddle
+ObjectTemplate.setPosition 2.741/-0.216/-0.699
+ObjectTemplate.setRotation -12.998/0/9
+ObjectTemplate.addTemplate awingFlapRightOuter
+ObjectTemplate.setPosition 5.362/0/0.048
+ObjectTemplate.setRotation -18.399/0/9.5
+ObjectTemplate.addTemplate awingFlapTailLeft
+ObjectTemplate.setPosition -1.263/0.8/-5.877
+ObjectTemplate.setRotation 0/-1.7/0
+ObjectTemplate.addTemplate awingFlapTailRight
+ObjectTemplate.setPosition 1.266/0.8/-5.877
+ObjectTemplate.setRotation 0/-1.7/0
+ObjectTemplate.addTemplate awingRudder
+ObjectTemplate.setPosition 0/1.088/-6.067
+ObjectTemplate.setRotation 0/0/-89.998
+
+ObjectTemplate.addTemplate awingWheelBackSpring
+ObjectTemplate.setPosition 0/-2/-4
+ObjectTemplate.addTemplate awingWheel1
+ObjectTemplate.setPosition 3/-2/4
+ObjectTemplate.addTemplate awingWheel2
+ObjectTemplate.setPosition -3/-2/4
+ObjectTemplate.addTemplate awingGuns
+
+ObjectTemplate.addTemplate awingBodyWingVertical
+ObjectTemplate.setRotation 0/0/-89.999
+
+
+ObjectTemplate.addTemplate awingRearVTOLRack
+ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.setRotation 0/-85/0
+
+
+rem *** awingRearVTOLRack ***
+ObjectTemplate.create RotationalBundle awingRearVTOLRack
+ObjectTemplate.hasMobilePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate awingRearVTOLEngine
+rem -------------------------------------
+ObjectTemplate.setMinRotation -20/-30/0
+ObjectTemplate.setMaxRotation 20/30/0
+ObjectTemplate.setMaxSpeed 150/50/0
+ObjectTemplate.setAcceleration 150/100/0
+ObjectTemplate.setInputToPitch c_PIPitch
+ObjectTemplate.setInputToYaw c_PIRoll
+ObjectTemplate.setAutomaticReset 1
+rem -------------------------------------
+
+
+rem *** lodAWingCockpit ***
+ObjectTemplate.create LodObject lodAWingCockpit
+ObjectTemplate.addTemplate AWingCockpitExternal
+ObjectTemplate.addTemplate AWingCockpitInternal
+ObjectTemplate.lodSelector AWingCockpitSelector
+
+rem *** AWingCockpitExternal ***
+ObjectTemplate.create SimpleObject AWingCockpitExternal
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.geometry AWing_Fuselage_M1
+
+rem *** AWingCockpitInternal ***
+ObjectTemplate.create SimpleObject AWingCockpitInternal
+ObjectTemplate.geometry 1P_AWing_Driver_M1
+
+rem *** AWingCockpitSelector ***
+LodSelectorTemplate.create DistCompareSelector AWingCockpitSelector
+LodSelectorTemplate.addLodDistance 20
+LodSelectorTemplate.addLodComparison 0.5
+
+rem *** AWingCamera ***
+ObjectTemplate.create Camera AWingCamera
+ObjectTemplate.setMinRotation -60/-40/0
+ObjectTemplate.setMaxRotation 60/10/0
+ObjectTemplate.setMaxSpeed 90/90/0
+ObjectTemplate.setAcceleration 5000/-5000/0
+ObjectTemplate.setInputToYaw c_PIMouseLookX
+ObjectTemplate.setInputToPitch c_PIMouseLookY
+ObjectTemplate.toggleMouseLook 1
+rem ObjectTemplate.OutsideHudOffset 0/-0.7/1.7
+ObjectTemplate.OutsideHudOffset 0/0/0
+
+rem *** AWingEntry ***
+ObjectTemplate.create EntryPoint AWingEntry
+ObjectTemplate.setEntryRadius 6.6
+
+rem *** AWingSeat ***
+ObjectTemplate.create SeatObject AWingSeat
+ObjectTemplate.seatFlags c_SeatShowHalfBodySoldier
+
+
+rem *** awingSimple ***
+ObjectTemplate.create SimpleObject awingSimple
+ObjectTemplate.geometry AWing_Fuselage_L1
+
+rem *** CorsairWreck ***
+ObjectTemplate.create SimpleObject awingWreck
+ObjectTemplate.geometry Wreck_awing_m1
+
+rem *** awingLodSelector ***
+LodSelectorTemplate.create DistCompareSelector2 awingLodSelector
+LodSelectorTemplate.hasDestroyedLod 1
+LodSelectorTemplate.addLodDistance 200

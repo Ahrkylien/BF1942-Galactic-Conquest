@@ -1,0 +1,34 @@
+ObjectTemplate.create KitPart Bacpac_Big_ger
+ObjectTemplate.geometry Bacpac_Big_ger
+ObjectTemplate.setBoneName backpack
+ObjectTemplate.setCopyLinksCount 0
+
+ObjectTemplate.create Kit Iraq_Engineer
+ObjectTemplate.setType Engineer
+ObjectTemplate.setKitTeam 1
+objectTemplate.geometry Kit_Axis_Engineer
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.networkableInfo KitInfo
+ObjectTemplate.addTemplate Iraq_Helmet
+ObjectTemplate.addTemplate Iraq_hippack
+ObjectTemplate.addTemplate Bacpac_Big_ger
+
+ObjectTemplate.setHealthBarIcon "Ingame/Healthbar_empty_engineer_64x64.tga"
+ObjectTemplate.setHealthBarFullIcon "Ingame/Healthbar_full_engineer_64x64.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_axisKnife.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_walter.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_m98.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_demokit.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_landmine.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_repairpack.tga"
+
+ObjectTemplate.addTemplate k98
+ObjectTemplate.addTemplate walterp38
+ObjectTemplate.addTemplate KnifeAxis
+
+ObjectTemplate.addTemplate RepairPack
+ObjectTemplate.addTemplate Landmine
+ObjectTemplate.addTemplate Detonator
+ObjectTemplate.addTemplate ExpPack
+rem ObjectTemplate.addTemplate GrenadeAxis
+ObjectTemplate.aiTemplate  Engineer

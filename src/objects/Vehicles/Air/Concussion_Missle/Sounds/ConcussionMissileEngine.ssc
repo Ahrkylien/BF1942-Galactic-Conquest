@@ -1,0 +1,11 @@
+#templateLevel HIGH
+
+	#include High/ConcussionMissileEngine.ssc
+	
+#templateLevel MEDIUM
+
+	#include Mid/ConcussionMissileEngine.ssc
+	
+#templateLevel LOW
+
+	#include Low/ConcussionMissileEngine.ssc

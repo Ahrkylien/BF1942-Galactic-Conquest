@@ -1,0 +1,18 @@
+
+GeometryTemplate.create StandardMesh mos_building1
+GeometryTemplate.file buildings/mos_building1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+GeometryTemplate.setLodDistance 2 300
+GeometryTemplate.setLodDistance 3 400
+GeometryTemplate.setLodDistance 4 500
+GeometryTemplate.setLodDistance 5 900
+
+GeometryTemplate.create StandardMesh ladder_5m_m1
+GeometryTemplate.file ladder_5m_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 15
+GeometryTemplate.setLodDistance 2 30
+GeometryTemplate.setLodDistance 3 40
+GeometryTemplate.setLodDistance 4 60
+GeometryTemplate.setLodDistance 5 100

@@ -1,0 +1,6 @@
+ObjectTemplate.create SimpleObject bactaroomwall
+ObjectTemplate.aiTemplate bactaroomwall
+ObjectTemplate.geometry bactaroomwall
+ObjectTemplate.setHasCollisionPhysics 1
+
+

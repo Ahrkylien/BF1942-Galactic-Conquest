@@ -1,0 +1,191 @@
+###################################
+### RogerThat			###
+###################################
+newPatch
+load @ROOT/Sound/@RTD/@Language/RogerThat01.wav
+load @ROOT/Sound/@RTD/@Language/RogerThat02.wav
+load @ROOT/Sound/@RTD/@Language/RogerThat03.wav
+load @ROOT/Sound/@RTD/@Language/RogerThat04.wav
+load @ROOT/Sound/@RTD/@Language/RogerThat05.wav
+load @ROOT/Sound/@RTD/@Language/RogerThat06.wav
+
+randomPlay 1
+priority 11
+
+###################################
+### Negative			###
+###################################
+newPatch
+load @ROOT/Sound/@RTD/@Language/Negative1.wav
+load @ROOT/Sound/@RTD/@Language/Negative2.wav
+load @ROOT/Sound/@RTD/@Language/Negative3.wav
+load @ROOT/Sound/@RTD/@Language/Negative4.wav
+
+randomPlay 1
+priority 11
+
+###################################
+### GoForTheEnemyFlag		###
+###################################
+newPatch
+load @ROOT/Sound/@RTD/@Language/FlagGoFor.wav
+priority 11
+
+###################################
+### ProtectOurFlag		###
+###################################
+newPatch
+load @ROOT/Sound/@RTD/@Language/FlagProtect.wav
+priority 11
+
+###################################
+### ProtectTheFlagCarrier	###
+###################################
+newPatch
+load @ROOT/Sound/@RTD/@Language/FlagProtectCarrier.wav
+priority 11
+
+###################################
+### GetOurFlagBack		###
+###################################
+newPatch
+load @ROOT/Sound/@RTD/@Language/FlagGetBack.wav
+priority 11
+
+###################################
+### Pickup			###
+###################################
+newPatch
+load @ROOT/Sound/@RTD/@Language/RequestingPickup1.wav
+load @ROOT/Sound/@RTD/@Language/RequestingPickup1.wav
+
+randomPlay 1
+priority 11
+
+###################################
+### Reinforcements		###
+###################################
+newPatch
+load @ROOT/Sound/@RTD/@Language/RequestingReinforcements1.wav
+load @ROOT/Sound/@RTD/@Language/RequestingReinforcements2.wav
+
+randomPlay 1
+priority 11
+
+###################################
+### ATSupport			###
+###################################
+newPatch
+load @ROOT/Sound/@RTD/@Language/RequestingGroundAttack.wav
+
+priority 11
+
+###################################
+### NavalSupport		###
+###################################
+newPatch
+load @ROOT/Sound/@RTD/@Language/RequestingClass1.wav
+priority 11
+
+###################################
+### AirSupport			###
+###################################
+newPatch
+load @ROOT/Sound/@RTD/@Language/RequestingClass2.wav
+priority 11
+
+###################################
+### ArtilleryReadyForBarrage	###
+###################################
+newPatch
+load @ROOT/Sound/@RTD/@Language/RequestingTargetForStrikeForce.wav
+priority 11
+
+###################################
+### ArtilleryBarrageNeeded	###
+###################################
+newPatch
+load @ROOT/Sound/@RTD/@Language/RequestingStrikeForce.wav
+priority 11
+
+###################################
+### APCSupport			###
+###################################
+newPatch
+load @ROOT/Sound/@RTD/@Language/RequestingSpecial.wav
+priority 11
+
+###################################
+### Armor			###
+###################################
+newPatch
+load @ROOT/Sound/@RTD/@Language/SpottedEnemy1.wav
+priority 11
+
+###################################
+### Infantry			###
+###################################
+newPatch
+load @ROOT/Sound/@RTD/@Language/SpottedEnemy2a.wav
+load @ROOT/Sound/@RTD/@Language/SpottedEnemy2b.wav
+load @ROOT/Sound/@RTD/@Language/SpottedEnemy2c.wav
+
+randomPlay 1
+priority 11
+
+###################################
+### Unit			###
+###################################
+newPatch
+load @ROOT/Sound/@RTD/@Language/SpottedUnit.wav
+priority 11
+
+###################################
+### Ships			###
+###################################
+newPatch
+load @ROOT/Sound/@RTD/@Language/SpottedClass1.wav
+priority 11
+
+###################################
+### Submarine			###
+###################################
+newPatch
+load @ROOT/Sound/@RTD/@Language/SpottedClass2.wav
+priority 11
+
+###################################
+### Airplanes			###
+###################################
+newPatch
+load @ROOT/Sound/@RTD/@Language/SpottedSpecial.wav
+priority 11
+
+###################################
+### Scout			###
+###################################
+newPatch
+load @ROOT/Sound/@RTD/@Language/SpottedScout.wav
+priority 11
+
+###################################
+### Attack			###
+###################################
+newPatch
+load @ROOT/Sound/@RTD/@Language/ControlPointAttack1.wav
+load @ROOT/Sound/@RTD/@Language/ControlPointAttack2.wav
+load @ROOT/Sound/@RTD/@Language/ControlPointAttack3.wav
+
+randomPlay 1
+priority 11
+
+###################################
+### Defend			###
+###################################
+newPatch
+load @ROOT/Sound/@RTD/@Language/ControlPointDefend1.wav
+load @ROOT/Sound/@RTD/@Language/ControlPointDefend2.wav
+load @ROOT/Sound/@RTD/@Language/ControlPointDefend3.wav
+
+randomPlay 1
+priority 11

@@ -1,0 +1,11 @@
+subshader "Willy_WheR_M1_Material0" "StandardMesh/Default"
+{
+	lighting true;
+	lightingSpecular true;
+	materialDiffuse 1 1 1;
+	materialSpecular 0.2 0.2 0.2;
+	transparent true;
+	materialSpecularPower 5;
+	texture "texture/Willy1_Z";
+}
+

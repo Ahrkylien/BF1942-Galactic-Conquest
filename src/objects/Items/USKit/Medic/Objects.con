@@ -1,0 +1,31 @@
+ObjectTemplate.create Kit  US_Medic
+ObjectTemplate.setType Medic
+ObjectTemplate.setKitTeam 2
+ObjectTemplate.geometry  Kit_Allies_Medic
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.networkableInfo KitInfo
+ObjectTemplate.addTemplate Us_Helmet
+ObjectTemplate.addTemplate US_Assault_BackPack
+ObjectTemplate.addTemplate US_Hip_Pack
+
+ObjectTemplate.setHealthBarIcon "Ingame/reb_Healthbar_empty_medic_64x64.tga"
+ObjectTemplate.setHealthBarFullIcon "Ingame/reb_Healthbar_full_medic_64x64.tga"
+ObjectTemplate.addWeaponIcon "Weapon/icon_alliesknife.dds"
+ObjectTemplate.addWeaponIcon "Weapon/icon_dh17.dds"
+ObjectTemplate.addWeaponIcon "Weapon/icon_flechette.dds"
+ObjectTemplate.addWeaponIcon "Weapon/icon_fragnade.dds"
+ObjectTemplate.addWeaponIcon "Weapon/icon_landmine.dds"
+
+ObjectTemplate.setKitIcon 3 "kits/Icon_medic_allies_selected.tga"
+ObjectTemplate.setKitName 3 "RESPAWN_MEDIC"
+ObjectTemplate.setKitActiveName 3 "RESPAWN_ACTIVE_MEDIC"
+
+ObjectTemplate.addTemplate flechette
+ObjectTemplate.addTemplate Dh17
+ObjectTemplate.addTemplate KnifeAllies
+
+ObjectTemplate.addTemplate Fragnade
+objecttemplate.addtemplate landmine
+
+ObjectTemplate.aitemplate Medic
+

@@ -1,0 +1,1899 @@
+rem *************************************************
+rem *************************************************
+rem *************************************************
+rem ***************SNOWSPEEDER BODY******************
+rem *************************************************
+rem *************************************************
+rem *************************************************
+
+rem *************************************************
+rem		scout cars target
+rem *************************************************
+BeginRem 
+
+MaterialManager.attGroup 708
+MaterialManager.defGroup 40
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_collision_Soldier
+
+MaterialManager.attGroup 708
+MaterialManager.defGroup 41
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_collision_Soldier
+
+MaterialManager.attGroup 708
+MaterialManager.defGroup 42
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_collision_Soldier
+EndRem 
+
+MaterialManager.attGroup 708
+MaterialManager.defGroup 43
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Soldier
+
+MaterialManager.attGroup 708
+MaterialManager.defGroup 44
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Soldier
+
+rem *************************************************
+rem		Plane Vehicle target
+rem *************************************************
+
+MaterialManager.attGroup 708
+MaterialManager.defGroup 45
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 708
+MaterialManager.defGroup 46
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 708
+MaterialManager.defGroup 47
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 708
+MaterialManager.defGroup 48
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 708
+MaterialManager.defGroup 49
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+rem *************************************************
+rem		Plane Vehicle target
+rem *************************************************
+
+MaterialManager.attGroup 708
+MaterialManager.defGroup 50
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 708
+MaterialManager.defGroup 51
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 62
+MaterialManager.defGroup 52
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 708
+MaterialManager.defGroup 53
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 708
+MaterialManager.defGroup 54
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+rem *************************************************
+rem		Ship target
+rem *************************************************
+
+
+MaterialManager.attGroup 708
+MaterialManager.defGroup 55
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 708
+MaterialManager.defGroup 56
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 708
+MaterialManager.defGroup 57
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 708
+MaterialManager.defGroup 58
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 708
+MaterialManager.defGroup 59
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+rem *************************************************
+rem		Planes target
+rem *************************************************
+
+MaterialManager.attGroup 708
+MaterialManager.defGroup 60
+MaterialManager.damageMod 10
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 708
+MaterialManager.defGroup 61
+MaterialManager.damageMod 8
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 708
+MaterialManager.defGroup 62
+MaterialManager.damageMod 6
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 708
+MaterialManager.defGroup 63
+MaterialManager.damageMod 6
+MaterialManager.setEffectTemplate e_collision_metal
+
+rem *************************************************
+rem		Material Effects
+rem *************************************************
+rem *************************************************
+rem		Other Materials
+rem *************************************************
+
+rem *** Ground (Default) ***
+MaterialManager.attGroup 0
+MaterialManager.defGroup 708
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Other
+
+rem *** Water ***
+MaterialManager.attGroup 1
+MaterialManager.defGroup 708
+MaterialManager.damageMod 0.1
+
+rem *** Dry Grass (yellow) ***
+MaterialManager.attGroup 2
+MaterialManager.defGroup 708
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Other
+
+rem *** Juicy Grass (Green) ***
+MaterialManager.attGroup 3
+MaterialManager.defGroup 708
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Other
+
+rem *** Dry Dirt ***
+MaterialManager.attGroup 4
+MaterialManager.defGroup 708
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Other
+
+rem *** Wet Dirt ***
+MaterialManager.attGroup 5
+MaterialManager.defGroup 708
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Other
+
+rem *** Mud ***
+MaterialManager.attGroup 6
+MaterialManager.defGroup 708
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Other
+
+rem *** Deep Mud ***
+MaterialManager.attGroup 7
+MaterialManager.defGroup 708
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Other
+
+rem *** Gravel ***
+MaterialManager.attGroup 8
+MaterialManager.defGroup 708
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Other
+
+rem *** Frozen ground ***
+MaterialManager.attGroup 9
+MaterialManager.defGroup 708
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Other
+
+rem *** Dry Sand ***
+MaterialManager.attGroup 10
+MaterialManager.defGroup 708
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Other
+
+rem *** Wet Sand ***
+MaterialManager.attGroup 11
+MaterialManager.defGroup 708
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Other
+
+rem *** Rock ***
+MaterialManager.attGroup 12
+MaterialManager.defGroup 708
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Other
+
+rem *** Forest Floor ***
+MaterialManager.attGroup 13
+MaterialManager.defGroup 708
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Other
+
+rem *** Dirt Road ***
+MaterialManager.attGroup 14
+MaterialManager.defGroup 708
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Other
+
+rem *** Paved Road ***
+MaterialManager.attGroup 15
+MaterialManager.defGroup 708
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Other
+
+
+rem *** Solid Wood ***
+MaterialManager.attGroup 80
+MaterialManager.defGroup 708
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Wood
+
+rem *** Wood ***
+MaterialManager.attGroup 81
+MaterialManager.defGroup 708
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_collision_Wood
+
+rem *** Thin Wood ***
+MaterialManager.attGroup 82
+MaterialManager.defGroup 708
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Wood
+
+rem *** Hollow Wood ***
+MaterialManager.attGroup 83
+MaterialManager.defGroup 708
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Wood
+
+rem *** Solid Metal ***
+MaterialManager.attGroup 84
+MaterialManager.defGroup 708
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+rem *** Metal ***
+MaterialManager.attGroup 85
+MaterialManager.defGroup 708
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+rem *** Thin Metal ***
+MaterialManager.attGroup 86
+MaterialManager.defGroup 708
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+rem *** Hollow Metal ***
+MaterialManager.attGroup 87
+MaterialManager.defGroup 708
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_collision_metal
+
+rem *** Solid Stone (Rock) ***
+MaterialManager.attGroup 88
+MaterialManager.defGroup 708
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Stone
+
+rem *** Hollow Metal ***
+MaterialManager.attGroup 89
+MaterialManager.defGroup 708
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+rem *** Hollow Metal ***
+MaterialManager.attGroup 90
+MaterialManager.defGroup 708
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+rem *** Hollow Metal ***
+MaterialManager.attGroup 91
+MaterialManager.defGroup 708
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+
+
+rem *** Concrete ***
+MaterialManager.attGroup 92
+MaterialManager.defGroup 708
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Stone
+
+rem *** Reinforced Concrete ***
+MaterialManager.attGroup 93
+MaterialManager.defGroup 708
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Stone
+
+rem *** Exterior Stone Wall ***
+MaterialManager.attGroup 100
+MaterialManager.defGroup 708
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Stone
+
+rem *** Exterior brick Wall ***
+MaterialManager.attGroup 102
+MaterialManager.defGroup 708
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Stone
+
+rem *** Exterior wooden Wall ***
+MaterialManager.attGroup 104
+MaterialManager.defGroup 708
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Wood
+
+rem *** Interior wooden Wall ***
+MaterialManager.attGroup 105
+MaterialManager.defGroup 708
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Wood
+
+rem *** Wooden Fence ***
+MaterialManager.attGroup 106
+MaterialManager.defGroup 708
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Wood
+
+rem *** Sandbags ***
+MaterialManager.attGroup 107
+MaterialManager.defGroup 708
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Wood
+
+rem *** Grate ***
+MaterialManager.attGroup 108
+MaterialManager.defGroup 708
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Stone
+
+rem *** Bamboo Exterior wall ***
+MaterialManager.attGroup 113
+MaterialManager.defGroup 708
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Wood
+
+rem *** Wooden Floor ***
+MaterialManager.attGroup 117
+MaterialManager.defGroup 708
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Wood
+
+rem *** Stone Floor ***
+MaterialManager.attGroup 118
+MaterialManager.defGroup 708
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Stone
+
+rem *** Glass Pane ***
+MaterialManager.attGroup 119
+MaterialManager.defGroup 708
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+rem *** Tree Trunk ***
+MaterialManager.attGroup 165
+MaterialManager.defGroup 708
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Wood
+
+rem *************************************************
+rem		Special items
+rem *************************************************
+
+rem *** Wooden door ***
+MaterialManager.attGroup 190
+MaterialManager.defGroup 708
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Wood
+
+rem *** Metal Door ***
+MaterialManager.attGroup 191
+MaterialManager.defGroup 708
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+REM ####################################################
+REM ##### GALACTIC CONQUEST STUFF ######################
+REM ####################################################
+
+rem *** Snowspeeder cockpit ***
+MaterialManager.attGroup 706
+MaterialManager.defGroup 708
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+rem *** snowspeeder body ***
+MaterialManager.attGroup 708
+MaterialManager.defGroup 708
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+rem *** snowspeeder engine ***
+MaterialManager.attGroup 707
+MaterialManager.defGroup 708
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+
+REM ***** ATST *****
+
+MaterialManager.attGroup 720
+MaterialManager.defGroup 708
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 721
+MaterialManager.defGroup 708
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 722
+MaterialManager.defGroup 708
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 723
+MaterialManager.defGroup 708
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+
+REM ***** TIE FIGHTER *****
+
+MaterialManager.attGroup 700
+MaterialManager.defGroup 708
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 701
+MaterialManager.defGroup 708
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+
+REM ***** TIE BOMBER *****
+
+MaterialManager.attGroup 710
+MaterialManager.defGroup 708
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 711
+MaterialManager.defGroup 708
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+
+REM ***** XWING *****
+
+MaterialManager.attGroup 715
+MaterialManager.defGroup 708
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 716
+MaterialManager.defGroup 708
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 717
+MaterialManager.defGroup 708
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+
+REM ***** AT-AT *****
+
+MaterialManager.attGroup 730
+MaterialManager.defGroup 708
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 731
+MaterialManager.defGroup 708
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 732
+MaterialManager.defGroup 708
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 733
+MaterialManager.defGroup 708
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 734
+MaterialManager.defGroup 708
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 735
+MaterialManager.defGroup 708
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 736
+MaterialManager.defGroup 708
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+
+REM ***** AWING *****
+
+MaterialManager.attGroup 740
+MaterialManager.defGroup 708
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 741
+MaterialManager.defGroup 708
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 742
+MaterialManager.defGroup 708
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+
+REM ***** MILLENIUM FALCON *****
+
+MaterialManager.attGroup 750
+MaterialManager.defGroup 708
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 752
+MaterialManager.defGroup 708
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 753
+MaterialManager.defGroup 708
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+
+REM ***** LAMBDA SHUTTLE *****
+
+MaterialManager.attGroup 760
+MaterialManager.defGroup 708
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 761
+MaterialManager.defGroup 708
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 762
+MaterialManager.defGroup 708
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 763
+MaterialManager.defGroup 708
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+
+REM ***** LANDSPEEDER *****
+
+MaterialManager.attGroup 770
+MaterialManager.defGroup 708
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 771
+MaterialManager.defGroup 708
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+
+
+
+
+
+
+REM ###########################################################################################################
+REM #################################               ###########################################################
+REM ################################# NEXT MATERIAL ###########################################################
+REM #################################               ###########################################################
+REM ###########################################################################################################
+
+
+rem *************************************************
+rem *************************************************
+rem *************************************************
+rem *****************SNOWSPEEDER COCKPIT*************
+rem *************************************************
+rem *************************************************
+rem *************************************************
+
+rem *************************************************
+rem		scout cars target
+rem *************************************************
+BeginRem 
+
+MaterialManager.attGroup 706
+MaterialManager.defGroup 40
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_collision_Soldier
+
+MaterialManager.attGroup 706
+MaterialManager.defGroup 41
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_collision_Soldier
+
+MaterialManager.attGroup 706
+MaterialManager.defGroup 42
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_collision_Soldier
+EndRem 
+
+MaterialManager.attGroup 706
+MaterialManager.defGroup 43
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Soldier
+
+MaterialManager.attGroup 706
+MaterialManager.defGroup 44
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Soldier
+
+rem *************************************************
+rem		Plane Vehicle target
+rem *************************************************
+
+MaterialManager.attGroup 706
+MaterialManager.defGroup 45
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 706
+MaterialManager.defGroup 46
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 706
+MaterialManager.defGroup 47
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 706
+MaterialManager.defGroup 48
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 706
+MaterialManager.defGroup 49
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+rem *************************************************
+rem		Plane Vehicle target
+rem *************************************************
+
+MaterialManager.attGroup 706
+MaterialManager.defGroup 50
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 706
+MaterialManager.defGroup 51
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 62
+MaterialManager.defGroup 52
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 706
+MaterialManager.defGroup 53
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 706
+MaterialManager.defGroup 54
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+rem *************************************************
+rem		Ship target
+rem *************************************************
+
+
+MaterialManager.attGroup 706
+MaterialManager.defGroup 55
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 706
+MaterialManager.defGroup 56
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 706
+MaterialManager.defGroup 57
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 706
+MaterialManager.defGroup 58
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 706
+MaterialManager.defGroup 59
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+rem *************************************************
+rem		Planes target
+rem *************************************************
+
+MaterialManager.attGroup 706
+MaterialManager.defGroup 60
+MaterialManager.damageMod 10
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 706
+MaterialManager.defGroup 61
+MaterialManager.damageMod 8
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 706
+MaterialManager.defGroup 62
+MaterialManager.damageMod 6
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 706
+MaterialManager.defGroup 63
+MaterialManager.damageMod 6
+MaterialManager.setEffectTemplate e_collision_metal
+
+rem *************************************************
+rem		Material Effects
+rem *************************************************
+rem *************************************************
+rem		Other Materials
+rem *************************************************
+
+rem *** Ground (Default) ***
+MaterialManager.attGroup 0
+MaterialManager.defGroup 706
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Other
+
+rem *** Water ***
+MaterialManager.attGroup 1
+MaterialManager.defGroup 706
+MaterialManager.damageMod 0.1
+
+rem *** Dry Grass (yellow) ***
+MaterialManager.attGroup 2
+MaterialManager.defGroup 706
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Other
+
+rem *** Juicy Grass (Green) ***
+MaterialManager.attGroup 3
+MaterialManager.defGroup 706
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Other
+
+rem *** Dry Dirt ***
+MaterialManager.attGroup 4
+MaterialManager.defGroup 706
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Other
+
+rem *** Wet Dirt ***
+MaterialManager.attGroup 5
+MaterialManager.defGroup 706
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Other
+
+rem *** Mud ***
+MaterialManager.attGroup 6
+MaterialManager.defGroup 706
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Other
+
+rem *** Deep Mud ***
+MaterialManager.attGroup 7
+MaterialManager.defGroup 706
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Other
+
+rem *** Gravel ***
+MaterialManager.attGroup 8
+MaterialManager.defGroup 706
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Other
+
+rem *** Frozen ground ***
+MaterialManager.attGroup 9
+MaterialManager.defGroup 706
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Other
+
+rem *** Dry Sand ***
+MaterialManager.attGroup 10
+MaterialManager.defGroup 706
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Other
+
+rem *** Wet Sand ***
+MaterialManager.attGroup 11
+MaterialManager.defGroup 706
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Other
+
+rem *** Rock ***
+MaterialManager.attGroup 12
+MaterialManager.defGroup 706
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Other
+
+rem *** Forest Floor ***
+MaterialManager.attGroup 13
+MaterialManager.defGroup 706
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Other
+
+rem *** Dirt Road ***
+MaterialManager.attGroup 14
+MaterialManager.defGroup 706
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Other
+
+rem *** Paved Road ***
+MaterialManager.attGroup 15
+MaterialManager.defGroup 706
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Other
+
+
+rem *** Solid Wood ***
+MaterialManager.attGroup 80
+MaterialManager.defGroup 706
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Wood
+
+rem *** Wood ***
+MaterialManager.attGroup 81
+MaterialManager.defGroup 706
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_collision_Wood
+
+rem *** Thin Wood ***
+MaterialManager.attGroup 82
+MaterialManager.defGroup 706
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Wood
+
+rem *** Hollow Wood ***
+MaterialManager.attGroup 83
+MaterialManager.defGroup 706
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Wood
+
+rem *** Solid Metal ***
+MaterialManager.attGroup 84
+MaterialManager.defGroup 706
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+rem *** Metal ***
+MaterialManager.attGroup 85
+MaterialManager.defGroup 706
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+rem *** Thin Metal ***
+MaterialManager.attGroup 86
+MaterialManager.defGroup 706
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+rem *** Hollow Metal ***
+MaterialManager.attGroup 87
+MaterialManager.defGroup 706
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_collision_metal
+
+rem *** Solid Stone (Rock) ***
+MaterialManager.attGroup 88
+MaterialManager.defGroup 706
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Stone
+
+rem *** Hollow Metal ***
+MaterialManager.attGroup 89
+MaterialManager.defGroup 706
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+rem *** Hollow Metal ***
+MaterialManager.attGroup 90
+MaterialManager.defGroup 706
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+rem *** Hollow Metal ***
+MaterialManager.attGroup 91
+MaterialManager.defGroup 706
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+
+
+rem *** Concrete ***
+MaterialManager.attGroup 92
+MaterialManager.defGroup 706
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Stone
+
+rem *** Reinforced Concrete ***
+MaterialManager.attGroup 93
+MaterialManager.defGroup 706
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Stone
+
+rem *** Exterior Stone Wall ***
+MaterialManager.attGroup 100
+MaterialManager.defGroup 706
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Stone
+
+rem *** Exterior brick Wall ***
+MaterialManager.attGroup 102
+MaterialManager.defGroup 706
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Stone
+
+rem *** Exterior wooden Wall ***
+MaterialManager.attGroup 104
+MaterialManager.defGroup 706
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Wood
+
+rem *** Interior wooden Wall ***
+MaterialManager.attGroup 105
+MaterialManager.defGroup 706
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Wood
+
+rem *** Wooden Fence ***
+MaterialManager.attGroup 106
+MaterialManager.defGroup 706
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Wood
+
+rem *** Sandbags ***
+MaterialManager.attGroup 107
+MaterialManager.defGroup 706
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Wood
+
+rem *** Grate ***
+MaterialManager.attGroup 108
+MaterialManager.defGroup 706
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Stone
+
+rem *** Bamboo Exterior wall ***
+MaterialManager.attGroup 113
+MaterialManager.defGroup 706
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Wood
+
+rem *** Wooden Floor ***
+MaterialManager.attGroup 117
+MaterialManager.defGroup 706
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Wood
+
+rem *** Stone Floor ***
+MaterialManager.attGroup 118
+MaterialManager.defGroup 706
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Stone
+
+rem *** Glass Pane ***
+MaterialManager.attGroup 119
+MaterialManager.defGroup 706
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+rem *** Tree Trunk ***
+MaterialManager.attGroup 165
+MaterialManager.defGroup 706
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Wood
+
+rem *************************************************
+rem		Special items
+rem *************************************************
+
+rem *** Wooden door ***
+MaterialManager.attGroup 190
+MaterialManager.defGroup 706
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Wood
+
+rem *** Metal Door ***
+MaterialManager.attGroup 191
+MaterialManager.defGroup 706
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+REM ####################################################
+REM ##### GALACTIC CONQUEST STUFF ######################
+REM ####################################################
+
+rem *** Snowspeeder cockpit ***
+MaterialManager.attGroup 706
+MaterialManager.defGroup 706
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+rem *** snowspeeder body ***
+MaterialManager.attGroup 708
+MaterialManager.defGroup 706
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+rem *** snowspeeder engine ***
+MaterialManager.attGroup 707
+MaterialManager.defGroup 706
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+
+REM ***** ATST *****
+
+MaterialManager.attGroup 720
+MaterialManager.defGroup 706
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 721
+MaterialManager.defGroup 706
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 722
+MaterialManager.defGroup 706
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 723
+MaterialManager.defGroup 706
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+
+REM ***** TIE FIGHTER *****
+
+MaterialManager.attGroup 700
+MaterialManager.defGroup 706
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 701
+MaterialManager.defGroup 706
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+
+REM ***** TIE BOMBER *****
+
+MaterialManager.attGroup 710
+MaterialManager.defGroup 706
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 711
+MaterialManager.defGroup 706
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+
+REM ***** XWING *****
+
+MaterialManager.attGroup 715
+MaterialManager.defGroup 706
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 716
+MaterialManager.defGroup 706
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 717
+MaterialManager.defGroup 706
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+
+REM ***** AT-AT *****
+
+MaterialManager.attGroup 730
+MaterialManager.defGroup 706
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 731
+MaterialManager.defGroup 706
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 732
+MaterialManager.defGroup 706
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 733
+MaterialManager.defGroup 706
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 734
+MaterialManager.defGroup 706
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 735
+MaterialManager.defGroup 706
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 736
+MaterialManager.defGroup 706
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+
+REM ***** AWING *****
+
+MaterialManager.attGroup 740
+MaterialManager.defGroup 706
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 741
+MaterialManager.defGroup 706
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 742
+MaterialManager.defGroup 706
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+
+REM ***** MILLENIUM FALCON *****
+
+MaterialManager.attGroup 750
+MaterialManager.defGroup 706
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 752
+MaterialManager.defGroup 706
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 753
+MaterialManager.defGroup 706
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+
+REM ***** LAMBDA SHUTTLE *****
+
+MaterialManager.attGroup 760
+MaterialManager.defGroup 706
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 761
+MaterialManager.defGroup 706
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 762
+MaterialManager.defGroup 706
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 763
+MaterialManager.defGroup 706
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+
+REM ***** LANDSPEEDER *****
+
+MaterialManager.attGroup 770
+MaterialManager.defGroup 706
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 771
+MaterialManager.defGroup 706
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+REM ###########################################################################################################
+REM #################################               ###########################################################
+REM ################################# NEXT MATERIAL ###########################################################
+REM #################################               ###########################################################
+REM ###########################################################################################################
+
+rem *************************************************
+rem *************************************************
+rem *************************************************
+rem *****************SNOWSPEEDER ENGINE**************
+rem *************************************************
+rem *************************************************
+rem *************************************************
+
+rem *************************************************
+rem		scout cars target
+rem *************************************************
+BeginRem 
+
+MaterialManager.attGroup 707
+MaterialManager.defGroup 40
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_collision_Soldier
+
+MaterialManager.attGroup 707
+MaterialManager.defGroup 41
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_collision_Soldier
+
+MaterialManager.attGroup 707
+MaterialManager.defGroup 42
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_collision_Soldier
+EndRem 
+
+MaterialManager.attGroup 707
+MaterialManager.defGroup 43
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Soldier
+
+MaterialManager.attGroup 707
+MaterialManager.defGroup 44
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Soldier
+
+rem *************************************************
+rem		Plane Vehicle target
+rem *************************************************
+
+MaterialManager.attGroup 707
+MaterialManager.defGroup 45
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 707
+MaterialManager.defGroup 46
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 707
+MaterialManager.defGroup 47
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 707
+MaterialManager.defGroup 48
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 707
+MaterialManager.defGroup 49
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+rem *************************************************
+rem		Plane Vehicle target
+rem *************************************************
+
+MaterialManager.attGroup 707
+MaterialManager.defGroup 50
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 707
+MaterialManager.defGroup 51
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 62
+MaterialManager.defGroup 52
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 707
+MaterialManager.defGroup 53
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 707
+MaterialManager.defGroup 54
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+rem *************************************************
+rem		Ship target
+rem *************************************************
+
+
+MaterialManager.attGroup 707
+MaterialManager.defGroup 55
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 707
+MaterialManager.defGroup 56
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 707
+MaterialManager.defGroup 57
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 707
+MaterialManager.defGroup 58
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 707
+MaterialManager.defGroup 59
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+rem *************************************************
+rem		Planes target
+rem *************************************************
+
+MaterialManager.attGroup 707
+MaterialManager.defGroup 60
+MaterialManager.damageMod 10
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 707
+MaterialManager.defGroup 61
+MaterialManager.damageMod 8
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 707
+MaterialManager.defGroup 62
+MaterialManager.damageMod 6
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 707
+MaterialManager.defGroup 63
+MaterialManager.damageMod 6
+MaterialManager.setEffectTemplate e_collision_metal
+
+rem *************************************************
+rem		Material Effects
+rem *************************************************
+rem *************************************************
+rem		Other Materials
+rem *************************************************
+
+rem *** Ground (Default) ***
+MaterialManager.attGroup 0
+MaterialManager.defGroup 707
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Other
+
+rem *** Water ***
+MaterialManager.attGroup 1
+MaterialManager.defGroup 707
+MaterialManager.damageMod 0.1
+
+rem *** Dry Grass (yellow) ***
+MaterialManager.attGroup 2
+MaterialManager.defGroup 707
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Other
+
+rem *** Juicy Grass (Green) ***
+MaterialManager.attGroup 3
+MaterialManager.defGroup 707
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Other
+
+rem *** Dry Dirt ***
+MaterialManager.attGroup 4
+MaterialManager.defGroup 707
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Other
+
+rem *** Wet Dirt ***
+MaterialManager.attGroup 5
+MaterialManager.defGroup 707
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Other
+
+rem *** Mud ***
+MaterialManager.attGroup 6
+MaterialManager.defGroup 707
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Other
+
+rem *** Deep Mud ***
+MaterialManager.attGroup 7
+MaterialManager.defGroup 707
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Other
+
+rem *** Gravel ***
+MaterialManager.attGroup 8
+MaterialManager.defGroup 707
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Other
+
+rem *** Frozen ground ***
+MaterialManager.attGroup 9
+MaterialManager.defGroup 707
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Other
+
+rem *** Dry Sand ***
+MaterialManager.attGroup 10
+MaterialManager.defGroup 707
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Other
+
+rem *** Wet Sand ***
+MaterialManager.attGroup 11
+MaterialManager.defGroup 707
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Other
+
+rem *** Rock ***
+MaterialManager.attGroup 12
+MaterialManager.defGroup 707
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Other
+
+rem *** Forest Floor ***
+MaterialManager.attGroup 13
+MaterialManager.defGroup 707
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Other
+
+rem *** Dirt Road ***
+MaterialManager.attGroup 14
+MaterialManager.defGroup 707
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Other
+
+rem *** Paved Road ***
+MaterialManager.attGroup 15
+MaterialManager.defGroup 707
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Other
+
+
+rem *** Solid Wood ***
+MaterialManager.attGroup 80
+MaterialManager.defGroup 707
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Wood
+
+rem *** Wood ***
+MaterialManager.attGroup 81
+MaterialManager.defGroup 707
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_collision_Wood
+
+rem *** Thin Wood ***
+MaterialManager.attGroup 82
+MaterialManager.defGroup 707
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Wood
+
+rem *** Hollow Wood ***
+MaterialManager.attGroup 83
+MaterialManager.defGroup 707
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Wood
+
+rem *** Solid Metal ***
+MaterialManager.attGroup 84
+MaterialManager.defGroup 707
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+rem *** Metal ***
+MaterialManager.attGroup 85
+MaterialManager.defGroup 707
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+rem *** Thin Metal ***
+MaterialManager.attGroup 86
+MaterialManager.defGroup 707
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+rem *** Hollow Metal ***
+MaterialManager.attGroup 87
+MaterialManager.defGroup 707
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_collision_metal
+
+rem *** Solid Stone (Rock) ***
+MaterialManager.attGroup 88
+MaterialManager.defGroup 707
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Stone
+
+rem *** Hollow Metal ***
+MaterialManager.attGroup 89
+MaterialManager.defGroup 707
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+rem *** Hollow Metal ***
+MaterialManager.attGroup 90
+MaterialManager.defGroup 707
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+rem *** Hollow Metal ***
+MaterialManager.attGroup 91
+MaterialManager.defGroup 707
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+
+
+rem *** Concrete ***
+MaterialManager.attGroup 92
+MaterialManager.defGroup 707
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Stone
+
+rem *** Reinforced Concrete ***
+MaterialManager.attGroup 93
+MaterialManager.defGroup 707
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Stone
+
+rem *** Exterior Stone Wall ***
+MaterialManager.attGroup 100
+MaterialManager.defGroup 707
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Stone
+
+rem *** Exterior brick Wall ***
+MaterialManager.attGroup 102
+MaterialManager.defGroup 707
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Stone
+
+rem *** Exterior wooden Wall ***
+MaterialManager.attGroup 104
+MaterialManager.defGroup 707
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Wood
+
+rem *** Interior wooden Wall ***
+MaterialManager.attGroup 105
+MaterialManager.defGroup 707
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Wood
+
+rem *** Wooden Fence ***
+MaterialManager.attGroup 106
+MaterialManager.defGroup 707
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Wood
+
+rem *** Sandbags ***
+MaterialManager.attGroup 107
+MaterialManager.defGroup 707
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Wood
+
+rem *** Grate ***
+MaterialManager.attGroup 108
+MaterialManager.defGroup 707
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Stone
+
+rem *** Bamboo Exterior wall ***
+MaterialManager.attGroup 113
+MaterialManager.defGroup 707
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Wood
+
+rem *** Wooden Floor ***
+MaterialManager.attGroup 117
+MaterialManager.defGroup 707
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Wood
+
+rem *** Stone Floor ***
+MaterialManager.attGroup 118
+MaterialManager.defGroup 707
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Stone
+
+rem *** Glass Pane ***
+MaterialManager.attGroup 119
+MaterialManager.defGroup 707
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+rem *** Tree Trunk ***
+MaterialManager.attGroup 165
+MaterialManager.defGroup 707
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Wood
+
+rem *************************************************
+rem		Special items
+rem *************************************************
+
+rem *** Wooden door ***
+MaterialManager.attGroup 190
+MaterialManager.defGroup 707
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Wood
+
+rem *** Metal Door ***
+MaterialManager.attGroup 191
+MaterialManager.defGroup 707
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+REM ####################################################
+REM ##### GALACTIC CONQUEST STUFF ######################
+REM ####################################################
+
+rem *** Snowspeeder cockpit ***
+MaterialManager.attGroup 706
+MaterialManager.defGroup 707
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+rem *** snowspeeder body ***
+MaterialManager.attGroup 708
+MaterialManager.defGroup 707
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+rem *** snowspeeder engine ***
+MaterialManager.attGroup 707
+MaterialManager.defGroup 707
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+
+REM ***** ATST *****
+
+MaterialManager.attGroup 720
+MaterialManager.defGroup 707
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 721
+MaterialManager.defGroup 707
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 722
+MaterialManager.defGroup 707
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 723
+MaterialManager.defGroup 707
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+
+REM ***** TIE FIGHTER *****
+
+MaterialManager.attGroup 700
+MaterialManager.defGroup 707
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 701
+MaterialManager.defGroup 707
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+
+REM ***** TIE BOMBER *****
+
+MaterialManager.attGroup 710
+MaterialManager.defGroup 707
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 711
+MaterialManager.defGroup 707
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+
+REM ***** XWING *****
+
+MaterialManager.attGroup 715
+MaterialManager.defGroup 707
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 716
+MaterialManager.defGroup 707
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 717
+MaterialManager.defGroup 707
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+
+REM ***** AT-AT *****
+
+MaterialManager.attGroup 730
+MaterialManager.defGroup 707
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 731
+MaterialManager.defGroup 707
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 732
+MaterialManager.defGroup 707
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 733
+MaterialManager.defGroup 707
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 734
+MaterialManager.defGroup 707
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 735
+MaterialManager.defGroup 707
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 736
+MaterialManager.defGroup 707
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+
+REM ***** AWING *****
+
+MaterialManager.attGroup 740
+MaterialManager.defGroup 707
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 741
+MaterialManager.defGroup 707
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 742
+MaterialManager.defGroup 707
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+
+REM ***** MILLENIUM FALCON *****
+
+MaterialManager.attGroup 750
+MaterialManager.defGroup 707
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 752
+MaterialManager.defGroup 707
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 753
+MaterialManager.defGroup 707
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+
+REM ***** LAMBDA SHUTTLE *****
+
+MaterialManager.attGroup 760
+MaterialManager.defGroup 707
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 761
+MaterialManager.defGroup 707
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 762
+MaterialManager.defGroup 707
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 763
+MaterialManager.defGroup 707
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+
+REM ***** LANDSPEEDER *****
+
+MaterialManager.attGroup 770
+MaterialManager.defGroup 707
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 771
+MaterialManager.defGroup 707
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal

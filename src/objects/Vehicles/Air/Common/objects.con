@@ -1,0 +1,6 @@
+ObjectTemplate.create SonarObject MFsonar
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.detectionRadius 400.0
+ObjectTemplate.scanForEnemySonars c_True
+ObjectTemplate.loadSoundScript Sounds/radar.ssc
+ObjectTemplate.SetAttachToListener 1

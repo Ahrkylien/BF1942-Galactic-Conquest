@@ -1,0 +1,6 @@
+ObjectTemplate.create SimpleObject highlandingpad
+ObjectTemplate.aiTemplate highlandingpad
+ObjectTemplate.geometry highlandingpad
+ObjectTemplate.setHasCollisionPhysics 1
+
+

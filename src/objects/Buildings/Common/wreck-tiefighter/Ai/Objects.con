@@ -1,0 +1,17 @@
+rem *** Plugins ***
+aiTemplatePlugIn.create Cover wreckbundle1Cover
+aiTemplatePlugIn.coverValue 40.0
+
+aiTemplatePlugIn.create Physical wreckbundle1Physical
+
+rem *** AITemplate ***
+aiTemplate.create wreckbundle1
+aiTemplate.addType ITCover
+aiTemplate.addType ITStructure
+aiTemplate.addType ITNoTemperature
+aiTemplate.degeneration 1
+aiTemplate.allowedTimeDiff -1
+aiTemplate.basicTemp 1
+aiTemplate.commonKnowledge 1
+aiTemplate.addPlugIn wreckbundle1Cover
+aiTemplate.addPlugIn wreckbundle1Physical

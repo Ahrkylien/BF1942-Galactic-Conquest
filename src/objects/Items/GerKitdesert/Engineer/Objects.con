@@ -1,0 +1,40 @@
+ObjectTemplate.create KitPart BacpacBig_Desert_ger
+ObjectTemplate.geometry BacpacBig_Desert_ger
+ObjectTemplate.setBoneName backpack
+ObjectTemplate.setCopyLinksCount 0
+
+
+
+ObjectTemplate.create Kit German_Engineer_Desert
+ObjectTemplate.setType Engineer
+ObjectTemplate.setKitTeam 1
+ObjectTemplate.geometry Kit_Axis_Engineer
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.networkableInfo KitInfo
+ObjectTemplate.addTemplate Germ_DesertHelmet
+ObjectTemplate.addTemplate German_hippack
+ObjectTemplate.addTemplate BacpacBig_Desert_ger
+
+ObjectTemplate.setHealthBarIcon "Ingame/Healthbar_empty_engineer_64x64.tga"
+ObjectTemplate.setHealthBarFullIcon "Ingame/Healthbar_full_engineer_64x64.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_axisKnife.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_walter.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_m98.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_demokit.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_landmine.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_repairpack.tga"
+
+ObjectTemplate.setKitIcon 4 "kits/Icon_engineer_axis_selected.tga"
+ObjectTemplate.setKitName 4 "RESPAWN_ENGINEER"
+ObjectTemplate.setKitActiveName 4 "RESPAWN_ACTIVE_ENGINEER"
+
+ObjectTemplate.addTemplate k98
+ObjectTemplate.addTemplate walterp38
+ObjectTemplate.addTemplate KnifeAxis
+
+ObjectTemplate.addTemplate RepairPack
+ObjectTemplate.addTemplate Landmine
+ObjectTemplate.addTemplate Detonator
+ObjectTemplate.addTemplate ExpPack
+rem ObjectTemplate.addTemplate GrenadeAxis
+ObjectTemplate.aiTemplate  Engineer

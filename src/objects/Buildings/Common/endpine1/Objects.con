@@ -1,0 +1,4 @@
+ObjectTemplate.create Bundle endpine1
+ObjectTemplate.geometry endpine1
+ObjectTemplate.setHasCollisionPhysics 1
+

@@ -1,0 +1,6 @@
+ObjectTemplate.create SimpleObject evaporator
+ObjectTemplate.aiTemplate evaporator
+ObjectTemplate.geometry evaporator
+ObjectTemplate.setHasCollisionPhysics 1
+
+

@@ -1,0 +1,81 @@
+ObjectTemplate.create HandFireArms DH17
+ObjectTemplate.itemIndex 2
+ObjectTemplate.networkableInfo HandFireArmsInfo
+ObjectTemplate.projectileTemplate Dh17Projectile
+ObjectTemplate.projectilePosition 0/0/0
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.magSize 75
+ObjectTemplate.unZoomBetweenFireTime 0
+ObjectTemplate.useScope 1
+ObjectTemplate.setScopeIcon "reb_dl-44scope.tga"
+ObjectTemplate.numOfMag 1
+ObjectTemplate.magType 0
+ObjectTemplate.reloadtime 0.000001
+ObjectTemplate.roundOfFire 5.5
+ObjectTemplate.fireOnce 1
+objectTemplate.aiTemplate BarAI
+ObjectTemplate.zoomFov 0.3
+ObjectTemplate.soldierZoomFov 0.6
+ObjectTemplate.soldierZoomPosition -0.04/0/0
+ObjectTemplate.soldierCameraPosition -0.03/-0.02/-0.07
+ObjectTemplate.addRootSpeed 0
+ObjectTemplate.AmmoType	1
+ObjectTemplate.autoReload 0
+ObjectTemplate.setHasMag 0
+
+
+ObjectTemplate.altFireOnce 1
+rem objectTemplate.UseScope 1
+
+Rem *** Deviation Begin *****
+
+ObjectTemplate.velocity 180
+ObjectTemplate.setRecoilForceUp CRD_UNIFORM/0.5/0.6/0
+ObjectTemplate.setRecoilForceLeftRight CRD_UNIFORM/-0.3/-0.3/0
+ObjectTemplate.setHasRecoilForce 1
+ObjectTemplate.setGoBackOnRecoil 1
+
+ObjectTemplate.setFireDev 4.0 2.0 1.0
+ObjectTemplate.setDevMod 0.4 0.2 0.0
+ObjectTemplate.setMinDev 0.0
+ObjectTemplate.setTurnDev 1.0 0.2 0.2 0.1
+ObjectTemplate.setSpeedDev 1.0 0.2 0.2 0.1
+ObjectTemplate.setMiscDev 10.0 10.0 1.0
+`
+Rem *** Deviation  End *****
+
+ObjectTemplate.fireInCameraDof 1
+ObjectTemplate.loadSoundScript Sounds/DH-17.ssc
+ObjectTemplate.GUIIndex 18
+ObjectTemplate.setHudAmmoType ATIconAndHeatBar
+ObjectTemplate.setAmmoIcon "ammo/icon_laser_64x32.dds"
+ObjectTemplate.setCrossHairType CHTCrossHair
+
+ObjectTemplate.createSkeleton animations/DH17.ske
+ObjectTemplate.useSkeletonPartAsMain base
+ObjectTemplate.addTemplate DH17Lod
+
+ObjectTemplate.addTemplate e_MuzzSG44
+ObjectTemplate.setInputId -1
+ObjectTemplate.startoneffects 0
+ObjectTemplate.setPosition 0/0.06/0.675
+ObjectTemplate.setRotation 0/0/0
+
+rem *** simple-Objects ***
+
+ObjectTemplate.create SimpleObject DH17Simple
+ObjectTemplate.geometry DH17
+
+
+ObjectTemplate.create AnimatedBundle Dh17Complex
+ObjectTemplate.createSkeleton animations/Dh17.ske
+ObjectTemplate.addTemplate DH17Simple
+ObjectTemplate.setPosition 0/-0.07/0.07
+ObjectTemplate.bindToSkeletonPart thompson
+
+
+ObjectTemplate.create LodObject Dh17Lod
+ObjectTemplate.lodselector HandWeaponLodSelector
+ObjectTemplate.addTemplate Dh17Complex
+ObjectTemplate.addTemplate Dh17Simple
+

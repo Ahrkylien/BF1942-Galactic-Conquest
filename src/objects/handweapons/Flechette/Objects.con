@@ -1,0 +1,86 @@
+ObjectTemplate.create HandFireArms Flechette
+ObjectTemplate.networkableInfo HandFireArmsInfo
+ObjectTemplate.aiTemplate Bazooka
+ObjectTemplate.itemIndex 3
+ObjectTemplate.projectileTemplate FlechetteMissile
+ObjectTemplate.projectilePosition -.3/.3/0
+ObjectTemplate.projectilePosition .3/.3/0
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.ForceOnExplosion 5
+ObjectTemplate.magSize 6
+ObjectTemplate.numOfMag 2
+ObjectTemplate.magType 0
+ObjectTemplate.autoReload 1
+ObjectTemplate.reloadtime 0.5
+ObjectTemplate.roundOfFire 1
+ObjectTemplate.fireOnce 0
+ObjectTemplate.cantSelectWhenNoAmmo 1
+ObjectTemplate.changeWeaponWhenNoAmmo 1
+ObjectTemplate.soldierZoomFov 0.6 
+ObjectTemplate.soldierZoomPosition -0.05/-0.02/0
+ObjectTemplate.AmmoType	3
+ObjectTemplate.loadSoundScript Sounds/flechette.ssc
+ObjectTemplate.zoomFov 0.2
+ObjectTemplate.altFireOnce 1
+ObjectTemplate.fireInCameraDof 1
+ObjectTemplate.useScope 1
+ObjectTemplate.setScopeIcon "flechette.tga"
+ObjectTemplate.GUIIndex 17
+ObjectTemplate.setHudAmmoType ATIcon
+ObjectTemplate.setAmmoIcon "Ammo/Icon_bazooka_64x32.tga"
+ObjectTemplate.setCrossHairType CHTCrosshair
+
+
+Rem *** Deviation Begin *****
+
+ObjectTemplate.velocity 500
+ObjectTemplate.minDeviation 0
+ObjectTemplate.maxDeviation 0.5
+
+ObjectTemplate.minDevStanding 0.2
+ObjectTemplate.minDevCrouching 0.1
+ObjectTemplate.minDevLying 0.05
+
+ObjectTemplate.subDevStanding 0.03
+ObjectTemplate.subDevCrouching 0.05
+ObjectTemplate.subDevLying 0.025
+
+ObjectTemplate.addDevWalk 0.01
+ObjectTemplate.addDevRun 0.02
+ObjectTemplate.addDevJump 0.05
+ObjectTemplate.addDevYaw 0.02
+ObjectTemplate.addDevPitch 0.02
+ObjectTemplate.addDevStrafe 0.01
+
+ObjectTemplate.addDevFire 0.08
+ObjectTemplate.subDev 0.01
+
+Rem *** Deviation  End *****
+
+ObjectTemplate.createSkeleton animations/Flechette.ske
+ObjectTemplate.useSkeletonPartAsMain Bazooka
+ObjectTemplate.addTemplate FlechetteLod
+
+ObjectTemplate.addTemplate e_muzzFlechette
+ObjectTemplate.setInputId -1
+ObjectTemplate.startoneffects 0
+ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.setRotation 0/0/0
+
+
+ObjectTemplate.create SimpleObject FlechetteSimple
+ObjectTemplate.geometry Flechette_m1
+
+ObjectTemplate.create AnimatedBundle FlechetteComplex
+ObjectTemplate.addTemplate FlechetteSimple
+ObjectTemplate.setPosition -0.09/0.03/0
+ObjectTemplate.bindtoskeletonpart Bazooka
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.createSkeleton animations/Flechette.ske
+
+
+ObjectTemplate.create LodObject FlechetteLod
+ObjectTemplate.lodselector HandWeaponLodSelector
+ObjectTemplate.addTemplate FlechetteComplex
+ObjectTemplate.addTemplate FlechetteSimple
+ObjectTemplate.setPosition -.1/-.1/0	

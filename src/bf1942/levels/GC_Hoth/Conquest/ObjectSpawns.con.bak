@@ -1,0 +1,157 @@
+rem *** atst-atst ***
+Object.create atst-atst
+Object.absolutePosition 1489.528/20.14688/1695.22
+Object.rotation -20.5/0/0
+Object.setTeam 1
+
+rem *** atst-atst ***
+Object.create atst-atst
+Object.absolutePosition 1473.277/20.35/1688.564
+Object.rotation 338.5/0/0
+Object.setTeam 1
+
+rem *** tiebomber-snowspeeder ***
+Object.create tiebomber-snowspeeder
+Object.absolutePosition 1331.426/18.47266/1816.799
+Object.rotation -125/0/0
+Object.setTeam 1
+
+rem *** tiebomber-snowspeeder ***
+Object.create tiebomber-snowspeeder
+Object.absolutePosition 1303.255/17.89688/1833.003
+Object.rotation -147.75/0/0
+Object.setTeam 1
+
+rem *** atst-atst ***
+Object.create atst-atst
+Object.absolutePosition 1475.996/19.90626/1728.394
+Object.rotation -19.75/0/0
+Object.setTeam 1
+
+rem *** atst-atst ***
+Object.create atst-atst
+Object.absolutePosition 1104.586/15.6/548.5106
+Object.rotation 147.5/0/0
+Object.setOSId 6
+
+rem *** atst-atst ***
+Object.create atst-atst
+Object.absolutePosition 1085.364/15.6/523.3121
+Object.rotation 98.25/0/0
+Object.setOSId 6
+
+rem *** tiefighter-snowspeeder ***
+Object.create tiefighter-snowspeeder
+Object.absolutePosition 445.107/4.6/457.3073
+Object.rotation -43.5/0/0
+Object.setTeam 2
+
+rem *** tiefighter-snowspeeder ***
+Object.create tiefighter-snowspeeder
+Object.absolutePosition 427.6025/4.44375/437.2219
+Object.rotation -42.5/0/0
+Object.setTeam 2
+
+rem *** tiefighter-snowspeeder ***
+Object.create tiefighter-snowspeeder
+Object.absolutePosition 408.4304/4.475/414.0505
+Object.rotation -46.25/0/0
+Object.setTeam 2
+
+rem *** tiefighter-snowspeeder ***
+Object.create tiefighter-snowspeeder
+Object.absolutePosition 366.9742/4.678125/448.8582
+Object.rotation -237.5/0/0
+Object.setTeam 2
+
+rem *** tiefighter-snowspeeder ***
+Object.create tiefighter-snowspeeder
+Object.absolutePosition 388.7375/5.459375/466.4048
+Object.rotation -236.75/0/0
+Object.setTeam 2
+
+rem *** tiefighter-snowspeeder ***
+Object.create tiefighter-snowspeeder
+Object.absolutePosition 406.0007/4.9125/487.056
+Object.rotation -234/0/0
+Object.setTeam 2
+
+rem *** APTurretSpawner ***
+Object.create APTurretSpawner
+Object.absolutePosition 961.6667/18.63047/660.9144
+Object.setTeam 2
+
+rem *** APTurretSpawner ***
+Object.create APTurretSpawner
+Object.absolutePosition 789.7827/16.02188/682.6345
+Object.setTeam 2
+
+rem *** APTurretSpawner ***
+Object.create APTurretSpawner
+Object.absolutePosition 739.9805/15.97813/713.2333
+Object.setTeam 2
+
+rem *** AVTurretSpawner ***
+Object.create AVTurretSpawner
+Object.absolutePosition 725.391/15.72422/787.8851
+Object.setTeam 2
+
+rem *** AVTurretSpawner ***
+Object.create AVTurretSpawner
+Object.absolutePosition 836.2513/15.99141/681.4783
+Object.setTeam 2
+
+rem *** MilleniumFalconSpawner ***
+Object.create MilleniumFalconSpawner
+Object.absolutePosition 370.7347/4.928125/406.436
+Object.rotation 39.75/0/0
+Object.setTeam 2
+
+rem *** atst-atst ***
+Object.create atst-atst
+Object.absolutePosition 1276.342/19.84297/1685.714
+Object.rotation 44.25/0/0
+Object.setTeam 1
+
+rem *** atst-atst ***
+Object.create atst-atst
+Object.absolutePosition 1289.572/19.94297/1673.088
+Object.rotation 44.25/0/0
+Object.setTeam 1
+
+rem *** atst-atst ***
+Object.create atst-atst
+Object.absolutePosition 1314.823/20.0211/1701.516
+Object.rotation 43.75/0/0
+Object.setTeam 1
+
+rem *** tiefighter-snowspeeder ***
+Object.create tiefighter-snowspeeder
+Object.absolutePosition 398.2227/16.22265/1717.457
+Object.rotation -228/0/0
+Object.setOSId 5
+
+rem *** tiefighter-snowspeeder ***
+Object.create tiefighter-snowspeeder
+Object.absolutePosition 354.3672/16.13671/1665.071
+Object.rotation 133/0/0
+Object.setOSId 5
+
+rem *** tiefighter-snowspeeder ***
+Object.create tiefighter-snowspeeder
+Object.absolutePosition 391.673/16.23672/1675.556
+Object.rotation 133.75/0/0
+Object.setOSId 5
+
+rem *** APTurretspawner ***
+Object.create APTurretspawner
+Object.absolutePosition 484/3.709375/480
+Object.rotation 50/0/0
+Object.setTeam 2
+
+rem *** APTurretspawner ***
+Object.create APTurretspawner
+Object.absolutePosition 424/4.789063/524
+Object.rotation 38.5/0/0
+Object.setTeam 2
+

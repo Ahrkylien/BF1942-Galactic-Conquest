@@ -1,0 +1,27 @@
+ObjectTemplate.create Kit GB_AT
+ObjectTemplate.setType AT
+ObjectTemplate.geometry Kit_Allies_AntiTank
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.networkableInfo KitInfo
+ObjectTemplate.addTemplate Brit_Helmet
+rem ObjectTemplate.addTemplate US_Britt_Bacpac
+ObjectTemplate.addTemplate British_hippack
+
+ObjectTemplate.setHealthBarIcon "Ingame/Healthbar_empty_at_64x64.tga"
+ObjectTemplate.setHealthBarFullIcon "Ingame/Healthbar_full_at_64x64.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_alliesKnife.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_colt.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_bazooka.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_grenadeallies.tga"
+
+ObjectTemplate.setKitIcon 2 "kits/Icon_antitank_allies_selected.tga"
+ObjectTemplate.setKitName 2 "RESPAWN_AT"
+ObjectTemplate.setKitActiveName 2 "RESPAWN_ACTIVE_AT"	
+
+ObjectTemplate.addTemplate Bazooka
+ObjectTemplate.addTemplate Colt
+ObjectTemplate.addTemplate KnifeAllies
+ObjectTemplate.addTemplate GrenadeAllies
+
+
+ObjectTemplate.aiTemplate  AT

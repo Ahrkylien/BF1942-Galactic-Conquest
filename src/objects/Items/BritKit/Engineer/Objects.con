@@ -1,0 +1,38 @@
+ObjectTemplate.create KitPart Bac_pac_Big_us_Bri
+ObjectTemplate.geometry Bacpac_Big_us_Bri
+ObjectTemplate.setBoneName backpack
+ObjectTemplate.setCopyLinksCount 0
+
+
+
+ObjectTemplate.create Kit GB_Engineer
+ObjectTemplate.setType Engineer
+ObjectTemplate.geometry Kit_Allies_Engineer
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.networkableInfo KitInfo
+ObjectTemplate.addTemplate brit_Helmet
+ObjectTemplate.addTemplate british_HipPack
+ObjectTemplate.addTemplate Bac_pac_Big_us_Bri
+
+ObjectTemplate.setHealthBarIcon "Ingame/Healthbar_empty_engineer_64x64.tga"
+ObjectTemplate.setHealthBarFullIcon "Ingame/Healthbar_full_engineer_64x64.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_alliesKnife.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_colt.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_no4.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_demokit.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_landmine.tga"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_repairpack.tga"
+
+ObjectTemplate.setKitIcon 4 "kits/Icon_engineer_allies_selected.tga"
+ObjectTemplate.setKitName 4 "RESPAWN_ENGINEER"
+ObjectTemplate.setKitActiveName 4 "RESPAWN_ACTIVE_ENGINEER"	
+
+ObjectTemplate.addTemplate No4
+ObjectTemplate.addTemplate Colt
+ObjectTemplate.addTemplate KnifeAllies
+ObjectTemplate.addTemplate RepairPack
+ObjectTemplate.addTemplate Landmine
+ObjectTemplate.addTemplate Detonator
+ObjectTemplate.addTemplate ExpPack
+rem ObjectTemplate.addTemplate GrenadeAllies
+ObjectTemplate.aiTemplate  Engineer

@@ -1,0 +1,20 @@
+subshader "zero_propblur_m1_Material0" "StandardMesh/Default"
+{
+	lighting true;
+	lightingSpecular true;
+	materialDiffuse 1 1 1;
+	materialSpecular 0.12549 0.12549 0.12549;
+	materialSpecularPower 12.5;
+	envmap true;
+	texture "texture/Zero01_o";
+}
+
+subshader "zero_propblur_m1_Material1" "StandardMesh/Default"
+{
+	lighting false;
+	transparent true;
+	twosided true;
+	depthWrite false;
+	texture "texture/Zero_Propblr";
+}
+

@@ -1,0 +1,53 @@
+
+rem *** landingpad1 ***
+
+ObjectTemplate.create Bundle landingpad1_supply
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.aiTemplate landingpad1_supply
+ObjectTemplate.hasCollisionPhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate landingpad1_supplyExterior
+ObjectTemplate.addTemplate repairpoint
+ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.setRotation 0/0/0
+rem -------------------------------------
+rem *** red glow effect ***
+ObjectTemplate.addTemplate e_padredglow
+ObjectTemplate.startoneffects 1
+ObjectTemplate.setPosition 0/5/0
+ObjectTemplate.setRotation 0/0/0
+rem -----------------------------------
+ObjectTemplate.create SimpleObject landingpad1_supplyExterior
+ObjectTemplate.geometry landingpad1_m1
+
+rem *** repairpoint ***
+ObjectTemplate.create SupplyDepot repairpoint
+ObjectTemplate.radius 8
+ObjectTemplate.team 0
+ObjectTemplate.addVehicleType tiger -1 4 0
+ObjectTemplate.addVehicleType Panzeriv -1 4 0
+ObjectTemplate.addVehicleType hanomag -1 4 0
+ObjectTemplate.addVehicleType wespe -1 4 0
+ObjectTemplate.addVehicleType kubelwagen -1 4 0
+ObjectTemplate.addVehicleType sherman -1 4 0
+ObjectTemplate.addVehicleType m3a1 -1 4 0
+ObjectTemplate.addVehicleType priest -1 4 0
+ObjectTemplate.addVehicleType willy -1 4 0
+ObjectTemplate.addVehicleType m10 -1 4 0
+ObjectTemplate.addVehicleType chi-ha -1 4 0
+ObjectTemplate.addVehicleType T34 -1 4 0
+ObjectTemplate.addVehicleType T34-84 -1 4 0
+ObjectTemplate.addVehicleType corsair -1 4 0
+ObjectTemplate.addVehicleType sbd -1 4 0
+ObjectTemplate.addVehicleType sbd-t -1 4 0
+ObjectTemplate.addVehicleType mustang -1 4 0
+ObjectTemplate.addVehicleType spitfire -1 4 0
+ObjectTemplate.addVehicleType bf109 -1 4 0
+ObjectTemplate.addVehicleType stuka -1 4 0
+ObjectTemplate.addVehicleType aichival -1 4 0
+ObjectTemplate.addVehicleType aichival-t -1 4 0
+ObjectTemplate.addVehicleType zero -1 4 0
+ObjectTemplate.addVehicleType yak9 -1 4 0
+ObjectTemplate.addAmmoType 0 -1 10 0
+ObjectTemplate.workOnVehicles 1
+ObjectTemplate.workOnSoldiers 0

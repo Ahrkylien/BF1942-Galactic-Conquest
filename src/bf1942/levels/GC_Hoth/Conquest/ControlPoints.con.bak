@@ -1,0 +1,24 @@
+rem *** Echobasecp ***
+Object.create Echobasecp
+Object.absolutePosition 355.0545/3.86563/388.2332
+
+rem *** ShieldGeneratorcp ***
+Object.create ShieldGeneratorcp
+Object.absolutePosition 1112.495/15.6/527.1531
+
+rem *** secondlinetrench ***
+Object.create secondlinetrench
+Object.absolutePosition 768.7051/15.98438/663.3867
+
+rem *** FirstLineTrench ***
+Object.create FirstLineTrench
+Object.absolutePosition 1063.653/15.6/978.6664
+
+rem *** Outpost ***
+Object.create Outpost
+Object.absolutePosition 362.0391/15.61563/1702.35
+
+rem *** ImperialSpawn ***
+Object.create ImperialSpawn
+Object.absolutePosition 1378.203/15.92813/1804.367
+

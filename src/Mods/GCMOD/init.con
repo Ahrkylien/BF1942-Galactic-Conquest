@@ -1,0 +1,15 @@
+game.setCustomGameName GCMOD
+game.addModPath Mods/GCMOD/
+game.addModPath Mods/bf1942/
+game.customGameFlushArchives 0
+game.setCustomGameVersion 0.1a
+game.setCustomGameUrl "www.galactic-conquest.net"
+
+game.setCustomGameInfo "GCMOD_INFO"
+
+Game.setMenuMusicFilename "music/slaughter4.bik"
+Game.setLoadMusicFilename "music/vehicle4.bik"
+Game.setWinMusicFilename "music/vehicle3.bik"
+Game.setLoseMusicFilename "music/menu.bik"
+Game.setCampaignLoseMusicFilename "music/theme2.bik"
+Game.setDebriefingMusicFilename "music/briefing.bik"

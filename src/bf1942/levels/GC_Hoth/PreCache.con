@@ -1,0 +1,70 @@
+Rem
+Rem PreCache Objects
+Rem
+
+Object.active __BF_NONE__
+Object.create BinocularsProjectile
+Object.delete
+Object.create GrenadeAllies
+Object.delete
+Object.create GrenadeAlliesProjectile
+Object.delete
+Object.create GrenadeAxis
+Object.delete
+Object.create GrenadeAxisProjectile
+Object.delete
+Object.create Landmine
+Object.delete
+Object.create LandmineProjectile
+Object.delete
+Object.create MedPack
+Object.delete
+Object.create Panzershreck
+Object.delete
+Object.create RepairPack
+Object.delete
+Object.create a295
+Object.delete
+Object.create dl44
+Object.delete
+Object.create dh17
+Object.delete
+Object.create e-11
+Object.delete
+Object.create landspeeder
+Object.delete
+Object.create fragnade
+Object.delete
+Object.create snowspeeder
+Object.delete
+Object.create tiefighter
+Object.delete
+Object.create atst
+Object.delete
+Object.create tiebomber
+Object.delete
+Object.create awing
+Object.delete
+Object.create kylan
+Object.delete
+Object.create speederpistol
+Object.delete
+Object.create tracker16
+Object.delete
+Object.create TL-21
+Object.delete
+Object.create razor
+Object.delete
+Object.create plx-2m
+Object.delete
+Object.create flechette
+Object.delete
+Object.create e-11sniper
+Object.delete
+Object.create DressilianRifle
+Object.delete
+Object.create cryoban
+Object.delete
+
+
+Object.active __BF_NONE__
