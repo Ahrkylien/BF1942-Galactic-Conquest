@@ -1,0 +1,88 @@
+AnimationStateMachine.createState Lb_SitInVehicle
+AnimationStateMachine.addAnimation animations/Vehicle/3PWillySitLower.baf 1 1
+AnimationStateMachine.setMorphFactor 5.0
+AnimationStateMachine.setSpeed 0 0 0
+AnimationStateMachine.setFlag c_AsmHideWeapon
+
+AnimationStateMachine.createState Lb_StandInVehicle
+AnimationStateMachine.addAnimation Animations/StandWalkRun/LowerBody/3PStandLower.baf 0.8 1
+AnimationStateMachine.setMorphFactor 1.0
+AnimationStateMachine.setSpeed 0 0 0
+AnimationStateMachine.setFlag c_AsmHideWeapon
+
+AnimationStateMachine.createState Ub_SitInVehicle
+AnimationStateMachine.addAnimation animations/Vehicle/3PWillySitUpper.baf 1 1
+AnimationStateMachine.setMorphFactor 5.0
+AnimationStateMachine.setSpeed 0 0 0
+AnimationStateMachine.setFlag c_AsmHideWeapon
+
+rem Passenger in willy
+AnimationStateMachine.createState Lb_PassengerInWilly
+AnimationStateMachine.addAnimation animations/Vehicle/3PWillySitLower.baf 1 1
+AnimationStateMachine.setMorphFactor 5.0
+AnimationStateMachine.setSpeed 0 0 0
+AnimationStateMachine.setFlag c_AsmHideWeapon
+AnimationStateMachine.setFlag c_AsmLockFreeLook
+
+AnimationStateMachine.createState Ub_PassengerInWilly
+AnimationStateMachine.addAnimation animations/Vehicle/3pSitWillyPassUpper.baf 1 1
+AnimationStateMachine.setMorphFactor 5.0
+AnimationStateMachine.setSpeed 0 0 0
+AnimationStateMachine.setFlag c_AsmHideWeapon
+
+rem Passenger in M3a1
+AnimationStateMachine.createState Lb_PassengerInM3a1
+AnimationStateMachine.addAnimation animations/Vehicle/3PSitM3a1PassLower.baf 1 1
+AnimationStateMachine.setMorphFactor 5.0
+AnimationStateMachine.setSpeed 0 0 0
+AnimationStateMachine.setFlag c_AsmHideWeapon
+AnimationStateMachine.setFlag c_AsmLockFreeLook
+
+AnimationStateMachine.createState Ub_PassengerInM3a1
+AnimationStateMachine.addAnimation animations/Vehicle/3pSitM3a1PassUpper.baf 1 1
+AnimationStateMachine.setMorphFactor 5.0
+AnimationStateMachine.setSpeed 0 0 0
+AnimationStateMachine.setFlag c_AsmHideWeapon
+
+rem Passenger in Kubelwagen
+AnimationStateMachine.createState Lb_PassengerInKubelWagen
+AnimationStateMachine.addAnimation animations/Vehicle/3PSitKubelwagenPassLower.baf 1 1
+AnimationStateMachine.setMorphFactor 5.0
+AnimationStateMachine.setSpeed 0 0 0
+AnimationStateMachine.setFlag c_AsmHideWeapon
+AnimationStateMachine.setFlag c_AsmLockFreeLook
+
+AnimationStateMachine.createState Ub_PassengerInKubelWagen
+AnimationStateMachine.addAnimation animations/Vehicle/3pSitKubelwagenPassUpper.baf 1 1
+AnimationStateMachine.setMorphFactor 5.0
+AnimationStateMachine.setSpeed 0 0 0
+AnimationStateMachine.setFlag c_AsmHideWeapon
+
+rem Passenger in Hanomag
+AnimationStateMachine.createState Lb_PassengerInHanomag
+AnimationStateMachine.addAnimation animations/Vehicle/3PSitHanomagPassLower.baf 1 1
+AnimationStateMachine.setMorphFactor 5.0
+AnimationStateMachine.setSpeed 0 0 0
+AnimationStateMachine.setFlag c_AsmHideWeapon
+AnimationStateMachine.setFlag c_AsmLockFreeLook
+
+AnimationStateMachine.createState Ub_PassengerInHanomag
+AnimationStateMachine.addAnimation animations/Vehicle/3pSitHanomagPassUpper.baf 1 1
+AnimationStateMachine.setMorphFactor 5.0
+AnimationStateMachine.setSpeed 0 0 0
+AnimationStateMachine.setFlag c_AsmHideWeapon
+
+rem Pilot in Speederbike
+AnimationStateMachine.createState Lb_PilotInSpeederbike
+AnimationStateMachine.addAnimation animations/Vehicle/3PSpeederbikePilotLower.baf 1 1
+AnimationStateMachine.setMorphFactor 5.0
+AnimationStateMachine.setSpeed 0 0 0
+AnimationStateMachine.setFlag c_AsmHideWeapon
+AnimationStateMachine.setFlag c_AsmLockFreeLook
+
+AnimationStateMachine.createState Ub_PilotInSpeederbike
+AnimationStateMachine.addAnimation animations/Vehicle/3PSpeederbikePilotUpper.baf 1 1
+AnimationStateMachine.setMorphFactor 5.0
+AnimationStateMachine.setSpeed 0 0 0
+AnimationStateMachine.setFlag c_AsmHideWeapon
+

@@ -1,6 +1,0 @@
-ObjectTemplate.create SimpleObject controlroomhall
-ObjectTemplate.aiTemplate controlroomhall
-ObjectTemplate.geometry controlroomhall
-ObjectTemplate.setHasCollisionPhysics 1
-
-

@@ -1,0 +1,20 @@
+rem =========== Objective Manager Stuff===============================
+
+objectiveManager.setDefender 1
+objectiveManager.setDefender 2
+
+objectiveManager.registerObjectSpawner CarrackSpawner01
+objectiveManager.registerObjectSpawner CarrackSpawner02
+objectiveManager.registerObjectSpawner LancerSpawner01
+objectiveManager.registerObjectSpawner LancerSpawner02
+
+objectiveManager.registerObjectSpawner RunnerSpawner01
+objectiveManager.registerObjectSpawner RunnerSpawner02
+objectiveManager.registerObjectSpawner NebSpawner01
+objectiveManager.registerObjectSpawner NebSpawner02
+
+objectiveManager.registerObjectSpawner REBELS
+objectiveManager.registerObjectSpawner EMPIRE
+objectiveManager.setRootObjectSpawner 1 EMPIRE
+objectiveManager.setRootObjectSpawner 2 REBELS
+

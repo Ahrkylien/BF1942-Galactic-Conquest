@@ -1,0 +1,49 @@
+
+
+rem *** rain ***
+ObjectTemplate.create EffectBundle rain
+ObjectTemplate.saveInSeparateFile 1
+rem -------------------------------------
+ObjectTemplate.addTemplate rain1
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+rem -------------------------------------
+
+
+rem *** rain1 ***
+ObjectTemplate.create Emitter rain1
+ObjectTemplate.template rain2
+ObjectTemplate.looping 1
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 2
+ObjectTemplate.lodDistance 600
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_UNIFORM/10/20/0
+ObjectTemplate.relativePositionInDof CRD_NONE/0.1/0.1/0
+ObjectTemplate.positionalSpeedInDof CRD_NONE/0/0/0
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/0.25/0.75/0
+ObjectTemplate.positionalSpeedInRight CRD_NONE/0/0/0
+ObjectTemplate.startRotation CRD_NONE/1/0/0
+
+
+
+rem *** rain2 ***
+ObjectTemplate.create SpriteParticle rain2
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+ObjectTemplate.sizeModifier 4/2/4
+ObjectTemplate.sizeOverTime 0/0.900296|100/5
+ObjectTemplate.gravityModifierOverTime 0/0.800195|730/5.91983|100/10
+ObjectTemplate.sizeOverTime 0/0.900296|100/5
+ObjectTemplate.gravityModifier CRD_NONE/0.1/0/0
+ObjectTemplate.texture rain
+ObjectTemplate.initRotation CRD_UNIFORM/1/90/1
+ObjectTemplate.destBlendMode BMInvSourceAlpha
+ObjectTemplate.rotationSpeed CRD_UNIFORM/30/50/1
+ObjectTemplate.colorRGBAOverTime 0/128/128/128/255|43/115/106/87/167|100/192/192/192/0
+ObjectTemplate.initAnimationFrame CRD_NONE/2/0/0
+ObjectTemplate.animationSpeed CRD_NONE/20/0/0
+
+
+

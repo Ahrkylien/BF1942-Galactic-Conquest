@@ -1,5 +1,5 @@
 GeometryTemplate.create StandardMesh echopipe1
-GeometryTemplate.file buildings/echopipe1
+GeometryTemplate.file buildings/Hoth/Echobase/echopipe1
 GeometryTemplate.setLodDistance 0 0
 GeometryTemplate.setLodDistance 1 500
 GeometryTemplate.setLodDistance 2 700

@@ -1,49 +1,35 @@
-
-rem *** TieBomberGuns ***
-ObjectTemplate.create FireArms TieBomberGuns
+rem *** TieBomberLaser ***
+ObjectTemplate.create FireArms TieBomberLaser
 ObjectTemplate.loadSoundScript Sounds/TieBomberLaser.ssc
-ObjectTemplate.aiTemplate TieBomberMachineGun
+ObjectTemplate.aiTemplate SpitfireMachineGun
 ObjectTemplate.setNetworkableInfo PlaneFireArmInfo
 rem -------------------------------------
 ObjectTemplate.visibleBarrelTemplate e_MuzzHeavy
 rem -------------------------------------
-ObjectTemplate.projectileTemplate TieBomberProjectile
+ObjectTemplate.projectileTemplate MediumLaserProjectileGreenNS
 ObjectTemplate.projectilePosition 0/-0.2/2
-ObjectTemplate.magSize 999
+ObjectTemplate.magSize -1
+ObjectTemplate.magType 0
 ObjectTemplate.numOfMag 999
-ObjectTemplate.velocity 600
+ObjectTemplate.velocity 650
 ObjectTemplate.reloadtime 3
-ObjectTemplate.autoReload 1
 ObjectTemplate.roundOfFire 4.8
-ObjectTemplate.addFireArmsPosition -0.3/-1.2/1.1 0/0/0
-ObjectTemplate.addFireArmsPosition 0.3/-1.2/1.1 0/0/0
+ObjectTemplate.addFireArmsPosition -0.3/0/0 0/0/0
+ObjectTemplate.addFireArmsPosition 0.3/0/0 0/0/0
+REM *** OVERHEAT *** 
+objectTemplate.heatAddWhenFire 0.07
+objectTemplate.coolDownPerSec 0.8
+objectTemplate.timeDelayOnOverHeat 2.5
+REM *** DAMAGE OVER DISTANCE ***
+ObjectTemplate.minDamage 0.5
+ObjectTemplate.distToStartLoseDamage 100
+ObjectTemplate.distToMinDamage 300
 
-rem *** TieBomberProjectile ***
-ObjectTemplate.create Projectile TieBomberProjectile
-ObjectTemplate.createNotInGrid 1
-ObjectTemplate.geometry Tlight_g2
-ObjectTemplate.tracerScaler 50.0
-ObjectTemplate.timeToLive CRD_NONE/2/0/0
-ObjectTemplate.hasMobilePhysics 1
-ObjectTemplate.hasResponsePhysics 1
-ObjectTemplate.hasCollisionPhysics 1
-ObjectTemplate.hasCollisionEffect 1
-ObjectTemplate.gravityModifier 0
-ObjectTemplate.stopAtEndEffect 1
-ObjectTemplate.hasOnTimeEffect 1
-ObjectTemplate.invisibleAtEndEffect 1
-ObjectTemplate.dieAfterColl 1
-ObjectTemplate.material 702
-ObjectTemplate.material2 702
-ObjectTemplate.damageType 1
-ObjectTemplate.radius 5
-ObjectTemplate.forceOnExplosion 20
-
-rem *** tiebomberBombDummy ***
-ObjectTemplate.create FireArms TIEBombRack
+rem *** TieBombRack ***
+ObjectTemplate.create FireArms TieBombRack
 ObjectTemplate.setNetworkableInfo PlaneFireArmInfo
 ObjectTemplate.aitemplate CorsairBombs
-ObjectTemplate.projectileTemplate TIEBomb
+ObjectTemplate.projectileTemplate TieBomb
 ObjectTemplate.projectilePosition -1.7/-1/-0.2
 ObjectTemplate.magSize 30
 ObjectTemplate.numOfMag 1
@@ -51,4 +37,5 @@ ObjectTemplate.velocity 50
 ObjectTemplate.roundOfFire 2
 ObjectTemplate.setInputFire c_PIAltFire
 ObjectTemplate.fireingForce 1
+
 

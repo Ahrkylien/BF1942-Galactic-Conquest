@@ -1,4 +1,0 @@
-ObjectTemplate.create Bundle bigrock
-ObjectTemplate.geometry bigrock
-ObjectTemplate.setHasCollisionPhysics 1
-objectTemplate.aiTemplate bigrock

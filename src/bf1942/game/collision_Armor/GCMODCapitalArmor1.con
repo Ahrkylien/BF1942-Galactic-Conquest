@@ -1,0 +1,186 @@
+rem *************************************************
+rem *************************************************
+rem *************************************************
+rem *********** GCMOD Capital Armour 1 **************
+rem *************************************************
+rem *************************************************
+rem *************************************************
+
+rem ---------------------------------- GCMOD MATERIAL COLLISIONS ----------------------------------
+
+MaterialManager.attGroup 821
+MaterialManager.defGroup 801
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 821
+MaterialManager.defGroup 802
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 821
+MaterialManager.defGroup 811
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 821
+MaterialManager.defGroup 812
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 821
+MaterialManager.defGroup 821
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+rem ---------------------------------- BF1942 MATERIAL COLLISIONS ----------------------------------
+
+rem *************************************************
+rem		Infantry target
+rem *************************************************
+
+MaterialManager.attGroup 821
+MaterialManager.defGroup 40
+MaterialManager.damageMod .1
+
+MaterialManager.attGroup 821
+MaterialManager.defGroup 40
+MaterialManager.damageMod .1
+
+MaterialManager.attGroup 821
+MaterialManager.defGroup 40
+MaterialManager.damageMod .1
+
+MaterialManager.attGroup 821
+MaterialManager.defGroup 43
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Soldier
+
+MaterialManager.attGroup 821
+MaterialManager.defGroup 44
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_Soldier
+
+rem *************************************************
+rem		Heavy Vehicle target
+rem *************************************************
+
+MaterialManager.attGroup 821
+MaterialManager.defGroup 45
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 821
+MaterialManager.defGroup 46
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 821
+MaterialManager.defGroup 47
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 821
+MaterialManager.defGroup 48
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 821
+MaterialManager.defGroup 49
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+rem *************************************************
+rem		Heavy Vehicle target
+rem *************************************************
+
+MaterialManager.attGroup 821
+MaterialManager.defGroup 50
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 821
+MaterialManager.defGroup 51
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 821
+MaterialManager.defGroup 52
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 821
+MaterialManager.defGroup 53
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 821
+MaterialManager.defGroup 54
+MaterialManager.damageMod 0.1
+MaterialManager.setEffectTemplate e_collision_metal
+
+rem *************************************************
+rem		Ship target
+rem *************************************************
+
+
+MaterialManager.attGroup 821
+MaterialManager.defGroup 55
+MaterialManager.damageMod 2
+MaterialManager.setEffectTemplate e_collision_ship
+
+MaterialManager.attGroup 821
+MaterialManager.defGroup 56
+MaterialManager.damageMod 2
+MaterialManager.setEffectTemplate e_collision_ship
+
+MaterialManager.attGroup 821
+MaterialManager.defGroup 57
+MaterialManager.damageMod 2
+MaterialManager.setEffectTemplate e_collision_ship
+
+MaterialManager.attGroup 821
+MaterialManager.defGroup 58
+MaterialManager.damageMod 2
+MaterialManager.setEffectTemplate e_collision_ship
+
+MaterialManager.attGroup 821
+MaterialManager.defGroup 59
+MaterialManager.damageMod 2
+MaterialManager.setEffectTemplate e_collision_ship
+
+rem *************************************************
+rem		Planes target
+rem *************************************************
+
+MaterialManager.attGroup 821
+MaterialManager.defGroup 60
+MaterialManager.damageMod 1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 821
+MaterialManager.defGroup 61
+MaterialManager.damageMod 1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 821
+MaterialManager.defGroup 62
+MaterialManager.damageMod 1
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 821
+MaterialManager.defGroup 63
+MaterialManager.damageMod 1
+MaterialManager.setEffectTemplate e_collision_metal
+
+rem *************************************************
+rem		Other Materials
+rem *************************************************
+
+
+
+rem *** Wet Sand ***
+MaterialManager.attGroup 11
+MaterialManager.defGroup 821
+MaterialManager.damageMod 10
+MaterialManager.setEffectTemplate e_Collision_ship

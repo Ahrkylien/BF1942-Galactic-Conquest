@@ -6,7 +6,8 @@ newPatch
 ### Engine Start ###
 ####################
 load @ROOT/Sound/@RTD/snowspeeder-engine-start.wav
-minDistance 5
+relativePosition 0/0/-4
+minDistance 30
 dopplerOff
 priority -2
 *** Distance Volume ***
@@ -14,8 +15,8 @@ beginEffect
 	controlDestination Volume
 	controlSource Distance
 	envelope Ramp
-	param 55
-	param 110
+	param 100
+	param 200
 	param 1
 	param -1	
 endEffect
@@ -24,8 +25,9 @@ endEffect
 ### 1 ###
 #########
 load @ROOT/Sound/@RTD/snowspeeder-engine-1.wav
+relativePosition 0/0/-4
 loop
-minDistance 20
+minDistance 50
 randomStartPitch 0.05/0.05 
 priority 9
 *** Engine start ***
@@ -66,8 +68,8 @@ beginEffect
 	controlDestination Volume
 	controlSource Distance
 	envelope Ramp
-	param 110
-	param 220
+	param 150
+	param 250
 	param 1
 	param -1	
 endEffect
@@ -87,8 +89,9 @@ endEffect
 ### 2 ###
 #########
 load @ROOT/Sound/@RTD/snowspeeder-engine-2.wav
+relativePosition 0/0/-4
 loop
-minDistance 20
+minDistance 50
 randomStartPitch 0.05/0.05 
 priority 9
 *** Engine start ***
@@ -140,8 +143,8 @@ beginEffect
 	controlDestination Volume
 	controlSource Distance
 	envelope Ramp
-	param 110
-	param 220
+	param 150
+	param 250
 	param 1
 	param -1	
 endEffect
@@ -161,8 +164,9 @@ endEffect
 ### 3 ###
 #########
 load @ROOT/Sound/@RTD/snowspeeder-engine-3.wav
+relativePosition 0/0/-4
 loop
-minDistance 20
+minDistance 50
 randomStartPitch 0.05/0.05 
 priority 9
 *** Engine start ***
@@ -204,8 +208,8 @@ beginEffect
 	controlDestination Volume
 	controlSource Distance
 	envelope Ramp
-	param 110
-	param 220
+	param 150
+	param 250
 	param 1
 	param -1	
 endEffect
@@ -225,8 +229,9 @@ endEffect
 ### 4 ###
 #########
 load @ROOT/Sound/@RTD/snowspeeder-engine-4.wav
+relativePosition 0/0/-4
 loop
-minDistance 20
+minDistance 50
 randomStartPitch 0.05/0.05 
 volume .7
 priority 9
@@ -269,8 +274,8 @@ beginEffect
 	controlDestination Volume
 	controlSource Distance
 	envelope Ramp
-	param 110
-	param 220
+	param 150
+	param 250
 	param 1
 	param -1	
 endEffect
@@ -295,8 +300,8 @@ load @ROOT/Sound/@RTD/snowspeeder-cockpit.wav
 loop
 stereo
 minDistance 1
-relativePosition 0/0.95/0.8
-volume 0.4
+relativePosition 0/0.45/-3.2
+volume 0.3
 priority 6
 *** Engine start ***
 beginEffect
@@ -339,8 +344,8 @@ load @ROOT/Sound/@RTD/snowspeeder-cockpit.wav
 loop
 stereo
 minDistance 1
-relativePosition 0/1.22/-2.57
-volume 0.4
+relativePosition 0/0/-6.57
+volume 0.3
 priority 6
 *** Engine start ***
 beginEffect
@@ -380,7 +385,8 @@ endEffect
 ###################
 
 load @ROOT/Sound/@RTD/snowspeeder-engine-stop.wav
-minDistance 10
+relativePosition 0/0/-4
+minDistance 30
 trigger Release
 dopplerOff
 priority -2
@@ -389,8 +395,8 @@ beginEffect
 	controlDestination Volume
 	controlSource Distance
 	envelope Ramp
-	param 55
-	param 110
+	param 100
+	param 200
 	param 1
 	param -1	
 endEffect

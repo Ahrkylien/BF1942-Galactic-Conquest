@@ -6,5 +6,5 @@ subshader "tl-21_Material0" "StandardMesh/Default"
 	materialSpecular 0.12549 0.12549 0.12549;
 	materialSpecularPower 12.5;
 	envmap true;
-	texture "texture/tl-21";
+	texture "texture/Weapons/tl-21";
 }

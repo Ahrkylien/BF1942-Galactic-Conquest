@@ -1,4 +1,0 @@
-ObjectTemplate.create Bundle endorsrubshort
-ObjectTemplate.geometry endorsrubshort
-ObjectTemplate.setHasCollisionPhysics 1
-

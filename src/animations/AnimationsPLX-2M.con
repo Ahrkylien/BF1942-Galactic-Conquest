@@ -1,0 +1,129 @@
+rem ---- PLX-2M ----
+rem ** 1P **
+AnimationStateMachine.set1pAnimationSpeed Ub_StandPLX 0.1
+AnimationStateMachine.set1pAnimationSpeed Ub_TurnPLX 0.1
+AnimationStateMachine.set1pAnimationSpeed Ub_StandAimPLX 0.1
+AnimationStateMachine.set1pAnimationSpeed Ub_WalkForwardPLX 0.50
+AnimationStateMachine.set1pAnimationSpeed Ub_WalkBackwardPLX 0.50
+AnimationStateMachine.set1pAnimationSpeed Ub_RunForwardPLX 1.40
+AnimationStateMachine.set1pAnimationSpeed Ub_RunBackwardPLX 1.36
+AnimationStateMachine.set1pAnimationSpeed Ub_StrafeLeftPLX 1.40
+AnimationStateMachine.set1pAnimationSpeed Ub_StrafeRightPLX 1.35
+AnimationStateMachine.set1pAnimationSpeed Ub_StandJumpPLX 0.40
+AnimationStateMachine.set1pAnimationSpeed Ub_RunJumpPLX 1.20
+AnimationStateMachine.set1pAnimationSpeed Ub_FirePLX 2
+AnimationStateMachine.set1pAnimationSpeed Ub_FireEndPLX 1.40
+AnimationStateMachine.set1pAnimationSpeed Ub_LieFirePLX 2
+AnimationStateMachine.set1pAnimationSpeed Ub_LieFireEndPLX 1.40
+AnimationStateMachine.set1pAnimationSpeed Ub_IdlePLX1 0.52
+AnimationStateMachine.set1pAnimationSpeed Ub_IdlePLX2 0.39
+AnimationStateMachine.set1pAnimationSpeed Ub_IdlePLX3 0.50
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchIdlePLX1 0.52
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchIdlePLX2 0.39
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchIdlePLX3 0.50
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchPLX 0.33
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchTurnPLX 0.50
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchForwardPLX 0.86
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchBackwardPLX 0.86
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchStrafeLeftPLX 0.86
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchStrafeRightPLX 0.86
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchToLiePLX 0.60
+AnimationStateMachine.set1pAnimationSpeed Ub_LieToCrouchPLX 0.60
+AnimationStateMachine.set1pAnimationSpeed Ub_LieToStandPLX 0.60
+AnimationStateMachine.set1pAnimationSpeed Ub_LiePLX 0.20
+AnimationStateMachine.set1pAnimationSpeed Ub_LieForwardPLX 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_LieBackwardPLX 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_LieTurnLeftPLX 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_LieTurnRightPLX 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_LieStrafeLeftPLX 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_LieStrafeRightPLX 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_RunStandToLiePLX 1.50
+AnimationStateMachine.set1pAnimationSpeed Ub_StandReloadPLX 0.21
+AnimationStateMachine.set1pAnimationSpeed Ub_LieReloadPLX 0.21
+AnimationStateMachine.set1pAnimationSpeed Ub_StandRaiseWeaponPLX 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchRaiseWeaponPLX 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_LieRaiseWeaponPLX 1.00
+rem **3P**
+AnimationStateMachine.set3pAnimationSpeed Ub_StandPLX-2M 0.60
+AnimationStateMachine.set3pAnimationSpeed Ub_TurnPLX-2M 1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_StandAimPLX-2M 0.80
+AnimationStateMachine.set3pAnimationSpeed Ub_WalkForwardPLX-2M 1.0
+AnimationStateMachine.set3pAnimationSpeed Ub_WalkBackwardPLX-2M -1.0
+AnimationStateMachine.set3pAnimationSpeed Ub_RunForwardPLX-2M 1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_RunBackwardPLX-2M -1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_StrafeLeftPLX-2M 1.30
+AnimationStateMachine.set3pAnimationSpeed Ub_StrafeRightPLX-2M 1.30
+AnimationStateMachine.set3pAnimationSpeed Ub_StandJumpPLX-2M 1.10
+AnimationStateMachine.set3pAnimationSpeed Ub_RunJumpPLX-2M 1.22
+AnimationStateMachine.set3pAnimationSpeed Ub_FirePLX-2M 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieFirePLX-2M 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_IdlePLX-2M1 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_IdlePLX-2M2 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_IdlePLX-2M3 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchIdlePLX-2M1 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchIdlePLX-2M2 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchIdlePLX-2M3 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchPLX-2M 0.80
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchTurnPLX-2M 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchForwardPLX-2M 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchBackwardPLX-2M -1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchStrafeLeftPLX-2M 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchStrafeRightPLX-2M 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchToLiePLX-2M 1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_LieToCrouchPLX-2M -2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieToStandPLX-2M -3.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LiePLX-2M 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieForwardPLX-2M 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieBackwardPLX-2M -0.80
+AnimationStateMachine.set3pAnimationSpeed Ub_LieTurnLeftPLX-2M 2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieTurnRightPLX-2M 2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieStrafeLeftPLX-2M 2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieStrafeRightPLX-2M 2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_RunStandToLiePLX-2M 1.40
+AnimationStateMachine.set3pAnimationSpeed Ub_StandReloadPLX-2M 0.35
+AnimationStateMachine.set3pAnimationSpeed Ub_LieReloadPLX-2M 0.30
+AnimationStateMachine.set3pAnimationSpeed Ub_StandRaiseWeaponPLX-2M -1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchRaiseWeaponPLX-2M -1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_LieRaiseWeaponPLX-2M -1.60
+
+AnimationStateMachine.set3pAnimationSpeed WeaponReloadPLX-2M 0.18
+AnimationStateMachine.set3pAnimationSpeed WeaponFirePLX-2M 1.00
+
+AnimationStateMachine.setactiveState Ub_FirePLX-2M
+AnimationStateMachine.setCameraShakeRoll 0 0.5 800.0
+AnimationStateMachine.setCameraShakePitch 0 0.25 900.0
+AnimationStateMachine.setCameraShakeYaw 0 0.5 100.0
+AnimationStateMachine.setCameraShakeUpDown 0 1 500
+AnimationStateMachine.setCameraShakeInOut 0 0.4 8
+AnimationStateMachine.setCameraShakeLeftRight 0 0.8 100
+AnimationStateMachine.setCameraShakeFadeOut 0 3
+
+AnimationStateMachine.setactiveState Ub_LieFirePLX-2M
+AnimationStateMachine.setCameraShakeRoll 0 0.5 800.0
+AnimationStateMachine.setCameraShakePitch 0 0.25 900.0
+AnimationStateMachine.setCameraShakeYaw 0 0.5 100.0
+AnimationStateMachine.setCameraShakeUpDown 0 1 500
+AnimationStateMachine.setCameraShakeInOut 0 0.4 8
+AnimationStateMachine.setCameraShakeLeftRight 0 0.8 100
+AnimationStateMachine.setCameraShakeFadeOut 0 3
+
+AnimationStateMachine.setActiveState Ub_StandAimPLX-2M
+AnimationStateMachine.clearAllIdles
+AnimationStateMachine.setCameraShakePitch 0 0.25 1.5
+AnimationStateMachine.setCameraShakeYaw 0 0.2 0.5
+AnimationStateMachine.setCameraShakeMinFactor 0 0.075
+AnimationStateMachine.setCameraShakeFadeOut 0 0.25
+
+AnimationStateMachine.setActiveState Ub_CrouchPLX-2M
+AnimationStateMachine.clearAllIdles
+AnimationStateMachine.setCameraShakePitch 0 0.20 1.5
+AnimationStateMachine.setCameraShakeYaw 0 0.15 0.5
+AnimationStateMachine.setCameraShakeMinFactor 0 0.075
+AnimationStateMachine.setCameraShakeFadeOut 0 0.25
+
+AnimationStateMachine.setActiveState Ub_LiePLX-2M
+AnimationStateMachine.clearAllIdles
+AnimationStateMachine.setCameraShakePitch 0 0.15 1.5
+AnimationStateMachine.setCameraShakeYaw 0 0.10 0.5
+AnimationStateMachine.setCameraShakeMinFactor 0 0.075
+AnimationStateMachine.setCameraShakeFadeOut 0 0.25

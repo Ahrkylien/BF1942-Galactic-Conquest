@@ -1,8 +1,2 @@
-NetworkableInfo.createNewInfo avturretTurretInfo
-NetworkableInfo.setPredictionMode PMLinear
-
-NetworkableInfo.createNewInfo avturretGunInfo
-NetworkableInfo.setPredictionMode PMLinear
-
 NetworkableInfo.createNewInfo avturretBodyInfo
 NetworkableInfo.setPredictionMode PMLinear

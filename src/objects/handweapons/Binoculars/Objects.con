@@ -19,7 +19,7 @@ ObjectTemplate.setScopeIcon "imp_binocular.tga"
 ObjectTemplate.setSightIcon "scout_ring_128x128.tga"
 ObjectTemplate.setSniperSight 0
 
-ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.hasDynamicShadow 0
 ObjectTemplate.createSkeleton animations/Binoculars.ske
 ObjectTemplate.useSkeletonPartAsMain Binoculars
 ObjectTemplate.addTemplate BinocularsLod
@@ -47,7 +47,7 @@ ObjectTemplate.geometry Shad_Binoculars
 
 ObjectTemplate.create AnimatedBundle  BinocularsComplex
 ObjectTemplate.geometry Binoculars
-ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.hasDynamicShadow 0
 ObjectTemplate.createSkeleton animations/Binoculars.ske
 
 ObjectTemplate.create LodObject BinocularsLod

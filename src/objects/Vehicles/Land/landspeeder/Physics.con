@@ -1,7 +1,7 @@
 
 rem *** landspeederengine ***
 ObjectTemplate.create Engine landspeederEngine
-ObjectTemplate.setNetworkableInfo landspeeder_engine_info
+ObjectTemplate.setNetworkableInfo LandspeederEngineInfo
 ObjectTemplate.loadSoundScript Sounds/LandspeederEngine.ssc
 ObjectTemplate.setMinRotation -0.3/0/-5000
 ObjectTemplate.setMaxRotation 0.3/0/5000
@@ -19,7 +19,7 @@ ObjectTemplate.setNoPropellerEffectAtSpeed 190
 
 rem *** landspeederleftengine ***
 ObjectTemplate.create Engine landspeederleftEngine
-ObjectTemplate.setNetworkableInfo landspeeder_engine_info
+ObjectTemplate.setNetworkableInfo LandspeederEngineInfo
 rem ObjectTemplate.loadSoundScript Sounds/LandspeederEngine.ssc
 ObjectTemplate.setMinRotation -0.3/0/-5000
 ObjectTemplate.setMaxRotation 0.3/0/5000
@@ -37,7 +37,7 @@ ObjectTemplate.setNoPropellerEffectAtSpeed 190
 
 rem *** landspeederrightengine ***
 ObjectTemplate.create Engine landspeederrightEngine
-ObjectTemplate.setNetworkableInfo landspeeder_engine_info
+ObjectTemplate.setNetworkableInfo LandspeederEngineInfo
 rem ObjectTemplate.loadSoundScript Sounds/LandspeederEngine.ssc
 ObjectTemplate.setMinRotation -0.3/0/-5000
 ObjectTemplate.setMaxRotation 0.3/0/5000
@@ -101,7 +101,7 @@ ObjectTemplate.setDamping 8
 
 rem *** landspeederLRudder ***
 ObjectTemplate.create Wing landspeederLRudder
-ObjectTemplate.setNetworkableInfo landspeeder_wing_info
+ObjectTemplate.setNetworkableInfo LandspeederSteeringInfo
 ObjectTemplate.setMinRotation 0/-70/0
 ObjectTemplate.setMaxRotation 0/70/0
 ObjectTemplate.setMaxSpeed 0/60/0
@@ -114,7 +114,7 @@ ObjectTemplate.setFlapLift 2
 
 rem *** landspeederRRudder ***
 ObjectTemplate.create Wing landspeederRRudder
-ObjectTemplate.setNetworkableInfo landspeeder_wing_info
+ObjectTemplate.setNetworkableInfo LandspeederSteeringInfo
 ObjectTemplate.setMinRotation 0/-70/0
 ObjectTemplate.setMaxRotation 0/70/0
 ObjectTemplate.setMaxSpeed 0/60/0
@@ -127,7 +127,7 @@ ObjectTemplate.setFlapLift 2
 
 rem *** landspeederleftturnengine ***
 ObjectTemplate.create Engine landspeederLTurnEngine
-ObjectTemplate.setNetworkableInfo landspeeder_engine_info
+ObjectTemplate.setNetworkableInfo LandspeederEngineInfo
 rem ObjectTemplate.loadSoundScript Sounds/LandspeederEngine.ssc
 ObjectTemplate.setMinRotation -0.3/0/-5000
 ObjectTemplate.setMaxRotation 0.3/0/5000
@@ -145,7 +145,7 @@ ObjectTemplate.setNoPropellerEffectAtSpeed 190
 
 rem *** landspeederrightturnengine ***
 ObjectTemplate.create Engine landspeederRTurnEngine
-ObjectTemplate.setNetworkableInfo landspeeder_engine_info
+ObjectTemplate.setNetworkableInfo LandspeederEngineInfo
 rem ObjectTemplate.loadSoundScript Sounds/LandspeederEngine.ssc
 ObjectTemplate.setMinRotation -0.3/0/-5000
 ObjectTemplate.setMaxRotation 0.3/0/5000
@@ -166,7 +166,7 @@ ObjectTemplate.setNoPropellerEffectAtSpeed 190
 
 rem *** landspeederleftturnengine ***
 ObjectTemplate.create Engine landspeederRGravEngine
-ObjectTemplate.setNetworkableInfo landspeeder_engine_info
+ObjectTemplate.setNetworkableInfo LandspeederEngineInfo
 rem ObjectTemplate.loadSoundScript Sounds/LandspeederEngine.ssc
 ObjectTemplate.setMinRotation -0.3/0/0
 ObjectTemplate.setMaxRotation 0.3/0/5000
@@ -184,7 +184,7 @@ ObjectTemplate.setNoPropellerEffectAtSpeed 190
 
 rem *** landspeederrightturnengine ***
 ObjectTemplate.create Engine landspeederLGravEngine
-ObjectTemplate.setNetworkableInfo landspeeder_engine_info
+ObjectTemplate.setNetworkableInfo LandspeederEngineInfo
 rem ObjectTemplate.loadSoundScript Sounds/LandspeederEngine.ssc
 ObjectTemplate.setMinRotation -0.3/0/0
 ObjectTemplate.setMaxRotation 0.3/0/5000

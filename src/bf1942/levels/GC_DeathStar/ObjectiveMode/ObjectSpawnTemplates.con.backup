@@ -1,0 +1,74 @@
+ObjectTemplate.create ObjectSpawner tieadvspawner
+ObjectTemplate.setObjectTemplate 2 tieadvanced
+ObjectTemplate.setObjectTemplate 1 tieadvanced
+ObjectTemplate.SpawnDelay 9999
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 9999
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.maxNrOfObjectSpawned 1
+
+ObjectTemplate.create ObjectSpawner large_tl
+ObjectTemplate.setObjectTemplate 2 largeturbolaser
+ObjectTemplate.setObjectTemplate 1 largeturbolaser
+ObjectTemplate.SpawnDelay 9999
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 9999
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.maxNrOfObjectSpawned 1
+
+ObjectTemplate.create ObjectSpawner syturbolasers
+ObjectTemplate.setObjectTemplate 2 turbolaser
+ObjectTemplate.setObjectTemplate 1 turbolaser
+ObjectTemplate.SpawnDelay 25
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.teamOnVehicle 1
+
+ObjectTemplate.create ObjectSpawner tiefighterspa
+ObjectTemplate.setObjectTemplate 2 tiefighter
+ObjectTemplate.setObjectTemplate 1 tiefighter
+ObjectTemplate.SpawnDelay 25
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.teamOnVehicle 1
+
+ObjectTemplate.create ObjectSpawner tramcars
+ObjectTemplate.setObjectTemplate 2 tramcar
+ObjectTemplate.setObjectTemplate 1 tramcar
+ObjectTemplate.SpawnDelay 25
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.teamOnVehicle 1
+
+ObjectTemplate.create ObjectSpawner roguespawner
+ObjectTemplate.setObjectTemplate 2 rogue
+ObjectTemplate.setObjectTemplate 1 rogue
+ObjectTemplate.MinSpawnDelay 5
+ObjectTemplate.MaxSpawnDelay 6
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.teamOnVehicle 1
+ObjectTemplate.MaxNrOfObjectSpawned 8
+
+ObjectTemplate.create ObjectSpawner ywingspawner
+ObjectTemplate.setObjectTemplate 2 ywing
+ObjectTemplate.setObjectTemplate 1 ywing
+ObjectTemplate.MinSpawnDelay 5
+ObjectTemplate.MaxSpawnDelay 6
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.teamOnVehicle 1
+ObjectTemplate.MaxNrOfObjectSpawned 8
+

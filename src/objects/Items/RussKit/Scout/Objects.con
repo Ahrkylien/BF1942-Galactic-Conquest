@@ -1,29 +1,31 @@
-ObjectTemplate.create Kit Rus_Scout
+ObjectTemplate.create Kit Russ_Scout
 ObjectTemplate.setType Scout
 ObjectTemplate.setKitTeam 2
 ObjectTemplate.geometry Kit_Allies_Scout
 ObjectTemplate.setHasCollisionPhysics 1
 ObjectTemplate.networkableInfo KitInfo
-ObjectTemplate.addTemplate Russ_ScoutHelm
-ObjectTemplate.addTemplate Radio
-ObjectTemplate.addTemplate Russian_hippack
+rem ObjectTemplate.addTemplate Us_Helmet
+rem ObjectTemplate.addTemplate US_Assault_BackPack
+rem ObjectTemplate.addTemplate US_Hip_Pack
 
-ObjectTemplate.setHealthBarIcon "Ingame/Healthbar_empty_scout_64x64.tga"
-ObjectTemplate.setHealthBarFullIcon "Ingame/Healthbar_full_scout_64x64.tga"
-ObjectTemplate.addWeaponIcon "Weapon/Icon_alliesKnife.tga"
-ObjectTemplate.addWeaponIcon "Weapon/Icon_colt.tga"
-ObjectTemplate.addWeaponIcon "Weapon/Icon_no4_scope.tga"
-ObjectTemplate.addWeaponIcon "Weapon/Icon_grenadeallies.tga"
-ObjectTemplate.addWeaponIcon "Weapon/Icon_binoculars.tga"
+ObjectTemplate.setHealthBarIcon "Ingame/reb_Healthbar_empty_scout_64x64.tga"
+ObjectTemplate.setHealthBarFullIcon "Ingame/reb_Healthbar_full_scout_64x64.tga"
+ObjectTemplate.addWeaponIcon "Weapon/icon_alliesknife.dds"
+ObjectTemplate.addWeaponIcon "Weapon/icon_Dl44.dds"
+ObjectTemplate.addWeaponIcon "Weapon/icon_dressilian.dds"
+ObjectTemplate.addWeaponIcon "Weapon/icon_fragnade.dds"
+ObjectTemplate.addWeaponIcon "Weapon/icon_binoculars.dds"
 
 ObjectTemplate.setKitIcon 0 "kits/Icon_scout_allies_selected.tga"
 ObjectTemplate.setKitName 0 "RESPAWN_SCOUT"
 ObjectTemplate.setKitActiveName 0 "RESPAWN_ACTIVE_SCOUT"
 
-ObjectTemplate.addTemplate No4Sniper
-ObjectTemplate.addTemplate Colt
+ObjectTemplate.addTemplate DressilianRifle
+ObjectTemplate.addTemplate Dl44
 ObjectTemplate.addTemplate KnifeAllies
 
-ObjectTemplate.addTemplate Binoculars
-ObjectTemplate.addTemplate GrenadeAllies
+ObjectTemplate.addTemplate BinocularsRebel
+ObjectTemplate.addTemplate ConcussionGrenade
+ObjectTemplate.addTemplate NoChute
+
 ObjectTemplate.aitemplate Scout

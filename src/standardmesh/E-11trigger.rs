@@ -6,5 +6,5 @@ subshader "E-11trigger_Material0" "StandardMesh/Default"
 	materialSpecular 0.12549 0.12549 0.12549;
 	materialSpecularPower 12.5;
 	envmap true;
-	texture "texture/e11-trigger";
+	texture "texture/Weapons/e11-trigger";
 }

@@ -1,6 +1,6 @@
 
 GeometryTemplate.create StandardMesh Lstump
-GeometryTemplate.file buildings/Lstump
+GeometryTemplate.file buildings/Endor/Lstump
 GeometryTemplate.setLodDistance 0 0
 GeometryTemplate.setLodDistance 1 100
 GeometryTemplate.setLodDistance 2 300

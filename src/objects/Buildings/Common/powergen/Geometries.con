@@ -1,5 +1,5 @@
 GeometryTemplate.create StandardMesh powergen
-GeometryTemplate.file powergen
+GeometryTemplate.file Buildings/powergen
 GeometryTemplate.setLodDistance 0 0
 GeometryTemplate.setLodDistance 1 500
 GeometryTemplate.setLodDistance 2 700
@@ -8,6 +8,6 @@ GeometryTemplate.setLodDistance 4 900
 GeometryTemplate.setLodDistance 5 1000
 
 GeometryTemplate.create StandardMesh powergenwindow
-GeometryTemplate.file powergenwindow
+GeometryTemplate.file Buildings/powergenwindow
 GeometryTemplate.setLodDistance 0 0
 

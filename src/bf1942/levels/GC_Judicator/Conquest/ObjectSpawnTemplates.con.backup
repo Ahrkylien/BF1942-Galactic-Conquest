@@ -1,0 +1,50 @@
+ObjectTemplate.create ObjectSpawner jud_uplift_spawner
+ObjectTemplate.setObjectTemplate 2 uplift
+ObjectTemplate.setObjectTemplate 1 uplift
+ObjectTemplate.MinSpawnDelay 5
+ObjectTemplate.MaxSpawnDelay 10
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.maxNrOfObjectSpawned 1
+
+ObjectTemplate.create ObjectSpawner tramcar_s
+ObjectTemplate.setObjectTemplate 2 tramcar
+ObjectTemplate.setObjectTemplate 1 tramcar
+ObjectTemplate.MinSpawnDelay 5
+ObjectTemplate.MaxSpawnDelay 10
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 25
+ObjectTemplate.Distance 2
+ObjectTemplate.DamageWhenLost 50
+ObjectTemplate.maxNrOfObjectSpawned 2
+
+
+rem ----------------------------------------- 
+rem ---  TL-21 ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner tl-21_kit_spawner
+ObjectTemplate.setObjectTemplate 1 tl-21_kit
+ObjectTemplate.setObjectTemplate 2 tl-21_kit
+ObjectTemplate.MinSpawnDelay 10
+ObjectTemplate.MaxSpawnDelay 20
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.team 1
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.maxNrOfObjectSpawned 1
+
+
+ObjectTemplate.create ObjectSpawner mousespawner
+ObjectTemplate.setObjectTemplate 2 MouseDroidControl
+ObjectTemplate.setObjectTemplate 1 MouseDroidControl
+ObjectTemplate.MinSpawnDelay 5
+ObjectTemplate.MaxSpawnDelay 10
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 999
+ObjectTemplate.Distance 999
+ObjectTemplate.DamageWhenLost 0
+ObjectTemplate.maxNrOfObjectSpawned 1
+

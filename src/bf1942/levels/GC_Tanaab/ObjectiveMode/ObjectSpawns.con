@@ -1,0 +1,79 @@
+rem
+rem ***  ***
+rem
+Object.create tan_nebfrigate_hanger_spawner
+Object.absolutePosition 564.975/205.933/589.625
+Object.Rotation 6.00001/0/0
+Object.setTeam 2
+rem
+rem ***  ***
+rem
+Object.create syturbolasers
+Object.absolutePosition 2298.91/255/2200.2
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create syturbolasers
+Object.absolutePosition 2015.34/264.4/2038.13
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create syturbolasers
+Object.absolutePosition 1998.87/264.4/2069.2
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create syturbolasers
+Object.absolutePosition 1925.67/425.628/2128.53
+Object.rotation -29/0/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create syturbolasers
+Object.absolutePosition 1963.55/264.423/2012.27
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create syturbolasers
+Object.absolutePosition 1948.83/264.423/2042.16
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create syturbolasers
+Object.absolutePosition 1950.3/425.969/2087.37
+Object.rotation -29/0/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create epsilspawner
+Object.absolutePosition 2170.91/261.107/2210.13
+Object.rotation 160/0/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create epsilspawner2
+Object.absolutePosition 1958.94/274.246/2080.64
+Object.rotation -32.0001/0/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create lancerspawner
+Object.absolutePosition 3649.98/280.213/2585.69
+Object.rotation -96/0/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create lancer2spawn
+Object.absolutePosition 1677.95/299.718/1811
+Object.rotation -32/0/0
+Object.setTeam 1

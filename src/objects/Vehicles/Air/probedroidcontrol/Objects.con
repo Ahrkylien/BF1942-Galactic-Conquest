@@ -1,5 +1,3 @@
-
-
 rem *** probedroidcontrol ***
 ObjectTemplate.create PlayerControlObject probedroidcontrol
 ObjectTemplate.setNetworkableInfo probedroidcontrolInfo
@@ -7,17 +5,16 @@ ObjectTemplate.saveInSeparateFile 1
 ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.hasResponsePhysics 1
 ObjectTemplate.geometry probedroidcontrol_m1
-ObjectTemplate.hasArmor 1
-ObjectTemplate.hitpoints 50
-ObjectTemplate.maxhitpoints 50
-ObjectTemplate.material 50
-ObjectTemplate.criticalDamage 12
+ObjectTemplate.hasArmor 0
+ObjectTemplate.hitpoints 100
+ObjectTemplate.maxhitpoints 100
+ObjectTemplate.material 812
+ObjectTemplate.criticalDamage 10
 ObjectTemplate.hpLostWhileCriticalDamage 1
-ObjectTemplate.addArmorEffect 30 e_avturretDamage 0/6/0
+ObjectTemplate.addArmorEffect 10 e_avturretDamage 0/6/0
 ObjectTemplate.addArmorEffect 0 e_scrapmetal 0/20/0
 ObjectTemplate.addArmorEffect 0 e_ExplGas 0/10/0
 ObjectTemplate.aiTemplate avturret
-rem ObjectTemplate.timetoliveafterdeath 5
 ObjectTemplate.fadeAtTimeToLiveAfterDeath 0
 ObjectTemplate.setSoldierExitLocation -2/2/-2 -180/0/0
 ObjectTemplate.setVehicleIcon "Vehicle/Icon_probedroidcontrol.dds"

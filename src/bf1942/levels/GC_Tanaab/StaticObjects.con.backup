@@ -1,0 +1,536 @@
+rem
+rem ***  ***
+rem
+Object.create tan_isd_front
+Object.absolutePosition 3337.51/236.193/3311.2
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create tan_isd_back
+Object.absolutePosition 3393.55/236.193/3382.98
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create tan_isd_bridge
+Object.absolutePosition 3533.53/236.193/3553.8
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create tan_isd_hanger1
+Object.absolutePosition 3313.17/236.193/3296.09
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create tan_isd_hanger2
+Object.absolutePosition 3354.68/236.193/3347.99
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create tan_isd_top
+Object.absolutePosition 3454.3/236.193/3468.37
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create tan_isd_engine
+Object.absolutePosition 3552.07/236.193/3581.98
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create tan_nebfrigate_hull
+Object.absolutePosition 564.975/205.933/589.625
+Object.Rotation 6.00001/0/0
+rem
+rem ***  ***
+rem
+Object.create tan_nebfrigate_hanger
+Object.absolutePosition 564.975/205.933/589.625
+Object.Rotation 6.00001/0/0
+rem
+rem ***  ***
+rem
+Object.create tan_grid01
+Object.absolutePosition 0/41/0
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create tan_grid01
+Object.absolutePosition 1000/41/0
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create tan_grid01
+Object.absolutePosition 2000/41/0
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create tan_grid01
+Object.absolutePosition 3000/41/0
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create tan_grid01
+Object.absolutePosition 0/41/1000
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create tan_grid01
+Object.absolutePosition 1000/41/1000
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create tan_grid01
+Object.absolutePosition 2000/41/1000
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create tan_grid01
+Object.absolutePosition 3000/41/1000
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create tan_grid01
+Object.absolutePosition 0/41/2000
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create tan_grid01
+Object.absolutePosition 1000/41/2000
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create tan_grid01
+Object.absolutePosition 2000/41/2000
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create tan_grid01
+Object.absolutePosition 3000/41/2000
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create tan_grid01
+Object.absolutePosition 0/41/3000
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create tan_grid01
+Object.absolutePosition 1000/41/3000
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create tan_grid01
+Object.absolutePosition 2000/41/3000
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create tan_grid01
+Object.absolutePosition 3000/41/3000
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create tan_grid01
+Object.absolutePosition 0/650/0
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create tan_grid01
+Object.absolutePosition 1000/650/0
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create tan_grid01
+Object.absolutePosition 2000/650/0
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create tan_grid01
+Object.absolutePosition 3000/650/0
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create tan_grid01
+Object.absolutePosition 0/650/1000
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create tan_grid01
+Object.absolutePosition 1000/650/1000
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create tan_grid01
+Object.absolutePosition 2000/650/1000
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create tan_grid01
+Object.absolutePosition 3000/650/1000
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create tan_grid01
+Object.absolutePosition 0/650/2000
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create tan_grid01
+Object.absolutePosition 1000/650/2000
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create tan_grid01
+Object.absolutePosition 2000/650/2000
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create tan_grid01
+Object.absolutePosition 3000/650/2000
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create tan_grid01
+Object.absolutePosition 0/650/3000
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create tan_grid01
+Object.absolutePosition 1000/650/3000
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create tan_grid01
+Object.absolutePosition 2000/650/3000
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create tan_grid01
+Object.absolutePosition 3000/650/3000
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create tan_shipyard_main
+Object.absolutePosition 1992.25/159.128/2010.08
+Object.Rotation -31/0/0
+rem
+rem ***  ***
+rem
+Object.create tan_shipyard_bayb
+Object.absolutePosition 1688.18/162.165/1825.2
+Object.Rotation -31.5/0/0
+rem
+rem ***  ***
+rem
+Object.create tan_shipyard_bayb
+Object.absolutePosition 1682.05/341.839/1837.05
+Object.Rotation 149/1.86693e-005/-180
+rem
+rem ***  ***
+rem
+Object.create tan_shipyard_lab
+Object.absolutePosition 1992.24/254.655/2010.12
+Object.Rotation -31/0/0
+rem
+rem ***  ***
+rem
+Object.create tan_door01
+Object.absolutePosition 2144.84/256.27/2103.1
+Object.Rotation -30/0/0
+rem
+rem ***  ***
+rem
+Object.create hothcrategrey
+Object.absolutePosition 2082.27/256.122/2091.67
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create hothcrategrey
+Object.absolutePosition 2101.19/256.089/2090.19
+Object.Rotation -42/0/0
+rem
+rem ***  ***
+rem
+Object.create hothcrategrey
+Object.absolutePosition 2128.93/256.242/2075.61
+Object.Rotation -27/0/0
+Object.geometry.scale 0.56/0.56/0.56
+rem
+rem ***  ***
+rem
+Object.create hothcrategrey
+Object.absolutePosition 2119.05/256.227/2096.22
+Object.Rotation -27/0/0
+Object.geometry.scale 0.56/0.56/0.56
+rem
+rem ***  ***
+rem
+Object.create hothcratedark
+Object.absolutePosition 2100.01/256.131/2074.19
+Object.Rotation -36/0/0
+rem
+rem ***  ***
+rem
+Object.create hothcratedark
+Object.absolutePosition 2087.42/256.22/2078.3
+Object.Rotation -36/0/0
+Object.geometry.scale 0.42/0.42/0.42
+rem
+rem ***  ***
+rem
+Object.create hothcratedark
+Object.absolutePosition 2098.86/256.22/2113.39
+Object.Rotation -36/0/0
+Object.geometry.scale 0.42/0.42/0.42
+rem
+rem ***  ***
+rem
+Object.create tanaab_fuel_tank
+Object.absolutePosition 2089.87/256.199/2107.15
+Object.Rotation 167/0/0
+rem
+rem ***  ***
+rem
+Object.create tan_computer
+Object.absolutePosition 2091.51/256.23/2110.65
+Object.Rotation 212/0/0
+rem
+rem ***  ***
+rem
+Object.create tanaab_fuel_tank
+Object.absolutePosition 2078.53/256.201/2096.03
+Object.Rotation 61.9999/0/0
+rem
+rem ***  ***
+rem
+Object.create tan_computer
+Object.absolutePosition 2082.8/256.288/2112.48
+Object.Rotation 152/0/0
+rem
+rem ***  ***
+rem
+Object.create tan_computer
+Object.absolutePosition 2087.75/256.24/2076.58
+Object.Rotation 57/0/0
+rem
+rem ***  ***
+rem
+Object.create ammobox
+Object.absolutePosition 2115.32/261.58/2055.73
+Object.Rotation -29.2/0/0
+rem
+rem ***  ***
+rem
+Object.create tan_computer
+Object.absolutePosition 2111.67/261.583/2052.86
+Object.Rotation -31.0003/0/0
+rem
+rem ***  ***
+rem
+Object.create tan_computer
+Object.absolutePosition 2111.97/261.783/2056.46
+Object.Rotation 57.9996/0/0
+rem
+rem ***  ***
+rem
+Object.create tan_computer
+Object.absolutePosition 2111.26/261.828/2061.67
+Object.Rotation 148/0/0
+rem
+rem ***  ***
+rem
+Object.create tan_computer
+Object.absolutePosition 2109.23/261.721/2060.47
+Object.Rotation 150/0/0
+rem
+rem ***  ***
+rem
+Object.create tan_computer
+Object.absolutePosition 2107.3/261.63/2059.3
+Object.Rotation 149/0/0
+rem
+rem ***  ***
+rem
+Object.create tan_computer
+Object.absolutePosition 2110.16/261.721/2057.67
+Object.Rotation -30/0/0
+rem
+rem ***  ***
+rem
+Object.create tan_computer
+Object.absolutePosition 2112.85/261.748/2055.02
+Object.Rotation 58.9996/0/0
+rem
+rem ***  ***
+rem
+Object.create tan_computer
+Object.absolutePosition 2107.32/258.044/2102.83
+Object.Rotation 199/0/0
+Object.geometry.scale 0.76/0.76/0.76
+rem
+rem ***  ***
+rem
+Object.create hothcrategrey
+Object.absolutePosition 2085.73/256.292/2083.74
+Object.Rotation -17/0/0
+Object.geometry.scale 1.16/1.16/1.16
+rem
+rem ***  ***
+rem
+Object.create tan_computer
+Object.absolutePosition 2125.78/256.288/2085.77
+Object.Rotation 238/0/0
+Object.geometry.scale 0.76/0.76/0.76
+rem
+rem ***  ***
+rem
+Object.create tan_aster
+Object.absolutePosition 2393.09/275.267/1871.87
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create tan_aster
+Object.absolutePosition 2581.44/235.205/1745.07
+Object.Rotation 0/0/-87
+Object.geometry.scale 0.72/0.72/0.72
+rem
+rem ***  ***
+rem
+Object.create tan_aster
+Object.absolutePosition 1199/207.845/1506
+Object.Rotation 0/0/94
+rem
+rem ***  ***
+rem
+Object.create tan_aster
+Object.absolutePosition 2577.95/235.329/2209.91
+Object.Rotation 52/0/-25
+Object.geometry.scale 0.58/0.58/0.58
+rem
+rem ***  ***
+rem
+Object.create tan_aster
+Object.absolutePosition 3058.54/274.343/2031.72
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create tan_aster
+Object.absolutePosition 3126.61/304.772/1339.66
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create tan_aster
+Object.absolutePosition 2519.1/321.335/946.292
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create tan_aster
+Object.absolutePosition 614.231/295.623/1682.75
+Object.Rotation 0/0/-52
+rem
+rem ***  ***
+rem
+Object.create tan_aster
+Object.absolutePosition 2108/101.168/2635
+Object.Rotation 112.896/0/-55
+rem
+rem ***  ***
+rem
+Object.create tan_aster
+Object.absolutePosition 1162.73/254.46/1943.26
+Object.Rotation 220.463/0/91.0001
+rem
+rem ***  ***
+rem
+Object.create tan_aster
+Object.absolutePosition 2249.03/281.151/2928.49
+Object.Rotation 307.31/0/0
+Object.geometry.scale 0.48/0.48/0.48
+rem
+rem ***  ***
+rem
+Object.create tan_aster
+Object.absolutePosition 1599/266.454/1098
+Object.Rotation 221.32/0/28
+rem
+rem ***  ***
+rem
+Object.create tan_aster
+Object.absolutePosition 1459.57/262.257/2194.59
+Object.Rotation 245.874/0/0
+rem
+rem ***  ***
+rem
+Object.create tan_aster
+Object.absolutePosition 1518.94/262.84/2992.99
+Object.Rotation 0/0/-53
+rem
+rem ***  ***
+rem
+Object.create tan_aster
+Object.absolutePosition 1760.17/263.182/3087.63
+Object.Rotation 0/0/-53
+Object.geometry.scale 0.46/0.46/0.46
+rem
+rem ***  ***
+rem
+Object.create tan_aster
+Object.absolutePosition 1490.94/262.569/2600.52
+Object.Rotation 0/0/-53
+Object.geometry.scale 0.42/0.42/0.42
+rem
+rem ***  ***
+rem
+Object.create tan_aster
+Object.absolutePosition 2928.45/281.195/2335.37
+Object.Rotation 307.31/0/0
+Object.geometry.scale 0.48/0.48/0.48
+rem
+rem ***  ***
+rem
+Object.create tan_aster
+Object.absolutePosition 2050/312.438/1305
+Object.Rotation 307.31/0/0
+Object.geometry.scale 0.22/0.22/0.22

@@ -1,8 +1,6 @@
 NetworkableInfo.createNewInfo probedroidcontrolInfo
 NetworkableInfo.setPredictionMode PMLinear
 
-NetworkableInfo.createNewInfo probedroidlauncherInfo
-NetworkableInfo.setPredictionMode PMLinear
 
 
 

@@ -1,5 +1,5 @@
 GeometryTemplate.create StandardMesh wallsnowburnt2
-GeometryTemplate.file buildings/wallsnowburnt2
+GeometryTemplate.file buildings/Hoth/wallsnowburnt2
 GeometryTemplate.setLodDistance 0 0
 GeometryTemplate.setLodDistance 1 100
 GeometryTemplate.setLodDistance 2 300

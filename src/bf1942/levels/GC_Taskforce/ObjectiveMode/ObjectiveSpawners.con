@@ -1,0 +1,83 @@
+rem ============================= OBJECTS to destroy ================
+
+Object.create CarrackObjective
+Object.absolutePosition  660.288/279.666/3658.96
+Object.rotation 127.0/0.0/0.0
+Object.setName Carrack01
+Object.setTeam 1
+
+Object.create CarrackObjective2
+Object.absolutePosition  3432.17/272.042/3717.14
+Object.rotation -146.5/0.0/0.0
+Object.setName Carrack02
+Object.setTeam 1
+
+Object.create LancerObjective
+Object.absolutePosition  2950.56/201.286/3616.5
+Object.rotation -142.0/0.0/0.0
+Object.setName Lancer01
+Object.setTeam 1
+
+Object.create LancerObjective2
+Object.absolutePosition  3587.48/327.392/3283.65
+Object.rotation -142.0/0.0/0.0
+Object.setName Lancer02
+Object.setTeam 1
+
+Object.create RunnerObjective
+Object.absolutePosition  900.773/331.677/454.413
+Object.rotation 24.5/0.0/0.0
+Object.setName Runner01
+Object.setTeam 2
+
+Object.create RunnerObjective2
+Object.absolutePosition  354.553/228.57/432.818
+Object.rotation 24.5/0.0/0.0
+Object.setName Runner02
+Object.setTeam 2
+
+Object.create NebObjective
+Object.absolutePosition  3394.29/339.417/341.919
+Object.rotation -61.0/0.0/0.0
+Object.setName Neb01
+Object.setTeam 2
+
+Object.create NebObjective2
+Object.absolutePosition  578.139/237.953/375.008
+Object.rotation 31.0/0.0/0.0
+Object.setName Neb02
+Object.setTeam 2
+
+rem // Axis = 1 , Allied = 2
+rem ============================= ATTACKERS ========================================
+
+Object.create DestroyTurbineObjectiveSpawner01
+object.setName CarrackSpawner01
+
+Object.create DestroyTurbineObjectiveSpawner02
+object.setName CarrackSpawner02
+
+Object.create DestroyTurbineObjectiveSpawner03
+object.setName LancerSpawner01
+
+Object.create DestroyTurbineObjectiveSpawner04
+object.setName LancerSpawner02
+
+Object.create DestroyTurbineObjectiveSpawner05
+object.setName RunnerSpawner01
+
+Object.create DestroyTurbineObjectiveSpawner06
+object.setName RunnerSpawner02
+
+Object.create DestroyTurbineObjectiveSpawner07
+object.setName NebSpawner01
+
+Object.create DestroyTurbineObjectiveSpawner08
+object.setName NebSpawner02
+
+
+object.create AlliedANDCompositeObjectiveSpawner
+object.setName REBELS
+
+object.create AxisANDCompositeObjectiveSpawner
+object.setName EMPIRE

@@ -4,7 +4,7 @@ ObjectTemplate.loadSoundScript Sounds/Landmine.ssc
 ObjectTemplate.itemIndex 5
 ObjectTemplate.projectileTemplate LandmineProjectile
 ObjectTemplate.projectilePosition 0/0/0
-ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.hasDynamicShadow 0
 ObjectTemplate.projectileVisible 0
 ObjectTemplate.magSize 4
 ObjectTemplate.numOfMag 1
@@ -38,7 +38,7 @@ ObjectTemplate.geometry Shad_Landmine
 
 ObjectTemplate.create AnimatedBundle LandmineComplex
 ObjectTemplate.geometry Landmine
-ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.hasDynamicShadow 0
 ObjectTemplate.createSkeleton animations/Landmine.ske
 
 ObjectTemplate.create LodObject LandmineLod
@@ -46,10 +46,11 @@ ObjectTemplate.lodselector HandWeaponLodSelector
 ObjectTemplate.addTemplate LandmineComplex
 ObjectTemplate.addTemplate LandmineSimple
 
+
 ObjectTemplate.create Projectile LandmineProjectile
 ObjectTemplate.networkableInfo ProjectileInfo
 ObjectTemplate.geometry Landmine
-ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.hasDynamicShadow 0
 ObjectTemplate.setHasMobilePhysics 1
 ObjectTemplate.setHasCollisionPhysics 1
 ObjectTemplate.setHasResponsePhysics 1
@@ -63,10 +64,10 @@ ObjectTemplate.radius 4
 ObjectTemplate.ForceOnExplosion 30
 ObjectTemplate.explodeNearEnemyDistance 3
 ObjectTemplate.hasOnTimeEffect 1
-ObjectTemplate.mass 20
+ObjectTemplate.mass 130
 ObjectTemplate.material 230
-ObjectTemplate.material2 232
-ObjectTemplate.damageType 1
+ObjectTemplate.material2 545
+ObjectTemplate.damageType 4
 ObjectTemplate.endEffectTemplate e_ExplGranade
 beginrem
 ObjectTemplate.fadeOnDist 1
@@ -76,6 +77,8 @@ ObjectTemplate.minDistAlpha 5
 ObjectTemplate.maxDistAlpha 25
 endrem
 ObjectTemplate.noFFSound 1
+ObjectTemplate.addToProjectileList 1
+ObjectTemplate.projectileType 1
 
 
 

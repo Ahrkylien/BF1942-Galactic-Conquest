@@ -6,9 +6,9 @@ newPatch
 ### Engine Start ###
 ####################
 load @ROOT/Sound/@RTD/awing-engine-start.wav
+relativePosition 0/0/-3.92
+volume 0.6
 minDistance 10
-relativePosition 1/-0.55/0
-volume .8
 dopplerOff
 priority -2
 *** Distance Volume ***
@@ -16,98 +16,22 @@ beginEffect
 	controlDestination Volume
 	controlSource Distance
 	envelope Ramp
-	param 10
-	param 80
+	param 50
+	param 100
 	param 1
-	p aram -1	
+	param -1	
 endEffect
 
-############
-### Main ###
-############
-
-load @ROOT/Sound/@RTD/silence.wav
+##############
+### engine ###
+##############
+load @ROOT/Sound/@RTD/awing-engine.wav
+relativePosition 0/0/-3.92
 loop
-minDistance 30
-relativePosition 1/-0.55/0
-volume 0.8
+volume 0.7
+minDistance 50
+randomStartPitch 0.05/0.05 
 priority 9
-*** Engine start ***
-beginEffect
-	controlDestination Volume
-	controlSource Time
-	envelope Ramp
-	param 0.6
-	param 1.2
-	param 0
-	param 1
-endEffect
-
-*** Engine Pitch ***
-beginEffect
-	controlDestination Pitch
-	controlSource Extern #map<Engine::Rpm>
-	envelope Ramp
-	param 0.6
-	param 1.05
-	param 0.70
-	param 0.30
-endEffect
-
-*** Engine Volume Start ***
-beginEffect
-	controlDestination Volume
-	controlSource Extern #map<Engine::Rpm>
-	envelope Ramp
-	param 0.3
-	param 1
-	param 0.1
-	param 1
-endEffect
-
-*** Distance Volume ***
-beginEffect
-	controlDestination Volume
-	controlSource Distance
-	envelope Ramp
-	param 0
-	param 2
-	param 0.2
-	param 1	
-endEffect
-
-*** Distance Volume ***
-beginEffect
-	controlDestination Volume
-	controlSource Distance
-	envelope Ramp
-	param 30
-	param 300
-	param 1
-	param -1	
-endEffect
-
-*** Engine stop ***
-beginEffect
-	controlDestination Volume
-	controlSource TimeRelease
-	envelope Ramp
-	param 0
-	param 0.2
-	param 1
-	param -1	
-endEffect
-
-###########
-### Med ###
-###########
-
-load @ROOT/Sound/@RTD/silence.wav
-loop
-minDistance 30
-relativePosition 1/-0.55/0
-volume 0.8
-priority 8
 *** Engine start ***
 beginEffect
 	controlDestination Volume
@@ -122,12 +46,12 @@ endEffect
 *** Engine Pitch ***
 beginEffect
 	controlDestination Pitch
-	controlSource Extern #map<Engine::Rpm>
+	controlSource Speed
 	envelope Ramp
-	param 0.6
-	param 1.05
-	param 0.70
-	param 0.30
+	param 0
+	param 250
+	param 0.95
+	param 0.45
 endEffect
 
 *** Engine Volume Start ***
@@ -136,9 +60,9 @@ beginEffect
 	controlSource Extern #map<Engine::Rpm>
 	envelope Ramp
 	param 0
-	param 1
-	param 0.5
-	param 0.9
+	param 1.2
+	param 0.6
+	param 0.8
 endEffect
 
 *** Distance Volume ***
@@ -147,7 +71,7 @@ beginEffect
 	controlSource Distance
 	envelope Ramp
 	param 0
-	param 2
+	param 1
 	param 0.5
 	param 1	
 endEffect
@@ -157,8 +81,8 @@ beginEffect
 	controlDestination Volume
 	controlSource Distance
 	envelope Ramp
-	param 30
-	param 300
+	param 150
+	param 250
 	param 1
 	param -1	
 endEffect
@@ -182,16 +106,16 @@ load @ROOT/Sound/@RTD/awing-cockpit.wav
 loop
 stereo
 minDistance 1
-ObjectTemplate.setPosition 0/0.45/0.7
-volume 0.35
-priority 7
+relativePosition 0/0.33/-3.92
+volume 0.3
+priority 6
 *** Engine start ***
 beginEffect
 	controlDestination Volume
 	controlSource Time
 	envelope Ramp
-	param 0
-	param 2
+	param 0.4
+	param 1.2
 	param 0
 	param 1
 endEffect
@@ -223,19 +147,21 @@ endEffect
 ###################
 
 load @ROOT/Sound/@RTD/awing-engine-stop.wav
+relativePosition 0/0/-3.92
+volume 0.6
 minDistance 10
 trigger Release
 dopplerOff
 priority -2
+
 *** Distance Volume ***
 beginEffect
 	controlDestination Volume
 	controlSource Distance
 	envelope Ramp
-	param 10
-	param 80
+	param 50
+	param 100
 	param 1
 	param -1	
 endEffect
-
 

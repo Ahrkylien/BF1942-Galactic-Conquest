@@ -1,0 +1,63 @@
+rem *****LANCER PHYSICS CODE*****
+
+rem *** MAIN Engine ***
+ObjectTemplate.create Engine LancerMainEngine
+ObjectTemplate.setNetworkableInfo LancerEngineInfo
+ObjectTemplate.loadSoundScript Sounds/LancerEngine.ssc
+ObjectTemplate.setMinRotation 0/0/-700
+ObjectTemplate.setMaxRotation 0/0/3000
+ObjectTemplate.setMaxSpeed 0/0/3000
+ObjectTemplate.setAcceleration 0/0/80
+ObjectTemplate.setAutomaticPitchStabilization 1
+ObjectTemplate.setInputToRoll c_PIThrottle
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setEngineType c_ETPlane
+ObjectTemplate.setTorque 70
+ObjectTemplate.setDifferential 50
+
+rem *** TurnLeftRight Engine ***
+ObjectTemplate.create Engine LancerTREngine
+ObjectTemplate.setNetworkableInfo LancerEngineInfo
+ObjectTemplate.setMinRotation 0/0/-4000
+ObjectTemplate.setMaxRotation 0/0/5000
+ObjectTemplate.setMaxSpeed 0/0/5000
+ObjectTemplate.setAcceleration 0/0/5000
+ObjectTemplate.setInputToRoll c_PIYaw
+ObjectTemplate.setAutomaticRollStabilization 1
+ObjectTemplate.setAutomaticPitchStabilization 1
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setEngineType c_ETPlane
+ObjectTemplate.setTorque 70
+ObjectTemplate.setDifferential 1
+
+rem *** Virtical Engine ***
+ObjectTemplate.create Engine LancerVEngine
+ObjectTemplate.setNetworkableInfo LancerEngineInfo
+ObjectTemplate.setMinRotation 0/0/-600
+ObjectTemplate.setMaxRotation 0/0/600
+ObjectTemplate.setMaxSpeed 0/0/600
+ObjectTemplate.setAcceleration 0/0/-400
+ObjectTemplate.setAutomaticRollStabilization 1
+ObjectTemplate.setAutomaticPitchStabilization 1
+ObjectTemplate.setInputToRoll c_PIPitch
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setEngineType c_ETPlane
+ObjectTemplate.setTorque 65
+ObjectTemplate.setDifferential 40
+
+rem *** Floater ***
+ObjectTemplate.create FloatingBundle Lancer_Floater
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.setHullHeight 2000
+ObjectTemplate.setFloatMaxLift 1.962
+ObjectTemplate.setFloatMinLift 1.962
+ObjectTemplate.setAutomaticRollStabilization 1
+ObjectTemplate.setAutomaticPitchStabilization 1
+ObjectTemplate.setDragModifier 0   
+ObjectTemplate.setMinRotation 0/5/0
+ObjectTemplate.setMaxRotation 0/5/0
+ObjectTemplate.setMaxSpeed 0/5/0
+ObjectTemplate.setAcceleration 0/4/0
+ObjectTemplate.setInputToPitch 0
+ObjectTemplate.setAutomaticReset 0
+

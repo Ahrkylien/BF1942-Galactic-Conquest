@@ -17,13 +17,14 @@ ObjectTemplate.setKitName 2 "RESPAWN_AT"
 ObjectTemplate.setKitActiveName 2 "RESPAWN_ACTIVE_AT"
 
 ObjectTemplate.addTemplate Us_Helmet
-ObjectTemplate.addTemplate US_Britt_Bacpac
+ObjectTemplate.addTemplate US_Assault_BackPack
 ObjectTemplate.addTemplate US_Hip_Pack
 
 ObjectTemplate.addTemplate tracker16
 ObjectTemplate.addTemplate KnifeAllies
 ObjectTemplate.addTemplate Dl44
 
-ObjectTemplate.addTemplate Fragnade
+ObjectTemplate.addTemplate ConcussionGrenade
+ObjectTemplate.addTemplate NoChute
 
 ObjectTemplate.aitemplate AT

@@ -11,6 +11,6 @@ ObjectTemplate.setNoPropellerEffectAtSpeed 1000
 ObjectTemplate.setDifferential 90.0
 
 rem *** ConcussionMissileEngineSound ***
-ObjectTemplate.loadSoundScript Sounds/ConcussionMissileEngine.ssc
+ObjectTemplate.loadSoundScript Sounds/Bazooka.ssc
 
 

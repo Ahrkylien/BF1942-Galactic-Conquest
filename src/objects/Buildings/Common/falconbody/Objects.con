@@ -1,6 +1,0 @@
-ObjectTemplate.create SimpleObject falconbody
-ObjectTemplate.aiTemplate falconbody
-ObjectTemplate.geometry falconbody
-ObjectTemplate.setHasCollisionPhysics 1
-
-

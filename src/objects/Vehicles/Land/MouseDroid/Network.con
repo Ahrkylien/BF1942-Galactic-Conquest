@@ -1,0 +1,11 @@
+NetworkableInfo.createNewInfo R5D4RepairWeaponInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo MouseDroidEngineInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo MouseDroidBodyInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo MouseDroidWeaponRotateInfo
+NetworkableInfo.setPredictionMode PMLinear

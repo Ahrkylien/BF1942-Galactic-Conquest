@@ -4,7 +4,8 @@ newPatch
 ### Close ###
 #############
 load @ROOT/Sound/@RTD/apturret-laser-stereo.wav
-minDistance 5
+minDistance 1
+relativePosition 0/0.55/-2.3
 randomStartPitch 0.05 / 0.05
 stereo
 priority 10
@@ -14,8 +15,8 @@ beginEffect
 	controlDestination Volume
 	controlSource Distance
 	envelope Ramp
-	param 5
-	param 5
+	param 1
+	param 1
 	param 1
 	param -1	
 endEffect
@@ -24,7 +25,7 @@ endEffect
 ### Distance ###
 ################
 load @ROOT/Sound/@RTD/apturret-laser-mono.wav
-minDistance 10
+minDistance 20
 randomStartPitch 0.05 / 0.05
 priority 9
 
@@ -33,8 +34,8 @@ beginEffect
 	controlDestination Volume
 	controlSource Distance
 	envelope Ramp
-	param 5
-	param 5
+	param 1
+	param 1
 	param 0
 	param 1	
 endEffect
@@ -44,8 +45,8 @@ beginEffect
 	controlDestination Volume
 	controlSource Distance
 	envelope Ramp
-	param 125
-	param 250
+	param 80
+	param 200
 	param 1
 	param -1	
 endEffect

@@ -1,0 +1,18 @@
+ObjectTemplate.create Engine Tie_Bomb_Engine
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.setMinRotation 0/0/0
+ObjectTemplate.setMaxRotation 0/0/5000
+ObjectTemplate.setMaxSpeed 0/0/100000
+ObjectTemplate.setAcceleration 0/0/100000
+ObjectTemplate.setInputToRoll c_PIThrottle
+ObjectTemplate.setEngineType c_ETRocket
+ObjectTemplate.setTorque 80.0
+ObjectTemplate.setNoPropellerEffectAtSpeed 1000
+ObjectTemplate.setDifferential 50.0
+
+rem *** Floater ***
+ObjectTemplate.create FloatingBundle WaterBounce
+ObjectTemplate.setHullHeight 15.0
+ObjectTemplate.setFloatMaxLift 9.0
+ObjectTemplate.setFloatMinLift 9.0
+ObjectTemplate.setDragModifier 8000.0

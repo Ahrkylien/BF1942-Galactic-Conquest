@@ -1,0 +1,8 @@
+NetworkableInfo.createNewInfo NebulonB_Engine_info
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo NebulonB_Body_Info
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo NebulonB_Turret_Info
+NetworkableInfo.setPredictionMode PMLinear

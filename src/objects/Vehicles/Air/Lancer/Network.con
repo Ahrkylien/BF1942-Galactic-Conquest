@@ -1,0 +1,8 @@
+NetworkableInfo.createNewInfo Lancer_Engine_info
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo Lancer_Body_Info
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo Lancer_Turret_Info
+NetworkableInfo.setPredictionMode PMLinear

@@ -1,3 +1,265 @@
+rem ********************************************************
+rem ****************** GCMOD MATERIAL IDS ******************
+rem ********************************************************
+
+rem -------------------- WEAPON MATERIAL IDS --------------------
+
+rem --------------- Handweapons 
+
+REM ** Kylan Direct ** - based on "Colt" 214 -
+MaterialManager.material 501
+MaterialManager.materialAttGroup 501
+MaterialManager.materialDefGroup 501
+MaterialManager.materialDamage 5
+
+REM ** Razor Direct ** - based on "Colt" 214 -
+MaterialManager.material 502
+MaterialManager.materialAttGroup 502
+MaterialManager.materialDefGroup 502
+MaterialManager.materialDamage 5
+
+REM ** DL44 Direct ** - based on "Colt" 214 -
+MaterialManager.material 503
+MaterialManager.materialAttGroup 503
+MaterialManager.materialDefGroup 503
+MaterialManager.materialDamage 6
+
+REM ** Speederpistol Direct ** - based on "Colt" 214 -
+MaterialManager.material 504
+MaterialManager.materialAttGroup 504
+MaterialManager.materialDefGroup 504
+MaterialManager.materialDamage 6
+
+REM ** DH17 Direct ** - based on "thomson" 216 -
+MaterialManager.material 505
+MaterialManager.materialAttGroup 505
+MaterialManager.materialDefGroup 505
+MaterialManager.materialDamage 5
+
+REM ** E-11 Direct ** - based on "sg44" 223 - (use A295 512)
+MaterialManager.material 511
+MaterialManager.materialAttGroup 511
+MaterialManager.materialDefGroup 511
+MaterialManager.materialDamage 7
+
+REM ** A295 Direct ** - based on "bar" 222 -
+MaterialManager.material 512
+MaterialManager.materialAttGroup 512
+MaterialManager.materialDefGroup 512
+MaterialManager.materialDamage 9
+
+REM ** Tracker16 Direct ** - based on "sg44" 223 - (use TL21 522)
+MaterialManager.material 521
+MaterialManager.materialAttGroup 521
+MaterialManager.materialDefGroup 521
+MaterialManager.materialDamage 7
+
+REM ** TL-21 Direct ** - based on "sg44" 223 - 
+MaterialManager.material 522
+MaterialManager.materialAttGroup 522
+MaterialManager.materialDefGroup 522
+MaterialManager.materialDamage 7
+
+REM **   ** 
+MaterialManager.material 523
+MaterialManager.materialAttGroup 523
+MaterialManager.materialDefGroup 523
+MaterialManager.materialDamage 7
+
+REM **   ** 
+MaterialManager.material 524
+MaterialManager.materialAttGroup 524
+MaterialManager.materialDefGroup 524
+MaterialManager.materialDamage 3.5
+
+REM ** Dressilian Rifle Direct ** - based on "no4" 218 - (use E11-S 532)
+MaterialManager.material 531
+MaterialManager.materialAttGroup 531
+MaterialManager.materialDefGroup 531
+MaterialManager.materialDamage 5
+
+REM ** E-11 Sniper Direct ** - based on "no4" 218 -
+MaterialManager.material 532
+MaterialManager.materialAttGroup 532
+MaterialManager.materialDefGroup 532
+MaterialManager.materialDamage 5
+
+rem --------------- Explosive Weapons 
+
+REM ** RocketProjectile1Direct ** - based on "bazooka" 226 -
+rem (Concussion Missile, ATST Grenade)
+MaterialManager.material 539
+MaterialManager.materialAttGroup 539
+MaterialManager.materialDefGroup 539
+MaterialManager.materialDamage 10
+
+REM ** RocketProjectile1Splash ** - based on "bazooka" 200 -
+rem (Concussion Missile, ATST Grenade)
+MaterialManager.material 540
+MaterialManager.materialAttGroup 540
+MaterialManager.materialDefGroup 540
+MaterialManager.materialDamage 10
+
+rem ** RocketProjectile2Direct **
+rem (Proton Torpedo, ExpPack)  
+MaterialManager.material 541
+MaterialManager.materialAttGroup 541
+MaterialManager.materialDefGroup 541
+MaterialManager.materialDamage 10
+
+rem ** RocketProjectile2Splash **
+rem (Proton Torpedo)
+MaterialManager.material 542
+MaterialManager.materialAttGroup 542
+MaterialManager.materialDefGroup 542
+MaterialManager.materialDamage 10
+
+REM ** Grenade1Direct ** - based on "NoArmour" 70 -
+MaterialManager.material 543
+MaterialManager.materialAttGroup 543
+MaterialManager.materialDefGroup 543
+MaterialManager.materialDamage 0
+MaterialManager.materialFriction 2.0
+MaterialManager.materialElasticity 2.0
+MaterialManager.materialResistance 2.0
+
+REM ** Grenade1Splash ** - based on "GrenadeAllies" 205 -
+MaterialManager.material 544
+MaterialManager.materialAttGroup 544
+MaterialManager.materialDefGroup 544
+MaterialManager.materialDamage 10
+
+REM ** Landmine Splash ** - based on "mines" 232 -
+MaterialManager.material 545
+MaterialManager.materialAttGroup 545
+MaterialManager.materialDefGroup 545
+MaterialManager.materialDamage 10
+
+REM ** ExPack Splash ** - based on "exppack" 204 -
+MaterialManager.material 546
+MaterialManager.materialAttGroup 546
+MaterialManager.materialDefGroup 546
+MaterialManager.materialDamage 10
+
+REM ** TieBomb Direct ** - based on "bombs" 242 -
+MaterialManager.material 550
+MaterialManager.materialAttGroup 550
+MaterialManager.materialDefGroup 550
+MaterialManager.materialDamage 10
+
+REM ** TieBomb Splash ** - based on "bombs" 202 -
+MaterialManager.material 551
+MaterialManager.materialAttGroup 551
+MaterialManager.materialDefGroup 551
+MaterialManager.materialDamage 10
+
+REM ** ProtonTorpedo Direct ** - based on "bombs" 242 -
+MaterialManager.material 552
+MaterialManager.materialAttGroup 552
+MaterialManager.materialDefGroup 552
+MaterialManager.materialDamage 10
+
+REM ** ProtonTorpedo Splash ** - based on "bombs" 202 -
+MaterialManager.material 553
+MaterialManager.materialAttGroup 553
+MaterialManager.materialDefGroup 553
+MaterialManager.materialDamage 10
+
+rem --------------- Generic Weapons 
+
+rem ** Light Laser Direct **  - based on "Browning" 224 -
+rem (EWEB, Probe Droid)
+MaterialManager.material 700
+MaterialManager.materialAttGroup 700
+MaterialManager.materialDefGroup 700
+MaterialManager.materialDamage 7
+
+rem ** Light Laser Splash **  - based on "Browning" 224 -
+MaterialManager.material 701
+MaterialManager.materialAttGroup 701
+MaterialManager.materialDefGroup 701
+MaterialManager.materialDamage 3.5
+
+rem ** Medium Laser Direct ** - based on "Browning" 224 -
+rem (Millenium Falcon, AWing, Cloudcar, EWing, Lambda, Snowspeeder Main Lasers, 
+rem Snowspeeder Rear Laser, Ties, XWing, Slave1 Lasers, AP Turret, 
+rem Turbo Lasers, ATST Main Laser, ATST Side Laser)
+MaterialManager.material 702
+MaterialManager.materialAttGroup 702
+MaterialManager.materialDefGroup 702
+MaterialManager.materialDamage 7
+
+rem ** Medium Laser Splash **  - based on "Browning" 224 -
+MaterialManager.material 703
+MaterialManager.materialAttGroup 703
+MaterialManager.materialDefGroup 703
+MaterialManager.materialDamage 3.5
+
+rem ** Strong Laser Direct ** - based on "bazooka" 226 -
+rem (Skyhopper, Sailbarge Deckgun, Slave1 Ion Cannon,
+rem AV Turret)
+MaterialManager.material 704
+MaterialManager.materialAttGroup 704
+MaterialManager.materialDefGroup 704
+MaterialManager.materialDamage 2
+
+rem ** Strong Laser Splash ** - based on "Browning" 224 - 
+MaterialManager.material 705
+MaterialManager.materialAttGroup 705
+MaterialManager.materialDefGroup 705
+MaterialManager.materialDamage 25
+
+rem ** CAPITAL Laser Direct ** 
+rem (Runner, Captialships)
+MaterialManager.material 706
+MaterialManager.materialAttGroup 706
+MaterialManager.materialDefGroup 706
+MaterialManager.materialDamage 15
+
+rem ** CAPTIAL Laser Splash ** 
+MaterialManager.material 707
+MaterialManager.materialAttGroup 707
+MaterialManager.materialDefGroup 707
+MaterialManager.materialDamage 30
+
+
+rem -------------------- ARMOUR MATERIAL IDS --------------------
+
+rem ** GCMOD Light Armour 1 **
+MaterialManager.material 801
+MaterialManager.materialAttGroup 801
+MaterialManager.materialDefGroup 801
+MaterialManager.materialDamage 1
+
+rem ** GCMOD Light Armour 2 **
+MaterialManager.material 802
+MaterialManager.materialAttGroup 802
+MaterialManager.materialDefGroup 802
+MaterialManager.materialDamage 1
+
+rem ** GCMOD Medium Armour 1 **
+MaterialManager.material 811
+MaterialManager.materialAttGroup 811
+MaterialManager.materialDefGroup 811
+MaterialManager.materialDamage 1
+
+rem ** GCMOD Medium Armour 2 **
+MaterialManager.material 812
+MaterialManager.materialAttGroup 812
+MaterialManager.materialDefGroup 812
+MaterialManager.materialDamage 1
+
+rem ** GCMOD Capital Armour 1 **
+MaterialManager.material 821
+MaterialManager.materialAttGroup 821
+MaterialManager.materialDefGroup 821
+MaterialManager.materialDamage 1
+
+
+rem ********************************************************
+rem ****************** BF1942 MATERIAL IDS *****************
+rem ********************************************************
+
 rem *** Terrain ***
 
 rem Default
@@ -615,7 +877,7 @@ MaterialManager.materialDamage 20
 MaterialManager.material 205
 MaterialManager.materialAttGroup 205
 MaterialManager.materialDefGroup 205
-MaterialManager.materialDamage 10
+MaterialManager.materialDamage 1
 
 MaterialManager.material 206
 MaterialManager.materialAttGroup 206
@@ -637,9 +899,6 @@ MaterialManager.materialAttGroup 209
 MaterialManager.materialDefGroup 209
 MaterialManager.materialDamage 8
 
-
-
-
 rem *********************************
 rem ***	 	HAND GUNS	*****
 rem *********************************
@@ -660,7 +919,6 @@ MaterialManager.material 212
 MaterialManager.materialAttGroup 212
 MaterialManager.materialDefGroup 212
 MaterialManager.materialDamage 4
-
 
 rem *********** Airplanes **************
 MaterialManager.material 213
@@ -897,540 +1155,4 @@ MaterialManager.material 255
 MaterialManager.materialAttGroup 255
 MaterialManager.materialDefGroup 255
 MaterialManager.materialDamage 10
-
-rem *********************************************
-rem ***	BATTLEFIELD GALACTIC CONQUEST	    ***
-rem ***	  Originally Done By Liam	    ***
-rem *********************************************
-
-
-REM *********************************************
-REM ***						    ***
-REM ***        WEAPON PROJECTILES             ***
-REM ***						    ***
-REM *********************************************
-
-
-REM ********** E-11 Laser Fire **********
-MaterialManager.material 500
-MaterialManager.materialAttGroup 500
-MaterialManager.materialDefGroup 500
-MaterialManager.materialDamage 10
-
-REM ********** A295 Laser Fire **********
-MaterialManager.material 501
-MaterialManager.materialAttGroup 501
-MaterialManager.materialDefGroup 501
-MaterialManager.materialDamage 10
-
-REM ********** DH17 Laser Fire **********
-MaterialManager.material 502
-MaterialManager.materialAttGroup 502
-MaterialManager.materialDefGroup 502
-MaterialManager.materialDamage 10
-
-REM ********** DL44 Laser Fire **********
-MaterialManager.material 503
-MaterialManager.materialAttGroup 503
-MaterialManager.materialDefGroup 503
-MaterialManager.materialDamage 10
-
-REM ********** APTurret Laser Fire **********
-MaterialManager.material 504
-MaterialManager.materialAttGroup 504
-MaterialManager.materialDefGroup 504
-MaterialManager.materialDamage 10
-
-REM ********** AVTurret Laser Fire **********
-MaterialManager.material 505
-MaterialManager.materialAttGroup 505
-MaterialManager.materialDefGroup 505
-MaterialManager.materialDamage 20
-
-REM ********** kylan Laser Fire **********
-MaterialManager.material 506
-MaterialManager.materialAttGroup 506
-MaterialManager.materialDefGroup 506
-MaterialManager.materialDamage 10
-
-REM ********** razor Laser Fire **********
-MaterialManager.material 507
-MaterialManager.materialAttGroup 507
-MaterialManager.materialDefGroup 507
-MaterialManager.materialDamage 10
-
-REM ********** speederpistol Laser Fire **********
-MaterialManager.material 508
-MaterialManager.materialAttGroup 508
-MaterialManager.materialDefGroup 508
-MaterialManager.materialDamage 10
-
-REM ********** dressilianRifle Laser Fire **********
-MaterialManager.material 509
-MaterialManager.materialAttGroup 509
-MaterialManager.materialDefGroup 509
-MaterialManager.materialDamage 10
-
-REM ********** E-11Sniper Laser Fire **********
-MaterialManager.material 510
-MaterialManager.materialAttGroup 510
-MaterialManager.materialDefGroup 510
-MaterialManager.materialDamage 10
-
-REM ********** Tracker16 Laser Fire **********
-MaterialManager.material 511
-MaterialManager.materialAttGroup 511
-MaterialManager.materialDefGroup 511
-MaterialManager.materialDamage 10
-
-REM ********** TL-21 Laser Fire **********
-MaterialManager.material 512
-MaterialManager.materialAttGroup 512
-MaterialManager.materialDefGroup 512
-MaterialManager.materialDamage 10
-
-
-REM ****************** ROCKETS ************************
-
-REM ********** PLX-2M MATERIAL 1 **********
-MaterialManager.material 530
-MaterialManager.materialAttGroup 530
-MaterialManager.materialDefGroup 530
-MaterialManager.materialDamage 10
-
-REM ********** PLX-2M MATERIAL 2 **********
-MaterialManager.material 531
-MaterialManager.materialAttGroup 531
-MaterialManager.materialDefGroup 531
-MaterialManager.materialDamage 10
-
-REM ********** FLECHETTE MATERIAL 1 **********
-MaterialManager.material 540
-MaterialManager.materialAttGroup 540
-MaterialManager.materialDefGroup 540
-MaterialManager.materialDamage 10
-
-REM ********** FLECHETTE MATERIAL 2 **********
-MaterialManager.material 541
-MaterialManager.materialAttGroup 541
-MaterialManager.materialDefGroup 541
-MaterialManager.materialDamage 10
-
-REM ****************** ROCKETS ************************
-
-REM *********************************************
-REM ***						    ***
-REM ***           VEHICLE ARMOUR              ***
-REM ***						    ***
-REM *********************************************
-
-REM ##########################################################
-REM ########## TIE FIGHTER MATERIAL ID'S #####################
-REM ##########################################################
-
-REM ********** TIE FIGHTER WING **********
-MaterialManager.material 700
-MaterialManager.materialAttGroup 700
-MaterialManager.materialDefGroup 700
-MaterialManager.materialDamage 1
-
-REM ********** TIE FIGHTER COCKPIT **********
-MaterialManager.material 701
-MaterialManager.materialAttGroup 701
-MaterialManager.materialDefGroup 701
-MaterialManager.materialDamage 1
-
-REM ********** TIE FIGHTER LASER **********
-MaterialManager.material 702
-MaterialManager.materialAttGroup 702
-MaterialManager.materialDefGroup 702
-MaterialManager.materialDamage 10
-
-
-
-REM ##########################################################
-REM ########## SNOWSPEEDER MATERIAL ID'S #####################
-REM ##########################################################
-
-REM ********** SNOWSPEEDER COCKPIT **********
-MaterialManager.material 706
-MaterialManager.materialAttGroup 706
-MaterialManager.materialDefGroup 706
-MaterialManager.materialDamage 1
-
-REM ********** SNOWSPEEDER ENGINE **********
-MaterialManager.material 707
-MaterialManager.materialAttGroup 707
-MaterialManager.materialDefGroup 707
-MaterialManager.materialDamage 1
-
-REM ********** SNOWSPEEDER BODY **********
-MaterialManager.material 708
-MaterialManager.materialAttGroup 708
-MaterialManager.materialDefGroup 708
-MaterialManager.materialDamage 1
-
-REM ********** SNOWSPEEDER LASER **********
-MaterialManager.material 705
-MaterialManager.materialAttGroup 705
-MaterialManager.materialDefGroup 705
-MaterialManager.materialDamage 10
-
-REM ********** SNOWSPEEDER TOW LASER **********
-MaterialManager.material 709
-MaterialManager.materialAttGroup 709
-MaterialManager.materialDefGroup 709
-MaterialManager.materialDamage 30
-
-
-
-REM ##########################################################
-REM ########## TIE BOMBER MATERIAL ID'S ######################
-REM ##########################################################
-
-REM ********** TIE BOMBER WING **********
-MaterialManager.material 710
-MaterialManager.materialAttGroup 710
-MaterialManager.materialDefGroup 710
-MaterialManager.materialDamage 1
-
-REM ********** TIE BOMBER COCKPIT/BODY **********
-MaterialManager.material 711
-MaterialManager.materialAttGroup 711
-MaterialManager.materialDefGroup 711
-MaterialManager.materialDamage 1
-
-REM ********** TIE BOMBER CONC MISS SPLASH **********
-MaterialManager.material 712
-MaterialManager.materialAttGroup 712
-MaterialManager.materialDefGroup 712
-MaterialManager.materialDamage 10
-
-REM ********** TIE BOMBER CONC MISS DIRECT **********
-MaterialManager.material 713
-MaterialManager.materialAttGroup 713
-MaterialManager.materialDefGroup 713
-MaterialManager.materialDamage 10
-
-
-
-REM ##########################################################
-REM ########## XWING MATERIAL ID'S ###########################
-REM ##########################################################
-
-REM ********** XWING WING **********
-MaterialManager.material 715
-MaterialManager.materialAttGroup 715
-MaterialManager.materialDefGroup 715
-MaterialManager.materialDamage 1
-
-REM ********** XWING ENGINE **********
-MaterialManager.material 716
-MaterialManager.materialAttGroup 716
-MaterialManager.materialDefGroup 716
-MaterialManager.materialDamage 1
-
-REM ********** XWING BODY **********
-MaterialManager.material 717
-MaterialManager.materialAttGroup 717
-MaterialManager.materialDefGroup 717
-MaterialManager.materialDamage 1
-
-REM ********** XWING LASER **********
-MaterialManager.material 718
-MaterialManager.materialAttGroup 718
-MaterialManager.materialDefGroup 718
-MaterialManager.materialDamage 10
-
-
-REM ##########################################################
-REM ########## AT-ST MATERIAL ID'S ###########################
-REM ##########################################################
-
-REM ********** AT-ST HEAD **********
-MaterialManager.material 720
-MaterialManager.materialAttGroup 720
-MaterialManager.materialDefGroup 720
-MaterialManager.materialDamage 10
-
-REM ********** AT-ST HIPS **********
-MaterialManager.material 721
-MaterialManager.materialAttGroup 721
-MaterialManager.materialDefGroup 721
-MaterialManager.materialDamage 10
-
-REM ********** AT-ST LEGS **********
-MaterialManager.material 722
-MaterialManager.materialAttGroup 722
-MaterialManager.materialDefGroup 722
-MaterialManager.materialDamage 10
-
-REM ********** AT-ST FEET **********
-MaterialManager.material 723
-MaterialManager.materialAttGroup 723
-MaterialManager.materialDefGroup 723
-MaterialManager.materialDamage 10
-
-REM ***** AT-ST HEAD/HIP JOINT *****
-MaterialManager.material 724
-MaterialManager.materialAttGroup 724
-MaterialManager.materialDefGroup 724
-MaterialManager.materialDamage 10
-
-REM ********** ATST FRONT LASER **********
-MaterialManager.material 725
-MaterialManager.materialAttGroup 725
-MaterialManager.materialDefGroup 725
-MaterialManager.materialDamage 10
-
-REM ********** ATST CONC SPLASH **********
-MaterialManager.material 726
-MaterialManager.materialAttGroup 726
-MaterialManager.materialDefGroup 726
-MaterialManager.materialDamage 10
-
-REM ********** ATST CONC DIRECT **********
-MaterialManager.material 727
-MaterialManager.materialAttGroup 727
-MaterialManager.materialDefGroup 727
-MaterialManager.materialDamage 10
-
-
-REM ##########################################################
-REM ########## AT-AT MATERIAL ID'S ###########################
-REM ##########################################################
-
-REM ********** AT-AT HEAD **********
-MaterialManager.material 730
-MaterialManager.materialAttGroup 730
-MaterialManager.materialDefGroup 730
-MaterialManager.materialDamage 15
-
-REM ********** AT-AT NECK **********
-MaterialManager.material 731
-MaterialManager.materialAttGroup 731
-MaterialManager.materialDefGroup 731
-MaterialManager.materialDamage 15
-
-REM ********** AT-AT BODY **********
-MaterialManager.material 732
-MaterialManager.materialAttGroup 732
-MaterialManager.materialDefGroup 732
-MaterialManager.materialDamage 15
-
-REM ********** AT-AT LEGS **********
-MaterialManager.material 733
-MaterialManager.materialAttGroup 733
-MaterialManager.materialDefGroup 733
-MaterialManager.materialDamage 15
-
-REM ********** AT-AT FEET **********
-MaterialManager.material 734
-MaterialManager.materialAttGroup 734
-MaterialManager.materialDefGroup 734
-MaterialManager.materialDamage 15
-
-REM ****** AT-AT KNEE JOINTS *******
-MaterialManager.material 735
-MaterialManager.materialAttGroup 735
-MaterialManager.materialDefGroup 735
-MaterialManager.materialDamage 15
-
-REM ********** AT-AT EXHAUSTS ******
-MaterialManager.material 736
-MaterialManager.materialAttGroup 736
-MaterialManager.materialDefGroup 736
-MaterialManager.materialDamage 15
-
-
-
-REM ##########################################################
-REM ########## AWING MATERIAL ID'S ###########################
-REM ##########################################################
-
-REM ********** AWING ENGINE ******
-MaterialManager.material 740
-MaterialManager.materialAttGroup 740
-MaterialManager.materialDefGroup 740
-MaterialManager.materialDamage 1
-
-REM ********** AWING BODY ******
-MaterialManager.material 741
-MaterialManager.materialAttGroup 741
-MaterialManager.materialDefGroup 741
-MaterialManager.materialDamage 1
-
-REM ********** AWING COCKPIT ******
-MaterialManager.material 742
-MaterialManager.materialAttGroup 742
-MaterialManager.materialDefGroup 742
-MaterialManager.materialDamage 1
-
-
-
-
-REM ##########################################################
-REM ########## MILLENIUM FALCON MATERIAL ID'S ################
-REM ##########################################################
-
-REM ********** MILLENIUM FALCON BODY ******
-MaterialManager.material 750
-MaterialManager.materialAttGroup 750
-MaterialManager.materialDefGroup 750
-MaterialManager.materialDamage 5
-
-REM ********** MILLENIUM FALCON COCKPIT ******
-MaterialManager.material 751
-MaterialManager.materialAttGroup 751
-MaterialManager.materialDefGroup 751
-MaterialManager.materialDamage 5
-
-REM ********** MILLENIUM FALCON ENGINE ******
-MaterialManager.material 752
-MaterialManager.materialAttGroup 752
-MaterialManager.materialDefGroup 752
-MaterialManager.materialDamage 5
-
-REM ********** MILLENIUM FALCON TURRET MATERIAL 1 ******
-MaterialManager.material 753
-MaterialManager.materialAttGroup 753
-MaterialManager.materialDefGroup 753
-MaterialManager.materialDamage 20
-
-REM ********** MILLENIUM FALCON TURRET MATERIAL 2 ******
-MaterialManager.material 754
-MaterialManager.materialAttGroup 754
-MaterialManager.materialDefGroup 754
-MaterialManager.materialDamage 20
-
-
-REM ##########################################################
-REM ########## LAMBDA SHUTTLE MATERIAL ID'S ##################
-REM ##########################################################
-
-REM ********** LAMBDA SHUTTLE BODY ******
-MaterialManager.material 760
-MaterialManager.materialAttGroup 760
-MaterialManager.materialDefGroup 760
-MaterialManager.materialDamage 4
-
-REM ********** LAMBDA SHUTTLE ENGINE ******
-MaterialManager.material 761
-MaterialManager.materialAttGroup 761
-MaterialManager.materialDefGroup 761
-MaterialManager.materialDamage 4
-
-REM ********** LAMBDA SHUTTLE COCKPIT ******
-MaterialManager.material 762
-MaterialManager.materialAttGroup 762
-MaterialManager.materialDefGroup 762
-MaterialManager.materialDamage 4
-
-REM ********** LAMBDA SHUTTLE WINGS ******
-MaterialManager.material 763
-MaterialManager.materialAttGroup 763
-MaterialManager.materialDefGroup 763
-MaterialManager.materialDamage 4
-
-
-REM ##########################################################
-REM ########## LANDSPEEDER MATERIAL ID'S ##################
-REM ##########################################################
-
-
-REM ********** LANDSPEEDER BODY ******
-MaterialManager.material 770
-MaterialManager.materialAttGroup 770
-MaterialManager.materialDefGroup 770
-MaterialManager.materialDamage 1
-
-REM ********** LANDSPEEDER ENGINE ******
-MaterialManager.material 771
-MaterialManager.materialAttGroup 771
-MaterialManager.materialDefGroup 771
-MaterialManager.materialDamage 1
-
-
-REM ##########################################################
-REM ########## AVTURRET BODY MATERIAL ID'S     ###############
-REM ##########################################################
-
-REM ********** AVTURRET ******
-MaterialManager.material 780
-MaterialManager.materialAttGroup 780
-MaterialManager.materialDefGroup 780
-MaterialManager.materialDamage 1
-
-
-REM ##########################################################
-REM ########## APTURRET BODY MATERIAL ID'S ###################
-REM ##########################################################
-
-REM ********** APTURRET ******
-MaterialManager.material 790
-MaterialManager.materialAttGroup 790
-MaterialManager.materialDefGroup 790
-MaterialManager.materialDamage 1
-
-REM ##########################################################
-REM ########## TURBO LASER TURRET    MATERIAL ID'S ###########
-REM ##########################################################
-
-REM ********** TURBO LASER TURRET ******
-MaterialManager.material 800
-MaterialManager.materialAttGroup 800
-MaterialManager.materialDefGroup 800
-MaterialManager.materialDamage 1
-
-REM ##########################################################
-REM ########## EWEB LASER TURRET    MATERIAL ID'S ###########
-REM ##########################################################
-
-REM ********** EWEB LASER ******
-MaterialManager.material 810
-MaterialManager.materialAttGroup 810
-MaterialManager.materialDefGroup 810
-MaterialManager.materialDamage 10
-
-
-REM ##########################################################
-REM ########## EWEB LASER TURRET    MATERIAL ID'S ###########
-REM ##########################################################
-
-REM ********** PROBE DROID ******
-MaterialManager.material 820
-MaterialManager.materialAttGroup 820
-MaterialManager.materialDefGroup 820
-MaterialManager.materialDamage 10
-
-
-REM ##########################################################
-REM ########## TIE INTERCEPTOR MATERIAL ID'S #################
-REM ##########################################################
-
-
-
-REM ##########################################################
-REM ########## TIE DEFENDER MATERIAL ID'S ####################
-REM ##########################################################
-
-
-
-REM ##########################################################
-REM ########## MON CALAMARI MATERIAL ID'S ####################
-REM ##########################################################
-
-
-
-REM ##########################################################
-REM ########## IMPERIAL SSD MATERIAL ID'S ####################
-REM ##########################################################
-
-
-
-
-
-
-
-
 

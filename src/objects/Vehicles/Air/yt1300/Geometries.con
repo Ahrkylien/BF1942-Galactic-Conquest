@@ -1,0 +1,13 @@
+GeometryTemplate.create StandardMesh tan_MilleniumFalcon_fus_M1
+GeometryTemplate.file Vehicles/MilleniumFalcon/tan_falconbody
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 50
+GeometryTemplate.setLodDistance 3 100
+GeometryTemplate.setLodDistance 4 150
+GeometryTemplate.setLodDistance 5 250
+
+
+
+

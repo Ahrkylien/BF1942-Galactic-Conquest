@@ -1,5 +1,5 @@
 GeometryTemplate.create StandardMesh hoth_rock_1
-GeometryTemplate.file buildings/boulder_1
+GeometryTemplate.file boulder_1
 GeometryTemplate.setLodDistance 0 0
 GeometryTemplate.setLodDistance 1 15
 GeometryTemplate.setLodDistance 2 35

@@ -1,5 +1,5 @@
 GeometryTemplate.create StandardMesh hothhut1
-GeometryTemplate.file buildings/hothhut1
+GeometryTemplate.file buildings/Hoth/hothhut1
 GeometryTemplate.setLodDistance 0 0
 GeometryTemplate.setLodDistance 1 15
 GeometryTemplate.setLodDistance 2 35

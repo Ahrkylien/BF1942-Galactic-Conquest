@@ -1,3 +1,5 @@
+
+
 ObjectTemplate.create KitPart US_Grenades
 ObjectTemplate.geometry US_Grenades
 ObjectTemplate.setBoneName HipPack

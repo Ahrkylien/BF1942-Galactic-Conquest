@@ -1,0 +1,219 @@
+
+rem ======== Networkable ============================
+
+NetworkableInfo.createNewInfo ObjectiveInfo
+NetworkableInfo.setPredictionMode PMNone
+NetworkableInfo.setBasePriority c_NIGhostAlways
+
+rem ================ ObjectiveTemplates =====================
+rem // Axis = 1 , Allied = 2
+
+
+ObjectTemplate.create DestroyTargetObjective DestroyCarrack01
+ObjectTemplate.setNetworkableInfo ObjectiveInfo
+ObjectTemplate.setTargetName Carrack01
+ObjectTemplate.ObjectiveName CAR_VIGILANCE
+ObjectTemplate.setObjectiveDelay 1.0
+ObjectTemplate.setTeam 2
+
+ObjectTemplate.create DestroyTargetObjective DestroyCarrack02
+ObjectTemplate.setNetworkableInfo ObjectiveInfo
+ObjectTemplate.setTargetName Carrack02
+ObjectTemplate.ObjectiveName CAR_TORMENT
+ObjectTemplate.setObjectiveDelay 1.0
+ObjectTemplate.setTeam 2
+
+ObjectTemplate.create DestroyTargetObjective DestroyLancer01
+ObjectTemplate.setNetworkableInfo ObjectiveInfo
+ObjectTemplate.setTargetName Lancer01
+ObjectTemplate.ObjectiveName LAN_TARKEN
+ObjectTemplate.setObjectiveDelay 1.0
+ObjectTemplate.setTeam 2
+
+ObjectTemplate.create DestroyTargetObjective DestroyLancer02
+ObjectTemplate.setNetworkableInfo ObjectiveInfo
+ObjectTemplate.setTargetName Lancer02
+ObjectTemplate.ObjectiveName LAN_LONGARM
+ObjectTemplate.setObjectiveDelay 1.0
+ObjectTemplate.setTeam 2
+
+ObjectTemplate.create DestroyTargetObjective DestroyRunner01
+ObjectTemplate.setNetworkableInfo ObjectiveInfo
+ObjectTemplate.setTargetName Runner01
+ObjectTemplate.ObjectiveName CRV_RECIPROCITY
+ObjectTemplate.setObjectiveDelay 1.0
+ObjectTemplate.setTeam 1
+
+ObjectTemplate.create DestroyTargetObjective DestroyRunner02
+ObjectTemplate.setNetworkableInfo ObjectiveInfo
+ObjectTemplate.setTargetName Runner02
+ObjectTemplate.ObjectiveName CRV_RESOLUTE
+ObjectTemplate.setObjectiveDelay 1.0
+ObjectTemplate.setTeam 1
+
+ObjectTemplate.create DestroyTargetObjective DestroyNeb01
+ObjectTemplate.setNetworkableInfo ObjectiveInfo
+ObjectTemplate.setTargetName Neb01
+ObjectTemplate.ObjectiveName FGT_LIBERTY
+ObjectTemplate.setObjectiveDelay 1.0
+ObjectTemplate.setTeam 1
+
+ObjectTemplate.create DestroyTargetObjective DestroyNeb02
+ObjectTemplate.setNetworkableInfo ObjectiveInfo
+ObjectTemplate.setTargetName Neb02
+ObjectTemplate.ObjectiveName FGT_REDEMPTION
+ObjectTemplate.setObjectiveDelay 1.0
+ObjectTemplate.setTeam 1
+
+ObjectTemplate.create ANDCompositeObjective Composite
+ObjectTemplate.setNetworkableInfo ObjectiveInfo
+ObjectTemplate.addObjectiveSpawnerToComposite CarrackSpawner01
+ObjectTemplate.addObjectiveSpawnerToComposite CarrackSpawner02
+ObjectTemplate.addObjectiveSpawnerToComposite LancerSpawner01
+ObjectTemplate.addObjectiveSpawnerToComposite LancerSpawner02
+ObjectTemplate.setObjectiveDelay 3.0
+ObjectTemplate.setTeam 2
+
+ObjectTemplate.create ANDCompositeObjective Composite2
+ObjectTemplate.setNetworkableInfo ObjectiveInfo
+ObjectTemplate.addObjectiveSpawnerToComposite RunnerSpawner01
+ObjectTemplate.addObjectiveSpawnerToComposite RunnerSpawner02
+ObjectTemplate.addObjectiveSpawnerToComposite NebSpawner01
+ObjectTemplate.addObjectiveSpawnerToComposite NebSpawner02
+ObjectTemplate.setObjectiveDelay 3.0
+ObjectTemplate.setTeam 1
+
+rem ============== ObjectTemplate for the objects to be destoryed ================
+
+rem if v_arg1 == host
+
+
+ObjectTemplate.create ObjectSpawner RunnerObjective
+ObjectTemplate.setObjectTemplate 2 runner
+ObjectTemplate.setObjectTemplate 1 runner
+ObjectTemplate.SpawnDelay 9999
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.holdObject 1
+ObjectTemplate.TimeToLive 999
+ObjectTemplate.Distance 200
+
+ObjectTemplate.create ObjectSpawner RunnerObjective2
+ObjectTemplate.setObjectTemplate 2 runner2
+ObjectTemplate.setObjectTemplate 1 runner2
+ObjectTemplate.SpawnDelay 9999
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.holdObject 1
+ObjectTemplate.TimeToLive 999
+ObjectTemplate.Distance 200
+
+ObjectTemplate.create ObjectSpawner NebObjective
+ObjectTemplate.setObjectTemplate 2 NebulonB
+ObjectTemplate.setObjectTemplate 1 NebulonB
+ObjectTemplate.SpawnDelay 9999
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.holdObject 1
+ObjectTemplate.TimeToLive 999
+ObjectTemplate.Distance 200
+
+ObjectTemplate.create ObjectSpawner NebObjective2
+ObjectTemplate.setObjectTemplate 2 NebulonB2
+ObjectTemplate.setObjectTemplate 1 NebulonB2
+ObjectTemplate.SpawnDelay 9999
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.holdObject 1
+ObjectTemplate.TimeToLive 999
+ObjectTemplate.Distance 200
+
+ObjectTemplate.create ObjectSpawner LancerObjective
+ObjectTemplate.setObjectTemplate 2 lancer
+ObjectTemplate.setObjectTemplate 1 lancer
+ObjectTemplate.SpawnDelay 9999
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.holdObject 1
+ObjectTemplate.TimeToLive 999
+ObjectTemplate.Distance 200
+
+ObjectTemplate.create ObjectSpawner LancerObjective2
+ObjectTemplate.setObjectTemplate 2 lancer2
+ObjectTemplate.setObjectTemplate 1 lancer2
+ObjectTemplate.SpawnDelay 9999
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.holdObject 1
+ObjectTemplate.TimeToLive 999
+ObjectTemplate.Distance 200
+
+ObjectTemplate.create ObjectSpawner CarrackObjective
+ObjectTemplate.setObjectTemplate 2 carrack
+ObjectTemplate.setObjectTemplate 1 carrack
+ObjectTemplate.SpawnDelay 9999
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.holdObject 1
+ObjectTemplate.TimeToLive 999
+ObjectTemplate.Distance 200
+
+ObjectTemplate.create ObjectSpawner CarrackObjective2
+ObjectTemplate.setObjectTemplate 2 carrack2
+ObjectTemplate.setObjectTemplate 1 carrack2
+ObjectTemplate.SpawnDelay 9999
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.holdObject 1
+ObjectTemplate.TimeToLive 999
+ObjectTemplate.Distance 200
+
+rem ================= OjectiveSpawnerTemplates =======================================
+
+
+ObjectTemplate.create ObjectSpawner DestroyTurbineObjectiveSpawner01
+ObjectTemplate.setObjectTemplate 1 DestroyCarrack01
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.setTeam 1
+
+ObjectTemplate.create ObjectSpawner DestroyTurbineObjectiveSpawner02
+ObjectTemplate.setObjectTemplate 1 DestroyCarrack02
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.setTeam 1
+
+ObjectTemplate.create ObjectSpawner DestroyTurbineObjectiveSpawner03
+ObjectTemplate.setObjectTemplate 1 DestroyLancer01
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.setTeam 1
+
+ObjectTemplate.create ObjectSpawner DestroyTurbineObjectiveSpawner04
+ObjectTemplate.setObjectTemplate 1 DestroyLancer02
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.setTeam 1
+
+ObjectTemplate.create ObjectSpawner DestroyTurbineObjectiveSpawner05
+ObjectTemplate.setObjectTemplate 2 DestroyRunner01
+ObjectTemplate.setObjectTemplate 1 DestroyRunner01
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.setTeam 2
+
+ObjectTemplate.create ObjectSpawner DestroyTurbineObjectiveSpawner06
+ObjectTemplate.setObjectTemplate 2 DestroyRunner02
+ObjectTemplate.setObjectTemplate 1 DestroyRunner02
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.setTeam 2
+
+ObjectTemplate.create ObjectSpawner DestroyTurbineObjectiveSpawner07
+ObjectTemplate.setObjectTemplate 2 DestroyNeb01
+ObjectTemplate.setObjectTemplate 1 DestroyNeb01
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.setTeam 2
+
+ObjectTemplate.create ObjectSpawner DestroyTurbineObjectiveSpawner08
+ObjectTemplate.setObjectTemplate 2 DestroyNeb02
+ObjectTemplate.setObjectTemplate 1 DestroyNeb02
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.setTeam 2
+
+ObjectTemplate.create ObjectSpawner AlliedANDCompositeObjectiveSpawner
+ObjectTemplate.setObjectTemplate 1 Composite
+ObjectTemplate.setTeam 1
+
+ObjectTemplate.create ObjectSpawner AxisANDCompositeObjectiveSpawner
+ObjectTemplate.setObjectTemplate 2 Composite2
+ObjectTemplate.setObjectTemplate 1 Composite2
+ObjectTemplate.setTeam 2
+
+rem endIf

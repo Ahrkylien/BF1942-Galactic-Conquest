@@ -22,4 +22,6 @@ ObjectTemplate.addTemplate speederpistol
 ObjectTemplate.addTemplate KnifeAxis
 
 ObjectTemplate.addTemplate cryoban
+ObjectTemplate.addTemplate NoChute
+
 ObjectTemplate.aiTemplate  AT

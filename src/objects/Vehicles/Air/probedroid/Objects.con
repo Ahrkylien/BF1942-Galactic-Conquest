@@ -1,4 +1,3 @@
-
 rem *** probedroid ***
 ObjectTemplate.create PlayerControlObject probedroid
 ObjectTemplate.LoadSoundScript Sounds/ProbeDroidSound.ssc
@@ -12,33 +11,32 @@ ObjectTemplate.hasMobilePhysics 1
 ObjectTemplate.hasDynamicShadow 1
 ObjectTemplate.explosionRadius 8
 ObjectTemplate.explosionDamage 5
-ObjectTemplate.explosionForceMod 15
+ObjectTemplate.explosionForceMod 10
 ObjectTemplate.exitTimer 2
 ObjectTemplate.drag 10
 ObjectTemplate.gravityModifier 1
 ObjectTemplate.mass 1000
 ObjectTemplate.inertiaModifier 0/0/0
 ObjectTemplate.hasArmor 1
-ObjectTemplate.hitpoints 25
-ObjectTemplate.maxhitpoints 25
-ObjectTemplate.material 62
-ObjectTemplate.criticalDamage 3
-ObjectTemplate.hpLostWhileCriticalDamage 0.5
-ObjectTemplate.hpLostWhileUpSideDown 1
-ObjectTemplate.hpLostWhileDamageFromWater 1
-ObjectTemplate.addArmorEffect 10 em_B17Damage 0/0/0
-ObjectTemplate.addArmorEffect 5 em_PlaneDamage 0/0/0
+ObjectTemplate.destroyOnExit 1
+ObjectTemplate.hitpoints 40
+ObjectTemplate.maxhitpoints 40
+ObjectTemplate.material 801
+ObjectTemplate.criticalDamage 4
+ObjectTemplate.hpLostWhileCriticalDamage 0.4
+ObjectTemplate.hpLostWhileUpSideDown 4
+ObjectTemplate.hpLostWhileDamageFromWater 4
+ObjectTemplate.addArmorEffect 8 em_B17Damage 0/0/0
+ObjectTemplate.addArmorEffect 4 em_PlaneDamage 0/0/0
 ObjectTemplate.addArmorEffect 0 e_ExplodeGas 0/0/0
 ObjectTemplate.addArmorEffect 0 e_scrapmetal 0/0/0
 ObjectTemplate.addArmorEffect -1 WaterWaterExplosion 0/0/0
 ObjectTemplate.damageFromWater 1
-rem ObjectTemplate.waterDamageDelay 5
 rem -------------------------------------
 ObjectTemplate.addTemplate lodprobedroid
 rem -------------------------------------
 ObjectTemplate.setSoldierExitLocation -1.5/-0.5/0 0/0/0
 ObjectTemplate.setVehicleIcon "Vehicle/Icon_probedroid.dds"
-ObjectTemplate.setHasTurretIcon 1
 ObjectTemplate.setVehicleIconPos 64/32
 ObjectTemplate.setNumberOfWeaponIcons 1
 ObjectTemplate.setPrimaryAmmoIcon "Ammo/icon_laser_64x64.dds"
@@ -47,7 +45,6 @@ ObjectTemplate.setCrossHairType CHTIcon
 ObjectTemplate.setVehicleCategory VCAir
 ObjectTemplate.setVehicleType  VTFighter
 ObjectTemplate.setMinimapIcon "Minimap/minimap_icon_probedroid_16x16.dds"
-
 ObjectTemplate.sonarPos 1
 rem ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -58,8 +55,6 @@ ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.hasResponsePhysics 1
 rem -------------------------------------
 ObjectTemplate.addTemplate probedroidComplex
-ObjectTemplate.setRotation 0/0/0
-ObjectTemplate.addTemplate probedroidSimple
 ObjectTemplate.addTemplate probedroidWreck
 rem -------------------------------------
 ObjectTemplate.lodSelector probedroidLodSelector
@@ -67,12 +62,11 @@ ObjectTemplate.lodSelector probedroidLodSelector
 rem *** probedroidSimple ***
 ObjectTemplate.create Bundle probedroidSimple
 ObjectTemplate.geometry probedroid_m1
-ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.geometry probedroidhead_m1
 
 rem *** probedroidLodSelector ***
 LodSelectorTemplate.create DistCompareSelector2 probedroidLodSelector
 LodSelectorTemplate.hasDestroyedLod 1
-LodSelectorTemplate.addLodDistance 100
 
 rem *** probedroidWreck ***
 ObjectTemplate.create SimpleObject probedroidWreck
@@ -80,7 +74,7 @@ ObjectTemplate.geometry probedroidwreck_m1
 
 rem *** probedroidComplex ***
 ObjectTemplate.create RotationalBundle probedroidComplex
-ObjectTemplate.setNetworkableInfo probedroidComplexInfo
+ObjectTemplate.setNetworkableInfo probedroidBodyInfo
 ObjectTemplate.hasMobilePhysics 1
 ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.hasResponsePhysics 1
@@ -105,12 +99,10 @@ ObjectTemplate.setMaxSpeed 100/100/0
 ObjectTemplate.setAcceleration 200/-200/0
 ObjectTemplate.setInputToYaw c_PIYaw
 ObjectTemplate.setInputToPitch c_PIMouseLookY
-ObjectTemplate.setVehicleType  VTFighter
-ObjectTemplate.setToolTipType  TTFighter
 
 rem *** probedroidHead ***
 ObjectTemplate.create RotationalBundle probedroidHead
-ObjectTemplate.setNetworkableInfo probedroidHeadInfo
+ObjectTemplate.setNetworkableInfo probedroidBodyInfo
 ObjectTemplate.geometry probedroidhead_m1
 ObjectTemplate.setAttachToListener 1
 ObjectTemplate.hasCollisionPhysics 1
@@ -139,3 +131,10 @@ ObjectTemplate.setEntryRadius 0
 rem *** probedroidCamera ***
 ObjectTemplate.create Camera probedroidCamera
 
+rem *** probedroidSonar ***
+ObjectTemplate.create SonarObject probedroidSonar
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.detectionRadius 450.0
+ObjectTemplate.enableRadarMode 1
+ObjectTemplate.scanForEnemySonars c_True
+ObjectTemplate.loadSoundScript Sounds/radar.ssc

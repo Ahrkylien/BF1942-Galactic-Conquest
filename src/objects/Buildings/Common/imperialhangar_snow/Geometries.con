@@ -1,5 +1,5 @@
 GeometryTemplate.create StandardMesh hangar_snow
-GeometryTemplate.file buildings/imperialhangar_snow
+GeometryTemplate.file buildings/Hoth/imperialhangar_snow
 GeometryTemplate.setLodDistance 0 0
 GeometryTemplate.setLodDistance 1 15
 GeometryTemplate.setLodDistance 2 35

@@ -1,9 +1,8 @@
 ObjectTemplate.create PlayerControlObject Eweb
-ObjectTemplate.setSoldierExitLocation 0/0/-1.5 0/0/0
+ObjectTemplate.setSoldierExitLocation 0/.5/0 0/0/0
 ObjectTemplate.networkableInfo DefgunBodyInfo
 ObjectTemplate.aiTemplate DefgunAI
 ObjectTemplate.geometry eweb_tripod_m1
-ObjectTemplate.hasDynamicShadow 1
 ObjectTemplate.setHasMobilePhysics 1
 ObjectTemplate.setHasCollisionPhysics 1
 ObjectTemplate.setHasResponsePhysics 0
@@ -15,7 +14,7 @@ ObjectTemplate.explosionDamage 0
 ObjectTemplate.HasArmor 1
 ObjectTemplate.HitPoints 5
 ObjectTemplate.MaxHitPoints 5
-ObjectTemplate.Material 45
+ObjectTemplate.Material 811
 ObjectTemplate.setVehicleIcon "Vehicle/icon_eweb.dds"
 ObjectTemplate.setVehicleIconPos 96/25
 ObjectTemplate.setNumberOfWeaponIcons 1
@@ -40,7 +39,7 @@ ObjectTemplate.startoneffects 0
 ObjectTemplate.addTemplate EwebSeat
 ObjectTemplate.setPosition 0/.8/-1.1
 ObjectTemplate.addTemplate EwebEntry
-ObjectTemplate.setPosition 0/0.1/-1
+ObjectTemplate.setPosition 0/0/0
 ObjectTemplate.setRotation 0/0/0
 ObjectTemplate.addTemplate ewebgunrotation
 ObjectTemplate.setPosition 0/1.1/0

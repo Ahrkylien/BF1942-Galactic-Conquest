@@ -1,9 +1,8 @@
-ObjectTemplate.create HandFireArms tracker16
+ObjectTemplate.create HandFireArms Tracker16
 ObjectTemplate.itemIndex 3
 ObjectTemplate.networkableInfo HandFireArmsInfo
 ObjectTemplate.projectileTemplate tracker16Projectile
 ObjectTemplate.projectilePosition 0/0.08/0
-ObjectTemplate.hasDynamicShadow 1
 ObjectTemplate.unZoomBetweenFireTime 0
 ObjectTemplate.useScope 0
 ObjectTemplate.magSize 600
@@ -13,7 +12,6 @@ ObjectTemplate.autoReload 0
 ObjectTemplate.setHasMag 0
 ObjectTemplate.reloadtime 0.00001
 ObjectTemplate.roundOfFire 10.0
-ObjectTemplate.GUIIndex 7
 ObjectTemplate.setHudAmmoType ATIconAndHeatBar
 ObjectTemplate.setAmmoIcon "ammo/icon_laser_64x32.dds"
 ObjectTemplate.setCrossHairType CHTCrossHair
@@ -22,11 +20,14 @@ objectTemplate.aiTemplate Mp18AI
 ObjectTemplate.zoomFov 0.9
 ObjectTemplate.altFireOnce 1
 ObjectTemplate.soldierZoomFov 0.6 
-ObjectTemplate.soldierZoomPosition -0.05/0.02/0.06
-ObjectTemplate.soldierCameraPosition -0.01/-0.04/0.09
+ObjectTemplate.soldierZoomPosition -0.05/0/0.06
+ObjectTemplate.soldierCameraPosition -0.01/-0.042/0.09
 ObjectTemplate.addRootSpeed 0
 ObjectTemplate.AmmoType	1
 
+ObjectTemplate.minDamage 0.5
+ObjectTemplate.distToStartLoseDamage 150
+ObjectTemplate.distToMinDamage 350
 
 rem ObjectTemplate.autoReload 1
 Rem *** Deviation Begin *****
@@ -37,44 +38,41 @@ ObjectTemplate.setRecoilForceLeftRight CRD_UNIFORM/0.7/-0.7/0
 ObjectTemplate.setHasRecoilForce 1
 ObjectTemplate.setGoBackOnRecoil 1
 
-ObjectTemplate.setFireDev 4.0 4.0 2.5
-ObjectTemplate.setDevMod 1.5 0.7 0.5
-ObjectTemplate.setMinDev 2.0
-ObjectTemplate.setspeedDev 2.0 2.0 2.0 1.5
-ObjectTemplate.setTurnDev 2.0 2.0 2.0 1.5
-ObjectTemplate.setMiscDev 6.0 6.0 1.0
+ObjectTemplate.setFireDev 2.0 2.0 1.25
+ObjectTemplate.setDevMod 0.75 0.35 0.25
+ObjectTemplate.setMinDev 1.0
+ObjectTemplate.setspeedDev 1.0 1.0 1.0 0.75
+ObjectTemplate.setTurnDev 1.0 1.0 1.0 0.75
+ObjectTemplate.setMiscDev 3.0 3.0 0.5
 
 Rem *** Deviation  End *****
 
 ObjectTemplate.fireInCameraDof 1
-ObjectTemplate.loadSoundScript Sounds/tracker16.ssc
+ObjectTemplate.loadSoundScript Sounds/Tracker16.ssc
 
-ObjectTemplate.createSkeleton animations/tracker16.ske
+ObjectTemplate.createSkeleton animations/Tracker16.ske
 ObjectTemplate.useSkeletonPartAsMain thompson
 ObjectTemplate.addTemplate tracker16Lod
+ObjectTemplate.setPosition 0/0/0.058
+ObjectTemplate.setRotation 0/-0.5/0
 
 ObjectTemplate.addTemplate e_MuzzThomp
 ObjectTemplate.setInputId -1
 ObjectTemplate.startoneffects 0
 ObjectTemplate.setPosition 0/0.08/0.616
-ObjectTemplate.setRotation 0/0/0
-
 
 ObjectTemplate.create SimpleObject tracker16Simple
 ObjectTemplate.geometry tracker16
 
-
 ObjectTemplate.create AnimatedBundle tracker16Complex
 ObjectTemplate.addTemplate tracker16Simple
-ObjectTemplate.setPosition 0/-0.03/0.05
-ObjectTemplate.hasDynamicShadow 1
-ObjectTemplate.createSkeleton animations/tracker16.ske
 
+ObjectTemplate.createSkeleton animations/Tracker16.ske
 
 ObjectTemplate.create LodObject tracker16Lod
 ObjectTemplate.lodselector HandWeaponLodSelector
 ObjectTemplate.addTemplate tracker16Complex
 ObjectTemplate.addTemplate tracker16Simple
-ObjectTemplate.setPosition 0/-0.03/0.05
+
 
 

@@ -1,5 +1,5 @@
 GeometryTemplate.create StandardMesh mediscanner
-GeometryTemplate.file buildings/mediscanner
+GeometryTemplate.file buildings/Hoth/Echobase/mediscanner
 GeometryTemplate.setLodDistance 0 0
 GeometryTemplate.setLodDistance 1 15
 GeometryTemplate.setLodDistance 2 35

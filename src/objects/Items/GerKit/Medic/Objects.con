@@ -9,20 +9,19 @@ ObjectTemplate.addTemplate German_hippack
 ObjectTemplate.setHealthBarIcon "Ingame/Healthbar_empty_medic_64x64.tga"
 ObjectTemplate.setHealthBarFullIcon "Ingame/Healthbar_full_medic_64x64.tga"
 ObjectTemplate.addWeaponIcon "Weapon/icon_axisknife.dds"
-ObjectTemplate.addWeaponIcon "Weapon/icon_razor.tga"
+ObjectTemplate.addWeaponIcon "Weapon/icon_speederpistol.dds"
 ObjectTemplate.addWeaponIcon "Weapon/icon_flechette.dds"
 ObjectTemplate.addWeaponIcon "Weapon/icon_cryoban.dds"
-ObjectTemplate.addWeaponIcon "Weapon/icon_landmine.tga"
 
 ObjectTemplate.setKitIcon 3 "kits/Icon_medic_axis_selected.tga"
 ObjectTemplate.setKitName 3 "RESPAWN_MEDIC"
 ObjectTemplate.setKitActiveName 3 "RESPAWN_ACTIVE_MEDIC"
 
 ObjectTemplate.addTemplate Flechette
-ObjectTemplate.addTemplate razor
+ObjectTemplate.addTemplate speederpistol
 ObjectTemplate.addTemplate KnifeAxis
 
 ObjectTemplate.addTemplate cryoban
-ObjectTemplate.addTemplate landmine
+ObjectTemplate.addTemplate NoChute
 
 ObjectTemplate.aiTemplate  Medic

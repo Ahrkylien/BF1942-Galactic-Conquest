@@ -3,7 +3,7 @@ ObjectTemplate.networkableInfo HandFireArmsInfo
 ObjectTemplate.loadSoundScript Sounds/BuildEweb.ssc
 ObjectTemplate.itemIndex 3
 ObjectTemplate.projectileTemplate BuildEwebProjectile
-ObjectTemplate.projectilePosition 0/0/1
+ObjectTemplate.projectilePosition 0/0/0
 ObjectTemplate.hasDynamicShadow 1
 ObjectTemplate.projectileVisible 0
 ObjectTemplate.magSize 1
@@ -32,8 +32,9 @@ ObjectTemplate.createSkeleton animations/BuildEweb.ske
 ObjectTemplate.useSkeletonPartAsMain base
 ObjectTemplate.addTemplate BuildEwebLod
 
-
-
+ObjectTemplate.minDamage 0.5
+ObjectTemplate.distToStartLoseDamage 200
+ObjectTemplate.distToMinDamage 500
 
 rem ** Objects
 

@@ -96,4 +96,5 @@ trigger Volume
 ### Shell Bounce ###
 ####################
 newPatch
-#include ../../../Common/Sounds/ShellBounce.ssc
+load @ROOT/Sound/@RTD/silence.wav
+volume 0

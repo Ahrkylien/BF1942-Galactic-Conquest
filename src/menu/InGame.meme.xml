@@ -132,7 +132,7 @@
                 </VariableColorEffect>
               </EffectNode>
               <VariablePictureNode>
-                <StringData description="First part" name="CrossHair/CrossHairIcon">h</StringData>
+                <StringData description="First part" name="CrossHair/CrossHairIcon">hk.tga</StringData>
                 <DataPlaceholder description="Middle part" />
                 <DataPlaceholder description="Last part" />
               </VariablePictureNode>
@@ -181,6 +181,20 @@
               <Float description="Alpha">0.10000000149011612</Float>
             </BfColorData>
           </BfCrosshairNode>
+          <TransformNode>
+            <Float description="X">10.0</Float>
+            <Float description="Y">10.0</Float>
+            <Float description="Width">1.0</Float>
+            <Float description="Height">1.0</Float>
+            <g description="Transformed node">
+              <CullNode>
+                <BoolData description="Do Show" name="CrossHair/ShowCenterPoint">False</BoolData>
+                <Float description="In time">0.0</Float>
+                <Float description="Out time">0.0</Float>
+              </CullNode>
+              <PictureNode />
+            </g>
+          </TransformNode>
         </g>
       </TransformNode>
       <TransformNode>
@@ -198,7 +212,7 @@
             <Float description="Out time">0.0</Float>
           </CullNode>
           <VariablePictureNode>
-            <StringData description="First part" name="CrossHair/ScopeIcon">s</StringData>
+            <StringData description="First part" name="CrossHair/ScopeIcon">sniper.tga</StringData>
             <DataPlaceholder description="Middle part" />
             <DataPlaceholder description="Last part" />
           </VariablePictureNode>
@@ -319,7 +333,7 @@
                 <Float description="Width">128.0</Float>
                 <Float description="Height">128.0</Float>
                 <VariablePictureNode description="Transformed node">
-                  <StringData description="First part" name="CrossHair/SightIcon">s</StringData>
+                  <StringData description="First part" name="CrossHair/SightIcon">scout_ring_128x128.tga</StringData>
                   <DataPlaceholder description="Middle part" />
                   <DataPlaceholder description="Last part" />
                 </VariablePictureNode>
@@ -810,7 +824,7 @@
           </CullNode>
           <PictureNode>Icon_CTF.tga</PictureNode>
           <VariablePictureNode>
-            <StringData description="First part" name="AxisCtfFlag">I</StringData>
+            <StringData description="First part" name="AxisCtfFlag">Icon_flag_ger.tga</StringData>
             <DataPlaceholder description="Middle part" />
             <DataPlaceholder description="Last part" />
           </VariablePictureNode>
@@ -823,7 +837,7 @@
       </CullNode>
       <PictureNode>Icon_CTF.tga</PictureNode>
       <VariablePictureNode>
-        <StringData description="First part" name="AlliedCtfFlag">I</StringData>
+        <StringData description="First part" name="AlliedCtfFlag">Icon_flag_us.tga</StringData>
         <DataPlaceholder description="Middle part" />
         <DataPlaceholder description="Last part" />
       </VariablePictureNode>
@@ -871,6 +885,45 @@
       <PictureNode>Icon_heal.tga</PictureNode>
     </g>
   </TransformNode>
+  <SplitNode>
+    <g description="Split node">
+      <CullNode>
+        <BoolData description="Do Show" name="ShowMineIcon">True</BoolData>
+        <Float description="In time">0.0</Float>
+        <Float description="Out time">0.0</Float>
+      </CullNode>
+      <TransformNode>
+        <Float description="X">640.0</Float>
+        <Float description="Y">302.0</Float>
+        <Float description="Width">64.0</Float>
+        <Float description="Height">64.0</Float>
+        <g description="Transformed node">
+          <CullNode>
+            <BoolData description="Do Show" name="ShowHealIcon">True</BoolData>
+            <Float description="In time">0.0</Float>
+            <Float description="Out time">0.0</Float>
+          </CullNode>
+          <PictureNode>Icon_mine.tga</PictureNode>
+        </g>
+      </TransformNode>
+      <TransformNode>
+        <Float description="X">720.0</Float>
+        <Float description="Y">302.0</Float>
+        <Float description="Width">64.0</Float>
+        <Float description="Height">64.0</Float>
+        <g description="Transformed node">
+          <CullNode>
+            <NotData description="Do Show">
+              <BoolData description="Data" name="ShowHealIcon">True</BoolData>
+            </NotData>
+            <Float description="In time">0.0</Float>
+            <Float description="Out time">0.0</Float>
+          </CullNode>
+          <PictureNode>Icon_mine.tga</PictureNode>
+        </g>
+      </TransformNode>
+    </g>
+  </SplitNode>
   <TransformNode>
     <Float description="X">720.0</Float>
     <Float description="Y">442.0</Float>
@@ -1150,7 +1203,7 @@
         <Float description="Out time">0.0</Float>
       </CullNode>
       <TextNode>
-        <StringData description="String" name="Coordinates/MapCoordinate">D</StringData>
+        <StringData description="String" name="Coordinates/MapCoordinate">D5</StringData>
         <Style description="Style" name="Style/InGameLatin11">Trebuchet MS11 - Latin.dif</Style>
       </TextNode>
       <EffectNode>
@@ -1263,7 +1316,7 @@
                                 <BoolData description="Valid" name="Locale/Valid">True</BoolData>
                               </BfLocaleData>
                               <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                              <StringData description="String Id">Imperial</StringData>
+                              <StringData description="String Id">IMPERIAL</StringData>
                             </BfLocaleStringData>
                             <Style description="Style" name="Style/InGameHeading">Trebuchet MS8.dif</Style>
                           </TextNode>
@@ -1318,7 +1371,7 @@
                                 <BoolData description="Valid" name="Locale/Valid">True</BoolData>
                               </BfLocaleData>
                               <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                              <StringData description="String Id">Rebel</StringData>
+                              <StringData description="String Id">REBEL</StringData>
                             </BfLocaleStringData>
                             <Style description="Style" name="Style/InGameHeading">Trebuchet MS8.dif</Style>
                           </TextNode>
@@ -1384,7 +1437,7 @@
                         <BoolData description="Valid" name="Locale/Valid">True</BoolData>
                       </BfLocaleData>
                       <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                      <StringData description="String Id">Imperial</StringData>
+                      <StringData description="String Id">IMPERIAL</StringData>
                     </BfLocaleStringData>
                     <Style description="Style" name="Style/InGameHeading">Trebuchet MS8.dif</Style>
                   </TextNode>
@@ -1427,7 +1480,7 @@
                     <BoolData description="Valid" name="Locale/Valid">True</BoolData>
                   </BfLocaleData>
                   <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                  <StringData description="String Id">Rebel</StringData>
+                  <StringData description="String Id">REBEL</StringData>
                 </BfLocaleStringData>
                 <Style description="Style" name="Style/InGameHeading">Trebuchet MS8.dif</Style>
               </TextNode>
@@ -1459,7 +1512,7 @@
                 <Float description="Out time">0.0</Float>
               </CullNode>
               <VariablePictureNode>
-                <StringData description="First part" name="ChangeTeam/AxisTeamFlag">I</StringData>
+                <StringData description="First part" name="ChangeTeam/AxisTeamFlag">Icon_flag_ger.tga</StringData>
                 <DataPlaceholder description="Middle part" />
                 <DataPlaceholder description="Last part" />
               </VariablePictureNode>
@@ -1474,7 +1527,7 @@
             <Float description="Out time">0.0</Float>
           </CullNode>
           <VariablePictureNode>
-            <StringData description="First part" name="ChangeTeam/AlliedTeamFlag">I</StringData>
+            <StringData description="First part" name="ChangeTeam/AlliedTeamFlag">Icon_flag_us.tga</StringData>
             <DataPlaceholder description="Middle part" />
             <DataPlaceholder description="Last part" />
           </VariablePictureNode>
@@ -1502,7 +1555,7 @@
                     <BoolData description="Valid" name="Locale/Valid">True</BoolData>
                   </BfLocaleData>
                   <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                  <StringData description="String Id">Imperial</StringData>
+                  <StringData description="String Id">IMPERIAL</StringData>
                 </BfLocaleStringData>
                 <CenterAlignedStyle description="Style" name="Style/InGameCenter14">Trebuchet MS14.dif</CenterAlignedStyle>
               </TextNode>
@@ -1522,7 +1575,7 @@
                 <BoolData description="Valid" name="Locale/Valid">True</BoolData>
               </BfLocaleData>
               <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-              <StringData description="String Id">Rebel</StringData>
+              <StringData description="String Id">REBEL</StringData>
             </BfLocaleStringData>
             <CenterAlignedStyle description="Style" name="Style/InGameCenter14">Trebuchet MS14.dif</CenterAlignedStyle>
           </TextNode>
@@ -1649,7 +1702,7 @@
                 <g description="Transformed node">
                   <CullNode>
                     <EqualData description="Do Show">
-                      <IntData description="Data 1" name="Kit/SelectedKit">4</IntData>
+                      <IntData description="Data 1" name="Kit/SelectedKit">0</IntData>
                       <IntData description="Data 2">0</IntData>
                     </EqualData>
                     <Float description="In time">0.0</Float>
@@ -1705,7 +1758,7 @@
                         <BoolData description="Data">False</BoolData>
                       </SetVariableAction>
                       <SetVariableAction>
-                        <IntData description="Variable" name="Kit/SelectedKit">4</IntData>
+                        <IntData description="Variable" name="Kit/SelectedKit">0</IntData>
                         <IntData description="Data">0</IntData>
                       </SetVariableAction>
                       <CallFunctionAction>
@@ -1749,7 +1802,7 @@
                 <Float description="Height">64.0</Float>
                 <g description="Transformed node">
                   <VariablePictureNode>
-                    <StringData description="First part" name="Kit/Icons/KitIcon1">k</StringData>
+                    <StringData description="First part" name="Kit/Icons/KitIcon1">kits/Icon_scout_axis_selected.tga</StringData>
                     <DataPlaceholder description="Middle part" />
                     <DataPlaceholder description="Last part" />
                   </VariablePictureNode>
@@ -1917,7 +1970,7 @@
                 <g description="Transformed node">
                   <CullNode>
                     <EqualData description="Do Show">
-                      <IntData description="Data 1" name="Kit/SelectedKit">4</IntData>
+                      <IntData description="Data 1" name="Kit/SelectedKit">0</IntData>
                       <IntData description="Data 2">1</IntData>
                     </EqualData>
                     <Float description="In time">0.0</Float>
@@ -1973,7 +2026,7 @@
                         <BoolData description="Data">False</BoolData>
                       </SetVariableAction>
                       <SetVariableAction>
-                        <IntData description="Variable" name="Kit/SelectedKit">4</IntData>
+                        <IntData description="Variable" name="Kit/SelectedKit">0</IntData>
                         <IntData description="Data">1</IntData>
                       </SetVariableAction>
                       <CallFunctionAction>
@@ -2016,7 +2069,7 @@
                 <Float description="Width">64.0</Float>
                 <Float description="Height">64.0</Float>
                 <VariablePictureNode description="Transformed node">
-                  <StringData description="First part" name="Kit/Icons/KitIcon2">k</StringData>
+                  <StringData description="First part" name="Kit/Icons/KitIcon2">kits/Icon_assault_axis_selected.tga</StringData>
                   <DataPlaceholder description="Middle part" />
                   <DataPlaceholder description="Last part" />
                 </VariablePictureNode>
@@ -2156,7 +2209,7 @@
                 <g description="Transformed node">
                   <CullNode>
                     <EqualData description="Do Show">
-                      <IntData description="Data 1" name="Kit/SelectedKit">4</IntData>
+                      <IntData description="Data 1" name="Kit/SelectedKit">0</IntData>
                       <IntData description="Data 2">2</IntData>
                     </EqualData>
                     <Float description="In time">0.0</Float>
@@ -2212,7 +2265,7 @@
                         <BoolData description="Data">False</BoolData>
                       </SetVariableAction>
                       <SetVariableAction>
-                        <IntData description="Variable" name="Kit/SelectedKit">4</IntData>
+                        <IntData description="Variable" name="Kit/SelectedKit">0</IntData>
                         <IntData description="Data">2</IntData>
                       </SetVariableAction>
                       <CallFunctionAction>
@@ -2255,7 +2308,7 @@
                 <Float description="Width">64.0</Float>
                 <Float description="Height">64.0</Float>
                 <VariablePictureNode description="Transformed node">
-                  <StringData description="First part" name="Kit/Icons/KitIcon3">k</StringData>
+                  <StringData description="First part" name="Kit/Icons/KitIcon3">kits/Icon_antitank_axis_selected.tga</StringData>
                   <DataPlaceholder description="Middle part" />
                   <DataPlaceholder description="Last part" />
                 </VariablePictureNode>
@@ -2373,7 +2426,7 @@
                         <BoolData description="Valid" name="Locale/Valid">True</BoolData>
                       </BfLocaleData>
                       <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                      <StringData description="String Id">ACTIVE ANTI-ARMOUR</StringData>
+                      <StringData description="String Id">ACTIVE ANTI-ARMOURS</StringData>
                     </BfLocaleStringData>
                     <RightAlignedStyle description="Style">standard6.dif</RightAlignedStyle>
                   </TextNode>
@@ -2395,7 +2448,7 @@
                 <g description="Transformed node">
                   <CullNode>
                     <EqualData description="Do Show">
-                      <IntData description="Data 1" name="Kit/SelectedKit">4</IntData>
+                      <IntData description="Data 1" name="Kit/SelectedKit">0</IntData>
                       <IntData description="Data 2">3</IntData>
                     </EqualData>
                     <Float description="In time">0.0</Float>
@@ -2451,7 +2504,7 @@
                         <BoolData description="Data">False</BoolData>
                       </SetVariableAction>
                       <SetVariableAction>
-                        <IntData description="Variable" name="Kit/SelectedKit">4</IntData>
+                        <IntData description="Variable" name="Kit/SelectedKit">0</IntData>
                         <IntData description="Data">3</IntData>
                       </SetVariableAction>
                       <CallFunctionAction>
@@ -2494,7 +2547,7 @@
                 <Float description="Width">64.0</Float>
                 <Float description="Height">64.0</Float>
                 <VariablePictureNode description="Transformed node">
-                  <StringData description="First part" name="Kit/Icons/KitIcon4">k</StringData>
+                  <StringData description="First part" name="Kit/Icons/KitIcon4">kits/Icon_medic_axis_selected.tga</StringData>
                   <DataPlaceholder description="Middle part" />
                   <DataPlaceholder description="Last part" />
                 </VariablePictureNode>
@@ -2634,7 +2687,7 @@
                 <g description="Transformed node">
                   <CullNode>
                     <EqualData description="Do Show">
-                      <IntData description="Data 1" name="Kit/SelectedKit">4</IntData>
+                      <IntData description="Data 1" name="Kit/SelectedKit">0</IntData>
                       <IntData description="Data 2">4</IntData>
                     </EqualData>
                     <Float description="In time">0.0</Float>
@@ -2690,7 +2743,7 @@
                         <BoolData description="Data">False</BoolData>
                       </SetVariableAction>
                       <SetVariableAction>
-                        <IntData description="Variable" name="Kit/SelectedKit">4</IntData>
+                        <IntData description="Variable" name="Kit/SelectedKit">0</IntData>
                         <IntData description="Data">4</IntData>
                       </SetVariableAction>
                       <CallFunctionAction>
@@ -2733,7 +2786,7 @@
                 <Float description="Width">64.0</Float>
                 <Float description="Height">64.0</Float>
                 <VariablePictureNode description="Transformed node">
-                  <StringData description="First part" name="Kit/Icons/KitIcon5">k</StringData>
+                  <StringData description="First part" name="Kit/Icons/KitIcon5">kits/Icon_engineer_axis_selected.tga</StringData>
                   <DataPlaceholder description="Middle part" />
                   <DataPlaceholder description="Last part" />
                 </VariablePictureNode>
@@ -2760,7 +2813,7 @@
         <g description="Transformed node">
           <PictureNode>Ingame/respawn/ingame_respawn_long_512x64.tga</PictureNode>
           <TransformNode>
-            <Float description="X">90.0</Float>
+            <Float description="X">50.0</Float>
             <Float description="Y">7.0</Float>
             <Float description="Width">128.0</Float>
             <Float description="Height">128.0</Float>
@@ -2870,7 +2923,60 @@
             </g>
           </TransformNode>
           <TransformNode>
-            <Float description="X">300.0</Float>
+            <Float description="X">200.0</Float>
+            <Float description="Y">7.0</Float>
+            <Float description="Width">128.0</Float>
+            <Float description="Height">128.0</Float>
+            <g description="Transformed node">
+              <BfButtonNode>
+                <String8 description="Picture">Menu/knapp3_N.tga</String8>
+                <String8 description="Mouse over picture">Menu/knapp3_MO.tga</String8>
+                <ActionListAction description="Action">
+                  <CallFunctionAction>
+                    <Function name="Kit/ScoreboardSpawnInterface" />
+                  </CallFunctionAction>
+                  <ActionPlaceholder />
+                </ActionListAction>
+                <Float description="Width">109.0</Float>
+                <Float description="Height">25.0</Float>
+              </BfButtonNode>
+              <TransformNode>
+                <Float description="X">6.0</Float>
+                <Float description="Y">9.0</Float>
+                <Float description="Width">100.0</Float>
+                <Float description="Height">20.0</Float>
+                <g description="Transformed node">
+                  <TextNode>
+                    <BfLocaleStringData description="String">
+                      <BfLocaleData description="Locale" name="Locale/Locale">
+                        <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                      </BfLocaleData>
+                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                      <StringData description="String Id">RESPAWN_SCOREBOARD</StringData>
+                    </BfLocaleStringData>
+                    <CenterAlignedStyle description="Style">standard6.dif</CenterAlignedStyle>
+                  </TextNode>
+                  <TransformNode>
+                    <Float description="X">2.0</Float>
+                    <Float description="Y">1.0</Float>
+                    <Float description="Width">106.0</Float>
+                    <Float description="Height">23.0</Float>
+                    <CullEventActionNode description="Transformed node">
+                      <CallFunctionAction>
+                        <Function name="Kit/OnSpawnButtonMouseOver" />
+                      </CallFunctionAction>
+                      <TypeEvent>
+                        <Byte description="Input index">0</Byte>
+                        <Int32 description="Event type">9</Int32>
+                      </TypeEvent>
+                    </CullEventActionNode>
+                  </TransformNode>
+                </g>
+              </TransformNode>
+            </g>
+          </TransformNode>
+          <TransformNode>
+            <Float description="X">350.0</Float>
             <Float description="Y">7.0</Float>
             <Float description="Width">128.0</Float>
             <Float description="Height">128.0</Float>
@@ -3142,7 +3248,7 @@
             </g>
           </TransformNode>
           <VariablePictureNode>
-            <StringData description="First part" name="Weapon/Icon/WeaponIcon1">W</StringData>
+            <StringData description="First part" name="Weapon/Icon/WeaponIcon1">Weapon/Icon_alliesKnife.tga</StringData>
             <DataPlaceholder description="Middle part" />
             <DataPlaceholder description="Last part" />
           </VariablePictureNode>
@@ -3180,7 +3286,7 @@
             </g>
           </TransformNode>
           <VariablePictureNode>
-            <StringData description="First part" name="Weapon/Icon/WeaponIcon2">W</StringData>
+            <StringData description="First part" name="Weapon/Icon/WeaponIcon2">Weapon/Icon_alliesKnife.tga</StringData>
             <DataPlaceholder description="Middle part" />
             <DataPlaceholder description="Last part" />
           </VariablePictureNode>
@@ -3218,7 +3324,7 @@
             </g>
           </TransformNode>
           <VariablePictureNode>
-            <StringData description="First part" name="Weapon/Icon/WeaponIcon3">W</StringData>
+            <StringData description="First part" name="Weapon/Icon/WeaponIcon3">Weapon/Icon_alliesKnife.tga</StringData>
             <DataPlaceholder description="Middle part" />
             <DataPlaceholder description="Last part" />
           </VariablePictureNode>
@@ -3256,7 +3362,7 @@
             </g>
           </TransformNode>
           <VariablePictureNode>
-            <StringData description="First part" name="Weapon/Icon/WeaponIcon4">W</StringData>
+            <StringData description="First part" name="Weapon/Icon/WeaponIcon4">Weapon/Icon_alliesKnife.tga</StringData>
             <DataPlaceholder description="Middle part" />
             <DataPlaceholder description="Last part" />
           </VariablePictureNode>
@@ -3302,7 +3408,7 @@
             </g>
           </TransformNode>
           <VariablePictureNode>
-            <StringData description="First part" name="Weapon/Icon/WeaponIcon5">W</StringData>
+            <StringData description="First part" name="Weapon/Icon/WeaponIcon5">Weapon/Icon_alliesKnife.tga</StringData>
             <DataPlaceholder description="Middle part" />
             <DataPlaceholder description="Last part" />
           </VariablePictureNode>
@@ -3348,7 +3454,7 @@
             </g>
           </TransformNode>
           <VariablePictureNode>
-            <StringData description="First part" name="Weapon/Icon/WeaponIcon6">W</StringData>
+            <StringData description="First part" name="Weapon/Icon/WeaponIcon6">Weapon/Icon_alliesKnife.tga</StringData>
             <DataPlaceholder description="Middle part" />
             <DataPlaceholder description="Last part" />
           </VariablePictureNode>
@@ -3421,7 +3527,7 @@
                     <g description="Split node">
                       <CullNode>
                         <EqualData description="Do Show">
-                          <IntData description="Data 1" name="Kit/SelectedKit">4</IntData>
+                          <IntData description="Data 1" name="Kit/SelectedKit">0</IntData>
                           <IntData description="Data 2">0</IntData>
                         </EqualData>
                         <Float description="In time">0.0</Float>
@@ -3452,7 +3558,7 @@
                     <g description="Split node">
                       <CullNode>
                         <EqualData description="Do Show">
-                          <IntData description="Data 1" name="Kit/SelectedKit">4</IntData>
+                          <IntData description="Data 1" name="Kit/SelectedKit">0</IntData>
                           <IntData description="Data 2">1</IntData>
                         </EqualData>
                         <Float description="In time">0.0</Float>
@@ -3483,7 +3589,7 @@
                     <g description="Split node">
                       <CullNode>
                         <EqualData description="Do Show">
-                          <IntData description="Data 1" name="Kit/SelectedKit">4</IntData>
+                          <IntData description="Data 1" name="Kit/SelectedKit">0</IntData>
                           <IntData description="Data 2">2</IntData>
                         </EqualData>
                         <Float description="In time">0.0</Float>
@@ -3514,7 +3620,7 @@
                     <g description="Split node">
                       <CullNode>
                         <EqualData description="Do Show">
-                          <IntData description="Data 1" name="Kit/SelectedKit">4</IntData>
+                          <IntData description="Data 1" name="Kit/SelectedKit">0</IntData>
                           <IntData description="Data 2">3</IntData>
                         </EqualData>
                         <Float description="In time">0.0</Float>
@@ -3545,7 +3651,7 @@
                     <g description="Split node">
                       <CullNode>
                         <EqualData description="Do Show">
-                          <IntData description="Data 1" name="Kit/SelectedKit">4</IntData>
+                          <IntData description="Data 1" name="Kit/SelectedKit">0</IntData>
                           <IntData description="Data 2">4</IntData>
                         </EqualData>
                         <Float description="In time">0.0</Float>
@@ -3592,7 +3698,7 @@
                 <g description="Split node">
                   <CullNode>
                     <EqualData description="Do Show">
-                      <IntData description="Data 1" name="Kit/SelectedKit">4</IntData>
+                      <IntData description="Data 1" name="Kit/SelectedKit">0</IntData>
                       <IntData description="Data 2">0</IntData>
                     </EqualData>
                     <Float description="In time">0.0</Float>
@@ -3623,7 +3729,7 @@
                 <g description="Split node">
                   <CullNode>
                     <EqualData description="Do Show">
-                      <IntData description="Data 1" name="Kit/SelectedKit">4</IntData>
+                      <IntData description="Data 1" name="Kit/SelectedKit">0</IntData>
                       <IntData description="Data 2">1</IntData>
                     </EqualData>
                     <Float description="In time">0.0</Float>
@@ -3654,7 +3760,7 @@
                 <g description="Split node">
                   <CullNode>
                     <EqualData description="Do Show">
-                      <IntData description="Data 1" name="Kit/SelectedKit">4</IntData>
+                      <IntData description="Data 1" name="Kit/SelectedKit">0</IntData>
                       <IntData description="Data 2">2</IntData>
                     </EqualData>
                     <Float description="In time">0.0</Float>
@@ -3685,7 +3791,7 @@
                 <g description="Split node">
                   <CullNode>
                     <EqualData description="Do Show">
-                      <IntData description="Data 1" name="Kit/SelectedKit">4</IntData>
+                      <IntData description="Data 1" name="Kit/SelectedKit">0</IntData>
                       <IntData description="Data 2">3</IntData>
                     </EqualData>
                     <Float description="In time">0.0</Float>
@@ -3716,7 +3822,7 @@
                 <g description="Split node">
                   <CullNode>
                     <EqualData description="Do Show">
-                      <IntData description="Data 1" name="Kit/SelectedKit">4</IntData>
+                      <IntData description="Data 1" name="Kit/SelectedKit">0</IntData>
                       <IntData description="Data 2">4</IntData>
                     </EqualData>
                     <Float description="In time">0.0</Float>
@@ -3752,7 +3858,7 @@
         <Float description="Out time">0.0</Float>
       </CullNode>
       <VariablePictureNode>
-        <StringData description="First part" name="Soldier/SoldierIcon">S</StringData>
+        <StringData description="First part" name="Soldier/SoldierIcon">Soldier/Icon_us_soldier_standing.tga</StringData>
         <DataPlaceholder description="Middle part" />
         <DataPlaceholder description="Last part" />
       </VariablePictureNode>
@@ -3761,119 +3867,36 @@
         <Float description="Y">0.0</Float>
         <Float description="Width">64.0</Float>
         <Float description="Height">64.0</Float>
+        <BfVariablePictureFillNode2 description="Transformed node">
+          <StringData description="Picture" name="Soldier/SoldierHealthBarIcon">Ingame/Healthbar_empty_scout_64x64.tga</StringData>
+          <StringData description="Fill picture" name="Soldier/SoldierHealthBarFullIcon">Ingame/Healthbar_full_scout_64x64.tga</StringData>
+          <FloatData description="Data" name="Soldier/SoldierHitPoints">5.0</FloatData>
+          <FloatData description="Maximum value" name="Soldier/SoldierMaxHitPoints">10.0</FloatData>
+          <IntData description="Size" name="Soldier/SoldierBarSize">64</IntData>
+          <Boolean description="Horizontal align">False</Boolean>
+          <Boolean description="Fill order">True</Boolean>
+        </BfVariablePictureFillNode2>
+      </TransformNode>
+      <TransformNode>
+        <Float description="X">-21.0</Float>
+        <Float description="Y">0.0</Float>
+        <Float description="Width">32.0</Float>
+        <Float description="Height">64.0</Float>
         <g description="Transformed node">
-          <BfVariablePictureFillNode2>
-            <StringData description="Picture" name="Soldier/SoldierHealthBarIcon">I</StringData>
-            <StringData description="Fill picture" name="Soldier/SoldierHealthBarFullIcon">I</StringData>
-            <FloatData description="Data" name="Soldier/SoldierHitPoints">5.0</FloatData>
-            <FloatData description="Maximum value" name="Soldier/SoldierMaxHitPoints">10.0</FloatData>
-            <IntData description="Size" name="Soldier/SoldierBarSize">64</IntData>
-            <Boolean description="Horizontal align">False</Boolean>
-            <Boolean description="Fill order">True</Boolean>
-          </BfVariablePictureFillNode2>
-          <CullNode>
-            <BoolData description="Do Show">False</BoolData>
-            <Float description="In time">0.0</Float>
-            <Float description="Out time">0.0</Float>
-          </CullNode>
-          <SplitNode>
-            <g description="Split node">
-              <SplitNode>
-                <g description="Split node">
-                  <SplitNode>
-                    <g description="Split node">
-                      <SplitNode>
-                        <g description="Split node">
-                          <CullNode>
-                            <EqualData description="Do Show">
-                              <IntData description="Data 1" name="Kit/GameKit">0</IntData>
-                              <IntData description="Data 2">0</IntData>
-                            </EqualData>
-                            <Float description="In time">0.0</Float>
-                            <Float description="Out time">0.0</Float>
-                          </CullNode>
-                          <BfVariablePictureFillNode>
-                            <String8 description="Picture">Ingame/Healthbar_empty_scout_64x64.tga</String8>
-                            <String8 description="Fill picture">Ingame/Healthbar_full_scout_64x64.tga</String8>
-                            <FloatData description="Data" name="Soldier/SoldierHitPoints">5.0</FloatData>
-                            <FloatData description="Maximum value" name="Soldier/SoldierMaxHitPoints">10.0</FloatData>
-                            <Int32 description="Size">64</Int32>
-                            <Boolean description="Horizontal align">False</Boolean>
-                            <Boolean description="Fill order">True</Boolean>
-                          </BfVariablePictureFillNode>
-                        </g>
-                      </SplitNode>
-                      <CullNode>
-                        <EqualData description="Do Show">
-                          <IntData description="Data 1" name="Kit/GameKit">0</IntData>
-                          <IntData description="Data 2">1</IntData>
-                        </EqualData>
-                        <Float description="In time">0.0</Float>
-                        <Float description="Out time">0.0</Float>
-                      </CullNode>
-                      <BfVariablePictureFillNode>
-                        <String8 description="Picture">Ingame/Healthbar_empty_assault_64x64.tga</String8>
-                        <String8 description="Fill picture">Ingame/Healthbar_full_assault_64x64.tga</String8>
-                        <FloatData description="Data" name="Soldier/SoldierHitPoints">5.0</FloatData>
-                        <FloatData description="Maximum value" name="Soldier/SoldierMaxHitPoints">10.0</FloatData>
-                        <Int32 description="Size">64</Int32>
-                        <Boolean description="Horizontal align">False</Boolean>
-                        <Boolean description="Fill order">True</Boolean>
-                      </BfVariablePictureFillNode>
-                    </g>
-                  </SplitNode>
-                  <CullNode>
-                    <EqualData description="Do Show">
-                      <IntData description="Data 1" name="Kit/GameKit">0</IntData>
-                      <IntData description="Data 2">2</IntData>
-                    </EqualData>
-                    <Float description="In time">0.0</Float>
-                    <Float description="Out time">0.0</Float>
-                  </CullNode>
-                  <BfVariablePictureFillNode>
-                    <String8 description="Picture">Ingame/Healthbar_empty_at_64x64.tga</String8>
-                    <String8 description="Fill picture">Ingame/Healthbar_full_at_64x64.tga</String8>
-                    <FloatData description="Data" name="Soldier/SoldierHitPoints">5.0</FloatData>
-                    <FloatData description="Maximum value" name="Soldier/SoldierMaxHitPoints">10.0</FloatData>
-                    <Int32 description="Size">64</Int32>
-                    <Boolean description="Horizontal align">False</Boolean>
-                    <Boolean description="Fill order">True</Boolean>
-                  </BfVariablePictureFillNode>
-                </g>
-              </SplitNode>
-              <CullNode>
-                <EqualData description="Do Show">
-                  <IntData description="Data 1" name="Kit/GameKit">0</IntData>
-                  <IntData description="Data 2">3</IntData>
-                </EqualData>
-                <Float description="In time">0.0</Float>
-                <Float description="Out time">0.0</Float>
-              </CullNode>
-              <BfVariablePictureFillNode>
-                <String8 description="Picture">Ingame/Healthbar_empty_medic_64x64.tga</String8>
-                <String8 description="Fill picture">Ingame/Healthbar_full_medic_64x64.tga</String8>
-                <FloatData description="Data" name="Soldier/SoldierHitPoints">5.0</FloatData>
-                <FloatData description="Maximum value" name="Soldier/SoldierMaxHitPoints">10.0</FloatData>
-                <Int32 description="Size">64</Int32>
-                <Boolean description="Horizontal align">False</Boolean>
-                <Boolean description="Fill order">True</Boolean>
-              </BfVariablePictureFillNode>
-            </g>
-          </SplitNode>
           <CullNode>
             <EqualData description="Do Show">
-              <IntData description="Data 1" name="Kit/GameKit">0</IntData>
-              <IntData description="Data 2">4</IntData>
+              <IntData description="Data 1" name="Recover/ShowRecover">7</IntData>
+              <IntData description="Data 2">3</IntData>
             </EqualData>
             <Float description="In time">0.0</Float>
             <Float description="Out time">0.0</Float>
           </CullNode>
           <BfVariablePictureFillNode>
-            <String8 description="Picture">Ingame/Healthbar_empty_engineer_64x64.tga</String8>
-            <String8 description="Fill picture">Ingame/Healthbar_full_engineer_64x64.tga</String8>
-            <FloatData description="Data" name="Soldier/SoldierHitPoints">5.0</FloatData>
-            <FloatData description="Maximum value" name="Soldier/SoldierMaxHitPoints">10.0</FloatData>
-            <Int32 description="Size">64</Int32>
+            <String8 description="Picture">Ingame/ReloadTimebar_empty_32x64.tga</String8>
+            <String8 description="Fill picture">Ingame/Rocketpackbar_full_32x64.tga</String8>
+            <FloatData description="Data" name="Recover/Recover">0.5</FloatData>
+            <FloatData description="Maximum value">1.0</FloatData>
+            <Int32 description="Size">42</Int32>
             <Boolean description="Horizontal align">False</Boolean>
             <Boolean description="Fill order">True</Boolean>
           </BfVariablePictureFillNode>
@@ -3932,8 +3955,8 @@
             <Float description="Height">64.0</Float>
             <g description="Transformed node">
               <BfVariablePictureFillNode2>
-                <StringData description="Picture" name="Ammo/SoldierAmmo/SoldierAmmoBar">I</StringData>
-                <StringData description="Fill picture" name="Ammo/SoldierAmmo/SoldierAmmoBarFill">I</StringData>
+                <StringData description="Picture" name="Ammo/SoldierAmmo/SoldierAmmoBar">Ingame/Magbar_Rifle_empty_32x64.tga</StringData>
+                <StringData description="Fill picture" name="Ammo/SoldierAmmo/SoldierAmmoBarFill">Ingame/Magbar_Rifle_full_32x64.tga</StringData>
                 <IntData description="Data" name="Ammo/PrimaryAmmo">5</IntData>
                 <IntData description="Maximum value" name="Ammo/MaxPrimaryAmmo">10</IntData>
                 <IntData description="Size" name="Ammo/SoldierAmmo/SoldierAmmoBarSize">20</IntData>
@@ -4036,7 +4059,7 @@
             <Float description="Height">32.0</Float>
             <g description="Transformed node">
               <VariablePictureNode>
-                <StringData description="First part" name="Ammo/SoldierAmmo/SoldierAmmoIcon">A</StringData>
+                <StringData description="First part" name="Ammo/SoldierAmmo/SoldierAmmoIcon">Ammo/Icon_medkit_64x32.tga</StringData>
                 <DataPlaceholder description="Middle part" />
                 <DataPlaceholder description="Last part" />
               </VariablePictureNode>
@@ -4221,7 +4244,7 @@
             <Float description="Width">64.0</Float>
             <Float description="Height">32.0</Float>
             <VariablePictureNode description="Transformed node">
-              <StringData description="First part" name="Ammo/SoldierAmmo/SoldierAmmoIcon">A</StringData>
+              <StringData description="First part" name="Ammo/SoldierAmmo/SoldierAmmoIcon">Ammo/Icon_medkit_64x32.tga</StringData>
               <DataPlaceholder description="Middle part" />
               <DataPlaceholder description="Last part" />
             </VariablePictureNode>
@@ -4308,7 +4331,7 @@
         <Float description="Width">128.0</Float>
         <Float description="Height">128.0</Float>
         <BfVariablePictureNode description="Transformed node">
-          <StringData description="picture str" name="Vehicle/VehicleIcon">V</StringData>
+          <StringData description="picture str" name="Vehicle/VehicleIcon">Vehicle/Icon_flak38.tga</StringData>
           <BoolData description="redraw" name="Vehicle/RedrawVehicleIcon">False</BoolData>
         </BfVariablePictureNode>
       </TransformNode>
@@ -4378,6 +4401,94 @@
           <BfOccupiedVehicleData description="BfOccupiedVehicleData" name="Occupied/OccupiedData" />
         </BfOccupiedVehicleNode>
       </BfTransformNode>
+      <TransformNode>
+        <Float description="X">-37.0</Float>
+        <Float description="Y">95.0</Float>
+        <Float description="Width">32.0</Float>
+        <Float description="Height">64.0</Float>
+        <g description="Transformed node">
+          <SplitNode>
+            <g description="Split node">
+              <SplitNode>
+                <g description="Split node">
+                  <SplitNode>
+                    <g description="Split node">
+                      <CullNode>
+                        <EqualData description="Do Show">
+                          <IntData description="Data 1" name="Recover/ShowRecover">7</IntData>
+                          <IntData description="Data 2">4</IntData>
+                        </EqualData>
+                        <Float description="In time">0.0</Float>
+                        <Float description="Out time">0.0</Float>
+                      </CullNode>
+                      <BfVariablePictureFillNode>
+                        <String8 description="Picture">Ingame/ReloadTimebar_empty_32x64.tga</String8>
+                        <String8 description="Fill picture">Ingame/ReloadTimebar_full_32x64.tga</String8>
+                        <FloatData description="Data" name="Recover/Recover">0.5</FloatData>
+                        <FloatData description="Maximum value">1.0</FloatData>
+                        <Int32 description="Size">42</Int32>
+                        <Boolean description="Horizontal align">False</Boolean>
+                        <Boolean description="Fill order">True</Boolean>
+                      </BfVariablePictureFillNode>
+                    </g>
+                  </SplitNode>
+                  <CullNode>
+                    <EqualData description="Do Show">
+                      <IntData description="Data 1" name="Recover/ShowRecover">7</IntData>
+                      <IntData description="Data 2">5</IntData>
+                    </EqualData>
+                    <Float description="In time">0.0</Float>
+                    <Float description="Out time">0.0</Float>
+                  </CullNode>
+                  <BfVariablePictureFillNode>
+                    <String8 description="Picture">Ingame/ReloadTimebar_empty_32x64.tga</String8>
+                    <String8 description="Fill picture">Ingame/Heatbar_full_32x64.tga</String8>
+                    <FloatData description="Data" name="Recover/Recover">0.5</FloatData>
+                    <FloatData description="Maximum value">1.0</FloatData>
+                    <Int32 description="Size">42</Int32>
+                    <Boolean description="Horizontal align">False</Boolean>
+                    <Boolean description="Fill order">True</Boolean>
+                  </BfVariablePictureFillNode>
+                </g>
+              </SplitNode>
+              <CullNode>
+                <EqualData description="Do Show">
+                  <IntData description="Data 1" name="Recover/ShowRecover">7</IntData>
+                  <IntData description="Data 2">6</IntData>
+                </EqualData>
+                <Float description="In time">0.0</Float>
+                <Float description="Out time">0.0</Float>
+              </CullNode>
+              <BfVariablePictureFillNode>
+                <String8 description="Picture">Ingame/ReloadTimebar_empty_32x64.tga</String8>
+                <String8 description="Fill picture">Ingame/Rocketpackbar_full_32x64.tga</String8>
+                <FloatData description="Data" name="Recover/Recover">0.5</FloatData>
+                <FloatData description="Maximum value">1.0</FloatData>
+                <Int32 description="Size">42</Int32>
+                <Boolean description="Horizontal align">False</Boolean>
+                <Boolean description="Fill order">True</Boolean>
+              </BfVariablePictureFillNode>
+            </g>
+          </SplitNode>
+          <CullNode>
+            <EqualData description="Do Show">
+              <IntData description="Data 1" name="Recover/ShowRecover">7</IntData>
+              <IntData description="Data 2">7</IntData>
+            </EqualData>
+            <Float description="In time">0.0</Float>
+            <Float description="Out time">0.0</Float>
+          </CullNode>
+          <BfVariablePictureFillNode>
+            <String8 description="Picture">Ingame/ReloadTimebar_empty_32x64.tga</String8>
+            <String8 description="Fill picture">Ingame/Staminabar_full_64x32.tga</String8>
+            <FloatData description="Data" name="Recover/Recover">0.5</FloatData>
+            <FloatData description="Maximum value">1.0</FloatData>
+            <Int32 description="Size">42</Int32>
+            <Boolean description="Horizontal align">False</Boolean>
+            <Boolean description="Fill order">True</Boolean>
+          </BfVariablePictureFillNode>
+        </g>
+      </TransformNode>
     </g>
   </TransformNode>
   <TransformNode>
@@ -4418,7 +4529,7 @@
             <Float description="Width">64.0</Float>
             <Float description="Height">64.0</Float>
             <BfVariablePictureNode description="Transformed node">
-              <StringData description="picture str" name="Ammo/PrimaryAmmoIcon">A</StringData>
+              <StringData description="picture str" name="Ammo/PrimaryAmmoIcon">Ammo/Icon_cannon.tga</StringData>
               <BoolData description="redraw" name="Ammo/RedrawPrimaryAmmo">False</BoolData>
             </BfVariablePictureNode>
           </TransformNode>
@@ -4602,7 +4713,7 @@
                 <Float description="Width">64.0</Float>
                 <Float description="Height">64.0</Float>
                 <BfVariablePictureNode description="Transformed node">
-                  <StringData description="picture str" name="Ammo/PrimaryAmmoIcon">A</StringData>
+                  <StringData description="picture str" name="Ammo/PrimaryAmmoIcon">Ammo/Icon_cannon.tga</StringData>
                   <BoolData description="redraw" name="Ammo/RedrawPrimaryAmmo">False</BoolData>
                 </BfVariablePictureNode>
               </TransformNode>
@@ -4766,7 +4877,7 @@
                 <Float description="Width">64.0</Float>
                 <Float description="Height">64.0</Float>
                 <BfVariablePictureNode description="Transformed node">
-                  <StringData description="picture str" name="Ammo/SecondaryAmmoIcon">A</StringData>
+                  <StringData description="picture str" name="Ammo/SecondaryAmmoIcon">Ammo/Icon_bullet.tga</StringData>
                   <BoolData description="redraw" name="Ammo/RedrawSecondaryAmmo">False</BoolData>
                 </BfVariablePictureNode>
               </TransformNode>
@@ -4999,7 +5110,7 @@
             <Float description="Width">220.0</Float>
             <Float description="Height">20.0</Float>
             <TextNode description="Transformed node">
-              <StringData description="String" name="Vehicle/VehiclePlayers/VehiclePlayersText1">(</StringData>
+              <StringData description="String" name="Vehicle/VehiclePlayers/VehiclePlayersText1">(1) CannonFodderwwww sgdgkjs</StringData>
               <Style description="Style" name="Style/InGameVehiclePlayerStyle">standard6.dif</Style>
             </TextNode>
           </TransformNode>
@@ -5009,7 +5120,7 @@
             <Float description="Width">220.0</Float>
             <Float description="Height">20.0</Float>
             <TextNode description="Transformed node">
-              <StringData description="String" name="Vehicle/VehiclePlayers/VehiclePlayersText2">(</StringData>
+              <StringData description="String" name="Vehicle/VehiclePlayers/VehiclePlayersText2">(2) Hoon</StringData>
               <Style description="Style" name="Style/InGameVehiclePlayerStyle">standard6.dif</Style>
             </TextNode>
           </TransformNode>
@@ -5019,7 +5130,7 @@
             <Float description="Width">220.0</Float>
             <Float description="Height">20.0</Float>
             <TextNode description="Transformed node">
-              <StringData description="String" name="Vehicle/VehiclePlayers/VehiclePlayersText3">(</StringData>
+              <StringData description="String" name="Vehicle/VehiclePlayers/VehiclePlayersText3">(3)</StringData>
               <Style description="Style" name="Style/InGameVehiclePlayerStyle">standard6.dif</Style>
             </TextNode>
           </TransformNode>
@@ -5029,7 +5140,7 @@
             <Float description="Width">220.0</Float>
             <Float description="Height">20.0</Float>
             <TextNode description="Transformed node">
-              <StringData description="String" name="Vehicle/VehiclePlayers/VehiclePlayersText4">(</StringData>
+              <StringData description="String" name="Vehicle/VehiclePlayers/VehiclePlayersText4">(4)</StringData>
               <Style description="Style" name="Style/InGameVehiclePlayerStyle">standard6.dif</Style>
             </TextNode>
           </TransformNode>
@@ -5039,7 +5150,7 @@
             <Float description="Width">220.0</Float>
             <Float description="Height">20.0</Float>
             <TextNode description="Transformed node">
-              <StringData description="String" name="Vehicle/VehiclePlayers/VehiclePlayersText5">(</StringData>
+              <StringData description="String" name="Vehicle/VehiclePlayers/VehiclePlayersText5">(5)</StringData>
               <Style description="Style" name="Style/InGameVehiclePlayerStyle">standard6.dif</Style>
             </TextNode>
           </TransformNode>
@@ -5049,7 +5160,7 @@
             <Float description="Width">220.0</Float>
             <Float description="Height">20.0</Float>
             <TextNode description="Transformed node">
-              <StringData description="String" name="Vehicle/VehiclePlayers/VehiclePlayersText6">(</StringData>
+              <StringData description="String" name="Vehicle/VehiclePlayers/VehiclePlayersText6">(6)</StringData>
               <Style description="Style" name="Style/InGameVehiclePlayerStyle">standard6.dif</Style>
             </TextNode>
           </TransformNode>
@@ -5101,7 +5212,7 @@
         <Float description="Width">16.0</Float>
         <Float description="Height">16.0</Float>
         <VariablePictureNode description="Transformed node">
-          <StringData description="First part" name="AlliedTicketFlag">f</StringData>
+          <StringData description="First part" name="AlliedTicketFlag">flag_ticket_ger.tga</StringData>
           <DataPlaceholder description="Middle part" />
           <DataPlaceholder description="Last part" />
         </VariablePictureNode>
@@ -5127,7 +5238,7 @@
                 </ColorEffect>
               </EffectNode>
               <TextNode>
-                <StringData description="String" name="AlliedTicket">3</StringData>
+                <StringData description="String" name="AlliedTicket">300</StringData>
                 <RightAlignedStyle description="Style" name="Style/InGameTicketStyle">Trebuchet MS14 - Latin.dif</RightAlignedStyle>
               </TextNode>
             </g>
@@ -5141,7 +5252,7 @@
             </ColorEffect>
           </EffectNode>
           <TextNode>
-            <StringData description="String" name="AlliedTicket">3</StringData>
+            <StringData description="String" name="AlliedTicket">300</StringData>
             <RightAlignedStyle description="Style" name="Style/InGameTicketStyle">Trebuchet MS14 - Latin.dif</RightAlignedStyle>
           </TextNode>
         </g>
@@ -5192,7 +5303,7 @@
         <Float description="Width">16.0</Float>
         <Float description="Height">16.0</Float>
         <VariablePictureNode description="Transformed node">
-          <StringData description="First part" name="AxisTicketFlag">f</StringData>
+          <StringData description="First part" name="AxisTicketFlag">flag_ticket_ger.tga</StringData>
           <DataPlaceholder description="Middle part" />
           <DataPlaceholder description="Last part" />
         </VariablePictureNode>
@@ -5218,7 +5329,7 @@
                 </ColorEffect>
               </EffectNode>
               <TextNode>
-                <StringData description="String" name="AxisTicket">5</StringData>
+                <StringData description="String" name="AxisTicket">500</StringData>
                 <RightAlignedStyle description="Style" name="Style/InGameTicketStyle">Trebuchet MS14 - Latin.dif</RightAlignedStyle>
               </TextNode>
             </g>
@@ -5232,7 +5343,7 @@
             </ColorEffect>
           </EffectNode>
           <TextNode>
-            <StringData description="String" name="AxisTicket">5</StringData>
+            <StringData description="String" name="AxisTicket">500</StringData>
             <RightAlignedStyle description="Style" name="Style/InGameTicketStyle">Trebuchet MS14 - Latin.dif</RightAlignedStyle>
           </TextNode>
         </g>
@@ -5295,7 +5406,7 @@
         </ColorEffect>
       </EffectNode>
       <TextNode>
-        <StringData description="String" name="Time/Time">9</StringData>
+        <StringData description="String" name="Time/Time">99:99</StringData>
         <CenterAlignedStyle description="Style">standard6 - Latin.dif</CenterAlignedStyle>
       </TextNode>
     </g>
@@ -6736,7 +6847,7 @@
         </VariableColorEffect>
       </EffectNode>
       <BfTextNode>
-        <StringData description="String" name="ServerMessage/ServerMessage">T</StringData>
+        <StringData description="String" name="ServerMessage/ServerMessage">TEST</StringData>
         <BfLeftOutlineStyle description="Style">standard6.dif</BfLeftOutlineStyle>
         <IntData description="Type" name="Radio/TextType">1</IntData>
       </BfTextNode>
@@ -7106,7 +7217,7 @@
                     <FloatData description="Data 2">0.0</FloatData>
                   </EqualData>
                   <NotData description="Data 2">
-                    <BoolData description="Data" name="ToolTip/Text/ShowToolTipText">False</BoolData>
+                    <BoolData description="Data" name="ToolTip/Text/ShowToolTipText">True</BoolData>
                   </NotData>
                 </AndData>
                 <Float description="In time">0.0</Float>
@@ -7121,7 +7232,7 @@
             </g>
           </SplitNode>
           <CullNode>
-            <BoolData description="Do Show" name="ToolTip/Text/ShowToolTipText">False</BoolData>
+            <BoolData description="Do Show" name="ToolTip/Text/ShowToolTipText">True</BoolData>
             <Float description="In time">0.0</Float>
             <Float description="Out time">0.0</Float>
           </CullNode>
@@ -7142,7 +7253,7 @@
             <BoolData description="Up">False</BoolData>
             <ActionListAction description="Next action">
               <SetVariableAction>
-                <BoolData description="Variable" name="ToolTip/Text/ShowToolTipText">False</BoolData>
+                <BoolData description="Variable" name="ToolTip/Text/ShowToolTipText">True</BoolData>
                 <BoolData description="Data">False</BoolData>
               </SetVariableAction>
               <ActionPlaceholder />
@@ -8120,22 +8231,783 @@
   </TransformNode>
   <TransformNode>
     <Float description="X">0.0</Float>
-    <Float description="Y">0.0</Float>
-    <Float description="Width">20.0</Float>
-    <Float description="Height">20.0</Float>
+    <Float description="Y">-15.0</Float>
+    <Float description="Width">800.0</Float>
+    <Float description="Height">800.0</Float>
     <g description="Transformed node">
+      <CullNode>
+        <BoolData description="Do Show" name="Scoreboard/SpawnScoreBoard">False</BoolData>
+        <Float description="In time">0.0</Float>
+        <Float description="Out time">0.0</Float>
+      </CullNode>
+      <TransformNode>
+        <Float description="X">10.0</Float>
+        <Float description="Y">564.0</Float>
+        <Float description="Width">1024.0</Float>
+        <Float description="Height">64.0</Float>
+        <g description="Transformed node">
+          <CullNode>
+            <NotData description="Do Show">
+              <BoolData description="Data" name="Scoreboard/GameStatusEndGame">False</BoolData>
+            </NotData>
+            <Float description="In time">0.0</Float>
+            <Float description="Out time">0.0</Float>
+          </CullNode>
+          <PictureNode>Voting/scoreboard_buttonframe_780x64.tga</PictureNode>
+          <TransformNode>
+            <Float description="X">650.0</Float>
+            <Float description="Y">8.0</Float>
+            <Float description="Width">128.0</Float>
+            <Float description="Height">128.0</Float>
+            <g description="Transformed node">
+              <BfButtonNode>
+                <String8 description="Picture">Menu/knappExt_N.tga</String8>
+                <String8 description="Mouse over picture">Menu/knappExt_MO.tga</String8>
+                <ActionListAction description="Action">
+                  <CallFunctionAction>
+                    <Function name="Kit/DoneSpawnScoreboard" />
+                  </CallFunctionAction>
+                  <ActionPlaceholder />
+                </ActionListAction>
+                <Float description="Width">109.0</Float>
+                <Float description="Height">25.0</Float>
+              </BfButtonNode>
+              <TransformNode>
+                <Float description="X">0.0</Float>
+                <Float description="Y">9.0</Float>
+                <Float description="Width">114.0</Float>
+                <Float description="Height">20.0</Float>
+                <g description="Transformed node">
+                  <SplitNode>
+                    <g description="Split node">
+                      <SplitNode>
+                        <g description="Split node">
+                          <CullNode>
+                            <BoolData description="Do Show" name="Scoreboard/FromSpawnScoreboard">False</BoolData>
+                            <Float description="In time">0.0</Float>
+                            <Float description="Out time">0.0</Float>
+                          </CullNode>
+                          <TextNode>
+                            <BfLocaleStringData description="String">
+                              <BfLocaleData description="Locale" name="Locale/Locale">
+                                <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                              </BfLocaleData>
+                              <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                              <StringData description="String Id">RESPAWN_DONE</StringData>
+                            </BfLocaleStringData>
+                            <CenterAlignedStyle description="Style">standard6.dif</CenterAlignedStyle>
+                          </TextNode>
+                        </g>
+                      </SplitNode>
+                      <CullNode>
+                        <NotData description="Do Show">
+                          <BoolData description="Data" name="Scoreboard/FromSpawnScoreboard">False</BoolData>
+                        </NotData>
+                        <Float description="In time">0.0</Float>
+                        <Float description="Out time">0.0</Float>
+                      </CullNode>
+                      <TextNode>
+                        <BfLocaleStringData description="String">
+                          <BfLocaleData description="Locale" name="Locale/Locale">
+                            <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                          </BfLocaleData>
+                          <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                          <StringData description="String Id">SCOREBOARD_LOCK</StringData>
+                        </BfLocaleStringData>
+                        <CenterAlignedStyle description="Style">standard6.dif</CenterAlignedStyle>
+                      </TextNode>
+                    </g>
+                  </SplitNode>
+                  <TransformNode>
+                    <Float description="X">2.0</Float>
+                    <Float description="Y">1.0</Float>
+                    <Float description="Width">106.0</Float>
+                    <Float description="Height">23.0</Float>
+                    <CullEventActionNode description="Transformed node">
+                      <CallFunctionAction>
+                        <Function name="Kit/OnSpawnButtonMouseOver" />
+                      </CallFunctionAction>
+                      <TypeEvent>
+                        <Byte description="Input index">0</Byte>
+                        <Int32 description="Event type">9</Int32>
+                      </TypeEvent>
+                    </CullEventActionNode>
+                  </TransformNode>
+                </g>
+              </TransformNode>
+            </g>
+          </TransformNode>
+          <CullNode>
+            <NotData description="Do Show">
+              <BoolData description="Data" name="Scoreboard/GameStatusSinglePlayer">False</BoolData>
+            </NotData>
+            <Float description="In time">0.0</Float>
+            <Float description="Out time">0.0</Float>
+          </CullNode>
+          <TransformNode>
+            <Float description="X">20.0</Float>
+            <Float description="Y">36.0</Float>
+            <Float description="Width">0.0</Float>
+            <Float description="Height">128.0</Float>
+            <g description="Transformed node">
+              <SplitNode>
+                <g description="Split node">
+                  <CullNode>
+                    <BoolData description="Do Show" name="Scoreboard/RemoteAdmin">False</BoolData>
+                    <Float description="In time">0.0</Float>
+                    <Float description="Out time">0.0</Float>
+                  </CullNode>
+                  <BfButtonNode>
+                    <String8 description="Picture">Menu/knapp3_N.tga</String8>
+                    <String8 description="Mouse over picture">Menu/knapp3_MO.tga</String8>
+                    <ActionListAction description="Action">
+                      <CallFunctionAction>
+                        <Function name="Scoreboard/Kick" />
+                      </CallFunctionAction>
+                      <ActionPlaceholder />
+                    </ActionListAction>
+                    <Float description="Width">109.0</Float>
+                    <Float description="Height">25.0</Float>
+                  </BfButtonNode>
+                  <TransformNode>
+                    <Float description="X">0.0</Float>
+                    <Float description="Y">9.0</Float>
+                    <Float description="Width">114.0</Float>
+                    <Float description="Height">20.0</Float>
+                    <g description="Transformed node">
+                      <TextNode>
+                        <StringData description="String">Kick</StringData>
+                        <CenterAlignedStyle description="Style">standard6.dif</CenterAlignedStyle>
+                      </TextNode>
+                      <SplitNode>
+                        <g description="Split node">
+                          <SplitNode>
+                            <g description="Split node">
+                              <CullNode>
+                                <BoolData description="Do Show" name="Kit/IsAlive">False</BoolData>
+                                <Float description="In time">0.0</Float>
+                                <Float description="Out time">0.0</Float>
+                              </CullNode>
+                              <TextNode>
+                                <BfLocaleStringData description="String">
+                                  <BfLocaleData description="Locale" name="Locale/Locale">
+                                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                                  </BfLocaleData>
+                                  <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                                  <StringData description="String Id">RESPAWN_RESUME</StringData>
+                                </BfLocaleStringData>
+                                <CenterAlignedStyle description="Style">standard6.dif</CenterAlignedStyle>
+                              </TextNode>
+                            </g>
+                          </SplitNode>
+                          <CullNode>
+                            <NotData description="Do Show">
+                              <BoolData description="Data" name="Kit/IsAlive">False</BoolData>
+                            </NotData>
+                            <Float description="In time">0.0</Float>
+                            <Float description="Out time">0.0</Float>
+                          </CullNode>
+                        </g>
+                      </SplitNode>
+                      <TransformNode>
+                        <Float description="X">2.0</Float>
+                        <Float description="Y">1.0</Float>
+                        <Float description="Width">106.0</Float>
+                        <Float description="Height">23.0</Float>
+                        <CullEventActionNode description="Transformed node">
+                          <CallFunctionAction>
+                            <Function name="Kit/OnSpawnButtonMouseOver" />
+                          </CallFunctionAction>
+                          <TypeEvent>
+                            <Byte description="Input index">0</Byte>
+                            <Int32 description="Event type">9</Int32>
+                          </TypeEvent>
+                        </CullEventActionNode>
+                      </TransformNode>
+                    </g>
+                  </TransformNode>
+                </g>
+              </SplitNode>
+              <CullNode>
+                <NotData description="Do Show">
+                  <BoolData description="Data" name="Scoreboard/RemoteAdmin">False</BoolData>
+                </NotData>
+                <Float description="In time">0.0</Float>
+                <Float description="Out time">0.0</Float>
+              </CullNode>
+              <VariableEffectNode>
+                <g description="Button">
+                  <BfButtonNode>
+                    <String8 description="Picture">Menu/knapp3_N.tga</String8>
+                    <String8 description="Mouse over picture">Menu/knapp3_N.tga</String8>
+                    <ActionPlaceholder description="Action" />
+                    <Float description="Width">109.0</Float>
+                    <Float description="Height">25.0</Float>
+                  </BfButtonNode>
+                  <TransformNode>
+                    <Float description="X">0.0</Float>
+                    <Float description="Y">9.0</Float>
+                    <Float description="Width">114.0</Float>
+                    <Float description="Height">20.0</Float>
+                    <TextNode description="Transformed node">
+                      <StringData description="String">Kick</StringData>
+                      <CenterAlignedStyle description="Style">standard6.dif</CenterAlignedStyle>
+                    </TextNode>
+                  </TransformNode>
+                </g>
+                <AlphaFadeEffect description="Fade Effect" />
+                <FloatData description="Variable">0.0</FloatData>
+              </VariableEffectNode>
+            </g>
+          </TransformNode>
+          <TransformNode>
+            <Float description="X">20.0</Float>
+            <Float description="Y">8.0</Float>
+            <Float description="Width">0.0</Float>
+            <Float description="Height">128.0</Float>
+            <g description="Transformed node">
+              <SplitNode>
+                <g description="Split node">
+                  <CullNode>
+                    <BoolData description="Do Show" name="Scoreboard/RemoteAdmin">False</BoolData>
+                    <Float description="In time">0.0</Float>
+                    <Float description="Out time">0.0</Float>
+                  </CullNode>
+                  <BfButtonNode>
+                    <String8 description="Picture">Menu/knapp3_N.tga</String8>
+                    <String8 description="Mouse over picture">Menu/knapp3_MO.tga</String8>
+                    <ActionListAction description="Action">
+                      <CallFunctionAction>
+                        <Function name="Scoreboard/Ban" />
+                      </CallFunctionAction>
+                      <ActionPlaceholder />
+                    </ActionListAction>
+                    <Float description="Width">109.0</Float>
+                    <Float description="Height">25.0</Float>
+                  </BfButtonNode>
+                  <TransformNode>
+                    <Float description="X">0.0</Float>
+                    <Float description="Y">9.0</Float>
+                    <Float description="Width">114.0</Float>
+                    <Float description="Height">20.0</Float>
+                    <g description="Transformed node">
+                      <TextNode>
+                        <StringData description="String">Ban</StringData>
+                        <CenterAlignedStyle description="Style">standard6.dif</CenterAlignedStyle>
+                      </TextNode>
+                      <TransformNode>
+                        <Float description="X">2.0</Float>
+                        <Float description="Y">1.0</Float>
+                        <Float description="Width">106.0</Float>
+                        <Float description="Height">23.0</Float>
+                        <CullEventActionNode description="Transformed node">
+                          <CallFunctionAction>
+                            <Function name="Kit/OnSpawnButtonMouseOver" />
+                          </CallFunctionAction>
+                          <TypeEvent>
+                            <Byte description="Input index">0</Byte>
+                            <Int32 description="Event type">9</Int32>
+                          </TypeEvent>
+                        </CullEventActionNode>
+                      </TransformNode>
+                    </g>
+                  </TransformNode>
+                </g>
+              </SplitNode>
+              <CullNode>
+                <NotData description="Do Show">
+                  <BoolData description="Data" name="Scoreboard/RemoteAdmin">False</BoolData>
+                </NotData>
+                <Float description="In time">0.0</Float>
+                <Float description="Out time">0.0</Float>
+              </CullNode>
+              <VariableEffectNode>
+                <g description="Button">
+                  <BfButtonNode>
+                    <String8 description="Picture">Menu/knapp3_N.tga</String8>
+                    <String8 description="Mouse over picture">Menu/knapp3_N.tga</String8>
+                    <ActionPlaceholder description="Action" />
+                    <Float description="Width">109.0</Float>
+                    <Float description="Height">25.0</Float>
+                  </BfButtonNode>
+                  <TransformNode>
+                    <Float description="X">0.0</Float>
+                    <Float description="Y">9.0</Float>
+                    <Float description="Width">114.0</Float>
+                    <Float description="Height">20.0</Float>
+                    <TextNode description="Transformed node">
+                      <StringData description="String">Ban</StringData>
+                      <CenterAlignedStyle description="Style">standard6.dif</CenterAlignedStyle>
+                    </TextNode>
+                  </TransformNode>
+                </g>
+                <AlphaFadeEffect description="Fade Effect" />
+                <FloatData description="Variable">0.0</FloatData>
+              </VariableEffectNode>
+            </g>
+          </TransformNode>
+          <TransformNode>
+            <Float description="X">390.0</Float>
+            <Float description="Y">8.0</Float>
+            <Float description="Width">128.0</Float>
+            <Float description="Height">128.0</Float>
+            <g description="Transformed node">
+              <SplitNode>
+                <g description="Split node">
+                  <CullNode>
+                    <BoolData description="Do Show" name="Scoreboard/EnableVoteKickTeam">True</BoolData>
+                    <Float description="In time">0.0</Float>
+                    <Float description="Out time">0.0</Float>
+                  </CullNode>
+                  <BfButtonNode>
+                    <String8 description="Picture">Menu/knapp3_N.tga</String8>
+                    <String8 description="Mouse over picture">Menu/knapp3_MO.tga</String8>
+                    <ActionListAction description="Action">
+                      <CallFunctionAction>
+                        <Function name="Scoreboard/VoteKickTeam" />
+                      </CallFunctionAction>
+                      <ActionPlaceholder />
+                    </ActionListAction>
+                    <Float description="Width">109.0</Float>
+                    <Float description="Height">25.0</Float>
+                  </BfButtonNode>
+                  <TransformNode>
+                    <Float description="X">0.0</Float>
+                    <Float description="Y">9.0</Float>
+                    <Float description="Width">114.0</Float>
+                    <Float description="Height">20.0</Float>
+                    <g description="Transformed node">
+                      <TextNode>
+                        <BfLocaleStringData description="String">
+                          <BfLocaleData description="Locale" name="Locale/Locale">
+                            <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                          </BfLocaleData>
+                          <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                          <StringData description="String Id">SCOREBOARD_VOTE_KICK_TEAM</StringData>
+                        </BfLocaleStringData>
+                        <CenterAlignedStyle description="Style">standard6.dif</CenterAlignedStyle>
+                      </TextNode>
+                      <TransformNode>
+                        <Float description="X">2.0</Float>
+                        <Float description="Y">1.0</Float>
+                        <Float description="Width">106.0</Float>
+                        <Float description="Height">23.0</Float>
+                        <CullEventActionNode description="Transformed node">
+                          <CallFunctionAction>
+                            <Function name="Kit/OnSpawnButtonMouseOver" />
+                          </CallFunctionAction>
+                          <TypeEvent>
+                            <Byte description="Input index">0</Byte>
+                            <Int32 description="Event type">9</Int32>
+                          </TypeEvent>
+                        </CullEventActionNode>
+                      </TransformNode>
+                    </g>
+                  </TransformNode>
+                </g>
+              </SplitNode>
+              <CullNode>
+                <NotData description="Do Show">
+                  <BoolData description="Data" name="Scoreboard/EnableVoteKickTeam">True</BoolData>
+                </NotData>
+                <Float description="In time">0.0</Float>
+                <Float description="Out time">0.0</Float>
+              </CullNode>
+              <EffectNode>
+                <ColorEffect description="Effect">
+                  <Float description="Red">1.0</Float>
+                  <Float description="Green">1.0</Float>
+                  <Float description="Blue">1.0</Float>
+                  <Float description="Alpha">0.5</Float>
+                </ColorEffect>
+              </EffectNode>
+              <BfButtonNode>
+                <String8 description="Picture">Menu/knapp3_N.tga</String8>
+                <String8 description="Mouse over picture">Menu/knapp3_N.tga</String8>
+                <ActionPlaceholder description="Action" />
+                <Float description="Width">109.0</Float>
+                <Float description="Height">25.0</Float>
+              </BfButtonNode>
+              <TransformNode>
+                <Float description="X">0.0</Float>
+                <Float description="Y">9.0</Float>
+                <Float description="Width">114.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
+                  <BfLocaleStringData description="String">
+                    <BfLocaleData description="Locale" name="Locale/Locale">
+                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    </BfLocaleData>
+                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    <StringData description="String Id">SCOREBOARD_VOTE_KICK_TEAM</StringData>
+                  </BfLocaleStringData>
+                  <CenterAlignedStyle description="Style">standard6.dif</CenterAlignedStyle>
+                </TextNode>
+              </TransformNode>
+            </g>
+          </TransformNode>
+          <TransformNode>
+            <Float description="X">270.0</Float>
+            <Float description="Y">8.0</Float>
+            <Float description="Width">128.0</Float>
+            <Float description="Height">128.0</Float>
+            <g description="Transformed node">
+              <SplitNode>
+                <g description="Split node">
+                  <CullNode>
+                    <BoolData description="Do Show" name="Scoreboard/EnableVoteKick">True</BoolData>
+                    <Float description="In time">0.0</Float>
+                    <Float description="Out time">0.0</Float>
+                  </CullNode>
+                  <BfButtonNode>
+                    <String8 description="Picture">Menu/knapp3_N.tga</String8>
+                    <String8 description="Mouse over picture">Menu/knapp3_MO.tga</String8>
+                    <ActionListAction description="Action">
+                      <CallFunctionAction>
+                        <Function name="Scoreboard/VoteKick" />
+                      </CallFunctionAction>
+                      <ActionPlaceholder />
+                    </ActionListAction>
+                    <Float description="Width">109.0</Float>
+                    <Float description="Height">25.0</Float>
+                  </BfButtonNode>
+                  <TransformNode>
+                    <Float description="X">0.0</Float>
+                    <Float description="Y">9.0</Float>
+                    <Float description="Width">114.0</Float>
+                    <Float description="Height">20.0</Float>
+                    <g description="Transformed node">
+                      <TextNode>
+                        <BfLocaleStringData description="String">
+                          <BfLocaleData description="Locale" name="Locale/Locale">
+                            <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                          </BfLocaleData>
+                          <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                          <StringData description="String Id">SCOREBOARD_VOTE_KICK</StringData>
+                        </BfLocaleStringData>
+                        <CenterAlignedStyle description="Style">standard6.dif</CenterAlignedStyle>
+                      </TextNode>
+                      <TransformNode>
+                        <Float description="X">2.0</Float>
+                        <Float description="Y">1.0</Float>
+                        <Float description="Width">106.0</Float>
+                        <Float description="Height">23.0</Float>
+                        <CullEventActionNode description="Transformed node">
+                          <CallFunctionAction>
+                            <Function name="Kit/OnSpawnButtonMouseOver" />
+                          </CallFunctionAction>
+                          <TypeEvent>
+                            <Byte description="Input index">0</Byte>
+                            <Int32 description="Event type">9</Int32>
+                          </TypeEvent>
+                        </CullEventActionNode>
+                      </TransformNode>
+                    </g>
+                  </TransformNode>
+                </g>
+              </SplitNode>
+              <CullNode>
+                <NotData description="Do Show">
+                  <BoolData description="Data" name="Scoreboard/EnableVoteKick">True</BoolData>
+                </NotData>
+                <Float description="In time">0.0</Float>
+                <Float description="Out time">0.0</Float>
+              </CullNode>
+              <EffectNode>
+                <ColorEffect description="Effect">
+                  <Float description="Red">1.0</Float>
+                  <Float description="Green">1.0</Float>
+                  <Float description="Blue">1.0</Float>
+                  <Float description="Alpha">0.5</Float>
+                </ColorEffect>
+              </EffectNode>
+              <BfButtonNode>
+                <String8 description="Picture">Menu/knapp3_N.tga</String8>
+                <String8 description="Mouse over picture">Menu/knapp3_N.tga</String8>
+                <ActionPlaceholder description="Action" />
+                <Float description="Width">109.0</Float>
+                <Float description="Height">25.0</Float>
+              </BfButtonNode>
+              <TransformNode>
+                <Float description="X">0.0</Float>
+                <Float description="Y">9.0</Float>
+                <Float description="Width">114.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
+                  <BfLocaleStringData description="String">
+                    <BfLocaleData description="Locale" name="Locale/Locale">
+                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    </BfLocaleData>
+                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    <StringData description="String Id">SCOREBOARD_VOTE_KICK</StringData>
+                  </BfLocaleStringData>
+                  <CenterAlignedStyle description="Style">standard6.dif</CenterAlignedStyle>
+                </TextNode>
+              </TransformNode>
+            </g>
+          </TransformNode>
+          <TransformNode>
+            <Float description="X">140.0</Float>
+            <Float description="Y">8.0</Float>
+            <Float description="Width">128.0</Float>
+            <Float description="Height">128.0</Float>
+            <g description="Transformed node">
+              <SplitNode>
+                <g description="Split node">
+                  <CullNode>
+                    <BoolData description="Do Show" name="Scoreboard/EnableRemBuddy">True</BoolData>
+                    <Float description="In time">0.0</Float>
+                    <Float description="Out time">0.0</Float>
+                  </CullNode>
+                  <BfButtonNode>
+                    <String8 description="Picture">Menu/knapp3_N.tga</String8>
+                    <String8 description="Mouse over picture">Menu/knapp3_MO.tga</String8>
+                    <ActionListAction description="Action">
+                      <CallFunctionAction>
+                        <Function name="Scoreboard/DropBuddy" />
+                      </CallFunctionAction>
+                      <ActionPlaceholder />
+                    </ActionListAction>
+                    <Float description="Width">109.0</Float>
+                    <Float description="Height">25.0</Float>
+                  </BfButtonNode>
+                  <TransformNode>
+                    <Float description="X">0.0</Float>
+                    <Float description="Y">9.0</Float>
+                    <Float description="Width">114.0</Float>
+                    <Float description="Height">20.0</Float>
+                    <g description="Transformed node">
+                      <TextNode>
+                        <BfLocaleStringData description="String">
+                          <BfLocaleData description="Locale" name="Locale/Locale">
+                            <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                          </BfLocaleData>
+                          <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                          <StringData description="String Id">SCOREBOARD_DROP_BUDDY</StringData>
+                        </BfLocaleStringData>
+                        <CenterAlignedStyle description="Style">standard6.dif</CenterAlignedStyle>
+                      </TextNode>
+                      <TransformNode>
+                        <Float description="X">2.0</Float>
+                        <Float description="Y">1.0</Float>
+                        <Float description="Width">106.0</Float>
+                        <Float description="Height">23.0</Float>
+                        <CullEventActionNode description="Transformed node">
+                          <CallFunctionAction>
+                            <Function name="Kit/OnSpawnButtonMouseOver" />
+                          </CallFunctionAction>
+                          <TypeEvent>
+                            <Byte description="Input index">0</Byte>
+                            <Int32 description="Event type">9</Int32>
+                          </TypeEvent>
+                        </CullEventActionNode>
+                      </TransformNode>
+                    </g>
+                  </TransformNode>
+                </g>
+              </SplitNode>
+              <CullNode>
+                <NotData description="Do Show">
+                  <BoolData description="Data" name="Scoreboard/EnableRemBuddy">True</BoolData>
+                </NotData>
+                <Float description="In time">0.0</Float>
+                <Float description="Out time">0.0</Float>
+              </CullNode>
+              <EffectNode>
+                <ColorEffect description="Effect">
+                  <Float description="Red">1.0</Float>
+                  <Float description="Green">1.0</Float>
+                  <Float description="Blue">1.0</Float>
+                  <Float description="Alpha">0.5</Float>
+                </ColorEffect>
+              </EffectNode>
+              <BfButtonNode>
+                <String8 description="Picture">Menu/knapp3_N.tga</String8>
+                <String8 description="Mouse over picture">Menu/knapp3_N.tga</String8>
+                <ActionPlaceholder description="Action" />
+                <Float description="Width">109.0</Float>
+                <Float description="Height">25.0</Float>
+              </BfButtonNode>
+              <TransformNode>
+                <Float description="X">0.0</Float>
+                <Float description="Y">9.0</Float>
+                <Float description="Width">114.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
+                  <BfLocaleStringData description="String">
+                    <BfLocaleData description="Locale" name="Locale/Locale">
+                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    </BfLocaleData>
+                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    <StringData description="String Id">SCOREBOARD_DROP_BUDDY</StringData>
+                  </BfLocaleStringData>
+                  <CenterAlignedStyle description="Style">standard6.dif</CenterAlignedStyle>
+                </TextNode>
+              </TransformNode>
+            </g>
+          </TransformNode>
+          <TransformNode>
+            <Float description="X">20.0</Float>
+            <Float description="Y">8.0</Float>
+            <Float description="Width">128.0</Float>
+            <Float description="Height">128.0</Float>
+            <g description="Transformed node">
+              <SplitNode>
+                <g description="Split node">
+                  <CullNode>
+                    <BoolData description="Do Show" name="Scoreboard/EnableAddBuddy">True</BoolData>
+                    <Float description="In time">0.0</Float>
+                    <Float description="Out time">0.0</Float>
+                  </CullNode>
+                  <BfButtonNode>
+                    <String8 description="Picture">Menu/knapp3_N.tga</String8>
+                    <String8 description="Mouse over picture">Menu/knapp3_MO.tga</String8>
+                    <ActionListAction description="Action">
+                      <CallFunctionAction>
+                        <Function name="Scoreboard/AddBuddy" />
+                      </CallFunctionAction>
+                      <ActionPlaceholder />
+                    </ActionListAction>
+                    <Float description="Width">109.0</Float>
+                    <Float description="Height">25.0</Float>
+                  </BfButtonNode>
+                  <TransformNode>
+                    <Float description="X">0.0</Float>
+                    <Float description="Y">9.0</Float>
+                    <Float description="Width">114.0</Float>
+                    <Float description="Height">20.0</Float>
+                    <g description="Transformed node">
+                      <TextNode>
+                        <BfLocaleStringData description="String">
+                          <BfLocaleData description="Locale" name="Locale/Locale">
+                            <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                          </BfLocaleData>
+                          <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                          <StringData description="String Id">SCOREBOARD_ADD_BUDDY</StringData>
+                        </BfLocaleStringData>
+                        <CenterAlignedStyle description="Style">standard6.dif</CenterAlignedStyle>
+                      </TextNode>
+                      <TransformNode>
+                        <Float description="X">2.0</Float>
+                        <Float description="Y">1.0</Float>
+                        <Float description="Width">106.0</Float>
+                        <Float description="Height">23.0</Float>
+                        <CullEventActionNode description="Transformed node">
+                          <CallFunctionAction>
+                            <Function name="Kit/OnSpawnButtonMouseOver" />
+                          </CallFunctionAction>
+                          <TypeEvent>
+                            <Byte description="Input index">0</Byte>
+                            <Int32 description="Event type">9</Int32>
+                          </TypeEvent>
+                        </CullEventActionNode>
+                      </TransformNode>
+                    </g>
+                  </TransformNode>
+                </g>
+              </SplitNode>
+              <CullNode>
+                <NotData description="Do Show">
+                  <BoolData description="Data" name="Scoreboard/EnableAddBuddy">True</BoolData>
+                </NotData>
+                <Float description="In time">0.0</Float>
+                <Float description="Out time">0.0</Float>
+              </CullNode>
+              <EffectNode>
+                <ColorEffect description="Effect">
+                  <Float description="Red">1.0</Float>
+                  <Float description="Green">1.0</Float>
+                  <Float description="Blue">1.0</Float>
+                  <Float description="Alpha">0.5</Float>
+                </ColorEffect>
+              </EffectNode>
+              <BfButtonNode>
+                <String8 description="Picture">Menu/knapp3_N.tga</String8>
+                <String8 description="Mouse over picture">Menu/knapp3_N.tga</String8>
+                <ActionPlaceholder description="Action" />
+                <Float description="Width">109.0</Float>
+                <Float description="Height">25.0</Float>
+              </BfButtonNode>
+              <TransformNode>
+                <Float description="X">0.0</Float>
+                <Float description="Y">9.0</Float>
+                <Float description="Width">114.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
+                  <BfLocaleStringData description="String">
+                    <BfLocaleData description="Locale" name="Locale/Locale">
+                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    </BfLocaleData>
+                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    <StringData description="String Id">SCOREBOARD_ADD_BUDDY</StringData>
+                  </BfLocaleStringData>
+                  <CenterAlignedStyle description="Style">standard6.dif</CenterAlignedStyle>
+                </TextNode>
+              </TransformNode>
+            </g>
+          </TransformNode>
+          <TransformNode>
+            <Float description="X">510.0</Float>
+            <Float description="Y">8.0</Float>
+            <Float description="Width">128.0</Float>
+            <Float description="Height">128.0</Float>
+            <g description="Transformed node">
+              <BfButtonNode>
+                <String8 description="Picture">Menu/knapp3_N.tga</String8>
+                <String8 description="Mouse over picture">Menu/knapp3_MO.tga</String8>
+                <ActionListAction description="Action">
+                  <CallFunctionAction>
+                    <Function name="Kit/MapVotingInterface" />
+                  </CallFunctionAction>
+                  <ActionPlaceholder />
+                </ActionListAction>
+                <Float description="Width">109.0</Float>
+                <Float description="Height">25.0</Float>
+              </BfButtonNode>
+              <TransformNode>
+                <Float description="X">0.0</Float>
+                <Float description="Y">9.0</Float>
+                <Float description="Width">114.0</Float>
+                <Float description="Height">20.0</Float>
+                <g description="Transformed node">
+                  <TextNode>
+                    <BfLocaleStringData description="String">
+                      <BfLocaleData description="Locale" name="Locale/Locale">
+                        <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                      </BfLocaleData>
+                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                      <StringData description="String Id">SCOREBOARD_BRINGUP_MAPVOTE</StringData>
+                    </BfLocaleStringData>
+                    <CenterAlignedStyle description="Style">standard6.dif</CenterAlignedStyle>
+                  </TextNode>
+                  <TransformNode>
+                    <Float description="X">2.0</Float>
+                    <Float description="Y">1.0</Float>
+                    <Float description="Width">106.0</Float>
+                    <Float description="Height">23.0</Float>
+                    <CullEventActionNode description="Transformed node">
+                      <CallFunctionAction>
+                        <Function name="Kit/OnSpawnButtonMouseOver" />
+                      </CallFunctionAction>
+                      <TypeEvent>
+                        <Byte description="Input index">0</Byte>
+                        <Int32 description="Event type">9</Int32>
+                      </TypeEvent>
+                    </CullEventActionNode>
+                  </TransformNode>
+                </g>
+              </TransformNode>
+            </g>
+          </TransformNode>
+        </g>
+      </TransformNode>
       <TransformNode>
         <Float description="X">10.0</Float>
         <Float description="Y">60.0</Float>
         <Float description="Width">512.0</Float>
         <Float description="Height">512.0</Float>
         <g description="Transformed node">
-          <CullNode>
-            <BoolData description="Do Show" name="Scoreboard/ScoreBoard">False</BoolData>
-            <Float description="In time">0.0</Float>
-            <Float description="Out time">0.0</Float>
-          </CullNode>
-          <PictureNode>scoreboard.tga</PictureNode>
+          <PictureNode>Voting/scoreboard_512x470.tga</PictureNode>
           <TransformNode>
             <Float description="X">10.0</Float>
             <Float description="Y">-2.0</Float>
@@ -8144,7 +9016,7 @@
             <g description="Transformed node">
               <EffectNode>
                 <ColorEffect description="Effect">
-                  <Float description="Red">0.0</Float>
+                  <Float description="Red">1.0</Float>
                   <Float description="Green">0.0</Float>
                   <Float description="Blue">0.0</Float>
                   <Float description="Alpha">1.0</Float>
@@ -8156,9 +9028,9 @@
                     <BoolData description="Valid" name="Locale/Valid">True</BoolData>
                   </BfLocaleData>
                   <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                  <StringData description="String Id">Imperial</StringData>
+                  <StringData description="String Id">IMPERIALS</StringData>
                 </BfLocaleStringData>
-                <Style description="Style" name="Style/InGame18">Trebuchet MS18.dif</Style>
+                <Style description="Style" name="Style/InGame14">Trebuchet MS14.dif</Style>
               </TextNode>
             </g>
           </TransformNode>
@@ -8170,7 +9042,7 @@
             <g description="Transformed node">
               <EffectNode>
                 <ColorEffect description="Effect">
-                  <Float description="Red">0.0</Float>
+                  <Float description="Red">1.0</Float>
                   <Float description="Green">0.0</Float>
                   <Float description="Blue">0.0</Float>
                   <Float description="Alpha">1.0</Float>
@@ -8178,7 +9050,7 @@
               </EffectNode>
               <TextNode>
                 <IntData description="String" name="Scoreboard/AxisRoundWon">9999</IntData>
-                <RightAlignedStyle description="Style" name="Style/InGameRight18">Trebuchet MS18 - Latin.dif</RightAlignedStyle>
+                <RightAlignedStyle description="Style" name="Style/InGameRight14">Trebuchet MS14 - Latin.dif</RightAlignedStyle>
               </TextNode>
             </g>
           </TransformNode>
@@ -8276,20 +9148,20 @@
                 <Float description="Height">16.0</Float>
                 <PictureNode description="Transformed node">Menu/serverinfo/menu_icon_ping_16x16.tga</PictureNode>
               </TransformNode>
-              <SplitNode>
-                <CullNode description="Split node">
-                  <BoolData description="Do Show">False</BoolData>
-                  <Float description="In time">0.0</Float>
-                  <Float description="Out time">0.0</Float>
-                </CullNode>
-              </SplitNode>
+              <TransformNode>
+                <Float description="X">310.0</Float>
+                <Float description="Y">1.0</Float>
+                <Float description="Width">16.0</Float>
+                <Float description="Height">16.0</Float>
+                <PictureNode description="Transformed node">Menu/serverinfo/menu_icon_ID_16x16.tga</PictureNode>
+              </TransformNode>
               <TransformNode>
                 <Float description="X">350.0</Float>
                 <Float description="Y">2.0</Float>
                 <Float description="Width">16.0</Float>
                 <Float description="Height">16.0</Float>
                 <VariablePictureNode description="Transformed node">
-                  <StringData description="First part" name="AxisTicketFlag">f</StringData>
+                  <StringData description="First part" name="AxisTicketFlag">flag_ticket_ger.tga</StringData>
                   <DataPlaceholder description="Middle part" />
                   <DataPlaceholder description="Last part" />
                 </VariablePictureNode>
@@ -8299,43 +9171,122 @@
           <TransformNode>
             <Float description="X">-5.0</Float>
             <Float description="Y">20.0</Float>
-            <Float description="Width">370.0</Float>
-            <Float description="Height">450.0</Float>
-            <BfNewListBoxNode description="Transformed node">
-              <BfListBoxData description="Listbox data" name="Scoreboard/AxisScoreboardList">
-                <ActionPlaceholder description="Create new action" />
-                <DataPlaceholder description="Create new string" />
-                <DataPlaceholder description="Profile name" />
-              </BfListBoxData>
-              <FontString description="Font">standard6 - Latin.dif</FontString>
-              <ActionPlaceholder description="Select action" />
-              <ActionPlaceholder description="Focus action" />
-              <SoundString description="Step sound" />
-              <SoundString description="Select sound" />
-              <SoundString description="Failed select sound" />
-              <Float description="Row height">18.0</Float>
-              <Boolean description="IsSelectable">False</Boolean>
-              <Boolean description="Border or not">False</Boolean>
-              <Float description="Background color red">0.0</Float>
-              <Float description="Background color green">0.0</Float>
-              <Float description="Background color blue">0.0</Float>
-              <Float description="Background color alpha">0.0</Float>
-              <Float description="Scrollbar width">0.0</Float>
-              <Float description="Frame color red">107.0</Float>
-              <Float description="Frame color green">380.0</Float>
-              <Float description="Frame color blue">36.0</Float>
-              <Float description="Frame color alpha">0.0</Float>
-              <Float description="Select color red">0.0</Float>
-              <Float description="Select color green">0.1875</Float>
-              <Float description="Select color blue">0.5389999747276306</Float>
-              <Float description="Select color alpha">0.800000011920929</Float>
-              <Boolean description="Show tooltip">False</Boolean>
-              <Float description="Scrollbar offset from border">0.0</Float>
-            </BfNewListBoxNode>
+            <Float description="Width">391.0</Float>
+            <Float description="Height">420.0</Float>
+            <g description="Transformed node">
+              <TransformNode>
+                <Float description="X">383.0</Float>
+                <Float description="Y">16.0</Float>
+                <Float description="Width">16.0</Float>
+                <Float description="Height">8.0</Float>
+                <g description="Transformed node">
+                  <CullNode>
+                    <BoolData description="Do Show" name="Scoreboard/ShowScrollBarAxis">True</BoolData>
+                    <Float description="In time">0.0</Float>
+                    <Float description="Out time">0.0</Float>
+                  </CullNode>
+                  <BfButtonNode>
+                    <String8 description="Picture">Menu/buttons/menu_scrollpilupp_16x8.tga</String8>
+                    <String8 description="Mouse over picture">Menu/buttons/menu_scrollpilupp_mc_16x8.tga</String8>
+                    <ActionListAction description="Action">
+                      <CallFunctionAction>
+                        <Function name="Scoreboard/ScrollUpAxis" />
+                      </CallFunctionAction>
+                      <ActionPlaceholder />
+                    </ActionListAction>
+                    <Float description="Width">16.0</Float>
+                    <Float description="Height">8.0</Float>
+                  </BfButtonNode>
+                </g>
+              </TransformNode>
+              <TransformNode>
+                <Float description="X">383.0</Float>
+                <Float description="Y">24.0</Float>
+                <Float description="Width">10.0</Float>
+                <Float description="Height">372.0</Float>
+                <g description="Transformed node">
+                  <CullNode>
+                    <BoolData description="Do Show" name="Scoreboard/ShowScrollBarAxis">True</BoolData>
+                    <Float description="In time">0.0</Float>
+                    <Float description="Out time">0.0</Float>
+                  </CullNode>
+                  <EffectNode>
+                    <ColorEffect description="Effect">
+                      <Float description="Red">0.0</Float>
+                      <Float description="Green">0.0</Float>
+                      <Float description="Blue">0.0</Float>
+                      <Float description="Alpha">0.800000011920929</Float>
+                    </ColorEffect>
+                  </EffectNode>
+                  <PictureNode />
+                </g>
+              </TransformNode>
+              <BfNewListBoxNode>
+                <BfListBoxData description="Listbox data" name="Scoreboard/AxisScoreboardList">
+                  <ActionPlaceholder description="Create new action" />
+                  <DataPlaceholder description="Create new string" />
+                  <DataPlaceholder description="Profile name" />
+                </BfListBoxData>
+                <FontString description="Font">standard6 - Latin.dif</FontString>
+                <ActionPlaceholder description="Select action" />
+                <ActionListAction description="Focus action">
+                  <CallFunctionAction>
+                    <Function name="Scoreboard/PlayerSelectAxis" />
+                  </CallFunctionAction>
+                  <ActionPlaceholder />
+                </ActionListAction>
+                <SoundString description="Step sound" />
+                <SoundString description="Select sound" />
+                <SoundString description="Failed select sound" />
+                <Float description="Row height">18.0</Float>
+                <Boolean description="IsSelectable">True</Boolean>
+                <Boolean description="Border or not">False</Boolean>
+                <Float description="Background color red">0.0</Float>
+                <Float description="Background color green">0.0</Float>
+                <Float description="Background color blue">0.0</Float>
+                <Float description="Background color alpha">0.0</Float>
+                <Float description="Scrollbar width">6.0</Float>
+                <Float description="Frame color red">107.0</Float>
+                <Float description="Frame color green">380.0</Float>
+                <Float description="Frame color blue">36.0</Float>
+                <Float description="Frame color alpha">0.0</Float>
+                <Float description="Select color red">0.0</Float>
+                <Float description="Select color green">0.1875</Float>
+                <Float description="Select color blue">0.5389999747276306</Float>
+                <Float description="Select color alpha">0.0</Float>
+                <Boolean description="Show tooltip">False</Boolean>
+                <Float description="Scrollbar offset from border">0.0</Float>
+              </BfNewListBoxNode>
+              <TransformNode>
+                <Float description="X">383.0</Float>
+                <Float description="Y">391.0</Float>
+                <Float description="Width">16.0</Float>
+                <Float description="Height">8.0</Float>
+                <g description="Transformed node">
+                  <CullNode>
+                    <BoolData description="Do Show" name="Scoreboard/ShowScrollBarAxis">True</BoolData>
+                    <Float description="In time">0.0</Float>
+                    <Float description="Out time">0.0</Float>
+                  </CullNode>
+                  <BfButtonNode>
+                    <String8 description="Picture">Menu/buttons/menu_scrollpilner_16x8.tga</String8>
+                    <String8 description="Mouse over picture">Menu/buttons/menu_scrollpilner_mc_16x8.tga</String8>
+                    <ActionListAction description="Action">
+                      <CallFunctionAction>
+                        <Function name="Scoreboard/ScrollDownAxis" />
+                      </CallFunctionAction>
+                      <ActionPlaceholder />
+                    </ActionListAction>
+                    <Float description="Width">16.0</Float>
+                    <Float description="Height">8.0</Float>
+                  </BfButtonNode>
+                </g>
+              </TransformNode>
+            </g>
           </TransformNode>
           <TransformNode>
             <Float description="X">4.0</Float>
-            <Float description="Y">460.0</Float>
+            <Float description="Y">420.0</Float>
             <Float description="Width">380.0</Float>
             <Float description="Height">32.0</Float>
             <g description="Transformed node">
@@ -8433,18 +9384,18 @@
                 <PictureNode description="Transformed node">Menu/serverinfo/menu_icon_score_16x16.tga</PictureNode>
               </TransformNode>
               <TransformNode>
-                <Float description="X">210.0</Float>
-                <Float description="Y">1.0</Float>
-                <Float description="Width">16.0</Float>
-                <Float description="Height">16.0</Float>
-                <PictureNode description="Transformed node">Menu/serverinfo/menu_icon_kills_16x16.tga</PictureNode>
-              </TransformNode>
-              <TransformNode>
                 <Float description="X">245.0</Float>
                 <Float description="Y">1.0</Float>
                 <Float description="Width">16.0</Float>
                 <Float description="Height">16.0</Float>
                 <PictureNode description="Transformed node">Menu/serverinfo/menu_icon_death_16x16.tga</PictureNode>
+              </TransformNode>
+              <TransformNode>
+                <Float description="X">210.0</Float>
+                <Float description="Y">1.0</Float>
+                <Float description="Width">16.0</Float>
+                <Float description="Height">16.0</Float>
+                <PictureNode description="Transformed node">Menu/serverinfo/menu_icon_kills_16x16.tga</PictureNode>
               </TransformNode>
               <TransformNode>
                 <Float description="X">280.0</Float>
@@ -8457,7 +9408,7 @@
           </TransformNode>
           <TransformNode>
             <Float description="X">0.0</Float>
-            <Float description="Y">480.0</Float>
+            <Float description="Y">440.0</Float>
             <Float description="Width">510.0</Float>
             <Float description="Height">20.0</Float>
             <g description="Transformed node">
@@ -8521,12 +9472,7 @@
         <Float description="Width">512.0</Float>
         <Float description="Height">512.0</Float>
         <g description="Transformed node">
-          <CullNode>
-            <BoolData description="Do Show" name="Scoreboard/ScoreBoard">False</BoolData>
-            <Float description="In time">0.0</Float>
-            <Float description="Out time">0.0</Float>
-          </CullNode>
-          <PictureNode>scoreboard.tga</PictureNode>
+          <PictureNode>Voting/scoreboard_512x470.tga</PictureNode>
           <TransformNode>
             <Float description="X">10.0</Float>
             <Float description="Y">-2.0</Float>
@@ -8537,7 +9483,7 @@
                 <ColorEffect description="Effect">
                   <Float description="Red">0.0</Float>
                   <Float description="Green">0.0</Float>
-                  <Float description="Blue">0.0</Float>
+                  <Float description="Blue">1.0</Float>
                   <Float description="Alpha">1.0</Float>
                 </ColorEffect>
               </EffectNode>
@@ -8547,9 +9493,9 @@
                     <BoolData description="Valid" name="Locale/Valid">True</BoolData>
                   </BfLocaleData>
                   <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                  <StringData description="String Id">Rebel</StringData>
+                  <StringData description="String Id">REBELS</StringData>
                 </BfLocaleStringData>
-                <Style description="Style" name="Style/InGame18">Trebuchet MS18.dif</Style>
+                <Style description="Style" name="Style/InGame14">Trebuchet MS14.dif</Style>
               </TextNode>
             </g>
           </TransformNode>
@@ -8563,13 +9509,13 @@
                 <ColorEffect description="Effect">
                   <Float description="Red">0.0</Float>
                   <Float description="Green">0.0</Float>
-                  <Float description="Blue">0.0</Float>
+                  <Float description="Blue">1.0</Float>
                   <Float description="Alpha">1.0</Float>
                 </ColorEffect>
               </EffectNode>
               <TextNode>
                 <IntData description="String" name="Scoreboard/AlliedRoundWon">9999</IntData>
-                <RightAlignedStyle description="Style" name="Style/InGameRight18">Trebuchet MS18 - Latin.dif</RightAlignedStyle>
+                <RightAlignedStyle description="Style" name="Style/InGameRight14">Trebuchet MS14 - Latin.dif</RightAlignedStyle>
               </TextNode>
             </g>
           </TransformNode>
@@ -8668,12 +9614,19 @@
                 <PictureNode description="Transformed node">Menu/serverinfo/menu_icon_ping_16x16.tga</PictureNode>
               </TransformNode>
               <TransformNode>
+                <Float description="X">310.0</Float>
+                <Float description="Y">1.0</Float>
+                <Float description="Width">16.0</Float>
+                <Float description="Height">16.0</Float>
+                <PictureNode description="Transformed node">Menu/serverinfo/menu_icon_ID_16x16.tga</PictureNode>
+              </TransformNode>
+              <TransformNode>
                 <Float description="X">350.0</Float>
                 <Float description="Y">2.0</Float>
                 <Float description="Width">16.0</Float>
                 <Float description="Height">16.0</Float>
                 <VariablePictureNode description="Transformed node">
-                  <StringData description="First part" name="AlliedTicketFlag">f</StringData>
+                  <StringData description="First part" name="AlliedTicketFlag">flag_ticket_ger.tga</StringData>
                   <DataPlaceholder description="Middle part" />
                   <DataPlaceholder description="Last part" />
                 </VariablePictureNode>
@@ -8683,43 +9636,122 @@
           <TransformNode>
             <Float description="X">-5.0</Float>
             <Float description="Y">20.0</Float>
-            <Float description="Width">370.0</Float>
-            <Float description="Height">450.0</Float>
-            <BfNewListBoxNode description="Transformed node">
-              <BfListBoxData description="Listbox data" name="Scoreboard/AlliedScoreboardList">
-                <ActionPlaceholder description="Create new action" />
-                <DataPlaceholder description="Create new string" />
-                <DataPlaceholder description="Profile name" />
-              </BfListBoxData>
-              <FontString description="Font">standard6 - Latin.dif</FontString>
-              <ActionPlaceholder description="Select action" />
-              <ActionPlaceholder description="Focus action" />
-              <SoundString description="Step sound" />
-              <SoundString description="Select sound" />
-              <SoundString description="Failed select sound" />
-              <Float description="Row height">18.0</Float>
-              <Boolean description="IsSelectable">False</Boolean>
-              <Boolean description="Border or not">False</Boolean>
-              <Float description="Background color red">0.0</Float>
-              <Float description="Background color green">0.0</Float>
-              <Float description="Background color blue">0.0</Float>
-              <Float description="Background color alpha">0.0</Float>
-              <Float description="Scrollbar width">0.0</Float>
-              <Float description="Frame color red">107.0</Float>
-              <Float description="Frame color green">380.0</Float>
-              <Float description="Frame color blue">36.0</Float>
-              <Float description="Frame color alpha">0.0</Float>
-              <Float description="Select color red">0.0</Float>
-              <Float description="Select color green">0.1875</Float>
-              <Float description="Select color blue">0.5389999747276306</Float>
-              <Float description="Select color alpha">0.800000011920929</Float>
-              <Boolean description="Show tooltip">False</Boolean>
-              <Float description="Scrollbar offset from border">0.0</Float>
-            </BfNewListBoxNode>
+            <Float description="Width">391.0</Float>
+            <Float description="Height">420.0</Float>
+            <g description="Transformed node">
+              <TransformNode>
+                <Float description="X">383.0</Float>
+                <Float description="Y">16.0</Float>
+                <Float description="Width">16.0</Float>
+                <Float description="Height">8.0</Float>
+                <g description="Transformed node">
+                  <CullNode>
+                    <BoolData description="Do Show" name="Scoreboard/ShowScrollBarAllied">True</BoolData>
+                    <Float description="In time">0.0</Float>
+                    <Float description="Out time">0.0</Float>
+                  </CullNode>
+                  <BfButtonNode>
+                    <String8 description="Picture">Menu/buttons/menu_scrollpilupp_16x8.tga</String8>
+                    <String8 description="Mouse over picture">Menu/buttons/menu_scrollpilupp_mc_16x8.tga</String8>
+                    <ActionListAction description="Action">
+                      <CallFunctionAction>
+                        <Function name="Scoreboard/ScrollUpAllied" />
+                      </CallFunctionAction>
+                      <ActionPlaceholder />
+                    </ActionListAction>
+                    <Float description="Width">16.0</Float>
+                    <Float description="Height">8.0</Float>
+                  </BfButtonNode>
+                </g>
+              </TransformNode>
+              <TransformNode>
+                <Float description="X">383.0</Float>
+                <Float description="Y">24.0</Float>
+                <Float description="Width">10.0</Float>
+                <Float description="Height">372.0</Float>
+                <g description="Transformed node">
+                  <CullNode>
+                    <BoolData description="Do Show" name="Scoreboard/ShowScrollBarAllied">True</BoolData>
+                    <Float description="In time">0.0</Float>
+                    <Float description="Out time">0.0</Float>
+                  </CullNode>
+                  <EffectNode>
+                    <ColorEffect description="Effect">
+                      <Float description="Red">0.0</Float>
+                      <Float description="Green">0.0</Float>
+                      <Float description="Blue">0.0</Float>
+                      <Float description="Alpha">0.800000011920929</Float>
+                    </ColorEffect>
+                  </EffectNode>
+                  <PictureNode />
+                </g>
+              </TransformNode>
+              <BfNewListBoxNode>
+                <BfListBoxData description="Listbox data" name="Scoreboard/AlliedScoreboardList">
+                  <ActionPlaceholder description="Create new action" />
+                  <DataPlaceholder description="Create new string" />
+                  <DataPlaceholder description="Profile name" />
+                </BfListBoxData>
+                <FontString description="Font">standard6 - Latin.dif</FontString>
+                <ActionPlaceholder description="Select action" />
+                <ActionListAction description="Focus action">
+                  <CallFunctionAction>
+                    <Function name="Scoreboard/PlayerSelectAllied" />
+                  </CallFunctionAction>
+                  <ActionPlaceholder />
+                </ActionListAction>
+                <SoundString description="Step sound" />
+                <SoundString description="Select sound" />
+                <SoundString description="Failed select sound" />
+                <Float description="Row height">18.0</Float>
+                <Boolean description="IsSelectable">True</Boolean>
+                <Boolean description="Border or not">False</Boolean>
+                <Float description="Background color red">0.0</Float>
+                <Float description="Background color green">0.0</Float>
+                <Float description="Background color blue">0.0</Float>
+                <Float description="Background color alpha">0.0</Float>
+                <Float description="Scrollbar width">6.0</Float>
+                <Float description="Frame color red">107.0</Float>
+                <Float description="Frame color green">380.0</Float>
+                <Float description="Frame color blue">36.0</Float>
+                <Float description="Frame color alpha">0.0</Float>
+                <Float description="Select color red">0.0</Float>
+                <Float description="Select color green">0.1875</Float>
+                <Float description="Select color blue">0.5389999747276306</Float>
+                <Float description="Select color alpha">0.0</Float>
+                <Boolean description="Show tooltip">False</Boolean>
+                <Float description="Scrollbar offset from border">0.0</Float>
+              </BfNewListBoxNode>
+              <TransformNode>
+                <Float description="X">383.0</Float>
+                <Float description="Y">391.0</Float>
+                <Float description="Width">16.0</Float>
+                <Float description="Height">8.0</Float>
+                <g description="Transformed node">
+                  <CullNode>
+                    <BoolData description="Do Show" name="Scoreboard/ShowScrollBarAllied">True</BoolData>
+                    <Float description="In time">0.0</Float>
+                    <Float description="Out time">0.0</Float>
+                  </CullNode>
+                  <BfButtonNode>
+                    <String8 description="Picture">Menu/buttons/menu_scrollpilner_16x8.tga</String8>
+                    <String8 description="Mouse over picture">Menu/buttons/menu_scrollpilner_mc_16x8.tga</String8>
+                    <ActionListAction description="Action">
+                      <CallFunctionAction>
+                        <Function name="Scoreboard/ScrollDownAllied" />
+                      </CallFunctionAction>
+                      <ActionPlaceholder />
+                    </ActionListAction>
+                    <Float description="Width">16.0</Float>
+                    <Float description="Height">8.0</Float>
+                  </BfButtonNode>
+                </g>
+              </TransformNode>
+            </g>
           </TransformNode>
           <TransformNode>
             <Float description="X">4.0</Float>
-            <Float description="Y">460.0</Float>
+            <Float description="Y">420.0</Float>
             <Float description="Width">380.0</Float>
             <Float description="Height">32.0</Float>
             <g description="Transformed node">
@@ -8841,7 +9873,7 @@
           </TransformNode>
           <TransformNode>
             <Float description="X">0.0</Float>
-            <Float description="Y">480.0</Float>
+            <Float description="Y">440.0</Float>
             <Float description="Width">510.0</Float>
             <Float description="Height">20.0</Float>
             <g description="Transformed node">
@@ -8897,6 +9929,682 @@
               </TransformNode>
             </g>
           </TransformNode>
+        </g>
+      </TransformNode>
+      <TransformNode>
+        <Float description="X">534.0</Float>
+        <Float description="Y">525.0</Float>
+        <Float description="Width">512.0</Float>
+        <Float description="Height">64.0</Float>
+        <TransformNode description="Transformed node">
+          <Float description="X">0.0</Float>
+          <Float description="Y">16.0</Float>
+          <Float description="Width">20.0</Float>
+          <Float description="Height">20.0</Float>
+          <g description="Transformed node">
+            <TransformNode>
+              <Float description="X">0.0</Float>
+              <Float description="Y">-15.0</Float>
+              <Float description="Width">256.0</Float>
+              <Float description="Height">32.0</Float>
+              <PictureNode description="Transformed node">ingame_serverIP_256x32.tga</PictureNode>
+            </TransformNode>
+            <TransformNode>
+              <Float description="X">0.0</Float>
+              <Float description="Y">-16.0</Float>
+              <Float description="Width">256.0</Float>
+              <Float description="Height">20.0</Float>
+              <g description="Transformed node">
+                <EffectNode>
+                  <ColorEffect description="Effect">
+                    <Float description="Red">0.0</Float>
+                    <Float description="Green">0.0</Float>
+                    <Float description="Blue">0.0</Float>
+                    <Float description="Alpha">0.8999999761581421</Float>
+                  </ColorEffect>
+                </EffectNode>
+                <TextNode>
+                  <StringData description="String" name="Scoreboard/ServerName">-= Test =-</StringData>
+                  <CenterAlignedStyle description="Style" name="Style/InGameCenter8">Trebuchet MS8.dif</CenterAlignedStyle>
+                </TextNode>
+              </g>
+            </TransformNode>
+            <EffectNode>
+              <ColorEffect description="Effect">
+                <Float description="Red">1.0</Float>
+                <Float description="Green">1.0</Float>
+                <Float description="Blue">1.0</Float>
+                <Float description="Alpha">0.8999999761581421</Float>
+              </ColorEffect>
+            </EffectNode>
+            <TransformNode>
+              <Float description="X">10.0</Float>
+              <Float description="Y">0.0</Float>
+              <Float description="Width">100.0</Float>
+              <Float description="Height">20.0</Float>
+              <TextNode description="Transformed node">
+                <StringData description="String" name="Scoreboard/ServerIp">123.123.123.123</StringData>
+                <Style description="Style">standard6.dif</Style>
+              </TextNode>
+            </TransformNode>
+            <TransformNode>
+              <Float description="X">95.0</Float>
+              <Float description="Y">0.0</Float>
+              <Float description="Width">150.0</Float>
+              <Float description="Height">20.0</Float>
+              <TextNode description="Transformed node">
+                <StringData description="String" name="Scoreboard/MapName">Gazala</StringData>
+                <RightAlignedStyle description="Style">standard6.dif</RightAlignedStyle>
+              </TextNode>
+            </TransformNode>
+          </g>
+        </TransformNode>
+      </TransformNode>
+      <TransformNode>
+        <Float description="X">10.0</Float>
+        <Float description="Y">526.0</Float>
+        <Float description="Width">1024.0</Float>
+        <Float description="Height">32.0</Float>
+        <g description="Transformed node">
+          <CullNode>
+            <NotData description="Do Show">
+              <BoolData description="Data" name="Scoreboard/GameStatusEndGame">False</BoolData>
+            </NotData>
+            <Float description="In time">0.0</Float>
+            <Float description="Out time">0.0</Float>
+          </CullNode>
+          <CullNode>
+            <NotData description="Do Show">
+              <BoolData description="Data" name="Scoreboard/GameStatusSinglePlayer">False</BoolData>
+            </NotData>
+            <Float description="In time">0.0</Float>
+            <Float description="Out time">0.0</Float>
+          </CullNode>
+          <PictureNode>Voting/kick_mapmessage_long.tga</PictureNode>
+          <SplitNode>
+            <CullNode description="Split node">
+              <DataPlaceholder description="Do Show" />
+              <Float description="In time">0.0</Float>
+              <Float description="Out time">0.0</Float>
+            </CullNode>
+          </SplitNode>
+          <TransformNode>
+            <Float description="X">4.0</Float>
+            <Float description="Y">8.0</Float>
+            <Float description="Width">508.0</Float>
+            <Float description="Height">20.0</Float>
+            <g description="Transformed node">
+              <ClipNode />
+              <EffectNode>
+                <ColorEffect description="Effect">
+                  <Float description="Red">1.0</Float>
+                  <Float description="Green">1.0</Float>
+                  <Float description="Blue">1.0</Float>
+                  <Float description="Alpha">0.8999999761581421</Float>
+                </ColorEffect>
+              </EffectNode>
+              <TextNode>
+                <StringData description="String" name="Scoreboard/KickVoteActive">No kick vote active</StringData>
+                <CenterAlignedStyle description="Style" name="Style/InGameCenter8">Trebuchet MS8.dif</CenterAlignedStyle>
+              </TextNode>
+            </g>
+          </TransformNode>
+        </g>
+      </TransformNode>
+    </g>
+  </TransformNode>
+  <TransformNode>
+    <Float description="X">0.0</Float>
+    <Float description="Y">-15.0</Float>
+    <Float description="Width">800.0</Float>
+    <Float description="Height">800.0</Float>
+    <g description="Transformed node">
+      <CullNode>
+        <BoolData description="Do Show" name="ScoreboardMapVote/MapVoteActive">True</BoolData>
+        <Float description="In time">0.0</Float>
+        <Float description="Out time">0.0</Float>
+      </CullNode>
+      <TransformNode>
+        <Float description="X">150.0</Float>
+        <Float description="Y">120.0</Float>
+        <Float description="Width">512.0</Float>
+        <Float description="Height">512.0</Float>
+        <g description="Transformed node">
+          <PictureNode>Voting/map_vote_497x350.tga</PictureNode>
+          <TransformNode>
+            <Float description="X">15.0</Float>
+            <Float description="Y">-2.0</Float>
+            <Float description="Width">400.0</Float>
+            <Float description="Height">20.0</Float>
+            <g description="Transformed node">
+              <EffectNode>
+                <ColorEffect description="Effect">
+                  <Float description="Red">0.0</Float>
+                  <Float description="Green">0.0</Float>
+                  <Float description="Blue">0.0</Float>
+                  <Float description="Alpha">1.0</Float>
+                </ColorEffect>
+              </EffectNode>
+              <TextNode>
+                <BfLocaleStringData description="String">
+                  <BfLocaleData description="Locale" name="Locale/Locale">
+                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                  </BfLocaleData>
+                  <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                  <StringData description="String Id">MAPVOTE_HEADING</StringData>
+                </BfLocaleStringData>
+                <Style description="Style" name="Style/InGame18">Trebuchet MS18.dif</Style>
+              </TextNode>
+            </g>
+          </TransformNode>
+          <TransformNode>
+            <Float description="X">4.0</Float>
+            <Float description="Y">27.0</Float>
+            <Float description="Width">512.0</Float>
+            <Float description="Height">32.0</Float>
+            <g description="Transformed node">
+              <TransformNode>
+                <Float description="X">0.0</Float>
+                <Float description="Y">0.0</Float>
+                <Float description="Width">479.0</Float>
+                <Float description="Height">18.0</Float>
+                <g description="Transformed node">
+                  <EffectNode>
+                    <ColorEffect description="Effect">
+                      <Float description="Red">0.0</Float>
+                      <Float description="Green">0.0</Float>
+                      <Float description="Blue">0.0</Float>
+                      <Float description="Alpha">1.0</Float>
+                    </ColorEffect>
+                  </EffectNode>
+                  <PictureNode />
+                </g>
+              </TransformNode>
+              <TransformNode>
+                <Float description="X">1.0</Float>
+                <Float description="Y">1.0</Float>
+                <Float description="Width">477.0</Float>
+                <Float description="Height">16.0</Float>
+                <g description="Transformed node">
+                  <EffectNode>
+                    <ColorEffect description="Effect">
+                      <Float description="Red">0.5195310115814209</Float>
+                      <Float description="Green">0.49219000339508057</Float>
+                      <Float description="Blue">0.3007810115814209</Float>
+                      <Float description="Alpha">1.0</Float>
+                    </ColorEffect>
+                  </EffectNode>
+                  <PictureNode />
+                </g>
+              </TransformNode>
+              <TransformNode>
+                <Float description="X">20.0</Float>
+                <Float description="Y">4.0</Float>
+                <Float description="Width">100.0</Float>
+                <Float description="Height">20.0</Float>
+                <g description="Transformed node">
+                  <EffectNode>
+                    <ColorEffect description="Effect">
+                      <Float description="Red">0.0</Float>
+                      <Float description="Green">0.0</Float>
+                      <Float description="Blue">0.0</Float>
+                      <Float description="Alpha">1.0</Float>
+                    </ColorEffect>
+                  </EffectNode>
+                  <TextNode>
+                    <BfLocaleStringData description="String">
+                      <BfLocaleData description="Locale" name="Locale/Locale">
+                        <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                      </BfLocaleData>
+                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                      <StringData description="String Id">MAPVOTE_ID</StringData>
+                    </BfLocaleStringData>
+                    <Style description="Style">standard6.dif</Style>
+                  </TextNode>
+                </g>
+              </TransformNode>
+              <TransformNode>
+                <Float description="X">59.0</Float>
+                <Float description="Y">4.0</Float>
+                <Float description="Width">100.0</Float>
+                <Float description="Height">20.0</Float>
+                <g description="Transformed node">
+                  <EffectNode>
+                    <ColorEffect description="Effect">
+                      <Float description="Red">0.0</Float>
+                      <Float description="Green">0.0</Float>
+                      <Float description="Blue">0.0</Float>
+                      <Float description="Alpha">1.0</Float>
+                    </ColorEffect>
+                  </EffectNode>
+                  <TextNode>
+                    <BfLocaleStringData description="String">
+                      <BfLocaleData description="Locale" name="Locale/Locale">
+                        <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                      </BfLocaleData>
+                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                      <StringData description="String Id">MAPVOTE_MAPNAME</StringData>
+                    </BfLocaleStringData>
+                    <Style description="Style">standard6.dif</Style>
+                  </TextNode>
+                </g>
+              </TransformNode>
+              <TransformNode>
+                <Float description="X">200.0</Float>
+                <Float description="Y">4.0</Float>
+                <Float description="Width">100.0</Float>
+                <Float description="Height">20.0</Float>
+                <g description="Transformed node">
+                  <EffectNode>
+                    <ColorEffect description="Effect">
+                      <Float description="Red">0.0</Float>
+                      <Float description="Green">0.0</Float>
+                      <Float description="Blue">0.0</Float>
+                      <Float description="Alpha">1.0</Float>
+                    </ColorEffect>
+                  </EffectNode>
+                  <TextNode>
+                    <BfLocaleStringData description="String">
+                      <BfLocaleData description="Locale" name="Locale/Locale">
+                        <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                      </BfLocaleData>
+                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                      <StringData description="String Id">MAPVOTE_MOD</StringData>
+                    </BfLocaleStringData>
+                    <Style description="Style">standard6.dif</Style>
+                  </TextNode>
+                </g>
+              </TransformNode>
+              <TransformNode>
+                <Float description="X">300.0</Float>
+                <Float description="Y">4.0</Float>
+                <Float description="Width">100.0</Float>
+                <Float description="Height">20.0</Float>
+                <g description="Transformed node">
+                  <EffectNode>
+                    <ColorEffect description="Effect">
+                      <Float description="Red">0.0</Float>
+                      <Float description="Green">0.0</Float>
+                      <Float description="Blue">0.0</Float>
+                      <Float description="Alpha">1.0</Float>
+                    </ColorEffect>
+                  </EffectNode>
+                  <TextNode>
+                    <BfLocaleStringData description="String">
+                      <BfLocaleData description="Locale" name="Locale/Locale">
+                        <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                      </BfLocaleData>
+                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                      <StringData description="String Id">MAPVOTE_GAMEMODE</StringData>
+                    </BfLocaleStringData>
+                    <Style description="Style">standard6.dif</Style>
+                  </TextNode>
+                </g>
+              </TransformNode>
+              <TransformNode>
+                <Float description="X">412.0</Float>
+                <Float description="Y">4.0</Float>
+                <Float description="Width">100.0</Float>
+                <Float description="Height">20.0</Float>
+                <g description="Transformed node">
+                  <EffectNode>
+                    <ColorEffect description="Effect">
+                      <Float description="Red">0.0</Float>
+                      <Float description="Green">0.0</Float>
+                      <Float description="Blue">0.0</Float>
+                      <Float description="Alpha">1.0</Float>
+                    </ColorEffect>
+                  </EffectNode>
+                  <TextNode>
+                    <BfLocaleStringData description="String">
+                      <BfLocaleData description="Locale" name="Locale/Locale">
+                        <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                      </BfLocaleData>
+                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                      <StringData description="String Id">MAPVOTE_NUMVOTES</StringData>
+                    </BfLocaleStringData>
+                    <Style description="Style">standard6.dif</Style>
+                  </TextNode>
+                </g>
+              </TransformNode>
+            </g>
+          </TransformNode>
+          <TransformNode>
+            <Float description="X">5.0</Float>
+            <Float description="Y">20.0</Float>
+            <Float description="Width">488.0</Float>
+            <Float description="Height">255.0</Float>
+            <g description="Transformed node">
+              <TransformNode>
+                <Float description="X">480.0</Float>
+                <Float description="Y">14.0</Float>
+                <Float description="Width">16.0</Float>
+                <Float description="Height">8.0</Float>
+                <g description="Transformed node">
+                  <CullNode>
+                    <BoolData description="Do Show" name="ScoreboardMapVote/ShowMapScrollbar">True</BoolData>
+                    <Float description="In time">0.0</Float>
+                    <Float description="Out time">0.0</Float>
+                  </CullNode>
+                  <BfButtonNode>
+                    <String8 description="Picture">Menu/buttons/menu_scrollpilupp_16x8.tga</String8>
+                    <String8 description="Mouse over picture">Menu/buttons/menu_scrollpilupp_mc_16x8.tga</String8>
+                    <ActionListAction description="Action">
+                      <CallFunctionAction>
+                        <Function name="ScoreboardMapVote/ScrollUpMapVote" />
+                      </CallFunctionAction>
+                      <ActionPlaceholder />
+                    </ActionListAction>
+                    <Float description="Width">16.0</Float>
+                    <Float description="Height">8.0</Float>
+                  </BfButtonNode>
+                </g>
+              </TransformNode>
+              <TransformNode>
+                <Float description="X">480.0</Float>
+                <Float description="Y">24.0</Float>
+                <Float description="Width">10.0</Float>
+                <Float description="Height">207.0</Float>
+                <g description="Transformed node">
+                  <CullNode>
+                    <BoolData description="Do Show" name="ScoreboardMapVote/ShowMapScrollbar">True</BoolData>
+                    <Float description="In time">0.0</Float>
+                    <Float description="Out time">0.0</Float>
+                  </CullNode>
+                  <EffectNode>
+                    <ColorEffect description="Effect">
+                      <Float description="Red">0.0</Float>
+                      <Float description="Green">0.0</Float>
+                      <Float description="Blue">0.0</Float>
+                      <Float description="Alpha">0.800000011920929</Float>
+                    </ColorEffect>
+                  </EffectNode>
+                  <PictureNode />
+                </g>
+              </TransformNode>
+              <BfNewListBoxNode>
+                <BfListBoxData description="Listbox data" name="ScoreboardMapVote/MapList22">
+                  <ActionPlaceholder description="Create new action" />
+                  <DataPlaceholder description="Create new string" />
+                  <DataPlaceholder description="Profile name" />
+                </BfListBoxData>
+                <FontString description="Font">standard6 - Latin.dif</FontString>
+                <ActionPlaceholder description="Select action" />
+                <ActionListAction description="Focus action">
+                  <CallFunctionAction>
+                    <Function name="ScoreboardMapVote/SelectMap" />
+                  </CallFunctionAction>
+                  <ActionPlaceholder />
+                </ActionListAction>
+                <SoundString description="Step sound" />
+                <SoundString description="Select sound" />
+                <SoundString description="Failed select sound" />
+                <Float description="Row height">18.0</Float>
+                <Boolean description="IsSelectable">True</Boolean>
+                <Boolean description="Border or not">False</Boolean>
+                <Float description="Background color red">0.0</Float>
+                <Float description="Background color green">0.0</Float>
+                <Float description="Background color blue">0.0</Float>
+                <Float description="Background color alpha">0.0</Float>
+                <Float description="Scrollbar width">6.0</Float>
+                <Float description="Frame color red">107.0</Float>
+                <Float description="Frame color green">380.0</Float>
+                <Float description="Frame color blue">36.0</Float>
+                <Float description="Frame color alpha">0.0</Float>
+                <Float description="Select color red">0.0</Float>
+                <Float description="Select color green">0.1875</Float>
+                <Float description="Select color blue">0.5389999747276306</Float>
+                <Float description="Select color alpha">0.0</Float>
+                <Boolean description="Show tooltip">False</Boolean>
+                <Float description="Scrollbar offset from border">0.0</Float>
+              </BfNewListBoxNode>
+              <TransformNode>
+                <Float description="X">480.0</Float>
+                <Float description="Y">230.0</Float>
+                <Float description="Width">16.0</Float>
+                <Float description="Height">8.0</Float>
+                <g description="Transformed node">
+                  <CullNode>
+                    <BoolData description="Do Show" name="ScoreboardMapVote/ShowMapScrollbar">True</BoolData>
+                    <Float description="In time">0.0</Float>
+                    <Float description="Out time">0.0</Float>
+                  </CullNode>
+                  <BfButtonNode>
+                    <String8 description="Picture">Menu/buttons/menu_scrollpilner_16x8.tga</String8>
+                    <String8 description="Mouse over picture">Menu/buttons/menu_scrollpilner_mc_16x8.tga</String8>
+                    <ActionListAction description="Action">
+                      <CallFunctionAction>
+                        <Function name="ScoreboardMapVote/ScrollDownMapVote" />
+                      </CallFunctionAction>
+                      <ActionPlaceholder />
+                    </ActionListAction>
+                    <Float description="Width">16.0</Float>
+                    <Float description="Height">8.0</Float>
+                  </BfButtonNode>
+                </g>
+              </TransformNode>
+              <CullNode>
+                <DataPlaceholder description="Do Show" />
+                <Float description="In time">0.0</Float>
+                <Float description="Out time">0.0</Float>
+              </CullNode>
+            </g>
+          </TransformNode>
+          <TransformNode>
+            <Float description="X">60.0</Float>
+            <Float description="Y">272.0</Float>
+            <Float description="Width">512.0</Float>
+            <Float description="Height">32.0</Float>
+            <g description="Transformed node">
+              <PictureNode>Voting/kick_mapmessage_250x30.tga</PictureNode>
+              <SplitNode>
+                <CullNode description="Split node">
+                  <DataPlaceholder description="Do Show" />
+                  <Float description="In time">0.0</Float>
+                  <Float description="Out time">0.0</Float>
+                </CullNode>
+              </SplitNode>
+              <TransformNode>
+                <Float description="X">7.0</Float>
+                <Float description="Y">8.0</Float>
+                <Float description="Width">356.0</Float>
+                <Float description="Height">24.0</Float>
+                <g description="Transformed node">
+                  <ClipNode />
+                  <EffectNode>
+                    <ColorEffect description="Effect">
+                      <Float description="Red">1.0</Float>
+                      <Float description="Green">1.0</Float>
+                      <Float description="Blue">1.0</Float>
+                      <Float description="Alpha">0.8999999761581421</Float>
+                    </ColorEffect>
+                  </EffectNode>
+                  <TextNode>
+                    <StringData description="String" name="ScoreboardMapVote/MapVoteActiveMsg">No map vote active</StringData>
+                    <CenterAlignedStyle description="Style" name="Style/InGameCenter8">Trebuchet MS8.dif</CenterAlignedStyle>
+                  </TextNode>
+                </g>
+              </TransformNode>
+            </g>
+          </TransformNode>
+          <TransformNode>
+            <Float description="X">250.0</Float>
+            <Float description="Y">310.0</Float>
+            <Float description="Width">128.0</Float>
+            <Float description="Height">128.0</Float>
+            <g description="Transformed node">
+              <BfButtonNode>
+                <String8 description="Picture">Menu/knappExt_N.tga</String8>
+                <String8 description="Mouse over picture">Menu/knappExt_MO.tga</String8>
+                <ActionListAction description="Action">
+                  <CallFunctionAction>
+                    <Function name="Kit/DoneMapVoteInterface" />
+                  </CallFunctionAction>
+                  <ActionPlaceholder />
+                </ActionListAction>
+                <Float description="Width">109.0</Float>
+                <Float description="Height">25.0</Float>
+              </BfButtonNode>
+              <TransformNode>
+                <Float description="X">0.0</Float>
+                <Float description="Y">9.0</Float>
+                <Float description="Width">114.0</Float>
+                <Float description="Height">20.0</Float>
+                <g description="Transformed node">
+                  <SplitNode>
+                    <g description="Split node">
+                      <SplitNode>
+                        <g description="Split node">
+                          <CullNode>
+                            <BoolData description="Do Show" name="ScoreboardMapVote/FromSpawnMapVote">False</BoolData>
+                            <Float description="In time">0.0</Float>
+                            <Float description="Out time">0.0</Float>
+                          </CullNode>
+                          <TextNode>
+                            <BfLocaleStringData description="String">
+                              <BfLocaleData description="Locale" name="Locale/Locale">
+                                <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                              </BfLocaleData>
+                              <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                              <StringData description="String Id">RESPAWN_DONE</StringData>
+                            </BfLocaleStringData>
+                            <CenterAlignedStyle description="Style">standard6.dif</CenterAlignedStyle>
+                          </TextNode>
+                        </g>
+                      </SplitNode>
+                      <CullNode>
+                        <NotData description="Do Show">
+                          <BoolData description="Data" name="ScoreboardMapVote/FromSpawnMapVote">False</BoolData>
+                        </NotData>
+                        <Float description="In time">0.0</Float>
+                        <Float description="Out time">0.0</Float>
+                      </CullNode>
+                      <TextNode>
+                        <BfLocaleStringData description="String">
+                          <BfLocaleData description="Locale" name="Locale/Locale">
+                            <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                          </BfLocaleData>
+                          <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                          <StringData description="String Id">SCOREBOARD_LOCK</StringData>
+                        </BfLocaleStringData>
+                        <CenterAlignedStyle description="Style">standard6.dif</CenterAlignedStyle>
+                      </TextNode>
+                    </g>
+                  </SplitNode>
+                  <TransformNode>
+                    <Float description="X">2.0</Float>
+                    <Float description="Y">1.0</Float>
+                    <Float description="Width">106.0</Float>
+                    <Float description="Height">23.0</Float>
+                    <CullEventActionNode description="Transformed node">
+                      <CallFunctionAction>
+                        <Function name="Kit/OnSpawnButtonMouseOver" />
+                      </CallFunctionAction>
+                      <TypeEvent>
+                        <Byte description="Input index">0</Byte>
+                        <Int32 description="Event type">9</Int32>
+                      </TypeEvent>
+                    </CullEventActionNode>
+                  </TransformNode>
+                </g>
+              </TransformNode>
+            </g>
+          </TransformNode>
+          <TransformNode>
+            <Float description="X">120.0</Float>
+            <Float description="Y">310.0</Float>
+            <Float description="Width">128.0</Float>
+            <Float description="Height">128.0</Float>
+            <g description="Transformed node">
+              <BfButtonNode>
+                <String8 description="Picture">Menu/knapp3_N.tga</String8>
+                <String8 description="Mouse over picture">Menu/knapp3_MO.tga</String8>
+                <ActionListAction description="Action">
+                  <CallFunctionAction>
+                    <Function name="ScoreboardMapVote/VoteMap" />
+                  </CallFunctionAction>
+                  <ActionPlaceholder />
+                </ActionListAction>
+                <Float description="Width">109.0</Float>
+                <Float description="Height">25.0</Float>
+              </BfButtonNode>
+              <TransformNode>
+                <Float description="X">0.0</Float>
+                <Float description="Y">9.0</Float>
+                <Float description="Width">114.0</Float>
+                <Float description="Height">20.0</Float>
+                <g description="Transformed node">
+                  <TextNode>
+                    <BfLocaleStringData description="String">
+                      <BfLocaleData description="Locale" name="Locale/Locale">
+                        <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                      </BfLocaleData>
+                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                      <StringData description="String Id">SCOREBOARD_VOTE_MAP</StringData>
+                    </BfLocaleStringData>
+                    <CenterAlignedStyle description="Style">standard6.dif</CenterAlignedStyle>
+                  </TextNode>
+                  <TransformNode>
+                    <Float description="X">2.0</Float>
+                    <Float description="Y">1.0</Float>
+                    <Float description="Width">106.0</Float>
+                    <Float description="Height">23.0</Float>
+                    <CullEventActionNode description="Transformed node">
+                      <CallFunctionAction>
+                        <Function name="Kit/OnSpawnButtonMouseOver" />
+                      </CallFunctionAction>
+                      <TypeEvent>
+                        <Byte description="Input index">0</Byte>
+                        <Int32 description="Event type">9</Int32>
+                      </TypeEvent>
+                    </CullEventActionNode>
+                  </TransformNode>
+                </g>
+              </TransformNode>
+            </g>
+          </TransformNode>
+        </g>
+      </TransformNode>
+    </g>
+  </TransformNode>
+  <TransformNode>
+    <Float description="X">528.0</Float>
+    <Float description="Y">224.0</Float>
+    <Float description="Width">296.0</Float>
+    <Float description="Height">110.0</Float>
+    <g description="Transformed node">
+      <CullNode>
+        <BoolData description="Do Show" name="Scoreboard/ShowVoteMessageIngame">True</BoolData>
+        <Float description="In time">0.0</Float>
+        <Float description="Out time">0.0</Float>
+      </CullNode>
+      <PictureNode>ToolTip/tooltip_256x128.tga</PictureNode>
+      <SplitNode>
+        <CullNode description="Split node">
+          <DataPlaceholder description="Do Show" />
+          <Float description="In time">0.0</Float>
+          <Float description="Out time">0.0</Float>
+        </CullNode>
+      </SplitNode>
+      <TransformNode>
+        <Float description="X">6.0</Float>
+        <Float description="Y">6.0</Float>
+        <Float description="Width">260.0</Float>
+        <Float description="Height">74.0</Float>
+        <g description="Transformed node">
+          <ClipNode />
+          <EffectNode>
+            <ColorEffect description="Effect">
+              <Float description="Red">1.0</Float>
+              <Float description="Green">1.0</Float>
+              <Float description="Blue">1.0</Float>
+              <Float description="Alpha">0.8999999761581421</Float>
+            </ColorEffect>
+          </EffectNode>
+          <TextNode>
+            <StringData description="String" name="Scoreboard/VoteMessageIngame">Vote for map "berlin012345678902" (TDM, bf1942)?</StringData>
+            <CenterAlignedStyle description="Style" name="Style/InGameCenter8">Trebuchet MS8.dif</CenterAlignedStyle>
+          </TextNode>
         </g>
       </TransformNode>
     </g>

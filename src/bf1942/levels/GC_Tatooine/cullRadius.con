@@ -1,0 +1,209 @@
+
+REM *** Buildings & Objects ***
+
+Objecttemplate.active Em_BuildingFireBig
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active AlliedAirplaneAmmo 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active AxisAirplaneAmmo 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active eu_church_M1 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active churcfence_m1 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active whetstone_M1 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active plough_M1 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active wdfence1_fen1_m1 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active eu_lumbermill_m1 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active churcfencegate_m1 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active churcfencestop_m1 
+objectTemplate.cullRadiusScale 5
+
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active eu_fence_m1 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active wdfence1_pol1_m1 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active barack_m1 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active stnwall_smlfrench_m1 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active French_Barn_Lrg_m1 
+objectTemplate.cullRadiusScale 5
+
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active lrgfrenchfarm_m1 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active stecrate1_M1 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active stnwall_pelsmlfr_m1 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active factory_m1 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active frwdoor_m1 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active hospital_m1 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active landrep1_supply 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active stebarrel1_m1 
+objectTemplate.cullRadiusScale 5
+
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active eu_cart_M1 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active smlfrenchfarm_m1 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active Supplyde_m1 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active Eubarrel_M1 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active telepole_M1 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active stonebridge_big_M1 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active Sculpture_Angel_M1 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active airrep1_m1 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active euwindmill_m1 
+objectTemplate.cullRadiusScale 5
+
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active wdfence2_fen1_m1 
+objectTemplate.cullRadiusScale 5
+
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active EU_Birtch2_M1 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active EU_asp1_M1 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active EU_asp3_M1 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active EU_asp2_M1 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active EU_Birtch1_M1 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active EU_Birtch3_M1 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active mediclocker 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active Ammobox 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active stonebridge_sml_M1 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active Ruin_suburbhouse_4_M1 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active rubble03_m1 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active T_Stone2_m1 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active T_Stone1_m1 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active repaircist_m1 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active repport_tan1_m1 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active sandbagi_m1 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active sandbagl_m1 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active Stones_Euro_L_M1 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active sandbagu_m1 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active stebarbwire_m1 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active stecrate2_M1 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active rubble01_m1 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active ruin_suburbhouse_1_M1 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active Ruin_Suburbhouse_3_M1 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active Ruin_Suburbhouse_3_M1
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active SuburbHouse_1_closed_M1 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active SuburbHouse_3_closed_M1 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active Ruin_Suburbhouse_3_M1 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active SuburbHouse_3_closed_M1
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active SuburbHouse_3_closed_M1 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active SuburbHouse_3_closed_M1 
+objectTemplate.cullRadiusScale 5
+
+REM *** Vehicles ***

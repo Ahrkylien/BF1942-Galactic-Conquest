@@ -12,18 +12,30 @@ ObjectTemplate.setEngineType c_ETPlane
 ObjectTemplate.setTorque 10000
 ObjectTemplate.setDifferential 2
 
-
 rem *** probedroid_engine_updown ***
 ObjectTemplate.create Engine probedroid_engine_updown
 ObjectTemplate.setNetworkableInfo probedroidEngineInfo
 ObjectTemplate.setMinRotation 0/0/-5
 ObjectTemplate.setMaxRotation 0/0/5
-ObjectTemplate.setMaxSpeed 0/0/100
+ObjectTemplate.setMaxSpeed 0/0/10
 ObjectTemplate.setAcceleration 0/0/10000
 ObjectTemplate.setInputToRoll c_PIMouseLookY
 ObjectTemplate.setAutomaticReset 1
 ObjectTemplate.setEngineType c_ETPlane
-ObjectTemplate.setTorque 1000
+ObjectTemplate.setTorque 10
+ObjectTemplate.setDifferential 1
+
+rem *** probedroid_engine_strafe ***
+ObjectTemplate.create Engine probedroid_engine_strafe
+ObjectTemplate.setNetworkableInfo probedroidEngineInfo
+ObjectTemplate.setMinRotation 0/0/-1
+ObjectTemplate.setMaxRotation 0/0/1
+ObjectTemplate.setMaxSpeed 0/0/10
+ObjectTemplate.setAcceleration 0/0/1000
+ObjectTemplate.setInputToRoll c_PIYaw
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setEngineType c_ETPlane
+ObjectTemplate.setTorque 10
 ObjectTemplate.setDifferential 10
 
 rem *** probedroidWheel ***

@@ -67,28 +67,28 @@ rem * *************************************************
 
 MaterialManager.attGroup 70
 MaterialManager.defGroup 45
-MaterialManager.damageMod 0
-MaterialManager.setEffectTemplate e_Collision_Granade_Metal
+MaterialManager.damageMod 1
+rem MaterialManager.setEffectTemplate e_Collision_Granade_Metal
 
 MaterialManager.attGroup 70
 MaterialManager.defGroup 46
 MaterialManager.damageMod 0
-MaterialManager.setEffectTemplate e_Collision_Granade_Metal
+rem MaterialManager.setEffectTemplate e_Collision_Granade_Metal
 
 MaterialManager.attGroup 70
 MaterialManager.defGroup 47
 MaterialManager.damageMod 0
-MaterialManager.setEffectTemplate e_Collision_Granade_Metal
+rem MaterialManager.setEffectTemplate e_Collision_Granade_Metal
 
 MaterialManager.attGroup 70
 MaterialManager.defGroup 48
 MaterialManager.damageMod 0
-MaterialManager.setEffectTemplate e_Collision_Granade_Metal
+rem MaterialManager.setEffectTemplate e_Collision_Granade_Metal
 
 MaterialManager.attGroup 70
 MaterialManager.defGroup 49
 MaterialManager.damageMod 0
-MaterialManager.setEffectTemplate e_Collision_Granade_Metal
+rem MaterialManager.setEffectTemplate e_Collision_Granade_Metal
 
 
 rem * *************************************************

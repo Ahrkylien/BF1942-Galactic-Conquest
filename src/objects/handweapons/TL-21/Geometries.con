@@ -1,7 +1,7 @@
 
 GeometryTemplate.create StandardMesh TL-21
 GeometryTemplate.file TL-21
-GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.hasDynamicShadow 0
 GeometryTemplate.setLodDistance 0 0
 GeometryTemplate.setLodDistance 1 3
 GeometryTemplate.setLodDistance 2 10

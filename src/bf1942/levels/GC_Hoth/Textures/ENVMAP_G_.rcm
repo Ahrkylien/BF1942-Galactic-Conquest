@@ -1,7 +1,8 @@
 [CubeMap]
-PositiveX = bf1942\levels\GC_Hoth\Textures\env_bulge_02.dds
-NegativeX = bf1942\levels\GC_Hoth\Textures\env_bulge_04.dds
-PositiveY = bf1942\levels\GC_Hoth\Textures\env_bulge_05.dds
-NegativeY = bf1942\levels\GC_Hoth\Textures\env_bulge_06.dds
-PositiveZ = bf1942\levels\GC_Hoth\Textures\env_bulge_01.dds
-NegativeZ = bf1942\levels\GC_Hoth\Textures\env_bulge_03.dds
+PositiveX = bf1942\levels\GC_Hoth\Textures\env_Battleaxe_04.dds
+NegativeX = bf1942\levels\GC_Hoth\Textures\env_Battleaxe_02.dds
+PositiveY = bf1942\levels\GC_Hoth\Textures\env_Battleaxe_05.dds
+NegativeY = bf1942\levels\GC_Hoth\Textures\env_Battleaxe_06.dds
+PositiveZ = bf1942\levels\GC_Hoth\Textures\env_Battleaxe_03.dds
+NegativeZ = bf1942\levels\GC_Hoth\Textures\env_Battleaxe_01.dds
+

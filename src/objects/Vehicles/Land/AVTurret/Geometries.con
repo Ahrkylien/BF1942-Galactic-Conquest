@@ -1,33 +1,31 @@
-renderer.beginGlobalCluster avturret
-
 GeometryTemplate.create StandardMesh AVBase
-GeometryTemplate.file AVBase
+GeometryTemplate.file Vehicles/AVTurret/AVBase
+GeometryTemplate.hasDynamicShadow 1
 GeometryTemplate.setLodDistance 0 0
-GeometryTemplate.setLodDistance 1 10
-GeometryTemplate.setLodDistance 2 20
-GeometryTemplate.setLodDistance 3 40
-GeometryTemplate.setLodDistance 4 90
-GeometryTemplate.setLodDistance 5 150
+GeometryTemplate.setLodDistance 1 50
+GeometryTemplate.setLodDistance 2 100
+GeometryTemplate.setLodDistance 3 150
+GeometryTemplate.setLodDistance 4 200
+GeometryTemplate.setLodDistance 5 250
 
 GeometryTemplate.create StandardMesh AVTurret
-GeometryTemplate.file AVTurret
+GeometryTemplate.file Vehicles/AVTurret/AVTurret
+GeometryTemplate.hasDynamicShadow 1
 GeometryTemplate.setLodDistance 0 0
-GeometryTemplate.setLodDistance 1 10
-GeometryTemplate.setLodDistance 2 20
-GeometryTemplate.setLodDistance 3 40
-GeometryTemplate.setLodDistance 4 90
-GeometryTemplate.setLodDistance 5 150
+GeometryTemplate.setLodDistance 1 50
+GeometryTemplate.setLodDistance 2 100
+GeometryTemplate.setLodDistance 3 150
+GeometryTemplate.setLodDistance 4 200
+GeometryTemplate.setLodDistance 5 250
 
 GeometryTemplate.create StandardMesh DefGun_thing_M1
 GeometryTemplate.file DefGun_thing_M1
 GeometryTemplate.setLodDistance 0 0
-GeometryTemplate.setLodDistance 1 10
-GeometryTemplate.setLodDistance 2 50
-GeometryTemplate.setLodDistance 3 100
+GeometryTemplate.setLodDistance 1 50
+GeometryTemplate.setLodDistance 2 100
+GeometryTemplate.setLodDistance 3 150
 GeometryTemplate.setLodDistance 4 200
-GeometryTemplate.setLodDistance 5 300
+GeometryTemplate.setLodDistance 5 250
 
-renderer.endGlobalCluster
-
-GeometryTemplate.create StandardMesh AVTurretWreck
-GeometryTemplate.file Wreck_avturret_body
+GeometryTemplate.create StandardMesh Wreck_AVTurret1_M1
+GeometryTemplate.file Vehicles/AVTurret/Wreck_AVTurret1

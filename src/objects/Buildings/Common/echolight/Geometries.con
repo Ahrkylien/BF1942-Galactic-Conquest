@@ -1,5 +1,5 @@
 GeometryTemplate.create StandardMesh echolight
-GeometryTemplate.file buildings/echolight
+GeometryTemplate.file buildings/Hoth/Echobase/echolight
 GeometryTemplate.setLodDistance 0 0
 GeometryTemplate.setLodDistance 1 100
 GeometryTemplate.setLodDistance 2 300

@@ -1,9 +1,0 @@
-
-GeometryTemplate.create StandardMesh metalbridge
-GeometryTemplate.file \Buildings\metalbridge
-GeometryTemplate.setLodDistance 0 0
-GeometryTemplate.setLodDistance 1 1200
-GeometryTemplate.setLodDistance 2 1450
-GeometryTemplate.setLodDistance 3 1500
-GeometryTemplate.setLodDistance 4 1650
-GeometryTemplate.setLodDistance 5 1700

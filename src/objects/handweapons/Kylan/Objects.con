@@ -3,11 +3,11 @@ ObjectTemplate.itemIndex 2
 ObjectTemplate.networkableInfo HandFireArmsInfo
 ObjectTemplate.projectileTemplate kylanProjectile
 ObjectTemplate.projectilePosition 0/0/0
-ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.hasDynamicShadow 0
 ObjectTemplate.magSize 60
 ObjectTemplate.numOfMag 1
 ObjectTemplate.magType 0
-objecttemplate.sethasmag 0
+ObjectTemplate.sethasmag 0
 ObjectTemplate.reloadtime 000000.1
 ObjectTemplate.roundOfFire 6.2
 ObjectTemplate.fireOnce 1
@@ -19,38 +19,32 @@ ObjectTemplate.soldierZoomPosition -0.01/-0.01/0.1
 ObjectTemplate.soldierCameraPosition 0.02/-0.05/0.2
 ObjectTemplate.AmmoType	1
 
-
 ObjectTemplate.minDamage 0.5
-ObjectTemplate.distToStartLoseDamage 20
-ObjectTemplate.distToMinDamage 40
+ObjectTemplate.distToStartLoseDamage 25
+ObjectTemplate.distToMinDamage 50
 
-rem ObjectTemplate.autoReload 1
 Rem *** Deviation Begin *****
-
 ObjectTemplate.velocity 340
 ObjectTemplate.setRecoilForceUp CRD_UNIFORM/0.4/0.6/0
 ObjectTemplate.setRecoilForceLeftRight CRD_UNIFORM/-0.2/-0.2/0
 ObjectTemplate.setHasRecoilForce 1
 ObjectTemplate.setGoBackOnRecoil 1
 
-ObjectTemplate.setFireDev 1.0 0.5 0.01
-ObjectTemplate.setMinDev 0.05
+ObjectTemplate.setFireDev 2.5 1.5 0.07
+ObjectTemplate.setMinDev 0.2
 ObjectTemplate.setTurnDev 0 0 0 0
-ObjectTemplate.setSpeedDev 0.5 0.1 0.1 0.05
-ObjectTemplate.setMiscDev 1.0 1.0 0.05
-
-
+ObjectTemplate.setSpeedDev 1.5 0.2 0.2 0.1
+ObjectTemplate.setMiscDev 2.5 2.5 0.1
 Rem *** Deviation  End *****
 
 ObjectTemplate.fireInCameraDof 1
 ObjectTemplate.loadSoundScript Sounds/kylan.ssc
-ObjectTemplate.GUIIndex 1
 ObjectTemplate.setHudAmmoType ATIconAndHeatBar
 ObjectTemplate.setAmmoIcon "ammo/icon_laser_64x32.dds"
 ObjectTemplate.setCrossHairType CHTCrossHair
 
 ObjectTemplate.createSkeleton animations/Kylan.ske
-ObjectTemplate.useSkeletonPartAsMain Kylan
+ObjectTemplate.useSkeletonPartAsMain Colt
 ObjectTemplate.addTemplate KylanLod
 
 ObjectTemplate.addTemplate e_MuzzGun
@@ -59,15 +53,13 @@ ObjectTemplate.startoneffects 0
 ObjectTemplate.setPosition 0/0/0.25
 ObjectTemplate.setRotation 0/0/0
 
-
-
 ObjectTemplate.create SimpleObject KylanSimple
 ObjectTemplate.geometry Kylan_m1
 
 ObjectTemplate.create AnimatedBundle KylanComplex
 ObjectTemplate.addTemplate KylanSimple
 ObjectTemplate.bindtoskeletonpart Base
-ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.hasDynamicShadow 0
 ObjectTemplate.createSkeleton animations/Kylan.ske
 
 ObjectTemplate.create LodObject KylanLod

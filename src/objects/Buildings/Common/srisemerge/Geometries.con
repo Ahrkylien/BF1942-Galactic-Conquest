@@ -1,6 +1,6 @@
 
 GeometryTemplate.create StandardMesh srisemerge
-GeometryTemplate.file buildings/srisemerge
+GeometryTemplate.file buildings/Endor/srisemerge
 GeometryTemplate.setLodDistance 0 0
 GeometryTemplate.setLodDistance 1 100
 GeometryTemplate.setLodDistance 2 300

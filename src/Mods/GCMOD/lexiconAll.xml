@@ -7625,7 +7625,7 @@ Ohne Zeit zu verlieren werden kaiserliche Flottenverbände mehrere strategische 
   </entry>
   <entry word="DEBRIEFING_ALLIED_MAJOR_DEFEAT_BATTLEAXE">
     <col language="English">It seemed as if Rommel was always one step ahead of the Allies in this battle. Bogged down by obstacles and minefields, and pinned down by an unexpected air attack, the Allies didn't have a chance. After some early gains, Operation Battleaxe turned into a complete failure for the Allies. It's time for Allied forces to retreat and get ready for the next conflict in the desert.  </col>
-    <col language="French">Il apparaît que Rommel a toujours eu une longueur d'avance sur les Alliés durant cette bataille. Pris entre les barrières et les champs de mines, désorganisés par une attaque aérienne inattendue, ces derniers n'avaient aucune chance. Après un premier élan victorieux, l'opération "Battleaxe" sombra dans la plus complète déconfiture. L'heure est venue pour les Alliés de battre en retraite et de songer au prochain épisode de cette "guerre des sables".  ".".".".".".".</col>
+    <col language="French">Il apparaît que Rommel a toujours eu une longueur d'avance sur les Alliés durant cette bataille. Pris entre les barrières et les champs de mines, désorganisés par une attaque aérienne inattendue, ces derniers n'avaient aucune chance. Après un premier élan victorieux, l'opération "Battleaxe" sombra dans la plus complète déconfiture. L'heure est venue pour les Alliés de battre en retraite et de songer au prochain épisode de cette "guerre des sables".  ".".".".".".".".".".".</col>
     <col language="Italian">È sembrato che Rommel abbia sempre mantenuto un margine di vantaggio sugli Alleati in questa battaglia. Impantanati da ostacoli e campi minati nonché presi di mira da un attacco aereo inatteso, gli Alleati non hanno avuto alcuna possibilità. Dopo qualche progresso iniziale, l'operazione Battleaxe si è trasformata in un completo fallimento per gli Alleati. È tempo che le forze alleate si ritirino per prepararsi al prossimo conflitto nel deserto.</col>
     <col language="Spanish">Parece que Rommel siempre hubiera ido un paso por delante de los aliados en esta batalla. Bloqueados por los obstáculos y campos de minas e inmovilizados por un ataque aéreo inesperado, los aliados no tuvieron ninguna oportunidad. Tras algunas victorias tempranas, la Operación Battleaxe se convirtió en un auténtico fracaso para los aliados. Es el momento de que las fuerzas aliadas se retiren y se preparen para la siguiente campaña en el desierto.  </col>
     <col language="German">Es scheint, als wäre in diesem Kampf der deutsche Befehlshaber den Alliierten immer einen Schritt voraus. Von Minenfeldern und Panzersperren behindert und durch einen überraschenden Luftangriff geschwächt, hatten die alliierten Truppen keine Chance. Nach einigen anfänglichen Erfolgen hat sich die Operation Battleaxe als ein totaler Fehlschlag erwiesen. Es ist Zeit, sich zurückzuziehen und auf den nächsten Kampf in der Wüste vorzubereiten.
@@ -7637,7 +7637,7 @@ Ohne Zeit zu verlieren werden kaiserliche Flottenverbände mehrere strategische 
   </entry>
   <entry word="DEBRIEFING_ALLIED_MINOR_DEFEAT_BATTLEAXE">
     <col language="English">It seemed as if Rommel was always one step ahead of the Allies in this battle. Bogged down by obstacles and minefields, and pinned down by an unexpected air attack, the Allies didn't have a chance. After some early gains, Operation Battleaxe turned into a complete failure for the Allies. It's time for Allied forces to retreat and get ready for the next conflict in the desert.  </col>
-    <col language="French">Il apparaît que Rommel a toujours eu une longueur d'avance sur les Alliés durant cette bataille. Pris entre les barrières et les champs de mines, désorganisés par une attaque aérienne inattendue, ces derniers n'avaient aucune chance. Après un premier élan victorieux, l'opération "Battleaxe" sombra dans la plus complète déconfiture. L'heure est venue pour les Alliés de battre en retraite et de songer au prochain épisode de cette "guerre des sables".  ".".".".".".".</col>
+    <col language="French">Il apparaît que Rommel a toujours eu une longueur d'avance sur les Alliés durant cette bataille. Pris entre les barrières et les champs de mines, désorganisés par une attaque aérienne inattendue, ces derniers n'avaient aucune chance. Après un premier élan victorieux, l'opération "Battleaxe" sombra dans la plus complète déconfiture. L'heure est venue pour les Alliés de battre en retraite et de songer au prochain épisode de cette "guerre des sables".  ".".".".".".".".".".".</col>
     <col language="Italian">È sembrato che Rommel abbia sempre mantenuto un margine di vantaggio sugli Alleati in questa battaglia. Impantanati da ostacoli e campi minati nonché presi di mira da un attacco aereo inatteso, gli Alleati non hanno avuto alcuna possibilità. Dopo qualche progresso iniziale, l'operazione Battleaxe si è trasformata in un completo fallimento per gli Alleati. È tempo che le forze alleate si ritirino per prepararsi al prossimo conflitto nel deserto.</col>
     <col language="Spanish">Parece que Rommel siempre hubiera ido un paso por delante de los aliados en esta batalla. Bloqueados por los obstáculos y campos de minas e inmovilizados por un ataque aéreo inesperado, los aliados no tuvieron ninguna oportunidad. Tras algunas victorias tempranas, la Operación Battleaxe se convirtió en un auténtico fracaso para los aliados. Es el momento de que las fuerzas aliadas se retiren y se preparen para la siguiente campaña en el desierto.  </col>
     <col language="German">Es scheint, als wäre in diesem Kampf der deutsche Befehlshaber den Alliierten immer einen Schritt voraus. Von Minenfeldern und Panzersperren behindert und durch einen überraschenden Luftangriff geschwächt, hatten die alliierten Truppen keine Chance. Nach einigen anfänglichen Erfolgen hat sich die Operation Battleaxe als ein totaler Fehlschlag erwiesen. Es ist Zeit, sich zurückzuziehen und auf den nächsten Kampf in der Wüste vorzubereiten.
@@ -15907,9 +15907,7 @@ BESONDERHEIT: Auf dieser Karte können beide Stützpunkte erobert werden.</col>
   </entry>
   <entry word="GCMOD_INFO">
     <col language="English">There is unrest in the Galactic Senate several hundred solar systems have declared their intentions to leave the Republic. This separatist movement has made it difficult for the limited number of Jedi Knights to maintain peace and order in the galaxy. The Galactic Senate are to vote on the critical issue of creating an Army of the Republic to assist the overwhelmed Jedi.
-
 As a young man in the Galaxy it is time to choose your path in the great struggle to restore peace and order to the Galaxy
-
 May the force be with you</col>
     <col language="French">Avant-poste ouest</col>
     <col language="Italian">Avamposto ovest</col>
@@ -15920,11 +15918,7 @@ May the force be with you</col>
     <col language="Chinese">西邊前哨基地 </col>
   </entry>
   <entry word="MULTIPLAYER_BRIEFING_HOTH">
-    <col language="English">An Imperial probe droid has discovered the secret Rebel base on Hoth. The Rebels are fortunate enough to learn of the droid, and begin evacuation procedures. The Empires Imperial Death Squadron arrive in the Hoth system shortly thereafter. 
-
-As the transports retreat, the Rebel ground forces and snow speeder squadrons must cover their escape by delaying the Imperials for as long as they possibly can. Rebel troopers are dug into snowy trenches, blasting at the incoming Imperials with turret-mounted laser cannons and blaster rifles. But are the Imperial walkers unstoppable? Will Echo Base be overrun? Or will the Rebels put up a magnificent fight?  
-
-You decide the outcome, good luck soldier!</col>
+    <col language="English">An Imperial probe droid has discovered the secret Rebel base on Hoth. The Rebels are fortunate enough to learn of the droid, and begin evacuation procedures. The Empire's Imperial Death Squadron arrives in the Hoth system shortly thereafter.</col>
     <col language="French">Avant-poste ouest</col>
     <col language="Italian">Avamposto ovest</col>
     <col language="Spanish">Puesto occidental</col>
@@ -15932,5 +15926,85 @@ You decide the outcome, good luck soldier!</col>
     <col language="Japanese">西の前哨地点</col>
     <col language="Korean">서쪽 망루</col>
     <col language="Chinese">西邊前哨基地 </col>
+  </entry>
+  <entry word="MULTIPLAYER_BRIEFING_TANAAB">
+    <col language="English">Rebel forces have launched a raid on the remote and lightly defended imperial shipyard in the Tanaab system. Unfortunately, during the raid the ISD Judicator arrives for its scheduled re-supply! The rebels must destroy the communications dish to stop the Shipyard from uploading her research, and then destroy the three Experimental Tie Fighters said to be at the yard for testing.</col>
+    <col language="French">Avant-poste ouest</col>
+    <col language="Italian">Avamposto ovest</col>
+    <col language="Spanish">Puesto occidental</col>
+    <col language="German">Westlicher Außenposten</col>
+    <col language="Japanese">西の前哨地点</col>
+    <col language="Korean">서쪽 망루</col>
+    <col language="Chinese">西邊前哨基地 </col>
+  </entry>
+  <entry word="MULTIPLAYER_BRIEFING_TASKFORCE">
+    <col language="English">A Rebel and Imperial fleet, both feeling they had the advantage, launch simultaneous attacks on each other! Fighting over a valuable hyperspace corridor that the Rebels fear may soon be blocked with an Interdictor, neither fleet is willing to back down. Your objective is to destroy all enemy capital ships, and seize control of the area.</col>
+    <col language="French">Avant-poste ouest</col>
+    <col language="Italian">Avamposto ovest</col>
+    <col language="Spanish">Puesto occidental</col>
+    <col language="German">Westlicher Außenposten</col>
+    <col language="Japanese">西の前哨地点</col>
+    <col language="Korean">서쪽 망루</col>
+    <col language="Chinese">西邊前哨基地 </col>
+  </entry>
+  <entry word="MULTIPLAYER_BRIEFING_JUDICATOR">
+    <col language="English">The ISD Judicator, failing to get much needed re-supplys at Tanaab, has run out of main power outside the Tanaab system. With her fighter squadrons depleted, she is suddenly overrun by a second Rebel fleet that launch a daring boarding operation. Their objective can be no less than to capture the Bridge of the Judicator, and secure vital information and resources found there.</col>
+    <col language="French">Avant-poste ouest</col>
+    <col language="Italian">Avamposto ovest</col>
+    <col language="Spanish">Puesto occidental</col>
+    <col language="German">Westlicher Außenposten</col>
+    <col language="Japanese">西の前哨地点</col>
+    <col language="Korean">서쪽 망루</col>
+    <col language="Chinese">西邊前哨基地 </col>
+  </entry>
+  <entry word="MULTIPLAYER_BRIEFING_DEATHSTAR">
+    <col language="English">After the capture of vital technical schematics of the DeathStar, leading to the destruction of Alderaan, Alliance tacticians have managed to pinpoint a crucial flaw in the superweapon's massive design. A small ray-shielded thermal exhaust port was found to lead from the DeathStar's massive surface directly to the heart of its reactor. The Alliance's only hope is to exploit this vulnerability, breaching the port with proton torpedos in order to start a chain reaction that would destroy the station.</col>
+    <col language="French">Avant-poste ouest</col>
+    <col language="Italian">Avamposto ovest</col>
+    <col language="Spanish">Puesto occidental</col>
+    <col language="German">Westlicher Außenposten</col>
+    <col language="Japanese">西の前哨地点</col>
+    <col language="Korean">서쪽 망루</col>
+    <col language="Chinese">西邊前哨基地 </col>
+  </entry>
+  <entry word="MULTIPLAYER_BRIEFING_BESPIN">
+    <col language="English">After the recent conflict between the Alliance and the Empire on Bespin, Imperial scientists have discovered a use for Bespin's rich source of Tibanna gas that could strike a devastating blow to the Alliance. Upon learning of this possibility, Princess Leia Organa sends a squadron of Rebel fighters to prevent the Imperials from taking control of Cloud City and its surrounding mines. Both forces secure a base of operations on nearby Tibanna mines, intent on securing control over Cloud City.</col>
+    <col language="French">Avant-poste ouest</col>
+    <col language="Italian">Avamposto ovest</col>
+    <col language="Spanish">Puesto occidental</col>
+    <col language="German">Westlicher Außenposten</col>
+    <col language="Japanese">西の前哨地点</col>
+    <col language="Korean">서쪽 망루</col>
+    <col language="Chinese">西邊前哨基地 </col>
+  </entry>
+  <entry word="MULTIPLAYER_BRIEFING_BCANYON">
+    <col language="English">The aftermath of an Imperial ambush on a small Rebel fleet above Tatooine leaves a Rebel Blockade Runner crashed on the planet's sandy surface in Beggars Canyon. As the survivors escape the ruins of the remains of their starship, squads of Imperial stormtroopers begin to comb the area.</col>
+    <col language="French">Avant-poste ouest</col>
+    <col language="Italian">Avamposto ovest</col>
+    <col language="Spanish">Puesto occidental</col>
+    <col language="German">Westlicher Außenposten</col>
+    <col language="Japanese">西の前哨地点</col>
+    <col language="Korean">서쪽 망루</col>
+    <col language="Chinese">西邊前哨基地 </col>
+  </entry>
+  <entry word="MULTIPLAYER_BRIEFING_TATOOINE">
+    <col language="English">With the landing of the droid escape pod on the vast desert of Tatooine, Imperial activity around cities has increased drastically. The Rebel Alliance has made a desperate cry for help to all rebel sympathisers on the desolate planet's surface. After informing them of the extreme importance of the droids' safety, the Alliance has reinforced their supporters with proper weaponry in order to begin an uprising against the Empire and prevent the possibility of the droids falling into Imperial hands.</col>
+    <col language="French">Avant-poste ouest</col>
+    <col language="Italian">Avamposto ovest</col>
+    <col language="Spanish">Puesto occidental</col>
+    <col language="German">Westlicher Außenposten</col>
+    <col language="Japanese">西の前哨地点</col>
+    <col language="Korean">서쪽 망루</col>
+    <col language="Chinese">西邊前哨基地 </col>
+  </entry>
+  <entry word="MULTIPLAYER_MAP_TYPE_OBJECTIVE_MAP">
+    <col language="English">OBJECTIVE MAP</col>
+    <col language="French">CARTE OBJECTIVE</col>
+    <col language="Italian">MAPPA OBIETTIVO</col>
+    <col language="Spanish">MAPA OBJETIVO</col>
+    <col language="German">FRONTALANGRIFF-KARTE</col>
+    <col language="Japanese">ヘッドオンマップ</col>
+    <col language="Korean">정면대결 맵</col>
+    <col language="Chinese">全面衝突地圖</col>
   </entry>
 </lexicon>

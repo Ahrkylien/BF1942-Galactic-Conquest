@@ -1,6 +1,6 @@
 
 GeometryTemplate.create StandardMesh curve
-GeometryTemplate.file buildings/curve
+GeometryTemplate.file buildings/Endor/curve
 GeometryTemplate.setLodDistance 0 0
 GeometryTemplate.setLodDistance 1 100
 GeometryTemplate.setLodDistance 2 300

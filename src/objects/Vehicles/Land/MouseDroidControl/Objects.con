@@ -1,0 +1,67 @@
+rem *** MouseDroidControl ***
+ObjectTemplate.create PlayerControlObject MouseDroidControl
+ObjectTemplate.geometry MouseDroidControl_m1
+ObjectTemplate.setNetworkableInfo MouseDroidControlBodyInfo
+objectTemplate.cullRadiusScale 5
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.explosionRadius 10
+ObjectTemplate.explosionDamage 45
+ObjectTemplate.explosionForceMod 2
+ObjectTemplate.drag 2
+ObjectTemplate.mass 4500
+ObjectTemplate.hasArmor 0
+ObjectTemplate.addArmorEffect 30 e_KatyushaDamage 0/0.5/0
+ObjectTemplate.addArmorEffect 6 e_KatyushaFire 0/0.5/0
+ObjectTemplate.addArmorEffect 0 e_ExplGas 0/-1/0
+ObjectTemplate.addArmorEffect 0 e_scrapmetal_wasserfall 0/0.5/0
+ObjectTemplate.addArmorEffect -1 WaterWaterExplosion 0/-1/0
+ObjectTemplate.damageFromWater 1
+ObjectTemplate.setSoldierExitLocation 0/0.5/-1 0/0/0
+ObjectTemplate.setVehicleIcon "Vehicle/icon_mousedroid_control.dds"
+ObjectTemplate.setVehicleIconPos 22/38
+ObjectTemplate.setNumberOfWeaponIcons 1
+ObjectTemplate.setPrimaryAmmoIcon "Ammo/icon_mousedroidweapon.dds"
+ObjectTemplate.setPrimaryAmmoBar ABReloadBarOnly
+ObjectTemplate.setCrossHairType CHTNone
+ObjectTemplate.setMinimapIcon "Minimap/minimap_icon_stationary_16x16.tga"
+
+ObjectTemplate.addTemplate MouseDroidLauncher
+ObjectTemplate.setPosition 0.671/0.147/-0.6
+ObjectTemplate.setRotation 180/0/0
+ObjectTemplate.addTemplate MouseDroidDummy
+ObjectTemplate.setPosition 0.671/0.147/0.172
+ObjectTemplate.setRotation 180/0/0
+ObjectTemplate.addTemplate MouseDroidControlEntry
+ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.addTemplate MouseDroidControlCamera
+ObjectTemplate.setPosition 0/1.2/-1.6
+ObjectTemplate.addTemplate MouseDroidControlSeat
+ObjectTemplate.setPosition -0.3/1.2/-0.8
+
+rem *** MouseDroidControlEntry ***
+ObjectTemplate.create EntryPoint MouseDroidControlEntry
+ObjectTemplate.setEntryRadius 4
+
+rem *** MouseDroidControlCamera ***
+ObjectTemplate.create Camera MouseDroidControlCamera
+ObjectTemplate.setMinRotation 0/-45/0
+ObjectTemplate.setMaxRotation 0/100/0
+ObjectTemplate.setMaxSpeed 100/100/0
+ObjectTemplate.setAcceleration 6000/6000/0
+ObjectTemplate.setInputToYaw c_PIMouseLookX
+ObjectTemplate.setInputToPitch c_PIMouseLookY
+ObjectTemplate.CVMExternTrace 1
+
+rem *** MouseDroidControlSeat ***
+ObjectTemplate.create SeatObject MouseDroidControlSeat
+ObjectTemplate.seatFlags c_SeatShowStandingSoldier
+ObjectTemplate.seatFlags c_SeatIsOutside
+
+rem *** MouseDroidDummy ***
+ObjectTemplate.create SimpleObject MouseDroidDummy
+ObjectTemplate.geometry MouseDroid_M1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+

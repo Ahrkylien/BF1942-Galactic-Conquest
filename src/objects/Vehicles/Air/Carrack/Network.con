@@ -1,0 +1,8 @@
+NetworkableInfo.createNewInfo Carrack_Engine_info
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo Carrack_Body_Info
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo Carrack_Turret_Info
+NetworkableInfo.setPredictionMode PMLinear

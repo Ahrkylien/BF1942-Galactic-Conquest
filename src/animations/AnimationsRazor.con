@@ -1,0 +1,106 @@
+rem ---- Razor ----
+rem ** 1P **
+AnimationStateMachine.set1pAnimationSpeed Ub_StandRazor 0.1
+AnimationStateMachine.set1pAnimationSpeed Ub_TurnRazor 0.70
+AnimationStateMachine.set1pAnimationSpeed Ub_StandAimRazor 0.1
+AnimationStateMachine.set1pAnimationSpeed Ub_WalkForwardRazor 0.50
+AnimationStateMachine.set1pAnimationSpeed Ub_WalkBackwardRazor 0.50
+AnimationStateMachine.set1pAnimationSpeed Ub_RunForwardRazor 1.48
+AnimationStateMachine.set1pAnimationSpeed Ub_RunBackwardRazor 1.47
+AnimationStateMachine.set1pAnimationSpeed Ub_StrafeLeftRazor 1.47
+AnimationStateMachine.set1pAnimationSpeed Ub_StrafeRightRazor 1.47
+AnimationStateMachine.set1pAnimationSpeed Ub_StandJumpRazor 0.40
+AnimationStateMachine.set1pAnimationSpeed Ub_RunJumpRazor 1.20
+AnimationStateMachine.set1pAnimationSpeed Ub_FireRazor 2.00
+AnimationStateMachine.set1pAnimationSpeed Ub_LieFireRazor 2.00
+AnimationStateMachine.set1pAnimationSpeed Ub_IdleRazor1 0.32
+AnimationStateMachine.set1pAnimationSpeed Ub_IdleRazor2 0.54
+AnimationStateMachine.set1pAnimationSpeed Ub_IdleRazor3 0.69
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchIdleRazor1 0.32
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchIdleRazor2 0.54
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchIdleRazor3 0.69
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchRazor 0.25
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchTurnRazor 0.50
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchForwardRazor 0.91
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchBackwardRazor 0.60
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchStrafeLeftRazor 0.60
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchStrafeRightRazor 0.60
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchToLieRazor 0.60
+AnimationStateMachine.set1pAnimationSpeed Ub_LieToCrouchRazor 0.60
+AnimationStateMachine.set1pAnimationSpeed Ub_LieToStandRazor 0.60
+AnimationStateMachine.set1pAnimationSpeed Ub_LieRazor 0.20
+AnimationStateMachine.set1pAnimationSpeed Ub_LieForwardRazor 0.70
+AnimationStateMachine.set1pAnimationSpeed Ub_LieBackwardRazor 0.82
+AnimationStateMachine.set1pAnimationSpeed Ub_LieTurnLeftRazor 0.82
+AnimationStateMachine.set1pAnimationSpeed Ub_LieTurnRightRazor 0.82
+AnimationStateMachine.set1pAnimationSpeed Ub_LieStrafeLeftRazor 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_LieStrafeRightRazor 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_RunStandToLieRazor 1.50
+AnimationStateMachine.set1pAnimationSpeed Ub_StandReloadRazor 0.25
+AnimationStateMachine.set1pAnimationSpeed Ub_LieReloadRazor 0.25
+AnimationStateMachine.set1pAnimationSpeed Ub_StandRaiseWeaponRazor 1.16
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchRaiseWeaponRazor 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_LieRaiseWeaponRazor 1.16
+rem **3P**
+AnimationStateMachine.set3pAnimationSpeed Ub_StandRazor 0.60
+AnimationStateMachine.set3pAnimationSpeed Ub_TurnRazor 1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_StandAimRazor 0.80
+AnimationStateMachine.set3pAnimationSpeed Ub_WalkForwardRazor 1.0
+AnimationStateMachine.set3pAnimationSpeed Ub_WalkBackwardRazor -1.0
+AnimationStateMachine.set3pAnimationSpeed Ub_RunForwardRazor 1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_RunBackwardRazor -1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_StrafeLeftRazor 1.30
+AnimationStateMachine.set3pAnimationSpeed Ub_StrafeRightRazor 1.30
+AnimationStateMachine.set3pAnimationSpeed Ub_StandJumpRazor 1.10
+AnimationStateMachine.set3pAnimationSpeed Ub_RunJumpRazor 1.22
+AnimationStateMachine.set3pAnimationSpeed Ub_FireRazor 2.43
+AnimationStateMachine.set3pAnimationSpeed Ub_LieFireRazor 2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_IdleRazor1 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_IdleRazor2 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_IdleRazor3 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchIdleRazor1 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchIdleRazor2 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchIdleRazor3 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchRazor 0.80
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchTurnRazor 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchForwardRazor 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchBackwardRazor -1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchStrafeLeftRazor 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchStrafeRightRazor 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchToLieRazor 1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_LieToCrouchRazor -2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieToStandRazor -3.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieRazor 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieForwardRazor 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieBackwardRazor -0.80
+AnimationStateMachine.set3pAnimationSpeed Ub_LieTurnLeftRazor 2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieTurnRightRazor 2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieStrafeLeftRazor 2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieStrafeRightRazor 2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_RunStandToLieRazor 1.40
+AnimationStateMachine.set3pAnimationSpeed Ub_StandReloadRazor 0.40
+AnimationStateMachine.set3pAnimationSpeed Ub_LieReloadRazor 0.40
+AnimationStateMachine.set3pAnimationSpeed Ub_StandRaiseWeaponRazor -1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchRaiseWeaponRazor -1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_LieRaiseWeaponRazor -1.60
+
+AnimationStateMachine.set3pAnimationSpeed WeaponReloadRazor 0.25
+AnimationStateMachine.set3pAnimationSpeed WeaponFireRazor 2.00
+
+AnimationStateMachine.setactiveState Ub_FireRazor
+AnimationStateMachine.setCameraShakeRoll 0 0.25 800.0
+AnimationStateMachine.setCameraShakePitch 0 0.10 900.0
+AnimationStateMachine.setCameraShakeYaw 0 0.10 700.0
+AnimationStateMachine.setCameraShakeLeftRight 0 0.03 4000
+AnimationStateMachine.setCameraShakeInOut 0 0.3 3000
+AnimationStateMachine.setCameraShakeUpDown 0 0.03 3500
+AnimationStateMachine.setCameraShakeFadeOut 0 8
+
+AnimationStateMachine.setactiveState Ub_LieFireRazor
+AnimationStateMachine.setCameraShakeRoll 0 0.25 800.0
+AnimationStateMachine.setCameraShakePitch 0 0.10 900.0
+AnimationStateMachine.setCameraShakeYaw 0 0.10 700.0
+AnimationStateMachine.setCameraShakeLeftRight 0 0.03 4000
+AnimationStateMachine.setCameraShakeInOut 0 0.3 3000
+AnimationStateMachine.setCameraShakeUpDown 0 0.03 3500
+AnimationStateMachine.setCameraShakeFadeOut 0 8

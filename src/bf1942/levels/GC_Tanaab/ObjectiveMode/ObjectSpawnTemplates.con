@@ -1,0 +1,62 @@
+ObjectTemplate.create ObjectSpawner lancerspawner
+ObjectTemplate.setObjectTemplate 2 lancer
+ObjectTemplate.setObjectTemplate 1 lancer
+ObjectTemplate.MinSpawnDelay 100
+ObjectTemplate.MaxSpawnDelay 160
+ObjectTemplate.holdObject 1
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 150
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+
+ObjectTemplate.create ObjectSpawner epsilspawner
+ObjectTemplate.setObjectTemplate 2 epsilon
+ObjectTemplate.setObjectTemplate 1 epsilon
+ObjectTemplate.MinSpawnDelay 50
+ObjectTemplate.MaxSpawnDelay 80
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 80
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+
+ObjectTemplate.create ObjectSpawner epsilspawner2
+ObjectTemplate.setObjectTemplate 2 epsilon2
+ObjectTemplate.setObjectTemplate 1 epsilon2
+ObjectTemplate.MinSpawnDelay 50
+ObjectTemplate.MaxSpawnDelay 80
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 80
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+
+ObjectTemplate.create ObjectSpawner syturbolasers
+ObjectTemplate.setObjectTemplate 2 turbolaser
+ObjectTemplate.setObjectTemplate 1 turbolaser
+ObjectTemplate.SpawnDelay 100
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.teamOnVehicle 1
+
+ObjectTemplate.create ObjectSpawner lancer2spawn
+ObjectTemplate.setObjectTemplate 2 lancer2
+ObjectTemplate.setObjectTemplate 1 lancer2
+ObjectTemplate.MinSpawnDelay 100
+ObjectTemplate.MaxSpawnDelay 150
+ObjectTemplate.holdObject 1
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 250
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+
+ObjectTemplate.create ObjectSpawner tan_nebfrigate_hanger_spawner
+ObjectTemplate.setObjectTemplate 2 tan_nebfrigate_hanger
+ObjectTemplate.setObjectTemplate 1 tan_nebfrigate_hanger
+ObjectTemplate.MinSpawnDelay 60
+ObjectTemplate.MaxSpawnDelay 150
+ObjectTemplate.holdObject 1
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 9999
+ObjectTemplate.Distance 50
+ObjectTemplate.DamageWhenLost 10

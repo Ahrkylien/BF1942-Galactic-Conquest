@@ -10,8 +10,8 @@ ObjectTemplate.addTemplate US_Hip_Pack
 ObjectTemplate.setHealthBarIcon "Ingame/reb_Healthbar_empty_engineer_64x64.tga"
 ObjectTemplate.setHealthBarFullIcon "Ingame/reb_Healthbar_full_engineer_64x64.tga"
 ObjectTemplate.addWeaponIcon "Weapon/icon_alliesknife.dds"
-ObjectTemplate.addWeaponIcon "Weapon/icon_kylan"
-ObjectTemplate.addWeaponIcon "Weapon/icon_eweb"
+ObjectTemplate.addWeaponIcon "Weapon/icon_Dl44"
+ObjectTemplate.addWeaponIcon "Weapon/icon_null"
 ObjectTemplate.addWeaponIcon "Weapon/icon_fragnade.dds"
 ObjectTemplate.addWeaponIcon "Weapon/icon_medpack.dds"
 ObjectTemplate.addWeaponIcon "Weapon/icon_hydrospanner.dds"
@@ -20,12 +20,13 @@ ObjectTemplate.setKitIcon 4 "kits/Icon_engineer_allies_selected.tga"
 ObjectTemplate.setKitName 4 "RESPAWN_ENGINEER"
 ObjectTemplate.setKitActiveName 4 "RESPAWN_ACTIVE_ENGINEER"
 
-ObjectTemplate.addTemplate BuildEweb
-ObjectTemplate.addTemplate kylan
+rem ObjectTemplate.addTemplate BuildEweb
+ObjectTemplate.addTemplate Dl44
 ObjectTemplate.addTemplate KnifeAllies
-ObjectTemplate.addTemplate fragnade
+ObjectTemplate.addTemplate ConcussionGrenade
 
 ObjectTemplate.addTemplate MedPack
 ObjectTemplate.addTemplate RepairPack
+ObjectTemplate.addTemplate NoChute
 
 ObjectTemplate.aitemplate Engineer

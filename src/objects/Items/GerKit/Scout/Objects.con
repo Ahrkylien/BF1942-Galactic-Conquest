@@ -24,5 +24,6 @@ ObjectTemplate.addTemplate speederpistol
 ObjectTemplate.addTemplate KnifeAxis
 ObjectTemplate.addTemplate cryoban
 ObjectTemplate.addTemplate Binoculars
+ObjectTemplate.addTemplate NoChute
 
 ObjectTemplate.aiTemplate  Scout

@@ -1,4 +1,0 @@
-ObjectTemplate.create Bundle endorplatform	
-ObjectTemplate.geometry endorplatform
-ObjectTemplate.setHasCollisionPhysics 1
-objectTemplate.aiTemplate endorplatform

@@ -22,7 +22,7 @@ ObjectTemplate.create SpriteParticle fx_redglow
 rem ObjectTemplate.timeToLive CRD_NONE/0/0/0
 ObjectTemplate.size CRD_NONE/0.43/0/0
 ObjectTemplate.gravityModifier CRD_NONE/0/0/0
-ObjectTemplate.texture e_redglow
+ObjectTemplate.texture Effects/e_redglow
 ObjectTemplate.initRotation CRD_NONE/1/0/0
 ObjectTemplate.destBlendMode BMOne
 rem ObjectTemplate.colorRGBAOverTime 0/255/255/128/255|77/255/157/29/172|100/255/128/0/65

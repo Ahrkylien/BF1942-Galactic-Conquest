@@ -1,5 +1,5 @@
-GeometryTemplate.create StandardMesh Endor_tree1
-GeometryTemplate.file buildings/Endor_tree1
+GeometryTemplate.create StandardMesh endor_tree1_m1
+GeometryTemplate.file buildings/Endor/Endor_tree1
 GeometryTemplate.setLodDistance 0 0
 GeometryTemplate.setLodDistance 1 15
 GeometryTemplate.setLodDistance 2 35

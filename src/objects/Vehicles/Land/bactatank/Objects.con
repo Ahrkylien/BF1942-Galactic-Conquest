@@ -5,20 +5,19 @@ ObjectTemplate.NameTagOffset 0/-0.6/2
 ObjectTemplate.setNetworkableInfo bactatankInfo
 ObjectTemplate.saveInSeparateFile 1
 objectTemplate.cullRadiusScale 5
-ObjectTemplate.hasDynamicShadow 1
 ObjectTemplate.exitTimer 1
 ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.hasResponsePhysics 1
 ObjectTemplate.hasArmor 1
-ObjectTemplate.speedMod 2
-ObjectTemplate.hitpoints 100
-ObjectTemplate.maxhitpoints 100
-ObjectTemplate.material 45
-ObjectTemplate.criticalDamage 16
-ObjectTemplate.hpLostWhileCriticalDamage 1.5
-ObjectTemplate.explosionForceMod 13
-ObjectTemplate.addArmorEffect 50 e_bactatankDamage 0/0.5/2.5
-ObjectTemplate.addArmorEffect 16 e_bactatankFire 0/1/2.7
+ObjectTemplate.speedMod 1
+ObjectTemplate.hitpoints 30
+ObjectTemplate.maxhitpoints 30
+ObjectTemplate.material 801
+ObjectTemplate.criticalDamage 3
+ObjectTemplate.hpLostWhileCriticalDamage 0.3
+ObjectTemplate.explosionForceMod 10
+ObjectTemplate.addArmorEffect 6 e_Wreck1Smoke 0/1/0
+ObjectTemplate.addArmorEffect 3 e_bactatankFire 0/1/2.7
 ObjectTemplate.addArmorEffect 0 e_ExplGas 0/0/0
 ObjectTemplate.addArmorEffect 0 e_scrapmetal 0/0/0
 ObjectTemplate.addArmorEffect -1 WaterWaterExplosion 0/0/0

@@ -1,0 +1,105 @@
+rem
+rem ***  ***
+rem
+Object.create sarlac_spawn
+Object.absolutePosition 3375.24/102.471/640.603
+Object.rotation -31/0/0
+Object.geometry.scale 0.9/0.9/0.9
+Object.setOSId -1660287933
+Object.setTeam 218299556
+rem
+rem ***  ***
+rem
+Object.create jaba_spawn1
+Object.absolutePosition 2180.43/157.183/2340.06
+Object.rotation 125/0/0
+Object.setOSId 112
+Object.setTeam 218235001
+rem
+rem ***  ***
+rem
+Object.create jaba_2
+Object.absolutePosition 2164.33/141.264/2298.25
+Object.rotation -88.9999/0/0
+Object.setOSId 65
+Object.setTeam 1851869696
+rem
+rem ***  ***
+rem
+Object.create dune_sea_1
+Object.absolutePosition 612.178/112.197/390.616
+Object.rotation 22/0/0
+Object.setOSId 112
+Object.setTeam 8454273
+rem
+rem ***  ***
+rem
+Object.create dune_sea_2
+Object.absolutePosition 605.344/112.58/378.296
+Object.rotation 20/0/0
+Object.setOSId 0
+Object.setTeam 0
+rem
+rem ***  ***
+rem
+Object.create dune_sea_3
+Object.absolutePosition 622.407/112.987/390.988
+Object.rotation -71/0/0
+Object.setOSId 0
+Object.setTeam 0
+rem
+rem ***  ***
+rem
+Object.create imp_1
+Object.absolutePosition 3670.18/19.3816/3575.84
+Object.rotation -91/0/0
+Object.setOSId 0
+Object.setTeam 0
+rem
+rem ***  ***
+rem
+Object.create imp_2
+Object.absolutePosition 3671.74/18.6883/3646.85
+Object.rotation 142/0/0
+Object.setOSId 0
+Object.setTeam 0
+rem
+rem ***  ***
+rem
+Object.create cant_1
+Object.absolutePosition 3409.27/18.6716/3523.54
+Object.rotation -91/5/0
+Object.setOSId 112
+Object.setTeam 154609470
+rem
+rem ***  ***
+rem
+Object.create cant_2
+Object.absolutePosition 3414.24/18.1483/3527.26
+Object.rotation 91/0/0
+Object.setOSId 112
+Object.setTeam 0
+rem
+rem ***  ***
+rem
+Object.create cant_3
+Object.absolutePosition 3429.31/18.5483/3523.33
+Object.rotation -92/0/0
+Object.setOSId 3856
+Object.setTeam 6357069
+rem
+rem ***  ***
+rem
+Object.create jawa_2
+Object.absolutePosition 627.124/79.9872/3364.28
+Object.rotation -131/0/0
+Object.setOSId 112
+Object.setTeam 0
+rem
+rem ***  ***
+rem
+Object.create jawa3
+Object.absolutePosition 622.193/77.3355/3344.59
+Object.rotation 196/0/0
+Object.setOSId 112
+Object.setTeam 158728688

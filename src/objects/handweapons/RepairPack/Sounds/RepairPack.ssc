@@ -39,12 +39,13 @@ volume 0
 newPatch
 
 load @ROOT/Sound/@RTD/repair.wav
-minDistance 2
+minDistance 1
+stereo
 loop
-
 stop FinishSample
+
 randomStartPitch 0.06 / 0.0
-volume .7
+volume .8
 dopplerOff
 priority 6
 

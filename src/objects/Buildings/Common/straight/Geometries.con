@@ -1,6 +1,6 @@
 
 GeometryTemplate.create StandardMesh straight
-GeometryTemplate.file buildings/straight
+GeometryTemplate.file buildings/Endor/straight
 GeometryTemplate.setLodDistance 0 0
 GeometryTemplate.setLodDistance 1 100
 GeometryTemplate.setLodDistance 2 300

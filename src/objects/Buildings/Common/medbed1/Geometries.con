@@ -1,7 +1,7 @@
 renderer.beginGlobalCluster medbed1
 
 GeometryTemplate.create StandardMesh medbed1
-GeometryTemplate.file \Buildings\medbed1
+GeometryTemplate.file Buildings/Hoth/Echobase/medbed1
 GeometryTemplate.setLodDistance 0 0
 GeometryTemplate.setLodDistance 1 15
 GeometryTemplate.setLodDistance 2 45

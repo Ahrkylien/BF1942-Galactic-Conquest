@@ -1,0 +1,1597 @@
+<?xml version='1.0' encoding='utf-8'?>
+<MemeFile>
+  <NameNode />
+  <CullEventActionNode>
+    <ActionListAction>
+      <SetVariableAction>
+        <FloatData description="Variable" name="Credits/CreditsY">400.0</FloatData>
+        <FloatData description="Data">470.0</FloatData>
+      </SetVariableAction>
+      <SetVariableAction>
+        <BoolData description="Variable" name="Credits/RunCreditsList">True</BoolData>
+        <BoolData description="Data">False</BoolData>
+      </SetVariableAction>
+      <SetVariableAction>
+        <BoolData description="Variable" name="Credits/Pause">True</BoolData>
+        <BoolData description="Data">True</BoolData>
+      </SetVariableAction>
+      <ActionPlaceholder />
+    </ActionListAction>
+    <TypeEvent>
+      <Byte description="Input index">0</Byte>
+      <Int32 description="Event type">13</Int32>
+    </TypeEvent>
+  </CullEventActionNode>
+  <TimeoutActionNode>
+    <SetVariableAction description="Action">
+      <BoolData description="Variable" name="Credits/RunCreditsList">True</BoolData>
+      <BoolData description="Data">True</BoolData>
+    </SetVariableAction>
+    <Float description="Timeout time">2.0</Float>
+  </TimeoutActionNode>
+  <SplitNode>
+    <g description="Split node">
+      <CullNode>
+        <OrData description="Do Show">
+          <EqualData description="Data 1">
+            <IntData description="Data 1" name="InhibitMenuBehavior">0</IntData>
+            <IntData description="Data 2">1</IntData>
+          </EqualData>
+          <EqualData description="Data 2">
+            <IntData description="Data 1" name="InhibitMenuBehavior">0</IntData>
+            <IntData description="Data 2">2</IntData>
+          </EqualData>
+        </OrData>
+        <Float description="In time">0.0</Float>
+        <Float description="Out time">0.0</Float>
+      </CullNode>
+      <TransformNode>
+        <Float description="X">0.0</Float>
+        <Float description="Y">150.0</Float>
+        <Float description="Width">800.0</Float>
+        <Float description="Height">20.0</Float>
+        <TextNode description="Transformed node">
+          <StringData description="String">Not available in this version!</StringData>
+          <CenterAlignedStyle description="Style">Trebuchet MS11.dif</CenterAlignedStyle>
+        </TextNode>
+      </TransformNode>
+    </g>
+  </SplitNode>
+  <CullNode>
+    <NotEqualData description="Do Show">
+      <IntData description="Data 1" name="InhibitMenuBehavior">0</IntData>
+      <IntData description="Data 2">1</IntData>
+    </NotEqualData>
+    <Float description="In time">0.0</Float>
+    <Float description="Out time">0.0</Float>
+  </CullNode>
+  <CullNode>
+    <NotEqualData description="Do Show">
+      <IntData description="Data 1" name="InhibitMenuBehavior">0</IntData>
+      <IntData description="Data 2">2</IntData>
+    </NotEqualData>
+    <Float description="In time">0.0</Float>
+    <Float description="Out time">0.0</Float>
+  </CullNode>
+  <TransformNode>
+    <Float description="X">20.0</Float>
+    <Float description="Y">85.0</Float>
+    <Float description="Width">760.0</Float>
+    <Float description="Height">450.0</Float>
+    <g description="Transformed node">
+      <ClipNode />
+      <EffectNode>
+        <ColorEffect description="Effect">
+          <Float description="Red">0.8549000024795532</Float>
+          <Float description="Green">0.8549000024795532</Float>
+          <Float description="Blue">0.5881999731063843</Float>
+          <Float description="Alpha">1.0</Float>
+        </ColorEffect>
+      </EffectNode>
+      <BfTransformNode>
+        <IntData description="X">20</IntData>
+        <FloatData description="Y" name="Credits/CreditsY">400.0</FloatData>
+        <Float description="Width">600.0</Float>
+        <Float description="Height">300.0</Float>
+        <g description="Transformed node">
+          <TransformNode>
+            <Float description="X">0.0</Float>
+            <Float description="Y">0.0</Float>
+            <Float description="Width">500.0</Float>
+            <Float description="Height">40.0</Float>
+            <g description="Transformed node">
+              <TransformNode>
+                <Float description="X">0.0</Float>
+                <Float description="Y">0.0</Float>
+                <Float description="Width">350.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
+                  <StringData description="String">GALACTIC CONQUEST 0.2</StringData>
+                  <RightAlignedStyle description="Style">Trebuchet MS18.dif</RightAlignedStyle>
+                </TextNode>
+              </TransformNode>
+              <TransformNode>
+                <Float description="X">375.0</Float>
+                <Float description="Y">16.0</Float>
+                <Float description="Width">350.0</Float>
+                <Float description="Height">40.0</Float>
+                <TextNode description="Transformed node">
+                  <BfLocaleStringData description="String">
+                    <BfLocaleData description="Locale" name="Locale/Locale">
+                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    </BfLocaleData>
+                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    <StringData description="String Id">A Battlefield: 1942 modification</StringData>
+                  </BfLocaleStringData>
+                  <BfStyle description="Style">standard6.dif</BfStyle>
+                </TextNode>
+              </TransformNode>
+            </g>
+          </TransformNode>
+          <TransformNode>
+            <Float description="X">0.0</Float>
+            <Float description="Y">75.0</Float>
+            <Float description="Width">500.0</Float>
+            <Float description="Height">40.0</Float>
+            <g description="Transformed node">
+              <TransformNode>
+                <Float description="X">0.0</Float>
+                <Float description="Y">0.0</Float>
+                <Float description="Width">350.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
+                  <BfLocaleStringData description="String">
+                    <BfLocaleData description="Locale" name="Locale/Locale">
+                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    </BfLocaleData>
+                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    <StringData description="String Id">Suge</StringData>
+                  </BfLocaleStringData>
+                  <RightAlignedStyle description="Style" name="Style/CreditHeadingStyle">Trebuchet MS14.dif</RightAlignedStyle>
+                </TextNode>
+              </TransformNode>
+              <TransformNode>
+                <Float description="X">375.0</Float>
+                <Float description="Y">11.0</Float>
+                <Float description="Width">360.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
+                  <StringData description="String">Eric Izso - Project Director/Modeler/Skinner</StringData>
+                  <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
+                </TextNode>
+              </TransformNode>
+            </g>
+          </TransformNode>
+          <TransformNode>
+            <Float description="X">0.0</Float>
+            <Float description="Y">150.0</Float>
+            <Float description="Width">500.0</Float>
+            <Float description="Height">40.0</Float>
+            <g description="Transformed node">
+              <TransformNode>
+                <Float description="X">0.0</Float>
+                <Float description="Y">0.0</Float>
+                <Float description="Width">350.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
+                  <BfLocaleStringData description="String">
+                    <BfLocaleData description="Locale" name="Locale/Locale">
+                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    </BfLocaleData>
+                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    <StringData description="String Id">JayBiggs</StringData>
+                  </BfLocaleStringData>
+                  <RightAlignedStyle description="Style" name="Style/CreditHeadingStyle">Trebuchet MS14.dif</RightAlignedStyle>
+                </TextNode>
+              </TransformNode>
+              <TransformNode>
+                <Float description="X">375.0</Float>
+                <Float description="Y">11.0</Float>
+                <Float description="Width">360.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
+                  <StringData description="String">Jevon Paradis - Project Director/Skinner</StringData>
+                  <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
+                </TextNode>
+              </TransformNode>
+            </g>
+          </TransformNode>
+          <TransformNode>
+            <Float description="X">0.0</Float>
+            <Float description="Y">225.0</Float>
+            <Float description="Width">500.0</Float>
+            <Float description="Height">40.0</Float>
+            <g description="Transformed node">
+              <TransformNode>
+                <Float description="X">0.0</Float>
+                <Float description="Y">0.0</Float>
+                <Float description="Width">350.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
+                  <BfLocaleStringData description="String">
+                    <BfLocaleData description="Locale" name="Locale/Locale">
+                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    </BfLocaleData>
+                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    <StringData description="String Id">SZier</StringData>
+                  </BfLocaleStringData>
+                  <RightAlignedStyle description="Style" name="Style/CreditHeadingStyle">Trebuchet MS14.dif</RightAlignedStyle>
+                </TextNode>
+              </TransformNode>
+              <TransformNode>
+                <Float description="X">375.0</Float>
+                <Float description="Y">11.0</Float>
+                <Float description="Width">360.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
+                  <StringData description="String">Scott Zier - Project Director/Modeler/Skinner/Mapper/Coder</StringData>
+                  <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
+                </TextNode>
+              </TransformNode>
+            </g>
+          </TransformNode>
+          <TransformNode>
+            <Float description="X">0.0</Float>
+            <Float description="Y">300.0</Float>
+            <Float description="Width">500.0</Float>
+            <Float description="Height">40.0</Float>
+            <g description="Transformed node">
+              <TransformNode>
+                <Float description="X">0.0</Float>
+                <Float description="Y">0.0</Float>
+                <Float description="Width">350.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
+                  <BfLocaleStringData description="String">
+                    <BfLocaleData description="Locale" name="Locale/Locale">
+                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    </BfLocaleData>
+                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    <StringData description="String Id">Luuri</StringData>
+                  </BfLocaleStringData>
+                  <RightAlignedStyle description="Style" name="Style/CreditHeadingStyle">Trebuchet MS14.dif</RightAlignedStyle>
+                </TextNode>
+              </TransformNode>
+              <TransformNode>
+                <Float description="X">375.0</Float>
+                <Float description="Y">11.0</Float>
+                <Float description="Width">360.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
+                  <StringData description="String">Mikael Achrén - Modeler/Skinner</StringData>
+                  <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
+                </TextNode>
+              </TransformNode>
+            </g>
+          </TransformNode>
+          <TransformNode>
+            <Float description="X">0.0</Float>
+            <Float description="Y">375.0</Float>
+            <Float description="Width">500.0</Float>
+            <Float description="Height">40.0</Float>
+            <g description="Transformed node">
+              <TransformNode>
+                <Float description="X">0.0</Float>
+                <Float description="Y">0.0</Float>
+                <Float description="Width">350.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
+                  <BfLocaleStringData description="String">
+                    <BfLocaleData description="Locale" name="Locale/Locale">
+                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    </BfLocaleData>
+                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    <StringData description="String Id">Socketman</StringData>
+                  </BfLocaleStringData>
+                  <RightAlignedStyle description="Style" name="Style/CreditHeadingStyle">Trebuchet MS14.dif</RightAlignedStyle>
+                </TextNode>
+              </TransformNode>
+              <TransformNode>
+                <Float description="X">375.0</Float>
+                <Float description="Y">11.0</Float>
+                <Float description="Width">360.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
+                  <StringData description="String">Brad Ashford - Mapper</StringData>
+                  <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
+                </TextNode>
+              </TransformNode>
+            </g>
+          </TransformNode>
+          <TransformNode>
+            <Float description="X">0.0</Float>
+            <Float description="Y">450.0</Float>
+            <Float description="Width">500.0</Float>
+            <Float description="Height">40.0</Float>
+            <g description="Transformed node">
+              <TransformNode>
+                <Float description="X">0.0</Float>
+                <Float description="Y">0.0</Float>
+                <Float description="Width">350.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
+                  <BfLocaleStringData description="String">
+                    <BfLocaleData description="Locale" name="Locale/Locale">
+                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    </BfLocaleData>
+                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    <StringData description="String Id">Phantom</StringData>
+                  </BfLocaleStringData>
+                  <RightAlignedStyle description="Style" name="Style/CreditHeadingStyle">Trebuchet MS14.dif</RightAlignedStyle>
+                </TextNode>
+              </TransformNode>
+              <TransformNode>
+                <Float description="X">375.0</Float>
+                <Float description="Y">11.0</Float>
+                <Float description="Width">360.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
+                  <StringData description="String">Daniel Aston - Mapper</StringData>
+                  <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
+                </TextNode>
+              </TransformNode>
+            </g>
+          </TransformNode>
+          <TransformNode>
+            <Float description="X">0.0</Float>
+            <Float description="Y">525.0</Float>
+            <Float description="Width">500.0</Float>
+            <Float description="Height">40.0</Float>
+            <g description="Transformed node">
+              <TransformNode>
+                <Float description="X">0.0</Float>
+                <Float description="Y">0.0</Float>
+                <Float description="Width">350.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
+                  <BfLocaleStringData description="String">
+                    <BfLocaleData description="Locale" name="Locale/Locale">
+                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    </BfLocaleData>
+                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    <StringData description="String Id">AbblePC</StringData>
+                  </BfLocaleStringData>
+                  <RightAlignedStyle description="Style" name="Style/CreditHeadingStyle">Trebuchet MS14.dif</RightAlignedStyle>
+                </TextNode>
+              </TransformNode>
+              <TransformNode>
+                <Float description="X">375.0</Float>
+                <Float description="Y">11.0</Float>
+                <Float description="Width">360.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
+                  <StringData description="String">Jeff Beck - Coder</StringData>
+                  <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
+                </TextNode>
+              </TransformNode>
+            </g>
+          </TransformNode>
+          <TransformNode>
+            <Float description="X">0.0</Float>
+            <Float description="Y">600.0</Float>
+            <Float description="Width">500.0</Float>
+            <Float description="Height">40.0</Float>
+            <g description="Transformed node">
+              <TransformNode>
+                <Float description="X">0.0</Float>
+                <Float description="Y">0.0</Float>
+                <Float description="Width">350.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
+                  <BfLocaleStringData description="String">
+                    <BfLocaleData description="Locale" name="Locale/Locale">
+                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    </BfLocaleData>
+                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    <StringData description="String Id">Psistorm</StringData>
+                  </BfLocaleStringData>
+                  <RightAlignedStyle description="Style" name="Style/CreditHeadingStyle">Trebuchet MS14.dif</RightAlignedStyle>
+                </TextNode>
+              </TransformNode>
+              <TransformNode>
+                <Float description="X">375.0</Float>
+                <Float description="Y">11.0</Float>
+                <Float description="Width">360.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
+                  <StringData description="String">Stefan Biermann - Modeler</StringData>
+                  <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
+                </TextNode>
+              </TransformNode>
+            </g>
+          </TransformNode>
+          <TransformNode>
+            <Float description="X">0.0</Float>
+            <Float description="Y">675.0</Float>
+            <Float description="Width">500.0</Float>
+            <Float description="Height">40.0</Float>
+            <g description="Transformed node">
+              <TransformNode>
+                <Float description="X">0.0</Float>
+                <Float description="Y">0.0</Float>
+                <Float description="Width">350.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
+                  <BfLocaleStringData description="String">
+                    <BfLocaleData description="Locale" name="Locale/Locale">
+                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    </BfLocaleData>
+                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    <StringData description="String Id">Wardancer</StringData>
+                  </BfLocaleStringData>
+                  <RightAlignedStyle description="Style" name="Style/CreditHeadingStyle">Trebuchet MS14.dif</RightAlignedStyle>
+                </TextNode>
+              </TransformNode>
+              <TransformNode>
+                <Float description="X">375.0</Float>
+                <Float description="Y">11.0</Float>
+                <Float description="Width">360.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
+                  <StringData description="String">Svante Ekström - Tech Support/Forum Moderator</StringData>
+                  <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
+                </TextNode>
+              </TransformNode>
+            </g>
+          </TransformNode>
+          <TransformNode>
+            <Float description="X">0.0</Float>
+            <Float description="Y">750.0</Float>
+            <Float description="Width">500.0</Float>
+            <Float description="Height">40.0</Float>
+            <g description="Transformed node">
+              <TransformNode>
+                <Float description="X">0.0</Float>
+                <Float description="Y">0.0</Float>
+                <Float description="Width">350.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
+                  <BfLocaleStringData description="String">
+                    <BfLocaleData description="Locale" name="Locale/Locale">
+                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    </BfLocaleData>
+                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    <StringData description="String Id">CourtesyFlush</StringData>
+                  </BfLocaleStringData>
+                  <RightAlignedStyle description="Style" name="Style/CreditHeadingStyle">Trebuchet MS14.dif</RightAlignedStyle>
+                </TextNode>
+              </TransformNode>
+              <TransformNode>
+                <Float description="X">375.0</Float>
+                <Float description="Y">11.0</Float>
+                <Float description="Width">360.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
+                  <StringData description="String">Nathan Frost - Modeler/Skinner</StringData>
+                  <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
+                </TextNode>
+              </TransformNode>
+            </g>
+          </TransformNode>
+          <TransformNode>
+            <Float description="X">0.0</Float>
+            <Float description="Y">825.0</Float>
+            <Float description="Width">500.0</Float>
+            <Float description="Height">40.0</Float>
+            <g description="Transformed node">
+              <TransformNode>
+                <Float description="X">0.0</Float>
+                <Float description="Y">0.0</Float>
+                <Float description="Width">350.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
+                  <BfLocaleStringData description="String">
+                    <BfLocaleData description="Locale" name="Locale/Locale">
+                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    </BfLocaleData>
+                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    <StringData description="String Id">Alec Harrison</StringData>
+                  </BfLocaleStringData>
+                  <RightAlignedStyle description="Style" name="Style/CreditHeadingStyle">Trebuchet MS14.dif</RightAlignedStyle>
+                </TextNode>
+              </TransformNode>
+              <TransformNode>
+                <Float description="X">375.0</Float>
+                <Float description="Y">11.0</Float>
+                <Float description="Width">360.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
+                  <StringData description="String">Music Composition</StringData>
+                  <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
+                </TextNode>
+              </TransformNode>
+            </g>
+          </TransformNode>
+          <TransformNode>
+            <Float description="X">0.0</Float>
+            <Float description="Y">900.0</Float>
+            <Float description="Width">500.0</Float>
+            <Float description="Height">40.0</Float>
+            <g description="Transformed node">
+              <TransformNode>
+                <Float description="X">0.0</Float>
+                <Float description="Y">0.0</Float>
+                <Float description="Width">350.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
+                  <BfLocaleStringData description="String">
+                    <BfLocaleData description="Locale" name="Locale/Locale">
+                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    </BfLocaleData>
+                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    <StringData description="String Id">HaVoK-G2</StringData>
+                  </BfLocaleStringData>
+                  <RightAlignedStyle description="Style" name="Style/CreditHeadingStyle">Trebuchet MS14.dif</RightAlignedStyle>
+                </TextNode>
+              </TransformNode>
+              <TransformNode>
+                <Float description="X">375.0</Float>
+                <Float description="Y">11.0</Float>
+                <Float description="Width">360.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
+                  <StringData description="String">Tim Hyde II - Modeler/Skinner</StringData>
+                  <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
+                </TextNode>
+              </TransformNode>
+            </g>
+          </TransformNode>
+          <TransformNode>
+            <Float description="X">0.0</Float>
+            <Float description="Y">975.0</Float>
+            <Float description="Width">500.0</Float>
+            <Float description="Height">40.0</Float>
+            <g description="Transformed node">
+              <TransformNode>
+                <Float description="X">0.0</Float>
+                <Float description="Y">0.0</Float>
+                <Float description="Width">350.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
+                  <BfLocaleStringData description="String">
+                    <BfLocaleData description="Locale" name="Locale/Locale">
+                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    </BfLocaleData>
+                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    <StringData description="String Id">Miztah</StringData>
+                  </BfLocaleStringData>
+                  <RightAlignedStyle description="Style" name="Style/CreditHeadingStyle">Trebuchet MS14.dif</RightAlignedStyle>
+                </TextNode>
+              </TransformNode>
+              <TransformNode>
+                <Float description="X">375.0</Float>
+                <Float description="Y">11.0</Float>
+                <Float description="Width">360.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
+                  <StringData description="String">Matt Jones - Public Relations/Mapper</StringData>
+                  <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
+                </TextNode>
+              </TransformNode>
+            </g>
+          </TransformNode>
+          <TransformNode>
+            <Float description="X">0.0</Float>
+            <Float description="Y">1050.0</Float>
+            <Float description="Width">500.0</Float>
+            <Float description="Height">40.0</Float>
+            <g description="Transformed node">
+              <TransformNode>
+                <Float description="X">0.0</Float>
+                <Float description="Y">0.0</Float>
+                <Float description="Width">350.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
+                  <BfLocaleStringData description="String">
+                    <BfLocaleData description="Locale" name="Locale/Locale">
+                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    </BfLocaleData>
+                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    <StringData description="String Id">neko^</StringData>
+                  </BfLocaleStringData>
+                  <RightAlignedStyle description="Style" name="Style/CreditHeadingStyle">Trebuchet MS14.dif</RightAlignedStyle>
+                </TextNode>
+              </TransformNode>
+              <TransformNode>
+                <Float description="X">375.0</Float>
+                <Float description="Y">11.0</Float>
+                <Float description="Width">360.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
+                  <StringData description="String">Albert Kaaman - Modeler</StringData>
+                  <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
+                </TextNode>
+              </TransformNode>
+            </g>
+          </TransformNode>
+          <TransformNode>
+            <Float description="X">0.0</Float>
+            <Float description="Y">1125.0</Float>
+            <Float description="Width">500.0</Float>
+            <Float description="Height">40.0</Float>
+            <g description="Transformed node">
+              <TransformNode>
+                <Float description="X">0.0</Float>
+                <Float description="Y">0.0</Float>
+                <Float description="Width">350.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
+                  <BfLocaleStringData description="String">
+                    <BfLocaleData description="Locale" name="Locale/Locale">
+                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    </BfLocaleData>
+                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    <StringData description="String Id">Loopfish</StringData>
+                  </BfLocaleStringData>
+                  <RightAlignedStyle description="Style" name="Style/CreditHeadingStyle">Trebuchet MS14.dif</RightAlignedStyle>
+                </TextNode>
+              </TransformNode>
+              <TransformNode>
+                <Float description="X">375.0</Float>
+                <Float description="Y">11.0</Float>
+                <Float description="Width">360.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
+                  <StringData description="String">Sam Komfner - Coder/Sound Engineer</StringData>
+                  <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
+                </TextNode>
+              </TransformNode>
+            </g>
+          </TransformNode>
+          <TransformNode>
+            <Float description="X">0.0</Float>
+            <Float description="Y">1200.0</Float>
+            <Float description="Width">500.0</Float>
+            <Float description="Height">40.0</Float>
+            <g description="Transformed node">
+              <TransformNode>
+                <Float description="X">0.0</Float>
+                <Float description="Y">0.0</Float>
+                <Float description="Width">350.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
+                  <BfLocaleStringData description="String">
+                    <BfLocaleData description="Locale" name="Locale/Locale">
+                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    </BfLocaleData>
+                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    <StringData description="String Id">Liam--</StringData>
+                  </BfLocaleStringData>
+                  <RightAlignedStyle description="Style" name="Style/CreditHeadingStyle">Trebuchet MS14.dif</RightAlignedStyle>
+                </TextNode>
+              </TransformNode>
+              <TransformNode>
+                <Float description="X">375.0</Float>
+                <Float description="Y">11.0</Float>
+                <Float description="Width">360.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
+                  <StringData description="String">Liam Lawson - Mapper/Coder</StringData>
+                  <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
+                </TextNode>
+              </TransformNode>
+            </g>
+          </TransformNode>
+          <TransformNode>
+            <Float description="X">0.0</Float>
+            <Float description="Y">1275.0</Float>
+            <Float description="Width">500.0</Float>
+            <Float description="Height">40.0</Float>
+            <g description="Transformed node">
+              <TransformNode>
+                <Float description="X">0.0</Float>
+                <Float description="Y">0.0</Float>
+                <Float description="Width">350.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
+                  <BfLocaleStringData description="String">
+                    <BfLocaleData description="Locale" name="Locale/Locale">
+                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    </BfLocaleData>
+                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    <StringData description="String Id">Guy-OnThe-Couch</StringData>
+                  </BfLocaleStringData>
+                  <RightAlignedStyle description="Style" name="Style/CreditHeadingStyle">Trebuchet MS14.dif</RightAlignedStyle>
+                </TextNode>
+              </TransformNode>
+              <TransformNode>
+                <Float description="X">375.0</Float>
+                <Float description="Y">11.0</Float>
+                <Float description="Width">360.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
+                  <StringData description="String">Anthony Luzier - Mapper</StringData>
+                  <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
+                </TextNode>
+              </TransformNode>
+            </g>
+          </TransformNode>
+          <TransformNode>
+            <Float description="X">0.0</Float>
+            <Float description="Y">1350.0</Float>
+            <Float description="Width">500.0</Float>
+            <Float description="Height">40.0</Float>
+            <g description="Transformed node">
+              <TransformNode>
+                <Float description="X">0.0</Float>
+                <Float description="Y">0.0</Float>
+                <Float description="Width">350.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
+                  <BfLocaleStringData description="String">
+                    <BfLocaleData description="Locale" name="Locale/Locale">
+                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    </BfLocaleData>
+                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    <StringData description="String Id">VocalVoodoo</StringData>
+                  </BfLocaleStringData>
+                  <RightAlignedStyle description="Style" name="Style/CreditHeadingStyle">Trebuchet MS14.dif</RightAlignedStyle>
+                </TextNode>
+              </TransformNode>
+              <TransformNode>
+                <Float description="X">375.0</Float>
+                <Float description="Y">11.0</Float>
+                <Float description="Width">360.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
+                  <StringData description="String">Josh Mahler - Sound/Voice actor</StringData>
+                  <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
+                </TextNode>
+              </TransformNode>
+            </g>
+          </TransformNode>
+          <TransformNode>
+            <Float description="X">0.0</Float>
+            <Float description="Y">1425.0</Float>
+            <Float description="Width">500.0</Float>
+            <Float description="Height">40.0</Float>
+            <g description="Transformed node">
+              <TransformNode>
+                <Float description="X">0.0</Float>
+                <Float description="Y">0.0</Float>
+                <Float description="Width">350.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
+                  <BfLocaleStringData description="String">
+                    <BfLocaleData description="Locale" name="Locale/Locale">
+                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    </BfLocaleData>
+                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    <StringData description="String Id">Preacher</StringData>
+                  </BfLocaleStringData>
+                  <RightAlignedStyle description="Style" name="Style/CreditHeadingStyle">Trebuchet MS14.dif</RightAlignedStyle>
+                </TextNode>
+              </TransformNode>
+              <TransformNode>
+                <Float description="X">375.0</Float>
+                <Float description="Y">11.0</Float>
+                <Float description="Width">360.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
+                  <StringData description="String">Gareth O'Neill - Modeler/Skinner/2D Artist</StringData>
+                  <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
+                </TextNode>
+              </TransformNode>
+            </g>
+          </TransformNode>
+          <TransformNode>
+            <Float description="X">0.0</Float>
+            <Float description="Y">1500.0</Float>
+            <Float description="Width">500.0</Float>
+            <Float description="Height">40.0</Float>
+            <g description="Transformed node">
+              <TransformNode>
+                <Float description="X">0.0</Float>
+                <Float description="Y">0.0</Float>
+                <Float description="Width">350.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
+                  <BfLocaleStringData description="String">
+                    <BfLocaleData description="Locale" name="Locale/Locale">
+                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    </BfLocaleData>
+                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    <StringData description="String Id">Killthraka</StringData>
+                  </BfLocaleStringData>
+                  <RightAlignedStyle description="Style" name="Style/CreditHeadingStyle">Trebuchet MS14.dif</RightAlignedStyle>
+                </TextNode>
+              </TransformNode>
+              <TransformNode>
+                <Float description="X">375.0</Float>
+                <Float description="Y">11.0</Float>
+                <Float description="Width">360.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
+                  <StringData description="String">Tavis Settles - Tech Support/Server Admin</StringData>
+                  <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
+                </TextNode>
+              </TransformNode>
+            </g>
+          </TransformNode>
+          <TransformNode>
+            <Float description="X">0.0</Float>
+            <Float description="Y">1575.0</Float>
+            <Float description="Width">500.0</Float>
+            <Float description="Height">40.0</Float>
+            <g description="Transformed node">
+              <TransformNode>
+                <Float description="X">0.0</Float>
+                <Float description="Y">0.0</Float>
+                <Float description="Width">350.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
+                  <BfLocaleStringData description="String">
+                    <BfLocaleData description="Locale" name="Locale/Locale">
+                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    </BfLocaleData>
+                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    <StringData description="String Id">YoYo</StringData>
+                  </BfLocaleStringData>
+                  <RightAlignedStyle description="Style" name="Style/CreditHeadingStyle">Trebuchet MS14.dif</RightAlignedStyle>
+                </TextNode>
+              </TransformNode>
+              <TransformNode>
+                <Float description="X">375.0</Float>
+                <Float description="Y">11.0</Float>
+                <Float description="Width">360.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
+                  <StringData description="String">Nick Simonetti - Modeler/Skinner</StringData>
+                  <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
+                </TextNode>
+              </TransformNode>
+            </g>
+          </TransformNode>
+          <TransformNode>
+            <Float description="X">0.0</Float>
+            <Float description="Y">1650.0</Float>
+            <Float description="Width">500.0</Float>
+            <Float description="Height">40.0</Float>
+            <g description="Transformed node">
+              <TransformNode>
+                <Float description="X">0.0</Float>
+                <Float description="Y">0.0</Float>
+                <Float description="Width">350.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
+                  <BfLocaleStringData description="String">
+                    <BfLocaleData description="Locale" name="Locale/Locale">
+                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    </BfLocaleData>
+                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    <StringData description="String Id">Kman</StringData>
+                  </BfLocaleStringData>
+                  <RightAlignedStyle description="Style" name="Style/CreditHeadingStyle">Trebuchet MS14.dif</RightAlignedStyle>
+                </TextNode>
+              </TransformNode>
+              <TransformNode>
+                <Float description="X">375.0</Float>
+                <Float description="Y">11.0</Float>
+                <Float description="Width">360.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
+                  <StringData description="String">Kurtis Smith - Modeler/Skinner</StringData>
+                  <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
+                </TextNode>
+              </TransformNode>
+            </g>
+          </TransformNode>
+          <TransformNode>
+            <Float description="X">0.0</Float>
+            <Float description="Y">1725.0</Float>
+            <Float description="Width">500.0</Float>
+            <Float description="Height">40.0</Float>
+            <g description="Transformed node">
+              <TransformNode>
+                <Float description="X">0.0</Float>
+                <Float description="Y">0.0</Float>
+                <Float description="Width">350.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
+                  <BfLocaleStringData description="String">
+                    <BfLocaleData description="Locale" name="Locale/Locale">
+                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    </BfLocaleData>
+                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    <StringData description="String Id">MUHAHAHAHAHA</StringData>
+                  </BfLocaleStringData>
+                  <RightAlignedStyle description="Style" name="Style/CreditHeadingStyle">Trebuchet MS14.dif</RightAlignedStyle>
+                </TextNode>
+              </TransformNode>
+              <TransformNode>
+                <Float description="X">375.0</Float>
+                <Float description="Y">11.0</Float>
+                <Float description="Width">360.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
+                  <StringData description="String">Rob Stiasny - Coder/Installers</StringData>
+                  <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
+                </TextNode>
+              </TransformNode>
+            </g>
+          </TransformNode>
+          <TransformNode>
+            <Float description="X">0.0</Float>
+            <Float description="Y">1800.0</Float>
+            <Float description="Width">500.0</Float>
+            <Float description="Height">40.0</Float>
+            <g description="Transformed node">
+              <TransformNode>
+                <Float description="X">0.0</Float>
+                <Float description="Y">0.0</Float>
+                <Float description="Width">350.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
+                  <BfLocaleStringData description="String">
+                    <BfLocaleData description="Locale" name="Locale/Locale">
+                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    </BfLocaleData>
+                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    <StringData description="String Id">Frame_1</StringData>
+                  </BfLocaleStringData>
+                  <RightAlignedStyle description="Style" name="Style/CreditHeadingStyle">Trebuchet MS14.dif</RightAlignedStyle>
+                </TextNode>
+              </TransformNode>
+              <TransformNode>
+                <Float description="X">375.0</Float>
+                <Float description="Y">11.0</Float>
+                <Float description="Width">360.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
+                  <StringData description="String">Ralph Wiggum - Mapper/Modeler</StringData>
+                  <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
+                </TextNode>
+              </TransformNode>
+            </g>
+          </TransformNode>
+          <TransformNode>
+            <Float description="X">0.0</Float>
+            <Float description="Y">1875.0</Float>
+            <Float description="Width">500.0</Float>
+            <Float description="Height">40.0</Float>
+            <g description="Transformed node">
+              <TransformNode>
+                <Float description="X">0.0</Float>
+                <Float description="Y">0.0</Float>
+                <Float description="Width">350.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
+                  <BfLocaleStringData description="String">
+                    <BfLocaleData description="Locale" name="Locale/Locale">
+                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    </BfLocaleData>
+                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    <StringData description="String Id">Gamboot</StringData>
+                  </BfLocaleStringData>
+                  <RightAlignedStyle description="Style" name="Style/CreditHeadingStyle">Trebuchet MS14.dif</RightAlignedStyle>
+                </TextNode>
+              </TransformNode>
+              <TransformNode>
+                <Float description="X">375.0</Float>
+                <Float description="Y">11.0</Float>
+                <Float description="Width">360.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
+                  <StringData description="String">Dave Wilson - GC Official Helper/Spirit Leader</StringData>
+                  <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
+                </TextNode>
+              </TransformNode>
+            </g>
+          </TransformNode>
+          <TransformNode>
+            <Float description="X">0.0</Float>
+            <Float description="Y">1950.0</Float>
+            <Float description="Width">500.0</Float>
+            <Float description="Height">40.0</Float>
+            <g description="Transformed node">
+              <TransformNode>
+                <Float description="X">0.0</Float>
+                <Float description="Y">0.0</Float>
+                <Float description="Width">350.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
+                  <BfLocaleStringData description="String">
+                    <BfLocaleData description="Locale" name="Locale/Locale">
+                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    </BfLocaleData>
+                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    <StringData description="String Id">DirtyLowMoFo</StringData>
+                  </BfLocaleStringData>
+                  <RightAlignedStyle description="Style" name="Style/CreditHeadingStyle">Trebuchet MS14.dif</RightAlignedStyle>
+                </TextNode>
+              </TransformNode>
+              <TransformNode>
+                <Float description="X">375.0</Float>
+                <Float description="Y">11.0</Float>
+                <Float description="Width">360.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
+                  <StringData description="String">Rob  - Modeler/Skinner/Coder</StringData>
+                  <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
+                </TextNode>
+              </TransformNode>
+            </g>
+          </TransformNode>
+          <TransformNode>
+            <Float description="X">0.0</Float>
+            <Float description="Y">2025.0</Float>
+            <Float description="Width">500.0</Float>
+            <Float description="Height">40.0</Float>
+            <g description="Transformed node">
+              <TransformNode>
+                <Float description="X">0.0</Float>
+                <Float description="Y">0.0</Float>
+                <Float description="Width">350.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
+                  <BfLocaleStringData description="String">
+                    <BfLocaleData description="Locale" name="Locale/Locale">
+                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    </BfLocaleData>
+                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    <StringData description="String Id">GITS</StringData>
+                  </BfLocaleStringData>
+                  <RightAlignedStyle description="Style" name="Style/CreditHeadingStyle">Trebuchet MS14.dif</RightAlignedStyle>
+                </TextNode>
+              </TransformNode>
+              <TransformNode>
+                <Float description="X">375.0</Float>
+                <Float description="Y">11.0</Float>
+                <Float description="Width">360.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
+                  <StringData description="String">Modeler</StringData>
+                  <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
+                </TextNode>
+              </TransformNode>
+            </g>
+          </TransformNode>
+          <TransformNode>
+            <Float description="X">0.0</Float>
+            <Float description="Y">2100.0</Float>
+            <Float description="Width">500.0</Float>
+            <Float description="Height">40.0</Float>
+            <g description="Transformed node">
+              <TransformNode>
+                <Float description="X">0.0</Float>
+                <Float description="Y">0.0</Float>
+                <Float description="Width">350.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
+                  <BfLocaleStringData description="String">
+                    <BfLocaleData description="Locale" name="Locale/Locale">
+                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    </BfLocaleData>
+                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    <StringData description="String Id">DracoNB</StringData>
+                  </BfLocaleStringData>
+                  <RightAlignedStyle description="Style" name="Style/CreditHeadingStyle">Trebuchet MS14.dif</RightAlignedStyle>
+                </TextNode>
+              </TransformNode>
+              <TransformNode>
+                <Float description="X">375.0</Float>
+                <Float description="Y">11.0</Float>
+                <Float description="Width">360.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
+                  <StringData description="String">John Mackay - Modeler</StringData>
+                  <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
+                </TextNode>
+              </TransformNode>
+            </g>
+          </TransformNode>
+          <TransformNode>
+            <Float description="X">0.0</Float>
+            <Float description="Y">2175.0</Float>
+            <Float description="Width">500.0</Float>
+            <Float description="Height">40.0</Float>
+            <g description="Transformed node">
+              <TransformNode>
+                <Float description="X">0.0</Float>
+                <Float description="Y">0.0</Float>
+                <Float description="Width">350.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
+                  <BfLocaleStringData description="String">
+                    <BfLocaleData description="Locale" name="Locale/Locale">
+                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    </BfLocaleData>
+                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    <StringData description="String Id">NoMeN</StringData>
+                  </BfLocaleStringData>
+                  <RightAlignedStyle description="Style" name="Style/CreditHeadingStyle">Trebuchet MS14.dif</RightAlignedStyle>
+                </TextNode>
+              </TransformNode>
+              <TransformNode>
+                <Float description="X">375.0</Float>
+                <Float description="Y">11.0</Float>
+                <Float description="Width">360.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
+                  <StringData description="String">Norman - Skinner</StringData>
+                  <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
+                </TextNode>
+              </TransformNode>
+            </g>
+          </TransformNode>
+          <TransformNode>
+            <Float description="X">0.0</Float>
+            <Float description="Y">2250.0</Float>
+            <Float description="Width">500.0</Float>
+            <Float description="Height">40.0</Float>
+            <g description="Transformed node">
+              <TransformNode>
+                <Float description="X">0.0</Float>
+                <Float description="Y">0.0</Float>
+                <Float description="Width">350.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
+                  <BfLocaleStringData description="String">
+                    <BfLocaleData description="Locale" name="Locale/Locale">
+                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    </BfLocaleData>
+                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    <StringData description="String Id">Limper</StringData>
+                  </BfLocaleStringData>
+                  <RightAlignedStyle description="Style" name="Style/CreditHeadingStyle">Trebuchet MS14.dif</RightAlignedStyle>
+                </TextNode>
+              </TransformNode>
+              <TransformNode>
+                <Float description="X">375.0</Float>
+                <Float description="Y">11.0</Float>
+                <Float description="Width">360.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
+                  <StringData description="String">Modeler</StringData>
+                  <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
+                </TextNode>
+              </TransformNode>
+            </g>
+          </TransformNode>
+          <TransformNode>
+            <Float description="X">0.0</Float>
+            <Float description="Y">2325.0</Float>
+            <Float description="Width">500.0</Float>
+            <Float description="Height">40.0</Float>
+            <g description="Transformed node">
+              <TransformNode>
+                <Float description="X">0.0</Float>
+                <Float description="Y">0.0</Float>
+                <Float description="Width">350.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
+                  <BfLocaleStringData description="String">
+                    <BfLocaleData description="Locale" name="Locale/Locale">
+                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    </BfLocaleData>
+                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    <StringData description="String Id">Special Thanks</StringData>
+                  </BfLocaleStringData>
+                  <RightAlignedStyle description="Style" name="Style/CreditHeadingStyle">Trebuchet MS14.dif</RightAlignedStyle>
+                </TextNode>
+              </TransformNode>
+              <TransformNode>
+                <Float description="X">375.0</Float>
+                <Float description="Y">11.0</Float>
+                <Float description="Width">360.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
+                  <StringData description="String">The few, the proud, the Galactic </StringData>
+                  <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
+                </TextNode>
+              </TransformNode>
+            </g>
+          </TransformNode>
+          <TransformNode>
+            <Float description="X">0.0</Float>
+            <Float description="Y">2345.0</Float>
+            <Float description="Width">500.0</Float>
+            <Float description="Height">40.0</Float>
+            <g description="Transformed node">
+              <TransformNode>
+                <Float description="X">0.0</Float>
+                <Float description="Y">0.0</Float>
+                <Float description="Width">350.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
+                  <BfLocaleStringData description="String">
+                    <BfLocaleData description="Locale" name="Locale/Locale">
+                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    </BfLocaleData>
+                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    <StringData description="String Id" />
+                  </BfLocaleStringData>
+                  <RightAlignedStyle description="Style" name="Style/CreditHeadingStyle">Trebuchet MS14.dif</RightAlignedStyle>
+                </TextNode>
+              </TransformNode>
+              <TransformNode>
+                <Float description="X">375.0</Float>
+                <Float description="Y">11.0</Float>
+                <Float description="Width">360.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
+                  <StringData description="String">Conquest Alpha testers</StringData>
+                  <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
+                </TextNode>
+              </TransformNode>
+            </g>
+          </TransformNode>
+          <TransformNode>
+            <Float description="X">0.0</Float>
+            <Float description="Y">2365.0</Float>
+            <Float description="Width">500.0</Float>
+            <Float description="Height">40.0</Float>
+            <g description="Transformed node">
+              <TransformNode>
+                <Float description="X">0.0</Float>
+                <Float description="Y">0.0</Float>
+                <Float description="Width">350.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
+                  <BfLocaleStringData description="String">
+                    <BfLocaleData description="Locale" name="Locale/Locale">
+                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    </BfLocaleData>
+                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    <StringData description="String Id" />
+                  </BfLocaleStringData>
+                  <RightAlignedStyle description="Style" name="Style/CreditHeadingStyle">Trebuchet MS14.dif</RightAlignedStyle>
+                </TextNode>
+              </TransformNode>
+              <TransformNode>
+                <Float description="X">375.0</Float>
+                <Float description="Y">11.0</Float>
+                <Float description="Width">360.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
+                  <StringData description="String">All of our fans!!!!</StringData>
+                  <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
+                </TextNode>
+              </TransformNode>
+            </g>
+          </TransformNode>
+          <TransformNode>
+            <Float description="X">0.0</Float>
+            <Float description="Y">2385.0</Float>
+            <Float description="Width">500.0</Float>
+            <Float description="Height">40.0</Float>
+            <g description="Transformed node">
+              <TransformNode>
+                <Float description="X">0.0</Float>
+                <Float description="Y">0.0</Float>
+                <Float description="Width">350.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
+                  <BfLocaleStringData description="String">
+                    <BfLocaleData description="Locale" name="Locale/Locale">
+                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    </BfLocaleData>
+                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    <StringData description="String Id" />
+                  </BfLocaleStringData>
+                  <RightAlignedStyle description="Style" name="Style/CreditHeadingStyle">Trebuchet MS14.dif</RightAlignedStyle>
+                </TextNode>
+              </TransformNode>
+              <TransformNode>
+                <Float description="X">375.0</Float>
+                <Float description="Y">11.0</Float>
+                <Float description="Width">360.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
+                  <StringData description="String">George Lucas and everyone at </StringData>
+                  <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
+                </TextNode>
+              </TransformNode>
+            </g>
+          </TransformNode>
+          <TransformNode>
+            <Float description="X">0.0</Float>
+            <Float description="Y">2405.0</Float>
+            <Float description="Width">500.0</Float>
+            <Float description="Height">40.0</Float>
+            <g description="Transformed node">
+              <TransformNode>
+                <Float description="X">0.0</Float>
+                <Float description="Y">0.0</Float>
+                <Float description="Width">350.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
+                  <BfLocaleStringData description="String">
+                    <BfLocaleData description="Locale" name="Locale/Locale">
+                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    </BfLocaleData>
+                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    <StringData description="String Id" />
+                  </BfLocaleStringData>
+                  <RightAlignedStyle description="Style" name="Style/CreditHeadingStyle">Trebuchet MS14.dif</RightAlignedStyle>
+                </TextNode>
+              </TransformNode>
+              <TransformNode>
+                <Float description="X">375.0</Float>
+                <Float description="Y">11.0</Float>
+                <Float description="Width">360.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
+                  <StringData description="String">LucasFilms Ltd, Industrial Light</StringData>
+                  <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
+                </TextNode>
+              </TransformNode>
+            </g>
+          </TransformNode>
+          <TransformNode>
+            <Float description="X">0.0</Float>
+            <Float description="Y">2425.0</Float>
+            <Float description="Width">500.0</Float>
+            <Float description="Height">40.0</Float>
+            <g description="Transformed node">
+              <TransformNode>
+                <Float description="X">0.0</Float>
+                <Float description="Y">0.0</Float>
+                <Float description="Width">350.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
+                  <BfLocaleStringData description="String">
+                    <BfLocaleData description="Locale" name="Locale/Locale">
+                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    </BfLocaleData>
+                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    <StringData description="String Id" />
+                  </BfLocaleStringData>
+                  <RightAlignedStyle description="Style" name="Style/CreditHeadingStyle">Trebuchet MS14.dif</RightAlignedStyle>
+                </TextNode>
+              </TransformNode>
+              <TransformNode>
+                <Float description="X">375.0</Float>
+                <Float description="Y">11.0</Float>
+                <Float description="Width">360.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
+                  <StringData description="String">and Magic, LucasArts and everyone</StringData>
+                  <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
+                </TextNode>
+              </TransformNode>
+            </g>
+          </TransformNode>
+          <TransformNode>
+            <Float description="X">0.0</Float>
+            <Float description="Y">2445.0</Float>
+            <Float description="Width">500.0</Float>
+            <Float description="Height">40.0</Float>
+            <g description="Transformed node">
+              <TransformNode>
+                <Float description="X">0.0</Float>
+                <Float description="Y">0.0</Float>
+                <Float description="Width">350.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
+                  <BfLocaleStringData description="String">
+                    <BfLocaleData description="Locale" name="Locale/Locale">
+                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    </BfLocaleData>
+                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    <StringData description="String Id" />
+                  </BfLocaleStringData>
+                  <RightAlignedStyle description="Style" name="Style/CreditHeadingStyle">Trebuchet MS14.dif</RightAlignedStyle>
+                </TextNode>
+              </TransformNode>
+              <TransformNode>
+                <Float description="X">375.0</Float>
+                <Float description="Y">11.0</Float>
+                <Float description="Width">360.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
+                  <StringData description="String">who made the films and universe </StringData>
+                  <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
+                </TextNode>
+              </TransformNode>
+            </g>
+          </TransformNode>
+          <TransformNode>
+            <Float description="X">0.0</Float>
+            <Float description="Y">2465.0</Float>
+            <Float description="Width">500.0</Float>
+            <Float description="Height">40.0</Float>
+            <g description="Transformed node">
+              <TransformNode>
+                <Float description="X">0.0</Float>
+                <Float description="Y">0.0</Float>
+                <Float description="Width">350.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
+                  <BfLocaleStringData description="String">
+                    <BfLocaleData description="Locale" name="Locale/Locale">
+                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    </BfLocaleData>
+                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    <StringData description="String Id" />
+                  </BfLocaleStringData>
+                  <RightAlignedStyle description="Style" name="Style/CreditHeadingStyle">Trebuchet MS14.dif</RightAlignedStyle>
+                </TextNode>
+              </TransformNode>
+              <TransformNode>
+                <Float description="X">375.0</Float>
+                <Float description="Y">11.0</Float>
+                <Float description="Width">360.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
+                  <StringData description="String">that inspired this fan-made mod.</StringData>
+                  <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
+                </TextNode>
+              </TransformNode>
+            </g>
+          </TransformNode>
+          <TransformNode>
+            <Float description="X">0.0</Float>
+            <Float description="Y">2485.0</Float>
+            <Float description="Width">500.0</Float>
+            <Float description="Height">40.0</Float>
+            <g description="Transformed node">
+              <TransformNode>
+                <Float description="X">0.0</Float>
+                <Float description="Y">0.0</Float>
+                <Float description="Width">350.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
+                  <BfLocaleStringData description="String">
+                    <BfLocaleData description="Locale" name="Locale/Locale">
+                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    </BfLocaleData>
+                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    <StringData description="String Id" />
+                  </BfLocaleStringData>
+                  <RightAlignedStyle description="Style" name="Style/CreditHeadingStyle">Trebuchet MS14.dif</RightAlignedStyle>
+                </TextNode>
+              </TransformNode>
+              <TransformNode>
+                <Float description="X">375.0</Float>
+                <Float description="Y">11.0</Float>
+                <Float description="Width">360.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
+                  <StringData description="String">Everyone at Digital Illusions CE</StringData>
+                  <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
+                </TextNode>
+              </TransformNode>
+            </g>
+          </TransformNode>
+          <TransformNode>
+            <Float description="X">0.0</Float>
+            <Float description="Y">2505.0</Float>
+            <Float description="Width">500.0</Float>
+            <Float description="Height">40.0</Float>
+            <g description="Transformed node">
+              <TransformNode>
+                <Float description="X">0.0</Float>
+                <Float description="Y">0.0</Float>
+                <Float description="Width">350.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
+                  <BfLocaleStringData description="String">
+                    <BfLocaleData description="Locale" name="Locale/Locale">
+                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    </BfLocaleData>
+                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    <StringData description="String Id" />
+                  </BfLocaleStringData>
+                  <RightAlignedStyle description="Style" name="Style/CreditHeadingStyle">Trebuchet MS14.dif</RightAlignedStyle>
+                </TextNode>
+              </TransformNode>
+              <TransformNode>
+                <Float description="X">375.0</Float>
+                <Float description="Y">11.0</Float>
+                <Float description="Width">360.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
+                  <StringData description="String">AB and Electronic Arts who </StringData>
+                  <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
+                </TextNode>
+              </TransformNode>
+            </g>
+          </TransformNode>
+          <TransformNode>
+            <Float description="X">0.0</Float>
+            <Float description="Y">2525.0</Float>
+            <Float description="Width">500.0</Float>
+            <Float description="Height">40.0</Float>
+            <g description="Transformed node">
+              <TransformNode>
+                <Float description="X">0.0</Float>
+                <Float description="Y">0.0</Float>
+                <Float description="Width">350.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
+                  <BfLocaleStringData description="String">
+                    <BfLocaleData description="Locale" name="Locale/Locale">
+                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    </BfLocaleData>
+                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    <StringData description="String Id" />
+                  </BfLocaleStringData>
+                  <RightAlignedStyle description="Style" name="Style/CreditHeadingStyle">Trebuchet MS14.dif</RightAlignedStyle>
+                </TextNode>
+              </TransformNode>
+              <TransformNode>
+                <Float description="X">375.0</Float>
+                <Float description="Y">11.0</Float>
+                <Float description="Width">360.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
+                  <StringData description="String">brought us Battlefield 1942.</StringData>
+                  <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
+                </TextNode>
+              </TransformNode>
+            </g>
+          </TransformNode>
+          <TransformNode>
+            <Float description="X">250.0</Float>
+            <Float description="Y">2545.0</Float>
+            <Float description="Width">256.0</Float>
+            <Float description="Height">64.0</Float>
+            <PictureNode description="Transformed node">gclogo.tga</PictureNode>
+          </TransformNode>
+        </g>
+      </BfTransformNode>
+      <BfTransformNode>
+        <IntData description="X">20</IntData>
+        <FloatData description="Y" name="Credits/CreditsY">400.0</FloatData>
+        <Float description="Width">600.0</Float>
+        <Float description="Height">300.0</Float>
+        <g description="Transformed node">
+          <CullNode>
+            <BoolData description="Do Show">False</BoolData>
+            <Float description="In time">0.0</Float>
+            <Float description="Out time">0.0</Float>
+          </CullNode>
+          <TransformNode>
+            <Float description="X">0.0</Float>
+            <Float description="Y">0.0</Float>
+            <Float description="Width">500.0</Float>
+            <Float description="Height">40.0</Float>
+            <NodePlaceholder description="Transformed node" />
+          </TransformNode>
+        </g>
+      </BfTransformNode>
+      <CullNode>
+        <BoolData description="Do Show" name="Credits/Pause">True</BoolData>
+        <Float description="In time">0.0</Float>
+        <Float description="Out time">0.0</Float>
+      </CullNode>
+      <BfCreditsNode>
+        <FloatData description="Value" name="Credits/CreditsY">400.0</FloatData>
+        <Float description="End value">-6075.0</Float>
+        <Float description="Reset value">485.0</Float>
+        <Float description="Time">600.0</Float>
+        <BoolData description="Go" name="Credits/RunCreditsList">True</BoolData>
+      </BfCreditsNode>
+      <SplitNode>
+        <CullNode description="Split node">
+          <BoolData description="Do Show">False</BoolData>
+          <Float description="In time">0.0</Float>
+          <Float description="Out time">0.0</Float>
+        </CullNode>
+      </SplitNode>
+      <CullNode>
+        <BoolData description="Do Show">False</BoolData>
+        <Float description="In time">0.0</Float>
+        <Float description="Out time">0.0</Float>
+      </CullNode>
+      <BfCreditsNode>
+        <FloatData description="Value" name="Credits/CreditsY">400.0</FloatData>
+        <Float description="End value">-5005.0</Float>
+        <Float description="Reset value">485.0</Float>
+        <Float description="Time">600.0</Float>
+        <BoolData description="Go" name="Credits/RunCreditsList">True</BoolData>
+      </BfCreditsNode>
+    </g>
+  </TransformNode>
+  <CullEventActionNode>
+    <ToggleVariableAction>
+      <BoolData description="Variable" name="Credits/Pause">True</BoolData>
+    </ToggleVariableAction>
+    <ButtonEvent>
+      <Byte description="Input index">0</Byte>
+      <Int32 description="Event type">1</Int32>
+      <Int32 description="Button type">18</Int32>
+    </ButtonEvent>
+  </CullEventActionNode>
+</MemeFile>

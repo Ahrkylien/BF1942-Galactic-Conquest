@@ -7,14 +7,14 @@ rem -------------------------------------
 ObjectTemplate.addTemplate Em_ScrapMetal_Plane_1
 ObjectTemplate.addTemplate Em_ScrapMetal_Plane_2
 ObjectTemplate.addTemplate Em_ScrapMetal_Plane_3
-ObjectTemplate.addTemplate Em_ScrapMetal_atst_head
+ObjectTemplate.addTemplate Em_ScrapMetal_atst
 ObjectTemplate.setPosition 0/0/-4.998
 ObjectTemplate.timeToLive CRD_NONE/1.8/0/0
 rem -------------------------------------
 
 rem *** Em_ScrapMetal_Corsair ***
-ObjectTemplate.create Emitter Em_ScrapMetal_atst_head
-ObjectTemplate.template Wreck_atst_head_m1
+ObjectTemplate.create Emitter Em_ScrapMetal_atst
+ObjectTemplate.template Wreck_ATST
 ObjectTemplate.addEmitterSpeed 1
 ObjectTemplate.emitterSpeedScale 1
 ObjectTemplate.lodDistance 375

@@ -1,0 +1,34 @@
+rem *** EwingGuns ***
+ObjectTemplate.create FireArms EwingGuns
+ObjectTemplate.setNetworkableInfo PlaneFireArmInfo
+ObjectTemplate.loadSoundScript Sounds/XWingLaser.ssc
+ObjectTemplate.aiTemplate MustangMachineGun
+rem -------------------------------------
+ObjectTemplate.visibleBarrelTemplate e_MuzzHeavy
+rem -------------------------------------
+ObjectTemplate.projectileTemplate MediumLaserProjectileRedNS
+ObjectTemplate.projectilePosition 0/0/2
+ObjectTemplate.magSize -1
+ObjectTemplate.magType 0
+ObjectTemplate.numOfMag 999
+ObjectTemplate.velocity 600
+ObjectTemplate.reloadtime 0.0001
+ObjectTemplate.roundOfFire 5.3
+ObjectTemplate.addFireArmsPosition 3.8/-1.61/0.1 -1.3/0/0
+ObjectTemplate.addFireArmsPosition -3.8/-1.61/0.1 1.3/0/0
+ObjectTemplate.addFireArmsPosition 0/1.31/0.8 0/0/0
+
+rem *** EwingBombDummy ***
+ObjectTemplate.create FireArms EwingBombDummy
+ObjectTemplate.setNetworkableInfo PlaneFireArmInfo
+ObjectTemplate.aiTemplate EwingBombs
+ObjectTemplate.projectileTemplate TieBomb
+ObjectTemplate.projectilePosition 0/-0.45/0
+ObjectTemplate.magSize 15
+ObjectTemplate.numOfMag 1
+ObjectTemplate.AutoReload 1
+ObjectTemplate.velocity 0
+ObjectTemplate.roundOfFire 0.2
+ObjectTemplate.setInputFire c_PIAltFire
+ObjectTemplate.AmmoType	9
+

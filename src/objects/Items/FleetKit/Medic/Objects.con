@@ -1,0 +1,29 @@
+ObjectTemplate.create Kit  Fleet_Medic
+ObjectTemplate.setType Medic
+ObjectTemplate.setKitTeam 2
+ObjectTemplate.geometry  Kit_Allies_Medic
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.networkableInfo KitInfo
+rem ObjectTemplate.addTemplate Us_Helmet
+rem ObjectTemplate.addTemplate US_Assault_BackPack
+rem ObjectTemplate.addTemplate US_Hip_Pack
+
+ObjectTemplate.setHealthBarIcon "Ingame/reb_Healthbar_empty_medic_64x64.tga"
+ObjectTemplate.setHealthBarFullIcon "Ingame/reb_Healthbar_full_medic_64x64.tga"
+ObjectTemplate.addWeaponIcon "Weapon/icon_alliesknife.dds"
+ObjectTemplate.addWeaponIcon "Weapon/icon_dh17.dds"
+ObjectTemplate.addWeaponIcon "Weapon/icon_null.dds"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_demokit.dds"
+
+ObjectTemplate.setKitIcon 3 "kits/Icon_medic_allies_selected.tga"
+ObjectTemplate.setKitName 3 "RESPAWN_MEDIC"
+ObjectTemplate.setKitActiveName 3 "RESPAWN_ACTIVE_MEDIC"
+
+ObjectTemplate.addTemplate Detonator
+ObjectTemplate.addTemplate ExpPack
+ObjectTemplate.addTemplate DH-17
+ObjectTemplate.addTemplate KnifeAllies
+ObjectTemplate.addTemplate NoChute
+
+ObjectTemplate.aitemplate Medic
+

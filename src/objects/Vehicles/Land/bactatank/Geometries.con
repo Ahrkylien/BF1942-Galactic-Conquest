@@ -1,10 +1,6 @@
-renderer.beginGlobalCluster bactatank
-
 GeometryTemplate.create StandardMesh bactatank
-GeometryTemplate.file bactatank
+GeometryTemplate.file Vehicles/BactaTank/bactatank
 GeometryTemplate.setLodDistance 0 0
 GeometryTemplate.setLodDistance 1 15
 GeometryTemplate.setLodDistance 2 45
 GeometryTemplate.setLodDistance 3 80
-
-renderer.endGlobalCluster

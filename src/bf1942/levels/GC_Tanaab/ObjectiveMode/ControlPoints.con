@@ -1,0 +1,19 @@
+rem
+rem ***  ***
+rem
+Object.create mc_libertytemplate
+Object.absolutePosition 573/206.464/710.171
+rem
+rem ***  ***
+rem
+Object.create imp_shipyardtemplate
+Object.absolutePosition 2193.65/254.936/2133.25
+Object.setOSId 65
+Object.setTeam 0
+rem
+rem ***  ***
+rem
+Object.create impmainspawntemplate
+Object.absolutePosition 3400.77/281.38/3390.15
+Object.setOSId 2951662
+Object.setTeam 0

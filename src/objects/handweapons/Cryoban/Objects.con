@@ -1,7 +1,7 @@
 ObjectTemplate.create HandFireArms Cryoban
 ObjectTemplate.itemIndex 4
 ObjectTemplate.networkableInfo HandFireArmsInfo
-ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.hasDynamicShadow 0
 ObjectTemplate.projectileTemplate cryobanProjectile
 ObjectTemplate.projectilePosition 0/0/0
 ObjectTemplate.ForceOnExplosion 10
@@ -11,7 +11,7 @@ ObjectTemplate.magType 0
 ObjectTemplate.reloadtime 2
 ObjectTemplate.roundOfFire 1
 ObjectTemplate.fireOnce 1
-rem ObjectTemplate.altFireOnce 1
+ObjectTemplate.altFireOnce 0
 ObjectTemplate.hasArmor 1
 ObjectTemplate.material 70
 ObjectTemplate.hitpoints 10000
@@ -83,10 +83,10 @@ ObjectTemplate.maxHitPoints 9999
 ObjectTemplate.explosionDamage 0
 ObjectTemplate.timeToLive CRD_NONE/3/0/0
 ObjectTemplate.dieAfterColl 0
-ObjectTemplate.radius 20
+ObjectTemplate.radius 15
 ObjectTemplate.hasOnTimeEffect 1
-ObjectTemplate.material 70
-ObjectTemplate.material2 205
+ObjectTemplate.material 543
+ObjectTemplate.material2 544
 ObjectTemplate.useMMOnEndEffect 0
 ObjectTemplate.damageType 1
 ObjectTemplate.endEffectTemplate e_ExplCryoban

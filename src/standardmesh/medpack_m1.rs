@@ -6,5 +6,5 @@ subshader "medpack_m1_Material0" "StandardMesh/Default"
 	materialSpecular 0.12549 0.12549 0.12549;
 	materialSpecularPower 12.5;
 	envmap true;
-	texture "texture/medpack3";
+	texture "texture/Weapons/medpack3";
 }

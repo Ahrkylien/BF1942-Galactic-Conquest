@@ -1,25 +1,30 @@
-ObjectTemplate.create Kit Rus_Assault
+ObjectTemplate.create Kit Russ_Assault
 ObjectTemplate.setType Assault
 ObjectTemplate.setKitTeam 2
-ObjectTemplate.geometry Kit_Allies_Assault
-ObjectTemplate.setHasCollisionPhysics 1
-ObjectTemplate.networkableInfo KitInfo
-ObjectTemplate.addTemplate Russ_Helmet
-ObjectTemplate.addTemplate Russian_hippack
 
-ObjectTemplate.setHealthBarIcon "Ingame/Healthbar_empty_assault_64x64.tga"
-ObjectTemplate.setHealthBarFullIcon "Ingame/Healthbar_full_assault_64x64.tga"
-ObjectTemplate.addWeaponIcon "Weapon/Icon_alliesKnife.tga"
-ObjectTemplate.addWeaponIcon "Weapon/Icon_colt.tga"
-ObjectTemplate.addWeaponIcon "Weapon/Icon_bar1918.tga"
-ObjectTemplate.addWeaponIcon "Weapon/Icon_grenadeallies.tga"
+ObjectTemplate.setHealthBarIcon "Ingame/reb_Healthbar_empty_assault_64x64.tga"
+ObjectTemplate.setHealthBarFullIcon "Ingame/reb_Healthbar_full_assault_64x64.tga"
+ObjectTemplate.addWeaponIcon "Weapon/icon_alliesknife.dds"
+ObjectTemplate.addWeaponIcon "Weapon/icon_dl44.dds"
+ObjectTemplate.addWeaponIcon "Weapon/icon_a295.dds"
+ObjectTemplate.addWeaponIcon "Weapon/icon_fragnade.dds"
 
 ObjectTemplate.setKitIcon 1 "kits/Icon_assault_allies_selected.tga"
 ObjectTemplate.setKitName 1 "RESPAWN_ASSAULT"
 ObjectTemplate.setKitActiveName 1 "RESPAWN_ACTIVE_ASSAULT"
 
-ObjectTemplate.addTemplate Bar1918
-ObjectTemplate.addTemplate Colt
+ObjectTemplate.geometry Kit_Allies_Assault
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.networkableInfo KitInfo
+
+rem ObjectTemplate.addTemplate Us_Helmet
+rem ObjectTemplate.addTemplate US_Assault_BackPack
+rem ObjectTemplate.addTemplate US_Hip_Pack
+
+ObjectTemplate.addTemplate A295
+ObjectTemplate.addTemplate Dl44
 ObjectTemplate.addTemplate KnifeAllies
-ObjectTemplate.addTemplate GrenadeAllies
+ObjectTemplate.addTemplate ConcussionGrenade
+ObjectTemplate.addTemplate NoChute
+
 ObjectTemplate.aitemplate Assault

@@ -1,5 +1,5 @@
 GeometryTemplate.create StandardMesh wallsnow1
-GeometryTemplate.file buildings/wallsnow1
+GeometryTemplate.file buildings/Hoth/wallsnow1
 GeometryTemplate.setLodDistance 0 0
 GeometryTemplate.setLodDistance 1 100
 GeometryTemplate.setLodDistance 2 300

@@ -1,0 +1,278 @@
+rem
+rem ***  ***
+rem
+Object.create large_tl
+Object.absolutePosition 945.178/137.16/2017.92
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create large_tl
+Object.absolutePosition 1127.54/137.16/2019.68
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create large_tl
+Object.absolutePosition 938.882/137.16/1430.03
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create large_tl2
+Object.absolutePosition 1127.39/137.16/1429.28
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create large_tl3
+Object.absolutePosition 1127.54/137.16/2844.42
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create large_tl
+Object.absolutePosition 945.178/137.16/2842.66
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create large_tl4
+Object.absolutePosition 1130.14/137.16/3582.7
+Object.rotation 273/0/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create large_tl
+Object.absolutePosition 947.776/137.842/3580.94
+Object.rotation 447/0/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create tieadvspawner
+Object.absolutePosition 824.127/147.487/1487.64
+Object.rotation 90/0/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create tramcars
+Object.absolutePosition 937.101/141.518/1406.66
+Object.rotation -88/0/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create tramcars
+Object.absolutePosition 1153.09/141.578/1221.01
+Object.rotation -180/0/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create tramcars
+Object.absolutePosition 1153.09/139.56/2019.67
+Object.rotation -180/0/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create tramcars
+Object.absolutePosition 919.307/140.03/2019.67
+Object.rotation -180/0/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create tramcars
+Object.absolutePosition 1153.09/139.67/2841.97
+Object.rotation -180/0/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create tramcars
+Object.absolutePosition 942.884/139.46/2819.45
+Object.rotation -86/0/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create tramcars
+Object.absolutePosition 1166.12/139.71/3582.28
+Object.rotation -180/0/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create tramcars
+Object.absolutePosition 949.885/139.18/3556.47
+Object.rotation -268/0/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create syturbolasers
+Object.absolutePosition 1003.37/138.879/1431.94
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create syturbolasers
+Object.absolutePosition 1062.97/138.879/1431.94
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create syturbolasers
+Object.absolutePosition 1063.12/138.879/2019.23
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create syturbolasers
+Object.absolutePosition 1003.52/138.879/2019.23
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create syturbolasers
+Object.absolutePosition 1063.12/138.879/2843.87
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create syturbolasers
+Object.absolutePosition 1003.52/138.879/2843.87
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create syturbolasers
+Object.absolutePosition 1062.3/138.879/3611.67
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create syturbolasers
+Object.absolutePosition 1002.7/138.879/3611.67
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create syturbolasers
+Object.absolutePosition 1003.82/138.879/3545.9
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create syturbolasers
+Object.absolutePosition 1062.6/138.879/3546.34
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create large_tl
+Object.absolutePosition 1610.71/137.16/2033.92
+Object.rotation 90/0/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create large_tl
+Object.absolutePosition 1598.63/137.16/2813.43
+Object.rotation 90/0/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create large_tl
+Object.absolutePosition 1513.32/137.16/3342.33
+Object.rotation 90/0/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create large_tl
+Object.absolutePosition 1250.4/137.16/3442.91
+Object.rotation 90/0/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create large_tl
+Object.absolutePosition 821.599/137.16/3380.25
+Object.rotation 90/0/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create large_tl
+Object.absolutePosition 812.635/137.16/3135.33
+Object.rotation 90/0/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create large_tl
+Object.absolutePosition 1318.4/137.16/3095.01
+Object.rotation 90/0/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create roguespawner
+Object.absolutePosition 3723.23/1602.29/335.569
+Object.rotation -52.9999/0/0
+Object.setTeam 2
+rem
+rem ***  ***
+rem
+Object.create ywingspawner
+Object.absolutePosition 3738.29/1601.34/297.892
+Object.rotation -100/0/0
+Object.setTeam 2
+rem
+rem ***  ***
+rem
+Object.create tiefighterspa
+Object.absolutePosition 821.096/147.034/1505.06
+Object.rotation 90/0/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create tiefighterspa
+Object.absolutePosition 820.959/147.07/1470.03
+Object.rotation 90/0/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create tiefighterspa
+Object.absolutePosition 820.904/146.391/3488.17
+Object.rotation 90/0/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create tiefighterspa
+Object.absolutePosition 821.187/146.09/3505.71
+Object.rotation 90/0/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create tiefighterspa
+Object.absolutePosition 821.27/146.09/3471.01
+Object.rotation 90/0/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create roguespawner
+Object.absolutePosition 3764.33/1602.29/331
+Object.rotation -36.9999/0/0
+Object.setTeam 2

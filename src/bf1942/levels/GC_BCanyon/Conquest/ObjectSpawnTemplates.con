@@ -1,0 +1,86 @@
+ObjectTemplate.create ObjectSpawner landspeederalways
+ObjectTemplate.setObjectTemplate 2 landspeeder
+ObjectTemplate.setObjectTemplate 1 landspeeder
+ObjectTemplate.SpawnDelay 25
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.MaxNrOfObjectSpawned 2
+
+ObjectTemplate.create ObjectSpawner atstlandspeed
+ObjectTemplate.setObjectTemplate 2 landspeedereweb
+ObjectTemplate.setObjectTemplate 1 atstdesert
+ObjectTemplate.MinSpawnDelay 25
+ObjectTemplate.MaxSpawnDelay 30
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+
+ObjectTemplate.create ObjectSpawner droids
+ObjectTemplate.setObjectTemplate 2 r5d4control
+ObjectTemplate.setObjectTemplate 1 r5d4control
+ObjectTemplate.SpawnDelay 25
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+
+ObjectTemplate.create ObjectSpawner skyhopalways
+ObjectTemplate.setObjectTemplate 2 skyhopper
+ObjectTemplate.setObjectTemplate 1 skyhopper
+ObjectTemplate.SpawnDelay 25
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+
+ObjectTemplate.create ObjectSpawner sandcrawlerlawys
+ObjectTemplate.setObjectTemplate 2 sandcrawler
+ObjectTemplate.setObjectTemplate 1 sandcrawler
+ObjectTemplate.MinSpawnDelay 30
+ObjectTemplate.MaxSpawnDelay 80
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+
+ObjectTemplate.create ObjectSpawner skyhoppertie
+ObjectTemplate.setObjectTemplate 2 skyhopper
+ObjectTemplate.setObjectTemplate 1 tiefighter
+ObjectTemplate.MinSpawnDelay 25
+ObjectTemplate.MaxSpawnDelay 50
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+
+ObjectTemplate.create ObjectSpawner turbolaser
+ObjectTemplate.setObjectTemplate 2 turbolaser
+ObjectTemplate.setObjectTemplate 1 turbolaser
+ObjectTemplate.SpawnDelay 25
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+
+ObjectTemplate.create ObjectSpawner swoopspawner
+ObjectTemplate.setObjectTemplate 2 speederbike
+ObjectTemplate.setObjectTemplate 1 speederbike
+ObjectTemplate.SpawnDelay 25
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+
+ObjectTemplate.create ObjectSpawner citidel_spawn
+ObjectTemplate.setObjectTemplate 2 x-wing
+ObjectTemplate.setObjectTemplate 1 epsilon
+ObjectTemplate.MinSpawnDelay 30
+ObjectTemplate.MaxSpawnDelay 90
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+

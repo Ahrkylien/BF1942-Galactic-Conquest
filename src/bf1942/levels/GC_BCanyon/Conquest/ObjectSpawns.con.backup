@@ -1,0 +1,193 @@
+rem
+rem ***  ***
+rem
+Object.create skyhopalways
+Object.absolutePosition 1593.44/89.5577/642.895
+Object.rotation -175/0/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create skyhopalways
+Object.absolutePosition 1674.65/89.7577/653.014
+Object.rotation -175/0/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create skyhopalways
+Object.absolutePosition 1435.65/125.425/907.445
+Object.rotation 47/0/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create citidel_spawn
+Object.absolutePosition 651.88/148.463/1590.76
+Object.rotation -132/0/0
+Object.setOSId 5
+rem
+rem ***  ***
+rem
+Object.create droids
+Object.absolutePosition 647.889/141.761/1570.32
+Object.setOSId 5
+rem
+rem ***  ***
+rem
+Object.create turbolaser
+Object.absolutePosition 611.473/141.611/1568.45
+Object.rotation -145/0/0
+Object.setOSId 5
+rem
+rem ***  ***
+rem
+Object.create swoopspawner
+Object.absolutePosition 620.27/142.513/1580.73
+Object.rotation -181/0/0
+Object.setOSId 5
+rem
+rem ***  ***
+rem
+Object.create atstlandspeed
+Object.absolutePosition 1554.4/83.4328/1607.7
+Object.rotation 180/0/0
+Object.setOSId 3
+rem
+rem ***  ***
+rem
+Object.create atstlandspeed
+Object.absolutePosition 1571.56/83.4328/1608.21
+Object.rotation 180/0/0
+Object.setOSId 3
+rem
+rem ***  ***
+rem
+Object.create skyhoppertie
+Object.absolutePosition 1524.31/88.7428/1551.53
+Object.setOSId 3
+rem
+rem ***  ***
+rem
+Object.create atstlandspeed
+Object.absolutePosition 1165.04/94.2446/1043.54
+Object.rotation 64/0/0
+Object.setOSId 2
+rem
+rem ***  ***
+rem
+Object.create skyhoppertie
+Object.absolutePosition 1168.29/99.7667/1059.45
+Object.setOSId 2
+rem
+rem ***  ***
+rem
+Object.create swoopspawner
+Object.absolutePosition 1171.93/95.0647/1028.91
+Object.rotation -92/0/0
+Object.setOSId 2
+rem
+rem ***  ***
+rem
+Object.create skyhopalways
+Object.absolutePosition 1902.8/63.2025/1679.73
+Object.rotation -91/0/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create droids
+Object.absolutePosition 1896.06/57.3258/1689.89
+Object.rotation -101/0/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create droids
+Object.absolutePosition 149.433/40.1343/1217.14
+Object.rotation -245/0/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create skyhopalways
+Object.absolutePosition 145.523/45.4556/1197.16
+Object.rotation -239/0/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create landspeederalways
+Object.absolutePosition 1618.87/84.1477/650.076
+Object.rotation -173/0/0
+Object.setOSId 4
+rem
+rem ***  ***
+rem
+Object.create landspeederalways
+Object.absolutePosition 1293.64/76.0177/1574.45
+Object.rotation 1.00004/0/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create droids
+Object.absolutePosition 1419.81/120.093/1008.09
+Object.rotation 178/0/0
+Object.setOSId 1
+rem
+rem ***  ***
+rem
+Object.create landspeederalways
+Object.absolutePosition 1912.22/10.7543/190.13
+Object.rotation -14/0/0
+Object.setOSId 6
+rem
+rem ***  ***
+rem
+Object.create landspeederalways
+Object.absolutePosition 1878.27/10.8294/180.341
+Object.rotation -14/0/0
+Object.setOSId 6
+rem
+rem ***  ***
+rem
+Object.create landspeederalways
+Object.absolutePosition 1960.16/10.3185/170.916
+Object.rotation -14/0/0
+Object.setOSId 6
+rem
+rem ***  ***
+rem
+Object.create skyhopalways
+Object.absolutePosition 1926.71/15.5336/217.036
+Object.rotation -71/0/0
+Object.setOSId 6
+rem
+rem ***  ***
+rem
+Object.create turbolaser
+Object.absolutePosition 672.987/141.491/1572.52
+Object.rotation -145/0/0
+Object.setOSId 5
+rem
+rem ***  ***
+rem
+Object.create atstlandspeed
+Object.absolutePosition 1446.64/43.2429/981.529
+Object.rotation -92/0/0
+Object.setOSId 1
+rem
+rem ***  ***
+rem
+Object.create swoopspawner
+Object.absolutePosition 1446.74/44.1712/974.878
+Object.rotation -87/0/0
+Object.setOSId 1
+rem
+rem ***  ***
+rem
+Object.create landspeederalways
+Object.absolutePosition 1300.68/79.1382/1618.81
+Object.rotation 157/0/0
+Object.setOSId 7

@@ -1,0 +1,14 @@
+rem *** R5D4DroidLauncher ***
+ObjectTemplate.create FireArms R5D4DroidLauncher
+ObjectTemplate.setNetworkableInfo TankFireArmInfo
+ObjectTemplate.projectileTemplate R5D4Droid
+ObjectTemplate.setHasMag 1
+ObjectTemplate.magSize 1
+ObjectTemplate.numOfMag -1
+ObjectTemplate.magType 0
+ObjectTemplate.velocity 1
+ObjectTemplate.autoReload 1
+ObjectTemplate.reloadtime 60
+ObjectTemplate.roundOfFire 100000
+ObjectTemplate.FireOnce 1
+ObjectTemplate.disableWhenFired 0

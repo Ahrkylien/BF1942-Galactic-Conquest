@@ -1,0 +1,28 @@
+ObjectTemplate.create SpawnPoint sd01
+ObjectTemplate.setSpawnId 5
+ObjectTemplate.setGroup 4
+
+ObjectTemplate.create SpawnPoint impsy2
+ObjectTemplate.setSpawnId 3
+ObjectTemplate.setGroup 3
+
+ObjectTemplate.create SpawnPoint sd02
+ObjectTemplate.setSpawnId 6
+ObjectTemplate.setGroup 4
+
+ObjectTemplate.create SpawnPoint impsy3
+ObjectTemplate.setSpawnId 4
+ObjectTemplate.setGroup 3
+
+ObjectTemplate.create SpawnPoint sd03
+ObjectTemplate.setSpawnId 7
+ObjectTemplate.setGroup 4
+
+ObjectTemplate.create SpawnPoint reb1
+ObjectTemplate.setSpawnId 1
+ObjectTemplate.setGroup 2
+
+ObjectTemplate.create SpawnPoint impsy
+ObjectTemplate.setSpawnId 2
+ObjectTemplate.setGroup 3
+

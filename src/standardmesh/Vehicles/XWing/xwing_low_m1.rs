@@ -1,0 +1,8 @@
+subshader "xwing_low_m1_Material0" "StandardMesh/Default"
+{
+	lighting true;
+	lightingSpecular false;
+	materialDiffuse 0.588 0.588 0.588;
+	texture "texture/x-wing-low";
+}
+

@@ -3,7 +3,7 @@ ObjectTemplate.itemIndex 2
 ObjectTemplate.networkableInfo HandFireArmsInfo
 ObjectTemplate.projectileTemplate razorProjectile
 ObjectTemplate.projectilePosition 0/0/0
-ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.hasDynamicShadow 0
 ObjectTemplate.magSize 60
 ObjectTemplate.numOfMag 1
 ObjectTemplate.magType 0
@@ -19,33 +19,32 @@ ObjectTemplate.soldierZoomPosition -0.01/-0.01/0.1
 ObjectTemplate.soldierCameraPosition 0.02/-0.05/0.2
 ObjectTemplate.AmmoType	1
 
+ObjectTemplate.minDamage 0.5
+ObjectTemplate.distToStartLoseDamage 25
+ObjectTemplate.distToMinDamage 50
 
 Rem *** Deviation Begin *****
-
 ObjectTemplate.velocity 340
 ObjectTemplate.setRecoilForceUp CRD_UNIFORM/0.4/0.6/0
 ObjectTemplate.setRecoilForceLeftRight CRD_UNIFORM/-0.2/-0.2/0
 ObjectTemplate.setHasRecoilForce 1
 ObjectTemplate.setGoBackOnRecoil 1
 
-ObjectTemplate.setFireDev 1.0 0.5 0.01
-ObjectTemplate.setMinDev 0.05
+ObjectTemplate.setFireDev 2.5 1.5 0.07
+ObjectTemplate.setMinDev 0.2
 ObjectTemplate.setTurnDev 0 0 0 0
-ObjectTemplate.setSpeedDev 0.5 0.1 0.1 0.05
-ObjectTemplate.setMiscDev 1.0 1.0 0.05
-
-
+ObjectTemplate.setSpeedDev 1.5 0.2 0.2 0.1
+ObjectTemplate.setMiscDev 2.5 2.5 0.1
 Rem *** Deviation  End *****
 
 ObjectTemplate.fireInCameraDof 1
 ObjectTemplate.loadSoundScript Sounds/razor.ssc
-ObjectTemplate.GUIIndex 1
 ObjectTemplate.setHudAmmoType ATIconAndHeatBar
 ObjectTemplate.setAmmoIcon "ammo/icon_laser_64x32.dds"
 ObjectTemplate.setCrossHairType CHTCrossHair
 
 ObjectTemplate.createSkeleton animations/Razor.ske
-ObjectTemplate.useSkeletonPartAsMain Razor
+ObjectTemplate.useSkeletonPartAsMain Colt
 ObjectTemplate.addTemplate RazorLod
 
 ObjectTemplate.addTemplate e_MuzzGun
@@ -54,14 +53,13 @@ ObjectTemplate.startoneffects 0
 ObjectTemplate.setPosition 0/0.006/0.23
 ObjectTemplate.setRotation 0/0/0
 
-
 ObjectTemplate.create SimpleObject RazorSimple
 ObjectTemplate.geometry Razor_m1
 
 ObjectTemplate.create AnimatedBundle RazorComplex
 ObjectTemplate.addTemplate RazorSimple
 ObjectTemplate.bindtoskeletonpart Base
-ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.hasDynamicShadow 0
 ObjectTemplate.createSkeleton animations/Razor.ske
 
 ObjectTemplate.create LodObject RazorLod

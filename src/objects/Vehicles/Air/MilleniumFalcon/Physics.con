@@ -1,9 +1,10 @@
-
+rem ---------------------- engines ------------------------------
 
 rem *** MilleniumEngine ***
 ObjectTemplate.create Engine MilleniumFalconEngine
 ObjectTemplate.setNetworkableInfo Millenium_engine_info
 ObjectTemplate.loadSoundScript Sounds/MFEngine.ssc
+rem -------------------------------------
 ObjectTemplate.addTemplate MilleniumFalconLandingfront
 ObjectTemplate.setPosition 0/0.725/9.164
 ObjectTemplate.addTemplate MilleniumFalconbackpadsgear
@@ -11,21 +12,24 @@ ObjectTemplate.setPosition 0/.5/2
 ObjectTemplate.addTemplate MilleniumFalconvtolengine
 ObjectTemplate.setPosition 0/0/0
 ObjectTemplate.setRotation 0/-60/0
-ObjectTemplate.addTemplate backrightgdl
+ObjectTemplate.addTemplate MilleniumFalconbackrightgdl
 ObjectTemplate.setPosition 3.038/0.22/-7.6
 ObjectTemplate.setRotation 0/0/-130
-ObjectTemplate.addTemplate backrightgdr
+ObjectTemplate.addTemplate MilleniumFalconbackrightgdr
 ObjectTemplate.setPosition 4.722/0.23/-7.6
 ObjectTemplate.setRotation 0/0/130
-ObjectTemplate.addTemplate backleftgdl
+ObjectTemplate.addTemplate MilleniumFalconbackleftgdl
 ObjectTemplate.setPosition -4.902/0.22/-7.6
 ObjectTemplate.setRotation 3/0/-130
-ObjectTemplate.addTemplate backrightgdr
+ObjectTemplate.addTemplate MilleniumFalconbackrightgdr
 ObjectTemplate.setPosition -3.215/0.22/-7.8
 ObjectTemplate.setRotation 3/0/130
 ObjectTemplate.addTemplate MilleniumFalconLandingfrontdoor
 ObjectTemplate.setPosition 1/0.55/8.7
 ObjectTemplate.setRotation 0/120/0
+ObjectTemplate.addTemplate FalconDoorAuto
+ObjectTemplate.setPosition 7/0.53/0
+ObjectTemplate.setRotation 0/0/0
 rem -------------------------------------
 ObjectTemplate.setMinRotation 0/0/-3000
 ObjectTemplate.setMaxRotation 0/0/5000
@@ -40,6 +44,34 @@ ObjectTemplate.setGearUp 0.7
 ObjectTemplate.setGearDown 0.3
 ObjectTemplate.setNoPropellerEffectAtSpeed 60
 
+rem *** Milleniumvto ***
+ObjectTemplate.create LandingGear MilleniumFalconvtolengine
+ObjectTemplate.hasMobilePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate MilleniumFalconMainvto
+ObjectTemplate.setPosition 0/0/0
+rem -------------------------------------
+ObjectTemplate.setmaxRotation 0/90/0
+ObjectTemplate.setMaxSpeed 0/180/0
+ObjectTemplate.setAcceleration 0/100/0
+ObjectTemplate.setGearDownEngineInput 0.4
+ObjectTemplate.setGearUpHeight 10
+
+rem *** Mainvto ***
+ObjectTemplate.create RotationalBundle MilleniumFalconMainvto
+NetworkableInfo.createNewInfo MilleniumVTO
+NetworkableInfo.setPredictionMode PMLinear
+ObjectTemplate.hasMobilePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate MilleniumFalconEngine2
+rem -------------------------------------
+ObjectTemplate.setMinRotation -10/-10/0
+ObjectTemplate.setMaxRotation 10/10/0
+ObjectTemplate.setMaxSpeed 2/2/0
+ObjectTemplate.setAcceleration 100/100/0
+ObjectTemplate.setInputToYaw c_PIRoll
+ObjectTemplate.setInputToPitch c_PIPitch
+ObjectTemplate.setAutomaticReset 1
 
 rem *** MilleniumEngine2 ***
 ObjectTemplate.create Engine MilleniumFalconEngine2
@@ -58,7 +90,6 @@ ObjectTemplate.setGearUp 0.7
 ObjectTemplate.setGearDown 0.3
 ObjectTemplate.setNoPropellerEffectAtSpeed 70
 
-
 rem *** MFHyperDriveEngine ***
 ObjectTemplate.create Engine MFHyperDriveEngine
 ObjectTemplate.setNetworkableInfo Millenium_engine_info
@@ -74,6 +105,142 @@ ObjectTemplate.setEngineType c_ETPlane
 ObjectTemplate.setTorque 50000
 ObjectTemplate.setDifferential 100
 
+rem ---------------------- landing gear ------------------------------
+
+rem *** MilleniumFalconLandingfront ***
+ObjectTemplate.create LandingGear MilleniumFalconLandingfront
+ObjectTemplate.loadSoundScript ../Common/Sounds/LandingGear.ssc
+ObjectTemplate.geometry frontgear
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate MilleniumFalconLandingfrontpad
+ObjectTemplate.setPosition 0/-0.662/0.131
+rem -------------------------------------
+ObjectTemplate.setMinRotation 0/-100/0
+ObjectTemplate.setMaxSpeed 0/-18/0
+ObjectTemplate.setAcceleration 0/10/0
+ObjectTemplate.setGearDownHeight 9999
+ObjectTemplate.setGearDownEngineInput 0.09
+ObjectTemplate.setGearUpEngineInput 1.16
+
+rem *** MilleniumFalconLandingfrontpad ***
+ObjectTemplate.create LandingGear MilleniumFalconLandingfrontpad
+ObjectTemplate.loadSoundScript ../Common/Sounds/LandingGear.ssc
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate MilleniumFalconfrontpad
+ObjectTemplate.setPosition 0/-1/0
+ObjectTemplate.setRotation 0/180/0
+rem -------------------------------------
+ObjectTemplate.setMinRotation 0/-90/0
+ObjectTemplate.setMaxSpeed 0/-18/0
+ObjectTemplate.setAcceleration 0/10/0
+ObjectTemplate.setGearDownHeight 9999
+ObjectTemplate.setGearDownEngineInput 0.09
+ObjectTemplate.setGearUpEngineInput 1.16
+
+rem *** MilleniumFalconbackpadsgear ***
+ObjectTemplate.create LandingGear MilleniumFalconbackpadsgear
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate MilleniumFalconBackpads
+ObjectTemplate.setPosition 0/0.0/0
+rem -------------------------------------
+ObjectTemplate.setmaxRotation 0/19.5/0
+ObjectTemplate.setMaxSpeed 0/18/0
+ObjectTemplate.setAcceleration 0/10/0
+ObjectTemplate.setPositionOffset 0/-0.5/0
+ObjectTemplate.setGearDownHeight 9999
+ObjectTemplate.setGearDownEngineInput 0.09
+ObjectTemplate.setGearUpEngineInput 1.16
+
+rem *** MilleniumFalconBackpads ***
+ObjectTemplate.create Bundle MilleniumFalconBackpads
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate MilleniumFalconBackGearRight
+ObjectTemplate.setPosition 3.875/-0.257/-6.503
+ObjectTemplate.addTemplate MilleniumFalconBackGearLeft
+ObjectTemplate.setPosition -3.875/-0.257/-6.503
+rem -------------------------------------
+
+rem *** MilleniumFalconLandingfrontdoor ***
+ObjectTemplate.create LandingGear MilleniumFalconLandingfrontdoor
+ObjectTemplate.geometry frontgeardoor
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.setMinRotation 0/-165/0
+ObjectTemplate.setMaxRotation 0/20/0
+ObjectTemplate.setMaxSpeed 0/-45/0
+ObjectTemplate.setAcceleration 0/15/0
+ObjectTemplate.setPositionOffset 0/2/0
+ObjectTemplate.setGearDownHeight 9999
+ObjectTemplate.setGearDownEngineInput 0.09
+ObjectTemplate.setGearUpEngineInput 1.16
+
+rem *** MilleniumFalconbackrightgdr ***
+ObjectTemplate.create LandingGear MilleniumFalconbackrightgdr
+ObjectTemplate.geometry backrightgdr
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.setMinRotation 0/0/-130
+ObjectTemplate.setMaxSpeed 0/0/-18
+ObjectTemplate.setAcceleration 0/0/10
+ObjectTemplate.setPositionOffset 0/-0.673/0
+ObjectTemplate.setGearDownHeight 9999
+ObjectTemplate.setGearDownEngineInput 0.09
+ObjectTemplate.setGearUpEngineInput 1.16
+
+rem *** MilleniumFalconbackrightgdl ***
+ObjectTemplate.create LandingGear MilleniumFalconbackrightgdl
+ObjectTemplate.geometry backrightgdl
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.setMaxRotation 0/0/130
+ObjectTemplate.setMaxSpeed 0/0/18
+ObjectTemplate.setAcceleration 0/0/10
+ObjectTemplate.setPositionOffset 0/-0.673/0
+ObjectTemplate.setGearDownHeight 9999
+ObjectTemplate.setGearDownEngineInput 0.09
+ObjectTemplate.setGearUpEngineInput 1.16
+
+rem *** MilleniumFalconbackleftgdr ***
+ObjectTemplate.create LandingGear MilleniumFalconbackleftgdr
+ObjectTemplate.loadSoundScript ../Common/Sounds/LandingGear.ssc
+ObjectTemplate.geometry backleftgdr
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.setMinRotation 0/0/-130
+ObjectTemplate.setMaxSpeed 0/0/-18
+ObjectTemplate.setAcceleration 0/0/10
+ObjectTemplate.setPositionOffset 0/-0.673/0
+ObjectTemplate.setGearDownHeight 9999
+ObjectTemplate.setGearDownEngineInput 0.09
+ObjectTemplate.setGearUpEngineInput 1.16
+
+rem *** MilleniumFalconbackleftgdl ***
+ObjectTemplate.create LandingGear MilleniumFalconbackleftgdl
+ObjectTemplate.loadSoundScript ../Common/Sounds/LandingGear.ssc
+ObjectTemplate.geometry backleftgdl
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.setMaxRotation 0/0/130
+ObjectTemplate.setMaxSpeed 0/0/18
+ObjectTemplate.setAcceleration 0/0/10
+ObjectTemplate.setPositionOffset 0/-0.673/0
+ObjectTemplate.setGearDownHeight 9999
+ObjectTemplate.setGearDownEngineInput 0.09
+ObjectTemplate.setGearUpEngineInput 1.16
+
+rem ---------------------- wheels ------------------------------
 
 rem *** Milleniumbackgear ***
 ObjectTemplate.create Spring MilleniumFalconBackGearLeft
@@ -90,7 +257,6 @@ rem -------------------------------------
 ObjectTemplate.setStrength 20
 ObjectTemplate.setDamping 10
 
-
 rem *** Milleniumbackgear ***
 ObjectTemplate.create Spring MilleniumFalconBackGearRight
 ObjectTemplate.geometry backgearright
@@ -105,7 +271,6 @@ ObjectTemplate.addTemplate e_wsnowPlaneL
 rem -------------------------------------
 ObjectTemplate.setStrength 20
 ObjectTemplate.setDamping 10
-
 
 rem *** Milleniumfrontpad ***
 ObjectTemplate.create Spring MilleniumFalconfrontpad
@@ -123,6 +288,7 @@ rem -------------------------------------
 ObjectTemplate.setStrength 20
 ObjectTemplate.setDamping 10
 
+rem ---------------------- wings ------------------------------
 
 rem *** MilleniumFlapLeftMiddle ***
 ObjectTemplate.create Wing MilleniumFalconFlapLeftMiddle
@@ -137,7 +303,6 @@ ObjectTemplate.setFlapLift 4
 ObjectTemplate.setRegulateToLift 4.91
 ObjectTemplate.setWingToRegulatorRatio 1
 
-
 rem *** MilleniumFlapRightMiddle ***
 ObjectTemplate.create Wing MilleniumFalconFlapRightMiddle
 ObjectTemplate.setNetworkableInfo Millenium_wing_info
@@ -150,7 +315,6 @@ ObjectTemplate.setPositionOffset -2.52/0.145/-0.895
 ObjectTemplate.setFlapLift 4
 ObjectTemplate.setRegulateToLift 4.91
 ObjectTemplate.setWingToRegulatorRatio 1
-
 
 rem *** MilleniumFlapLeftOuter ***
 ObjectTemplate.create Wing MilleniumFalconFlapLeftOuter
@@ -166,7 +330,6 @@ ObjectTemplate.setPositionOffset 0.5/0/-0.90
 ObjectTemplate.setWingLift 1.85
 ObjectTemplate.setFlapLift 0.7
 
-
 rem *** MilleniumFlapRightOuter ***
 ObjectTemplate.create Wing MilleniumFalconFlapRightOuter
 ObjectTemplate.setNetworkableInfo Millenium_wing_info
@@ -180,7 +343,6 @@ ObjectTemplate.setPitchOffset 0.5
 ObjectTemplate.setPositionOffset -0.5/0/-0.90
 ObjectTemplate.setWingLift 1.85
 ObjectTemplate.setFlapLift 0.7
-
 
 rem *** MilleniumFlapTailLeft ***
 ObjectTemplate.create Wing MilleniumFalconFlapTailLeft
@@ -196,7 +358,6 @@ ObjectTemplate.rememberExcessInput 1
 ObjectTemplate.setWingLift 0.5
 ObjectTemplate.setFlapLift 4
 
-
 rem *** MilleniumFlapTailRight ***
 ObjectTemplate.create Wing MilleniumFalconFlapTailRight
 ObjectTemplate.setNetworkableInfo Millenium_wing_info
@@ -211,7 +372,6 @@ ObjectTemplate.rememberExcessInput 1
 ObjectTemplate.setWingLift 0.5
 ObjectTemplate.setFlapLift 4
 
-
 rem *** MilleniumRudder ***
 ObjectTemplate.create Wing MilleniumFalconRudder
 ObjectTemplate.setNetworkableInfo Millenium_wing_info
@@ -224,7 +384,6 @@ ObjectTemplate.setAutomaticReset 1
 ObjectTemplate.setPositionOffset 0/-0.5/-2
 ObjectTemplate.setWingLift 1.0
 ObjectTemplate.setFlapLift 7
-
 
 rem *** MilleniumBodyWingVertical ***
 ObjectTemplate.create Wing MilleniumFalconBodyWingVertical

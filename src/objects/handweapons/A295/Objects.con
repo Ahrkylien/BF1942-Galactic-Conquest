@@ -3,8 +3,7 @@ ObjectTemplate.itemIndex 3
 ObjectTemplate.networkableInfo HandFireArmsInfo
 ObjectTemplate.projectileTemplate A295Projectile
 ObjectTemplate.projectilePosition 0/0/0
-ObjectTemplate.hasDynamicShadow 1
-ObjectTemplate.magSize 200
+ObjectTemplate.magSize 130
 ObjectTemplate.unZoomBetweenFireTime 0
 ObjectTemplate.useScope 1
 ObjectTemplate.setScopeIcon "reb_a295scope.tga"
@@ -22,7 +21,7 @@ ObjectTemplate.setAmmoIcon "ammo/icon_laser_64x32.dds"
 ObjectTemplate.setCrossHairType CHTCrossHair
 
 objectTemplate.aiTemplate Mp18AI
-ObjectTemplate.zoomFov 0.22
+ObjectTemplate.zoomFov 0.25
 ObjectTemplate.altFireOnce 1
 ObjectTemplate.soldierZoomFov 0.3
 ObjectTemplate.soldierZoomPosition -0.05/0.02/0.06
@@ -30,22 +29,29 @@ ObjectTemplate.soldierCameraPosition -0.01/-0.04/0.09
 ObjectTemplate.addRootSpeed 0
 ObjectTemplate.AmmoType	1
 
+ObjectTemplate.minDamage 0.5
+ObjectTemplate.distToStartLoseDamage 100
+ObjectTemplate.distToMinDamage 300
 
 rem ObjectTemplate.autoReload 1
 Rem *** Deviation Begin *****
 
-ObjectTemplate.velocity 360
-ObjectTemplate.setRecoilForceUp CRD_UNIFORM/0.6/0.5/0
-ObjectTemplate.setRecoilForceLeftRight CRD_UNIFORM/-0.4/0.4/0
+ObjectTemplate.velocity 400
+ObjectTemplate.setRecoilForceUp CRD_UNIFORM/0.28/0.32/0
+ObjectTemplate.setRecoilForceLeftRight CRD_UNIFORM/-0.2/0.2/0
 ObjectTemplate.setHasRecoilForce 1
-ObjectTemplate.setGoBackOnRecoil 1
+ObjectTemplate.setGoBackOnRecoil 0
 
-ObjectTemplate.setFireDev 4.0 2.0 1.0
-ObjectTemplate.setDevMod 0.4 0.2 0.0
-ObjectTemplate.setMinDev 0.3
-ObjectTemplate.setTurnDev 1.0 0.2 0.2 0.1
-ObjectTemplate.setSpeedDev 1.0 0.2 0.2 0.1
-ObjectTemplate.setMiscDev 10.0 10.0 1.0
+rem objectTemplate.heatAddWhenFire 0.0295
+rem objectTemplate.coolDownPerSec 0.3
+rem objectTemplate.timeDelayOnOverHeat 2
+
+ObjectTemplate.setFireDev 1.5 0.36 0.05
+ObjectTemplate.setDevMod 1 0.74 0.5
+ObjectTemplate.setTurnDev .5 0.1 0.2 0.1
+ObjectTemplate.setSpeedDev 3 0.4 0.2 0.1
+ObjectTemplate.setMiscDev 3 2.5 0.4
+ObjectTemplate.setMinDev 0.2
 
 Rem *** Deviation  End *****
 
@@ -74,7 +80,6 @@ ObjectTemplate.create AnimatedBundle A295Complex
 ObjectTemplate.addTemplate A295Simple
 ObjectTemplate.setPosition 0/0.01/0.07
 ObjectTemplate.bindToSkeletonPart Thompson
-ObjectTemplate.hasDynamicShadow 1
 ObjectTemplate.createSkeleton animations/A295.ske
 
 

@@ -28,8 +28,8 @@ ObjectTemplate.setParachuteSpeed 30.00
 ObjectTemplate.HasArmor 1
 ObjectTemplate.explosionForceMax 600
 ObjectTemplate.explosionDamage 0.0
-ObjectTemplate.HitPoints 30
-ObjectTemplate.MaxHitPoints 30
+ObjectTemplate.HitPoints 35
+ObjectTemplate.MaxHitPoints 35
 ObjectTemplate.timeToLiveAfterDeath 10
 
 REM ***Defaults***ObjectTemplate.SpeedMod 0.5
@@ -77,4 +77,4 @@ objectTemplate.healFactor 0.25
 objectTemplate.selfHealFactor 0.15
 
 rem *** engineer repair ***
-objectTemplate.repairFactor 0.15
+objectTemplate.repairFactor 0.2

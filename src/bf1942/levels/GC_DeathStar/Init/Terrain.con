@@ -1,0 +1,46 @@
+rem 
+rem **** Initialize Terrain *****
+rem
+GeometryTemplate.create PatchTerrain terrainGeometry
+GeometryTemplate.file bf1942\levels\GC_DeathStar\Heightmap
+GeometryTemplate.materialMap bf1942\levels\GC_DeathStar\Materialmap
+GeometryTemplate.materialSize 1024
+GeometryTemplate.targetTriCount 50
+GeometryTemplate.worldSize 4096
+GeometryTemplate.yScale .00001
+GeometryTemplate.texBaseName bf1942\levels\GC_DeathStar\Textures\Tx
+GeometryTemplate.texOffsetX 0
+GeometryTemplate.texOffsetY 0
+GeometryTemplate.detailTexName bf1942\levels\GC_DeathStar\Textures\Detail
+GeometryTemplate.waterLevel 15
+GeometryTemplate.seaFloorLevel 10
+GeometryTemplate.lodDistance 800
+
+Water.baseTex texture/Water
+
+ObjectTemplate.create SimpleObject terrainObject
+ObjectTemplate.geometry terrainGeometry
+objectTemplate.createNotInGrid 1
+
+Object.create terrainObject
+Object.setName track
+Object.absolutePosition 0/0/0
+Object.rotation 0/0/0
+
+Console.worldSize 4096
+
+Terrain.ShadowAmbient 80/80/90
+Terrain.ShadowBorderFadeTime 0.075
+Terrain.ShadowSamplingCullY 15
+
+endrem
+
+
+
+
+
+
+
+
+
+

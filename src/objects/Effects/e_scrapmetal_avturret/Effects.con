@@ -1,6 +1,6 @@
 
 
-rem *** e_ScrapMetal_atst ***
+rem *** e_ScrapMetal_avturret ***
 ObjectTemplate.create EffectBundle e_ScrapMetal_avturret
 ObjectTemplate.saveInSeparateFile 1
 rem -------------------------------------
@@ -12,9 +12,9 @@ ObjectTemplate.setPosition 0/0/0
 ObjectTemplate.timeToLive CRD_NONE/1.8/0/0
 rem -------------------------------------
 
-rem *** Em_ScrapMetal_Corsair ***
+rem *** Em_ScrapMetal_avturret ***
 ObjectTemplate.create Emitter Em_ScrapMetal_avturret
-ObjectTemplate.template Wreck_avturret_top
+ObjectTemplate.template Wreck_AVTurret
 ObjectTemplate.addEmitterSpeed 1
 ObjectTemplate.emitterSpeedScale 1
 ObjectTemplate.lodDistance 375

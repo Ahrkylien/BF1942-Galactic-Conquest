@@ -2,43 +2,42 @@ rem ################################### Neko&Loop's Lasers #####################
 
 rem -------------red---------------
 
-GeometryTemplate.create StandardMesh Tlight_r1
-GeometryTemplate.file Tlight_r1
+GeometryTemplate.create StandardMesh Tlight_r1_m1
+GeometryTemplate.file Effects/Tlight_r1
+rem GeometryTemplate.setLodDistance 0 0
+rem GeometryTemplate.setLodDistance 1 50000
+
+GeometryTemplate.create StandardMesh Tlight_r2_m1
+GeometryTemplate.file Effects/Tlight_r2
 GeometryTemplate.setLodDistance 0 0
 GeometryTemplate.setLodDistance 1 10000
 
-GeometryTemplate.create StandardMesh Tlight_r2
-GeometryTemplate.file Tlight_r2
-GeometryTemplate.setLodDistance 0 0
-GeometryTemplate.setLodDistance 1 10000
-
-GeometryTemplate.create StandardMesh Tlight_r3
-GeometryTemplate.file Tlight_r3
+GeometryTemplate.create StandardMesh Tlight_r3_m1
+GeometryTemplate.file Effects/Tlight_r3
 GeometryTemplate.setLodDistance 0 0
 GeometryTemplate.setLodDistance 1 10000
 
 rem --------------green------------
 
-GeometryTemplate.create StandardMesh Tlight_g1
-GeometryTemplate.file Tlight_g1
+GeometryTemplate.create StandardMesh Tlight_g1_m1
+GeometryTemplate.file Effects/Tlight_g1
+rem GeometryTemplate.setLodDistance 0 0
+rem GeometryTemplate.setLodDistance 1 10000
+
+GeometryTemplate.create StandardMesh Tlight_g2_m1
+GeometryTemplate.file Effects/Tlight_g2
 GeometryTemplate.setLodDistance 0 0
 GeometryTemplate.setLodDistance 1 10000
 
-GeometryTemplate.create StandardMesh Tlight_g2
-GeometryTemplate.file Tlight_g2
-GeometryTemplate.setLodDistance 0 0
-GeometryTemplate.setLodDistance 1 10000
-
-GeometryTemplate.create StandardMesh Tlight_g3
-GeometryTemplate.file Tlight_g3
+GeometryTemplate.create StandardMesh Tlight_g3_m1
+GeometryTemplate.file Effects/Tlight_g3
 GeometryTemplate.setLodDistance 0 0
 GeometryTemplate.setLodDistance 1 10000
 
 rem ####################################################################################
 
-
 GeometryTemplate.create StandardMesh tracklight_m1
-GeometryTemplate.file tracklight_m1
+GeometryTemplate.file Effects/tracklight_m1
 GeometryTemplate.setLodDistance 0 0
 GeometryTemplate.setLodDistance 1 30
 GeometryTemplate.setLodDistance 2 50
@@ -47,16 +46,11 @@ GeometryTemplate.setLodDistance 4 200
 GeometryTemplate.setLodDistance 5 500
 
 GeometryTemplate.create StandardMesh TLight_m1
-GeometryTemplate.file TLight_m1
+GeometryTemplate.file Effects/TLight_m1
 GeometryTemplate.setLodDistance 0 0
 GeometryTemplate.setLodDistance 1 10000
 
 rem #################################LASER FILES ##########################
-
-GeometryTemplate.create StandardMesh protontorpedo
-GeometryTemplate.file protontorpedo
-GeometryTemplate.setLodDistance 0 0
-GeometryTemplate.setLodDistance 1 500
 
 GeometryTemplate.create StandardMesh projectile_m1
 GeometryTemplate.file projectile_m1
@@ -93,3 +87,31 @@ GeometryTemplate.setLodDistance 2 50
 GeometryTemplate.setLodDistance 3 75
 GeometryTemplate.setLodDistance 4 100
 GeometryTemplate.setLodDistance 5 200
+
+GeometryTemplate.create StandardMesh Small_Bomb_M1
+GeometryTemplate.file Small_Bomb_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 30
+GeometryTemplate.setLodDistance 2 50
+GeometryTemplate.setLodDistance 3 100
+GeometryTemplate.setLodDistance 4 200
+GeometryTemplate.setLodDistance 5 500
+
+GeometryTemplate.create StandardMesh Big_Bomb_M1
+GeometryTemplate.file Big_Bomb_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 30
+GeometryTemplate.setLodDistance 2 50
+GeometryTemplate.setLodDistance 3 100
+GeometryTemplate.setLodDistance 4 200
+GeometryTemplate.setLodDistance 5 500
+
+GeometryTemplate.create StandardMesh FlechetteRocket_m1
+GeometryTemplate.file flechetterocket
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 3
+GeometryTemplate.setLodDistance 2 10
+GeometryTemplate.setLodDistance 3 20
+GeometryTemplate.setLodDistance 4 30
+GeometryTemplate.setLodDistance 5 100

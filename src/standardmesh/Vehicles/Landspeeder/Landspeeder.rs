@@ -1,35 +1,31 @@
-subshader "Landspeeder_Material0" "StandardMesh/Default"
+subshader "landspeeder_Material0" "StandardMesh/Default"
 {
 	lighting true;
-	materialDiffuse 0.34902 0.34902 0.34902;
+	materialDiffuse 0.588235 0.588235 0.588235;
 	lightingSpecular true;
-	materialSpecular 0.9 0.9 0.9;
-	materialSpecularPower 30.0;
-	texture "texture/vehicles/landspeeder/SteeringWheel";
+	materialSpecular 0.8 0.8 0.8;
+	materialSpecularPower 4.0;
+	envmap true;
+	texture "texture/Vehicles/Landspeeder/landspeeder";
 }
-subshader "Landspeeder_Material1" "StandardMesh/Default"
+subshader "landspeeder_Material1" "StandardMesh/Default"
 {
 	lighting true;
-	materialDiffuse 0.505882 0.505882 0.505882;
+	materialDiffuse 0.588235 0.588235 0.588235;
 	lightingSpecular true;
-	materialSpecular 0.9 0.9 0.9;
-	materialSpecularPower 50.0;
-	texture "texture/vehicles/landspeeder/Throttle";
-}
-subshader "Landspeeder_Material2" "StandardMesh/Default"
-{
-	lighting true;
-	materialDiffuse 0.498039 0.498039 0.498039;
-	lightingSpecular true;
-	materialSpecular 0.9 0.9 0.9;
-	materialSpecularPower 30.0;
+	materialSpecular 0.8 0.8 0.8;
+	materialSpecularPower 4.0;
+	envmap true;
 	transparent true;
-	texture "texture/vehicles/landspeeder/Windshield";
+	texture "texture/Vehicles/Landspeeder/Windshield";
 }
-subshader "Landspeeder_Material3" "StandardMesh/Default"
+subshader "landspeeder_Material2" "StandardMesh/Default"
 {
 	lighting true;
-	materialDiffuse 0.839216 0.360784 0.360784;
-	lightingSpecular false;
-	texture "texture/vehicles/landspeeder/Body";
+	materialDiffuse 0.588235 0.588235 0.588235;
+	lightingSpecular true;
+	materialSpecular 0.8 0.8 0.8;
+	materialSpecularPower 4.0;
+	envmap true;
+	texture "texture/Vehicles/Landspeeder/Throttle";
 }

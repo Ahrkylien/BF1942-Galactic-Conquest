@@ -6,5 +6,5 @@ subshader "Small_Bomb_M1_Material0" "StandardMesh/Default"
 	materialSpecular 0.9 0.9 0.9;
 	materialSpecularPower 5;
 	transparent true;
-	texture "texture/tiebomb";
+	texture "texture/Weapons/tiebomb";
 }

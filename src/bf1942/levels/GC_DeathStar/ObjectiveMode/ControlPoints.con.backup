@@ -1,0 +1,37 @@
+rem
+rem ***  ***
+rem
+Object.create imp_objectivetemplate
+Object.absolutePosition 883.591/138.018/3555.35
+Object.setOSId 1245832
+Object.setTeam 154644968
+rem
+rem ***  ***
+rem
+Object.create imp_station1template
+Object.absolutePosition 910.092/137.838/2818.41
+Object.setOSId 65
+Object.setTeam 0
+rem
+rem ***  ***
+rem
+Object.create imp_staton2template
+Object.absolutePosition 906.587/137.987/1995.46
+Object.rotation 93/0/0
+Object.setOSId 0
+Object.setTeam 0
+rem
+rem ***  ***
+rem
+Object.create imp4template
+Object.absolutePosition 907.425/137.947/1419.02
+Object.rotation 84/0/0
+Object.setOSId 0
+Object.setTeam 0
+rem
+rem ***  ***
+rem
+Object.create yavinassaulttemplate
+Object.absolutePosition 3743.42/1599.27/320.627
+Object.setOSId 67895664
+Object.setTeam 0

@@ -6,5 +6,5 @@ subshader "e11_m1_Material0" "StandardMesh/Default"
 	materialSpecular 0.12549 0.12549 0.12549;
 	materialSpecularPower 12.5;
 	envmap true;
-	texture "texture/e-11";
+	texture "texture/Weapons/e-11";
 }

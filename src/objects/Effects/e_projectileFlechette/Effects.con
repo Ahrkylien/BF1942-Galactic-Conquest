@@ -68,7 +68,7 @@ ObjectTemplate.timeToLive CRD_NONE/0.2/0.2/0
 ObjectTemplate.size CRD_NONE/0.8/0/0
 ObjectTemplate.gravityModifier CRD_NONE/0/0/0
 ObjectTemplate.sizeOverTime 0/0.400006|21/0.789987|100/0.460005
-ObjectTemplate.texture e_fire4
+ObjectTemplate.texture Effects/e_fire4
 ObjectTemplate.useMipMaps 1
 ObjectTemplate.initRotation CRD_UNIFORM/1/180/1
 ObjectTemplate.XYSizeRatio CRD_NONE/1/0/0

@@ -1,5 +1,5 @@
 GeometryTemplate.create StandardMesh echowalltile
-GeometryTemplate.file buildings/echowalltile
+GeometryTemplate.file buildings/Hoth/Echobase/echowalltile
 GeometryTemplate.setLodDistance 0 0
 GeometryTemplate.setLodDistance 1 15
 GeometryTemplate.setLodDistance 2 35

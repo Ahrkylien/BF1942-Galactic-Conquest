@@ -1,5 +1,5 @@
 GeometryTemplate.create StandardMesh hothcratedark
-GeometryTemplate.file buildings/hothcratedark
+GeometryTemplate.file buildings/Hoth/hothcratedark
 GeometryTemplate.setLodDistance 0 0
 GeometryTemplate.setLodDistance 1 900
 GeometryTemplate.setLodDistance 2 940

@@ -32,7 +32,7 @@ MaterialManager.setEffectTemplate e_collision_Soldier
 
 MaterialManager.attGroup 50
 MaterialManager.defGroup 44
-MaterialManager.damageMod 0.1
+MaterialManager.damageMod .1
 MaterialManager.setEffectTemplate e_collision_Soldier
 
 rem *************************************************
@@ -163,7 +163,7 @@ MaterialManager.setEffectTemplate e_collision_Other
 rem *** Water ***
 MaterialManager.attGroup 1
 MaterialManager.defGroup 50
-MaterialManager.damageMod 0.01
+MaterialManager.damageMod 0
 rem MaterialManager.setEffectTemplate e_WaterImpact
 
 rem *** Dry Grass (yellow) ***

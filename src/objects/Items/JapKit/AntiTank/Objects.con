@@ -4,23 +4,24 @@ ObjectTemplate.setKitTeam 1
 ObjectTemplate.geometry Kit_Axis_AntiTank
 ObjectTemplate.setHasCollisionPhysics 1
 ObjectTemplate.networkableInfo KitInfo
-ObjectTemplate.addTemplate Jap_Helmet
-ObjectTemplate.addTemplate Jap_hip_pack
+ObjectTemplate.addTemplate imp_backpack
 
 ObjectTemplate.setHealthBarIcon "Ingame/Healthbar_empty_at_64x64.tga"
 ObjectTemplate.setHealthBarFullIcon "Ingame/Healthbar_full_at_64x64.tga"
-ObjectTemplate.addWeaponIcon "Weapon/Icon_axisKnife.tga"
-ObjectTemplate.addWeaponIcon "Weapon/Icon_walter.tga"
-ObjectTemplate.addWeaponIcon "weapon/Icon_panzerschreck.tga"
-ObjectTemplate.addWeaponIcon "Weapon/Icon_grenadeaxis.tga"
+ObjectTemplate.addWeaponIcon "Weapon/icon_axisknife.dds"
+ObjectTemplate.addWeaponIcon "Weapon/icon_speederpistol.dds"
+ObjectTemplate.addWeaponIcon "Weapon/icon_tl21.dds"
+ObjectTemplate.addWeaponIcon "Weapon/icon_cryoban.dds"
 
 ObjectTemplate.setKitIcon 2 "kits/Icon_antitank_axis_selected.tga"
 ObjectTemplate.setKitName 2 "RESPAWN_AT"
 ObjectTemplate.setKitActiveName 2 "RESPAWN_ACTIVE_AT"
 
-ObjectTemplate.addTemplate Panzershreck
-ObjectTemplate.addTemplate WalterP38
+ObjectTemplate.addTemplate TL-21
+ObjectTemplate.addTemplate speederpistol
 ObjectTemplate.addTemplate KnifeAxis
 
-ObjectTemplate.addTemplate GrenadeAxis
+ObjectTemplate.addTemplate cryoban
+ObjectTemplate.addTemplate NoChute
+
 ObjectTemplate.aiTemplate  AT

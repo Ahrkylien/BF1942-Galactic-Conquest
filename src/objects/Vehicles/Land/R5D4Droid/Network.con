@@ -1,0 +1,11 @@
+NetworkableInfo.createNewInfo R5D4RepairWeaponInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo R5D4EngineInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo R5D4BodyInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo R5D4WeaponRotateInfo
+NetworkableInfo.setPredictionMode PMLinear

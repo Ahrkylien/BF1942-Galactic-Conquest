@@ -1,0 +1,127 @@
+rem ---- DH-17 ----
+rem ** 1P **
+AnimationStateMachine.set1pAnimationSpeed Ub_StandDH-17 0.1
+AnimationStateMachine.set1pAnimationSpeed Ub_TurnDH-17 0.70
+AnimationStateMachine.set1pAnimationSpeed Ub_StandAimDH-17 0.1
+AnimationStateMachine.set1pAnimationSpeed Ub_WalkForwardDH-17 0.50
+AnimationStateMachine.set1pAnimationSpeed Ub_WalkBackwardDH-17 0.50
+AnimationStateMachine.set1pAnimationSpeed Ub_RunForwardDH-17 1.48
+AnimationStateMachine.set1pAnimationSpeed Ub_RunBackwardDH-17 1.47
+AnimationStateMachine.set1pAnimationSpeed Ub_StrafeLeftDH-17 1.47
+AnimationStateMachine.set1pAnimationSpeed Ub_StrafeRightDH-17 1.47
+AnimationStateMachine.set1pAnimationSpeed Ub_StandJumpDH-17 0.40
+AnimationStateMachine.set1pAnimationSpeed Ub_RunJumpDH-17 1.20
+AnimationStateMachine.set1pAnimationSpeed Ub_FireDH-17 2.00
+AnimationStateMachine.set1pAnimationSpeed Ub_LieFireDH-17 2.00
+AnimationStateMachine.set1pAnimationSpeed Ub_IdleDH-171 0.32
+AnimationStateMachine.set1pAnimationSpeed Ub_IdleDH-172 0.54
+AnimationStateMachine.set1pAnimationSpeed Ub_IdleDH-173 0.69
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchIdleDH-171 0.32
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchIdleDH-172 0.54
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchIdleDH-173 0.69
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchDH-17 0.25
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchTurnDH-17 0.50
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchForwardDH-17 0.91
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchBackwardDH-17 0.60
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchStrafeLeftDH-17 0.60
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchStrafeRightDH-17 0.60
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchToLieDH-17 0.60
+AnimationStateMachine.set1pAnimationSpeed Ub_LieToCrouchDH-17 0.60
+AnimationStateMachine.set1pAnimationSpeed Ub_LieToStandDH-17 0.60
+AnimationStateMachine.set1pAnimationSpeed Ub_LieDH-17 0.20
+AnimationStateMachine.set1pAnimationSpeed Ub_LieForwardDH-17 0.70
+AnimationStateMachine.set1pAnimationSpeed Ub_LieBackwardDH-17 0.82
+AnimationStateMachine.set1pAnimationSpeed Ub_LieTurnLeftDH-17 0.82
+AnimationStateMachine.set1pAnimationSpeed Ub_LieTurnRightDH-17 0.82
+AnimationStateMachine.set1pAnimationSpeed Ub_LieStrafeLeftDH-17 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_LieStrafeRightDH-17 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_RunStandToLieDH-17 1.50
+AnimationStateMachine.set1pAnimationSpeed Ub_StandReloadDH-17 0.25
+AnimationStateMachine.set1pAnimationSpeed Ub_LieReloadDH-17 0.25
+AnimationStateMachine.set1pAnimationSpeed Ub_StandRaiseWeaponDH-17 1.16
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchRaiseWeaponDH-17 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_LieRaiseWeaponDH-17 1.16
+rem **3P**
+AnimationStateMachine.set3pAnimationSpeed Ub_StandDH-17 0.60
+AnimationStateMachine.set3pAnimationSpeed Ub_TurnDH-17 1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_StandAimDH-17 0.80
+AnimationStateMachine.set3pAnimationSpeed Ub_WalkForwardDH-17 1.0
+AnimationStateMachine.set3pAnimationSpeed Ub_WalkBackwardDH-17 -1.0
+AnimationStateMachine.set3pAnimationSpeed Ub_RunForwardDH-17 1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_RunBackwardDH-17 -1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_StrafeLeftDH-17 1.30
+AnimationStateMachine.set3pAnimationSpeed Ub_StrafeRightDH-17 1.30
+AnimationStateMachine.set3pAnimationSpeed Ub_StandJumpDH-17 1.10
+AnimationStateMachine.set3pAnimationSpeed Ub_RunJumpDH-17 1.22
+AnimationStateMachine.set3pAnimationSpeed Ub_FireDH-17 2.43
+AnimationStateMachine.set3pAnimationSpeed Ub_LieFireDH-17 2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_IdleDH-171 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_IdleDH-172 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_IdleDH-173 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchIdleDH-171 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchIdleDH-172 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchIdleDH-173 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchDH-17 0.80
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchTurnDH-17 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchForwardDH-17 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchBackwardDH-17 -1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchStrafeLeftDH-17 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchStrafeRightDH-17 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchToLieDH-17 1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_LieToCrouchDH-17 -2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieToStandDH-17 -3.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieDH-17 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieForwardDH-17 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieBackwardDH-17 -0.80
+AnimationStateMachine.set3pAnimationSpeed Ub_LieTurnLeftDH-17 2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieTurnRightDH-17 2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieStrafeLeftDH-17 2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieStrafeRightDH-17 2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_RunStandToLieDH-17 1.40
+AnimationStateMachine.set3pAnimationSpeed Ub_StandReloadDH-17 0.40
+AnimationStateMachine.set3pAnimationSpeed Ub_LieReloadDH-17 0.40
+AnimationStateMachine.set3pAnimationSpeed Ub_StandRaiseWeaponDH-17 -1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchRaiseWeaponDH-17 -1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_LieRaiseWeaponDH-17 -1.60
+
+AnimationStateMachine.set3pAnimationSpeed WeaponReloadDH-17 0.25
+AnimationStateMachine.set3pAnimationSpeed WeaponFireDH-17 2.00
+
+AnimationStateMachine.setactiveState Ub_FireDH-17
+AnimationStateMachine.setCameraShakeRoll 0 0.25 800.0
+AnimationStateMachine.setCameraShakePitch 0 0.10 900.0
+AnimationStateMachine.setCameraShakeYaw 0 0.10 700.0
+AnimationStateMachine.setCameraShakeLeftRight 0 0.03 4000
+AnimationStateMachine.setCameraShakeInOut 0 0.3 3000
+AnimationStateMachine.setCameraShakeUpDown 0 0.03 3500
+AnimationStateMachine.setCameraShakeFadeOut 0 8
+
+AnimationStateMachine.setactiveState Ub_LieFireDH-17
+AnimationStateMachine.setCameraShakeRoll 0 0.25 800.0
+AnimationStateMachine.setCameraShakePitch 0 0.10 900.0
+AnimationStateMachine.setCameraShakeYaw 0 0.10 700.0
+AnimationStateMachine.setCameraShakeLeftRight 0 0.03 4000
+AnimationStateMachine.setCameraShakeInOut 0 0.3 3000
+AnimationStateMachine.setCameraShakeUpDown 0 0.03 3500
+AnimationStateMachine.setCameraShakeFadeOut 0 8
+
+AnimationStateMachine.setActiveState Ub_StandAimDH-17
+AnimationStateMachine.clearAllIdles
+AnimationStateMachine.setCameraShakePitch 0 0.25 1.5
+AnimationStateMachine.setCameraShakeYaw 0 0.2 0.5
+AnimationStateMachine.setCameraShakeMinFactor 0 0.075
+AnimationStateMachine.setCameraShakeFadeOut 0 0.25
+
+AnimationStateMachine.setActiveState Ub_CrouchDH-17
+AnimationStateMachine.clearAllIdles
+AnimationStateMachine.setCameraShakePitch 0 0.20 1.5
+AnimationStateMachine.setCameraShakeYaw 0 0.15 0.5
+AnimationStateMachine.setCameraShakeMinFactor 0 0.075
+AnimationStateMachine.setCameraShakeFadeOut 0 0.25
+
+AnimationStateMachine.setActiveState Ub_LieDH-17
+AnimationStateMachine.clearAllIdles
+AnimationStateMachine.setCameraShakePitch 0 0.15 1.5
+AnimationStateMachine.setCameraShakeYaw 0 0.10 0.5
+AnimationStateMachine.setCameraShakeMinFactor 0 0.075
+AnimationStateMachine.setCameraShakeFadeOut 0 0.25

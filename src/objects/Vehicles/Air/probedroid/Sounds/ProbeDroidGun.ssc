@@ -18,6 +18,7 @@ newPatch
 
 load @ROOT/Sound/@RTD/probedroid-laser-release-stereo.wav
 minDistance 4
+volume 0.7
 stereo
 dopplerOff
 priority 8
@@ -34,7 +35,8 @@ beginEffect
 endEffect
 
 load @ROOT/Sound/@RTD/probedroid-laser-release-mono.wav
-minDistance 50
+minDistance 10
+volume 0.7
 randomStartPitch 0.05 / 0.05
 priority 8
 *** Distance Volume ***
@@ -53,7 +55,7 @@ beginEffect
 	controlDestination Volume
 	controlSource Distance
 	envelope Ramp
-	param 50
+	param 30
 	param 150
 	param 1
 	param -1
@@ -79,6 +81,7 @@ volume 0
 newPatch
 load @ROOT/Sound/@RTD/probedroid-laser-short-stereo.wav
 minDistance 3
+volume 0.7
 stereo
 loop
 stop FinishSample
@@ -97,7 +100,8 @@ beginEffect
 endEffect
 
 load @ROOT/Sound/@RTD/probedroid-laser-short-mono.wav
-minDistance 50
+minDistance 10
+volume 0.7
 loop
 stop FinishSample
 dopplerOff
@@ -119,7 +123,7 @@ beginEffect
 	controlDestination Volume
 	controlSource Distance
 	envelope Ramp
-	param 50
+	param 30
 	param 150
 	param 1
 	param -1

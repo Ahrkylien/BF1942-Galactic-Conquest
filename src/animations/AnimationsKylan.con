@@ -1,0 +1,106 @@
+rem ---- Kylan ----
+rem ** 1P **
+AnimationStateMachine.set1pAnimationSpeed Ub_StandKylan 0.1
+AnimationStateMachine.set1pAnimationSpeed Ub_TurnKylan 0.70
+AnimationStateMachine.set1pAnimationSpeed Ub_StandAimKylan 0.1
+AnimationStateMachine.set1pAnimationSpeed Ub_WalkForwardKylan 0.50
+AnimationStateMachine.set1pAnimationSpeed Ub_WalkBackwardKylan 0.50
+AnimationStateMachine.set1pAnimationSpeed Ub_RunForwardKylan 1.48
+AnimationStateMachine.set1pAnimationSpeed Ub_RunBackwardKylan 1.47
+AnimationStateMachine.set1pAnimationSpeed Ub_StrafeLeftKylan 1.47
+AnimationStateMachine.set1pAnimationSpeed Ub_StrafeRightKylan 1.47
+AnimationStateMachine.set1pAnimationSpeed Ub_StandJumpKylan 0.40
+AnimationStateMachine.set1pAnimationSpeed Ub_RunJumpKylan 1.20
+AnimationStateMachine.set1pAnimationSpeed Ub_FireKylan 2.00
+AnimationStateMachine.set1pAnimationSpeed Ub_LieFireKylan 2.00
+AnimationStateMachine.set1pAnimationSpeed Ub_IdleKylan1 0.32
+AnimationStateMachine.set1pAnimationSpeed Ub_IdleKylan2 0.54
+AnimationStateMachine.set1pAnimationSpeed Ub_IdleKylan3 0.69
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchIdleKylan1 0.32
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchIdleKylan2 0.54
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchIdleKylan3 0.69
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchKylan 0.25
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchTurnKylan 0.50
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchForwardKylan 0.91
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchBackwardKylan 0.60
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchStrafeLeftKylan 0.60
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchStrafeRightKylan 0.60
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchToLieKylan 0.60
+AnimationStateMachine.set1pAnimationSpeed Ub_LieToCrouchKylan 0.60
+AnimationStateMachine.set1pAnimationSpeed Ub_LieToStandKylan 0.60
+AnimationStateMachine.set1pAnimationSpeed Ub_LieKylan 0.20
+AnimationStateMachine.set1pAnimationSpeed Ub_LieForwardKylan 0.70
+AnimationStateMachine.set1pAnimationSpeed Ub_LieBackwardKylan 0.82
+AnimationStateMachine.set1pAnimationSpeed Ub_LieTurnLeftKylan 0.82
+AnimationStateMachine.set1pAnimationSpeed Ub_LieTurnRightKylan 0.82
+AnimationStateMachine.set1pAnimationSpeed Ub_LieStrafeLeftKylan 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_LieStrafeRightKylan 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_RunStandToLieKylan 1.50
+AnimationStateMachine.set1pAnimationSpeed Ub_StandReloadKylan 0.25
+AnimationStateMachine.set1pAnimationSpeed Ub_LieReloadKylan 0.25
+AnimationStateMachine.set1pAnimationSpeed Ub_StandRaiseWeaponKylan 1.16
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchRaiseWeaponKylan 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_LieRaiseWeaponKylan 1.16
+rem **3P**
+AnimationStateMachine.set3pAnimationSpeed Ub_StandKylan 0.60
+AnimationStateMachine.set3pAnimationSpeed Ub_TurnKylan 1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_StandAimKylan 0.80
+AnimationStateMachine.set3pAnimationSpeed Ub_WalkForwardKylan 1.0
+AnimationStateMachine.set3pAnimationSpeed Ub_WalkBackwardKylan -1.0
+AnimationStateMachine.set3pAnimationSpeed Ub_RunForwardKylan 1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_RunBackwardKylan -1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_StrafeLeftKylan 1.30
+AnimationStateMachine.set3pAnimationSpeed Ub_StrafeRightKylan 1.30
+AnimationStateMachine.set3pAnimationSpeed Ub_StandJumpKylan 1.10
+AnimationStateMachine.set3pAnimationSpeed Ub_RunJumpKylan 1.22
+AnimationStateMachine.set3pAnimationSpeed Ub_FireKylan 2.43
+AnimationStateMachine.set3pAnimationSpeed Ub_LieFireKylan 2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_IdleKylan1 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_IdleKylan2 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_IdleKylan3 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchIdleKylan1 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchIdleKylan2 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchIdleKylan3 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchKylan 0.80
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchTurnKylan 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchForwardKylan 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchBackwardKylan -1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchStrafeLeftKylan 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchStrafeRightKylan 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchToLieKylan 1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_LieToCrouchKylan -2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieToStandKylan -3.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieKylan 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieForwardKylan 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieBackwardKylan -0.80
+AnimationStateMachine.set3pAnimationSpeed Ub_LieTurnLeftKylan 2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieTurnRightKylan 2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieStrafeLeftKylan 2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieStrafeRightKylan 2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_RunStandToLieKylan 1.40
+AnimationStateMachine.set3pAnimationSpeed Ub_StandReloadKylan 0.40
+AnimationStateMachine.set3pAnimationSpeed Ub_LieReloadKylan 0.40
+AnimationStateMachine.set3pAnimationSpeed Ub_StandRaiseWeaponKylan -1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchRaiseWeaponKylan -1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_LieRaiseWeaponKylan -1.60
+
+AnimationStateMachine.set3pAnimationSpeed WeaponReloadKylan 0.25
+AnimationStateMachine.set3pAnimationSpeed WeaponFireKylan 2.00
+
+AnimationStateMachine.setactiveState Ub_FireKylan
+AnimationStateMachine.setCameraShakeRoll 0 0.25 800.0
+AnimationStateMachine.setCameraShakePitch 0 0.10 900.0
+AnimationStateMachine.setCameraShakeYaw 0 0.10 700.0
+AnimationStateMachine.setCameraShakeLeftRight 0 0.03 4000
+AnimationStateMachine.setCameraShakeInOut 0 0.3 3000
+AnimationStateMachine.setCameraShakeUpDown 0 0.03 3500
+AnimationStateMachine.setCameraShakeFadeOut 0 8
+
+AnimationStateMachine.setactiveState Ub_LieFireKylan
+AnimationStateMachine.setCameraShakeRoll 0 0.25 800.0
+AnimationStateMachine.setCameraShakePitch 0 0.10 900.0
+AnimationStateMachine.setCameraShakeYaw 0 0.10 700.0
+AnimationStateMachine.setCameraShakeLeftRight 0 0.03 4000
+AnimationStateMachine.setCameraShakeInOut 0 0.3 3000
+AnimationStateMachine.setCameraShakeUpDown 0 0.03 3500
+AnimationStateMachine.setCameraShakeFadeOut 0 8

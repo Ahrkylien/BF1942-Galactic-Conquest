@@ -20,7 +20,7 @@ ObjectTemplate.setRotation 45/25/-65
 
 ObjectTemplate.create SimpleObject WreckTiefighter1
 ObjectTemplate.setHasCollisionPhysics 1
-ObjectTemplate.Geometry Wreck_TieFighter
+ObjectTemplate.Geometry Wreck_TieFighter1_M1
 
 ObjectTemplate.create SimpleObject WreckTiefighter2
 ObjectTemplate.setHasCollisionPhysics 1

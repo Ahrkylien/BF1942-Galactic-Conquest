@@ -1,33 +1,38 @@
-ObjectTemplate.create Projectile protontorpedo
-ObjectTemplate.geometry protontorpedo
-ObjectTemplate.timeToLive CRD_NONE/50/0/0
+ObjectTemplate.create Projectile ProtonTorpedo
+ObjectTemplate.geometry ProtonTorpedo_m1
+ObjectTemplate.timeToLive CRD_NONE/20/0/0
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.setHasMobilePhysics 1
 ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.setHasPointPhysics 0
-ObjectTemplate.drag 2
-ObjectTemplate.mass 5
-ObjectTemplate.startEffectTemplate e_KatyushaFume
+ObjectTemplate.drag .5
+ObjectTemplate.mass 20
+ObjectTemplate.gravityModifier 0
+ObjectTemplate.addTemplate e_engineProtonTorpedo
 ObjectTemplate.hasCollisionEffect 1
 ObjectTemplate.hasOnTimeEffect 0
-ObjectTemplate.invisibleAtEndEffect 0
+ObjectTemplate.invisibleAtEndEffect 1
 ObjectTemplate.dieAfterColl 1
-ObjectTemplate.stopAtEndEffect 0
-ObjectTemplate.invisible 0
+ObjectTemplate.useMMOnEndEffect 1
 ObjectTemplate.damageType 1
-ObjectTemplate.material 240
-ObjectTemplate.material2 201
-ObjectTemplate.radius 15
+
+ObjectTemplate.material 552
+ObjectTemplate.material2 553
+
+ObjectTemplate.radius 8
 ObjectTemplate.ForceOnExplosion 15
-ObjectTemplate.gravityModifier 0
+ObjectTemplate.ProximityFusePrimer 0.1
+ObjectTemplate.explodeNearEnemyDistance 7
 
-beginrem
-ObjectTemplate.addTemplate protontorpedo_Wing
+ObjectTemplate.addTemplate ProtonTorpedoWing
 ObjectTemplate.setPosition 0/0/-1.5
-ObjectTemplate.setRotation 0/0/0
-endrem
 
-ObjectTemplate.addTemplate protontorpedo_Engine
+ObjectTemplate.addTemplate ProtonTorpedoEngine
 ObjectTemplate.setPosition 0/0/-2
-ObjectTemplate.setRotation 0/0/0
 
 
+rem -------------------------------------------------
 
+rem *** ProtonTorpedoDummy ***
+ObjectTemplate.create SimpleObject ProtonTorpedoDummy
+ObjectTemplate.geometry ProtonTorpedo_m1

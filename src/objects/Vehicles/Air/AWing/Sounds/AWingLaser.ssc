@@ -16,45 +16,18 @@ volume 0
 ###############
 newPatch
 
-load @ROOT/Sound/@RTD/awing-laser-release-stereo.wav
-minDistance 10
-stereo
+load @ROOT/Sound/@RTD/awing-laser-release.wav
+volume 1
+minDistance 50
 priority 8
-volume 0.7
-*** Distance Volume ***
-beginEffect
-	controlDestination Volume
-	controlSource Distance
-	envelope Ramp
-	param 1
-	param 10
-	param 1
-	param -1
-endEffect
-
-
-load @ROOT/Sound/@RTD/awing-laser-release-mono.wav
-minDistance 25
-priority 8
-volume 0.8
-*** Distance Volume ***
-beginEffect
-	controlDestination Volume
-	controlSource Distance
-	envelope Ramp
-	param 5
-	param 10
-	param 0
-	param 1	
-endEffect
 
 *** Distance Volume ***
 beginEffect
 	controlDestination Volume
 	controlSource Distance
 	envelope Ramp
-	param 25
-	param 250
+	param 100
+	param 210
 	param 1
 	param -1
 endEffect
@@ -78,54 +51,21 @@ volume 0
 #################
 newPatch
 
-load @ROOT/Sound/@RTD/awing-laser-short-stereo.wav
-minDistance 10
-stereo
+load @ROOT/Sound/@RTD/awing-laser-short.wav
+volume 1
+minDistance 50
 loop
-volume 0.7
 stop FinishSample
 dopplerOff
-randomStartPitch 0.05 / 0.05
-priority 10
-*** Distance Volume ***
-beginEffect
-	controlDestination Volume
-	controlSource Distance
-	envelope Ramp
-	param 1
-	param 10
-	param 1
-	param -1
-endEffect
-
-
-load @ROOT/Sound/@RTD/awing-laser-short-mono.wav
-minDistance 40
-loop
-volume 0.8
-stop FinishSample
-dopplerOff
-randomStartPitch 0.05 / 0.05
 priority 9
-*** Distance Volume ***
-beginEffect
-	controlDestination Volume
-	controlSource Distance
-	envelope Ramp
-	param 5
-	param 10
-	param 0
-	param 1	
-endEffect
 
 *** Distance Volume ***
 beginEffect
 	controlDestination Volume
 	controlSource Distance
 	envelope Ramp
-	param 40
-	param 400
+	param 100
+	param 210
 	param 1
 	param -1
 endEffect
-

@@ -1,6 +1,0 @@
-rem *** e_projectileAPTurret ***
-ObjectTemplate.create EffectBundle e_projectileAPTurret
-ObjectTemplate.saveInSeparateFile 1
-ObjectTemplate.addTemplate e_laser1red
-
-

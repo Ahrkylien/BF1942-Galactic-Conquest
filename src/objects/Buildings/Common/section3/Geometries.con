@@ -1,6 +1,6 @@
 
 GeometryTemplate.create StandardMesh section3
-GeometryTemplate.file buildings/section3
+GeometryTemplate.file buildings/Endor/section3
 GeometryTemplate.setLodDistance 0 0
 GeometryTemplate.setLodDistance 1 100
 GeometryTemplate.setLodDistance 2 300

@@ -1,81 +1,73 @@
-ObjectTemplate.create HandFireArms DH17
+ObjectTemplate.create HandFireArms DH-17
 ObjectTemplate.itemIndex 2
 ObjectTemplate.networkableInfo HandFireArmsInfo
-ObjectTemplate.projectileTemplate Dh17Projectile
+ObjectTemplate.projectileTemplate DH17Projectile
 ObjectTemplate.projectilePosition 0/0.068/0
-ObjectTemplate.hasDynamicShadow 1
 ObjectTemplate.magSize 75
-ObjectTemplate.unZoomBetweenFireTime 0
-ObjectTemplate.useScope 1
-ObjectTemplate.setScopeIcon "reb_dl-44scope.tga"
 ObjectTemplate.numOfMag 1
 ObjectTemplate.magType 0
 ObjectTemplate.reloadtime 0.000001
 ObjectTemplate.roundOfFire 5.5
 ObjectTemplate.fireOnce 1
-objectTemplate.aiTemplate BarAI
-ObjectTemplate.zoomFov 0.3
+objectTemplate.aiTemplate P38AI
+ObjectTemplate.zoomFov 0.35
+ObjectTemplate.altFireOnce 1
 ObjectTemplate.soldierZoomFov 0.6
 ObjectTemplate.soldierZoomPosition -0.04/0/0
-ObjectTemplate.soldierCameraPosition -0.03/-0.02/-0.07
-ObjectTemplate.addRootSpeed 0
+ObjectTemplate.soldierCameraPosition 0.013/-0.065/-0.07
 ObjectTemplate.AmmoType	1
-ObjectTemplate.autoReload 0
+ObjectTemplate.addRootSpeed 0
 ObjectTemplate.setHasMag 0
 
+ObjectTemplate.minDamage 0.5
+ObjectTemplate.distToStartLoseDamage 30
+ObjectTemplate.distToMinDamage 120
 
-ObjectTemplate.altFireOnce 1
-rem objectTemplate.UseScope 1
+ObjectTemplate.useScope 1
+ObjectTemplate.setScopeIcon "reb_dl-44scope.tga"
+ObjectTemplate.unZoomBetweenFireTime 0
 
-Rem *** Deviation Begin *****
-
-ObjectTemplate.velocity 340
-ObjectTemplate.setRecoilForceUp CRD_UNIFORM/0.5/0.6/0
-ObjectTemplate.setRecoilForceLeftRight CRD_UNIFORM/-0.3/-0.3/0
-ObjectTemplate.setHasRecoilForce 1
-ObjectTemplate.setGoBackOnRecoil 1
-
-ObjectTemplate.setFireDev 4.0 2.0 1.0
-ObjectTemplate.setDevMod 0.4 0.2 0.0
-ObjectTemplate.setMinDev 0.0
-ObjectTemplate.setTurnDev 1.0 0.2 0.2 0.1
-ObjectTemplate.setSpeedDev 1.0 0.2 0.2 0.1
-ObjectTemplate.setMiscDev 10.0 10.0 1.0
-`
-Rem *** Deviation  End *****
-
-ObjectTemplate.fireInCameraDof 1
-ObjectTemplate.loadSoundScript Sounds/DH-17.ssc
-ObjectTemplate.GUIIndex 18
 ObjectTemplate.setHudAmmoType ATIconAndHeatBar
 ObjectTemplate.setAmmoIcon "ammo/icon_laser_64x32.dds"
 ObjectTemplate.setCrossHairType CHTCrossHair
 
-ObjectTemplate.createSkeleton animations/DH17.ske
-ObjectTemplate.useSkeletonPartAsMain base
-ObjectTemplate.addTemplate DH17Lod
+Rem *** Deviation Begin *****
+ObjectTemplate.velocity 340
+ObjectTemplate.setRecoilForceUp CRD_UNIFORM/0.4/0.6/0
+ObjectTemplate.setRecoilForceLeftRight CRD_UNIFORM/-0.2/-0.2/0
+ObjectTemplate.setHasRecoilForce 1
+ObjectTemplate.setGoBackOnRecoil 1
 
-ObjectTemplate.addTemplate e_MuzzSG44
+ObjectTemplate.setFireDev 2.5 1.5 0.07
+ObjectTemplate.setMinDev 0.2
+ObjectTemplate.setTurnDev 0 0 0 0
+ObjectTemplate.setSpeedDev 1.5 0.2 0.2 0.1
+ObjectTemplate.setMiscDev 2.5 2.5 0.1
+Rem *** Deviation  End *****
+
+ObjectTemplate.fireInCameraDof 1
+ObjectTemplate.loadSoundScript Sounds/DH-17.ssc
+ObjectTemplate.createSkeleton animations/DH-17.ske
+ObjectTemplate.useSkeletonPartAsMain Colt
+ObjectTemplate.addTemplate DH-17Lod
+ObjectTemplate.setPosition 0/-0.05/0.08
+
+ObjectTemplate.addTemplate e_MuzzGun
 ObjectTemplate.setInputId -1
 ObjectTemplate.startoneffects 0
-ObjectTemplate.setPosition 0/0.068/0.223
+ObjectTemplate.setPosition 0/0.04/0.25
 ObjectTemplate.setRotation 0/0/0
 
-rem *** simple-Objects ***
+ObjectTemplate.create AnimatedBundle DH-17Complex
+ObjectTemplate.createSkeleton animations/DH-17.ske
+ObjectTemplate.addTemplate DH-17Simple
+ObjectTemplate.bindToSkeletonPart Colt
 
-ObjectTemplate.create SimpleObject DH17Simple
+ObjectTemplate.create SimpleObject DH-17Simple
 ObjectTemplate.geometry DH17
 
-
-ObjectTemplate.create AnimatedBundle Dh17Complex
-ObjectTemplate.createSkeleton animations/Dh17.ske
-ObjectTemplate.addTemplate DH17Simple
-ObjectTemplate.setPosition 0/-0.07/0.07
-ObjectTemplate.bindToSkeletonPart thompson
-
-
-ObjectTemplate.create LodObject Dh17Lod
+ObjectTemplate.create LodObject DH-17Lod
 ObjectTemplate.lodselector HandWeaponLodSelector
-ObjectTemplate.addTemplate Dh17Complex
-ObjectTemplate.addTemplate Dh17Simple
+ObjectTemplate.addTemplate DH-17Complex
+ObjectTemplate.addTemplate DH-17Simple
 

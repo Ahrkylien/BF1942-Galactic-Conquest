@@ -6,11 +6,3 @@ NetworkableInfo.setPredictionMode PMLinear
 
 NetworkableInfo.createNewInfo LandspeederBodyInfo
 NetworkableInfo.setPredictionMode PMLinear
-
-NetworkableInfo.createNewInfo LandspeederSpringInfo
-NetworkableInfo.setPredictionMode PMLinear
-
-NetworkableInfo.createNewInfo LandspeederTurretInfo
-NetworkableInfo.setPredictionMode PMLinear
-
-

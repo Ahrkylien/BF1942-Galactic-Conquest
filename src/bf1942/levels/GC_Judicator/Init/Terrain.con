@@ -1,0 +1,113 @@
+rem 
+rem **** Initialize Terrain *****
+rem
+GeometryTemplate.create patchTerrain terrainGeometry
+GeometryTemplate.file bf1942\levels\GC_BCanyon\Heightmap
+GeometryTemplate.materialMap bf1942\levels\GC_BCanyon\Materialmap
+GeometryTemplate.materialSize 512
+GeometryTemplate.targetTriCount 5000
+GeometryTemplate.worldSize 2048
+GeometryTemplate.yScale 0.6
+GeometryTemplate.texBaseName bf1942\levels\GC_BCanyon\Textures\Tx
+GeometryTemplate.texOffsetX 0
+GeometryTemplate.texOffsetY 0
+GeometryTemplate.detailTexName bf1942\levels\GC_BCanyon\Textures\Detail
+GeometryTemplate.waterLevel 180
+GeometryTemplate.seaFloorLevel 172
+GeometryTemplate.lodDistance 500
+
+Water.baseTex texture/Water
+
+ObjectTemplate.create SimpleObject terrainObject
+ObjectTemplate.geometry terrainGeometry
+objectTemplate.createNotInGrid 1
+
+Object.create terrainObject
+Object.setName track
+Object.absolutePosition 0/0/0
+Object.rotation 0/0/0
+
+Console.setCameraPosition 1024/50/1024
+Console.worldSize 2048
+
+Terrain.ShadowAmbient 80/80/90
+Terrain.ShadowBorderFadeTime 0.075
+Terrain.ShadowSamplingCullY 15
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

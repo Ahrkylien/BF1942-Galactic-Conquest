@@ -1,0 +1,19 @@
+rem ============================= OBJECTS to destroy ================
+
+Object.create TurbineSpawner
+Object.absolutePosition  1031.61/96.4012/3783.09
+Object.rotation 0/0/0
+Object.setName Turbine01
+Object.setTeam 1
+
+rem // Axis = 1 , Allied = 2
+rem ============================= ATTACKERS ========================================
+
+Object.create DestroyTurbineObjectiveSpawner01
+object.setName ObjectiveSpawner01
+
+object.create AxisTimerObjectiveSpawner
+object.setName EMPIRE
+
+object.create AlliedANDCompositeObjectiveSpawner
+object.setName REBELS

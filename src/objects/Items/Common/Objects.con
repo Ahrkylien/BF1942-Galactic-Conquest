@@ -1,5 +1,10 @@
-GeometryTemplate.create StandardMesh US_Britt_Bacpac
-GeometryTemplate.file US_Britt_Bacpac_m1
-GeometryTemplate.setLodDistance 0 0
-GeometryTemplate.setLodDistance 1 30
-GeometryTemplate.setLodDistance 2 100
+ObjectTemplate.create ActiveKitPart NoChute
+ObjectTemplate.setBoneName backpack
+ObjectTemplate.setCopyLinksCount 0
+ObjectTemplate.OverrideAirMovementInhibitations 1
+
+ObjectTemplate.create KitPart imp_backpack
+ObjectTemplate.geometry imp_backpack
+ObjectTemplate.setBoneName backpack
+ObjectTemplate.setCopyLinksCount 0
+

@@ -1,39 +1,19 @@
-
-
 rem *** AVTurretGunBarrel ***
 ObjectTemplate.create FireArms AVTurretGun
-ObjectTemplate.setNetworkableInfo avturretGunInfo
+ObjectTemplate.setNetworkableInfo TankFireArmInfo
 ObjectTemplate.loadSoundScript Sounds/AVTurretFire.ssc
-ObjectTemplate.aiTemplate avturretGunAI
-ObjectTemplate.addTemplate e_muzzAVTurret
-ObjectTemplate.setPosition 0/0/0
-ObjectTemplate.projectileTemplate AVTurretProjectile
-ObjectTemplate.projectilePosition 0/1/5
-ObjectTemplate.magSize 999
+ObjectTemplate.aiTemplate ShermanMainGun
+rem -------------------------------------
+ObjectTemplate.visibleBarrelTemplate e_muzzGun
+rem -------------------------------------
+ObjectTemplate.projectileTemplate StrongLaserProjectileRedS
+ObjectTemplate.magSize -1
 ObjectTemplate.magType 0
 ObjectTemplate.numOfMag 999
-ObjectTemplate.velocity 620
+ObjectTemplate.velocity 700
 ObjectTemplate.reloadtime 7
 ObjectTemplate.autoReload 1
 ObjectTemplate.roundOfFire 0.75
-
-rem *** AVTurret_Projectile ***
-ObjectTemplate.create Projectile AVTurretProjectile
-ObjectTemplate.geometry Tlight_r3
-ObjectTemplate.tracerScaler 50.0
-ObjectTemplate.timeToLive CRD_UNIFORM/3/3.5/0
-ObjectTemplate.hasCollisionPhysics 1
-ObjectTemplate.gravityModifier 0.0
-ObjectTemplate.hasCollisionEffect 1
-ObjectTemplate.invisibleAtEndEffect 1
-ObjectTemplate.dieAfterColl 1
-ObjectTemplate.stopAtEndEffect 1
-ObjectTemplate.damageType 4
-ObjectTemplate.material 505
-ObjectTemplate.material2 505
-ObjectTemplate.radius 60
-ObjectTemplate.ForceOnExplosion 10
-ObjectTemplate.ProximityFusePrimer 0.05
-ObjectTemplate.explodeNearEnemyDistance 40
+ObjectTemplate.addFireArmsPosition 0/0/0 0/0/0
 
 

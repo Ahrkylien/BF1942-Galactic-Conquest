@@ -1,8 +1,8 @@
 ScoreManager.kill 1
 ScoreManager.death 0
-ScoreManager.capture 10
-ScoreManager.attack 2
+ScoreManager.capture 2
+ScoreManager.attack 5
 ScoreManager.defence 5
-ScoreManager.TK -2
+ScoreManager.TK -1
 
 rem EndOfFile

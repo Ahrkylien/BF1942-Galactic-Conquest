@@ -90,7 +90,7 @@ rem *** Shokaku Lcvp ***
 spawnPointManager.group 76
 spawnPointManager.groupTeam 1
 spawnPointManager.groupIcon test2.tga
-rem spawnPointManager.groupStatus 0
+spawnPointManager.groupStatus 0
 
 rem *** Shokaku AirCraft ***
 spawnPointManager.group 77

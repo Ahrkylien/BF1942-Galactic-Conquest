@@ -1,0 +1,120 @@
+rem ObjectSpawns.con created by Battlecraft 1942
+rem (d:\battlefield 1942\Mods\cloudtown\bf1942\levels\GC_bespin/conquest/ObjectSpawns.con)
+
+rem ----------------------------------------- 
+rem ---  Cloudcar_Spawner_Mines  ---
+rem ----------------------------------------- 
+Object.create Cloudcar_Spawner_Mines
+Object.absolutePosition 338.39/282.70/990.17
+Object.rotation 89.85/0.00/0.00
+Object.setOSId 2
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Cloudcar_Spawner_Mines  ---
+rem ----------------------------------------- 
+Object.create Cloudcar_Spawner_Mines
+Object.absolutePosition 338.79/281.80/1003.28
+Object.rotation 89.18/0.00/0.00
+Object.setOSId 2
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Cloudbus_Spawner  ---
+rem ----------------------------------------- 
+Object.create Cloudbus_Spawner
+Object.absolutePosition 277.67/282.04/934.06
+Object.rotation 91.99/0.00/0.00
+Object.setOSId 2
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Cloudbus_Spawner  ---
+rem ----------------------------------------- 
+Object.create Cloudbus_Spawner
+Object.absolutePosition 277.58/282.04/1061.45
+Object.rotation -87.25/0.00/0.00
+Object.setOSId 2
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Cloudbus_Spawner  ---
+rem ----------------------------------------- 
+Object.create Cloudbus_Spawner
+Object.absolutePosition 1765.27/282.04/934.58
+Object.rotation 92.27/0.00/0.00
+Object.setOSId 3
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  Cloudbus_Spawner  ---
+rem ----------------------------------------- 
+Object.create Cloudbus_Spawner
+Object.absolutePosition 1768.26/282.04/1058.57
+Object.rotation -87.06/0.00/0.00
+Object.setOSId 3
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  Cloudcar_Spawner_Mines  ---
+rem ----------------------------------------- 
+Object.create Cloudcar_Spawner_Mines
+Object.absolutePosition 1706.58/281.88/1004.31
+Object.rotation -86.23/0.00/0.00
+Object.setOSId 3
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  Cloudcar_Spawner_Mines  ---
+rem ----------------------------------------- 
+Object.create Cloudcar_Spawner_Mines
+Object.absolutePosition 1706.28/282.04/991.79
+Object.rotation -91.84/0.00/0.00
+Object.setOSId 3
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  Cloudcar_Spawner_Platforms  ---
+rem ----------------------------------------- 
+Object.create Cloudcar_Spawner_Platforms
+Object.absolutePosition 752.24/270.11/1018.80
+Object.rotation -44.26/0.00/0.00
+Object.setOSId 5
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Cloudcar_Spawner_Platforms  ---
+rem ----------------------------------------- 
+Object.create Cloudcar_Spawner_Platforms
+Object.absolutePosition 751.46/270.11/990.19
+Object.rotation -135.64/0.00/0.00
+Object.setOSId 5
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Cloudcar_Spawner_Platforms  ---
+rem ----------------------------------------- 
+Object.create Cloudcar_Spawner_Platforms
+Object.absolutePosition 1259.24/270.11/990.70
+Object.rotation 136.33/0.00/0.00
+Object.setOSId 1
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  Cloudcar_Spawner_Platforms  ---
+rem ----------------------------------------- 
+Object.create Cloudcar_Spawner_Platforms
+Object.absolutePosition 1260.40/270.11/1015.32
+Object.rotation 48.92/0.00/0.00
+Object.setOSId 1
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  Cloudcar_Spawner_Platforms  ---
+rem ----------------------------------------- 
+Object.create Cloudcar_Spawner_Platforms
+Object.absolutePosition 866.87/282.82/1045.85
+Object.rotation -87.37/0.00/0.00
+Object.setTeam 0
+
+rem EndOfFile

@@ -1,0 +1,103 @@
+rem ---- E-11Sniper ----
+rem ** 1P **
+AnimationStateMachine.set1pAnimationSpeed Ub_StandE-11Sniper 0.1
+AnimationStateMachine.set1pAnimationSpeed Ub_TurnE-11Sniper 0.70
+AnimationStateMachine.set1pAnimationSpeed Ub_StandAimE-11Sniper 0.1
+AnimationStateMachine.set1pAnimationSpeed Ub_WalkForwardE-11Sniper 0.50
+AnimationStateMachine.set1pAnimationSpeed Ub_WalkBackwardE-11Sniper 0.50
+AnimationStateMachine.set1pAnimationSpeed Ub_RunForwardE-11Sniper 1.41
+AnimationStateMachine.set1pAnimationSpeed Ub_RunBackwardE-11Sniper 1.54
+AnimationStateMachine.set1pAnimationSpeed Ub_StrafeLeftE-11Sniper 1.54
+AnimationStateMachine.set1pAnimationSpeed Ub_StrafeRightE-11Sniper 1.54
+AnimationStateMachine.set1pAnimationSpeed Ub_StandJumpE-11Sniper 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_RunJumpE-11Sniper 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_FireE-11Sniper 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_LieFireE-11Sniper 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchE-11Sniper 0.36
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchTurnE-11Sniper 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchForwardE-11Sniper 0.83
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchBackwardE-11Sniper 0.83
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchStrafeLeftE-11Sniper 0.83
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchStrafeRightE-11Sniper 0.83
+AnimationStateMachine.set1pAnimationSpeed Ub_LieE-11Sniper 0.36
+AnimationStateMachine.set1pAnimationSpeed Ub_LieForwardE-11Sniper 0.79
+AnimationStateMachine.set1pAnimationSpeed Ub_LieBackwardE-11Sniper 0.79
+AnimationStateMachine.set1pAnimationSpeed Ub_LieTurnLeftE-11Sniper 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_LieTurnRightE-11Sniper 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_LieStrafeLeftE-11Sniper 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_LieStrafeRightE-11Sniper 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_StandReloadE-11Sniper 0.60
+AnimationStateMachine.set1pAnimationSpeed Ub_LieReloadE-11Sniper 0.60
+AnimationStateMachine.set1pAnimationSpeed Ub_StandRaiseWeaponE-11Sniper 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchRaiseWeaponE-11Sniper 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_LieRaiseWeaponE-11Sniper 1.00
+rem **3P**
+AnimationStateMachine.set3pAnimationSpeed Ub_StandE-11Sniper 0.60
+AnimationStateMachine.set3pAnimationSpeed Ub_TurnE-11Sniper 1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_StandAimE-11Sniper 0.80
+AnimationStateMachine.set3pAnimationSpeed Ub_WalkForwardE-11Sniper 1.0
+AnimationStateMachine.set3pAnimationSpeed Ub_WalkBackwardE-11Sniper -1.0
+AnimationStateMachine.set3pAnimationSpeed Ub_RunForwardE-11Sniper 1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_RunBackwardE-11Sniper -1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_StrafeLeftE-11Sniper 1.30
+AnimationStateMachine.set3pAnimationSpeed Ub_StrafeRightE-11Sniper 1.30
+AnimationStateMachine.set3pAnimationSpeed Ub_StandJumpE-11Sniper 1.10
+AnimationStateMachine.set3pAnimationSpeed Ub_RunJumpE-11Sniper 1.22
+AnimationStateMachine.set3pAnimationSpeed Ub_FireE-11Sniper 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieFireE-11Sniper 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchE-11Sniper 0.80
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchTurnE-11Sniper 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchForwardE-11Sniper 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchBackwardE-11Sniper 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchStrafeLeftE-11Sniper 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchStrafeRightE-11Sniper 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchToLieE-11Sniper 1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_LieToCrouchE-11Sniper -2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieToStandE-11Sniper -3.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieE-11Sniper 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieForwardE-11Sniper 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieBackwardE-11Sniper -0.80
+AnimationStateMachine.set3pAnimationSpeed Ub_LieTurnLeftE-11Sniper 2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieTurnRightE-11Sniper 2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieStrafeLeftE-11Sniper 2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieStrafeRightE-11Sniper 2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_StandReloadE-11Sniper 0.52
+AnimationStateMachine.set3pAnimationSpeed Ub_LieReloadE-11Sniper 0.52
+AnimationStateMachine.set3pAnimationSpeed Ub_StandRaiseWeaponE-11Sniper -1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchRaiseWeaponE-11Sniper -1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_LieRaiseWeaponE-11Sniper -1.60
+
+AnimationStateMachine.set3pAnimationSpeed WeaponReloadNo4 0.60
+
+AnimationStateMachine.setActiveState Ub_FireE-11Sniper
+AnimationStateMachine.setCameraShakePitch 0 2.0 10
+AnimationStateMachine.setCameraShakeFadeOut 0 4.0
+AnimationStateMachine.setCameraShakePitch 1 0.1 1.0
+AnimationStateMachine.setCameraShakeYaw 1 -0.03 2.3
+
+AnimationStateMachine.setActiveState Ub_LieFireE-11Sniper
+AnimationStateMachine.setCameraShakePitch 0 2.0 10
+AnimationStateMachine.setCameraShakeFadeOut 0 4.0
+AnimationStateMachine.setCameraShakePitch 1 0.1 1.0
+AnimationStateMachine.setCameraShakeYaw 1 -0.03 2.3
+
+AnimationStateMachine.setActiveState Ub_StandAimE-11Sniper
+AnimationStateMachine.clearAllIdles
+AnimationStateMachine.setCameraShakePitch 0 0.25 1.5
+AnimationStateMachine.setCameraShakeYaw 0 0.2 0.5
+AnimationStateMachine.setCameraShakeMinFactor 0 0.075
+AnimationStateMachine.setCameraShakeFadeOut 0 0.25
+
+AnimationStateMachine.setActiveState Ub_CrouchE-11Sniper
+AnimationStateMachine.clearAllIdles
+AnimationStateMachine.setCameraShakePitch 0 0.20 1.5
+AnimationStateMachine.setCameraShakeYaw 0 0.15 0.5
+AnimationStateMachine.setCameraShakeMinFactor 0 0.075
+AnimationStateMachine.setCameraShakeFadeOut 0 0.25
+
+AnimationStateMachine.setActiveState Ub_LieE-11Sniper
+AnimationStateMachine.clearAllIdles
+AnimationStateMachine.setCameraShakePitch 0 0.15 1.5
+AnimationStateMachine.setCameraShakeYaw 0 0.10 0.5
+AnimationStateMachine.setCameraShakeMinFactor 0 0.075
+AnimationStateMachine.setCameraShakeFadeOut 0 0.25

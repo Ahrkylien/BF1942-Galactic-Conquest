@@ -17,12 +17,12 @@ volume 0
 newPatch
 
 load @ROOT/Sound/@RTD/snowspeeder-laser1-release-stereo.wav
-relativePosition 0/0.95/0.7
+volume 0.7
+relativePosition 0/0.95/0.8
 minDistance 1
 stereo
 dopplerOff
 priority 8
-
 *** Distance Volume ***
 beginEffect
 	controlDestination Volume
@@ -35,7 +35,8 @@ beginEffect
 endEffect
 
 load @ROOT/Sound/@RTD/snowspeeder-laser1-release-mono.wav
-relativePosition 0/0.95/0.7
+volume 0.8
+relativePosition 0/0.9/0.8
 minDistance 50
 randomStartPitch 0.05 / 0.05
 priority 8
@@ -80,7 +81,8 @@ volume 0
 #################
 newPatch
 load @ROOT/Sound/@RTD/snowspeeder-laser1-short-stereo.wav
-relativePosition 0/0.95/0.7
+volume 0.7
+relativePosition 0/0.95/0.8
 minDistance 1
 stereo
 loop
@@ -100,7 +102,8 @@ beginEffect
 endEffect
 
 load @ROOT/Sound/@RTD/snowspeeder-laser1-short-mono.wav
-relativePosition 0/0.95/0.7
+volume 0.8
+relativePosition 0/0.9/0.8
 minDistance 50
 loop
 stop FinishSample

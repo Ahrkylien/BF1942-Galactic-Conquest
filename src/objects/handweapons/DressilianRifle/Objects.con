@@ -6,7 +6,7 @@ ObjectTemplate.networkableInfo HandFireArmsInfo
 ObjectTemplate.itemIndex 3
 ObjectTemplate.projectileTemplate dressilianrifleProjectile
 ObjectTemplate.projectilePosition 0/0/0
-ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.hasDynamicShadow 0
 ObjectTemplate.magSize 10
 ObjectTemplate.numOfMag 3
 ObjectTemplate.magType 0
@@ -28,7 +28,7 @@ ObjectTemplate.setAmomBarPosY -17
 ObjectTemplate.setAmomBarTextPosX 5
 ObjectTemplate.setAmomBarTextPosY 10
 ObjectTemplate.setSniperSight 1
-ObjectTemplate.setCrossHairType CHTNone
+ObjectTemplate.setCrossHairType CHTCrossHair
 ObjectTemplate.soldierZoomFov 0.6 
 ObjectTemplate.soldierZoomPosition -0.07/0/0
 ObjectTemplate.soldierCameraPosition -0.02/-0.03/0.01
@@ -38,10 +38,10 @@ ObjectTemplate.timeToNotAllowChange 0.25
 
 Rem *** Deviation Begin *****
 ObjectTemplate.velocity 3000
-ObjectTemplate.setRecoilForceUp CRD_UNIFORM/1.2/1.2/0
+ObjectTemplate.setRecoilForceUp CRD_UNIFORM/1.8/1.2/0
 ObjectTemplate.setRecoilForceLeftRight CRD_UNIFORM/-0.1/-0.3/0
 ObjectTemplate.setHasRecoilForce 1
-ObjectTemplate.setGoBackOnRecoil 1
+ObjectTemplate.setGoBackOnRecoil 0
 
 ObjectTemplate.setFireDev 0 0 0
 ObjectTemplate.setDevMod  1 0.7 0.5
@@ -77,7 +77,7 @@ ObjectTemplate.geometry Dressilian_m1
 ObjectTemplate.create AnimatedBundle DressilianRifleComplex
 ObjectTemplate.addTemplate DressilianRifleSimple
 
-ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.hasDynamicShadow 0
 ObjectTemplate.createSkeleton animations/DressilianRifle.ske
 ObjectTemplate.addTemplate No4Trigger
 ObjectTemplate.bindToSkeletonPart Trigger

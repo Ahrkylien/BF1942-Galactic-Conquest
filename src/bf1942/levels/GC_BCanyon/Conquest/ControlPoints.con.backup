@@ -1,0 +1,49 @@
+rem
+rem ***  ***
+rem
+Object.create bridge_passtemplate
+Object.absolutePosition 1425.66/120.335/1009.5
+Object.setOSId 9110036
+Object.setTeam 155097072
+rem
+rem ***  ***
+rem
+Object.create sand_swept_basetemplate
+Object.absolutePosition 1191.83/94.8731/1038.76
+Object.setOSId 0
+Object.setTeam 0
+rem
+rem ***  ***
+rem
+Object.create tusken_forttemplate
+Object.absolutePosition 1536.08/83.1528/1591.42
+Object.setOSId 4457102
+Object.setTeam 0
+rem
+rem ***  ***
+rem
+Object.create rebels_instigate_uprising!template
+Object.absolutePosition 1613/84.1477/640.157
+Object.setOSId 2359798
+Object.setTeam 155189544
+rem
+rem ***  ***
+rem
+Object.create the_citideltemplate
+Object.absolutePosition 630.891/142.003/1600.65
+Object.setOSId 0
+Object.setTeam 0
+rem
+rem ***  ***
+rem
+Object.create rebel_crash_sitetemplate
+Object.absolutePosition 1848.78/1.45434/145.864
+Object.setOSId 8323598
+Object.setTeam 0
+rem
+rem ***  ***
+rem
+Object.create Lost_CityTemplate
+Object.absolutePosition 1286.43/78.8564/1610.55
+Object.setOSId -201259689
+Object.setTeam 0

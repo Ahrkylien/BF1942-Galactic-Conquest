@@ -1,0 +1,51 @@
+rem
+rem ***  ***
+rem
+Object.create reb1
+Object.absolutePosition 571.444/239.704/666.566
+Object.rotation 84/0/0
+rem
+rem ***  ***
+rem
+Object.create impsy
+Object.absolutePosition 2162.71/264.953/2128.97
+Object.setOSId 3410454
+Object.setTeam 154593092
+rem
+rem ***  ***
+rem
+Object.create impsy2
+Object.absolutePosition 2183.14/255.674/2104.39
+Object.setOSId 3475948
+Object.setTeam 154578976
+rem
+rem ***  ***
+rem
+Object.create impsy3
+Object.absolutePosition 2196.02/256.395/2129.38
+Object.setOSId 154595716
+Object.setTeam 2021010212
+rem
+rem ***  ***
+rem
+Object.create sd01
+Object.absolutePosition 3358.52/278.615/3364.68
+Object.rotation -139/0/0
+Object.setOSId 4196974
+Object.setTeam 154579052
+rem
+rem ***  ***
+rem
+Object.create sd02
+Object.absolutePosition 3371.31/277.872/3354.71
+Object.rotation -135/0/0
+Object.setOSId 788596121
+Object.setTeam 159795824
+rem
+rem ***  ***
+rem
+Object.create sd03
+Object.absolutePosition 3355.4/277.84/3350.02
+Object.rotation -141/0/0
+Object.setOSId 154592868
+Object.setTeam 0

@@ -65,8 +65,8 @@ beginEffect
 	controlDestination Volume
 	controlSource Distance
 	envelope Ramp
-	param 120
-	param 240
+	param 80
+	param 180
 	param 1
 	param -1	
 endEffect

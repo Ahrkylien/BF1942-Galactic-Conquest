@@ -1,0 +1,96 @@
+subshader "nebulonb_hull_Material0" "StandardMesh/Default"
+{
+	lighting true;
+	lightingSpecular false;
+	materialDiffuse 0.588 0.588 0.588;
+	texture "texture/Vehicles/NebulonB/tex1";
+}
+
+subshader "nebulonb_hull_Material1" "StandardMesh/Default"
+{
+	lighting true;
+	lightingSpecular false;
+	materialDiffuse 0.588 0.588 0.588;
+	texture "texture/Vehicles/NebulonB/tex7";
+}
+
+subshader "nebulonb_hull_Material2" "StandardMesh/Default"
+{
+	lighting true;
+	lightingSpecular false;
+	materialDiffuse 0.588 0.588 0.588;
+	texture "texture/Vehicles/NebulonB/tex6";
+}
+
+subshader "nebulonb_hull_Material3" "StandardMesh/Default"
+{
+	lighting true;
+	lightingSpecular false;
+	materialDiffuse 0.588 0.588 0.588;
+	texture "texture/Vehicles/NebulonB/tex5";
+}
+
+subshader "nebulonb_hull_Material4" "StandardMesh/Default"
+{
+	lighting true;
+	lightingSpecular false;
+	materialDiffuse 0.588 0.588 0.588;
+	texture "texture/Vehicles/NebulonB/tex4";
+}
+
+subshader "nebulonb_hull_Material5" "StandardMesh/Default"
+{
+	lighting true;
+	lightingSpecular false;
+	materialDiffuse 0.588 0.588 0.588;
+	texture "texture/Vehicles/NebulonB/tex3";
+}
+
+subshader "nebulonb_hull_Material6" "StandardMesh/Default"
+{
+	lighting true;
+	lightingSpecular false;
+	materialDiffuse 0.588 0.588 0.588;
+	texture "texture/Vehicles/NebulonB/tex2";
+}
+
+subshader "nebulonb_hull_Material7" "StandardMesh/Default"
+{
+	lighting true;
+	lightingSpecular false;
+	materialDiffuse 0.588 0.588 0.588;
+	texture "texture/Vehicles/NebulonB/rstripe";
+}
+
+subshader "nebulonb_hull_Material8" "StandardMesh/Default"
+{
+	lighting true;
+	lightingSpecular false;
+	materialDiffuse 0.588 0.588 0.588;
+	texture "texture/Buildings/Tanaab/tan_isd01";
+}
+
+subshader "nebulonb_hull_Material9" "StandardMesh/Default"
+{
+	lighting true;
+	lightingSpecular false;
+	materialDiffuse 0.588 0.588 0.588;
+	texture "texture/Buildings/Tanaab/tan_frig04";
+}
+
+subshader "nebulonb_hull_Material10" "StandardMesh/Default"
+{
+	lighting true;
+	lightingSpecular false;
+	materialDiffuse 0.588 0.588 0.588;
+	texture "texture/Buildings/Tanaab/tan_isd04";
+}
+
+subshader "nebulonb_hull_Material11" "StandardMesh/Default"
+{
+	lighting true;
+	lightingSpecular false;
+	materialDiffuse 0.588 0.588 0.588;
+	texture "texture/Buildings/Tanaab/tan_isd05";
+}
+

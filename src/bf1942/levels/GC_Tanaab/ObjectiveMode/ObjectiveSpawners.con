@@ -1,0 +1,48 @@
+rem ============================= OBJECTS to destroy ================
+
+Object.create RadarSpawner
+Object.absolutePosition  1939/422.816/2106
+Object.rotation -31/0/0
+Object.setName Turbine01
+Object.setTeam 1
+
+Object.create TurbineSpawner
+Object.absolutePosition  2011.96/267.664/2056.07
+Object.rotation -123/0/0
+Object.setName Turbine02
+Object.setTeam 1
+
+Object.create TurbineSpawner
+Object.absolutePosition  2077.37/258.123/2102.94
+Object.rotation 149/0/0
+Object.geometry.scale 0.72/0.72/0.72
+Object.setName Turbine03
+Object.setTeam 1
+
+Object.create TurbineSpawner
+Object.absolutePosition  2094.68/258.297/2113.19
+Object.rotation 149/0/0
+Object.geometry.scale 0.72/0.72/0.72
+Object.setName Turbine04
+Object.setTeam 1
+
+rem // Axis = 1 , Allied = 2
+rem ============================= ATTACKERS ========================================
+
+Object.create DestroyTurbineObjectiveSpawner01
+object.setName ObjectiveSpawner01
+
+Object.create DestroyTurbineObjectiveSpawner02
+object.setName ObjectiveSpawner02
+
+Object.create DestroyTurbineObjectiveSpawner03
+object.setName ObjectiveSpawner03
+
+Object.create DestroyTurbineObjectiveSpawner04
+object.setName ObjectiveSpawner04
+
+object.create AlliedANDCompositeObjectiveSpawner
+object.setName REBELS
+
+object.create AxisTimerObjectiveSpawner
+object.setName EMPIRE

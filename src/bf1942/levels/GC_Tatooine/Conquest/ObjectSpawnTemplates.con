@@ -1,0 +1,130 @@
+ObjectTemplate.create ObjectSpawner skyhopper2
+ObjectTemplate.setObjectTemplate 2 skyhopper
+ObjectTemplate.setObjectTemplate 1 skyhopper
+ObjectTemplate.SpawnDelay 25
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+
+ObjectTemplate.create ObjectSpawner sandcrawlerspawner
+ObjectTemplate.setObjectTemplate 2 sandcrawler
+ObjectTemplate.setObjectTemplate 1 sandcrawler
+ObjectTemplate.SpawnDelay 10
+ObjectTemplate.SpawnDelayAtStart 5
+ObjectTemplate.TimeToLive 10
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 5
+
+ObjectTemplate.create ObjectSpawner slave1spawner
+ObjectTemplate.setObjectTemplate 2 slave1
+ObjectTemplate.setObjectTemplate 1 slave1
+ObjectTemplate.MinSpawnDelay 10
+ObjectTemplate.MaxSpawnDelay 30
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+
+ObjectTemplate.create ObjectSpawner speederbikespawner
+ObjectTemplate.setObjectTemplate 2 speederbike
+ObjectTemplate.setObjectTemplate 1 speederbike
+ObjectTemplate.SpawnDelay 10
+ObjectTemplate.SpawnDelayAtStart 5
+ObjectTemplate.TimeToLive 10
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 5
+ObjectTemplate.MaxNrOfObjectSpawned 3
+
+ObjectTemplate.create ObjectSpawner r5d4droidcontrolspawner
+ObjectTemplate.setObjectTemplate 2 r5d4control
+ObjectTemplate.setObjectTemplate 1 r5d4droid
+ObjectTemplate.SpawnDelay 10
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 5
+
+ObjectTemplate.create ObjectSpawner lambdaspawner
+ObjectTemplate.setObjectTemplate 2 lambda
+ObjectTemplate.setObjectTemplate 1 lambda
+ObjectTemplate.MinSpawnDelay 60
+ObjectTemplate.MaxSpawnDelay 90
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 25
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 20
+
+ObjectTemplate.create ObjectSpawner skiffspawner
+ObjectTemplate.setObjectTemplate 2 skiff
+ObjectTemplate.setObjectTemplate 1 skiff
+ObjectTemplate.SpawnDelay 10
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 5
+
+ObjectTemplate.create ObjectSpawner impdroidspawner
+ObjectTemplate.setObjectTemplate 2 r5d4controlimperial
+ObjectTemplate.setObjectTemplate 1 r5d4controlimperial
+ObjectTemplate.SpawnDelay 25
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+
+ObjectTemplate.create ObjectSpawner atstxwing
+ObjectTemplate.setObjectTemplate 2 rogue
+ObjectTemplate.setObjectTemplate 1 atstdesert
+ObjectTemplate.SpawnDelay 25
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+
+ObjectTemplate.create ObjectSpawner tiexwing
+ObjectTemplate.setObjectTemplate 2 rogue
+ObjectTemplate.setObjectTemplate 1 tieinterceptor
+ObjectTemplate.SpawnDelay 25
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+
+ObjectTemplate.create ObjectSpawner speeder
+ObjectTemplate.setObjectTemplate 2 landspeeder
+ObjectTemplate.setObjectTemplate 1 landspeeder
+ObjectTemplate.SpawnDelay 25
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.MaxNrOfObjectSpawned 2
+
+ObjectTemplate.create ObjectSpawner r5droidspawn2
+ObjectTemplate.setObjectTemplate 2 r5d4control
+ObjectTemplate.setObjectTemplate 1 r5d4control
+ObjectTemplate.SpawnDelay 25
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+
+ObjectTemplate.create ObjectSpawner xwing
+ObjectTemplate.setObjectTemplate 2 rogue
+ObjectTemplate.setObjectTemplate 1 rogue
+ObjectTemplate.SpawnDelay 25
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+
+ObjectTemplate.create ObjectSpawner lambdafalcon
+ObjectTemplate.setObjectTemplate 2 lambda
+ObjectTemplate.setObjectTemplate 1 lambda
+ObjectTemplate.SpawnDelay 25
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+

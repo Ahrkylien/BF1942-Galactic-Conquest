@@ -100,7 +100,7 @@ rem ************************
 rem *** Sky ***
 rem ************************
 GeometryTemplate.create StandardMesh SkyBox
-GeometryTemplate.file Sky_hoth_m1
+GeometryTemplate.file Sky_Bocage_m1
 Sky.initSky
 
 ** Clouds
@@ -123,5 +123,25 @@ Sky.setCloudFog 0
 Sky.setSun sun
 sky.changeOfsSkyHeight 0
 Sky.setRotAngle 180
-sky.sunLightDirectionVec .305/.467/0.83
+sky.sunLightDirectionVec 0.305/0.467/0.83
 TextureManager.mipmaps 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

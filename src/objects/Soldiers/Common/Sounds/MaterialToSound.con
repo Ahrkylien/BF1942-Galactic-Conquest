@@ -161,48 +161,8 @@ SoldierSound.addMaterialToSound 195 Grass
 rem ******************************
 rem *** GALACTIC CONQUEST ITEMS **
 rem ******************************
-SoldierSound.addMaterialToSound 700 Metal
-SoldierSound.addMaterialToSound 701 Metal
-SoldierSound.addMaterialToSound 702 Metal
-SoldierSound.addMaterialToSound 706 Metal
-SoldierSound.addMaterialToSound 707 Metal
-SoldierSound.addMaterialToSound 708 Metal
-SoldierSound.addMaterialToSound 710 Metal
-SoldierSound.addMaterialToSound 711 Metal
-SoldierSound.addMaterialToSound 715 Metal
-SoldierSound.addMaterialToSound 716 Metal
-SoldierSound.addMaterialToSound 717 Metal
-SoldierSound.addMaterialToSound 720 Metal
-SoldierSound.addMaterialToSound 721 Metal
-SoldierSound.addMaterialToSound 722 Metal
-SoldierSound.addMaterialToSound 723 Metal
-SoldierSound.addMaterialToSound 724 Metal
-SoldierSound.addMaterialToSound 730 Metal
-SoldierSound.addMaterialToSound 731 Metal
-SoldierSound.addMaterialToSound 732 Metal
-SoldierSound.addMaterialToSound 733 Metal
-SoldierSound.addMaterialToSound 734 Metal
-SoldierSound.addMaterialToSound 735 Metal
-SoldierSound.addMaterialToSound 736 Metal
-SoldierSound.addMaterialToSound 740 Metal
-SoldierSound.addMaterialToSound 741 Metal
-SoldierSound.addMaterialToSound 742 Metal
-SoldierSound.addMaterialToSound 750 Metal
-SoldierSound.addMaterialToSound 751 Metal
-SoldierSound.addMaterialToSound 752 Metal
-SoldierSound.addMaterialToSound 760 Metal
-SoldierSound.addMaterialToSound 761 Metal
-SoldierSound.addMaterialToSound 762 Metal
-SoldierSound.addMaterialToSound 763 Metal
-SoldierSound.addMaterialToSound 770 Metal
-SoldierSound.addMaterialToSound 771 Metal
-SoldierSound.addMaterialToSound 780 Metal
-SoldierSound.addMaterialToSound 790 Metal
-SoldierSound.addMaterialToSound 800 Metal
-SoldierSound.addMaterialToSound 810 Metal
-SoldierSound.addMaterialToSound 830 Metal
-SoldierSound.addMaterialToSound 831 Metal
-SoldierSound.addMaterialToSound 840 Metal
-SoldierSound.addMaterialToSound 841 Metal
-SoldierSound.addMaterialToSound 842 Metal
-
+SoldierSound.addMaterialToSound 801 Metal
+SoldierSound.addMaterialToSound 802 Metal
+SoldierSound.addMaterialToSound 811 Metal
+SoldierSound.addMaterialToSound 812 Metal
+SoldierSound.addMaterialToSound 821 Metal

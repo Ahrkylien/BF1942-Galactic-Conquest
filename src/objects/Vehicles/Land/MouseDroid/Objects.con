@@ -1,0 +1,127 @@
+rem *** MouseDroid ***
+ObjectTemplate.create PlayerControlObject MouseDroid
+ObjectTemplate.setNetworkableInfo MouseDroidBodyInfo
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.explosionRadius 10
+ObjectTemplate.explosionDamage 50
+ObjectTemplate.drag 1.5
+ObjectTemplate.mass 2500
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasArmor 1
+ObjectTemplate.destroyOnExit 1
+ObjectTemplate.speedMod 1
+ObjectTemplate.hitpoints 15
+ObjectTemplate.maxhitpoints 15
+ObjectTemplate.material 801
+ObjectTemplate.criticalDamage 1.5
+ObjectTemplate.hpLostWhileCriticalDamage 0.15
+ObjectTemplate.explosionForceMod 10
+ObjectTemplate.hpLostWhileUpSideDown 1.5
+ObjectTemplate.hpLostWhileDamageFromWater 1.5
+ObjectTemplate.addArmorEffect 3 e_PanzDamage 0/1/-1.6
+ObjectTemplate.addArmorEffect 1.5 e_PanzFire 0/1/-1.4
+ObjectTemplate.addArmorEffect 0 e_ExplodeGas 0/0/0
+ObjectTemplate.addArmorEffect 0 e_scrapmetal 0/0/0
+ObjectTemplate.addArmorEffect 0 e_mousedroiddie 0/0/0
+ObjectTemplate.addArmorEffect -1 WaterWaterExplosion 0/0/0
+ObjectTemplate.damageFromWater 1
+ObjectTemplate.aiTemplate R5D4
+rem -------------------------------------
+ObjectTemplate.addTemplate lodMouseDroid
+rem -------------------------------------
+ObjectTemplate.setSoldierExitLocation -0.1/0.1/-0.1 0/0/0
+ObjectTemplate.setVehicleIcon "Vehicle/icon_mousedroid.dds"
+ObjectTemplate.setVehicleIconPos 85/65
+
+ObjectTemplate.setNumberOfWeaponIcons 0
+ObjectTemplate.setPrimaryAmmoIcon "Ammo/icon_repairkit_64x32.dds"
+ObjectTemplate.setPrimaryAmmoBar ABNone
+
+ObjectTemplate.setSecondaryAmmoIcon "Ammo/icon_repairkit_64x32.dds"
+ObjectTemplate.setSecondaryAmmoBar ABAmmoBar
+
+ObjectTemplate.setCrossHairType CHTCrossHair
+ObjectTemplate.setVehicleCategory VCLand
+ObjectTemplate.setVehicleType  VTHeavyTank
+ObjectTemplate.setMinimapIcon "Minimap/minimap_icon_mousedroid_16x16.dds"
+
+rem *** lodMouseDroid ***
+ObjectTemplate.create LodObject lodMouseDroid
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate MouseDroidComplex
+ObjectTemplate.addTemplate MouseDroidWreck
+rem -------------------------------------
+ObjectTemplate.lodSelector MouseDroidLodSelector
+
+rem *** MouseDroidComplex ***
+ObjectTemplate.create Bundle MouseDroidComplex
+ObjectTemplate.geometry MouseDroid_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate MouseDroidCamera
+ObjectTemplate.setPosition 0/0.145/0.22
+ObjectTemplate.addTemplate MouseDroidBeep
+ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.setRotation 0/0/0
+ObjectTemplate.addTemplate MouseDroidBeep2
+ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.setRotation 0/0/0
+ObjectTemplate.addTemplate MouseDroidEntry
+ObjectTemplate.setPosition 0/0.5/0
+ObjectTemplate.addTemplate MouseDroidEngine
+rem -------------------------------------
+
+rem *** MouseDroidCamera ***
+ObjectTemplate.create Camera MouseDroidCamera
+ObjectTemplate.addTemplate lodMouseDroidHUD
+ObjectTemplate.setPosition 0.006/-0.222/0.28
+
+rem *** lodMouseDroidHUD ***
+ObjectTemplate.create LodObject lodMouseDroidHUD
+rem -------------------------------------
+ObjectTemplate.addTemplate MouseDroidHUDExternal
+ObjectTemplate.addTemplate MouseDroidHUDInternal
+rem -------------------------------------
+ObjectTemplate.lodSelector MouseDroidHUDSelector1
+
+rem *** MouseDroidHUDExternal ***
+ObjectTemplate.create SimpleObject MouseDroidHUDExternal
+ObjectTemplate.geometry Model_Null
+
+rem *** MouseDroidHUDInternal ***
+ObjectTemplate.create Bundle MouseDroidHUDInternal
+ObjectTemplate.geometry 1P_MouseDroid_Hud_M1
+
+rem *** MouseDroidHUDSelector1 ***
+LodSelectorTemplate.create DistCompareSelector MouseDroidHUDSelector1
+LodSelectorTemplate.addLodDistance 0
+LodSelectorTemplate.addLodComparison 0.2
+
+rem *** MouseDroidEntry ***
+ObjectTemplate.create EntryPoint MouseDroidEntry
+ObjectTemplate.setEntryRadius 0
+
+rem *** MouseDroidWreck ***
+ObjectTemplate.create SimpleObject MouseDroidWreck
+ObjectTemplate.geometry Model_Null
+
+rem *** MouseDroidLodSelector ***
+LodSelectorTemplate.create DistCompareSelector2 MouseDroidLodSelector
+LodSelectorTemplate.hasDestroyedLod 1
+
+rem *** e_mousedroiddie ***
+ObjectTemplate.create EffectBundle e_mousedroiddie
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript Sounds/MouseDroidDie.ssc
+
+rem *** Em_Silent ***
+ObjectTemplate.addTemplate Em_SilentLoop
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0

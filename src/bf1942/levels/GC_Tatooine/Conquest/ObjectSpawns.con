@@ -1,0 +1,133 @@
+rem
+rem ***  ***
+rem
+Object.create lambdafalcon
+Object.absolutePosition 3692.65/22.8558/3635.78
+Object.rotation -141/-5/0
+Object.setOSId 1
+rem
+rem ***  ***
+rem speederbikespawner
+rem
+Object.create speederbikespawner
+Object.absolutePosition 3642.87/18.5/3610.11
+Object.rotation -130/0/0
+Object.setOSId 1
+rem
+rem
+Object.create speeder
+Object.absolutePosition 3466.16/17.7981/3602.69
+Object.rotation 183/0/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create speeder
+Object.absolutePosition 3386.93/18.7934/3524.78
+Object.rotation 20/0/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create speeder
+Object.absolutePosition 629.737/112.053/396.433
+Object.rotation 22/0/0
+Object.setOSId 3
+rem
+rem ***  ***
+rem
+Object.create speeder
+Object.absolutePosition 641.456/112.383/391.907
+Object.rotation 21/0/0
+Object.setOSId 3
+rem
+rem ***  ***
+rem
+Object.create skyhopper2
+Object.absolutePosition 596.558/117.275/413.666
+Object.rotation 102/0/0
+Object.setOSId 3
+rem
+rem ***  ***
+rem
+Object.create skyhopper2
+Object.absolutePosition 599.4/116.743/431.16
+Object.rotation 100/0/0
+Object.setOSId 3
+rem
+rem ***  ***
+rem
+Object.create skiffspawner
+Object.absolutePosition 2161.78/140.327/2252.01
+Object.rotation 180/0/0
+Object.setOSId 4
+rem
+rem ***  ***
+rem
+Object.create skiffspawner
+Object.absolutePosition 2162.41/140.424/2279.02
+Object.rotation -180/0/0
+Object.setOSId 4
+rem
+rem ***  ***
+rem
+Object.create impdroidspawner
+Object.absolutePosition 3670.96/18.0682/3570.47
+Object.rotation -85/0/0
+Object.setOSId 1
+rem
+rem ***  ***
+rem
+Object.create speeder
+Object.absolutePosition 635.881/112.191/394.504
+Object.rotation 21/0/0
+Object.setOSId 3
+rem
+rem ***  ***
+rem
+Object.create speeder
+Object.absolutePosition 614.346/76.6819/3348.1
+Object.rotation 120/0/0
+Object.setOSId 7
+rem
+rem ***  ***
+rem
+Object.create tiexwing
+Object.absolutePosition 570.494/78.2764/3353.82
+Object.rotation -156/0/0
+Object.setOSId 7
+rem
+rem ***  ***
+rem
+Object.create slave1spawner
+Object.absolutePosition 2264.66/156.555/2392.23
+Object.rotation 38/-0.999998/0
+Object.setOSId 4
+rem
+rem ***  ***
+rem
+Object.create r5droidspawn2
+Object.absolutePosition 3392.37/18.0555/3603.82
+Object.rotation -184.999/0/0
+Object.setTeam 2
+rem
+rem ***  ***
+rem
+Object.create atstxwing
+Object.absolutePosition 3658.02/19.4549/3561.46
+Object.rotation -42/0/0
+Object.setOSId 1
+rem
+rem ***  ***
+rem
+Object.create r5droidspawn2
+Object.absolutePosition 606.36/112.014/401.35
+Object.rotation 15/0/0
+Object.setOSId 3
+rem
+rem ***  ***
+rem
+Object.create r5droidspawn2
+Object.absolutePosition 1502.68/72.0424/2456.69
+Object.rotation -299.999/0/0
+Object.setTeam 2

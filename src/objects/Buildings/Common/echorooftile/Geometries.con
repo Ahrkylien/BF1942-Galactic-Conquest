@@ -1,5 +1,5 @@
 GeometryTemplate.create StandardMesh echorooftile
-GeometryTemplate.file buildings/echorooftile
+GeometryTemplate.file buildings/Hoth/Echobase/echorooftile
 GeometryTemplate.setLodDistance 0 0
 GeometryTemplate.setLodDistance 1 100
 GeometryTemplate.setLodDistance 2 300

@@ -1,5 +1,5 @@
 GeometryTemplate.create StandardMesh outpostbuilding
-GeometryTemplate.file buildings/outpostbuilding
+GeometryTemplate.file buildings/Hoth/outpostbuilding
 GeometryTemplate.setLodDistance 0 0
 GeometryTemplate.setLodDistance 1 100
 GeometryTemplate.setLodDistance 2 300

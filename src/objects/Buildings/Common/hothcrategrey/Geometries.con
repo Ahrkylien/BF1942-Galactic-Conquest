@@ -1,5 +1,5 @@
 GeometryTemplate.create StandardMesh hothcrategrey
-GeometryTemplate.file buildings/hothcrategrey
+GeometryTemplate.file buildings/Hoth/hothcrategrey
 GeometryTemplate.setLodDistance 0 0
 GeometryTemplate.setLodDistance 1 900
 GeometryTemplate.setLodDistance 2 940

@@ -1,4 +1,0 @@
-ObjectTemplate.create Bundle endredwood1
-ObjectTemplate.geometry endredwood1
-ObjectTemplate.setHasCollisionPhysics 1
-

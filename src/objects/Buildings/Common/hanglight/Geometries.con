@@ -1,5 +1,5 @@
 GeometryTemplate.create StandardMesh hanglight
-GeometryTemplate.file buildings/hanglight
+GeometryTemplate.file buildings/Hoth/Echobase/hanglight
 GeometryTemplate.setLodDistance 0 0
 GeometryTemplate.setLodDistance 1 500
 GeometryTemplate.setLodDistance 2 700

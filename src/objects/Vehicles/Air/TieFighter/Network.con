@@ -1,7 +1,7 @@
-NetworkableInfo.createNewInfo tiefighter_wing_info
+NetworkableInfo.createNewInfo TieFighter_wing_info
 NetworkableInfo.setPredictionMode PMLinear
 
-NetworkableInfo.createNewInfo tiefighter_engine_info
+NetworkableInfo.createNewInfo TieFighter_engine_info
 NetworkableInfo.setPredictionMode PMLinear
 
 NetworkableInfo.createNewInfo tiefighter_body_info

@@ -13,27 +13,27 @@ rem *************************************************
 MaterialManager.attGroup 45
 MaterialManager.defGroup 40
 MaterialManager.damageMod 1
-MaterialManager.setEffectTemplate e_collision_Soldier
+rem MaterialManager.setEffectTemplate e_collision_Soldier
 
 MaterialManager.attGroup 45
 MaterialManager.defGroup 41
 MaterialManager.damageMod 0.8
-MaterialManager.setEffectTemplate e_collision_Soldier
+rem MaterialManager.setEffectTemplate e_collision_Soldier
 
 MaterialManager.attGroup 45
 MaterialManager.defGroup 42
 MaterialManager.damageMod 0.8
-MaterialManager.setEffectTemplate e_collision_Soldier
+rem MaterialManager.setEffectTemplate e_collision_Soldier
 
 MaterialManager.attGroup 45
 MaterialManager.defGroup 43
 MaterialManager.damageMod 0.1
-MaterialManager.setEffectTemplate e_collision_Soldier
+rem MaterialManager.setEffectTemplate e_collision_Soldier
 
 MaterialManager.attGroup 45
 MaterialManager.defGroup 44
 MaterialManager.damageMod 0.1
-MaterialManager.setEffectTemplate e_collision_Soldier
+rem MaterialManager.setEffectTemplate e_collision_Soldier
 
 rem *************************************************
 rem		Heavy Vehicle target

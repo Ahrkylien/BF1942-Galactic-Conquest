@@ -1,46 +1,9 @@
 
 GeometryTemplate.create StandardMesh atatbarge
-GeometryTemplate.file atatbarge
+GeometryTemplate.file Vehicles/ATATBarge/atatbarge
 GeometryTemplate.setLodDistance 0 0
 GeometryTemplate.setLodDistance 1 15
 GeometryTemplate.setLodDistance 2 35
 GeometryTemplate.setLodDistance 3 60
 GeometryTemplate.setLodDistance 4 100
 GeometryTemplate.setLodDistance 5 300
-
-GeometryTemplate.create StandardMesh ladder_20m_m1
-GeometryTemplate.file ladder_20m_m1
-GeometryTemplate.setLodDistance 0 0
-GeometryTemplate.setLodDistance 1 15
-GeometryTemplate.setLodDistance 2 30
-GeometryTemplate.setLodDistance 3 40
-GeometryTemplate.setLodDistance 4 60
-GeometryTemplate.setLodDistance 5 100
-
-GeometryTemplate.create StandardMesh ladder_20m_m1
-GeometryTemplate.file ladder_20m_m1
-GeometryTemplate.setLodDistance 0 0
-GeometryTemplate.setLodDistance 1 15
-GeometryTemplate.setLodDistance 2 30
-GeometryTemplate.setLodDistance 3 40
-GeometryTemplate.setLodDistance 4 60
-GeometryTemplate.setLodDistance 5 100
-
-GeometryTemplate.create StandardMesh ladder_10m_m1
-GeometryTemplate.file ladder_10m_m1
-GeometryTemplate.setLodDistance 0 0
-GeometryTemplate.setLodDistance 1 15
-GeometryTemplate.setLodDistance 2 30
-GeometryTemplate.setLodDistance 3 40
-GeometryTemplate.setLodDistance 4 60
-GeometryTemplate.setLodDistance 5 100
-
-GeometryTemplate.create StandardMesh ladder_30m_m1
-GeometryTemplate.file ladder_30m_m1
-GeometryTemplate.setLodDistance 0 0
-GeometryTemplate.setLodDistance 1 15
-GeometryTemplate.setLodDistance 2 30
-GeometryTemplate.setLodDistance 3 40
-GeometryTemplate.setLodDistance 4 60
-GeometryTemplate.setLodDistance 5 100
-

@@ -3,7 +3,7 @@ ObjectTemplate.itemIndex 3
 ObjectTemplate.networkableInfo HandFireArmsInfo
 ObjectTemplate.projectileTemplate TL-21Projectile
 ObjectTemplate.projectilePosition 0/0.01/0
-ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.hasDynamicShadow 0
 ObjectTemplate.unZoomBetweenFireTime 0
 ObjectTemplate.useScope 0
 ObjectTemplate.magSize 300
@@ -39,12 +39,12 @@ ObjectTemplate.setRecoilForceLeftRight CRD_UNIFORM/0.7/-0.7/0
 ObjectTemplate.setHasRecoilForce 1
 ObjectTemplate.setGoBackOnRecoil 1
 
-ObjectTemplate.setFireDev 4.0 4.0 2.5
-ObjectTemplate.setDevMod 1.5 0.7 0.5
-ObjectTemplate.setMinDev 1.5
-ObjectTemplate.setspeedDev 2.0 2.0 2.0 1.5
-ObjectTemplate.setTurnDev 2.0 2.0 2.0 1.5
-ObjectTemplate.setMiscDev 6.0 6.0 1.0
+ObjectTemplate.setFireDev 1.5 0.36 0.05
+ObjectTemplate.setDevMod 1 0.74 0.5
+ObjectTemplate.setTurnDev 0.5 0.1 0.2 0.1
+ObjectTemplate.setSpeedDev 3 0.4 0.2 0.1
+ObjectTemplate.setMiscDev 3 2.5 0.4
+ObjectTemplate.setMinDev 0.2
 
 Rem *** Deviation  End *****
 
@@ -70,7 +70,7 @@ ObjectTemplate.geometry TL-21
 
 ObjectTemplate.create AnimatedBundle TL-21Complex
 ObjectTemplate.addTemplate TL-21Simple
-ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.hasDynamicShadow 0
 ObjectTemplate.createSkeleton animations/TL-21.ske
 
 

@@ -1,0 +1,16 @@
+rem *** MouseDroidLauncher ***
+ObjectTemplate.create FireArms MouseDroidLauncher
+ObjectTemplate.setNetworkableInfo TankFireArmInfo
+ObjectTemplate.projectileTemplate MouseDroid
+rem ObjectTemplate.projectilePosition 0/5/5
+rem ObjectTemplate.visibleDummyProjectileTemplate probedroiddummybundle
+ObjectTemplate.setHasMag 1
+ObjectTemplate.magSize 1
+ObjectTemplate.numOfMag -1
+ObjectTemplate.magType 0
+ObjectTemplate.velocity 1
+ObjectTemplate.autoReload 1
+ObjectTemplate.reloadtime 30
+ObjectTemplate.roundOfFire 100000
+ObjectTemplate.FireOnce 1
+ObjectTemplate.disableWhenFired 1

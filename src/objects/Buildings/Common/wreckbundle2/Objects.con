@@ -20,7 +20,7 @@ ObjectTemplate.setRotation 0/180/0
 
 ObjectTemplate.create SimpleObject WreckSnowspeeder1
 ObjectTemplate.setHasCollisionPhysics 1
-ObjectTemplate.Geometry Wreck_Snowspeeder
+ObjectTemplate.Geometry Wreck_Snowspeeder1_M1
 
 ObjectTemplate.create SimpleObject WreckSnowspeeder2
 ObjectTemplate.setHasCollisionPhysics 1

@@ -1,0 +1,37 @@
+rem 
+rem **** Initialize Terrain *****
+rem
+GeometryTemplate.create PatchTerrain terrainGeometry
+GeometryTemplate.file bf1942\levels\GC_Tanaab\Heightmap
+GeometryTemplate.materialMap bf1942\levels\GC_Tanaab\Materialmap
+GeometryTemplate.materialSize 1024
+GeometryTemplate.targetTriCount 5000
+GeometryTemplate.worldSize 4096
+GeometryTemplate.yScale 1
+GeometryTemplate.texBaseName bf1942\levels\GC_Tanaab\Textures\Tx
+GeometryTemplate.texOffsetX 0
+GeometryTemplate.texOffsetY 0
+GeometryTemplate.detailTexName bf1942\levels\GC_Tanaab\Textures\Detail
+GeometryTemplate.waterLevel 35
+GeometryTemplate.seaFloorLevel 30
+GeometryTemplate.lodDistance 5
+
+Water.baseTex texture/Water
+
+ObjectTemplate.create SimpleObject terrainObject
+ObjectTemplate.geometry terrainGeometry
+objectTemplate.createNotInGrid 1
+
+Object.create terrainObject
+Object.setName track
+Object.absolutePosition 0/0/0
+Object.rotation 0/0/0
+
+Console.worldSize 4096
+
+Terrain.ShadowAmbient 80/80/90
+Terrain.ShadowBorderFadeTime 0.075
+Terrain.ShadowSamplingCullY 15
+
+
+

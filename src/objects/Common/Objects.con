@@ -1,3 +1,72 @@
+rem ---------- Supply/Health Depots ----------
+
+ObjectTemplate.create SupplyDepot R5D4RepairPoint
+ObjectTemplate.radius 10
+ObjectTemplate.team 0
+ObjectTemplate.addVehicleType Alpha -1 2 0
+ObjectTemplate.addVehicleType Avenger -1 2 0
+ObjectTemplate.addVehicleType APTurret -1 2 0
+ObjectTemplate.addVehicleType ATST -1 2 0
+ObjectTemplate.addVehicleType ATSTDesert -1 2 0
+ObjectTemplate.addVehicleType AVTurret -1 2 0
+ObjectTemplate.addVehicleType AWing -1 2 0
+ObjectTemplate.addVehicleType BactaTank -1 2 0
+ObjectTemplate.addVehicleType Cloudbus -1 2 0
+ObjectTemplate.addVehicleType Cloudcar -1 2 0
+ObjectTemplate.addVehicleType Epsilon
+ObjectTemplate.addVehicleType EWEB -1 2 0
+ObjectTemplate.addVehicleType EWing -1 2 0
+ObjectTemplate.addVehicleType Green -1 2 0
+ObjectTemplate.addVehicleType ISD -1 2 0
+ObjectTemplate.addVehicleType Lambda -1 2 0
+ObjectTemplate.addVehicleType LandSpeeder -1 2 0
+ObjectTemplate.addVehicleType LandSpeederEWEB -1 2 0
+ObjectTemplate.addVehicleType MilleniumFalcon -1 2 0
+ObjectTemplate.addVehicleType ProbeDroid -1 2 0
+ObjectTemplate.addVehicleType R2D2 -1 2 0
+ObjectTemplate.addVehicleType R5D4Droid -1 2 0
+ObjectTemplate.addVehicleType R5D4DroidImperial -1 2 0
+ObjectTemplate.addVehicleType Rogue -1 2 0
+ObjectTemplate.addVehicleType Runner -1 2 0
+ObjectTemplate.addVehicleType SailBarge -1 2 0
+ObjectTemplate.addVehicleType Sandcrawler -1 2 0
+ObjectTemplate.addVehicleType Skyhopper -1 2 0
+ObjectTemplate.addVehicleType Skiff -1 2 0
+ObjectTemplate.addVehicleType Slave1 -1 2 0
+ObjectTemplate.addVehicleType SnowSpeeder -1 2 0
+ObjectTemplate.addVehicleType Speederbike -1 2 0
+ObjectTemplate.addVehicleType TieAdvanced -1 2 0
+ObjectTemplate.addVehicleType TieBomber -1 2 0
+ObjectTemplate.addVehicleType TieFighter -1 2 0
+ObjectTemplate.addVehicleType TieInterceptor -1 2 0
+ObjectTemplate.addVehicleType TurboLaser -1 2 0
+ObjectTemplate.addVehicleType TurboLaserBattery -1 2 0
+ObjectTemplate.addVehicleType X-Wing -1 2 0
+ObjectTemplate.addVehicleType YT1300 -1 2 0
+ObjectTemplate.setHealth -1 4.0 0
+ObjectTemplate.workOnSoldiers 1
+ObjectTemplate.workOnVehicles 1
+
+beginRem
+rem *** R5D4HealthPoint ***
+ObjectTemplate.create SupplyDepot R5D4HealthPoint
+ObjectTemplate.radius 10
+ObjectTemplate.team 2
+ObjectTemplate.setHealth -1 4.0 0
+ObjectTemplate.workOnSoldiers 1
+ObjectTemplate.workOnVehicles 0
+endRem
+
+beginRem
+rem ObjectTemplate.addAmmoType 0 -1 10 0
+rem ObjectTemplate.addAmmoType 1 -1 15 0
+rem ObjectTemplate.addAmmoType 2 -1 1.2 0
+rem ObjectTemplate.addAmmoType 3 -1 1.2 0
+endRem
+
+rem ----------------------------------------------------------
+
+
 ObjectTemplate.create SimpleObject MG_tripodStick
 ObjectTemplate.geometry tripod_stick_m1
 
@@ -22,23 +91,28 @@ rem ################################### Neko&Loop's Lasers #####################
 rem -------------red---------------
 
 ObjectTemplate.create SimpleObject e_laser1red
-ObjectTemplate.geometry Tlight_r1
+ObjectTemplate.geometry Tlight_r1_m1
 
 ObjectTemplate.create SimpleObject e_laser2red
-ObjectTemplate.geometry Tlight_r2
+ObjectTemplate.geometry Tlight_r2_m1
 
 ObjectTemplate.create SimpleObject e_laser3red
-ObjectTemplate.geometry Tlight_r3
+ObjectTemplate.geometry Tlight_r3_m1
 
 rem --------------green------------
 
 ObjectTemplate.create SimpleObject e_laser1green
-ObjectTemplate.geometry Tlight_g1
+ObjectTemplate.geometry Tlight_g1_m1
 
 ObjectTemplate.create SimpleObject e_laser2green
-ObjectTemplate.geometry Tlight_g2
+ObjectTemplate.geometry Tlight_g2_m1
 
 ObjectTemplate.create SimpleObject e_laser3green
-ObjectTemplate.geometry Tlight_g3
+ObjectTemplate.geometry Tlight_g3_m1
+
+rem --------------blue------------
+
+ObjectTemplate.create SimpleObject e_laser1blue
+ObjectTemplate.geometry Tlight_g1_m1
 
 rem ####################################################################################

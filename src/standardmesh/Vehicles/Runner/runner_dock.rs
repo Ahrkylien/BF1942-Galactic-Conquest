@@ -1,0 +1,8 @@
+subshader "runner_dock_Material0" "StandardMesh/Default"
+{
+	lighting true;
+	lightingSpecular false;
+	materialDiffuse 0.588235 0.588235 0.588235;
+	texture "texture/vehicles/runner/tan_runner02";
+}
+

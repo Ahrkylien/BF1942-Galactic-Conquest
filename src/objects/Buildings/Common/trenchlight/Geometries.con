@@ -1,5 +1,5 @@
 GeometryTemplate.create StandardMesh trenchlight
-GeometryTemplate.file buildings/trenchlight
+GeometryTemplate.file buildings/Hoth/trenchlight
 GeometryTemplate.setLodDistance 0 0
 GeometryTemplate.setLodDistance 1 500
 GeometryTemplate.setLodDistance 2 700

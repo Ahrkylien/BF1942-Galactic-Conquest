@@ -1,0 +1,135 @@
+rem
+rem ***  ***
+rem
+Object.create mousespawner
+Object.absolutePosition 596.053/341.301/974.378
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create jud_uplift_spawner
+Object.absolutePosition 1654.56/342/887.866
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create jud_uplift_spawner
+Object.absolutePosition 1687.55/589/922.091
+Object.rotation -90/0/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create jud_uplift_spawner
+Object.absolutePosition 1677.32/342/897.902
+Object.rotation -45/0/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create jud_uplift_spawner
+Object.absolutePosition 1620.72/589/921.882
+Object.rotation 90/0/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create jud_uplift_spawner
+Object.absolutePosition 1629.73/342/944.857
+Object.rotation 135/0/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create tramcar_s
+Object.absolutePosition 578.719/337/1015.57
+Object.rotation 90/0/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create tramcar_s
+Object.absolutePosition 578.719/337/1005.82
+Object.rotation 90/0/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create tramcar_s
+Object.absolutePosition 578.719/337/1024.14
+Object.rotation 90/0/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create tramcar_s
+Object.absolutePosition 578.719/337/1032.72
+Object.rotation 90/0/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create tramcar_s
+Object.absolutePosition 1643.53/337/1041.35
+Object.rotation 90/0/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create tramcar_s
+Object.absolutePosition 1643.48/337/1049.98
+Object.rotation 90/0/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create tl-21_kit_spawner
+Object.absolutePosition 540.074/341.65/988.77
+Object.rotation 90/0/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create tl-21_kit_spawner
+Object.absolutePosition 692.608/341.623/920.052
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create tl-21_kit_spawner
+Object.absolutePosition 887.058/341.623/911.461
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create tl-21_kit_spawner
+Object.absolutePosition 1034.94/341.623/882.624
+Object.rotation -180/0/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create tl-21_kit_spawner
+Object.absolutePosition 1423.64/341.623/865.214
+Object.rotation -180/0/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create mousespawner
+Object.absolutePosition 687.805/341.301/920.91
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create tl-21_kit_spawner
+Object.absolutePosition 763.021/341.858/893.481
+Object.rotation -87/0/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create mousespawner
+Object.absolutePosition 1050.3/341.46/886.177
+Object.rotation 91/0/0
+Object.setTeam 1

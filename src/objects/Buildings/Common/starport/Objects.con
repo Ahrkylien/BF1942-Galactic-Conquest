@@ -2,7 +2,27 @@ ObjectTemplate.create Bundle starport
 ObjectTemplate.setHasCollisionPhysics 1
 ObjectTemplate.geometry starport
 objectTemplate.aiTemplate starport
+
+ObjectTemplate.addTemplate ladder_10m_m1
+ObjectTemplate.setPosition -36.56/4.23/5.31
+ObjectTemplate.setRotation -81.5/0/0
+
+ObjectTemplate.addTemplate ladder_10m_m1
+ObjectTemplate.setPosition 36.56/4.23/5.31
+ObjectTemplate.setRotation -98.5/0/0
+
+ObjectTemplate.addTemplate ladder_20m_m1
+ObjectTemplate.setPosition -1.66/9.22/-38.2
+ObjectTemplate.setRotation -90/0/0
+
+ObjectTemplate.addTemplate ladder_20m_m1
+ObjectTemplate.setPosition 1.66/9.22/-38.2
+ObjectTemplate.setRotation 90/0/0
+
 ObjectTemplate.addTemplate port
 rem ---------------------------
 ObjectTemplate.create SimpleObject port
 ObjectTemplate.geometry innerstarport
+ObjectTemplate.setHasCollisionPhysics 1
+
+

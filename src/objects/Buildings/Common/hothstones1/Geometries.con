@@ -1,5 +1,5 @@
 GeometryTemplate.create StandardMesh hothstones1
-GeometryTemplate.file buildings/hothstones1
+GeometryTemplate.file buildings/Hoth/hothstones1
 GeometryTemplate.setLodDistance 0 0
 GeometryTemplate.setLodDistance 1 15
 GeometryTemplate.setLodDistance 2 35

@@ -1,0 +1,78 @@
+rem *** R5D4DroidImperial ***
+ObjectTemplate.create PlayerControlObject R5D4DroidImperial
+ObjectTemplate.setNetworkableInfo R5D4BodyInfo
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.explosionRadius 4
+ObjectTemplate.explosionDamage 1.5
+ObjectTemplate.drag 1.5
+ObjectTemplate.mass 2500
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasArmor 1
+ObjectTemplate.destroyOnExit 1
+ObjectTemplate.speedMod 1
+ObjectTemplate.exitTimer 1
+ObjectTemplate.hitpoints 15
+ObjectTemplate.maxhitpoints 15
+ObjectTemplate.material 801
+ObjectTemplate.criticalDamage 1.5
+ObjectTemplate.hpLostWhileCriticalDamage 0.15
+ObjectTemplate.explosionForceMod 10
+ObjectTemplate.hpLostWhileUpSideDown 1.5
+ObjectTemplate.hpLostWhileDamageFromWater 1.5
+ObjectTemplate.addArmorEffect 3 e_PanzDamage 0/1/-1.6
+ObjectTemplate.addArmorEffect 1.5 e_PanzFire 0/1/-1.4
+ObjectTemplate.addArmorEffect 0 e_ExplodeGas 0/0/0
+ObjectTemplate.addArmorEffect 0 e_scrapmetal_R5D4 0/0/0
+ObjectTemplate.addArmorEffect 0 e_r5d4die 0/0/0
+ObjectTemplate.addArmorEffect -1 WaterWaterExplosion 0/0/0
+ObjectTemplate.damageFromWater 1
+ObjectTemplate.aiTemplate R5D4
+rem -------------------------------------
+ObjectTemplate.addTemplate lodR5D4Imperial
+rem -------------------------------------
+ObjectTemplate.setSoldierExitLocation -0.4/0.1/-0.3 0/0/0
+ObjectTemplate.setVehicleIcon "Vehicle/icon_r5d4.dds"
+ObjectTemplate.setVehicleIconPos 62/18
+ObjectTemplate.setNumberOfWeaponIcons 2
+ObjectTemplate.setPrimaryAmmoIcon "Ammo/icon_repairkit_64x32.dds"
+ObjectTemplate.setPrimaryAmmoBar ABNone
+ObjectTemplate.setSecondaryAmmoIcon "Ammo/icon_repairkit_64x32.dds"
+ObjectTemplate.setSecondaryAmmoBar ABAmmoBar
+ObjectTemplate.setCrossHairType CHTCrossHair
+ObjectTemplate.setVehicleCategory VCLand
+ObjectTemplate.setVehicleType  VTHeavyTank
+ObjectTemplate.setMinimapIcon "Minimap/minimap_icon_r5d4_16x16.dds"
+
+rem *** lodR5D4Imperial ***
+ObjectTemplate.create LodObject lodR5D4Imperial
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate R5D4ComplexImperial
+ObjectTemplate.addTemplate R5D4Wreck
+rem -------------------------------------
+ObjectTemplate.lodSelector R5D4LodSelector
+
+rem *** R5D4ComplexImperial ***
+ObjectTemplate.create Bundle R5D4ComplexImperial
+ObjectTemplate.geometry R5D4_Hull_M1Imperial
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate R5D4WeaponRotate
+ObjectTemplate.setPosition 0/0.5/0.2
+ObjectTemplate.setRotation 0/0/0
+rem ObjectTemplate.addTemplate R5D4MinePlanter
+rem ObjectTemplate.setPosition 0/0/0
+rem ObjectTemplate.setRotation 0/0/0
+ObjectTemplate.addTemplate R5D4Entry
+ObjectTemplate.setPosition 0/0.8/0
+ObjectTemplate.addTemplate R5D4Engine
+rem -------------------------------------
+
+

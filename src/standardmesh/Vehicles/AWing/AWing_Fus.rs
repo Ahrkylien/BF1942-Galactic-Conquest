@@ -1,41 +1,19 @@
 subshader "AWing_Fus_Material0" "StandardMesh/Default"
 {
 	lighting true;
-	materialDiffuse 1 1 1;
-	lightingSpecular flase;
-	texture "texture/Vehicles/AWing/a-wing_wings";
-	envmap true;
+	lightingSpecular false;
+	materialDiffuse 0.588 0.588 0.588;
+	texture "texture/Vehicles/AWing/awing";
 }
+
 subshader "AWing_Fus_Material1" "StandardMesh/Default"
 {
 	lighting true;
-	materialDiffuse 1 1 1;
-	lightingSpecular flase;
-	texture "texture/Vehicles/AWing/a-wing_cockpit";
+	lightingSpecular true;
+	materialDiffuse 0.588 0.588 0.588;
+	materialSpecular 0.9 0.9 0.9;
+	materialSpecularPower 72.0;
 	transparent true;
-	envmap true;
+	texture "texture/Vehicles/AWing/awing";
 }
-subshader "AWing_Fus_Material2" "StandardMesh/Default"
-{
-	lighting true;
-	materialDiffuse 1 1 1;
-	lightingSpecular flase;
-	texture "texture/Vehicles/AWing/a-wing_body_t";
-	envmap true;
-}
-subshader "AWing_Fus_Material3" "StandardMesh/Default"
-{
-	lighting true;
-	materialDiffuse 1 1 1;
-	lightingSpecular flase;
-	texture "texture/Vehicles/AWing/a-wing_wingEngine";
-	envmap true;
-}
-subshader "AWing_Fus_Material4" "StandardMesh/Default"
-{
-	lighting true;
-	materialDiffuse 1 1 1;
-	lightingSpecular flase;
-	texture "texture/Vehicles/AWing/a-wing_cockpit";
-	envmap true;
-}
+

@@ -23,6 +23,7 @@ ObjectTemplate.addTemplate US_Hip_Pack
 ObjectTemplate.addTemplate A295
 ObjectTemplate.addTemplate Dl44
 ObjectTemplate.addTemplate KnifeAllies
-ObjectTemplate.addTemplate Fragnade
+ObjectTemplate.addTemplate ConcussionGrenade
+ObjectTemplate.addTemplate NoChute
 
 ObjectTemplate.aitemplate Assault
