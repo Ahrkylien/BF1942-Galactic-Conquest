@@ -11,9 +11,12 @@ AnimationStateMachine.copyState2 BinocularsImperial v_arg1
 AnimationStateMachine.copyState2 MedPack v_arg1
 AnimationStateMachine.copyState2 Cryoban v_arg1
 AnimationStateMachine.copyState2 ConcussionGrenade v_arg1
-
-
-
-
-
-
+AnimationStateMachine.copyState2 Disruptor v_arg1
+AnimationStateMachine.copyState2 Disruptor2 v_arg1
+AnimationStateMachine.copyState2 ImpMine v_arg1
+AnimationStateMachine.copyState2 RebMine v_arg1
+AnimationStateMachine.copyState2 gasgren v_arg1
+AnimationStateMachine.copyState2 Imperialgasgren v_arg1
+AnimationStateMachine.copyState2 lethal_injection v_arg1
+AnimationStateMachine.copyState2 Build_Shield v_arg1
+AnimationStateMachine.copyState2 Cammo v_arg1

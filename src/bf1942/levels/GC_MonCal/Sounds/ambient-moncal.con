@@ -1,0 +1,5 @@
+rem *** ambient-moncal ***
+ObjectTemplate.create SimpleObject ambient-moncal
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.triggerRadius 100
+ObjectTemplate.loadSoundScript ambient-moncal.ssc

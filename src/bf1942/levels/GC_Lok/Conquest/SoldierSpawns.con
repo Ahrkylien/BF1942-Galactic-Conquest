@@ -1,0 +1,137 @@
+rem SoldierSpawns.con created by Battlecraft 1942
+rem (\Program Files\Battlefield 1942\Mods\GCMOD\bf1942\levels\GC_Lok/conquest/SoldierSpawns.con)
+
+rem ----------------------------------------- 
+rem ---  Imperial_Headquarters_Spawn1  ---
+rem ----------------------------------------- 
+Object.create Imperial_Headquarters_Spawn1
+Object.absolutePosition 1334.12/143.84/1603.44
+Object.rotation -89.24/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Captured_Imp_Starport_Spawn1  ---
+rem ----------------------------------------- 
+Object.create Captured_Imp_Starport_Spawn1
+Object.absolutePosition 1012.01/90.47/252.05
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Research_Center_Spawn1  ---
+rem ----------------------------------------- 
+Object.create Research_Center_Spawn1
+Object.absolutePosition 799.36/93.12/1253.47
+Object.rotation -181.81/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Supply_Depot_Spawn1  ---
+rem ----------------------------------------- 
+Object.create Supply_Depot_Spawn1
+Object.absolutePosition 1005.87/107.28/1439.66
+Object.rotation -175.25/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Junkyard_Spawn1  ---
+rem ----------------------------------------- 
+Object.create Junkyard_Spawn1
+Object.absolutePosition 1247.84/90.43/1163.64
+Object.rotation -60.72/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Research_Center_Spawn2  ---
+rem ----------------------------------------- 
+Object.create Research_Center_Spawn2
+Object.absolutePosition 815.23/92.11/1206.89
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Research_Center_Spawn3  ---
+rem ----------------------------------------- 
+Object.create Research_Center_Spawn3
+Object.absolutePosition 783.24/92.45/1232.04
+Object.rotation 89.45/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Supply_Depot_Spawn2  ---
+rem ----------------------------------------- 
+Object.create Supply_Depot_Spawn2
+Object.absolutePosition 937.55/107.36/1439.73
+Object.rotation 180.09/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Supply_Depot_Spawn3  ---
+rem ----------------------------------------- 
+Object.create Supply_Depot_Spawn3
+Object.absolutePosition 917.81/107.41/1456.59
+Object.rotation -180.39/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Communications_Relay_Spawn1  ---
+rem ----------------------------------------- 
+Object.create Communications_Relay_Spawn1
+Object.absolutePosition 976.44/129.15/1626.92
+Object.rotation -87.45/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Communications_Relay_Spawn2  ---
+rem ----------------------------------------- 
+Object.create Communications_Relay_Spawn2
+Object.absolutePosition 975.93/129.15/1692.04
+Object.rotation -91.43/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Communications_Relay_Spawn3  ---
+rem ----------------------------------------- 
+Object.create Communications_Relay_Spawn3
+Object.absolutePosition 1007.84/129.14/1670.00
+Object.rotation -178.61/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Imperial_Headquarters_Spawn2  ---
+rem ----------------------------------------- 
+Object.create Imperial_Headquarters_Spawn2
+Object.absolutePosition 1365.84/143.71/1562.66
+Object.rotation -91.77/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Imperial_Headquarters_Spawn3  ---
+rem ----------------------------------------- 
+Object.create Imperial_Headquarters_Spawn3
+Object.absolutePosition 1396.00/138.65/1576.03
+Object.rotation -93.13/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Imperial_Headquarters_Spawn4  ---
+rem ----------------------------------------- 
+Object.create Imperial_Headquarters_Spawn4
+Object.absolutePosition 1346.32/138.92/1586.65
+Object.rotation -90.13/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Captured_Imp_Starport_Spawn2  ---
+rem ----------------------------------------- 
+Object.create Captured_Imp_Starport_Spawn2
+Object.absolutePosition 1033.07/90.44/295.05
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Captured_Imp_Starport_Spawn3  ---
+rem ----------------------------------------- 
+Object.create Captured_Imp_Starport_Spawn3
+Object.absolutePosition 992.25/90.52/295.12
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Junkyard_Spawn2  ---
+rem ----------------------------------------- 
+Object.create Junkyard_Spawn2
+Object.absolutePosition 1191.98/91.23/1178.38
+Object.rotation 97.43/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Junkyard_Spawn3  ---
+rem ----------------------------------------- 
+Object.create Junkyard_Spawn3
+Object.absolutePosition 1236.09/90.65/1196.04
+Object.rotation 0.00/0.00/0.00
+
+rem EndOfFile

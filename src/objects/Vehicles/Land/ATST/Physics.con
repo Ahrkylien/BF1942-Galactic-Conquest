@@ -43,6 +43,8 @@ rem -------------------------------------
 rem -------------------------------------
 ObjectTemplate.setStrength 25
 ObjectTemplate.setDamping 5
+ObjectTemplate.createInvisible 1
+
 
 rem *** ATSTDummyFrontSpringL ***
 ObjectTemplate.create Spring ATSTDummyFrontSpringL
@@ -56,6 +58,7 @@ rem -------------------------------------
 rem -------------------------------------
 ObjectTemplate.setStrength 25
 ObjectTemplate.setDamping 5
+ObjectTemplate.createInvisible 1
 
 
 rem *** ATSTDummyBackSpringR ***
@@ -70,6 +73,7 @@ rem -------------------------------------
 rem -------------------------------------
 ObjectTemplate.setStrength 25
 ObjectTemplate.setDamping 5
+ObjectTemplate.createInvisible 1
 
 
 rem *** ATSTDummyBackSpringL ***
@@ -84,3 +88,4 @@ rem -------------------------------------
 rem -------------------------------------
 ObjectTemplate.setStrength 25
 ObjectTemplate.setDamping 5
+ObjectTemplate.createInvisible 1

@@ -1,0 +1,127 @@
+rem ---- Cammo ----
+rem ** 1P **
+AnimationStateMachine.set1pAnimationSpeed Ub_StandCammo 0.1
+AnimationStateMachine.set1pAnimationSpeed Ub_TurnCammo 0.70
+AnimationStateMachine.set1pAnimationSpeed Ub_StandAimCammo 0.1
+AnimationStateMachine.set1pAnimationSpeed Ub_WalkForwardCammo 0.50
+AnimationStateMachine.set1pAnimationSpeed Ub_WalkBackwardCammo 0.50
+AnimationStateMachine.set1pAnimationSpeed Ub_RunForwardCammo 1.48
+AnimationStateMachine.set1pAnimationSpeed Ub_RunBackwardCammo 1.47
+AnimationStateMachine.set1pAnimationSpeed Ub_StrafeLeftCammo 1.47
+AnimationStateMachine.set1pAnimationSpeed Ub_StrafeRightCammo 1.47
+AnimationStateMachine.set1pAnimationSpeed Ub_StandJumpCammo 0.40
+AnimationStateMachine.set1pAnimationSpeed Ub_RunJumpCammo 1.20
+AnimationStateMachine.set1pAnimationSpeed Ub_FireCammo 2.00
+AnimationStateMachine.set1pAnimationSpeed Ub_LieFireCammo 2.00
+AnimationStateMachine.set1pAnimationSpeed Ub_IdleCammo1 0.32
+AnimationStateMachine.set1pAnimationSpeed Ub_IdleCammo2 0.54
+AnimationStateMachine.set1pAnimationSpeed Ub_IdleCammo3 0.69
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchIdleCammo1 0.32
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchIdleCammo2 0.54
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchIdleCammo3 0.69
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchCammo 0.25
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchTurnCammo 0.50
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchForwardCammo 0.91
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchBackwardCammo 0.60
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchStrafeLeftCammo 0.60
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchStrafeRightCammo 0.60
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchToLieCammo 0.60
+AnimationStateMachine.set1pAnimationSpeed Ub_LieToCrouchCammo 0.60
+AnimationStateMachine.set1pAnimationSpeed Ub_LieToStandCammo 0.60
+AnimationStateMachine.set1pAnimationSpeed Ub_LieCammo 0.20
+AnimationStateMachine.set1pAnimationSpeed Ub_LieForwardCammo 0.70
+AnimationStateMachine.set1pAnimationSpeed Ub_LieBackwardCammo 0.82
+AnimationStateMachine.set1pAnimationSpeed Ub_LieTurnLeftCammo 0.82
+AnimationStateMachine.set1pAnimationSpeed Ub_LieTurnRightCammo 0.82
+AnimationStateMachine.set1pAnimationSpeed Ub_LieStrafeLeftCammo 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_LieStrafeRightCammo 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_RunStandToLieCammo 1.50
+AnimationStateMachine.set1pAnimationSpeed Ub_StandReloadCammo 0.25
+AnimationStateMachine.set1pAnimationSpeed Ub_LieReloadCammo 0.25
+AnimationStateMachine.set1pAnimationSpeed Ub_StandRaiseWeaponCammo 1.16
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchRaiseWeaponCammo 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_LieRaiseWeaponCammo 1.16
+rem **3P**
+AnimationStateMachine.set3pAnimationSpeed Ub_StandCammo 0.60
+AnimationStateMachine.set3pAnimationSpeed Ub_TurnCammo 1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_StandAimCammo 0.80
+AnimationStateMachine.set3pAnimationSpeed Ub_WalkForwardCammo 1.0
+AnimationStateMachine.set3pAnimationSpeed Ub_WalkBackwardCammo -1.0
+AnimationStateMachine.set3pAnimationSpeed Ub_RunForwardCammo 1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_RunBackwardCammo -1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_StrafeLeftCammo 1.30
+AnimationStateMachine.set3pAnimationSpeed Ub_StrafeRightCammo 1.30
+AnimationStateMachine.set3pAnimationSpeed Ub_StandJumpCammo 1.10
+AnimationStateMachine.set3pAnimationSpeed Ub_RunJumpCammo 1.22
+AnimationStateMachine.set3pAnimationSpeed Ub_FireCammo 2.43
+AnimationStateMachine.set3pAnimationSpeed Ub_LieFireCammo 2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_IdleCammo1 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_IdleCammo2 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_IdleCammo3 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchIdleCammo1 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchIdleCammo2 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchIdleCammo3 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchCammo 0.80
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchTurnCammo 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchForwardCammo 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchBackwardCammo -1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchStrafeLeftCammo 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchStrafeRightCammo 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchToLieCammo 1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_LieToCrouchCammo -2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieToStandCammo -3.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieCammo 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieForwardCammo 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieBackwardCammo -0.80
+AnimationStateMachine.set3pAnimationSpeed Ub_LieTurnLeftCammo 2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieTurnRightCammo 2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieStrafeLeftCammo 2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieStrafeRightCammo 2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_RunStandToLieCammo 1.40
+AnimationStateMachine.set3pAnimationSpeed Ub_StandReloadCammo 0.40
+AnimationStateMachine.set3pAnimationSpeed Ub_LieReloadCammo 0.40
+AnimationStateMachine.set3pAnimationSpeed Ub_StandRaiseWeaponCammo -1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchRaiseWeaponCammo -1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_LieRaiseWeaponCammo -1.60
+
+AnimationStateMachine.set3pAnimationSpeed WeaponReloadCammo 0.25
+AnimationStateMachine.set3pAnimationSpeed WeaponFireCammo 2.00
+
+AnimationStateMachine.setactiveState Ub_FireCammo
+AnimationStateMachine.setCameraShakeRoll 0 0.25 800.0
+AnimationStateMachine.setCameraShakePitch 0 0.10 900.0
+AnimationStateMachine.setCameraShakeYaw 0 0.10 700.0
+AnimationStateMachine.setCameraShakeLeftRight 0 0.03 4000
+AnimationStateMachine.setCameraShakeInOut 0 0.3 3000
+AnimationStateMachine.setCameraShakeUpDown 0 0.03 3500
+AnimationStateMachine.setCameraShakeFadeOut 0 8
+
+AnimationStateMachine.setactiveState Ub_LieFireCammo
+AnimationStateMachine.setCameraShakeRoll 0 0.25 800.0
+AnimationStateMachine.setCameraShakePitch 0 0.10 900.0
+AnimationStateMachine.setCameraShakeYaw 0 0.10 700.0
+AnimationStateMachine.setCameraShakeLeftRight 0 0.03 4000
+AnimationStateMachine.setCameraShakeInOut 0 0.3 3000
+AnimationStateMachine.setCameraShakeUpDown 0 0.03 3500
+AnimationStateMachine.setCameraShakeFadeOut 0 8
+
+AnimationStateMachine.setActiveState Ub_StandAimCammo
+AnimationStateMachine.clearAllIdles
+AnimationStateMachine.setCameraShakePitch 0 0.25 1.5
+AnimationStateMachine.setCameraShakeYaw 0 0.2 0.5
+AnimationStateMachine.setCameraShakeMinFactor 0 0.075
+AnimationStateMachine.setCameraShakeFadeOut 0 0.25
+
+AnimationStateMachine.setActiveState Ub_CrouchCammo
+AnimationStateMachine.clearAllIdles
+AnimationStateMachine.setCameraShakePitch 0 0.20 1.5
+AnimationStateMachine.setCameraShakeYaw 0 0.15 0.5
+AnimationStateMachine.setCameraShakeMinFactor 0 0.075
+AnimationStateMachine.setCameraShakeFadeOut 0 0.25
+
+AnimationStateMachine.setActiveState Ub_LieCammo
+AnimationStateMachine.clearAllIdles
+AnimationStateMachine.setCameraShakePitch 0 0.15 1.5
+AnimationStateMachine.setCameraShakeYaw 0 0.10 0.5
+AnimationStateMachine.setCameraShakeMinFactor 0 0.075
+AnimationStateMachine.setCameraShakeFadeOut 0 0.25

@@ -1,4 +1,4 @@
-NetworkableInfo.createNewInfo Runner_Engine_info
+NetworkableInfo.createNewInfo RunnerEngineInfo
 NetworkableInfo.setPredictionMode PMLinear
 
 NetworkableInfo.createNewInfo Runner_Body_Info
@@ -7,7 +7,7 @@ NetworkableInfo.setPredictionMode PMLinear
 NetworkableInfo.createNewInfo Runner_Turret_Info
 NetworkableInfo.setPredictionMode PMLinear
 
-NetworkableInfo.createNewInfo Runner_Turret_Bundle_Info
+NetworkableInfo.createNewInfo RunnerRudderInfo
 NetworkableInfo.setPredictionMode PMLinear
 
 

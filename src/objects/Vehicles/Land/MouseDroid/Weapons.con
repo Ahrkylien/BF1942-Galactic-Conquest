@@ -1,6 +1,6 @@
 rem *** MouseDroidBeep ***
 ObjectTemplate.create FireArms MouseDroidBeep 
-ObjectTemplate.setNetworkableInfo MouseDroidBodyInfo
+ObjectTemplate.setNetworkableInfo MouseDroid_weapon_info
 ObjectTemplate.loadSoundScript Sounds/MouseDroidBeep.ssc
 ObjectTemplate.projectilePosition 0/0/0
 ObjectTemplate.magSize -1
@@ -14,7 +14,7 @@ ObjectTemplate.velocity 0
 
 rem *** MouseDroidBeep2 ***
 ObjectTemplate.create FireArms MouseDroidBeep2 
-ObjectTemplate.setNetworkableInfo MouseDroidBodyInfo
+ObjectTemplate.setNetworkableInfo MouseDroid_weapon_info
 ObjectTemplate.loadSoundScript Sounds/MouseDroidBeep2.ssc
 ObjectTemplate.projectilePosition 0/0/0
 ObjectTemplate.magSize -1

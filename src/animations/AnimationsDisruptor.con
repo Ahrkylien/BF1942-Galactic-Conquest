@@ -1,0 +1,103 @@
+rem ---- Disruptor ----
+rem ** 1P **
+AnimationStateMachine.set1pAnimationSpeed Ub_StandDisruptor 0.1
+AnimationStateMachine.set1pAnimationSpeed Ub_TurnDisruptor 0.70
+AnimationStateMachine.set1pAnimationSpeed Ub_StandAimDisruptor 0.1
+AnimationStateMachine.set1pAnimationSpeed Ub_WalkForwardDisruptor 0.50
+AnimationStateMachine.set1pAnimationSpeed Ub_WalkBackwardDisruptor 0.50
+AnimationStateMachine.set1pAnimationSpeed Ub_RunForwardDisruptor 1.41
+AnimationStateMachine.set1pAnimationSpeed Ub_RunBackwardDisruptor 1.54
+AnimationStateMachine.set1pAnimationSpeed Ub_StrafeLeftDisruptor 1.54
+AnimationStateMachine.set1pAnimationSpeed Ub_StrafeRightDisruptor 1.54
+AnimationStateMachine.set1pAnimationSpeed Ub_StandJumpDisruptor 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_RunJumpDisruptor 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_FireDisruptor 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_LieFireDisruptor 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchDisruptor 0.36
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchTurnDisruptor 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchForwardDisruptor 0.83
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchBackwardDisruptor 0.83
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchStrafeLeftDisruptor 0.83
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchStrafeRightDisruptor 0.83
+AnimationStateMachine.set1pAnimationSpeed Ub_LieDisruptor 0.36
+AnimationStateMachine.set1pAnimationSpeed Ub_LieForwardDisruptor 0.79
+AnimationStateMachine.set1pAnimationSpeed Ub_LieBackwardDisruptor 0.79
+AnimationStateMachine.set1pAnimationSpeed Ub_LieTurnLeftDisruptor 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_LieTurnRightDisruptor 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_LieStrafeLeftDisruptor 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_LieStrafeRightDisruptor 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_StandReloadDisruptor 0.60
+AnimationStateMachine.set1pAnimationSpeed Ub_LieReloadDisruptor 0.60
+AnimationStateMachine.set1pAnimationSpeed Ub_StandRaiseWeaponDisruptor 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchRaiseWeaponDisruptor 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_LieRaiseWeaponDisruptor 1.00
+rem **3P**
+AnimationStateMachine.set3pAnimationSpeed Ub_StandDisruptor 0.60
+AnimationStateMachine.set3pAnimationSpeed Ub_TurnDisruptor 1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_StandAimDisruptor 0.80
+AnimationStateMachine.set3pAnimationSpeed Ub_WalkForwardDisruptor 1.0
+AnimationStateMachine.set3pAnimationSpeed Ub_WalkBackwardDisruptor -1.0
+AnimationStateMachine.set3pAnimationSpeed Ub_RunForwardDisruptor 1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_RunBackwardDisruptor -1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_StrafeLeftDisruptor 1.30
+AnimationStateMachine.set3pAnimationSpeed Ub_StrafeRightDisruptor 1.30
+AnimationStateMachine.set3pAnimationSpeed Ub_StandJumpDisruptor 1.10
+AnimationStateMachine.set3pAnimationSpeed Ub_RunJumpDisruptor 1.22
+AnimationStateMachine.set3pAnimationSpeed Ub_FireDisruptor 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieFireDisruptor 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchDisruptor 0.80
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchTurnDisruptor 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchForwardDisruptor 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchBackwardDisruptor 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchStrafeLeftDisruptor 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchStrafeRightDisruptor 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchToLieDisruptor 1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_LieToCrouchDisruptor -2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieToStandDisruptor -3.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieDisruptor 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieForwardDisruptor 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieBackwardDisruptor -0.80
+AnimationStateMachine.set3pAnimationSpeed Ub_LieTurnLeftDisruptor 2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieTurnRightDisruptor 2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieStrafeLeftDisruptor 2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieStrafeRightDisruptor 2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_StandReloadDisruptor 0.52
+AnimationStateMachine.set3pAnimationSpeed Ub_LieReloadDisruptor 0.52
+AnimationStateMachine.set3pAnimationSpeed Ub_StandRaiseWeaponDisruptor -1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchRaiseWeaponDisruptor -1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_LieRaiseWeaponDisruptor -1.60
+
+AnimationStateMachine.set3pAnimationSpeed WeaponReloadNo4 0.60
+
+AnimationStateMachine.setActiveState Ub_FireDisruptor
+AnimationStateMachine.setCameraShakePitch 0 2.0 10
+AnimationStateMachine.setCameraShakeFadeOut 0 4.0
+AnimationStateMachine.setCameraShakePitch 1 0.1 1.0
+AnimationStateMachine.setCameraShakeYaw 1 -0.03 2.3
+
+AnimationStateMachine.setActiveState Ub_LieFireDisruptor
+AnimationStateMachine.setCameraShakePitch 0 2.0 10
+AnimationStateMachine.setCameraShakeFadeOut 0 4.0
+AnimationStateMachine.setCameraShakePitch 1 0.1 1.0
+AnimationStateMachine.setCameraShakeYaw 1 -0.03 2.3
+
+AnimationStateMachine.setActiveState Ub_StandAimDisruptor
+AnimationStateMachine.clearAllIdles
+AnimationStateMachine.setCameraShakePitch 0 0.25 1.5
+AnimationStateMachine.setCameraShakeYaw 0 0.2 0.5
+AnimationStateMachine.setCameraShakeMinFactor 0 0.075
+AnimationStateMachine.setCameraShakeFadeOut 0 0.25
+
+AnimationStateMachine.setActiveState Ub_CrouchDisruptor
+AnimationStateMachine.clearAllIdles
+AnimationStateMachine.setCameraShakePitch 0 0.20 1.5
+AnimationStateMachine.setCameraShakeYaw 0 0.15 0.5
+AnimationStateMachine.setCameraShakeMinFactor 0 0.075
+AnimationStateMachine.setCameraShakeFadeOut 0 0.25
+
+AnimationStateMachine.setActiveState Ub_LieDisruptor
+AnimationStateMachine.clearAllIdles
+AnimationStateMachine.setCameraShakePitch 0 0.15 1.5
+AnimationStateMachine.setCameraShakeYaw 0 0.10 0.5
+AnimationStateMachine.setCameraShakeMinFactor 0 0.075
+AnimationStateMachine.setCameraShakeFadeOut 0 0.25

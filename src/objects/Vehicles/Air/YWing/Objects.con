@@ -15,21 +15,30 @@ ObjectTemplate.explosionDamage 5
 ObjectTemplate.hasArmor 1
 ObjectTemplate.angleMod 1
 ObjectTemplate.speedMod 1
-ObjectTemplate.hitpoints 110
-ObjectTemplate.maxhitpoints 110
+ObjectTemplate.hitpoints 130
+ObjectTemplate.maxhitpoints 130
 ObjectTemplate.material 801
-ObjectTemplate.criticalDamage 11
+ObjectTemplate.criticalDamage 22
 ObjectTemplate.hpLostWhileCriticalDamage 1.1
 ObjectTemplate.explosionForceMod 10
 ObjectTemplate.hpLostWhileUpSideDown 11
 ObjectTemplate.hpLostWhileDamageFromWater 11
+
 ObjectTemplate.addArmorEffect 110 e_engineYWing -3.8/-0.1/-5.32
 ObjectTemplate.addArmorEffect 110 e_engineYWing 3.8/-0.1/-5.32
-ObjectTemplate.addArmorEffect 22 em_PlaneDamage -1.55/-0.1/-2.2
-ObjectTemplate.addArmorEffect 22 e_engineYWing -3.8/-0.1/-5.32
-ObjectTemplate.addArmorEffect 22e_engineYWing 3.8/-0.1/-5.32
-ObjectTemplate.addArmorEffect 11 e_StukaFire 3.8/0-0.1/-5.32
-ObjectTemplate.addArmorEffect 11 em_PlaneDamage -3.8/-0.1/-5.32
+
+ObjectTemplate.addArmorEffect 66 em_PlaneDamage -3.8/-0.1/-5.32
+ObjectTemplate.addArmorEffect 66 e_engineYWing -3.8/-0.1/-5.32
+ObjectTemplate.addArmorEffect 66 e_engineYWing 3.8/-0.1/-5.32
+
+ObjectTemplate.addArmorEffect 44 em_StukaDamage -3.8/-0.1/-5.32
+ObjectTemplate.addArmorEffect 44 em_PlaneDamage 0/0.2/-2.5
+ObjectTemplate.addArmorEffect 44 e_engineYWing -3.8/-0.1/-5.32
+ObjectTemplate.addArmorEffect 44 e_engineYWing 3.8/-0.1/-5.32
+
+ObjectTemplate.addArmorEffect 22 e_StukaFire 0/0.2/-2.5
+
+
 ObjectTemplate.addArmorEffect 0 e_ExplGas 0/0/0
 ObjectTemplate.addArmorEffect 0 e_ScrapMetal_AWing 0/0/0
 ObjectTemplate.addArmorEffect -1 WaterWaterExplosion 0/0/0

@@ -8,7 +8,7 @@ ObjectTemplate.hasMobilePhysics 1
 ObjectTemplate.hasDynamicShadow 1
 ObjectTemplate.explosionRadius 8
 ObjectTemplate.explosionDamage 5
-ObjectTemplate.damageFromWater 1
+ObjectTemplate.damageFromWater 0
 ObjectTemplate.drag 5
 ObjectTemplate.mass 10000
 ObjectTemplate.hasCollisionPhysics 1
@@ -16,8 +16,8 @@ ObjectTemplate.hasResponsePhysics 1
 ObjectTemplate.hasArmor 1
 ObjectTemplate.speedMod 1
 ObjectTemplate.exitTimer 0.75
-ObjectTemplate.hitpoints 300
-ObjectTemplate.maxhitpoints 300
+ObjectTemplate.hitpoints 355
+ObjectTemplate.maxhitpoints 355
 ObjectTemplate.material 811
 ObjectTemplate.criticalDamage 12
 ObjectTemplate.hpLostWhileCriticalDamage 1.2
@@ -41,6 +41,7 @@ ObjectTemplate.setPrimaryAmmoIcon "Ammo/Icon_bomb.tga"
 ObjectTemplate.setPrimaryAmmoBar ABAmmoBarReloadBar
 ObjectTemplate.setSecondaryAmmoIcon "Ammo/icon_laser_64x64.dds"
 ObjectTemplate.setSecondaryAmmoBar ABAmmoBarHeatBar
+ObjectTemplate.setHasTurretIcon 1
 ObjectTemplate.setCrossHairType CHTCrossHair
 ObjectTemplate.setVehicleCategory VCLand
 ObjectTemplate.setVehicleType  VTLightTank
@@ -225,6 +226,7 @@ rem *** ATSTGunnerHUDExternal ***
 ObjectTemplate.create SimpleObject ATSTGunnerHUDExternal
 ObjectTemplate.geometry Model_Null
 
+
 rem *** ATSTGunnerHUDInternal ***
 ObjectTemplate.create Bundle ATSTGunnerHUDInternal
 ObjectTemplate.geometry 1P_ATSTGunnerHUD_M1
@@ -277,11 +279,12 @@ ObjectTemplate.setVehicleCategory VCLand
 ObjectTemplate.setVehicleType  VTLightTank
 ObjectTemplate.setMinimapIcon "Minimap/minimap_icon_at-st_16x16.dds"
 
+
 rem *** ATSTHatchBundle ***
 ObjectTemplate.create RotationalBundle ATSTHatchBundle
 ObjectTemplate.setNetworkableInfo ATSTBodyInfo
 rem -------------------------------------
-ObjectTemplate.addTemplate ATSTHatchCamera
+ObjectTemplate.addTemplate ATSTHatchPivot
 ObjectTemplate.setPosition 0/2.45/0
 ObjectTemplate.addTemplate ATSTHatchSeat
 ObjectTemplate.setPosition 0/1.75/0
@@ -291,15 +294,38 @@ ObjectTemplate.setMaxRotation 0/0/0
 ObjectTemplate.setMaxSpeed 100/0/0
 ObjectTemplate.setAcceleration 5000/0/0
 ObjectTemplate.setInputToYaw c_PIMouseLookX
-ObjectTemplate.setAutomaticYawStabilization 1
+ObjectTemplate.setAutomaticYawStabilization 0
+
+
+rem *** ATSTHatchBundle ***
+ObjectTemplate.create RotationalBundle ATSTHatchPivot
+ObjectTemplate.setNetworkableInfo ATSTBodyInfo
+rem -------------------------------------
+ObjectTemplate.addTemplate ATSTHatchCamera
+ObjectTemplate.addTemplate CallArtillary
+rem -------------------------------------
+ObjectTemplate.setMinRotation 0/-30/0
+ObjectTemplate.setMaxRotation 0/30/0
+ObjectTemplate.setMaxSpeed 0/100/0
+ObjectTemplate.setAcceleration 0/5000/0
+ObjectTemplate.setInputToPitch c_PIMouseLookY
+
+
+ObjectTemplate.create FireArms CallArtillary
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.magType 2
+ObjectTemplate.numOfMag 1
+ObjectTemplate.magSize -1
+ObjectTemplate.fireOnce 1
+ObjectTemplate.projectileTemplate BinocularsProjectile
+ObjectTemplate.projectile2Template BinocularsProjectile2
+ObjectTemplate.fireInCameraDof 1
+ObjectTemplate.projectilePosition 0/0/2
+ObjectTemplate.GUIIndex 84
 
 rem *** ATSTHatchCamera ***
 ObjectTemplate.create Camera ATSTHatchCamera
-ObjectTemplate.setMinRotation 0/-45/0
-ObjectTemplate.setMaxRotation 0/45/0
-ObjectTemplate.setMaxSpeed 0/180/0
-ObjectTemplate.setAcceleration 0/5000/0
-ObjectTemplate.setInputToPitch c_PIMouseLookY
+
 
 rem *** ATSTHatchSeat ***
 ObjectTemplate.create SeatObject ATSTHatchSeat

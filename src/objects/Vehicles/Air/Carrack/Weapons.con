@@ -12,6 +12,7 @@ ObjectTemplate.velocity 550
 ObjectTemplate.autoReload 1
 ObjectTemplate.reloadtime 3.5
 ObjectTemplate.roundOfFire 2
+ObjectTemplate.fireOnce 1
 ObjectTemplate.fireingForce 1
 ObjectTemplate.addFireArmsPosition -0.18/0/0 0/0/0
 ObjectTemplate.addFireArmsPosition 0.18/0/0 0/0/0

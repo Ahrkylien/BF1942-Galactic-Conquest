@@ -18,14 +18,19 @@ ObjectTemplate.speedMod 1
 ObjectTemplate.hitpoints 65
 ObjectTemplate.maxhitpoints 65
 ObjectTemplate.material 801
-ObjectTemplate.criticalDamage 6.5
+ObjectTemplate.criticalDamage 13
 ObjectTemplate.hpLostWhileCriticalDamage 0.65
 ObjectTemplate.explosionForceMod 10
 ObjectTemplate.hpLostWhileUpSideDown 6.5
 ObjectTemplate.hpLostWhileDamageFromWater 6.5
-ObjectTemplate.addArmorEffect 13 em_SnowspeederDamage -2.3/0/-3
-ObjectTemplate.addArmorEffect 13 em_PlaneDamage 2.3/0/-3
-ObjectTemplate.addArmorEffect 3.5 e_SnowspeederFire 0/0/-3
+
+ObjectTemplate.addArmorEffect 26 em_PlaneDamage 2.3/0/-3
+
+ObjectTemplate.addArmorEffect 26 em_StukaDamage 2.3/0/-3
+ObjectTemplate.addArmorEffect 26 em_PlaneDamage 0/0/-3
+
+ObjectTemplate.addArmorEffect 13 e_StukaFire 0/0/-3
+
 ObjectTemplate.addArmorEffect 0 e_ExplGas 0/0/0
 ObjectTemplate.addArmorEffect 0 e_ScrapMetal_Snowspeeder 0/0/0
 ObjectTemplate.addArmorEffect -1 WaterWaterExplosion 0/0/0

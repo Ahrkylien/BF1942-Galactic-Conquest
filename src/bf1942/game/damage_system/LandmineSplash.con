@@ -8,23 +8,32 @@ rem * *************************************************
 
 MaterialManager.attGroup 545
 MaterialManager.defGroup 801
-MaterialManager.damageMod 100
+MaterialManager.damageMod 3
 
 MaterialManager.attGroup 545
 MaterialManager.defGroup 802
-MaterialManager.damageMod 100
+MaterialManager.damageMod 3
 
 MaterialManager.attGroup 545
 MaterialManager.defGroup 811
-MaterialManager.damageMod 100
+MaterialManager.damageMod 50
 
 MaterialManager.attGroup 545
 MaterialManager.defGroup 812
-MaterialManager.damageMod 100
+MaterialManager.damageMod 50
 
 MaterialManager.attGroup 545
 MaterialManager.defGroup 821
-MaterialManager.damageMod 20
+MaterialManager.damageMod 0
+
+MaterialManager.attGroup 545
+MaterialManager.defGroup 831
+MaterialManager.damageMod 50
+
+MaterialManager.attGroup 545
+MaterialManager.defGroup 832
+MaterialManager.damageMod 50
+
 
 rem * *************************************************
 rem *		Infantry target

@@ -1,6 +1,8 @@
 rem
+rem ***  ***
+rem
 Object.create gren_kit_spawner
-Object.absolutePosition 461.4/338.4/860
+Object.absolutePosition 461.323/338.364/863.617
 Object.setTeam 1
 rem
 rem ***  ***
@@ -136,4 +138,31 @@ rem
 Object.create mousespawner
 Object.absolutePosition 1050.3/341.401/886.177
 Object.rotation 91/0/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create tramcar_s
+Object.absolutePosition 1090.65/337/1015.85
+Object.rotation 90/0/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create tramcar_s
+Object.absolutePosition 1090.64/337/1023.99
+Object.rotation 90/0/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create tramcar_s
+Object.absolutePosition 1090.36/337/1032.59
+Object.rotation 90/0/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create gren_kit_spawner
+Object.absolutePosition 461.061/338.369/863.391
 Object.setTeam 1

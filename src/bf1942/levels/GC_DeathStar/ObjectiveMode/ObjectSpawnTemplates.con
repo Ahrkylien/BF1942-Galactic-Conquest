@@ -12,7 +12,7 @@ ObjectTemplate.teamOnVehicle 1
 ObjectTemplate.create ObjectSpawner large_tl
 ObjectTemplate.setObjectTemplate 2 largeturbolaser
 ObjectTemplate.setObjectTemplate 1 largeturbolaser
-ObjectTemplate.SpawnDelay 50
+ObjectTemplate.SpawnDelay 100
 ObjectTemplate.SpawnDelayAtStart 0
 ObjectTemplate.TimeToLive 45
 ObjectTemplate.Distance 40
@@ -24,7 +24,7 @@ ObjectTemplate.teamOnVehicle 1
 ObjectTemplate.create ObjectSpawner large_tl2
 ObjectTemplate.setObjectTemplate 2 largeturbolaser2
 ObjectTemplate.setObjectTemplate 1 largeturbolaser2
-ObjectTemplate.SpawnDelay 50
+ObjectTemplate.SpawnDelay 100
 ObjectTemplate.SpawnDelayAtStart 0
 ObjectTemplate.TimeToLive 45
 ObjectTemplate.Distance 40
@@ -36,7 +36,7 @@ ObjectTemplate.teamOnVehicle 1
 ObjectTemplate.create ObjectSpawner large_tl3
 ObjectTemplate.setObjectTemplate 2 largeturbolaser3
 ObjectTemplate.setObjectTemplate 1 largeturbolaser3
-ObjectTemplate.SpawnDelay 50
+ObjectTemplate.SpawnDelay 100
 ObjectTemplate.SpawnDelayAtStart 0
 ObjectTemplate.TimeToLive 45
 ObjectTemplate.Distance 40
@@ -48,7 +48,7 @@ ObjectTemplate.teamOnVehicle 1
 ObjectTemplate.create ObjectSpawner large_tl4
 ObjectTemplate.setObjectTemplate 2 largeturbolaser4
 ObjectTemplate.setObjectTemplate 1 largeturbolaser4
-ObjectTemplate.SpawnDelay 50
+ObjectTemplate.SpawnDelay 100
 ObjectTemplate.SpawnDelayAtStart 0
 ObjectTemplate.TimeToLive 45
 ObjectTemplate.Distance 40
@@ -60,7 +60,7 @@ ObjectTemplate.teamOnVehicle 1
 ObjectTemplate.create ObjectSpawner syturbolasers
 ObjectTemplate.setObjectTemplate 2 turbolaser
 ObjectTemplate.setObjectTemplate 1 turbolaser
-ObjectTemplate.SpawnDelay 25
+ObjectTemplate.SpawnDelay 150
 ObjectTemplate.SpawnDelayAtStart 0
 ObjectTemplate.TimeToLive 45
 ObjectTemplate.Distance 40
@@ -70,12 +70,13 @@ ObjectTemplate.teamOnVehicle 1
 ObjectTemplate.create ObjectSpawner tiefighterspa
 ObjectTemplate.setObjectTemplate 2 tiefighter
 ObjectTemplate.setObjectTemplate 1 tiefighter
-ObjectTemplate.SpawnDelay 25
+ObjectTemplate.SpawnDelay 15
 ObjectTemplate.SpawnDelayAtStart 0
 ObjectTemplate.TimeToLive 45
 ObjectTemplate.Distance 40
 ObjectTemplate.DamageWhenLost 10
 ObjectTemplate.teamOnVehicle 1
+ObjectTemplate.MaxNrOfObjectSpawned 2
 
 ObjectTemplate.create ObjectSpawner roguespawner
 ObjectTemplate.setObjectTemplate 2 rogue

@@ -107,3 +107,24 @@ GeometryTemplate.file MOVE_FILES/scopelight
 GeometryTemplate.setLodDistance 0 0
 GeometryTemplate.setLodDistance 1 10000
 
+
+rem ------------------------------------------------
+rem *** GunShipRockets ***
+ObjectTemplate.create FireArms GunShipRockets2
+ObjectTemplate.setNetworkableInfo PlaneFireArmInfo
+ObjectTemplate.setAsynchronyFire 1
+ObjectTemplate.projectileTemplate RocketProjectile2
+ObjectTemplate.projectilePosition 0/0/0
+ObjectTemplate.magSize 2
+ObjectTemplate.numOfMag 3
+ObjectTemplate.velocity 110
+ObjectTemplate.autoReload 1
+ObjectTemplate.reloadtime 6
+ObjectTemplate.roundOfFire 6
+ObjectTemplate.fireingForce 1
+rem ObjectTemplate.setInputFire c_PIFire
+ObjectTemplate.AmmoType	8
+ObjectTemplate.addFireArmsPosition 1.1/2.9/5 0/0/0
+ObjectTemplate.addFireArmsPosition -1.1/2.9/5 0/0/0
+
+rem -------------------------------------------------

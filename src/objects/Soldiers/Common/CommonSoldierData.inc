@@ -73,8 +73,8 @@ ObjectTemplate.healDistance 10.0
 ObjectTemplate.explosionForceMod 75
 
 rem *** Medic ***
-objectTemplate.healFactor 0.25
-objectTemplate.selfHealFactor 0.15
+objectTemplate.healFactor 0.55
+objectTemplate.selfHealFactor 0.55
 
 rem *** engineer repair ***
-objectTemplate.repairFactor 0.3
+objectTemplate.repairFactor 0.6

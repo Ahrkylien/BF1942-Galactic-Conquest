@@ -8,48 +8,58 @@ rem * *************************************************
 
 MaterialManager.attGroup 700
 MaterialManager.defGroup 801
-MaterialManager.damageMod 1.2
+MaterialManager.damageMod 0
 MaterialManager.setEffectTemplate e_RichoMetalHeavy
 
 MaterialManager.attGroup 700
 MaterialManager.defGroup 802
-MaterialManager.damageMod 1.2
+MaterialManager.damageMod 0
 MaterialManager.setEffectTemplate e_RichoMetalHeavy
 
 MaterialManager.attGroup 700
 MaterialManager.defGroup 811
-MaterialManager.damageMod 1.5
+MaterialManager.damageMod 0
 MaterialManager.setEffectTemplate e_RichoMetalHeavy
 
 MaterialManager.attGroup 700
 MaterialManager.defGroup 812
-MaterialManager.damageMod 1.5
+MaterialManager.damageMod 0
 MaterialManager.setEffectTemplate e_RichoMetalHeavy
 
 MaterialManager.attGroup 700
 MaterialManager.defGroup 821
-MaterialManager.damageMod 0.1
+MaterialManager.damageMod 0
 MaterialManager.setEffectTemplate e_RichoMetalHeavy
+
+MaterialManager.attGroup 700
+MaterialManager.defGroup 831
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_RichoMetal
+
+MaterialManager.attGroup 700
+MaterialManager.defGroup 832
+MaterialManager.damageMod 0
+MaterialManager.setEffectTemplate e_RichoMetal
 
 rem * *************************************************
 rem *		Infantry target
 rem * *************************************************
 MaterialManager.attGroup 700
 MaterialManager.defGroup 40
-MaterialManager.damageMod 8
-rem 28
+MaterialManager.damageMod 4
+rem 22.5
 MaterialManager.setEffectTemplate e_blood01
 
 MaterialManager.attGroup 700
 MaterialManager.defGroup 41
-MaterialManager.damageMod 8
-rem 17.5
+MaterialManager.damageMod 2
+rem 14.4
 MaterialManager.setEffectTemplate e_blood01
 
 MaterialManager.attGroup 700
 MaterialManager.defGroup 42
-MaterialManager.damageMod 8
-rem 5.6
+MaterialManager.damageMod 2
+rem 9
 MaterialManager.setEffectTemplate e_blood01
 
 rem * *************************************************

@@ -4571,7 +4571,7 @@ Die Symbole auf der Karte zeigen die Positionen führerloser Fahrzeuge (grau) un
     <col language="Chinese">提示</col>
   </entry>
   <entry word="BRIEFING_LOADING">
-    <col language="English">LOADING</col>
+    <col language="English">PLOTTING HYPERSPACE ROUTE</col>
     <col language="French">CHARGEMENT DE :</col>
     <col language="Italian">CARICAMENTO</col>
     <col language="Spanish">CARGANDO</col>
@@ -15997,6 +15997,16 @@ BESONDERHEIT: Auf dieser Karte können beide Stützpunkte erobert werden.</col>
   </entry>
   <entry word="MULTIPLAYER_BRIEFING_MONCAL">
     <col language="English">Mon Calamari has fallen under attack by Imperial Forces, eager to extract vengeance on the world's natives for their active role in the Rebellion. With the World Devastators on the far side of the planet, light imperial forces wage battle over vital city access docks and strategic defense locations.</col>
+    <col language="French">Avant-poste ouest</col>
+    <col language="Italian">Avamposto ovest</col>
+    <col language="Spanish">Puesto occidental</col>
+    <col language="German">Westlicher Außenposten</col>
+    <col language="Japanese">西の前哨地点</col>
+    <col language="Korean">서쪽 망루</col>
+    <col language="Chinese">西邊前哨基地 </col>
+  </entry>
+  <entry word="MULTIPLAYER_BRIEFING_DANTOOINE">
+    <col language="English">After finding the remains of a rebel base on Dantooine, the Empire has decided to place a permanent facility on the planet's surface to keep watch, knowing fully well the history that the planet has shared with the Jedi. After the destruction of the second Death Star, Rebel Alliance forces mount an offensive against the planet to clear the once holy planet of the Imperial Garrison.</col>
     <col language="French">Avant-poste ouest</col>
     <col language="Italian">Avamposto ovest</col>
     <col language="Spanish">Puesto occidental</col>

@@ -1,0 +1,57 @@
+rem
+rem ***  ***
+rem
+Object.create imperial_bridgetemplate
+Object.absolutePosition 1577.56/569.728/875.429
+Object.rotation 94/0/0
+Object.setOSId 1291873903
+Object.setTeam 1291876705
+rem
+rem ***  ***
+rem
+Object.create rebelblockadetemplate
+Object.absolutePosition 541.448/341.897/849.9
+Object.setOSId 154340788
+Object.setTeam 1127877528
+rem
+rem ***  ***
+rem
+Object.create lift_controltemplate
+Object.absolutePosition 1642.22/340.717/992.665
+Object.setOSId 65
+Object.setTeam 0
+rem
+rem ***  ***
+rem
+Object.create level1_security_roomtemplate
+Object.absolutePosition 557.613/338.429/925.225
+Object.setOSId 65
+Object.setTeam 2359700
+rem
+rem ***  ***
+rem
+Object.create tram_controltemplate
+Object.absolutePosition 559.195/341.473/1032.48
+Object.setOSId 65
+Object.setTeam 154706496
+rem
+rem ***  ***
+rem
+Object.create checkpoint_1template
+Object.absolutePosition 628.396/340.774/925.057
+Object.setOSId 65
+Object.setTeam 0
+rem
+rem ***  ***
+rem
+Object.create checkpoint_3template
+Object.absolutePosition 1049.26/340.931/920.298
+Object.setOSId 65
+Object.setTeam 1048592
+rem
+rem ***  ***
+rem
+Object.create checkpoint_6template
+Object.absolutePosition 1552.56/340.928/882.177
+Object.setOSId 65
+Object.setTeam 155060039

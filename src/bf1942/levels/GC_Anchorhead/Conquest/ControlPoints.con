@@ -1,0 +1,40 @@
+rem ControlPoints.con created by Battlecraft 1942
+rem (\Program Files\Battlefield 1942\Mods\GCMOD\bf1942\levels\GC_Anchorhead/conquest/ControlPoints.con)
+
+rem ----------------------------------------- 
+rem ---  AxisBase  ---
+rem ----------------------------------------- 
+Object.create AxisBase
+Object.absolutePosition 434.01/71.15/699.01
+
+rem ----------------------------------------- 
+rem ---  AlliedBase  ---
+rem ----------------------------------------- 
+Object.create AlliedBase
+Object.absolutePosition 732.03/73.68/406.66
+
+rem ----------------------------------------- 
+rem ---  Rebel_Starport  ---
+rem ----------------------------------------- 
+Object.create Rebel_Starport
+Object.absolutePosition 592.16/65.95/332.37
+
+rem ----------------------------------------- 
+rem ---  Imperial_Starport  ---
+rem ----------------------------------------- 
+Object.create Imperial_Starport
+Object.absolutePosition 367.82/66.08/552.08
+
+rem ----------------------------------------- 
+rem ---  Cantina  ---
+rem ----------------------------------------- 
+Object.create Cantina
+Object.absolutePosition 544.90/81.58/514.87
+
+rem ----------------------------------------- 
+rem ---  Abandoned_Outpost  ---
+rem ----------------------------------------- 
+Object.create Abandoned_Outpost
+Object.absolutePosition 367.94/93.42/331.86
+
+rem EndOfFile

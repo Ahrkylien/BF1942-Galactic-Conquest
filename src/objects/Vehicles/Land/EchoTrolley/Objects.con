@@ -17,14 +17,16 @@ ObjectTemplate.speedMod 2
 ObjectTemplate.hitpoints 70
 ObjectTemplate.maxhitpoints 70
 ObjectTemplate.material 801
-ObjectTemplate.criticalDamage 8
+ObjectTemplate.criticalDamage 14
 ObjectTemplate.explosionForceMod 10
-ObjectTemplate.hpLostWhileCriticalDamage 0.8
-ObjectTemplate.hpLostWhileUpSideDown 8
-ObjectTemplate.hpLostWhileDamageFromWater 8
-ObjectTemplate.addArmorEffect 16 em_TieBomberDamage -1.9/0/-1.5
-ObjectTemplate.addArmorEffect 16 em_PlaneDamage -1.5/0/-1.5
-ObjectTemplate.addArmorEffect 8 e_TieBomberFire -1.7/0/-1.5
+ObjectTemplate.hpLostWhileCriticalDamage 0.7
+ObjectTemplate.hpLostWhileUpSideDown 7
+ObjectTemplate.hpLostWhileDamageFromWater 7
+
+ObjectTemplate.addArmorEffect 28 em_PlaneDamage 0/0.5/-2.5
+
+ObjectTemplate.addArmorEffect 14 e_WillyFire 0/0.5/-0.2
+
 ObjectTemplate.addArmorEffect 0 e_ExplGas 0/0/0
 ObjectTemplate.addArmorEffect 0 e_ScrapMetal_Skiff 0/0/0
 ObjectTemplate.addArmorEffect -1 WaterWaterExplosion 0/0/0
@@ -207,8 +209,8 @@ rem *** EchoTrolley_Camera ***
 ObjectTemplate.create Camera EchoTrolley_Camera
 ObjectTemplate.setMinRotation -100/-30/0
 ObjectTemplate.setMaxRotation 100/30/0
-ObjectTemplate.setMaxSpeed 100/100/0
-ObjectTemplate.setAcceleration 5000/-5000/0
+ObjectTemplate.setMaxSpeed 150/150/0
+ObjectTemplate.setAcceleration 5000/5000/0
 ObjectTemplate.setInputToYaw c_PIMouseLookX
 ObjectTemplate.setInputToPitch c_PIMouseLookY
 

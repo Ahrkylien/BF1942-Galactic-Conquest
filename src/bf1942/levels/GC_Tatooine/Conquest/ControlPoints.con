@@ -30,7 +30,7 @@ rem
 rem ***  ***
 rem
 Object.create the_sarlacctemplate
-Object.absolutePosition 3379.16/100.691/643.482
+Object.absolutePosition 3379.2429/101.4622/643.6530
 Object.rotation -6/0/0
 Object.setOSId 0
 Object.setTeam 0

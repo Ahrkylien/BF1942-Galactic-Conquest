@@ -2,29 +2,6 @@ NetworkableInfo.createNewInfo ControlPointInfo
 NetworkableInfo.setPredictionMode PMNone
 NetworkableInfo.setBasePriority c_NIGhostAlways
 
-ObjectTemplate.create ControlPoint rebels_instigate_uprising!template
-ObjectTemplate.networkableInfo ControlPointInfo
-ObjectTemplate.setControlPointName Rebels_Instigate_Uprising!
-ObjectTemplate.radius 20
-ObjectTemplate.team 1
-ObjectTemplate.spawnGroupId 4
-ObjectTemplate.objectSpawnerId 4
-ObjectTemplate.timeToGetControl 15
-ObjectTemplate.timeToLoseControl 15
-ObjectTemplate.onlyTakeableByTeam 2
-ObjectTemplate.geometry flagbase_m1
-ObjectTemplate.hasCollisionPhysics 1
-ObjectTemplate.areaValue 27
-ObjectTemplate.disableIfEnemyInsideRadius 0
-ObjectTemplate.disableWhenLosingControl 0
-ObjectTemplate.loseControlWhenEnemyClose 1
-ObjectTemplate.loseControlWhenNotClose 0
-ObjectTemplate.addTemplate AnimatedFlag
-ObjectTemplate.setPosition 0/8.2/0
-ObjectTemplate.addTemplate e_glowflagpole
-ObjectTemplate.setTeamGeometry 1 flagge_m1
-ObjectTemplate.setTeamGeometry 2 flagus_m1
-
 ObjectTemplate.create ControlPoint rebel_crash_sitetemplate
 ObjectTemplate.networkableInfo ControlPointInfo
 ObjectTemplate.setControlPointName Rebel_Crash_Site
@@ -36,15 +13,17 @@ ObjectTemplate.timeToGetControl 10
 ObjectTemplate.timeToLoseControl 10
 ObjectTemplate.unableToChangeTeam 1
 ObjectTemplate.geometry flagbase_m1
-ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.areaValue 0
 ObjectTemplate.disableIfEnemyInsideRadius 0
 ObjectTemplate.disableWhenLosingControl 0
-ObjectTemplate.loseControlWhenEnemyClose 1
+ObjectTemplate.loseControlWhenEnemyClose 0
 ObjectTemplate.loseControlWhenNotClose 0
+ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.addTemplate AnimatedFlag
-ObjectTemplate.setPosition 0/8.2/0
-ObjectTemplate.addTemplate e_glowflagpole
+ObjectTemplate.setPosition 0.000000/0.000000/0.000000
+rem ----------------------------------------- 
+rem ---  bridge_passtemplate  ---
+rem ----------------------------------------- 
 ObjectTemplate.setTeamGeometry 1 flagge_m1
 ObjectTemplate.setTeamGeometry 2 flagus_m1
 
@@ -58,37 +37,42 @@ ObjectTemplate.objectSpawnerId 1
 ObjectTemplate.timeToGetControl 10
 ObjectTemplate.timeToLoseControl 10
 ObjectTemplate.geometry flagbase_m1
-ObjectTemplate.hasCollisionPhysics 1
-ObjectTemplate.areaValue 20
+ObjectTemplate.areaValue 40
 ObjectTemplate.disableIfEnemyInsideRadius 0
 ObjectTemplate.disableWhenLosingControl 0
 ObjectTemplate.loseControlWhenEnemyClose 1
 ObjectTemplate.loseControlWhenNotClose 0
+ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.addTemplate AnimatedFlag
-ObjectTemplate.setPosition 0/8.2/0
-ObjectTemplate.addTemplate e_glowflagpole
+ObjectTemplate.setPosition 0.000000/0.000000/0.000000
+rem ----------------------------------------- 
+rem ---  the_citideltemplate  ---
+rem ----------------------------------------- 
 ObjectTemplate.setTeamGeometry 1 flagge_m1
 ObjectTemplate.setTeamGeometry 2 flagus_m1
 
 ObjectTemplate.create ControlPoint the_citideltemplate
 ObjectTemplate.networkableInfo ControlPointInfo
 ObjectTemplate.setControlPointName The_Citidel
-ObjectTemplate.radius 11
+ObjectTemplate.radius 20
 ObjectTemplate.team 1
 ObjectTemplate.spawnGroupId 5
 ObjectTemplate.objectSpawnerId 5
 ObjectTemplate.timeToGetControl 10
 ObjectTemplate.timeToLoseControl 10
+ObjectTemplate.unableToChangeTeam 1
 ObjectTemplate.geometry flagbase_m1
-ObjectTemplate.hasCollisionPhysics 1
-ObjectTemplate.areaValue 20
+ObjectTemplate.areaValue 0
 ObjectTemplate.disableIfEnemyInsideRadius 0
 ObjectTemplate.disableWhenLosingControl 0
 ObjectTemplate.loseControlWhenEnemyClose 1
 ObjectTemplate.loseControlWhenNotClose 0
+ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.addTemplate AnimatedFlag
-ObjectTemplate.setPosition 0/8.2/0
-ObjectTemplate.addTemplate e_glowflagpole
+ObjectTemplate.setPosition 0.000000/0.000000/0.000000
+rem ----------------------------------------- 
+rem ---  lost_citytemplate  ---
+rem ----------------------------------------- 
 ObjectTemplate.setTeamGeometry 1 flagge_m1
 ObjectTemplate.setTeamGeometry 2 flagus_m1
 
@@ -102,58 +86,87 @@ ObjectTemplate.objectSpawnerId 7
 ObjectTemplate.timeToGetControl 10
 ObjectTemplate.timeToLoseControl 10
 ObjectTemplate.geometry flagbase_m1
-ObjectTemplate.hasCollisionPhysics 1
-ObjectTemplate.areaValue 20
+ObjectTemplate.areaValue 40
 ObjectTemplate.disableIfEnemyInsideRadius 0
 ObjectTemplate.disableWhenLosingControl 0
 ObjectTemplate.loseControlWhenEnemyClose 1
 ObjectTemplate.loseControlWhenNotClose 0
+ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.addTemplate AnimatedFlag
-ObjectTemplate.setPosition 0/8.2/0
+ObjectTemplate.setPosition 0.000000/0.000000/0.000000
+rem ----------------------------------------- 
+rem ---  sand_swept_basetemplate  ---
+rem ----------------------------------------- 
+ObjectTemplate.setTeamGeometry 1 flagge_m1
+ObjectTemplate.setTeamGeometry 2 flagus_m1
+
+ObjectTemplate.create ControlPoint toshe_station
+ObjectTemplate.networkableInfo ControlPointInfo
+ObjectTemplate.setControlPointName Toshe_Station
+ObjectTemplate.radius 25
+ObjectTemplate.team 0
+ObjectTemplate.spawnGroupId 4
+ObjectTemplate.objectSpawnerId 4
+ObjectTemplate.timeToGetControl 10
+ObjectTemplate.timeToLoseControl 10
+ObjectTemplate.geometry flagbase_m1
+ObjectTemplate.areaValue 40
+ObjectTemplate.disableIfEnemyInsideRadius 0
+ObjectTemplate.disableWhenLosingControl 0
+ObjectTemplate.loseControlWhenEnemyClose 1
+ObjectTemplate.loseControlWhenNotClose 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.addTemplate AnimatedFlag
+ObjectTemplate.setPosition 0.000000/0.000000/0.000000
+rem ----------------------------------------- 
+rem ---  rebel_crash_sitetemplate  ---
+rem ----------------------------------------- 
 ObjectTemplate.setTeamGeometry 1 flagge_m1
 ObjectTemplate.setTeamGeometry 2 flagus_m1
 
 ObjectTemplate.create ControlPoint sand_swept_basetemplate
 ObjectTemplate.networkableInfo ControlPointInfo
 ObjectTemplate.setControlPointName Sand_Swept_Mine
-ObjectTemplate.radius 8
-ObjectTemplate.team 1
+ObjectTemplate.radius 20
+ObjectTemplate.team 0
 ObjectTemplate.spawnGroupId 2
 ObjectTemplate.objectSpawnerId 2
 ObjectTemplate.timeToGetControl 10
 ObjectTemplate.timeToLoseControl 10
 ObjectTemplate.geometry flagbase_m1
-ObjectTemplate.hasCollisionPhysics 1
-ObjectTemplate.areaValue 20
+ObjectTemplate.areaValue 40
 ObjectTemplate.disableIfEnemyInsideRadius 0
 ObjectTemplate.disableWhenLosingControl 0
 ObjectTemplate.loseControlWhenEnemyClose 1
 ObjectTemplate.loseControlWhenNotClose 0
+ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.addTemplate AnimatedFlag
-ObjectTemplate.setPosition 0/8.2/0
-ObjectTemplate.addTemplate e_glowflagpole
+ObjectTemplate.setPosition 0.000000/0.000000/0.000000
+rem ----------------------------------------- 
+rem ---  tusken_forttemplate  ---
+rem ----------------------------------------- 
 ObjectTemplate.setTeamGeometry 1 flagge_m1
 ObjectTemplate.setTeamGeometry 2 flagus_m1
 
 ObjectTemplate.create ControlPoint tusken_forttemplate
 ObjectTemplate.networkableInfo ControlPointInfo
 ObjectTemplate.setControlPointName Tusken_Fort
-ObjectTemplate.radius 5
+ObjectTemplate.radius 15
 ObjectTemplate.team 0
 ObjectTemplate.spawnGroupId 3
 ObjectTemplate.objectSpawnerId 3
 ObjectTemplate.timeToGetControl 10
 ObjectTemplate.timeToLoseControl 10
 ObjectTemplate.geometry flagbase_m1
-ObjectTemplate.hasCollisionPhysics 1
-ObjectTemplate.areaValue 20
+ObjectTemplate.areaValue 40
 ObjectTemplate.disableIfEnemyInsideRadius 0
 ObjectTemplate.disableWhenLosingControl 0
 ObjectTemplate.loseControlWhenEnemyClose 1
 ObjectTemplate.loseControlWhenNotClose 0
+ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.addTemplate AnimatedFlag
-ObjectTemplate.setPosition 0/8.2/0
-ObjectTemplate.addTemplate e_glowflagpole
+ObjectTemplate.setPosition 0.000000/0.000000/0.000000
+rem EndOfFile
 ObjectTemplate.setTeamGeometry 1 flagge_m1
 ObjectTemplate.setTeamGeometry 2 flagus_m1
 

@@ -5,8 +5,8 @@ ObjectTemplate.saveInSeparateFile 1
 ObjectTemplate.hasMobilePhysics 1
 ObjectTemplate.hasDynamicShadow 1
 ObjectTemplate.inertiaModifier 80000/5/80000
-ObjectTemplate.drag 5
-ObjectTemplate.mass 16000
+ObjectTemplate.drag 8
+ObjectTemplate.mass 1000000
 ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.hasResponsePhysics 1
 ObjectTemplate.explosionRadius 15
@@ -126,12 +126,11 @@ ObjectTemplate.addTemplate CarrackMainEngine
 ObjectTemplate.setPosition 0/0/0
 ObjectTemplate.addTemplate CarrackMainEngine
 ObjectTemplate.setPosition 10/0/0
-ObjectTemplate.addTemplate CarrackTREngine
-ObjectTemplate.setPosition 0/0/50
-ObjectTemplate.setRotation 90/0/0
-ObjectTemplate.addTemplate CarrackTREngine
-ObjectTemplate.setPosition 0/0/-50
-ObjectTemplate.setRotation -90/0/0
+
+ObjectTemplate.addTemplate Carrack_Rudder1
+ObjectTemplate.setPosition 0/-5/-50
+ObjectTemplate.setRotation 0/0/-90
+
 ObjectTemplate.addTemplate CarrackVEngine
 ObjectTemplate.setPosition 0/0/0
 ObjectTemplate.setRotation 0/270/0
@@ -386,7 +385,7 @@ ObjectTemplate.geometry Carracklow
 
 rem *** LodSelector ***
 LodSelectorTemplate.create DistCompareSelector2 CarrackLodSelector
-LodSelectorTemplate.addLodDistance 2000
+LodSelectorTemplate.addLodDistance 900
 
 rem *** Lancer_Gun_Mesh ***
 ObjectTemplate.create SimpleObject Carrack_Gun_Mesh
@@ -413,8 +412,8 @@ ObjectTemplate.saveInSeparateFile 1
 ObjectTemplate.hasMobilePhysics 1
 ObjectTemplate.hasDynamicShadow 1
 ObjectTemplate.inertiaModifier 80000/5/80000
-ObjectTemplate.drag 5
-ObjectTemplate.mass 16000
+ObjectTemplate.drag 8
+ObjectTemplate.mass 1000000
 ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.hasResponsePhysics 1
 ObjectTemplate.explosionRadius 15
@@ -530,15 +529,36 @@ ObjectTemplate.addTemplate CarrackMainEngine
 ObjectTemplate.setPosition 0/0/0
 ObjectTemplate.addTemplate CarrackMainEngine
 ObjectTemplate.setPosition 10/0/0
+
+ObjectTemplate.addTemplate Carrack_Rudder1
+ObjectTemplate.setPosition 0/-5/-50
+ObjectTemplate.setRotation 0/0/-90
+
+ObjectTemplate.addTemplate CarrackVEngine
+ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.setRotation 0/270/0
+
+beginrem
 ObjectTemplate.addTemplate CarrackTREngine
 ObjectTemplate.setPosition 0/0/50
 ObjectTemplate.setRotation 90/0/0
 ObjectTemplate.addTemplate CarrackTREngine
 ObjectTemplate.setPosition 0/0/-50
 ObjectTemplate.setRotation -90/0/0
-ObjectTemplate.addTemplate CarrackVEngine
-ObjectTemplate.setPosition 0/0/0
-ObjectTemplate.setRotation 0/270/0
+*** Reversed Rudder, TO PREVENT TO FAST A ROTATION
+ObjectTemplate.addTemplate Carrack_Rudder1
+ObjectTemplate.setPosition -100/0/-50
+ObjectTemplate.setRotation 0/0/90
+*** AIR BREAK RUDDER, TO RECOVER FROM A ROTATION
+ObjectTemplate.addTemplate Carrack_Rudder1
+ObjectTemplate.setPosition 100/0/0
+ObjectTemplate.setRotation 135/0/-90
+*** AIR BREAK RUDDER 2
+ObjectTemplate.addTemplate Carrack_Rudder1
+ObjectTemplate.setPosition -100/0/0
+ObjectTemplate.setRotation 225/0/90
+endrem
+
 rem ------------------------------------
 ObjectTemplate.addTemplate CarrackCamera
 ObjectTemplate.setPosition -2.06554/11.8991/169.415
@@ -561,7 +581,7 @@ ObjectTemplate.addTemplate Carrack_Turret_PCO5
 
 rem *** LodSelector ***
 LodSelectorTemplate.create DistCompareSelector2 Carrack2LodSelector
-LodSelectorTemplate.addLodDistance 2000
+LodSelectorTemplate.addLodDistance 900
 
 rem --------------------------------------- Create Spawners 
 

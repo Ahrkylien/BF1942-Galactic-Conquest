@@ -1416,3 +1416,21 @@ rem
 Object.create hothcrategrey
 Object.absolutePosition 3624.85/17.6058/3624.06
 Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create sarlaac_beak
+Object.absolutePosition 3372.05/80/647.632
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create sarlaac_tent
+Object.absolutePosition 3371.68/79.3216/648.903
+Object.Rotation -107/0/0
+rem
+rem ***  ***
+rem
+Object.create sarlaac_tent2
+Object.absolutePosition 3371.68/79.3216/648.903
+Object.Rotation -107/0/0

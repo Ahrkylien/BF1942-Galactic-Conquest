@@ -1,5 +1,5 @@
 rem *** alpha (TieFighter) ***
-ObjectTemplate.create PlayerControlObject alpha
+ObjectTemplate.create PlayerControlObject Alpha
 ObjectTemplate.setNetworkableInfo alpha_body_info
 ObjectTemplate.saveInSeparateFile 1
 objectTemplate.cullRadiusScale 5
@@ -18,14 +18,20 @@ ObjectTemplate.speedMod 1
 ObjectTemplate.hitpoints 55
 ObjectTemplate.maxhitpoints 55
 ObjectTemplate.material 801
-ObjectTemplate.criticalDamage 5.5
+ObjectTemplate.criticalDamage 11
 ObjectTemplate.hpLostWhileCriticalDamage 0.55
 ObjectTemplate.explosionForceMod 10
 ObjectTemplate.hpLostWhileUpSideDown 5.5
 ObjectTemplate.hpLostWhileDamageFromWater 5.5
-ObjectTemplate.addArmorEffect 11 em_TieFighterDamage 0/0/0
-ObjectTemplate.addArmorEffect 11 em_PlaneDamage 0/0/0
-ObjectTemplate.addArmorEffect 5.5 e_TieFighterFire 0/0/0
+
+ObjectTemplate.addArmorEffect 33 em_PlaneDamage 0/0/0
+
+ObjectTemplate.addArmorEffect 22 em_PlaneDamage 0/0/0
+ObjectTemplate.addArmorEffect 22 em_StukaDamage 0/0/0
+ObjectTemplate.addArmorEffect 22 em_PlaneDamage 0/0/0
+
+ObjectTemplate.addArmorEffect 11 e_StukaFire 0/0/0
+
 ObjectTemplate.addArmorEffect 0 e_ExplGas 0/0/0
 ObjectTemplate.addArmorEffect 0 e_ScrapMetal_TieFighter 0/0/0
 ObjectTemplate.damageFromWater 1
@@ -33,7 +39,7 @@ ObjectTemplate.aiTemplate tiefighter
 rem -------------------------------------
 ObjectTemplate.addTemplate lodalpha
 rem -------------------------------------
-ObjectTemplate.setSoldierExitLocation -1.5/-4/0 0/0/0
+ObjectTemplate.setSoldierExitLocation -2.5/1/1 0/0/0
 ObjectTemplate.setVehicleIcon "Vehicle/Icon_tiefighter.dds"
 ObjectTemplate.setVehicleIconPos 68/48
 ObjectTemplate.setNumberOfWeaponIcons 1
@@ -42,7 +48,7 @@ ObjectTemplate.setPrimaryAmmoBar ABHeatBarOnly
 ObjectTemplate.setCrossHairType CHTIcon
 ObjectTemplate.setVehicleCategory VCAir
 ObjectTemplate.setVehicleType  VTFighter
-ObjectTemplate.setMinimapIcon "Minimap/minimap_icon_tief_16x16.dds"
+ObjectTemplate.setMinimapIcon "Minimap/minimap_icon_tiefighter_16x16.dds"
 
 rem *** lodalpha ***
 ObjectTemplate.create LodObject lodalpha

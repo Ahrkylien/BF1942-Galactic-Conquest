@@ -1,3 +1,19 @@
+ObjectTemplate.create SpawnPoint cp28
+ObjectTemplate.setSpawnId 28
+ObjectTemplate.setGroup 11
+
+ObjectTemplate.create SpawnPoint cp18
+ObjectTemplate.setSpawnId 18
+ObjectTemplate.setGroup 4
+
+ObjectTemplate.create SpawnPoint cp29
+ObjectTemplate.setSpawnId 29
+ObjectTemplate.setGroup 11
+
+ObjectTemplate.create SpawnPoint cp19
+ObjectTemplate.setSpawnId 19
+ObjectTemplate.setGroup 6
+
 ObjectTemplate.create SpawnPoint imp01
 ObjectTemplate.setSpawnId 1
 ObjectTemplate.setGroup 1
@@ -50,6 +66,10 @@ ObjectTemplate.create SpawnPoint sec02
 ObjectTemplate.setSpawnId 9
 ObjectTemplate.setGroup 4
 
+ObjectTemplate.create SpawnPoint cp22
+ObjectTemplate.setSpawnId 22
+ObjectTemplate.setGroup 8
+
 ObjectTemplate.create SpawnPoint lift04
 ObjectTemplate.setSpawnId 15
 ObjectTemplate.setGroup 3
@@ -57,6 +77,10 @@ ObjectTemplate.setGroup 3
 ObjectTemplate.create SpawnPoint reb05
 ObjectTemplate.setSpawnId 7
 ObjectTemplate.setGroup 2
+
+ObjectTemplate.create SpawnPoint cp23
+ObjectTemplate.setSpawnId 23
+ObjectTemplate.setGroup 8
 
 ObjectTemplate.create SpawnPoint reb06
 ObjectTemplate.setSpawnId 8

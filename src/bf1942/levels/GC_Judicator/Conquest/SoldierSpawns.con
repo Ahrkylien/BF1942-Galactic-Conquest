@@ -170,6 +170,8 @@ Object.rotation -359/0/0
 Object.setOSId 65
 Object.setTeam 7499841
 rem
+rem ***  ***
+rem
 Object.create cp28
 Object.absolutePosition 1596.45/343.439/872.687
 Object.setOSId 65

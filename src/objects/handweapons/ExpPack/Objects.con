@@ -70,7 +70,7 @@ ObjectTemplate.explosionDamage 0
 rem *** ExpPacks explodes after 120 seconds, if not detonated by hand first.
 ObjectTemplate.timeToLive CRD_NONE/120/0/0
 ObjectTemplate.dieAfterColl 0
-ObjectTemplate.radius 20
+ObjectTemplate.radius 10
 ObjectTemplate.ForceOnExplosion 65
 ObjectTemplate.DamageType 1
 ObjectTemplate.hasOnTimeEffect 1

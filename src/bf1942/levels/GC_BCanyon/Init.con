@@ -5,12 +5,12 @@ ShaderManager.setTextureParam envmap bf1942\levels\GC_BCanyon\Textures\ENVMAP_G_
 renderer.vertexFogEnable 1
 renderer.fogLinearStart -1000
 renderer.fogLinearEnd 600
-renderer.fogColorVec 0.96/0.84/0.55
+renderer.fogColorVec 0.98/0.91/0.73
 renderer.globalLodPercent 1
 renderer.globalAmbientColor .2/.2/.2
 renderer.ambientColor .1/.1/.1
-renderer.diffuseColor .38/.37/.36
-renderer.specularColor .3/.3/.3
+renderer.diffuseColor .40/.38/.27
+renderer.specularColor .5/.45/.3
 renderer.animatedMeshAmbientColor 0.35
 textureManager.alternativePath Texture/Europe
 
@@ -20,6 +20,8 @@ textureManager.alternativePath ../../bf1942/levels/GC_BCanyon/Textures/Sky
 
 Game.setViewDistance 600
 Game.spawnPlayers 1
+
+run objects/objects
 
 rem 
 rem *** Define flags ***
@@ -36,21 +38,21 @@ ObjectTemplate.team 2
 ObjectTemplate.networkableInfo FlagBodyInfo
 ObjectTemplate.radius 5
 ObjectTemplate.TimeToReSpawn 10
-ObjectTemplate.addTemplate AnimatedUkFlag
+ObjectTemplate.addTemplate AnimatedUsFlag
 
 game.setTeamSkin 1 JapaneseSoldier
-game.setKit 1 0 Jap_Scout
-game.setKit 1 1 Jap_Assault
-game.setKit 1 2 Jap_AT
-game.setKit 1 3 Jap_Medic
-game.setKit 1 4 Jap_Engineer
+game.setKit 1 0 Empire_Scout
+game.setKit 1 1 Empire_Trooper
+game.setKit 1 2 Empire_AT
+game.setKit 1 3 Empire_Medic
+game.setKit 1 4 Empire_Engineer
 
 game.setTeamSkin 2 FleetSoldier
-game.setKit 2 0 Fleet_Scout2
-game.setKit 2 1 Fleet_Assault2
-game.setKit 2 2 Fleet_AT2
-game.setKit 2 3 Fleet_Medic2
-game.setKit 2 4 Fleet_Engineer2
+game.setKit 2 0 Rebel_Scout
+game.setKit 2 1 Rebel_Trooper
+game.setKit 2 2 Rebel_AT
+game.setKit 2 3 Rebel_Medic
+game.setKit 2 4 Rebel_Engineer
 
 rem
 rem *** Shader Default Color ***
@@ -88,6 +90,11 @@ rem *** Set team 1 ***
 game.setBeforeSpawnCameraPosition 1 630.891/120/1300
 rem *** Set team 2 ***
 game.setBeforeSpawnCameraPosition 2 630.891/120/1300
+
+
+
+
+
 
 
 

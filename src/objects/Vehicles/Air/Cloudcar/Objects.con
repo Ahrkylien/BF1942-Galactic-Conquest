@@ -18,16 +18,23 @@ ObjectTemplate.speedMod 1
 ObjectTemplate.hitpoints 70
 ObjectTemplate.maxhitpoints 70
 ObjectTemplate.material 801
-ObjectTemplate.criticalDamage 7
+ObjectTemplate.criticalDamage 14
 ObjectTemplate.hpLostWhileCriticalDamage 0.7
 ObjectTemplate.explosionForceMod 10
 ObjectTemplate.hpLostWhileUpSideDown 7
 ObjectTemplate.hpLostWhileDamageFromWater 7
+
 ObjectTemplate.addArmorEffect 70 e_engineCloudcar 0/-1.09/-0.1
-ObjectTemplate.addArmorEffect 14 em_PlaneDamage 0/-1.09/-0.1
-ObjectTemplate.addArmorEffect 14 e_engineCloudcar 0/-1.09/-0.1
-ObjectTemplate.addArmorEffect 7 e_StukaFire 0/-1.09/-0.1
-ObjectTemplate.addArmorEffect 7 em_PlaneDamage 0/-1.09/-0.1
+
+ObjectTemplate.addArmorEffect 36 em_PlaneDamage 0/-1.09/-0.1
+ObjectTemplate.addArmorEffect 36 e_engineCloudcar 0/-1.09/-0.1
+
+ObjectTemplate.addArmorEffect 28 em_PlaneDamage 0/-1.09/-0.1
+ObjectTemplate.addArmorEffect 28 em_StukaDamage 0/-1.09/-0.1
+ObjectTemplate.addArmorEffect 28 e_engineCloudcar 0/-1.09/-0.1
+
+ObjectTemplate.addArmorEffect 14 e_StukaFire 0/-1.09/-0.1
+
 ObjectTemplate.addArmorEffect 0 e_ExplGas 0/0/0
 ObjectTemplate.addArmorEffect 0 e_scrapmetal_Cloudcar 0/0/0
 ObjectTemplate.addArmorEffect -1 WaterWaterExplosion 0/0/0
@@ -66,8 +73,7 @@ ObjectTemplate.hasMobilePhysics 1
 ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.hasResponsePhysics 1
 rem -------------------------------------
-ObjectTemplate.addTemplate CloudcarLaser
-ObjectTemplate.setPosition  -2.3/-0.7/1.5
+ObjectTemplate.addTemplate CloudcarLaser1
 ObjectTemplate.addTemplate CloudcarWindow 
 ObjectTemplate.setPosition 0/0.122/0.017
 ObjectTemplate.addTemplate CloudcarCamera
@@ -129,6 +135,7 @@ ObjectTemplate.setPosition -0.5/0.5/4
 ObjectTemplate.addTemplate CloudcarEngineRight
 ObjectTemplate.setPosition 0.5/0.5/4
 ObjectTemplate.addTemplate CloudcarEngineDummy
+ObjectTemplate.setPosition 0/0/0
 
 rem *** CloudcarCoPilot ***
 ObjectTemplate.create PlayerControlObject CloudcarCoPilot
@@ -140,8 +147,7 @@ ObjectTemplate.addTemplate CloudcarSeat
 ObjectTemplate.setPosition 1.7/-0.49/-0.1
 ObjectTemplate.addTemplate CloudcarEntry
 ObjectTemplate.setPosition 2.5/-1/0
-ObjectTemplate.addTemplate CloudcarLaser
-ObjectTemplate.setPosition  2.3/-0.7/1.5
+ObjectTemplate.addTemplate CloudcarLaser2
 rem -------------------------------------
 ObjectTemplate.setSoldierExitLocation 2.9/0/-0.4 0/0/0
 ObjectTemplate.setVehicleIcon "Vehicle/icon_cloudcar.dds"

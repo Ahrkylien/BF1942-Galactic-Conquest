@@ -1,6 +1,5 @@
 rem *** XWing_Laser_Cannon ***
 ObjectTemplate.create FireArms XWing_Laser_Cannon
-ObjectTemplate.loadSoundScript Sounds/XWingLaser.ssc
 ObjectTemplate.setNetworkableInfo PlaneFireArmInfo
 rem -------------------------------------
 ObjectTemplate.visibleBarrelTemplate e_MuzzHeavy
@@ -23,29 +22,20 @@ ObjectTemplate.distToStartLoseDamage 100
 ObjectTemplate.distToMinDamage 300
 ObjectTemplate.AmmoType	10
 
-rem *** XWing_Laser_Cannon_Silent ***
-ObjectTemplate.create FireArms XWing_Laser_Cannon_Silent
-ObjectTemplate.setNetworkableInfo PlaneFireArmInfo
-rem -------------------------------------
-ObjectTemplate.visibleBarrelTemplate e_MuzzHeavy
-rem -------------------------------------
-ObjectTemplate.projectileTemplate MediumLaserProjectileRedNS
+rem *** XWing_Dummy_Laser ***
+ObjectTemplate.create FireArms XWing_Dummy_Laser
+ObjectTemplate.loadSoundScript Sounds/XWingLaser.ssc
 ObjectTemplate.magSize -1
 ObjectTemplate.magType 0
 ObjectTemplate.numOfMag 999
 ObjectTemplate.velocity 600
 ObjectTemplate.reloadtime 0.1
 ObjectTemplate.roundOfFire 5.3
-ObjectTemplate.addFireArmsPosition 0/0/5.9 0/0/0
+ObjectTemplate.addFireArmsPosition 0/0.82/-0.8 0/0/0
 REM *** OVERHEAT *** 
 objectTemplate.heatAddWhenFire 0.06
 objectTemplate.coolDownPerSec 0.7
 objectTemplate.timeDelayOnOverHeat 5
-REM *** DAMAGE OVER DISTANCE ***
-ObjectTemplate.minDamage 0.5
-ObjectTemplate.distToStartLoseDamage 100
-ObjectTemplate.distToMinDamage 300
-ObjectTemplate.AmmoType	10
 
 rem *** XWingProtonTorpedoLauncher ***
 ObjectTemplate.create FireArms XWingProtonTorpedoLauncher
@@ -100,9 +90,9 @@ rem *** Astromech_Droid_repair_point ***
 ObjectTemplate.create SupplyDepot Astromech_Droid_repair_point
 ObjectTemplate.radius 10
 ObjectTemplate.team 0
-ObjectTemplate.addVehicleType YWing -1 1 0
-ObjectTemplate.addVehicleType X-Wing -1 1 0
-ObjectTemplate.addVehicleType rogue -1 1 0
+ObjectTemplate.addVehicleType YWing -1 5 0
+ObjectTemplate.addVehicleType X-Wing -1 3 0
+ObjectTemplate.addVehicleType rogue -1 3 0
 beginRem
 ObjectTemplate.addAmmoType 0 -1 10 0
 ObjectTemplate.addAmmoType 1 -1 15 0

@@ -2,162 +2,122 @@ rem
 rem ***  ***
 rem
 Object.create cit01
-Object.absolutePosition 632.026/142.003/1611.97
+Object.absolutePosition 630.428/142/1612.2
 Object.rotation -191/0/0
-Object.setOSId 0
-Object.setTeam 0
 rem
 rem ***  ***
 rem
 Object.create cit02
-Object.absolutePosition 625.255/142.003/1586.97
+Object.absolutePosition 611.605/142/1582.1
 Object.rotation -274/0/0
-Object.setOSId 155232772
-Object.setTeam 2037151050
 rem
 rem ***  ***
 rem
 Object.create tusk01
-Object.absolutePosition 1598.67/83.4328/1602.53
+Object.absolutePosition 1598.67/83.43/1602.53
 Object.rotation 228/0/0
-Object.setOSId 155232116
-Object.setTeam 6619253
 rem
 rem ***  ***
 rem
 Object.create tusk02
-Object.absolutePosition 1543.66/88.1628/1546.58
-Object.rotation 198/0/0
-Object.setOSId 155237908
-Object.setTeam 2621480
+Object.absolutePosition 1528.43/83.41/1548.26
+Object.rotation 91.36/0/0
 rem
 rem ***  ***
 rem
 Object.create tusk03
-Object.absolutePosition 1575.52/83.4328/1561.81
-Object.setOSId 11010406
-Object.setTeam 0
+Object.absolutePosition 1575.56/83.43/1552.55
 rem
 rem ***  ***
 rem
 Object.create mine01
-Object.absolutePosition 1187.93/95.1164/1017.9
-Object.setOSId 1769096704
-Object.setTeam 2036425843
+Object.absolutePosition 1189.85/95.12/1020.29
 rem
 rem ***  ***
 rem
 Object.create mine02
-Object.absolutePosition 1172.17/94.8229/1034.27
+Object.absolutePosition 1172.73/94.7911/1036.64
 Object.rotation 91/0/0
-Object.setOSId 1124141538
-Object.setTeam 159785568
 rem
 rem ***  ***
 rem
 Object.create mine03
-Object.absolutePosition 1220.48/96.0422/1029.47
+Object.absolutePosition 1220.43/96.04/1028.69
 Object.rotation -57/0/0
-Object.setOSId 1245978
-Object.setTeam 0
 rem
 rem ***  ***
 rem
 Object.create bridge01
-Object.absolutePosition 1430.23/120.335/1009.11
-Object.rotation -180/0/0
-Object.setOSId 4719080
-Object.setTeam 0
+Object.absolutePosition 1432.03/120.33/911.52
+Object.rotation -184.6/0/0
 rem
 rem ***  ***
 rem
 Object.create bridge02
-Object.absolutePosition 1422.4/120.335/1001.81
-Object.rotation -182/0/0
-Object.setOSId 0
-Object.setTeam 0
+Object.absolutePosition 1417.6/120.33/1010.64
+Object.rotation -268.93/0/0
 rem
 rem ***  ***
 rem
 Object.create bridge03
-Object.absolutePosition 1435.8/120.335/1007.32
+Object.absolutePosition 1435.8/120.33/1007.32
 Object.rotation -85/0/0
-Object.setOSId 0
-Object.setTeam 0
 rem
 rem ***  ***
 rem
 Object.create bridge04
-Object.absolutePosition 1431.59/121.401/971.678
-Object.rotation 90/0/0
-Object.setOSId 1910186164
-Object.setTeam 0
+Object.absolutePosition 1422.09/120.766/917.645
+Object.rotation 184/0/0
 rem
 rem ***  ***
 rem
 Object.create insur01
-Object.absolutePosition 1606.95/84.1477/646.468
-Object.rotation 176/0/0
-Object.setOSId 10617314
-Object.setTeam 0
+Object.absolutePosition 1618.5/84.14/695.67
+Object.rotation 267.13/0/0
 rem
 rem ***  ***
 rem
 Object.create insur02
-Object.absolutePosition 1626.19/84.1477/643.323
-Object.rotation -174/0/0
-Object.setOSId -100596269
-Object.setTeam 1664006172
+Object.absolutePosition 1616.49/84.15/665.12
+Object.rotation -449.42/0/0
 rem
 rem ***  ***
 rem
 Object.create insur03
-Object.absolutePosition 1635.93/84.1477/651.464
-Object.rotation -179/0/0
-Object.setOSId 65
-Object.setTeam 981036149
+Object.absolutePosition 1587.53/84.15/705.626
+Object.rotation -294.98/0/0
 rem
 rem ***  ***
 rem
 Object.create rebelstart01
-Object.absolutePosition 1945.63/21.6059/133.862
-Object.setOSId 65
-Object.setTeam 2
+Object.absolutePosition 1919.1/12.4724/185.38
+Object.rotation 113.9/0/0
 rem
 rem ***  ***
 rem
 Object.create rebelstart02
-Object.absolutePosition 1903.88/3.70523/139.816
-Object.setOSId 65
-Object.setTeam -1627322352
+Object.absolutePosition 1952.25/10.0665/193.711
+Object.rotation -194.9/0/0
 rem
 rem ***  ***
 rem
 Object.create rebelstart03
-Object.absolutePosition 1900.87/10.2623/184.605
-Object.setOSId 112
-Object.setTeam 0
+Object.absolutePosition 1971.8/7.50484/162.793
 rem
 rem ***  ***
 rem
 Object.create rebelstart04
-Object.absolutePosition 1942.93/24.0676/124.319
-Object.rotation -357/0/0
-Object.setOSId 112
-Object.setTeam 0
+Object.absolutePosition 1930.66/21.8972/103.978
+Object.rotation -277/0/0
 rem
 rem ***  ***
 rem
 Object.create lostcit01
-Object.absolutePosition 1274.07/77.7982/1578.2
-Object.rotation 23/0/0
-Object.setOSId 65
-Object.setTeam 154895676
+Object.absolutePosition 1282.69/76.57/1571.32
+Object.rotation -78/0/0
 rem
 rem ***  ***
 rem
 Object.create lostcit02
-Object.absolutePosition 1278.98/79.2305/1607.68
-Object.rotation 184/0/0
-Object.setOSId 0
-Object.setTeam 12290512
+Object.absolutePosition 1287.73/78.2144/1603.96
+Object.rotation 324/0/0

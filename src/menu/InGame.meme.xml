@@ -1293,32 +1293,26 @@
                   <TransformNode>
                     <Float description="X">0.0</Float>
                     <Float description="Y">30.0</Float>
-                    <Float description="Width">100.0</Float>
-                    <Float description="Height">20.0</Float>
+                    <Float description="Width">105.0</Float>
+                    <Float description="Height">75.0</Float>
                     <g description="Transformed node">
                       <TransformNode>
                         <Float description="X">10.0</Float>
-                        <Float description="Y">6.0</Float>
+                        <Float description="Y">36.0</Float>
                         <Float description="Width">80.0</Float>
                         <Float description="Height">20.0</Float>
                         <g description="Transformed node">
                           <EffectNode>
                             <ColorEffect description="Effect">
-                              <Float description="Red">0.0</Float>
+                              <Float description="Red">1.0</Float>
                               <Float description="Green">0.0</Float>
                               <Float description="Blue">0.0</Float>
                               <Float description="Alpha">1.0</Float>
                             </ColorEffect>
                           </EffectNode>
                           <TextNode>
-                            <BfLocaleStringData description="String">
-                              <BfLocaleData description="Locale" name="Locale/Locale">
-                                <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                              </BfLocaleData>
-                              <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                              <StringData description="String Id">IMPERIAL</StringData>
-                            </BfLocaleStringData>
-                            <Style description="Style" name="Style/InGameHeading">Trebuchet MS8.dif</Style>
+                            <StringData description="String">JOIN IMPERIALS</StringData>
+                            <CenterAlignedStyle description="Style" name="Style/InGameCenter8">Trebuchet MS8.dif</CenterAlignedStyle>
                           </TextNode>
                         </g>
                       </TransformNode>
@@ -1346,14 +1340,14 @@
                     </g>
                   </TransformNode>
                   <TransformNode>
-                    <Float description="X">110.0</Float>
+                    <Float description="X">105.0</Float>
                     <Float description="Y">30.0</Float>
-                    <Float description="Width">95.0</Float>
-                    <Float description="Height">20.0</Float>
+                    <Float description="Width">105.0</Float>
+                    <Float description="Height">75.0</Float>
                     <g description="Transformed node">
                       <TransformNode>
                         <Float description="X">10.0</Float>
-                        <Float description="Y">6.0</Float>
+                        <Float description="Y">36.0</Float>
                         <Float description="Width">80.0</Float>
                         <Float description="Height">20.0</Float>
                         <g description="Transformed node">
@@ -1361,19 +1355,13 @@
                             <ColorEffect description="Effect">
                               <Float description="Red">0.0</Float>
                               <Float description="Green">0.0</Float>
-                              <Float description="Blue">0.0</Float>
+                              <Float description="Blue">1.0</Float>
                               <Float description="Alpha">1.0</Float>
                             </ColorEffect>
                           </EffectNode>
                           <TextNode>
-                            <BfLocaleStringData description="String">
-                              <BfLocaleData description="Locale" name="Locale/Locale">
-                                <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                              </BfLocaleData>
-                              <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                              <StringData description="String Id">REBEL</StringData>
-                            </BfLocaleStringData>
-                            <Style description="Style" name="Style/InGameHeading">Trebuchet MS8.dif</Style>
+                            <StringData description="String">JOIN REBELS</StringData>
+                            <CenterAlignedStyle description="Style" name="Style/InGameCenter8">Trebuchet MS8.dif</CenterAlignedStyle>
                           </TextNode>
                         </g>
                       </TransformNode>
@@ -1419,26 +1407,20 @@
               </CullNode>
               <TransformNode>
                 <Float description="X">10.0</Float>
-                <Float description="Y">38.0</Float>
+                <Float description="Y">58.0</Float>
                 <Float description="Width">80.0</Float>
                 <Float description="Height">20.0</Float>
                 <g description="Transformed node">
                   <EffectNode>
                     <ColorEffect description="Effect">
-                      <Float description="Red">0.0</Float>
+                      <Float description="Red">1.0</Float>
                       <Float description="Green">0.0</Float>
                       <Float description="Blue">0.0</Float>
                       <Float description="Alpha">1.0</Float>
                     </ColorEffect>
                   </EffectNode>
                   <TextNode>
-                    <BfLocaleStringData description="String">
-                      <BfLocaleData description="Locale" name="Locale/Locale">
-                        <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                      </BfLocaleData>
-                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                      <StringData description="String Id">IMPERIAL</StringData>
-                    </BfLocaleStringData>
+                    <StringData description="String">IMPERIAL</StringData>
                     <Style description="Style" name="Style/InGameHeading">Trebuchet MS8.dif</Style>
                   </TextNode>
                 </g>
@@ -1462,7 +1444,7 @@
           </CullNode>
           <TransformNode>
             <Float description="X">10.0</Float>
-            <Float description="Y">38.0</Float>
+            <Float description="Y">58.0</Float>
             <Float description="Width">80.0</Float>
             <Float description="Height">20.0</Float>
             <g description="Transformed node">
@@ -1470,18 +1452,12 @@
                 <ColorEffect description="Effect">
                   <Float description="Red">0.0</Float>
                   <Float description="Green">0.0</Float>
-                  <Float description="Blue">0.0</Float>
+                  <Float description="Blue">1.0</Float>
                   <Float description="Alpha">1.0</Float>
                 </ColorEffect>
               </EffectNode>
               <TextNode>
-                <BfLocaleStringData description="String">
-                  <BfLocaleData description="Locale" name="Locale/Locale">
-                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                  </BfLocaleData>
-                  <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                  <StringData description="String Id">REBEL</StringData>
-                </BfLocaleStringData>
+                <StringData description="String">REBEL</StringData>
                 <Style description="Style" name="Style/InGameHeading">Trebuchet MS8.dif</Style>
               </TextNode>
             </g>
@@ -1489,53 +1465,8 @@
         </g>
       </SplitNode>
       <TransformNode>
-        <Float description="X">0.0</Float>
-        <Float description="Y">57.0</Float>
-        <Float description="Width">256.0</Float>
-        <Float description="Height">128.0</Float>
-        <PictureNode description="Transformed node">Ingame/respawn/ingame_respawn_kits_top_256x128.tga</PictureNode>
-      </TransformNode>
-      <TransformNode>
-        <Float description="X">10.0</Float>
-        <Float description="Y">58.0</Float>
-        <Float description="Width">64.0</Float>
-        <Float description="Height">64.0</Float>
-        <g description="Transformed node">
-          <SplitNode>
-            <g description="Split node">
-              <CullNode>
-                <EqualData description="Do Show">
-                  <IntData description="Data 1" name="Kit/ShowKit">0</IntData>
-                  <IntData description="Data 2">1</IntData>
-                </EqualData>
-                <Float description="In time">0.0</Float>
-                <Float description="Out time">0.0</Float>
-              </CullNode>
-              <VariablePictureNode>
-                <StringData description="First part" name="ChangeTeam/AxisTeamFlag">Icon_flag_ger.tga</StringData>
-                <DataPlaceholder description="Middle part" />
-                <DataPlaceholder description="Last part" />
-              </VariablePictureNode>
-            </g>
-          </SplitNode>
-          <CullNode>
-            <EqualData description="Do Show">
-              <IntData description="Data 1" name="Kit/ShowKit">0</IntData>
-              <IntData description="Data 2">2</IntData>
-            </EqualData>
-            <Float description="In time">0.0</Float>
-            <Float description="Out time">0.0</Float>
-          </CullNode>
-          <VariablePictureNode>
-            <StringData description="First part" name="ChangeTeam/AlliedTeamFlag">Icon_flag_us.tga</StringData>
-            <DataPlaceholder description="Middle part" />
-            <DataPlaceholder description="Last part" />
-          </VariablePictureNode>
-        </g>
-      </TransformNode>
-      <TransformNode>
         <Float description="X">70.0</Float>
-        <Float description="Y">80.0</Float>
+        <Float description="Y">95.0</Float>
         <Float description="Width">100.0</Float>
         <Float description="Height">20.0</Float>
         <g description="Transformed node">
@@ -1549,14 +1480,16 @@
                 <Float description="In time">0.0</Float>
                 <Float description="Out time">0.0</Float>
               </CullNode>
+              <EffectNode>
+                <ColorEffect description="Effect">
+                  <Float description="Red">1.0</Float>
+                  <Float description="Green">0.0</Float>
+                  <Float description="Blue">0.0</Float>
+                  <Float description="Alpha">1.0</Float>
+                </ColorEffect>
+              </EffectNode>
               <TextNode>
-                <BfLocaleStringData description="String">
-                  <BfLocaleData description="Locale" name="Locale/Locale">
-                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                  </BfLocaleData>
-                  <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                  <StringData description="String Id">IMPERIAL</StringData>
-                </BfLocaleStringData>
+                <StringData description="String">IMPERIAL</StringData>
                 <CenterAlignedStyle description="Style" name="Style/InGameCenter14">Trebuchet MS14.dif</CenterAlignedStyle>
               </TextNode>
             </g>
@@ -1569,14 +1502,16 @@
             <Float description="In time">0.0</Float>
             <Float description="Out time">0.0</Float>
           </CullNode>
+          <EffectNode>
+            <ColorEffect description="Effect">
+              <Float description="Red">0.0</Float>
+              <Float description="Green">0.0</Float>
+              <Float description="Blue">1.0</Float>
+              <Float description="Alpha">1.0</Float>
+            </ColorEffect>
+          </EffectNode>
           <TextNode>
-            <BfLocaleStringData description="String">
-              <BfLocaleData description="Locale" name="Locale/Locale">
-                <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-              </BfLocaleData>
-              <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-              <StringData description="String Id">REBEL</StringData>
-            </BfLocaleStringData>
+            <StringData description="String">REBEL</StringData>
             <CenterAlignedStyle description="Style" name="Style/InGameCenter14">Trebuchet MS14.dif</CenterAlignedStyle>
           </TextNode>
         </g>
@@ -1592,113 +1527,25 @@
             <Float description="Y">0.0</Float>
             <Float description="Width">205.0</Float>
             <Float description="Height">20.0</Float>
-            <g description="Transformed node">
-              <TransformNode>
-                <Float description="X">-5.0</Float>
-                <Float description="Y">0.0</Float>
-                <Float description="Width">256.0</Float>
-                <Float description="Height">128.0</Float>
-                <PictureNode description="Transformed node">Ingame/respawn/ingame_respawn_kits_middle_256x128.tga</PictureNode>
-              </TransformNode>
-              <TransformNode>
-                <Float description="X">0.0</Float>
-                <Float description="Y">0.0</Float>
-                <Float description="Width">196.0</Float>
-                <Float description="Height">17.0</Float>
-                <g description="Transformed node">
-                  <EffectNode>
-                    <ColorEffect description="Effect">
-                      <Float description="Red">0.0</Float>
-                      <Float description="Green">0.0</Float>
-                      <Float description="Blue">0.0</Float>
-                      <Float description="Alpha">1.0</Float>
-                    </ColorEffect>
-                  </EffectNode>
-                  <PictureNode />
-                </g>
-              </TransformNode>
-              <TransformNode>
-                <Float description="X">0.0</Float>
-                <Float description="Y">1.0</Float>
-                <Float description="Width">195.0</Float>
-                <Float description="Height">15.0</Float>
-                <g description="Transformed node">
-                  <EffectNode>
-                    <ColorEffect description="Effect">
-                      <Float description="Red">0.5195310115814209</Float>
-                      <Float description="Green">0.49219000339508057</Float>
-                      <Float description="Blue">0.3007810115814209</Float>
-                      <Float description="Alpha">1.0</Float>
-                    </ColorEffect>
-                  </EffectNode>
-                  <PictureNode />
-                </g>
-              </TransformNode>
-              <TransformNode>
-                <Float description="X">5.0</Float>
-                <Float description="Y">4.0</Float>
-                <Float description="Width">80.0</Float>
-                <Float description="Height">20.0</Float>
-                <g description="Transformed node">
-                  <EffectNode>
-                    <ColorEffect description="Effect">
-                      <Float description="Red">0.0</Float>
-                      <Float description="Green">0.0</Float>
-                      <Float description="Blue">0.0</Float>
-                      <Float description="Alpha">1.0</Float>
-                    </ColorEffect>
-                  </EffectNode>
-                  <TextNode>
-                    <BfLocaleStringData description="String">
-                      <BfLocaleData description="Locale" name="Locale/Locale">
-                        <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                      </BfLocaleData>
-                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                      <StringData description="String Id">SNIPER</StringData>
-                    </BfLocaleStringData>
-                    <Style description="Style">standard6.dif</Style>
-                  </TextNode>
-                </g>
-              </TransformNode>
-              <TransformNode>
-                <Float description="X">70.0</Float>
-                <Float description="Y">4.0</Float>
-                <Float description="Width">120.0</Float>
-                <Float description="Height">20.0</Float>
-                <g description="Transformed node">
-                  <EffectNode>
-                    <ColorEffect description="Effect">
-                      <Float description="Red">0.0</Float>
-                      <Float description="Green">0.0</Float>
-                      <Float description="Blue">0.0</Float>
-                      <Float description="Alpha">1.0</Float>
-                    </ColorEffect>
-                  </EffectNode>
-                  <TextNode>
-                    <BfLocaleStringData description="String">
-                      <BfLocaleData description="Locale" name="Locale/Locale">
-                        <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                      </BfLocaleData>
-                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                      <StringData description="String Id">ACTIVE SNIPERS</StringData>
-                    </BfLocaleStringData>
-                    <RightAlignedStyle description="Style">standard6.dif</RightAlignedStyle>
-                  </TextNode>
-                </g>
-              </TransformNode>
-            </g>
+            <TransformNode description="Transformed node">
+              <Float description="X">-5.0</Float>
+              <Float description="Y">0.0</Float>
+              <Float description="Width">256.0</Float>
+              <Float description="Height">128.0</Float>
+              <PictureNode description="Transformed node">Ingame/respawn/ingame_respawn_kits_middle_256x128.tga</PictureNode>
+            </TransformNode>
           </TransformNode>
           <TransformNode>
             <Float description="X">0.0</Float>
             <Float description="Y">17.0</Float>
-            <Float description="Width">200.0</Float>
-            <Float description="Height">60.0</Float>
+            <Float description="Width">256.0</Float>
+            <Float description="Height">128.0</Float>
             <g description="Transformed node">
               <TransformNode>
-                <Float description="X">0.0</Float>
-                <Float description="Y">0.0</Float>
-                <Float description="Width">195.0</Float>
-                <Float description="Height">61.0</Float>
+                <Float description="X">-5.0</Float>
+                <Float description="Y">-17.0</Float>
+                <Float description="Width">256.0</Float>
+                <Float description="Height">128.0</Float>
                 <g description="Transformed node">
                   <CullNode>
                     <EqualData description="Do Show">
@@ -1708,22 +1555,14 @@
                     <Float description="In time">0.0</Float>
                     <Float description="Out time">0.0</Float>
                   </CullNode>
-                  <EffectNode>
-                    <ColorEffect description="Effect">
-                      <Float description="Red">0.8398439884185791</Float>
-                      <Float description="Green">0.8398439884185791</Float>
-                      <Float description="Blue">0.5</Float>
-                      <Float description="Alpha">0.4000000059604645</Float>
-                    </ColorEffect>
-                  </EffectNode>
-                  <PictureNode />
+                  <PictureNode>Ingame/respawn/ingame_respawn_kits_selected_256x128.tga</PictureNode>
                 </g>
               </TransformNode>
               <TransformNode>
-                <Float description="X">0.0</Float>
-                <Float description="Y">0.0</Float>
-                <Float description="Width">195.0</Float>
-                <Float description="Height">61.0</Float>
+                <Float description="X">-5.0</Float>
+                <Float description="Y">-17.0</Float>
+                <Float description="Width">256.0</Float>
+                <Float description="Height">128.0</Float>
                 <g description="Transformed node">
                   <CullEventActionNode>
                     <ActionListAction>
@@ -1777,66 +1616,42 @@
                     <Float description="In time">0.0</Float>
                     <Float description="Out time">0.0</Float>
                   </CullNode>
-                  <EffectNode>
-                    <VariableColorEffect description="Effect">
-                      <FloatData description="Red" name="Kit/Color/Red">0.8398439884185791</FloatData>
-                      <FloatData description="Green" name="Kit/Color/Green">1.0</FloatData>
-                      <FloatData description="Blue" name="Kit/Color/Blue">0.5</FloatData>
-                      <FloatData description="Alpha" name="Kit/Color/MouseOverAlpha">0.20000000298023224</FloatData>
-                    </VariableColorEffect>
-                  </EffectNode>
-                  <PictureNode />
+                  <PictureNode>Ingame/respawn/ingame_respawn_kits_selected_256x128.tga</PictureNode>
                 </g>
-              </TransformNode>
-              <TransformNode>
-                <Float description="X">1.0</Float>
-                <Float description="Y">1.0</Float>
-                <Float description="Width">16.0</Float>
-                <Float description="Height">16.0</Float>
-                <PictureNode description="Transformed node">Debriefing/classes/class_scout_16x16.tga</PictureNode>
               </TransformNode>
               <TransformNode>
                 <Float description="X">15.0</Float>
                 <Float description="Y">0.0</Float>
                 <Float description="Width">64.0</Float>
                 <Float description="Height">64.0</Float>
+                <VariablePictureNode description="Transformed node">
+                  <StringData description="First part" name="Kit/Icons/KitIcon1">kits/Icon_scout_axis_selected.tga</StringData>
+                  <DataPlaceholder description="Middle part" />
+                  <DataPlaceholder description="Last part" />
+                </VariablePictureNode>
+              </TransformNode>
+              <TransformNode>
+                <Float description="X">85.0</Float>
+                <Float description="Y">18.0</Float>
+                <Float description="Width">80.0</Float>
+                <Float description="Height">20.0</Float>
                 <g description="Transformed node">
-                  <VariablePictureNode>
-                    <StringData description="First part" name="Kit/Icons/KitIcon1">kits/Icon_scout_axis_selected.tga</StringData>
-                    <DataPlaceholder description="Middle part" />
-                    <DataPlaceholder description="Last part" />
-                  </VariablePictureNode>
-                  <CullNode>
-                    <BoolData description="Do Show">False</BoolData>
-                    <Float description="In time">0.0</Float>
-                    <Float description="Out time">0.0</Float>
-                  </CullNode>
-                  <SplitNode>
-                    <g description="Split node">
-                      <CullNode>
-                        <EqualData description="Do Show">
-                          <IntData description="Data 1" name="Kit/ShowKit">0</IntData>
-                          <IntData description="Data 2">1</IntData>
-                        </EqualData>
-                        <Float description="In time">0.0</Float>
-                        <Float description="Out time">0.0</Float>
-                      </CullNode>
-                      <PictureNode>kits/Icon_scout_axis_selected.tga</PictureNode>
-                    </g>
-                  </SplitNode>
-                  <CullNode>
-                    <EqualData description="Do Show">
-                      <IntData description="Data 1" name="Kit/ShowKit">0</IntData>
-                      <IntData description="Data 2">2</IntData>
-                    </EqualData>
-                    <Float description="In time">0.0</Float>
-                    <Float description="Out time">0.0</Float>
-                  </CullNode>
-                  <PictureNode>kits/Icon_scout_allies_selected.tga</PictureNode>
+                  <EffectNode>
+                    <ColorEffect description="Effect">
+                      <Float description="Red">0.0</Float>
+                      <Float description="Green">0.0</Float>
+                      <Float description="Blue">0.0</Float>
+                      <Float description="Alpha">1.0</Float>
+                    </ColorEffect>
+                  </EffectNode>
+                  <TextNode>
+                    <StringData description="String">SCOUT</StringData>
+                    <BfLeftOutlineStyle description="Style" name="Style/InGameLeftLatin11">Trebuchet MS11 - Latin.dif</BfLeftOutlineStyle>
+                  </TextNode>
                 </g>
               </TransformNode>
               <TransformNode>
-                <Float description="X">145.0</Float>
+                <Float description="X">170.0</Float>
                 <Float description="Y">18.0</Float>
                 <Float description="Width">20.0</Float>
                 <Float description="Height">20.0</Float>
@@ -1860,113 +1675,25 @@
             <Float description="Y">0.0</Float>
             <Float description="Width">205.0</Float>
             <Float description="Height">20.0</Float>
-            <g description="Transformed node">
-              <TransformNode>
-                <Float description="X">-5.0</Float>
-                <Float description="Y">0.0</Float>
-                <Float description="Width">256.0</Float>
-                <Float description="Height">128.0</Float>
-                <PictureNode description="Transformed node">Ingame/respawn/ingame_respawn_kits_middle_256x128.tga</PictureNode>
-              </TransformNode>
-              <TransformNode>
-                <Float description="X">0.0</Float>
-                <Float description="Y">0.0</Float>
-                <Float description="Width">196.0</Float>
-                <Float description="Height">17.0</Float>
-                <g description="Transformed node">
-                  <EffectNode>
-                    <ColorEffect description="Effect">
-                      <Float description="Red">0.0</Float>
-                      <Float description="Green">0.0</Float>
-                      <Float description="Blue">0.0</Float>
-                      <Float description="Alpha">1.0</Float>
-                    </ColorEffect>
-                  </EffectNode>
-                  <PictureNode />
-                </g>
-              </TransformNode>
-              <TransformNode>
-                <Float description="X">0.0</Float>
-                <Float description="Y">1.0</Float>
-                <Float description="Width">195.0</Float>
-                <Float description="Height">15.0</Float>
-                <g description="Transformed node">
-                  <EffectNode>
-                    <ColorEffect description="Effect">
-                      <Float description="Red">0.5195310115814209</Float>
-                      <Float description="Green">0.49219000339508057</Float>
-                      <Float description="Blue">0.3007810115814209</Float>
-                      <Float description="Alpha">1.0</Float>
-                    </ColorEffect>
-                  </EffectNode>
-                  <PictureNode />
-                </g>
-              </TransformNode>
-              <TransformNode>
-                <Float description="X">5.0</Float>
-                <Float description="Y">4.0</Float>
-                <Float description="Width">80.0</Float>
-                <Float description="Height">20.0</Float>
-                <g description="Transformed node">
-                  <EffectNode>
-                    <ColorEffect description="Effect">
-                      <Float description="Red">0.0</Float>
-                      <Float description="Green">0.0</Float>
-                      <Float description="Blue">0.0</Float>
-                      <Float description="Alpha">1.0</Float>
-                    </ColorEffect>
-                  </EffectNode>
-                  <TextNode>
-                    <BfLocaleStringData description="String">
-                      <BfLocaleData description="Locale" name="Locale/Locale">
-                        <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                      </BfLocaleData>
-                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                      <StringData description="String Id">LIGHT INFANTRY</StringData>
-                    </BfLocaleStringData>
-                    <Style description="Style">standard6.dif</Style>
-                  </TextNode>
-                </g>
-              </TransformNode>
-              <TransformNode>
-                <Float description="X">70.0</Float>
-                <Float description="Y">4.0</Float>
-                <Float description="Width">120.0</Float>
-                <Float description="Height">20.0</Float>
-                <g description="Transformed node">
-                  <EffectNode>
-                    <ColorEffect description="Effect">
-                      <Float description="Red">0.0</Float>
-                      <Float description="Green">0.0</Float>
-                      <Float description="Blue">0.0</Float>
-                      <Float description="Alpha">1.0</Float>
-                    </ColorEffect>
-                  </EffectNode>
-                  <TextNode>
-                    <BfLocaleStringData description="String">
-                      <BfLocaleData description="Locale" name="Locale/Locale">
-                        <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                      </BfLocaleData>
-                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                      <StringData description="String Id">ACTIVE LIGHT INFANTRY</StringData>
-                    </BfLocaleStringData>
-                    <RightAlignedStyle description="Style">standard6.dif</RightAlignedStyle>
-                  </TextNode>
-                </g>
-              </TransformNode>
-            </g>
+            <TransformNode description="Transformed node">
+              <Float description="X">-5.0</Float>
+              <Float description="Y">0.0</Float>
+              <Float description="Width">256.0</Float>
+              <Float description="Height">128.0</Float>
+              <PictureNode description="Transformed node">Ingame/respawn/ingame_respawn_kits_middle_256x128.tga</PictureNode>
+            </TransformNode>
           </TransformNode>
           <TransformNode>
             <Float description="X">0.0</Float>
             <Float description="Y">17.0</Float>
-            <Float description="Width">200.0</Float>
-            <Float description="Height">60.0</Float>
+            <Float description="Width">256.0</Float>
+            <Float description="Height">128.0</Float>
             <g description="Transformed node">
               <TransformNode>
-                <Float description="X">0.0</Float>
-                <Float description="Y">0.0</Float>
-                <Float description="Width">195.0</Float>
-                <Float description="Height">61.0</Float>
+                <Float description="X">-5.0</Float>
+                <Float description="Y">-17.0</Float>
+                <Float description="Width">256.0</Float>
+                <Float description="Height">128.0</Float>
                 <g description="Transformed node">
                   <CullNode>
                     <EqualData description="Do Show">
@@ -1976,22 +1703,14 @@
                     <Float description="In time">0.0</Float>
                     <Float description="Out time">0.0</Float>
                   </CullNode>
-                  <EffectNode>
-                    <VariableColorEffect description="Effect">
-                      <FloatData description="Red" name="Kit/Color/Red">0.8398439884185791</FloatData>
-                      <FloatData description="Green" name="Kit/Color/Green">1.0</FloatData>
-                      <FloatData description="Blue" name="Kit/Color/Blue">0.5</FloatData>
-                      <FloatData description="Alpha" name="Kit/Color/SelectedAlpha">0.4000000059604645</FloatData>
-                    </VariableColorEffect>
-                  </EffectNode>
-                  <PictureNode />
+                  <PictureNode>Ingame/respawn/ingame_respawn_kits_selected_256x128.tga</PictureNode>
                 </g>
               </TransformNode>
               <TransformNode>
-                <Float description="X">0.0</Float>
-                <Float description="Y">0.0</Float>
-                <Float description="Width">195.0</Float>
-                <Float description="Height">61.0</Float>
+                <Float description="X">-5.0</Float>
+                <Float description="Y">-17.0</Float>
+                <Float description="Width">256.0</Float>
+                <Float description="Height">128.0</Float>
                 <g description="Transformed node">
                   <CullEventActionNode>
                     <ActionListAction>
@@ -2045,23 +1764,8 @@
                     <Float description="In time">0.0</Float>
                     <Float description="Out time">0.0</Float>
                   </CullNode>
-                  <EffectNode>
-                    <VariableColorEffect description="Effect">
-                      <FloatData description="Red" name="Kit/Color/Red">0.8398439884185791</FloatData>
-                      <FloatData description="Green" name="Kit/Color/Green">1.0</FloatData>
-                      <FloatData description="Blue" name="Kit/Color/Blue">0.5</FloatData>
-                      <FloatData description="Alpha" name="Kit/Color/MouseOverAlpha">0.20000000298023224</FloatData>
-                    </VariableColorEffect>
-                  </EffectNode>
-                  <PictureNode />
+                  <PictureNode>Ingame/respawn/ingame_respawn_kits_selected_256x128.tga</PictureNode>
                 </g>
-              </TransformNode>
-              <TransformNode>
-                <Float description="X">1.0</Float>
-                <Float description="Y">1.0</Float>
-                <Float description="Width">16.0</Float>
-                <Float description="Height">16.0</Float>
-                <PictureNode description="Transformed node">Debriefing/classes/class_assault_16x16.tga</PictureNode>
               </TransformNode>
               <TransformNode>
                 <Float description="X">15.0</Float>
@@ -2075,7 +1779,27 @@
                 </VariablePictureNode>
               </TransformNode>
               <TransformNode>
-                <Float description="X">145.0</Float>
+                <Float description="X">85.0</Float>
+                <Float description="Y">18.0</Float>
+                <Float description="Width">80.0</Float>
+                <Float description="Height">20.0</Float>
+                <g description="Transformed node">
+                  <EffectNode>
+                    <ColorEffect description="Effect">
+                      <Float description="Red">0.0</Float>
+                      <Float description="Green">0.0</Float>
+                      <Float description="Blue">0.0</Float>
+                      <Float description="Alpha">1.0</Float>
+                    </ColorEffect>
+                  </EffectNode>
+                  <TextNode>
+                    <StringData description="String">TROOPER</StringData>
+                    <BfLeftOutlineStyle description="Style" name="Style/InGameLeftLatin11">Trebuchet MS11 - Latin.dif</BfLeftOutlineStyle>
+                  </TextNode>
+                </g>
+              </TransformNode>
+              <TransformNode>
+                <Float description="X">170.0</Float>
                 <Float description="Y">18.0</Float>
                 <Float description="Width">20.0</Float>
                 <Float description="Height">20.0</Float>
@@ -2099,113 +1823,25 @@
             <Float description="Y">0.0</Float>
             <Float description="Width">205.0</Float>
             <Float description="Height">20.0</Float>
-            <g description="Transformed node">
-              <TransformNode>
-                <Float description="X">-5.0</Float>
-                <Float description="Y">0.0</Float>
-                <Float description="Width">256.0</Float>
-                <Float description="Height">128.0</Float>
-                <PictureNode description="Transformed node">Ingame/respawn/ingame_respawn_kits_middle_256x128.tga</PictureNode>
-              </TransformNode>
-              <TransformNode>
-                <Float description="X">0.0</Float>
-                <Float description="Y">0.0</Float>
-                <Float description="Width">196.0</Float>
-                <Float description="Height">17.0</Float>
-                <g description="Transformed node">
-                  <EffectNode>
-                    <ColorEffect description="Effect">
-                      <Float description="Red">0.0</Float>
-                      <Float description="Green">0.0</Float>
-                      <Float description="Blue">0.0</Float>
-                      <Float description="Alpha">1.0</Float>
-                    </ColorEffect>
-                  </EffectNode>
-                  <PictureNode />
-                </g>
-              </TransformNode>
-              <TransformNode>
-                <Float description="X">0.0</Float>
-                <Float description="Y">1.0</Float>
-                <Float description="Width">195.0</Float>
-                <Float description="Height">15.0</Float>
-                <g description="Transformed node">
-                  <EffectNode>
-                    <ColorEffect description="Effect">
-                      <Float description="Red">0.5195310115814209</Float>
-                      <Float description="Green">0.49219000339508057</Float>
-                      <Float description="Blue">0.3007810115814209</Float>
-                      <Float description="Alpha">1.0</Float>
-                    </ColorEffect>
-                  </EffectNode>
-                  <PictureNode />
-                </g>
-              </TransformNode>
-              <TransformNode>
-                <Float description="X">5.0</Float>
-                <Float description="Y">4.0</Float>
-                <Float description="Width">80.0</Float>
-                <Float description="Height">20.0</Float>
-                <g description="Transformed node">
-                  <EffectNode>
-                    <ColorEffect description="Effect">
-                      <Float description="Red">0.0</Float>
-                      <Float description="Green">0.0</Float>
-                      <Float description="Blue">0.0</Float>
-                      <Float description="Alpha">1.0</Float>
-                    </ColorEffect>
-                  </EffectNode>
-                  <TextNode>
-                    <BfLocaleStringData description="String">
-                      <BfLocaleData description="Locale" name="Locale/Locale">
-                        <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                      </BfLocaleData>
-                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                      <StringData description="String Id">HEAVY INFANTRY</StringData>
-                    </BfLocaleStringData>
-                    <Style description="Style">standard6.dif</Style>
-                  </TextNode>
-                </g>
-              </TransformNode>
-              <TransformNode>
-                <Float description="X">70.0</Float>
-                <Float description="Y">4.0</Float>
-                <Float description="Width">120.0</Float>
-                <Float description="Height">20.0</Float>
-                <g description="Transformed node">
-                  <EffectNode>
-                    <ColorEffect description="Effect">
-                      <Float description="Red">0.0</Float>
-                      <Float description="Green">0.0</Float>
-                      <Float description="Blue">0.0</Float>
-                      <Float description="Alpha">1.0</Float>
-                    </ColorEffect>
-                  </EffectNode>
-                  <TextNode>
-                    <BfLocaleStringData description="String">
-                      <BfLocaleData description="Locale" name="Locale/Locale">
-                        <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                      </BfLocaleData>
-                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                      <StringData description="String Id">ACTIVE HEAVY INFANTRY</StringData>
-                    </BfLocaleStringData>
-                    <RightAlignedStyle description="Style">standard6.dif</RightAlignedStyle>
-                  </TextNode>
-                </g>
-              </TransformNode>
-            </g>
+            <TransformNode description="Transformed node">
+              <Float description="X">-5.0</Float>
+              <Float description="Y">0.0</Float>
+              <Float description="Width">256.0</Float>
+              <Float description="Height">128.0</Float>
+              <PictureNode description="Transformed node">Ingame/respawn/ingame_respawn_kits_middle_256x128.tga</PictureNode>
+            </TransformNode>
           </TransformNode>
           <TransformNode>
             <Float description="X">0.0</Float>
             <Float description="Y">17.0</Float>
-            <Float description="Width">200.0</Float>
-            <Float description="Height">60.0</Float>
+            <Float description="Width">256.0</Float>
+            <Float description="Height">128.0</Float>
             <g description="Transformed node">
               <TransformNode>
-                <Float description="X">0.0</Float>
-                <Float description="Y">0.0</Float>
-                <Float description="Width">195.0</Float>
-                <Float description="Height">61.0</Float>
+                <Float description="X">-5.0</Float>
+                <Float description="Y">-17.0</Float>
+                <Float description="Width">256.0</Float>
+                <Float description="Height">128.0</Float>
                 <g description="Transformed node">
                   <CullNode>
                     <EqualData description="Do Show">
@@ -2215,22 +1851,14 @@
                     <Float description="In time">0.0</Float>
                     <Float description="Out time">0.0</Float>
                   </CullNode>
-                  <EffectNode>
-                    <VariableColorEffect description="Effect">
-                      <FloatData description="Red" name="Kit/Color/Red">0.8398439884185791</FloatData>
-                      <FloatData description="Green" name="Kit/Color/Green">1.0</FloatData>
-                      <FloatData description="Blue" name="Kit/Color/Blue">0.5</FloatData>
-                      <FloatData description="Alpha" name="Kit/Color/SelectedAlpha">0.4000000059604645</FloatData>
-                    </VariableColorEffect>
-                  </EffectNode>
-                  <PictureNode />
+                  <PictureNode>Ingame/respawn/ingame_respawn_kits_selected_256x128.tga</PictureNode>
                 </g>
               </TransformNode>
               <TransformNode>
-                <Float description="X">0.0</Float>
-                <Float description="Y">0.0</Float>
-                <Float description="Width">195.0</Float>
-                <Float description="Height">61.0</Float>
+                <Float description="X">-5.0</Float>
+                <Float description="Y">-17.0</Float>
+                <Float description="Width">256.0</Float>
+                <Float description="Height">128.0</Float>
                 <g description="Transformed node">
                   <CullEventActionNode>
                     <ActionListAction>
@@ -2284,23 +1912,8 @@
                     <Float description="In time">0.0</Float>
                     <Float description="Out time">0.0</Float>
                   </CullNode>
-                  <EffectNode>
-                    <VariableColorEffect description="Effect">
-                      <FloatData description="Red" name="Kit/Color/Red">0.8398439884185791</FloatData>
-                      <FloatData description="Green" name="Kit/Color/Green">1.0</FloatData>
-                      <FloatData description="Blue" name="Kit/Color/Blue">0.5</FloatData>
-                      <FloatData description="Alpha" name="Kit/Color/MouseOverAlpha">0.20000000298023224</FloatData>
-                    </VariableColorEffect>
-                  </EffectNode>
-                  <PictureNode />
+                  <PictureNode>Ingame/respawn/ingame_respawn_kits_selected_256x128.tga</PictureNode>
                 </g>
-              </TransformNode>
-              <TransformNode>
-                <Float description="X">1.0</Float>
-                <Float description="Y">1.0</Float>
-                <Float description="Width">16.0</Float>
-                <Float description="Height">16.0</Float>
-                <PictureNode description="Transformed node">Debriefing/classes/class_at_16x16.tga</PictureNode>
               </TransformNode>
               <TransformNode>
                 <Float description="X">15.0</Float>
@@ -2314,7 +1927,27 @@
                 </VariablePictureNode>
               </TransformNode>
               <TransformNode>
-                <Float description="X">145.0</Float>
+                <Float description="X">85.0</Float>
+                <Float description="Y">18.0</Float>
+                <Float description="Width">80.0</Float>
+                <Float description="Height">20.0</Float>
+                <g description="Transformed node">
+                  <EffectNode>
+                    <ColorEffect description="Effect">
+                      <Float description="Red">0.0</Float>
+                      <Float description="Green">0.0</Float>
+                      <Float description="Blue">0.0</Float>
+                      <Float description="Alpha">1.0</Float>
+                    </ColorEffect>
+                  </EffectNode>
+                  <TextNode>
+                    <StringData description="String">ANTI-TANK</StringData>
+                    <BfLeftOutlineStyle description="Style" name="Style/InGameLeftLatin11">Trebuchet MS11 - Latin.dif</BfLeftOutlineStyle>
+                  </TextNode>
+                </g>
+              </TransformNode>
+              <TransformNode>
+                <Float description="X">170.0</Float>
                 <Float description="Y">18.0</Float>
                 <Float description="Width">20.0</Float>
                 <Float description="Height">20.0</Float>
@@ -2338,113 +1971,25 @@
             <Float description="Y">0.0</Float>
             <Float description="Width">205.0</Float>
             <Float description="Height">20.0</Float>
-            <g description="Transformed node">
-              <TransformNode>
-                <Float description="X">-5.0</Float>
-                <Float description="Y">0.0</Float>
-                <Float description="Width">256.0</Float>
-                <Float description="Height">128.0</Float>
-                <PictureNode description="Transformed node">Ingame/respawn/ingame_respawn_kits_middle_256x128.tga</PictureNode>
-              </TransformNode>
-              <TransformNode>
-                <Float description="X">0.0</Float>
-                <Float description="Y">0.0</Float>
-                <Float description="Width">196.0</Float>
-                <Float description="Height">17.0</Float>
-                <g description="Transformed node">
-                  <EffectNode>
-                    <ColorEffect description="Effect">
-                      <Float description="Red">0.0</Float>
-                      <Float description="Green">0.0</Float>
-                      <Float description="Blue">0.0</Float>
-                      <Float description="Alpha">1.0</Float>
-                    </ColorEffect>
-                  </EffectNode>
-                  <PictureNode />
-                </g>
-              </TransformNode>
-              <TransformNode>
-                <Float description="X">0.0</Float>
-                <Float description="Y">1.0</Float>
-                <Float description="Width">195.0</Float>
-                <Float description="Height">15.0</Float>
-                <g description="Transformed node">
-                  <EffectNode>
-                    <ColorEffect description="Effect">
-                      <Float description="Red">0.5195310115814209</Float>
-                      <Float description="Green">0.49219000339508057</Float>
-                      <Float description="Blue">0.3007810115814209</Float>
-                      <Float description="Alpha">1.0</Float>
-                    </ColorEffect>
-                  </EffectNode>
-                  <PictureNode />
-                </g>
-              </TransformNode>
-              <TransformNode>
-                <Float description="X">5.0</Float>
-                <Float description="Y">4.0</Float>
-                <Float description="Width">80.0</Float>
-                <Float description="Height">20.0</Float>
-                <g description="Transformed node">
-                  <EffectNode>
-                    <ColorEffect description="Effect">
-                      <Float description="Red">0.0</Float>
-                      <Float description="Green">0.0</Float>
-                      <Float description="Blue">0.0</Float>
-                      <Float description="Alpha">1.0</Float>
-                    </ColorEffect>
-                  </EffectNode>
-                  <TextNode>
-                    <BfLocaleStringData description="String">
-                      <BfLocaleData description="Locale" name="Locale/Locale">
-                        <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                      </BfLocaleData>
-                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                      <StringData description="String Id">ANTI-ARMOUR</StringData>
-                    </BfLocaleStringData>
-                    <Style description="Style">standard6.dif</Style>
-                  </TextNode>
-                </g>
-              </TransformNode>
-              <TransformNode>
-                <Float description="X">90.0</Float>
-                <Float description="Y">4.0</Float>
-                <Float description="Width">100.0</Float>
-                <Float description="Height">20.0</Float>
-                <g description="Transformed node">
-                  <EffectNode>
-                    <ColorEffect description="Effect">
-                      <Float description="Red">0.0</Float>
-                      <Float description="Green">0.0</Float>
-                      <Float description="Blue">0.0</Float>
-                      <Float description="Alpha">1.0</Float>
-                    </ColorEffect>
-                  </EffectNode>
-                  <TextNode>
-                    <BfLocaleStringData description="String">
-                      <BfLocaleData description="Locale" name="Locale/Locale">
-                        <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                      </BfLocaleData>
-                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                      <StringData description="String Id">ACTIVE ANTI-ARMOURS</StringData>
-                    </BfLocaleStringData>
-                    <RightAlignedStyle description="Style">standard6.dif</RightAlignedStyle>
-                  </TextNode>
-                </g>
-              </TransformNode>
-            </g>
+            <TransformNode description="Transformed node">
+              <Float description="X">-5.0</Float>
+              <Float description="Y">0.0</Float>
+              <Float description="Width">256.0</Float>
+              <Float description="Height">128.0</Float>
+              <PictureNode description="Transformed node">Ingame/respawn/ingame_respawn_kits_middle_256x128.tga</PictureNode>
+            </TransformNode>
           </TransformNode>
           <TransformNode>
             <Float description="X">0.0</Float>
             <Float description="Y">17.0</Float>
-            <Float description="Width">200.0</Float>
-            <Float description="Height">60.0</Float>
+            <Float description="Width">256.0</Float>
+            <Float description="Height">128.0</Float>
             <g description="Transformed node">
               <TransformNode>
-                <Float description="X">0.0</Float>
-                <Float description="Y">0.0</Float>
-                <Float description="Width">195.0</Float>
-                <Float description="Height">61.0</Float>
+                <Float description="X">-5.0</Float>
+                <Float description="Y">-17.0</Float>
+                <Float description="Width">256.0</Float>
+                <Float description="Height">128.0</Float>
                 <g description="Transformed node">
                   <CullNode>
                     <EqualData description="Do Show">
@@ -2454,22 +1999,14 @@
                     <Float description="In time">0.0</Float>
                     <Float description="Out time">0.0</Float>
                   </CullNode>
-                  <EffectNode>
-                    <VariableColorEffect description="Effect">
-                      <FloatData description="Red" name="Kit/Color/Red">0.8398439884185791</FloatData>
-                      <FloatData description="Green" name="Kit/Color/Green">1.0</FloatData>
-                      <FloatData description="Blue" name="Kit/Color/Blue">0.5</FloatData>
-                      <FloatData description="Alpha" name="Kit/Color/SelectedAlpha">0.4000000059604645</FloatData>
-                    </VariableColorEffect>
-                  </EffectNode>
-                  <PictureNode />
+                  <PictureNode>Ingame/respawn/ingame_respawn_kits_selected_256x128.tga</PictureNode>
                 </g>
               </TransformNode>
               <TransformNode>
-                <Float description="X">0.0</Float>
-                <Float description="Y">0.0</Float>
-                <Float description="Width">195.0</Float>
-                <Float description="Height">61.0</Float>
+                <Float description="X">-5.0</Float>
+                <Float description="Y">-17.0</Float>
+                <Float description="Width">256.0</Float>
+                <Float description="Height">128.0</Float>
                 <g description="Transformed node">
                   <CullEventActionNode>
                     <ActionListAction>
@@ -2523,23 +2060,8 @@
                     <Float description="In time">0.0</Float>
                     <Float description="Out time">0.0</Float>
                   </CullNode>
-                  <EffectNode>
-                    <VariableColorEffect description="Effect">
-                      <FloatData description="Red" name="Kit/Color/Red">0.8398439884185791</FloatData>
-                      <FloatData description="Green" name="Kit/Color/Green">1.0</FloatData>
-                      <FloatData description="Blue" name="Kit/Color/Blue">0.5</FloatData>
-                      <FloatData description="Alpha" name="Kit/Color/MouseOverAlpha">0.20000000298023224</FloatData>
-                    </VariableColorEffect>
-                  </EffectNode>
-                  <PictureNode />
+                  <PictureNode>Ingame/respawn/ingame_respawn_kits_selected_256x128.tga</PictureNode>
                 </g>
-              </TransformNode>
-              <TransformNode>
-                <Float description="X">1.0</Float>
-                <Float description="Y">1.0</Float>
-                <Float description="Width">16.0</Float>
-                <Float description="Height">16.0</Float>
-                <PictureNode description="Transformed node">Debriefing/classes/class_medic_16x16.tga</PictureNode>
               </TransformNode>
               <TransformNode>
                 <Float description="X">15.0</Float>
@@ -2553,7 +2075,27 @@
                 </VariablePictureNode>
               </TransformNode>
               <TransformNode>
-                <Float description="X">145.0</Float>
+                <Float description="X">85.0</Float>
+                <Float description="Y">18.0</Float>
+                <Float description="Width">80.0</Float>
+                <Float description="Height">20.0</Float>
+                <g description="Transformed node">
+                  <EffectNode>
+                    <ColorEffect description="Effect">
+                      <Float description="Red">0.0</Float>
+                      <Float description="Green">0.0</Float>
+                      <Float description="Blue">0.0</Float>
+                      <Float description="Alpha">1.0</Float>
+                    </ColorEffect>
+                  </EffectNode>
+                  <TextNode>
+                    <StringData description="String">MEDIC</StringData>
+                    <BfLeftOutlineStyle description="Style" name="Style/InGameLeftLatin11">Trebuchet MS11 - Latin.dif</BfLeftOutlineStyle>
+                  </TextNode>
+                </g>
+              </TransformNode>
+              <TransformNode>
+                <Float description="X">170.0</Float>
                 <Float description="Y">18.0</Float>
                 <Float description="Width">20.0</Float>
                 <Float description="Height">20.0</Float>
@@ -2577,101 +2119,13 @@
             <Float description="Y">0.0</Float>
             <Float description="Width">205.0</Float>
             <Float description="Height">20.0</Float>
-            <g description="Transformed node">
-              <TransformNode>
-                <Float description="X">-5.0</Float>
-                <Float description="Y">0.0</Float>
-                <Float description="Width">256.0</Float>
-                <Float description="Height">128.0</Float>
-                <PictureNode description="Transformed node">Ingame/respawn/ingame_respawn_kits_bottom_256x128.tga</PictureNode>
-              </TransformNode>
-              <TransformNode>
-                <Float description="X">0.0</Float>
-                <Float description="Y">0.0</Float>
-                <Float description="Width">196.0</Float>
-                <Float description="Height">17.0</Float>
-                <g description="Transformed node">
-                  <EffectNode>
-                    <ColorEffect description="Effect">
-                      <Float description="Red">0.0</Float>
-                      <Float description="Green">0.0</Float>
-                      <Float description="Blue">0.0</Float>
-                      <Float description="Alpha">1.0</Float>
-                    </ColorEffect>
-                  </EffectNode>
-                  <PictureNode />
-                </g>
-              </TransformNode>
-              <TransformNode>
-                <Float description="X">0.0</Float>
-                <Float description="Y">1.0</Float>
-                <Float description="Width">195.0</Float>
-                <Float description="Height">15.0</Float>
-                <g description="Transformed node">
-                  <EffectNode>
-                    <ColorEffect description="Effect">
-                      <Float description="Red">0.5195310115814209</Float>
-                      <Float description="Green">0.49219000339508057</Float>
-                      <Float description="Blue">0.3007810115814209</Float>
-                      <Float description="Alpha">1.0</Float>
-                    </ColorEffect>
-                  </EffectNode>
-                  <PictureNode />
-                </g>
-              </TransformNode>
-              <TransformNode>
-                <Float description="X">5.0</Float>
-                <Float description="Y">4.0</Float>
-                <Float description="Width">80.0</Float>
-                <Float description="Height">20.0</Float>
-                <g description="Transformed node">
-                  <EffectNode>
-                    <ColorEffect description="Effect">
-                      <Float description="Red">0.0</Float>
-                      <Float description="Green">0.0</Float>
-                      <Float description="Blue">0.0</Float>
-                      <Float description="Alpha">1.0</Float>
-                    </ColorEffect>
-                  </EffectNode>
-                  <TextNode>
-                    <BfLocaleStringData description="String">
-                      <BfLocaleData description="Locale" name="Locale/Locale">
-                        <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                      </BfLocaleData>
-                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                      <StringData description="String Id">SUPPORT</StringData>
-                    </BfLocaleStringData>
-                    <Style description="Style">standard6.dif</Style>
-                  </TextNode>
-                </g>
-              </TransformNode>
-              <TransformNode>
-                <Float description="X">80.0</Float>
-                <Float description="Y">4.0</Float>
-                <Float description="Width">110.0</Float>
-                <Float description="Height">20.0</Float>
-                <g description="Transformed node">
-                  <EffectNode>
-                    <ColorEffect description="Effect">
-                      <Float description="Red">0.0</Float>
-                      <Float description="Green">0.0</Float>
-                      <Float description="Blue">0.0</Float>
-                      <Float description="Alpha">1.0</Float>
-                    </ColorEffect>
-                  </EffectNode>
-                  <TextNode>
-                    <BfLocaleStringData description="String">
-                      <BfLocaleData description="Locale" name="Locale/Locale">
-                        <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                      </BfLocaleData>
-                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                      <StringData description="String Id">ACTIVE SUPPORT</StringData>
-                    </BfLocaleStringData>
-                    <RightAlignedStyle description="Style">standard6.dif</RightAlignedStyle>
-                  </TextNode>
-                </g>
-              </TransformNode>
-            </g>
+            <TransformNode description="Transformed node">
+              <Float description="X">-5.0</Float>
+              <Float description="Y">0.0</Float>
+              <Float description="Width">256.0</Float>
+              <Float description="Height">128.0</Float>
+              <PictureNode description="Transformed node">Ingame/respawn/ingame_respawn_kits_bottom_256x128.tga</PictureNode>
+            </TransformNode>
           </TransformNode>
           <TransformNode>
             <Float description="X">0.0</Float>
@@ -2680,10 +2134,10 @@
             <Float description="Height">60.0</Float>
             <g description="Transformed node">
               <TransformNode>
-                <Float description="X">0.0</Float>
-                <Float description="Y">0.0</Float>
-                <Float description="Width">195.0</Float>
-                <Float description="Height">61.0</Float>
+                <Float description="X">-5.0</Float>
+                <Float description="Y">-17.0</Float>
+                <Float description="Width">256.0</Float>
+                <Float description="Height">128.0</Float>
                 <g description="Transformed node">
                   <CullNode>
                     <EqualData description="Do Show">
@@ -2693,22 +2147,14 @@
                     <Float description="In time">0.0</Float>
                     <Float description="Out time">0.0</Float>
                   </CullNode>
-                  <EffectNode>
-                    <VariableColorEffect description="Effect">
-                      <FloatData description="Red" name="Kit/Color/Red">0.8398439884185791</FloatData>
-                      <FloatData description="Green" name="Kit/Color/Green">1.0</FloatData>
-                      <FloatData description="Blue" name="Kit/Color/Blue">0.5</FloatData>
-                      <FloatData description="Alpha" name="Kit/Color/SelectedAlpha">0.4000000059604645</FloatData>
-                    </VariableColorEffect>
-                  </EffectNode>
-                  <PictureNode />
+                  <PictureNode>Ingame/respawn/ingame_respawn_kits_selected_256x128.tga</PictureNode>
                 </g>
               </TransformNode>
               <TransformNode>
-                <Float description="X">0.0</Float>
-                <Float description="Y">0.0</Float>
-                <Float description="Width">195.0</Float>
-                <Float description="Height">61.0</Float>
+                <Float description="X">-5.0</Float>
+                <Float description="Y">-17.0</Float>
+                <Float description="Width">256.0</Float>
+                <Float description="Height">128.0</Float>
                 <g description="Transformed node">
                   <CullEventActionNode>
                     <SetVariableAction>
@@ -2762,23 +2208,8 @@
                     <Float description="In time">0.0</Float>
                     <Float description="Out time">0.0</Float>
                   </CullNode>
-                  <EffectNode>
-                    <VariableColorEffect description="Effect">
-                      <FloatData description="Red" name="Kit/Color/Red">0.8398439884185791</FloatData>
-                      <FloatData description="Green" name="Kit/Color/Green">1.0</FloatData>
-                      <FloatData description="Blue" name="Kit/Color/Blue">0.5</FloatData>
-                      <FloatData description="Alpha" name="Kit/Color/MouseOverAlpha">0.20000000298023224</FloatData>
-                    </VariableColorEffect>
-                  </EffectNode>
-                  <PictureNode />
+                  <PictureNode>Ingame/respawn/ingame_respawn_kits_selected_256x128.tga</PictureNode>
                 </g>
-              </TransformNode>
-              <TransformNode>
-                <Float description="X">0.0</Float>
-                <Float description="Y">0.0</Float>
-                <Float description="Width">16.0</Float>
-                <Float description="Height">16.0</Float>
-                <PictureNode description="Transformed node">Debriefing/classes/class_engineer_16x16.tga</PictureNode>
               </TransformNode>
               <TransformNode>
                 <Float description="X">15.0</Float>
@@ -2792,7 +2223,27 @@
                 </VariablePictureNode>
               </TransformNode>
               <TransformNode>
-                <Float description="X">145.0</Float>
+                <Float description="X">85.0</Float>
+                <Float description="Y">18.0</Float>
+                <Float description="Width">80.0</Float>
+                <Float description="Height">20.0</Float>
+                <g description="Transformed node">
+                  <EffectNode>
+                    <ColorEffect description="Effect">
+                      <Float description="Red">0.0</Float>
+                      <Float description="Green">0.0</Float>
+                      <Float description="Blue">0.0</Float>
+                      <Float description="Alpha">1.0</Float>
+                    </ColorEffect>
+                  </EffectNode>
+                  <TextNode>
+                    <StringData description="String">ENGINEER</StringData>
+                    <BfLeftOutlineStyle description="Style" name="Style/InGameLeftLatin11">Trebuchet MS11 - Latin.dif</BfLeftOutlineStyle>
+                  </TextNode>
+                </g>
+              </TransformNode>
+              <TransformNode>
+                <Float description="X">170.0</Float>
                 <Float description="Y">18.0</Float>
                 <Float description="Width">20.0</Float>
                 <Float description="Height">20.0</Float>
@@ -3997,9 +3448,9 @@
                 <g description="Transformed node">
                   <EffectNode>
                     <ColorEffect description="Effect">
-                      <Float description="Red">0.0</Float>
-                      <Float description="Green">0.0</Float>
-                      <Float description="Blue">0.0</Float>
+                      <Float description="Red">1.0</Float>
+                      <Float description="Green">1.0</Float>
+                      <Float description="Blue">1.0</Float>
                       <Float description="Alpha">1.0</Float>
                     </ColorEffect>
                   </EffectNode>

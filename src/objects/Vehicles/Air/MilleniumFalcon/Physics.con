@@ -9,9 +9,9 @@ ObjectTemplate.addTemplate MilleniumFalconLandingfront
 ObjectTemplate.setPosition 0/0.725/9.164
 ObjectTemplate.addTemplate MilleniumFalconbackpadsgear
 ObjectTemplate.setPosition 0/.5/2
-ObjectTemplate.addTemplate MilleniumFalconvtolengine
-ObjectTemplate.setPosition 0/0/0
-ObjectTemplate.setRotation 0/-60/0
+rem ObjectTemplate.addTemplate MilleniumFalconvtolengine
+rem ObjectTemplate.setPosition 0/0/0
+rem ObjectTemplate.setRotation 0/-60/0
 ObjectTemplate.addTemplate MilleniumFalconbackrightgdl
 ObjectTemplate.setPosition 3.038/0.22/-7.6
 ObjectTemplate.setRotation 0/0/-130
@@ -122,8 +122,8 @@ ObjectTemplate.setMinRotation 0/-100/0
 ObjectTemplate.setMaxSpeed 0/-18/0
 ObjectTemplate.setAcceleration 0/10/0
 ObjectTemplate.setGearDownHeight 9999
-ObjectTemplate.setGearDownEngineInput 0.09
-ObjectTemplate.setGearUpEngineInput 1.16
+ObjectTemplate.setGearDownEngineInput 0.2
+ObjectTemplate.setGearUpEngineInput 0.3
 
 rem *** MilleniumFalconLandingfrontpad ***
 ObjectTemplate.create LandingGear MilleniumFalconLandingfrontpad
@@ -140,8 +140,8 @@ ObjectTemplate.setMinRotation 0/-90/0
 ObjectTemplate.setMaxSpeed 0/-18/0
 ObjectTemplate.setAcceleration 0/10/0
 ObjectTemplate.setGearDownHeight 9999
-ObjectTemplate.setGearDownEngineInput 0.09
-ObjectTemplate.setGearUpEngineInput 1.16
+ObjectTemplate.setGearDownEngineInput 0.2
+ObjectTemplate.setGearUpEngineInput 0.3
 
 rem *** MilleniumFalconbackpadsgear ***
 ObjectTemplate.create LandingGear MilleniumFalconbackpadsgear
@@ -157,8 +157,8 @@ ObjectTemplate.setMaxSpeed 0/18/0
 ObjectTemplate.setAcceleration 0/10/0
 ObjectTemplate.setPositionOffset 0/-0.5/0
 ObjectTemplate.setGearDownHeight 9999
-ObjectTemplate.setGearDownEngineInput 0.09
-ObjectTemplate.setGearUpEngineInput 1.16
+ObjectTemplate.setGearDownEngineInput 0.2
+ObjectTemplate.setGearUpEngineInput 0.3
 
 rem *** MilleniumFalconBackpads ***
 ObjectTemplate.create Bundle MilleniumFalconBackpads
@@ -183,8 +183,8 @@ ObjectTemplate.setMaxSpeed 0/-45/0
 ObjectTemplate.setAcceleration 0/15/0
 ObjectTemplate.setPositionOffset 0/2/0
 ObjectTemplate.setGearDownHeight 9999
-ObjectTemplate.setGearDownEngineInput 0.09
-ObjectTemplate.setGearUpEngineInput 1.16
+ObjectTemplate.setGearDownEngineInput 0.1
+ObjectTemplate.setGearUpEngineInput 0.15
 
 rem *** MilleniumFalconbackrightgdr ***
 ObjectTemplate.create LandingGear MilleniumFalconbackrightgdr
@@ -196,8 +196,8 @@ ObjectTemplate.setMaxSpeed 0/0/-18
 ObjectTemplate.setAcceleration 0/0/10
 ObjectTemplate.setPositionOffset 0/-0.673/0
 ObjectTemplate.setGearDownHeight 9999
-ObjectTemplate.setGearDownEngineInput 0.09
-ObjectTemplate.setGearUpEngineInput 1.16
+ObjectTemplate.setGearDownEngineInput 0.3
+ObjectTemplate.setGearUpEngineInput 0.4
 
 rem *** MilleniumFalconbackrightgdl ***
 ObjectTemplate.create LandingGear MilleniumFalconbackrightgdl
@@ -209,8 +209,8 @@ ObjectTemplate.setMaxSpeed 0/0/18
 ObjectTemplate.setAcceleration 0/0/10
 ObjectTemplate.setPositionOffset 0/-0.673/0
 ObjectTemplate.setGearDownHeight 9999
-ObjectTemplate.setGearDownEngineInput 0.09
-ObjectTemplate.setGearUpEngineInput 1.16
+ObjectTemplate.setGearDownEngineInput 0.3
+ObjectTemplate.setGearUpEngineInput 0.4
 
 rem *** MilleniumFalconbackleftgdr ***
 ObjectTemplate.create LandingGear MilleniumFalconbackleftgdr
@@ -223,8 +223,8 @@ ObjectTemplate.setMaxSpeed 0/0/-18
 ObjectTemplate.setAcceleration 0/0/10
 ObjectTemplate.setPositionOffset 0/-0.673/0
 ObjectTemplate.setGearDownHeight 9999
-ObjectTemplate.setGearDownEngineInput 0.09
-ObjectTemplate.setGearUpEngineInput 1.16
+ObjectTemplate.setGearDownEngineInput 0.3
+ObjectTemplate.setGearUpEngineInput 0.4
 
 rem *** MilleniumFalconbackleftgdl ***
 ObjectTemplate.create LandingGear MilleniumFalconbackleftgdl
@@ -237,8 +237,8 @@ ObjectTemplate.setMaxSpeed 0/0/18
 ObjectTemplate.setAcceleration 0/0/10
 ObjectTemplate.setPositionOffset 0/-0.673/0
 ObjectTemplate.setGearDownHeight 9999
-ObjectTemplate.setGearDownEngineInput 0.09
-ObjectTemplate.setGearUpEngineInput 1.16
+ObjectTemplate.setGearDownEngineInput 0.3
+ObjectTemplate.setGearUpEngineInput 0.4
 
 rem ---------------------- wheels ------------------------------
 
@@ -391,5 +391,38 @@ ObjectTemplate.setAutomaticReset 1
 ObjectTemplate.setPositionOffset 0/0/-0.1
 ObjectTemplate.setWingLift 2
 ObjectTemplate.setFlapLift 0
+
+rem ---------------- new VTO -----------------
+rem *** FalconVTOLRack ***
+ObjectTemplate.create RotationalBundle FalconVTOLRack
+ObjectTemplate.hasMobilePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate FalconVTOLEngine
+rem -------------------------------------
+ObjectTemplate.setMinRotation 0/-30/-20
+ObjectTemplate.setMaxRotation 0/30/20
+ObjectTemplate.setMaxSpeed 0/50/1500
+ObjectTemplate.setAcceleration 0/100/150
+ObjectTemplate.setInputToPitch c_PIPitch
+ObjectTemplate.setInputToRoll c_PIRoll
+ObjectTemplate.setAutomaticReset 1
+rem -------------------------------------
+
+
+rem *** FalconVTOLEngine ***
+ObjectTemplate.create Engine FalconVTOLEngine
+ObjectTemplate.setNetworkableInfo Millenium_engine_info
+ObjectTemplate.setMinRotation 0/0/0
+ObjectTemplate.setMaxRotation 0/0/5000
+ObjectTemplate.setMaxSpeed 0/0/900
+ObjectTemplate.setAcceleration 0/0/5000
+ObjectTemplate.setInputToRoll c_PIAltFire
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setEngineType c_ETPlane
+ObjectTemplate.setTorque 50
+ObjectTemplate.setDifferential 5
+ObjectTemplate.setGearUp 0.7
+ObjectTemplate.setGearDown 0.3
+rem ------------------------------------------
 
 

@@ -7,7 +7,7 @@ rem ---------------- Forward Engine -----------------------
 rem *** Imperial_LandingCraftengineforward ***
 ObjectTemplate.create engine Imperial_LandingCraftEngineForward
 ObjectTemplate.setNetworkableInfo Imperial_LandingCraftEngineInfo
-ObjectTemplate.loadSoundScript Sounds/LanderEngine.ssc
+ObjectTemplate.loadSoundScript Sounds/LanderEngine2.ssc
 rem ---------------------------------------
 ObjectTemplate.addTemplate Imperial_LandingCraft_wing_right_rot
 ObjectTemplate.setPosition 11.006/2.517/-22.236
@@ -133,6 +133,7 @@ ObjectTemplate.setFlapLift 5
 ObjectTemplate.setRegulateToLift 4.90
 ObjectTemplate.setWingToRegulatorRatio 1
 
+
 rem *** Imperial_LandingCraftFlapRightOuter ***
 ObjectTemplate.create Wing Imperial_LandingCraftFlapRightOuter
 ObjectTemplate.setNetworkableInfo Imperial_LandingCraftWingInfo
@@ -165,7 +166,7 @@ ObjectTemplate.create Wing Imperial_LandingCraftFlapTailRight
 ObjectTemplate.setNetworkableInfo Imperial_LandingCraftWingInfo
 ObjectTemplate.setMinRotation 0/-30/0
 ObjectTemplate.setMaxRotation 0/30/0
-ObjectTemplate.setMaxSpeed 0/0/0
+ObjectTemplate.setMaxSpeed 0/60/0
 ObjectTemplate.setAcceleration 0/-60/0
 ObjectTemplate.setInputToPitch c_PIPitch
 ObjectTemplate.setAutomaticReset 1
@@ -189,7 +190,7 @@ ObjectTemplate.setFlapLift 5
 rem *** Imperial_LandingCraftBodyWingVertical ***
 ObjectTemplate.create Wing Imperial_LandingCraftBodyWingVertical
 ObjectTemplate.setAutomaticReset 1
-ObjectTemplate.setWingLift 5
+ObjectTemplate.setWingLift 2
 ObjectTemplate.setFlapLift 0
 
 rem ---------------- Floaters ----------------

@@ -43,6 +43,11 @@ ObjectTemplate.addVehicleType TurboLaser -1 2 0
 ObjectTemplate.addVehicleType TurboLaserBattery -1 2 0
 ObjectTemplate.addVehicleType X-Wing -1 2 0
 ObjectTemplate.addVehicleType YT1300 -1 2 0
+ObjectTemplate.addVehicleType MIAU -1 2 0
+ObjectTemplate.addVehicleType T-3B -1 2 0
+ObjectTemplate.addVehicleType Firehawke -1 2 0
+ObjectTemplate.addVehicleType T-3BA -1 2 0
+ObjectTemplate.addVehicleType DTAP -1 2 0
 ObjectTemplate.setHealth -1 4.0 0
 ObjectTemplate.workOnSoldiers 1
 ObjectTemplate.workOnVehicles 1

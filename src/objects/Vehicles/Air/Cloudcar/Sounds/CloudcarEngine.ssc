@@ -206,16 +206,15 @@ beginEffect
 	param -1	
 endEffect
 
-###############
-### Cockpit ###
-###############
+#################
+### Cockpit1L ###
+#################
 
-load @ROOT/Sound/@RTD/cloudcar-cockpit.wav
+load @ROOT/Sound/@RTD/cloudcar-cockpit-l.wav
 loop
-stereo
 minDistance 1
-relativePosition -1.7/0.08/-0.08
-volume 0.1
+relativePosition -1.9/0.08/-0.08
+volume 0.2
 priority 6
 *** Engine start ***
 beginEffect
@@ -250,12 +249,101 @@ beginEffect
 	param -1	
 endEffect
 
-load @ROOT/Sound/@RTD/cloudcar-cockpit.wav
+#################
+### Cockpit1R ###
+#################
+
+load @ROOT/Sound/@RTD/cloudcar-cockpit-r.wav
 loop
-stereo
 minDistance 1
-relativePosition 1.7/0.08/-0.08
-volume 0.1
+relativePosition -1.5/0.08/-0.08
+volume 0.2
+priority 6
+*** Engine start ***
+beginEffect
+	controlDestination Volume
+	controlSource Time
+	envelope Ramp
+	param 0.4
+	param 1.2
+	param 0
+	param 1
+endEffect
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 1
+	param 1
+	param 1
+	param -1	
+endEffect
+
+*** Engine stop ***
+beginEffect
+	controlDestination Volume
+	controlSource TimeRelease
+	envelope Ramp
+	param 0
+	param 0.2
+	param 1
+	param -1	
+endEffect
+
+#################
+### Cockpit2L ###
+#################
+
+load @ROOT/Sound/@RTD/cloudcar-cockpit-l.wav
+loop
+minDistance 1
+relativePosition 1.9/0.08/-0.08
+volume 0.2
+priority 6
+*** Engine start ***
+beginEffect
+	controlDestination Volume
+	controlSource Time
+	envelope Ramp
+	param 0.4
+	param 1.2
+	param 0
+	param 1
+endEffect
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 1
+	param 1
+	param 1
+	param -1	
+endEffect
+
+*** Engine stop ***
+beginEffect
+	controlDestination Volume
+	controlSource TimeRelease
+	envelope Ramp
+	param 0
+	param 0.2
+	param 1
+	param -1	
+endEffect
+
+#################
+### Cockpit2R ###
+#################
+
+load @ROOT/Sound/@RTD/cloudcar-cockpit-r.wav
+loop
+minDistance 1
+relativePosition 1.5/0.08/-0.08
+volume 0.2
 priority 6
 *** Engine start ***
 beginEffect

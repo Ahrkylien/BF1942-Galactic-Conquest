@@ -31,6 +31,16 @@ MaterialManager.defGroup 821
 MaterialManager.damageMod 5
 MaterialManager.setEffectTemplate LargeRedNS_Expl
 
+MaterialManager.attGroup 706
+MaterialManager.defGroup 831
+MaterialManager.damageMod 10
+MaterialManager.setEffectTemplate LargeRedNS_Expl
+
+MaterialManager.attGroup 706
+MaterialManager.defGroup 832
+MaterialManager.damageMod 10
+MaterialManager.setEffectTemplate LargeRedNS_Expl
+
 rem * *************************************************
 rem *		Infantry target
 rem * *************************************************

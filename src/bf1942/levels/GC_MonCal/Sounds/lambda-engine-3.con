@@ -1,0 +1,5 @@
+rem *** lambda-engine-3 ***
+ObjectTemplate.create SimpleObject lambda-engine-3
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.triggerRadius 100
+ObjectTemplate.loadSoundScript lambda-engine-3.ssc

@@ -16,14 +16,23 @@ ObjectTemplate.speedMod 1
 ObjectTemplate.hitpoints 600
 ObjectTemplate.maxhitpoints 600
 ObjectTemplate.material 811
-ObjectTemplate.criticalDamage 40
-ObjectTemplate.hpLostWhileCriticalDamage 4
+ObjectTemplate.criticalDamage 80
+ObjectTemplate.hpLostWhileCriticalDamage 8
 ObjectTemplate.explosionForceMod 10
-ObjectTemplate.hpLostWhileUpSideDown 40
-ObjectTemplate.hpLostWhileDamageFromWater 40
-ObjectTemplate.addArmorEffect 80 em_TieBomberDamage -1.9/0/-1.5
-ObjectTemplate.addArmorEffect 80 em_PlaneDamage -1.5/0/-1.5
-ObjectTemplate.addArmorEffect 20 e_TieBomberFire -1.7/0/-1.5
+ObjectTemplate.hpLostWhileUpSideDown 60
+ObjectTemplate.hpLostWhileDamageFromWater 60
+
+ObjectTemplate.addArmorEffect 320 em_PlaneDamage 3/-0.1/-7
+ObjectTemplate.addArmorEffect 320 em_PlaneDamage -3/-0.1/-7
+
+ObjectTemplate.addArmorEffect 320 em_B17Damage 3/-0.1/-7
+ObjectTemplate.addArmorEffect 320 em_PlaneDamage -3/-0.1/-7
+
+ObjectTemplate.addArmorEffect 160 em_B17Damage 3/-0.1/-7
+ObjectTemplate.addArmorEffect 160 em_B17Damage -3/-0.1/-7
+
+ObjectTemplate.addArmorEffect 80 e_e_B17Fire 0/-0.1/-7
+
 ObjectTemplate.addArmorEffect 0 e_ExplGas 0/0/0
 ObjectTemplate.addArmorEffect 0 e_ScrapMetal_Lambda 0/0/0
 ObjectTemplate.addArmorEffect -1 WaterWaterExplosion 0/0/0
@@ -75,11 +84,6 @@ ObjectTemplate.setPosition -3.5/-2.5/11
 ObjectTemplate.addTemplate LambdaEntry
 ObjectTemplate.setPosition 3.5/-2.5/11
 ObjectTemplate.addTemplate LambdaFrontGun
-ObjectTemplate.setPosition -6.8/0.13/9.8
-ObjectTemplate.setRotation 1.6/0/0
-ObjectTemplate.addTemplate LambdaFrontGun
-ObjectTemplate.setPosition 7.1/0.13/9.8
-ObjectTemplate.setRotation -1.6/0/0
 ObjectTemplate.addTemplate LambdaDoorPCO
 ObjectTemplate.setPosition 0/0/0
 ObjectTemplate.addTemplate LambdaBackGunPCO
@@ -128,7 +132,7 @@ ObjectTemplate.create PlayerControlObject LambdaDoorPCO
 ObjectTemplate.setNetworkableInfo LambdaBodyInfo
 rem -------------------------------------
 ObjectTemplate.addTemplate LambdaPassengerEntry
-ObjectTemplate.setPosition -2.5/2/-0.8
+ObjectTemplate.setPosition 0/2/-2
 ObjectTemplate.addTemplate LambdaPassengerCamera
 ObjectTemplate.setPosition -2.5/2.5/-0.8
 ObjectTemplate.setRotation 90/0/0
@@ -229,7 +233,7 @@ ObjectTemplate.addTemplate LambdaSonar
 ObjectTemplate.addTemplate LambdaBackGunBundle
 ObjectTemplate.setPosition 0/2.6/-6
 ObjectTemplate.addTemplate LambdaPassengerEntry
-ObjectTemplate.setPosition 1.5/2/-4
+ObjectTemplate.setPosition 0/2/-2
 ObjectTemplate.addTemplate LambdaPassengerSeat
 ObjectTemplate.setPosition 2.5/2.5/-3.5
 ObjectTemplate.setRotation -90/0/0
@@ -271,7 +275,7 @@ ObjectTemplate.create PlayerControlObject LambdaPCO4
 ObjectTemplate.setNetworkableInfo LambdaBodyInfo
 rem -------------------------------------
 ObjectTemplate.addTemplate LambdaPassengerEntry
-ObjectTemplate.setPosition 2.5/2/-0.8
+ObjectTemplate.setPosition 0/2/-2
 ObjectTemplate.addTemplate LambdaPassengerCamera
 ObjectTemplate.setPosition 2.5/2.5/-0.8
 ObjectTemplate.setRotation -90/0/0
@@ -293,7 +297,7 @@ ObjectTemplate.create PlayerControlObject LambdaPCO5
 ObjectTemplate.setNetworkableInfo LambdaBodyInfo
 rem -------------------------------------
 ObjectTemplate.addTemplate LambdaPassengerEntry
-ObjectTemplate.setPosition -2.5/2/-2.2
+ObjectTemplate.setPosition 0/2/-2
 ObjectTemplate.addTemplate LambdaPassengerCamera
 ObjectTemplate.setPosition -2.5/2.5/-2.2
 ObjectTemplate.setRotation 90/0/0
@@ -315,7 +319,7 @@ ObjectTemplate.create PlayerControlObject LambdaPCO6
 ObjectTemplate.setNetworkableInfo LambdaBodyInfo
 rem -------------------------------------
 ObjectTemplate.addTemplate LambdaPassengerEntry
-ObjectTemplate.setPosition 2.5/2/-2.2
+ObjectTemplate.setPosition 0/2/-2
 ObjectTemplate.addTemplate LambdaPassengerCamera
 ObjectTemplate.setPosition 2.5/2.5/-2.2
 ObjectTemplate.setRotation -90/0/0
@@ -543,14 +547,23 @@ ObjectTemplate.speedMod 1
 ObjectTemplate.hitpoints 400
 ObjectTemplate.maxhitpoints 400
 ObjectTemplate.material 811
-ObjectTemplate.criticalDamage 20
-ObjectTemplate.hpLostWhileCriticalDamage 2
+ObjectTemplate.criticalDamage 55
+ObjectTemplate.hpLostWhileCriticalDamage 5
 ObjectTemplate.explosionForceMod 10
-ObjectTemplate.hpLostWhileUpSideDown 20
-ObjectTemplate.hpLostWhileDamageFromWater 20
-ObjectTemplate.addArmorEffect 40 em_TieBomberDamage -1.9/0/-1.5
-ObjectTemplate.addArmorEffect 40 em_PlaneDamage -1.5/0/-1.5
-ObjectTemplate.addArmorEffect 20 e_TieBomberFire -1.7/0/-1.5
+ObjectTemplate.hpLostWhileUpSideDown 40
+ObjectTemplate.hpLostWhileDamageFromWater 40
+
+ObjectTemplate.addArmorEffect 210 em_PlaneDamage 3/-0.1/-7
+ObjectTemplate.addArmorEffect 210 em_PlaneDamage -3/-0.1/-7
+
+ObjectTemplate.addArmorEffect 160 em_B17Damage 3/-0.1/-7
+ObjectTemplate.addArmorEffect 160 em_PlaneDamage -3/-0.1/-7
+
+ObjectTemplate.addArmorEffect 110 em_B17Damage 3/-0.1/-7
+ObjectTemplate.addArmorEffect 110 em_B17Damage -3/-0.1/-7
+
+ObjectTemplate.addArmorEffect 55 e_e_B17Fire 0/-0.1/-7
+
 ObjectTemplate.addArmorEffect 0 e_ExplGas 0/0/0
 ObjectTemplate.addArmorEffect 0 e_ScrapMetal_Lambda 0/0/0
 ObjectTemplate.addArmorEffect -1 WaterWaterExplosion 0/0/0
@@ -602,11 +615,6 @@ ObjectTemplate.setPosition -3.5/-2.5/11
 ObjectTemplate.addTemplate LambdaEntry
 ObjectTemplate.setPosition 3.5/-2.5/11
 ObjectTemplate.addTemplate LambdaFrontGun
-ObjectTemplate.setPosition -6.8/0.13/9.8
-ObjectTemplate.setRotation 1.6/0/0
-ObjectTemplate.addTemplate LambdaFrontGun
-ObjectTemplate.setPosition 7.1/0.13/9.8
-ObjectTemplate.setRotation -1.6/0/0
 ObjectTemplate.addTemplate LambdaDoorPCO
 ObjectTemplate.setPosition 0/0/0
 ObjectTemplate.addTemplate LambdaBackGunPCO

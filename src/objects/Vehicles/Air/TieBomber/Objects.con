@@ -74,8 +74,6 @@ ObjectTemplate.addTemplate TieBombRack
 ObjectTemplate.setPosition 0/-2/0
 ObjectTemplate.setRotation 0/90/0
 ObjectTemplate.addTemplate TieBomberLaser
-ObjectTemplate.setPosition -0.7/-1.85/0.2
-
 ObjectTemplate.addTemplate TieBomberVTOLEngineRack
 ObjectTemplate.setPosition 4.5/1.5/4.5
 ObjectTemplate.setRotation 0/-90/0
@@ -156,6 +154,22 @@ ObjectTemplate.setInputToYaw c_PIMouseLookX
 ObjectTemplate.setInputToPitch c_PIMouseLookY
 ObjectTemplate.toggleMouseLook 1
 ObjectTemplate.OutsideHudOffset 0/0/1
+
+beginrem
+rem *** BombCam_View ***
+ObjectTemplate.create RotationalBundle Bomb_Cam_View 
+ObjectTemplate.setNetworkableInfo tiebomber_body_info
+ObjectTemplate.setMinRotation 0/0/0
+ObjectTemplate.setMaxRotation 0/80/0
+ObjectTemplate.setMaxSpeed 100/800/0
+ObjectTemplate.setAcceleration 200/2000/0
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setInputToYaw c_PIAltFire
+ObjectTemplate.setInputToPitch c_PIAltFire
+ObjectTemplate.setInputToRoll c_PIAltFire
+ObjectTemplate.AddTemplate tiebomberCamera
+ObjectTemplate.setRotation 0/0/0
+endrem
 
 rem *** tiebomberEntry ***
 ObjectTemplate.create EntryPoint tiebomberEntry

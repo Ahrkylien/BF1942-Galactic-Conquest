@@ -28,7 +28,17 @@ MaterialManager.setEffectTemplate LargeBlueNS_Expl
 
 MaterialManager.attGroup 550
 MaterialManager.defGroup 821
-MaterialManager.damageMod 5
+MaterialManager.damageMod 10
+MaterialManager.setEffectTemplate LargeBlueNS_Expl
+
+MaterialManager.attGroup 550
+MaterialManager.defGroup 831
+MaterialManager.damageMod 15
+MaterialManager.setEffectTemplate LargeBlueNS_Expl
+
+MaterialManager.attGroup 550
+MaterialManager.defGroup 832
+MaterialManager.damageMod 20
 MaterialManager.setEffectTemplate LargeBlueNS_Expl
 
 rem * *************************************************

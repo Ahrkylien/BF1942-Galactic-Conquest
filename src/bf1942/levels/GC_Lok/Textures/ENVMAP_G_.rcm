@@ -1,0 +1,7 @@
+[CubeMap]
+PositiveX = bf1942\levels\GC_Lok\Textures\nenv_GC_Lok_04.dds
+NegativeX = bf1942\levels\GC_Lok\Textures\nenv_GC_Lok_02.dds
+PositiveY = bf1942\levels\GC_Lok\Textures\nenv_GC_Lok_05.dds
+NegativeY = bf1942\levels\GC_Lok\Textures\nenv_GC_Lok_06.dds
+PositiveZ = bf1942\levels\GC_Lok\Textures\nenv_GC_Lok_03.dds
+NegativeZ = bf1942\levels\GC_Lok\Textures\nenv_GC_Lok_01.dds

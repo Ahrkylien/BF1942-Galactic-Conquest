@@ -279,6 +279,27 @@ ObjectTemplate.ForceOnExplosion 20
 ObjectTemplate.explodeNearEnemyDistance 6.5
 ObjectTemplate.ProximityFusePrimer 0.01
 
+rem *** HeavyBlasterProjectileBlueS ***
+ObjectTemplate.create Projectile HeavyBlasterProjectileBlueS
+ObjectTemplate.geometry projectile_m1
+ObjectTemplate.timeToLive CRD_NONE/20/0/0
+rem ObjectTemplate.addTemplate e_blaster_blue
+ObjectTemplate.addTemplate e_projectileBlaster
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.gravityModifier 1
+ObjectTemplate.hasCollisionEffect 1
+ObjectTemplate.hasOnTimeEffect 1
+ObjectTemplate.invisibleAtEndEffect 1
+ObjectTemplate.dieAfterColl 1
+ObjectTemplate.stopAtEndEffect 1
+ObjectTemplate.material 713
+ObjectTemplate.material2 714
+ObjectTemplate.damageType 1
+ObjectTemplate.radius 4
+ObjectTemplate.ForceOnExplosion 15
+ObjectTemplate.explodeNearEnemyDistance 6.5
+ObjectTemplate.ProximityFusePrimer 0.01
+
 ObjectTemplate.create Projectile AA_Allies_Projectile
 ObjectTemplate.geometry tracklight_M1
 ObjectTemplate.timeToLive CRD_UNIFORM/0.8/1.4/0

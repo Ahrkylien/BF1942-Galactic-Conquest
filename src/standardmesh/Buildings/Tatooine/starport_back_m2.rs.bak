@@ -1,0 +1,14 @@
+subshader "starport_back_m2_Material0" "StandardMesh/Default"
+{
+	lighting true;
+	materialDiffuse 0.952941 0.811765 0.592157;
+	lightingSpecular false;
+	texture "texture/tat_wall_stuco_door";
+}
+subshader "starport_back_m2_Material1" "StandardMesh/Default"
+{
+	lighting true;
+	materialDiffuse 0.972549 0.941177 0.843137;
+	lightingSpecular false;
+	texture "texture/tat_wall_lstuco_metal";
+}

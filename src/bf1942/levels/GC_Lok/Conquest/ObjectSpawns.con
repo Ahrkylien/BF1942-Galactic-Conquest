@@ -1,0 +1,274 @@
+rem ObjectSpawns.con created by Battlecraft 1942
+rem (\Program Files\Battlefield 1942\Mods\GCMOD\bf1942\levels\GC_Lok/conquest/ObjectSpawns.con)
+
+rem ----------------------------------------- 
+rem ---  Epsilon_Spawner  ---
+rem ----------------------------------------- 
+Object.create Epsilon_Spawner
+Object.absolutePosition 1071.78/94.06/272.25
+Object.rotation 0.00/0.00/0.00
+Object.setOSId 2
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  X_Wing_Spawner  ---
+rem ----------------------------------------- 
+Object.create X_Wing_Spawner
+Object.absolutePosition 1011.38/90.47/268.72
+Object.rotation 0.00/0.00/0.00
+Object.setOSId 2
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  Speederbike_Spawner  ---
+rem ----------------------------------------- 
+Object.create Speederbike_Spawner
+Object.absolutePosition 960.80/91.09/294.72
+Object.rotation 15.05/0.00/0.00
+Object.setOSId 2
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  Turret  ---
+rem ----------------------------------------- 
+Object.create Turret
+Object.absolutePosition 828.38/91.89/1208.01
+Object.rotation 90.00/0.00/0.00
+Object.setOSId 3
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Turret  ---
+rem ----------------------------------------- 
+Object.create Turret
+Object.absolutePosition 1249.93/91.70/1226.26
+Object.rotation 0.00/0.00/0.00
+Object.setOSId 4
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  ATST_Spawner  ---
+rem ----------------------------------------- 
+Object.create ATST_Spawner
+Object.absolutePosition 937.83/107.15/1423.71
+Object.rotation 179.96/0.00/0.00
+Object.setOSId 5
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Speederbike_Spawner  ---
+rem ----------------------------------------- 
+Object.create Speederbike_Spawner
+Object.absolutePosition 798.61/93.24/1213.82
+Object.rotation 89.62/0.00/0.00
+Object.setOSId 3
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Speederbike_Spawner  ---
+rem ----------------------------------------- 
+Object.create Speederbike_Spawner
+Object.absolutePosition 1213.05/91.23/1203.25
+Object.rotation -31.77/0.00/0.00
+Object.setOSId 4
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Speederbike_Spawner  ---
+rem ----------------------------------------- 
+Object.create Speederbike_Spawner
+Object.absolutePosition 1006.96/107.56/1426.69
+Object.rotation -176.85/0.00/0.00
+Object.setOSId 5
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Speederbike_Spawner  ---
+rem ----------------------------------------- 
+Object.create Speederbike_Spawner
+Object.absolutePosition 953.93/129.90/1689.48
+Object.rotation -179.61/0.00/0.00
+Object.setOSId 6
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  ATST_Spawner  ---
+rem ----------------------------------------- 
+Object.create ATST_Spawner
+Object.absolutePosition 1332.65/137.93/1586.77
+Object.rotation -90.53/0.00/0.00
+Object.setOSId 1
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Speederbike_Spawner  ---
+rem ----------------------------------------- 
+Object.create Speederbike_Spawner
+Object.absolutePosition 1344.00/139.53/1595.84
+Object.rotation -90.57/0.00/0.00
+Object.setOSId 1
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  TIE_Bomber_Spawner  ---
+rem ----------------------------------------- 
+Object.create TIE_Bomber_Spawner
+Object.absolutePosition 999.91/90.47/251.39
+Object.rotation 0.00/0.00/0.00
+Object.setOSId 2
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  TIE_Interceptor_Spawner  ---
+rem ----------------------------------------- 
+Object.create TIE_Interceptor_Spawner
+Object.absolutePosition 1021.01/90.47/248.09
+Object.rotation 0.00/0.00/0.00
+Object.setOSId 2
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  Allied_Ammo_Spawn  ---
+rem ----------------------------------------- 
+Object.create Allied_Ammo_Spawn
+Object.absolutePosition 1046.59/115.87/259.89
+Object.rotation 0.00/0.00/0.00
+Object.setOSId 2
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  Probe_Droid_Spawner  ---
+rem ----------------------------------------- 
+Object.create Probe_Droid_Spawner
+Object.absolutePosition 1411.51/138.62/1585.86
+Object.rotation -269.24/0.00/0.00
+Object.setOSId 1
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Bacta_Tank_Spawner  ---
+rem ----------------------------------------- 
+Object.create Bacta_Tank_Spawner
+Object.absolutePosition 938.02/107.34/1443.75
+Object.rotation -104.68/0.00/0.00
+Object.setOSId 5
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Bacta_Tank_Spawner  ---
+rem ----------------------------------------- 
+Object.create Bacta_Tank_Spawner
+Object.absolutePosition 1005.72/107.38/1444.11
+Object.rotation -106.60/0.00/0.00
+Object.setOSId 5
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Imperial_Transport_Here  ---
+rem ----------------------------------------- 
+Object.create Imperial_Transport_Here
+Object.absolutePosition 954.83/129.53/1636.08
+Object.rotation 0.00/0.00/0.00
+Object.setOSId 6
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Imperial_Transport_Here  ---
+rem ----------------------------------------- 
+Object.create Imperial_Transport_Here
+Object.absolutePosition 1197.36/90.40/1208.20
+Object.rotation 21.88/0.00/0.00
+Object.setOSId 4
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Allied_Ammo_Spawn  ---
+rem ----------------------------------------- 
+Object.create Allied_Ammo_Spawn
+Object.absolutePosition 978.81/113.54/260.03
+Object.rotation 0.00/0.00/0.00
+Object.setOSId 2
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  Allied_Ammo_Spawn  ---
+rem ----------------------------------------- 
+Object.create Allied_Ammo_Spawn
+Object.absolutePosition 1012.55/115.72/261.06
+Object.rotation 0.00/0.00/0.00
+Object.setOSId 2
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  Starport_Turbolaser_Spawner  ---
+rem ----------------------------------------- 
+Object.create Starport_Turbolaser_Spawner
+Object.absolutePosition 1012.56/90.46/306.89
+Object.rotation 0.00/0.00/0.00
+Object.setOSId 2
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  Ewebstationary  ---
+rem ----------------------------------------- 
+Object.create Ewebstationary
+Object.absolutePosition 930.38/107.76/1376.93
+Object.rotation 225.00/0.00/0.00
+Object.setOSId 5
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Turret  ---
+rem ----------------------------------------- 
+Object.create Turret
+Object.absolutePosition 1319.70/143.34/1603.36
+Object.rotation 270.00/0.00/0.00
+Object.setOSId 1
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Turret  ---
+rem ----------------------------------------- 
+Object.create Turret
+Object.absolutePosition 1319.06/143.71/1569.47
+Object.rotation 270.00/0.00/0.00
+Object.setOSId 1
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Turret  ---
+rem ----------------------------------------- 
+Object.create Turret
+Object.absolutePosition 937.21/129.67/1678.00
+Object.rotation 270.00/0.00/0.00
+Object.setOSId 6
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Tank  ---
+rem ----------------------------------------- 
+Object.create Tank
+Object.absolutePosition 813.41/92.39/1249.00
+Object.rotation 90.00/0.00/0.00
+Object.setOSId 3
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Tank  ---
+rem ----------------------------------------- 
+Object.create Tank
+Object.absolutePosition 951.90/90.42/286.59
+Object.rotation 0.00/0.00/0.00
+Object.setOSId 2
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  Ewebstationary  ---
+rem ----------------------------------------- 
+Object.create Ewebstationary
+Object.absolutePosition 1064.16/109.34/1367.86
+Object.rotation 135.00/0.00/0.00
+Object.setOSId 5
+Object.setTeam 1
+
+rem EndOfFile

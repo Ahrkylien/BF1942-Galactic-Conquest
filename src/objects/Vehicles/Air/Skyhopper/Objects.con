@@ -136,7 +136,7 @@ ObjectTemplate.setPosition 0.2/0.6/0.6
 ObjectTemplate.addTemplate skyhopperSeat
 ObjectTemplate.setPosition 0.2/0/-0.3
 rem -------------------------------------
-ObjectTemplate.setSoldierExitLocation 1.5/-4/0 0/0/0
+ObjectTemplate.setSoldierExitLocation 1.8/.5/0 0/0/0
 ObjectTemplate.setVehicleIcon "Vehicle/Icon_skyhopper.dds"
 ObjectTemplate.setVehicleIconPos 71/80
 ObjectTemplate.setNumberOfWeaponIcons 0

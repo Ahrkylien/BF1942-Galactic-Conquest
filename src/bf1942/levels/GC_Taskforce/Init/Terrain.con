@@ -2,16 +2,16 @@ rem
 rem **** Initialize Terrain *****
 rem
 GeometryTemplate.create PatchTerrain terrainGeometry
-GeometryTemplate.file bf1942\levels\GC_Tanaab\Heightmap
-GeometryTemplate.materialMap bf1942\levels\GC_Tanaab\Materialmap
+GeometryTemplate.file bf1942\levels\GC_Taskforce\Heightmap
+GeometryTemplate.materialMap bf1942\levels\GC_Taskforce\Materialmap
 GeometryTemplate.materialSize 1024
 GeometryTemplate.targetTriCount 5000
 GeometryTemplate.worldSize 4096
 GeometryTemplate.yScale 1
-GeometryTemplate.texBaseName bf1942\levels\GC_Tanaab\Textures\Tx
+GeometryTemplate.texBaseName bf1942\levels\GC_Taskforce\Textures\Tx
 GeometryTemplate.texOffsetX 0
 GeometryTemplate.texOffsetY 0
-GeometryTemplate.detailTexName bf1942\levels\GC_Tanaab\Textures\Detail
+GeometryTemplate.detailTexName bf1942\levels\GC_Taskforce\Textures\Detail
 GeometryTemplate.waterLevel 35
 GeometryTemplate.seaFloorLevel 30
 GeometryTemplate.lodDistance 5

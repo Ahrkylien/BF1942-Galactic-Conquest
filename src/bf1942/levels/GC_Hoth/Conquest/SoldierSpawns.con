@@ -68,7 +68,7 @@ rem
 rem ***  ***
 rem
 Object.create imperialspawn2
-Object.absolutePosition 1328.3/26.2537/1672.32
+Object.absolutePosition 1294.51/23.4336/1711.35
 Object.rotation 42.5/0/0
 rem
 rem ***  ***
@@ -80,13 +80,13 @@ rem
 rem ***  ***
 rem
 Object.create imperialspawn4
-Object.absolutePosition 1316.37/16.2719/1842.13
+Object.absolutePosition 1356.63/16.1345/1797.6
 Object.rotation -151.75/0/0
 rem
 rem ***  ***
 rem
 Object.create imperialspawn5
-Object.absolutePosition 1281.35/17.3183/1845.42
+Object.absolutePosition 1340.26/17.2607/1811.32
 Object.rotation -161.75/0/0
 rem
 rem ***  ***
@@ -104,13 +104,13 @@ rem
 rem ***  ***
 rem
 Object.create imperialspawn8
-Object.absolutePosition 1326.1/16.7406/1836.34
+Object.absolutePosition 1356.58/16.684/1773.33
 Object.rotation -151.25/0/0
 rem
 rem ***  ***
 rem
 Object.create imperialspawn9
-Object.absolutePosition 1324.76/45.7156/1687.37
+Object.absolutePosition 1300.87/23.0573/1713.91
 Object.rotation -228/-1/-1
 rem
 rem ***  ***

@@ -625,32 +625,6 @@ Object.Rotation -139/0/0
 rem
 rem ***  ***
 rem
-beginrem
-Object.create echo_pan2
-Object.absolutePosition 357.117/4.55507/329.055
-Object.Rotation 41/0/0
-rem
-rem ***  ***
-rem
-Object.create echo_pan2
-Object.absolutePosition 358.163/4.57333/338.881
-Object.Rotation -49/0/0
-rem
-rem ***  ***
-rem
-Object.create echo_pan2
-Object.absolutePosition 350.515/5.41464/332.069
-Object.Rotation 41/0/0
-rem
-rem ***  ***
-rem
-Object.create echo_pan2
-Object.absolutePosition 342.792/4.62979/338.701
-Object.Rotation -139/0/0
-endrem
-rem
-rem ***  ***
-rem
 Object.create echo_pan3
 Object.absolutePosition 350.536/4.61574/332.052
 Object.Rotation 41/0/0
@@ -1410,3 +1384,15 @@ rem
 Object.create e_scrapmetalsmoke
 Object.absolutePosition 591.044/16.137/737.342
 Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create spy_turret_base_m1
+Object.absolutePosition 589.117/15.942/544.515
+Object.Rotation 61/0/0
+rem
+rem ***  ***
+rem
+Object.create spy_turret_base_m1
+Object.absolutePosition 1134.51/15.7947/587.273
+Object.Rotation -77/0/0

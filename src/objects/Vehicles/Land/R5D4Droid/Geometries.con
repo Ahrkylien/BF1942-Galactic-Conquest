@@ -22,8 +22,3 @@ GeometryTemplate.file landmine_m1
 
 GeometryTemplate.create StandardMesh Wreck_R5D41_M1
 GeometryTemplate.file Vehicles/R5/Wreck_R5D41
-
-
-
-
-

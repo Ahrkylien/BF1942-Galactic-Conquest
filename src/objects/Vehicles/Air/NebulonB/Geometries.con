@@ -10,7 +10,7 @@ GeometryTemplate.setLodDistance 5 1800
 
 
 GeometryTemplate.create StandardMesh NebulonBlow
-GeometryTemplate.file Vehicles/NebulonB/NebulonB_hull
+GeometryTemplate.file Vehicles/NebulonB/nebulonb_hull_m2
 GeometryTemplate.setLodDistance 0 0
 GeometryTemplate.setLodDistance 1 100
 GeometryTemplate.setLodDistance 2 200

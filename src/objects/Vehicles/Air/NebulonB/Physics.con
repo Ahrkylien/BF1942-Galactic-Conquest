@@ -12,10 +12,10 @@ ObjectTemplate.setAutomaticPitchStabilization 1
 ObjectTemplate.setInputToRoll c_PIThrottle
 ObjectTemplate.setAutomaticReset 1
 ObjectTemplate.setEngineType c_ETPlane
-ObjectTemplate.setTorque 32
-ObjectTemplate.setDifferential 30
+ObjectTemplate.setTorque 2
+ObjectTemplate.setDifferential 1
 
-rem *** TurnLeftRight Engine ***
+REM *** TurnLeftRight Engine ***
 ObjectTemplate.create Engine NebulonBTREngine
 ObjectTemplate.setNetworkableInfo NebulonBEngineInfo
 ObjectTemplate.setMinRotation 0/0/-4000
@@ -30,6 +30,22 @@ ObjectTemplate.setEngineType c_ETPlane
 ObjectTemplate.setTorque 45
 ObjectTemplate.setDifferential 1
 
+
+*** RUNNER_Rudder1 ***
+ObjectTemplate.create Wing NebulonB_Rudder1
+ObjectTemplate.setNetworkableInfo NebulonBRudderInfo
+ObjectTemplate.setMinRotation 0/-35/0
+ObjectTemplate.setMaxRotation 0/35/0
+ObjectTemplate.setMaxSpeed 0/15/0
+ObjectTemplate.setAcceleration 0/10/0
+ObjectTemplate.setAutomaticPitchStabilization 1
+ObjectTemplate.setAutomaticRollStabilization 1
+ObjectTemplate.setInputToPitch c_PIYaw
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setPositionOffset 0/0/0
+ObjectTemplate.setWingLift 0
+ObjectTemplate.setFlapLift 40
+
 rem *** Virtical Engine ***
 ObjectTemplate.create Engine NebulonBVEngine
 ObjectTemplate.setNetworkableInfo CarrackEngineInfo
@@ -42,8 +58,8 @@ ObjectTemplate.setAutomaticPitchStabilization 1
 ObjectTemplate.setInputToRoll c_PIPitch
 ObjectTemplate.setAutomaticReset 1
 ObjectTemplate.setEngineType c_ETPlane
-ObjectTemplate.setTorque 30
-ObjectTemplate.setDifferential 40
+ObjectTemplate.setTorque 4
+ObjectTemplate.setDifferential 1
 
 rem *** Floater ***
 ObjectTemplate.create FloatingBundle NebulonB_Floater

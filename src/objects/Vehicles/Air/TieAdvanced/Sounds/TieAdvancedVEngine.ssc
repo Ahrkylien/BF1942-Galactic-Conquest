@@ -8,6 +8,7 @@ newPatch
 load @ROOT/Sound/@RTD/tieadvanced-engine.wav
 loop
 minDistance 20
+volume 0.7
 randomStartPitch 0.05/0.05 
 priority 9
 *** Engine start ***

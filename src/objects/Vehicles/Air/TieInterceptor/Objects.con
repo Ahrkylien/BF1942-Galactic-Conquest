@@ -18,14 +18,19 @@ ObjectTemplate.speedMod 1
 ObjectTemplate.hitpoints 80
 ObjectTemplate.maxhitpoints 80
 ObjectTemplate.material 801
-ObjectTemplate.criticalDamage 8
+ObjectTemplate.criticalDamage 16
 ObjectTemplate.hpLostWhileCriticalDamage 0.8
 ObjectTemplate.explosionForceMod 10
 ObjectTemplate.hpLostWhileUpSideDown 8
 ObjectTemplate.hpLostWhileDamageFromWater 8
-ObjectTemplate.addArmorEffect 16 em_TieInterceptorDamage 0/0/0
-ObjectTemplate.addArmorEffect 16 em_PlaneDamage 0/0/0
-ObjectTemplate.addArmorEffect 8 e_TieInterceptorFire 0/0/0
+
+ObjectTemplate.addArmorEffect 48 em_PlaneDamage 0/0/-1.2
+
+ObjectTemplate.addArmorEffect 32 em_StukaDamage 0/0/-1.2
+ObjectTemplate.addArmorEffect 32 em_PlaneDamage 0/0/-1.2
+
+ObjectTemplate.addArmorEffect 16 e_StukaFire 0/0/-1.2
+
 ObjectTemplate.addArmorEffect 0 e_ExplGas 0/0/0
 ObjectTemplate.addArmorEffect 0 e_ScrapMetal_TieInterceptor 0/0/0
 ObjectTemplate.addArmorEffect -1 WaterWaterExplosion 0/0/0
@@ -168,7 +173,7 @@ ObjectTemplate.setAcceleration 5000/-5000/0
 ObjectTemplate.setInputToYaw c_PIMouseLookX
 ObjectTemplate.setInputToPitch c_PIMouseLookY
 ObjectTemplate.toggleMouseLook 1
-ObjectTemplate.OutsideHudOffset 0/0/1.5
+ObjectTemplate.OutsideHudOffset 0/0/2
 
 rem *** TieInterceptorEntry ***
 ObjectTemplate.create EntryPoint TieInterceptorEntry

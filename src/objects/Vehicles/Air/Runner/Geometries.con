@@ -60,7 +60,7 @@ GeometryTemplate.setLodDistance 4 400
 GeometryTemplate.setLodDistance 5 500
 
 GeometryTemplate.create StandardMesh runnerlow
-GeometryTemplate.file Vehicles/runner/runner_hull
+GeometryTemplate.file Vehicles/runner/runner_hull_m2
 GeometryTemplate.hasDynamicShadow 1
 GeometryTemplate.setLodDistance 0 0
 GeometryTemplate.setLodDistance 1 900

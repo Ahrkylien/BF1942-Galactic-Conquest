@@ -6,8 +6,8 @@ ObjectTemplate.saveInSeparateFile 1
 ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.hasResponsePhysics 1
 ObjectTemplate.hasArmor 1
-ObjectTemplate.hitpoints 610
-ObjectTemplate.maxhitpoints 610
+ObjectTemplate.hitpoints 840
+ObjectTemplate.maxhitpoints 840
 ObjectTemplate.material 821
 ObjectTemplate.criticalDamage 35
 ObjectTemplate.hpLostWhileCriticalDamage 4

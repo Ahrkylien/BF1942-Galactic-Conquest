@@ -1,4 +1,4 @@
-subshader "lambda_body_Material0" "StandardMesh/Default"
+subshader "tan_lambda_body_Material0" "StandardMesh/Default"
 {
 	lighting true;
 	lightingSpecular false;
@@ -6,7 +6,7 @@ subshader "lambda_body_Material0" "StandardMesh/Default"
 	texture "texture/vehicles/lambda/lambda";
 }
 
-subshader "lambda_body_Material1" "StandardMesh/Default"
+subshader "tan_lambda_body_Material1" "StandardMesh/Default"
 {
 	lighting true;
 	lightingSpecular false;
@@ -14,7 +14,7 @@ subshader "lambda_body_Material1" "StandardMesh/Default"
 	texture "texture/vehicles/lambda/lambda_int";
 }
 
-subshader "lambda_body_Material2" "StandardMesh/Default"
+subshader "tan_lambda_body_Material2" "StandardMesh/Default"
 {
 	lighting true;
 	lightingSpecular false;

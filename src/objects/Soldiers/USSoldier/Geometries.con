@@ -24,6 +24,18 @@ GeometryTemplate.setLodPercent 3 0.2
 GeometryTemplate.setLodPercent 4 0.1
 GeometryTemplate.setLodPercent 5 0.05
 
+GeometryTemplate.create AnimatedMesh Soldier/3PUSHelm
+GeometryTemplate.setSkin animations/ushelmet.skn
+GeometryTemplate.file ushelmet
+GeometryTemplate.setLodRange 0 0 1 30 2 80
+GeometryTemplate.setLodRange 3 150 4 210 5 230
+GeometryTemplate.setLodPercent 0 1.0
+GeometryTemplate.setLodPercent 1 0.7
+GeometryTemplate.setLodPercent 2 0.3
+GeometryTemplate.setLodPercent 3 0.2
+GeometryTemplate.setLodPercent 4 0.1
+GeometryTemplate.setLodPercent 5 0.05
+
 GeometryTemplate.create AnimatedMesh Soldier/USComplexHead1
 GeometryTemplate.setSkin animations/US1Face.skn
 GeometryTemplate.file us1face

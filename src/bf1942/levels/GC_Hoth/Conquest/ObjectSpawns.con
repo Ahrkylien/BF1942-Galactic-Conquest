@@ -37,8 +37,8 @@ rem
 rem ***  ***
 rem
 Object.create tiebomber-snowspeeder
-Object.absolutePosition 1303.26/17.8969/1833
-Object.rotation -147.75/0/0
+Object.absolutePosition 1341.84/19.1426/1779.77
+Object.rotation -127.75/1/0
 Object.setTeam 1
 rem
 rem ***  ***
@@ -79,7 +79,7 @@ rem
 rem ***  ***
 rem
 Object.create apturretspawner
-Object.absolutePosition 589.025/16.1725/538.727
+Object.absolutePosition 589.544/16.21/525.177
 Object.rotation -1/-1/-1
 Object.setTeam 2
 rem
@@ -107,7 +107,7 @@ rem
 rem ***  ***
 rem
 Object.create milleniumfalconspawner
-Object.absolutePosition 414.811/5.99818/328.944
+Object.absolutePosition 420.359/5.99818/335.196
 Object.rotation 41.75/0/0
 Object.setTeam 2
 rem
@@ -142,21 +142,21 @@ rem
 rem ***  ***
 rem
 Object.create tiefighterspawner
-Object.absolutePosition 1248/17.2548/1828
-Object.rotation -177.5/0/0
+Object.absolutePosition 1314.61/17.2548/1811.92
+Object.rotation -128.5/0/0
 Object.setTeam 1
 rem
 rem ***  ***
 rem
 Object.create turbolaserspawner
-Object.absolutePosition 1461.69/16.0104/1838.23
+Object.absolutePosition 1425.6/15.783/1796.7
 Object.rotation 160/0/0
 Object.setTeam 1
 rem
 rem ***  ***
 rem
 Object.create turbolaserspawner
-Object.absolutePosition 1287.68/16.45/1859.71
+Object.absolutePosition 1325.19/16.2358/1839.53
 Object.rotation -135/0/0
 Object.setTeam 1
 rem
@@ -184,7 +184,7 @@ rem
 rem ***  ***
 rem
 Object.create avturretspawner
-Object.absolutePosition 589.544/16.2133/508.269
+Object.absolutePosition 589.97/15.7778/497.434
 Object.rotation 55/-1/-1
 Object.setTeam 2
 rem
@@ -212,8 +212,8 @@ rem
 rem ***  ***
 rem
 Object.create tiefighterspawner
-Object.absolutePosition 1273.72/17.2645/1832.63
-Object.rotation -151.5/0/0
+Object.absolutePosition 1331.78/17.2549/1800.88
+Object.rotation -133.5/0/0
 Object.setTeam 1
 rem
 rem ***  ***
@@ -236,3 +236,38 @@ Object.create trollyspawn
 Object.absolutePosition 1097.84/15.6/549.118
 Object.rotation 140/0/0
 Object.setOSId 6
+rem
+rem ***  ***
+rem
+Object.create snipertowerspawn
+Object.absolutePosition 589.527/15.9098/544.801
+Object.rotation 76/0/0
+Object.setOSId 4
+rem
+rem ***  ***
+rem
+Object.create snipertowerspawn
+Object.absolutePosition 1134.02/15.7425/587.316
+Object.rotation -67/0/0
+Object.setOSId 4
+rem
+rem ***  ***
+rem
+Object.create weaponspawners
+Object.absolutePosition 318.791/4.20391/340.714
+Object.rotation 0/-104/0
+Object.setOSId 2
+rem
+rem ***  ***
+rem
+Object.create weaponspawners
+Object.absolutePosition 319.939/4.19545/340.552
+Object.rotation 0/-104/0
+Object.setOSId 2
+rem
+rem ***  ***
+rem
+Object.create weaponspawners
+Object.absolutePosition 308.442/4.23374/331.108
+Object.rotation 0/-104/0
+Object.setOSId 2

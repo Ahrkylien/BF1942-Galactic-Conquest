@@ -14,8 +14,8 @@ ObjectTemplate.reloadtime 0.0001
 ObjectTemplate.roundOfFire 3
 ObjectTemplate.addFireArmsPosition 0/0/0 0/0/0
 REM *** DAMAGE OVER DISTANCE ***
-ObjectTemplate.minDamage 0.5
-ObjectTemplate.distToStartLoseDamage 50
+ObjectTemplate.minDamage 0.01
+ObjectTemplate.distToStartLoseDamage 60
 ObjectTemplate.distToMinDamage 200
 ObjectTemplate.AmmoType	8
 

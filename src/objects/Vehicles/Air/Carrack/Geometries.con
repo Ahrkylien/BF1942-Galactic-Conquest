@@ -20,7 +20,7 @@ GeometryTemplate.setLodDistance 4 500
 GeometryTemplate.setLodDistance 5 600
 
 GeometryTemplate.create StandardMesh carracklow
-GeometryTemplate.file Vehicles/lancer/carrack_hull
+GeometryTemplate.file Vehicles/carrack/carrack_hull_m2
 GeometryTemplate.setLodDistance 0 0
 GeometryTemplate.setLodDistance 1 100
 GeometryTemplate.setLodDistance 2 200

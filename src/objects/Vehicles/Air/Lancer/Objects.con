@@ -5,16 +5,16 @@ ObjectTemplate.saveInSeparateFile 1
 ObjectTemplate.hasMobilePhysics 1
 ObjectTemplate.hasDynamicShadow 1
 ObjectTemplate.inertiaModifier 80000/5/80000
-ObjectTemplate.drag 5
-ObjectTemplate.mass 16000
+ObjectTemplate.drag 8
+ObjectTemplate.mass 250000
 ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.hasResponsePhysics 1
 ObjectTemplate.explosionRadius 15
 ObjectTemplate.explosionDamage 10
 ObjectTemplate.hasArmor 1
 ObjectTemplate.speedMod .1
-ObjectTemplate.hitpoints 1500
-ObjectTemplate.maxhitpoints 1500
+ObjectTemplate.hitpoints 2200
+ObjectTemplate.maxhitpoints 2200
 ObjectTemplate.material 821
 ObjectTemplate.criticalDamage 120
 ObjectTemplate.hpLostWhileCriticalDamage 12
@@ -63,7 +63,7 @@ ObjectTemplate.lodSelector LancerLodSelector
 
 rem *** LancerComplex ***
 ObjectTemplate.create Bundle LancerComplex
-ObjectTemplate.setNetworkableInfo Lancer_body_info
+ObjectTemplate.setNetworkableInfo Lancer_Body_Info
 ObjectTemplate.loadSoundScript Sounds/capenginelancer.ssc
 ObjectTemplate.geometry lancerbody
 ObjectTemplate.hasMobilePhysics 1
@@ -97,12 +97,11 @@ ObjectTemplate.addTemplate LancerMainEngine
 ObjectTemplate.setPosition 0/0/0
 ObjectTemplate.addTemplate LancerMainEngine
 ObjectTemplate.setPosition 10/0/0
-ObjectTemplate.addTemplate LancerTREngine
-ObjectTemplate.setPosition 0/0/50
-ObjectTemplate.setRotation 90/0/0
-ObjectTemplate.addTemplate LancerTREngine
-ObjectTemplate.setPosition 0/0/-50
-ObjectTemplate.setRotation -90/0/0
+
+ObjectTemplate.addTemplate Lancer_Rudder1
+ObjectTemplate.setPosition 0/-5/-45
+ObjectTemplate.setRotation 0/0/-90
+
 ObjectTemplate.addTemplate LancerVEngine
 ObjectTemplate.setPosition 0/0/0
 ObjectTemplate.setRotation 0/270/0
@@ -126,21 +125,6 @@ ObjectTemplate.addTemplate Lancer_Turret_PCO3
 ObjectTemplate.addTemplate Lancer_Turret_PCO4
 ObjectTemplate.addTemplate Lancer_Turret_PCO5
 rem ------------------------------------
-ObjectTemplate.addTemplate LancerMainEngine
-ObjectTemplate.setPosition -10/0/0
-ObjectTemplate.addTemplate LancerMainEngine
-ObjectTemplate.setPosition 0/0/0
-ObjectTemplate.addTemplate LancerMainEngine
-ObjectTemplate.setPosition 10/0/0
-ObjectTemplate.addTemplate LancerTREngine
-ObjectTemplate.setPosition 0/0/50
-ObjectTemplate.setRotation 90/0/0
-ObjectTemplate.addTemplate LancerTREngine
-ObjectTemplate.setPosition 0/0/-50
-ObjectTemplate.setRotation -90/0/0
-ObjectTemplate.addTemplate LancerVEngine
-ObjectTemplate.setPosition 0/0/0
-ObjectTemplate.setRotation 0/270/0
 
 rem -----------------------------------------------------------------------------------------------
 rem ------------------------------------------- Create PCOs ------------------------------------
@@ -376,7 +360,7 @@ ObjectTemplate.geometry Lancerlow
 
 rem *** LodSelector ***
 LodSelectorTemplate.create DistCompareSelector2 LancerLodSelector
-LodSelectorTemplate.addLodDistance 2000
+LodSelectorTemplate.addLodDistance 700
 
 rem *** Lancer_Gun_Mesh ***
 ObjectTemplate.create SimpleObject Lancer_Gun_Mesh
@@ -417,16 +401,16 @@ ObjectTemplate.saveInSeparateFile 1
 ObjectTemplate.hasMobilePhysics 1
 ObjectTemplate.hasDynamicShadow 1
 ObjectTemplate.inertiaModifier 80000/5/80000
-ObjectTemplate.drag 5
-ObjectTemplate.mass 16000
+ObjectTemplate.drag 8
+ObjectTemplate.mass 250000
 ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.hasResponsePhysics 1
 ObjectTemplate.explosionRadius 15
 ObjectTemplate.explosionDamage 10
 ObjectTemplate.hasArmor 1
 ObjectTemplate.speedMod 1
-ObjectTemplate.hitpoints 1500
-ObjectTemplate.maxhitpoints 1500
+ObjectTemplate.hitpoints 2200
+ObjectTemplate.maxhitpoints 2200
 ObjectTemplate.material 821
 ObjectTemplate.criticalDamage 120
 ObjectTemplate.hpLostWhileCriticalDamage 12

@@ -1,4 +1,4 @@
-NetworkableInfo.createNewInfo probedroidcontrolInfo
+NetworkableInfo.createNewInfo probedroidcontrolBodyInfo
 NetworkableInfo.setPredictionMode PMLinear
 
 

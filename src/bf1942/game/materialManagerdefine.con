@@ -101,7 +101,7 @@ MaterialManager.materialDefGroup 540
 MaterialManager.materialDamage 10
 
 rem ** RocketProjectile2Direct **
-rem (Proton Torpedo, ExpPack)  
+rem (Proton Torpedo)  
 MaterialManager.material 541
 MaterialManager.materialAttGroup 541
 MaterialManager.materialDefGroup 541
@@ -173,8 +173,7 @@ MaterialManager.materialDamage 10
 
 rem --------------- Generic Weapons 
 
-rem ** Light Laser Direct **  - based on "Browning" 224 -
-rem (EWEB, Probe Droid)
+rem (EWEB?, Probe Droid)
 MaterialManager.material 700
 MaterialManager.materialAttGroup 700
 MaterialManager.materialDefGroup 700
@@ -228,12 +227,44 @@ MaterialManager.materialAttGroup 707
 MaterialManager.materialDefGroup 707
 MaterialManager.materialDamage 30
 
-rem ** CAPITAL Laser Direct ** 
+rem ** BEAM Laser Direct ** 
 rem (Runner, Captialships)
 MaterialManager.material 708
 MaterialManager.materialAttGroup 708
 MaterialManager.materialDefGroup 708
 MaterialManager.materialDamage 15
+
+rem ** Heavy Blaster Direct ** - based on "bazooka" 226 -
+rem (Ground Tanks)
+MaterialManager.material 713
+MaterialManager.materialAttGroup 713
+MaterialManager.materialDefGroup 713
+MaterialManager.materialDamage 2
+
+rem ** Heavy Blaster Splash ** - based on "Browning" 224 - 
+MaterialManager.material 714
+MaterialManager.materialAttGroup 714
+MaterialManager.materialDefGroup 714
+MaterialManager.materialDamage 25
+
+rem ** Artillary Direct ** - based on "bazooka" 226 -
+rem (Ground Tanks)
+MaterialManager.material 711
+MaterialManager.materialAttGroup 711
+MaterialManager.materialDefGroup 711
+MaterialManager.materialDamage 4
+
+rem ** Artillary Splash ** - based on "Browning" 224 - 
+MaterialManager.material 712
+MaterialManager.materialAttGroup 712
+MaterialManager.materialDefGroup 712
+MaterialManager.materialDamage 25
+
+rem ** Lethal Injuection ** - based on "Browning" 224 - 
+MaterialManager.material 750
+MaterialManager.materialAttGroup 750
+MaterialManager.materialDefGroup 750
+MaterialManager.materialDamage 25
 
 rem -------------------- ARMOUR MATERIAL IDS --------------------
 
@@ -267,6 +298,17 @@ MaterialManager.materialAttGroup 821
 MaterialManager.materialDefGroup 821
 MaterialManager.materialDamage 1
 
+rem ** GCMOD Heavy Armour 1 **
+MaterialManager.material 831
+MaterialManager.materialAttGroup 831
+MaterialManager.materialDefGroup 831
+MaterialManager.materialDamage 1
+
+rem ** GCMOD Heavy Armour 2 **
+MaterialManager.material 832
+MaterialManager.materialAttGroup 832
+MaterialManager.materialDefGroup 832
+MaterialManager.materialDamage 1
 
 rem ********************************************************
 rem ****************** BF1942 MATERIAL IDS *****************

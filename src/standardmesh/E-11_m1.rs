@@ -1,4 +1,4 @@
-subshader "e11_m1_Material0" "StandardMesh/Default"
+subshader "e-11_m1_Material0" "StandardMesh/Default"
 {
 	lighting true;
 	lightingSpecular true;

@@ -4,10 +4,11 @@ newPatch
 ############
 ### Near ###
 ############
-load @ROOT/Sound/@RTD/ambient-moncal.wav
+load @ROOT/Sound/@RTD/wind-light.wav
 loop
 minDistance 10
-volume .2
+randomStartPitch 0.25 / 0.0
+volume .99
 priority -10
 
 #templateLevel MEDIUM
@@ -16,8 +17,9 @@ newPatch
 ############
 ### Near ###
 ############
-load @ROOT/Sound/@RTD/ambient-moncal.wav
+load @ROOT/Sound/@RTD/wind-light.wav
 loop
 minDistance 10
-volume .2
+randomStartPitch 0.25 / 0.0
+volume .99
 priority -10

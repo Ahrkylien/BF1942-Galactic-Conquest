@@ -1,4 +1,4 @@
-subshader "XWing_SFoil_1_Material0" "StandardMesh/Default"
+subshader "tan_xwing_sfoil_1_Material0" "StandardMesh/Default"
 {
 	lighting true;
 	lightingSpecular true;
@@ -6,6 +6,7 @@ subshader "XWing_SFoil_1_Material0" "StandardMesh/Default"
 	materialSpecular 0.8 0.8 0.8;
 	materialSpecularPower 4.0;
 	envmap true;
+      twosided true;
 	texture "texture/Vehicles/XWing/XWing_Wing";
 }
 

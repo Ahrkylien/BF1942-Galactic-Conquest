@@ -29,6 +29,9 @@ ObjectTemplate.setLodValue -0.01
 ObjectTemplate.addTemplate USSoldier3PBody
 ObjectTemplate.setIsFirstPersonPart 0
 
+ObjectTemplate.addTemplate USSoldier3PHelm
+ObjectTemplate.setIsFirstPersonPart 0
+
 ObjectTemplate.addTemplate USSoldier1PBody
 ObjectTemplate.setIsFirstPersonPart 1
 
@@ -54,6 +57,11 @@ ObjectTemplate.geometry Soldier/1PUsBody
 ObjectTemplate.create SimpleObject USSoldier3PBody
 ObjectTemplate.geometry Soldier/3PUsBody
 ObjectTemplate.hasDynamicShadow 1
+
+
+ObjectTemplate.create SimpleObject USSoldier3PHelm
+ObjectTemplate.geometry Soldier/3PUsHelm
+ObjectTemplate.hasDynamicShadow 0
 
 ObjectTemplate.create AnimatedBundle USSoldierComplexHead1
 ObjectTemplate.createSkeleton animations/UsFace.ske

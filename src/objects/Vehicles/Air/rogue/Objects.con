@@ -1,5 +1,5 @@
-rem *** rogue X-Wing ***
-ObjectTemplate.create PlayerControlObject rogue
+rem *** Rogue X-Wing ***
+ObjectTemplate.create PlayerControlObject Rogue
 ObjectTemplate.AddPcoPosId 0
 ObjectTemplate.SetPcoId 0
 ObjectTemplate.setNetworkableInfo rogue_body_info
@@ -20,13 +20,22 @@ ObjectTemplate.speedMod 1
 ObjectTemplate.hitpoints 90
 ObjectTemplate.maxhitpoints 90
 ObjectTemplate.material 801
-ObjectTemplate.criticalDamage 9
+ObjectTemplate.criticalDamage 18
 ObjectTemplate.hpLostWhileCriticalDamage 0.9
 ObjectTemplate.explosionForceMod 10
 ObjectTemplate.hpLostWhileUpSideDown 9
 ObjectTemplate.hpLostWhileDamageFromWater 9
-ObjectTemplate.addArmorEffect 18 em_CorsairDamage -1.921/-1.001/-3.851
-ObjectTemplate.addArmorEffect 9 e_CorsairFire -1.921/-0.2/-3.601
+
+ObjectTemplate.addArmorEffect 54 em_StukaDamage -1.53/1.4/-7.2
+ObjectTemplate.addArmorEffect 54 em_PlaneDamage -1.53/-1.4/-7.2
+
+ObjectTemplate.addArmorEffect 36 em_PlaneDamage 1.53/1.4/-7.2
+ObjectTemplate.addArmorEffect 36 em_StukaDamage -1.53/1.4/-7.2
+ObjectTemplate.addArmorEffect 36 em_StukaDamage -1.53/-1.4/-7.2
+ObjectTemplate.addArmorEffect 36 em_PlaneDamage 0/0.6/-5.8
+
+ObjectTemplate.addArmorEffect 18 e_StukaFire 0/0.6/-5.8
+
 ObjectTemplate.addArmorEffect 0 e_ExplGas 0/0/0
 ObjectTemplate.addArmorEffect 0 e_ScrapMetal_awing 0/0/0
 ObjectTemplate.damageFromWater 1
@@ -46,7 +55,7 @@ ObjectTemplate.setSecondaryAmmoBar ABHeatBarOnly
 ObjectTemplate.setCrossHairType CHTIcon
 ObjectTemplate.setVehicleCategory VCAir
 ObjectTemplate.setVehicleType  VTFighter
-ObjectTemplate.setMinimapIcon "minimap/minimap_icon_x-wing_16x16.dds"
+ObjectTemplate.setMinimapIcon "minimap/minimap_icon_xwing_16x16.dds"
 
 rem *** lodrogue ***
 ObjectTemplate.create LodObject lodrogue
@@ -132,6 +141,7 @@ ObjectTemplate.setRotation 0/0/-89.999
 
 ObjectTemplate.addTemplate RogueEngine
 ObjectTemplate.setPosition 0/0/-3
+ObjectTemplate.addTemplate XWing_Dummy_Laser
 
 rem *** rogueAstromech_Droid_Control ***
 ObjectTemplate.create PlayerControlObject rogueAstromech_Droid_Control
@@ -140,7 +150,7 @@ ObjectTemplate.SetPcoId 1
 ObjectTemplate.setNetworkableInfo rogue_body_info
 rem ---------------------------------
 ObjectTemplate.addTemplate rogueAstromech_Droid
-ObjectTemplate.setPosition 0.0303/0.9057/-2.5432
+ObjectTemplate.setPosition 0.023/0.9057/-2.575
 ObjectTemplate.addTemplate X-WingEntry
 ObjectTemplate.setPosition 0/1/-4
 rem ---------------------------------
@@ -210,7 +220,7 @@ rem -----------------------------------
 ObjectTemplate.addTemplate XWing_Laser_Cannon
 ObjectTemplate.setPosition -6.25/0.45/-1
 ObjectTemplate.setRotation 1.2/0.2/0
-ObjectTemplate.addTemplate XWing_Laser_Cannon_Silent
+ObjectTemplate.addTemplate XWing_Laser_Cannon
 ObjectTemplate.setPosition 6.25/-0.45/-1 
 ObjectTemplate.setRotation -1.2/-0.2/0
 ObjectTemplate.addTemplate e_engineXWing
@@ -232,7 +242,7 @@ ObjectTemplate.hasMobilePhysics 1
 ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.hasResponsePhysics 1
 rem -----------------------------------
-ObjectTemplate.addTemplate XWing_Laser_Cannon_Silent
+ObjectTemplate.addTemplate XWing_Laser_Cannon
 ObjectTemplate.setPosition -6.25/-0.45/-1
 ObjectTemplate.setRotation 1.2/-0.2/0
 ObjectTemplate.addTemplate XWing_Laser_Cannon

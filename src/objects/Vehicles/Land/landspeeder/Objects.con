@@ -9,7 +9,7 @@ ObjectTemplate.hasDynamicShadow 1
 ObjectTemplate.explosionRadius 8
 ObjectTemplate.explosionDamage 5
 ObjectTemplate.damageFromWater 1
-ObjectTemplate.drag 0.49
+ObjectTemplate.drag 1.49
 rem ObjectTemplate.GravityModifier CRD_NONE/1/0/0 
 ObjectTemplate.dragOffset 0/-1/2
 ObjectTemplate.mass 3000
@@ -37,7 +37,7 @@ ObjectTemplate.aiTemplate Willy
 rem -------------------------------------
 ObjectTemplate.addTemplate lodLandspeeder
 rem -------------------------------------
-ObjectTemplate.setSoldierExitLocation -1.5/0/-0.8 0/0/0
+ObjectTemplate.setSoldierExitLocation -2.7/0/0 0/0/0
 ObjectTemplate.setVehicleIcon "Vehicle/Icon_landspeeder.dds"
 ObjectTemplate.setVehicleIconPos 60/55
 ObjectTemplate.setPrimaryAmmoBar ABNone
@@ -78,46 +78,15 @@ ObjectTemplate.setPosition 0/0/0
 ObjectTemplate.addTemplate LandspeederSteeringDummy
 ObjectTemplate.setPosition -0.399/0.35/0.15
 ObjectTemplate.setRotation 0/34/0
-ObjectTemplate.addTemplate landspeederLRudder
-ObjectTemplate.setPosition -2/1.088/-6.067
-ObjectTemplate.setRotation 0/0/-89.998
-ObjectTemplate.addTemplate landspeederRRudder
-ObjectTemplate.setPosition 2/1.088/-6.067
-ObjectTemplate.setRotation 0/0/-89.998
-ObjectTemplate.addTemplate LanspeederDwnEngine
-ObjectTemplate.setRotation 0/90/0
-rem ---Turning Engines for Landspeeder----
-ObjectTemplate.addTemplate landspeederLTurnEngine
-ObjectTemplate.setPosition -2/-0.5/0
-ObjectTemplate.setRotation 0/0/-89.998
-ObjectTemplate.addTemplate landspeederRTurnEngine
-ObjectTemplate.setPosition 2/-0.5/0
-ObjectTemplate.setRotation 180/0/-89.998
-rem ---Grav Engines for Landspeeder----
-ObjectTemplate.addTemplate landspeederRGravEngine
-ObjectTemplate.setPosition 2/1/-3
-ObjectTemplate.setRotation 0/90/-89.998
-ObjectTemplate.addTemplate landspeederLGravEngine
-ObjectTemplate.setPosition -2/1/-3
-ObjectTemplate.setRotation 0/90/-89.998
 rem ______________________________________
 ObjectTemplate.addTemplate landspeederEngine
-ObjectTemplate.setPosition 0/3/-3
-ObjectTemplate.setRotation 0/0/-89.998
-ObjectTemplate.addTemplate landspeederleftEngine
-ObjectTemplate.setPosition -2/1/-3
-ObjectTemplate.setRotation 0/0/-89.998
-ObjectTemplate.addTemplate landspeederrightEngine
-ObjectTemplate.setPosition 2/1/-3
-ObjectTemplate.setRotation 0/0/-89.998
-ObjectTemplate.addTemplate landspeederRLWheelBackSpring
-ObjectTemplate.setPosition -2/-0.5/-4
-ObjectTemplate.addTemplate landspeederRRWheelBackSpring
-ObjectTemplate.setPosition 2/-0.5/-4
-ObjectTemplate.addTemplate landspeederFLWheel
-ObjectTemplate.setPosition -2/-0.5/4
-ObjectTemplate.addTemplate landspeederFRWheel
-ObjectTemplate.setPosition 2/-0.5/4
+ObjectTemplate.setPosition 0/.3/0
+ObjectTemplate.addTemplate GravEngine
+ObjectTemplate.setPosition 0/2.27/0
+ObjectTemplate.setRotation 0/90/0
+ObjectTemplate.addTemplate GravEngine
+ObjectTemplate.setPosition 0/1.27/0
+ObjectTemplate.setRotation 0/0/0
 
 rem *** LandspeederCamera ***
 ObjectTemplate.create Camera LandspeederCamera
@@ -152,7 +121,7 @@ ObjectTemplate.setPosition -0.32/.93/-.3
 ObjectTemplate.addTemplate LandspeederPassengerSeat
 ObjectTemplate.setPosition -0.399/.75/.35
 rem -------------------------------------
-ObjectTemplate.setSoldierExitLocation 1.5/0/-0.8 0/0/0
+ObjectTemplate.setSoldierExitLocation 2.7/0/0 0/0/0
 ObjectTemplate.setVehicleIcon "Vehicle/Icon_landspeeder.dds"
 ObjectTemplate.setVehicleIconPos 73/61
 ObjectTemplate.setPrimaryAmmoBar ABNone
@@ -168,39 +137,6 @@ ObjectTemplate.seatFlags c_SeatIsOutside
 ObjectTemplate.seatAnimationUpperBody Ub_PassengerInWilly
 ObjectTemplate.seatAnimationLowerBody Lb_PassengerInWilly
 
-rem *** LandspeederFrontWheelR ***
-ObjectTemplate.create RotationalBundle LandspeederFrontWheelR
-ObjectTemplate.setNetworkableInfo LandspeederSteeringInfo
-ObjectTemplate.hasMobilePhysics 1
-ObjectTemplate.hasCollisionPhysics 1
-ObjectTemplate.hasResponsePhysics 1
-rem -------------------------------------
-ObjectTemplate.addTemplate SpringInfo
-ObjectTemplate.setPosition 1/-0.599/0
-rem -------------------------------------
-ObjectTemplate.setMinRotation -50/0/0
-ObjectTemplate.setMaxRotation 50/0/0
-ObjectTemplate.setMaxSpeed 200/0/0
-ObjectTemplate.setAcceleration 200/0/0
-ObjectTemplate.setInputToYaw c_PIYaw
-ObjectTemplate.setAutomaticReset 1
-
-rem *** LandspeederFrontWheelL ***
-ObjectTemplate.create RotationalBundle LandspeederFrontWheelL
-ObjectTemplate.setNetworkableInfo LandspeederSteeringInfo
-ObjectTemplate.hasMobilePhysics 1
-ObjectTemplate.hasCollisionPhysics 1
-ObjectTemplate.hasResponsePhysics 1
-rem -------------------------------------
-ObjectTemplate.addTemplate LandspeederFrontSpringL
-ObjectTemplate.setPosition -1/-0.599/0
-rem -------------------------------------
-ObjectTemplate.setMinRotation -50/0/0
-ObjectTemplate.setMaxRotation 50/0/0
-ObjectTemplate.setMaxSpeed 200/0/0
-ObjectTemplate.setAcceleration 200/0/0
-ObjectTemplate.setInputToYaw c_PIYaw
-ObjectTemplate.setAutomaticReset 1
 
 rem *** LandspeederSteeringDummy ***
 ObjectTemplate.create AnimatedBundle LandspeederSteeringDummy
@@ -253,3 +189,45 @@ ObjectTemplate.geometry Wreck_landspeeder1_m1
 rem *** LandspeederLodSelector ***
 LodSelectorTemplate.create DistCompareSelector2 LandspeederLodSelector
 LodSelectorTemplate.hasDestroyedLod 1
+
+
+
+
+rem ------------------------------
+rem *** FrontWheelR ***
+ObjectTemplate.create RotationalBundle LandspeederFrontWheelR
+ObjectTemplate.setNetworkableInfo LandspeederSteeringInfo
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate FHFrontSpringR
+ObjectTemplate.setPosition 0/0/0
+rem -------------------------------------
+ObjectTemplate.setMinRotation -30/0/0
+ObjectTemplate.setMaxRotation 30/0/0
+ObjectTemplate.setMaxSpeed 200/0/0
+ObjectTemplate.setAcceleration 200/0/0
+ObjectTemplate.setInputToYaw c_PIYaw
+ObjectTemplate.setAutomaticReset 1
+
+
+rem *** FrontWheelL ***
+ObjectTemplate.create RotationalBundle LandspeederFrontWheelL
+ObjectTemplate.setNetworkableInfo LandspeederSteeringInfo
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate FHFrontSpringL
+ObjectTemplate.setPosition 0/0/0
+rem -------------------------------------
+ObjectTemplate.setMinRotation -30/0/0
+ObjectTemplate.setMaxRotation 30/0/0
+ObjectTemplate.setMaxSpeed 200/0/0
+ObjectTemplate.setAcceleration 200/0/0
+ObjectTemplate.setInputToYaw c_PIYaw
+ObjectTemplate.setAutomaticReset 1
+
+rem -----------------------------------------
+

@@ -5,10 +5,7 @@ ObjectTemplate.setAnimationState FlagBlow
 ObjectTemplate.loadSoundScript Sounds/flag.ssc
 
 ObjectTemplate.create AnimatedBundle AnimatedSoFlag
-ObjectTemplate.geometry flagso_m1
-ObjectTemplate.createSkeleton animations/flag.ske
-ObjectTemplate.setAnimationState FlagBlow
-ObjectTemplate.loadSoundScript Sounds/flag.ssc
+
 
 ObjectTemplate.create AnimatedBundle AnimatedUsFlag
 ObjectTemplate.geometry flagus_m1
@@ -30,6 +27,12 @@ ObjectTemplate.loadSoundScript Sounds/flag.ssc
 
 ObjectTemplate.create AnimatedBundle AnimatedUkFlag
 ObjectTemplate.geometry flaguk_m1
+ObjectTemplate.createSkeleton animations/flag.ske
+ObjectTemplate.setAnimationState FlagBlow
+ObjectTemplate.loadSoundScript Sounds/flag.ssc
+
+ObjectTemplate.create AnimatedBundle AnimatedCanFlag
+ObjectTemplate.geometry flagcan_m1
 ObjectTemplate.createSkeleton animations/flag.ske
 ObjectTemplate.setAnimationState FlagBlow
 ObjectTemplate.loadSoundScript Sounds/flag.ssc
@@ -92,6 +95,13 @@ ObjectTemplate.radius 5
 ObjectTemplate.TimeToReSpawn 30
 ObjectTemplate.addTemplate AnimatedSoFlag
 
+ObjectTemplate.create Flag CanadianFlag
+ObjectTemplate.team 2
+ObjectTemplate.networkableInfo FlagBodyInfo
+ObjectTemplate.radius 5
+ObjectTemplate.TimeToReSpawn 30
+ObjectTemplate.addTemplate AnimatedCanFlag
+
 rem --------------------- NEW FLAG POLES TEMPLATES ---------------------------------------------
 
 
@@ -104,7 +114,7 @@ ObjectTemplate.flagTemplate AmericanFlag
 ObjectTemplate.radius 5
 ObjectTemplate.geometry flagbase_m1
 ObjectTemplate.sethasCollisionPhysics 1
-ObjectTemplate.setFlagLocation 0/7.6/0 0/0/0
+ObjectTemplate.setFlagLocation 0/0/0 0/0/0
 
 ObjectTemplate.create FlagBase UKbase
 ObjectTemplate.team 2
@@ -112,7 +122,7 @@ ObjectTemplate.flagTemplate BrittishFlag
 ObjectTemplate.radius 5
 ObjectTemplate.geometry flagbase_m1
 ObjectTemplate.sethasCollisionPhysics 1
-ObjectTemplate.setFlagLocation 0/7.6/0 0/0/0 
+ObjectTemplate.setFlagLocation 0/0/0 0/0/0
 
 ObjectTemplate.create FlagBase SObase
 ObjectTemplate.team 2
@@ -120,7 +130,7 @@ ObjectTemplate.flagTemplate SovietFlag
 ObjectTemplate.radius 5
 ObjectTemplate.geometry flagbase_m1
 ObjectTemplate.sethasCollisionPhysics 1
-ObjectTemplate.setFlagLocation 0/7.6/0 0/0/0
+ObjectTemplate.setFlagLocation 0/0/0 0/0/0
 
 ObjectTemplate.create FlagBase JPbase
 ObjectTemplate.team 1
@@ -128,7 +138,7 @@ ObjectTemplate.flagTemplate JapaneseFlag
 ObjectTemplate.radius 5
 ObjectTemplate.geometry flagbase_m1
 ObjectTemplate.sethasCollisionPhysics 1
-ObjectTemplate.setFlagLocation 0/7.6/0 0/0/0
+ObjectTemplate.setFlagLocation 0/0/0 0/0/0
 
 ObjectTemplate.create FlagBase GEbase
 ObjectTemplate.team 1
@@ -136,7 +146,16 @@ ObjectTemplate.flagTemplate GermanFlag
 ObjectTemplate.radius 5
 ObjectTemplate.geometry flagbase_m1
 ObjectTemplate.sethasCollisionPhysics 1
-ObjectTemplate.setFlagLocation 0/7.6/0 0/0/0
+ObjectTemplate.setFlagLocation 0/0/0 0/0/0
+
+ObjectTemplate.create FlagBase Canadianbase
+ObjectTemplate.team 2
+ObjectTemplate.flagTemplate CanadianFlag
+ObjectTemplate.radius 5
+ObjectTemplate.geometry flagbase_m1
+ObjectTemplate.sethasCollisionPhysics 1
+ObjectTemplate.setFlagLocation 0/0/0 0/0/0
+
 
 rem --------------------------- FLAG POLE ------------------------------------------
 

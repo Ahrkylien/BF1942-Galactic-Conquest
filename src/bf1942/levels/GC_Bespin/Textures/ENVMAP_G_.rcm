@@ -1,7 +1,7 @@
 [CubeMap]
-PositiveX = GCMOD\levels\GC_bespin\Textures\env_GC_bespin_04.dds
-NegativeX = GCMOD\levels\GC_bespin\Textures\env_GC_bespin_02.dds
-PositiveY = GCMOD\levels\GC_bespin\Textures\env_GC_bespin_05.dds
-NegativeY = GCMOD\levels\GC_bespin\Textures\env_GC_bespin_06.dds
-PositiveZ = GCMOD\levels\GC_bespin\Textures\env_GC_bespin_03.dds
-NegativeZ = GCMOD\levels\GC_bespin\Textures\env_GC_bespin_01.dds
+PositiveX = bf1942\levels\GC_Bespin\Textures\env_gc_bespin_04.dds
+NegativeX = bf1942\levels\GC_Bespin\Textures\env_gc_bespin_02.dds
+PositiveY = bf1942\levels\GC_Bespin\Textures\env_gc_bespin_05.dds
+NegativeY = bf1942\levels\GC_Bespin\Textures\env_gc_bespin_06.dds
+PositiveZ = bf1942\levels\GC_Bespin\Textures\env_gc_bespin_03.dds
+NegativeZ = bf1942\levels\GC_Bespin\Textures\env_gc_bespin_01.dds

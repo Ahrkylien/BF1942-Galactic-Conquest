@@ -15,49 +15,50 @@ ObjectTemplate.setDifferential 100
 rem *** SailBarge_Vertical_Engine ***
 ObjectTemplate.create Engine SailBarge_Vertical_Engine
 ObjectTemplate.setNetworkableInfo SailBargeEngineInfo
-ObjectTemplate.setMinRotation 0/0/-100
-ObjectTemplate.setMaxRotation 0/0/100
-ObjectTemplate.setMaxSpeed 0/0/1000
+ObjectTemplate.setMinRotation 0/0/-600
+ObjectTemplate.setMaxRotation 0/0/600
+ObjectTemplate.setMaxSpeed 0/0/100
 ObjectTemplate.setAcceleration 0/0/-1000
 ObjectTemplate.setInputToRoll c_PIPitch
 ObjectTemplate.setAutomaticReset 1
 ObjectTemplate.setEngineType c_ETPlane
-ObjectTemplate.setTorque 1500
-ObjectTemplate.setDifferential 10
+ObjectTemplate.setTorque 30
+ObjectTemplate.setDifferential 40
 
-rem *** SailBarge_Vertical_Engine_2 ***
-ObjectTemplate.create Engine SailBarge_Vertical_Engine_2
-ObjectTemplate.setNetworkableInfo SailBargeEngineInfo
-ObjectTemplate.setMinRotation 0/0/0
-ObjectTemplate.setMaxRotation 0/0/-5000
-ObjectTemplate.setMaxSpeed 0/0/200
-ObjectTemplate.setAcceleration 0/0/-5000
-ObjectTemplate.setAutomaticReset 1
-ObjectTemplate.setEngineType c_ETRocket
-ObjectTemplate.setTorque 2.5
-ObjectTemplate.setDifferential 1
 
 rem *** SailBarge_Lateral_Engine ***
 ObjectTemplate.create Engine SailBarge_Lateral_Engine
 ObjectTemplate.setNetworkableInfo SailBargeEngineInfo
-ObjectTemplate.setMinRotation 0/0/-1000
-ObjectTemplate.setMaxRotation 0/0/1000
-ObjectTemplate.setMaxSpeed 0/0/10
-ObjectTemplate.setAcceleration 0/0/5000
+ObjectTemplate.setMinRotation 0/0/-30
+ObjectTemplate.setMaxRotation 0/0/30
+ObjectTemplate.setMaxSpeed 0/0/100
+ObjectTemplate.setAcceleration 0/0/1000
 ObjectTemplate.setInputToRoll c_PIYaw
-ObjectTemplate.setAutomaticRollStabilization 1
 ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.RememberExcessInput 0
 ObjectTemplate.setEngineType c_ETPlane
-ObjectTemplate.setTorque 750
-ObjectTemplate.setDifferential 100
+ObjectTemplate.setTorque 10
+ObjectTemplate.setDifferential 1.0
+ObjectTemplate.setNoPropellerEffectAtSpeed 100
+
+ObjectTemplate.create Wing SailBargeRudder
+ObjectTemplate.setNetworkableInfo SailBargeRudderInfo
+ObjectTemplate.setMinRotation 0/-5/0
+ObjectTemplate.setMaxRotation 0/5/0
+ObjectTemplate.setMaxSpeed 0/100/0
+ObjectTemplate.setAcceleration 0/100/0
+ObjectTemplate.setInputToPitch c_PIYaw
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setWingLift 3
+ObjectTemplate.setFlapLift 3
 
 rem *** SailBarge_Floater ***
 ObjectTemplate.create FloatingBundle SailBarge_Floater
-ObjectTemplate.setHullHeight 1000
-ObjectTemplate.setFloatMaxLift 9.81
-ObjectTemplate.setFloatMinLift 9.81
+ObjectTemplate.setHullHeight 30000
+ObjectTemplate.setFloatMaxLift 1.962
+ObjectTemplate.setFloatMinLift 1.962
 ObjectTemplate.setSinkingSpeedMod 0
-ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setAutomaticReset 0
 
 rem *** SailBarge_Wheel ***
 ObjectTemplate.create Spring SailBarge_Wheel

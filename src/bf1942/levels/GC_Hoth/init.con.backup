@@ -22,18 +22,18 @@ Game.setViewDistance 650
 Game.spawnPlayers 1
 
 game.setTeamSkin 1 GermanSoldier
-game.setKit 1 0 German_Scout
-game.setKit 1 1 German_Assault
-game.setKit 1 2 German_AT
-game.setKit 1 3 German_Medic
-game.setKit 1 4 German_Engineer
+game.setKit 1 0 Empire_Scout
+game.setKit 1 1 Empire_Trooper
+game.setKit 1 2 Empire_AT
+game.setKit 1 3 Empire_Medic
+game.setKit 1 4 Empire_Engineer
 
 game.setTeamSkin 2 USSoldier
-game.setKit 2 0 US_Scout
-game.setKit 2 1 US_Assault
-game.setKit 2 2 US_AT
-game.setKit 2 3 US_Medic
-game.setKit 2 4 US_Engineer
+game.setKit 2 0 Rebel_Scout
+game.setKit 2 1 Rebel_Trooper
+game.setKit 2 2 Rebel_AT
+game.setKit 2 3 Rebel_Medic
+game.setKit 2 4 Rebel_Engineer
 
 rem *** Active Combat Area ***
 game.setActiveCombatArea 0 0 2048 2048
@@ -71,6 +71,9 @@ rem *** Set team 1 ***
 game.setBeforeSpawnCameraPosition 1 1224/52/632
 rem *** Set team 2 ***
 game.setBeforeSpawnCameraPosition 2 1250.617/92/1080
+
+
+
 
 
 

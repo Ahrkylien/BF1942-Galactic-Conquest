@@ -1,6 +1,6 @@
 rem *** R5D4Engine ***
 ObjectTemplate.create Engine R5D4Engine
-ObjectTemplate.setNetworkableInfo R5D4EngineInfo
+ObjectTemplate.setNetworkableInfo R5D4Droid_engine_info
 ObjectTemplate.setAttachToListener 1
 ObjectTemplate.loadSoundScript Sounds/R5D4Engine.ssc
 ObjectTemplate.hasMobilePhysics 1

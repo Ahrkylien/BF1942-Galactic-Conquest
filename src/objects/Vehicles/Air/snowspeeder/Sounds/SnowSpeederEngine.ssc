@@ -188,8 +188,7 @@ beginEffect
 	param 0.6
 	param 1.05
 	param 0.7
-	param 0.3
-	
+	param 0.3	
 endEffect
 
 *** Engine Volume Start ***
@@ -291,17 +290,15 @@ beginEffect
 	param -1	
 endEffect
 
+#################
+### Cockpit1L ###
+#################
 
-###############
-### Cockpit ###
-###############
-
-load @ROOT/Sound/@RTD/snowspeeder-cockpit.wav
+load @ROOT/Sound/@RTD/snowspeeder-cockpit-l.wav
 loop
-stereo
-minDistance 1
-relativePosition 0/0.45/-3.2
-volume 0.3
+minDistance 2
+relativePosition -0.2/0.45/-3.2
+volume 0.6
 priority 6
 *** Engine start ***
 beginEffect
@@ -336,16 +333,101 @@ beginEffect
 	param -1	
 endEffect
 
-################
-### Cockpit2 ###
-################
+#################
+### Cockpit1R ###
+#################
 
-load @ROOT/Sound/@RTD/snowspeeder-cockpit.wav
+load @ROOT/Sound/@RTD/snowspeeder-cockpit-r.wav
 loop
-stereo
-minDistance 1
-relativePosition 0/0/-6.57
-volume 0.3
+minDistance 2
+relativePosition 0.2/0.45/-3.2
+volume 0.6
+priority 6
+*** Engine start ***
+beginEffect
+	controlDestination Volume
+	controlSource Time
+	envelope Ramp
+	param 0.4
+	param 1.2
+	param 0
+	param 1
+endEffect
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 1
+	param 1
+	param 1
+	param -1	
+endEffect
+
+*** Engine stop ***
+beginEffect
+	controlDestination Volume
+	controlSource TimeRelease
+	envelope Ramp
+	param 0
+	param 0.2
+	param 1
+	param -1	
+endEffect
+
+#################
+### Cockpit2L ###
+#################
+
+load @ROOT/Sound/@RTD/snowspeeder-cockpit-l.wav
+loop
+minDistance 2
+relativePosition -0.2/0/-6.57
+volume 0.6
+priority 6
+*** Engine start ***
+beginEffect
+	controlDestination Volume
+	controlSource Time
+	envelope Ramp
+	param 0.4
+	param 1.2
+	param 0
+	param 1
+endEffect
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 1
+	param 1
+	param 1
+	param -1	
+endEffect
+
+*** Engine stop ***
+beginEffect
+	controlDestination Volume
+	controlSource TimeRelease
+	envelope Ramp
+	param 0
+	param 0.2
+	param 1
+	param -1	
+endEffect
+
+#################
+### Cockpit2R ###
+#################
+
+load @ROOT/Sound/@RTD/snowspeeder-cockpit-r.wav
+loop
+minDistance 2
+relativePosition 0.2/0/-6.57
+volume 0.6
 priority 6
 *** Engine start ***
 beginEffect

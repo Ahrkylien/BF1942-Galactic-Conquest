@@ -10,7 +10,7 @@ ObjectTemplate.projectileTemplate BinocularsProjectile
 ObjectTemplate.projectile2Template BinocularsProjectile2
 ObjectTemplate.createSkeleton animations/Binoculars.ske
 ObjectTemplate.useSkeletonPartAsMain base
-ObjectTemplate.zoomFov 0.05
+ObjectTemplate.zoomFov 0.1
 ObjectTemplate.useScope 1
 ObjectTemplate.fireInCameraDof 1
 ObjectTemplate.projectilePosition 0/0/2

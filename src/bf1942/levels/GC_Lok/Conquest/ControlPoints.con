@@ -1,0 +1,40 @@
+rem ControlPoints.con created by Battlecraft 1942
+rem (\Program Files\Battlefield 1942\Mods\GCMOD\bf1942\levels\GC_Lok/conquest/ControlPoints.con)
+
+rem ----------------------------------------- 
+rem ---  Imperial_Headquarters  ---
+rem ----------------------------------------- 
+Object.create Imperial_Headquarters
+Object.absolutePosition 1393.12/142.91/1586.46
+
+rem ----------------------------------------- 
+rem ---  Captured_Imp_Starport  ---
+rem ----------------------------------------- 
+Object.create Captured_Imp_Starport
+Object.absolutePosition 1012.89/113.15/300.56
+
+rem ----------------------------------------- 
+rem ---  Research_Center  ---
+rem ----------------------------------------- 
+Object.create Research_Center
+Object.absolutePosition 814.27/92.50/1232.80
+
+rem ----------------------------------------- 
+rem ---  Junkyard  ---
+rem ----------------------------------------- 
+Object.create Junkyard
+Object.absolutePosition 1222.95/90.47/1178.44
+
+rem ----------------------------------------- 
+rem ---  Supply_Depot  ---
+rem ----------------------------------------- 
+Object.create Supply_Depot
+Object.absolutePosition 971.49/112.29/1434.55
+
+rem ----------------------------------------- 
+rem ---  Communications_Center  ---
+rem ----------------------------------------- 
+Object.create Communications_Center
+Object.absolutePosition 989.52/129.17/1651.43
+
+rem EndOfFile

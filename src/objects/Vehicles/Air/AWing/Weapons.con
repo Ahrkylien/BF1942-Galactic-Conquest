@@ -31,7 +31,7 @@ ObjectTemplate.projectileTemplate ConcussionMissile
 ObjectTemplate.magSize 8
 ObjectTemplate.numOfMag 2
 ObjectTemplate.velocity 250
-ObjectTemplate.fireOnce 1
+ObjectTemplate.altfireOnce 1
 ObjectTemplate.autoReload 1
 ObjectTemplate.reloadtime 3
 ObjectTemplate.roundOfFire 1.8

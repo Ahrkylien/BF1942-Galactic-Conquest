@@ -1,0 +1,165 @@
+rem SoldierSpawnTemplates.con created by Battlecraft 1942
+rem (\Program Files\Battlefield 1942\Mods\GCMOD\bf1942\levels\GC_Anchorhead/conquest/SoldierSpawnTemplates.con)
+
+rem ----------------------------------------- 
+rem ---  AxisBase_Spawn1  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint AxisBase_Spawn1
+ObjectTemplate.setSpawnId 0
+ObjectTemplate.setGroup 1
+
+rem ----------------------------------------- 
+rem ---  AlliedBase_Spawn1  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint AlliedBase_Spawn1
+ObjectTemplate.setSpawnId 1
+ObjectTemplate.setGroup 2
+
+rem ----------------------------------------- 
+rem ---  AlliedBase_Spawn2  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint AlliedBase_Spawn2
+ObjectTemplate.setSpawnId 2
+ObjectTemplate.setGroup 2
+
+rem ----------------------------------------- 
+rem ---  AlliedBase_Spawn4  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint AlliedBase_Spawn4
+ObjectTemplate.setSpawnId 4
+ObjectTemplate.setGroup 2
+
+rem ----------------------------------------- 
+rem ---  AxisBase_Spawn3  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint AxisBase_Spawn3
+ObjectTemplate.setSpawnId 6
+ObjectTemplate.setGroup 1
+
+rem ----------------------------------------- 
+rem ---  AxisBase_Spawn4  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint AxisBase_Spawn4
+ObjectTemplate.setSpawnId 7
+ObjectTemplate.setGroup 1
+
+rem ----------------------------------------- 
+rem ---  Imperial_Starport_Spawn1  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Imperial_Starport_Spawn1
+ObjectTemplate.setSpawnId 8
+ObjectTemplate.setGroup 4
+
+rem ----------------------------------------- 
+rem ---  Imperial_Starport_Spawn2  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Imperial_Starport_Spawn2
+ObjectTemplate.setSpawnId 9
+ObjectTemplate.setGroup 4
+
+rem ----------------------------------------- 
+rem ---  Imperial_Starport_Spawn3  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Imperial_Starport_Spawn3
+ObjectTemplate.setSpawnId 10
+ObjectTemplate.setGroup 4
+
+rem ----------------------------------------- 
+rem ---  Imperial_Starport_Spawn4  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Imperial_Starport_Spawn4
+ObjectTemplate.setSpawnId 11
+ObjectTemplate.setGroup 4
+
+rem ----------------------------------------- 
+rem ---  Cantina_Spawn1  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Cantina_Spawn1
+ObjectTemplate.setSpawnId 12
+ObjectTemplate.setGroup 5
+
+rem ----------------------------------------- 
+rem ---  Cantina_Spawn3  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Cantina_Spawn3
+ObjectTemplate.setSpawnId 14
+ObjectTemplate.setGroup 5
+
+rem ----------------------------------------- 
+rem ---  Cantina_Spawn4  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Cantina_Spawn4
+ObjectTemplate.setSpawnId 15
+ObjectTemplate.setGroup 5
+
+rem ----------------------------------------- 
+rem ---  Cantina_Spawn5  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Cantina_Spawn5
+ObjectTemplate.setSpawnId 16
+ObjectTemplate.setGroup 5
+
+rem ----------------------------------------- 
+rem ---  Rebel_Starport_Spawn1  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Rebel_Starport_Spawn1
+ObjectTemplate.setSpawnId 17
+ObjectTemplate.setGroup 3
+
+rem ----------------------------------------- 
+rem ---  Rebel_Starport_Spawn2  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Rebel_Starport_Spawn2
+ObjectTemplate.setSpawnId 18
+ObjectTemplate.setGroup 3
+
+rem ----------------------------------------- 
+rem ---  Rebel_Starport_Spawn3  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Rebel_Starport_Spawn3
+ObjectTemplate.setSpawnId 19
+ObjectTemplate.setGroup 3
+
+rem ----------------------------------------- 
+rem ---  Rebel_Starport_Spawn4  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Rebel_Starport_Spawn4
+ObjectTemplate.setSpawnId 20
+ObjectTemplate.setGroup 3
+
+rem ----------------------------------------- 
+rem ---  AlliedBase_Spawn3  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint AlliedBase_Spawn3
+ObjectTemplate.setSpawnId 21
+ObjectTemplate.setGroup 2
+
+rem ----------------------------------------- 
+rem ---  AxisBase_Spawn2  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint AxisBase_Spawn2
+ObjectTemplate.setSpawnId 22
+ObjectTemplate.setGroup 1
+
+rem ----------------------------------------- 
+rem ---  Camp_Spawn1  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Camp_Spawn1
+ObjectTemplate.setSpawnId 49
+ObjectTemplate.setGroup 6
+
+rem ----------------------------------------- 
+rem ---  Camp_Spawn2  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Camp_Spawn2
+ObjectTemplate.setSpawnId 50
+ObjectTemplate.setGroup 6
+
+rem ----------------------------------------- 
+rem ---  Camp_Spawn3  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Camp_Spawn3
+ObjectTemplate.setSpawnId 51
+ObjectTemplate.setGroup 6
+
+rem EndOfFile

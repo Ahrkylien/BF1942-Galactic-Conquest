@@ -11,6 +11,7 @@ ObjectTemplate.magType 0
 ObjectTemplate.numOfMag 999
 ObjectTemplate.velocity 450
 ObjectTemplate.autoReload 1
+ObjectTemplate.fireOnce 1
 ObjectTemplate.reloadtime 0.0001
 ObjectTemplate.roundOfFire 0.2
 ObjectTemplate.addFireArmsPosition -5/0/11.6 0/0/0

@@ -6,7 +6,7 @@ ObjectTemplate.aiTemplate ShermanMainGun
 rem -------------------------------------
 ObjectTemplate.visibleBarrelTemplate e_MuzzHeavy
 rem -------------------------------------
-ObjectTemplate.projectileTemplate MediumLaserProjectileRedS
+ObjectTemplate.projectileTemplate MediumLaserProjectileRedNS
 ObjectTemplate.projectilePosition 0/0/2
 ObjectTemplate.magSize 600
 ObjectTemplate.numOfMag 1
@@ -70,7 +70,7 @@ ObjectTemplate.geometry ATSTRGun
 rem -------------------------------------
 ObjectTemplate.visibleBarrelTemplate e_MuzzHeavy
 rem -------------------------------------
-ObjectTemplate.projectileTemplate MediumLaserProjectileRedNS
+ObjectTemplate.projectileTemplate MediumLaserProjectileRedS
 ObjectTemplate.magSize 400
 ObjectTemplate.magType 0
 ObjectTemplate.numOfMag 1

@@ -26,6 +26,14 @@ MaterialManager.attGroup 709
 MaterialManager.defGroup 821
 MaterialManager.damageMod 1
 
+MaterialManager.attGroup 709
+MaterialManager.defGroup 831
+MaterialManager.damageMod 2
+
+MaterialManager.attGroup 709
+MaterialManager.defGroup 832
+MaterialManager.damageMod 2
+
 rem * *************************************************
 rem *		Infantry target
 rem * *************************************************

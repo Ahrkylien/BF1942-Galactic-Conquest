@@ -35,8 +35,8 @@ rem if v_arg1 == host
 
 
 ObjectTemplate.create ObjectSpawner TurbineSpawner
-ObjectTemplate.setObjectTemplate 2 ds_objective
-ObjectTemplate.setObjectTemplate 1 ds_objective
+ObjectTemplate.setObjectTemplate 2 ds_objective_new
+ObjectTemplate.setObjectTemplate 1 ds_objective_new
 ObjectTemplate.SpawnDelay 9999
 ObjectTemplate.SpawnDelayAtStart 0
 ObjectTemplate.TimeToLive 120

@@ -6,7 +6,7 @@ ObjectTemplate.networkableInfo eweb_firearmsInfo
 ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.hasResponsePhysics 1
 ObjectTemplate.hasCollisionEffect 0
-ObjectTemplate.projectileTemplate LightLaserProjectileRedNS
+ObjectTemplate.projectileTemplate LightLaserProjectileRedS
 ObjectTemplate.magSize 999
 ObjectTemplate.numOfMag 1
 ObjectTemplate.magType 0

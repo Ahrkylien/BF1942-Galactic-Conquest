@@ -14,6 +14,7 @@ ObjectTemplate.autoReload 1
 ObjectTemplate.reloadtime 3.5
 ObjectTemplate.roundOfFire 2
 ObjectTemplate.fireingForce 1
+ObjectTemplate.fireOnce 1
 ObjectTemplate.roundOfFire 2
 ObjectTemplate.recoilSpeed 10
 ObjectTemplate.recoilSize 5

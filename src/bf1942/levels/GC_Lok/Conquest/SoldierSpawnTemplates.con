@@ -1,0 +1,137 @@
+rem SoldierSpawnTemplates.con created by Battlecraft 1942
+rem (\Program Files\Battlefield 1942\Mods\GCMOD\bf1942\levels\GC_Lok/conquest/SoldierSpawnTemplates.con)
+
+rem ----------------------------------------- 
+rem ---  Imperial_Headquarters_Spawn1  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Imperial_Headquarters_Spawn1
+ObjectTemplate.setSpawnId 0
+ObjectTemplate.setGroup 1
+
+rem ----------------------------------------- 
+rem ---  Captured_Imp_Starport_Spawn1  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Captured_Imp_Starport_Spawn1
+ObjectTemplate.setSpawnId 1
+ObjectTemplate.setGroup 2
+
+rem ----------------------------------------- 
+rem ---  Research_Center_Spawn1  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Research_Center_Spawn1
+ObjectTemplate.setSpawnId 2
+ObjectTemplate.setGroup 3
+
+rem ----------------------------------------- 
+rem ---  Supply_Depot_Spawn1  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Supply_Depot_Spawn1
+ObjectTemplate.setSpawnId 31
+ObjectTemplate.setGroup 5
+
+rem ----------------------------------------- 
+rem ---  Junkyard_Spawn1  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Junkyard_Spawn1
+ObjectTemplate.setSpawnId 32
+ObjectTemplate.setGroup 4
+
+rem ----------------------------------------- 
+rem ---  Research_Center_Spawn2  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Research_Center_Spawn2
+ObjectTemplate.setSpawnId 33
+ObjectTemplate.setGroup 3
+
+rem ----------------------------------------- 
+rem ---  Research_Center_Spawn3  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Research_Center_Spawn3
+ObjectTemplate.setSpawnId 34
+ObjectTemplate.setGroup 3
+
+rem ----------------------------------------- 
+rem ---  Supply_Depot_Spawn2  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Supply_Depot_Spawn2
+ObjectTemplate.setSpawnId 35
+ObjectTemplate.setGroup 5
+
+rem ----------------------------------------- 
+rem ---  Supply_Depot_Spawn3  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Supply_Depot_Spawn3
+ObjectTemplate.setSpawnId 36
+ObjectTemplate.setGroup 5
+
+rem ----------------------------------------- 
+rem ---  Communications_Relay_Spawn1  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Communications_Relay_Spawn1
+ObjectTemplate.setSpawnId 37
+ObjectTemplate.setGroup 6
+
+rem ----------------------------------------- 
+rem ---  Communications_Relay_Spawn2  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Communications_Relay_Spawn2
+ObjectTemplate.setSpawnId 38
+ObjectTemplate.setGroup 6
+
+rem ----------------------------------------- 
+rem ---  Communications_Relay_Spawn3  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Communications_Relay_Spawn3
+ObjectTemplate.setSpawnId 39
+ObjectTemplate.setGroup 6
+
+rem ----------------------------------------- 
+rem ---  Imperial_Headquarters_Spawn2  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Imperial_Headquarters_Spawn2
+ObjectTemplate.setSpawnId 40
+ObjectTemplate.setGroup 1
+
+rem ----------------------------------------- 
+rem ---  Imperial_Headquarters_Spawn3  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Imperial_Headquarters_Spawn3
+ObjectTemplate.setSpawnId 41
+ObjectTemplate.setGroup 1
+
+rem ----------------------------------------- 
+rem ---  Imperial_Headquarters_Spawn4  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Imperial_Headquarters_Spawn4
+ObjectTemplate.setSpawnId 42
+ObjectTemplate.setGroup 1
+
+rem ----------------------------------------- 
+rem ---  Captured_Imp_Starport_Spawn2  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Captured_Imp_Starport_Spawn2
+ObjectTemplate.setSpawnId 43
+ObjectTemplate.setGroup 2
+
+rem ----------------------------------------- 
+rem ---  Captured_Imp_Starport_Spawn3  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Captured_Imp_Starport_Spawn3
+ObjectTemplate.setSpawnId 44
+ObjectTemplate.setGroup 2
+
+rem ----------------------------------------- 
+rem ---  Junkyard_Spawn2  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Junkyard_Spawn2
+ObjectTemplate.setSpawnId 45
+ObjectTemplate.setGroup 4
+
+rem ----------------------------------------- 
+rem ---  Junkyard_Spawn3  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Junkyard_Spawn3
+ObjectTemplate.setSpawnId 46
+ObjectTemplate.setGroup 4
+
+rem EndOfFile

@@ -1,0 +1,5 @@
+rem *** earthquake ***
+ObjectTemplate.create SimpleObject earthquake
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.triggerRadius 200
+ObjectTemplate.loadSoundScript earthquake.ssc

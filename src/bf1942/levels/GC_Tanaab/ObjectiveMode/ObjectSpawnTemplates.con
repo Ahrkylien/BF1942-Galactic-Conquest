@@ -40,6 +40,26 @@ ObjectTemplate.Distance 40
 ObjectTemplate.DamageWhenLost 10
 ObjectTemplate.teamOnVehicle 1
 
+ObjectTemplate.create ObjectSpawner syturbolasers2
+ObjectTemplate.setObjectTemplate 2 turbolaser2
+ObjectTemplate.setObjectTemplate 1 turbolaser2
+ObjectTemplate.SpawnDelay 100
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.teamOnVehicle 1
+
+ObjectTemplate.create ObjectSpawner syturbolasers3
+ObjectTemplate.setObjectTemplate 2 turbolaser3
+ObjectTemplate.setObjectTemplate 1 turbolaser3
+ObjectTemplate.SpawnDelay 100
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.teamOnVehicle 1
+
 ObjectTemplate.create ObjectSpawner lancer2spawn
 ObjectTemplate.setObjectTemplate 2 lancer2
 ObjectTemplate.setObjectTemplate 1 lancer2

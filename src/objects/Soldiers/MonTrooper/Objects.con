@@ -2,7 +2,7 @@ ObjectTemplate.create BFSoldier MonTrooper
 ObjectTemplate.createSkeleton animations/UsSoldier.ske
 
 include ../Common/CommonSoldierData.inc
-game.addLanguageRunTimeDirectory hothrebel
+game.addLanguageRunTimeDirectory MonTrooper
 include ../Common/Sounds/SoldierSound.inc
 
 ObjectTemplate.setSoldierStandingIcon "Soldier/Icon_us_soldier_standing.tga"
@@ -13,7 +13,7 @@ ObjectTemplate.setMinimapIcon "flag_us.tga"
 ObjectTemplate.setControlPointIcon "conp_us.tga"
 ObjectTemplate.setTicketIcon "flag_ticket_us.tga"
 ObjectTemplate.setTeamFlagIcon "Icon_flag_us.tga"
-ObjectTemplate.setRadioLanguage "HothRebel"
+ObjectTemplate.setRadioLanguage "MonTrooper"
 
 
 ObjectTemplate.addTemplate MonSoldierHead

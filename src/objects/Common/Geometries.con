@@ -55,11 +55,11 @@ rem #################################LASER FILES ##########################
 GeometryTemplate.create StandardMesh projectile_m1
 GeometryTemplate.file projectile_m1
 GeometryTemplate.setLodDistance 0 0
-GeometryTemplate.setLodDistance 1 30
-GeometryTemplate.setLodDistance 2 50
-GeometryTemplate.setLodDistance 3 100
-GeometryTemplate.setLodDistance 4 200
-GeometryTemplate.setLodDistance 5 500
+GeometryTemplate.setLodDistance 1 200
+GeometryTemplate.setLodDistance 2 300
+GeometryTemplate.setLodDistance 3 500
+GeometryTemplate.setLodDistance 4 600
+GeometryTemplate.setLodDistance 5 700
 
 GeometryTemplate.create StandardMesh tripod_stick_m1
 GeometryTemplate.file tripod_stick_m1

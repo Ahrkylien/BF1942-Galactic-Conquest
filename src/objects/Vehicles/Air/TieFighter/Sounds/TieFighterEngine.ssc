@@ -71,7 +71,7 @@ beginEffect
 	envelope Ramp
 	param 1
 	param 1
-	param 0.7
+	param 0.5
 	param 1	
 endEffect
 
@@ -105,7 +105,7 @@ load @ROOT/Sound/@RTD/tiefighter-cockpit-l.wav
 loop
 minDistance 2
 relativePosition -0.2/-0.5/-3.7
-volume 0.6
+volume 0.45
 priority 6
 *** Engine start ***
 beginEffect
@@ -148,7 +148,7 @@ load @ROOT/Sound/@RTD/tiefighter-cockpit-r.wav
 loop
 minDistance 2
 relativePosition 0.2/-0.5/-3.7
-volume 0.6
+volume 0.45
 priority 6
 *** Engine start ***
 beginEffect

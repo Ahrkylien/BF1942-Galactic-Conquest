@@ -1,11 +1,11 @@
-ObjectTemplate.create SpawnPoint sgspawn4
-ObjectTemplate.setSpawnId 44
-ObjectTemplate.setGroup 6
+ObjectTemplate.create SpawnPoint imperialspawn4
+ObjectTemplate.setSpawnId 14
+ObjectTemplate.setGroup 1
 objecttemplate.setspawnrotation 0/0/0
 objecttemplate.setspawnpositionoffset 0/0/0
 objecttemplate.setspawnpreventiondelay 0
 rem
-rem *** sgspawn5 ***
+rem *** imperialspawn5 ***
 rem
 
 ObjectTemplate.create SpawnPoint firstspawn3
@@ -18,44 +18,14 @@ rem
 rem *** firstspawn4 ***
 rem
 
-ObjectTemplate.create SpawnPoint imperialspawn4
-ObjectTemplate.setSpawnId 14
-ObjectTemplate.setGroup 1
-objecttemplate.setspawnrotation 0/0/0
-objecttemplate.setspawnpositionoffset 0/0/0
-objecttemplate.setspawnpreventiondelay 0
-rem
-rem *** imperialspawn5 ***
-rem
-
-ObjectTemplate.create SpawnPoint sgspawn5
-ObjectTemplate.setSpawnId 45
+ObjectTemplate.create SpawnPoint sgspawn4
+ObjectTemplate.setSpawnId 44
 ObjectTemplate.setGroup 6
 objecttemplate.setspawnrotation 0/0/0
 objecttemplate.setspawnpositionoffset 0/0/0
 objecttemplate.setspawnpreventiondelay 0
 rem
-rem *** sgspawn6 ***
-rem
-
-ObjectTemplate.create SpawnPoint secondspawn10
-ObjectTemplate.setSpawnId 40
-ObjectTemplate.setGroup 4
-objecttemplate.setspawnrotation 0/0/0
-objecttemplate.setspawnpositionoffset 0/0/0
-objecttemplate.setspawnpreventiondelay 0
-rem
-rem *** sgspawn1 ***
-rem
-
-ObjectTemplate.create SpawnPoint firstspawn4
-ObjectTemplate.setSpawnId 24
-ObjectTemplate.setGroup 3
-objecttemplate.setspawnrotation 0/0/0
-objecttemplate.setspawnpositionoffset 0/0/0
-objecttemplate.setspawnpreventiondelay 0
-rem
-rem *** firstspawn5 ***
+rem *** sgspawn5 ***
 rem
 
 ObjectTemplate.create SpawnPoint imperialspawn5
@@ -68,44 +38,34 @@ rem
 rem *** imperialspawn6 ***
 rem
 
-ObjectTemplate.create SpawnPoint sgspawn6
-ObjectTemplate.setSpawnId 46
-ObjectTemplate.setGroup 6
-objecttemplate.setspawnrotation 0/0/0
-objecttemplate.setspawnpositionoffset 0/0/0
-objecttemplate.setspawnpreventiondelay 0
-rem
-rem *** sgspawn7 ***
-rem
-
-ObjectTemplate.create SpawnPoint secondspawn1
-ObjectTemplate.setSpawnId 31
-ObjectTemplate.setGroup 4
-objecttemplate.setspawnrotation 0/0/0
-objecttemplate.setspawnpositionoffset 0/0/0
-objecttemplate.setspawnpreventiondelay 0
-rem
-rem *** secondspawn2 ***
-rem
-
-ObjectTemplate.create SpawnPoint firstspawn5
-ObjectTemplate.setSpawnId 25
+ObjectTemplate.create SpawnPoint firstspawn4
+ObjectTemplate.setSpawnId 24
 ObjectTemplate.setGroup 3
 objecttemplate.setspawnrotation 0/0/0
 objecttemplate.setspawnpositionoffset 0/0/0
 objecttemplate.setspawnpreventiondelay 0
 rem
-rem *** firstspawn6 ***
+rem *** firstspawn5 ***
 rem
 
-ObjectTemplate.create SpawnPoint imperialspawn6
-ObjectTemplate.setSpawnId 16
-ObjectTemplate.setGroup 1
+ObjectTemplate.create SpawnPoint secondspawn10
+ObjectTemplate.setSpawnId 40
+ObjectTemplate.setGroup 4
 objecttemplate.setspawnrotation 0/0/0
 objecttemplate.setspawnpositionoffset 0/0/0
 objecttemplate.setspawnpreventiondelay 0
 rem
-rem *** imperialspawn7 ***
+rem *** sgspawn1 ***
+rem
+
+ObjectTemplate.create SpawnPoint sgspawn5
+ObjectTemplate.setSpawnId 45
+ObjectTemplate.setGroup 6
+objecttemplate.setspawnrotation 0/0/0
+objecttemplate.setspawnpositionoffset 0/0/0
+objecttemplate.setspawnpreventiondelay 0
+rem
+rem *** sgspawn6 ***
 rem
 
 ObjectTemplate.create SpawnPoint rebelalliancespawn10
@@ -118,44 +78,44 @@ rem
 rem *** imperialspawn1 ***
 rem
 
-ObjectTemplate.create SpawnPoint sgspawn7
-ObjectTemplate.setSpawnId 47
-ObjectTemplate.setGroup 6
-objecttemplate.setspawnrotation 0/0/0
-objecttemplate.setspawnpositionoffset 0/0/0
-objecttemplate.setspawnpreventiondelay 0
-rem
-rem *** sgspawn8 ***
-rem
-
-ObjectTemplate.create SpawnPoint secondspawn2
-ObjectTemplate.setSpawnId 32
-ObjectTemplate.setGroup 4
-objecttemplate.setspawnrotation 0/0/0
-objecttemplate.setspawnpositionoffset 0/0/0
-objecttemplate.setspawnpreventiondelay 0
-rem
-rem *** secondspawn3 ***
-rem
-
-ObjectTemplate.create SpawnPoint firstspawn6
-ObjectTemplate.setSpawnId 26
-ObjectTemplate.setGroup 3
-objecttemplate.setspawnrotation 0/0/0
-objecttemplate.setspawnpositionoffset 0/0/0
-objecttemplate.setspawnpreventiondelay 0
-rem
-rem *** firstspawn7 ***
-rem
-
-ObjectTemplate.create SpawnPoint imperialspawn7
-ObjectTemplate.setSpawnId 17
+ObjectTemplate.create SpawnPoint imperialspawn6
+ObjectTemplate.setSpawnId 16
 ObjectTemplate.setGroup 1
 objecttemplate.setspawnrotation 0/0/0
 objecttemplate.setspawnpositionoffset 0/0/0
 objecttemplate.setspawnpreventiondelay 0
 rem
-rem *** imperialspawn8 ***
+rem *** imperialspawn7 ***
+rem
+
+ObjectTemplate.create SpawnPoint firstspawn5
+ObjectTemplate.setSpawnId 25
+ObjectTemplate.setGroup 3
+objecttemplate.setspawnrotation 0/0/0
+objecttemplate.setspawnpositionoffset 0/0/0
+objecttemplate.setspawnpreventiondelay 0
+rem
+rem *** firstspawn6 ***
+rem
+
+ObjectTemplate.create SpawnPoint secondspawn1
+ObjectTemplate.setSpawnId 31
+ObjectTemplate.setGroup 4
+objecttemplate.setspawnrotation 0/0/0
+objecttemplate.setspawnpositionoffset 0/0/0
+objecttemplate.setspawnpreventiondelay 0
+rem
+rem *** secondspawn2 ***
+rem
+
+ObjectTemplate.create SpawnPoint sgspawn6
+ObjectTemplate.setSpawnId 46
+ObjectTemplate.setGroup 6
+objecttemplate.setspawnrotation 0/0/0
+objecttemplate.setspawnpositionoffset 0/0/0
+objecttemplate.setspawnpreventiondelay 0
+rem
+rem *** sgspawn7 ***
 rem
 
 ObjectTemplate.create SpawnPoint rebelalliancespawn1
@@ -168,44 +128,44 @@ rem
 rem *** rebelalliancespawn2 ***
 rem
 
-ObjectTemplate.create SpawnPoint sgspawn8
-ObjectTemplate.setSpawnId 48
-ObjectTemplate.setGroup 6
-objecttemplate.setspawnrotation 0/0/0
-objecttemplate.setspawnpositionoffset 0/0/0
-objecttemplate.setspawnpreventiondelay 0
-rem
-rem *** sgspawn9 ***
-rem
-
-ObjectTemplate.create SpawnPoint secondspawn3
-ObjectTemplate.setSpawnId 33
-ObjectTemplate.setGroup 4
-objecttemplate.setspawnrotation 0/0/0
-objecttemplate.setspawnpositionoffset 0/0/0
-objecttemplate.setspawnpreventiondelay 0
-rem
-rem *** secondspawn4 ***
-rem
-
-ObjectTemplate.create SpawnPoint firstspawn7
-ObjectTemplate.setSpawnId 27
-ObjectTemplate.setGroup 3
-objecttemplate.setspawnrotation 0/0/0
-objecttemplate.setspawnpositionoffset 0/0/0
-objecttemplate.setspawnpreventiondelay 0
-rem
-rem *** firstspawn8 ***
-rem
-
-ObjectTemplate.create SpawnPoint imperialspawn8
-ObjectTemplate.setSpawnId 18
+ObjectTemplate.create SpawnPoint imperialspawn7
+ObjectTemplate.setSpawnId 17
 ObjectTemplate.setGroup 1
 objecttemplate.setspawnrotation 0/0/0
 objecttemplate.setspawnpositionoffset 0/0/0
 objecttemplate.setspawnpreventiondelay 0
 rem
-rem *** imperialspawn9 ***
+rem *** imperialspawn8 ***
+rem
+
+ObjectTemplate.create SpawnPoint firstspawn6
+ObjectTemplate.setSpawnId 26
+ObjectTemplate.setGroup 3
+objecttemplate.setspawnrotation 0/0/0
+objecttemplate.setspawnpositionoffset 0/0/0
+objecttemplate.setspawnpreventiondelay 0
+rem
+rem *** firstspawn7 ***
+rem
+
+ObjectTemplate.create SpawnPoint secondspawn2
+ObjectTemplate.setSpawnId 32
+ObjectTemplate.setGroup 4
+objecttemplate.setspawnrotation 0/0/0
+objecttemplate.setspawnpositionoffset 0/0/0
+objecttemplate.setspawnpreventiondelay 0
+rem
+rem *** secondspawn3 ***
+rem
+
+ObjectTemplate.create SpawnPoint sgspawn7
+ObjectTemplate.setSpawnId 47
+ObjectTemplate.setGroup 6
+objecttemplate.setspawnrotation 0/0/0
+objecttemplate.setspawnpositionoffset 0/0/0
+objecttemplate.setspawnpreventiondelay 0
+rem
+rem *** sgspawn8 ***
 rem
 
 ObjectTemplate.create SpawnPoint rebelalliancespawn2
@@ -218,44 +178,44 @@ rem
 rem *** rebelalliancespawn3 ***
 rem
 
-ObjectTemplate.create SpawnPoint sgspawn9
-ObjectTemplate.setSpawnId 49
-ObjectTemplate.setGroup 6
-objecttemplate.setspawnrotation 0/0/0
-objecttemplate.setspawnpositionoffset 0/0/0
-objecttemplate.setspawnpreventiondelay 0
-rem
-rem *** sgspawn10 ***
-rem
-
-ObjectTemplate.create SpawnPoint secondspawn4
-ObjectTemplate.setSpawnId 34
-ObjectTemplate.setGroup 4
-objecttemplate.setspawnrotation 0/0/0
-objecttemplate.setspawnpositionoffset 0/0/0
-objecttemplate.setspawnpreventiondelay 0
-rem
-rem *** secondspawn5 ***
-rem
-
-ObjectTemplate.create SpawnPoint firstspawn8
-ObjectTemplate.setSpawnId 28
-ObjectTemplate.setGroup 3
-objecttemplate.setspawnrotation 0/0/0
-objecttemplate.setspawnpositionoffset 0/0/0
-objecttemplate.setspawnpreventiondelay 0
-rem
-rem *** firstspawn9 ***
-rem
-
-ObjectTemplate.create SpawnPoint imperialspawn9
-ObjectTemplate.setSpawnId 19
+ObjectTemplate.create SpawnPoint imperialspawn8
+ObjectTemplate.setSpawnId 18
 ObjectTemplate.setGroup 1
 objecttemplate.setspawnrotation 0/0/0
 objecttemplate.setspawnpositionoffset 0/0/0
 objecttemplate.setspawnpreventiondelay 0
 rem
-rem *** imperialspawn10 ***
+rem *** imperialspawn9 ***
+rem
+
+ObjectTemplate.create SpawnPoint firstspawn7
+ObjectTemplate.setSpawnId 27
+ObjectTemplate.setGroup 3
+objecttemplate.setspawnrotation 0/0/0
+objecttemplate.setspawnpositionoffset 0/0/0
+objecttemplate.setspawnpreventiondelay 0
+rem
+rem *** firstspawn8 ***
+rem
+
+ObjectTemplate.create SpawnPoint secondspawn3
+ObjectTemplate.setSpawnId 33
+ObjectTemplate.setGroup 4
+objecttemplate.setspawnrotation 0/0/0
+objecttemplate.setspawnpositionoffset 0/0/0
+objecttemplate.setspawnpreventiondelay 0
+rem
+rem *** secondspawn4 ***
+rem
+
+ObjectTemplate.create SpawnPoint sgspawn8
+ObjectTemplate.setSpawnId 48
+ObjectTemplate.setGroup 6
+objecttemplate.setspawnrotation 0/0/0
+objecttemplate.setspawnpositionoffset 0/0/0
+objecttemplate.setspawnpreventiondelay 0
+rem
+rem *** sgspawn9 ***
 rem
 
 ObjectTemplate.create SpawnPoint rebelalliancespawn3
@@ -268,24 +228,44 @@ rem
 rem *** rebelalliancespawn4 ***
 rem
 
-ObjectTemplate.create SpawnPoint secondspawn5
-ObjectTemplate.setSpawnId 35
-ObjectTemplate.setGroup 4
+ObjectTemplate.create SpawnPoint imperialspawn9
+ObjectTemplate.setSpawnId 19
+ObjectTemplate.setGroup 1
 objecttemplate.setspawnrotation 0/0/0
 objecttemplate.setspawnpositionoffset 0/0/0
 objecttemplate.setspawnpreventiondelay 0
 rem
-rem *** secondspawn6 ***
+rem *** imperialspawn10 ***
 rem
 
-ObjectTemplate.create SpawnPoint firstspawn9
-ObjectTemplate.setSpawnId 29
+ObjectTemplate.create SpawnPoint firstspawn8
+ObjectTemplate.setSpawnId 28
 ObjectTemplate.setGroup 3
 objecttemplate.setspawnrotation 0/0/0
 objecttemplate.setspawnpositionoffset 0/0/0
 objecttemplate.setspawnpreventiondelay 0
 rem
-rem *** firstspawn10 ***
+rem *** firstspawn9 ***
+rem
+
+ObjectTemplate.create SpawnPoint secondspawn4
+ObjectTemplate.setSpawnId 34
+ObjectTemplate.setGroup 4
+objecttemplate.setspawnrotation 0/0/0
+objecttemplate.setspawnpositionoffset 0/0/0
+objecttemplate.setspawnpreventiondelay 0
+rem
+rem *** secondspawn5 ***
+rem
+
+ObjectTemplate.create SpawnPoint sgspawn9
+ObjectTemplate.setSpawnId 49
+ObjectTemplate.setGroup 6
+objecttemplate.setspawnrotation 0/0/0
+objecttemplate.setspawnpositionoffset 0/0/0
+objecttemplate.setspawnpreventiondelay 0
+rem
+rem *** sgspawn10 ***
 rem
 
 ObjectTemplate.create SpawnPoint rebelalliancespawn4
@@ -298,14 +278,24 @@ rem
 rem *** rebelalliancespawn5 ***
 rem
 
-ObjectTemplate.create SpawnPoint secondspawn6
-ObjectTemplate.setSpawnId 36
+ObjectTemplate.create SpawnPoint firstspawn9
+ObjectTemplate.setSpawnId 29
+ObjectTemplate.setGroup 3
+objecttemplate.setspawnrotation 0/0/0
+objecttemplate.setspawnpositionoffset 0/0/0
+objecttemplate.setspawnpreventiondelay 0
+rem
+rem *** firstspawn10 ***
+rem
+
+ObjectTemplate.create SpawnPoint secondspawn5
+ObjectTemplate.setSpawnId 35
 ObjectTemplate.setGroup 4
 objecttemplate.setspawnrotation 0/0/0
 objecttemplate.setspawnpositionoffset 0/0/0
 objecttemplate.setspawnpreventiondelay 0
 rem
-rem *** secondspawn7 ***
+rem *** secondspawn6 ***
 rem
 
 ObjectTemplate.create SpawnPoint rebelalliancespawn5
@@ -318,24 +308,14 @@ rem
 rem *** rebelalliancespawn6 ***
 rem
 
-ObjectTemplate.create SpawnPoint secondspawn7
-ObjectTemplate.setSpawnId 37
+ObjectTemplate.create SpawnPoint secondspawn6
+ObjectTemplate.setSpawnId 36
 ObjectTemplate.setGroup 4
 objecttemplate.setspawnrotation 0/0/0
 objecttemplate.setspawnpositionoffset 0/0/0
 objecttemplate.setspawnpreventiondelay 0
 rem
-rem *** secondspawn8 ***
-rem
-
-ObjectTemplate.create SpawnPoint firstspawn10
-ObjectTemplate.setSpawnId 30
-ObjectTemplate.setGroup 3
-objecttemplate.setspawnrotation 0/0/0
-objecttemplate.setspawnpositionoffset 0/0/0
-objecttemplate.setspawnpreventiondelay 0
-rem
-rem *** secondspawn1 ***
+rem *** secondspawn7 ***
 rem
 
 ObjectTemplate.create SpawnPoint rebelalliancespawn6
@@ -348,24 +328,24 @@ rem
 rem *** rebelalliancespawn7 ***
 rem
 
-ObjectTemplate.create SpawnPoint secondspawn8
-ObjectTemplate.setSpawnId 38
+ObjectTemplate.create SpawnPoint firstspawn10
+ObjectTemplate.setSpawnId 30
+ObjectTemplate.setGroup 3
+objecttemplate.setspawnrotation 0/0/0
+objecttemplate.setspawnpositionoffset 0/0/0
+objecttemplate.setspawnpreventiondelay 0
+rem
+rem *** secondspawn1 ***
+rem
+
+ObjectTemplate.create SpawnPoint secondspawn7
+ObjectTemplate.setSpawnId 37
 ObjectTemplate.setGroup 4
 objecttemplate.setspawnrotation 0/0/0
 objecttemplate.setspawnpositionoffset 0/0/0
 objecttemplate.setspawnpreventiondelay 0
 rem
-rem *** secondspawn9 ***
-rem
-
-ObjectTemplate.create SpawnPoint imperialspawn10
-ObjectTemplate.setSpawnId 20
-ObjectTemplate.setGroup 1
-objecttemplate.setspawnrotation 0/0/0
-objecttemplate.setspawnpositionoffset 0/0/0
-objecttemplate.setspawnpreventiondelay 0
-rem
-rem *** firstspawn1 ***
+rem *** secondspawn8 ***
 rem
 
 ObjectTemplate.create SpawnPoint rebelalliancespawn7
@@ -378,14 +358,24 @@ rem
 rem *** rebelalliancespawn8 ***
 rem
 
-ObjectTemplate.create SpawnPoint secondspawn9
-ObjectTemplate.setSpawnId 39
+ObjectTemplate.create SpawnPoint imperialspawn10
+ObjectTemplate.setSpawnId 20
+ObjectTemplate.setGroup 1
+objecttemplate.setspawnrotation 0/0/0
+objecttemplate.setspawnpositionoffset 0/0/0
+objecttemplate.setspawnpreventiondelay 0
+rem
+rem *** firstspawn1 ***
+rem
+
+ObjectTemplate.create SpawnPoint secondspawn8
+ObjectTemplate.setSpawnId 38
 ObjectTemplate.setGroup 4
 objecttemplate.setspawnrotation 0/0/0
 objecttemplate.setspawnpositionoffset 0/0/0
 objecttemplate.setspawnpreventiondelay 0
 rem
-rem *** secondspawn10 ***
+rem *** secondspawn9 ***
 rem
 
 ObjectTemplate.create SpawnPoint rebelalliancespawn8
@@ -398,13 +388,15 @@ rem
 rem *** rebelalliancespawn9 ***
 rem
 
-ObjectTemplate.create SpawnPoint sgspawn10
-ObjectTemplate.setSpawnId 50
-ObjectTemplate.setGroup 6
+ObjectTemplate.create SpawnPoint secondspawn9
+ObjectTemplate.setSpawnId 39
+ObjectTemplate.setGroup 4
 objecttemplate.setspawnrotation 0/0/0
 objecttemplate.setspawnpositionoffset 0/0/0
 objecttemplate.setspawnpreventiondelay 0
-rem end of file
+rem
+rem *** secondspawn10 ***
+rem
 
 ObjectTemplate.create SpawnPoint rebelalliancespawn9
 ObjectTemplate.setSpawnId 9
@@ -414,6 +406,24 @@ objecttemplate.setspawnpositionoffset 0/0/0
 objecttemplate.setspawnpreventiondelay 0
 rem
 rem *** rebelalliancespawn10 ***
+rem
+
+ObjectTemplate.create SpawnPoint sgspawn10
+ObjectTemplate.setSpawnId 50
+ObjectTemplate.setGroup 6
+objecttemplate.setspawnrotation 0/0/0
+objecttemplate.setspawnpositionoffset 0/0/0
+objecttemplate.setspawnpreventiondelay 0
+rem end of file
+
+ObjectTemplate.create SpawnPoint imperialspawn1
+ObjectTemplate.setSpawnId 11
+ObjectTemplate.setGroup 1
+objecttemplate.setspawnrotation 0/0/0
+objecttemplate.setspawnpositionoffset 0/0/0
+objecttemplate.setspawnpreventiondelay 0
+rem
+rem *** imperialspawn2 ***
 rem
 
 ObjectTemplate.create SpawnPoint sgspawn1
@@ -426,24 +436,14 @@ rem
 rem *** sgspawn2 ***
 rem
 
-ObjectTemplate.create SpawnPoint imperialspawn1
-ObjectTemplate.setSpawnId 11
+ObjectTemplate.create SpawnPoint imperialspawn2
+ObjectTemplate.setSpawnId 12
 ObjectTemplate.setGroup 1
 objecttemplate.setspawnrotation 0/0/0
 objecttemplate.setspawnpositionoffset 0/0/0
 objecttemplate.setspawnpreventiondelay 0
 rem
-rem *** imperialspawn2 ***
-rem
-
-ObjectTemplate.create SpawnPoint sgspawn2
-ObjectTemplate.setSpawnId 42
-ObjectTemplate.setGroup 6
-objecttemplate.setspawnrotation 0/0/0
-objecttemplate.setspawnpositionoffset 0/0/0
-objecttemplate.setspawnpreventiondelay 0
-rem
-rem *** sgspawn3 ***
+rem *** imperialspawn3 ***
 rem
 
 ObjectTemplate.create SpawnPoint firstspawn1
@@ -456,24 +456,24 @@ rem
 rem *** firstspawn2 ***
 rem
 
-ObjectTemplate.create SpawnPoint imperialspawn2
-ObjectTemplate.setSpawnId 12
-ObjectTemplate.setGroup 1
-objecttemplate.setspawnrotation 0/0/0
-objecttemplate.setspawnpositionoffset 0/0/0
-objecttemplate.setspawnpreventiondelay 0
-rem
-rem *** imperialspawn3 ***
-rem
-
-ObjectTemplate.create SpawnPoint sgspawn3
-ObjectTemplate.setSpawnId 43
+ObjectTemplate.create SpawnPoint sgspawn2
+ObjectTemplate.setSpawnId 42
 ObjectTemplate.setGroup 6
 objecttemplate.setspawnrotation 0/0/0
 objecttemplate.setspawnpositionoffset 0/0/0
 objecttemplate.setspawnpreventiondelay 0
 rem
-rem *** sgspawn4 ***
+rem *** sgspawn3 ***
+rem
+
+ObjectTemplate.create SpawnPoint imperialspawn3
+ObjectTemplate.setSpawnId 13
+ObjectTemplate.setGroup 1
+objecttemplate.setspawnrotation 0/0/0
+objecttemplate.setspawnpositionoffset 0/0/0
+objecttemplate.setspawnpreventiondelay 0
+rem
+rem *** imperialspawn4 ***
 rem
 
 ObjectTemplate.create SpawnPoint firstspawn2
@@ -486,13 +486,13 @@ rem
 rem *** firstspawn3 ***
 rem
 
-ObjectTemplate.create SpawnPoint imperialspawn3
-ObjectTemplate.setSpawnId 13
-ObjectTemplate.setGroup 1
+ObjectTemplate.create SpawnPoint sgspawn3
+ObjectTemplate.setSpawnId 43
+ObjectTemplate.setGroup 6
 objecttemplate.setspawnrotation 0/0/0
 objecttemplate.setspawnpositionoffset 0/0/0
 objecttemplate.setspawnpreventiondelay 0
 rem
-rem *** imperialspawn4 ***
+rem *** sgspawn4 ***
 rem
 

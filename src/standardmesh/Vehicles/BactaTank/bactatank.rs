@@ -1,4 +1,4 @@
-subshader "bactatank_Material0" "StandardMesh/Default"
+subshader "BactaTank_Material0" "StandardMesh/Default"
 {
 	lighting true;
 	materialDiffuse 1 1 1;
@@ -7,5 +7,6 @@ subshader "bactatank_Material0" "StandardMesh/Default"
         lightingSpecular true;
 	transparent true;
         twosided true;
-	texture "texture/Vehicles/BactaTank/bacta2";
+	texture "texture/Vehicles/BactaTank/BACTA_FINAL";
 }
+

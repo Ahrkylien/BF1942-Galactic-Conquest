@@ -1,0 +1,165 @@
+rem SoldierSpawns.con created by Battlecraft 1942
+rem (\Program Files\Battlefield 1942\Mods\GCMOD\bf1942\levels\GC_Anchorhead/conquest/SoldierSpawns.con)
+
+rem ----------------------------------------- 
+rem ---  AxisBase_Spawn1  ---
+rem ----------------------------------------- 
+Object.create AxisBase_Spawn1
+Object.absolutePosition 427.59/76.20/703.82
+Object.rotation 180.67/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  AlliedBase_Spawn1  ---
+rem ----------------------------------------- 
+Object.create AlliedBase_Spawn1
+Object.absolutePosition 729.23/76.20/399.74
+Object.rotation 88.79/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  AlliedBase_Spawn2  ---
+rem ----------------------------------------- 
+Object.create AlliedBase_Spawn2
+Object.absolutePosition 740.85/76.20/405.20
+Object.rotation -180.25/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  AlliedBase_Spawn4  ---
+rem ----------------------------------------- 
+Object.create AlliedBase_Spawn4
+Object.absolutePosition 732.00/76.20/348.05
+Object.rotation -92.04/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  AxisBase_Spawn3  ---
+rem ----------------------------------------- 
+Object.create AxisBase_Spawn3
+Object.absolutePosition 433.65/76.20/690.39
+Object.rotation -90.19/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  AxisBase_Spawn4  ---
+rem ----------------------------------------- 
+Object.create AxisBase_Spawn4
+Object.absolutePosition 381.45/76.20/700.05
+Object.rotation -181.21/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Imperial_Starport_Spawn1  ---
+rem ----------------------------------------- 
+Object.create Imperial_Starport_Spawn1
+Object.absolutePosition 368.06/76.19/576.26
+Object.rotation 179.59/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Imperial_Starport_Spawn2  ---
+rem ----------------------------------------- 
+Object.create Imperial_Starport_Spawn2
+Object.absolutePosition 368.72/76.19/521.23
+Object.rotation 89.62/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Imperial_Starport_Spawn3  ---
+rem ----------------------------------------- 
+Object.create Imperial_Starport_Spawn3
+Object.absolutePosition 331.98/76.19/529.46
+Object.rotation 58.12/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Imperial_Starport_Spawn4  ---
+rem ----------------------------------------- 
+Object.create Imperial_Starport_Spawn4
+Object.absolutePosition 398.98/76.19/552.07
+Object.rotation 89.68/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Cantina_Spawn1  ---
+rem ----------------------------------------- 
+Object.create Cantina_Spawn1
+Object.absolutePosition 554.28/76.24/516.89
+Object.rotation -100.53/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Cantina_Spawn3  ---
+rem ----------------------------------------- 
+Object.create Cantina_Spawn3
+Object.absolutePosition 541.03/76.23/521.45
+Object.rotation -221.67/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Cantina_Spawn4  ---
+rem ----------------------------------------- 
+Object.create Cantina_Spawn4
+Object.absolutePosition 541.91/76.24/506.75
+Object.rotation 40.10/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Cantina_Spawn5  ---
+rem ----------------------------------------- 
+Object.create Cantina_Spawn5
+Object.absolutePosition 536.14/76.19/505.11
+Object.rotation -136.59/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Rebel_Starport_Spawn1  ---
+rem ----------------------------------------- 
+Object.create Rebel_Starport_Spawn1
+Object.absolutePosition 614.46/76.22/332.32
+Object.rotation -91.12/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Rebel_Starport_Spawn2  ---
+rem ----------------------------------------- 
+Object.create Rebel_Starport_Spawn2
+Object.absolutePosition 560.78/76.22/332.29
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Rebel_Starport_Spawn3  ---
+rem ----------------------------------------- 
+Object.create Rebel_Starport_Spawn3
+Object.absolutePosition 568.62/76.20/293.99
+Object.rotation 34.23/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Rebel_Starport_Spawn4  ---
+rem ----------------------------------------- 
+Object.create Rebel_Starport_Spawn4
+Object.absolutePosition 591.02/76.20/360.86
+Object.rotation -0.65/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  AlliedBase_Spawn3  ---
+rem ----------------------------------------- 
+Object.create AlliedBase_Spawn3
+Object.absolutePosition 736.24/76.20/348.13
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  AxisBase_Spawn2  ---
+rem ----------------------------------------- 
+Object.create AxisBase_Spawn2
+Object.absolutePosition 391.84/76.20/701.92
+Object.rotation 90.55/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Camp_Spawn1  ---
+rem ----------------------------------------- 
+Object.create Camp_Spawn1
+Object.absolutePosition 380.27/93.72/327.00
+Object.rotation -93.45/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Camp_Spawn2  ---
+rem ----------------------------------------- 
+Object.create Camp_Spawn2
+Object.absolutePosition 345.77/93.86/336.63
+Object.rotation -178.96/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Camp_Spawn3  ---
+rem ----------------------------------------- 
+Object.create Camp_Spawn3
+Object.absolutePosition 380.56/93.49/345.82
+Object.rotation -137.28/0.00/0.00
+
+rem EndOfFile

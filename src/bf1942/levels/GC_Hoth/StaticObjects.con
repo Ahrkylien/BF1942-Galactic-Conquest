@@ -1384,3 +1384,15 @@ rem
 Object.create e_scrapmetalsmoke
 Object.absolutePosition 591.044/16.137/737.342
 Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create SentryTowerBase
+Object.absolutePosition 589.117/15.942/544.515
+Object.Rotation 61/0/0
+rem
+rem ***  ***
+rem
+Object.create SentryTowerBase
+Object.absolutePosition 1134.51/15.7947/587.273
+Object.Rotation -77/0/0

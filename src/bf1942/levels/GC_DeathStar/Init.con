@@ -43,17 +43,17 @@ game.setActiveCombatArea 0 0 4096 4096
 
 
 game.setTeamSkin 1 JapaneseSoldier
-game.setKit 1 0 Jap_Scout
-game.setKit 1 1 Jap_Assault
-game.setKit 1 2 Jap_AT
-game.setKit 1 3 Jap_Medic
+game.setKit 1 0 Jap_Scout3
+game.setKit 1 1 Jap_Assault3
+game.setKit 1 2 Jap_AT3
+game.setKit 1 3 Jap_Medic3
 game.setKit 1 4 Jap_Engineer3
 
 game.setTeamSkin 2 FleetSoldier
-game.setKit 2 0 Russ_Scout
-game.setKit 2 1 Russ_Assault
-game.setKit 2 2 Russ_AT
-game.setKit 2 3 Russ_Medic
+game.setKit 2 0 Fleet_Scout3
+game.setKit 2 1 Fleet_Assault3
+game.setKit 2 2 Fleet_AT3
+game.setKit 2 3 Fleet_Medic3
 game.setKit 2 4 Fleet_Engineer3
 
 rem
@@ -91,8 +91,6 @@ rem *** Set team 1 ***
 game.setBeforeSpawnCameraPosition 1 1031.61/120/1500
 rem *** Set team 2 ***
 game.setBeforeSpawnCameraPosition 2 1031.61/120/1500
-
-
 
 
 

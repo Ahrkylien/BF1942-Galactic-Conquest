@@ -1,15 +1,146 @@
-rem ***  
+rem
+rem
+Object.create jud_fakedoor01
+Object.absolutePosition 556.06/341.40/1001.42
+Object.rotation 26.76/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create static_runner
+Object.absolutePosition 1200/599.585/672.908
+Object.Rotation 45/0/0
+rem
+rem ***  ***
+rem
+Object.create static_runner
+Object.absolutePosition 1538.77/583.408/1100
+Object.Rotation 50/0/0
+rem
+rem ***  ***
+rem
+Object.create jud_armory1
+Object.absolutePosition 594.929/342.432/958.151
+Object.Rotation -180/0/0
+rem
+rem ***  ***
+rem
+Object.create jud_armory1
+Object.absolutePosition 1639.48/342.522/987.114
+Object.Rotation -150/0/0
+rem
+rem ***  ***
+rem
+Object.create jud_armory1
+Object.absolutePosition 558.025/337.694/989.315
+Object.Rotation -90/0/0
+rem
+rem ***  ***
+rem
+Object.create jud_armory1
+Object.absolutePosition 1306.76/342.36/1004.04
+Object.Rotation -180/0/0
+rem
+rem ***  ***
+rem
+Object.create jud_armory1
+Object.absolutePosition 1585.3/591.691/864.872
+Object.Rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create jud_armory2
+Object.absolutePosition 460.5/338.873/859.612
+Object.Rotation -90/0/0
+rem
+rem ***  ***
+rem
+Object.create jud_armory1
+Object.absolutePosition 686.78/342.615/888.941
+Object.Rotation 60/0/0
+rem
+rem ***  ***
+rem
+Object.create jud_armory1
+Object.absolutePosition 1283.27/342.615/865.748
+Object.Rotation -120/0/0
+rem
+rem ***  ***
+rem
+Object.create jud_armory1
+Object.absolutePosition 881.229/342.615/880.35
+Object.Rotation 60/0/0
+rem
+rem ***  ***
+rem
+Object.create jud_armory1
+Object.absolutePosition 1235.22/342.615/905.144
+Object.Rotation -120/0/0
+rem
+rem ***  ***
+rem
+Object.create jud_armory1
+Object.absolutePosition 833.174/342.615/919.745
+Object.Rotation 60/0/0
+rem
+rem ***  ***
+rem
+Object.create jud_armory1
+Object.absolutePosition 1563.07/342.615/884.908
+Object.Rotation 60/0/0
+rem
+rem ***  ***
+rem
+Object.create jud_armory1
+Object.absolutePosition 1088.82/342.615/874.339
+Object.Rotation -120/0/0
+rem
+rem ***  ***
+rem
+Object.create jud_armory1
+Object.absolutePosition 1477.52/342.615/856.93
+Object.Rotation -120/0/0
+rem
+rem ***  ***
+rem
+Object.create jud_armory1
+Object.absolutePosition 1429.46/342.615/896.325
+Object.Rotation -120/0/0
+rem
+rem ***  ***
+rem
+Object.create jud_armory1
+Object.absolutePosition 638.725/342.615/928.336
+Object.Rotation 60/0/0
+rem
+rem ***  ***
+rem
+Object.create jud_armory1
+Object.absolutePosition 1040.77/342.615/913.735
+Object.Rotation -120/0/0
+rem
+rem ***  ***
+rem
 Object.create jud_fakedoor04
-Object.absolutePosition 1570.79/342.225/864.358
-Object.rotation -90.0/0.0/0.0
-rem ***  
+Object.absolutePosition 1740.35/341.049/1029.96
+Object.Rotation -90/0/0
+rem
+rem ***  ***
+rem
+Object.create njud_tram_security
+Object.absolutePosition 1756.71/349.296/1029.04
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
 Object.create ds_block05
 Object.absolutePosition 1597.6/594.804/971.292
-Object.rotation 0.0/0.0/90.0
-rem ***  
+Object.Rotation 0/0/90
+rem
+rem ***  ***
+rem
 Object.create ds_block05
 Object.absolutePosition 1597.6/594.804/771.119
-Object.rotation 0.0/0.0/90.0
+Object.Rotation 0/0/90
 rem
 rem ***  ***
 rem
@@ -403,72 +534,6 @@ Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create jud_armory1
-Object.absolutePosition 686.78/342.615/888.941
-Object.Rotation 60/0/0
-rem
-rem ***  ***
-rem
-Object.create jud_armory1
-Object.absolutePosition 1283.27/342.615/865.748
-Object.Rotation -120/0/0
-rem
-rem ***  ***
-rem
-Object.create jud_armory1
-Object.absolutePosition 881.229/342.615/880.35
-Object.Rotation 60/0/0
-rem
-rem ***  ***
-rem
-Object.create jud_armory1
-Object.absolutePosition 1235.22/342.615/905.144
-Object.Rotation -120/0/0
-rem
-rem ***  ***
-rem
-Object.create jud_armory1
-Object.absolutePosition 833.174/342.615/919.745
-Object.Rotation 60/0/0
-rem
-rem ***  ***
-rem
-Object.create jud_armory1
-Object.absolutePosition 1563.07/342.615/884.908
-Object.Rotation 60/0/0
-rem
-rem ***  ***
-rem
-Object.create jud_armory1
-Object.absolutePosition 1088.82/342.615/874.339
-Object.Rotation -120/0/0
-rem
-rem ***  ***
-rem
-Object.create jud_armory1
-Object.absolutePosition 1477.52/342.615/856.93
-Object.Rotation -120/0/0
-rem
-rem ***  ***
-rem
-Object.create jud_armory1
-Object.absolutePosition 1429.46/342.615/896.325
-Object.Rotation -120/0/0
-rem
-rem ***  ***
-rem
-Object.create jud_armory1
-Object.absolutePosition 638.725/342.615/928.336
-Object.Rotation 60/0/0
-rem
-rem ***  ***
-rem
-Object.create jud_armory1
-Object.absolutePosition 1040.77/342.615/913.735
-Object.Rotation -120/0/0
-rem
-rem ***  ***
-rem
 Object.create jud_bridgehall
 Object.absolutePosition 1613.24/341.584/881.216
 Object.Rotation 0/0/0
@@ -686,12 +751,6 @@ rem
 rem ***  ***
 rem
 Object.create jud_bulk03
-Object.absolutePosition 1571.19/342.706/878.56
-Object.Rotation 90/0/0
-rem
-rem ***  ***
-rem
-Object.create jud_bulk03
 Object.absolutePosition 875.863/341.199/892.567
 Object.Rotation 180/0/0
 rem
@@ -716,25 +775,7 @@ rem
 rem ***  ***
 rem
 Object.create jud_bulk03
-Object.absolutePosition 1568.31/342.706/875.75
-Object.Rotation 0/0/0
-rem
-rem ***  ***
-rem
-Object.create jud_bulk03
 Object.absolutePosition 865.199/341.199/887.818
-Object.Rotation -90/0/0
-rem
-rem ***  ***
-rem
-Object.create jud_bulk03
-Object.absolutePosition 1568.47/342.706/877.591
-Object.Rotation 0/0/0
-rem
-rem ***  ***
-rem
-Object.create jud_bulk03
-Object.absolutePosition 1569.02/341.701/870.853
 Object.Rotation -90/0/0
 rem
 rem ***  ***
@@ -760,12 +801,6 @@ rem
 Object.create jud_bulk03
 Object.absolutePosition 1240.59/341.199/892.926
 Object.Rotation 0/0/0
-rem
-rem ***  ***
-rem
-Object.create jud_bulk03
-Object.absolutePosition 1569.81/342.077/870.853
-Object.Rotation -90/0/0
 rem
 rem ***  ***
 rem
@@ -808,18 +843,6 @@ rem
 Object.create jud_bulk03
 Object.absolutePosition 1397.55/341.199/888.857
 Object.Rotation 90/0/0
-rem
-rem ***  ***
-rem
-Object.create jud_bulk03
-Object.absolutePosition 1568.29/341.337/870.853
-Object.Rotation -90/0/0
-rem
-rem ***  ***
-rem
-Object.create jud_bulk03
-Object.absolutePosition 1571.31/342.475/874.569
-Object.Rotation -90/0/0
 rem
 rem ***  ***
 rem
@@ -1190,12 +1213,6 @@ rem
 rem ***  ***
 rem
 Object.create jud_fakedoor04
-Object.absolutePosition 1045.68/340.952/923.009
-Object.Rotation -180/0/0
-rem
-rem ***  ***
-rem
-Object.create jud_fakedoor04
 Object.absolutePosition 1349.85/340.952/888.258
 Object.Rotation 90/0/0
 rem
@@ -1294,12 +1311,6 @@ rem
 Object.create jud_fakedoor04
 Object.absolutePosition 817.364/340.952/896.591
 Object.Rotation 90/0/0
-rem
-rem ***  ***
-rem
-Object.create jud_fakedoor04
-Object.absolutePosition 1571.36/342.225/867.496
-Object.Rotation -90/0/0
 rem
 rem ***  ***
 rem
@@ -1520,12 +1531,6 @@ rem
 rem ***  ***
 rem
 Object.create jud_faketl
-Object.absolutePosition 1564.92/341.361/871.18
-Object.Rotation -135/0/0
-rem
-rem ***  ***
-rem
-Object.create jud_faketl
 Object.absolutePosition 1179.47/341.361/897.436
 Object.Rotation 45/0/0
 rem
@@ -1600,12 +1605,6 @@ rem
 Object.create jud_hall03
 Object.absolutePosition 744.096/341.331/905.76
 Object.Rotation -90/0/0
-rem
-rem ***  ***
-rem
-Object.create jud_hall03
-Object.absolutePosition 1542.82/341.331/870.842
-Object.Rotation 90/0/0
 rem
 rem ***  ***
 rem
@@ -1839,793 +1838,793 @@ rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1410.72/344.783/888.786
-Object.Rotation 0/5.00896e-006/0
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1412.64/343.831/883.365
-Object.Rotation 90/-3.41509e-006/90
+Object.Rotation 90/0/90
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1458.77/344.783/888.786
-Object.Rotation 0/5.00896e-006/0
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1438.01/346.194/899.466
-Object.Rotation -165/1.86693e-005/0
+Object.Rotation -165/2.73208e-005/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1482.31/344.783/888.786
-Object.Rotation 0/5.00896e-006/0
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1421.32/343.831/875.867
-Object.Rotation -90/3.41509e-006/90
+Object.Rotation -90/-1.70755e-006/90
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1461.58/343.831/883.365
-Object.Rotation 90/-3.41509e-006/90
+Object.Rotation 90/0/90
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1364.69/343.831/883.365
-Object.Rotation 90/-3.41509e-006/90
+Object.Rotation 90/0/90
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 633.283/346.194/926.848
-Object.Rotation 105/1.86693e-005/0
+Object.Rotation 105/2.73208e-005/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1386.31/344.783/888.786
-Object.Rotation 0/5.00896e-006/0
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 628.85/344.783/914.443
-Object.Rotation 180/5.00896e-006/0
+Object.Rotation 180/0/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1362.78/344.783/888.786
-Object.Rotation 0/5.00896e-006/0
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 600.422/344.783/914.456
-Object.Rotation 180/5.00896e-006/0
+Object.Rotation 180/0/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1440.58/344.39/896.338
-Object.Rotation -150/0/90
+Object.Rotation -150/-1.70755e-006/90
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1487.39/344.783/870.823
-Object.Rotation 0/5.00896e-006/0
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1482.96/346.194/858.418
-Object.Rotation -75/1.86693e-005/0
+Object.Rotation -75/2.73208e-005/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 627.664/344.39/922.095
-Object.Rotation -30/0/90
+Object.Rotation -30/-1.70755e-006/90
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1427.21/343.831/875.083
-Object.Rotation 90/-3.41509e-006/90
+Object.Rotation 90/0/90
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1488.58/344.39/863.171
-Object.Rotation 150/0/90
+Object.Rotation 150/1.70755e-006/90
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1600.03/345.263/878.371
-Object.Rotation -90/0/-90
+Object.Rotation -90/-1.70755e-006/-90
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 633.935/344.783/905.584
-Object.Rotation 180/5.00896e-006/0
+Object.Rotation 180/0/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1623.45/344.476/891.805
-Object.Rotation -45/1.86693e-005/0
+Object.Rotation -45/2.73208e-005/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 657.471/344.783/905.584
-Object.Rotation 180/5.00896e-006/0
+Object.Rotation 180/0/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1515.82/344.783/870.81
-Object.Rotation 0/5.00896e-006/0
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 627.614/344.39/928.324
-Object.Rotation 30/-3.41509e-006/90
+Object.Rotation 30/8.53774e-007/90
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 633.935/344.783/896.479
-Object.Rotation 180/5.00896e-006/0
+Object.Rotation 180/0/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 974.08/344.783/906.196
-Object.Rotation 0/5.00896e-006/0
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 657.471/344.783/896.479
-Object.Rotation 180/5.00896e-006/0
+Object.Rotation 180/0/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1552.01/344.39/878.666
-Object.Rotation -30/0/90
+Object.Rotation -30/-1.70755e-006/90
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 997.616/344.783/906.196
-Object.Rotation 0/5.00896e-006/0
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 705.521/344.783/896.479
-Object.Rotation 180/5.00896e-006/0
+Object.Rotation 180/0/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 681.986/344.783/896.479
-Object.Rotation 180/5.00896e-006/0
+Object.Rotation 180/0/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 975.997/343.831/900.775
-Object.Rotation 90/-3.41509e-006/90
+Object.Rotation 90/0/90
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 681.986/344.783/905.584
-Object.Rotation 180/5.00896e-006/0
+Object.Rotation 180/0/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 997.616/344.783/897.091
-Object.Rotation 0/5.00896e-006/0
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1023.94/343.831/900.775
-Object.Rotation 90/-3.41509e-006/90
+Object.Rotation 90/0/90
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1553.2/344.783/871.014
-Object.Rotation 180/5.00896e-006/0
+Object.Rotation 180/0/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1022.03/344.783/906.196
-Object.Rotation 0/5.00896e-006/0
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1524.77/344.783/871.027
-Object.Rotation 180/5.00896e-006/0
+Object.Rotation 180/0/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1032.63/343.831/893.277
-Object.Rotation -90/3.41509e-006/90
+Object.Rotation -90/-1.70755e-006/90
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1557.63/346.194/883.419
-Object.Rotation 105/1.86693e-005/0
+Object.Rotation 105/2.73208e-005/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1038.51/343.831/892.492
-Object.Rotation 90/-3.41509e-006/90
+Object.Rotation 90/0/90
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 645.987/343.831/909.399
-Object.Rotation 90/-3.41509e-006/90
+Object.Rotation 90/0/90
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 654.668/343.831/901.9
-Object.Rotation -90/0/90
+Object.Rotation -90/-1.70755e-006/90
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1045.56/344.783/906.196
-Object.Rotation 0/5.00896e-006/0
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 675.669/344.39/888.928
-Object.Rotation 30/-3.41509e-006/90
+Object.Rotation 30/8.53774e-007/90
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1045.56/344.783/897.091
-Object.Rotation 0/5.00896e-006/0
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1051.83/344.39/919.977
-Object.Rotation 150/0/90
+Object.Rotation 150/1.70755e-006/90
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1070.08/344.783/906.196
-Object.Rotation 0/5.00896e-006/0
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1049.31/346.194/916.876
-Object.Rotation -165/1.86693e-005/0
+Object.Rotation -165/2.73208e-005/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1093.61/344.783/906.196
-Object.Rotation 0/5.00896e-006/0
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 678.235/346.194/885.8
-Object.Rotation 15/1.86693e-005/0
+Object.Rotation 15/2.73208e-005/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1081.56/343.831/893.277
-Object.Rotation -90/3.41509e-006/90
+Object.Rotation -90/-1.70755e-006/90
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 675.719/344.39/882.699
-Object.Rotation -30/0/90
+Object.Rotation -30/-1.70755e-006/90
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1070.08/344.783/897.091
-Object.Rotation 0/5.00896e-006/0
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1072.88/343.831/900.775
-Object.Rotation 90/-3.41509e-006/90
+Object.Rotation 90/0/90
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1093.61/344.783/897.091
-Object.Rotation 0/5.00896e-006/0
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1434.26/344.783/888.786
-Object.Rotation 0/5.00896e-006/0
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1577.74/346.031/874.822
-Object.Rotation -180/9.39151e-006/0
+Object.Rotation -180/0/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1098.7/344.783/888.233
-Object.Rotation 0/5.00896e-006/0
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 689.038/343.831/910.183
-Object.Rotation -90/0/90
+Object.Rotation -90/-1.70755e-006/90
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1094.27/346.194/875.827
-Object.Rotation -75/1.86693e-005/0
+Object.Rotation -75/2.73208e-005/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 703.605/343.831/901.9
-Object.Rotation -90/0/90
+Object.Rotation -90/-1.70755e-006/90
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1099.89/344.39/880.581
-Object.Rotation 150/0/90
+Object.Rotation 150/1.70755e-006/90
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1099.94/344.39/874.352
-Object.Rotation -150/0/90
+Object.Rotation -150/-1.70755e-006/90
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 694.924/343.831/909.399
-Object.Rotation 90/-3.41509e-006/90
+Object.Rotation 90/0/90
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 729.933/344.783/905.584
-Object.Rotation 180/5.00896e-006/0
+Object.Rotation 180/0/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 751.553/343.831/901.9
-Object.Rotation -90/0/90
+Object.Rotation -90/-1.70755e-006/90
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1452.66/343.831/875.867
-Object.Rotation -90/3.41509e-006/90
+Object.Rotation -90/-1.70755e-006/90
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 729.933/344.783/896.479
-Object.Rotation 180/5.00896e-006/0
+Object.Rotation 180/0/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 753.469/344.783/896.479
-Object.Rotation 180/5.00896e-006/0
+Object.Rotation 180/0/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1063.97/343.831/893.277
-Object.Rotation -90/3.41509e-006/90
+Object.Rotation -90/-1.70755e-006/90
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1434.26/344.783/879.682
-Object.Rotation 0/5.00896e-006/0
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1127.13/344.783/888.22
-Object.Rotation 0/5.00896e-006/0
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1138.18/344.757/888.377
-Object.Rotation -180/9.39151e-006/0
+Object.Rotation -180/0/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1051.88/344.39/913.747
-Object.Rotation -150/0/90
+Object.Rotation -150/-1.70755e-006/90
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 783.822/344.757/905.707
-Object.Rotation 0/9.39151e-006/0
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 589.373/344.757/914.298
-Object.Rotation 0/9.39151e-006/0
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1168.53/344.783/897.605
-Object.Rotation 0/5.00896e-006/0
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1192.07/344.783/897.605
-Object.Rotation 0/5.00896e-006/0
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1170.45/343.831/892.184
-Object.Rotation 90/-3.41509e-006/90
+Object.Rotation 90/0/90
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 794.871/344.783/905.865
-Object.Rotation 180/5.00896e-006/0
+Object.Rotation 180/0/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1192.07/344.783/888.5
-Object.Rotation 0/5.00896e-006/0
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1440.53/344.39/902.567
-Object.Rotation 150/0/90
+Object.Rotation 150/1.70755e-006/90
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1470.26/343.831/875.867
-Object.Rotation -90/3.41509e-006/90
+Object.Rotation -90/-1.70755e-006/90
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 883.488/343.831/901.592
-Object.Rotation -90/0/90
+Object.Rotation -90/-1.70755e-006/90
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1232.96/343.831/883.901
-Object.Rotation 90/-3.41509e-006/90
+Object.Rotation 90/0/90
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 822.064/344.39/919.733
-Object.Rotation 30/-3.41509e-006/90
+Object.Rotation 30/8.53774e-007/90
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 822.113/344.39/913.504
-Object.Rotation -30/0/90
+Object.Rotation -30/-1.70755e-006/90
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1246.28/344.39/911.386
-Object.Rotation 150/0/90
+Object.Rotation 150/1.70755e-006/90
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1243.76/346.194/908.285
-Object.Rotation -165/1.86693e-005/0
+Object.Rotation -165/2.73208e-005/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1458.77/344.783/879.682
-Object.Rotation 0/5.00896e-006/0
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1386.31/344.783/879.682
-Object.Rotation 0/5.00896e-006/0
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 827.732/346.194/918.257
-Object.Rotation 105/1.86693e-005/0
+Object.Rotation 105/2.73208e-005/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1240.01/344.783/888.5
-Object.Rotation 0/5.00896e-006/0
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 823.3/344.783/905.852
-Object.Rotation 180/5.00896e-006/0
+Object.Rotation 180/0/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1276.01/343.831/884.686
-Object.Rotation -90/3.41509e-006/90
+Object.Rotation -90/-1.70755e-006/90
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1240.01/344.783/897.605
-Object.Rotation 0/5.00896e-006/0
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1264.53/344.783/897.605
-Object.Rotation 0/5.00896e-006/0
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1267.33/343.831/892.184
-Object.Rotation 90/-3.41509e-006/90
+Object.Rotation 90/0/90
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1288.06/344.783/897.605
-Object.Rotation 0/5.00896e-006/0
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 828.385/344.783/896.993
-Object.Rotation 180/5.00896e-006/0
+Object.Rotation 180/0/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 851.92/344.783/896.993
-Object.Rotation 180/5.00896e-006/0
+Object.Rotation 180/0/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1258.42/343.831/884.686
-Object.Rotation -90/3.41509e-006/90
+Object.Rotation -90/-1.70755e-006/90
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1264.53/344.783/888.5
-Object.Rotation 0/5.00896e-006/0
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 828.385/344.783/887.888
-Object.Rotation 180/5.00896e-006/0
+Object.Rotation 180/0/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1288.06/344.783/888.5
-Object.Rotation 0/5.00896e-006/0
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 851.92/344.783/887.888
-Object.Rotation 180/5.00896e-006/0
+Object.Rotation 180/0/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1246.33/344.39/905.156
-Object.Rotation -150/0/90
+Object.Rotation -150/-1.70755e-006/90
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1293.15/344.783/879.642
-Object.Rotation 0/5.00896e-006/0
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1288.72/346.194/867.236
-Object.Rotation -75/1.86693e-005/0
+Object.Rotation -75/2.73208e-005/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 876.435/344.783/887.888
-Object.Rotation 180/5.00896e-006/0
+Object.Rotation 180/0/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1294.34/344.39/871.99
-Object.Rotation 150/0/90
+Object.Rotation 150/1.70755e-006/90
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 876.435/344.783/896.993
-Object.Rotation 180/5.00896e-006/0
+Object.Rotation 180/0/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1294.39/344.39/865.761
-Object.Rotation -150/0/90
+Object.Rotation -150/-1.70755e-006/90
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 870.168/344.39/874.108
-Object.Rotation -30/0/90
+Object.Rotation -30/-1.70755e-006/90
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1482.31/344.783/879.682
-Object.Rotation 0/5.00896e-006/0
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 872.685/346.194/877.209
-Object.Rotation 15/1.86693e-005/0
+Object.Rotation 15/2.73208e-005/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 840.437/343.831/900.808
-Object.Rotation 90/-3.41509e-006/90
+Object.Rotation 90/0/90
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 849.117/343.831/893.309
-Object.Rotation -90/0/90
+Object.Rotation -90/-1.70755e-006/90
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 858.03/343.831/900.808
-Object.Rotation 90/-3.41509e-006/90
+Object.Rotation 90/0/90
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 870.119/344.39/880.337
-Object.Rotation 30/-3.41509e-006/90
+Object.Rotation 30/8.53774e-007/90
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1332.63/344.757/879.786
-Object.Rotation -180/9.39151e-006/0
+Object.Rotation -180/0/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1321.58/344.783/879.629
-Object.Rotation 0/5.00896e-006/0
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 889.374/343.831/900.808
-Object.Rotation 90/-3.41509e-006/90
+Object.Rotation 90/0/90
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 947.919/344.783/887.888
-Object.Rotation 180/5.00896e-006/0
+Object.Rotation 180/0/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 924.383/344.783/887.888
-Object.Rotation 180/5.00896e-006/0
+Object.Rotation 180/0/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 663.58/343.831/909.399
-Object.Rotation 90/-3.41509e-006/90
+Object.Rotation 90/0/90
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 946.003/343.831/893.309
-Object.Rotation -90/0/90
+Object.Rotation -90/-1.70755e-006/90
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 924.383/344.783/896.993
-Object.Rotation 180/5.00896e-006/0
+Object.Rotation 180/0/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 898.055/343.831/893.309
-Object.Rotation -90/0/90
+Object.Rotation -90/-1.70755e-006/90
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 899.971/344.783/887.888
-Object.Rotation 180/5.00896e-006/0
+Object.Rotation 180/0/0
 rem
 rem ***  ***
 rem
@@ -3854,7 +3853,7 @@ rem
 rem ***  ***
 rem
 Object.create healthpack
-Object.absolutePosition 460.884/338.886/858.557
+Object.absolutePosition 460.4/338.886/859.425
 Object.Rotation 90/0/0
 rem
 rem ***  ***
@@ -4009,48 +4008,6 @@ Object.Rotation 90/0/0
 rem
 rem ***  ***
 rem
-Object.create healthpack
-Object.absolutePosition 460.884/338.886/858.557
-Object.Rotation 90/0/0
-rem
-rem ***  ***
-rem
-Object.create jud_armory1
-Object.absolutePosition 594.929/342.432/958.151
-Object.Rotation -180/0/0
-rem
-rem ***  ***
-rem
-Object.create jud_armory1
-Object.absolutePosition 1639.48/342.522/987.114
-Object.Rotation -150/0/0
-rem
-rem ***  ***
-rem
-Object.create jud_armory1
-Object.absolutePosition 558.025/337.694/989.315
-Object.Rotation -90/0/0
-rem
-rem ***  ***
-rem
-Object.create jud_armory1
-Object.absolutePosition 1306.76/342.36/1004.04
-Object.Rotation -180/0/0
-rem
-rem ***  ***
-rem
-Object.create jud_armory1
-Object.absolutePosition 1585.3/591.691/864.872
-Object.Rotation 90/0/0
-rem
-rem ***  ***
-rem
-Object.create jud_armory2
-Object.absolutePosition 461.021/338.873/858.685
-Object.Rotation -90/0/0
-rem
-rem ***  ***
-rem
 Object.create jud_comp01
 Object.absolutePosition 1584.6/588.663/870.149
 Object.Rotation -90/0/0
@@ -4148,24 +4105,15 @@ Object.geometry.scale 1.7/1.7/1.7
 rem
 rem ***  ***
 rem
-Object.create tan_isd_back
-Object.absolutePosition 1308.42/396.711/866.589
-Object.Rotation 50/0/0
-Object.geometry.scale 1.02/1.02/1.02
+Object.create njud_conhall
+Object.absolutePosition 1059.77/343.498/1029.38
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create tan_isd_front
-Object.absolutePosition 1207.8/396.711/864.142
-Object.Rotation 50/0/0
-Object.geometry.scale 1.02/1.02/1.02
-rem
-rem ***  ***
-rem
-Object.create tan_isd_top
-Object.absolutePosition 1440.63/340/877.375
-Object.Rotation 50/0/0
-Object.geometry.scale 1.02/1.02/1.02
+Object.create njud_rails_02
+Object.absolutePosition 678.116/338.408/1028.63
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
@@ -4238,7 +4186,7 @@ rem ***  ***
 rem
 Object.create jud_bulk03
 Object.absolutePosition 561.563/340.545/1000.64
-Object.Rotation -90/90/-90
+Object.Rotation 0/90/0
 rem
 rem ***  ***
 rem
@@ -4262,7 +4210,7 @@ rem ***  ***
 rem
 Object.create jud_bulk03
 Object.absolutePosition 1585.91/592.796/885.707
-Object.Rotation 90/-1.70755e-006/-115
+Object.Rotation 90/8.53774e-006/-115
 rem
 rem ***  ***
 rem
@@ -4298,12 +4246,6 @@ rem ***  ***
 rem
 Object.create jud_fakedoor01
 Object.absolutePosition 535.385/341.311/969.991
-Object.Rotation 0/0/0
-rem
-rem ***  ***
-rem
-Object.create jud_fakedoor01
-Object.absolutePosition 558.043/336.746/985.07
 Object.Rotation 0/0/0
 rem
 rem ***  ***
@@ -4477,7 +4419,7 @@ rem
 rem ***  ***
 rem
 Object.create jud_fakedoor04
-Object.absolutePosition 1652.64/340.952/1053.76
+Object.absolutePosition 1652.64/340.952/1052.87
 Object.Rotation 180/0/0
 rem
 rem ***  ***
@@ -4489,7 +4431,7 @@ rem
 rem ***  ***
 rem
 Object.create jud_fakedoor04
-Object.absolutePosition 1310.91/340.952/1053.76
+Object.absolutePosition 1310.91/340.952/1053.21
 Object.Rotation 180/0/0
 rem
 rem ***  ***
@@ -4614,9 +4556,9 @@ Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create jud_hanger
-Object.absolutePosition 511.568/341.255/905.868
-Object.Rotation -180/0/0
+Object.create njud_hanger
+Object.absolutePosition 511.559/341.228/906.049
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
@@ -4688,31 +4630,31 @@ rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 812.655/345.783/1004.16
-Object.Rotation 0/-90/0
+Object.Rotation -90/-90/-90
 rem
 rem ***  ***
 rem
 Object.create jud_light1
-Object.absolutePosition 812.725/345.857/1054.15
+Object.absolutePosition 812.725/345.857/1054.03
 Object.Rotation 0/90/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 755.682/345.783/1004.16
-Object.Rotation 0/-90/0
+Object.Rotation -90/-90/-90
 rem
 rem ***  ***
 rem
 Object.create jud_light1
-Object.absolutePosition 867.687/345.857/1054.15
+Object.absolutePosition 867.687/345.857/1054.01
 Object.Rotation 0/90/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 699.142/345.783/1004.16
-Object.Rotation 0/-90/0
+Object.Rotation -90/-90/-90
 rem
 rem ***  ***
 rem
@@ -4724,12 +4666,12 @@ rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 642.174/345.783/1004.16
-Object.Rotation 0/-90/0
+Object.Rotation -90/-90/-90
 rem
 rem ***  ***
 rem
 Object.create jud_light1
-Object.absolutePosition 972.773/345.857/1054.15
+Object.absolutePosition 972.773/345.857/1053.93
 Object.Rotation 0/90/0
 rem
 rem ***  ***
@@ -4742,25 +4684,25 @@ rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1246.35/345.783/1004.16
-Object.Rotation 0/-90/0
+Object.Rotation -90/-90/-90
 rem
 rem ***  ***
 rem
 Object.create jud_light1
-Object.absolutePosition 755.807/345.857/1054.15
+Object.absolutePosition 755.807/345.857/1054.06
 Object.Rotation 0/90/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
-Object.absolutePosition 1026.77/345.857/1054.15
+Object.absolutePosition 1026.77/345.857/1053.9
 Object.Rotation 0/90/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1605.54/345.783/1004.16
-Object.Rotation 0/-90/0
+Object.Rotation -90/-90/-90
 rem
 rem ***  ***
 rem
@@ -4777,55 +4719,55 @@ rem
 rem ***  ***
 rem
 Object.create jud_light1
-Object.absolutePosition 1135.77/345.857/1054.15
+Object.absolutePosition 1135.77/345.857/1053.84
 Object.Rotation 0/90/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 594.842/345.783/1004.16
-Object.Rotation 0/-90/0
+Object.Rotation -90/-90/-90
 rem
 rem ***  ***
 rem
 Object.create jud_light1
-Object.absolutePosition 1192.69/345.857/1054.15
+Object.absolutePosition 1192.69/345.857/1053.83
 Object.Rotation 0/90/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 579.548/350.266/1038.23
-Object.Rotation 0/9.39151e-006/0
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
-Object.absolutePosition 1246.34/345.857/1054.15
+Object.absolutePosition 1246.34/345.857/1053.79
 Object.Rotation 0/90/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 579.548/350.266/1019.67
-Object.Rotation 0/9.39151e-006/0
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
-Object.absolutePosition 1300.67/345.857/1054.15
+Object.absolutePosition 1300.67/345.857/1053.77
 Object.Rotation 0/90/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 561.044/350.266/1029.96
-Object.Rotation 0/9.39151e-006/0
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
-Object.absolutePosition 1348.18/345.857/1054.15
+Object.absolutePosition 1348.18/345.857/1053.72
 Object.Rotation 0/90/0
 rem
 rem ***  ***
@@ -4837,7 +4779,7 @@ rem
 rem ***  ***
 rem
 Object.create jud_light1
-Object.absolutePosition 1401.19/345.857/1054.15
+Object.absolutePosition 1401.19/345.857/1053.71
 Object.Rotation 0/90/0
 rem
 rem ***  ***
@@ -4849,7 +4791,7 @@ rem
 rem ***  ***
 rem
 Object.create jud_light1
-Object.absolutePosition 1454.88/345.857/1054.15
+Object.absolutePosition 1454.88/345.857/1053.67
 Object.Rotation 0/90/0
 rem
 rem ***  ***
@@ -4861,128 +4803,116 @@ rem
 rem ***  ***
 rem
 Object.create jud_light1
-Object.absolutePosition 1506.92/345.857/1054.15
+Object.absolutePosition 1506.92/345.857/1053.66
 Object.Rotation 0/90/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 552.379/344.511/1006.52
-Object.Rotation 60/5.12264e-006/-45
+Object.Rotation 60/0/-45
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 867.817/345.783/1004.16
-Object.Rotation 0/-90/0
+Object.Rotation -90/-90/-90
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 544.559/344.511/998.369
-Object.Rotation 25/5.97642e-006/-45
+Object.Rotation 25/0/-45
 rem
 rem ***  ***
 rem
 Object.create jud_light1
-Object.absolutePosition 1605.81/345.857/1054.15
+Object.absolutePosition 1605.81/345.857/1053.59
 Object.Rotation 0/90/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 543.324/344.511/984.486
-Object.Rotation 0/6.6408e-006/-45
+Object.Rotation 0/0/-45
 rem
 rem ***  ***
 rem
 Object.create jud_light1
-Object.absolutePosition 1644.87/345.857/1054.15
+Object.absolutePosition 1644.87/345.857/1053.59
 Object.Rotation 0/90/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 544.271/344.595/1006.29
-Object.Rotation 45/5.97642e-006/45
+Object.Rotation 45/-8.53774e-007/45
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 538.784/344.595/991.195
-Object.Rotation 0/6.6408e-006/45
+Object.Rotation 0/0/45
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1135.35/345.783/1004.16
-Object.Rotation 0/-90/0
+Object.Rotation -90/-90/-90
 rem
 rem ***  ***
 rem
 Object.create jud_light1
-Object.absolutePosition 1723.33/345.857/1054.15
+Object.absolutePosition 1723.33/345.857/1053.53
 Object.Rotation 0/90/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 536.884/344.757/972.54
-Object.Rotation 0/9.39151e-006/0
-rem
-rem ***  ***
-rem
-Object.create jud_light1
-Object.absolutePosition 1763.68/345.857/1054.15
-Object.Rotation 0/90/0
-rem
-rem ***  ***
-rem
-Object.create jud_light1
-Object.absolutePosition 1804.7/345.857/1054.15
-Object.Rotation 0/90/0
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 538.659/344.595/977.672
-Object.Rotation 0/6.6408e-006/45
+Object.Rotation 0/0/45
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1642.56/346.181/987.835
-Object.Rotation -90/1.86693e-005/0
+Object.Rotation -90/2.73208e-005/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1556.76/345.783/1004.16
-Object.Rotation 0/-90/0
+Object.Rotation -90/-90/-90
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1683.32/345.783/1004.16
-Object.Rotation 0/-90/0
+Object.Rotation -90/-90/-90
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 582.415/344.757/969.809
-Object.Rotation 0/9.39151e-006/0
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 594.807/345.82/963.694
-Object.Rotation 0/9.39151e-006/0
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 594.807/345.82/969.809
-Object.Rotation 0/9.39151e-006/0
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
@@ -4993,68 +4923,56 @@ rem
 rem ***  ***
 rem
 Object.create jud_light1
-Object.absolutePosition 698.835/345.857/1054.15
+Object.absolutePosition 698.835/345.857/1054.1
 Object.Rotation 0/90/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 922.525/345.783/1004.16
-Object.Rotation 0/-90/0
+Object.Rotation -90/-90/-90
 rem
 rem ***  ***
 rem
 Object.create jud_light1
-Object.absolutePosition 641.94/345.857/1054.15
+Object.absolutePosition 641.94/345.857/1054.12
 Object.Rotation 0/90/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 972.736/345.783/1004.16
-Object.Rotation 0/-90/0
-rem
-rem ***  ***
-rem
-Object.create jud_light1
-Object.absolutePosition 1804.89/345.783/1004.16
-Object.Rotation 0/-90/0
+Object.Rotation -90/-90/-90
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1026.63/345.783/1004.16
-Object.Rotation 0/-90/0
-rem
-rem ***  ***
-rem
-Object.create jud_light1
-Object.absolutePosition 1763.91/345.783/1004.16
-Object.Rotation 0/-90/0
+Object.Rotation -90/-90/-90
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 561.851/344.757/969.809
-Object.Rotation 0/9.39151e-006/0
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1081.91/345.783/1004.16
-Object.Rotation 0/-90/0
+Object.Rotation -90/-90/-90
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1192.46/345.783/1004.16
-Object.Rotation 0/-90/0
+Object.Rotation -90/-90/-90
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1645.66/344.377/998.171
-Object.Rotation 120/0/90
+Object.Rotation 120/1.70755e-006/90
 rem
 rem ***  ***
 rem
@@ -5072,19 +4990,19 @@ rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1649.29/344.015/999.506
-Object.Rotation 180/2.50448e-006/-90
+Object.Rotation 180/0/-90
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1348.11/345.783/1004.16
-Object.Rotation 0/-90/0
+Object.Rotation -90/-90/-90
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1656.74/344.015/999.506
-Object.Rotation 0/-2.50448e-006/-90
+Object.Rotation 0/0/-90
 rem
 rem ***  ***
 rem
@@ -5096,157 +5014,157 @@ rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1649.29/344.015/983.497
-Object.Rotation 180/2.50448e-006/-90
+Object.Rotation 180/0/-90
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1653.67/626.069/944.278
-Object.Rotation -90/1.86693e-005/0
+Object.Rotation -90/2.73208e-005/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1653.67/626.069/899.48
-Object.Rotation -90/1.86693e-005/0
+Object.Rotation -90/2.73208e-005/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1653.67/578.75/944.278
-Object.Rotation -90/1.86693e-005/0
+Object.Rotation -90/2.73208e-005/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1653.67/578.75/899.48
-Object.Rotation -90/1.86693e-005/0
+Object.Rotation -90/2.73208e-005/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
-Object.absolutePosition 1557.03/345.857/1054.15
+Object.absolutePosition 1557.03/345.857/1053.62
 Object.Rotation 0/90/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 566.316/346.194/925.225
-Object.Rotation -180/1.86693e-005/0
+Object.Rotation -180/2.73208e-005/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1507.04/345.783/1004.16
-Object.Rotation 0/-90/0
+Object.Rotation -90/-90/-90
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1723.42/345.783/1004.16
-Object.Rotation 0/-90/0
+Object.Rotation -90/-90/-90
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1623.45/592.199/891.805
-Object.Rotation -45/1.86693e-005/0
+Object.Rotation -45/2.73208e-005/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1600.03/592.986/878.371
-Object.Rotation -90/0/-90
+Object.Rotation -90/-1.70755e-006/-90
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1596.34/593.172/874.574
-Object.Rotation 0/1.86693e-005/0
+Object.Rotation 0/2.73208e-005/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 556.029/344.39/922.095
-Object.Rotation -30/0/90
+Object.Rotation -30/-1.70755e-006/90
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1653.67/535.898/944.278
-Object.Rotation -90/1.86693e-005/0
+Object.Rotation -90/2.73208e-005/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1656.74/344.015/983.497
-Object.Rotation 0/-2.50448e-006/-90
+Object.Rotation 0/0/-90
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1649.29/344.015/976.951
-Object.Rotation 180/2.50448e-006/-90
+Object.Rotation 180/0/-90
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 555.98/344.39/928.324
-Object.Rotation 30/-3.41509e-006/90
+Object.Rotation 30/8.53774e-007/90
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1656.74/344.015/976.951
-Object.Rotation 0/-2.50448e-006/-90
+Object.Rotation 0/0/-90
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1649.29/344.015/971.543
-Object.Rotation 180/2.50448e-006/-90
+Object.Rotation 180/0/-90
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1653.67/535.898/899.48
-Object.Rotation -90/1.86693e-005/0
+Object.Rotation -90/2.73208e-005/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1656.74/344.015/971.543
-Object.Rotation 0/-2.50448e-006/-90
+Object.Rotation 0/0/-90
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1649.29/344.015/964.546
-Object.Rotation 180/2.50448e-006/-90
+Object.Rotation 180/0/-90
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1300.68/345.783/1004.16
-Object.Rotation 0/-90/0
+Object.Rotation -90/-90/-90
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1401.11/345.783/1004.16
-Object.Rotation 0/-90/0
+Object.Rotation -90/-90/-90
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1653.67/487.252/944.278
-Object.Rotation -90/1.86693e-005/0
+Object.Rotation -90/2.73208e-005/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1653.67/487.252/899.48
-Object.Rotation -90/1.86693e-005/0
+Object.Rotation -90/2.73208e-005/0
 rem
 rem ***  ***
 rem
@@ -5258,73 +5176,73 @@ rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1645.12/345.783/1004.16
-Object.Rotation 0/-90/0
+Object.Rotation -90/-90/-90
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1454.99/345.783/1004.16
-Object.Rotation 0/-90/0
+Object.Rotation -90/-90/-90
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1653.67/439.958/944.278
-Object.Rotation -90/1.86693e-005/0
+Object.Rotation -90/2.73208e-005/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
-Object.absolutePosition 1682.96/345.857/1054.15
+Object.absolutePosition 1682.96/345.857/1053.55
 Object.Rotation 0/90/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1653.67/439.958/899.48
-Object.Rotation -90/1.86693e-005/0
+Object.Rotation -90/2.73208e-005/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1653.67/388.209/899.48
-Object.Rotation -90/1.86693e-005/0
+Object.Rotation -90/2.73208e-005/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 528.787/344.783/914.456
-Object.Rotation 180/5.00896e-006/0
+Object.Rotation 180/0/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1653.67/388.209/944.278
-Object.Rotation -90/1.86693e-005/0
+Object.Rotation -90/2.73208e-005/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1656.74/344.015/958.233
-Object.Rotation 0/-2.50448e-006/-90
+Object.Rotation 0/0/-90
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1649.29/344.015/958.233
-Object.Rotation 180/2.50448e-006/-90
+Object.Rotation 180/0/-90
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 557.216/344.783/914.443
-Object.Rotation 180/5.00896e-006/0
+Object.Rotation 180/0/0
 rem
 rem ***  ***
 rem
 Object.create jud_light1
 Object.absolutePosition 1656.74/344.015/964.546
-Object.Rotation 0/-2.50448e-006/-90
+Object.Rotation 0/0/-90
 rem
 rem ***  ***
 rem
@@ -5413,18 +5331,6 @@ rem
 rem ***  ***
 rem
 Object.create jud_railbeam
-Object.absolutePosition 1088.78/337.938/1028.23
-Object.Rotation -180/0/0
-rem
-rem ***  ***
-rem
-Object.create jud_railbeam
-Object.absolutePosition 1032.65/337.938/1028.59
-Object.Rotation 0/0/0
-rem
-rem ***  ***
-rem
-Object.create jud_railbeam
 Object.absolutePosition 980.921/337.938/1028.59
 Object.Rotation 0/0/0
 rem
@@ -5460,43 +5366,7 @@ Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create jud_railbeam
-Object.absolutePosition 1772.05/337.938/1028.59
-Object.Rotation 0/0/0
-rem
-rem ***  ***
-rem
-Object.create jud_railbeam
-Object.absolutePosition 1812.82/337.938/1028.59
-Object.Rotation 0/0/0
-rem
-rem ***  ***
-rem
-Object.create jud_railbeam
-Object.absolutePosition 1858.11/337.938/1028.59
-Object.Rotation 0/0/0
-rem
-rem ***  ***
-rem
-Object.create jud_railbeam
-Object.absolutePosition 1902.12/337.938/1028.59
-Object.Rotation 0/0/0
-rem
-rem ***  ***
-rem
-Object.create jud_railbeam
-Object.absolutePosition 1940.51/337.938/1028.59
-Object.Rotation 0/0/0
-rem
-rem ***  ***
-rem
-Object.create jud_railbeam
-Object.absolutePosition 1978.82/337.938/1028.59
-Object.Rotation 0/0/0
-rem
-rem ***  ***
-rem
-Object.create jud_rails
+Object.create jud_rails_01
 Object.absolutePosition 1265.98/334.264/1030.49
 Object.Rotation 0/0/0
 rem
@@ -5989,26 +5859,11 @@ rem
 rem ***  ***
 rem
 Object.create jud_security2
-Object.absolutePosition 558.84/336.526/987.678
-Object.Rotation -90/0/0
-rem
-rem ***  ***
-rem
-Object.create jud_security2
 Object.absolutePosition 498.817/341.316/893.439
 Object.Rotation 180/0/0
 rem
 rem ***  ***
 rem
-Object.create jud_security2
-Object.absolutePosition 516.384/332.567/914.262
-Object.Rotation 0/0/0
-rem
-rem ***  ***
-rem
-Object.create jud_security2
-Object.absolutePosition 536.421/341.312/972.962
-Object.Rotation -90/0/0
 rem
 rem ***  ***
 rem
@@ -6018,9 +5873,9 @@ Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create jud_tramtunnel
-Object.absolutePosition 1283.97/336.215/1028.32
-Object.Rotation 0/0/0
+Object.create jud_security2
+Object.absolutePosition 543.787/336.764/990.223
+Object.Rotation -92.9774/0/0
 rem
 rem ***  ***
 rem
@@ -6127,26 +5982,8 @@ rem
 rem ***  ***
 rem
 Object.create static_runner
-Object.absolutePosition 487.221/342.71/848.944
+Object.absolutePosition 486.719/342.644/849.072
 Object.Rotation -90/0/0
-rem
-rem ***  ***
-rem
-Object.create static_runner
-Object.absolutePosition 1200/599.585/672.908
-Object.Rotation 45/0/0
-rem
-rem ***  ***
-rem
-Object.create static_runner
-Object.absolutePosition 1538.77/583.408/1100
-Object.Rotation 50/0/0
-rem
-rem ***  ***
-rem
-Object.create tan_nebfrigate_hull
-Object.absolutePosition 1200/643.146/1100
-Object.Rotation 150/0/0
 rem
 rem ***  ***
 rem
@@ -6164,4 +6001,700 @@ rem ***  ***
 rem
 Object.create ammobox
 Object.absolutePosition 762.906/340.884/893.651
-Object.Rotation -1.64351e-005/0/0
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create njud_hall01
+Object.absolutePosition 1046.07/347.846/961.775
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create jud_bulk03
+Object.absolutePosition 1046/341.199/922.38
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create jud_fakedoor04
+Object.absolutePosition 1050.55/340.952/933.935
+Object.Rotation -90/0/0
+rem
+rem ***  ***
+rem
+Object.create jud_fakedoor04
+Object.absolutePosition 1041.66/340.952/933.038
+Object.Rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create njud_tramtunnel_01
+Object.absolutePosition 842.587/352.487/1029.01
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create tramface
+Object.absolutePosition 1283.97/336.215/1028.32
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create jud_railwalk
+Object.absolutePosition 1022.59/341.255/1026.81
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create jud_ramp
+Object.absolutePosition 1012.8/338.242/1011.85
+Object.Rotation -180/0/0
+rem
+rem ***  ***
+rem
+Object.create jud_ramp
+Object.absolutePosition 1012.8/338.242/1020.33
+Object.Rotation -180/0/0
+rem
+rem ***  ***
+rem
+Object.create jud_ramp
+Object.absolutePosition 1012.8/338.242/1029.19
+Object.Rotation -180/0/0
+rem
+rem ***  ***
+rem
+Object.create jud_ramp
+Object.absolutePosition 1012.8/338.242/1037.65
+Object.Rotation -180/0/0
+rem
+rem ***  ***
+rem
+Object.create jud_ramp
+Object.absolutePosition 1012.8/338.242/1046.38
+Object.Rotation -180/0/0
+rem
+rem ***  ***
+rem
+Object.create njud_tram_security
+Object.absolutePosition 1044.55/349.296/1029.04
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create njud_conhall
+Object.absolutePosition 1032.48/343.498/1029.38
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create jud_railwalk
+Object.absolutePosition 1069.93/341.255/1030.75
+Object.Rotation -180/0/0
+rem
+rem ***  ***
+rem
+Object.create jud_ramp
+Object.absolutePosition 1079.72/338.242/1010.53
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create jud_ramp
+Object.absolutePosition 1079.72/338.242/1019.26
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create jud_ramp
+Object.absolutePosition 1079.72/338.242/1027.72
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create jud_ramp
+Object.absolutePosition 1079.72/338.242/1036.58
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create jud_ramp
+Object.absolutePosition 1079.72/338.242/1045.06
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create jud_bulk03
+Object.absolutePosition 1045.98/341.153/1003.84
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create jud_bulk03
+Object.absolutePosition 1055.7/341.153/1029.3
+Object.Rotation -90/0/0
+rem
+rem ***  ***
+rem
+Object.create jud_bulk03
+Object.absolutePosition 1064.06/341.153/1029.3
+Object.Rotation -90/0/0
+rem
+rem ***  ***
+rem
+Object.create jud_bulk03
+Object.absolutePosition 1036.84/341.153/1029.3
+Object.Rotation -90/0/0
+rem
+rem ***  ***
+rem
+Object.create jud_bulk03
+Object.absolutePosition 1028.48/341.153/1029.3
+Object.Rotation -90/0/0
+rem
+rem ***  ***
+rem
+Object.create jud_faketl
+Object.absolutePosition 1046.29/341.361/967.118
+Object.Rotation -45/0/0
+rem
+rem ***  ***
+rem
+Object.create jud_sbulk
+Object.absolutePosition 1046.12/341.375/947.863
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create jud_faketl
+Object.absolutePosition 1046.29/341.361/938.863
+Object.Rotation -45/0/0
+rem
+rem ***  ***
+rem
+Object.create jud_faketl
+Object.absolutePosition 1046.29/341.361/927.991
+Object.Rotation -45/0/0
+rem
+rem ***  ***
+rem
+Object.create jud_sbulk
+Object.absolutePosition 1046.12/341.375/957.786
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create jud_sbulk
+Object.absolutePosition 1046.12/341.375/977.848
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create jud_faketl
+Object.absolutePosition 1046.29/341.361/986.757
+Object.Rotation -45/0/0
+rem
+rem ***  ***
+rem
+Object.create jud_faketl
+Object.absolutePosition 1046.29/341.361/997.629
+Object.Rotation -45/0/0
+rem
+rem ***  ***
+rem
+Object.create jud_security
+Object.absolutePosition 1044.66/341.389/1030.68
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create jud_security
+Object.absolutePosition 1043.96/341.389/1030.41
+Object.Rotation -40/0/0
+rem
+rem ***  ***
+rem
+Object.create jud_security
+Object.absolutePosition 1043.54/341.389/1029.78
+Object.Rotation -75/0/0
+rem
+rem ***  ***
+rem
+Object.create jud_security
+Object.absolutePosition 1043.58/341.389/1029
+Object.Rotation -110/0/0
+rem
+rem ***  ***
+rem
+Object.create jud_security
+Object.absolutePosition 1044.03/341.389/1028.43
+Object.Rotation -145/0/0
+rem
+rem ***  ***
+rem
+Object.create jud_security
+Object.absolutePosition 1044.8/341.389/1028.16
+Object.Rotation -175/0/0
+rem
+rem ***  ***
+rem
+Object.create jud_security
+Object.absolutePosition 1047.8/341.389/1030.65
+Object.Rotation 4.99999/0/0
+rem
+rem ***  ***
+rem
+Object.create jud_security
+Object.absolutePosition 1048.57/341.389/1030.38
+Object.Rotation 35/0/0
+rem
+rem ***  ***
+rem
+Object.create jud_security
+Object.absolutePosition 1049.02/341.389/1029.81
+Object.Rotation 70/0/0
+rem
+rem ***  ***
+rem
+Object.create jud_security
+Object.absolutePosition 1049.06/341.389/1029.03
+Object.Rotation 105/0/0
+rem
+rem ***  ***
+rem
+Object.create jud_security
+Object.absolutePosition 1048.64/341.389/1028.4
+Object.Rotation 140/0/0
+rem
+rem ***  ***
+rem
+Object.create jud_security
+Object.absolutePosition 1047.94/341.389/1028.13
+Object.Rotation -180/0/0
+rem
+rem ***  ***
+rem
+Object.create jud_comp01
+Object.absolutePosition 1040.46/341.576/1004.55
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create healthpack
+Object.absolutePosition 1054.2/341.811/1006.89
+Object.Rotation -129.593/0/0
+rem
+rem ***  ***
+rem
+Object.create ammobox
+Object.absolutePosition 1054.42/341.163/1006.78
+Object.Rotation -179.593/0/0
+rem
+rem ***  ***
+rem
+Object.create ammobox
+Object.absolutePosition 1054.43/341.794/1007.63
+Object.Rotation -179.593/0/0
+rem
+rem ***  ***
+rem
+Object.create ammobox
+Object.absolutePosition 1054.43/341.163/1007.63
+Object.Rotation -179.593/0/0
+rem
+rem ***  ***
+rem
+Object.create ammobox
+Object.absolutePosition 1052.98/341.794/1007.63
+Object.Rotation -179.593/0/0
+rem
+rem ***  ***
+rem
+Object.create ammobox
+Object.absolutePosition 1052.97/341.163/1006.78
+Object.Rotation -179.593/0/0
+rem
+rem ***  ***
+rem
+Object.create ammobox
+Object.absolutePosition 1052.98/341.163/1007.63
+Object.Rotation -179.593/0/0
+rem
+rem ***  ***
+rem
+Object.create tanaab_fuel_tank
+Object.absolutePosition 1023.5/341.356/1051.21
+Object.Rotation 180/0/0
+rem
+rem ***  ***
+rem
+Object.create hothcratedark
+Object.absolutePosition 1054.11/341.113/1011.3
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create hothcratedark
+Object.absolutePosition 1054.11/341.113/1013.99
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create jud_comp01
+Object.absolutePosition 1038.37/341.576/1004.55
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create hothcratedark
+Object.absolutePosition 1038.37/341.14/1047.44
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create hothcratedark
+Object.absolutePosition 1041.1/341.14/1047.44
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create hothcratedark
+Object.absolutePosition 1043.82/341.14/1047.44
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create hothcratedark
+Object.absolutePosition 1043.82/341.14/1050.13
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create ammobox
+Object.absolutePosition 1039.77/343.721/1047.25
+Object.Rotation 131.386/0/0
+rem
+rem ***  ***
+rem
+Object.create hothcratedark
+Object.absolutePosition 1054/341.14/1047.44
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create hothcratedark
+Object.absolutePosition 1048.77/341.14/1046.43
+Object.Rotation -53.2597/0/0
+rem
+rem ***  ***
+rem
+Object.create jud_light1
+Object.absolutePosition 1039.59/343.885/1003.9
+Object.Rotation -90/-90/-90
+rem
+rem ***  ***
+rem
+Object.create jud_light1
+Object.absolutePosition 1052.58/343.885/1003.9
+Object.Rotation -90/-90/-90
+rem
+rem ***  ***
+rem
+Object.create jud_light1
+Object.absolutePosition 1039.59/343.885/1054.72
+Object.Rotation -90/-90/-90
+rem
+rem ***  ***
+rem
+Object.create jud_light1
+Object.absolutePosition 1052.58/343.885/1054.72
+Object.Rotation -90/-90/-90
+rem
+rem ***  ***
+rem
+Object.create tanaab_fuel_tank
+Object.absolutePosition 1067.21/341.356/1051.21
+Object.Rotation 180/0/0
+rem
+rem ***  ***
+rem
+Object.create jud_light1
+Object.absolutePosition 1068.36/345.857/1053.89
+Object.Rotation 0/90/0
+rem
+rem ***  ***
+rem
+Object.create jud_light1
+Object.absolutePosition 1046.32/344.734/933.56
+Object.Rotation -90/0/0
+rem
+rem ***  ***
+rem
+Object.create jud_light1
+Object.absolutePosition 1046.1/344.734/944.368
+Object.Rotation -90/0/0
+rem
+rem ***  ***
+rem
+Object.create jud_light1
+Object.absolutePosition 1046.1/344.734/952.697
+Object.Rotation -90/0/0
+rem
+rem ***  ***
+rem
+Object.create jud_light1
+Object.absolutePosition 1046.1/344.734/961.514
+Object.Rotation -90/0/0
+rem
+rem ***  ***
+rem
+Object.create jud_light1
+Object.absolutePosition 1046.1/344.734/973.261
+Object.Rotation -90/0/0
+rem
+rem ***  ***
+rem
+Object.create jud_light1
+Object.absolutePosition 1046.1/344.734/981.623
+Object.Rotation -90/0/0
+rem
+rem ***  ***
+rem
+Object.create jud_light1
+Object.absolutePosition 1046.1/344.734/992.203
+Object.Rotation -90/0/0
+rem
+rem ***  ***
+rem
+Object.create jud_light1
+Object.absolutePosition 1046.1/345.255/1015.26
+Object.Rotation -90/0/0
+rem
+rem ***  ***
+rem
+Object.create jud_light1
+Object.absolutePosition 1046.1/345.255/1029.35
+Object.Rotation -90/0/0
+rem
+rem ***  ***
+rem
+Object.create jud_fakedoor04
+Object.absolutePosition 1045.74/340.952/1054.47
+Object.Rotation 180/0/0
+rem
+rem ***  ***
+rem
+Object.create njud_hall02
+Object.absolutePosition 1545.45/346.012/872.69
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create njud_stairs
+Object.absolutePosition 1569.62/342.088/874.87
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create jud_sbulk
+Object.absolutePosition 1571.12/342.662/874.685
+Object.Rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create jud_fakedoor02
+Object.absolutePosition 540.463/336.626/981.468
+Object.Rotation 180/0/0
+rem
+rem ***  ***
+rem
+Object.create jud_sbulk
+Object.absolutePosition 545.905/336.588/984.887
+Object.Rotation -90/0/0
+rem
+rem ***  ***
+rem
+Object.create jud_fakedoor02
+Object.absolutePosition 551.467/336.626/981.468
+Object.Rotation 180/0/0
+rem
+rem ***  ***
+rem
+Object.create jud_fakedoor02
+Object.absolutePosition 551.467/336.626/988.206
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create jud_fakedoor01
+Object.absolutePosition 535.054/336.578/984.933
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create jud_hall05
+Object.absolutePosition 545.363/336.63/984.822
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create jud_bulk03
+Object.absolutePosition 557.205/336.541/984.942
+Object.Rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create njud_vent
+Object.absolutePosition 520.616/341.418/953.375
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create njud_weapon_room
+Object.absolutePosition 534.377/339.261/995.424
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create jud_opendoor01
+Object.absolutePosition 540.422/336.627/988.886
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create healthpack
+Object.absolutePosition 523.383/342.088/893.869
+Object.Rotation -129.593/0/0
+rem
+rem ***  ***
+rem
+Object.create ammobox
+Object.absolutePosition 523.577/341.44/893.76
+Object.Rotation -179.593/0/0
+rem
+rem ***  ***
+rem
+Object.create hothcrategrey
+Object.absolutePosition 516.977/332.82/908.584
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create hothcrategrey
+Object.absolutePosition 514.241/332.82/908.584
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create hothcrategrey
+Object.absolutePosition 511.55/332.82/908.584
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create hothcrategrey
+Object.absolutePosition 511.55/335.402/908.584
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create hothcrategrey
+Object.absolutePosition 514.231/335.402/908.584
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create hothcrategrey
+Object.absolutePosition 516.968/335.402/908.567
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create hothcrategrey
+Object.absolutePosition 519.758/335.402/913.387
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create hothcrategrey
+Object.absolutePosition 519.758/335.402/910.704
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create jud_fakedoor04
+Object.absolutePosition 521.078/332.301/900.671
+Object.Rotation -90/0/0
+rem
+rem ***  ***
+rem
+Object.create healthpack
+Object.absolutePosition 522.799/337.431/999.423
+Object.Rotation -129.593/0/0
+rem
+rem ***  ***
+rem
+Object.create ammobox
+Object.absolutePosition 522.993/336.783/999.315
+Object.Rotation -91.3807/0/0
+rem
+rem ***  ***
+rem
+Object.create njud_ammo_shelf
+Object.absolutePosition 528.997/338.315/996.8
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create jud_fakedoor04
+Object.absolutePosition 545.913/336.178/995.71
+Object.Rotation -90/0/0
+rem
+rem ***  ***
+rem
+Object.create jud_security2
+Object.absolutePosition 543.946/336.764/990.656
+Object.Rotation -47.9774/0/0
+rem
+rem ***  ***
+rem
+Object.create jud_security2
+Object.absolutePosition 544.351/336.764/990.869
+Object.Rotation -2.97736/0/0
+rem
+rem ***  ***
+rem
+Object.create njud_rails_02
+Object.absolutePosition 1389/338.408/1028.63
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create tan_isd_back
+Object.absolutePosition 1308.42/396.711/866.589
+Object.Rotation 50/0/0
+rem
+rem ***  ***
+rem
+Object.create tan_isd_front
+Object.absolutePosition 1207.8/396.711/864.142
+Object.Rotation 50/0/0
+rem
+rem ***  ***
+rem
+Object.create njud_tramtunnel_02
+Object.absolutePosition 1393.57/346.797/1028.32
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create njud_tram_security
+Object.absolutePosition 1556.49/448.899/1029.72
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create jud_armory2
+Object.absolutePosition 460.49/338.873/837.573
+Object.Rotation -90/0/0

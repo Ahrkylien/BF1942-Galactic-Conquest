@@ -30,6 +30,12 @@ ObjectTemplate.addRootSpeed 0
 ObjectTemplate.AmmoType	1
 ObjectTemplate.timeToNotAllowChange 0.25
 
+
+ObjectTemplate.minDamage 1.8
+ObjectTemplate.distToStartLoseDamage 700
+ObjectTemplate.distToMinDamage 710
+
+
 Rem *** Deviation Begin *****
 ObjectTemplate.velocity 3000
 ObjectTemplate.setRecoilForceUp CRD_UNIFORM/1.8/2/0

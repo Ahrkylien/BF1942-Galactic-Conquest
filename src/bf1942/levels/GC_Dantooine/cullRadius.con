@@ -1,0 +1,138 @@
+REM *** Buildings & Objects ***
+
+Objecttemplate.active Afri_bush1_M1 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active Afri_bush2_M1
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active Afri_bush3_M1 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active Afri_bush8_M1 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active Afri_bush9_M1 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active Afri_bush5_M1 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active Afri_bush11_M1 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active Afri_bush10_M1 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active Afri_bush7_M1 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active Afri_bush6_M1 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active AlliedAirplaneAmmo 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active AxisAirplaneAmmo 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active PALMHIGH_M1 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active barack_m1 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active hospital_m1 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active landrep1_supply 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active factory_m1 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active guardtow_M1 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active sandbagi_m1 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active stebarbwire_m1 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active hangar1_m1 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active sandbagl_m1 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active airrep1_m1 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active Supplyde_m1 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active sandbagu_m1 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active radarbun_M1 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active repaircist_m1 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active stecrate1_M1 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active stebarrel1_m1 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active bunker1_M1 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active Palmshort_m1 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active Stones_Africa_L_M1 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active Afrhouse_m1 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active afr_house2_ste_m1 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active eu_fence_m1 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active mediclocker 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active Ammobox 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active Pacific_Palm_1_M1 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active Pacific_Palm_2_M1 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active Pacific_Palm_3_M1
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active Pacific_Palm_large_1_M1 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active Pacific_Palm_large_2_M1 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active afr_house1_ste_closed_m1 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active afr_house2_ste_closed_m1 
+objectTemplate.cullRadiusScale 5
+
+Objecttemplate.active stecrate2_M1 
+objectTemplate.cullRadiusScale 5
+
+REM *** Vehicles ***

@@ -19,14 +19,14 @@ ObjectTemplate.mass 1000
 ObjectTemplate.inertiaModifier 0/0/0
 ObjectTemplate.hasArmor 1
 ObjectTemplate.destroyOnExit 1
-ObjectTemplate.hitpoints 40
-ObjectTemplate.maxhitpoints 40
+ObjectTemplate.hitpoints 20
+ObjectTemplate.maxhitpoints 20
 ObjectTemplate.material 801
 ObjectTemplate.criticalDamage 4
 ObjectTemplate.hpLostWhileCriticalDamage 0.4
 ObjectTemplate.hpLostWhileUpSideDown 4
 ObjectTemplate.hpLostWhileDamageFromWater 4
-ObjectTemplate.addArmorEffect 8 em_B17Damage 0/0/0
+ObjectTemplate.addArmorEffect 5 em_B17Damage 0/0/0
 ObjectTemplate.addArmorEffect 4 em_PlaneDamage 0/0/0
 ObjectTemplate.addArmorEffect 0 e_ExplodeGas 0/0/0
 ObjectTemplate.addArmorEffect 0 e_scrapmetal 0/0/0

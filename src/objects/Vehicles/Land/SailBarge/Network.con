@@ -7,5 +7,9 @@ NetworkableInfo.setPredictionMode PMLinear
 NetworkableInfo.createNewInfo SailBargePassengerInfo
 NetworkableInfo.setPredictionMode PMLinear
 
+NetworkableInfo.createNewInfo SailBargeTurretInfo
+NetworkableInfo.setPredictionMode PMLinear
 
+NetworkableInfo.createNewInfo SailBargeRudderInfo
+NetworkableInfo.setPredictionMode PMLinear
 

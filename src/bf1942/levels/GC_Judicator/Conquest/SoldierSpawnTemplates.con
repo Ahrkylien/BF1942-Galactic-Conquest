@@ -1,4 +1,3 @@
-
 ObjectTemplate.create SpawnPoint cp28
 ObjectTemplate.setSpawnId 28
 ObjectTemplate.setGroup 11
@@ -83,11 +82,9 @@ ObjectTemplate.create SpawnPoint lift04
 ObjectTemplate.setSpawnId 15
 ObjectTemplate.setGroup 3
 
-
 ObjectTemplate.create SpawnPoint reb06
 ObjectTemplate.setSpawnId 8
 ObjectTemplate.setGroup 2
-
 
 ObjectTemplate.create SpawnPoint sec05
 ObjectTemplate.setSpawnId 10

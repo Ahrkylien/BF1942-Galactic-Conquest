@@ -40,21 +40,21 @@ ObjectTemplate.team 2
 ObjectTemplate.networkableInfo FlagBodyInfo
 ObjectTemplate.radius 5
 ObjectTemplate.TimeToReSpawn 10
-ObjectTemplate.addTemplate AnimatedUkFlag
+ObjectTemplate.addTemplate AnimatedUsFlag
 
 game.setTeamSkin 1 JapaneseSoldier
-game.setKit 1 0 Jap_Scout
-game.setKit 1 1 Jap_Assault
-game.setKit 1 2 Jap_AT
-game.setKit 1 3 Jap_Medic
-game.setKit 1 4 Jap_Engineer
+game.setKit 1 0 Empire_Scout
+game.setKit 1 1 Empire_Trooper
+game.setKit 1 2 Empire_AT
+game.setKit 1 3 Empire_Medic
+game.setKit 1 4 Empire_Engineer
 
 game.setTeamSkin 2 RussianSoldier
-game.setKit 2 0 Russ_Scout
-game.setKit 2 1 Russ_Assault
-game.setKit 2 2 Russ_AT
-game.setKit 2 3 Russ_Medic
-game.setKit 2 4 Russ_Engineer
+game.setKit 2 0 Rebel_Scout
+game.setKit 2 1 Rebel_Trooper
+game.setKit 2 2 Rebel_AT
+game.setKit 2 3 Rebel_Medic
+game.setKit 2 4 Rebel_Engineer
 
 rem
 rem *** Shader Default Color ***

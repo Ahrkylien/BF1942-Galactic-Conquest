@@ -1,0 +1,52 @@
+################################################################
+#templateLevel HIGH
+
+newPatch
+
+#########################
+#######   Lok   #########
+#########################
+load @ROOT/Sound/earthquake.wav
+loop
+volume .9
+minDistance 200
+randomStartPitch .1/.1
+priority -9
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 100
+	param 200
+	param 1
+	param -1	
+endEffect
+
+################################################################
+
+#templateLevel MEDIUM
+
+newPatch
+
+#########################
+#######   Lok   #########
+#########################
+load @ROOT/Sound/earthquake.wav
+loop
+volume .9
+minDistance 100
+randomStartPitch .1/.1
+priority -9
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 50
+	param 100
+	param 1
+	param -1	
+endEffect

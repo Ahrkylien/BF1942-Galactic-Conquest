@@ -38,7 +38,7 @@ GeometryTemplate.setLodDistance 4 400
 GeometryTemplate.setLodDistance 5 500
 
 GeometryTemplate.create StandardMesh Lancerlow
-GeometryTemplate.file Vehicles/lancer/lancer_hull
+GeometryTemplate.file Vehicles/lancer/lancer_hull_m2
 GeometryTemplate.setLodDistance 0 0
 GeometryTemplate.setLodDistance 1 100
 GeometryTemplate.setLodDistance 2 200

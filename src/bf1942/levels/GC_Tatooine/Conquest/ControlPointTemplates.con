@@ -19,8 +19,7 @@ ObjectTemplate.disableWhenLosingControl 0
 ObjectTemplate.loseControlWhenEnemyClose 1
 ObjectTemplate.loseControlWhenNotClose 0
 ObjectTemplate.addTemplate AnimatedFlag
-ObjectTemplate.setPosition 0/8.2/0
-ObjectTemplate.addTemplate e_glowflagpole
+ObjectTemplate.setPosition 0/0/0
 ObjectTemplate.setTeamGeometry 1 flagge_m1
 ObjectTemplate.setTeamGeometry 2 flagus_m1
 
@@ -41,8 +40,8 @@ ObjectTemplate.disableWhenLosingControl 0
 ObjectTemplate.loseControlWhenEnemyClose 1
 ObjectTemplate.loseControlWhenNotClose 0
 ObjectTemplate.addTemplate AnimatedFlag
-ObjectTemplate.setPosition 0/8.2/0
-ObjectTemplate.addTemplate e_glowflagpole
+ObjectTemplate.setPosition 0/0/0
+rem ObjectTemplate.addTemplate e_glowflagpole
 ObjectTemplate.setTeamGeometry 1 flagge_m1
 ObjectTemplate.setTeamGeometry 2 flagus_m1
 
@@ -64,8 +63,8 @@ ObjectTemplate.disableWhenLosingControl 0
 ObjectTemplate.loseControlWhenEnemyClose 1
 ObjectTemplate.loseControlWhenNotClose 0
 ObjectTemplate.addTemplate AnimatedFlag
-ObjectTemplate.setPosition 0/8.2/0
-ObjectTemplate.addTemplate e_glowflagpole
+ObjectTemplate.setPosition 0/0/0
+rem ObjectTemplate.addTemplate e_glowflagpole
 ObjectTemplate.setTeamGeometry 1 flagge_m1
 ObjectTemplate.setTeamGeometry 2 flagus_m1
 
@@ -86,8 +85,8 @@ ObjectTemplate.disableWhenLosingControl 0
 ObjectTemplate.loseControlWhenEnemyClose 1
 ObjectTemplate.loseControlWhenNotClose 0
 ObjectTemplate.addTemplate AnimatedFlag
-ObjectTemplate.setPosition 0/8.2/0
-ObjectTemplate.addTemplate e_glowflagpole
+ObjectTemplate.setPosition 0/0/0
+rem ObjectTemplate.addTemplate e_glowflagpole
 ObjectTemplate.setTeamGeometry 1 flagge_m1
 ObjectTemplate.setTeamGeometry 2 flagus_m1
 
@@ -109,8 +108,8 @@ ObjectTemplate.disableWhenLosingControl 0
 ObjectTemplate.loseControlWhenEnemyClose 1
 ObjectTemplate.loseControlWhenNotClose 0
 ObjectTemplate.addTemplate AnimatedFlag
-ObjectTemplate.setPosition 0/8.2/0
-ObjectTemplate.addTemplate e_glowflagpole
+ObjectTemplate.setPosition 0/0/0
+rem ObjectTemplate.addTemplate e_glowflagpole
 ObjectTemplate.setTeamGeometry 1 flagge_m1
 ObjectTemplate.setTeamGeometry 2 flagus_m1
 
@@ -131,8 +130,8 @@ ObjectTemplate.disableWhenLosingControl 0
 ObjectTemplate.loseControlWhenEnemyClose 1
 ObjectTemplate.loseControlWhenNotClose 0
 ObjectTemplate.addTemplate AnimatedFlag
-ObjectTemplate.setPosition 0/8.2/0
-ObjectTemplate.addTemplate e_glowflagpole
+ObjectTemplate.setPosition 0/0/0
+rem ObjectTemplate.addTemplate e_glowflagpole
 ObjectTemplate.setTeamGeometry 1 flagge_m1
 ObjectTemplate.setTeamGeometry 2 flagus_m1
 

@@ -85,6 +85,9 @@ GeometryTemplate.file Richo_meshsbig_m1
 GeometryTemplate.create StandardMesh watermesh_pouring_m1
 GeometryTemplate.file watermesh_pouring_m1
 
+GeometryTemplate.create StandardMesh shield_effect
+GeometryTemplate.file shield_effect
+
 GeometryTemplate.create StandardMesh shockwave_m1
 GeometryTemplate.file shockwave_m1
 GeometryTemplate.setLodDistance 0 0

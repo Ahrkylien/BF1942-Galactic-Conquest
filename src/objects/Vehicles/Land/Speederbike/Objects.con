@@ -137,7 +137,7 @@ ObjectTemplate.addTemplate SpeederbikeCamera
 ObjectTemplate.setPosition 0/0.90/-1.6
 ObjectTemplate.addTemplate SpeederbikeEntry
 ObjectTemplate.setPosition 0/0/0
-ObjectTemplate.addTemplate SpeederbikeLasers
+ObjectTemplate.addTemplate SpeederbikeLasersturn
 ObjectTemplate.setPosition 0/0.2/1.75
 ObjectTemplate.addTemplate SpeederbikePassengerPCO
 ObjectTemplate.setPosition 0/0.1/-0.4
@@ -148,6 +148,24 @@ ObjectTemplate.setMaxSpeed 0/0/40
 ObjectTemplate.setAcceleration 0/0/-30
 ObjectTemplate.setInputToRoll c_PIYaw
 ObjectTemplate.setAutomaticReset 1
+
+ObjectTemplate.create RotationalBundle SpeederbikeLasersturn
+ObjectTemplate.setNetworkableInfo SpeederbikeBodyInfo
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+rem -----------------------------------
+ObjectTemplate.addTemplate SpeederbikeLasers
+ObjectTemplate.setPosition 0/0.2/1.75
+rem -----------------------------------
+ObjectTemplate.setMinRotation -8/-8/0
+ObjectTemplate.setMaxRotation 8/8/0
+ObjectTemplate.setMaxSpeed 10/10/0
+ObjectTemplate.setAcceleration 5000/5000/0
+ObjectTemplate.setInputToYaw c_PIMouseLookX
+ObjectTemplate.setInputToPitch c_PIMouseLookY
+ObjectTemplate.setAutomaticReset 0
+
 
 ObjectTemplate.create RotationalBundle Speederbike_counter
 ObjectTemplate.hasMobilePhysics 1
@@ -310,4 +328,4 @@ ObjectTemplate.geometry Wreck_Speederbike1_M1
 rem *** SpeederbikeLodSelector ***
 LodSelectorTemplate.create DistCompareSelector2 SpeederbikeLodSelector
 LodSelectorTemplate.hasDestroyedLod 1
-LodSelectorTemplate.addLodDistance 135
+LodSelectorTemplate.addLodDistance 800

@@ -82,6 +82,11 @@ ObjectTemplate.addTemplate MF_Concussion_Missile
 ObjectTemplate.setPosition 12/2.2/9.5
 ObjectTemplate.addTemplate MilleniumFalconEngine
 ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.addTemplate MilleniumFalconEngine2
+rem ---------------------------------
+ObjectTemplate.addTemplate FalconVTOLRack
+ObjectTemplate.setPosition 0/0/-0.01
+ObjectTemplate.setRotation 180.0/-90.0/-180.0
 rem *************** FALCON SOLDIER SPAWN
 ObjectTemplate.addTemplate yt1300_sold_spawn
 ObjectTemplate.setPosition -0.5/2.823/-0.5

@@ -2,8 +2,8 @@ subshader "mousedroid_control_Material0" "StandardMesh/Default"
 {
 	lighting true;
 	lightingSpecular false;
-	materialDiffuse 0.588235 0.588235 0.588235;
-	texture "texture/buildings/superecho/control_floor";
+	materialDiffuse 0.588 0.588 0.588;
+	texture "texture/buildings/SuperEcho/control_floor";
 }
 
 subshader "mousedroid_control_Material1" "StandardMesh/Default"
@@ -11,7 +11,7 @@ subshader "mousedroid_control_Material1" "StandardMesh/Default"
 	lighting true;
 	lightingSpecular false;
 	materialDiffuse 0.588 0.588 0.588;
-	texture "texture/buildings/superecho/wallgrate";
+	texture "texture/buildings/SuperEcho/wallgrate";
 }
 
 subshader "mousedroid_control_Material2" "StandardMesh/Default"
@@ -35,7 +35,7 @@ subshader "mousedroid_control_Material4" "StandardMesh/Default"
 	lighting true;
 	lightingSpecular false;
 	materialDiffuse 0.588 0.588 0.588;
-	texture "texture/buildings/superecho/controlrooflight";
+	texture "texture/buildings/SuperEcho/controlrooflight";
 }
 
 subshader "mousedroid_control_Material5" "StandardMesh/Default"
@@ -43,6 +43,6 @@ subshader "mousedroid_control_Material5" "StandardMesh/Default"
 	lighting true;
 	lightingSpecular false;
 	materialDiffuse 0.588 0.588 0.588;
-	texture "texture/buildings/superecho/control_panel_A";
+	texture "texture/buildings/SuperEcho/control_panel_A";
 }
 

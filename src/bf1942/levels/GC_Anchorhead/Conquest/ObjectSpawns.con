@@ -1,0 +1,139 @@
+rem ObjectSpawns.con created by Battlecraft 1942
+rem (\Program Files\Battlefield 1942\Mods\GCMOD\bf1942\levels\GC_Anchorhead/conquest/ObjectSpawns.con)
+
+rem ----------------------------------------- 
+rem ---  Landspeeder_Spawner  ---
+rem ----------------------------------------- 
+Object.create Landspeeder_Spawner
+Object.absolutePosition 745.50/76.20/378.04
+Object.rotation -89.63/0.00/0.00
+Object.setOSId 2
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  Landspeeder_Spawner  ---
+rem ----------------------------------------- 
+Object.create Landspeeder_Spawner
+Object.absolutePosition 410.17/76.20/707.45
+Object.rotation -180.95/0.00/0.00
+Object.setOSId 1
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Skyhopper_Spawner  ---
+rem ----------------------------------------- 
+Object.create Skyhopper_Spawner
+Object.absolutePosition 700.76/81.08/357.09
+Object.rotation 0.00/0.00/0.00
+Object.setOSId 2
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  Speederbike_Spawner  ---
+rem ----------------------------------------- 
+Object.create Speederbike_Spawner
+Object.absolutePosition 632.03/77.81/298.88
+Object.rotation 0.00/0.00/0.00
+Object.setOSId 3
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  Speederbike_Spawner  ---
+rem ----------------------------------------- 
+Object.create Speederbike_Spawner
+Object.absolutePosition 330.65/77.66/595.38
+Object.rotation 90.72/0.00/0.00
+Object.setOSId 4
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  R5D4_Spawner  ---
+rem ----------------------------------------- 
+Object.create R5D4_Spawner
+Object.absolutePosition 731.90/76.18/355.77
+Object.rotation 0.00/0.00/0.00
+Object.setOSId 2
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  Mousebot_Spawner  ---
+rem ----------------------------------------- 
+Object.create Mousebot_Spawner
+Object.absolutePosition 341.04/76.19/551.96
+Object.rotation -270.42/0.00/0.00
+Object.setOSId 1
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  R5D4Imperial  ---
+rem ----------------------------------------- 
+Object.create R5D4Imperial
+Object.absolutePosition 350.95/93.34/322.24
+Object.rotation -88.75/-0.50/0.00
+Object.setOSId 1
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  Speederbike_Spawner  ---
+rem ----------------------------------------- 
+Object.create Speederbike_Spawner
+Object.absolutePosition 315.36/92.19/330.16
+Object.rotation 89.99/0.00/0.00
+Object.setOSId 6
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  Stationary_Eweb  ---
+rem ----------------------------------------- 
+Object.create Stationary_Eweb
+Object.absolutePosition 590.58/94.17/373.34
+Object.rotation 0.00/0.00/0.00
+Object.setOSId 2
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  Stationary_Eweb  ---
+rem ----------------------------------------- 
+Object.create Stationary_Eweb
+Object.absolutePosition 560.34/83.30/479.75
+Object.rotation 0.00/0.00/0.00
+Object.setOSId 2
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  Stationary_Eweb  ---
+rem ----------------------------------------- 
+Object.create Stationary_Eweb
+Object.absolutePosition 525.12/83.32/623.24
+Object.rotation 180.00/0.00/0.00
+Object.setOSId 1
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  Stationary_Eweb  ---
+rem ----------------------------------------- 
+Object.create Stationary_Eweb
+Object.absolutePosition 411.58/94.17/552.44
+Object.rotation 90.00/0.00/0.00
+Object.setOSId 1
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  Stationary_Eweb  ---
+rem ----------------------------------------- 
+Object.create Stationary_Eweb
+Object.absolutePosition 581.98/94.15/540.72
+Object.rotation 225.00/0.00/0.00
+Object.setOSId 1
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  ATST_Spawner  ---
+rem ----------------------------------------- 
+Object.create ATST_Spawner
+Object.absolutePosition 389.32/76.17/671.11
+Object.rotation 90.00/0.00/0.00
+Object.setOSId 1
+Object.setTeam 1
+
+rem EndOfFile

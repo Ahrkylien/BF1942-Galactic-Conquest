@@ -33,6 +33,16 @@ MaterialManager.defGroup 821
 MaterialManager.damageMod 0
 MaterialManager.setEffectTemplate e_collision_metal
 
+MaterialManager.attGroup 801
+MaterialManager.defGroup 831
+MaterialManager.damageMod 0.01
+MaterialManager.setEffectTemplate e_collision_metal
+
+MaterialManager.attGroup 801
+MaterialManager.defGroup 832
+MaterialManager.damageMod 0.01
+MaterialManager.setEffectTemplate e_collision_metal
+
 rem ---------------------------------- BF1942 MATERIAL COLLISIONS ----------------------------------
 
 rem *************************************************

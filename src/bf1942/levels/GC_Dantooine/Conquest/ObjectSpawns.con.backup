@@ -1,0 +1,236 @@
+rem
+rem ***  ***
+rem
+Object.create r5controlspawner
+Object.absolutePosition 901.54/36.231/93.7402
+Object.rotation 177/0/0
+Object.setOSId 5
+rem
+rem
+rem ***  ***
+rem
+Object.create r5controlspawner
+Object.absolutePosition 243.494/36.6415/983.601
+Object.rotation 180/0/0
+Object.setOSId 5
+rem
+rem
+rem ***  ***
+rem
+Object.create rebelassaulttank
+Object.absolutePosition 1683.4/56.6297/781.585
+Object.rotation -51/0/0
+Object.setOSId 4
+rem
+rem ***  ***
+rem
+Object.create rebelassaulttank
+Object.absolutePosition 1686.37/56.6272/800.791
+Object.rotation -54/0/0
+Object.setOSId 4
+rem
+rem ***  ***
+rem
+Object.create impart_rebart
+Object.absolutePosition 1665.64/56.5041/744.615
+Object.rotation 5/0/0
+Object.setOSId 4
+rem
+rem ***  ***
+rem
+Object.create gunshipspawner
+Object.absolutePosition 1730.78/73.0461/766.012
+Object.setOSId 4
+rem
+rem ***  ***
+rem
+Object.create gunshipspawner
+Object.absolutePosition 1755.19/73.0461/765.271
+Object.setOSId 4
+rem
+rem ***  ***
+rem
+Object.create impart_rebart
+Object.absolutePosition 1373.92/46.1255/1426.3
+Object.rotation 184/0/0
+Object.setOSId 3
+rem
+rem ***  ***
+rem
+Object.create imptank_rebtank
+Object.absolutePosition 1343.45/44.6555/1414.28
+Object.rotation 94/0/0
+Object.setOSId 3
+rem
+rem ***  ***
+rem
+Object.create antiairdefence
+Object.absolutePosition 1339.03/44.5428/1397.3
+Object.setOSId 3
+rem
+rem ***  ***
+rem
+Object.create lambda_spaners
+Object.absolutePosition 305.565/34.2763/1013.02
+Object.rotation 179/0/0
+Object.setOSId 5
+rem
+rem ***  ***
+rem
+Object.create imptank_rebtank
+Object.absolutePosition 250.138/36.5414/970.932
+Object.rotation 87/0/0
+Object.setOSId 5
+rem
+rem ***  ***
+rem
+Object.create antiairdefence
+Object.absolutePosition 284.497/36.8201/924.926
+Object.setOSId 5
+rem
+rem ***  ***
+rem
+Object.create atst_landspeeder
+Object.absolutePosition 364.089/44/985.6
+Object.rotation -89/0/0
+Object.setOSId 5
+rem
+rem ***  ***
+rem
+Object.create imptank_rebtank
+Object.absolutePosition 248.718/36.1408/956.845
+Object.rotation 87/0/0
+Object.setOSId 5
+rem
+rem ***  ***
+rem
+Object.create impskiff_ls
+Object.absolutePosition 365.536/37.9308/999.267
+Object.rotation -85/0/0
+Object.setOSId 5
+rem
+rem ***  ***
+rem
+Object.create impskiff_ls
+Object.absolutePosition 364.723/37.9308/993.628
+Object.rotation -85/0/0
+Object.setOSId 5
+rem
+rem ***  ***
+rem
+Object.create imptank_rebtank
+Object.absolutePosition 248.094/36.2989/942.58
+Object.rotation 87/0/0
+Object.setOSId 5
+rem
+rem ***  ***
+rem
+Object.create impart_rebart
+Object.absolutePosition 259.882/36.7008/933.326
+Object.rotation -1/0/0
+Object.setOSId 5
+rem
+rem ***  ***
+rem
+Object.create imptank_rebtank
+Object.absolutePosition 843.265/37.6418/1743.65
+Object.rotation 159/0/0
+Object.setOSId 2
+rem
+rem ***  ***
+rem
+Object.create atst_landspeeder
+Object.absolutePosition 846.079/42.85/1786.91
+Object.rotation 75/0/0
+Object.setOSId 2
+rem
+rem ***  ***
+rem
+Object.create rebelassaulttank
+Object.absolutePosition 1690.72/56.6796/817.209
+Object.rotation -54/0/0
+Object.setOSId 4
+rem
+rem ***  ***
+rem
+Object.create rebelassaulttank
+Object.absolutePosition 1646.07/56.5041/744.431
+Object.rotation 5/0/0
+Object.setOSId 4
+rem
+rem ***  ***
+rem
+Object.create atst_landspeeder
+Object.absolutePosition 1759.2/74.0624/815.661
+Object.rotation -62/0/0
+Object.setOSId 4
+rem
+rem ***  ***
+rem
+Object.create imptank_rebtank
+Object.absolutePosition 905.671/85.5688/589.811
+Object.rotation 120/0/0
+Object.setOSId 1
+rem
+rem ***  ***
+rem
+Object.create atst_landspeeder
+Object.absolutePosition 916.69/91.05/540.366
+Object.rotation 4.99994/0/3.99999
+Object.setOSId 1
+rem
+rem ***  ***
+rem
+Object.create antiairdefence
+Object.absolutePosition 928.212/84.3188/540.467
+Object.rotation 53/0/0
+Object.setOSId 1
+rem
+rem ***  ***
+rem
+Object.create antiairdefence
+Object.absolutePosition 818.777/36.7584/1707.54
+Object.rotation 70/0/0
+Object.setOSId 2
+rem
+rem ***  ***
+rem
+Object.create antiairdefence
+Object.absolutePosition 1716.34/70.1461/789.582
+Object.rotation -89/0/0
+Object.setOSId 4
+rem
+rem ***  ***
+rem
+Object.create rebelassaulttank
+Object.absolutePosition 1785.4/71.2043/784.941
+Object.rotation -4.58903e-006/0/0
+Object.setOSId 4
+rem
+rem ***  ***
+rem
+Object.create atst_landspeeder
+Object.absolutePosition 248.497/43.94/1041.79
+Object.rotation 86/0/0
+Object.setOSId 5
+rem
+rem ***  ***
+rem
+Object.create antiairdefence
+Object.absolutePosition 351.975/37.6003/1046.88
+Object.rotation 166/0/0
+Object.setOSId 5
+rem
+rem ***  ***
+rem
+Object.create imptank_rebtank
+Object.absolutePosition 168.352/37.3322/1834.32
+Object.rotation 88.0001/0/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create tiebomber_spawner
+Object.absolutePosition 174.481/39.6769/1887.72
+Object.rotation 4.99999/0/0
+Object.setTeam 1

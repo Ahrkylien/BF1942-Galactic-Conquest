@@ -14,38 +14,38 @@ Object.setTeam 1
 rem
 rem ***  ***
 rem
-Object.create syturbolasers
+Object.create syturbolasers3
 Object.absolutePosition 2015.34/264.4/2038.13
 Object.setTeam 1
 rem
 rem ***  ***
 rem
-Object.create syturbolasers
+Object.create syturbolasers3
 Object.absolutePosition 1998.87/264.4/2069.2
 Object.setTeam 1
 rem
 rem ***  ***
 rem
-Object.create syturbolasers
+Object.create syturbolasers2
 Object.absolutePosition 1925.67/425.628/2128.53
 Object.rotation -29/0/0
 Object.setTeam 1
 rem
 rem ***  ***
 rem
-Object.create syturbolasers
+Object.create syturbolasers3
 Object.absolutePosition 1963.55/264.423/2012.27
 Object.setTeam 1
 rem
 rem ***  ***
 rem
-Object.create syturbolasers
+Object.create syturbolasers3
 Object.absolutePosition 1948.83/264.423/2042.16
 Object.setTeam 1
 rem
 rem ***  ***
 rem
-Object.create syturbolasers
+Object.create syturbolasers2
 Object.absolutePosition 1950.3/425.969/2087.37
 Object.rotation -29/0/0
 Object.setTeam 1

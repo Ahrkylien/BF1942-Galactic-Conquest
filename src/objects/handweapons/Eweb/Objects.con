@@ -89,7 +89,6 @@ ObjectTemplate.setInputToPitch c_PIMouseLookY
 ObjectTemplate.create EntryPoint EwebEntry
 ObjectTemplate.setEntryRadius 3
 
-rem
 ObjectTemplate.create SeatObject EwebSeat
 ObjectTemplate.seatFlags c_SeatShowStandingSoldier
 ObjectTemplate.seatFlags c_SeatIsOutside

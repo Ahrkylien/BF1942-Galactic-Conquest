@@ -1,0 +1,46 @@
+rem spawnPointManagerSettings.con created by Battlecraft 1942
+rem (\Program Files\Battlefield 1942\Mods\GCMOD\bf1942\levels\GC_Anchorhead/conquest/spawnPointManagerSettings.con)
+
+rem ----------------------------------------- 
+rem ---  group 1  ---
+rem ----------------------------------------- 
+spawnPointManager.group 1
+spawnPointManager.groupTeam 1
+spawnPointManager.groupIcon test1.tga
+
+rem ----------------------------------------- 
+rem ---  group 2  ---
+rem ----------------------------------------- 
+spawnPointManager.group 2
+spawnPointManager.groupTeam 2
+spawnPointManager.groupIcon test1.tga
+
+rem ----------------------------------------- 
+rem ---  group 3  ---
+rem ----------------------------------------- 
+spawnPointManager.group 3
+spawnPointManager.groupTeam 0
+spawnPointManager.groupIcon test1.tga
+
+rem ----------------------------------------- 
+rem ---  group 4  ---
+rem ----------------------------------------- 
+spawnPointManager.group 4
+spawnPointManager.groupTeam 0
+spawnPointManager.groupIcon test1.tga
+
+rem ----------------------------------------- 
+rem ---  group 5  ---
+rem ----------------------------------------- 
+spawnPointManager.group 5
+spawnPointManager.groupTeam 0
+spawnPointManager.groupIcon test1.tga
+
+rem ----------------------------------------- 
+rem ---  group 6  ---
+rem ----------------------------------------- 
+spawnPointManager.group 6
+spawnPointManager.groupTeam 0
+spawnPointManager.groupIcon test1.tga
+
+rem EndOfFile

@@ -138,3 +138,49 @@ Object.create imp02
 Object.absolutePosition 1596.04/591.461/872.554
 Object.setOSId 0
 Object.setTeam 0
+rem
+rem ***  ***
+rem
+Object.create cp18
+Object.absolutePosition 666.526/342.236/907.301
+Object.rotation -180/0/0
+Object.setOSId 0
+Object.setTeam 155039524
+rem
+rem ***  ***
+rem
+Object.create cp19
+Object.absolutePosition 694.68/342.413/894.397
+Object.setOSId 0
+Object.setTeam 0
+rem
+rem ***  ***
+rem
+Object.create cp22
+Object.absolutePosition 1087.33/343.001/890.584
+Object.rotation 182/0/0
+Object.setOSId 112
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create cp23
+Object.absolutePosition 1087.24/342.506/886.187
+Object.rotation -359/0/0
+Object.setOSId 65
+Object.setTeam 7499841
+rem
+rem ***  ***
+rem
+Object.create cp28
+Object.absolutePosition 1596.45/343.439/872.687
+Object.setOSId 65
+Object.setTeam 1962965345
+rem
+rem ***  ***
+rem
+Object.create cp29
+Object.absolutePosition 1596.28/343.439/877.011
+Object.rotation 181/0/0
+Object.setOSId 112
+Object.setTeam 2036425843

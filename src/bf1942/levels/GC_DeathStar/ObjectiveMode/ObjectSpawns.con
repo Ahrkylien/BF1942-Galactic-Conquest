@@ -114,63 +114,86 @@ Object.setTeam 1
 rem
 rem ***  ***
 rem
+rem ----------------------------------------- 
+rem ---  syturbolasers  ---
+rem ----------------------------------------- 
 Object.create syturbolasers
-Object.absolutePosition 1003.37/138.879/1431.94
+Object.absolutePosition 964.24/138.88/1431.85
+Object.rotation 0.00/0.00/0.00
 Object.setTeam 1
-rem
-rem ***  ***
-rem
+
+rem ----------------------------------------- 
+rem ---  syturbolasers  ---
+rem ----------------------------------------- 
 Object.create syturbolasers
-Object.absolutePosition 1062.97/138.879/1431.94
+Object.absolutePosition 1101.55/138.88/1431.01
+Object.rotation 0.00/0.00/0.00
 Object.setTeam 1
-rem
-rem ***  ***
-rem
+
+rem ----------------------------------------- 
+rem ---  syturbolasers  ---
+rem ----------------------------------------- 
 Object.create syturbolasers
-Object.absolutePosition 1063.12/138.879/2019.23
+Object.absolutePosition 1101.12/138.88/2019.23
+Object.rotation 0.00/0.00/0.00
 Object.setTeam 1
-rem
-rem ***  ***
-rem
+
+rem ----------------------------------------- 
+rem ---  syturbolasers  ---
+rem ----------------------------------------- 
 Object.create syturbolasers
-Object.absolutePosition 1003.52/138.879/2019.23
+Object.absolutePosition 964.52/138.88/2019.23
+Object.rotation 0.00/0.00/0.00
 Object.setTeam 1
-rem
-rem ***  ***
-rem
+
+rem ----------------------------------------- 
+rem ---  syturbolasers  ---
+rem ----------------------------------------- 
 Object.create syturbolasers
-Object.absolutePosition 1063.12/138.879/2843.87
+Object.absolutePosition 1100.47/138.88/2844.61
+Object.rotation 0.00/0.00/0.00
 Object.setTeam 1
-rem
-rem ***  ***
-rem
+
+rem ----------------------------------------- 
+rem ---  syturbolasers  ---
+rem ----------------------------------------- 
 Object.create syturbolasers
-Object.absolutePosition 1003.52/138.879/2843.87
+Object.absolutePosition 964.10/138.88/2843.55
+Object.rotation 0.00/0.00/0.00
 Object.setTeam 1
-rem
-rem ***  ***
-rem
+
+rem ----------------------------------------- 
+rem ---  syturbolasers  ---
+rem ----------------------------------------- 
 Object.create syturbolasers
-Object.absolutePosition 1062.3/138.879/3611.67
+Object.absolutePosition 1102.24/138.88/3601.69
+Object.rotation 0.00/0.00/0.00
 Object.setTeam 1
-rem
-rem ***  ***
-rem
+
+rem ----------------------------------------- 
+rem ---  syturbolasers  ---
+rem ----------------------------------------- 
 Object.create syturbolasers
-Object.absolutePosition 1002.7/138.879/3611.67
+Object.absolutePosition 964.54/138.88/3601.14
+Object.rotation 0.00/0.00/0.00
 Object.setTeam 1
-rem
-rem ***  ***
-rem
+
+rem ----------------------------------------- 
+rem ---  syturbolasers  ---
+rem ----------------------------------------- 
 Object.create syturbolasers
-Object.absolutePosition 1003.82/138.879/3545.9
+Object.absolutePosition 964.09/138.88/3560.09
+Object.rotation 0.00/0.00/0.00
 Object.setTeam 1
-rem
-rem ***  ***
-rem
+
+rem ----------------------------------------- 
+rem ---  syturbolasers  ---
+rem ----------------------------------------- 
 Object.create syturbolasers
-Object.absolutePosition 1062.6/138.879/3546.34
+Object.absolutePosition 1102.18/138.88/3551.03
+Object.rotation 0.00/0.00/0.00
 Object.setTeam 1
+
 rem
 rem ***  ***
 rem

@@ -9,7 +9,7 @@ ObjectTemplate.hasDynamicShadow 1
 ObjectTemplate.explosionRadius 8
 ObjectTemplate.explosionDamage 5
 ObjectTemplate.damageFromWater 1
-ObjectTemplate.drag 0.49
+ObjectTemplate.drag 1.49
 ObjectTemplate.GravityModifier CRD_NONE/2.5/0/0 
 ObjectTemplate.dragOffset 0/-1/2
 ObjectTemplate.mass 3000
@@ -37,7 +37,7 @@ ObjectTemplate.aiTemplate Willy
 rem -------------------------------------
 ObjectTemplate.addTemplate lodLandspeederEWEB
 rem -------------------------------------
-ObjectTemplate.setSoldierExitLocation -1.5/0/-0.8 0/0/0
+ObjectTemplate.setSoldierExitLocation -2.7/0/0 0/0/0
 ObjectTemplate.setVehicleIcon "Vehicle/Icon_landspeeder.dds"
 ObjectTemplate.setVehicleIconPos 60/55
 ObjectTemplate.setPrimaryAmmoBar ABNone
@@ -75,59 +75,36 @@ ObjectTemplate.setPosition 0/0/-1
 ObjectTemplate.addTemplate LandspeederSteeringDummy
 ObjectTemplate.setPosition -0.399/0.35/0.15
 ObjectTemplate.setRotation 0/34/0
-ObjectTemplate.addTemplate landspeederLRudder
-ObjectTemplate.setPosition -2/1.088/-6.067
-ObjectTemplate.setRotation 0/0/-89.998
-ObjectTemplate.addTemplate landspeederRRudder
-ObjectTemplate.setPosition 2/1.088/-6.067
-ObjectTemplate.setRotation 0/0/-89.998
-rem ---Turning Engines for Landspeeder----
-ObjectTemplate.addTemplate landspeederLTurnEngine
-ObjectTemplate.setPosition -2/-0.5/0
-ObjectTemplate.setRotation 0/0/-89.998
-ObjectTemplate.addTemplate landspeederRTurnEngine
-ObjectTemplate.setPosition 2/-0.5/0
-ObjectTemplate.setRotation 180/0/-89.998
-rem ---Grav Engines for Landspeeder----
-ObjectTemplate.addTemplate landspeederRGravEngine
-ObjectTemplate.setPosition 2/1/-3
-ObjectTemplate.setRotation 0/90/-89.998
-ObjectTemplate.addTemplate landspeederLGravEngine
-ObjectTemplate.setPosition -2/1/-3
-ObjectTemplate.setRotation 0/90/-89.998
 rem ______________________________________
 ObjectTemplate.addTemplate landspeederEngine
-ObjectTemplate.setPosition 0/3/-3
-ObjectTemplate.setRotation 0/0/-89.998
-ObjectTemplate.addTemplate landspeederleftEngine
-ObjectTemplate.setPosition -2/1/-3
-ObjectTemplate.setRotation 0/0/-89.998
-ObjectTemplate.addTemplate landspeederrightEngine
-ObjectTemplate.setPosition 2/1/-3
-ObjectTemplate.setRotation 0/0/-89.998
-ObjectTemplate.addTemplate landspeederRLWheelBackSpring
-ObjectTemplate.setPosition -2/-0.5/-4
-ObjectTemplate.addTemplate landspeederRRWheelBackSpring
-ObjectTemplate.setPosition 2/-0.5/-4
-ObjectTemplate.addTemplate landspeederFLWheel
-ObjectTemplate.setPosition -2/-0.5/4
-ObjectTemplate.addTemplate landspeederFRWheel
-ObjectTemplate.setPosition 2/-0.5/4
+ObjectTemplate.setPosition 0/.3/0
+ObjectTemplate.addTemplate GravEngine
+ObjectTemplate.setPosition 0/2.27/0
+ObjectTemplate.setRotation 0/90/0
+ObjectTemplate.addTemplate GravEngine
+ObjectTemplate.setPosition 0/1.27/0
+ObjectTemplate.setRotation 0/0/0
 rem -------------------------------------
 ObjectTemplate.addTemplate LandspeederEWEBPCO
 ObjectTemplate.setPosition -.4392/1.1024/1.459
+
+
 
 rem *** LandspeederEWEBPCO ***
 ObjectTemplate.create PlayerControlObject LandspeederEWEBPCO
 ObjectTemplate.setNetworkableInfo LandspeederBodyInfo
 ObjectTemplate.aiTemplate WillyPassenger
 rem -------------------------------------
+ObjectTemplate.addTemplate LandspeederEntry
+ObjectTemplate.setPosition 0/-0.35/1.25
+ObjectTemplate.addTemplate LandspeederEntry
+ObjectTemplate.setPosition 0/-0.35/-0.75
 ObjectTemplate.addTemplate LandspeederEWEBSeat
 ObjectTemplate.setPosition 0/-0.3524/-1.1
 ObjectTemplate.addTemplate LandspeederEWEBRotation
 ObjectTemplate.setPosition 0/0/0
 rem -------------------------------------
-ObjectTemplate.setSoldierExitLocation 1.5/0/-0.8 0/0/0
+ObjectTemplate.setSoldierExitLocation 2.7/0/0 0/0/0
 ObjectTemplate.setVehicleIcon "Vehicle/Icon_landspeeder.dds"
 ObjectTemplate.setVehicleIconPos 73/61
 ObjectTemplate.setPrimaryAmmoBar ABNone

@@ -1,5 +1,3 @@
-renderer.beginGlobalCluster probedroidcontrol
-
 GeometryTemplate.create StandardMesh probedroidcontrol_m1
 GeometryTemplate.file buildings/Hoth/Echobase/echocontrolpanel3
 GeometryTemplate.setLodDistance 0 0
@@ -8,5 +6,3 @@ GeometryTemplate.setLodDistance 2 40
 GeometryTemplate.setLodDistance 3 60
 GeometryTemplate.setLodDistance 4 80
 GeometryTemplate.setLodDistance 5 100
-
-renderer.endGlobalCluster

@@ -1,0 +1,64 @@
+rem *** Flags ***
+
+AnimationStateMachine.createState FlagBlow
+AnimationStateMachine.addAnimation animations/Flag/FlagBlow.baf 0.05 c_AsmLooping
+AnimationStateMachine.setMorphFactor 3.0
+AnimationStateMachine.setUserRandomStartTime true
+rem AnimationStateMachine.addIdle FlagIdle1
+rem AnimationStateMachine.addIdle FlagIdle2
+
+AnimationStateMachine.createState FlagIdle1
+AnimationStateMachine.addAnimation animations/Flag/FlagIdle1.baf 0.1 c_AsmPlayOnce
+AnimationStateMachine.setMorphFactor 3.0
+AnimationStateMachine.addTransitionWhenDone FlagBlow
+
+AnimationStateMachine.createState FlagIdle2
+AnimationStateMachine.addAnimation animations/Flag/FlagIdle2.baf 0.1 c_AsmPlayOnce
+AnimationStateMachine.setMorphFactor 3.0
+AnimationStateMachine.addTransitionWhenDone FlagBlow
+
+
+
+rem *** Grass ***
+
+AnimationStateMachine.createState dan_grass1
+AnimationStateMachine.addAnimation animations/Nature/dan_grass1.baf 0.2 c_AsmLooping
+AnimationStateMachine.setMorphFactor 3.0
+AnimationStateMachine.setUserRandomStartTime true
+
+rem *** Grass ***
+
+AnimationStateMachine.createState sarlaac_move
+AnimationStateMachine.addAnimation animations/Nature/sarlaac.baf 0.08 c_AsmLooping
+AnimationStateMachine.setMorphFactor 3.0
+AnimationStateMachine.setUserRandomStartTime true
+
+
+rem *** Wheat ***
+
+AnimationStateMachine.createState WheatBlow
+AnimationStateMachine.addAnimation animations/Nature/wheatblow.baf 0.25 c_AsmLooping
+AnimationStateMachine.setMorphFactor 3.0
+AnimationStateMachine.setUserRandomStartTime true
+
+
+rem *** canvas blow ***
+
+AnimationStateMachine.createState canvas1wave
+AnimationStateMachine.addAnimation animations/Nature/canvas1wave.baf 0.30 c_AsmLooping
+AnimationStateMachine.setMorphFactor 1.0
+AnimationStateMachine.setUserRandomStartTime true
+
+AnimationStateMachine.createState canvas2wave
+AnimationStateMachine.addAnimation animations/Nature/canvas2wave.baf 0.30 c_AsmLooping
+AnimationStateMachine.setMorphFactor 1.0
+AnimationStateMachine.setUserRandomStartTime true
+
+rem *** dan_hologram Table ***
+
+AnimationStateMachine.createState dan_holo
+AnimationStateMachine.addAnimation animations/Nature/dan_holo1.baf 0.05 c_AsmLooping
+AnimationStateMachine.setMorphFactor 3.0
+AnimationStateMachine.setUserRandomStartTime true
+
+

@@ -1,0 +1,5 @@
+rem *** ambient-hothwind ***
+ObjectTemplate.create SimpleObject ambient-hothwind
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.triggerRadius 100
+ObjectTemplate.loadSoundScript ambient-hothwind.ssc

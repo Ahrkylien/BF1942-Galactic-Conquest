@@ -6,7 +6,7 @@ ObjectTemplate.aiTemplate SpitfireMachineGun
 rem -------------------------------------
 ObjectTemplate.visibleBarrelTemplate e_MuzzThomp
 rem -------------------------------------
-ObjectTemplate.projectileTemplate StrongLaserProjectileRedS
+ObjectTemplate.projectileTemplate StrongLaserProjectileRedNS
 ObjectTemplate.magSize 20
 ObjectTemplate.autoReload 1
 ObjectTemplate.numOfMag 800

@@ -18,17 +18,27 @@ MaterialManager.setEffectTemplate LargeRedNS_Expl
 
 MaterialManager.attGroup 552
 MaterialManager.defGroup 811
-MaterialManager.damageMod 5
+MaterialManager.damageMod 8
 MaterialManager.setEffectTemplate LargeRedNS_Expl
 
 MaterialManager.attGroup 552
 MaterialManager.defGroup 812
-MaterialManager.damageMod 8
+MaterialManager.damageMod 12
 MaterialManager.setEffectTemplate LargeRedNS_Expl
 
 MaterialManager.attGroup 552
 MaterialManager.defGroup 821
 MaterialManager.damageMod 7
+MaterialManager.setEffectTemplate LargeRedNS_Expl
+
+MaterialManager.attGroup 552
+MaterialManager.defGroup 831
+MaterialManager.damageMod 10
+MaterialManager.setEffectTemplate LargeRedNS_Expl
+
+MaterialManager.attGroup 552
+MaterialManager.defGroup 832
+MaterialManager.damageMod 10
 MaterialManager.setEffectTemplate LargeRedNS_Expl
 
 rem * *************************************************

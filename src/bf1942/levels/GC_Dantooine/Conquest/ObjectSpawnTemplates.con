@@ -1,0 +1,109 @@
+ObjectTemplate.create ObjectSpawner atst_landspeeder
+ObjectTemplate.setObjectTemplate 2 landspeeder
+ObjectTemplate.setObjectTemplate 1 atst-v
+ObjectTemplate.SpawnDelay 25
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+
+ObjectTemplate.create ObjectSpawner imptank_rebtank
+ObjectTemplate.setObjectTemplate 2 t-3b
+ObjectTemplate.setObjectTemplate 1 firehawke
+ObjectTemplate.MinSpawnDelay 15
+ObjectTemplate.MaxSpawnDelay 30
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+
+ObjectTemplate.create ObjectSpawner tiebomber_spawner
+ObjectTemplate.setObjectTemplate 2 tiebomber
+ObjectTemplate.setObjectTemplate 1 tiebomber
+ObjectTemplate.MinSpawnDelay 25
+ObjectTemplate.MaxSpawnDelay 70
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+
+ObjectTemplate.create ObjectSpawner r5controlspawner
+ObjectTemplate.setObjectTemplate 2 r5d4controlimperial
+ObjectTemplate.setObjectTemplate 1 r5d4controlimperial
+ObjectTemplate.MinSpawnDelay 25
+ObjectTemplate.MaxSpawnDelay 45
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 0
+
+ObjectTemplate.create ObjectSpawner lambda_spaners
+ObjectTemplate.setObjectTemplate 2 lambda
+ObjectTemplate.setObjectTemplate 1 lambda
+ObjectTemplate.MinSpawnDelay 25
+ObjectTemplate.MaxSpawnDelay 60
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+
+ObjectTemplate.create ObjectSpawner impskiff_ls
+ObjectTemplate.setObjectTemplate 2 landspeeder
+ObjectTemplate.setObjectTemplate 1 impskiff
+ObjectTemplate.MinSpawnDelay 15
+ObjectTemplate.MaxSpawnDelay 40
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 15
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+
+ObjectTemplate.create ObjectSpawner rebelassaulttank
+ObjectTemplate.setObjectTemplate 2 t-3b
+ObjectTemplate.setObjectTemplate 1 t-3b
+ObjectTemplate.MinSpawnDelay 10
+ObjectTemplate.MaxSpawnDelay 30
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+
+ObjectTemplate.create ObjectSpawner impart_rebart
+ObjectTemplate.setObjectTemplate 2 t-3ba
+ObjectTemplate.setObjectTemplate 1 miau
+ObjectTemplate.MinSpawnDelay 15
+ObjectTemplate.MaxSpawnDelay 30
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+
+ObjectTemplate.create ObjectSpawner antiairdefence
+ObjectTemplate.setObjectTemplate 2 i.m.d.s
+ObjectTemplate.setObjectTemplate 1 i.m.d.s
+ObjectTemplate.MinSpawnDelay 40
+ObjectTemplate.MaxSpawnDelay 70
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+
+ObjectTemplate.create ObjectSpawner gunshipspawner
+ObjectTemplate.setObjectTemplate 2 repgun2
+ObjectTemplate.setObjectTemplate 1 repgun2
+ObjectTemplate.MinSpawnDelay 25
+ObjectTemplate.MaxSpawnDelay 45
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+
+ObjectTemplate.create ObjectSpawner weaponspawners
+ObjectTemplate.setObjectTemplate 2 rebel_tracker
+ObjectTemplate.setObjectTemplate 1 tl-21_kit
+ObjectTemplate.MinSpawnDelay 5
+ObjectTemplate.MaxSpawnDelay 10
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+

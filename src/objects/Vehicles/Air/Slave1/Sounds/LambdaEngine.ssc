@@ -14,8 +14,8 @@ beginEffect
 	controlDestination Volume
 	controlSource Distance
 	envelope Ramp
-	param 15
-	param 125
+	param 100
+	param 200
 	param 1
 	param -1	
 endEffect
@@ -69,7 +69,7 @@ beginEffect
 	controlDestination Volume
 	controlSource Distance
 	envelope Ramp
-	param 60
+	param 160
 	param 280
 	param 1
 	param -1		
@@ -135,7 +135,7 @@ beginEffect
 	controlDestination Volume
 	controlSource Distance
 	envelope Ramp
-	param 60
+	param 160
 	param 280
 	param 1
 	param -1		
@@ -158,7 +158,7 @@ endEffect
 
 load @ROOT/Sound/@RTD/lambda-engine-3.wav
 loop
-minDistance 40
+minDistance 60
 randomStartPitch .05/.05 
 volume 0.65
 priority 9
@@ -201,8 +201,8 @@ beginEffect
 	controlDestination Volume
 	controlSource Distance
 	envelope Ramp
-	param 40
-	param 200
+	param 160
+	param 280
 	param 1
 	param -1		
 endEffect
@@ -226,7 +226,7 @@ endEffect
 
 load @ROOT/Sound/@RTD/lambda-engine-4.wav
 loop
-minDistance 30
+minDistance 60
 randomStartPitch .05/.05 
 volume 0.6
 priority 9
@@ -258,8 +258,8 @@ beginEffect
 	controlDestination Volume
 	controlSource Distance
 	envelope Ramp
-	param 30
-	param 180
+	param 160
+	param 280
 	param 1
 	param -1		
 endEffect
@@ -276,15 +276,36 @@ beginEffect
 endEffect
 
 ################
-### Cockpit1 ###
+### CockpitL ###
 ################
 
-load @ROOT/Sound/@RTD/lambda-engine-cockpit1.wav
-stereo
+load @ROOT/Sound/@RTD/lambda-cockpit-l.wav
 loop
 minDistance 5
-relativePosition  1.4/2.1/12.5
-volume 0.8
+relativePosition 1.6/2.1/12.5
+volume 0.4
+priority 6
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 2
+	param 4
+	param 1
+	param -1		
+endEffect
+
+################
+### CockpitR ###
+################
+
+load @ROOT/Sound/@RTD/lambda-cockpit-r.wav
+loop
+minDistance 5
+relativePosition 1.2/2.1/12.5
+volume 0.4
 priority 6
 
 *** Distance Volume ***
@@ -312,8 +333,8 @@ beginEffect
 	controlDestination Volume
 	controlSource Distance
 	envelope Ramp
-	param 15
-	param 125
+	param 100
+	param 200
 	param 1
 	param -1	
 endEffect

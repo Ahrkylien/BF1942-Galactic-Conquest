@@ -1,8 +1,6 @@
 NetworkableInfo.createNewInfo MouseDroidControlBodyInfo
 NetworkableInfo.setPredictionMode PMLinear
 
-NetworkableInfo.createNewInfo MouseDroidLauncherInfo
-NetworkableInfo.setPredictionMode PMLinear
 
 
 

@@ -1,6 +1,6 @@
 rem *** MouseDroidEngine ***
 ObjectTemplate.create Engine MouseDroidEngine
-ObjectTemplate.setNetworkableInfo MouseDroidEngineInfo
+ObjectTemplate.setNetworkableInfo MouseDroid_engine_info
 ObjectTemplate.setAttachToListener 1
 ObjectTemplate.loadSoundScript Sounds/MouseDroidEngine.ssc
 ObjectTemplate.hasMobilePhysics 1

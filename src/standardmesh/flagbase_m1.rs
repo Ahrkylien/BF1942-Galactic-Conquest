@@ -1,7 +1,19 @@
 subshader "flagbase_m1_Material0" "StandardMesh/Default"
 {
 	lighting true;
-	materialDiffuse 1 1 1;
 	lightingSpecular false;
+	materialDiffuse 0.588235 0.588235 0.588235;
+	transparent true;
+      depthWrite false;
+	alphaTestRef 0.7;
+	texture "texture/flagbeam";
+}
+
+subshader "flagbase_m1_Material1" "StandardMesh/Default"
+{
+	lighting true;
+	lightingSpecular false;
+	materialDiffuse 0.588 0.588 0.588;
 	texture "texture/flagbase";
 }
+

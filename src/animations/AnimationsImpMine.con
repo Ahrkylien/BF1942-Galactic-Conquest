@@ -1,0 +1,127 @@
+rem ---- ImpMine ----
+rem ** 1P **
+AnimationStateMachine.set1pAnimationSpeed Ub_StandImpMine 0.1
+AnimationStateMachine.set1pAnimationSpeed Ub_TurnImpMine 0.70
+AnimationStateMachine.set1pAnimationSpeed Ub_StandAimImpMine 0.1
+AnimationStateMachine.set1pAnimationSpeed Ub_WalkForwardImpMine 0.50
+AnimationStateMachine.set1pAnimationSpeed Ub_WalkBackwardImpMine 0.50
+AnimationStateMachine.set1pAnimationSpeed Ub_RunForwardImpMine 1.48
+AnimationStateMachine.set1pAnimationSpeed Ub_RunBackwardImpMine 1.47
+AnimationStateMachine.set1pAnimationSpeed Ub_StrafeLeftImpMine 1.47
+AnimationStateMachine.set1pAnimationSpeed Ub_StrafeRightImpMine 1.47
+AnimationStateMachine.set1pAnimationSpeed Ub_StandJumpImpMine 0.40
+AnimationStateMachine.set1pAnimationSpeed Ub_RunJumpImpMine 1.20
+AnimationStateMachine.set1pAnimationSpeed Ub_FireImpMine 2.00
+AnimationStateMachine.set1pAnimationSpeed Ub_LieFireImpMine 2.00
+AnimationStateMachine.set1pAnimationSpeed Ub_IdleImpMine1 0.32
+AnimationStateMachine.set1pAnimationSpeed Ub_IdleImpMine2 0.54
+AnimationStateMachine.set1pAnimationSpeed Ub_IdleImpMine3 0.69
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchIdleImpMine1 0.32
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchIdleImpMine2 0.54
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchIdleImpMine3 0.69
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchImpMine 0.25
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchTurnImpMine 0.50
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchForwardImpMine 0.91
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchBackwardImpMine 0.60
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchStrafeLeftImpMine 0.60
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchStrafeRightImpMine 0.60
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchToLieImpMine 0.60
+AnimationStateMachine.set1pAnimationSpeed Ub_LieToCrouchImpMine 0.60
+AnimationStateMachine.set1pAnimationSpeed Ub_LieToStandImpMine 0.60
+AnimationStateMachine.set1pAnimationSpeed Ub_LieImpMine 0.20
+AnimationStateMachine.set1pAnimationSpeed Ub_LieForwardImpMine 0.70
+AnimationStateMachine.set1pAnimationSpeed Ub_LieBackwardImpMine 0.82
+AnimationStateMachine.set1pAnimationSpeed Ub_LieTurnLeftImpMine 0.82
+AnimationStateMachine.set1pAnimationSpeed Ub_LieTurnRightImpMine 0.82
+AnimationStateMachine.set1pAnimationSpeed Ub_LieStrafeLeftImpMine 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_LieStrafeRightImpMine 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_RunStandToLieImpMine 1.50
+AnimationStateMachine.set1pAnimationSpeed Ub_StandReloadImpMine 0.25
+AnimationStateMachine.set1pAnimationSpeed Ub_LieReloadImpMine 0.25
+AnimationStateMachine.set1pAnimationSpeed Ub_StandRaiseWeaponImpMine 1.16
+AnimationStateMachine.set1pAnimationSpeed Ub_CrouchRaiseWeaponImpMine 1.00
+AnimationStateMachine.set1pAnimationSpeed Ub_LieRaiseWeaponImpMine 1.16
+rem **3P**
+AnimationStateMachine.set3pAnimationSpeed Ub_StandImpMine 0.60
+AnimationStateMachine.set3pAnimationSpeed Ub_TurnImpMine 1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_StandAimImpMine 0.80
+AnimationStateMachine.set3pAnimationSpeed Ub_WalkForwardImpMine 1.0
+AnimationStateMachine.set3pAnimationSpeed Ub_WalkBackwardImpMine -1.0
+AnimationStateMachine.set3pAnimationSpeed Ub_RunForwardImpMine 1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_RunBackwardImpMine -1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_StrafeLeftImpMine 1.30
+AnimationStateMachine.set3pAnimationSpeed Ub_StrafeRightImpMine 1.30
+AnimationStateMachine.set3pAnimationSpeed Ub_StandJumpImpMine 1.10
+AnimationStateMachine.set3pAnimationSpeed Ub_RunJumpImpMine 1.22
+AnimationStateMachine.set3pAnimationSpeed Ub_FireImpMine 2.43
+AnimationStateMachine.set3pAnimationSpeed Ub_LieFireImpMine 2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_IdleImpMine1 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_IdleImpMine2 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_IdleImpMine3 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchIdleImpMine1 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchIdleImpMine2 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchIdleImpMine3 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchImpMine 0.80
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchTurnImpMine 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchForwardImpMine 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchBackwardImpMine -1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchStrafeLeftImpMine 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchStrafeRightImpMine 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchToLieImpMine 1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_LieToCrouchImpMine -2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieToStandImpMine -3.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieImpMine 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieForwardImpMine 1.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieBackwardImpMine -0.80
+AnimationStateMachine.set3pAnimationSpeed Ub_LieTurnLeftImpMine 2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieTurnRightImpMine 2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieStrafeLeftImpMine 2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_LieStrafeRightImpMine 2.00
+AnimationStateMachine.set3pAnimationSpeed Ub_RunStandToLieImpMine 1.40
+AnimationStateMachine.set3pAnimationSpeed Ub_StandReloadImpMine 0.40
+AnimationStateMachine.set3pAnimationSpeed Ub_LieReloadImpMine 0.40
+AnimationStateMachine.set3pAnimationSpeed Ub_StandRaiseWeaponImpMine -1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_CrouchRaiseWeaponImpMine -1.60
+AnimationStateMachine.set3pAnimationSpeed Ub_LieRaiseWeaponImpMine -1.60
+
+AnimationStateMachine.set3pAnimationSpeed WeaponReloadImpMine 0.25
+AnimationStateMachine.set3pAnimationSpeed WeaponFireImpMine 2.00
+
+AnimationStateMachine.setactiveState Ub_FireImpMine
+AnimationStateMachine.setCameraShakeRoll 0 0.25 800.0
+AnimationStateMachine.setCameraShakePitch 0 0.10 900.0
+AnimationStateMachine.setCameraShakeYaw 0 0.10 700.0
+AnimationStateMachine.setCameraShakeLeftRight 0 0.03 4000
+AnimationStateMachine.setCameraShakeInOut 0 0.3 3000
+AnimationStateMachine.setCameraShakeUpDown 0 0.03 3500
+AnimationStateMachine.setCameraShakeFadeOut 0 8
+
+AnimationStateMachine.setactiveState Ub_LieFireImpMine
+AnimationStateMachine.setCameraShakeRoll 0 0.25 800.0
+AnimationStateMachine.setCameraShakePitch 0 0.10 900.0
+AnimationStateMachine.setCameraShakeYaw 0 0.10 700.0
+AnimationStateMachine.setCameraShakeLeftRight 0 0.03 4000
+AnimationStateMachine.setCameraShakeInOut 0 0.3 3000
+AnimationStateMachine.setCameraShakeUpDown 0 0.03 3500
+AnimationStateMachine.setCameraShakeFadeOut 0 8
+
+AnimationStateMachine.setActiveState Ub_StandAimImpMine
+AnimationStateMachine.clearAllIdles
+AnimationStateMachine.setCameraShakePitch 0 0.25 1.5
+AnimationStateMachine.setCameraShakeYaw 0 0.2 0.5
+AnimationStateMachine.setCameraShakeMinFactor 0 0.075
+AnimationStateMachine.setCameraShakeFadeOut 0 0.25
+
+AnimationStateMachine.setActiveState Ub_CrouchImpMine
+AnimationStateMachine.clearAllIdles
+AnimationStateMachine.setCameraShakePitch 0 0.20 1.5
+AnimationStateMachine.setCameraShakeYaw 0 0.15 0.5
+AnimationStateMachine.setCameraShakeMinFactor 0 0.075
+AnimationStateMachine.setCameraShakeFadeOut 0 0.25
+
+AnimationStateMachine.setActiveState Ub_LieImpMine
+AnimationStateMachine.clearAllIdles
+AnimationStateMachine.setCameraShakePitch 0 0.15 1.5
+AnimationStateMachine.setCameraShakeYaw 0 0.10 0.5
+AnimationStateMachine.setCameraShakeMinFactor 0 0.075
+AnimationStateMachine.setCameraShakeFadeOut 0 0.25

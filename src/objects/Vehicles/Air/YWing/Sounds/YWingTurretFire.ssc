@@ -17,7 +17,7 @@ volume 0
 newPatch
 
 load @ROOT/Sound/@RTD/ywing-turret-release-stereo.wav
-relativePosition 0/0.03/-0.892
+relativePosition 0/0.15/0
 volume 0.8
 minDistance 1
 stereo
@@ -29,13 +29,14 @@ beginEffect
 	controlDestination Volume
 	controlSource Distance
 	envelope Ramp
-	param 1
-	param 1
+	param 0.5
+	param 0.5
 	param 1
 	param -1
 endEffect
 
 load @ROOT/Sound/@RTD/ywing-turret-release-mono.wav
+relativePosition 0/0.15/0
 minDistance 10
 volume 0.8
 randomStartPitch 0.05 / 0.05
@@ -45,8 +46,8 @@ beginEffect
 	controlDestination Volume
 	controlSource Distance
 	envelope Ramp
-	param 1
-	param 1
+	param 0.5
+	param 0.5
 	param 0
 	param 1	
 endEffect
@@ -81,7 +82,7 @@ volume 0
 #################
 newPatch
 load @ROOT/Sound/@RTD/ywing-turret-short-stereo.wav
-relativePosition 0/0.03/-0.892
+relativePosition 0/0.15/0
 volume 0.8
 minDistance 1
 stereo
@@ -94,13 +95,14 @@ beginEffect
 	controlDestination Volume
 	controlSource Distance
 	envelope Ramp
-	param 1
-	param 1
+	param 0.5
+	param 0.5
 	param 1
 	param -1
 endEffect
 
 load @ROOT/Sound/@RTD/ywing-turret-short-mono.wav
+relativePosition 0/0.15/0
 minDistance 50
 volume 0.8
 loop
@@ -113,8 +115,8 @@ beginEffect
 	controlDestination Volume
 	controlSource Distance
 	envelope Ramp
-	param 1
-	param 1
+	param 0.5
+	param 0.5
 	param 0
 	param 1	
 endEffect

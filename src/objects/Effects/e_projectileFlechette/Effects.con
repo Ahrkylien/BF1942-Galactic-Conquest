@@ -18,7 +18,7 @@ ObjectTemplate.addEmitterSpeed 1
 ObjectTemplate.emitterSpeedScale 1
 ObjectTemplate.startProbability 1
 ObjectTemplate.lodDistance 800
-ObjectTemplate.timeToLive CRD_NONE/5/0/0
+ObjectTemplate.timeToLive CRD_NONE/20/0/0
 ObjectTemplate.intensity CRD_NONE/40/0/0
 ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/0/0.2/1
 ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/0/0.2/1

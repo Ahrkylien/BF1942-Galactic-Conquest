@@ -1,0 +1,10 @@
+rem *********************************************
+rem Created by Battlecraft 1942.  Copyright (c)2003,2004 Digital Illusions CE
+rem *********************************************
+Game.setLocalized 1
+
+game.setLoadPicture Load/lok.tga
+game.setServerInfoIcon ../../bf1942/levels/GC_Lok/menu/serverInfo.dds
+game.setMultiplayerBriefingObjectives "The forsaken world of Lok will be the Empire's new foothold into the Outer Rim. Imperial forces have established an outpost in the southern region of the planet. Little do they know, Lok has long been a sympathizer of the Rebellion. The notorious smuggler Nym, whose base of operations is located on Lok, has informed rebel agents of the situation. A covert group of rebel troops has taken control of the Imperial starport in order to cut off Imperial supply lines.  With the starport secured rebel forces plan to launch an assault on the outpost using the Empire's own equipment against them..."
+
+game.setMapId "GCMOD"

@@ -1,5 +1,5 @@
-rem ** epsilon (Lambda) **
-ObjectTemplate.create PlayerControlObject epsilon
+rem ** Epsilon (Lambda) **
+ObjectTemplate.create PlayerControlObject Epsilon
 ObjectTemplate.setNetworkableInfo LambdaBodyInfo
 ObjectTemplate.saveInSeparateFile 1
 objectTemplate.cullRadiusScale 5
@@ -16,14 +16,23 @@ ObjectTemplate.speedMod 0
 ObjectTemplate.hitpoints 400
 ObjectTemplate.maxhitpoints 400
 ObjectTemplate.material 811
-ObjectTemplate.criticalDamage 40
-ObjectTemplate.hpLostWhileCriticalDamage 4
+ObjectTemplate.criticalDamage 55
+ObjectTemplate.hpLostWhileCriticalDamage 5
 ObjectTemplate.explosionForceMod 10
 ObjectTemplate.hpLostWhileUpSideDown 40
 ObjectTemplate.hpLostWhileDamageFromWater 40
-ObjectTemplate.addArmorEffect 80 em_TieBomberDamage -1.9/0/-1.5
-ObjectTemplate.addArmorEffect 80 em_PlaneDamage -1.5/0/-1.5
-ObjectTemplate.addArmorEffect 20 e_TieBomberFire -1.7/0/-1.5
+
+ObjectTemplate.addArmorEffect 210 em_PlaneDamage 3/-0.1/-7
+ObjectTemplate.addArmorEffect 210 em_PlaneDamage -3/-0.1/-7
+
+ObjectTemplate.addArmorEffect 160 em_B17Damage 3/-0.1/-7
+ObjectTemplate.addArmorEffect 160 em_PlaneDamage -3/-0.1/-7
+
+ObjectTemplate.addArmorEffect 110 em_B17Damage 3/-0.1/-7
+ObjectTemplate.addArmorEffect 110 em_B17Damage -3/-0.1/-7
+
+ObjectTemplate.addArmorEffect 55 e_e_B17Fire 0/-0.1/-7
+
 ObjectTemplate.addArmorEffect 0 e_ExplGas 0/0/0
 ObjectTemplate.addArmorEffect 0 e_ScrapMetal_Lambda 0/0/0
 ObjectTemplate.addArmorEffect -1 WaterWaterExplosion 0/0/0
@@ -79,11 +88,6 @@ ObjectTemplate.setPosition -3.5/-2.5/11
 ObjectTemplate.addTemplate LambdaEntry
 ObjectTemplate.setPosition 3.5/-2.5/11
 ObjectTemplate.addTemplate LambdaFrontGun
-ObjectTemplate.setPosition -6.8/0.13/9.8
-ObjectTemplate.setRotation 1.6/0/0
-ObjectTemplate.addTemplate LambdaFrontGun
-ObjectTemplate.setPosition 7.1/0.13/9.8
-ObjectTemplate.setRotation -1.6/0/0
 ObjectTemplate.addTemplate LambdaDoorPCO
 ObjectTemplate.setPosition 0/0/0
 ObjectTemplate.addTemplate LambdaBackGunPCO
@@ -199,16 +203,23 @@ ObjectTemplate.speedMod .5
 ObjectTemplate.hitpoints 400
 ObjectTemplate.maxhitpoints 400
 ObjectTemplate.material 765
-ObjectTemplate.criticalDamage 60
-ObjectTemplate.hpLostWhileCriticalDamage 4
-ObjectTemplate.explosionForceMod 5
-ObjectTemplate.hpLostWhileUpSideDown 10
-ObjectTemplate.hpLostWhileDamageFromWater 10
-ObjectTemplate.addArmorEffect 150 em_TieBomberDamage -1.9/0/-1.5
-ObjectTemplate.addArmorEffect 150 em_PlaneDamage -1.5/0/-1.5
-ObjectTemplate.addArmorEffect 75 em_TieBomberDamage -1.9/0/-1.5
-ObjectTemplate.addArmorEffect 75 em_PlaneDamage -1.5/0/-1.5
-ObjectTemplate.addArmorEffect 50 e_TieBomberFire -1.7/0/-1.5
+ObjectTemplate.criticalDamage 55
+ObjectTemplate.hpLostWhileCriticalDamage 5
+ObjectTemplate.explosionForceMod 10
+ObjectTemplate.hpLostWhileUpSideDown 40
+ObjectTemplate.hpLostWhileDamageFromWater 40
+
+ObjectTemplate.addArmorEffect 210 em_PlaneDamage 3/-0.1/-7
+ObjectTemplate.addArmorEffect 210 em_PlaneDamage -3/-0.1/-7
+
+ObjectTemplate.addArmorEffect 160 em_B17Damage 3/-0.1/-7
+ObjectTemplate.addArmorEffect 160 em_PlaneDamage -3/-0.1/-7
+
+ObjectTemplate.addArmorEffect 110 em_B17Damage 3/-0.1/-7
+ObjectTemplate.addArmorEffect 110 em_B17Damage -3/-0.1/-7
+
+ObjectTemplate.addArmorEffect 55 e_e_B17Fire 0/-0.1/-7
+
 ObjectTemplate.addArmorEffect 0 e_ExplGas 0/0/0
 ObjectTemplate.addArmorEffect 0 e_ScrapMetal_Lambda 0/0/0
 ObjectTemplate.addArmorEffect -1 WaterWaterExplosion 0/0/0
@@ -250,16 +261,23 @@ ObjectTemplate.speedMod .5
 ObjectTemplate.hitpoints 400
 ObjectTemplate.maxhitpoints 400
 ObjectTemplate.material 765
-ObjectTemplate.criticalDamage 60
-ObjectTemplate.hpLostWhileCriticalDamage 4
-ObjectTemplate.explosionForceMod 5
-ObjectTemplate.hpLostWhileUpSideDown 10
-ObjectTemplate.hpLostWhileDamageFromWater 10
-ObjectTemplate.addArmorEffect 150 em_TieBomberDamage -1.9/0/-1.5
-ObjectTemplate.addArmorEffect 150 em_PlaneDamage -1.5/0/-1.5
-ObjectTemplate.addArmorEffect 75 em_TieBomberDamage -1.9/0/-1.5
-ObjectTemplate.addArmorEffect 75 em_PlaneDamage -1.5/0/-1.5
-ObjectTemplate.addArmorEffect 50 e_TieBomberFire -1.7/0/-1.5
+ObjectTemplate.criticalDamage 55
+ObjectTemplate.hpLostWhileCriticalDamage 5
+ObjectTemplate.explosionForceMod 10
+ObjectTemplate.hpLostWhileUpSideDown 40
+ObjectTemplate.hpLostWhileDamageFromWater 40
+
+ObjectTemplate.addArmorEffect 210 em_PlaneDamage 3/-0.1/-7
+ObjectTemplate.addArmorEffect 210 em_PlaneDamage -3/-0.1/-7
+
+ObjectTemplate.addArmorEffect 160 em_B17Damage 3/-0.1/-7
+ObjectTemplate.addArmorEffect 160 em_PlaneDamage -3/-0.1/-7
+
+ObjectTemplate.addArmorEffect 110 em_B17Damage 3/-0.1/-7
+ObjectTemplate.addArmorEffect 110 em_B17Damage -3/-0.1/-7
+
+ObjectTemplate.addArmorEffect 55 e_e_B17Fire 0/-0.1/-7
+
 ObjectTemplate.addArmorEffect 0 e_ExplGas 0/0/0
 ObjectTemplate.addArmorEffect 0 e_ScrapMetal_Lambda 0/0/0
 ObjectTemplate.addArmorEffect -1 WaterWaterExplosion 0/0/0

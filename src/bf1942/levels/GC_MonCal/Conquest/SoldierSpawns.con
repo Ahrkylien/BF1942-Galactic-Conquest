@@ -1,150 +1,137 @@
-rem
-rem ***  ***
-rem
+rem SoldierSpawns.con created by Battlecraft 1942
+rem (\Program Files\Battlefield 1942\Mods\GCMOD\bf1942\levels\GC_MonCal/conquest/SoldierSpawns.con)
+
+rem ----------------------------------------- 
+rem ---  imp1  ---
+rem ----------------------------------------- 
 Object.create imp1
-Object.absolutePosition 402.459/109.743/1696.11
-Object.rotation 75/0/0
-Object.geometry.scale 0.98/0.98/0.98
-Object.setOSId 12290752
-Object.setTeam 459094
-rem
-rem ***  ***
-rem
+Object.absolutePosition 402.46/109.74/1696.11
+Object.rotation 75.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  imp2  ---
+rem ----------------------------------------- 
 Object.create imp2
-Object.absolutePosition 349.211/104.702/1701.74
-Object.rotation -247/0/0
-Object.setOSId 65
-Object.setTeam 1047244475
-rem
-rem ***  ***
-rem
+Object.absolutePosition 349.21/104.70/1701.74
+Object.rotation -247.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  imp3  ---
+rem ----------------------------------------- 
 Object.create imp3
-Object.absolutePosition 350.076/109.882/1717.89
-Object.rotation -70/0/0
-Object.setOSId -1928723121
-Object.setTeam 154936396
-rem
-rem ***  ***
-rem
+Object.absolutePosition 350.08/109.88/1717.89
+Object.rotation -70.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  imp4  ---
+rem ----------------------------------------- 
 Object.create imp4
-Object.absolutePosition 394.203/104.328/1706.06
-Object.rotation -102/0/0
-Object.setOSId 112
-Object.setTeam 12290392
-rem
-rem ***  ***
-rem
+Object.absolutePosition 394.20/104.33/1706.06
+Object.rotation -102.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  ca11  ---
+rem ----------------------------------------- 
 Object.create ca11
-Object.absolutePosition 1482.96/95.9266/1416.45
-Object.rotation -256/0/0
-Object.setOSId 0
-Object.setTeam 0
-rem
-rem ***  ***
-rem
+Object.absolutePosition 1482.96/95.93/1416.45
+Object.rotation -256.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  ca12  ---
+rem ----------------------------------------- 
 Object.create ca12
-Object.absolutePosition 1445.69/96.5894/1446.34
-Object.rotation -26/0/0
-Object.setOSId 6553705
-Object.setTeam 7471174
-rem
-rem ***  ***
-rem
+Object.absolutePosition 1445.69/96.59/1446.34
+Object.rotation -26.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  ca13  ---
+rem ----------------------------------------- 
 Object.create ca13
-Object.absolutePosition 1423.3/95.2401/1384.14
-Object.rotation -152/0/0
-Object.setOSId 2621480
-Object.setTeam 2621480
-rem
-rem ***  ***
-rem
+Object.absolutePosition 1423.30/95.24/1384.14
+Object.rotation -152.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  ca14  ---
+rem ----------------------------------------- 
 Object.create ca14
-Object.absolutePosition 1337.5/95.4075/1373.52
-Object.rotation 110/0/0
-Object.setOSId 3801209
-Object.setTeam 6357069
-rem
-rem ***  ***
-rem
+Object.absolutePosition 1337.50/95.41/1373.52
+Object.rotation 110.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  ca21  ---
+rem ----------------------------------------- 
 Object.create ca21
-Object.absolutePosition 1317.73/95.0728/1309.05
-Object.rotation -24/0/0
-Object.setOSId 112
-Object.setTeam 7497058
-rem
-rem ***  ***
-rem
+Object.absolutePosition 1317.73/95.07/1309.05
+Object.rotation -24.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  ca22  ---
+rem ----------------------------------------- 
 Object.create ca22
-Object.absolutePosition 1384.62/96.0281/1250
-Object.rotation 44/0/0
-Object.setOSId 112
-Object.setTeam 0
-rem
-rem ***  ***
-rem
+Object.absolutePosition 1384.62/96.03/1250.00
+Object.rotation 44.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  ca23  ---
+rem ----------------------------------------- 
 Object.create ca23
-Object.absolutePosition 1320.22/94.6272/1268.27
-Object.rotation -159/0/0
-Object.setOSId 0
-Object.setTeam 159956728
-rem
-rem ***  ***
-rem
+Object.absolutePosition 1320.22/94.63/1268.27
+Object.rotation -159.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  ca24  ---
+rem ----------------------------------------- 
 Object.create ca24
-Object.absolutePosition 1473.55/94.7939/1272.63
-Object.rotation -82/0/0
-Object.setOSId 112
-Object.setTeam 1392537701
-rem
-rem ***  ***
-rem
+Object.absolutePosition 1473.55/94.79/1272.63
+Object.rotation -82.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  ca31  ---
+rem ----------------------------------------- 
 Object.create ca31
-Object.absolutePosition 1616.49/97.0337/469.307
-Object.rotation 37/0/0
-Object.setOSId 65
-Object.setTeam 2021010212
-rem
-rem ***  ***
-rem
+Object.absolutePosition 1613.24/97.03/464.29
+Object.rotation -43.58/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  ca32  ---
+rem ----------------------------------------- 
 Object.create ca32
-Object.absolutePosition 1603.94/95.9641/427.483
-Object.setOSId 1678378138
-Object.setTeam 154965212
-rem
-rem ***  ***
-rem
+Object.absolutePosition 1603.94/95.96/427.48
+Object.rotation -188.71/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  ca33  ---
+rem ----------------------------------------- 
 Object.create ca33
-Object.absolutePosition 1553.21/95.1606/465.836
-Object.rotation -73/0/0
-Object.setOSId 65
-Object.setTeam 0
-rem
-rem ***  ***
-rem
+Object.absolutePosition 1558.64/95.16/463.20
+Object.rotation -73.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  ca41  ---
+rem ----------------------------------------- 
 Object.create ca41
-Object.absolutePosition 536.171/95.3438/416.382
-Object.setOSId 1442136
-Object.setTeam 154964320
-rem
-rem ***  ***
-rem
+Object.absolutePosition 536.17/95.34/416.38
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  ca51  ---
+rem ----------------------------------------- 
 Object.create ca51
-Object.absolutePosition 535.791/110.027/423.454
-Object.rotation -76/0/0
-Object.setOSId 318833748
-Object.setTeam 159956744
-rem
-rem ***  ***
-rem
+Object.absolutePosition 535.79/110.03/423.45
+Object.rotation -76.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  ca53  ---
+rem ----------------------------------------- 
 Object.create ca53
-Object.absolutePosition 379.065/95.0713/554.056
-Object.setOSId 1573208
-Object.setTeam 0
-rem
-rem ***  ***
-rem
+Object.absolutePosition 379.07/95.07/554.06
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  ca54  ---
+rem ----------------------------------------- 
 Object.create ca54
-Object.absolutePosition 584.46/94.1421/506.541
-Object.rotation -121/0/0
-Object.setOSId -1492515818
-Object.setTeam 154968844
+Object.absolutePosition 584.46/94.14/506.54
+Object.rotation -121.00/0.00/0.00
+
+rem EndOfFile

@@ -71,7 +71,7 @@ beginEffect
 	envelope Ramp
 	param 0
 	param 1
-	param 0.8
+	param 0.3
 	param 1	
 endEffect
 
@@ -97,16 +97,58 @@ beginEffect
 	param -1	
 endEffect
 
-###############
-### Cockpit ###
-###############
+################
+### CockpitL ###
+################
 
-load @ROOT/Sound/@RTD/tiefighter-cockpit.wav
+load @ROOT/Sound/@RTD/tiefighter-cockpit-l.wav
 loop
-stereo
-minDistance 1
-relativePosition 0/-0.5/-3.7
-volume 0.5
+minDistance 2
+relativePosition -0.2/-0.5/-3.7
+volume 0.6
+priority 6
+*** Engine start ***
+beginEffect
+	controlDestination Volume
+	controlSource Time
+	envelope Ramp
+	param 0.4
+	param 1.2
+	param 0
+	param 1
+endEffect
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 1
+	param 1
+	param 1
+	param -1	
+endEffect
+
+*** Engine stop ***
+beginEffect
+	controlDestination Volume
+	controlSource TimeRelease
+	envelope Ramp
+	param 0
+	param 0.2
+	param 1
+	param -1	
+endEffect
+
+################
+### CockpitR ###
+################
+
+load @ROOT/Sound/@RTD/tiefighter-cockpit-r.wav
+loop
+minDistance 2
+relativePosition 0.2/-0.5/-3.7
+volume 0.6
 priority 6
 *** Engine start ***
 beginEffect
