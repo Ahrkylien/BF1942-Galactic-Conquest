@@ -4338,6 +4338,8 @@ run damage_system/SnowSpeeder
 run damage_system/SnowSpeedertow
 run damage_system/falconturrets
 run damage_system/ATST
+run damage_system/ATSTCONC
+run damage_system/TIEBOMBERCONC
 run damage_system/EWEB
 run damage_system/LANDSPEEDER
 run damage_system/XWING

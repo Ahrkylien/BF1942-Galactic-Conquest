@@ -10,7 +10,7 @@ ObjectTemplate.radius 15
 ObjectTemplate.team 2
 ObjectTemplate.spawnGroupId 2
 ObjectTemplate.objectSpawnerId 2
-ObjectTemplate.areaValue 30
+ObjectTemplate.areaValue 50
 ObjectTemplate.timeToGetControl 20
 ObjectTemplate.timeToLoseControl 20
 ObjectTemplate.disableIfEnemyInsideRadius 0
@@ -35,7 +35,7 @@ ObjectTemplate.radius 50
 ObjectTemplate.team 1
 ObjectTemplate.spawnGroupId 1
 ObjectTemplate.objectSpawnerId 1
-ObjectTemplate.areaValue 20
+ObjectTemplate.areaValue 50
 ObjectTemplate.timeToGetControl 99999999
 ObjectTemplate.timeToLoseControl 999999999
 ObjectTemplate.disableIfEnemyInsideRadius 0
@@ -60,7 +60,7 @@ ObjectTemplate.radius 30
 ObjectTemplate.team 0
 ObjectTemplate.spawnGroupId 3
 ObjectTemplate.objectSpawnerId 3
-ObjectTemplate.areaValue 20
+ObjectTemplate.areaValue 50
 ObjectTemplate.timeToGetControl 10
 ObjectTemplate.timeToLoseControl 10
 ObjectTemplate.disableIfEnemyInsideRadius 0
@@ -84,7 +84,7 @@ ObjectTemplate.radius 30
 ObjectTemplate.team 2
 ObjectTemplate.spawnGroupId 4
 ObjectTemplate.objectSpawnerId 4
-ObjectTemplate.areaValue 10
+ObjectTemplate.areaValue 50
 ObjectTemplate.timeToGetControl 10
 ObjectTemplate.timeToLoseControl 10
 ObjectTemplate.disableIfEnemyInsideRadius 0
@@ -104,7 +104,7 @@ ObjectTemplate.setPosition 0/2/0
 ObjectTemplate.create controlpoint Outpost
 ObjectTemplate.networkableInfo ControlPointInfo
 ObjectTemplate.setControlPointName Outpost
-ObjectTemplate.radius 30
+ObjectTemplate.radius 50
 ObjectTemplate.team 0
 ObjectTemplate.spawnGroupId 5
 ObjectTemplate.objectSpawnerId 5
@@ -128,7 +128,7 @@ ObjectTemplate.setPosition 0/2/0
 ObjectTemplate.create controlpoint ShieldGeneratorcp
 ObjectTemplate.networkableInfo ControlPointInfo
 ObjectTemplate.setControlPointName Shield Generator
-ObjectTemplate.radius 30
+ObjectTemplate.radius 50
 ObjectTemplate.team 2
 ObjectTemplate.spawnGroupId 6
 ObjectTemplate.objectSpawnerId 6

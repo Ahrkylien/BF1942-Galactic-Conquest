@@ -5,9 +5,9 @@ ObjectTemplate.saveInSeparateFile 1
 objectTemplate.cullRadiusScale 5
 ObjectTemplate.hasMobilePhysics 1
 ObjectTemplate.hasDynamicShadow 1
-ObjectTemplate.drag 0.10
-ObjectTemplate.mass 3500
-ObjectTemplate.inertiaModifier 1.30/1.250/1.40
+ObjectTemplate.drag 0.09
+ObjectTemplate.mass 3000
+ObjectTemplate.inertiaModifier 1.4/1.450/1.50
 ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.hasResponsePhysics 1
 ObjectTemplate.explosionRadius 8
@@ -37,7 +37,8 @@ rem -------------------------------------
 ObjectTemplate.setSoldierExitLocation -4/0/4 0/0/0
 ObjectTemplate.GUIIndex 27
 ObjectTemplate.setVehicleIcon "Vehicle/Icon_snowspeeder.dds"
-ObjectTemplate.setVehicleIconPos 70/60
+ObjectTemplate.setVehicleIconPos 56/56
+rem  55/65
 ObjectTemplate.setNumberOfWeaponIcons 1
 ObjectTemplate.setPrimaryAmmoIcon "Ammo/icon_laser_64x64.dds"
 ObjectTemplate.setPrimaryAmmoBar ABAmmoBarHeatBar
@@ -71,9 +72,9 @@ ObjectTemplate.addTemplate snowspeeder_win
 ObjectTemplate.setPosition 0/0/0
 ObjectTemplate.addTemplate lodsnowspeederCockpit
 ObjectTemplate.addTemplate snowspeederCamera
-ObjectTemplate.setPosition 0/0.9/0.3
+ObjectTemplate.setPosition 0/0.95/0.6
 ObjectTemplate.addTemplate snowspeederSeat
-ObjectTemplate.setPosition 0/0.3/-0.1
+ObjectTemplate.setPosition 0/0.25/0.5
 ObjectTemplate.addTemplate snowspeederEntry
 ObjectTemplate.setPosition 0/0/1
 ObjectTemplate.addTemplate snowspeederEngine
@@ -176,7 +177,7 @@ ObjectTemplate.setEntryRadius 7
 
 rem *** snowspeederSeat ***
 ObjectTemplate.create SeatObject snowspeederSeat
-ObjectTemplate.seatFlags c_SeatShowHalfBodySoldier
+ObjectTemplate.seatFlags c_SeatShowFullBodySoldier
 
 rem *** snowspeederCoPilot ***
 
@@ -194,7 +195,8 @@ rem ----------------------------------------------
 ObjectTemplate.setSoldierExitLocation -3/0.05/1 0/0/0
 ObjectTemplate.GUIIndex 114
 ObjectTemplate.setVehicleIcon "Vehicle/Icon_snowspeeder.tga"
-ObjectTemplate.setVehicleIconPos 60/80
+ObjectTemplate.setVehicleIconPos 83/33
+rem 75/45 
 ObjectTemplate.setNumberOfWeaponIcons 1
 ObjectTemplate.setPrimaryAmmoIcon "Ammo/icon_laser_64x64.dds"
 ObjectTemplate.setPrimaryAmmoBar ABAmmoBar

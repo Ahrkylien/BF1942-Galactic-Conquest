@@ -57,9 +57,9 @@ ObjectTemplate.gravityModifier 0.5
 ObjectTemplate.hasCollisionEffect 1
 ObjectTemplate.invisibleAtEndEffect 1
 ObjectTemplate.damageType 1
-ObjectTemplate.material 226
-ObjectTemplate.material2 200
-ObjectTemplate.radius 25.0
+ObjectTemplate.material 726
+ObjectTemplate.material2 727
+ObjectTemplate.radius 15.0
 ObjectTemplate.ForceOnExplosion 1
 ObjectTemplate.addTemplate e_fumeATSTGrenadeLauncher
 

@@ -16,7 +16,7 @@ rem textureManager.alternativePath ../../bf1942/levels/GC_Hoth/Textures/Sky
 
 shadow.shadowColor 0.5
 
-Game.setViewDistance 1000
+Game.setViewDistance 800
 Game.spawnPlayers 1
 
 game.setTeamSkin 1 GermanSoldier

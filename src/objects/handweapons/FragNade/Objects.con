@@ -21,7 +21,7 @@ ObjectTemplate.AmmoType	2
 ObjectTemplate.autoReload 1
 ObjectTemplate.GUIIndex 13
 ObjectTemplate.setHudAmmoType ATIconAndStrengthBar
-ObjectTemplate.setAmmoIcon "Ammo/Icon_grenadeallies_64x32.tga"
+ObjectTemplate.setAmmoIcon "Ammo/icon_fragnade"
 ObjectTemplate.setCrossHairType CHTIcon
 ObjectTemplate.setHasMag 0
 

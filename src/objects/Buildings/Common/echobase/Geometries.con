@@ -2,46 +2,54 @@
 GeometryTemplate.create StandardMesh echobase_ext
 GeometryTemplate.file \Buildings\echobase\echobase_ext
 GeometryTemplate.setLodDistance 0 0
-GeometryTemplate.setLodDistance 1 1200
-GeometryTemplate.setLodDistance 2 1450
-GeometryTemplate.setLodDistance 3 1500
-GeometryTemplate.setLodDistance 4 1650
-GeometryTemplate.setLodDistance 5 1700
+GeometryTemplate.setLodDistance 1 15
+GeometryTemplate.setLodDistance 2 35
+GeometryTemplate.setLodDistance 3 60
+GeometryTemplate.setLodDistance 4 100
+GeometryTemplate.setLodDistance 5 300
 
 GeometryTemplate.create StandardMesh echobase_hangar
 GeometryTemplate.file \Buildings\echobase\echobase_hangar
 GeometryTemplate.setLodDistance 0 0
-GeometryTemplate.setLodDistance 1 1200
-GeometryTemplate.setLodDistance 2 1450
-GeometryTemplate.setLodDistance 3 1500
-GeometryTemplate.setLodDistance 4 1650
-GeometryTemplate.setLodDistance 5 1700
+GeometryTemplate.setLodDistance 1 300
+GeometryTemplate.setLodDistance 2 450
+GeometryTemplate.setLodDistance 3 500
+GeometryTemplate.setLodDistance 4 503
+GeometryTemplate.setLodDistance 5 505
 
 GeometryTemplate.create StandardMesh echobase_lower_room
 GeometryTemplate.file \Buildings\echobase\echobase_lower_room
 GeometryTemplate.setLodDistance 0 0
-GeometryTemplate.setLodDistance 1 1200
-GeometryTemplate.setLodDistance 2 1450
-GeometryTemplate.setLodDistance 3 1500
-GeometryTemplate.setLodDistance 4 1650
-GeometryTemplate.setLodDistance 5 1700
+GeometryTemplate.setLodDistance 1 15
+GeometryTemplate.setLodDistance 2 35
+GeometryTemplate.setLodDistance 3 60
+GeometryTemplate.setLodDistance 4 100
+GeometryTemplate.setLodDistance 5 300
 
 GeometryTemplate.create StandardMesh echobase_upper_room
 GeometryTemplate.file \Buildings\echobase\echobase_upper_room
 GeometryTemplate.setLodDistance 0 0
-GeometryTemplate.setLodDistance 1 1200
-GeometryTemplate.setLodDistance 2 1450
-GeometryTemplate.setLodDistance 3 1500
-GeometryTemplate.setLodDistance 4 1650
-GeometryTemplate.setLodDistance 5 1700
+GeometryTemplate.setLodDistance 1 15
+GeometryTemplate.setLodDistance 2 35
+GeometryTemplate.setLodDistance 3 60
+GeometryTemplate.setLodDistance 4 100
+GeometryTemplate.setLodDistance 5 300
 
 GeometryTemplate.create StandardMesh echobase_walkways
 GeometryTemplate.file \Buildings\echobase\echobase_walkways
 GeometryTemplate.setLodDistance 0 0
-GeometryTemplate.setLodDistance 1 1200
-GeometryTemplate.setLodDistance 2 1450
-GeometryTemplate.setLodDistance 3 1500
-GeometryTemplate.setLodDistance 4 1650
-GeometryTemplate.setLodDistance 5 1700
+GeometryTemplate.setLodDistance 1 15
+GeometryTemplate.setLodDistance 2 35
+GeometryTemplate.setLodDistance 3 60
+GeometryTemplate.setLodDistance 4 100
+GeometryTemplate.setLodDistance 5 300
 
+GeometryTemplate.create StandardMesh echobase_spiral
+GeometryTemplate.file \Buildings\echobase\echobase_spiral
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 15
+GeometryTemplate.setLodDistance 2 35
+GeometryTemplate.setLodDistance 3 60
+GeometryTemplate.setLodDistance 4 100
+GeometryTemplate.setLodDistance 5 300
 

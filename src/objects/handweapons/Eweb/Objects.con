@@ -18,11 +18,12 @@ ObjectTemplate.MaxHitPoints 5
 ObjectTemplate.Material 45
 Objecttemplate.GUIIndex 79
 ObjectTemplate.setVehicleIcon "Vehicle/icon_eweb.dds"
-ObjectTemplate.setVehicleIconPos 50/50
+ObjectTemplate.setVehicleIconPos 96/25
 ObjectTemplate.setNumberOfWeaponIcons 1
 ObjectTemplate.setPrimaryAmmoIcon "Ammo/icon_laser_64x64.dds"
 ObjectTemplate.setPrimaryAmmoBar ABAmmoBarReloadBar
 ObjectTemplate.setCrossHairType CHTIcon
+ObjectTemplate.setMinimapIcon "Minimap/minimap_icon_eweb_16x16.dds"
 objectTemplate.criticalDamage 2
 ObjectTemplate.hpLostWhileDamageFromWater 20
 ObjectTemplate.drag .01
@@ -78,10 +79,10 @@ ObjectTemplate.addTemplate EwebGunbarrel
 ObjectTemplate.addTemplate ewebweaponfire
 ObjectTemplate.addTemplate ewebhanddummy
 rem -------------------------------------
-ObjectTemplate.setMinRotation -60/-10/0
-ObjectTemplate.setMaxRotation 60/10/0
-ObjectTemplate.setMaxSpeed 150/150/0
-ObjectTemplate.setAcceleration 500/500/0
+ObjectTemplate.setMinRotation -70/-20/0
+ObjectTemplate.setMaxRotation 70/30/0
+ObjectTemplate.setMaxSpeed 180/180/0
+ObjectTemplate.setAcceleration 1000/1000/0
 ObjectTemplate.setInputToYaw c_pimouselookX
 ObjectTemplate.setInputToPitch c_pimouselookY
 

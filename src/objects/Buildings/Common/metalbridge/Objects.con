@@ -1,0 +1,4 @@
+ObjectTemplate.create SimpleObject metalbridge
+ObjectTemplate.aiTemplate metalbridge
+ObjectTemplate.geometry metalbridge
+ObjectTemplate.setHasCollisionPhysics 1

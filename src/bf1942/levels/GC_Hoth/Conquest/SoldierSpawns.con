@@ -185,41 +185,6 @@ Object.create secondspawn10
 Object.absolutePosition 785.6606/14.81875/695.5782
 Object.rotation 84.25/0/0
 
-rem *** outpostspawn1 ***
-Object.create outpostspawn1
-Object.absolutePosition 332.9543/15.6/1675.977
-Object.rotation 50/0/0
-
-rem *** outpostspawn2 ***
-Object.create outpostspawn2
-Object.absolutePosition 389.8799/16.7875/1734.246
-Object.rotation -137/0/0
-
-rem *** outpostspawn5 ***
-Object.create outpostspawn5
-Object.absolutePosition 367.4344/15.80313/1697.354
-Object.rotation -48/0/0
-
-rem *** outpostspawn6 ***
-Object.create outpostspawn6
-Object.absolutePosition 382.3883/15.6/1693.996
-Object.rotation -153.25/0/0
-
-rem *** outpostspawn7 ***
-Object.create outpostspawn7
-Object.absolutePosition 373.4781/15.6/1683.637
-Object.rotation 46/0/0
-
-rem *** outpostspawn9 ***
-Object.create outpostspawn9
-Object.absolutePosition 329.8897/15.83438/1687.878
-Object.rotation 137.25/0/0
-
-rem *** outpostspawn10 ***
-Object.create outpostspawn10
-Object.absolutePosition 356.8378/15.83438/1707.373
-Object.rotation -226.5/0/0
-
 rem *** sgspawn1 ***
 Object.create sgspawn1
 Object.absolutePosition 1158.862/15.6/558.7894
@@ -259,19 +224,4 @@ Object.absolutePosition 1155.701/15.6/542.3354
 rem *** sgspawn10 ***
 Object.create sgspawn10
 Object.absolutePosition 1102.952/15.6/472.5103
-
-rem *** outpostspawn3 ***
-Object.create outpostspawn3
-Object.absolutePosition 341.8173/15.6/1685.382
-Object.rotation -140/0/0
-
-rem *** outpostspawn4 ***
-Object.create outpostspawn4
-Object.absolutePosition 378.887/15.7875/1735.446
-Object.rotation 134.75/0/0
-
-rem *** outpostspawn8 ***
-Object.create outpostspawn8
-Object.absolutePosition 380.3188/15.6/1724.039
-Object.rotation 46.5/0/0
 

@@ -1,8 +1,53 @@
-GeometryTemplate.create StandardMesh atatdeadfront1
-GeometryTemplate.file buildings/atatdeadfront1
+GeometryTemplate.create StandardMesh atat_head
+GeometryTemplate.file buildings/atat_head
 GeometryTemplate.setLodDistance 0 0
-GeometryTemplate.setLodDistance 1 300
-GeometryTemplate.setLodDistance 2 400
-GeometryTemplate.setLodDistance 3 500
-GeometryTemplate.setLodDistance 4 600
-GeometryTemplate.setLodDistance 5 1000
+GeometryTemplate.setLodDistance 1 100
+GeometryTemplate.setLodDistance 2 200
+GeometryTemplate.setLodDistance 3 300
+GeometryTemplate.setLodDistance 4 400
+GeometryTemplate.setLodDistance 5 500
+
+GeometryTemplate.create StandardMesh atat_body
+GeometryTemplate.file buildings/atat_body
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+GeometryTemplate.setLodDistance 2 200
+GeometryTemplate.setLodDistance 3 300
+GeometryTemplate.setLodDistance 4 400
+GeometryTemplate.setLodDistance 5 500
+
+GeometryTemplate.create StandardMesh atat_foot1
+GeometryTemplate.file buildings/atat_foot1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+GeometryTemplate.setLodDistance 2 200
+GeometryTemplate.setLodDistance 3 300
+GeometryTemplate.setLodDistance 4 400
+GeometryTemplate.setLodDistance 5 500
+
+GeometryTemplate.create StandardMesh atat_foot2
+GeometryTemplate.file buildings/atat_foot2
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+GeometryTemplate.setLodDistance 2 200
+GeometryTemplate.setLodDistance 3 300
+GeometryTemplate.setLodDistance 4 400
+GeometryTemplate.setLodDistance 5 500
+
+GeometryTemplate.create StandardMesh atat_foot3
+GeometryTemplate.file buildings/atat_foot3
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+GeometryTemplate.setLodDistance 2 200
+GeometryTemplate.setLodDistance 3 300
+GeometryTemplate.setLodDistance 4 400
+GeometryTemplate.setLodDistance 5 500
+
+GeometryTemplate.create StandardMesh atat_foot4
+GeometryTemplate.file buildings/atat_foot4
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+GeometryTemplate.setLodDistance 2 200
+GeometryTemplate.setLodDistance 3 300
+GeometryTemplate.setLodDistance 4 400
+GeometryTemplate.setLodDistance 5 500

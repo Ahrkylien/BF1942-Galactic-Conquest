@@ -478,41 +478,6 @@ Object.create glassmap
 Object.absolutePosition 340.2866/10.70313/376.257
 Object.rotation 38.75/0/0
 
-rem *** echowall10 ***
-Object.create echowall10
-Object.absolutePosition 360.253/10.65625/365.1713
-Object.rotation 129.0313/0/0
-
-rem *** echowall10 ***
-Object.create echowall10
-Object.absolutePosition 330.1258/10.65625/389.5736
-Object.rotation -50.375/0/0
-
-rem *** echowall10 ***
-Object.create echowall10
-Object.absolutePosition 352.0562/10.65625/355.2083
-Object.rotation 129.75/0/0
-
-rem *** echowall10 ***
-Object.create echowall10
-Object.absolutePosition 349.08/10.65625/361.2554
-Object.rotation -140.2813/0/0
-
-rem *** echowall10 ***
-Object.create echowall10
-Object.absolutePosition 345.1609/10.65625/385.5904
-Object.rotation 39/0/0
-
-rem *** echowall10 ***
-Object.create echowall10
-Object.absolutePosition 355.2132/10.65625/377.4691
-Object.rotation 38.65625/0/0
-
-rem *** outpostbuilding ***
-Object.create outpostbuilding
-Object.absolutePosition 361.1185/15.39688/1704.23
-Object.rotation 44.5/0/0
-
 rem *** ambient-radiochatter ***
 Object.create ambient-radiochatter
 Object.absolutePosition 328.5372/21.85/413.4579
@@ -582,26 +547,6 @@ rem *** hothcratedark ***
 Object.create hothcratedark
 Object.absolutePosition 361.4367/3.9/390.7191
 Object.rotation 0/0/0
-
-rem *** echowall10 ***
-Object.create echowall10
-Object.absolutePosition 336.2962/10.65625/371.9168
-Object.rotation -141.25/0/0
-
-rem *** echowall10 ***
-Object.create echowall10
-Object.absolutePosition 326.1849/10.65625/379.9435
-Object.rotation -141.75/0/0
-
-rem *** echowall10 ***
-Object.create echowall10
-Object.absolutePosition 322.0402/10.65625/379.5254
-Object.rotation -52/0/0
-
-rem *** echowall10 ***
-Object.create echowall10
-Object.absolutePosition 335.1409/10.65625/393.7775
-Object.rotation 39.25/0/0
 
 rem *** hothcratedark ***
 Object.create hothcratedark
@@ -712,111 +657,6 @@ rem *** hothfloor ***
 Object.create hothfloor
 Object.absolutePosition 812.4458/14.5/742.7636
 Object.rotation 0/0/0
-
-rem *** echocontrolpanel3 ***
-Object.create echocontrolpanel3
-Object.absolutePosition 386.8948/15.50625/1757.289
-Object.rotation -54/0/0
-
-rem *** echocontrolpanel ***
-Object.create echocontrolpanel
-Object.absolutePosition 385.0177/15.64688/1754.848
-Object.rotation -54.25/0/0
-
-rem *** echocontrolpanel2 ***
-Object.create echocontrolpanel2
-Object.absolutePosition 387.3833/15.6/1757.916
-Object.rotation -53.25/0/0
-
-rem *** echochair ***
-Object.create echochair
-Object.absolutePosition 387.2184/15.58438/1755.554
-Object.rotation -150/0/0
-
-rem *** hothcratedark ***
-Object.create hothcratedark
-Object.absolutePosition 393.6573/15.6/1746.804
-Object.rotation 0/0/0
-
-rem *** hothcrategrey ***
-Object.create hothcrategrey
-Object.absolutePosition 391.7492/15.6/1752.775
-Object.rotation -17.25/0/0
-
-rem *** hothcratedark ***
-Object.create hothcratedark
-Object.absolutePosition 385.5116/15.6/1730.53
-Object.rotation 34.5/0/0
-
-rem *** hothcrategrey ***
-Object.create hothcrategrey
-Object.absolutePosition 345.3222/15.6/1708.759
-Object.rotation -47.75/0/0
-
-rem *** hothcrategrey ***
-Object.create hothcrategrey
-Object.absolutePosition 352/15.6/1720
-Object.rotation 0/0/0
-
-rem *** hothcrategrey ***
-Object.create hothcrategrey
-Object.absolutePosition 368.5601/15.6/1715.609
-Object.rotation 0/0/0
-
-rem *** hothcrategrey ***
-Object.create hothcrategrey
-Object.absolutePosition 371.527/18.13125/1715.478
-Object.rotation 0/0/0
-
-rem *** hothcrategrey ***
-Object.create hothcrategrey
-Object.absolutePosition 359.2914/15.6/1713.445
-Object.rotation -22.25/0/0
-
-rem *** hothcratedark ***
-Object.create hothcratedark
-Object.absolutePosition 371.4082/15.6/1715.571
-Object.rotation 0/0/0
-
-rem *** hothcratedark ***
-Object.create hothcratedark
-Object.absolutePosition 356.3568/15.6/1712.092
-Object.rotation 0/0/0
-
-rem *** hothcrategrey ***
-Object.create hothcrategrey
-Object.absolutePosition 368.3966/18.24063/1715.298
-Object.rotation 8.5/0/0
-
-rem *** hothcrategrey ***
-Object.create hothcrategrey
-Object.absolutePosition 361.0323/15.6/1695.586
-Object.rotation 0/0/0
-
-rem *** hothcrategrey ***
-Object.create hothcrategrey
-Object.absolutePosition 360.0879/15.6/1692.91
-Object.rotation 0/0/0
-
-rem *** hothcrategrey ***
-Object.create hothcrategrey
-Object.absolutePosition 357.8159/18.17813/1712.522
-Object.rotation 0/0/0
-
-rem *** hothcrategrey ***
-Object.create hothcrategrey
-Object.absolutePosition 356/15.6/1696
-Object.rotation 0/0/0
-
-rem *** hothcrategrey ***
-Object.create hothcrategrey
-Object.absolutePosition 364/15.52188/1716
-Object.rotation 0/-5.25/0
-
-rem *** hothcratedark ***
-Object.create hothcratedark
-Object.absolutePosition 363.8233/14.81875/1713.827
-Object.rotation 0/-44.5/0
 
 rem *** bactatank ***
 Object.create bactatank
@@ -1563,96 +1403,6 @@ Object.create hanglight
 Object.absolutePosition 413.5942/19.9625/474.6774
 Object.rotation 40/0/0
 
-rem *** hothcratedark ***
-Object.create hothcratedark
-Object.absolutePosition 363.9028/15.6/1675.271
-Object.rotation 0/0/0
-
-rem *** hothcratedark ***
-Object.create hothcratedark
-Object.absolutePosition 367.4061/15.6/1675.284
-Object.rotation -40.75/0/0
-
-rem *** hothcrategrey ***
-Object.create hothcrategrey
-Object.absolutePosition 367.7681/15.6/1672.041
-Object.rotation -18.75/0/0
-
-rem *** echopipe1 ***
-Object.create echopipe1
-Object.absolutePosition 388.8145/15.49063/1697.037
-Object.rotation -71/25/0
-
-rem *** echopipe1 ***
-Object.create echopipe1
-Object.absolutePosition 389.8543/15.42813/1696.8
-Object.rotation -37/6.5/0
-
-rem *** echopipe1 ***
-Object.create echopipe1
-Object.absolutePosition 389.4226/15.6/1696.702
-Object.rotation 0/0/0
-
-rem *** echopipe1 ***
-Object.create echopipe1
-Object.absolutePosition 389.6143/15.44375/1697.539
-Object.rotation 35.75/49.75/0
-
-rem *** echopipe1 ***
-Object.create echopipe1
-Object.absolutePosition 389.071/15.36563/1693.16
-Object.rotation -117.75/16/0
-
-rem *** ammobox ***
-Object.create ammobox
-Object.absolutePosition 388.3301/15.39688/1694.79
-Object.rotation 0/0/0
-
-rem *** echopipe1 ***
-Object.create echopipe1
-Object.absolutePosition 390.1417/15.6/1751.443
-Object.rotation 69.5/0/0
-
-rem *** echopipe1 ***
-Object.create echopipe1
-Object.absolutePosition 387.1217/15.6/1731.386
-Object.rotation -95.25/0/0
-
-rem *** echopipe1 ***
-Object.create echopipe1
-Object.absolutePosition 388/15.6/1736
-Object.rotation -52.5/0/0
-
-rem *** echopipe1 ***
-Object.create echopipe1
-Object.absolutePosition 394.2176/15.6/1745.076
-Object.rotation 47.25/0/0
-
-rem *** echopipe1 ***
-Object.create echopipe1
-Object.absolutePosition 368/15.6/1724
-Object.rotation 0/0/0
-
-rem *** echopipe1 ***
-Object.create echopipe1
-Object.absolutePosition 384/15.6/1708
-Object.rotation 0/0/0
-
-rem *** echopipe1 ***
-Object.create echopipe1
-Object.absolutePosition 352/15.6/1716
-Object.rotation 0/0/0
-
-rem *** echopipe1 ***
-Object.create echopipe1
-Object.absolutePosition 344/15.6/1700
-Object.rotation 0/0/0
-
-rem *** echopipe1 ***
-Object.create echopipe1
-Object.absolutePosition 312/16.19766/1676
-Object.rotation 0/0/0
-
 rem *** trenchgrate ***
 Object.create trenchgrate
 Object.absolutePosition 645.011/14.62266/802.9506
@@ -2057,4 +1807,3 @@ rem *** hothcratedark ***
 Object.create hothcratedark
 Object.absolutePosition 365.4026/6.4/375.1169
 Object.rotation -55.25/0/0
-

@@ -1,0 +1,17 @@
+rem *** probedroidlauncher ***
+ObjectTemplate.create FireArms probedroidlauncher
+ObjectTemplate.setNetworkableInfo probedroidlauncherInfo
+ObjectTemplate.loadSoundScript Sounds/ProbeDroidLaunch.ssc
+ObjectTemplate.projectileTemplate probedroid
+ObjectTemplate.projectilePosition 0/5/5
+ObjectTemplate.magSize 1
+ObjectTemplate.numOfMag 999
+ObjectTemplate.velocity 1
+ObjectTemplate.reloadtime 240
+ObjectTemplate.roundOfFire 10
+ObjectTemplate.FireOnce 1
+ObjectTemplate.autoReload 1 
+ObjectTemplate.setinputfire c_pifire
+
+
+

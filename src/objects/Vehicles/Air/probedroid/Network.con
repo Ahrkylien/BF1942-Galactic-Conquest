@@ -1,0 +1,13 @@
+NetworkableInfo.createNewInfo probedroidEngineInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo probedroidBodyInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo probedroidComplexInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo probedroidHeadInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+

@@ -1,0 +1,68 @@
+
+
+rem *** probedroidcontrol ***
+ObjectTemplate.create PlayerControlObject probedroidcontrol
+ObjectTemplate.setNetworkableInfo probedroidcontrolInfo
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.geometry probedroidcontrol_m1
+ObjectTemplate.hasArmor 1
+ObjectTemplate.hitpoints 50
+ObjectTemplate.maxhitpoints 50
+ObjectTemplate.material 50
+ObjectTemplate.criticalDamage 12
+ObjectTemplate.hpLostWhileCriticalDamage 1
+ObjectTemplate.addArmorEffect 30 e_avturretDamage 0/6/0
+ObjectTemplate.addArmorEffect 0 e_scrapmetal 0/20/0
+ObjectTemplate.addArmorEffect 0 e_ExplGas 0/10/0
+ObjectTemplate.aiTemplate avturret
+ObjectTemplate.timetoliveafterdeath 5
+ObjectTemplate.fadeAtTimeToLiveAfterDeath 0
+ObjectTemplate.setSoldierExitLocation -2/2/-2 -180/0/0
+ObjectTemplate.GUIIndex 67
+ObjectTemplate.setVehicleIcon "Vehicle/Icon_probedroidcontrol.dds"
+ObjectTemplate.setVehicleIconPos 72/64
+ObjectTemplate.setNumberOfWeaponIcons 1
+ObjectTemplate.setPrimaryAmmoIcon "Ammo/icon_probedroidweapon.dds"
+ObjectTemplate.setPrimaryAmmoBar ABAmmoBarReloadBar
+ObjectTemplate.setCrossHairType CHTIcon
+ObjectTemplate.setVehicleCategory VCLand
+ObjectTemplate.setVehicleType VTavturret
+ObjectTemplate.setToolTipType  TTavturret
+ObjectTemplate.setMinimapIcon "Minimap/minimap_icon_probedroid_16x16.dds"
+ObjectTemplate.artPos 1
+ObjectTemplate.DirBarXScale 90
+ObjectTemplate.DirBarYScaleAbove 30
+ObjectTemplate.DirBarYScaleBelow 10
+ObjectTemplate.DirBarYScaleMin -100
+ObjectTemplate.DirBarYScaleMax -60
+rem -------------------------------------
+ObjectTemplate.addTemplate probedroidlauncher
+ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.setRotation 180/0/0
+ObjectTemplate.addTemplate pdlentry
+ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.addTemplate pdlcamera
+ObjectTemplate.setPosition -1.2/1.2/-1.6
+ObjectTemplate.addTemplate pdlseat
+ObjectTemplate.setPosition -0.3/1.2/-0.8
+
+rem *** pdlentry ***
+ObjectTemplate.create EntryPoint pdlentry
+ObjectTemplate.setEntryRadius 4
+
+rem *** pdlcamera ***
+ObjectTemplate.create Camera pdlcamera
+ObjectTemplate.setMinRotation 0/-45/0
+ObjectTemplate.setMaxRotation 0/100/0
+ObjectTemplate.setMaxSpeed 100/100/0
+ObjectTemplate.setAcceleration 6000/6000/0
+ObjectTemplate.setInputToYaw c_PIMouseLookX
+ObjectTemplate.setInputToPitch c_PIMouseLookY
+ObjectTemplate.CVMExternTrace 1
+
+rem *** pdlseat ***
+ObjectTemplate.create SeatObject pdlseat
+ObjectTemplate.seatFlags c_SeatShowStandingSoldier
+ObjectTemplate.seatFlags c_SeatIsOutside

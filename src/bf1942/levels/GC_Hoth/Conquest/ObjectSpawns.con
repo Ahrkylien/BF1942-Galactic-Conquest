@@ -1,3 +1,15 @@
+rem *** probedroidcontrolspawner ***
+Object.create probedroidcontrolspawner
+Object.absolutePosition 1486.435/19.38672/1677.632
+Object.rotation -200.5/0/0
+Object.setTeam 1
+
+rem *** probedroidcontrolspawner ***
+Object.create probedroidcontrolspawner
+Object.absolutePosition 1270.287/19.13125/1668.167
+Object.rotation -135.75/0/0
+Object.setTeam 1
+
 rem *** atst-atst ***
 Object.create atst-atst
 Object.absolutePosition 1489.528/20.14688/1695.22
@@ -28,28 +40,10 @@ Object.absolutePosition 1475.996/19.90626/1728.394
 Object.rotation -19.75/0/0
 Object.setTeam 1
 
-rem *** atst-atst ***
-Object.create atst-atst
-Object.absolutePosition 1104.586/15.6/548.5106
-Object.rotation 147.5/0/0
-Object.setOSId 6
-
-rem *** atst-atst ***
-Object.create atst-atst
-Object.absolutePosition 1085.364/15.6/523.3121
-Object.rotation 98.25/0/0
-Object.setOSId 6
-
 rem *** tiefighter-snowspeeder ***
 Object.create tiefighter-snowspeeder
 Object.absolutePosition 445.107/4.6/457.3073
 Object.rotation -43.5/0/0
-Object.setTeam 2
-
-rem *** tiefighter-snowspeeder ***
-Object.create tiefighter-snowspeeder
-Object.absolutePosition 427.6025/4.44375/437.2219
-Object.rotation -42.5/0/0
 Object.setTeam 2
 
 rem *** tiefighter-snowspeeder ***
@@ -62,12 +56,6 @@ rem *** tiefighter-snowspeeder ***
 Object.create tiefighter-snowspeeder
 Object.absolutePosition 366.9742/4.678125/448.8582
 Object.rotation -237.5/0/0
-Object.setTeam 2
-
-rem *** tiefighter-snowspeeder ***
-Object.create tiefighter-snowspeeder
-Object.absolutePosition 388.7375/5.459375/466.4048
-Object.rotation -236.75/0/0
 Object.setTeam 2
 
 rem *** tiefighter-snowspeeder ***
@@ -125,24 +113,6 @@ Object.absolutePosition 1314.823/20.0211/1701.516
 Object.rotation 43.75/0/0
 Object.setTeam 1
 
-rem *** tiefighter-snowspeeder ***
-Object.create tiefighter-snowspeeder
-Object.absolutePosition 398.2227/16.22265/1717.457
-Object.rotation -228/0/0
-Object.setOSId 5
-
-rem *** tiefighter-snowspeeder ***
-Object.create tiefighter-snowspeeder
-Object.absolutePosition 354.3672/16.13671/1665.071
-Object.rotation 133/0/0
-Object.setOSId 5
-
-rem *** tiefighter-snowspeeder ***
-Object.create tiefighter-snowspeeder
-Object.absolutePosition 391.673/16.23672/1675.556
-Object.rotation 133.75/0/0
-Object.setOSId 5
-
 rem *** APTurretspawner ***
 Object.create APTurretspawner
 Object.absolutePosition 484/3.709375/480
@@ -154,4 +124,16 @@ Object.create APTurretspawner
 Object.absolutePosition 424/4.789063/524
 Object.rotation 38.5/0/0
 Object.setTeam 2
+
+rem *** tiefighterspawner ***
+Object.create tiefighterspawner
+Object.absolutePosition 1276/16.01484/1832
+Object.rotation -164.25/0/0
+Object.setTeam 1
+
+rem *** tiefighterspawner ***
+Object.create tiefighterspawner
+Object.absolutePosition 1248/16.01484/1828
+Object.rotation -177.5/0/0
+Object.setTeam 1
 

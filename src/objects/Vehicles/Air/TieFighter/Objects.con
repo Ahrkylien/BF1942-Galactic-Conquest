@@ -37,7 +37,7 @@ rem -------------------------------------
 ObjectTemplate.setSoldierExitLocation -1.5/-4/0 0/0/0
 ObjectTemplate.GUIIndex 27
 ObjectTemplate.setVehicleIcon "Vehicle/Icon_tiefighter.dds"
-ObjectTemplate.setVehicleIconPos 54/49
+ObjectTemplate.setVehicleIconPos 68/48
 ObjectTemplate.setNumberOfWeaponIcons 1
 ObjectTemplate.setPrimaryAmmoIcon "Ammo/icon_greenlaser_64x64.dds"
 ObjectTemplate.setPrimaryAmmoBar ABAmmoBarHeatBar

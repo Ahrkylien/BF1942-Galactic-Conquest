@@ -1,3 +1,16 @@
+rem *** probedroidcontrolspawner ***
+rem
+objecttemplate.create objectspawner probedroidcontrolspawner
+objecttemplate.setobjecttemplate 2 
+objecttemplate.setobjecttemplate 1 probedroidcontrol
+objecttemplate.minspawndelay 10
+objecttemplate.maxspawndelay 10
+objecttemplate.spawndelayatstart 0
+objecttemplate.timetolive 45
+objecttemplate.distance 40
+objecttemplate.damagewhenlost 10
+rem
+
 rem
 rem *** tiefighter-awing ***
 rem
@@ -35,7 +48,7 @@ objecttemplate.timetolive 45
 objecttemplate.distance 40
 objecttemplate.damagewhenlost 10
 rem
-rem *** landspeeder-landspeeder (not yet finished)***
+rem *** landspeeder-landspeeder ***
 rem
 objecttemplate.create objectspawner landspeeder-landspeeder
 objecttemplate.setobjecttemplate 2 landspeeder
@@ -52,8 +65,8 @@ rem
 objecttemplate.create objectspawner milleniumfalconspawner
 objecttemplate.setobjecttemplate 2 milleniumfalcon
 objecttemplate.setobjecttemplate 1 
-objecttemplate.minspawndelay 10
-objecttemplate.maxspawndelay 30
+objecttemplate.minspawndelay 60
+objecttemplate.maxspawndelay 90
 objecttemplate.spawndelayatstart 0
 objecttemplate.timetolive 45
 objecttemplate.distance 40
@@ -76,8 +89,8 @@ rem
 objecttemplate.create objectspawner tiefighter-snowspeeder
 objecttemplate.setobjecttemplate 2 snowspeeder
 objecttemplate.setobjecttemplate 1 tiefighter
-objecttemplate.minspawndelay 10
-objecttemplate.maxspawndelay 30
+objecttemplate.minspawndelay 40
+objecttemplate.maxspawndelay 60
 objecttemplate.spawndelayatstart 0
 objecttemplate.timetolive 45
 objecttemplate.distance 40
@@ -88,8 +101,8 @@ rem
 objecttemplate.create objectspawner tiebomber-snowspeeder
 objecttemplate.setobjecttemplate 2 snowspeeder
 objecttemplate.setobjecttemplate 1 tiebomber
-objecttemplate.minspawndelay 10
-objecttemplate.maxspawndelay 30
+objecttemplate.minspawndelay 40
+objecttemplate.maxspawndelay 60
 objecttemplate.spawndelayatstart 0
 objecttemplate.timetolive 45
 objecttemplate.distance 40
@@ -98,8 +111,8 @@ objecttemplate.damagewhenlost 20
 ObjectTemplate.create ObjectSpawner APTurretspawner
 ObjectTemplate.setObjectTemplate 2 APTurret
 ObjectTemplate.setObjectTemplate 1 APTurret
-ObjectTemplate.MinSpawnDelay 10
-ObjectTemplate.MaxSpawnDelay 10
+ObjectTemplate.MinSpawnDelay 60
+ObjectTemplate.MaxSpawnDelay 120
 ObjectTemplate.SpawnDelayAtStart 0
 ObjectTemplate.TimeToLive 45
 ObjectTemplate.Distance 40
@@ -108,8 +121,8 @@ ObjectTemplate.DamageWhenLost 10
 ObjectTemplate.create ObjectSpawner AVTurretspawner
 ObjectTemplate.setObjectTemplate 2 AVTurret
 ObjectTemplate.setObjectTemplate 1 AVTurret
-ObjectTemplate.MinSpawnDelay 10
-ObjectTemplate.MaxSpawnDelay 10
+ObjectTemplate.MinSpawnDelay 60
+ObjectTemplate.MaxSpawnDelay 120
 ObjectTemplate.SpawnDelayAtStart 0
 ObjectTemplate.TimeToLive 45
 ObjectTemplate.Distance 40
@@ -121,8 +134,8 @@ rem
 objecttemplate.create objectspawner tiefighterspawner
 objecttemplate.setobjecttemplate 2 
 objecttemplate.setobjecttemplate 1 tiefighter
-objecttemplate.minspawndelay 10
-objecttemplate.maxspawndelay 30
+objecttemplate.minspawndelay 40
+objecttemplate.maxspawndelay 60
 objecttemplate.spawndelayatstart 0
 objecttemplate.timetolive 45
 objecttemplate.distance 40

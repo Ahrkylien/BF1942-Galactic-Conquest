@@ -1394,6 +1394,17 @@ MaterialManager.materialDamage 10
 
 
 REM ##########################################################
+REM ########## EWEB LASER TURRET    MATERIAL ID'S ###########
+REM ##########################################################
+
+REM ********** PROBE DROID ******
+MaterialManager.material 820
+MaterialManager.materialAttGroup 820
+MaterialManager.materialDefGroup 820
+MaterialManager.materialDamage 10
+
+
+REM ##########################################################
 REM ########## TIE INTERCEPTOR MATERIAL ID'S #################
 REM ##########################################################
 

@@ -2058,3 +2058,13 @@ Object.create hothcratedark
 Object.absolutePosition 365.4026/6.4/375.1169
 Object.rotation -55.25/0/0
 
+rem *** probedroidcontrol ***
+Object.create probedroidcontrol
+Object.absolutePosition 1486.435/19.38672/1677.632
+Object.rotation -200.5/0/0
+
+rem *** probedroidcontrol ***
+Object.create probedroidcontrol
+Object.absolutePosition 1270.287/19.13125/1668.167
+Object.rotation -135.75/0/0
+

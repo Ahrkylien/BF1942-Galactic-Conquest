@@ -588,7 +588,7 @@ REM ####################  AVTURRET ##########################
 rem * *** AVTURRET ***
 MaterialManager.attGroup 702
 MaterialManager.defGroup 780
-MaterialManager.damageMod 3
+MaterialManager.damageMod 1
 MaterialManager.setEffectTemplate e_ExplBazooka
 
 
@@ -597,7 +597,7 @@ REM ####################  APTURRET ##########################
 rem * *** APTURRET ***
 MaterialManager.attGroup 702
 MaterialManager.defGroup 790
-MaterialManager.damageMod 3
+MaterialManager.damageMod 1
 MaterialManager.setEffectTemplate e_ExplBazooka
 
 

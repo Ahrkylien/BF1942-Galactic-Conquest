@@ -35,17 +35,17 @@ rem ObjectTemplate.autoReload 1
 Rem *** Deviation Begin *****
 
 ObjectTemplate.velocity 3000
-ObjectTemplate.setRecoilForceUp CRD_UNIFORM/8/6/0
-ObjectTemplate.setRecoilForceLeftRight CRD_UNIFORM/2/2/0
+ObjectTemplate.setRecoilForceUp CRD_UNIFORM/6.2/5.2/0
+ObjectTemplate.setRecoilForceLeftRight CRD_UNIFORM/-0.3/-0.5/0
 ObjectTemplate.setHasRecoilForce 1
 ObjectTemplate.setGoBackOnRecoil 1
 
-ObjectTemplate.setFireDev 0.0 0.0 0.0
-ObjectTemplate.setDevMod 0.0 0.0 0.0
-ObjectTemplate.setMinDev 0.0
+ObjectTemplate.setFireDev 0 0 0
+ObjectTemplate.setDevMod  1 0.7 0.5
+ObjectTemplate.setMinDev 0.25
 ObjectTemplate.setTurnDev 0 0 0 0
-ObjectTemplate.setSpeedDev 0.0 0.0 0.0 0.0
-ObjectTemplate.setMiscDev 0.0 0.0 0.0
+ObjectTemplate.setSpeedDev 1.5 0.4 0.4 0.1
+ObjectTemplate.setMiscDev 2.5 2.5 0.1
 
 Rem *** Deviation  End *****
 

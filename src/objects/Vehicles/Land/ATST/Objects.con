@@ -38,7 +38,7 @@ rem -------------------------------------
 ObjectTemplate.setSoldierExitLocation -1.5/0/-0.8 0/0/0
 ObjectTemplate.GUIIndex 26
 ObjectTemplate.setVehicleIcon "Vehicle/Icon_atst.tga"
-ObjectTemplate.setVehicleIconPos 60/30
+ObjectTemplate.setVehicleIconPos 62/15
 ObjectTemplate.setNumberOfWeaponIcons 2
 ObjectTemplate.setPrimaryAmmoIcon "Ammo/icon_laser_64x64.dds"
 ObjectTemplate.setPrimaryAmmoBar ABAmmoBar
@@ -421,9 +421,9 @@ rem -------------------------------------
 ObjectTemplate.setSoldierExitLocation 2/-8/1 0/0/0
 ObjectTemplate.GUIIndex 26
 ObjectTemplate.setVehicleIcon "Vehicle/Icon_atst.tga"
-ObjectTemplate.setVehicleIconPos 50/30
+ObjectTemplate.setVehicleIconPos 42/20
 ObjectTemplate.setNumberOfWeaponIcons 1
-ObjectTemplate.setPrimaryAmmoIcon "Ammo/Icon_bullet.tga"
+ObjectTemplate.setPrimaryAmmoIcon "Ammo/icon_laser_64x64.dds"
 ObjectTemplate.setPrimaryAmmoBar ABAmmoBar
 ObjectTemplate.setHasTurretIcon 1
 ObjectTemplate.setCrossHairType CHTCrossHair
@@ -436,7 +436,7 @@ ObjectTemplate.setMinimapIcon "Minimap/minimap_icon_at-st_32x32.tga"
 
 rem *** ATSTCoPilotCamera ***
 ObjectTemplate.create Camera ATSTCoPilotCamera
-rem -------------------------------------
+ObjectTemplate.OutsideHudOffset 0/0/3
 
 rem *** ATSTCoPilotEntry ***
 ObjectTemplate.create EntryPoint ATSTCoPilotEntry
@@ -527,6 +527,7 @@ ObjectTemplate.setPosition 0/-0.5/0
 
 rem *** ATSTCamera ***
 ObjectTemplate.create Camera ATSTCamera
+ObjectTemplate.OutsideHudOffset 0/0/3
 
 rem *** ATSTEntry ***
 ObjectTemplate.create EntryPoint ATSTEntry

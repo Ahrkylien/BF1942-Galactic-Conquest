@@ -15,8 +15,8 @@ ObjectTemplate.explosionDamage 5
 ObjectTemplate.hasArmor 1
 ObjectTemplate.angleMod 1
 ObjectTemplate.speedMod 2
-ObjectTemplate.hitpoints 80
-ObjectTemplate.maxhitpoints 80
+ObjectTemplate.hitpoints 300
+ObjectTemplate.maxhitpoints 300
 ObjectTemplate.material 60
 ObjectTemplate.criticalDamage 20
 ObjectTemplate.hpLostWhileCriticalDamage 1.5
@@ -25,7 +25,7 @@ ObjectTemplate.hpLostWhileUpSideDown 10
 ObjectTemplate.hpLostWhileDamageFromWater 10
 ObjectTemplate.addArmorEffect 65 em_CorsairDamage 0/0.103/2.11
 ObjectTemplate.addArmorEffect 65 em_PlaneDamage 0/0.103/2.61
-ObjectTemplate.addArmorEffect 20 e_CorsairFire 0/1/3
+ObjectTemplate.addArmorEffect 50 e_CorsairFire 0/1/3
 ObjectTemplate.addArmorEffect 0 e_ExplGas 0/0/0
 ObjectTemplate.addArmorEffect 0 e_ScrapMetal_TieBomber 0/0/0
 ObjectTemplate.addArmorEffect -1 WaterWaterExplosion 0/0/0
@@ -37,7 +37,7 @@ rem -------------------------------------
 ObjectTemplate.setSoldierExitLocation -4/0.243/-2 0/0/0
 ObjectTemplate.GUIIndex 109
 ObjectTemplate.setVehicleIcon "Vehicle/Icon_tiebomber.tga"
-ObjectTemplate.setVehicleIconPos 70/93
+ObjectTemplate.setVehicleIconPos 38/64
 ObjectTemplate.setNumberOfWeaponIcons 2
 ObjectTemplate.setPrimaryAmmoIcon "Ammo/icon_laser_64x64.dds"
 ObjectTemplate.setPrimaryAmmoBar ABAmmoBarHeatBar

@@ -21,7 +21,7 @@ ObjectTemplate.autoReload 0
 
 ObjectTemplate.GUIIndex 12
 ObjectTemplate.setHudAmmoType ATIconAndStrengthBar
-ObjectTemplate.setAmmoIcon "Ammo/Icon_grenadeaxis_64x32.tga"
+ObjectTemplate.setAmmoIcon "Ammo/icon_cryoban"
 ObjectTemplate.setCrossHairType CHTIcon
 
 ObjectTemplate.setHasMag 0

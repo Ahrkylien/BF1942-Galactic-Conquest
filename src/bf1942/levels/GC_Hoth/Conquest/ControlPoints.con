@@ -14,10 +14,6 @@ rem *** FirstLineTrench ***
 Object.create FirstLineTrench
 Object.absolutePosition 1063.653/15.6/978.6664
 
-rem *** Outpost ***
-Object.create Outpost
-Object.absolutePosition 362.0391/15.61563/1702.35
-
 rem *** ImperialSpawn ***
 Object.create ImperialSpawn
 Object.absolutePosition 1378.203/15.92813/1804.367

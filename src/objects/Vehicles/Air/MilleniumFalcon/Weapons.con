@@ -16,7 +16,7 @@ ObjectTemplate.magSize 1000
 ObjectTemplate.numOfMag 2
 ObjectTemplate.autoReload 1
 ObjectTemplate.reloadtime 3
-ObjectTemplate.velocity 550
+ObjectTemplate.velocity 700
 ObjectTemplate.roundOfFire 6
 ObjectTemplate.recoilSpeed 7
 ObjectTemplate.recoilSize 4
@@ -26,8 +26,8 @@ ObjectTemplate.addFireArmsPosition 0.156/-0.069/2.3 0/0/0
 ObjectTemplate.addFireArmsPosition 0.156/0.093/2.3 0/0/0
 REM *** POWER DRAIN *** 
 objectTemplate.heatAddWhenFire 0.07
-objectTemplate.coolDownPerSec 0.7
-objectTemplate.timeDelayOnOverHeat 5
+objectTemplate.coolDownPerSec 0.8
+objectTemplate.timeDelayOnOverHeat 2
 REM *** POWER DRAIN ***
 
 rem *** MF_Turret_Laser_2 ***
@@ -46,7 +46,7 @@ ObjectTemplate.magSize 1000
 ObjectTemplate.numOfMag 2
 ObjectTemplate.autoReload 1
 ObjectTemplate.reloadtime 3
-ObjectTemplate.velocity 550
+ObjectTemplate.velocity 700
 ObjectTemplate.roundOfFire 6
 ObjectTemplate.recoilSpeed 7
 ObjectTemplate.recoilSize 4
@@ -56,8 +56,8 @@ ObjectTemplate.addFireArmsPosition 0.156/-0.069/2.3 0/0/0
 ObjectTemplate.addFireArmsPosition 0.156/0.093/2.3 0/0/0
 REM *** POWER DRAIN *** 
 objectTemplate.heatAddWhenFire 0.07
-objectTemplate.coolDownPerSec 0.7
-objectTemplate.timeDelayOnOverHeat 5
+objectTemplate.coolDownPerSec 0.8
+objectTemplate.timeDelayOnOverHeat 2
 REM *** POWER DRAIN ***
 
 rem *** MF_Turret_Barrel_Pair ***

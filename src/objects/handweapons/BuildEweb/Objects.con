@@ -26,7 +26,7 @@ ObjectTemplate.fireDelay 0.4
 ObjectTemplate.soldierCameraPosition 0/-0.05/0.3
 ObjectTemplate.cantSelectWhenNoAmmo 1
 ObjectTemplate.changeWeaponWhenNoAmmo 1
-ObjectTemplate.AmmoType	2
+ObjectTemplate.AmmoType	99
 
 ObjectTemplate.createSkeleton animations/BuildEweb.ske
 ObjectTemplate.useSkeletonPartAsMain base

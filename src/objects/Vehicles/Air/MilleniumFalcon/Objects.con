@@ -24,9 +24,9 @@ ObjectTemplate.hpLostWhileCriticalDamage 1.5
 ObjectTemplate.explosionForceMod 15
 ObjectTemplate.hpLostWhileUpSideDown 0
 ObjectTemplate.hpLostWhileDamageFromWater 0
-ObjectTemplate.addArmorEffect 65 em_CorsairDamage 0/0.103/2.11
-ObjectTemplate.addArmorEffect 65 em_PlaneDamage 0/0.103/2.61
-ObjectTemplate.addArmorEffect 10 e_B17Fire 0/0.103/2.2
+ObjectTemplate.addArmorEffect 300 em_CorsairDamage 0/0.103/2.11
+ObjectTemplate.addArmorEffect 250 em_PlaneDamage 0/0.103/2.61
+ObjectTemplate.addArmorEffect 150 e_B17Fire 0/0.103/2.2
 ObjectTemplate.addArmorEffect 0 e_ExplGas 0/0/0
 ObjectTemplate.addArmorEffect 0 e_ScrapMetal_MilFalcon 0/0/0
 ObjectTemplate.addArmorEffect -1 WaterWaterExplosion 0/0/0
@@ -222,15 +222,15 @@ rem *** MF_Turret_1 ***
 ObjectTemplate.create RotationalBundle MF_Turret_1
 ObjectTemplate.setNetworkableInfo MF_Turret_1_Info
 ObjectTemplate.setAttachToListener 1
-ObjectTemplate.loadSoundScript Sounds/MFTurretXMotor.ssc
+ObjectTemplate.loadSoundScript Sounds/MFTurretRotate.ssc
 rem -------------------------------------
 ObjectTemplate.addTemplate lodMilleniumTurTop
 ObjectTemplate.setRotation 0/0/-180
 ObjectTemplate.addTemplate MF_Turret_1_Bundle
 ObjectTemplate.setPosition 0.0115/-0.0028/0.5
 rem -------------------------------------
-ObjectTemplate.setMaxSpeed 80/0/0
-ObjectTemplate.setAcceleration 5000/0/0
+ObjectTemplate.setMaxSpeed 100/0/0
+ObjectTemplate.setAcceleration 1000/0/0
 ObjectTemplate.setInputToYaw c_PIMouseLookX
 
 rem *** MF_Turret_1_Bundle  ***
@@ -238,7 +238,7 @@ ObjectTemplate.create RotationalBundle MF_Turret_1_Bundle
 ObjectTemplate.setNetworkableInfo MF_Turret_1_Bundle_Info
 ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.setAttachToListener 1
-ObjectTemplate.loadSoundScript Sounds/MFTurretYMotor.ssc
+ObjectTemplate.loadSoundScript Sounds/MFTurretRotate.ssc
 rem -------------------------------------
 ObjectTemplate.addTemplate lodMilleniumGunT
 ObjectTemplate.addTemplate MF_Turret_Camera
@@ -247,14 +247,14 @@ ObjectTemplate.addTemplate MF_Turret_Laser_1
 rem -------------------------------------
 ObjectTemplate.setMinRotation 0/-50/0
 ObjectTemplate.setMaxRotation 0/0/0
-ObjectTemplate.setMaxSpeed 0/80/0
-ObjectTemplate.setAcceleration 0/5000/0
+ObjectTemplate.setMaxSpeed 0/100/0
+ObjectTemplate.setAcceleration 0/1000/0
 ObjectTemplate.setInputToPitch c_PIMouseLookY
 
 rem *** MF_Turret_2 ***
 ObjectTemplate.create RotationalBundle MF_Turret_2
 ObjectTemplate.setNetworkableInfo MF_Turret_2_Info
-ObjectTemplate.loadSoundScript Sounds/MFTurretXMotor.ssc
+ObjectTemplate.loadSoundScript Sounds/MFTurretRotate.ssc
 rem -------------------------------------
 ObjectTemplate.addTemplate B17_Entry
 ObjectTemplate.addTemplate lodMilleniumTurTop
@@ -263,14 +263,14 @@ ObjectTemplate.setPosition 0/0/-0.5
 ObjectTemplate.addTemplate MF_Turret_2_Bundle
 ObjectTemplate.setRotation 0/0/0
 rem -------------------------------------
-ObjectTemplate.setMaxSpeed 80/0/0
-ObjectTemplate.setAcceleration 5000/0/0
+ObjectTemplate.setMaxSpeed 100/0/0
+ObjectTemplate.setAcceleration 1000/0/0
 ObjectTemplate.setInputToYaw c_PIMouseLookX
 
 rem *** MF_Turret_2_Bundle ***
 ObjectTemplate.create RotationalBundle MF_Turret_2_Bundle
 ObjectTemplate.setAttachToListener 1
-ObjectTemplate.loadSoundScript Sounds/MFTurretYMotor.ssc
+ObjectTemplate.loadSoundScript Sounds/MFTurretRotate.ssc
 rem -------------------------------------
 ObjectTemplate.addTemplate MF_Turret_Camera
 ObjectTemplate.setPosition 0/-1.1/-0.09
@@ -279,14 +279,12 @@ ObjectTemplate.setRotation 180/180/0
 ObjectTemplate.addTemplate MF_Turret_Laser_2
 rem -------------------------------------
 ObjectTemplate.setMaxRotation 0/50/0
-ObjectTemplate.setMaxSpeed 0/80/0
-ObjectTemplate.setAcceleration 0/5000/0
+ObjectTemplate.setMaxSpeed 0/70/0
+ObjectTemplate.setAcceleration 0/1000/0
 ObjectTemplate.setInputToPitch c_PIMouseLookY
 
-rem *** MF_Turret_2_Camera ***
+rem *** MF_Turret_Camera ***
 ObjectTemplate.create Camera MF_Turret_Camera
-ObjectTemplate.setMaxSpeed 200/200/0
-ObjectTemplate.setAcceleration 100000/100000/0
 
 rem -----------------------------------------------------------------------------------------------
 rem ------------------------------------------- Create Objects ------------------------------------

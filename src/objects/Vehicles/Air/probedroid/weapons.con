@@ -1,0 +1,66 @@
+rem *** probedroidGun ***
+ObjectTemplate.create FireArms probedroidGun
+ObjectTemplate.setNetworkableInfo PlaneFireArmInfo
+ObjectTemplate.loadSoundScript Sounds/ProbeDroidGun.ssc
+rem -------------------------------------
+rem ObjectTemplate.visibleBarrelTemplate e_muzzProbeDroidLaser
+rem -------------------------------------
+ObjectTemplate.projectileTemplate probedroidGunProjectile
+ObjectTemplate.projectilePosition 0/0/0
+ObjectTemplate.magSize 999
+ObjectTemplate.numOfMag 1
+ObjectTemplate.velocity 200
+ObjectTemplate.reloadtime 0.0001
+ObjectTemplate.roundOfFire 3
+rem ObjectTemplate.fireInCameraDof 1
+ObjectTemplate.addFireArmsPosition 0/0/0 0/0/0
+
+rem *** probedroidGunProjectile ***
+ObjectTemplate.create Projectile probedroidGunProjectile
+ObjectTemplate.createNotInGrid 1
+ObjectTemplate.geometry Tlight_r1
+ObjectTemplate.tracerScaler 50.0
+ObjectTemplate.timeToLive CRD_NONE/2/0/0
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasCollisionEffect 1
+ObjectTemplate.gravityModifier 0
+ObjectTemplate.stopAtEndEffect 1
+ObjectTemplate.hasOnTimeEffect 1
+ObjectTemplate.invisibleAtEndEffect 1
+ObjectTemplate.dieAfterColl 1
+ObjectTemplate.invisible 0
+ObjectTemplate.material 501
+
+rem *** probedroidSpy ***
+ObjectTemplate.create FireArms probedroidSpy
+ObjectTemplate.magType 2
+ObjectTemplate.numOfMag 1
+ObjectTemplate.magSize 5
+ObjectTemplate.altFireOnce 1
+ObjectTemplate.projectileTemplate probedroidSpyProjectile
+ObjectTemplate.projectile2Template probedroidSpyProjectile2
+ObjectTemplate.fireInCameraDof 1
+ObjectTemplate.projectilePosition 0/0/2
+ObjectTemplate.GUIIndex 84
+ObjectTemplate.setInputFire c_PIAltFire
+
+ObjectTemplate.create Projectile probedroidSpyProjectile
+ObjectTemplate.networkableInfo SpyProjectileInfo
+ObjectTemplate.timeToLive CRD_NONE/120/0/0
+ObjectTemplate.hasCollisionPhysics 0
+ObjectTemplate.gravityModifier 0.0
+ObjectTemplate.hasCollisionEffect 0
+ObjectTemplate.damageType 3
+
+ObjectTemplate.create Projectile probedroidSpyProjectile2
+rem ObjectTemplate.networkableInfo SpyProjectileInfo
+ObjectTemplate.timeToLive CRD_NONE/120/0/0
+ObjectTemplate.hasCollisionPhysics 0
+ObjectTemplate.gravityModifier 0.0
+ObjectTemplate.hasCollisionEffect 0
+
+
+
+

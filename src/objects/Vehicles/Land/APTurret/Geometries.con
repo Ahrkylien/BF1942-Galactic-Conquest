@@ -34,8 +34,7 @@ GeometryTemplate.setLodDistance 3 200
 GeometryTemplate.setLodDistance 4 300
 GeometryTemplate.setLodDistance 5 400
 
-
-GeometryTemplate.create StandardMesh AVTurretWreck
-GeometryTemplate.file Wreck_apturret_m1
-
 renderer.endGlobalCluster
+
+GeometryTemplate.create StandardMesh APTurretWreck
+GeometryTemplate.file Wreck_apturret_body

@@ -1,8 +1,8 @@
 GeometryTemplate.create StandardMesh trenchgrate
 GeometryTemplate.file buildings/trenchgrate
 GeometryTemplate.setLodDistance 0 0
-GeometryTemplate.setLodDistance 1 500
-GeometryTemplate.setLodDistance 2 700
-GeometryTemplate.setLodDistance 3 800
-GeometryTemplate.setLodDistance 4 900
-GeometryTemplate.setLodDistance 5 1000
+GeometryTemplate.setLodDistance 1 35
+GeometryTemplate.setLodDistance 2 50
+GeometryTemplate.setLodDistance 3 70
+GeometryTemplate.setLodDistance 4 100
+GeometryTemplate.setLodDistance 5 150

@@ -29,14 +29,14 @@ ObjectTemplate.addTemplate bactatankComplex
 rem -------------------------------------
 ObjectTemplate.setSoldierExitLocation 3/0.3/-3.5 60/0/0
 ObjectTemplate.GUIIndex 64
-ObjectTemplate.setVehicleIcon "Vehicle/bactatank_icon.tga"
+ObjectTemplate.setVehicleIcon "Vehicle/Icon_bactatank.dds"
 ObjectTemplate.setVehicleIconPos 50/50
 ObjectTemplate.setPrimaryAmmoBar ABNone
 ObjectTemplate.setCrossHairType CHTNone
 ObjectTemplate.setVehicleCategory VCLand
 ObjectTemplate.setVehicleType  VTApc
 ObjectTemplate.setToolTipType  TTApc
-ObjectTemplate.setMinimapIcon "Minimap/minimap_icon_apc_16x16.tga"
+ObjectTemplate.setMinimapIcon "Minimap/minimap_icon_stationary_16x16.tga"
 
 
 rem *** lodbactatank ***

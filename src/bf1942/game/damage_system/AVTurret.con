@@ -573,25 +573,25 @@ REM ####################  ATST ########################
 rem * *** atst head ***
 MaterialManager.attGroup 505
 MaterialManager.defGroup 720
-MaterialManager.damageMod 4
+MaterialManager.damageMod 6
 MaterialManager.setEffectTemplate e_RichoMetal
 
 rem * *** atst hips ***
 MaterialManager.attGroup 505
 MaterialManager.defGroup 721
-MaterialManager.damageMod 6
+MaterialManager.damageMod 8
 MaterialManager.setEffectTemplate e_RichoMetal
 
 rem * *** atst legs ***
 MaterialManager.attGroup 505
 MaterialManager.defGroup 722
-MaterialManager.damageMod 2
+MaterialManager.damageMod 4
 MaterialManager.setEffectTemplate e_RichoMetal
 
 rem * *** atst feet ***
 MaterialManager.attGroup 505
 MaterialManager.defGroup 723
-MaterialManager.damageMod 0.5
+MaterialManager.damageMod 4.0
 MaterialManager.setEffectTemplate e_RichoMetal
 
 rem * *** atst hip/head joint ***

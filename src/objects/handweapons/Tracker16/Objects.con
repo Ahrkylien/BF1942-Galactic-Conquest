@@ -39,10 +39,10 @@ ObjectTemplate.setGoBackOnRecoil 1
 
 ObjectTemplate.setFireDev 4.0 4.0 2.5
 ObjectTemplate.setDevMod 1.5 0.7 0.5
-ObjectTemplate.setMinDev 3.5
+ObjectTemplate.setMinDev 2.5
 ObjectTemplate.setspeedDev 2.0 2.0 2.0 1.5
 ObjectTemplate.setTurnDev 2.0 2.0 2.0 1.5
-ObjectTemplate.setMiscDev 9.0 9.0 1.0
+ObjectTemplate.setMiscDev 6.0 6.0 1.0
 
 Rem *** Deviation  End *****
 

@@ -11,7 +11,7 @@ ObjectTemplate.addTemplate MilleniumFalconbackpadsgear
 ObjectTemplate.setPosition 0/.5/2
 ObjectTemplate.addTemplate MilleniumFalconvtolengine
 ObjectTemplate.setPosition 0/0/0
-ObjectTemplate.setRotation 0/-90/0
+ObjectTemplate.setRotation 0/-60/0
 ObjectTemplate.addTemplate backrightgdl
 ObjectTemplate.setPosition 3.038/0.22/-7.6
 ObjectTemplate.setRotation 0/0/-130
