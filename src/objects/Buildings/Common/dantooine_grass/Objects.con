@@ -1,0 +1,6 @@
+ObjectTemplate.create SimpleObject dantooine_grass
+ObjectTemplate.aiTemplate dantooine_grass
+ObjectTemplate.geometry dantooine_grass
+ObjectTemplate.setHasCollisionPhysics 1
+
+

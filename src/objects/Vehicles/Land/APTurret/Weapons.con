@@ -1,45 +1,35 @@
-
-
 rem *** APTurretGunBarrel ***
 ObjectTemplate.create FireArms APGun
 ObjectTemplate.setNetworkableInfo apturretGunInfo
 ObjectTemplate.loadSoundScript Sounds/apturretfire.ssc
 ObjectTemplate.aiTemplate apturretGunAI
 ObjectTemplate.addTemplate e_muzzAPTurret
-ObjectTemplate.setPosition 0/-1.25/-2.8
-ObjectTemplate.setRotation 180/0/0
+ObjectTemplate.setPosition 0/0/0
 ObjectTemplate.projectileTemplate APTurretProjectile
-ObjectTemplate.projectilePosition 0/-1.25/-2.8
-ObjectTemplate.magSize 499
+ObjectTemplate.projectilePosition 0/0/0
+ObjectTemplate.magSize 999
+ObjectTemplate.magType 0
 ObjectTemplate.numOfMag 999
-ObjectTemplate.velocity 280
-ObjectTemplate.reloadtime 0.3
-ObjectTemplate.roundOfFire 1
-ObjectTemplate.recoilSpeed 10.0
-ObjectTemplate.recoilSize 50
-ObjectTemplate.setinputfire c_pifire
+ObjectTemplate.velocity 600
+ObjectTemplate.reloadtime 5
+ObjectTemplate.autoReload 1
+ObjectTemplate.roundOfFire 2.22
 
 rem *** APTurretProjectile ***
 ObjectTemplate.create Projectile APTurretProjectile
-ObjectTemplate.createNotInGrid 1
 ObjectTemplate.geometry Tlight_r2
 ObjectTemplate.tracerScaler 50.0
-ObjectTemplate.invisible 0
-ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.timeToLive CRD_UNIFORM/2.5/3/0
 ObjectTemplate.hasCollisionPhysics 1
-ObjectTemplate.hasResponsePhysics 1
-ObjectTemplate.timeToLive CRD_NONE/3/0/0
-ObjectTemplate.gravityModifier 0
-ObjectTemplate.endEffectTemplate e_ExplDirt
-ObjectTemplate.material 504
-ObjectTemplate.material2 -1
-ObjectTemplate.radius 0
-ObjectTemplate.stopAtEndEffect 1
+ObjectTemplate.gravityModifier 0.0
 ObjectTemplate.hasCollisionEffect 1
-
-
-
-
-
-
-
+ObjectTemplate.invisibleAtEndEffect 1
+ObjectTemplate.dieAfterColl 1
+ObjectTemplate.stopAtEndEffect 1
+ObjectTemplate.damageType 4
+ObjectTemplate.material 504
+ObjectTemplate.material2 504
+ObjectTemplate.radius 20
+ObjectTemplate.ForceOnExplosion 5
+ObjectTemplate.ProximityFusePrimer 0.05
+ObjectTemplate.explodeNearEnemyDistance 10

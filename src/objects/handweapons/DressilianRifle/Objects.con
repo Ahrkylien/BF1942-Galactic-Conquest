@@ -1,7 +1,5 @@
-
-
 rem ----------------------------------------------------------
-rem Firearm: No4
+rem Firearm: Dressilian Rifle
 rem ----------------------------------------------------------
 ObjectTemplate.create HandFireArms DressilianRifle
 ObjectTemplate.networkableInfo HandFireArmsInfo
@@ -16,12 +14,11 @@ ObjectTemplate.unZoomBetweenFireTime 0
 ObjectTemplate.useScope 1
 ObjectTemplate.setScopeIcon "dresellian_scope.tga"
 ObjectTemplate.reloadtime 1.6
-ObjectTemplate.roundOfFire 1
+ObjectTemplate.roundOfFire 0.75
 ObjectTemplate.fireOnce 1
 objectTemplate.aiTemplate No4AI
-ObjectTemplate.zoomFov 0.09
+ObjectTemplate.zoomFov 0.08
 ObjectTemplate.altFireOnce 1
-ObjectTemplate.GUIIndex 6
 ObjectTemplate.setHudAmmoType ATAmmoBar
 ObjectTemplate.setAmmoBar "Ingame/Magbar_Rifle_empty_32x64.tga"
 ObjectTemplate.setAmmoBarFill "Ingame/Magbar_Rifle_full_32x64.tga"
@@ -30,8 +27,8 @@ ObjectTemplate.setAmomBarPosX 6
 ObjectTemplate.setAmomBarPosY -17
 ObjectTemplate.setAmomBarTextPosX 5
 ObjectTemplate.setAmomBarTextPosY 10
-ObjectTemplate.setCrossHairType CHTIcon
-
+ObjectTemplate.setSniperSight 1
+ObjectTemplate.setCrossHairType CHTNone
 ObjectTemplate.soldierZoomFov 0.6 
 ObjectTemplate.soldierZoomPosition -0.07/0/0
 ObjectTemplate.soldierCameraPosition -0.02/-0.03/0.01
@@ -40,20 +37,18 @@ ObjectTemplate.AmmoType	1
 ObjectTemplate.timeToNotAllowChange 0.25
 
 Rem *** Deviation Begin *****
-
 ObjectTemplate.velocity 3000
-ObjectTemplate.setRecoilForceUp CRD_UNIFORM/6.2/5.2/0
-ObjectTemplate.setRecoilForceLeftRight CRD_UNIFORM/-0.3/-0.5/0
+ObjectTemplate.setRecoilForceUp CRD_UNIFORM/1.2/1.2/0
+ObjectTemplate.setRecoilForceLeftRight CRD_UNIFORM/-0.1/-0.3/0
 ObjectTemplate.setHasRecoilForce 1
 ObjectTemplate.setGoBackOnRecoil 1
 
 ObjectTemplate.setFireDev 0 0 0
 ObjectTemplate.setDevMod  1 0.7 0.5
-ObjectTemplate.setMinDev 0.25
+ObjectTemplate.setMinDev 0
 ObjectTemplate.setTurnDev 0 0 0 0
 ObjectTemplate.setSpeedDev 1.5 0.4 0.4 0.1
 ObjectTemplate.setMiscDev 2.5 2.5 0.1
-
 Rem *** Deviation  End *****
 
 ObjectTemplate.fireInCameraDof 1
@@ -61,13 +56,13 @@ ObjectTemplate.loadSoundScript Sounds/DressilianRifle.ssc
 ObjectTemplate.createSkeleton animations/DressilianRifle.ske
 ObjectTemplate.useSkeletonPartAsMain No4
 ObjectTemplate.addTemplate DressilianRifleLod
+ObjectTemplate.setPosition 0/0/.04
 
 ObjectTemplate.addTemplate e_MuzzGun
 ObjectTemplate.setInputId -1
 ObjectTemplate.startoneffects 0
 ObjectTemplate.setPosition 0/0.045/0.745
 ObjectTemplate.setRotation 0/0/0
-
 
 rem
 rem ** Objects
@@ -81,7 +76,7 @@ ObjectTemplate.geometry Dressilian_m1
 
 ObjectTemplate.create AnimatedBundle DressilianRifleComplex
 ObjectTemplate.addTemplate DressilianRifleSimple
-ObjectTemplate.setPosition 0/0/.04
+
 ObjectTemplate.hasDynamicShadow 1
 ObjectTemplate.createSkeleton animations/DressilianRifle.ske
 ObjectTemplate.addTemplate No4Trigger
@@ -91,6 +86,6 @@ ObjectTemplate.create LodObject DressilianRifleLod
 ObjectTemplate.lodselector HandWeaponLodSelector
 ObjectTemplate.addTemplate DressilianRifleComplex
 ObjectTemplate.addTemplate DressilianRifleSimple
-ObjectTemplate.setPosition 0/0/.04
+
 
 

@@ -1,16 +1,16 @@
-NetworkableInfo.createNewInfo WillyEngineInfo
+NetworkableInfo.createNewInfo LandspeederEngineInfo
 NetworkableInfo.setPredictionMode PMLinear
 
-NetworkableInfo.createNewInfo WillySteeringInfo
+NetworkableInfo.createNewInfo LandspeederSteeringInfo
 NetworkableInfo.setPredictionMode PMLinear
 
-NetworkableInfo.createNewInfo WillyBodyInfo
+NetworkableInfo.createNewInfo LandspeederBodyInfo
 NetworkableInfo.setPredictionMode PMLinear
 
-NetworkableInfo.createNewInfo WillySpringInfo
+NetworkableInfo.createNewInfo LandspeederSpringInfo
 NetworkableInfo.setPredictionMode PMLinear
 
-NetworkableInfo.createNewInfo WillyTurretInfo
+NetworkableInfo.createNewInfo LandspeederTurretInfo
 NetworkableInfo.setPredictionMode PMLinear
 
 

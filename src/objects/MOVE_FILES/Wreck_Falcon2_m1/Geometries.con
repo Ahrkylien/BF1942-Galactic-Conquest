@@ -1,5 +1,5 @@
 GeometryTemplate.create StandardMesh Wreck_Falcon2
-GeometryTemplate.file Wreck_Falcon2_m1
+GeometryTemplate.file MilleniumFalcon/Wreck_Falcon2_m1
 GeometryTemplate.setLodDistance 0 0
 GeometryTemplate.setLodDistance 1 100
 GeometryTemplate.setLodDistance 2 200

@@ -35,18 +35,16 @@ rem -------------------------------------
 ObjectTemplate.addTemplate lodxwing
 rem -------------------------------------
 ObjectTemplate.setSoldierExitLocation -1.5/0/0 0/0/0
-ObjectTemplate.GUIIndex 27
 ObjectTemplate.setVehicleIcon "Vehicle/Icon_xwing.dds"
 ObjectTemplate.setVehicleIconPos 54/49
 ObjectTemplate.setNumberOfWeaponIcons 1
 ObjectTemplate.setPrimaryAmmoIcon "Ammo/icon_laser_64x64.dds"
 ObjectTemplate.setPrimaryAmmoBar ABAmmoBarHeatBar
-
 ObjectTemplate.setCrossHairType CHTIcon
 ObjectTemplate.setVehicleCategory VCAir
 ObjectTemplate.setVehicleType  VTFighter
-ObjectTemplate.setToolTipType  TTFighter
-ObjectTemplate.setMinimapIcon "Minimap/minimap_icon_xwing_16x16.tga"
+ObjectTemplate.setMinimapIcon "minimap/minimap_icon_xwing_32x32.dds"
+ObjectTemplate.setMinimapIconSize 32
 
 rem *** lodxwing ***
 ObjectTemplate.create LodObject lodxwing
@@ -70,7 +68,7 @@ ObjectTemplate.hasResponsePhysics 1
 rem -------------------------------------
 ObjectTemplate.addTemplate lodxwingCockpit
 ObjectTemplate.addTemplate xwingCamera
-ObjectTemplate.setPosition 0/0.5/0.3
+ObjectTemplate.setPosition 0/0.52/0.3
 ObjectTemplate.addTemplate xwingSeat
 ObjectTemplate.setPosition 0/0/-0.3
 ObjectTemplate.addTemplate xwingEntry
@@ -99,12 +97,6 @@ ObjectTemplate.addTemplate xwingRudder
 ObjectTemplate.setPosition 0/1.088/-6.067
 ObjectTemplate.setRotation 0/0/-89.998
 
-ObjectTemplate.addTemplate xwingWheelBackSpring
-ObjectTemplate.setPosition 0/-2/-4
-ObjectTemplate.addTemplate xwingWheel1
-ObjectTemplate.setPosition 3/-2/4
-ObjectTemplate.addTemplate xwingWheel2
-ObjectTemplate.setPosition -3/-2/4
 ObjectTemplate.addTemplate xwingGuns
 
 ObjectTemplate.addTemplate xwingBodyWingVertical
@@ -116,11 +108,6 @@ ObjectTemplate.setPosition 0/0/0
 ObjectTemplate.setRotation 0/-85/0
 
 
-ObjectTemplate.addTemplate XWing_SFoil_1
-ObjectTemplate.setRotation 0/0/-6
-
-ObjectTemplate.addTemplate XWing_SFoil_2
-ObjectTemplate.setRotation 0/0/-6
 
 
 rem *** AWingRearVTOLRack ***
@@ -195,17 +182,112 @@ LodSelectorTemplate.create DistCompareSelector2 xwingLodSelector
 LodSelectorTemplate.hasDestroyedLod 1
 LodSelectorTemplate.addLodDistance 200
 
-rem *** XWing_SFoil_1 ***
-ObjectTemplate.create SimpleObject XWing_SFoil_1
+
+
+
+
+
+
+
+
+rem *** xwingLandingGearFL ***
+ObjectTemplate.create LandingGear xwingLandingGearFL
+ObjectTemplate.loadSoundScript ../Common/Sounds/LandingGear.ssc
+ObjectTemplate.geometry spitfire_gear_left_m1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate xwingWheel1
+ObjectTemplate.setPosition -0.259/-1.1/0.3
+rem -------------------------------------
+ObjectTemplate.setMinRotation -20/0/-79
+ObjectTemplate.setMaxSpeed 10/0/32
+ObjectTemplate.setAcceleration -5/0/-85
+ObjectTemplate.setGearDownHeight 25
+ObjectTemplate.setGearDownEngineInput 0.55
+ObjectTemplate.setGearUpEngineInput 0.8
+
+
+rem *** xwingLandingGearFR ***
+ObjectTemplate.create LandingGear xwingLandingGearFR
+ObjectTemplate.loadSoundScript ../Common/Sounds/LandingGear.ssc
+ObjectTemplate.geometry spitfire_gear_right_m1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate xwingWheel2
+ObjectTemplate.setPosition 0.26/-1.1/0.3
+rem -------------------------------------
+ObjectTemplate.setMaxRotation 20/0/79
+ObjectTemplate.setMaxSpeed 10/0/32
+ObjectTemplate.setAcceleration 5/0/80
+ObjectTemplate.setGearDownHeight 25
+ObjectTemplate.setGearDownEngineInput 0.55
+ObjectTemplate.setGearUpEngineInput 0.8
+
+rem *** snowspeederWheelBack ***
+ObjectTemplate.create RotationalBundle xwingLandRearRot
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate xwingLandGearRear
+ObjectTemplate.setPosition 0/0/0
+rem -------------------------------------
+ObjectTemplate.setMinRotation -20/0/0
+ObjectTemplate.setMaxRotation 20/0/0
+ObjectTemplate.setMaxSpeed 200/0/0
+ObjectTemplate.setAcceleration -110/0/0
+ObjectTemplate.setInputToYaw c_PIYaw
+ObjectTemplate.setAutomaticReset 1
+
+rem *** xwingLandingGearRL ***
+ObjectTemplate.create LandingGear xwingLandGearRear
+ObjectTemplate.loadSoundScript ../Common/Sounds/LandingGear.ssc
+ObjectTemplate.geometry spitfire_gear_left_m1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate xwingWheel3
+ObjectTemplate.setPosition -0.259/-1.1/0.3
+rem -------------------------------------
+ObjectTemplate.setMinRotation -20/0/-79
+ObjectTemplate.setMaxSpeed 10/0/32
+ObjectTemplate.setAcceleration -5/0/-85
+ObjectTemplate.setGearDownHeight 25
+ObjectTemplate.setGearDownEngineInput 0.55
+ObjectTemplate.setGearUpEngineInput 0.8
+
+rem ##### S-FOILS #####
+
+rem *** xwingS-Foil-1 ***
+ObjectTemplate.create LandingGear xwingS-Foil-1
+ObjectTemplate.loadSoundScript ../Common/Sounds/LandingGear.ssc
 ObjectTemplate.geometry XWing_SFoil_1
+ObjectTemplate.hasMobilePhysics 1
 ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.setMinRotation -.000001/0/-10
+ObjectTemplate.setMaxSpeed 5/0/10
+ObjectTemplate.setAcceleration -5/0/-85
+ObjectTemplate.setGearDownHeight 25
+ObjectTemplate.setGearDownEngineInput 0.55
+ObjectTemplate.setGearUpEngineInput 0.8
 
-
-rem *** XWing_SFoil_2 ***
-ObjectTemplate.create SimpleObject XWing_SFoil_2
+rem *** xwingS-Foil-2 ***
+ObjectTemplate.create LandingGear xwingS-Foil-2
+ObjectTemplate.loadSoundScript ../Common/Sounds/LandingGear.ssc
 ObjectTemplate.geometry XWing_SFoil_2
+ObjectTemplate.hasMobilePhysics 1
 ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.hasResponsePhysics 1
-
+ObjectTemplate.setMinRotation -.000001/0/10
+ObjectTemplate.setMaxSpeed 5/0/10
+ObjectTemplate.setAcceleration -5/0/-85
+ObjectTemplate.setGearDownHeight 25
+ObjectTemplate.setGearDownEngineInput 0.55
+ObjectTemplate.setGearUpEngineInput 0.8
 

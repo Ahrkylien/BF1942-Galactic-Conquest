@@ -16,12 +16,11 @@ ObjectTemplate.HasArmor 1
 ObjectTemplate.HitPoints 5
 ObjectTemplate.MaxHitPoints 5
 ObjectTemplate.Material 45
-Objecttemplate.GUIIndex 79
 ObjectTemplate.setVehicleIcon "Vehicle/icon_eweb.dds"
 ObjectTemplate.setVehicleIconPos 96/25
 ObjectTemplate.setNumberOfWeaponIcons 1
 ObjectTemplate.setPrimaryAmmoIcon "Ammo/icon_laser_64x64.dds"
-ObjectTemplate.setPrimaryAmmoBar ABAmmoBarReloadBar
+ObjectTemplate.setPrimaryAmmoBar ABAmmoBar
 ObjectTemplate.setCrossHairType CHTIcon
 ObjectTemplate.setMinimapIcon "Minimap/minimap_icon_eweb_16x16.dds"
 objectTemplate.criticalDamage 2
@@ -32,17 +31,8 @@ ObjectTemplate.mass 3000
 ObjectTemplate.criticalDamage 1
 ObjectTemplate.hpLostWhileCriticalDamage 0
 ObjectTemplate.addArmorEffect 0 e_scrapmetal_willy 0/0/0
-ObjectTemplate.setVehicleCategory VCLand
-ObjectTemplate.setVehicleType  VTArtillery
-ObjectTemplate.setToolTipType  TTArtillery
-ObjectTemplate.artPos 1
-ObjectTemplate.DirBarXScale 70
-ObjectTemplate.DirBarYScaleAbove 37.5
-ObjectTemplate.DirBarYScaleBelow 0
-ObjectTemplate.DirBarYScaleMin -90
-ObjectTemplate.DirBarYScaleMax -45
-ObjectTemplate.timetoliveafterdeath 0
-ObjectTemplate.AmmoType	2
+ObjectTemplate.setVehicleCategory Land
+ObjectTemplate.setVehicleType  AAGun
 rem --------------------------------------------
 ObjectTemplate.addArmorEffect 0 e_ExplGas 0/0/0
 ObjectTemplate.setInputId -1
@@ -69,14 +59,14 @@ ObjectTemplate.setHasPointPhysics 0
 ObjectTemplate.hasCollisionEffect 0
 
 
-rem
 ObjectTemplate.create RotationalBundle EwebGunRotation
 ObjectTemplate.networkableInfo eweb_TurretInfo
 rem -------------------------------------
 ObjectTemplate.addTemplate EwebCamera
-ObjectTemplate.setPosition 0/2/-.2
+ObjectTemplate.setPosition 0/0.4/-0.5
 ObjectTemplate.addTemplate EwebGunbarrel
 ObjectTemplate.addTemplate ewebweaponfire
+ObjectTemplate.setPosition 0/0/1.06
 ObjectTemplate.addTemplate ewebhanddummy
 rem -------------------------------------
 ObjectTemplate.setMinRotation -70/-20/0
@@ -92,21 +82,13 @@ ObjectTemplate.addSkeletonIK Bip01_R_Hand 0.2/-0.06/-0.25 -80/60/50
 ObjectTemplate.addSkeletonIK Bip01_L_Hand -0.2/-0.06/-0.25 -80/-60/50
 
 ObjectTemplate.create Camera EwebCamera
-ObjectTemplate.setMinRotation 0/0/0
-ObjectTemplate.setMaxRotation 0/0/0
-ObjectTemplate.setPivotPosition 0/0/0
 ObjectTemplate.setMaxSpeed 0/0/0
 ObjectTemplate.setAcceleration 0/0/0
-ObjectTemplate.setContinousRotationSpeed 0/0/0
 ObjectTemplate.setInputToYaw c_PIMouseLookX
 ObjectTemplate.setInputToPitch c_PIMouseLookY
-rem ObjectTemplate.setInputToRoll c_PINone
-ObjectTemplate.setHasTarget 0
-ObjectTemplate.CVMExternTrace 1
 
 ObjectTemplate.create EntryPoint EwebEntry
 ObjectTemplate.setEntryRadius 3
-
 
 rem
 ObjectTemplate.create SeatObject EwebSeat

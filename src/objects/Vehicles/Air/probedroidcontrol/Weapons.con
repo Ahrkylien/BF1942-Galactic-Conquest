@@ -7,7 +7,7 @@ ObjectTemplate.projectilePosition 0/5/5
 ObjectTemplate.magSize 1
 ObjectTemplate.numOfMag 999
 ObjectTemplate.velocity 1
-ObjectTemplate.reloadtime 240
+ObjectTemplate.reloadtime 120
 ObjectTemplate.roundOfFire 10
 ObjectTemplate.FireOnce 1
 ObjectTemplate.autoReload 1 

@@ -14,8 +14,8 @@ beginEffect
 	controlDestination Volume
 	controlSource Distance
 	envelope Ramp
-	param 20
-	param 150
+	param 65
+	param 130
 	param 1
 	param -1	
 endEffect
@@ -65,8 +65,8 @@ beginEffect
 	controlDestination Volume
 	controlSource Distance
 	envelope Ramp
-	param 25
-	param 250
+	param 130
+	param 260
 	param 1
 	param -1	
 endEffect
@@ -128,8 +128,8 @@ beginEffect
 	controlDestination Volume
 	controlSource Distance
 	envelope Ramp
-	param 20
-	param 250
+	param 130
+	param 260
 	param 1
 	param -1	
 endEffect
@@ -153,7 +153,7 @@ load @ROOT/Sound/@RTD/mf-cockpit.wav
 loop
 stereo
 minDistance 1
-relativePosition 11.83/1/9.3
+relativePosition 11.83/3.5/9.3
 volume 0.32
 priority 7
 *** Engine start ***
@@ -203,8 +203,8 @@ beginEffect
 	controlDestination Volume
 	controlSource Distance
 	envelope Ramp
-	param 20
-	param 150
+	param 65
+	param 130
 	param 1
 	param -1	
 endEffect

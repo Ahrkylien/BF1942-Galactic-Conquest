@@ -14,8 +14,8 @@ beginEffect
 	controlDestination Volume
 	controlSource Distance
 	envelope Ramp
-	param 10
-	param 80
+	param 55
+	param 110
 	param 1
 	param -1	
 endEffect
@@ -66,8 +66,8 @@ beginEffect
 	controlDestination Volume
 	controlSource Distance
 	envelope Ramp
-	param 30
-	param 180
+	param 110
+	param 220
 	param 1
 	param -1	
 endEffect
@@ -140,8 +140,8 @@ beginEffect
 	controlDestination Volume
 	controlSource Distance
 	envelope Ramp
-	param 30
-	param 180
+	param 110
+	param 220
 	param 1
 	param -1	
 endEffect
@@ -204,8 +204,8 @@ beginEffect
 	controlDestination Volume
 	controlSource Distance
 	envelope Ramp
-	param 30
-	param 180
+	param 110
+	param 220
 	param 1
 	param -1	
 endEffect
@@ -269,8 +269,8 @@ beginEffect
 	controlDestination Volume
 	controlSource Distance
 	envelope Ramp
-	param 30
-	param 180
+	param 110
+	param 220
 	param 1
 	param -1	
 endEffect
@@ -295,7 +295,7 @@ load @ROOT/Sound/@RTD/snowspeeder-cockpit.wav
 loop
 stereo
 minDistance 1
-relativePosition 0/0.5/0.7
+relativePosition 0/0.95/0.8
 volume 0.4
 priority 6
 *** Engine start ***
@@ -380,7 +380,7 @@ endEffect
 ###################
 
 load @ROOT/Sound/@RTD/snowspeeder-engine-stop.wav
-minDistance 5
+minDistance 10
 trigger Release
 dopplerOff
 priority -2
@@ -389,8 +389,8 @@ beginEffect
 	controlDestination Volume
 	controlSource Distance
 	envelope Ramp
-	param 10
-	param 80
+	param 55
+	param 110
 	param 1
 	param -1	
 endEffect

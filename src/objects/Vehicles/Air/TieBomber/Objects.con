@@ -23,9 +23,11 @@ ObjectTemplate.hpLostWhileCriticalDamage 1.5
 ObjectTemplate.explosionForceMod 15
 ObjectTemplate.hpLostWhileUpSideDown 10
 ObjectTemplate.hpLostWhileDamageFromWater 10
-ObjectTemplate.addArmorEffect 65 em_CorsairDamage 0/0.103/2.11
-ObjectTemplate.addArmorEffect 65 em_PlaneDamage 0/0.103/2.61
-ObjectTemplate.addArmorEffect 50 e_CorsairFire 0/1/3
+ObjectTemplate.addArmorEffect 150 em_TieBomberDamage -1.9/0/-1.5
+ObjectTemplate.addArmorEffect 150 em_PlaneDamage -1.5/0/-1.5
+ObjectTemplate.addArmorEffect 75 em_TieBomberDamage -1.9/0/-1.5
+ObjectTemplate.addArmorEffect 75 em_PlaneDamage -1.5/0/-1.5
+ObjectTemplate.addArmorEffect 50 e_TieBomberFire -1.7/0/-1.5
 ObjectTemplate.addArmorEffect 0 e_ExplGas 0/0/0
 ObjectTemplate.addArmorEffect 0 e_ScrapMetal_TieBomber 0/0/0
 ObjectTemplate.addArmorEffect -1 WaterWaterExplosion 0/0/0
@@ -35,19 +37,17 @@ rem -------------------------------------
 ObjectTemplate.addTemplate lodtiebomber
 rem -------------------------------------
 ObjectTemplate.setSoldierExitLocation -4/0.243/-2 0/0/0
-ObjectTemplate.GUIIndex 109
 ObjectTemplate.setVehicleIcon "Vehicle/Icon_tiebomber.tga"
 ObjectTemplate.setVehicleIconPos 38/64
 ObjectTemplate.setNumberOfWeaponIcons 2
-ObjectTemplate.setPrimaryAmmoIcon "Ammo/icon_laser_64x64.dds"
-ObjectTemplate.setPrimaryAmmoBar ABAmmoBarHeatBar
+ObjectTemplate.setPrimaryAmmoIcon "Ammo/icon_greenlaser_64x64.dds"
+ObjectTemplate.setPrimaryAmmoBar ABIconOnly
 ObjectTemplate.setSecondaryAmmoIcon "Ammo/Icon_bomb.tga"
 ObjectTemplate.setSecondaryAmmoBar ABAmmoBarReloadBar
 ObjectTemplate.setCrossHairType CHTIcon
 ObjectTemplate.setVehicleCategory VCAir
 ObjectTemplate.setVehicleType  VTFighter
-ObjectTemplate.setToolTipType  TTFighter
-ObjectTemplate.setMinimapIcon "Minimap/minimap_icon_tieb_32x32.dds"
+ObjectTemplate.setMinimapIcon "Minimap/minimap_icon_tiebomber_16x16.dds"
 
 rem *** lodtiebomber ***
 ObjectTemplate.create LodObject lodtiebomber
@@ -97,10 +97,11 @@ ObjectTemplate.setPosition 1.124/0.812/-3.539
 ObjectTemplate.addTemplate tiebomberRudder
 ObjectTemplate.setPosition 0.0/1.88/-2.649
 ObjectTemplate.setRotation 0/0/-89.999
-ObjectTemplate.addTemplate TieBomberConcussionMissile
+ObjectTemplate.addTemplate TieBomberGuns
 ObjectTemplate.setPosition 0/-0.5/1.5
 ObjectTemplate.addTemplate TIEBombRack
 ObjectTemplate.setPosition 0/-2/0
+ObjectTemplate.setRotation 0/90/0
 
 ObjectTemplate.addTemplate tiebomberBodyWingVertical
 ObjectTemplate.setRotation 0/0/-89.999
@@ -176,7 +177,6 @@ ObjectTemplate.setInputToYaw c_PIMouseLookX
 ObjectTemplate.setInputToPitch c_PIMouseLookY
 ObjectTemplate.toggleMouseLook 1
 ObjectTemplate.OutsideHudOffset 0/-0.7/2
-rem ObjectTemplate.OutsideHudOffset -0.3/-0.4/4.45
 
 rem *** tiebomberEntry ***
 ObjectTemplate.create EntryPoint tiebomberEntry

@@ -1,60 +1,54 @@
 ObjectTemplate.create HandFireArms Flechette
 ObjectTemplate.networkableInfo HandFireArmsInfo
-ObjectTemplate.aiTemplate Bazooka
+ObjectTemplate.aiTemplate BazookaRPG
 ObjectTemplate.itemIndex 3
 ObjectTemplate.projectileTemplate FlechetteMissile
-ObjectTemplate.projectilePosition -.3/.3/0
-ObjectTemplate.projectilePosition .3/.3/0
+ObjectTemplate.projectilePosition 0/.3/0
 ObjectTemplate.hasDynamicShadow 1
-ObjectTemplate.ForceOnExplosion 5
-ObjectTemplate.magSize 6
-ObjectTemplate.numOfMag 2
+ObjectTemplate.ForceOnExplosion 2
+ObjectTemplate.magSize 4
+ObjectTemplate.numOfMag 3
 ObjectTemplate.magType 0
 ObjectTemplate.autoReload 1
-ObjectTemplate.reloadtime 0.5
+ObjectTemplate.reloadtime 2
 ObjectTemplate.roundOfFire 1
-ObjectTemplate.fireOnce 0
-ObjectTemplate.cantSelectWhenNoAmmo 1
-ObjectTemplate.changeWeaponWhenNoAmmo 1
+ObjectTemplate.fireOnce 1
 ObjectTemplate.soldierZoomFov 0.6 
 ObjectTemplate.soldierZoomPosition -0.05/-0.02/0
 ObjectTemplate.AmmoType	3
+
 ObjectTemplate.loadSoundScript Sounds/flechette.ssc
-ObjectTemplate.zoomFov 0.2
+
+ObjectTemplate.zoomFov 0.45
 ObjectTemplate.altFireOnce 1
 ObjectTemplate.fireInCameraDof 1
-ObjectTemplate.useScope 1
-ObjectTemplate.setScopeIcon "flechette.tga"
-ObjectTemplate.GUIIndex 17
+
 ObjectTemplate.setHudAmmoType ATIcon
 ObjectTemplate.setAmmoIcon "Ammo/Icon_bazooka_64x32.tga"
 ObjectTemplate.setCrossHairType CHTCrosshair
+rem ObjectTemplate.setHasMag 1
 
+ObjectTemplate.useScope 1
+ObjectTemplate.setScopeIcon "flechette.tga"
 
 Rem *** Deviation Begin *****
+ObjectTemplate.velocity 350
 
-ObjectTemplate.velocity 500
-ObjectTemplate.minDeviation 0
-ObjectTemplate.maxDeviation 0.5
+ObjectTemplate.setRecoilForceUp CRD_UNIFORM/0.3/0.5/0
+ObjectTemplate.setRecoilForceLeftRight CRD_UNIFORM/-0.15/0.15/0
+ObjectTemplate.setHasRecoilForce 1
+ObjectTemplate.setGoBackOnRecoil 1
 
-ObjectTemplate.minDevStanding 0.2
-ObjectTemplate.minDevCrouching 0.1
+ObjectTemplate.minDeviation 0.1
+ObjectTemplate.maxDeviation 2
+ObjectTemplate.setFireDev 1 0.2 0.02
+ObjectTemplate.setDevMod 1.4 0.9 0.3
+ObjectTemplate.minDevStanding 1.5
+ObjectTemplate.minDevCrouching 0.8
 ObjectTemplate.minDevLying 0.05
-
-ObjectTemplate.subDevStanding 0.03
-ObjectTemplate.subDevCrouching 0.05
-ObjectTemplate.subDevLying 0.025
-
-ObjectTemplate.addDevWalk 0.01
-ObjectTemplate.addDevRun 0.02
-ObjectTemplate.addDevJump 0.05
-ObjectTemplate.addDevYaw 0.02
-ObjectTemplate.addDevPitch 0.02
-ObjectTemplate.addDevStrafe 0.01
-
-ObjectTemplate.addDevFire 0.08
-ObjectTemplate.subDev 0.01
-
+ObjectTemplate.setTurnDev 1.4 0.6 0.6 0.02
+ObjectTemplate.setSpeedDev 1.4 0.6 0.6 0.02
+ObjectTemplate.setMiscDev 1.4 0.6 0.02
 Rem *** Deviation  End *****
 
 ObjectTemplate.createSkeleton animations/Flechette.ske

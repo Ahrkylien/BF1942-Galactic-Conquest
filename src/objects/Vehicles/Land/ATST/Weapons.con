@@ -7,62 +7,67 @@ ObjectTemplate.setNetworkableInfo PlaneFireArmInfo
 rem -------------------------------------
 ObjectTemplate.visibleBarrelTemplate e_MuzzHeavy
 rem -------------------------------------
-ObjectTemplate.setAsynchronyFire 0
 ObjectTemplate.projectileTemplate ATSTMGunProjectile
 ObjectTemplate.projectilePosition 0/0/2
-ObjectTemplate.magSize 800
-ObjectTemplate.numOfMag 1
-ObjectTemplate.velocity 500
-ObjectTemplate.reloadtime 0.35
+ObjectTemplate.magSize 999
+ObjectTemplate.numOfMag 999
+ObjectTemplate.velocity 560
+ObjectTemplate.reloadtime 3
+ObjectTemplate.autoReload 1
 ObjectTemplate.roundOfFire 2.7
 ObjectTemplate.addFireArmsPosition 0.15/0.225/1.8 0/0/0
 ObjectTemplate.addFireArmsPosition -0.15/0.225/1.8 0/0/0
-ObjectTemplate.AmmoType	8
 
 rem *** ATSTMGunProjectile ***
 ObjectTemplate.create Projectile ATSTMGunProjectile
-ObjectTemplate.createNotInGrid 1
 ObjectTemplate.geometry Tlight_r2
 ObjectTemplate.tracerScaler 50.0
-ObjectTemplate.hasMobilePhysics 1
-ObjectTemplate.hasResponsePhysics 1
-ObjectTemplate.timeToLive CRD_NONE/10/0/0
-ObjectTemplate.gravityModifier 0
-ObjectTemplate.material 725
-ObjectTemplate.stopAtEndEffect 1
+ObjectTemplate.timeToLive CRD_UNIFORM/0.8/1.4/0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.gravityModifier 0.0
+ObjectTemplate.hasCollisionEffect 1
+ObjectTemplate.hasOnTimeEffect 1
+ObjectTemplate.invisibleAtEndEffect 1
 ObjectTemplate.dieAfterColl 1
+ObjectTemplate.stopAtEndEffect 1
+ObjectTemplate.invisible 0
+ObjectTemplate.material 725
+ObjectTemplate.material2 725
+ObjectTemplate.radius 10
+ObjectTemplate.ForceOnExplosion 1
+ObjectTemplate.ProximityFusePrimer 0.05
+ObjectTemplate.explodeNearEnemyDistance 5
 
 rem *** ATSTLGunBombDummy ***
 ObjectTemplate.create FireArms ATSTLGun
 ObjectTemplate.loadSoundScript Sounds/ATSTGrenadeLauncher.ssc
 ObjectTemplate.setNetworkableInfo PlaneFireArmInfo
-ObjectTemplate.aiTemplate AichiValBombs
 ObjectTemplate.projectileTemplate ATSTLGunProjectile
 ObjectTemplate.projectilePosition 0/0/0.25
-ObjectTemplate.setAsynchronyFire 1
+ObjectTemplate.magSize 1
+ObjectTemplate.numOfMag 250
 ObjectTemplate.velocity 50
-ObjectTemplate.magSize 30
-ObjectTemplate.numOfMag 1
-ObjectTemplate.roundOfFire 0.2
-ObjectTemplate.setInputFire c_PIAltFire
+ObjectTemplate.reloadtime 3
+ObjectTemplate.roundOfFire 10
+ObjectTemplate.altFireOnce 1
+ObjectTemplate.autoReload 1 
+ObjectTemplate.setinputfire c_PIAltFire
 ObjectTemplate.addFireArmsPosition -1.5238/0.3561/0.7561 0/0/0
-ObjectTemplate.AmmoType	7
 
 ObjectTemplate.create Projectile ATSTLGunProjectile 
-ObjectTemplate.geometry GrenadeAllies
+ObjectTemplate.geometry Fragnade_m1
 ObjectTemplate.timeToLive CRD_NONE/10/0/0
 ObjectTemplate.timeOnEndEffect 0.5
 ObjectTemplate.hasCollisionPhysics 1
-ObjectTemplate.gravityModifier 0.5
+ObjectTemplate.gravityModifier 0.2
 ObjectTemplate.hasCollisionEffect 1
 ObjectTemplate.invisibleAtEndEffect 1
 ObjectTemplate.damageType 1
 ObjectTemplate.material 726
 ObjectTemplate.material2 727
-ObjectTemplate.radius 15.0
-ObjectTemplate.ForceOnExplosion 1
+ObjectTemplate.radius 20
+ObjectTemplate.ForceOnExplosion 10
 ObjectTemplate.addTemplate e_fumeATSTGrenadeLauncher
-
 
 rem -------------------- Co-Pilot Guns -------------------
 
@@ -72,28 +77,37 @@ ObjectTemplate.loadSoundScript Sounds/ATSTSideLaser.ssc
 ObjectTemplate.setNetworkableInfo PlaneFireArmInfo
 ObjectTemplate.aiTemplate AichiValBombs
 ObjectTemplate.geometry ATSTRGun
-rem -------------------------------------
-ObjectTemplate.visibleBarrelTemplate e_MuzzHeavy
-rem -------------------------------------
+ObjectTemplate.addTemplate e_MuzzHeavy
+ObjectTemplate.setPosition 0/0/0.65
 ObjectTemplate.projectileTemplate ATSTSideProjectile
-ObjectTemplate.projectilePosition 0/0/0.25
-ObjectTemplate.setAsynchronyFire 0
-ObjectTemplate.velocity 510
-ObjectTemplate.magSize 800
-ObjectTemplate.numOfMag 1
-ObjectTemplate.roundOfFire 3.5
-ObjectTemplate.addFireArmsPosition 0/-0.1/0.45 0/0/0
-ObjectTemplate.AmmoType	8
+ObjectTemplate.projectilePosition 0/0/0.65
+ObjectTemplate.magSize -1
+ObjectTemplate.magType 0
+ObjectTemplate.numOfMag 999
+ObjectTemplate.velocity 570
+ObjectTemplate.reloadtime 0.0001
+ObjectTemplate.roundOfFire 3.7
+REM *** POWER DRAIN *** 
+objectTemplate.heatAddWhenFire 0.055
+objectTemplate.coolDownPerSec 0.85
+objectTemplate.timeDelayOnOverHeat 2
+REM *** POWER DRAIN ***
 
 ObjectTemplate.create Projectile ATSTSideProjectile
-ObjectTemplate.createNotInGrid 1
-ObjectTemplate.createNotInGrid 1
 ObjectTemplate.geometry Tlight_r2
 ObjectTemplate.tracerScaler 50.0
-ObjectTemplate.hasMobilePhysics 1
-ObjectTemplate.hasResponsePhysics 1
-ObjectTemplate.timeToLive CRD_NONE/2/0/0
-ObjectTemplate.gravityModifier 0
-ObjectTemplate.material 725
-ObjectTemplate.stopAtEndEffect 1
+ObjectTemplate.timeToLive CRD_UNIFORM/0.8/1.4/0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.gravityModifier 0.0
+ObjectTemplate.hasCollisionEffect 1
+ObjectTemplate.hasOnTimeEffect 1
+ObjectTemplate.invisibleAtEndEffect 1
 ObjectTemplate.dieAfterColl 1
+ObjectTemplate.stopAtEndEffect 1
+ObjectTemplate.invisible 0
+ObjectTemplate.material 725
+ObjectTemplate.material2 725
+ObjectTemplate.radius 20
+ObjectTemplate.ForceOnExplosion 1
+ObjectTemplate.ProximityFusePrimer 0.05
+ObjectTemplate.explodeNearEnemyDistance 10

@@ -2,7 +2,7 @@ ObjectTemplate.create HandFireArms tracker16
 ObjectTemplate.itemIndex 3
 ObjectTemplate.networkableInfo HandFireArmsInfo
 ObjectTemplate.projectileTemplate tracker16Projectile
-ObjectTemplate.projectilePosition 0/0/0
+ObjectTemplate.projectilePosition 0/0.08/0
 ObjectTemplate.hasDynamicShadow 1
 ObjectTemplate.unZoomBetweenFireTime 0
 ObjectTemplate.useScope 0
@@ -31,7 +31,7 @@ ObjectTemplate.AmmoType	1
 rem ObjectTemplate.autoReload 1
 Rem *** Deviation Begin *****
 
-ObjectTemplate.velocity 400
+ObjectTemplate.velocity 420
 ObjectTemplate.setRecoilForceUp CRD_UNIFORM/0.4/0.2/0
 ObjectTemplate.setRecoilForceLeftRight CRD_UNIFORM/0.7/-0.7/0
 ObjectTemplate.setHasRecoilForce 1
@@ -39,7 +39,7 @@ ObjectTemplate.setGoBackOnRecoil 1
 
 ObjectTemplate.setFireDev 4.0 4.0 2.5
 ObjectTemplate.setDevMod 1.5 0.7 0.5
-ObjectTemplate.setMinDev 2.5
+ObjectTemplate.setMinDev 2.0
 ObjectTemplate.setspeedDev 2.0 2.0 2.0 1.5
 ObjectTemplate.setTurnDev 2.0 2.0 2.0 1.5
 ObjectTemplate.setMiscDev 6.0 6.0 1.0
@@ -56,7 +56,7 @@ ObjectTemplate.addTemplate tracker16Lod
 ObjectTemplate.addTemplate e_MuzzThomp
 ObjectTemplate.setInputId -1
 ObjectTemplate.startoneffects 0
-ObjectTemplate.setPosition 0/0.058/0.3
+ObjectTemplate.setPosition 0/0.08/0.616
 ObjectTemplate.setRotation 0/0/0
 
 

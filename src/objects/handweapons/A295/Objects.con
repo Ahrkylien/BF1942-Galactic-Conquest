@@ -34,7 +34,7 @@ ObjectTemplate.AmmoType	1
 rem ObjectTemplate.autoReload 1
 Rem *** Deviation Begin *****
 
-ObjectTemplate.velocity 240
+ObjectTemplate.velocity 360
 ObjectTemplate.setRecoilForceUp CRD_UNIFORM/0.6/0.5/0
 ObjectTemplate.setRecoilForceLeftRight CRD_UNIFORM/-0.4/0.4/0
 ObjectTemplate.setHasRecoilForce 1
@@ -42,7 +42,7 @@ ObjectTemplate.setGoBackOnRecoil 1
 
 ObjectTemplate.setFireDev 4.0 2.0 1.0
 ObjectTemplate.setDevMod 0.4 0.2 0.0
-ObjectTemplate.setMinDev 0.0
+ObjectTemplate.setMinDev 0.3
 ObjectTemplate.setTurnDev 1.0 0.2 0.2 0.1
 ObjectTemplate.setSpeedDev 1.0 0.2 0.2 0.1
 ObjectTemplate.setMiscDev 10.0 10.0 1.0

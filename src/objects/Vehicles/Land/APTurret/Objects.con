@@ -19,29 +19,18 @@ ObjectTemplate.addArmorEffect 0 e_ExplGas 0/10/0
 ObjectTemplate.aiTemplate apturret
 ObjectTemplate.timetoliveafterdeath 5
 ObjectTemplate.fadeAtTimeToLiveAfterDeath 0
-rem ObjectTemplate.timeToStartFadeAfterDeath 81
 rem -------------------------------------
 ObjectTemplate.addTemplate lodApTurret
-
-ObjectTemplate.setSoldierExitLocation 0/2.2/-6.4 -180/0/0
-ObjectTemplate.GUIIndex 67
-
+ObjectTemplate.setSoldierExitLocation 0/2.2/-3 -180/0/0
 ObjectTemplate.setVehicleIcon "Vehicle/Icon_apturret.tga"
-ObjectTemplate.setVehicleIconPos 50/60
+ObjectTemplate.setVehicleIconPos 60/55
 ObjectTemplate.setNumberOfWeaponIcons 1
-ObjectTemplate.setPrimaryAmmoIcon "Ammo/Icon_artillery.tga"
-ObjectTemplate.setPrimaryAmmoBar ABAmmoBarReloadBar
+ObjectTemplate.setPrimaryAmmoIcon "Ammo/icon_laser_64x64.dds"
+ObjectTemplate.setPrimaryAmmoBar ABIconOnly
 ObjectTemplate.setCrossHairType CHTIcon
-ObjectTemplate.setVehicleCategory VCLand
-ObjectTemplate.setVehicleType VTapturret
-ObjectTemplate.setToolTipType  TTapturret
-ObjectTemplate.setMinimapIcon "Minimap/minimap_icon_stationary_16x16.tga"
-ObjectTemplate.artPos 1
-ObjectTemplate.DirBarXScale 90
-ObjectTemplate.DirBarYScaleAbove 30
-ObjectTemplate.DirBarYScaleBelow 10
-ObjectTemplate.DirBarYScaleMin -100
-ObjectTemplate.DirBarYScaleMax -60
+ObjectTemplate.setVehicleCategory Land
+ObjectTemplate.setVehicleType AAGun
+ObjectTemplate.setMinimapIcon "Minimap/minimap_icon_apturret_16x16.dds"
 
 rem *** lodapturret ***
 ObjectTemplate.create LodObject lodApTurret
@@ -81,16 +70,13 @@ ObjectTemplate.hasResponsePhysics 1
 ObjectTemplate.loadSoundScript Sounds/APTurretRotate.ssc
 rem -------------------------------------
 ObjectTemplate.addTemplate ApTurretGunbarrel
-ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.setPosition 0/2.7/1.08
 rem -------------------------------------
 ObjectTemplate.setMinRotation 0/0/0
 ObjectTemplate.setMaxRotation 0/0/0
-ObjectTemplate.setMaxSpeed 120/0/0
-ObjectTemplate.setAcceleration 210/0/0
+ObjectTemplate.setMaxSpeed 200/0/0
+ObjectTemplate.setAcceleration 700/0/0
 ObjectTemplate.setInputToYaw c_PIMouseLookX
-ObjectTemplate.setAutomaticYawStabilization 1
-
-
 
 rem *** apturretGunBase ***
 ObjectTemplate.create SimpleObject ApTurretGunBase
@@ -98,26 +84,25 @@ ObjectTemplate.geometry ApBase
 ObjectTemplate.setAttachToListener 1
 ObjectTemplate.hasCollisionPhysics 1
 
-
+rem *** ApTurretGunbarrel ***
 ObjectTemplate.create RotationalBundle ApTurretGunbarrel
 ObjectTemplate.setNetworkableInfo apturretCameraInfo
-ObjectTemplate.geometry APBarrel
+ObjectTemplate.geometry AP_Barrel
 ObjectTemplate.setAttachToListener 1
 ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.loadSoundScript Sounds/APTurretRotate.ssc
 rem**********************
-ObjectTemplate.addTemplate APGun
-ObjectTemplate.setPosition -0.1/4/7
 ObjectTemplate.addTemplate APTurretCamera
-ObjectTemplate.setPosition 0/4/-1.2
+ObjectTemplate.setPosition 0/0.78/0
+ObjectTemplate.addTemplate APGun
+ObjectTemplate.setPosition 0/0/2.3
 rem**********************
-ObjectTemplate.setMinRotation 0/-10/0
+ObjectTemplate.setMinRotation 0/-35/0
 ObjectTemplate.setMaxRotation 0/10/0
-ObjectTemplate.setMaxSpeed 0/120/0
-ObjectTemplate.setAcceleration 0/210/0
+ObjectTemplate.setMaxSpeed 0/200/0
+ObjectTemplate.setAcceleration 0/700/0
 ObjectTemplate.setInputToPitch c_PIMouseLookY
-ObjectTemplate.setAutomaticPitchStabilization 1
-
 
 rem *** apturretCamera ***
 ObjectTemplate.create Camera ApTurretCamera
@@ -125,7 +110,6 @@ ObjectTemplate.setMaxSpeed 0/0/0
 ObjectTemplate.setAcceleration 0/0/0
 ObjectTemplate.setInputToYaw c_PIMouseLookX
 ObjectTemplate.setInputToPitch c_PIMouseLookY
-
 
 rem *** apturretWreck ***
 ObjectTemplate.create SimpleObject APTurretWreck

@@ -13,8 +13,4 @@ ObjectTemplate.setDifferential 90.0
 rem *** ConcussionMissileEngineSound ***
 ObjectTemplate.loadSoundScript Sounds/ConcussionMissileEngine.ssc
 
-ObjectTemplate.create Wing Concussion_Missle_Wing
-ObjectTemplate.setPitchOffset 0
-ObjectTemplate.setPositionOffset 0/0/0
-ObjectTemplate.setWingLift 0.5
-ObjectTemplate.setFlapLift 0
+

@@ -4,7 +4,6 @@ rem *** MilleniumEngine ***
 ObjectTemplate.create Engine MilleniumFalconEngine
 ObjectTemplate.setNetworkableInfo Millenium_engine_info
 ObjectTemplate.loadSoundScript Sounds/MFEngine.ssc
-
 ObjectTemplate.addTemplate MilleniumFalconLandingfront
 ObjectTemplate.setPosition 0/0.725/9.164
 ObjectTemplate.addTemplate MilleniumFalconbackpadsgear
@@ -60,6 +59,22 @@ ObjectTemplate.setGearDown 0.3
 ObjectTemplate.setNoPropellerEffectAtSpeed 70
 
 
+rem *** MFHyperDriveEngine ***
+ObjectTemplate.create Engine MFHyperDriveEngine
+ObjectTemplate.setNetworkableInfo Millenium_engine_info
+ObjectTemplate.loadSoundScript Sounds/HyperDriveEngine.ssc
+rem -------------------------------------
+ObjectTemplate.setMinRotation 0/0/0
+ObjectTemplate.setMaxRotation 0/0/1
+ObjectTemplate.setMaxSpeed 0/0/5000
+ObjectTemplate.setAcceleration 0/0/5000
+ObjectTemplate.setInputToRoll c_PIAltFire
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setEngineType c_ETPlane
+ObjectTemplate.setTorque 50000
+ObjectTemplate.setDifferential 100
+
+
 rem *** Milleniumbackgear ***
 ObjectTemplate.create Spring MilleniumFalconBackGearLeft
 ObjectTemplate.geometry backgearleft
@@ -102,7 +117,7 @@ ObjectTemplate.hasResponsePhysics 1
 ObjectTemplate.Grip c_PGFDummyGrip
 rem -------------------------------------
 ObjectTemplate.addTemplate e_WaterTouchPlane
-ObjectTemplate.addTemplate e_wdustPlane
+ObjectTemplate.addTemplate e_wsnowPlane
 ObjectTemplate.addTemplate e_wsnowPlaneL
 rem -------------------------------------
 ObjectTemplate.setStrength 20

@@ -213,7 +213,7 @@ trigger Volume
 ####¤#########
 newPatch
 
-load @ROOT/Sound/@RTD/SOstopice.wav
+load @ROOT/Sound/@RTD/footstep-snow-stop.wav
 randomStartPitch 0.03 / 0.03
 minDistance 1
 volume .5

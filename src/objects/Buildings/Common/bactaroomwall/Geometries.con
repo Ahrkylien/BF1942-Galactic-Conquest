@@ -1,5 +1,5 @@
 GeometryTemplate.create StandardMesh bactaroomwall
-GeometryTemplate.file buildings/bactaroomwall
+GeometryTemplate.file buildings/echobase/bactaroomwall
 GeometryTemplate.setLodDistance 0 0
 GeometryTemplate.setLodDistance 1 100
 GeometryTemplate.setLodDistance 2 300

@@ -27,7 +27,7 @@ ObjectTemplate.distToMinDamage 40
 rem ObjectTemplate.autoReload 1
 Rem *** Deviation Begin *****
 
-ObjectTemplate.velocity 200
+ObjectTemplate.velocity 340
 ObjectTemplate.setRecoilForceUp CRD_UNIFORM/0.4/0.6/0
 ObjectTemplate.setRecoilForceLeftRight CRD_UNIFORM/-0.2/-0.2/0
 ObjectTemplate.setHasRecoilForce 1
@@ -56,7 +56,7 @@ ObjectTemplate.addTemplate KylanLod
 ObjectTemplate.addTemplate e_MuzzGun
 ObjectTemplate.setInputId -1
 ObjectTemplate.startoneffects 0
-ObjectTemplate.setPosition 0.005/0.03/0.165
+ObjectTemplate.setPosition 0/0/0.25
 ObjectTemplate.setRotation 0/0/0
 
 

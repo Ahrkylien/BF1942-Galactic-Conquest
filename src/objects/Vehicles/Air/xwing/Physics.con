@@ -2,6 +2,19 @@ rem *** xwingEngine ***
 ObjectTemplate.create Engine xwingEngine
 ObjectTemplate.setNetworkableInfo xwing_engine_info
 ObjectTemplate.loadSoundScript Sounds/xwingEngine.ssc
+rem ***** Landing Gear **********
+ObjectTemplate.addTemplate xwingLandingGearFL
+ObjectTemplate.setPosition 2.9/-2/5
+ObjectTemplate.addTemplate xwingLandingGearFR
+ObjectTemplate.setPosition -2.9/-2/5
+ObjectTemplate.addTemplate xwingLandRearRot
+ObjectTemplate.setPosition 0/-2/-4
+rem ##### S-Foils #####
+ObjectTemplate.addTemplate xwingS-Foil-1
+ObjectTemplate.setPosition 0/-1/0.8
+ObjectTemplate.addTemplate xwingS-Foil-2
+ObjectTemplate.setPosition 0/-1/0.8
+rem *******************************
 ObjectTemplate.setMinRotation -0.3/0/0
 ObjectTemplate.setMaxRotation 0.3/0/5000
 ObjectTemplate.setMaxSpeed 3700/0/1700
@@ -34,37 +47,6 @@ ObjectTemplate.setGearDown 0.3
 ObjectTemplate.setNoPropellerEffectAtSpeed 150
 
 
-rem *** xwingWheelBackSpring ***
-ObjectTemplate.create Spring xwingWheelBackSpring
-ObjectTemplate.geometry AWing_Wheel_Front
-ObjectTemplate.hasMobilePhysics 1
-ObjectTemplate.hasCollisionPhysics 1
-ObjectTemplate.hasResponsePhysics 1
-ObjectTemplate.Grip c_PGFRollGripWhenOccupied
-ObjectTemplate.setStrength 20
-ObjectTemplate.setDamping 6
-
-
-rem *** xwingWheel1 ***
-ObjectTemplate.create Spring xwingWheel1
-ObjectTemplate.geometry AWing_Wheel_BL
-ObjectTemplate.hasMobilePhysics 1
-ObjectTemplate.hasCollisionPhysics 1
-ObjectTemplate.hasResponsePhysics 1
-ObjectTemplate.Grip c_PGFRollGripWhenOccupied
-ObjectTemplate.setStrength 20
-ObjectTemplate.setDamping 6
-
-
-rem *** xwingWheel2 ***
-ObjectTemplate.create Spring xwingWheel2
-ObjectTemplate.geometry AWing_Wheel_BR
-ObjectTemplate.hasMobilePhysics 1
-ObjectTemplate.hasCollisionPhysics 1
-ObjectTemplate.hasResponsePhysics 1
-ObjectTemplate.Grip c_PGFRollGripWhenOccupied
-ObjectTemplate.setStrength 20
-ObjectTemplate.setDamping 6
 
 
 rem *** xwingFlapLeftMiddle ***
@@ -177,3 +159,34 @@ ObjectTemplate.setAutomaticReset 1
 ObjectTemplate.setPositionOffset 0/0/0
 ObjectTemplate.setWingLift 4
 ObjectTemplate.setFlapLift 0
+
+rem *** xwingWheel1 ***
+ObjectTemplate.create Spring xwingWheel1
+ObjectTemplate.geometry AWing_Wheel_BL
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFRollGripWhenOccupied
+ObjectTemplate.setStrength 20
+ObjectTemplate.setDamping 6
+
+
+rem *** xwingWheel2 ***
+ObjectTemplate.create Spring xwingWheel2
+ObjectTemplate.geometry AWing_Wheel_BR
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFRollGripWhenOccupied
+ObjectTemplate.setStrength 20
+ObjectTemplate.setDamping 6
+
+rem *** xwingWheel3 ***
+ObjectTemplate.create Spring xwingWheel3
+ObjectTemplate.geometry AWing_Wheel_BL
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFRollGripWhenOccupied
+ObjectTemplate.setStrength 20
+ObjectTemplate.setDamping 6

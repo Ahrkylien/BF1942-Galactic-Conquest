@@ -30,21 +30,21 @@ GeometryTemplate.setLodDistance 5 100
 
 
 GeometryTemplate.create StandardMesh AWing_Wheel_Front
-GeometryTemplate.file \AWing\AWing_Wheel
+GeometryTemplate.file AWing_Wheel
 GeometryTemplate.setLodDistance 0 0
 GeometryTemplate.setLodDistance 1 20
 GeometryTemplate.setLodDistance 2 60
 GeometryTemplate.setLodDistance 3 100
 
 GeometryTemplate.create StandardMesh AWing_Wheel_BR
-GeometryTemplate.file \AWing\AWing_Wheel
+GeometryTemplate.file AWing_Wheel
 GeometryTemplate.setLodDistance 0 0
 GeometryTemplate.setLodDistance 1 20
 GeometryTemplate.setLodDistance 2 60
 GeometryTemplate.setLodDistance 3 100
 
 GeometryTemplate.create StandardMesh AWing_Wheel_BL
-GeometryTemplate.file \AWing\AWing_Wheel
+GeometryTemplate.file AWing_Wheel
 GeometryTemplate.setLodDistance 0 0
 GeometryTemplate.setLodDistance 1 20
 GeometryTemplate.setLodDistance 2 60

@@ -2,7 +2,7 @@ ObjectTemplate.create HandFireArms Dl44
 ObjectTemplate.itemIndex 2
 ObjectTemplate.networkableInfo HandFireArmsInfo
 ObjectTemplate.projectileTemplate Dl44Projectile
-ObjectTemplate.projectilePosition 0/0/0
+ObjectTemplate.projectilePosition 0/0.067/0
 ObjectTemplate.hasDynamicShadow 1
 ObjectTemplate.magSize 50
 ObjectTemplate.numOfMag 1
@@ -34,7 +34,7 @@ ObjectTemplate.setCrossHairType CHTCrossHair
 
 Rem *** Deviation Begin *****
 
-ObjectTemplate.velocity 190
+ObjectTemplate.velocity 340
 ObjectTemplate.setRecoilForceUp CRD_UNIFORM/2.1/1.6/0
 ObjectTemplate.setRecoilForceLeftRight CRD_UNIFORM/-0.6/-0.6/0
 ObjectTemplate.setHasRecoilForce 1

@@ -23,9 +23,9 @@ ObjectTemplate.hpLostWhileCriticalDamage 1
 ObjectTemplate.explosionForceMod 15
 ObjectTemplate.hpLostWhileUpSideDown 10
 ObjectTemplate.hpLostWhileDamageFromWater 10
-ObjectTemplate.addArmorEffect 30 em_CorsairDamage 0/0.103/2.11
-ObjectTemplate.addArmorEffect 30 em_PlaneDamage 0/0.103/2.61
-ObjectTemplate.addArmorEffect 10 e_CorsairFire 0/1/3
+ObjectTemplate.addArmorEffect 30 em_SnowspeederDamage -2.3/0/-3
+ObjectTemplate.addArmorEffect 30 em_PlaneDamage 2.3/0/-3
+ObjectTemplate.addArmorEffect 10 e_SnowspeederFire 0/0/-3
 ObjectTemplate.addArmorEffect 0 e_ExplGas 0/0/0
 ObjectTemplate.addArmorEffect 0 e_ScrapMetal_Snowspeeder 0/0/0
 ObjectTemplate.addArmorEffect -1 WaterWaterExplosion 0/0/0
@@ -35,17 +35,14 @@ rem -------------------------------------
 ObjectTemplate.addTemplate lodsnowspeeder
 rem -------------------------------------
 ObjectTemplate.setSoldierExitLocation -4/0/4 0/0/0
-ObjectTemplate.GUIIndex 27
 ObjectTemplate.setVehicleIcon "Vehicle/Icon_snowspeeder.dds"
 ObjectTemplate.setVehicleIconPos 56/56
-rem  55/65
 ObjectTemplate.setNumberOfWeaponIcons 1
 ObjectTemplate.setPrimaryAmmoIcon "Ammo/icon_laser_64x64.dds"
-ObjectTemplate.setPrimaryAmmoBar ABAmmoBarHeatBar
+ObjectTemplate.setPrimaryAmmoBar ABHeatBarOnly
 ObjectTemplate.setCrossHairType CHTIcon
 ObjectTemplate.setVehicleCategory VCAir
 ObjectTemplate.setVehicleType  VTFighter
-ObjectTemplate.setToolTipType  TTFighter
 ObjectTemplate.setMinimapIcon "minimap/minimap_icon_snowspeeder_16x16.dds"
 
 rem *** lodsnowspeeder ***
@@ -72,7 +69,7 @@ ObjectTemplate.addTemplate snowspeeder_win
 ObjectTemplate.setPosition 0/0/0
 ObjectTemplate.addTemplate lodsnowspeederCockpit
 ObjectTemplate.addTemplate snowspeederCamera
-ObjectTemplate.setPosition 0/0.95/0.6
+ObjectTemplate.setPosition 0/0.95/0.8
 ObjectTemplate.addTemplate snowspeederSeat
 ObjectTemplate.setPosition 0/0.25/0.5
 ObjectTemplate.addTemplate snowspeederEntry
@@ -100,18 +97,12 @@ ObjectTemplate.setRotation 0/-1.7/0
 ObjectTemplate.addTemplate snowspeederRudder
 ObjectTemplate.setPosition 0/1.088/-6.067
 ObjectTemplate.setRotation 0/0/-89.998
-
 ObjectTemplate.addTemplate snowspeederCoPilot
 ObjectTemplate.setPosition 0/0.5/-2.5
 ObjectTemplate.setRotation 180/0/0
-
-
 ObjectTemplate.addTemplate snowspeederGuns
-
 ObjectTemplate.addTemplate snowspeederBodyWingVertical
 ObjectTemplate.setRotation 0/0/-89.999
-
-
 ObjectTemplate.addTemplate snowspeederRearVTOLRack
 ObjectTemplate.setPosition 0/0/0
 ObjectTemplate.setRotation 0/-85/0
@@ -180,7 +171,6 @@ ObjectTemplate.create SeatObject snowspeederSeat
 ObjectTemplate.seatFlags c_SeatShowFullBodySoldier
 
 rem *** snowspeederCoPilot ***
-
 ObjectTemplate.create PlayerControlObject snowspeederCoPilot
 ObjectTemplate.setNetworkableInfo snowspeeder_body_info
 ObjectTemplate.aiTemplate snowspeederCoPilotAI
@@ -193,17 +183,14 @@ ObjectTemplate.addTemplate snowspeederCoPilotSeat
 ObjectTemplate.setPosition 0/-0.26/-1.35
 rem ----------------------------------------------
 ObjectTemplate.setSoldierExitLocation -3/0.05/1 0/0/0
-ObjectTemplate.GUIIndex 114
 ObjectTemplate.setVehicleIcon "Vehicle/Icon_snowspeeder.tga"
 ObjectTemplate.setVehicleIconPos 83/33
-rem 75/45 
 ObjectTemplate.setNumberOfWeaponIcons 1
 ObjectTemplate.setPrimaryAmmoIcon "Ammo/icon_laser_64x64.dds"
-ObjectTemplate.setPrimaryAmmoBar ABAmmoBar
+ObjectTemplate.setPrimaryAmmoBar ABHeatBarOnly
 ObjectTemplate.setCrossHairType CHTIcon
 ObjectTemplate.setVehicleCategory VCLand
-ObjectTemplate.setVehicleType  VTDiveBomber
-ObjectTemplate.setToolTipType  TTDiveBomber
+ObjectTemplate.setVehicleType  VTFighter
 ObjectTemplate.setMinimapIcon "Minimap/minimap_icon_snowspeeder_16x16.tga"
 
 rem *** snowspeederCoPilotGunBase
@@ -237,10 +224,6 @@ ObjectTemplate.setInputToPitch c_PIMouseLookY
 
 rem *** snowspeederCoPilotCamera ***
 ObjectTemplate.create Camera snowspeederCoPilotCamera
-ObjectTemplate.setMinRotation -180/-60/0
-ObjectTemplate.setMaxRotation 180/20/0
-ObjectTemplate.setMaxSpeed 200/200/0
-ObjectTemplate.setAcceleration 1000/1000/0
 
 rem *** snowspeederCoPilotEntry ***
 ObjectTemplate.create EntryPoint snowspeederCoPilotEntry
@@ -266,7 +249,7 @@ LodSelectorTemplate.addLodDistance 200
 
 rem *** snowspeeder LandingGearFL ***
 ObjectTemplate.create LandingGear snowspeederLandingGearFL
-ObjectTemplate.loadSoundScript ../Common/Sounds/LandingGear.ssc
+rem ObjectTemplate.loadSoundScript ../Common/Sounds/LandingGear.ssc
 ObjectTemplate.geometry spitfire_gear_left_m1
 ObjectTemplate.hasMobilePhysics 1
 ObjectTemplate.hasCollisionPhysics 1
@@ -285,7 +268,7 @@ ObjectTemplate.setGearUpEngineInput 0.8
 
 rem *** snowspeeder LandingGearFR ***
 ObjectTemplate.create LandingGear snowspeederLandingGearFR
-ObjectTemplate.loadSoundScript ../Common/Sounds/LandingGear.ssc
+rem ObjectTemplate.loadSoundScript ../Common/Sounds/LandingGear.ssc
 ObjectTemplate.geometry spitfire_gear_right_m1
 ObjectTemplate.hasMobilePhysics 1
 ObjectTemplate.hasCollisionPhysics 1
@@ -321,7 +304,7 @@ ObjectTemplate.setAutomaticReset 1
 
 rem *** snowspeederLandGearRear***
 ObjectTemplate.create LandingGear snowspeederLandGearRear
-ObjectTemplate.loadSoundScript ../Common/Sounds/LandingGear.ssc
+rem ObjectTemplate.loadSoundScript ../Common/Sounds/LandingGear.ssc
 ObjectTemplate.geometry spitfire_gear_left_m1
 ObjectTemplate.hasMobilePhysics 1
 ObjectTemplate.hasCollisionPhysics 1

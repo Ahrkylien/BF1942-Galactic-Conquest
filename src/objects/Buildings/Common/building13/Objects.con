@@ -1,0 +1,5 @@
+ObjectTemplate.create Bundle building13
+ObjectTemplate.geometry building13
+ObjectTemplate.setHasCollisionPhysics 1
+objectTemplate.aiTemplate building13
+

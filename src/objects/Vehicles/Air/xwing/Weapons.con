@@ -11,13 +11,13 @@ ObjectTemplate.projectileTemplate XWingProjectile
 ObjectTemplate.projectilePosition 0/-0.2/2
 ObjectTemplate.magSize 500
 ObjectTemplate.numOfMag 1
-ObjectTemplate.velocity 650
+ObjectTemplate.velocity 600
 ObjectTemplate.reloadtime 0.1
 ObjectTemplate.roundOfFire 5.3
-ObjectTemplate.addFireArmsPosition -8/-1.5/9 0/0/0
-ObjectTemplate.addFireArmsPosition 8/-1.5/9 0/0/0
-ObjectTemplate.addFireArmsPosition -8/1.5/9 0/0/0
-ObjectTemplate.addFireArmsPosition 8/1.5/9 0/0/0
+ObjectTemplate.addFireArmsPosition -6/-1.5/4 1/0/0
+ObjectTemplate.addFireArmsPosition 6/-1.5/4 -1/0/0
+ObjectTemplate.addFireArmsPosition -6/1.5/4 1/0/0
+ObjectTemplate.addFireArmsPosition 6/1.5/4 -1/0/0
 REM *** POWER DRAIN *** 
 objectTemplate.heatAddWhenFire 0.06
 objectTemplate.coolDownPerSec 0.7

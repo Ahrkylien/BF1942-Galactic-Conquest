@@ -1,6 +1,7 @@
 rem *** probedroid_engine ***
 ObjectTemplate.create Engine probedroid_engine
 ObjectTemplate.setNetworkableInfo probedroidEngineInfo
+ObjectTemplate.loadSoundScript Sounds/ProbeDroidEngine.ssc
 ObjectTemplate.setMinRotation 0/0/-50
 ObjectTemplate.setMaxRotation 0/0/50
 ObjectTemplate.setMaxSpeed 0/0/100
@@ -10,6 +11,7 @@ ObjectTemplate.setAutomaticReset 1
 ObjectTemplate.setEngineType c_ETPlane
 ObjectTemplate.setTorque 10000
 ObjectTemplate.setDifferential 2
+
 
 rem *** probedroid_engine_updown ***
 ObjectTemplate.create Engine probedroid_engine_updown

@@ -1,0 +1,8 @@
+ObjectTemplate.create Bundle starport
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.geometry starport
+objectTemplate.aiTemplate starport
+ObjectTemplate.addTemplate port
+rem ---------------------------
+ObjectTemplate.create SimpleObject port
+ObjectTemplate.geometry innerstarport

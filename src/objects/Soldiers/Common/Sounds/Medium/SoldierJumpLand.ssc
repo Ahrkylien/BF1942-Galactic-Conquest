@@ -141,7 +141,7 @@ endEffect
 ##############
 newPatch
 
-load @ROOT/Sound/@RTD/SOLAFROZEN.wav
+load @ROOT/Sound/@RTD/footstep-snow-land.wav
 dopplerOff
 priority 1
 randomStartPitch 0.03 / 0.03

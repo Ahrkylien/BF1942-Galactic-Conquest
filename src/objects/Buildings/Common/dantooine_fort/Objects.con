@@ -1,0 +1,6 @@
+ObjectTemplate.create SimpleObject dantooine_fort
+ObjectTemplate.aiTemplate dantooine_fort
+ObjectTemplate.geometry dantooine_fort
+ObjectTemplate.setHasCollisionPhysics 1
+
+

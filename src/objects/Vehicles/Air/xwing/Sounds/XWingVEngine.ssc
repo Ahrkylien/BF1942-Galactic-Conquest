@@ -5,7 +5,7 @@ newPatch
 ############
 ### VTOL ###
 ############
-load @ROOT/Sound/@RTD/snowspeeder-engine-3.wav
+load @ROOT/Sound/@RTD/xwing-engine-3.wav
 loop
 minDistance 20
 randomStartPitch 0.05/0.05 
@@ -49,8 +49,8 @@ beginEffect
 	controlDestination Volume
 	controlSource Distance
 	envelope Ramp
-	param 30
-	param 180
+	param 120
+	param 240
 	param 1
 	param -1	
 endEffect

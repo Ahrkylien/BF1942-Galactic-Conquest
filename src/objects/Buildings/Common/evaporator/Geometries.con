@@ -1,8 +1,17 @@
 GeometryTemplate.create StandardMesh evaporator
 GeometryTemplate.file buildings/evaporator
 GeometryTemplate.setLodDistance 0 0
-GeometryTemplate.setLodDistance 1 15
-GeometryTemplate.setLodDistance 2 35
-GeometryTemplate.setLodDistance 3 60
-GeometryTemplate.setLodDistance 4 100
-GeometryTemplate.setLodDistance 5 300
+GeometryTemplate.setLodDistance 1 600
+GeometryTemplate.setLodDistance 2 700
+GeometryTemplate.setLodDistance 3 800
+GeometryTemplate.setLodDistance 4 900
+GeometryTemplate.setLodDistance 5 1000
+
+GeometryTemplate.create StandardMesh evaporatortop
+GeometryTemplate.file buildings/evaptop
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 600
+GeometryTemplate.setLodDistance 2 700
+GeometryTemplate.setLodDistance 3 800
+GeometryTemplate.setLodDistance 4 900
+GeometryTemplate.setLodDistance 5 1000

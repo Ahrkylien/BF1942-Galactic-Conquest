@@ -6,7 +6,7 @@ newPatch
 ### Engine Start ###
 ####################
 load @ROOT/Sound/@RTD/tiefighter-engine-start.wav
-minDistance 5
+minDistance 10
 dopplerOff
 priority -2
 *** Distance Volume ***
@@ -14,8 +14,8 @@ beginEffect
 	controlDestination Volume
 	controlSource Distance
 	envelope Ramp
-	param 10
-	param 80
+	param 75
+	param 150
 	param 1
 	param -1	
 endEffect
@@ -65,8 +65,8 @@ beginEffect
 	controlDestination Volume
 	controlSource Distance
 	envelope Ramp
-	param 30
-	param 180
+	param 150
+	param 300
 	param 1
 	param -1	
 endEffect
@@ -138,8 +138,19 @@ beginEffect
 	controlDestination Volume
 	controlSource Distance
 	envelope Ramp
-	param 30
-	param 180
+	param 0
+	param 3
+	param 0
+	param 1	
+endEffect
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 150
+	param 300
 	param 1
 	param -1	
 endEffect
@@ -201,8 +212,19 @@ beginEffect
 	controlDestination Volume
 	controlSource Distance
 	envelope Ramp
-	param 30
-	param 180
+	param 0
+	param 3
+	param 0
+	param 1	
+endEffect
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 150
+	param 300
 	param 1
 	param -1	
 endEffect
@@ -267,7 +289,7 @@ endEffect
 ###################
 
 load @ROOT/Sound/@RTD/tiefighter-engine-stop.wav
-minDistance 5
+minDistance 10
 trigger Release
 dopplerOff
 priority -2
@@ -276,8 +298,8 @@ beginEffect
 	controlDestination Volume
 	controlSource Distance
 	envelope Ramp
-	param 10
-	param 80
+	param 75
+	param 150
 	param 1
 	param -1	
 endEffect

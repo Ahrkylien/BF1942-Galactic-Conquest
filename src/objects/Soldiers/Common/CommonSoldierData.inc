@@ -22,7 +22,7 @@ ObjectTemplate.setCharacterHeight -1.00
 
 ObjectTemplate.geometry BodyCollision
 
-ObjectTemplate.setParachuteDrag 24.00
+ObjectTemplate.setParachuteDrag 5000.00
 ObjectTemplate.setParachuteSpeed 30.00
 
 ObjectTemplate.HasArmor 1

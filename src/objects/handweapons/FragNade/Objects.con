@@ -21,7 +21,7 @@ ObjectTemplate.AmmoType	2
 ObjectTemplate.autoReload 1
 ObjectTemplate.GUIIndex 13
 ObjectTemplate.setHudAmmoType ATIconAndStrengthBar
-ObjectTemplate.setAmmoIcon "Ammo/icon_fragnade"
+ObjectTemplate.setAmmoIcon "Ammo/Icon_fragnade.dds"
 ObjectTemplate.setCrossHairType CHTIcon
 ObjectTemplate.setHasMag 0
 
@@ -58,16 +58,20 @@ ObjectTemplate.geometry Fragnade_m1
 ObjectTemplate.create AnimatedBundle FragnadeComplex
 ObjectTemplate.createSkeleton animations/GrenadeAllies.ske
 ObjectTemplate.addTemplate FragnadeSimple
-ObjectTemplate.setPosition 0/-2.0/0
+ObjectTemplate.setPosition 1/0/0
 ObjectTemplate.Bindtoskeletonpart Base
+
 
 
 ObjectTemplate.create LodObject FragnadeLod
 ObjectTemplate.lodselector HandWeaponLodSelector
 ObjectTemplate.addTemplate FragnadeComplex
-ObjectTemplate.setRotation 0/0/-45
+ObjectTemplate.setPosition 0/-.055/.006
+ObjectTemplate.setRotation 0/-80/0
 ObjectTemplate.addTemplate FragnadeSimple
-ObjectTemplate.setRotation 0/0/-45
+ObjectTemplate.setPosition 0/-.055/.006
+ObjectTemplate.setRotation 0/-80/0
+
 
 
 
@@ -89,7 +93,7 @@ rem *** MattiasH doesn't permit random time on projectiles. ask him about this.
 ObjectTemplate.timeToLive CRD_NONE/3/0/0
 ObjectTemplate.useMMOnEndEffect 1
 ObjectTemplate.dieAfterColl 0
-ObjectTemplate.radius 15.0
+ObjectTemplate.radius 20
 ObjectTemplate.damageType 1
 ObjectTemplate.material 70
 ObjectTemplate.material2 205

@@ -1,4 +1,15 @@
 
+rem *** MF_Main_Laser ***
+ObjectTemplate.create FireArms MF_Main_Laser
+ObjectTemplate.setNetworkableInfo PlaneFireArmInfo
+ObjectTemplate.projectileTemplate ConcussionMissile
+ObjectTemplate.magSize 25
+ObjectTemplate.numOfMag 10
+ObjectTemplate.velocity 200
+ObjectTemplate.autoReload 1
+ObjectTemplate.reloadtime 3
+ObjectTemplate.roundOfFire 1.8
+ObjectTemplate.fireingForce 1
 
 rem *** MF_Turret_Laser_1 ***
 ObjectTemplate.create FireArms MF_Turret_Laser_1
@@ -12,20 +23,20 @@ ObjectTemplate.visibleBarrelTemplate e_MuzzThomp
 ObjectTemplate.addTemplate MF_Turret_Barrel_Pair
 rem -------------------------------------
 ObjectTemplate.projectileTemplate MF_Turret_Projectile
-ObjectTemplate.magSize 1000
-ObjectTemplate.numOfMag 2
-ObjectTemplate.autoReload 1
-ObjectTemplate.reloadtime 3
-ObjectTemplate.velocity 700
+ObjectTemplate.magSize -1
+ObjectTemplate.magType 0
+ObjectTemplate.numOfMag 999
+ObjectTemplate.velocity 600
+ObjectTemplate.reloadtime 0.0001
 ObjectTemplate.roundOfFire 6
-ObjectTemplate.recoilSpeed 7
-ObjectTemplate.recoilSize 4
+ObjectTemplate.recoilSpeed 10
+ObjectTemplate.recoilSize 5
 ObjectTemplate.addFireArmsPosition -0.175/0.093/2.3 0/0/0
 ObjectTemplate.addFireArmsPosition -0.175/-0.069/2.3 0/0/0
 ObjectTemplate.addFireArmsPosition 0.156/-0.069/2.3 0/0/0
 ObjectTemplate.addFireArmsPosition 0.156/0.093/2.3 0/0/0
 REM *** POWER DRAIN *** 
-objectTemplate.heatAddWhenFire 0.07
+objectTemplate.heatAddWhenFire 0.06
 objectTemplate.coolDownPerSec 0.8
 objectTemplate.timeDelayOnOverHeat 2
 REM *** POWER DRAIN ***
@@ -42,20 +53,20 @@ ObjectTemplate.visibleBarrelTemplate e_MuzzThomp
 ObjectTemplate.addTemplate MF_Turret_Barrel_Pair
 rem -------------------------------------
 ObjectTemplate.projectileTemplate MF_Turret_Projectile
-ObjectTemplate.magSize 1000
-ObjectTemplate.numOfMag 2
-ObjectTemplate.autoReload 1
-ObjectTemplate.reloadtime 3
-ObjectTemplate.velocity 700
+ObjectTemplate.magSize -1
+ObjectTemplate.magType 0
+ObjectTemplate.numOfMag 999
+ObjectTemplate.velocity 600
+ObjectTemplate.reloadtime 0.0001
 ObjectTemplate.roundOfFire 6
-ObjectTemplate.recoilSpeed 7
-ObjectTemplate.recoilSize 4
+ObjectTemplate.recoilSpeed 10
+ObjectTemplate.recoilSize 5
 ObjectTemplate.addFireArmsPosition -0.175/0.093/2.3 0/0/0
 ObjectTemplate.addFireArmsPosition -0.175/-0.069/2.3 0/0/0
 ObjectTemplate.addFireArmsPosition 0.156/-0.069/2.3 0/0/0
 ObjectTemplate.addFireArmsPosition 0.156/0.093/2.3 0/0/0
 REM *** POWER DRAIN *** 
-objectTemplate.heatAddWhenFire 0.07
+objectTemplate.heatAddWhenFire 0.06
 objectTemplate.coolDownPerSec 0.8
 objectTemplate.timeDelayOnOverHeat 2
 REM *** POWER DRAIN ***
@@ -75,61 +86,32 @@ rem *** MF_Turret_Projectile ***
 ObjectTemplate.create Projectile MF_Turret_Projectile
 ObjectTemplate.geometry Tlight_r2
 ObjectTemplate.tracerScaler 50.0
-ObjectTemplate.timeToLive CRD_NONE/2/0/0
+ObjectTemplate.timeToLive CRD_UNIFORM/0.8/1.4/0
 ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.gravityModifier 0.0
-ObjectTemplate.hasStartEffect 0
 ObjectTemplate.hasCollisionEffect 1
-ObjectTemplate.hasOnTimeEffect 0
+ObjectTemplate.hasOnTimeEffect 1
 ObjectTemplate.invisibleAtEndEffect 1
 ObjectTemplate.dieAfterColl 1
 ObjectTemplate.stopAtEndEffect 1
-ObjectTemplate.invisible 1
-ObjectTemplate.material 754
 ObjectTemplate.invisible 0
-
-rem *** Exhaust ***
-rem ObjectTemplate.create FireArms Exhaust
-rem ObjectTemplate.setNetworkableInfo PlaneFireArmInfo
-rem ObjectTemplate.hasMobilePhysics 1
-rem ObjectTemplate.hasCollisionPhysics 1
-rem ObjectTemplate.hasResponsePhysics 1
-rem ObjectTemplate.projectileTemplate EmptyProjectile
-rem ObjectTemplate.projectilePosition 0/0/0
-rem ObjectTemplate.magSize -1
-rem ObjectTemplate.numOfMag -1
-rem ObjectTemplate.autoReload 1
-rem ObjectTemplate.reloadtime 0
-rem ObjectTemplate.roundOfFire 6000
-rem ObjectTemplate.fireingForce 130
-rem ObjectTemplate.recoilSpeed 50
-rem ObjectTemplate.recoilSize 50
-rem ObjectTemplate.setInputFire c_PIAltFire
-rem ObjectTemplate.addFireArmsPosition 0/0/0 0/0/0
-
-rem *** EmptyProjectile ***
-rem ObjectTemplate.create Projectile EmptyProjectile
-rem ObjectTemplate.createNotInGrid 1
-rem ObjectTemplate.hasMobilePhysics 0
-rem ObjectTemplate.hasCollisionPhysics 0
-rem ObjectTemplate.hasResponsePhysics 0
-rem ObjectTemplate.timeToLive CRD_NONE/0/0/0
-rem ObjectTemplate.damageType 1
-rem ObjectTemplate.material 0
-rem ObjectTemplate.material2 0
-rem ObjectTemplate.radius 0
-rem ObjectTemplate.hasCollisionEffect 0
+ObjectTemplate.material 754
+ObjectTemplate.material2 754
+ObjectTemplate.radius 20
+ObjectTemplate.ForceOnExplosion 1
+ObjectTemplate.ProximityFusePrimer 0.05
+ObjectTemplate.explodeNearEnemyDistance 10
 
 rem *** MFHyperDrive ***
-rem ObjectTemplate.create FireArms HyperDriveFireArm
-rem ObjectTemplate.networkableInfo PlaneFireArmInfo
-rem ObjectTemplate.setInputFire c_PIAltFire
-rem ObjectTemplate.magSize -1
-rem ObjectTemplate.numOfMag -1
-rem ObjectTemplate.magType 0
-rem ObjectTemplate.reloadtime 0
-rem ObjectTemplate.roundOfFire 4
-rem ObjectTemplate.altFireOnce 1
-rem ObjectTemplate.loadSoundScript Sounds/HyperDriveFireArm.ssc
-rem ObjectTemplate.autoReload 1
+ObjectTemplate.create FireArms HyperDriveFireArm
+ObjectTemplate.networkableInfo PlaneFireArmInfo
+ObjectTemplate.setInputFire c_PIAltFire
+ObjectTemplate.magSize -1
+ObjectTemplate.numOfMag -1
+ObjectTemplate.magType 0
+ObjectTemplate.reloadtime 0
+ObjectTemplate.roundOfFire 4
+ObjectTemplate.altFireOnce 1
+ObjectTemplate.loadSoundScript Sounds/HyperDriveFireArm.ssc
+ObjectTemplate.autoReload 1
 

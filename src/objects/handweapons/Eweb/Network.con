@@ -4,3 +4,6 @@ NetworkableInfo.setPredictionMode PMLinear
 NetworkableInfo.createNewInfo eweb_TurretInfo
 NetworkableInfo.setPredictionMode PMLinear
 
+NetworkableInfo.createNewInfo eweb_firearmsInfo
+NetworkableInfo.setPredictionMode PMLinear
+

@@ -19,29 +19,18 @@ ObjectTemplate.addArmorEffect 0 e_ExplGas 0/10/0
 ObjectTemplate.aiTemplate avturret
 ObjectTemplate.timetoliveafterdeath 5
 ObjectTemplate.fadeAtTimeToLiveAfterDeath 0
-rem ObjectTemplate.timeToStartFadeAfterDeath 81
 rem -------------------------------------
 ObjectTemplate.addTemplate lodAVTurret
-
-ObjectTemplate.setSoldierExitLocation 0/2.2/-6.4 -180/0/0
-ObjectTemplate.GUIIndex 67
-
+ObjectTemplate.setSoldierExitLocation 0/2.2/-3 -180/0/0
 ObjectTemplate.setVehicleIcon "Vehicle/Icon_avturret.tga"
 ObjectTemplate.setVehicleIconPos 50/60
 ObjectTemplate.setNumberOfWeaponIcons 1
 ObjectTemplate.setPrimaryAmmoIcon "Ammo/Icon_artillery.tga"
-ObjectTemplate.setPrimaryAmmoBar ABAmmoBarReloadBar
+ObjectTemplate.setPrimaryAmmoBar ABIconOnly
 ObjectTemplate.setCrossHairType CHTIcon
-ObjectTemplate.setVehicleCategory VCLand
-ObjectTemplate.setVehicleType VTavturret
-ObjectTemplate.setToolTipType  TTavturret
-ObjectTemplate.setMinimapIcon "Minimap/minimap_icon_stationary_16x16.tga"
-ObjectTemplate.artPos 1
-ObjectTemplate.DirBarXScale 90
-ObjectTemplate.DirBarYScaleAbove 30
-ObjectTemplate.DirBarYScaleBelow 10
-ObjectTemplate.DirBarYScaleMin -100
-ObjectTemplate.DirBarYScaleMax -60
+ObjectTemplate.setVehicleCategory Land
+ObjectTemplate.setVehicleType AAGun
+ObjectTemplate.setMinimapIcon "Minimap/minimap_icon_avturret_16x16.dds"
 
 rem *** lodavturret ***
 ObjectTemplate.create LodObject lodAVTurret
@@ -83,20 +72,17 @@ ObjectTemplate.hasResponsePhysics 1
 ObjectTemplate.loadSoundScript Sounds/AVTurretRotate.ssc
 rem -------------------------------------
 ObjectTemplate.addTemplate AVTurretCamera
-ObjectTemplate.setPosition 0/3.48/0.1
-ObjectTemplate.setRotation 0/0/0
+ObjectTemplate.setPosition 0/3.48/0
 ObjectTemplate.addTemplate AVTurretGun
 ObjectTemplate.setposition 0/2.7/2.3
-ObjectTemplate.setRotation 0/0/0
 rem -------------------------------------
-ObjectTemplate.setMinRotation 0/-45/0
-ObjectTemplate.setMaxRotation 0/10/0
-ObjectTemplate.setMaxSpeed 110/110/0
 ObjectTemplate.setPivotPosition 0/0/0.48
-ObjectTemplate.setAcceleration 200/200/0
+ObjectTemplate.setMinRotation 0/-40/0
+ObjectTemplate.setMaxRotation 0/10/0
+ObjectTemplate.setMaxSpeed 100/100/0
+ObjectTemplate.setAcceleration 300/300/0
 ObjectTemplate.setInputToYaw c_PIMouseLookX
 ObjectTemplate.setInputToPitch c_PIMouseLookY
-
 
 rem *** avturretGunBase ***
 ObjectTemplate.create SimpleObject AVTurretGunBase
@@ -104,14 +90,12 @@ ObjectTemplate.geometry AVBase
 ObjectTemplate.setAttachToListener 1
 ObjectTemplate.hasCollisionPhysics 1
 
-
 rem *** avturretCamera ***
 ObjectTemplate.create Camera AVTurretCamera
 ObjectTemplate.setMaxSpeed 0/0/0
 ObjectTemplate.setAcceleration 0/0/0
 ObjectTemplate.setInputToYaw c_PIMouseLookX
 ObjectTemplate.setInputToPitch c_PIMouseLookY
-ObjectTemplate.CVMExternTrace 1
 
 rem *** avturretWreck ***
 ObjectTemplate.create SimpleObject AVTurretWreck

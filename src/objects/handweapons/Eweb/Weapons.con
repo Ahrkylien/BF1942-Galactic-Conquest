@@ -1,14 +1,13 @@
 ObjectTemplate.create FireArms ewebweaponfire
 ObjectTemplate.loadSoundScript Sounds/Eweb.ssc
 ObjectTemplate.aiTemplate mortarGun
-ObjectTemplate.itemIndex 4
-ObjectTemplate.networkableInfo HandFireArmsInfo
+ObjectTemplate.addTemplate e_MuzzThomp
+ObjectTemplate.networkableInfo eweb_firearmsInfo
 ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.hasResponsePhysics 1
 ObjectTemplate.hasCollisionEffect 0
 ObjectTemplate.projectileTemplate eweblaserprojectile
-ObjectTemplate.projectilePosition 0/1/1
-ObjectTemplate.magSize 1000
+ObjectTemplate.magSize 999
 ObjectTemplate.numOfMag 1
 ObjectTemplate.magType 0
 ObjectTemplate.reloadtime 4
@@ -17,39 +16,25 @@ ObjectTemplate.altFireOnce 1
 ObjectTemplate.hasArmor 1
 ObjectTemplate.hitpoints 100
 ObjectTemplate.maxhitpoints 100
-rem ObjectTemplate.AmmoType	2
 ObjectTemplate.autoReload 0
-ObjectTemplate.velocity 470
-
-
-ObjectTemplate.GUIIndex 12
-ObjectTemplate.setHudAmmoType ATIconAndStrengthBar
-ObjectTemplate.setAmmoIcon "Ammo/Icon_grenadeaxis_64x32.tga"
-ObjectTemplate.setCrossHairType CHTIcon
-
-
-
+ObjectTemplate.velocity 580
 
 rem *** eweblaserprojectile ***
 ObjectTemplate.create Projectile eweblaserprojectile
-ObjectTemplate.createNotInGrid 1
 ObjectTemplate.geometry Tlight_r2
-ObjectTemplate.timeToLive CRD_NONE/3/0/0
-ObjectTemplate.hasMobilePhysics 1
-ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.tracerScaler 50.0
+ObjectTemplate.timeToLive CRD_UNIFORM/1/1.8/0
 ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.gravityModifier 0.0
 ObjectTemplate.hasCollisionEffect 1
-ObjectTemplate.gravityModifier 0
-ObjectTemplate.stopAtEndEffect 1
 ObjectTemplate.hasOnTimeEffect 1
 ObjectTemplate.invisibleAtEndEffect 1
 ObjectTemplate.dieAfterColl 1
-ObjectTemplate.invisible 0
-ObjectTemplate.material 810
-ObjectTemplate.material2 810
-ObjectTemplate.damageType 1
-ObjectTemplate.radius 5
-ObjectTemplate.forceOnExplosion 45
 ObjectTemplate.stopAtEndEffect 1
-ObjectTemplate.dieAfterColl 1
-rem ObjectTemplate.explodeNearEnemyDistance 2.0
+ObjectTemplate.invisible 0
+ObjectTemplate.material 513
+ObjectTemplate.material2 513
+ObjectTemplate.radius 15
+ObjectTemplate.ForceOnExplosion 2
+ObjectTemplate.ProximityFusePrimer 0.05
+ObjectTemplate.explodeNearEnemyDistance 8

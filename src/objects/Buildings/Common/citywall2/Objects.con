@@ -1,0 +1,5 @@
+ObjectTemplate.create Bundle citywall2
+ObjectTemplate.geometry citywall2
+ObjectTemplate.setHasCollisionPhysics 1
+objectTemplate.aiTemplate citywall2
+

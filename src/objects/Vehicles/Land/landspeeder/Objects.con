@@ -1,21 +1,15 @@
-rem ******************************************************************************************
-rem ** Edited using BFEdit Freeware --- http://www.gamedev.co.nz
-rem ** Last saved date: 6/2/2003 3:12:25 AM
-rem ******************************************************************************************
 
-
-
-rem *** Willy ***
+rem *** landspeeder ***
 ObjectTemplate.create PlayerControlObject landspeeder
 ObjectTemplate.NameTagOffset -0.3/-0.2/0
-ObjectTemplate.setNetworkableInfo WillyBodyInfo
+ObjectTemplate.setNetworkableInfo LandspeederBodyInfo
 ObjectTemplate.saveInSeparateFile 1
 objectTemplate.cullRadiusScale 5
 ObjectTemplate.hasMobilePhysics 1
 ObjectTemplate.hasDynamicShadow 1
 ObjectTemplate.explosionRadius 8
 ObjectTemplate.explosionDamage 5
-ObjectTemplate.damageFromWater 0.1
+ObjectTemplate.damageFromWater 1
 ObjectTemplate.drag 0.49
 ObjectTemplate.dragOffset 0/-1/2
 ObjectTemplate.mass 3000
@@ -41,52 +35,49 @@ ObjectTemplate.addArmorEffect 0 e_scrapmetal_LandSpeeder 0/0/0
 ObjectTemplate.addArmorEffect -1 WaterWaterExplosion  0/0/0
 ObjectTemplate.aiTemplate Willy
 rem -------------------------------------
-ObjectTemplate.addTemplate lodWilly
+ObjectTemplate.addTemplate lodLandspeeder
 rem -------------------------------------
 ObjectTemplate.setSoldierExitLocation -1.5/0/-0.8 0/0/0
-ObjectTemplate.GUIIndex 26
 ObjectTemplate.setVehicleIcon "Vehicle/Icon_landspeeder.dds"
 ObjectTemplate.setVehicleIconPos 40/79
 ObjectTemplate.setPrimaryAmmoBar ABNone
 ObjectTemplate.setCrossHairType CHTNone
 ObjectTemplate.setVehicleCategory VCLand
 ObjectTemplate.setVehicleType  VTScoutCar
-ObjectTemplate.setToolTipType  TTScoutCar
-ObjectTemplate.setMinimapIcon "Minimap/minimap_icon_common_16x16.tga"
-ObjectTemplate.hasRestrictedExit 1
+ObjectTemplate.setMinimapIcon "Minimap/minimap_icon_landspeeder_16x16.dds"
 
-rem *** lodWilly ***
-ObjectTemplate.create LodObject lodWilly
+rem *** lodLandspeeder ***
+ObjectTemplate.create LodObject lodLandspeeder
 ObjectTemplate.hasMobilePhysics 1
 ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.hasResponsePhysics 1
 rem -------------------------------------
-ObjectTemplate.addTemplate WillyComplex
-ObjectTemplate.addTemplate WillySimple
-ObjectTemplate.addTemplate landspeederWreck
+ObjectTemplate.addTemplate LandspeederComplex
+ObjectTemplate.addTemplate LandspeederSimple
+ObjectTemplate.addTemplate LandspeederWreck
 rem -------------------------------------
-ObjectTemplate.lodSelector WillyLodSelector
+ObjectTemplate.lodSelector LandspeederLodSelector
 
 
-rem *** WillyComplex ***
-ObjectTemplate.create Bundle WillyComplex
+rem *** LandspeederComplex ***
+ObjectTemplate.create Bundle LandspeederComplex
 ObjectTemplate.hasMobilePhysics 1
 ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.hasResponsePhysics 1
 rem -------------------------------------
-ObjectTemplate.addTemplate lodWillyCockpit
+ObjectTemplate.addTemplate lodLandspeederCockpit
 rem ObjectTemplate.setPosition 0/0.6/-0.999
-ObjectTemplate.addTemplate WillyCamera
+ObjectTemplate.addTemplate LandspeederCamera
 ObjectTemplate.setPosition 0.38/1.25/-.3
-ObjectTemplate.addTemplate WillySeat
+ObjectTemplate.addTemplate LandspeederSeat
 ObjectTemplate.setPosition 0.399/.75/.35
-ObjectTemplate.addTemplate WillyEntry
+ObjectTemplate.addTemplate LandspeederEntry
 ObjectTemplate.setPosition 0/0/1
-ObjectTemplate.addTemplate WillyEntry
+ObjectTemplate.addTemplate LandspeederEntry
 ObjectTemplate.setPosition 0/0/-1
-ObjectTemplate.addTemplate WillyPassengerPCO
+ObjectTemplate.addTemplate LandspeederPassengerPCO
 ObjectTemplate.setPosition 0/0/0
-ObjectTemplate.addTemplate WillySteeringDummy
+ObjectTemplate.addTemplate LandspeederSteeringDummy
 ObjectTemplate.setPosition -0.399/0.35/0.15
 ObjectTemplate.setRotation 0/34/0
 ObjectTemplate.addTemplate landspeederLRudder
@@ -132,37 +123,37 @@ ObjectTemplate.setPosition 2/-0.5/4
 rem -------------------------------------
 
 
-rem *** lodWillyCockpit ***
-ObjectTemplate.create LodObject lodWillyCockpit
+rem *** lodLandspeederCockpit ***
+ObjectTemplate.create LodObject lodLandspeederCockpit
 rem -------------------------------------
-ObjectTemplate.addTemplate WillyCockpitExternal
+ObjectTemplate.addTemplate LandspeederCockpitExternal
 rem ObjectTemplate.setPosition 0/-0.95/1.25
-ObjectTemplate.addTemplate WillyCockpitInternal
+ObjectTemplate.addTemplate LandspeederCockpitInternal
 ObjectTemplate.setPosition 0/0.35/-0.25
 rem -------------------------------------
-ObjectTemplate.lodSelector WillyCockpitSelector1
+ObjectTemplate.lodSelector LandspeederCockpitSelector1
 
 
-rem *** WillyCockpitExternal ***
-ObjectTemplate.create SimpleObject WillyCockpitExternal
+rem *** LandspeederCockpitExternal ***
+ObjectTemplate.create SimpleObject LandspeederCockpitExternal
 ObjectTemplate.hasDynamicShadow 1
 ObjectTemplate.geometry landspeeder
 
 
-rem *** WillyCockpitInternal ***
-ObjectTemplate.create Bundle WillyCockpitInternal
+rem *** LandspeederCockpitInternal ***
+ObjectTemplate.create Bundle LandspeederCockpitInternal
 ObjectTemplate.geometry landspeeder
 
 
-rem *** WillyCockpitSelector ***
-LodSelectorTemplate.create DistCompareSelector WillyCockpitSelector1
-rem LodSelectorTemplate.create DistanceSelector WillyCockpitSelector
+rem *** LandspeederCockpitSelector ***
+LodSelectorTemplate.create DistCompareSelector LandspeederCockpitSelector1
+rem LodSelectorTemplate.create DistanceSelector LandspeederCockpitSelector
 LodSelectorTemplate.addLodDistance 3.05
 LodSelectorTemplate.addLodComparison 0.5
 
 
-rem *** WillyCamera ***
-ObjectTemplate.create Camera WillyCamera
+rem *** LandspeederCamera ***
+ObjectTemplate.create Camera LandspeederCamera
 ObjectTemplate.setMinRotation -110/-40/0
 ObjectTemplate.setMaxRotation 110/10/0
 ObjectTemplate.setPivotPosition 0/0.25/0.3
@@ -172,63 +163,58 @@ ObjectTemplate.setInputToYaw c_PIMouseLookX
 ObjectTemplate.setInputToPitch c_PIMouseLookY
 
 
-rem *** WillySeat ***
-ObjectTemplate.create SeatObject WillySeat
+rem *** LandspeederSeat ***
+ObjectTemplate.create SeatObject LandspeederSeat
 ObjectTemplate.seatFlags c_SeatShowFullBodySoldier
 ObjectTemplate.seatFlags c_SeatIsOutside
 
 
-rem *** WillyEntry ***
-ObjectTemplate.create EntryPoint WillyEntry
+rem *** LandspeederEntry ***
+ObjectTemplate.create EntryPoint LandspeederEntry
 ObjectTemplate.setEntryRadius 2.3
 
 
-rem *** WillyPassengerPCO ***
-ObjectTemplate.create PlayerControlObject WillyPassengerPCO
-ObjectTemplate.setNetworkableInfo WillyBodyInfo
+rem *** LandspeederPassengerPCO ***
+ObjectTemplate.create PlayerControlObject LandspeederPassengerPCO
+ObjectTemplate.setNetworkableInfo LandspeederBodyInfo
 ObjectTemplate.aiTemplate WillyPassenger
 rem -------------------------------------
 
-ObjectTemplate.addTemplate WillyEntry
+ObjectTemplate.addTemplate LandspeederEntry
 ObjectTemplate.setPosition 0/-0.35/1.25
-ObjectTemplate.addTemplate WillyEntry
+ObjectTemplate.addTemplate LandspeederEntry
 ObjectTemplate.setPosition 0/-0.35/-0.75
-ObjectTemplate.addTemplate WillyCamera
+ObjectTemplate.addTemplate LandspeederCamera
 ObjectTemplate.setPosition -0.32/.93/-.3
-ObjectTemplate.addTemplate WillyPassengerSeat
+ObjectTemplate.addTemplate LandspeederPassengerSeat
 ObjectTemplate.setPosition -0.399/.75/.35
 rem -------------------------------------
 ObjectTemplate.setSoldierExitLocation 1.5/0/-0.8 0/0/0
-rem ObjectTemplate.hasRestrictedExit 1
-rem ObjectTemplate.altSoldierExitPosition 5.5/0/0
-ObjectTemplate.GUIIndex 53
-ObjectTemplate.setVehicleIcon "Vehicle/Icon_willy.tga"
+ObjectTemplate.setVehicleIcon "Vehicle/Icon_landspeeder.dds"
 ObjectTemplate.setVehicleIconPos 21/84
 ObjectTemplate.setPrimaryAmmoBar ABNone
 ObjectTemplate.setCrossHairType CHTNone
 ObjectTemplate.setVehicleCategory VCLand
 ObjectTemplate.setVehicleType  VTScoutCar
-ObjectTemplate.setToolTipType  TTScoutCar
-ObjectTemplate.setMinimapIcon "Minimap/minimap_icon_common_16x16.tga"
-ObjectTemplate.hasRestrictedExit 1
+ObjectTemplate.setMinimapIcon "Minimap/minimap_icon_landspeeder_16x16.dds"
 
 
-rem *** WillyPassengerSeat ***
-ObjectTemplate.create SeatObject WillyPassengerSeat
+rem *** LandspeederPassengerSeat ***
+ObjectTemplate.create SeatObject LandspeederPassengerSeat
 ObjectTemplate.seatFlags c_SeatShowFullBodySoldier
 ObjectTemplate.seatFlags c_SeatIsOutside
 ObjectTemplate.seatAnimationUpperBody Ub_PassengerInWilly
 ObjectTemplate.seatAnimationLowerBody Lb_PassengerInWilly
 
 
-rem *** WillyFrontWheelR ***
-ObjectTemplate.create RotationalBundle WillyFrontWheelR
-ObjectTemplate.setNetworkableInfo WillySteeringInfo
+rem *** LandspeederFrontWheelR ***
+ObjectTemplate.create RotationalBundle LandspeederFrontWheelR
+ObjectTemplate.setNetworkableInfo LandspeederSteeringInfo
 ObjectTemplate.hasMobilePhysics 1
 ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.hasResponsePhysics 1
 rem -------------------------------------
-ObjectTemplate.addTemplate WillyFrontSpringR
+ObjectTemplate.addTemplate LandspeederFrontSpringR
 ObjectTemplate.setPosition 1/-0.599/0
 rem -------------------------------------
 ObjectTemplate.setMinRotation -50/0/0
@@ -239,14 +225,14 @@ ObjectTemplate.setInputToYaw c_PIYaw
 ObjectTemplate.setAutomaticReset 1
 
 
-rem *** WillyFrontWheelL ***
-ObjectTemplate.create RotationalBundle WillyFrontWheelL
-ObjectTemplate.setNetworkableInfo WillySteeringInfo
+rem *** LandspeederFrontWheelL ***
+ObjectTemplate.create RotationalBundle LandspeederFrontWheelL
+ObjectTemplate.setNetworkableInfo LandspeederSteeringInfo
 ObjectTemplate.hasMobilePhysics 1
 ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.hasResponsePhysics 1
 rem -------------------------------------
-ObjectTemplate.addTemplate WillyFrontSpringL
+ObjectTemplate.addTemplate LandspeederFrontSpringL
 ObjectTemplate.setPosition -1/-0.599/0
 rem -------------------------------------
 ObjectTemplate.setMinRotation -50/0/0
@@ -257,20 +243,20 @@ ObjectTemplate.setInputToYaw c_PIYaw
 ObjectTemplate.setAutomaticReset 1
 
 
-rem *** WillySteeringDummy ***
-ObjectTemplate.create AnimatedBundle WillySteeringDummy
+rem *** LandspeederSteeringDummy ***
+ObjectTemplate.create AnimatedBundle LandspeederSteeringDummy
 rem -------------------------------------
-ObjectTemplate.addTemplate WillySteering
+ObjectTemplate.addTemplate LandspeederSteering
 rem -------------------------------------
 ObjectTemplate.addSkeletonIK Bip01_R_Hand 1/0/1.8 -80/60/50
 ObjectTemplate.addSkeletonIK Bip01_L_Hand 1/0/1.8 -80/-60/50
 
 
-rem *** WillySteering ***
-ObjectTemplate.create RotationalBundle WillySteering
-ObjectTemplate.setNetworkableInfo WillySteeringInfo
+rem *** LandspeederSteering ***
+ObjectTemplate.create RotationalBundle LandspeederSteering
+ObjectTemplate.setNetworkableInfo LandspeederSteeringInfo
 rem -------------------------------------
-ObjectTemplate.addTemplate lodWillySteering
+ObjectTemplate.addTemplate lodLandspeederSteering
 rem -------------------------------------
 ObjectTemplate.setMinRotation 0/0/-60
 ObjectTemplate.setMaxRotation 0/0/60
@@ -280,40 +266,40 @@ ObjectTemplate.setInputToRoll c_PIYaw
 ObjectTemplate.setAutomaticReset 1
 
 
-rem *** lodWillySteering ***
-ObjectTemplate.create LodObject lodWillySteering
+rem *** lodLandspeederSteering ***
+ObjectTemplate.create LodObject lodLandspeederSteering
 rem -------------------------------------
-ObjectTemplate.addTemplate WillyHighRSteering
-ObjectTemplate.addTemplate WillyLowSteering
+ObjectTemplate.addTemplate LandspeederHighRSteering
+ObjectTemplate.addTemplate LandspeederLowSteering
 rem -------------------------------------
-ObjectTemplate.lodSelector WillySteeringSelector
+ObjectTemplate.lodSelector LandspeederSteeringSelector
 
 
-rem *** WillyHighRSteering ***
-ObjectTemplate.create SimpleObject WillyHighRSteering
+rem *** LandspeederHighRSteering ***
+ObjectTemplate.create SimpleObject LandspeederHighRSteering
 ObjectTemplate.geometry 1P_Willy_Str_M1
 
 
-rem *** WillyLowSteering ***
-ObjectTemplate.create SimpleObject WillyLowSteering
+rem *** LandspeederLowSteering ***
+ObjectTemplate.create SimpleObject LandspeederLowSteering
 ObjectTemplate.geometry Willy_Steering_M1
 
 
-LodSelectorTemplate.create DistanceSelector WillySteeringSelector
+LodSelectorTemplate.create DistanceSelector LandspeederSteeringSelector
 LodSelectorTemplate.addLodDistance 10
 
 
-rem *** WillySimple ***
-ObjectTemplate.create SimpleObject WillySimple
+rem *** LandspeederSimple ***
+ObjectTemplate.create SimpleObject LandspeederSimple
 ObjectTemplate.geometry Willy_Hull_L1
 
 
-rem *** WillyWreck ***
+rem *** LandspeederWreck ***
 ObjectTemplate.create SimpleObject landspeederwreck
 ObjectTemplate.geometry Wreck_landspeeder1_m1
 
 
-rem *** WillyLodSelector ***
-LodSelectorTemplate.create DistCompareSelector2 WillyLodSelector
+rem *** LandspeederLodSelector ***
+LodSelectorTemplate.create DistCompareSelector2 LandspeederLodSelector
 LodSelectorTemplate.hasDestroyedLod 1
 LodSelectorTemplate.addLodDistance 135

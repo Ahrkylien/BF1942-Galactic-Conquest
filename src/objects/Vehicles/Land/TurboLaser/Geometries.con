@@ -1,0 +1,41 @@
+renderer.beginGlobalCluster TurboLaser
+
+GeometryTemplate.create StandardMesh TurboLaserBase_m1
+GeometryTemplate.file turbo_base
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 10
+GeometryTemplate.setLodDistance 2 15
+GeometryTemplate.setLodDistance 3 30
+GeometryTemplate.setLodDistance 4 50
+GeometryTemplate.setLodDistance 5 100
+
+GeometryTemplate.create StandardMesh TurboLaserHead_m1
+GeometryTemplate.file turbo_head
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 10
+GeometryTemplate.setLodDistance 2 15
+GeometryTemplate.setLodDistance 3 30
+GeometryTemplate.setLodDistance 4 50
+GeometryTemplate.setLodDistance 5 100
+
+GeometryTemplate.create StandardMesh TurboLaserBarrel_m1
+GeometryTemplate.file turbo_barrel
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 10
+GeometryTemplate.setLodDistance 2 15
+GeometryTemplate.setLodDistance 3 30
+GeometryTemplate.setLodDistance 4 50
+
+GeometryTemplate.create StandardMesh DefGun_thing_M1
+GeometryTemplate.file DefGun_thing_M1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 10
+GeometryTemplate.setLodDistance 2 30
+GeometryTemplate.setLodDistance 3 60
+GeometryTemplate.setLodDistance 4 100
+GeometryTemplate.setLodDistance 5 200
+
+renderer.endGlobalCluster
+
+GeometryTemplate.create StandardMesh TurboLaserWreck
+GeometryTemplate.file Wreck_apturret_body

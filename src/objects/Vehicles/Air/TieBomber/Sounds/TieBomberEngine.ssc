@@ -6,7 +6,7 @@ newPatch
 ### Engine Start ###
 ####################
 load @ROOT/Sound/@RTD/tiebomber-engine-start.wav
-minDistance 5
+minDistance 10
 relativePosition 1.4/0/-2.9
 dopplerOff
 priority -2
@@ -15,8 +15,8 @@ beginEffect
 	controlDestination Volume
 	controlSource Distance
 	envelope Ramp
-	param 10
-	param 100
+	param 70
+	param 140
 	param 1
 	param -1	
 endEffect
@@ -67,8 +67,8 @@ beginEffect
 	controlDestination Volume
 	controlSource Distance
 	envelope Ramp
-	param 30
-	param 220
+	param 140
+	param 280
 	param 1
 	param -1	
 endEffect
@@ -141,8 +141,8 @@ beginEffect
 	controlDestination Volume
 	controlSource Distance
 	envelope Ramp
-	param 30
-	param 220
+	param 140
+	param 280
 	param 1
 	param -1	
 endEffect
@@ -205,8 +205,8 @@ beginEffect
 	controlDestination Volume
 	controlSource Distance
 	envelope Ramp
-	param 30
-	param 220
+	param 140
+	param 280
 	param 1
 	param -1	
 endEffect
@@ -281,8 +281,8 @@ beginEffect
 	controlDestination Volume
 	controlSource Distance
 	envelope Ramp
-	param 10
-	param 100
+	param 140
+	param 280
 	param 1
 	param -1	
 endEffect

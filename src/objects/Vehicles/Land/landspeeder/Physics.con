@@ -1,12 +1,8 @@
-rem ******************************************************************************************
-rem ** Edited using BFEdit Freeware --- http://www.gamedev.co.nz
-rem ** Last saved date: 6/2/2003 3:14:59 AM
-rem ******************************************************************************************
 
 rem *** landspeederengine ***
 ObjectTemplate.create Engine landspeederEngine
 ObjectTemplate.setNetworkableInfo landspeeder_engine_info
-ObjectTemplate.loadSoundScript Sounds/TieFighterEngine.ssc
+ObjectTemplate.loadSoundScript Sounds/LandspeederEngine.ssc
 ObjectTemplate.setMinRotation -0.3/0/-5000
 ObjectTemplate.setMaxRotation 0.3/0/5000
 ObjectTemplate.setMaxSpeed 3500/0/1500
@@ -24,7 +20,7 @@ ObjectTemplate.setNoPropellerEffectAtSpeed 190
 rem *** landspeederleftengine ***
 ObjectTemplate.create Engine landspeederleftEngine
 ObjectTemplate.setNetworkableInfo landspeeder_engine_info
-ObjectTemplate.loadSoundScript Sounds/TieFighterEngine.ssc
+rem ObjectTemplate.loadSoundScript Sounds/LandspeederEngine.ssc
 ObjectTemplate.setMinRotation -0.3/0/-5000
 ObjectTemplate.setMaxRotation 0.3/0/5000
 ObjectTemplate.setMaxSpeed 3500/0/1500
@@ -42,7 +38,7 @@ ObjectTemplate.setNoPropellerEffectAtSpeed 190
 rem *** landspeederrightengine ***
 ObjectTemplate.create Engine landspeederrightEngine
 ObjectTemplate.setNetworkableInfo landspeeder_engine_info
-ObjectTemplate.loadSoundScript Sounds/TieFighterEngine.ssc
+rem ObjectTemplate.loadSoundScript Sounds/LandspeederEngine.ssc
 ObjectTemplate.setMinRotation -0.3/0/-5000
 ObjectTemplate.setMaxRotation 0.3/0/5000
 ObjectTemplate.setMaxSpeed 3500/0/1500
@@ -132,7 +128,7 @@ ObjectTemplate.setFlapLift 2
 rem *** landspeederleftturnengine ***
 ObjectTemplate.create Engine landspeederLTurnEngine
 ObjectTemplate.setNetworkableInfo landspeeder_engine_info
-ObjectTemplate.loadSoundScript Sounds/TieFighterEngine.ssc
+rem ObjectTemplate.loadSoundScript Sounds/LandspeederEngine.ssc
 ObjectTemplate.setMinRotation -0.3/0/-5000
 ObjectTemplate.setMaxRotation 0.3/0/5000
 ObjectTemplate.setMaxSpeed 3500/0/1500
@@ -150,7 +146,7 @@ ObjectTemplate.setNoPropellerEffectAtSpeed 190
 rem *** landspeederrightturnengine ***
 ObjectTemplate.create Engine landspeederRTurnEngine
 ObjectTemplate.setNetworkableInfo landspeeder_engine_info
-ObjectTemplate.loadSoundScript Sounds/TieFighterEngine.ssc
+rem ObjectTemplate.loadSoundScript Sounds/LandspeederEngine.ssc
 ObjectTemplate.setMinRotation -0.3/0/-5000
 ObjectTemplate.setMaxRotation 0.3/0/5000
 ObjectTemplate.setMaxSpeed 3500/0/1500
@@ -171,7 +167,7 @@ ObjectTemplate.setNoPropellerEffectAtSpeed 190
 rem *** landspeederleftturnengine ***
 ObjectTemplate.create Engine landspeederRGravEngine
 ObjectTemplate.setNetworkableInfo landspeeder_engine_info
-ObjectTemplate.loadSoundScript Sounds/TieFighterEngine.ssc
+rem ObjectTemplate.loadSoundScript Sounds/LandspeederEngine.ssc
 ObjectTemplate.setMinRotation -0.3/0/0
 ObjectTemplate.setMaxRotation 0.3/0/5000
 ObjectTemplate.setMaxSpeed 3500/0/1500
@@ -189,7 +185,7 @@ ObjectTemplate.setNoPropellerEffectAtSpeed 190
 rem *** landspeederrightturnengine ***
 ObjectTemplate.create Engine landspeederLGravEngine
 ObjectTemplate.setNetworkableInfo landspeeder_engine_info
-ObjectTemplate.loadSoundScript Sounds/TieFighterEngine.ssc
+rem ObjectTemplate.loadSoundScript Sounds/LandspeederEngine.ssc
 ObjectTemplate.setMinRotation -0.3/0/0
 ObjectTemplate.setMaxRotation 0.3/0/5000
 ObjectTemplate.setMaxSpeed 3500/0/1500

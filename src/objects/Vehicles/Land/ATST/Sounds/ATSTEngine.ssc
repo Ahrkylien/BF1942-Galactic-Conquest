@@ -11,7 +11,7 @@ beginEffect
 	controlDestination Volume
 	controlSource Distance
 	envelope Ramp
-	param 10
+	param 50
 	param 100
 	param 1
 	param -1	
@@ -50,7 +50,7 @@ beginEffect
 	controlDestination Volume
 	controlSource Distance
 	envelope Ramp
-	param 10
+	param 50
 	param 100
 	param 1
 	param -1	
@@ -114,7 +114,7 @@ beginEffect
 	controlDestination Volume
 	controlSource Distance
 	envelope Ramp
-	param 20
+	param 100
 	param 200
 	param 1
 	param -1	
@@ -144,7 +144,7 @@ beginEffect
 	controlDestination Volume
 	controlSource Distance
 	envelope Ramp
-	param 10
+	param 50
 	param 100
 	param 1
 	param -1	

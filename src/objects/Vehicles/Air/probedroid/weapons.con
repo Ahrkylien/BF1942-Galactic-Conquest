@@ -7,12 +7,11 @@ rem ObjectTemplate.visibleBarrelTemplate e_muzzProbeDroidLaser
 rem -------------------------------------
 ObjectTemplate.projectileTemplate probedroidGunProjectile
 ObjectTemplate.projectilePosition 0/0/0
-ObjectTemplate.magSize 999
+ObjectTemplate.magSize -1
 ObjectTemplate.numOfMag 1
-ObjectTemplate.velocity 200
+ObjectTemplate.velocity 350
 ObjectTemplate.reloadtime 0.0001
 ObjectTemplate.roundOfFire 3
-rem ObjectTemplate.fireInCameraDof 1
 ObjectTemplate.addFireArmsPosition 0/0/0 0/0/0
 
 rem *** probedroidGunProjectile ***

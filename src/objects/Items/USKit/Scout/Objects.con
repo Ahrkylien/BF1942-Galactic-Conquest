@@ -11,7 +11,7 @@ ObjectTemplate.addTemplate US_Hip_Pack
 ObjectTemplate.setHealthBarIcon "Ingame/reb_Healthbar_empty_scout_64x64.tga"
 ObjectTemplate.setHealthBarFullIcon "Ingame/reb_Healthbar_full_scout_64x64.tga"
 ObjectTemplate.addWeaponIcon "Weapon/icon_alliesknife.dds"
-ObjectTemplate.addWeaponIcon "Weapon/icon_dl44.dds"
+ObjectTemplate.addWeaponIcon "Weapon/icon_kylan.dds"
 ObjectTemplate.addWeaponIcon "Weapon/icon_dressilian.dds"
 ObjectTemplate.addWeaponIcon "Weapon/icon_fragnade.dds"
 ObjectTemplate.addWeaponIcon "Weapon/icon_binoculars.dds"

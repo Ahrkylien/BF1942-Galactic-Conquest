@@ -2,7 +2,7 @@ ObjectTemplate.create HandFireArms DH17
 ObjectTemplate.itemIndex 2
 ObjectTemplate.networkableInfo HandFireArmsInfo
 ObjectTemplate.projectileTemplate Dh17Projectile
-ObjectTemplate.projectilePosition 0/0/0
+ObjectTemplate.projectilePosition 0/0.068/0
 ObjectTemplate.hasDynamicShadow 1
 ObjectTemplate.magSize 75
 ObjectTemplate.unZoomBetweenFireTime 0
@@ -29,7 +29,7 @@ rem objectTemplate.UseScope 1
 
 Rem *** Deviation Begin *****
 
-ObjectTemplate.velocity 180
+ObjectTemplate.velocity 340
 ObjectTemplate.setRecoilForceUp CRD_UNIFORM/0.5/0.6/0
 ObjectTemplate.setRecoilForceLeftRight CRD_UNIFORM/-0.3/-0.3/0
 ObjectTemplate.setHasRecoilForce 1
@@ -58,7 +58,7 @@ ObjectTemplate.addTemplate DH17Lod
 ObjectTemplate.addTemplate e_MuzzSG44
 ObjectTemplate.setInputId -1
 ObjectTemplate.startoneffects 0
-ObjectTemplate.setPosition 0/0.06/0.675
+ObjectTemplate.setPosition 0/0.068/0.223
 ObjectTemplate.setRotation 0/0/0
 
 rem *** simple-Objects ***

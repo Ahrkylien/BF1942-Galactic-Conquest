@@ -81,14 +81,13 @@ ObjectTemplate.hasArmor 1
 ObjectTemplate.hitPoints 9999
 ObjectTemplate.maxHitPoints 9999
 ObjectTemplate.explosionDamage 0
-rem *** MattiasH doesn't permit random time on projectiles. ask him about this.
 ObjectTemplate.timeToLive CRD_NONE/3/0/0
 ObjectTemplate.dieAfterColl 0
-ObjectTemplate.radius 15.0
+ObjectTemplate.radius 20
 ObjectTemplate.hasOnTimeEffect 1
 ObjectTemplate.material 70
 ObjectTemplate.material2 205
-ObjectTemplate.useMMOnEndEffect 1
+ObjectTemplate.useMMOnEndEffect 0
 ObjectTemplate.damageType 1
-ObjectTemplate.endEffectTemplate e_ExplGranade
+ObjectTemplate.endEffectTemplate e_ExplCryoban
 ObjectTemplate.noFFSound 1

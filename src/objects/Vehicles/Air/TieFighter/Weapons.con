@@ -11,7 +11,7 @@ ObjectTemplate.projectileTemplate TieFighterProjectile
 ObjectTemplate.projectilePosition 0/-0.2/2
 ObjectTemplate.magSize 10000
 ObjectTemplate.numOfMag 1
-ObjectTemplate.velocity 650
+ObjectTemplate.velocity 600
 ObjectTemplate.reloadtime 0.1
 ObjectTemplate.roundOfFire 4.8
 ObjectTemplate.addFireArmsPosition -0.3/-1.2/1.1 0/0/0

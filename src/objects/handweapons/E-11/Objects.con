@@ -2,7 +2,7 @@ ObjectTemplate.create HandFireArms E-11
 ObjectTemplate.itemIndex 3
 ObjectTemplate.networkableInfo HandFireArmsInfo
 ObjectTemplate.projectileTemplate E-11Projectile
-ObjectTemplate.projectilePosition 0/0/0
+ObjectTemplate.projectilePosition 0/0.051/0
 ObjectTemplate.hasDynamicShadow 1
 ObjectTemplate.unZoomBetweenFireTime 0
 ObjectTemplate.useScope 1
@@ -32,7 +32,7 @@ ObjectTemplate.AmmoType	1
 rem ObjectTemplate.autoReload 1
 Rem *** Deviation Begin *****
 
-ObjectTemplate.velocity 250
+ObjectTemplate.velocity 370
 ObjectTemplate.setRecoilForceUp CRD_UNIFORM/0.6/0.5/0
 ObjectTemplate.setRecoilForceLeftRight CRD_UNIFORM/-0.4/0.4/0
 ObjectTemplate.setHasRecoilForce 1
@@ -40,7 +40,7 @@ ObjectTemplate.setGoBackOnRecoil 1
 
 ObjectTemplate.setFireDev 4.0 2.0 1.0
 ObjectTemplate.setDevMod 0.4 0.2 0.0
-ObjectTemplate.setMinDev 0.0
+ObjectTemplate.setMinDev 0.2
 ObjectTemplate.setTurnDev 1.0 0.2 0.2 0.1
 ObjectTemplate.setSpeedDev 1.0 0.2 0.2 0.1
 ObjectTemplate.setMiscDev 10.0 10.0 1.0
@@ -57,7 +57,7 @@ ObjectTemplate.addTemplate E-11Lod
 ObjectTemplate.addTemplate e_MuzzThomp
 ObjectTemplate.setInputId -1
 ObjectTemplate.startoneffects 0
-ObjectTemplate.setPosition 0/0.058/0.3
+ObjectTemplate.setPosition 0/0.051/0.229
 ObjectTemplate.setRotation 0/0/0
 
 

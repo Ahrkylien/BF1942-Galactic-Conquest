@@ -23,9 +23,9 @@ ObjectTemplate.hpLostWhileCriticalDamage 1.5
 ObjectTemplate.explosionForceMod 15
 ObjectTemplate.hpLostWhileUpSideDown 10
 ObjectTemplate.hpLostWhileDamageFromWater 10
-ObjectTemplate.addArmorEffect 35 em_CorsairDamage 0/0.103/2.11
-ObjectTemplate.addArmorEffect 35 em_PlaneDamage 0/0.103/2.61
-ObjectTemplate.addArmorEffect 20 e_CorsairFire 0/1/3
+ObjectTemplate.addArmorEffect 35 em_TieFighterDamage 0/0/0
+ObjectTemplate.addArmorEffect 35 em_PlaneDamage 0/0/0
+ObjectTemplate.addArmorEffect 15 e_TieFighterFire 0/0/0
 ObjectTemplate.addArmorEffect 0 e_ExplGas 0/0/0
 ObjectTemplate.addArmorEffect 0 e_ScrapMetal_TieFighter 0/0/0
 ObjectTemplate.addArmorEffect -1 WaterWaterExplosion 0/0/0
@@ -35,16 +35,14 @@ rem -------------------------------------
 ObjectTemplate.addTemplate lodtiefighter
 rem -------------------------------------
 ObjectTemplate.setSoldierExitLocation -1.5/-4/0 0/0/0
-ObjectTemplate.GUIIndex 27
 ObjectTemplate.setVehicleIcon "Vehicle/Icon_tiefighter.dds"
 ObjectTemplate.setVehicleIconPos 68/48
 ObjectTemplate.setNumberOfWeaponIcons 1
 ObjectTemplate.setPrimaryAmmoIcon "Ammo/icon_greenlaser_64x64.dds"
-ObjectTemplate.setPrimaryAmmoBar ABAmmoBarHeatBar
+ObjectTemplate.setPrimaryAmmoBar ABHeatBarOnly
 ObjectTemplate.setCrossHairType CHTIcon
 ObjectTemplate.setVehicleCategory VCAir
 ObjectTemplate.setVehicleType  VTFighter
-ObjectTemplate.setToolTipType  TTFighter
 ObjectTemplate.setMinimapIcon "Minimap/minimap_icon_tief_16x16.tga"
 
 rem *** lodtiefighter ***
@@ -185,7 +183,6 @@ LodSelectorTemplate.addLodDistance 200
 
 rem *** tiefighterLandingGearFL ***
 ObjectTemplate.create LandingGear tiefighterLandingGearFL
-ObjectTemplate.loadSoundScript ../Common/Sounds/LandingGear.ssc
 ObjectTemplate.geometry spitfire_gear_left_m1
 ObjectTemplate.hasMobilePhysics 1
 ObjectTemplate.hasCollisionPhysics 1
@@ -204,7 +201,6 @@ ObjectTemplate.setGearUpEngineInput 0.8
 
 rem *** tiefighterLandingGearFR ***
 ObjectTemplate.create LandingGear tiefighterLandingGearFR
-ObjectTemplate.loadSoundScript ../Common/Sounds/LandingGear.ssc
 ObjectTemplate.geometry spitfire_gear_right_m1
 ObjectTemplate.hasMobilePhysics 1
 ObjectTemplate.hasCollisionPhysics 1
@@ -238,7 +234,6 @@ ObjectTemplate.setAutomaticReset 1
 
 rem *** tiefighterLandingGearRL ***
 ObjectTemplate.create LandingGear tiefighterLandGearRear
-ObjectTemplate.loadSoundScript ../Common/Sounds/LandingGear.ssc
 ObjectTemplate.geometry spitfire_gear_left_m1
 ObjectTemplate.hasMobilePhysics 1
 ObjectTemplate.hasCollisionPhysics 1

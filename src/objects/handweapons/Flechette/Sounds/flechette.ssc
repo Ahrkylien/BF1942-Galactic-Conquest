@@ -68,8 +68,8 @@ beginEffect
 	controlDestination Volume
 	controlSource Time
 	envelope Ramp
-	param 0.65
-	param 0.65
+	param 0.1
+	param 0.1
 	param 0
 	param 1	
 endEffect
@@ -95,8 +95,8 @@ beginEffect
 	controlDestination Volume
 	controlSource Time
 	envelope Ramp
-	param 1.1
-	param 1.1
+	param 0.2
+	param 0.2
 	param 0
 	param 1	
 endEffect
@@ -121,8 +121,8 @@ beginEffect
 	controlDestination Volume
 	controlSource Time
 	envelope Ramp
-	param 2.2
-	param 2.2
+	param 0.5
+	param 0.5
 	param 0
 	param 1	
 endEffect
@@ -147,8 +147,8 @@ beginEffect
 	controlDestination Volume
 	controlSource Time
 	envelope Ramp
-	param 2.3
-	param 2.3
+	param 0.6
+	param 0.6
 	param 0
 	param 1	
 endEffect
@@ -173,8 +173,8 @@ beginEffect
 	controlDestination Volume
 	controlSource Time
 	envelope Ramp
-	param 3.2
-	param 3.2
+	param 0.9
+	param 0.9
 	param 0
 	param 1	
 endEffect
@@ -199,8 +199,8 @@ beginEffect
 	controlDestination Volume
 	controlSource Time
 	envelope Ramp
-	param 3.6
-	param 3.6
+	param 1
+	param 1
 	param 0
 	param 1	
 endEffect
@@ -225,8 +225,8 @@ beginEffect
 	controlDestination Volume
 	controlSource Time
 	envelope Ramp
-	param 3.0
-	param 3.0
+	param 0.8
+	param 0.8
 	param 0
 	param 1	
 endEffect
@@ -251,8 +251,8 @@ beginEffect
 	controlDestination Volume
 	controlSource Time
 	envelope Ramp
-	param 3.4
-	param 3.4
+	param 0.9
+	param 0.9
 	param 0
 	param 1	
 endEffect
@@ -278,180 +278,11 @@ beginEffect
 	controlDestination Volume
 	controlSource Time
 	envelope Ramp
-	param 3.8
-	param 3.8
+	param 1
+	param 1
 	param 0
 	param 1	
 endEffect
 trigger Volume
 
-###############################
-
-load @ROOT/Sound/@RTD/SoFa4.wav
-dopplerOff
-priority 0
-minDistance 1
-randomStartPitch 0.03 / 0.0
-volume .2
-*** Time Volume ***
-beginEffect
-	controlDestination Volume
-	controlSource Time
-	envelope Ramp
-	param 0.4
-	param 0.4
-	param 0
-	param 1	
-endEffect
-trigger Volume
-*** Distance Volume ***
-beginEffect
-	controlDestination Volume
-	controlSource Distance
-	envelope Ramp
-	param 1
-	param 1
-	param 1
-	param -1
-endEffect
-
-load @ROOT/Sound/@RTD/SoFa1.wav
-dopplerOff
-priority 0
-minDistance 1
-randomStartPitch 0.03 / 0.0
-volume .2
-*** Time Volume ***
-beginEffect
-	controlDestination Volume
-	controlSource Time
-	envelope Ramp
-	param 0.65
-	param 0.65
-	param 0
-	param 1	
-endEffect
-trigger Volume
-*** Distance Volume ***
-beginEffect
-	controlDestination Volume
-	controlSource Distance
-	envelope Ramp
-	param 1
-	param 1
-	param 1
-	param -1
-endEffect
-
-load @ROOT/Sound/@RTD/SoFa2.wav
-dopplerOff
-priority 0
-minDistance 1
-randomStartPitch 0.03 / 0.0
-volume .2
-*** Time Volume ***
-beginEffect
-	controlDestination Volume
-	controlSource Time
-	envelope Ramp
-	param 1.6
-	param 1.6
-	param 0
-	param 1	
-endEffect
-trigger Volume
-*** Distance Volume ***
-beginEffect
-	controlDestination Volume
-	controlSource Distance
-	envelope Ramp
-	param 1
-	param 1
-	param 1
-	param -1
-endEffect
-
-load @ROOT/Sound/@RTD/SoFa4.wav
-dopplerOff
-priority 0
-minDistance 1
-randomStartPitch 0.03 / 0.0
-volume .2
-*** Time Volume ***
-beginEffect
-	controlDestination Volume
-	controlSource Time
-	envelope Ramp
-	param 2.3
-	param 2.3
-	param 0
-	param 1	
-endEffect
-trigger Volume
-*** Distance Volume ***
-beginEffect
-	controlDestination Volume
-	controlSource Distance
-	envelope Ramp
-	param 1
-	param 1
-	param 1
-	param -1
-endEffect
-
-load @ROOT/Sound/@RTD/SoFa3.wav
-dopplerOff
-priority 0
-minDistance 1
-randomStartPitch 0.03 / 0.0
-volume .2
-*** Time Volume ***
-beginEffect
-	controlDestination Volume
-	controlSource Time
-	envelope Ramp
-	param 3.3
-	param 3.3
-	param 0
-	param 1	
-endEffect
-trigger Volume
-*** Distance Volume ***
-beginEffect
-	controlDestination Volume
-	controlSource Distance
-	envelope Ramp
-	param 1
-	param 1
-	param 1
-	param -1
-endEffect
-
-load @ROOT/Sound/@RTD/SoFa3.wav
-dopplerOff
-priority 0
-minDistance 1
-randomStartPitch 0.05 / 0.0
-volume .4
-*** Time Volume ***
-beginEffect
-	controlDestination Volume
-	controlSource Time
-	envelope Ramp
-	param 4.3
-	param 4.3
-	param 0
-	param 1	
-endEffect
-trigger Volume
-*** Distance Volume ***
-beginEffect
-	controlDestination Volume
-	controlSource Distance
-	envelope Ramp
-	param 1
-	param 1
-	param 1
-	param -1
-endEffect
 

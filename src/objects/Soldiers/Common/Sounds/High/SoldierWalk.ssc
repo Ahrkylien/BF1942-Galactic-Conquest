@@ -436,7 +436,7 @@ randomPlay 1
 ##############
 newPatch
 
-load @ROOT/Sound/@RTD/SOWAICE1.wav
+load @ROOT/Sound/@RTD/footstep-snow1.wav
 randomStartPitch 0.03 / 0.03
 dopplerOff
 priority 1
@@ -453,7 +453,7 @@ beginEffect
 	param -1	
 endEffect
 
-load @ROOT/Sound/@RTD/SOWAICE2.wav
+load @ROOT/Sound/@RTD/footstep-snow2.wav
 dopplerOff
 priority 1
 randomStartPitch 0.03 / 0.03
@@ -470,7 +470,7 @@ beginEffect
 	param -1	
 endEffect
 
-load @ROOT/Sound/@RTD/SOWAICE3.wav
+load @ROOT/Sound/@RTD/footstep-snow3.wav
 dopplerOff
 priority 1
 randomStartPitch 0.03 / 0.03
@@ -487,7 +487,75 @@ beginEffect
 	param -1	
 endEffect
 
-load @ROOT/Sound/@RTD/SOWAICE4.wav
+load @ROOT/Sound/@RTD/footstep-snow4.wav
+dopplerOff
+priority 1
+randomStartPitch 0.03 / 0.03
+minDistance 1
+volume .5
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 3
+	param 10
+	param 1
+	param -1	
+endEffect
+
+load @ROOT/Sound/@RTD/footstep-snow5.wav
+dopplerOff
+priority 1
+randomStartPitch 0.03 / 0.03
+minDistance 1
+volume .5
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 3
+	param 10
+	param 1
+	param -1	
+endEffect
+
+load @ROOT/Sound/@RTD/footstep-snow6.wav
+dopplerOff
+priority 1
+randomStartPitch 0.03 / 0.03
+minDistance 1
+volume .5
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 3
+	param 10
+	param 1
+	param -1	
+endEffect
+
+load @ROOT/Sound/@RTD/footstep-snow7.wav
+dopplerOff
+priority 1
+randomStartPitch 0.03 / 0.03
+minDistance 1
+volume .5
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 3
+	param 10
+	param 1
+	param -1	
+endEffect
+
+load @ROOT/Sound/@RTD/footstep-snow8.wav
 dopplerOff
 priority 1
 randomStartPitch 0.03 / 0.03

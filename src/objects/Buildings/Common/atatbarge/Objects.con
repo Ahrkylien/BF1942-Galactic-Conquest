@@ -1,6 +1,7 @@
 ObjectTemplate.create Bundle atatbarge
 ObjectTemplate.geometry atatbarge
 ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.material 60
 
 ObjectTemplate.addTemplate ladder_20m_m1
 ObjectTemplate.setPosition 0.8/13.7964/13.8672

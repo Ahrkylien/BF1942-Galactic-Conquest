@@ -1,5 +1,5 @@
 GeometryTemplate.create StandardMesh protontorpedo
-GeometryTemplate.file Weapons\protontorpedo\protontorpedo
+GeometryTemplate.file protontorpedo
 GeometryTemplate.setLodDistance 0 0
 GeometryTemplate.setLodDistance 1 25
 GeometryTemplate.setLodDistance 2 50

@@ -30,22 +30,41 @@ GeometryTemplate.setLodDistance 3 400
 GeometryTemplate.setLodDistance 4 500
 GeometryTemplate.setLodDistance 5 900
 
+GeometryTemplate.create StandardMesh spitfire_gear_left_m1
+GeometryTemplate.file spitfire_gear_left_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 30
+GeometryTemplate.setLodDistance 2 50
+GeometryTemplate.setLodDistance 3 80
+GeometryTemplate.setLodDistance 4 90
+GeometryTemplate.setLodDistance 5 100
+
+GeometryTemplate.create StandardMesh spitfire_gear_right_m1
+GeometryTemplate.file spitfire_gear_right_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 30
+GeometryTemplate.setLodDistance 2 50
+GeometryTemplate.setLodDistance 3 80
+GeometryTemplate.setLodDistance 4 90
+GeometryTemplate.setLodDistance 5 100
+
+
 GeometryTemplate.create StandardMesh AWing_Wheel_Front
-GeometryTemplate.file \AWing\AWing_Wheel
+GeometryTemplate.file AWing_Wheel
 GeometryTemplate.setLodDistance 0 0
 GeometryTemplate.setLodDistance 1 20
 GeometryTemplate.setLodDistance 2 60
 GeometryTemplate.setLodDistance 3 100
 
 GeometryTemplate.create StandardMesh AWing_Wheel_BR
-GeometryTemplate.file \AWing\AWing_Wheel
+GeometryTemplate.file AWing_Wheel
 GeometryTemplate.setLodDistance 0 0
 GeometryTemplate.setLodDistance 1 20
 GeometryTemplate.setLodDistance 2 60
 GeometryTemplate.setLodDistance 3 100
 
 GeometryTemplate.create StandardMesh AWing_Wheel_BL
-GeometryTemplate.file \AWing\AWing_Wheel
+GeometryTemplate.file AWing_Wheel
 GeometryTemplate.setLodDistance 0 0
 GeometryTemplate.setLodDistance 1 20
 GeometryTemplate.setLodDistance 2 60
@@ -55,7 +74,7 @@ renderer.endGlobalCluster
 
 
 GeometryTemplate.create StandardMesh Wreck_xwing
-GeometryTemplate.file Wreck_TieFighter1_m1
+GeometryTemplate.file xwing_fus
 GeometryTemplate.hasDynamicShadow 1
 GeometryTemplate.setLodDistance 0 0
 GeometryTemplate.setLodDistance 1 150
@@ -65,7 +84,7 @@ GeometryTemplate.setLodDistance 4 300
 GeometryTemplate.setLodDistance 5 500
 
 GeometryTemplate.create StandardMesh xwing_Low
-GeometryTemplate.file TieFighter_Low
+GeometryTemplate.file xwing_fus
 GeometryTemplate.hasDynamicShadow 1
 GeometryTemplate.setLodDistance 0 0
 GeometryTemplate.setLodDistance 1 150
