@@ -14,7 +14,7 @@ ObjectTemplate.mass 25000
 ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.hasResponsePhysics 1
 ObjectTemplate.hasArmor 1
-ObjectTemplate.speedMod 0.75
+ObjectTemplate.speedMod 0.1
 ObjectTemplate.exitTimer 1
 ObjectTemplate.hitpoints 150
 ObjectTemplate.maxhitpoints 150
@@ -359,7 +359,7 @@ ObjectTemplate.mass 25000
 ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.hasResponsePhysics 1
 ObjectTemplate.hasArmor 1
-ObjectTemplate.speedMod 0.75
+ObjectTemplate.speedMod 0.4
 ObjectTemplate.exitTimer 1
 ObjectTemplate.hitpoints 110
 ObjectTemplate.maxhitpoints 110

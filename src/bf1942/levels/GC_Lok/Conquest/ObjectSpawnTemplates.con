@@ -1,5 +1,5 @@
 rem ObjectSpawnTemplates.con created by Battlecraft 1942
-rem (\Program Files\Battlefield 1942\Mods\GCMOD\bf1942\levels\GC_Lok/conquest/ObjectSpawnTemplates.con)
+rem (\Program Files\Battlefield 1942\Mods\GCMOD\bf1942\levels\GC_Loka/conquest/ObjectSpawnTemplates.con)
 
 rem ----------------------------------------- 
 rem ---  Epsilon_Spawner  ---
@@ -36,7 +36,7 @@ rem ---  ATST_Spawner  ---
 rem ----------------------------------------- 
 ObjectTemplate.create ObjectSpawner ATST_Spawner
 ObjectTemplate.setObjectTemplate 1 atst-v
-ObjectTemplate.setObjectTemplate 2 landspeedereweb
+ObjectTemplate.setObjectTemplate 2 gain-135
 ObjectTemplate.MinSpawnDelay 40
 ObjectTemplate.MaxSpawnDelay 70
 ObjectTemplate.SpawnDelayAtStart 0
@@ -204,6 +204,36 @@ ObjectTemplate.setObjectTemplate 1 firehawke
 ObjectTemplate.setObjectTemplate 2 t-3b
 ObjectTemplate.MinSpawnDelay 40
 ObjectTemplate.MaxSpawnDelay 70
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.maxNrOfObjectSpawned 1
+ObjectTemplate.teamOnVehicle 0
+
+rem ----------------------------------------- 
+rem ---  Heavy_Weapons  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner Heavy_Weapons
+ObjectTemplate.setObjectTemplate 1 tl-21_kit
+ObjectTemplate.setObjectTemplate 2 rebel_tracker
+ObjectTemplate.MinSpawnDelay 10
+ObjectTemplate.MaxSpawnDelay 20
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.maxNrOfObjectSpawned 1
+ObjectTemplate.teamOnVehicle 0
+
+rem ----------------------------------------- 
+rem ---  Eweb  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner Eweb
+ObjectTemplate.setObjectTemplate 1 eweb
+ObjectTemplate.setObjectTemplate 2 eweb
+ObjectTemplate.MinSpawnDelay 45
+ObjectTemplate.MaxSpawnDelay 60
 ObjectTemplate.SpawnDelayAtStart 0
 ObjectTemplate.TimeToLive 45
 ObjectTemplate.Distance 40

@@ -1,0 +1,21 @@
+
+
+rem *** Island ***
+ObjectTemplate.create AreaObject Island
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript Island.ssc
+ObjectTemplate.triggerRadius 200
+ObjectTemplate.addLinePoint 0/0
+ObjectTemplate.addLinePoint -74/38
+ObjectTemplate.addLinePoint -99/60
+ObjectTemplate.addLinePoint -102/97
+ObjectTemplate.addLinePoint -169/156
+ObjectTemplate.addLinePoint -143/179
+ObjectTemplate.addLinePoint -105/190
+ObjectTemplate.addLinePoint 33/210
+ObjectTemplate.addLinePoint 59/194
+ObjectTemplate.addLinePoint 89/141
+ObjectTemplate.addLinePoint 61/107
+ObjectTemplate.addLinePoint 81/75
+ObjectTemplate.addLinePoint 77/42
+

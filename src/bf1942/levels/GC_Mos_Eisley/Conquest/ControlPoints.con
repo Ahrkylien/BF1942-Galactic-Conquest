@@ -1,0 +1,30 @@
+rem
+rem ***  ***
+rem
+Object.create northwest
+Object.absolutePosition 384/17.2183/640
+rem
+rem ***  ***
+rem
+Object.create southwest
+Object.absolutePosition 384/0/384
+rem
+rem ***  ***
+rem
+Object.create centralcp
+Object.absolutePosition 512.942/21.6004/510.185
+rem
+rem ***  ***
+rem
+Object.create southeast
+Object.absolutePosition 640/2.19533/384
+rem
+rem ***  ***
+rem
+Object.create northeast
+Object.absolutePosition 641.501/13.0479/662.526
+rem
+rem ***  ***
+rem
+Object.create centralcp2
+Object.absolutePosition 511.976/55.6691/435.789

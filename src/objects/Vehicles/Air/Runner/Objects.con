@@ -17,23 +17,50 @@ ObjectTemplate.speedMod .1
 ObjectTemplate.hitpoints 1300
 ObjectTemplate.maxhitpoints 1300
 ObjectTemplate.material 821
-ObjectTemplate.criticalDamage 120
+ObjectTemplate.criticalDamage 80
 ObjectTemplate.hpLostWhileCriticalDamage 12
 ObjectTemplate.explosionForceMod 10
+ObjectTemplate.fadeAtTimeToLiveAfterDeath 0.01
 ObjectTemplate.addArmorEffect 240 em_ExFumePOW 0/17/-9
 ObjectTemplate.addArmorEffect 240 em_FletcherDamage 0/0/0
 ObjectTemplate.addArmorEffect 240 em_FletcherDamage 0/0/20
 ObjectTemplate.addArmorEffect 240 em_FletcherDamage 0/0/-30
-ObjectTemplate.addArmorEffect 240 e_alarm1 0/5/60
-ObjectTemplate.addArmorEffect 240 e_alarm1 0/5/-20
+ObjectTemplate.addArmorEffect 540 e_alarm1 0/5/60
+ObjectTemplate.addArmorEffect 540 e_alarm1 0/5/-20
 ObjectTemplate.addArmorEffect 120 em_FletcherDamage 0/0/0
 ObjectTemplate.addArmorEffect 120 em_FletcherDamage 0/0/20
 ObjectTemplate.addArmorEffect 120 em_FletcherDamage 0/0/-30
-ObjectTemplate.addArmorEffect 120 e_alarm1 0/5/60
-ObjectTemplate.addArmorEffect 120 e_alarm1 0/5/-20
-ObjectTemplate.addArmorEffect 120 e_waterBoatSinkEf 0/-2/-5
-ObjectTemplate.addArmorEffect 120 e_waterBoatSinkEf 0/-2/25
-ObjectTemplate.addArmorEffect 120 e_waterBoatSinkEf 0/-2/-35
+ObjectTemplate.addArmorEffect 320 e_alarm1 0/5/60
+ObjectTemplate.addArmorEffect 320 e_alarm1 0/5/-20
+ObjectTemplate.addArmorEffect 80 e_waterBoatSinkEf 0/-2/-5
+ObjectTemplate.addArmorEffect 80 e_waterBoatSinkEf 0/-2/25
+ObjectTemplate.addArmorEffect 80 e_waterBoatSinkEf 0/-2/-35
+
+rem DEATH BLOW
+ObjectTemplate.addArmorEffect 0 e_ExplGas -14.9/0/-10
+ObjectTemplate.addArmorEffect 0 e_ExplGas 16.9/5.83/0
+ObjectTemplate.addArmorEffect 0 e_ExplGas -16.9/5.83/0
+ObjectTemplate.addArmorEffect 0 e_ExplCap 0/0/0
+
+ObjectTemplate.addArmorEffect 12 e_ExplGas 0/4.3/74.3
+ObjectTemplate.addArmorEffect 15 e_ExplGas 0/16/41.9
+ObjectTemplate.addArmorEffect 12 e_ExplGas 16.9/5.83/23
+ObjectTemplate.addArmorEffect 30 e_ExplGas -16.9/5.83/23
+ObjectTemplate.addArmorEffect 50 e_ExplGas 0/0/0
+
+ObjectTemplate.addArmorEffect 30 e_ExplGas 0/4.3/74.3
+ObjectTemplate.addArmorEffect 50 e_ExplGas 0/16/41.9
+ObjectTemplate.addArmorEffect 80 e_ExplGas 16.9/5.83/23
+ObjectTemplate.addArmorEffect 75 e_ExplGas -16.9/5.83/23
+ObjectTemplate.addArmorEffect 40 e_ExplGas 0/0/0
+
+ObjectTemplate.addArmorEffect 44 e_ExplGas 0/4.3/74.3
+ObjectTemplate.addArmorEffect 85 e_ExplGas 0/16/41.9
+ObjectTemplate.addArmorEffect 70 e_ExplGas 16.9/5.83/23
+ObjectTemplate.addArmorEffect 35 e_ExplGas -16.9/5.83/23
+ObjectTemplate.addArmorEffect 30 e_ExplGas 0/0/0
+rem DEATH BLOW
+
 ObjectTemplate.aiTemplate B17
 rem -------------------------------------
 ObjectTemplate.addTemplate lodRunner
@@ -62,6 +89,7 @@ ObjectTemplate.hasResponsePhysics 1
 rem -------------------------------------
 ObjectTemplate.addTemplate RunnerComplex
 ObjectTemplate.addTemplate RunnerSimple
+ObjectTemplate.addTemplate NoWreck
 rem -------------------------------------
 ObjectTemplate.lodSelector RunnerLodSelector
 
@@ -92,6 +120,14 @@ ObjectTemplate.addTemplate Capital_Wheel
 ObjectTemplate.setPosition 10/-45/-10
 ObjectTemplate.addTemplate Capital_Wheel
 ObjectTemplate.setPosition -10/-45/-10
+ObjectTemplate.addTemplate Capital_Wheel
+ObjectTemplate.setPosition 10/45/10
+ObjectTemplate.addTemplate Capital_Wheel
+ObjectTemplate.setPosition -10/45/10
+ObjectTemplate.addTemplate Capital_Wheel
+ObjectTemplate.setPosition 10/45/-10
+ObjectTemplate.addTemplate Capital_Wheel
+ObjectTemplate.setPosition -10/45/-10
 rem ------------------------------------
 ObjectTemplate.addTemplate RunnerSeat
 ObjectTemplate.setPosition 0/4/74.1
@@ -401,6 +437,7 @@ ObjectTemplate.geometry runnerlow
 
 rem *** RunnerLodSelector ***
 LodSelectorTemplate.create DistCompareSelector2 RunnerLodSelector
+LodSelectorTemplate.hasDestroyedLod 1
 LodSelectorTemplate.addLodDistance 900
 
 rem *** Runner_Inside ***
@@ -478,7 +515,7 @@ ObjectTemplate.speedMod 1
 ObjectTemplate.hitpoints 1300
 ObjectTemplate.maxhitpoints 1300
 ObjectTemplate.material 821
-ObjectTemplate.criticalDamage 120
+ObjectTemplate.criticalDamage 80
 ObjectTemplate.hpLostWhileCriticalDamage 12
 ObjectTemplate.explosionForceMod 10
 ObjectTemplate.addArmorEffect 240 em_ExFumePOW 0/17/-9
@@ -495,6 +532,34 @@ ObjectTemplate.addArmorEffect 120 e_alarm1 0/5/-20
 ObjectTemplate.addArmorEffect 120 e_waterBoatSinkEf 0/-2/-5
 ObjectTemplate.addArmorEffect 120 e_waterBoatSinkEf 0/-2/25
 ObjectTemplate.addArmorEffect 120 e_waterBoatSinkEf 0/-2/-35
+ObjectTemplate.fadeAtTimeToLiveAfterDeath 0.01
+
+rem DEATH BLOW
+ObjectTemplate.addArmorEffect 0 e_ExplGas -14.9/0/-10
+ObjectTemplate.addArmorEffect 0 e_ExplGas 16.9/5.83/0
+ObjectTemplate.addArmorEffect 0 e_ExplGas -16.9/5.83/0
+ObjectTemplate.addArmorEffect 0 e_ExplCap 0/0/0
+
+ObjectTemplate.addArmorEffect 12 e_ExplGas 0/4.3/74.3
+ObjectTemplate.addArmorEffect 15 e_ExplGas 0/16/41.9
+ObjectTemplate.addArmorEffect 12 e_ExplGas 16.9/5.83/23
+ObjectTemplate.addArmorEffect 30 e_ExplGas -16.9/5.83/23
+ObjectTemplate.addArmorEffect 50 e_ExplGas 0/0/0
+
+ObjectTemplate.addArmorEffect 30 e_ExplGas 0/4.3/74.3
+ObjectTemplate.addArmorEffect 50 e_ExplGas 0/16/41.9
+ObjectTemplate.addArmorEffect 80 e_ExplGas 16.9/5.83/23
+ObjectTemplate.addArmorEffect 75 e_ExplGas -16.9/5.83/23
+ObjectTemplate.addArmorEffect 40 e_ExplGas 0/0/0
+
+ObjectTemplate.addArmorEffect 44 e_ExplGas 0/4.3/74.3
+ObjectTemplate.addArmorEffect 85 e_ExplGas 0/16/41.9
+ObjectTemplate.addArmorEffect 70 e_ExplGas 16.9/5.83/23
+ObjectTemplate.addArmorEffect 35 e_ExplGas -16.9/5.83/23
+ObjectTemplate.addArmorEffect 30 e_ExplGas 0/0/0
+rem DEATH BLOW
+
+
 ObjectTemplate.aiTemplate B17
 rem -------------------------------------
 ObjectTemplate.addTemplate lodRunner
@@ -514,6 +579,7 @@ ObjectTemplate.setCrossHairType CHTIcon
 ObjectTemplate.setVehicleCategory VCSea
 ObjectTemplate.setVehicleType VTDestroyer
 ObjectTemplate.setMinimapIcon "Minimap/minimap_icon_runner_16x16.tga"
+
 
 rem -----------------------------------------------------------------------------------------------
 rem --------------------------------------- Create Spawners ------------------------------------

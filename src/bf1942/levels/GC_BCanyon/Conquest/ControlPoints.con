@@ -1,5 +1,5 @@
 rem ControlPoints.con created by Battlecraft 1942
-rem (\Program Files\Battlefield 1942\Mods\GCMOD\bf1942\levels\GC_BCanyon/conquest/ControlPoints.con)
+rem (\Program Files\Battlefield 1942\Mods\GCMOD\bf1942\levels\GC_BCanyonatst/conquest/ControlPoints.con)
 
 rem ----------------------------------------- 
 rem ---  bridge_passtemplate  ---
@@ -29,7 +29,7 @@ rem -----------------------------------------
 rem ---  the_citideltemplate  ---
 rem ----------------------------------------- 
 Object.create the_citideltemplate
-Object.absolutePosition 630.89/142.00/1600.65
+Object.absolutePosition 638.14/142.00/1566.74
 
 rem ----------------------------------------- 
 rem ---  rebel_crash_sitetemplate  ---

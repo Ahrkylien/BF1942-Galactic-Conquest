@@ -1,4 +1,26 @@
 rem StaticObjects created by Battlecraft 1942
+rem StaticObjects created by Battlecraft 1942
+rem
+rem ***  ***
+rem
+Object.create alliedairplaneammo
+Object.absolutePosition 772.16/32.58/96.90
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create alliedairplaneammo
+Object.absolutePosition 772.16/32.58/96.90
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+rem
+rem ***  ***
+rem
+Object.create rebtrans
+Object.absolutePosition 811.07/35.98/39.22
+Object.rotation 55.82/0.00/0.00
 rem
 rem ***  ***
 rem
@@ -51,7 +73,7 @@ rem
 rem ***  ***
 rem
 Object.create ammobox
-Object.absolutePosition 1432.00/16.07/1788.00
+Object.absolutePosition 1378.45/16.26/1787.93
 Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
@@ -267,7 +289,7 @@ rem
 rem ***  ***
 rem
 Object.create echo_contpan
-Object.absolutePosition 336.87/2.73/313.67
+Object.absolutePosition 336.65/2.73/313.40
 Object.rotation -139.00/0.00/0.00
 rem
 rem ***  ***
@@ -297,13 +319,13 @@ rem
 rem ***  ***
 rem
 Object.create echo_contpan
-Object.absolutePosition 338.61/2.73/315.66
+Object.absolutePosition 338.40/2.73/315.40
 Object.rotation -139.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create echo_contpan
-Object.absolutePosition 324.07/2.73/324.58
+Object.absolutePosition 324.00/2.73/324.50
 Object.rotation 41.00/0.00/0.00
 rem
 rem ***  ***
@@ -903,7 +925,7 @@ rem
 rem ***  ***
 rem
 Object.create hothfloor
-Object.absolutePosition 625.72/13.93/431.63
+Object.absolutePosition 627.15/13.93/432.81
 Object.rotation 89.00/0.00/0.00
 rem
 rem ***  ***
@@ -956,12 +978,6 @@ Object.rotation 0.00/28.75/0.00
 rem
 rem ***  ***
 rem
-Object.create ioncannon
-Object.absolutePosition 356.21/15.84/553.07
-Object.rotation 0.00/28.75/0.00
-rem
-rem ***  ***
-rem
 Object.create mediscanner
 Object.absolutePosition 361.81/3.77/335.91
 Object.rotation 40.35/0.00/0.00
@@ -983,12 +999,6 @@ rem
 Object.create powergen
 Object.absolutePosition 564.77/14.03/608.01
 Object.rotation -91.75/0.00/0.00
-rem
-rem ***  ***
-rem
-Object.create shieldgenerator
-Object.absolutePosition 1140.73/15.60/486.86
-Object.rotation 49.25/0.00/0.00
 rem
 rem ***  ***
 rem
@@ -1397,3 +1407,27 @@ rem
 Object.create sentrytowerbase
 Object.absolutePosition 1134.51/15.79/587.27
 Object.rotation -77.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ammobox
+Object.absolutePosition 636.01/14.13/417.53
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create swbf_arcade
+Object.absolutePosition 357.66/10.00/334.35
+Object.rotation -136.97/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ladder_7m_m1
+Object.absolutePosition 636.20/17.28/408.54
+Object.rotation 180.00/12.44/0.00
+rem
+rem ***  ***
+rem
+Object.create ladder_7m_m1
+Object.absolutePosition 516.93/19.18/645.09
+Object.rotation 180.00/24.51/0.00

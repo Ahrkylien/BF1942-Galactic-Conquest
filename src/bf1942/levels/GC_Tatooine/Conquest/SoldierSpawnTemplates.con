@@ -18,6 +18,10 @@ ObjectTemplate.create SpawnPoint dune_sea_3
 ObjectTemplate.setSpawnId 7
 ObjectTemplate.setGroup 3
 
+ObjectTemplate.create SpawnPoint another1
+ObjectTemplate.setSpawnId 15
+ObjectTemplate.setGroup 1
+
 ObjectTemplate.create SpawnPoint jawa_2
 ObjectTemplate.setSpawnId 13
 ObjectTemplate.setGroup 7
@@ -26,8 +30,16 @@ ObjectTemplate.create SpawnPoint cant_1
 ObjectTemplate.setSpawnId 10
 ObjectTemplate.setGroup 2
 
+ObjectTemplate.create SpawnPoint another2
+ObjectTemplate.setSpawnId 16
+ObjectTemplate.setGroup 1
+
 ObjectTemplate.create SpawnPoint cant_2
 ObjectTemplate.setSpawnId 11
+ObjectTemplate.setGroup 2
+
+ObjectTemplate.create SpawnPoint another3
+ObjectTemplate.setSpawnId 17
 ObjectTemplate.setGroup 2
 
 ObjectTemplate.create SpawnPoint cant_3

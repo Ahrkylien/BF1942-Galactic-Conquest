@@ -10,6 +10,8 @@ NetworkableInfo.setPredictionMode PMLinear
 NetworkableInfo.createNewInfo repgun_turrent_Info
 NetworkableInfo.setPredictionMode PMLinear
 
+NetworkableInfo.createNewInfo ImpGunship_body_info
+NetworkableInfo.setPredictionMode PMLinear
 
 
 

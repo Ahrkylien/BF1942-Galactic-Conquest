@@ -1,0 +1,172 @@
+rem SoldierSpawns.con created by Battlecraft 1942
+rem (\Program Files\Battlefield 1942\Mods\GCMOD\bf1942\levels\GC_Corellia/conquest/SoldierSpawns.con)
+
+rem ----------------------------------------- 
+rem ---  Bela_Vistal_Spawn1  ---
+rem ----------------------------------------- 
+Object.create Bela_Vistal_Spawn1
+Object.absolutePosition 1390.36/66.65/1769.57
+Object.rotation -181.44/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Coronet_Spawn1  ---
+rem ----------------------------------------- 
+Object.create Coronet_Spawn1
+Object.absolutePosition 878.31/79.62/245.85
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Rebel_Hideout_Spawn1  ---
+rem ----------------------------------------- 
+Object.create Rebel_Hideout_Spawn1
+Object.absolutePosition 1142.10/76.24/713.74
+Object.rotation -8.92/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Vreni_Island_Spawn1  ---
+rem ----------------------------------------- 
+Object.create Vreni_Island_Spawn1
+Object.absolutePosition 564.34/68.89/991.93
+Object.rotation 91.09/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Imperial_Outpost_Spawn1  ---
+rem ----------------------------------------- 
+Object.create Imperial_Outpost_Spawn1
+Object.absolutePosition 1064.05/88.60/1320.17
+Object.rotation 1.48/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Vreni_Island_Spawn2  ---
+rem ----------------------------------------- 
+Object.create Vreni_Island_Spawn2
+Object.absolutePosition 547.94/68.59/1025.02
+Object.rotation 57.71/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Vreni_Island_Spawn3  ---
+rem ----------------------------------------- 
+Object.create Vreni_Island_Spawn3
+Object.absolutePosition 551.49/68.45/975.56
+Object.rotation 41.30/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Rebel_Hideout_Spawn2  ---
+rem ----------------------------------------- 
+Object.create Rebel_Hideout_Spawn2
+Object.absolutePosition 1098.80/76.43/724.53
+Object.rotation 123.67/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Rebel_Hideout_Spawn3  ---
+rem ----------------------------------------- 
+Object.create Rebel_Hideout_Spawn3
+Object.absolutePosition 1094.17/82.36/746.50
+Object.rotation 68.83/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Imperial_Outpost_Spawn2  ---
+rem ----------------------------------------- 
+Object.create Imperial_Outpost_Spawn2
+Object.absolutePosition 1098.19/88.63/1323.77
+Object.rotation -91.86/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Imperial_Outpost_Spawn3  ---
+rem ----------------------------------------- 
+Object.create Imperial_Outpost_Spawn3
+Object.absolutePosition 1058.32/88.66/1356.60
+Object.rotation 179.70/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Daoba_Guerfel_Spawn1  ---
+rem ----------------------------------------- 
+Object.create Daoba_Guerfel_Spawn1
+Object.absolutePosition 1516.99/80.78/968.89
+Object.rotation -1.52/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Daoba_Guerfel_Spawn2  ---
+rem ----------------------------------------- 
+Object.create Daoba_Guerfel_Spawn2
+Object.absolutePosition 1479.04/76.54/971.75
+Object.rotation -179.21/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Daoba_Guerfel_Spawn3  ---
+rem ----------------------------------------- 
+Object.create Daoba_Guerfel_Spawn3
+Object.absolutePosition 1530.98/76.18/1042.52
+Object.rotation -89.73/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Vreni_Island_Spawn4  ---
+rem ----------------------------------------- 
+Object.create Vreni_Island_Spawn4
+Object.absolutePosition 605.41/68.46/977.59
+Object.rotation 95.89/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Daoba_Guerfel_Spawn4  ---
+rem ----------------------------------------- 
+Object.create Daoba_Guerfel_Spawn4
+Object.absolutePosition 1542.91/76.15/937.26
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Imperial_Outpost_Spawn4  ---
+rem ----------------------------------------- 
+Object.create Imperial_Outpost_Spawn4
+Object.absolutePosition 1108.50/88.66/1360.26
+Object.rotation 182.08/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Rebel_Hideout_Spawn4  ---
+rem ----------------------------------------- 
+Object.create Rebel_Hideout_Spawn4
+Object.absolutePosition 1116.00/76.23/724.24
+Object.rotation 42.63/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Coronet_Spawn2  ---
+rem ----------------------------------------- 
+Object.create Coronet_Spawn2
+Object.absolutePosition 903.21/79.61/177.32
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Coronet_Spawn3  ---
+rem ----------------------------------------- 
+Object.create Coronet_Spawn3
+Object.absolutePosition 920.04/79.65/250.84
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Coronet_Spawn4  ---
+rem ----------------------------------------- 
+Object.create Coronet_Spawn4
+Object.absolutePosition 831.14/79.63/279.59
+Object.rotation -269.43/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Bela_Vistal_Spawn2  ---
+rem ----------------------------------------- 
+Object.create Bela_Vistal_Spawn2
+Object.absolutePosition 1383.87/66.06/1674.09
+Object.rotation 107.17/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Bela_Vistal_Spawn3  ---
+rem ----------------------------------------- 
+Object.create Bela_Vistal_Spawn3
+Object.absolutePosition 1356.19/66.06/1712.02
+Object.rotation 57.15/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Bela_Vistal_Spawn4  ---
+rem ----------------------------------------- 
+Object.create Bela_Vistal_Spawn4
+Object.absolutePosition 1439.46/67.32/1694.79
+Object.rotation -90.64/0.00/0.00
+
+rem EndOfFile

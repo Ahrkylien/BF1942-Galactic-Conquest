@@ -1,30 +1,34 @@
-rem
-rem ***  ***
-rem
+rem ControlPoints.con created by Battlecraft 1942
+rem (\Program Files\Battlefield 1942\Mods\GCMOD\bf1942\levels\GC_Hoth/conquest/ControlPoints.con)
+
+rem ----------------------------------------- 
+rem ---  echobasecp  ---
+rem ----------------------------------------- 
 Object.create echobasecp
-Object.absolutePosition 332.969/-10.8033/321.765
-Object.rotation -1/-1/-1
-rem
-rem ***  ***
-rem
+Object.absolutePosition 335.32/2.84/325.74
+
+rem ----------------------------------------- 
+rem ---  shieldgeneratorcp  ---
+rem ----------------------------------------- 
 Object.create shieldgeneratorcp
-Object.absolutePosition 1112.49/15.6/527.153
-Object.rotation -1/-1/-1
-rem
-rem ***  ***
-rem
+Object.absolutePosition 1112.49/15.60/527.15
+
+rem ----------------------------------------- 
+rem ---  secondlinetrench  ---
+rem ----------------------------------------- 
 Object.create secondlinetrench
-Object.absolutePosition 520.744/14.1663/652.141
-Object.rotation -1/-1/-1
-rem
-rem ***  ***
-rem
+Object.absolutePosition 520.74/14.17/652.14
+
+rem ----------------------------------------- 
+rem ---  firstlinetrench  ---
+rem ----------------------------------------- 
 Object.create firstlinetrench
-Object.absolutePosition 987.316/16.2714/841.581
-Object.rotation -1/-1/-1
-rem
-rem ***  ***
-rem
+Object.absolutePosition 987.32/16.27/841.58
+
+rem ----------------------------------------- 
+rem ---  imperialspawn  ---
+rem ----------------------------------------- 
 Object.create imperialspawn
-Object.absolutePosition 1404.69/21.9362/1740.63
-Object.rotation -1/-1/-1
+Object.absolutePosition 1404.69/21.48/1740.63
+
+rem EndOfFile

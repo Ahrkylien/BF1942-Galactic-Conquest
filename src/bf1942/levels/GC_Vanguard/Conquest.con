@@ -1,0 +1,26 @@
+Game.setNumberOfTickets 1 85
+Game.setNumberOfTickets 2 85
+Game.setTicketLostPerMin 1 7
+Game.setTicketLostPerMin 2 7
+
+run Conquest/SpawnpointManagerSettings
+
+run Conquest/SoldierSpawnTemplates
+run Conquest/SoldierSpawns
+
+run Conquest/ObjectSpawnTemplates
+run Conquest/ControlPointTemplates
+
+if v_arg1 == host
+rem ----- Host 
+rem ---------------------------------------------------------------------------- 
+
+	run Conquest/ObjectSpawns
+	run Conquest/ControlPoints
+
+rem ----------------------------------------------------------------------------
+endIf
+
+
+
+rem *** EndOfFile ***

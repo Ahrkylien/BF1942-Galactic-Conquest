@@ -12,7 +12,7 @@ ObjectTemplate.drag 15
 ObjectTemplate.mass 3000
 ObjectTemplate.inertiaModifier 0/.1/0
 ObjectTemplate.hasCollisionPhysics 1
-ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasResponsePhysics 0
 ObjectTemplate.hasArmor 1
 ObjectTemplate.speedMod 0
 ObjectTemplate.hitpoints 50
@@ -47,7 +47,7 @@ rem *** lodUPlift ***
 ObjectTemplate.create LodObject lodUplift
 ObjectTemplate.hasMobilePhysics 1
 ObjectTemplate.hasCollisionPhysics 1
-ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasResponsePhysics 0
 rem -------------------------------------
 ObjectTemplate.addTemplate UpliftComplex
 ObjectTemplate.addTemplate UpliftWreck
@@ -61,7 +61,7 @@ ObjectTemplate.setNetworkableInfo UpliftBodyInfo
 ObjectTemplate.geometry Uplift_Hull
 ObjectTemplate.hasMobilePhysics 1
 ObjectTemplate.hasCollisionPhysics 1
-ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasResponsePhysics 0
 rem -------------------------------------
 ObjectTemplate.addTemplate UpliftCamera
 ObjectTemplate.setPosition 2/1.6/.71

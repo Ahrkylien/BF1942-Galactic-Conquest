@@ -16,8 +16,8 @@ ObjectTemplate.hasArmor 1
 ObjectTemplate.angleMod 1
 ObjectTemplate.speedMod 1
 ObjectTemplate.hasArmor 1
-ObjectTemplate.hitpoints 1100
-ObjectTemplate.maxhitpoints 1100
+ObjectTemplate.hitpoints 1200
+ObjectTemplate.maxhitpoints 1200
 ObjectTemplate.material 811
 ObjectTemplate.criticalDamage 35
 ObjectTemplate.hpLostWhileCriticalDamage 3.5
@@ -28,13 +28,12 @@ ObjectTemplate.addArmorEffect 0 e_ExplGas 0/0/0
 ObjectTemplate.addArmorEffect 0 e_ScrapMetal_SailBarge 0/0/0
 ObjectTemplate.addArmorEffect -1 WaterWaterExplosion 0/0/0
 ObjectTemplate.explosionForceMod 10
-ObjectTemplate.dontClearTeamOnExit 1
 rem -------------------------------------
 ObjectTemplate.addTemplate lodSailBarge
 
 rem ***************SOLDIER SPAWN*******************
-ObjectTemplate.addTemplate sailbarge_spawn
-ObjectTemplate.setPosition 1.3/4.0/5
+rem ObjectTemplate.addTemplate sailbarge_spawn
+rem ObjectTemplate.setPosition 1.3/4.0/5
 rem ***************SOLDIER SPAWN*******************
 
 ObjectTemplate.setSoldierExitLocation 0/1.825/-12.8 0/0/0

@@ -18,6 +18,7 @@ ObjectTemplate.hitpoints 600
 ObjectTemplate.maxhitpoints 600
 ObjectTemplate.material 811
 ObjectTemplate.criticalDamage 21
+ObjectTemplate.timetoliveafterdeath 0.01
 ObjectTemplate.hpLostWhileCriticalDamage 2.1
 ObjectTemplate.explosionForceMod 10
 ObjectTemplate.hpLostWhileUpSideDown 21
@@ -63,7 +64,7 @@ ObjectTemplate.hasResponsePhysics 1
 rem -------------------------------------
 ObjectTemplate.addTemplate MilleniumFalconComplex
 ObjectTemplate.addTemplate MilleniumFalconSimple
-ObjectTemplate.addTemplate MilleniumFalconWreck
+ObjectTemplate.addTemplate NoWreck
 rem -------------------------------------
 ObjectTemplate.lodSelector MilleniumFalconLodSelector
 

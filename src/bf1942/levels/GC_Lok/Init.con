@@ -37,7 +37,7 @@ ObjectTemplate.radius 5
 ObjectTemplate.TimeToReSpawn 10
 ObjectTemplate.addTemplate AnimatedUsFlag
 
-game.setTeamSkin 1 JapaneseSoldier
+game.setTeamSkin 1 ScoutSoldier
 game.setKit 1 0 Empire_Scout
 game.setKit 1 1 Empire_Trooper
 game.setKit 1 2 Empire_AT

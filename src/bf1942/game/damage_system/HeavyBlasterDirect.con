@@ -28,7 +28,7 @@ MaterialManager.setEffectTemplate BlueNS_Expl
 
 MaterialManager.attGroup 713
 MaterialManager.defGroup 821
-MaterialManager.damageMod 5
+MaterialManager.damageMod 1
 MaterialManager.setEffectTemplate BlueNS_Expl
 
 MaterialManager.attGroup 713
@@ -38,6 +38,11 @@ MaterialManager.setEffectTemplate BlueNS_Expl
 
 MaterialManager.attGroup 713
 MaterialManager.defGroup 832
+MaterialManager.damageMod 25
+MaterialManager.setEffectTemplate BlueNS_Expl
+
+MaterialManager.attGroup 713
+MaterialManager.defGroup 833
 MaterialManager.damageMod 25
 MaterialManager.setEffectTemplate BlueNS_Expl
 

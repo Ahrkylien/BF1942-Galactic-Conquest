@@ -14,6 +14,7 @@ ObjectTemplate.reloadtime 0.1
 ObjectTemplate.roundOfFire 5
 ObjectTemplate.addFireArmsPosition -2.84/-0.07/1.53 0.8/0/0
 ObjectTemplate.addFireArmsPosition 2.84/-0.07/1.53 -0.8/0/0
+ObjectTemplate.addFireArmsPosition 2.84/-0.07/1.53 -0.8/0/0
 REM *** OVERHEAT *** 
 objectTemplate.heatAddWhenFire 0.05
 objectTemplate.coolDownPerSec 0.7

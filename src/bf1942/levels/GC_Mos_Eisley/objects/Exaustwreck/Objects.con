@@ -1,0 +1,3 @@
+ObjectTemplate.create SimpleObject me_Exhaustwreck_m1
+ObjectTemplate.geometry Exhaustwreck
+ObjectTemplate.setHasCollisionPhysics 1

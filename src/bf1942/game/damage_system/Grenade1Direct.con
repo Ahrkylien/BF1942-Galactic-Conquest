@@ -41,6 +41,11 @@ MaterialManager.defGroup 832
 MaterialManager.damageMod 0
 MaterialManager.setEffectTemplate e_Collision_Granade_Metal
 
+MaterialManager.attGroup 543
+MaterialManager.defGroup 833
+MaterialManager.damageMod 500
+MaterialManager.setEffectTemplate e_Collision_Granade_Metal
+
 rem * *************************************************
 rem *		Infantry target
 rem * *************************************************

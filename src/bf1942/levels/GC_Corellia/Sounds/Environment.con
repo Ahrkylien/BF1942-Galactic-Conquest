@@ -1,0 +1,16 @@
+EnvironmentSound.load Environment.ssc
+run River.con
+run Westernshore.con
+run Island.con
+run Easternshore.con
+run Cricket1.con
+run Cricket2.con
+run Cricketarea.con
+run Hawk.con
+run Bird.con
+run Birds.con
+run ambient-radiochatter.con
+run ambient-comms1.con
+run flies.con
+run shieldgen.con
+run frog.con

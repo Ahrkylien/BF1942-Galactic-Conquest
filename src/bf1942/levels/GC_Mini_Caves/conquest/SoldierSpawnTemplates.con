@@ -1,0 +1,158 @@
+rem SoldierSpawnTemplates.con created by Battlecraft 1942
+rem (C:\Program Files\EA Games\Battlefield 1942\Mods\GCMOD\bf1942\levels\GC_Caves_of_Dagobahmini/conquest/SoldierSpawnTemplates.con)
+
+rem ----------------------------------------- 
+rem ---  Imperial_Base_Spawn1  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Imperial_Base_Spawn1
+ObjectTemplate.setSpawnId 43
+ObjectTemplate.setGroup 8
+
+rem ----------------------------------------- 
+rem ---  Imperial_Flag_Spawn1  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Imperial_Flag_Spawn1
+ObjectTemplate.setSpawnId 44
+ObjectTemplate.setGroup 8
+
+rem ----------------------------------------- 
+rem ---  Imperial_Base_Spawn2  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Imperial_Base_Spawn2
+ObjectTemplate.setSpawnId 45
+ObjectTemplate.setGroup 8
+
+rem ----------------------------------------- 
+rem ---  Imperial_Flag_Spawn2  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Imperial_Flag_Spawn2
+ObjectTemplate.setSpawnId 46
+ObjectTemplate.setGroup 8
+
+rem ----------------------------------------- 
+rem ---  Upper_Bridge_Imperial_Side_Spawn1  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Upper_Bridge_Imperial_Side_Spawn1
+ObjectTemplate.setSpawnId 47
+ObjectTemplate.setGroup 5
+
+rem ----------------------------------------- 
+rem ---  Upper_Bridge_Imperial_Side_Spawn2  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Upper_Bridge_Imperial_Side_Spawn2
+ObjectTemplate.setSpawnId 48
+ObjectTemplate.setGroup 5
+
+rem ----------------------------------------- 
+rem ---  Upper_Bridge_Imperial_Side_Spawn3  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Upper_Bridge_Imperial_Side_Spawn3
+ObjectTemplate.setSpawnId 49
+ObjectTemplate.setGroup 5
+
+rem ----------------------------------------- 
+rem ---  Upper_Bridge_Imperial_Side_Spawn4  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Upper_Bridge_Imperial_Side_Spawn4
+ObjectTemplate.setSpawnId 50
+ObjectTemplate.setGroup 5
+
+rem ----------------------------------------- 
+rem ---  Lower_Bridge_Imperial_Side_Spawn3  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Lower_Bridge_Imperial_Side_Spawn3
+ObjectTemplate.setSpawnId 53
+ObjectTemplate.setGroup 7
+
+rem ----------------------------------------- 
+rem ---  Lower_Bridge_Imperial_Side_Spawn4  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Lower_Bridge_Imperial_Side_Spawn4
+ObjectTemplate.setSpawnId 54
+ObjectTemplate.setGroup 7
+
+rem ----------------------------------------- 
+rem ---  Lower_Bridge_Rebel_Side_Spawn1  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Lower_Bridge_Rebel_Side_Spawn1
+ObjectTemplate.setSpawnId 55
+ObjectTemplate.setGroup 6
+
+rem ----------------------------------------- 
+rem ---  Lower_Bridge_Rebel_Side_Spawn2  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Lower_Bridge_Rebel_Side_Spawn2
+ObjectTemplate.setSpawnId 56
+ObjectTemplate.setGroup 6
+
+rem ----------------------------------------- 
+rem ---  Lower_Bridge_Rebel_Side_Spawn3  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Lower_Bridge_Rebel_Side_Spawn3
+ObjectTemplate.setSpawnId 57
+ObjectTemplate.setGroup 6
+
+rem ----------------------------------------- 
+rem ---  Lower_Bridge_Rebel_Side_Spawn4  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Lower_Bridge_Rebel_Side_Spawn4
+ObjectTemplate.setSpawnId 58
+ObjectTemplate.setGroup 6
+
+rem ----------------------------------------- 
+rem ---  Upper_Bridge_Rebel_Side_Spawn1  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Upper_Bridge_Rebel_Side_Spawn1
+ObjectTemplate.setSpawnId 59
+ObjectTemplate.setGroup 4
+
+rem ----------------------------------------- 
+rem ---  Upper_Bridge_Rebel_Side_Spawn2  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Upper_Bridge_Rebel_Side_Spawn2
+ObjectTemplate.setSpawnId 60
+ObjectTemplate.setGroup 4
+
+rem ----------------------------------------- 
+rem ---  Upper_Bridge_Rebel_Side_Spawn3  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Upper_Bridge_Rebel_Side_Spawn3
+ObjectTemplate.setSpawnId 61
+ObjectTemplate.setGroup 4
+
+rem ----------------------------------------- 
+rem ---  Upper_Bridge_Rebel_Side_Spawn4  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Upper_Bridge_Rebel_Side_Spawn4
+ObjectTemplate.setSpawnId 62
+ObjectTemplate.setGroup 4
+
+rem ----------------------------------------- 
+rem ---  Rebel_Base_Spawn1  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Rebel_Base_Spawn1
+ObjectTemplate.setSpawnId 63
+ObjectTemplate.setGroup 2
+
+rem ----------------------------------------- 
+rem ---  Rebel_Base_Spawn2  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Rebel_Base_Spawn2
+ObjectTemplate.setSpawnId 64
+ObjectTemplate.setGroup 2
+
+rem ----------------------------------------- 
+rem ---  Rebel_Base_Spawn3  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Rebel_Base_Spawn3
+ObjectTemplate.setSpawnId 65
+ObjectTemplate.setGroup 2
+
+rem ----------------------------------------- 
+rem ---  Rebel_Base_Spawn4  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Rebel_Base_Spawn4
+ObjectTemplate.setSpawnId 66
+ObjectTemplate.setGroup 2
+
+rem EndOfFile

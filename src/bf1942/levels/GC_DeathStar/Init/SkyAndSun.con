@@ -121,7 +121,7 @@ Sky.setCloudFog 0
 
 
 Sky.setSun sun
-sky.changeOfsSkyHeight 50
+sky.changeOfsSkyHeight -100
 Sky.setRotAngle 0
 sky.sunLightDirectionVec -0.75/0.46/0.46
 TextureManager.mipmaps 1

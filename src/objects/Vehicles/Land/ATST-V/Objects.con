@@ -8,7 +8,7 @@ ObjectTemplate.hasMobilePhysics 1
 ObjectTemplate.hasDynamicShadow 1
 ObjectTemplate.explosionRadius 8
 ObjectTemplate.explosionDamage 5
-ObjectTemplate.damageFromWater 0
+ObjectTemplate.damageFromWater 1
 ObjectTemplate.drag 5
 ObjectTemplate.mass 10000
 ObjectTemplate.hasCollisionPhysics 1

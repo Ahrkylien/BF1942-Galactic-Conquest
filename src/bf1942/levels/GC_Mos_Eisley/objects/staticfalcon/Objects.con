@@ -1,0 +1,46 @@
+
+ObjectTemplate.create Bundle Falconstatic
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.mass 999999
+rem -------------------------------------
+ObjectTemplate.addTemplate lodmfCockpit
+ObjectTemplate.addTemplate MFSonar
+ObjectTemplate.addTemplate MFCamera
+ObjectTemplate.setPosition 11.83/3.5/9.3
+ObjectTemplate.addTemplate MilleniumFalconEntry
+ObjectTemplate.setPosition 11/1.078/8.7
+ObjectTemplate.addTemplate MF_Concussion_Missile
+ObjectTemplate.setPosition 12/2.2/9.96
+ObjectTemplate.addTemplate MilleniumFalconEngine
+ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.addTemplate MilleniumFalconFlapLeftMiddle
+ObjectTemplate.setPosition -2.563/0.456/0.895
+ObjectTemplate.setRotation 9/0/-5.999
+ObjectTemplate.addTemplate MilleniumFalconFlapRightMiddle
+ObjectTemplate.setPosition 2.563/0.456/0.895
+ObjectTemplate.setRotation -8.999/0/6
+ObjectTemplate.addTemplate MilleniumFalconFlapLeftOuter
+ObjectTemplate.setPosition -4.129/0.664/1.124
+ObjectTemplate.setRotation 8/0/-8.999
+ObjectTemplate.addTemplate MilleniumFalconFlapRightOuter
+ObjectTemplate.setPosition 4.129/0.664/1.124
+ObjectTemplate.setRotation -8.999/0/8
+ObjectTemplate.addTemplate MilleniumFalconFlapTailLeft
+ObjectTemplate.setPosition -1.124/1.012/-6.539
+ObjectTemplate.addTemplate MilleniumFalconFlapTailRight
+ObjectTemplate.setPosition 1.146/1.012/-6.539
+ObjectTemplate.addTemplate MilleniumFalconRudder
+ObjectTemplate.setPosition 0.03/1.88/-6.649
+ObjectTemplate.setRotation 0/0/-89.999
+ObjectTemplate.addTemplate MilleniumFalconBodyWingVertical
+ObjectTemplate.setRotation 0/0/-89.999
+ObjectTemplate.AddTemplate Ammobox
+ObjectTemplate.setPosition -4.35/1.525/7.42
+ObjectTemplate.setRotation 90/0/0
+ObjectTemplate.AddTemplate HealthPack
+ObjectTemplate.setPosition -4.56/2.195/7.635
+rem ObjectTemplate.addTemplate e_engineMilleniumFalcon
+rem ObjectTemplate.setPosition 0/0/0
+rem ObjectTemplate.setRotation 0/0/0

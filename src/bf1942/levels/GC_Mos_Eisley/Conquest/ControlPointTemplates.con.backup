@@ -1,0 +1,130 @@
+NetworkableInfo.createNewInfo ControlPointInfo
+NetworkableInfo.setPredictionMode PMNone
+NetworkableInfo.setBasePriority c_NIGhostAlways
+
+ObjectTemplate.create ControlPoint northeast
+ObjectTemplate.networkableInfo ControlPointInfo
+ObjectTemplate.setControlPointName NorthEast_base
+ObjectTemplate.radius 18
+ObjectTemplate.team 1
+ObjectTemplate.spawnGroupId 3
+ObjectTemplate.objectSpawnerId 3
+ObjectTemplate.timeToGetControl 7
+ObjectTemplate.timeToLoseControl 7
+ObjectTemplate.geometry flagbase_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.areaValue 20
+ObjectTemplate.disableIfEnemyInsideRadius 0
+ObjectTemplate.disableWhenLosingControl 0
+ObjectTemplate.loseControlWhenEnemyClose 1
+ObjectTemplate.loseControlWhenNotClose 0
+ObjectTemplate.addTemplate AnimatedFlag
+ObjectTemplate.setPosition 0/8/0
+ObjectTemplate.setTeamGeometry 1 flagge_m1
+ObjectTemplate.setTeamGeometry 2 flagus_m1
+
+ObjectTemplate.create ControlPoint southeast
+ObjectTemplate.networkableInfo ControlPointInfo
+ObjectTemplate.setControlPointName Crash_Site
+ObjectTemplate.radius 30
+ObjectTemplate.team 1
+ObjectTemplate.spawnGroupId 4
+ObjectTemplate.objectSpawnerId 4
+ObjectTemplate.timeToGetControl 7
+ObjectTemplate.timeToLoseControl 7
+ObjectTemplate.geometry flagbase_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.areaValue 20
+ObjectTemplate.disableIfEnemyInsideRadius 0
+ObjectTemplate.disableWhenLosingControl 0
+ObjectTemplate.loseControlWhenEnemyClose 1
+ObjectTemplate.loseControlWhenNotClose 0
+ObjectTemplate.addTemplate AnimatedFlag
+ObjectTemplate.setPosition 0/8/0
+ObjectTemplate.setTeamGeometry 1 flagge_m1
+ObjectTemplate.setTeamGeometry 2 flagus_m1
+
+ObjectTemplate.create ControlPoint northwest
+ObjectTemplate.networkableInfo ControlPointInfo
+ObjectTemplate.setControlPointName Sandcrawler
+ObjectTemplate.radius 15
+ObjectTemplate.team 1
+ObjectTemplate.spawnGroupId 2
+ObjectTemplate.objectSpawnerId 2
+ObjectTemplate.timeToGetControl 7
+ObjectTemplate.timeToLoseControl 7
+ObjectTemplate.geometry flagbase_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.areaValue 20
+ObjectTemplate.disableIfEnemyInsideRadius 0
+ObjectTemplate.disableWhenLosingControl 0
+ObjectTemplate.loseControlWhenEnemyClose 1
+ObjectTemplate.loseControlWhenNotClose 0
+ObjectTemplate.addTemplate AnimatedFlag
+ObjectTemplate.setPosition 0/8/0
+ObjectTemplate.setTeamGeometry 1 flagge_m1
+ObjectTemplate.setTeamGeometry 2 flagus_m1
+
+ObjectTemplate.create ControlPoint southwest
+ObjectTemplate.networkableInfo ControlPointInfo
+ObjectTemplate.setControlPointName South_Starport
+ObjectTemplate.radius 30
+ObjectTemplate.team 1
+ObjectTemplate.spawnGroupId 5
+ObjectTemplate.objectSpawnerId 5
+ObjectTemplate.timeToGetControl 7
+ObjectTemplate.timeToLoseControl 7
+ObjectTemplate.geometry flagbase_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.areaValue 20
+ObjectTemplate.disableIfEnemyInsideRadius 0
+ObjectTemplate.disableWhenLosingControl 0
+ObjectTemplate.loseControlWhenEnemyClose 1
+ObjectTemplate.loseControlWhenNotClose 0
+ObjectTemplate.addTemplate AnimatedFlag
+ObjectTemplate.setPosition 0/8/0
+ObjectTemplate.setTeamGeometry 1 flagge_m1
+ObjectTemplate.setTeamGeometry 2 flagus_m1
+
+ObjectTemplate.create ControlPoint centralcp2
+ObjectTemplate.networkableInfo ControlPointInfo
+ObjectTemplate.setControlPointName CBDSouth
+ObjectTemplate.radius 20
+ObjectTemplate.team 2
+ObjectTemplate.spawnGroupId 6
+ObjectTemplate.objectSpawnerId 6
+ObjectTemplate.timeToGetControl 7
+ObjectTemplate.timeToLoseControl 7
+ObjectTemplate.geometry flagbase_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.areaValue 40
+ObjectTemplate.disableIfEnemyInsideRadius 0
+ObjectTemplate.disableWhenLosingControl 0
+ObjectTemplate.loseControlWhenEnemyClose 1
+ObjectTemplate.loseControlWhenNotClose 0
+ObjectTemplate.addTemplate AnimatedFlag
+ObjectTemplate.setPosition 0/8.2/0
+ObjectTemplate.setTeamGeometry 1 flagge_m1
+ObjectTemplate.setTeamGeometry 2 flagus_m1
+
+ObjectTemplate.create ControlPoint centralcp
+ObjectTemplate.networkableInfo ControlPointInfo
+ObjectTemplate.setControlPointName CBDNorth
+ObjectTemplate.radius 18
+ObjectTemplate.team 2
+ObjectTemplate.spawnGroupId 1
+ObjectTemplate.objectSpawnerId 1
+ObjectTemplate.timeToGetControl 7
+ObjectTemplate.timeToLoseControl 7
+ObjectTemplate.geometry flagbase_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.areaValue 40
+ObjectTemplate.disableIfEnemyInsideRadius 0
+ObjectTemplate.disableWhenLosingControl 0
+ObjectTemplate.loseControlWhenEnemyClose 1
+ObjectTemplate.loseControlWhenNotClose 0
+ObjectTemplate.addTemplate AnimatedFlag
+ObjectTemplate.setPosition 0/8/0
+ObjectTemplate.setTeamGeometry 1 flagge_m1
+ObjectTemplate.setTeamGeometry 2 flagus_m1
+

@@ -1,0 +1,74 @@
+rem SoldierSpawns.con created by Battlecraft 1942
+rem (\Program Files\Battlefield 1942\Mods\GCMOD\bf1942\levels\GC_Mini_Chandrila/tdm/SoldierSpawns.con)
+
+rem ----------------------------------------- 
+rem ---  Southern_Peak_Spawn1  ---
+rem ----------------------------------------- 
+Object.create Southern_Peak_Spawn1
+Object.absolutePosition 529.77/419.76/409.52
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Eastern_Peak_Spawn1  ---
+rem ----------------------------------------- 
+Object.create Eastern_Peak_Spawn1
+Object.absolutePosition 621.65/409.00/533.27
+Object.rotation -91.97/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Eastern_Peak_Spawn2  ---
+rem ----------------------------------------- 
+Object.create Eastern_Peak_Spawn2
+Object.absolutePosition 580.36/408.48/531.41
+Object.rotation 101.81/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Northern_Peak_Spawn1  ---
+rem ----------------------------------------- 
+Object.create Northern_Peak_Spawn1
+Object.absolutePosition 554.42/420.22/629.75
+Object.rotation -100.60/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Western_Peak_Spawn1  ---
+rem ----------------------------------------- 
+Object.create Western_Peak_Spawn1
+Object.absolutePosition 417.97/424.47/510.42
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Western_Peak_Spawn2  ---
+rem ----------------------------------------- 
+Object.create Western_Peak_Spawn2
+Object.absolutePosition 438.53/422.40/536.93
+Object.rotation 127.42/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Southern_Peak_Spawn2  ---
+rem ----------------------------------------- 
+Object.create Southern_Peak_Spawn2
+Object.absolutePosition 530.06/422.59/454.53
+Object.rotation -179.48/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Eastern_Peak_Spawn3  ---
+rem ----------------------------------------- 
+Object.create Eastern_Peak_Spawn3
+Object.absolutePosition 578.39/408.72/505.81
+Object.rotation 52.03/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Northern_Peak_Spawn2  ---
+rem ----------------------------------------- 
+Object.create Northern_Peak_Spawn2
+Object.absolutePosition 507.83/422.65/664.18
+Object.rotation 161.53/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Western_Peak_Spawn3  ---
+rem ----------------------------------------- 
+Object.create Western_Peak_Spawn3
+Object.absolutePosition 438.82/423.72/552.33
+Object.rotation 42.56/0.00/0.00
+
+rem EndOfFile

@@ -19,8 +19,8 @@ rem -----------------------------------------
 rem ---  rebelalliancespawn3  ---
 rem ----------------------------------------- 
 Object.create rebelalliancespawn3
-Object.absolutePosition 342.84/2.80/328.50
-Object.rotation -139.50/0.00/0.00
+Object.absolutePosition 395.28/3.89/344.07
+Object.rotation -45.00/0.00/0.00
 
 rem ----------------------------------------- 
 rem ---  rebelalliancespawn4  ---
@@ -47,8 +47,8 @@ rem -----------------------------------------
 rem ---  rebelalliancespawn7  ---
 rem ----------------------------------------- 
 Object.create rebelalliancespawn7
-Object.absolutePosition 355.90/4.11/330.07
-Object.rotation -48.75/0.00/0.00
+Object.absolutePosition 355.57/3.90/380.12
+Object.rotation -231.97/0.00/0.00
 
 rem ----------------------------------------- 
 rem ---  rebelalliancespawn8  ---
@@ -61,8 +61,8 @@ rem -----------------------------------------
 rem ---  rebelalliancespawn9  ---
 rem ----------------------------------------- 
 Object.create rebelalliancespawn9
-Object.absolutePosition 345.08/2.87/325.70
-Object.rotation -137.50/0.00/0.00
+Object.absolutePosition 343.40/3.90/418.34
+Object.rotation -226.28/0.00/0.00
 
 rem ----------------------------------------- 
 rem ---  rebelalliancespawn10  ---
@@ -89,7 +89,7 @@ rem -----------------------------------------
 rem ---  imperialspawn3  ---
 rem ----------------------------------------- 
 Object.create imperialspawn3
-Object.absolutePosition 1452.84/20.51/1736.02
+Object.absolutePosition 1316.95/26.46/1679.09
 Object.rotation -1.00/-1.00/-1.00
 
 rem ----------------------------------------- 
@@ -138,7 +138,7 @@ rem -----------------------------------------
 rem ---  imperialspawn10  ---
 rem ----------------------------------------- 
 Object.create imperialspawn10
-Object.absolutePosition 1455.15/20.05/1728.56
+Object.absolutePosition 1319.26/27.22/1671.63
 Object.rotation -1.00/-1.00/-1.00
 
 rem ----------------------------------------- 
@@ -215,78 +215,78 @@ rem -----------------------------------------
 rem ---  secondspawn1  ---
 rem ----------------------------------------- 
 Object.create secondspawn1
-Object.absolutePosition 519.38/15.27/654.77
+Object.absolutePosition 519.38/14.67/654.77
 Object.rotation -259.00/0.00/0.00
 
 rem ----------------------------------------- 
 rem ---  secondspawn2  ---
 rem ----------------------------------------- 
 Object.create secondspawn2
-Object.absolutePosition 539.44/15.45/677.37
+Object.absolutePosition 539.44/14.65/677.37
 Object.rotation -270.25/0.00/0.00
 
 rem ----------------------------------------- 
 rem ---  secondspawn3  ---
 rem ----------------------------------------- 
 Object.create secondspawn3
-Object.absolutePosition 596.36/15.34/501.04
-Object.rotation 80.75/0.00/0.00
+Object.absolutePosition 634.09/14.07/411.64
+Object.rotation 0.79/0.00/0.00
 
 rem ----------------------------------------- 
 rem ---  secondspawn4  ---
 rem ----------------------------------------- 
 Object.create secondspawn4
-Object.absolutePosition 564.12/15.34/574.42
+Object.absolutePosition 564.24/14.23/613.35
 Object.rotation 87.50/0.00/0.00
 
 rem ----------------------------------------- 
 rem ---  secondspawn5  ---
 rem ----------------------------------------- 
 Object.create secondspawn5
-Object.absolutePosition 635.32/15.02/455.64
+Object.absolutePosition 636.69/14.19/456.44
 Object.rotation -85.75/0.00/0.00
 
 rem ----------------------------------------- 
 rem ---  secondspawn6  ---
 rem ----------------------------------------- 
 Object.create secondspawn6
-Object.absolutePosition 596.33/15.32/469.70
-Object.rotation -97.25/0.00/0.00
+Object.absolutePosition 612.86/14.17/453.86
+Object.rotation -91.54/0.00/0.00
 
 rem ----------------------------------------- 
 rem ---  secondspawn7  ---
 rem ----------------------------------------- 
 Object.create secondspawn7
-Object.absolutePosition 595.58/15.49/540.89
-Object.rotation 97.75/0.00/0.00
+Object.absolutePosition 596.14/14.52/474.46
+Object.rotation -0.35/0.00/0.00
 
 rem ----------------------------------------- 
 rem ---  secondspawn8  ---
 rem ----------------------------------------- 
 Object.create secondspawn8
-Object.absolutePosition 540.01/15.36/594.24
-Object.rotation 103.75/0.00/0.00
+Object.absolutePosition 540.18/14.58/620.91
+Object.rotation 178.19/0.00/0.00
 
 rem ----------------------------------------- 
 rem ---  secondspawn9  ---
 rem ----------------------------------------- 
 Object.create secondspawn9
-Object.absolutePosition 567.59/15.71/551.83
-Object.rotation -98.00/0.00/0.00
+Object.absolutePosition 540.50/14.25/588.20
+Object.rotation -269.06/0.00/0.00
 
 rem ----------------------------------------- 
 rem ---  secondspawn10  ---
 rem ----------------------------------------- 
 Object.create secondspawn10
-Object.absolutePosition 595.03/15.43/516.82
+Object.absolutePosition 584.13/13.54/457.79
 Object.rotation 84.25/0.00/0.00
 
 rem ----------------------------------------- 
 rem ---  sgspawn1  ---
 rem ----------------------------------------- 
 Object.create sgspawn1
-Object.absolutePosition 1158.86/15.60/558.79
-Object.rotation -1.00/-1.00/-1.00
+Object.absolutePosition 1132.68/15.60/576.32
+Object.rotation -44.64/-1.00/-1.00
 
 rem ----------------------------------------- 
 rem ---  sgspawn2  ---
@@ -299,22 +299,22 @@ rem -----------------------------------------
 rem ---  sgspawn3  ---
 rem ----------------------------------------- 
 Object.create sgspawn3
-Object.absolutePosition 1088.64/15.60/463.67
+Object.absolutePosition 1076.69/15.60/485.07
 Object.rotation -1.00/-1.00/-1.00
 
 rem ----------------------------------------- 
 rem ---  sgspawn4  ---
 rem ----------------------------------------- 
 Object.create sgspawn4
-Object.absolutePosition 1148.64/15.60/525.97
-Object.rotation -1.00/-1.00/-1.00
+Object.absolutePosition 1078.91/15.60/521.04
+Object.rotation 16.04/-1.00/-1.00
 
 rem ----------------------------------------- 
 rem ---  sgspawn5  ---
 rem ----------------------------------------- 
 Object.create sgspawn5
-Object.absolutePosition 1103.25/15.60/487.54
-Object.rotation -1.00/-1.00/-1.00
+Object.absolutePosition 1159.53/16.02/582.81
+Object.rotation -58.41/-1.00/-1.00
 
 rem ----------------------------------------- 
 rem ---  sgspawn6  ---
@@ -327,7 +327,7 @@ rem -----------------------------------------
 rem ---  sgspawn7  ---
 rem ----------------------------------------- 
 Object.create sgspawn7
-Object.absolutePosition 1124.54/15.60/501.77
+Object.absolutePosition 1107.43/15.60/550.77
 Object.rotation -1.00/-1.00/-1.00
 
 rem ----------------------------------------- 

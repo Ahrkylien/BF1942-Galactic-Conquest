@@ -12,17 +12,17 @@ ObjectTemplate.drag 2.5
 ObjectTemplate.mass 50000
 ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.hasResponsePhysics 1
-ObjectTemplate.hasArmor 0
-ObjectTemplate.hitpoints 550
-ObjectTemplate.maxhitpoints 550
-ObjectTemplate.material 811
+ObjectTemplate.hasArmor 1
+ObjectTemplate.hitpoints 6000
+ObjectTemplate.maxhitpoints 6000
+ObjectTemplate.material 831
 ObjectTemplate.speedMod 1
 ObjectTemplate.criticalDamage 55
 ObjectTemplate.hpLostWhileCriticalDamage 5.5
 ObjectTemplate.explosionForceMod 10
 ObjectTemplate.hpLostWhileUpSideDown 55
 ObjectTemplate.hpLostWhileDamageFromWater 55
-ObjectTemplate.addArmorEffect 110 e_PanzDamage 0/0.9/-1.8
+ObjectTemplate.addArmorEffect 300 e_PanzDamage 0/0.9/-1.8
 ObjectTemplate.addArmorEffect 55 e_PanzFire 0/1.2/-1.4
 ObjectTemplate.addArmorEffect 0 e_ExplGas 0/0/0
 ObjectTemplate.addArmorEffect 0 e_scrapmetal 0/0/0
@@ -32,17 +32,19 @@ ObjectTemplate.damageFromWater 1
 ObjectTemplate.aiTemplate Sherman
 rem -------------------------------------
 ObjectTemplate.addTemplate lodSandcrawler
+ObjectTemplate.addTemplate SCSoldierSpawn
+ObjectTemplate.setPosition -0.2207/1.85/4.4315
 rem -------------------------------------
-ObjectTemplate.setSoldierExitLocation 3.2/19/21 180/0/0
-ObjectTemplate.setVehicleIcon "Vehicle/Icon_sherman.tga"
+ObjectTemplate.setSoldierExitLocation -0.2207/1.85/4.4315 180/0/0
+ObjectTemplate.setVehicleIcon "Vehicle/Icon_sandcrawler.dds"
 ObjectTemplate.setVehicleIconPos 54/103
 ObjectTemplate.setNumberOfWeaponIcons 0
 ObjectTemplate.setCrossHairType CHTNone
 ObjectTemplate.setVehicleCategory VCLand
 ObjectTemplate.setVehicleType  VTLightTank
 ObjectTemplate.setToolTipType  TTLightTank
-ObjectTemplate.setMinimapIcon "Minimap/minimap_icon_battleship_64x64.tga"
-ObjectTemplate.setMinimapIconSize 64
+ObjectTemplate.setMinimapIcon "Minimap/minimap_icon_sandcrawler_16x16.dds"
+ObjectTemplate.setMinimapIconSize 16
 
 rem *** lodSandcrawler ***
 ObjectTemplate.create LodObject lodSandcrawler
@@ -52,7 +54,7 @@ ObjectTemplate.hasResponsePhysics 1
 rem -------------------------------------
 ObjectTemplate.addTemplate SandcrawlerComplex
 ObjectTemplate.addTemplate SandcrawlerSimple
-ObjectTemplate.addTemplate SandcrawlerWreck
+ObjectTemplate.addTemplate NoWreck
 rem -------------------------------------
 ObjectTemplate.lodSelector SandcrawlerLodSelector
 
@@ -76,9 +78,11 @@ ObjectTemplate.setPosition 12/-3/0
 ObjectTemplate.addTemplate SandcrawlerEntry
 ObjectTemplate.setPosition -12/-3/0
 ObjectTemplate.addTemplate SandcrawlerEngine
+
 ObjectTemplate.addTemplate SandcrawlerCamera
-ObjectTemplate.setPosition 5.4/19/35
+ObjectTemplate.setPosition 0/5.22/24.614
 ObjectTemplate.setRotation 0/0/0
+
 ObjectTemplate.addTemplate SandcrawlerInterior
 ObjectTemplate.addTemplate SandcrawlerDoorPCO
 ObjectTemplate.setPosition 0/0/0
@@ -118,9 +122,21 @@ ObjectTemplate.setRotation -40/0/0
 ObjectTemplate.addTemplate SandcrawlerDoor
 ObjectTemplate.setPosition 0/-0.95/19.25
 ObjectTemplate.setRotation 0/62/0
+ObjectTemplate.addTemplate SandcrawlerEntry
+ObjectTemplate.setPosition 12/-3/20
+ObjectTemplate.addTemplate SandcrawlerEntry
+ObjectTemplate.setPosition -12/-3/20
+ObjectTemplate.addTemplate SandcrawlerEntry
+ObjectTemplate.setPosition 12/-3/-17
+ObjectTemplate.addTemplate SandcrawlerEntry
+ObjectTemplate.setPosition -12/-3/-17
+ObjectTemplate.addTemplate SandcrawlerEntry
+ObjectTemplate.setPosition 12/-3/0
+ObjectTemplate.addTemplate SandcrawlerEntry
+ObjectTemplate.setPosition -12/-3/0
 rem -------------------------------------
-ObjectTemplate.setSoldierExitLocation 0/0.5/-2 0/0/0
-ObjectTemplate.setVehicleIcon "Vehicle/Icon_lambda.dds"
+ObjectTemplate.setSoldierExitLocation -0.2207/1.85/4.4315 0/0/0
+ObjectTemplate.setVehicleIcon "Vehicle/Icon_sandcrawler.dds"
 ObjectTemplate.setVehicleIconPos 76/80
 ObjectTemplate.setVehicleCategory VCLand
 ObjectTemplate.hasRestrictedExit 1
@@ -161,32 +177,32 @@ ObjectTemplate.createSkeleton animations/sandcrawler_track_l.ske
 ObjectTemplate.setAnimatedTextureSpeed -0.002/0
 rem -------------------------------------
 ObjectTemplate.addTemplate SandcrawlerWheelDummy
-ObjectTemplate.setPosition -1/-1.5/4.75
+ObjectTemplate.setPosition -1/-0.5/4.75
 ObjectTemplate.useAsBone 0/-0.15/0.25
 ObjectTemplate.setBoneOriginOffset 0/0.5/0
 
 ObjectTemplate.addTemplate SandcrawlerWheelDummy
-ObjectTemplate.setPosition -1/-1.5/2.95
+ObjectTemplate.setPosition -1/-0.5/2.95
 ObjectTemplate.useAsBone 0/-0.15/0
 ObjectTemplate.setBoneOriginOffset 0/0.5/0
 
 ObjectTemplate.addTemplate SandcrawlerWheelDummy
-ObjectTemplate.setPosition -1/-1.5/0.84
+ObjectTemplate.setPosition -1/-0.5/0.84
 ObjectTemplate.useAsBone 0/-0.15/0
 ObjectTemplate.setBoneOriginOffset 0/0.5/0
 
 ObjectTemplate.addTemplate SandcrawlerWheelDummy
-ObjectTemplate.setPosition -1/-1.5/-1.4
+ObjectTemplate.setPosition -1/-0.5/-1.4
 ObjectTemplate.useAsBone 0/-0.15/0
 ObjectTemplate.setBoneOriginOffset 0/0.5/0
 
 ObjectTemplate.addTemplate SandcrawlerWheelDummy
-ObjectTemplate.setPosition -1/-1.5/-2.95
+ObjectTemplate.setPosition -1/-0.5/-2.95
 ObjectTemplate.useAsBone 0/-0.15/0
 ObjectTemplate.setBoneOriginOffset 0/0.5/0
 
 ObjectTemplate.addTemplate SandcrawlerWheelDummy
-ObjectTemplate.setPosition -1/-1.5/-4.75
+ObjectTemplate.setPosition -1/-0.5/-4.75
 ObjectTemplate.useAsBone 0/-0.15/-0.15
 ObjectTemplate.setBoneOriginOffset 0/0.5/0
 
@@ -205,32 +221,32 @@ ObjectTemplate.createSkeleton animations/sandcrawler_track_l.ske
 ObjectTemplate.setAnimatedTextureSpeed -0.002/0
 rem -------------------------------------
 ObjectTemplate.addTemplate SandcrawlerWheelDummy
-ObjectTemplate.setPosition -1/-1.2/4.75
+ObjectTemplate.setPosition -1/-0.2/4.75
 ObjectTemplate.useAsBone 0/-0.15/0.25
 ObjectTemplate.setBoneOriginOffset 0/0.5/0
 
 ObjectTemplate.addTemplate SandcrawlerWheelDummy
-ObjectTemplate.setPosition -1/-1.5/3
+ObjectTemplate.setPosition -1/-0.5/3
 ObjectTemplate.useAsBone 0/-0.15/0
 ObjectTemplate.setBoneOriginOffset 0/0.5/0
 
 ObjectTemplate.addTemplate SandcrawlerWheelDummy
-ObjectTemplate.setPosition -1/-1.5/0.75
+ObjectTemplate.setPosition -1/-0.5/0.75
 ObjectTemplate.useAsBone 0/-0.15/0
 ObjectTemplate.setBoneOriginOffset 0/0.5/0
 
 ObjectTemplate.addTemplate SandcrawlerWheelDummy
-ObjectTemplate.setPosition -1/-1.5/-1
+ObjectTemplate.setPosition -1/-0.5/-1
 ObjectTemplate.useAsBone 0/-0.15/0
 ObjectTemplate.setBoneOriginOffset 0/0.5/0
 
 ObjectTemplate.addTemplate SandcrawlerWheelDummy
-ObjectTemplate.setPosition -1/-1.5/-2.95
+ObjectTemplate.setPosition -1/-0.5/-2.95
 ObjectTemplate.useAsBone 0/-0.15/0
 ObjectTemplate.setBoneOriginOffset 0/0.5/0
 
 ObjectTemplate.addTemplate SandcrawlerWheelDummy
-ObjectTemplate.setPosition -1/-1.5/-4.75
+ObjectTemplate.setPosition -1/-0.5/-4.75
 ObjectTemplate.useAsBone 0/-0.15/-0.15
 ObjectTemplate.setBoneOriginOffset 0/-0.5/0
 
@@ -276,10 +292,19 @@ ObjectTemplate.geometry Wreck_Sandcrawler_m1
 rem *** SandcrawlerLodSelector ***
 LodSelectorTemplate.create DistCompareSelector2 SandcrawlerLodSelector
 LodSelectorTemplate.hasDestroyedLod 1
-LodSelectorTemplate.addLodDistance 400
+LodSelectorTemplate.addLodDistance 600
 
 
-
+rem ***PLAYER SPAWN INSIDE****
+ObjectTemplate.create SpawnPoint SCSoldierSpawn
+ObjectTemplate.setSpawnRotation 0/0/0
+ObjectTemplate.setSpawnPositionOffset 0/0/0
+ObjectTemplate.setSpawnPreventionDelay 0
+ObjectTemplate.setSpawnId 80
+ObjectTemplate.setGroup 80
+ObjectTemplate.setEnterOnSpawn 0
+ObjectTemplate.setAIEnterOnSpawn 1
+ObjectTemplate.setSpawnAsParaTroper 0
 
 
 

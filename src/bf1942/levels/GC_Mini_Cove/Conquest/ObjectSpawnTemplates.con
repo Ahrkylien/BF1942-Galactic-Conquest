@@ -1,0 +1,49 @@
+rem ObjectSpawnTemplates.con created by Battlecraft 1942
+rem (\Program Files\Battlefield 1942\Mods\GCMOD\bf1942\levels\GC_Mini_Cove/conquest/ObjectSpawnTemplates.con)
+
+rem ----------------------------------------- 
+rem ---  Boatpawn  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner Boatpawn
+ObjectTemplate.setObjectTemplate 1 amphibian
+ObjectTemplate.setObjectTemplate 2 amphibian
+ObjectTemplate.MinSpawnDelay 20
+ObjectTemplate.MaxSpawnDelay 35
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.maxNrOfObjectSpawned 1
+ObjectTemplate.teamOnVehicle 0
+
+rem ----------------------------------------- 
+rem ---  Air_Transport  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner Air_Transport
+ObjectTemplate.setObjectTemplate 1 repgun2
+ObjectTemplate.setObjectTemplate 2 repgun2
+ObjectTemplate.MinSpawnDelay 30
+ObjectTemplate.MaxSpawnDelay 45
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.maxNrOfObjectSpawned 1
+ObjectTemplate.teamOnVehicle 0
+
+rem ----------------------------------------- 
+rem ---  HW_Spawner  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner HW_Spawner
+ObjectTemplate.setObjectTemplate 1 tl-21_kit
+ObjectTemplate.setObjectTemplate 2 rebel_tracker
+ObjectTemplate.MinSpawnDelay 15
+ObjectTemplate.MaxSpawnDelay 20
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.maxNrOfObjectSpawned 1
+ObjectTemplate.teamOnVehicle 0
+
+rem EndOfFile

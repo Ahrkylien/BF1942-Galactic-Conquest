@@ -15,8 +15,8 @@ ObjectTemplate.hasArmor 1
 ObjectTemplate.destroyOnExit 1
 ObjectTemplate.angleMod 1
 ObjectTemplate.speedMod 1
-ObjectTemplate.hitpoints 15
-ObjectTemplate.maxhitpoints 15
+ObjectTemplate.hitpoints 30
+ObjectTemplate.maxhitpoints 30
 ObjectTemplate.material 801
 ObjectTemplate.criticalDamage 3
 ObjectTemplate.hpLostWhileCriticalDamage 0.15

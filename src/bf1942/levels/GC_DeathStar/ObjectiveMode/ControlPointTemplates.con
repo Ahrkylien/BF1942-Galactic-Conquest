@@ -17,7 +17,7 @@ ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.areaValue 20
 ObjectTemplate.disableIfEnemyInsideRadius 0
 ObjectTemplate.disableWhenLosingControl 0
-ObjectTemplate.loseControlWhenEnemyClose 1
+ObjectTemplate.loseControlWhenEnemyClose 0
 ObjectTemplate.loseControlWhenNotClose 0
 ObjectTemplate.addTemplate AnimatedFlag
 ObjectTemplate.setPosition 0/0/0
@@ -39,7 +39,7 @@ ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.areaValue 20
 ObjectTemplate.disableIfEnemyInsideRadius 0
 ObjectTemplate.disableWhenLosingControl 0
-ObjectTemplate.loseControlWhenEnemyClose 1
+ObjectTemplate.loseControlWhenEnemyClose 0
 ObjectTemplate.loseControlWhenNotClose 0
 ObjectTemplate.addTemplate AnimatedFlag
 ObjectTemplate.setPosition 0/0/0
@@ -61,7 +61,7 @@ ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.areaValue 20
 ObjectTemplate.disableIfEnemyInsideRadius 0
 ObjectTemplate.disableWhenLosingControl 0
-ObjectTemplate.loseControlWhenEnemyClose 1
+ObjectTemplate.loseControlWhenEnemyClose 0
 ObjectTemplate.loseControlWhenNotClose 0
 ObjectTemplate.addTemplate AnimatedFlag
 ObjectTemplate.setPosition 0/0/0
@@ -105,7 +105,7 @@ ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.areaValue 20
 ObjectTemplate.disableIfEnemyInsideRadius 0
 ObjectTemplate.disableWhenLosingControl 0
-ObjectTemplate.loseControlWhenEnemyClose 1
+ObjectTemplate.loseControlWhenEnemyClose 0
 ObjectTemplate.loseControlWhenNotClose 0
 ObjectTemplate.addTemplate AnimatedFlag
 ObjectTemplate.setPosition 0/0/0

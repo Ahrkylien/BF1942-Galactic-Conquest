@@ -1,0 +1,58 @@
+rem ObjectSpawns.con created by Battlecraft 1942
+rem (\Program Files\Battlefield 1942\Mods\GCMOD\bf1942\levels\GC_Mini_Wayfar/ctf/ObjectSpawns.con)
+
+rem ----------------------------------------- 
+rem ---  HW_Spawner  ---
+rem ----------------------------------------- 
+Object.create HW_Spawner
+Object.absolutePosition 512.70/76.68/471.90
+Object.rotation 178.67/-113.56/-11.38
+Object.setOSId 1
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  HW_Spawner  ---
+rem ----------------------------------------- 
+Object.create HW_Spawner
+Object.absolutePosition 513.59/76.74/471.85
+Object.rotation 0.00/-65.59/-170.95
+Object.setOSId 1
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  HW_Spawner  ---
+rem ----------------------------------------- 
+Object.create HW_Spawner
+Object.absolutePosition 530.66/76.76/634.64
+Object.rotation 0.00/-76.71/-180.00
+Object.setOSId 2
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  HW_Spawner  ---
+rem ----------------------------------------- 
+Object.create HW_Spawner
+Object.absolutePosition 529.86/76.75/634.58
+Object.rotation 0.00/-75.00/-180.00
+Object.setOSId 2
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  HW_Spawner  ---
+rem ----------------------------------------- 
+Object.create HW_Spawner
+Object.absolutePosition 468.84/77.10/552.08
+Object.rotation 0.00/0.00/90.14
+Object.setOSId 3
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  HW_Spawner  ---
+rem ----------------------------------------- 
+Object.create HW_Spawner
+Object.absolutePosition 562.10/76.68/554.20
+Object.rotation -212.47/-123.60/0.00
+Object.setOSId 4
+Object.setTeam 0
+
+rem EndOfFile

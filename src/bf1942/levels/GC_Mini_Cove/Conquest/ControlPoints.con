@@ -1,0 +1,34 @@
+rem ControlPoints.con created by Battlecraft 1942
+rem (\Program Files\Battlefield 1942\Mods\GCMOD\bf1942\levels\GC_Mini_Cove/conquest/ControlPoints.con)
+
+rem ----------------------------------------- 
+rem ---  imperial_base  ---
+rem ----------------------------------------- 
+Object.create imperial_base
+Object.absolutePosition 189.41/103.57/176.35
+
+rem ----------------------------------------- 
+rem ---  rebel_base  ---
+rem ----------------------------------------- 
+Object.create rebel_base
+Object.absolutePosition 797.99/100.32/894.44
+
+rem ----------------------------------------- 
+rem ---  imperial_dome  ---
+rem ----------------------------------------- 
+Object.create imperial_dome
+Object.absolutePosition 435.32/109.11/393.36
+
+rem ----------------------------------------- 
+rem ---  rebel_dome  ---
+rem ----------------------------------------- 
+Object.create rebel_dome
+Object.absolutePosition 684.63/105.33/426.87
+
+rem ----------------------------------------- 
+rem ---  Supply_Platform  ---
+rem ----------------------------------------- 
+Object.create Supply_Platform
+Object.absolutePosition 497.12/118.02/592.15
+
+rem EndOfFile

@@ -1,0 +1,44 @@
+ObjectTemplate.create SpawnPoint northwestspawn
+ObjectTemplate.setSpawnId 24
+ObjectTemplate.setGroup 2
+
+ObjectTemplate.create SpawnPoint southwestspawn
+ObjectTemplate.setSpawnId 15
+ObjectTemplate.setGroup 5
+
+ObjectTemplate.create SpawnPoint centralspawn2
+ObjectTemplate.setSpawnId 4
+ObjectTemplate.setGroup 1
+
+ObjectTemplate.create SpawnPoint centralspawn3
+ObjectTemplate.setSpawnId 5
+ObjectTemplate.setGroup 1
+
+ObjectTemplate.create SpawnPoint centralspawn
+ObjectTemplate.setSpawnId 3
+ObjectTemplate.setGroup 1
+
+ObjectTemplate.create SpawnPoint northeastspawn
+ObjectTemplate.setSpawnId 17
+ObjectTemplate.setGroup 3
+
+ObjectTemplate.create SpawnPoint centralspawn4
+ObjectTemplate.setSpawnId 6
+ObjectTemplate.setGroup 1
+
+ObjectTemplate.create SpawnPoint centralspawn5
+ObjectTemplate.setSpawnId 7
+ObjectTemplate.setGroup 1
+
+ObjectTemplate.create SpawnPoint southeastspawn
+ObjectTemplate.setSpawnId 23
+ObjectTemplate.setGroup 4
+
+ObjectTemplate.create SpawnPoint southcbdspawn
+ObjectTemplate.setSpawnId 22
+ObjectTemplate.setGroup 6
+
+ObjectTemplate.create SpawnPoint centralspawn6
+ObjectTemplate.setSpawnId 8
+ObjectTemplate.setGroup 1
+

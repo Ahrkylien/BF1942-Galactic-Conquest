@@ -171,6 +171,18 @@ MaterialManager.materialAttGroup 554
 MaterialManager.materialDefGroup 554
 MaterialManager.materialDamage 10
 
+REM ** SpaceR Direct ** - RCOKET -
+MaterialManager.material 570
+MaterialManager.materialAttGroup 570
+MaterialManager.materialDefGroup 570
+MaterialManager.materialDamage 10
+
+REM ** SpaceR Splash ** - SPACE ROCKET242 -
+MaterialManager.material 571
+MaterialManager.materialAttGroup 571
+MaterialManager.materialDefGroup 571
+MaterialManager.materialDamage 10
+
 rem --------------- Generic Weapons 
 
 rem (EWEB?, Probe Droid)
@@ -308,6 +320,12 @@ rem ** GCMOD Heavy Armour 2 **
 MaterialManager.material 832
 MaterialManager.materialAttGroup 832
 MaterialManager.materialDefGroup 832
+MaterialManager.materialDamage 1
+
+rem ** GCMOD Heavy Armour 3 **
+MaterialManager.material 833
+MaterialManager.materialAttGroup 833
+MaterialManager.materialDefGroup 833
 MaterialManager.materialDamage 1
 
 rem ********************************************************

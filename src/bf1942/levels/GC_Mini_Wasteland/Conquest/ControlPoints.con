@@ -1,0 +1,34 @@
+rem ControlPoints.con created by Battlecraft 1942
+rem (\Program Files\Battlefield 1942\Mods\GCMOD\bf1942\levels\GC_Mini_Wasteland/conquest/ControlPoints.con)
+
+rem ----------------------------------------- 
+rem ---  Imperial_Base  ---
+rem ----------------------------------------- 
+Object.create Imperial_Base
+Object.absolutePosition 587.14/109.79/871.01
+
+rem ----------------------------------------- 
+rem ---  Rebel_Base  ---
+rem ----------------------------------------- 
+Object.create Rebel_Base
+Object.absolutePosition 530.04/111.46/210.06
+
+rem ----------------------------------------- 
+rem ---  Rebel_Lowland  ---
+rem ----------------------------------------- 
+Object.create Rebel_Lowland
+Object.absolutePosition 717.68/76.21/374.61
+
+rem ----------------------------------------- 
+rem ---  Volcano  ---
+rem ----------------------------------------- 
+Object.create Volcano
+Object.absolutePosition 525.54/131.24/551.06
+
+rem ----------------------------------------- 
+rem ---  Imperial_Lowland  ---
+rem ----------------------------------------- 
+Object.create Imperial_Lowland
+Object.absolutePosition 355.79/76.05/732.59
+
+rem EndOfFile

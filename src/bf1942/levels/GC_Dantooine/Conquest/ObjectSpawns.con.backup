@@ -6,14 +6,12 @@ Object.absolutePosition 901.54/36.231/93.7402
 Object.rotation 177/0/0
 Object.setOSId 5
 rem
-rem
 rem ***  ***
 rem
 Object.create r5controlspawner
 Object.absolutePosition 243.494/36.6415/983.601
 Object.rotation 180/0/0
 Object.setOSId 5
-rem
 rem
 rem ***  ***
 rem
@@ -234,3 +232,38 @@ Object.create tiebomber_spawner
 Object.absolutePosition 174.481/39.6769/1887.72
 Object.rotation 4.99999/0/0
 Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create weaponspawners
+Object.absolutePosition 843.307/38.8825/1771.84
+Object.rotation 0/-98/0
+Object.setOSId 2
+rem
+rem ***  ***
+rem
+Object.create weaponspawners
+Object.absolutePosition 843.657/38.8832/1771.96
+Object.rotation 0/-98/0
+Object.setOSId 2
+rem
+rem ***  ***
+rem
+Object.create weaponspawners
+Object.absolutePosition 844.044/38.8837/1772.13
+Object.rotation 0/-98/0
+Object.setOSId 2
+rem
+rem ***  ***
+rem
+Object.create weaponspawners
+Object.absolutePosition 895.742/86.1815/546.728
+Object.rotation 0/-98/0
+Object.setOSId 2
+rem
+rem ***  ***
+rem
+Object.create weaponspawners
+Object.absolutePosition 896.165/86.1621/546.283
+Object.rotation 0/-98/0
+Object.setOSId 2

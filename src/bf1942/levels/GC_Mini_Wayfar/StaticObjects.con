@@ -1,0 +1,1237 @@
+rem StaticObjects created by Battlecraft 1942
+rem
+rem ***  ***
+rem
+Object.create citywall2
+Object.absolutePosition 464.39/73.22/531.95
+Object.rotation 270.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create citywall2
+Object.absolutePosition 460.65/73.27/536.56
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create citywall2
+Object.absolutePosition 473.85/73.19/531.85
+Object.rotation 270.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create citywall1
+Object.absolutePosition 479.31/73.96/532.56
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create citywall1
+Object.absolutePosition 492.38/73.82/532.47
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create citywall2
+Object.absolutePosition 497.55/73.19/531.55
+Object.rotation 90.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create citywall2
+Object.absolutePosition 507.34/73.19/531.63
+Object.rotation 90.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create citywall2
+Object.absolutePosition 511.79/73.19/537.68
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create citywall2
+Object.absolutePosition 511.84/73.19/547.60
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create citywall2
+Object.absolutePosition 460.76/73.19/546.47
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create citywall2
+Object.absolutePosition 460.72/73.19/555.80
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create citywall2
+Object.absolutePosition 511.82/73.19/555.89
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create tent1
+Object.absolutePosition 470.35/76.20/537.20
+Object.rotation 90.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create tent1
+Object.absolutePosition 502.12/76.20/537.14
+Object.rotation 90.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create citywall2
+Object.absolutePosition 471.12/73.19/564.21
+Object.rotation 180.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create citywall2
+Object.absolutePosition 506.11/73.19/560.31
+Object.rotation 270.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create citywall2
+Object.absolutePosition 500.44/73.20/564.20
+Object.rotation 180.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create citywall2
+Object.absolutePosition 496.51/73.21/569.79
+Object.rotation 90.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create citywall2
+Object.absolutePosition 475.54/73.19/569.81
+Object.rotation 270.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create citywall2
+Object.absolutePosition 465.72/73.19/559.94
+Object.rotation 90.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create citywall4
+Object.absolutePosition 487.40/76.20/569.72
+Object.rotation 90.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create tent1
+Object.absolutePosition 476.61/76.17/562.10
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create tent1
+Object.absolutePosition 494.88/76.19/562.22
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create building9
+Object.absolutePosition 501.56/76.13/629.17
+Object.rotation 90.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create building17
+Object.absolutePosition 473.32/76.17/628.72
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create tat_medium
+Object.absolutePosition 494.85/76.17/608.88
+Object.rotation 90.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create tat_snipertower
+Object.absolutePosition 451.53/76.14/603.27
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create tent1
+Object.absolutePosition 505.78/76.15/609.14
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create building13
+Object.absolutePosition 526.14/76.10/631.09
+Object.rotation -89.86/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create building12
+Object.absolutePosition 519.59/76.16/611.23
+Object.rotation 174.99/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create building12
+Object.absolutePosition 535.49/76.17/608.95
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create tower1
+Object.absolutePosition 470.13/76.16/606.31
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create building12
+Object.absolutePosition 453.47/76.17/630.11
+Object.rotation -93.54/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create tent1
+Object.absolutePosition 452.12/76.19/615.88
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create tat_medium
+Object.absolutePosition 477.38/76.17/588.91
+Object.rotation 270.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create tat_grainsilo
+Object.absolutePosition 466.40/76.16/577.82
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create building12
+Object.absolutePosition 453.85/76.18/588.92
+Object.rotation -183.31/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create tat_grainsilo
+Object.absolutePosition 466.52/76.20/588.95
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create tat_medium
+Object.absolutePosition 454.87/76.16/572.80
+Object.rotation 90.57/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create building17
+Object.absolutePosition 533.52/76.15/591.42
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create talltower
+Object.absolutePosition 559.34/76.19/587.95
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create building9
+Object.absolutePosition 501.07/76.19/593.42
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create tat_medium
+Object.absolutePosition 517.00/76.20/586.85
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create talltower
+Object.absolutePosition 497.14/76.19/487.33
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create citywall2
+Object.absolutePosition 540.43/76.19/566.05
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create citywall2
+Object.absolutePosition 540.46/76.20/556.38
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create citywall2
+Object.absolutePosition 540.34/76.20/546.42
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create citywall2
+Object.absolutePosition 540.43/76.20/537.05
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create citywall2
+Object.absolutePosition 545.97/76.21/570.22
+Object.rotation 90.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create citywall5
+Object.absolutePosition 559.54/76.22/565.50
+Object.rotation 270.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create citywall2
+Object.absolutePosition 574.42/76.22/570.33
+Object.rotation 270.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create citywall2
+Object.absolutePosition 574.16/76.20/532.85
+Object.rotation 270.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create citywall5
+Object.absolutePosition 560.68/76.23/537.27
+Object.rotation 90.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create citywall1
+Object.absolutePosition 546.43/76.20/532.68
+Object.rotation 90.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create citywall2
+Object.absolutePosition 580.10/76.20/565.91
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create citywall2
+Object.absolutePosition 579.84/76.20/536.83
+Object.rotation 180.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create citywall2
+Object.absolutePosition 580.17/76.20/556.68
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create citywall1
+Object.absolutePosition 579.93/76.20/548.27
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create hothcrategrey
+Object.absolutePosition 556.38/76.20/552.07
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create hothcrategrey
+Object.absolutePosition 561.02/76.20/555.52
+Object.rotation -29.75/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create hothcrategrey
+Object.absolutePosition 563.82/76.20/553.25
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create hothcrategrey
+Object.absolutePosition 560.24/76.20/546.71
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create hothcrategrey
+Object.absolutePosition 554.01/76.20/548.42
+Object.rotation -67.76/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create hothcrategrey
+Object.absolutePosition 563.58/76.20/546.88
+Object.rotation -47.78/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create hothcrategrey
+Object.absolutePosition 562.35/78.73/554.36
+Object.rotation -49.70/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create hothcrategrey
+Object.absolutePosition 554.97/78.74/550.14
+Object.rotation 24.40/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create hothcrategrey
+Object.absolutePosition 575.25/76.19/560.06
+Object.rotation -67.74/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create hothcrategrey
+Object.absolutePosition 570.39/76.19/562.29
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create hothcrategrey
+Object.absolutePosition 547.48/76.19/537.53
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create hothcrategrey
+Object.absolutePosition 545.79/76.19/542.77
+Object.rotation -21.55/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create tower1
+Object.absolutePosition 562.24/76.15/626.37
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create tat_medium
+Object.absolutePosition 554.93/76.17/608.78
+Object.rotation 90.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create tent1
+Object.absolutePosition 563.39/76.21/606.98
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create building12
+Object.absolutePosition 574.16/76.18/588.16
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create gcsupply
+Object.absolutePosition 576.47/76.18/614.00
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create gcsupply
+Object.absolutePosition 576.47/76.20/601.46
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create tat_medium
+Object.absolutePosition 521.32/76.17/535.16
+Object.rotation 270.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create tat_snipertower
+Object.absolutePosition 519.92/76.19/568.07
+Object.rotation 90.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create tat_grainsilo
+Object.absolutePosition 520.61/76.19/545.86
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create tat_grainsilo
+Object.absolutePosition 520.73/76.22/556.12
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create building13
+Object.absolutePosition 511.69/76.13/515.96
+Object.rotation 90.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create building17
+Object.absolutePosition 548.84/76.14/517.04
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create building12
+Object.absolutePosition 565.29/76.23/515.95
+Object.rotation 85.52/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create tat_medium
+Object.absolutePosition 579.14/76.19/513.66
+Object.rotation 270.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create tat_grainsilo
+Object.absolutePosition 579.16/76.20/524.37
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create building9
+Object.absolutePosition 519.22/76.20/486.46
+Object.rotation 180.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create tent1
+Object.absolutePosition 537.00/76.20/492.32
+Object.rotation 90.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create tat_medium
+Object.absolutePosition 537.08/76.20/482.00
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create building12
+Object.absolutePosition 552.65/76.20/490.12
+Object.rotation -93.39/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create tower1
+Object.absolutePosition 571.77/76.20/486.10
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create tat_grainsilo
+Object.absolutePosition 495.26/76.20/512.98
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create tat_medium
+Object.absolutePosition 480.95/76.20/492.91
+Object.rotation 180.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create building12
+Object.absolutePosition 468.46/76.20/489.73
+Object.rotation -93.18/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create tat_medium
+Object.absolutePosition 476.15/76.21/512.97
+Object.rotation 270.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create tent1
+Object.absolutePosition 464.77/76.20/512.83
+Object.rotation 90.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create tat_grainsilo
+Object.absolutePosition 463.96/76.20/524.34
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create evaporator
+Object.absolutePosition 473.81/76.20/526.21
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create evaporator
+Object.absolutePosition 473.71/76.20/522.39
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create tat_snipertower
+Object.absolutePosition 481.20/76.20/479.81
+Object.rotation 270.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create building17
+Object.absolutePosition 541.83/76.19/464.80
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create tower1
+Object.absolutePosition 497.11/76.19/466.15
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create tat_medium
+Object.absolutePosition 513.10/76.21/469.26
+Object.rotation 270.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create tat_grainsilo
+Object.absolutePosition 513.10/76.22/460.15
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create building13
+Object.absolutePosition 471.74/76.20/462.75
+Object.rotation 90.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create tent1
+Object.absolutePosition 469.28/76.20/478.86
+Object.rotation 90.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create building12
+Object.absolutePosition 557.81/76.20/464.01
+Object.rotation 84.46/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create tat_grainsilo
+Object.absolutePosition 554.01/76.20/477.47
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create gcsupply
+Object.absolutePosition 574.23/76.20/464.36
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create evaporator
+Object.absolutePosition 510.11/76.18/565.97
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create evaporator
+Object.absolutePosition 505.68/76.18/566.06
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create evaporator
+Object.absolutePosition 478.18/76.19/577.97
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create portablel_m1
+Object.absolutePosition 493.49/76.20/559.98
+Object.rotation 66.65/-60.87/2.54
+rem
+rem ***  ***
+rem
+Object.create portablel_m1
+Object.absolutePosition 478.20/76.20/564.23
+Object.rotation -94.44/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create portablel_m1
+Object.absolutePosition 472.33/76.19/538.46
+Object.rotation 36.13/57.23/-1.51
+rem
+rem ***  ***
+rem
+Object.create portablel_m1
+Object.absolutePosition 499.54/76.19/538.63
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create stecrate1_m1
+Object.absolutePosition 494.63/76.19/564.87
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create stecrate1_m1
+Object.absolutePosition 504.13/76.19/535.51
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create tat_chubstand
+Object.absolutePosition 475.05/76.18/555.74
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create tat_chubstand
+Object.absolutePosition 504.95/76.18/541.68
+Object.rotation 180.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create medunit
+Object.absolutePosition 563.78/76.19/604.30
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create portablel_m1
+Object.absolutePosition 561.98/76.19/609.76
+Object.rotation -92.38/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create portablel_m1
+Object.absolutePosition 507.49/76.20/611.62
+Object.rotation 91.42/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ammobox
+Object.absolutePosition 504.40/76.19/606.99
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create stecrate1_m1
+Object.absolutePosition 453.78/76.20/613.86
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create portablel_m1
+Object.absolutePosition 450.55/76.19/618.50
+Object.rotation 90.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create portablel_m1
+Object.absolutePosition 462.32/76.19/510.77
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ammobox
+Object.absolutePosition 467.57/76.19/514.11
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create stecrate1_m1
+Object.absolutePosition 471.24/76.19/477.42
+Object.rotation -21.43/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create portablel_m1
+Object.absolutePosition 534.60/76.19/493.47
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create tat_chubstand
+Object.absolutePosition 539.28/76.19/496.77
+Object.rotation 180.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ammobox
+Object.absolutePosition 566.05/76.19/516.44
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create hothcrategrey
+Object.absolutePosition 572.04/76.17/544.17
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create hothcrategrey
+Object.absolutePosition 545.61/76.17/561.98
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create portablel_m1
+Object.absolutePosition 468.42/76.20/551.99
+Object.rotation 90.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create portablel_m1
+Object.absolutePosition 506.37/76.19/548.20
+Object.rotation 90.00/-51.36/1.06
+rem
+rem ***  ***
+rem
+Object.create jabaspalace
+Object.absolutePosition 391.72/92.06/787.11
+Object.rotation -83.34/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ammobox
+Object.absolutePosition 520.15/76.20/567.62
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create citywall2
+Object.absolutePosition 673.27/65.61/627.71
+Object.rotation 94.43/8.58/-0.72
+rem
+rem ***  ***
+rem
+Object.create citywall2
+Object.absolutePosition 668.00/66.37/632.20
+Object.rotation 180.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create citywall2
+Object.absolutePosition 668.66/66.38/640.87
+Object.rotation 186.93/-3.00/-3.53
+rem
+rem ***  ***
+rem
+Object.create citywall2
+Object.absolutePosition 668.25/66.38/651.43
+Object.rotation 180.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create citywall2
+Object.absolutePosition 669.01/65.47/661.51
+Object.rotation 184.71/1.34/-50.11
+rem
+rem ***  ***
+rem
+Object.create citywall2
+Object.absolutePosition 672.93/66.31/667.88
+Object.rotation -91.08/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create citywall2
+Object.absolutePosition 692.28/65.17/628.30
+Object.rotation 270.00/-8.65/1.64
+rem
+rem ***  ***
+rem
+Object.create citywall2
+Object.absolutePosition 697.84/66.35/632.25
+Object.rotation -179.21/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create citywall2
+Object.absolutePosition 698.21/65.63/641.65
+Object.rotation -179.29/-4.36/-6.73
+rem
+rem ***  ***
+rem
+Object.create citywall2
+Object.absolutePosition 697.99/63.86/651.11
+Object.rotation -178.37/-4.89/0.88
+rem
+rem ***  ***
+rem
+Object.create citywall2
+Object.absolutePosition 697.91/66.02/660.79
+Object.rotation -181.58/2.34/0.00
+rem
+rem ***  ***
+rem
+Object.create citywall2
+Object.absolutePosition 693.70/66.16/666.42
+Object.rotation 91.00/0.00/5.31
+rem
+rem ***  ***
+rem
+Object.create tusken_hut1
+Object.absolutePosition 676.43/66.34/636.57
+Object.rotation -92.72/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create tusken_hut1
+Object.absolutePosition 675.59/66.34/657.57
+Object.rotation -91.07/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create tusken_hut1
+Object.absolutePosition 691.53/66.37/656.85
+Object.rotation 90.69/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create tusken_hut1
+Object.absolutePosition 690.99/66.36/637.45
+Object.rotation 94.17/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create stecrate1_m1
+Object.absolutePosition 677.02/65.72/648.32
+Object.rotation 0.00/-15.35/12.52
+rem
+rem ***  ***
+rem
+Object.create medunit
+Object.absolutePosition 468.06/76.20/480.02
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create citywall1
+Object.absolutePosition 486.92/73.20/544.39
+Object.rotation 90.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create citywall2
+Object.absolutePosition 480.66/73.20/549.62
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create citywall2
+Object.absolutePosition 490.67/73.20/550.05
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create portablel_m1
+Object.absolutePosition 487.77/76.19/554.19
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create portablel_m1
+Object.absolutePosition 483.47/76.19/554.10
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create wreck_landspeeder_static
+Object.absolutePosition 486.67/76.17/604.34
+Object.rotation -42.40/0.00/-92.31
+rem
+rem ***  ***
+rem
+Object.create wreck_skyhopper_static
+Object.absolutePosition 548.95/76.18/592.53
+Object.rotation 13.90/-67.76/-75.27
+rem
+rem ***  ***
+rem
+Object.create wreck_landspeeder_static
+Object.absolutePosition 523.94/75.50/646.40
+Object.rotation -91.89/-4.46/-50.88
+rem
+rem ***  ***
+rem
+Object.create wreck_landspeeder_static2
+Object.absolutePosition 524.43/75.01/648.00
+Object.rotation -95.72/0.65/22.36
+rem
+rem ***  ***
+rem
+Object.create stecrate1_m1
+Object.absolutePosition 472.22/76.19/547.31
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create stecrate1_m1
+Object.absolutePosition 471.50/76.19/545.73
+Object.rotation -40.83/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create stecrate1_m1
+Object.absolutePosition 468.74/76.20/547.57
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create stecrate1_m1
+Object.absolutePosition 483.46/76.20/560.65
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create stecrate1_m1
+Object.absolutePosition 500.54/76.20/547.53
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create stecrate1_m1
+Object.absolutePosition 500.58/76.19/552.62
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create stecrate1_m1
+Object.absolutePosition 489.61/76.35/624.59
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create stecrate1_m1
+Object.absolutePosition 489.62/76.27/621.42
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create tat_chubstand
+Object.absolutePosition 534.55/76.30/580.30
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create portablel_m1
+Object.absolutePosition 529.48/76.20/580.59
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create tent1
+Object.absolutePosition 531.93/76.24/582.98
+Object.rotation 90.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create stecrate1_m1
+Object.absolutePosition 524.59/76.20/581.76
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create stecrate1_m1
+Object.absolutePosition 543.79/76.19/529.80
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create stecrate1_m1
+Object.absolutePosition 548.08/76.20/527.02
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create wreck_landspeeder_static
+Object.absolutePosition 542.33/77.43/575.70
+Object.rotation -321.37/0.00/-163.97
+rem
+rem ***  ***
+rem
+Object.create stecrate1_m1
+Object.absolutePosition 507.37/76.45/572.70
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create stecrate1_m1
+Object.absolutePosition 510.11/76.42/572.68
+Object.rotation -24.15/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create wreck_falcon_static2
+Object.absolutePosition 497.68/76.84/549.95
+Object.rotation -130.92/-15.58/-60.77
+rem
+rem ***  ***
+rem
+Object.create tent1
+Object.absolutePosition 506.89/76.20/550.84
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create portablel_m1
+Object.absolutePosition 505.63/76.19/553.56
+Object.rotation -92.32/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create hothcrategrey
+Object.absolutePosition 536.44/76.21/542.75
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create hothcrategrey
+Object.absolutePosition 536.30/76.29/554.18
+Object.rotation -42.84/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create stecrate1_m1
+Object.absolutePosition 537.13/76.25/535.65
+Object.rotation -20.05/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create stecrate1_m1
+Object.absolutePosition 542.83/76.21/590.47
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create stecrate1_m1
+Object.absolutePosition 543.37/76.33/585.87
+Object.rotation -33.95/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create stecrate1_m1
+Object.absolutePosition 528.53/76.18/471.41
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create stecrate1_m1
+Object.absolutePosition 528.49/76.18/468.46
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create stecrate1_m1
+Object.absolutePosition 504.54/76.41/507.31
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create stecrate1_m1
+Object.absolutePosition 507.54/76.51/507.38
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create wreck_landspeeder_static
+Object.absolutePosition 485.43/76.44/515.61
+Object.rotation -50.00/0.00/-92.16
+rem
+rem ***  ***
+rem
+Object.create stecrate1_m1
+Object.absolutePosition 488.03/76.19/532.47
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create stecrate1_m1
+Object.absolutePosition 488.53/76.44/595.48
+Object.rotation -12.75/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create stecrate1_m1
+Object.absolutePosition 489.73/76.35/589.77
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create evaporator
+Object.absolutePosition 528.11/76.20/617.98
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create evaporator
+Object.absolutePosition 513.01/76.20/617.92
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create stecrate1_m1
+Object.absolutePosition 520.30/76.19/602.07
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create stecrate1_m1
+Object.absolutePosition 527.75/76.19/602.39
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create evaporator
+Object.absolutePosition 517.55/76.19/595.91
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create stecrate1_m1
+Object.absolutePosition 554.68/76.18/601.46
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create evaporator
+Object.absolutePosition 545.82/76.24/478.13
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create stecrate1_m1
+Object.absolutePosition 536.29/76.20/517.16
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create stecrate1_m1
+Object.absolutePosition 534.86/76.18/513.33
+Object.rotation -26.43/0.00/0.00

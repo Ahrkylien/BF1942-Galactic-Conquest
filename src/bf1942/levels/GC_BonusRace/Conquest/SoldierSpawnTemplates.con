@@ -1,0 +1,74 @@
+rem SoldierSpawnTemplates.con created by Battlecraft 1942
+rem (\Program Files\Battlefield 1942\Mods\GCMOD\bf1942\levels\GC_Race/conquest/SoldierSpawnTemplates.con)
+
+rem ----------------------------------------- 
+rem ---  AxisBase_Spawn1  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint AxisBase_Spawn1
+ObjectTemplate.setSpawnId 0
+ObjectTemplate.setGroup 1
+
+rem ----------------------------------------- 
+rem ---  AlliedBase_Spawn1  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint AlliedBase_Spawn1
+ObjectTemplate.setSpawnId 1
+ObjectTemplate.setGroup 2
+
+rem ----------------------------------------- 
+rem ---  SpeederbikeI_Spawn1  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint SpeederbikeI_Spawn1
+ObjectTemplate.setSpawnId 2
+ObjectTemplate.setGroup 3
+
+rem ----------------------------------------- 
+rem ---  SpeedbikeR_Spawn1  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint SpeedbikeR_Spawn1
+ObjectTemplate.setSpawnId 3
+ObjectTemplate.setGroup 4
+
+rem ----------------------------------------- 
+rem ---  Imperial_Ships_Spawn1  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Imperial_Ships_Spawn1
+ObjectTemplate.setSpawnId 4
+ObjectTemplate.setGroup 5
+
+rem ----------------------------------------- 
+rem ---  Rebel_Ships_Spawn1  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Rebel_Ships_Spawn1
+ObjectTemplate.setSpawnId 5
+ObjectTemplate.setGroup 6
+
+rem ----------------------------------------- 
+rem ---  SkyhopperI_Spawn1  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint SkyhopperI_Spawn1
+ObjectTemplate.setSpawnId 6
+ObjectTemplate.setGroup 1
+
+rem ----------------------------------------- 
+rem ---  SkyhopperR_Spawn1  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint SkyhopperR_Spawn1
+ObjectTemplate.setSpawnId 7
+ObjectTemplate.setGroup 2
+
+rem ----------------------------------------- 
+rem ---  SpeedbikeR_Spawn2  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint SpeedbikeR_Spawn2
+ObjectTemplate.setSpawnId 8
+ObjectTemplate.setGroup 4
+
+rem ----------------------------------------- 
+rem ---  SpeederbikeI_Spawn2  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint SpeederbikeI_Spawn2
+ObjectTemplate.setSpawnId 9
+ObjectTemplate.setGroup 3
+
+rem EndOfFile

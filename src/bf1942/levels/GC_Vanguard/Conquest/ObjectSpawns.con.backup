@@ -1,0 +1,110 @@
+rem
+rem ***  ***
+rem
+Object.create bwingspawner
+Object.absolutePosition 230.931/351.368/234.73
+Object.rotation 97/0/0
+Object.setOSId 1
+rem
+rem ***  ***
+rem
+Object.create awingspawner
+Object.absolutePosition 246.535/351.385/193.331
+Object.rotation 39.9999/0/0
+Object.setOSId 1
+rem
+rem ***  ***
+rem
+Object.create xwingspawner
+Object.absolutePosition 250.189/350.852/254.616
+Object.rotation 188/0/0
+Object.setOSId 1
+rem
+rem ***  ***
+rem
+Object.create awingspawner
+Object.absolutePosition 230.4/351.305/195.867
+Object.rotation 46.9999/0/0
+Object.setOSId 1
+rem
+rem ***  ***
+rem
+Object.create tiebomberspawner
+Object.absolutePosition 82.5363/375.182/3940.82
+Object.rotation 128/0/0
+Object.setOSId 2
+rem
+rem ***  ***
+rem
+Object.create tieinterceptorspanwer
+Object.absolutePosition 67.55/375.937/3925.13
+Object.rotation 131/0/0
+Object.setOSId 2
+rem
+rem ***  ***
+rem
+Object.create tiefighterspawner
+Object.absolutePosition 57.5871/377.436/3908.54
+Object.rotation 131/0/0
+Object.setOSId 2
+rem
+rem ***  ***
+rem
+Object.create lancerrunnerspawner1
+Object.absolutePosition 3112.13/310.44/3020.12
+Object.rotation -60/0/0
+Object.setOSId 3
+rem
+rem ***  ***
+rem
+Object.create lancerrunner2
+Object.absolutePosition 3564.31/206.28/694.645
+Object.rotation 38/0/0
+Object.setOSId 4
+rem
+rem ***  ***
+rem
+Object.create Point1Spawns
+Object.absolutePosition 3004.6/320.927/2907.28
+Object.setOSId 3
+rem
+rem ***  ***
+rem
+Object.create Point1Spawns
+Object.absolutePosition 2937.76/321.83/3017.06
+Object.setOSId 3
+rem
+rem ***  ***
+rem
+Object.create point2defence
+Object.absolutePosition 1533.92/340.452/1709.58
+Object.rotation 80/0/0
+Object.setOSId 5
+rem
+rem ***  ***
+rem
+Object.create point2defence
+Object.absolutePosition 1494.23/335.912/1632.57
+Object.rotation -32/0/0
+Object.setOSId 5
+rem
+rem ***  ***
+rem
+Object.create point2defence
+Object.absolutePosition 1631.02/331.682/1614.48
+Object.rotation 80/0/-14
+Object.setOSId 5
+rem
+rem ***  ***
+rem
+Object.create point3defence
+Object.absolutePosition 3511.27/211.85/853.315
+Object.rotation 142/0/4
+Object.setOSId 4
+rem
+rem ***  ***
+rem
+Object.create point3defence
+Object.absolutePosition 3406.93/207.956/754.82
+Object.rotation 145/0/0
+Object.setOSId 4

@@ -1,4 +1,29 @@
 rem ************** Spawn Groups for vehicle and objects ********************
+rem --------------------------------------------------
+
+rem *** yt600 ***
+spawnPointManager.group 60
+spawnPointManager.groupTeam 1
+spawnPointManager.groupIcon test2.tga
+rem spawnPointManager.groupStatus 0
+
+rem *** yt6002 ***
+spawnPointManager.group 61
+spawnPointManager.groupTeam 1
+spawnPointManager.groupIcon test2.tga
+rem spawnPointManager.groupStatus 0
+
+rem *** yt600 ***
+spawnPointManager.group 62
+spawnPointManager.groupTeam 2
+spawnPointManager.groupIcon test2.tga
+rem spawnPointManager.groupStatus 0
+
+rem *** yt6002 ***
+spawnPointManager.group 63
+spawnPointManager.groupTeam 2
+spawnPointManager.groupIcon test2.tga
+rem spawnPointManager.groupStatus 0
 
 rem -------------------------------------------------------------------
 

@@ -1,0 +1,36 @@
+rem
+rem ***  ***
+rem
+Object.create tl-21_kit_spawner
+Object.absolutePosition 1064.13/63.8557/995.435
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+rem
+rem ***  ***
+rem
+Object.create tl-21_kit_spawner
+Object.absolutePosition 1064.13/63.8557/996.57
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+rem
+rem ***  ***
+rem
+Object.create tl-21_kit_spawner
+Object.absolutePosition 928.93/63.7322/862.453
+Object.setTeam 2
+rem
+rem ***  ***
+rem
+rem
+rem ***  ***
+rem
+Object.create tl-21_kit_spawner
+Object.absolutePosition 928.93/63.7322/861.318
+Object.setTeam 2
+rem
+rem ***  ***
+rem

@@ -1,0 +1,116 @@
+rem SoldierSpawns.con created by Battlecraft 1942
+rem (\Program Files\Battlefield 1942\Mods\GCMOD\bf1942\levels\GC_Mini_Wayfar/conquest/SoldierSpawns.con)
+
+rem ----------------------------------------- 
+rem ---  Imperial_Base_Spawn1  ---
+rem ----------------------------------------- 
+Object.create Imperial_Base_Spawn1
+Object.absolutePosition 512.41/76.16/469.29
+Object.rotation 89.17/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Imperial_Base_Spawn2  ---
+rem ----------------------------------------- 
+Object.create Imperial_Base_Spawn2
+Object.absolutePosition 521.98/76.17/459.42
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Imperial_Base_Spawn3  ---
+rem ----------------------------------------- 
+Object.create Imperial_Base_Spawn3
+Object.absolutePosition 505.67/76.17/464.51
+Object.rotation 89.19/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Rebel_Base_Spawn1  ---
+rem ----------------------------------------- 
+Object.create Rebel_Base_Spawn1
+Object.absolutePosition 511.38/76.18/626.91
+Object.rotation -182.85/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Rebel_Base_Spawn2  ---
+rem ----------------------------------------- 
+Object.create Rebel_Base_Spawn2
+Object.absolutePosition 496.63/76.22/630.25
+Object.rotation -91.32/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Rebel_Base_Spawn3  ---
+rem ----------------------------------------- 
+Object.create Rebel_Base_Spawn3
+Object.absolutePosition 528.10/76.17/640.25
+Object.rotation 88.68/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Cargo_Hold_Spawn1  ---
+rem ----------------------------------------- 
+Object.create Cargo_Hold_Spawn1
+Object.absolutePosition 576.02/76.21/536.05
+Object.rotation -48.53/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Cargo_Hold_Spawn2  ---
+rem ----------------------------------------- 
+Object.create Cargo_Hold_Spawn2
+Object.absolutePosition 544.12/76.19/567.81
+Object.rotation 129.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Bazaar_Spawn1  ---
+rem ----------------------------------------- 
+Object.create Bazaar_Spawn1
+Object.absolutePosition 462.22/76.15/533.95
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Bazaar_Spawn2  ---
+rem ----------------------------------------- 
+Object.create Bazaar_Spawn2
+Object.absolutePosition 509.66/76.16/557.08
+Object.rotation -140.67/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Bazaar_Spawn3  ---
+rem ----------------------------------------- 
+Object.create Bazaar_Spawn3
+Object.absolutePosition 462.97/76.26/557.50
+Object.rotation 92.99/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Bazaar_Spawn4  ---
+rem ----------------------------------------- 
+Object.create Bazaar_Spawn4
+Object.absolutePosition 509.39/76.20/534.13
+Object.rotation -51.40/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Cargo_Hold_Spawn3  ---
+rem ----------------------------------------- 
+Object.create Cargo_Hold_Spawn3
+Object.absolutePosition 577.68/76.19/566.91
+Object.rotation -146.87/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Cargo_Hold_Spawn4  ---
+rem ----------------------------------------- 
+Object.create Cargo_Hold_Spawn4
+Object.absolutePosition 541.99/76.20/535.88
+Object.rotation 41.40/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Imperial_Base_Spawn4  ---
+rem ----------------------------------------- 
+Object.create Imperial_Base_Spawn4
+Object.absolutePosition 537.05/76.33/482.00
+Object.rotation -180.48/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Rebel_Base_Spawn4  ---
+rem ----------------------------------------- 
+Object.create Rebel_Base_Spawn4
+Object.absolutePosition 519.92/76.19/628.23
+Object.rotation 0.00/0.00/0.00
+
+rem EndOfFile

@@ -1,0 +1,49 @@
+rem ObjectSpawnTemplates.con created by Battlecraft 1942
+rem (\Program Files\Battlefield 1942\Mods\GCMOD\bf1942\levels\GC_Mini_Wasteland/conquest/ObjectSpawnTemplates.con)
+
+rem ----------------------------------------- 
+rem ---  Armor_Spawner  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner Armor_Spawner
+ObjectTemplate.setObjectTemplate 1 firehawke
+ObjectTemplate.setObjectTemplate 2 t-3b
+ObjectTemplate.MinSpawnDelay 30
+ObjectTemplate.MaxSpawnDelay 45
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.maxNrOfObjectSpawned 1
+ObjectTemplate.teamOnVehicle 0
+
+rem ----------------------------------------- 
+rem ---  Speeder_Spawner  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner Speeder_Spawner
+ObjectTemplate.setObjectTemplate 1 speederbike
+ObjectTemplate.setObjectTemplate 2 speederbike
+ObjectTemplate.MinSpawnDelay 15
+ObjectTemplate.MaxSpawnDelay 25
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.maxNrOfObjectSpawned 1
+ObjectTemplate.teamOnVehicle 0
+
+rem ----------------------------------------- 
+rem ---  HW_Spawner  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner HW_Spawner
+ObjectTemplate.setObjectTemplate 1 tl-21_kit
+ObjectTemplate.setObjectTemplate 2 rebel_tracker
+ObjectTemplate.MinSpawnDelay 15
+ObjectTemplate.MaxSpawnDelay 20
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.maxNrOfObjectSpawned 1
+ObjectTemplate.teamOnVehicle 0
+
+rem EndOfFile

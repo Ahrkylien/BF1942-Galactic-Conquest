@@ -184,4 +184,4 @@ ObjectTemplate.geometry Wreck_EWing1_M1
 rem *** EWingLodSelector ***
 LodSelectorTemplate.create DistCompareSelector2 EWingLodSelector
 LodSelectorTemplate.hasDestroyedLod 1
-LodSelectorTemplate.addLodDistance 800
+LodSelectorTemplate.addLodDistance 100

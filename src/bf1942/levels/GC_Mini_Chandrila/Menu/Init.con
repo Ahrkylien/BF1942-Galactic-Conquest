@@ -1,0 +1,10 @@
+rem *********************************************
+rem Created by Battlecraft 1942.  Copyright (c)2003,2004 Digital Illusions CE
+rem *********************************************
+Game.setLocalized 1
+
+game.setLoadPicture ../../bf1942/levels/GC_Mini_Chandrila/Menu/loadscreen.tga
+game.setServerInfoIcon ../../bf1942/levels/GC_Mini_Chandrila/menu/serverInfo.dds
+game.setMultiplayerBriefingObjectives "The Peaks of Chandrila were once used for Jedi physical endurance tests before the underground Jedi Academy was abandoned. With the increase of rebel activity in the sector the Empire has sent scout troopers to investigate the academy and surrounding area..."
+
+game.setMapId "GCMOD"

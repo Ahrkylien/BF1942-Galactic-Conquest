@@ -1,1273 +1,1674 @@
-rem StaticObjects created by Battlecraft 1942
 rem
 rem ***  ***
 rem
 Object.create ctown_base1
-Object.absolutePosition 1006.11/250.00/1004.26
-Object.rotation 0.00/0.00/0.00
+Object.absolutePosition 1006.11/250/1004.26
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_base2
-Object.absolutePosition 1006.11/250.00/1004.26
-Object.rotation 0.00/0.00/0.00
+Object.absolutePosition 1006.11/250/1004.26
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_base3
-Object.absolutePosition 1006.11/250.00/1004.26
-Object.rotation 0.00/0.00/0.00
+Object.absolutePosition 1006.11/250/1004.26
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_base4
-Object.absolutePosition 1006.11/250.00/1004.26
-Object.rotation 0.00/0.00/0.00
+Object.absolutePosition 1006.11/250/1004.26
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_building1
 Object.absolutePosition 854.69/285.47/1004.16
-Object.rotation -180.00/0.00/0.00
+Object.Rotation -180/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_building2
-Object.absolutePosition 1127.11/251.79/1019.20
-Object.rotation 0.00/0.00/0.00
+Object.absolutePosition 1127.11/251.79/1019.2
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_building3
 Object.absolutePosition 1133.17/251.79/988.51
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_building4
-Object.absolutePosition 1147.30/251.72/965.94
-Object.rotation 0.00/0.00/0.00
+Object.absolutePosition 1147.3/251.72/965.94
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_building5
-Object.absolutePosition 1109.47/251.72/963.00
-Object.rotation 0.00/0.00/0.00
+Object.absolutePosition 1109.47/251.72/963
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_building6
-Object.absolutePosition 1097.63/251.80/1066.77
-Object.rotation 0.00/0.00/0.00
+Object.absolutePosition 1097.63/251.8/1066.77
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_building7
 Object.absolutePosition 1146.03/271.56/1046.01
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_building8
 Object.absolutePosition 1208.51/282.58/1004.18
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_building9
-Object.absolutePosition 1114.65/251.80/1046.96
-Object.rotation 0.00/0.00/0.00
+Object.absolutePosition 1114.65/251.8/1046.96
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_building10
 Object.absolutePosition 1134.36/251.82/1032.69
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_building11
-Object.absolutePosition 1141.70/256.20/947.63
-Object.rotation 0.00/0.00/0.00
+Object.absolutePosition 1141.7/256.2/947.63
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_building12
 Object.absolutePosition 1141.43/251.72/947.81
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_landing
 Object.absolutePosition 1199.66/259.71/1004.16
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_staircase1
 Object.absolutePosition 1113.11/253.57/1046.93
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_uplevel
 Object.absolutePosition 1006.23/274.14/1004.36
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_walkway1
 Object.absolutePosition 1109.43/279.11/963.06
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_walkway7
 Object.absolutePosition 803.81/282.58/1004.18
-Object.rotation -180.00/0.00/0.00
+Object.Rotation -180/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_walkway8
 Object.absolutePosition 825.47/280.25/1000.86
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_walkway9
 Object.absolutePosition 803.81/282.58/1004.18
-Object.rotation -180.00/0.00/0.00
+Object.Rotation -180/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_walkway2
 Object.absolutePosition 1147.29/280.12/965.92
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_walkway3
 Object.absolutePosition 1157.63/280.13/1004.16
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_walkway4
-Object.absolutePosition 1127.11/251.79/1019.20
-Object.rotation 0.00/0.00/0.00
+Object.absolutePosition 1127.11/251.79/1019.2
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_walkway5
 Object.absolutePosition 1146.03/271.56/1046.01
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_walkway6
-Object.absolutePosition 1006.23/251.90/943.31
-Object.rotation 0.00/0.00/0.00
+Object.absolutePosition 1006.23/251.9/943.31
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_wall_curved1
-Object.absolutePosition 1088.85/251.82/913.30
-Object.rotation -180.00/0.00/0.00
+Object.absolutePosition 1088.85/251.82/913.3
+Object.Rotation -180/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_building5
-Object.absolutePosition 902.85/251.72/963.00
-Object.rotation 0.00/0.00/0.00
+Object.absolutePosition 902.85/251.72/963
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_building4
 Object.absolutePosition 865.02/251.72/965.94
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_landing
 Object.absolutePosition 812.66/259.71/1004.16
-Object.rotation -180.00/0.00/0.00
+Object.Rotation -180/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_building1
 Object.absolutePosition 1157.63/285.47/1004.16
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_building8
 Object.absolutePosition 803.81/282.58/1004.18
-Object.rotation -180.00/0.00/0.00
+Object.Rotation -180/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_walkway7
 Object.absolutePosition 1208.51/282.58/1004.18
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_walkway8
 Object.absolutePosition 1186.85/280.25/1000.86
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_walkway9
 Object.absolutePosition 1208.51/282.58/1004.18
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_building2
-Object.absolutePosition 885.21/251.79/1019.20
-Object.rotation -180.00/0.00/0.00
+Object.absolutePosition 885.21/251.79/1019.2
+Object.Rotation -180/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_building7
 Object.absolutePosition 866.29/271.56/1046.01
-Object.rotation -180.00/0.00/0.00
+Object.Rotation -180/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_building6
-Object.absolutePosition 908.16/251.80/920.10
-Object.rotation 0.00/0.00/0.00
+Object.absolutePosition 908.16/251.8/920.1
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_building3
 Object.absolutePosition 886.65/251.79/918.45
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_building11
-Object.absolutePosition 870.62/256.20/947.63
-Object.rotation -180.00/0.00/0.00
+Object.absolutePosition 870.62/256.2/947.63
+Object.Rotation -180/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_building10_flipped
 Object.absolutePosition 877.96/251.82/1032.69
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_building12_flipped
 Object.absolutePosition 870.89/251.72/947.81
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_walkway1_flipped
 Object.absolutePosition 902.89/279.11/963.06
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_walkway2_flipped
 Object.absolutePosition 865.03/280.12/965.92
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_walkway3_flipped
 Object.absolutePosition 854.69/280.13/1004.16
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_walkway4_flipped
-Object.absolutePosition 885.21/251.79/1019.20
-Object.rotation 0.00/0.00/0.00
+Object.absolutePosition 885.21/251.79/1019.2
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_walkway5_flipped
 Object.absolutePosition 866.29/271.56/1046.01
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_wall_curved1_flipped
 Object.absolutePosition 925.41/251.82/900.96
-Object.rotation -180.00/0.00/0.00
+Object.Rotation -180/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_building9_flipped
-Object.absolutePosition 897.67/251.80/1046.96
-Object.rotation 0.00/0.00/0.00
+Object.absolutePosition 897.67/251.8/1046.96
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_staircase1_flipped
 Object.absolutePosition 899.21/253.57/1046.93
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_pipe
 Object.absolutePosition 1044.64/255.36/1004.16
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_pipe
 Object.absolutePosition 967.84/255.36/1004.16
-Object.rotation -180.00/0.00/0.00
+Object.Rotation -180/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_pole1
-Object.absolutePosition 770.48/268.30/975.82
-Object.rotation 0.00/0.00/0.00
+Object.absolutePosition 770.48/268.3/975.82
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_pole1
-Object.absolutePosition 770.48/268.30/1032.50
-Object.rotation 0.00/0.00/0.00
+Object.absolutePosition 770.48/268.3/1032.5
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_pole1
-Object.absolutePosition 1241.84/268.30/975.82
-Object.rotation 0.00/0.00/0.00
+Object.absolutePosition 1241.84/268.3/975.82
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_pole1
-Object.absolutePosition 1241.84/268.30/1032.50
-Object.rotation 0.00/0.00/0.00
+Object.absolutePosition 1241.84/268.3/1032.5
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_pilar2
 Object.absolutePosition 1208.47/268.31/1004.18
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_pilar2
 Object.absolutePosition 803.85/268.31/1004.18
-Object.rotation -180.00/0.00/0.00
+Object.Rotation -180/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_rail1
 Object.absolutePosition 1006.15/253.02/1004.21
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_rail2
-Object.absolutePosition 1006.30/252.42/1004.20
-Object.rotation 0.00/0.00/0.00
+Object.absolutePosition 1006.3/252.42/1004.2
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_rail2
-Object.absolutePosition 1006.30/252.42/1004.20
-Object.rotation -180.00/0.00/0.00
+Object.absolutePosition 1006.3/252.42/1004.2
+Object.Rotation -180/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_uplevel_rail
 Object.absolutePosition 1006.23/274.14/1004.36
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_walkway1_rail1
 Object.absolutePosition 1109.43/279.11/963.06
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_walkway4_rails1
-Object.absolutePosition 1127.11/251.79/1019.20
-Object.rotation 0.00/0.00/0.00
+Object.absolutePosition 1127.11/251.79/1019.2
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_walkway4_rails2
-Object.absolutePosition 1127.11/251.79/1019.20
-Object.rotation 0.00/0.00/0.00
+Object.absolutePosition 1127.11/251.79/1019.2
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_pilar1
 Object.absolutePosition 1021.24/251.72/985.16
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_pilar1
 Object.absolutePosition 991.24/251.72/985.16
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_pilar1
 Object.absolutePosition 1006.23/251.72/1040.95
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_walkway1_rail1_flipped
 Object.absolutePosition 902.89/279.11/963.06
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_walkway4_rails1_flipped
-Object.absolutePosition 885.21/251.79/1019.20
-Object.rotation 0.00/0.00/0.00
+Object.absolutePosition 885.21/251.79/1019.2
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_walkway4_rails2_flipped
-Object.absolutePosition 885.21/251.79/1019.20
-Object.rotation 0.00/0.00/0.00
+Object.absolutePosition 885.21/251.79/1019.2
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_statue2
-Object.absolutePosition 1006.23/267.10/938.29
-Object.rotation 0.00/0.00/0.00
+Object.absolutePosition 1006.23/251.841/836.588
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_building3
 Object.absolutePosition 911.02/251.79/1060.22
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_building3
 Object.absolutePosition 1130.05/251.79/1074.32
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_building3
-Object.absolutePosition 1080.00/251.79/1111.76
-Object.rotation 0.00/0.00/0.00
+Object.absolutePosition 1080/251.79/1111.76
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_building3
 Object.absolutePosition 1014.73/251.79/1154.63
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_building3
 Object.absolutePosition 1063.06/251.79/870.78
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_building3
 Object.absolutePosition 937.76/251.79/1116.95
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_building3
 Object.absolutePosition 1037.28/251.79/1153.66
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_building3
 Object.absolutePosition 1025.43/251.79/1054.95
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_building3
 Object.absolutePosition 948.82/251.79/870.78
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_building4
 Object.absolutePosition 1026.62/251.72/1095.06
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_building4
 Object.absolutePosition 1116.74/251.72/893.52
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_building4
 Object.absolutePosition 1086.06/251.72/1136.97
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_building4
 Object.absolutePosition 967.52/251.72/1149.96
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_building4
 Object.absolutePosition 865.33/251.72/1073.42
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_building4
 Object.absolutePosition 917.39/251.72/1082.85
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_building4
 Object.absolutePosition 1078.43/251.72/963.11
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_building4
 Object.absolutePosition 978.37/251.72/975.15
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_building4
-Object.absolutePosition 946.02/251.72/1098.90
-Object.rotation 0.00/0.00/0.00
+Object.absolutePosition 946.02/251.72/1098.9
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_building4
 Object.absolutePosition 1073.21/251.72/1071.38
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_building4
 Object.absolutePosition 895.38/251.72/893.39
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_building6
-Object.absolutePosition 1060.53/251.80/1117.53
-Object.rotation -180.00/0.00/0.00
+Object.absolutePosition 1060.53/251.8/1117.53
+Object.Rotation -180/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_building6
-Object.absolutePosition 948.86/251.80/1080.66
-Object.rotation 90.00/0.00/0.00
+Object.absolutePosition 948.86/251.8/1080.66
+Object.Rotation 90/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_building6
-Object.absolutePosition 912.35/251.80/1114.34
-Object.rotation -180.00/0.00/0.00
+Object.absolutePosition 912.35/251.8/1114.34
+Object.Rotation -180/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_building6
-Object.absolutePosition 1109.51/251.80/920.10
-Object.rotation -90.00/0.00/0.00
+Object.absolutePosition 1109.51/251.8/920.1
+Object.Rotation -90/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_building6
-Object.absolutePosition 883.60/251.80/998.58
-Object.rotation 90.00/0.00/0.00
+Object.absolutePosition 883.6/251.8/998.58
+Object.Rotation 90/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_building6
 Object.absolutePosition 994.13/251.77/1132.39
-Object.rotation 90.00/0.00/0.00
+Object.Rotation 90/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_wall_curved1
 Object.absolutePosition 1163.52/251.82/972.64
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_wall_curved1_flipped
-Object.absolutePosition 848.80/251.82/972.64
-Object.rotation 0.00/0.00/0.00
+Object.absolutePosition 848.8/251.82/972.64
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_building6
-Object.absolutePosition 1045.53/251.80/1010.64
-Object.rotation -90.00/0.00/0.00
+Object.absolutePosition 1045.53/251.8/1010.64
+Object.Rotation -90/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_building3
 Object.absolutePosition 1054.73/251.79/990.06
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_building3
 Object.absolutePosition 1070.81/251.79/990.06
-Object.rotation 90.00/0.00/0.00
+Object.Rotation 90/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_pilar1
-Object.absolutePosition 1048.31/251.72/1055.00
-Object.rotation 0.00/0.00/0.00
+Object.absolutePosition 1048.31/251.72/1055
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_pilar1
 Object.absolutePosition 1075.79/251.72/1041.55
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_pilar1
 Object.absolutePosition 1099.82/251.72/1040.79
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_pilar1
 Object.absolutePosition 1099.82/251.72/1010.84
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_pilar1
 Object.absolutePosition 1099.82/251.72/986.77
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_pilar1
-Object.absolutePosition 1062.30/251.72/975.44
-Object.rotation 0.00/0.00/0.00
+Object.absolutePosition 1062.3/251.72/975.44
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_pilar1
-Object.absolutePosition 964.17/251.72/1055.00
-Object.rotation 0.00/0.00/0.00
+Object.absolutePosition 964.17/251.72/1055
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_pilar1
 Object.absolutePosition 950.17/251.72/975.44
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_pilar1
 Object.absolutePosition 912.66/251.72/986.77
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_pilar1
 Object.absolutePosition 912.66/251.72/1010.84
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_pilar1
 Object.absolutePosition 912.66/251.72/1040.79
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_pilar1
 Object.absolutePosition 936.69/251.72/1041.55
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_building15
 Object.absolutePosition 935.74/251.66/1139.64
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_building15
 Object.absolutePosition 983.27/251.66/1075.28
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_building15
 Object.absolutePosition 1029.97/251.66/1120.88
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_building15
 Object.absolutePosition 948.32/251.66/938.87
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_building15
 Object.absolutePosition 1063.69/251.66/938.87
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_building15
 Object.absolutePosition 948.32/251.66/907.46
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_building15
 Object.absolutePosition 1063.69/251.66/907.46
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_building3
 Object.absolutePosition 957.75/251.79/990.06
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_building3
 Object.absolutePosition 941.67/251.79/990.06
-Object.rotation -90.00/0.00/0.00
+Object.Rotation -90/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_building6
-Object.absolutePosition 966.95/251.80/1010.64
-Object.rotation -90.00/0.00/0.00
+Object.absolutePosition 966.95/251.8/1010.64
+Object.Rotation -90/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_building13
 Object.absolutePosition 1081.96/251.79/1004.28
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_building13
 Object.absolutePosition 930.52/251.79/1004.28
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_building16
 Object.absolutePosition 1061.69/251.78/1032.33
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_building16
 Object.absolutePosition 950.79/251.78/1032.33
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_misc1
 Object.absolutePosition 1074.68/276.37/1019.96
-Object.rotation 50.00/0.00/0.00
+Object.Rotation 50/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_misc1
 Object.absolutePosition 1074.68/291.01/1019.96
-Object.rotation 50.00/0.00/0.00
+Object.Rotation 50/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_misc1
 Object.absolutePosition 1074.68/298.69/1019.96
-Object.rotation 50.00/0.00/0.00
+Object.Rotation 50/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_walkway10
 Object.absolutePosition 1068.45/274.14/1041.82
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_walkway10_flipped
 Object.absolutePosition 944.03/274.14/1041.82
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_walkway11
 Object.absolutePosition 1078.46/274.14/991.07
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_walkway11_flipped
 Object.absolutePosition 934.02/274.14/991.07
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_wall1
 Object.absolutePosition 1006.24/251.78/940.27
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_wall2
 Object.absolutePosition 971.19/254.38/883.15
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_wall2
 Object.absolutePosition 1041.31/254.38/883.15
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_wall4
 Object.absolutePosition 1006.24/251.78/940.27
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_wall3
 Object.absolutePosition 971.09/251.78/915.28
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_wall3
 Object.absolutePosition 1041.24/251.78/915.29
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_building13
-Object.absolutePosition 1037.58/251.79/971.60
-Object.rotation 0.00/0.00/0.00
+Object.absolutePosition 1037.58/251.79/971.6
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_building14
 Object.absolutePosition 1071.96/251.79/1004.28
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_building14
 Object.absolutePosition 940.52/251.79/1004.28
-Object.rotation -180.00/0.00/0.00
+Object.Rotation -180/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_pole1_big
 Object.absolutePosition 971.27/256.92/878.68
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_pole1_big
 Object.absolutePosition 971.27/256.92/866.37
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_pole1_big
 Object.absolutePosition 971.27/256.92/854.06
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_pole1_big
 Object.absolutePosition 1041.33/256.92/878.68
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_pole1_big
 Object.absolutePosition 1041.33/256.92/866.37
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ctown_pole1_big
 Object.absolutePosition 1041.33/256.92/854.06
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create gasmine_bottom
-Object.absolutePosition 277.70/280.00/997.63
-Object.rotation -90.00/0.00/0.00
+Object.absolutePosition 277.7/280/997.63
+Object.Rotation -90/0/0
 rem
 rem ***  ***
 rem
 Object.create gasmine_ll
-Object.absolutePosition 277.70/280.00/997.63
-Object.rotation -90.00/0.00/0.00
+Object.absolutePosition 277.7/280/997.63
+Object.Rotation -90/0/0
 rem
 rem ***  ***
 rem
 Object.create gasmine_lr
-Object.absolutePosition 277.70/280.00/997.63
-Object.rotation -90.00/0.00/0.00
+Object.absolutePosition 277.7/280/997.63
+Object.Rotation -90/0/0
 rem
 rem ***  ***
 rem
 Object.create gasmine_towerbottom
-Object.absolutePosition 277.70/280.00/997.63
-Object.rotation -90.00/0.00/0.00
+Object.absolutePosition 277.7/280/997.63
+Object.Rotation -90/0/0
 rem
 rem ***  ***
 rem
 Object.create gasmine_towertop
-Object.absolutePosition 277.70/280.00/997.63
-Object.rotation -90.00/0.00/0.00
+Object.absolutePosition 277.7/280/997.63
+Object.Rotation -90/0/0
 rem
 rem ***  ***
 rem
 Object.create gasmine_ul
-Object.absolutePosition 277.70/280.00/997.63
-Object.rotation -90.00/0.00/0.00
+Object.absolutePosition 277.7/280/997.63
+Object.Rotation -90/0/0
 rem
 rem ***  ***
 rem
 Object.create gasmine_ur
-Object.absolutePosition 277.70/280.00/997.63
-Object.rotation -90.00/0.00/0.00
+Object.absolutePosition 277.7/280/997.63
+Object.Rotation -90/0/0
 rem
 rem ***  ***
 rem
 Object.create gasmine_tank
-Object.absolutePosition 288.15/280.00/972.42
-Object.rotation -90.00/0.00/0.00
+Object.absolutePosition 288.15/280/972.42
+Object.Rotation -90/0/0
 rem
 rem ***  ***
 rem
 Object.create gasmine_tank
-Object.absolutePosition 302.91/280.00/987.19
-Object.rotation -90.00/0.00/0.00
+Object.absolutePosition 302.91/280/987.19
+Object.Rotation -90/0/0
 rem
 rem ***  ***
 rem
 Object.create gasmine_tank
-Object.absolutePosition 302.91/280.00/1008.08
-Object.rotation -90.00/0.00/0.00
+Object.absolutePosition 302.91/280/1008.08
+Object.Rotation -90/0/0
 rem
 rem ***  ***
 rem
 Object.create gasmine_tank
-Object.absolutePosition 288.15/280.00/1022.84
-Object.rotation -90.00/0.00/0.00
+Object.absolutePosition 288.15/280/1022.84
+Object.Rotation -90/0/0
 rem
 rem ***  ***
 rem
 Object.create gasmine_tank
-Object.absolutePosition 267.26/280.00/972.42
-Object.rotation -90.00/0.00/0.00
+Object.absolutePosition 267.26/280/972.42
+Object.Rotation -90/0/0
 rem
 rem ***  ***
 rem
 Object.create gasmine_tank
-Object.absolutePosition 228.92/280.00/997.63
-Object.rotation -90.00/0.00/0.00
+Object.absolutePosition 228.92/280/997.63
+Object.Rotation -90/0/0
 rem
 rem ***  ***
 rem
 Object.create gasmine_tank
-Object.absolutePosition 243.21/280.00/1032.13
-Object.rotation -90.00/0.00/0.00
+Object.absolutePosition 243.21/280/1032.13
+Object.Rotation -90/0/0
 rem
 rem ***  ***
 rem
 Object.create gasmine_tank
-Object.absolutePosition 312.20/280.00/1032.13
-Object.rotation -90.00/0.00/0.00
+Object.absolutePosition 312.2/280/1032.13
+Object.Rotation -90/0/0
 rem
 rem ***  ***
 rem
 Object.create gasmine_tank
-Object.absolutePosition 312.20/280.00/963.14
-Object.rotation -90.00/0.00/0.00
+Object.absolutePosition 312.2/280/963.14
+Object.Rotation -90/0/0
 rem
 rem ***  ***
 rem
 Object.create gasmine_tank
-Object.absolutePosition 243.21/280.00/963.14
-Object.rotation -90.00/0.00/0.00
+Object.absolutePosition 243.21/280/963.14
+Object.Rotation -90/0/0
 rem
 rem ***  ***
 rem
 Object.create gasmine_tank
-Object.absolutePosition 252.50/280.00/1008.08
-Object.rotation -90.00/0.00/0.00
+Object.absolutePosition 252.5/280/1008.08
+Object.Rotation -90/0/0
 rem
 rem ***  ***
 rem
 Object.create gasmine_tank
-Object.absolutePosition 267.26/280.00/1022.84
-Object.rotation -90.00/0.00/0.00
+Object.absolutePosition 267.26/280/1022.84
+Object.Rotation -90/0/0
 rem
 rem ***  ***
 rem
 Object.create gasmine_tank
-Object.absolutePosition 252.50/280.00/987.19
-Object.rotation -90.00/0.00/0.00
+Object.absolutePosition 252.5/280/987.19
+Object.Rotation -90/0/0
 rem
 rem ***  ***
 rem
 Object.create gasmine_bottom
-Object.absolutePosition 1766.82/280.00/996.65
-Object.rotation 91.50/0.00/0.00
+Object.absolutePosition 1766.82/280/996.65
+Object.Rotation 91.5/0/0
 rem
 rem ***  ***
 rem
 Object.create gasmine_ll
-Object.absolutePosition 1766.82/280.00/996.65
-Object.rotation 91.50/0.00/0.00
+Object.absolutePosition 1766.82/280/996.65
+Object.Rotation 91.5/0/0
 rem
 rem ***  ***
 rem
 Object.create gasmine_lr
-Object.absolutePosition 1766.82/280.00/996.65
-Object.rotation 91.50/0.00/0.00
+Object.absolutePosition 1766.82/280/996.65
+Object.Rotation 91.5/0/0
 rem
 rem ***  ***
 rem
 Object.create gasmine_towerbottom
-Object.absolutePosition 1766.82/280.00/996.65
-Object.rotation 91.50/0.00/0.00
+Object.absolutePosition 1766.82/280/996.65
+Object.Rotation 91.5/0/0
 rem
 rem ***  ***
 rem
 Object.create gasmine_towertop
-Object.absolutePosition 1766.82/280.00/996.65
-Object.rotation 91.50/0.00/0.00
+Object.absolutePosition 1766.82/280/996.65
+Object.Rotation 91.5/0/0
 rem
 rem ***  ***
 rem
 Object.create gasmine_ul
-Object.absolutePosition 1766.82/280.00/996.65
-Object.rotation 91.50/0.00/0.00
+Object.absolutePosition 1766.82/280/996.65
+Object.Rotation 91.5/0/0
 rem
 rem ***  ***
 rem
 Object.create gasmine_ur
-Object.absolutePosition 1766.82/280.00/996.65
-Object.rotation 91.50/0.00/0.00
+Object.absolutePosition 1766.82/280/996.65
+Object.Rotation 91.5/0/0
 rem
 rem ***  ***
 rem
 Object.create gasmine_tank
-Object.absolutePosition 1757.04/280.00/1022.13
-Object.rotation 91.50/0.00/0.00
+Object.absolutePosition 1757.04/280/1022.13
+Object.Rotation 91.5/0/0
 rem
 rem ***  ***
 rem
 Object.create gasmine_tank
-Object.absolutePosition 1741.89/280.00/1007.75
-Object.rotation 91.50/0.00/0.00
+Object.absolutePosition 1741.89/280/1007.75
+Object.Rotation 91.5/0/0
 rem
 rem ***  ***
 rem
 Object.create gasmine_tank
-Object.absolutePosition 1741.34/280.00/986.88
-Object.rotation 91.50/0.00/0.00
+Object.absolutePosition 1741.34/280/986.88
+Object.Rotation 91.5/0/0
 rem
 rem ***  ***
 rem
 Object.create gasmine_tank
-Object.absolutePosition 1755.72/280.00/971.73
-Object.rotation 91.50/0.00/0.00
+Object.absolutePosition 1755.72/280/971.73
+Object.Rotation 91.5/0/0
 rem
 rem ***  ***
 rem
 Object.create gasmine_tank
-Object.absolutePosition 1777.91/280.00/1021.58
-Object.rotation 91.50/0.00/0.00
+Object.absolutePosition 1777.91/280/1021.58
+Object.Rotation 91.5/0/0
 rem
 rem ***  ***
 rem
 Object.create gasmine_tank
-Object.absolutePosition 1815.58/280.00/995.38
-Object.rotation 91.50/0.00/0.00
+Object.absolutePosition 1815.58/280/995.38
+Object.Rotation 91.5/0/0
 rem
 rem ***  ***
 rem
 Object.create gasmine_tank
-Object.absolutePosition 1800.40/280.00/961.27
-Object.rotation 91.50/0.00/0.00
+Object.absolutePosition 1800.4/280/961.27
+Object.Rotation 91.5/0/0
 rem
 rem ***  ***
 rem
 Object.create gasmine_tank
-Object.absolutePosition 1731.43/280.00/963.07
-Object.rotation 91.50/0.00/0.00
+Object.absolutePosition 1731.43/280/963.07
+Object.Rotation 91.5/0/0
 rem
 rem ***  ***
 rem
 Object.create gasmine_tank
-Object.absolutePosition 1733.24/280.00/1032.04
-Object.rotation 91.50/0.00/0.00
+Object.absolutePosition 1733.24/280/1032.04
+Object.Rotation 91.5/0/0
 rem
 rem ***  ***
 rem
 Object.create gasmine_tank
-Object.absolutePosition 1802.20/280.00/1030.23
-Object.rotation 91.50/0.00/0.00
+Object.absolutePosition 1802.2/280/1030.23
+Object.Rotation 91.5/0/0
 rem
 rem ***  ***
 rem
 Object.create gasmine_tank
-Object.absolutePosition 1791.74/280.00/985.56
-Object.rotation 91.50/0.00/0.00
+Object.absolutePosition 1791.74/280/985.56
+Object.Rotation 91.5/0/0
 rem
 rem ***  ***
 rem
 Object.create gasmine_tank
-Object.absolutePosition 1776.59/280.00/971.18
-Object.rotation 91.50/0.00/0.00
+Object.absolutePosition 1776.59/280/971.18
+Object.Rotation 91.5/0/0
 rem
 rem ***  ***
 rem
 Object.create gasmine_tank
-Object.absolutePosition 1792.29/280.00/1006.43
-Object.rotation 91.50/0.00/0.00
+Object.absolutePosition 1792.29/280/1006.43
+Object.Rotation 91.5/0/0
 rem
 rem ***  ***
 rem
 Object.create ammobox
 Object.absolutePosition 1157.78/280.72/998.09
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ammobox
 Object.absolutePosition 1006.91/251.85/954.51
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ammobox
 Object.absolutePosition 1006.19/274.43/1020.28
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
 Object.create ammobox
 Object.absolutePosition 854.73/280.72/1010.98
-Object.rotation 0.00/0.00/0.00
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create barricade3
-Object.absolutePosition 1220.64/268.32/1008.06
-Object.rotation 56.56/0.00/0.00
+Object.create bespin_archway1
+Object.absolutePosition 1072.09/274.281/1054.69
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create barricade3
-Object.absolutePosition 791.54/268.30/1008.54
-Object.rotation -64.12/0.00/0.00
+Object.create bespin_bench1
+Object.absolutePosition 1006.18/274.434/1025.26
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create barricade3
-Object.absolutePosition 791.71/268.30/999.88
-Object.rotation 55.08/0.00/0.00
+Object.create bespin_bench2
+Object.absolutePosition 1019.55/274.438/1014.38
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create barricade2
-Object.absolutePosition 1013.07/274.43/1030.34
-Object.rotation -33.04/0.00/0.00
+Object.create bespin_garden_floor
+Object.absolutePosition 1006.11/251.824/860.146
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create barricade2
-Object.absolutePosition 998.61/274.42/1031.31
-Object.rotation 24.72/0.00/0.00
+Object.create bespin_garden_walls
+Object.absolutePosition 1006.11/251.824/888.056
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create barricade1
-Object.absolutePosition 1015.27/274.42/1039.37
-Object.rotation 83.34/0.00/0.00
+Object.create bespin_monument2
+Object.absolutePosition 1006.26/251.796/888.038
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create barricade1
-Object.absolutePosition 1015.35/274.42/1036.74
-Object.rotation 95.48/0.00/0.00
+Object.create bespin_tree1
+Object.absolutePosition 997.033/252.351/841.613
+Object.Rotation 25/0/0
 rem
 rem ***  ***
 rem
-Object.create barricade1
-Object.absolutePosition 996.86/274.43/1036.06
-Object.rotation 84.11/0.00/0.00
+Object.create bespin_statue3
+Object.absolutePosition 1006.21/251.616/929.146
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create barricade1
-Object.absolutePosition 996.83/274.43/1038.65
-Object.rotation 95.95/0.00/0.00
+Object.create ctown_monument1
+Object.absolutePosition 1006.11/274.373/1033.4
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create barricade3
-Object.absolutePosition 993.48/251.84/915.82
-Object.rotation -50.70/0.00/0.00
+Object.create ctown_uplevel_rail2
+Object.absolutePosition 1006.26/274.41/1009.82
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create barricade3
-Object.absolutePosition 1016.05/251.84/914.78
-Object.rotation 34.41/0.00/0.00
+Object.create ctown_walkway6_pilars
+Object.absolutePosition 1006.23/251.741/943.123
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create barricade1
-Object.absolutePosition 1000.13/251.83/929.66
-Object.rotation 44.41/0.00/0.00
+Object.create ctown_walkway6_rails
+Object.absolutePosition 1006.25/251.541/946.299
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create barricade1
-Object.absolutePosition 1002.64/251.83/927.98
-Object.rotation 18.57/0.00/0.00
+Object.create ctown_walkway10_rails
+Object.absolutePosition 1062.75/274.297/1035.33
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create barricade1
-Object.absolutePosition 1005.34/251.83/927.56
-Object.rotation -3.42/0.00/0.00
+Object.create ctown_walkway11_rails
+Object.absolutePosition 1066.14/274.402/992.336
+Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create barricade1
-Object.absolutePosition 1007.82/251.85/928.72
-Object.rotation -34.18/0.00/0.00
+Object.create bespin_archway1
+Object.absolutePosition 1061.64/274.281/1054.69
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create bespin_archway1
+Object.absolutePosition 1047.27/274.281/1054.65
+Object.Rotation -28.643/0/0
+rem
+rem ***  ***
+rem
+Object.create bespin_archway1
+Object.absolutePosition 1038.2/274.281/1042.28
+Object.Rotation -19.8868/0/0
+rem
+rem ***  ***
+rem
+Object.create bespin_tree1
+Object.absolutePosition 997.033/252.351/867.32
+Object.Rotation 125/0/0
+rem
+rem ***  ***
+rem
+Object.create bespin_tree1
+Object.absolutePosition 997.033/252.351/854.188
+Object.Rotation -160/0/0
+rem
+rem ***  ***
+rem
+Object.create bespin_tree1
+Object.absolutePosition 997.033/252.351/861.017
+Object.Rotation 60/0/0
+rem
+rem ***  ***
+rem
+Object.create bespin_tree1
+Object.absolutePosition 997.033/252.351/848.009
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create bespin_tree1
+Object.absolutePosition 1015.22/252.351/867.32
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create bespin_tree1
+Object.absolutePosition 1015.22/252.351/861.017
+Object.Rotation -95/0/0
+rem
+rem ***  ***
+rem
+Object.create bespin_tree1
+Object.absolutePosition 1015.22/252.351/854.188
+Object.Rotation 125/0/0
+rem
+rem ***  ***
+rem
+Object.create bespin_tree1
+Object.absolutePosition 1015.22/252.351/848.009
+Object.Rotation -30/0/0
+rem
+rem ***  ***
+rem
+Object.create bespin_tree1
+Object.absolutePosition 1015.22/252.351/841.613
+Object.Rotation -110/0/0
+rem
+rem ***  ***
+rem
+Object.create bespin_tree1
+Object.absolutePosition 1015.22/252.351/876.461
+Object.Rotation -70/0/0
+rem
+rem ***  ***
+rem
+Object.create bespin_tree1
+Object.absolutePosition 1015.22/252.351/899.66
+Object.Rotation 165/0/0
+rem
+rem ***  ***
+rem
+Object.create bespin_tree1
+Object.absolutePosition 1019.53/252.351/892.483
+Object.Rotation -120/0/0
+rem
+rem ***  ***
+rem
+Object.create bespin_tree1
+Object.absolutePosition 1019.53/252.351/883.7
+Object.Rotation 100/0/0
+rem
+rem ***  ***
+rem
+Object.create bespin_tree1
+Object.absolutePosition 992.669/252.351/892.452
+Object.Rotation -120/0/0
+rem
+rem ***  ***
+rem
+Object.create bespin_tree1
+Object.absolutePosition 992.669/252.351/883.669
+Object.Rotation 180/0/0
+rem
+rem ***  ***
+rem
+Object.create bespin_tree1
+Object.absolutePosition 996.977/252.351/876.492
+Object.Rotation -45/0/0
+rem
+rem ***  ***
+rem
+Object.create bespin_tree1
+Object.absolutePosition 996.977/252.351/899.691
+Object.Rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create bespin_tree1
+Object.absolutePosition 1015.22/252.351/917.072
+Object.Rotation -135/0/0
+rem
+rem ***  ***
+rem
+Object.create bespin_tree1
+Object.absolutePosition 1015.22/252.351/908.87
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create bespin_tree1
+Object.absolutePosition 997.033/252.351/917.072
+Object.Rotation 70/0/0
+rem
+rem ***  ***
+rem
+Object.create bespin_tree1
+Object.absolutePosition 997.033/252.351/908.87
+Object.Rotation -65/0/0
+rem
+rem ***  ***
+rem
+Object.create bespin_tree1
+Object.absolutePosition 1006.09/252.351/921.499
+Object.Rotation -105/0/0
+rem
+rem ***  ***
+rem
+Object.create bespin_bench2
+Object.absolutePosition 1019.55/274.438/994.443
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create bespin_bench2
+Object.absolutePosition 993.197/274.438/994.443
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create bespin_bench2
+Object.absolutePosition 993.197/274.438/1014.38
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create bespin_bench2
+Object.absolutePosition 1026.29/251.86/903.577
+Object.Rotation -90/0/0
+rem
+rem ***  ***
+rem
+Object.create bespin_bench2
+Object.absolutePosition 1026.29/251.86/872.137
+Object.Rotation -90/0/0
+rem
+rem ***  ***
+rem
+Object.create bespin_bench2
+Object.absolutePosition 986.276/251.86/872.137
+Object.Rotation -90/0/0
+rem
+rem ***  ***
+rem
+Object.create bespin_bench2
+Object.absolutePosition 986.276/251.86/903.577
+Object.Rotation -90/0/0
+rem
+rem ***  ***
+rem
+Object.create bespin_bench1
+Object.absolutePosition 1000.28/274.434/1027.65
+Object.Rotation 45/0/0
+rem
+rem ***  ***
+rem
+Object.create bespin_bench1
+Object.absolutePosition 1012.01/274.434/1027.65
+Object.Rotation -45/0/0
+rem
+rem ***  ***
+rem
+Object.create bespin_bench1
+Object.absolutePosition 1000.31/274.434/1039.14
+Object.Rotation 135/0/0
+rem
+rem ***  ***
+rem
+Object.create bespin_bench1
+Object.absolutePosition 1006.13/274.434/1041.53
+Object.Rotation 180/0/0
+rem
+rem ***  ***
+rem
+Object.create bespin_bench1
+Object.absolutePosition 1012.03/274.434/1039.14
+Object.Rotation -135/0/0
+rem
+rem ***  ***
+rem
+Object.create bespin_bench1
+Object.absolutePosition 1004.05/274.434/1023.93
+Object.Rotation 10/0/0
+rem
+rem ***  ***
+rem
+Object.create bespin_bench1
+Object.absolutePosition 1008.16/274.434/1023.93
+Object.Rotation -10/0/0
+rem
+rem ***  ***
+rem
+Object.create bespin_bench1
+Object.absolutePosition 1012.02/274.434/1011.9
+Object.Rotation -90/0/0
+rem
+rem ***  ***
+rem
+Object.create bespin_bench1
+Object.absolutePosition 1012.02/274.434/997.15
+Object.Rotation -90/0/0
+rem
+rem ***  ***
+rem
+Object.create bespin_bench1
+Object.absolutePosition 1012.02/274.434/1004.54
+Object.Rotation -90/0/0
+rem
+rem ***  ***
+rem
+Object.create bespin_bench1
+Object.absolutePosition 1000.38/274.434/1004.54
+Object.Rotation -90/0/0
+rem
+rem ***  ***
+rem
+Object.create bespin_bench1
+Object.absolutePosition 1000.38/274.434/1011.9
+Object.Rotation -90/0/0
+rem
+rem ***  ***
+rem
+Object.create bespin_bench1
+Object.absolutePosition 1000.38/274.434/997.15
+Object.Rotation -90/0/0
+rem
+rem ***  ***
+rem
+Object.create bespin_bench1
+Object.absolutePosition 1009.33/274.434/990.164
+Object.Rotation -30/0/0
+rem
+rem ***  ***
+rem
+Object.create bespin_bench1
+Object.absolutePosition 1003.12/274.434/990.164
+Object.Rotation 30/0/0
+rem
+rem ***  ***
+rem
+Object.create bespin_bench1
+Object.absolutePosition 1009.67/274.434/972.094
+Object.Rotation -62.8668/0/0
+rem
+rem ***  ***
+rem
+Object.create bespin_bench1
+Object.absolutePosition 1002.77/274.434/972.094
+Object.Rotation -117.98/0/0
+rem
+rem ***  ***
+rem
+Object.create bespin_bench2
+Object.absolutePosition 1006.23/274.438/980.028
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create bespin_bench1
+Object.absolutePosition 1018.6/251.854/888.063
+Object.Rotation -90/0/0
+rem
+rem ***  ***
+rem
+Object.create bespin_bench1
+Object.absolutePosition 1016.77/251.854/894.478
+Object.Rotation -120.86/0/0
+rem
+rem ***  ***
+rem
+Object.create bespin_bench1
+Object.absolutePosition 1016.77/251.854/881.576
+Object.Rotation -58.8287/0/0
+rem
+rem ***  ***
+rem
+Object.create bespin_bench1
+Object.absolutePosition 995.467/251.854/881.6
+Object.Rotation 59.1396/0/0
+rem
+rem ***  ***
+rem
+Object.create bespin_bench1
+Object.absolutePosition 993.642/251.854/888.015
+Object.Rotation 90/0/0
+rem
+rem ***  ***
+rem
+Object.create bespin_bench1
+Object.absolutePosition 995.467/251.854/894.502
+Object.Rotation 121.171/0/0
+rem
+rem ***  ***
+rem
+Object.create bespin_bench1
+Object.absolutePosition 1006.11/251.854/901.103
+Object.Rotation -180/0/0
+rem
+rem ***  ***
+rem
+Object.create bespin_bench1
+Object.absolutePosition 1006.11/251.854/909.777
+Object.Rotation -180/0/0
+rem
+rem ***  ***
+rem
+Object.create bespin_bench1
+Object.absolutePosition 1006.11/251.854/872.947
+Object.Rotation -180/0/0
+rem
+rem ***  ***
+rem
+Object.create bespin_bench1
+Object.absolutePosition 1006.11/251.854/864.273
+Object.Rotation -180/0/0
+rem
+rem ***  ***
+rem
+Object.create bespin_bench1
+Object.absolutePosition 1006.11/251.854/855.65
+Object.Rotation -180/0/0
+rem
+rem ***  ***
+rem
+Object.create bespin_bench1
+Object.absolutePosition 1006.11/251.854/846.976
+Object.Rotation -180/0/0
+rem
+rem ***  ***
+rem
+Object.create ctown_walkway10_rails_mirrored
+Object.absolutePosition 949.76/274.305/1035.29
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create ctown_walkway11_rails_mirrored
+Object.absolutePosition 946.37/274.411/992.307
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create bespin_archway1
+Object.absolutePosition 940.368/274.281/1054.69
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create bespin_archway1
+Object.absolutePosition 950.967/274.281/1054.69
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create bespin_archway1
+Object.absolutePosition 974.226/274.281/1042.27
+Object.Rotation 20/0/0
+rem
+rem ***  ***
+rem
+Object.create bespin_archway1
+Object.absolutePosition 965.234/274.281/1054.66
+Object.Rotation 30.5/0/0

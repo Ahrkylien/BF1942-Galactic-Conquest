@@ -11,11 +11,11 @@ rem -----------------------------------------
 ObjectTemplate.create ControlPoint Imperial_Forward_Command
 ObjectTemplate.networkableInfo ControlPointInfo
 ObjectTemplate.setControlPointName Imperial_Forward_Command
-ObjectTemplate.radius 7
+ObjectTemplate.radius 20
 ObjectTemplate.team 1
 ObjectTemplate.spawnGroupId 1
 ObjectTemplate.objectSpawnerId 1
-ObjectTemplate.areaValue 30
+ObjectTemplate.areaValue 35
 ObjectTemplate.timeToGetControl 10
 ObjectTemplate.timeToLoseControl 10
 ObjectTemplate.disableIfEnemyInsideRadius 0
@@ -35,11 +35,11 @@ rem -----------------------------------------
 ObjectTemplate.create ControlPoint Southern_Habitat
 ObjectTemplate.networkableInfo ControlPointInfo
 ObjectTemplate.setControlPointName Southern_Habitat
-ObjectTemplate.radius 17
+ObjectTemplate.radius 25
 ObjectTemplate.team 2
 ObjectTemplate.spawnGroupId 5
 ObjectTemplate.objectSpawnerId 5
-ObjectTemplate.areaValue 30
+ObjectTemplate.areaValue 35
 ObjectTemplate.timeToGetControl 10
 ObjectTemplate.timeToLoseControl 10
 ObjectTemplate.disableIfEnemyInsideRadius 0
@@ -59,11 +59,11 @@ rem -----------------------------------------
 ObjectTemplate.create ControlPoint Southern_Pump_Station
 ObjectTemplate.networkableInfo ControlPointInfo
 ObjectTemplate.setControlPointName Southern_Pump_Station
-ObjectTemplate.radius 11
+ObjectTemplate.radius 25
 ObjectTemplate.team 2
 ObjectTemplate.spawnGroupId 4
 ObjectTemplate.objectSpawnerId 4
-ObjectTemplate.areaValue 30
+ObjectTemplate.areaValue 35
 ObjectTemplate.timeToGetControl 10
 ObjectTemplate.timeToLoseControl 10
 ObjectTemplate.disableIfEnemyInsideRadius 0
@@ -83,11 +83,11 @@ rem -----------------------------------------
 ObjectTemplate.create ControlPoint City_Pump_Station
 ObjectTemplate.networkableInfo ControlPointInfo
 ObjectTemplate.setControlPointName City_Pump_Station
-ObjectTemplate.radius 9
+ObjectTemplate.radius 10
 ObjectTemplate.team 2
 ObjectTemplate.spawnGroupId 3
 ObjectTemplate.objectSpawnerId 3
-ObjectTemplate.areaValue 30
+ObjectTemplate.areaValue 35
 ObjectTemplate.timeToGetControl 10
 ObjectTemplate.timeToLoseControl 10
 ObjectTemplate.disableIfEnemyInsideRadius 0
@@ -107,11 +107,11 @@ rem -----------------------------------------
 ObjectTemplate.create ControlPoint City_Dock
 ObjectTemplate.networkableInfo ControlPointInfo
 ObjectTemplate.setControlPointName City_Dock
-ObjectTemplate.radius 8
+ObjectTemplate.radius 10
 ObjectTemplate.team 2
 ObjectTemplate.spawnGroupId 2
 ObjectTemplate.objectSpawnerId 2
-ObjectTemplate.areaValue 30
+ObjectTemplate.areaValue 35
 ObjectTemplate.timeToGetControl 10
 ObjectTemplate.timeToLoseControl 10
 ObjectTemplate.disableIfEnemyInsideRadius 0

@@ -1,0 +1,40 @@
+rem ControlPoints.con created by Battlecraft 1942
+rem (C:\Program Files\EA Games\Battlefield 1942\Mods\GCMOD\bf1942\levels\GC_Mini_Caves/conquest/ControlPoints.con)
+
+rem ----------------------------------------- 
+rem ---  Rebel_Base  ---
+rem ----------------------------------------- 
+Object.create Rebel_Base
+Object.absolutePosition 427.73/102.20/482.25
+
+rem ----------------------------------------- 
+rem ---  Upper_Bridge_Rebel_Side  ---
+rem ----------------------------------------- 
+Object.create Upper_Bridge_Rebel_Side
+Object.absolutePosition 398.13/111.81/558.53
+
+rem ----------------------------------------- 
+rem ---  Lower_Bridge_Rebel_Side  ---
+rem ----------------------------------------- 
+Object.create Lower_Bridge_Rebel_Side
+Object.absolutePosition 447.06/83.23/591.29
+
+rem ----------------------------------------- 
+rem ---  Lower_Bridge_Imperial_Side  ---
+rem ----------------------------------------- 
+Object.create Lower_Bridge_Imperial_Side
+Object.absolutePosition 449.98/84.08/641.15
+
+rem ----------------------------------------- 
+rem ---  Upper_Bridge_Imperial_Side  ---
+rem ----------------------------------------- 
+Object.create Upper_Bridge_Imperial_Side
+Object.absolutePosition 394.25/114.29/659.58
+
+rem ----------------------------------------- 
+rem ---  Imperial_Base  ---
+rem ----------------------------------------- 
+Object.create Imperial_Base
+Object.absolutePosition 394.41/99.76/766.48
+
+rem EndOfFile

@@ -1,0 +1,24 @@
+ObjectTemplate.create Rotationalbundle t16
+ObjectTemplate.setHasCollisionPhysics 0
+ObjectTemplate.setMinRotation 0/0/0
+ObjectTemplate.setMaxRotation 0/0/0
+ObjectTemplate.setMaxSpeed 181/0/0
+ObjectTemplate.setAcceleration 60/0/0
+ObjectTemplate.sethascollisionphysics 1
+ObjectTemplate.addtemplate t162
+ObjectTemplate.setposition 300/0/0
+ObjectTemplate.setContinousRotationSpeed 5/0/0
+
+ObjectTemplate.create rotationalbundle t162
+ObjectTemplate.setHasCollisionPhysics 0
+ObjectTemplate.setMinRotation 0/0/0
+ObjectTemplate.setMaxRotation 0/0/0
+ObjectTemplate.setMaxSpeed 181/0/0
+ObjectTemplate.setAcceleration 60/0/0
+ObjectTemplate.addtemplate skyhopperSimplebundle
+ObjectTemplate.setposition 800/0/0
+ObjectTemplate.setContinousRotationSpeed -5/0/0
+
+ObjectTemplate.create bundle skyhopperSimplebundle
+ObjectTemplate.addtemplate skyhopperSimple
+ObjectTemplate.loadSoundScript t16.ssc

@@ -31,7 +31,7 @@ ObjectTemplate.setAcceleration 0/0/5000
 ObjectTemplate.setInputToRoll c_PIThrottle
 ObjectTemplate.setAutomaticReset 1
 ObjectTemplate.setEngineType c_ETCar
-ObjectTemplate.setTorque 20
+ObjectTemplate.setTorque 25
 ObjectTemplate.setDifferential 10
 ObjectTemplate.setNumberOfGears 5
 ObjectTemplate.setGearUp 0.95

@@ -1,4 +1,7 @@
-rem ################################### Neko&Loop's Lasers #########################
+rem ################################### Lasers #########################
+
+GeometryTemplate.create StandardMesh NoWreck
+GeometryTemplate.file null
 
 rem -------------red---------------
 
@@ -26,6 +29,11 @@ rem GeometryTemplate.setLodDistance 1 10000
 
 GeometryTemplate.create StandardMesh Tlight_g2_m1
 GeometryTemplate.file Effects/Tlight_g2
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 10000
+
+GeometryTemplate.create StandardMesh Tlight_b2_m1
+GeometryTemplate.file Effects/Tlight_b2
 GeometryTemplate.setLodDistance 0 0
 GeometryTemplate.setLodDistance 1 10000
 

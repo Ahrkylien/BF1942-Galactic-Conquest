@@ -13,10 +13,10 @@ ObjectTemplate.explosionRadius 15
 ObjectTemplate.explosionDamage 10
 ObjectTemplate.hasArmor 1
 ObjectTemplate.speedMod .1
-ObjectTemplate.hitpoints 2200
-ObjectTemplate.maxhitpoints 2200
+ObjectTemplate.hitpoints 2500
+ObjectTemplate.maxhitpoints 2500
 ObjectTemplate.material 821
-ObjectTemplate.criticalDamage 120
+ObjectTemplate.criticalDamage 150
 ObjectTemplate.hpLostWhileCriticalDamage 12
 ObjectTemplate.explosionForceMod 10
 ObjectTemplate.addArmorEffect 350 em_ExFumePOW 0/17/-9
@@ -31,6 +31,32 @@ ObjectTemplate.addArmorEffect 120 e_alarm2 0/5/80
 ObjectTemplate.addArmorEffect 120 e_waterBoatSinkEf 0/-2/-5
 ObjectTemplate.addArmorEffect 120 e_waterBoatSinkEf 0/-2/25
 ObjectTemplate.addArmorEffect 120 e_waterBoatSinkEf 0/-2/-35
+ObjectTemplate.fadeAtTimeToLiveAfterDeath 0.01
+
+rem DEATH BLOW
+ObjectTemplate.addArmorEffect 0 e_ExplGas -14.9/0/-10
+ObjectTemplate.addArmorEffect 0 e_ExplGas 16.9/5.83/0
+ObjectTemplate.addArmorEffect 0 e_ExplGas -16.9/5.83/0
+ObjectTemplate.addArmorEffect 0 e_ExplCap 0/0/0
+
+ObjectTemplate.addArmorEffect 12 e_ExplGas 0/4.3/74.3
+ObjectTemplate.addArmorEffect 15 e_ExplGas 0/16/41.9
+ObjectTemplate.addArmorEffect 112 e_ExplGas 16.9/5.83/23
+ObjectTemplate.addArmorEffect 30 e_ExplGas -16.9/5.83/23
+ObjectTemplate.addArmorEffect 50 e_ExplGas 0/0/0
+
+ObjectTemplate.addArmorEffect 130 e_ExplGas 0/4.3/74.3
+ObjectTemplate.addArmorEffect 50 e_ExplGas 0/16/41.9
+ObjectTemplate.addArmorEffect 80 e_ExplGas 16.9/5.83/23
+ObjectTemplate.addArmorEffect 75 e_ExplGas -16.9/5.83/23
+ObjectTemplate.addArmorEffect 40 e_ExplGas 0/0/0
+
+ObjectTemplate.addArmorEffect 144 e_ExplGas 0/4.3/74.3
+ObjectTemplate.addArmorEffect 85 e_ExplGas 0/16/41.9
+ObjectTemplate.addArmorEffect 70 e_ExplGas 16.9/5.83/23
+ObjectTemplate.addArmorEffect 35 e_ExplGas -16.9/5.83/23
+ObjectTemplate.addArmorEffect 30 e_ExplGas 0/0/0
+rem DEATH BLOW
 rem -------------------------------------
 ObjectTemplate.addTemplate lodLancer
 rem -------------------------------------
@@ -58,6 +84,7 @@ ObjectTemplate.hasResponsePhysics 1
 rem -------------------------------------
 ObjectTemplate.addTemplate LancerComplex
 ObjectTemplate.addTemplate LancerSimple
+ObjectTemplate.addTemplate NoWreck
 rem -------------------------------------
 ObjectTemplate.lodSelector LancerLodSelector
 
@@ -88,6 +115,14 @@ ObjectTemplate.addTemplate Capital_Wheel
 ObjectTemplate.setPosition 10/-80/-10
 ObjectTemplate.addTemplate Capital_Wheel
 ObjectTemplate.setPosition -10/-80/-10
+ObjectTemplate.addTemplate Capital_Wheel
+ObjectTemplate.setPosition 10/80/10
+ObjectTemplate.addTemplate Capital_Wheel
+ObjectTemplate.setPosition -10/80/10
+ObjectTemplate.addTemplate Capital_Wheel
+ObjectTemplate.setPosition 10/80/-10
+ObjectTemplate.addTemplate Capital_Wheel
+ObjectTemplate.setPosition -10/80/-10
 ObjectTemplate.addTemplate CapitalBodyWingVertical
 ObjectTemplate.setRotation 0/0/-89.999
 rem ------------------------------------
@@ -360,6 +395,7 @@ ObjectTemplate.geometry Lancerlow
 
 rem *** LodSelector ***
 LodSelectorTemplate.create DistCompareSelector2 LancerLodSelector
+LodSelectorTemplate.hasDestroyedLod 1
 LodSelectorTemplate.addLodDistance 700
 
 rem *** Lancer_Gun_Mesh ***
@@ -409,10 +445,10 @@ ObjectTemplate.explosionRadius 15
 ObjectTemplate.explosionDamage 10
 ObjectTemplate.hasArmor 1
 ObjectTemplate.speedMod 1
-ObjectTemplate.hitpoints 2200
-ObjectTemplate.maxhitpoints 2200
+ObjectTemplate.hitpoints 2500
+ObjectTemplate.maxhitpoints 2500
 ObjectTemplate.material 821
-ObjectTemplate.criticalDamage 120
+ObjectTemplate.criticalDamage 150
 ObjectTemplate.hpLostWhileCriticalDamage 12
 ObjectTemplate.explosionForceMod 10
 ObjectTemplate.addArmorEffect 350 em_ExFumePOW 0/17/-9
@@ -427,6 +463,32 @@ ObjectTemplate.addArmorEffect 120 e_alarm2 0/5/80
 ObjectTemplate.addArmorEffect 120 e_waterBoatSinkEf 0/-2/-5
 ObjectTemplate.addArmorEffect 120 e_waterBoatSinkEf 0/-2/25
 ObjectTemplate.addArmorEffect 120 e_waterBoatSinkEf 0/-2/-35
+ObjectTemplate.fadeAtTimeToLiveAfterDeath 0
+
+rem DEATH BLOW
+ObjectTemplate.addArmorEffect 0 e_ExplGas -14.9/0/-10
+ObjectTemplate.addArmorEffect 0 e_ExplGas 16.9/5.83/0
+ObjectTemplate.addArmorEffect 0 e_ExplGas -16.9/5.83/0
+ObjectTemplate.addArmorEffect 0 e_ExplCap 0/0/0
+
+ObjectTemplate.addArmorEffect 12 e_ExplGas 0/4.3/74.3
+ObjectTemplate.addArmorEffect 15 e_ExplGas 0/16/41.9
+ObjectTemplate.addArmorEffect 112 e_ExplGas 16.9/5.83/23
+ObjectTemplate.addArmorEffect 30 e_ExplGas -16.9/5.83/23
+ObjectTemplate.addArmorEffect 50 e_ExplGas 0/0/0
+
+ObjectTemplate.addArmorEffect 130 e_ExplGas 0/4.3/74.3
+ObjectTemplate.addArmorEffect 50 e_ExplGas 0/16/41.9
+ObjectTemplate.addArmorEffect 80 e_ExplGas 16.9/5.83/23
+ObjectTemplate.addArmorEffect 75 e_ExplGas -16.9/5.83/23
+ObjectTemplate.addArmorEffect 40 e_ExplGas 0/0/0
+
+ObjectTemplate.addArmorEffect 144 e_ExplGas 0/4.3/74.3
+ObjectTemplate.addArmorEffect 85 e_ExplGas 0/16/41.9
+ObjectTemplate.addArmorEffect 70 e_ExplGas 16.9/5.83/23
+ObjectTemplate.addArmorEffect 35 e_ExplGas -16.9/5.83/23
+ObjectTemplate.addArmorEffect 30 e_ExplGas 0/0/0
+rem DEATH BLOW
 rem -------------------------------------
 ObjectTemplate.addTemplate lodLancer
 rem -------------------------------------

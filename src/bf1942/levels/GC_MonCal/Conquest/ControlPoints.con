@@ -5,7 +5,7 @@ rem -----------------------------------------
 rem ---  Imperial_Forward_Command  ---
 rem ----------------------------------------- 
 Object.create Imperial_Forward_Command
-Object.absolutePosition 386.41/104.69/1724.26
+Object.absolutePosition 374.61/104.69/1707.12
 
 rem ----------------------------------------- 
 rem ---  City_Dock  ---
@@ -17,18 +17,18 @@ rem -----------------------------------------
 rem ---  City_Pump_Station  ---
 rem ----------------------------------------- 
 Object.create City_Pump_Station
-Object.absolutePosition 1330.31/93.74/1289.26
+Object.absolutePosition 1330.31/94.42/1289.26
 
 rem ----------------------------------------- 
 rem ---  Southern_Pump_Station  ---
 rem ----------------------------------------- 
 Object.create Southern_Pump_Station
-Object.absolutePosition 1597.82/94.57/453.33
+Object.absolutePosition 1539.76/93.50/475.55
 
 rem ----------------------------------------- 
 rem ---  Southern_Habitat  ---
 rem ----------------------------------------- 
 Object.create Southern_Habitat
-Object.absolutePosition 473.52/93.50/505.05
+Object.absolutePosition 474.00/93.50/513.03
 
 rem EndOfFile

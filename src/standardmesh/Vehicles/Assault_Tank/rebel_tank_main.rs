@@ -1,4 +1,4 @@
-subshader "Rebel_Tank_main_Material0" "StandardMesh/Default"
+subshader "rebel_tank_main_Material0" "StandardMesh/Default"
 {
 	lighting true;
 	lightingSpecular false;
@@ -6,7 +6,7 @@ subshader "Rebel_Tank_main_Material0" "StandardMesh/Default"
 	texture "texture/vehicles/Assault_Tank/rebtank_hull_id1";
 }
 
-subshader "Rebel_Tank_main_Material1" "StandardMesh/Default"
+subshader "rebel_tank_main_Material1" "StandardMesh/Default"
 {
 	lighting true;
 	lightingSpecular false;
@@ -14,7 +14,7 @@ subshader "Rebel_Tank_main_Material1" "StandardMesh/Default"
 	texture "texture/vehicles/Assault_Tank/rebtank_hull_id2";
 }
 
-subshader "Rebel_Tank_main_Material2" "StandardMesh/Default"
+subshader "rebel_tank_main_Material2" "StandardMesh/Default"
 {
 	lighting true;
 	lightingSpecular false;

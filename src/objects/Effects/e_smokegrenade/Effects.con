@@ -46,5 +46,5 @@ ObjectTemplate.XYSizeRatio CRD_NONE/1.0/0/0
 ObjectTemplate.destBlendMode BMInvSourceAlpha
 ObjectTemplate.rotationSpeed CRD_NONE/0/0/0
 ObjectTemplate.rotationSpeedOverTime 0/2.04004|26/3.36|64/3.84002|100/6
-rem ObjectTemplate.colorRGBAOverTime 100/0/0/0/0|100/0/0/0/0|100/0/0/0/0|0/255/255/255/255|0/255/255/255/255|0/255/255/255/255|0/255/255/255/255|55/255/255/255/255|55/255/255/255/255
-ObjectTemplate.colorRGBAOverTime 0/245/219/35/255|65/251/237/81/255|78/252/241/90/167|100/255/248/106/0
+rem ObjectTemplate.colorRGBAOverTime 0/245/219/35/255|65/251/237/81/255|78/252/241/90/167|100/255/248/106/0
+ObjectTemplate.colorRGBAOverTime 0/235/235/255/255|78/235/235/255/167|100/235/235/255/0

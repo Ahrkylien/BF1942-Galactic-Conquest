@@ -2,21 +2,21 @@ rem
 rem ***  ***
 rem
 Object.create mos_eisly_starporttemplate
-Object.absolutePosition 3667.65/17.8006/3581.06
+Object.absolutePosition 2901.02/196.751/1520.98
 Object.setOSId 1970561363
 Object.setTeam 7627091
 rem
 rem ***  ***
 rem
 Object.create cantina
-Object.absolutePosition 3414.61/18.1143/3519.12
+Object.absolutePosition 1984.15/107.406/139.122
 Object.setOSId 1297088589
 Object.setTeam 1090548325
 rem
 rem ***  ***
 rem
 Object.create the_dune_seatemplate
-Object.absolutePosition 620.886/112.219/387.691
+Object.absolutePosition 620.886/83.3789/387.691
 Object.setOSId 6947538
 Object.setTeam 0
 rem
@@ -30,7 +30,7 @@ rem
 rem ***  ***
 rem
 Object.create the_sarlacctemplate
-Object.absolutePosition 3379.2429/101.4622/643.6530
+Object.absolutePosition 3379.24/101.462/643.653
 Object.rotation -6/0/0
 Object.setOSId 0
 Object.setTeam 0
@@ -38,7 +38,7 @@ rem
 rem ***  ***
 rem
 Object.create jawa_camp
-Object.absolutePosition 631.428/79.9987/3365.75
+Object.absolutePosition 1602.72/109.677/1211.48
 Object.rotation -66/0/0
 Object.setOSId 0
 Object.setTeam 0

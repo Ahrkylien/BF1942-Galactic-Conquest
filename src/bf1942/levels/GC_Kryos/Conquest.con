@@ -1,0 +1,20 @@
+rem *********************************************
+rem Created by Battlecraft 1942.  Copyright (c)2003,2004 Digital Illusions CE
+rem *********************************************
+Game.setNumberOfTickets 1 100
+Game.setNumberOfTickets 2 100
+Game.setTicketLostPerMin 1 8
+Game.setTicketLostPerMin 2 8
+
+run Conquest/SpawnpointManagerSettings
+run Conquest/SoldierSpawnTemplates
+run Conquest/SoldierSpawns
+run Conquest/ObjectSpawnTemplates
+run Conquest/ControlPointTemplates
+
+if v_arg1 == host
+run ai
+run Conquest/ObjectSpawns
+run Conquest/ControlPoints
+else
+endIf

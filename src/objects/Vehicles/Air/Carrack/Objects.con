@@ -16,7 +16,7 @@ ObjectTemplate.speedMod .1
 ObjectTemplate.hitpoints 5500
 ObjectTemplate.maxhitpoints 5500
 ObjectTemplate.material 821
-ObjectTemplate.criticalDamage 115
+ObjectTemplate.criticalDamage 150
 ObjectTemplate.hpLostWhileCriticalDamage 12
 ObjectTemplate.explosionForceMod 10
 ObjectTemplate.addArmorEffect 800 em_ExFumePOW 0/17/-9
@@ -30,6 +30,33 @@ ObjectTemplate.addArmorEffect 300 em_FletcherDamage 0/0/110
 ObjectTemplate.addArmorEffect 300 em_FletcherDamage 0/0/110
 ObjectTemplate.addArmorEffect 175 e_carrackalm 0/0/180
 ObjectTemplate.addArmorEffect 175 e_carrackalm 0/0/-100
+ObjectTemplate.fadeAtTimeToLiveAfterDeath 0.01
+rem DEATH BLOW
+ObjectTemplate.addArmorEffect 0 e_ExplGas -14.9/0/-10
+ObjectTemplate.addArmorEffect 0 e_ExplGas 16.9/5.83/0
+ObjectTemplate.addArmorEffect 0 e_ExplGas -16.9/5.83/0
+ObjectTemplate.addArmorEffect 0 e_ExplCap 0/0/0
+
+ObjectTemplate.addArmorEffect 12 e_ExplGas 0/4.3/74.3
+ObjectTemplate.addArmorEffect 15 e_ExplGas 0/16/41.9
+ObjectTemplate.addArmorEffect 112 e_ExplGas 16.9/5.83/23
+ObjectTemplate.addArmorEffect 30 e_ExplGas -16.9/5.83/23
+ObjectTemplate.addArmorEffect 50 e_ExplGas 0/0/0
+
+ObjectTemplate.addArmorEffect 130 e_ExplGas 0/4.3/74.3
+ObjectTemplate.addArmorEffect 50 e_ExplGas 0/16/41.9
+ObjectTemplate.addArmorEffect 80 e_ExplGas 16.9/5.83/23
+ObjectTemplate.addArmorEffect 75 e_ExplGas -16.9/5.83/23
+ObjectTemplate.addArmorEffect 40 e_ExplGas 0/0/0
+
+ObjectTemplate.addArmorEffect 144 e_ExplGas 0/4.3/74.3
+ObjectTemplate.addArmorEffect 85 e_ExplGas 0/16/41.9
+ObjectTemplate.addArmorEffect 70 e_ExplGas 16.9/5.83/23
+ObjectTemplate.addArmorEffect 35 e_ExplGas -16.9/5.83/23
+ObjectTemplate.addArmorEffect 30 e_ExplGas 0/0/0
+rem DEATH BLOW
+
+
 
 rem -------------------------------------
 ObjectTemplate.addTemplate lodCarrack
@@ -62,6 +89,7 @@ ObjectTemplate.hasResponsePhysics 1
 rem -------------------------------------
 ObjectTemplate.addTemplate CarrackComplex
 ObjectTemplate.addTemplate CarrackSimple
+ObjectTemplate.addTemplate NoWreck
 rem -------------------------------------
 ObjectTemplate.lodSelector CarrackLodSelector
 
@@ -92,6 +120,16 @@ ObjectTemplate.addTemplate Capital_Wheel
 ObjectTemplate.setPosition 10/-80/-10
 ObjectTemplate.addTemplate Capital_Wheel
 ObjectTemplate.setPosition -10/-80/-10
+
+ObjectTemplate.addTemplate Capital_Wheel
+ObjectTemplate.setPosition 10/80/10
+ObjectTemplate.addTemplate Capital_Wheel
+ObjectTemplate.setPosition -10/80/10
+ObjectTemplate.addTemplate Capital_Wheel
+ObjectTemplate.setPosition 10/80/-10
+ObjectTemplate.addTemplate Capital_Wheel
+ObjectTemplate.setPosition -10/80/-10
+
 ObjectTemplate.addTemplate CapitalBodyWingVertical
 ObjectTemplate.setRotation 0/0/-89.999
 rem ------------------------------------
@@ -298,8 +336,8 @@ ObjectTemplate.setPosition 0/0/0
 ObjectTemplate.addTemplate LancerGunnerCamera2
 ObjectTemplate.setPosition 0/-2.5/0
 rem -------------------------------------
-ObjectTemplate.setMinRotation -35/-30/0
-ObjectTemplate.setMaxRotation 35/30/0
+ObjectTemplate.setMinRotation -25/-20/0
+ObjectTemplate.setMaxRotation 25/20/0
 ObjectTemplate.setMaxSpeed 20/20/0
 ObjectTemplate.setAcceleration 5000/5000/0
 ObjectTemplate.setInputToYaw c_PIMouseLookX
@@ -385,6 +423,7 @@ ObjectTemplate.geometry Carracklow
 
 rem *** LodSelector ***
 LodSelectorTemplate.create DistCompareSelector2 CarrackLodSelector
+LodSelectorTemplate.hasDestroyedLod 1
 LodSelectorTemplate.addLodDistance 900
 
 rem *** Lancer_Gun_Mesh ***
@@ -437,6 +476,32 @@ ObjectTemplate.addArmorEffect 300 em_FletcherDamage 0/0/110
 ObjectTemplate.addArmorEffect 300 em_FletcherDamage 0/0/110
 ObjectTemplate.addArmorEffect 175 e_carrackalm 0/0/180
 ObjectTemplate.addArmorEffect 175 e_carrackalm 0/0/-100
+ObjectTemplate.fadeAtTimeToLiveAfterDeath 0
+
+rem DEATH BLOW
+ObjectTemplate.addArmorEffect 0 e_ExplGas -14.9/0/-10
+ObjectTemplate.addArmorEffect 0 e_ExplGas 16.9/5.83/0
+ObjectTemplate.addArmorEffect 0 e_ExplGas -16.9/5.83/0
+ObjectTemplate.addArmorEffect 0 e_ExplCap 0/0/0
+
+ObjectTemplate.addArmorEffect 12 e_ExplGas 0/4.3/74.3
+ObjectTemplate.addArmorEffect 15 e_ExplGas 0/16/41.9
+ObjectTemplate.addArmorEffect 112 e_ExplGas 16.9/5.83/23
+ObjectTemplate.addArmorEffect 30 e_ExplGas -16.9/5.83/23
+ObjectTemplate.addArmorEffect 50 e_ExplGas 0/0/0
+
+ObjectTemplate.addArmorEffect 130 e_ExplGas 0/4.3/74.3
+ObjectTemplate.addArmorEffect 50 e_ExplGas 0/16/41.9
+ObjectTemplate.addArmorEffect 80 e_ExplGas 16.9/5.83/23
+ObjectTemplate.addArmorEffect 75 e_ExplGas -16.9/5.83/23
+ObjectTemplate.addArmorEffect 40 e_ExplGas 0/0/0
+
+ObjectTemplate.addArmorEffect 144 e_ExplGas 0/4.3/74.3
+ObjectTemplate.addArmorEffect 85 e_ExplGas 0/16/41.9
+ObjectTemplate.addArmorEffect 70 e_ExplGas 16.9/5.83/23
+ObjectTemplate.addArmorEffect 35 e_ExplGas -16.9/5.83/23
+ObjectTemplate.addArmorEffect 30 e_ExplGas 0/0/0
+rem DEATH BLOW
 rem -------------------------------------
 ObjectTemplate.addTemplate lodCarrack2
 rem -------------------------------------
@@ -465,6 +530,7 @@ ObjectTemplate.hasResponsePhysics 1
 rem -------------------------------------
 ObjectTemplate.addTemplate CarrackComplex2
 ObjectTemplate.addTemplate CarrackSimple
+ObjectTemplate.addTemplate NoWreck
 rem -------------------------------------
 ObjectTemplate.lodSelector Carrack2LodSelector
 
@@ -495,6 +561,16 @@ ObjectTemplate.addTemplate Capital_Wheel
 ObjectTemplate.setPosition 10/-80/-10
 ObjectTemplate.addTemplate Capital_Wheel
 ObjectTemplate.setPosition -10/-80/-10
+
+ObjectTemplate.addTemplate Capital_Wheel
+ObjectTemplate.setPosition 10/80/10
+ObjectTemplate.addTemplate Capital_Wheel
+ObjectTemplate.setPosition -10/80/10
+ObjectTemplate.addTemplate Capital_Wheel
+ObjectTemplate.setPosition 10/80/-10
+ObjectTemplate.addTemplate Capital_Wheel
+ObjectTemplate.setPosition -10/80/-10
+
 ObjectTemplate.addTemplate CapitalBodyWingVertical
 ObjectTemplate.setRotation 0/0/-89.999
 rem ------------------------------------
@@ -581,6 +657,7 @@ ObjectTemplate.addTemplate Carrack_Turret_PCO5
 
 rem *** LodSelector ***
 LodSelectorTemplate.create DistCompareSelector2 Carrack2LodSelector
+LodSelectorTemplate.hasDestroyedLod 1
 LodSelectorTemplate.addLodDistance 900
 
 rem --------------------------------------- Create Spawners 

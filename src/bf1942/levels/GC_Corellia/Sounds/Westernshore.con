@@ -1,0 +1,21 @@
+
+
+rem *** Westernshore ***
+ObjectTemplate.create AreaObject Westernshore
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript Westernshore.ssc
+ObjectTemplate.triggerRadius 400
+ObjectTemplate.addLinePoint 0/0
+ObjectTemplate.addLinePoint 284/154
+ObjectTemplate.addLinePoint 514/417
+ObjectTemplate.addLinePoint 547/490
+ObjectTemplate.addLinePoint 677/609
+ObjectTemplate.addLinePoint 766/798
+ObjectTemplate.addLinePoint 757/833
+ObjectTemplate.addLinePoint 780/884
+ObjectTemplate.addLinePoint 718/940
+ObjectTemplate.addLinePoint 634/1093
+ObjectTemplate.addLinePoint 496/1220
+ObjectTemplate.addLinePoint 215/1373
+ObjectTemplate.addLinePoint -10/1554
+

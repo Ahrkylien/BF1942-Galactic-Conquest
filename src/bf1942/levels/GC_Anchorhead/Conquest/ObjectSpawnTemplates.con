@@ -1,5 +1,5 @@
 rem ObjectSpawnTemplates.con created by Battlecraft 1942
-rem (\Program Files\Battlefield 1942\Mods\GCMOD\bf1942\levels\GC_Anchorhead/conquest/ObjectSpawnTemplates.con)
+rem (\Program Files\Battlefield 1942\Mods\GCMOD\bf1942\levels\GC_Anchora/conquest/ObjectSpawnTemplates.con)
 
 rem ----------------------------------------- 
 rem ---  Landspeeder_Spawner  ---
@@ -59,7 +59,7 @@ ObjectTemplate.TimeToLive 45
 ObjectTemplate.Distance 40
 ObjectTemplate.DamageWhenLost 10
 ObjectTemplate.maxNrOfObjectSpawned 1
-ObjectTemplate.teamOnVehicle 0
+ObjectTemplate.teamOnVehicle 1
 
 rem ----------------------------------------- 
 rem ---  Mousebot_Spawner  ---
@@ -92,13 +92,13 @@ ObjectTemplate.maxNrOfObjectSpawned 1
 ObjectTemplate.teamOnVehicle 0
 
 rem ----------------------------------------- 
-rem ---  Stationary_Eweb  ---
+rem ---  ATST_Spawner  ---
 rem ----------------------------------------- 
-ObjectTemplate.create ObjectSpawner Stationary_Eweb
-ObjectTemplate.setObjectTemplate 1 ewebstationary
-ObjectTemplate.setObjectTemplate 2 ewebstationary
-ObjectTemplate.MinSpawnDelay 30
-ObjectTemplate.MaxSpawnDelay 60
+ObjectTemplate.create ObjectSpawner ATST_Spawner
+ObjectTemplate.setObjectTemplate 1 atstdesert
+ObjectTemplate.setObjectTemplate 2 atstdesert
+ObjectTemplate.MinSpawnDelay 60
+ObjectTemplate.MaxSpawnDelay 90
 ObjectTemplate.SpawnDelayAtStart 0
 ObjectTemplate.TimeToLive 45
 ObjectTemplate.Distance 40
@@ -107,13 +107,28 @@ ObjectTemplate.maxNrOfObjectSpawned 1
 ObjectTemplate.teamOnVehicle 0
 
 rem ----------------------------------------- 
-rem ---  ATST_Spawner  ---
+rem ---  Heavy_Weapon_Spawn  ---
 rem ----------------------------------------- 
-ObjectTemplate.create ObjectSpawner ATST_Spawner
-ObjectTemplate.setObjectTemplate 1 atstdesert
-ObjectTemplate.setObjectTemplate 2 atstdesert
-ObjectTemplate.MinSpawnDelay 60
-ObjectTemplate.MaxSpawnDelay 90
+ObjectTemplate.create ObjectSpawner Heavy_Weapon_Spawn
+ObjectTemplate.setObjectTemplate 1 tl-21_kit
+ObjectTemplate.setObjectTemplate 2 rebel_tracker
+ObjectTemplate.MinSpawnDelay 10
+ObjectTemplate.MaxSpawnDelay 15
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.maxNrOfObjectSpawned 1
+ObjectTemplate.teamOnVehicle 0
+
+rem ----------------------------------------- 
+rem ---  Stationary_Eweb  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner Stationary_Eweb
+ObjectTemplate.setObjectTemplate 1 ewebstationary
+ObjectTemplate.setObjectTemplate 2 ewebstationary
+ObjectTemplate.MinSpawnDelay 30
+ObjectTemplate.MaxSpawnDelay 60
 ObjectTemplate.SpawnDelayAtStart 0
 ObjectTemplate.TimeToLive 45
 ObjectTemplate.Distance 40

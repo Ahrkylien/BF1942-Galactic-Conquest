@@ -1,0 +1,33 @@
+Game.setLocalized 1
+
+rem ** Allied Briefing **
+game.setAlliedCampaign BRIEFING_ALLIED_CAMPAIGN_Battle_for_GC_Tatooine
+game.setAlliedHints BRIEFING_ALLIED_HINTS_Battle_for_GC_Tatooine
+game.setAlliedObjectives BRIEFING_ALLIED_OBJECTIVES_Battle_for_GC_Tatooine
+game.setAlliedSkirmish BRIEFING_ALLIED_SKIRMISH_Battle_for_GC_Tatooine
+
+rem ** Axis Briefing **
+game.setAxisCampaign BRIEFING_AXIS_CAMPAIGN_Battle_for_GC_Tatooine
+game.setAxisHints BRIEFING_AXIS_HINTS_Battle_for_GC_Tatooine
+game.setAxisObjectives BRIEFING_AXIS_OBJECTIVES_Battle_for_GC_Tatooine
+game.setAxisSkirmish BRIEFING_AXIS_SKIRMISH_Battle_for_GC_Tatooine
+
+rem ** Allied Debriefing **
+game.setAlliedDebriefingMajorVictory DEBRIEFING_ALLIED_MAJOR_VICTORY_Battle_for__GC_Tatooine
+game.setAlliedDebriefingMinorVictory DEBRIEFING_ALLIED_MINOR_VICTORY_Battle_for_GC_Tatooine
+game.setAlliedDebriefingMajorDefeat DEBRIEFING_ALLIED_MAJOR_DEFEAT_Battle_for_GC_Tatooine
+game.setAlliedDebriefingMinorDefeat DEBRIEFING_ALLIED_MINOR_DEFEAT_Battle_for_GC_Tatooinee
+
+rem ** Axis Debriefing **
+game.setAxisDebriefingMajorVictory DEBRIEFING_AXIS_MAJOR_VICTORY_Battle_for_GC_Tatooine
+game.setAxisDebriefingMinorVictory DEBRIEFING_AXIS_MINOR_VICTORY_Battle_for_GC_Tatooine
+game.setAxisDebriefingMajorDefeat DEBRIEFING_AXIS_MAJOR_DEFEAT_Battle_for_GC_Tatooine
+game.setAxisDebriefingMinorDefeat DEBRIEFING_AXIS_MINOR_DEFEAT_Battle_for_GC_Tatooine
+
+rem ** Multiplayer Briefing **
+game.setMultiplayerBriefingObjectives MULTIPLAYER_BRIEFING_Bocage
+game.setMultiplayerBriefingMapType Conquest
+
+game.setLoadPicture ../../bf1942/levels/gc_mos_eisley/menu/meloader.tga
+game.setServerInfoIcon ../../bf1942/levels/gc_tatooine/menu/serverInfo.dds
+game.setMapId "GCMOD"

@@ -1,3 +1,13 @@
+ObjectTemplate.create ObjectSpawner tiebombepawner
+ObjectTemplate.setObjectTemplate 2 tiebomber
+ObjectTemplate.setObjectTemplate 1 tiebomber
+ObjectTemplate.MinSpawnDelay 25
+ObjectTemplate.MaxSpawnDelay 50
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+
 ObjectTemplate.create ObjectSpawner sandcrawlerspawner
 ObjectTemplate.setObjectTemplate 2 sandcrawler
 ObjectTemplate.setObjectTemplate 1 sandcrawler
@@ -16,15 +26,25 @@ ObjectTemplate.TimeToLive 45
 ObjectTemplate.Distance 40
 ObjectTemplate.DamageWhenLost 10
 
+ObjectTemplate.create ObjectSpawner gunshipspawner1
+ObjectTemplate.setObjectTemplate 2 repgun2
+ObjectTemplate.setObjectTemplate 1 repgun2
+ObjectTemplate.MinSpawnDelay 10
+ObjectTemplate.MaxSpawnDelay 25
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 60
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+
 ObjectTemplate.create ObjectSpawner speederbikespawner
 ObjectTemplate.setObjectTemplate 2 landspeeder
 ObjectTemplate.setObjectTemplate 1 speederbike
-ObjectTemplate.SpawnDelay 10
+ObjectTemplate.SpawnDelay 5
 ObjectTemplate.SpawnDelayAtStart 5
 ObjectTemplate.TimeToLive 10
 ObjectTemplate.Distance 40
 ObjectTemplate.DamageWhenLost 5
-ObjectTemplate.MaxNrOfObjectSpawned 3
+ObjectTemplate.MaxNrOfObjectSpawned 4
 
 ObjectTemplate.create ObjectSpawner slave1spawner
 ObjectTemplate.setObjectTemplate 2 slave1
@@ -33,6 +53,16 @@ ObjectTemplate.MinSpawnDelay 10
 ObjectTemplate.MaxSpawnDelay 30
 ObjectTemplate.SpawnDelayAtStart 0
 ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+
+ObjectTemplate.create ObjectSpawner antiair2
+ObjectTemplate.setObjectTemplate 2 turbolaser
+ObjectTemplate.setObjectTemplate 1 turbolaser
+ObjectTemplate.MinSpawnDelay 10
+ObjectTemplate.MaxSpawnDelay 20
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 500
 ObjectTemplate.Distance 40
 ObjectTemplate.DamageWhenLost 10
 
@@ -55,6 +85,15 @@ ObjectTemplate.TimeToLive 25
 ObjectTemplate.Distance 40
 ObjectTemplate.DamageWhenLost 20
 
+ObjectTemplate.create ObjectSpawner antiair
+ObjectTemplate.setObjectTemplate 2 i.m.d.s
+ObjectTemplate.setObjectTemplate 1 i.m.d.s
+ObjectTemplate.SpawnDelay 25
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+
 ObjectTemplate.create ObjectSpawner impdroidspawner
 ObjectTemplate.setObjectTemplate 2 r5d4controlimperial
 ObjectTemplate.setObjectTemplate 1 r5d4controlimperial
@@ -72,14 +111,16 @@ ObjectTemplate.SpawnDelayAtStart 0
 ObjectTemplate.TimeToLive 45
 ObjectTemplate.Distance 40
 ObjectTemplate.DamageWhenLost 5
+ObjectTemplate.MaxNrOfObjectSpawned 2
 
-ObjectTemplate.create ObjectSpawner gunshipsSpawner
-ObjectTemplate.setObjectTemplate 2 repgun
-ObjectTemplate.setObjectTemplate 1 repgun
-ObjectTemplate.SpawnDelay 25
+ObjectTemplate.create ObjectSpawner impskiffspawner
+ObjectTemplate.setObjectTemplate 2 impskiff
+ObjectTemplate.setObjectTemplate 1 impskiff
+ObjectTemplate.MinSpawnDelay 15
+ObjectTemplate.MaxSpawnDelay 20
 ObjectTemplate.SpawnDelayAtStart 0
-ObjectTemplate.TimeToLive 45
-ObjectTemplate.Distance 40
+ObjectTemplate.TimeToLive 180
+ObjectTemplate.Distance 60
 ObjectTemplate.DamageWhenLost 10
 
 ObjectTemplate.create ObjectSpawner atstxwing
@@ -91,14 +132,57 @@ ObjectTemplate.TimeToLive 45
 ObjectTemplate.Distance 40
 ObjectTemplate.DamageWhenLost 10
 
+ObjectTemplate.create ObjectSpawner atatspawnerdelux
+ObjectTemplate.setObjectTemplate 2 atat
+ObjectTemplate.setObjectTemplate 1 atat
+ObjectTemplate.MinSpawnDelay 60
+ObjectTemplate.MaxSpawnDelay 120
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 60
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.teamOnVehicle 1
+
 ObjectTemplate.create ObjectSpawner tiexwing
 ObjectTemplate.setObjectTemplate 2 rogue
-ObjectTemplate.setObjectTemplate 1 tieinterceptor
+ObjectTemplate.setObjectTemplate 1 tiefighter
 ObjectTemplate.SpawnDelay 25
 ObjectTemplate.SpawnDelayAtStart 0
 ObjectTemplate.TimeToLive 45
 ObjectTemplate.Distance 40
 ObjectTemplate.DamageWhenLost 10
+
+ObjectTemplate.create ObjectSpawner tankspawner
+ObjectTemplate.setObjectTemplate 2 t-3b
+ObjectTemplate.setObjectTemplate 1 firehawke
+ObjectTemplate.MinSpawnDelay 15
+ObjectTemplate.MaxSpawnDelay 25
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.MaxNrOfObjectSpawned 2
+
+ObjectTemplate.create ObjectSpawner gunshipsspawner
+ObjectTemplate.setObjectTemplate 2 skiff
+ObjectTemplate.setObjectTemplate 1 skiff
+ObjectTemplate.SpawnDelay 25
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.MaxNrOfObjectSpawned 2
+
+ObjectTemplate.create ObjectSpawner sandcrawlertwospawner
+ObjectTemplate.setObjectTemplate 2 sandcrawler
+ObjectTemplate.setObjectTemplate 1 sandcrawler
+ObjectTemplate.MinSpawnDelay 60
+ObjectTemplate.MaxSpawnDelay 120
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 500
+ObjectTemplate.Distance 300
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.teamOnVehicle 1
 
 ObjectTemplate.create ObjectSpawner r5droidspawn2
 ObjectTemplate.setObjectTemplate 2 r5d4control
@@ -112,12 +196,12 @@ ObjectTemplate.DamageWhenLost 10
 ObjectTemplate.create ObjectSpawner speeder
 ObjectTemplate.setObjectTemplate 2 landspeeder
 ObjectTemplate.setObjectTemplate 1 landspeeder
-ObjectTemplate.SpawnDelay 25
+ObjectTemplate.SpawnDelay 10
 ObjectTemplate.SpawnDelayAtStart 0
 ObjectTemplate.TimeToLive 45
 ObjectTemplate.Distance 40
 ObjectTemplate.DamageWhenLost 10
-ObjectTemplate.MaxNrOfObjectSpawned 2
+ObjectTemplate.MaxNrOfObjectSpawned 3
 
 ObjectTemplate.create ObjectSpawner xwing
 ObjectTemplate.setObjectTemplate 2 rogue

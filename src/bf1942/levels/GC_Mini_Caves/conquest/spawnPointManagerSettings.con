@@ -1,0 +1,46 @@
+rem spawnPointManagerSettings.con created by Battlecraft 1942
+rem (C:\Program Files\EA Games\Battlefield 1942\Mods\GCMOD\bf1942\levels\GC_Caves_of_Dagobahmini/conquest/spawnPointManagerSettings.con)
+
+rem ----------------------------------------- 
+rem ---  group 2  ---
+rem ----------------------------------------- 
+spawnPointManager.group 2
+spawnPointManager.groupTeam 2
+spawnPointManager.groupIcon test1.tga
+
+rem ----------------------------------------- 
+rem ---  group 4  ---
+rem ----------------------------------------- 
+spawnPointManager.group 4
+spawnPointManager.groupTeam 0
+spawnPointManager.groupIcon test1.tga
+
+rem ----------------------------------------- 
+rem ---  group 6  ---
+rem ----------------------------------------- 
+spawnPointManager.group 6
+spawnPointManager.groupTeam 0
+spawnPointManager.groupIcon test1.tga
+
+rem ----------------------------------------- 
+rem ---  group 7  ---
+rem ----------------------------------------- 
+spawnPointManager.group 7
+spawnPointManager.groupTeam 0
+spawnPointManager.groupIcon test1.tga
+
+rem ----------------------------------------- 
+rem ---  group 5  ---
+rem ----------------------------------------- 
+spawnPointManager.group 5
+spawnPointManager.groupTeam 0
+spawnPointManager.groupIcon test1.tga
+
+rem ----------------------------------------- 
+rem ---  group 8  ---
+rem ----------------------------------------- 
+spawnPointManager.group 8
+spawnPointManager.groupTeam 1
+spawnPointManager.groupIcon test1.tga
+
+rem EndOfFile

@@ -33,6 +33,8 @@ run damage_system/Razor
 run damage_system/Rocket1Direct
 run damage_system/Rocket2Direct
 run damage_system/Rocket1Splash
+run damage_system/SpaceRocketDirect
+run damage_system/SpaceRocketSplash
 run damage_system/SpeederPistol
 run damage_system/StrongLaserDirect
 run damage_system/StrongLaserSplash
@@ -47,6 +49,7 @@ run Collision_Armor/GCMODMediumArmor1.con
 run Collision_Armor/GCMODMediumArmor2.con
 run Collision_Armor/GCMODHeavyArmor1.con
 run Collision_Armor/GCMODHeavyArmor2.con
+run Collision_Armor/GCMODHeavyArmor3.con
 run Collision_Armor/GCMODCapitalArmor1.con
 
 run Collision_Armor/LightArmor

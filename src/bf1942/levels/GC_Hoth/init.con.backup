@@ -5,7 +5,7 @@ ShaderManager.setTextureParam envmap bf1942\levels\GC_Hoth\Textures\ENVMAP_G_.rc
 renderer.vertexFogEnable 1
 renderer.fogLinearStart -1000
 renderer.fogLinearEnd 600
-renderer.fogColorVec .926/.945/.965
+renderer.fogColorVec 0.9216/0.93725/0.9686
 renderer.globalLodPercent 1
 renderer.globalAmbientColor .2/.2/.2
 renderer.ambientColor .1/.1/.1
@@ -71,6 +71,8 @@ rem *** Set team 1 ***
 game.setBeforeSpawnCameraPosition 1 1224/52/632
 rem *** Set team 2 ***
 game.setBeforeSpawnCameraPosition 2 1250.617/92/1080
+
+
 
 
 

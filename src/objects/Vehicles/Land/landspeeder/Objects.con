@@ -9,11 +9,12 @@ ObjectTemplate.hasDynamicShadow 1
 ObjectTemplate.explosionRadius 8
 ObjectTemplate.explosionDamage 5
 ObjectTemplate.damageFromWater 1
-ObjectTemplate.drag 1.49
+ObjectTemplate.drag 1
+ObjectTemplate.GravityModifier 50
 rem ObjectTemplate.GravityModifier CRD_NONE/1/0/0 
 ObjectTemplate.dragOffset 0/-1/2
-ObjectTemplate.mass 3000
-ObjectTemplate.inertiaModifier 2/1/2
+ObjectTemplate.mass 3500
+rem ObjectTemplate.inertiaModifier 2/1/2
 ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.hasResponsePhysics 1
 ObjectTemplate.hasArmor 1
@@ -81,12 +82,20 @@ ObjectTemplate.setRotation 0/34/0
 rem ______________________________________
 ObjectTemplate.addTemplate landspeederEngine
 ObjectTemplate.setPosition 0/.3/0
+ObjectTemplate.addTemplate Landspeeder_XRudderRear 
+ObjectTemplate.setPosition 0/0/-5
+ObjectTemplate.setRotation 0/0/-90
+ObjectTemplate.addTemplate Landspeeder_XRudderFront 
+ObjectTemplate.setPosition 0/0/4 
+ObjectTemplate.setRotation 0/0/-90 
+beginrem
 ObjectTemplate.addTemplate GravEngine
 ObjectTemplate.setPosition 0/2.27/0
 ObjectTemplate.setRotation 0/90/0
 ObjectTemplate.addTemplate GravEngine
 ObjectTemplate.setPosition 0/1.27/0
 ObjectTemplate.setRotation 0/0/0
+endrem
 
 rem *** LandspeederCamera ***
 ObjectTemplate.create Camera LandspeederCamera

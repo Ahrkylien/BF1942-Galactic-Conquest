@@ -1,5 +1,15 @@
+ObjectTemplate.create ObjectSpawner gainspawner
+ObjectTemplate.setObjectTemplate 2 gain-135
+ObjectTemplate.setObjectTemplate 1 atst-v
+ObjectTemplate.MinSpawnDelay 25
+ObjectTemplate.MaxSpawnDelay 40
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+
 ObjectTemplate.create ObjectSpawner atst_landspeeder
-ObjectTemplate.setObjectTemplate 2 landspeeder
+ObjectTemplate.setObjectTemplate 2 gain-135
 ObjectTemplate.setObjectTemplate 1 atst-v
 ObjectTemplate.SpawnDelay 25
 ObjectTemplate.SpawnDelayAtStart 0
@@ -26,6 +36,15 @@ ObjectTemplate.SpawnDelayAtStart 0
 ObjectTemplate.TimeToLive 45
 ObjectTemplate.Distance 40
 ObjectTemplate.DamageWhenLost 10
+
+ObjectTemplate.create ObjectSpawner sentrycontrolspawner
+ObjectTemplate.setObjectTemplate 2 sentrycontrol
+ObjectTemplate.setObjectTemplate 1 sentrycontrol
+ObjectTemplate.MinSpawnDelay 25
+ObjectTemplate.MaxSpawnDelay 45
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 0
 
 ObjectTemplate.create ObjectSpawner r5controlspawner
 ObjectTemplate.setObjectTemplate 2 r5d4controlimperial
@@ -82,6 +101,16 @@ ObjectTemplate.setObjectTemplate 2 i.m.d.s
 ObjectTemplate.setObjectTemplate 1 i.m.d.s
 ObjectTemplate.MinSpawnDelay 40
 ObjectTemplate.MaxSpawnDelay 70
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+
+ObjectTemplate.create ObjectSpawner skyhopperspawner
+ObjectTemplate.setObjectTemplate 2 skyhopper
+ObjectTemplate.setObjectTemplate 1 skyhopper
+ObjectTemplate.MinSpawnDelay 15
+ObjectTemplate.MaxSpawnDelay 30
 ObjectTemplate.SpawnDelayAtStart 0
 ObjectTemplate.TimeToLive 45
 ObjectTemplate.Distance 40

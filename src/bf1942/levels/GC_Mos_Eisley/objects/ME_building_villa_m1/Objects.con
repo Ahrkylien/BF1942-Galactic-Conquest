@@ -1,0 +1,48 @@
+ObjectTemplate.create Bundle ME_building_villa_m1
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.addTemplate lodME_building_villa_m1
+
+LodSelectorTemplate.create DistanceSelector ME_building_villa_m1Selector
+LodSelectorTemplate.addLodDistance 70
+ObjectTemplate.create LodObject lodME_building_villa_m1
+ObjectTemplate.lodselector ME_building_villa_m1Selector
+ObjectTemplate.addTemplate ME_building_villa_m1Interior
+ObjectTemplate.addTemplate ME_building_villa_m1Exterior
+
+rem ------------------------------------------------------------
+
+ObjectTemplate.create Bundle ME_building_villa_m1Interior
+ObjectTemplate.geometry ME_building_villa_m1
+
+rem -----------add bits --------------------
+
+ObjectTemplate.addtemplate me_table
+ObjectTemplate.setposition 3.3623/1.8253/-6.9232
+ObjectTemplate.addtemplate me_chair
+ObjectTemplate.setposition 3.3623/1.8253/-5
+
+ObjectTemplate.addtemplate me_chair
+ObjectTemplate.setposition 3.3623/1.8253/-9.2
+ObjectTemplate.setrotation 180/0/0
+ObjectTemplate.addtemplate me_chair
+ObjectTemplate.setposition 1.9785/1.8253/-6.9232
+ObjectTemplate.setrotation -90/0/0
+ObjectTemplate.addtemplate me_chair
+ObjectTemplate.setposition 4.6856/1.8253/-6.7232
+ObjectTemplate.setrotation 90/0/0
+
+ObjectTemplate.addtemplate me_table_small
+ObjectTemplate.setposition 16.0515/6.6660/-3.6203
+
+ObjectTemplate.addtemplate me_floorbed
+ObjectTemplate.setposition 2.8591/6.4500/5.6688
+ObjectTemplate.setrotation 220.4626/0/0
+
+ObjectTemplate.addtemplate me_floorbed
+ObjectTemplate.setposition 0.1323/6.4500/1.9846
+ObjectTemplate.setrotation 112.8955/0/0
+
+rem ---------------------------------------------
+
+ObjectTemplate.create SimpleObject ME_building_villa_m1Exterior
+ObjectTemplate.geometry ME_building_villa_m2

@@ -9,11 +9,12 @@ ObjectTemplate.hasDynamicShadow 1
 ObjectTemplate.explosionRadius 8
 ObjectTemplate.explosionDamage 5
 ObjectTemplate.damageFromWater 1
-ObjectTemplate.drag 1.49
+ObjectTemplate.drag 1
+ObjectTemplate.GravityModifier 50
 ObjectTemplate.GravityModifier CRD_NONE/2.5/0/0 
 ObjectTemplate.dragOffset 0/-1/2
-ObjectTemplate.mass 3000
-ObjectTemplate.inertiaModifier 2/1/2
+ObjectTemplate.mass 3500
+rem ObjectTemplate.inertiaModifier 2/1/2
 ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.hasResponsePhysics 1
 ObjectTemplate.hasArmor 1
@@ -59,7 +60,7 @@ ObjectTemplate.lodSelector LandspeederLodSelector
 
 rem *** LandspeederEWEBComplex ***
 ObjectTemplate.create Bundle LandspeederEWEBComplex
-ObjectTemplate.geometry landspeeder
+ObjectTemplate.geometry landspeeder_Eweb
 ObjectTemplate.hasMobilePhysics 1
 ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.hasResponsePhysics 1
@@ -78,15 +79,26 @@ ObjectTemplate.setRotation 0/34/0
 rem ______________________________________
 ObjectTemplate.addTemplate landspeederEngine
 ObjectTemplate.setPosition 0/.3/0
+ObjectTemplate.addTemplate Landspeeder_XRudderRear 
+ObjectTemplate.setPosition 0/0/-5
+ObjectTemplate.setRotation 0/0/-90
+ObjectTemplate.addTemplate Landspeeder_XRudderFront 
+ObjectTemplate.setPosition 0/0/4 
+ObjectTemplate.setRotation 0/0/-90 
+beginrem
 ObjectTemplate.addTemplate GravEngine
 ObjectTemplate.setPosition 0/2.27/0
 ObjectTemplate.setRotation 0/90/0
 ObjectTemplate.addTemplate GravEngine
 ObjectTemplate.setPosition 0/1.27/0
 ObjectTemplate.setRotation 0/0/0
+endrem
+
 rem -------------------------------------
+
 ObjectTemplate.addTemplate LandspeederEWEBPCO
-ObjectTemplate.setPosition -.4392/1.1024/1.459
+rem ObjectTemplate.setPosition -0.4392/1.1024/1.459
+ObjectTemplate.setPosition -0.4392/1.1546/1.1812
 
 
 
@@ -95,14 +107,7 @@ ObjectTemplate.create PlayerControlObject LandspeederEWEBPCO
 ObjectTemplate.setNetworkableInfo LandspeederBodyInfo
 ObjectTemplate.aiTemplate WillyPassenger
 rem -------------------------------------
-ObjectTemplate.addTemplate LandspeederEntry
-ObjectTemplate.setPosition 0/-0.35/1.25
-ObjectTemplate.addTemplate LandspeederEntry
-ObjectTemplate.setPosition 0/-0.35/-0.75
-ObjectTemplate.addTemplate LandspeederEWEBSeat
-ObjectTemplate.setPosition 0/-0.3524/-1.1
-ObjectTemplate.addTemplate LandspeederEWEBRotation
-ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.addTemplate Eweb_LandSpeederBase
 rem -------------------------------------
 ObjectTemplate.setSoldierExitLocation -2.7/0/0 0/0/0
 ObjectTemplate.setVehicleIcon "Vehicle/Icon_landspeeder.dds"

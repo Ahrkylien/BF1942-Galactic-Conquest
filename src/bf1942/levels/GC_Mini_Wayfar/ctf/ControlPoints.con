@@ -1,0 +1,28 @@
+rem ControlPoints.con created by Battlecraft 1942
+rem (\Program Files\Battlefield 1942\Mods\GCMOD\bf1942\levels\GC_Mini_Wayfar/ctf/ControlPoints.con)
+
+rem ----------------------------------------- 
+rem ---  Imperial_Base  ---
+rem ----------------------------------------- 
+Object.create Imperial_Base
+Object.absolutePosition 522.06/76.13/470.06
+
+rem ----------------------------------------- 
+rem ---  Rebel_Base  ---
+rem ----------------------------------------- 
+Object.create Rebel_Base
+Object.absolutePosition 525.70/76.11/631.78
+
+rem ----------------------------------------- 
+rem ---  Bazaar  ---
+rem ----------------------------------------- 
+Object.create Bazaar
+Object.absolutePosition 485.59/76.19/548.31
+
+rem ----------------------------------------- 
+rem ---  Cargo_Hold  ---
+rem ----------------------------------------- 
+Object.create Cargo_Hold
+Object.absolutePosition 560.15/76.20/550.89
+
+rem EndOfFile

@@ -58,9 +58,9 @@ ObjectTemplate.setSpawnId 4
 ObjectTemplate.setGroup 1
 
 rem ----------------------------------------- 
-rem ---  ca41  ---
+rem ---  ca52  ---
 rem ----------------------------------------- 
-ObjectTemplate.create SpawnPoint ca41
+ObjectTemplate.create SpawnPoint ca52
 ObjectTemplate.setSpawnId 16
 ObjectTemplate.setGroup 5
 
@@ -140,5 +140,12 @@ rem -----------------------------------------
 ObjectTemplate.create SpawnPoint ca55
 ObjectTemplate.setSpawnId 20
 ObjectTemplate.setGroup 5
+
+rem ----------------------------------------- 
+rem ---  ca34  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint ca34
+ObjectTemplate.setSpawnId 21
+ObjectTemplate.setGroup 4
 
 rem EndOfFile

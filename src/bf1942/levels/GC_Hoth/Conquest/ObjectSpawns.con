@@ -29,30 +29,6 @@ rem -----------------------------------------
 rem ---  atst-atst  ---
 rem ----------------------------------------- 
 Object.create atst-atst
-Object.absolutePosition 1489.53/22.00/1695.22
-Object.rotation -20.50/0.00/0.00
-Object.setTeam 1
-
-rem ----------------------------------------- 
-rem ---  atst-atst  ---
-rem ----------------------------------------- 
-Object.create atst-atst
-Object.absolutePosition 1473.28/22.00/1688.56
-Object.rotation 338.50/0.00/0.00
-Object.setTeam 1
-
-rem ----------------------------------------- 
-rem ---  tiebomber-snowspeeder  ---
-rem ----------------------------------------- 
-Object.create tiebomber-snowspeeder
-Object.absolutePosition 1341.84/19.14/1779.77
-Object.rotation -127.75/1.00/0.00
-Object.setTeam 1
-
-rem ----------------------------------------- 
-rem ---  atst-atst  ---
-rem ----------------------------------------- 
-Object.create atst-atst
 Object.absolutePosition 1320.77/28.00/1663.00
 Object.rotation -66.75/0.00/0.00
 Object.setTeam 1
@@ -173,7 +149,7 @@ rem -----------------------------------------
 rem ---  turbolaserspawner  ---
 rem ----------------------------------------- 
 Object.create turbolaserspawner
-Object.absolutePosition 1425.60/15.78/1796.70
+Object.absolutePosition 1372.05/15.78/1796.63
 Object.rotation 160.00/0.00/0.00
 Object.setTeam 1
 
@@ -281,7 +257,7 @@ rem -----------------------------------------
 Object.create snipertowerspawn
 Object.absolutePosition 589.53/15.91/544.80
 Object.rotation 76.00/0.00/0.00
-Object.setOSId 4
+Object.setOSId 7
 Object.setTeam 0
 
 rem ----------------------------------------- 
@@ -319,5 +295,37 @@ Object.absolutePosition 308.44/4.23/331.11
 Object.rotation 0.00/-104.00/0.00
 Object.setOSId 2
 Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  DSGspawner  ---
+rem ----------------------------------------- 
+Object.create DSGspawner
+Object.absolutePosition 1140.73/15.60/486.86
+Object.rotation 49.25/0.00/0.00
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  DSGpiece_spawner  ---
+rem ----------------------------------------- 
+Object.create DSGpiece_spawner
+Object.absolutePosition 1140.73/15.60/486.86
+Object.rotation 49.25/0.00/0.00
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  atatspawner2  ---
+rem ----------------------------------------- 
+Object.create atatspawner2
+Object.absolutePosition 1523.02/26.41/1799.69
+Object.rotation 175.41/0.00/0.00
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  atatspawner  ---
+rem ----------------------------------------- 
+Object.create atatspawner
+Object.absolutePosition 1287.26/26.41/1818.60
+Object.rotation -165.00/0.00/0.00
+Object.setTeam 1
 
 rem EndOfFile

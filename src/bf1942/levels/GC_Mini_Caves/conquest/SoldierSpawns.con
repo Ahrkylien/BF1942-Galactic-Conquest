@@ -1,0 +1,158 @@
+rem SoldierSpawns.con created by Battlecraft 1942
+rem (C:\Program Files\EA Games\Battlefield 1942\Mods\GCMOD\bf1942\levels\GC_Caves_of_Dagobahmini/conquest/SoldierSpawns.con)
+
+rem ----------------------------------------- 
+rem ---  Imperial_Base_Spawn1  ---
+rem ----------------------------------------- 
+Object.create Imperial_Base_Spawn1
+Object.absolutePosition 385.98/99.76/771.50
+Object.rotation 181.82/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Imperial_Flag_Spawn1  ---
+rem ----------------------------------------- 
+Object.create Imperial_Flag_Spawn1
+Object.absolutePosition 400.16/99.76/773.31
+Object.rotation 181.82/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Imperial_Base_Spawn2  ---
+rem ----------------------------------------- 
+Object.create Imperial_Base_Spawn2
+Object.absolutePosition 392.73/99.76/778.01
+Object.rotation 181.82/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Imperial_Flag_Spawn2  ---
+rem ----------------------------------------- 
+Object.create Imperial_Flag_Spawn2
+Object.absolutePosition 393.13/99.76/761.42
+Object.rotation 181.82/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Upper_Bridge_Imperial_Side_Spawn1  ---
+rem ----------------------------------------- 
+Object.create Upper_Bridge_Imperial_Side_Spawn1
+Object.absolutePosition 383.64/114.41/666.95
+Object.rotation 181.82/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Upper_Bridge_Imperial_Side_Spawn2  ---
+rem ----------------------------------------- 
+Object.create Upper_Bridge_Imperial_Side_Spawn2
+Object.absolutePosition 395.24/114.27/651.12
+Object.rotation 181.82/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Upper_Bridge_Imperial_Side_Spawn3  ---
+rem ----------------------------------------- 
+Object.create Upper_Bridge_Imperial_Side_Spawn3
+Object.absolutePosition 401.23/114.58/661.18
+Object.rotation 181.82/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Upper_Bridge_Imperial_Side_Spawn4  ---
+rem ----------------------------------------- 
+Object.create Upper_Bridge_Imperial_Side_Spawn4
+Object.absolutePosition 390.30/114.28/672.75
+Object.rotation 181.82/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Lower_Bridge_Imperial_Side_Spawn3  ---
+rem ----------------------------------------- 
+Object.create Lower_Bridge_Imperial_Side_Spawn3
+Object.absolutePosition 437.41/83.84/638.19
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Lower_Bridge_Imperial_Side_Spawn4  ---
+rem ----------------------------------------- 
+Object.create Lower_Bridge_Imperial_Side_Spawn4
+Object.absolutePosition 433.96/83.84/638.11
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Lower_Bridge_Rebel_Side_Spawn1  ---
+rem ----------------------------------------- 
+Object.create Lower_Bridge_Rebel_Side_Spawn1
+Object.absolutePosition 431.22/82.82/589.44
+Object.rotation 181.82/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Lower_Bridge_Rebel_Side_Spawn2  ---
+rem ----------------------------------------- 
+Object.create Lower_Bridge_Rebel_Side_Spawn2
+Object.absolutePosition 427.39/83.45/589.79
+Object.rotation 181.82/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Lower_Bridge_Rebel_Side_Spawn3  ---
+rem ----------------------------------------- 
+Object.create Lower_Bridge_Rebel_Side_Spawn3
+Object.absolutePosition 423.06/84.51/589.57
+Object.rotation 181.82/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Lower_Bridge_Rebel_Side_Spawn4  ---
+rem ----------------------------------------- 
+Object.create Lower_Bridge_Rebel_Side_Spawn4
+Object.absolutePosition 418.94/85.26/589.59
+Object.rotation 181.82/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Upper_Bridge_Rebel_Side_Spawn1  ---
+rem ----------------------------------------- 
+Object.create Upper_Bridge_Rebel_Side_Spawn1
+Object.absolutePosition 401.63/113.20/559.88
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Upper_Bridge_Rebel_Side_Spawn2  ---
+rem ----------------------------------------- 
+Object.create Upper_Bridge_Rebel_Side_Spawn2
+Object.absolutePosition 393.34/113.79/566.07
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Upper_Bridge_Rebel_Side_Spawn3  ---
+rem ----------------------------------------- 
+Object.create Upper_Bridge_Rebel_Side_Spawn3
+Object.absolutePosition 388.46/112.38/558.70
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Upper_Bridge_Rebel_Side_Spawn4  ---
+rem ----------------------------------------- 
+Object.create Upper_Bridge_Rebel_Side_Spawn4
+Object.absolutePosition 395.29/109.85/548.65
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Rebel_Base_Spawn1  ---
+rem ----------------------------------------- 
+Object.create Rebel_Base_Spawn1
+Object.absolutePosition 433.56/102.20/482.07
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Rebel_Base_Spawn2  ---
+rem ----------------------------------------- 
+Object.create Rebel_Base_Spawn2
+Object.absolutePosition 425.92/102.20/475.40
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Rebel_Base_Spawn3  ---
+rem ----------------------------------------- 
+Object.create Rebel_Base_Spawn3
+Object.absolutePosition 420.33/102.20/481.97
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Rebel_Base_Spawn4  ---
+rem ----------------------------------------- 
+Object.create Rebel_Base_Spawn4
+Object.absolutePosition 427.27/102.20/486.87
+Object.rotation 0.00/0.00/0.00
+
+rem EndOfFile

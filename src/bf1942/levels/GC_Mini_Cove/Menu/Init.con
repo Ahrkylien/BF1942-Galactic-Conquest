@@ -1,0 +1,10 @@
+rem *********************************************
+rem Created by Battlecraft 1942.  Copyright (c)2003,2004 Digital Illusions CE
+rem *********************************************
+Game.setLocalized 1
+
+game.setLoadPicture ../../bf1942/levels/GC_Mini_Cove/menu/loadscreen.tga
+game.setServerInfoIcon ../../bf1942/levels/GC_Mini_Cove/menu/serverInfo.dds
+game.setMultiplayerBriefingObjectives "With the invasion of Mon Calamari underway the Empire requires more landmass to bring down reinforcements. A small division of troops using captured vehicles has broken away from the main battle to capture a small island. The Mon Calamari have spotted the advancement and have sent their own troops to intercept..."
+
+game.setMapId "GCMOD"

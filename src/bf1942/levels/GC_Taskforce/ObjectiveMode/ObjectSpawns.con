@@ -1,1 +1,23 @@
 
+Object.create yt600spawner
+Object.absolutePosition 2000.17/272.042/3717.14
+Object.rotation -180/0/0
+Object.setTeam 1
+
+Object.create yt600spawner2
+Object.absolutePosition 1500.17/272.042/3717.14
+Object.rotation -180/0/0
+Object.setTeam 1
+
+Object.create yt600spawner
+Object.absolutePosition 2000.17/272.042/450.14
+Object.rotation 0/0/0
+Object.setTeam 2
+
+Object.create yt600spawner2
+Object.absolutePosition 1500.17/272.042/450.14
+Object.rotation 0/0/0
+Object.setTeam 2
+
+
+

@@ -50,7 +50,7 @@ ObjectTemplate.setNetworkableInfo PlaneFireArmInfo
 ObjectTemplate.setAsynchronyFire 1
 ObjectTemplate.projectileTemplate RocketProjectile2
 ObjectTemplate.projectilePosition 0/0/0
-ObjectTemplate.magSize 8
+ObjectTemplate.magSize 4
 ObjectTemplate.numOfMag 2
 ObjectTemplate.velocity 110
 ObjectTemplate.autoReload 1

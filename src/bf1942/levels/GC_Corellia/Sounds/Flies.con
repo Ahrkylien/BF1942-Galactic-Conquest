@@ -1,0 +1,5 @@
+rem *** Flies ***
+ObjectTemplate.create SimpleObject Flies
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.triggerRadius 100
+ObjectTemplate.loadSoundScript Flies.ssc

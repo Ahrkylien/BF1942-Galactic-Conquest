@@ -2,36 +2,29 @@ rem
 rem ***  ***
 rem
 Object.create lambdafalcon
-Object.absolutePosition 3692.65/24.7958/3635.78
+Object.absolutePosition 2922.73/229.44/1576.68
 Object.rotation -141/-5/0
 Object.setOSId 1
 rem
 rem ***  ***
 rem
 Object.create speederbikespawner
-Object.absolutePosition 3642.87/18.5/3610.11
+Object.absolutePosition 2882.37/224.671/1538.4
 Object.rotation -130/0/0
 Object.setOSId 1
 rem
 rem ***  ***
 rem
 Object.create speeder
-Object.absolutePosition 3466.16/17.7981/3602.69
-Object.rotation 183/0/0
+Object.absolutePosition 2020.58/108.123/142.982
+Object.rotation -1.99999/0/0
 Object.setTeam 1
 rem
 rem ***  ***
 rem
 Object.create speeder
-Object.absolutePosition 3386.93/18.7934/3524.78
-Object.rotation 20/0/0
-Object.setTeam 1
-rem
-rem ***  ***
-rem
-Object.create speeder
-Object.absolutePosition 641.456/112.383/391.907
-Object.rotation 21/0/0
+Object.absolutePosition 661.957/111.668/452.981
+Object.rotation -66/0/0
 Object.setOSId 3
 rem
 rem ***  ***
@@ -65,49 +58,42 @@ rem
 rem ***  ***
 rem
 Object.create impdroidspawner
-Object.absolutePosition 3670.96/18.0682/3570.47
+Object.absolutePosition 2900.92/224.09/1509.01
 Object.rotation -85/0/0
 Object.setOSId 1
 rem
 rem ***  ***
 rem
 Object.create speeder
-Object.absolutePosition 635.881/112.191/394.504
-Object.rotation 21/0/0
+Object.absolutePosition 618.882/112.159/390.283
+Object.rotation 18/0/0
 Object.setOSId 3
 rem
 rem ***  ***
 rem
 Object.create speeder
-Object.absolutePosition 612.69/76.5393/3347.39
+Object.absolutePosition 1583.98/110.127/1193.11
 Object.rotation 217/0/0
 Object.setOSId 7
 rem
 rem ***  ***
 rem
-Object.create tiexwing
-Object.absolutePosition 570.494/78.2764/3353.82
-Object.rotation -156/0/0
-Object.setOSId 7
-rem
-rem ***  ***
-rem
 Object.create slave1spawner
-Object.absolutePosition 2264.66/156.555/2392.23
+Object.absolutePosition 2251.8/166.784/2383.8
 Object.rotation 38/-0.999998/0
 Object.setOSId 4
 rem
 rem ***  ***
 rem
 Object.create r5droidspawn2
-Object.absolutePosition 3392.37/18.0555/3603.82
+Object.absolutePosition 1948.55/107.821/228.88
 Object.rotation -184.999/0/0
 Object.setTeam 2
 rem
 rem ***  ***
 rem
 Object.create atstxwing
-Object.absolutePosition 3658.02/19.4549/3561.46
+Object.absolutePosition 2889.11/223.826/1503.21
 Object.rotation -42/0/0
 Object.setOSId 1
 rem
@@ -128,19 +114,137 @@ rem
 rem ***  ***
 rem
 Object.create speederbikespawner
-Object.absolutePosition 3646.86/18.5/3604.76
+Object.absolutePosition 2877.02/224.74/1544.4
 Object.rotation -130/0/0
 Object.setOSId 1
 rem
 rem ***  ***
 rem
 Object.create speederbikespawner
-Object.absolutePosition 632.03/78.4348/3332.12
-Object.rotation 191/0/0
+Object.absolutePosition 1589.54/109.675/1188.22
+Object.rotation 208/0/0
 Object.setOSId 7
 rem
 rem ***  ***
 rem
-Object.create gunshipsSpawner
-Object.absolutePosition 613.393/111.236/447.626
+Object.create tiexwing
+Object.absolutePosition 2068.7/113.608/267.325
+Object.rotation -153/0/0
+Object.setOSId 2
+rem
+rem ***  ***
+rem
+Object.create tankspawner
+Object.absolutePosition 1599.57/110.05/1178.96
+Object.rotation -153/0/0
+Object.setOSId 7
+rem
+rem ***  ***
+rem
+Object.create tankspawner
+Object.absolutePosition 656.569/111.81/434.316
+Object.rotation -60/0/0
 Object.setOSId 3
+rem
+rem ***  ***
+rem
+Object.create tankspawner
+Object.absolutePosition 649.392/111.887/419.855
+Object.rotation -45/0/0
+Object.setOSId 3
+rem
+rem ***  ***
+rem
+Object.create tankspawner
+Object.absolutePosition 641.541/112.034/404.909
+Object.rotation -45/0/0
+Object.setOSId 3
+rem
+rem ***  ***
+rem
+Object.create gunshipspawner1
+Object.absolutePosition 616.925/114.565/471.176
+Object.rotation 125/0/0
+Object.setOSId 3
+rem
+rem ***  ***
+rem
+Object.create antiair
+Object.absolutePosition 1929.37/107.958/183.316
+Object.setOSId 2
+rem
+rem ***  ***
+rem
+Object.create antiair
+Object.absolutePosition 2090.08/107.75/198.965
+Object.setOSId 2
+rem
+rem ***  ***
+rem
+Object.create tankspawner
+Object.absolutePosition 1932/109.562/210.42
+Object.rotation 92/0/0
+Object.setOSId 2
+rem
+rem ***  ***
+rem
+Object.create tiebombepawner
+Object.absolutePosition 3036.07/227.852/1547.02
+Object.rotation -140/0/0
+Object.setOSId 1
+rem
+rem ***  ***
+rem
+Object.create tiebombepawner
+Object.absolutePosition 3034.96/227.732/1527.72
+Object.rotation -29/0/0
+Object.setOSId 1
+rem
+rem ***  ***
+rem
+Object.create antiair2
+Object.absolutePosition 631.747/112.209/393.911
+Object.rotation 17/0/0
+Object.setOSId 3
+rem
+rem ***  ***
+rem
+Object.create antiair2
+Object.absolutePosition 2873.76/224.169/1506.97
+Object.rotation 17/0/0
+Object.setOSId 1
+rem
+rem ***  ***
+rem
+Object.create tankspawner
+Object.absolutePosition 2837.77/224.059/1568.66
+Object.rotation 180/0/0
+Object.setOSId 1
+rem
+rem ***  ***
+rem
+Object.create tankspawner
+Object.absolutePosition 2825.75/224.044/1558.9
+Object.rotation 186/0/0
+Object.setOSId 1
+rem
+rem ***  ***
+rem
+Object.create tankspawner
+Object.absolutePosition 2813.89/224.046/1549.73
+Object.rotation 184/0/0
+Object.setOSId 1
+rem
+rem ***  ***
+rem
+Object.create sandcrawlertwospawner
+Object.absolutePosition 727.648/121.918/1629.71
+Object.rotation 114/0/0
+Object.setTeam 2
+rem
+rem ***  ***
+rem
+Object.create impskiffspawner
+Object.absolutePosition 1931.17/109.377/195.31
+Object.rotation 96/0/0
+Object.setOSId 2

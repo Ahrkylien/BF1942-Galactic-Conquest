@@ -702,7 +702,7 @@
                       <TransformNode>
                         <Float description="X">385.0</Float>
                         <Float description="Y">555.0</Float>
-                        <Float description="Width">18.0</Float>
+                        <Float description="Width">16.0</Float>
                         <Float description="Height">20.0</Float>
                         <g description="Transformed node">
                           <EffectNode>
@@ -713,8 +713,14 @@
                               <Float description="Alpha">1.0</Float>
                             </ColorEffect>
                           </EffectNode>
+                          <ActionNode>
+                            <SetVariableAction description="Action">
+                              <IntData description="Variable" name="MyPercent">0</IntData>
+                              <FloatData description="Data" name="Load/LoadPercent">100.0</FloatData>
+                            </SetVariableAction>
+                          </ActionNode>
                           <TextNode>
-                            <FloatData description="String" name="Load/LoadPercent">100.0</FloatData>
+                            <IntData description="String" name="MyPercent">0</IntData>
                             <Style description="Style" name="Style/LoadHeading8">Trebuchet MS8.dif</Style>
                           </TextNode>
                         </g>
@@ -2308,6 +2314,178 @@
             <Float description="In time">0.0</Float>
             <Float description="Out time">0.0</Float>
           </CullNode>
+          <ActionNode>
+            <SetVariableAction description="Action">
+              <BoolData description="Variable" name="PlayDSVideo">False</BoolData>
+              <EqualData description="Data">
+                <AndData description="Data 1">
+                  <EqualData description="Data 1">
+                    <WstringData description="Data 1" name="Load/LevelName">LOADING OMAHA BEACH</WstringData>
+                    <StringData description="Data 2">PLOTTING HYPERSPACE ROUTE GC_DEATHSTAR</StringData>
+                  </EqualData>
+                  <StringData description="Data 2" name="AxisTicket">321</StringData>
+                </AndData>
+                <IntData description="Data 2">0</IntData>
+              </EqualData>
+            </SetVariableAction>
+          </ActionNode>
+          <ActionNode>
+            <SetVariableAction description="Action">
+              <BoolData description="Variable" name="PlayYavinVideo">False</BoolData>
+              <EqualData description="Data">
+                <AndData description="Data 1">
+                  <EqualData description="Data 1">
+                    <WstringData description="Data 1" name="Load/LevelName">LOADING OMAHA BEACH</WstringData>
+                    <StringData description="Data 2">PLOTTING HYPERSPACE ROUTE GC_DEATHSTAR</StringData>
+                  </EqualData>
+                  <StringData description="Data 2" name="AlliedTicket">9999</StringData>
+                </AndData>
+                <IntData description="Data 2">0</IntData>
+              </EqualData>
+            </SetVariableAction>
+          </ActionNode>
+          <SplitNode>
+            <g description="Split node">
+              <SplitNode>
+                <g description="Split node">
+                  <CullNode>
+                    <BoolData description="Do Show" name="PlayDSVideo">False</BoolData>
+                    <Float description="In time">0.0</Float>
+                    <Float description="Out time">0.0</Float>
+                  </CullNode>
+                  <TimeoutActionNode>
+                    <ActionListAction description="Action">
+                      <SetVariableAction>
+                        <FloatData description="Variable" name="FocusEffect/BgPicAlpha">1.0</FloatData>
+                        <FloatData description="Data">0.0</FloatData>
+                      </SetVariableAction>
+                      <SetVariableAction>
+                        <BoolData description="Variable" name="FocusEffect/GoFadeOutLoadPicture">False</BoolData>
+                        <BoolData description="Data">True</BoolData>
+                      </SetVariableAction>
+                      <SetVariableAction>
+                        <BoolData description="Variable" name="FocusEffect/GoFadeOut2">False</BoolData>
+                        <BoolData description="Data">True</BoolData>
+                      </SetVariableAction>
+                      <SetVariableAction>
+                        <BoolData description="Variable" name="FocusEffect/GoMoveYOut">False</BoolData>
+                        <BoolData description="Data">True</BoolData>
+                      </SetVariableAction>
+                      <SetVariableAction>
+                        <IntData description="Variable" name="TransitionEffect">0</IntData>
+                        <IntData description="Data">0</IntData>
+                      </SetVariableAction>
+                      <ActionPlaceholder />
+                    </ActionListAction>
+                    <Float description="Timeout time">25.0</Float>
+                  </TimeoutActionNode>
+                  <ActionNode>
+                    <ActionListAction description="Action">
+                      <SetVariableAction>
+                        <FloatData description="Variable" name="FocusEffect/BGAlpha">1.0</FloatData>
+                        <FloatData description="Data">0.0</FloatData>
+                      </SetVariableAction>
+                      <ActionPlaceholder />
+                    </ActionListAction>
+                  </ActionNode>
+                  <TransformNode>
+                    <Float description="X">-150.0</Float>
+                    <Float description="Y">-100.0</Float>
+                    <Float description="Width">800.0</Float>
+                    <Float description="Height">600.0</Float>
+                    <g description="Transformed node">
+                      <BfBinkNode>
+                        <StringData description="Bink filename">Movies/DeathStar1</StringData>
+                        <StringData description="Background picture">Icon_scout_1.tga</StringData>
+                        <Float description="Fade time">0.0</Float>
+                        <BoolData description="Play" name="PlayBink">True</BoolData>
+                      </BfBinkNode>
+                      <TimeoutActionNode>
+                        <SetVariableAction description="Action">
+                          <BoolData description="Variable" name="PlayDSVideo">False</BoolData>
+                          <BoolData description="Data">False</BoolData>
+                        </SetVariableAction>
+                        <Float description="Timeout time">15.0</Float>
+                      </TimeoutActionNode>
+                    </g>
+                  </TransformNode>
+                </g>
+              </SplitNode>
+              <CullNode>
+                <BoolData description="Do Show" name="PlayYavinVideo">False</BoolData>
+                <Float description="In time">0.0</Float>
+                <Float description="Out time">0.0</Float>
+              </CullNode>
+              <TimeoutActionNode>
+                <ActionListAction description="Action">
+                  <SetVariableAction>
+                    <FloatData description="Variable" name="FocusEffect/BgPicAlpha">1.0</FloatData>
+                    <FloatData description="Data">0.0</FloatData>
+                  </SetVariableAction>
+                  <SetVariableAction>
+                    <BoolData description="Variable" name="FocusEffect/GoFadeOutLoadPicture">False</BoolData>
+                    <BoolData description="Data">True</BoolData>
+                  </SetVariableAction>
+                  <SetVariableAction>
+                    <BoolData description="Variable" name="FocusEffect/GoFadeOut2">False</BoolData>
+                    <BoolData description="Data">True</BoolData>
+                  </SetVariableAction>
+                  <SetVariableAction>
+                    <BoolData description="Variable" name="FocusEffect/GoMoveYOut">False</BoolData>
+                    <BoolData description="Data">True</BoolData>
+                  </SetVariableAction>
+                  <SetVariableAction>
+                    <IntData description="Variable" name="TransitionEffect">0</IntData>
+                    <IntData description="Data">0</IntData>
+                  </SetVariableAction>
+                  <ActionPlaceholder />
+                </ActionListAction>
+                <Float description="Timeout time">25.0</Float>
+              </TimeoutActionNode>
+              <ActionNode>
+                <ActionListAction description="Action">
+                  <SetVariableAction>
+                    <FloatData description="Variable" name="FocusEffect/BGAlpha">1.0</FloatData>
+                    <FloatData description="Data">0.0</FloatData>
+                  </SetVariableAction>
+                  <ActionPlaceholder />
+                </ActionListAction>
+              </ActionNode>
+              <TransformNode>
+                <Float description="X">-150.0</Float>
+                <Float description="Y">-100.0</Float>
+                <Float description="Width">800.0</Float>
+                <Float description="Height">600.0</Float>
+                <g description="Transformed node">
+                  <BfBinkNode>
+                    <StringData description="Bink filename">Movies/Yavin1</StringData>
+                    <StringData description="Background picture">Icon_scout_1.tga</StringData>
+                    <Float description="Fade time">0.0</Float>
+                    <BoolData description="Play" name="PlayBink">True</BoolData>
+                  </BfBinkNode>
+                  <TimeoutActionNode>
+                    <SetVariableAction description="Action">
+                      <BoolData description="Variable" name="PlayYavinVideo">False</BoolData>
+                      <BoolData description="Data">False</BoolData>
+                    </SetVariableAction>
+                    <Float description="Timeout time">15.0</Float>
+                  </TimeoutActionNode>
+                </g>
+              </TransformNode>
+            </g>
+          </SplitNode>
+          <CullNode>
+            <AndData description="Do Show">
+              <NotData description="Data 1">
+                <BoolData description="Data" name="PlayDSVideo">False</BoolData>
+              </NotData>
+              <NotData description="Data 2">
+                <BoolData description="Data" name="PlayYavinVideo">False</BoolData>
+              </NotData>
+            </AndData>
+            <Float description="In time">0.0</Float>
+            <Float description="Out time">0.0</Float>
+          </CullNode>
           <PictureNode>Debriefing/MP_debriefing_512x512.tga</PictureNode>
           <TransformNode>
             <Float description="X">5.0</Float>
@@ -2324,7 +2502,7 @@
                 </ColorEffect>
               </EffectNode>
               <TextNode>
-                <WstringData description="String" name="Debriefing/DebriefingHeading">VICTORY</WstringData>
+                <WstringData description="String" name="Load/LevelName">LOADING OMAHA BEACH</WstringData>
                 <CenterAlignedStyle description="Style" name="Style/LoadHeadingStyle">Trebuchet MS18.dif</CenterAlignedStyle>
               </TextNode>
             </g>

@@ -1,0 +1,51 @@
+run sandcrawlerstatic\go
+rem run me_building1_m1\go
+rem run me_building1_mirror_m1\go
+run me_building2_m1\go
+run me_building3_m1\go
+run me_building3_mirror_m1\go
+rem run me_building4_m1\go
+rem run me_building4_mirror_m1\go
+run me_building5_m1\go
+run me_building5_mirror_m1\go
+run me_building6_m1\go
+run me_building7_m1\go
+run me_building7_mirror_m1\go
+rem run e_sandstorm\Geometries
+rem run e_sandstorm\Effects
+rem run FreeCamera\Object
+run ME_bridgedbuilding_m1\go
+run ME_building_central_m1\go
+run ME_building_bigbalcony_m1\go
+run ME_building_tower2_m1\go
+run ME_building_2floorhouse_m1\go
+run ME_building_doubledome_m1\go
+run tat_building_large\go
+run ME_building_villa_m1\go
+run ME_building_corner_m1\go
+run me_building8_m1\go
+run me_building8_mirror_m1\go
+run Mos_Corner_m1\go
+run t16\objects
+run staticfalcon\objects
+run Ewebstationary\go
+run stairsbridge\go
+run bridge2\go
+run ringthing\go
+run pot\go
+run antenna\go
+run floorbed\go
+run Exaustwreck\go
+run table_small\go
+run table\go
+run chair\go
+run roundtable\go
+
+ObjectTemplate.Create SimpleObject escapepodstatic
+ObjectTemplate.loadSoundScript ../../../../objects/effects/Common/Sounds/fire.ssc
+ObjectTemplate.hascollisionphysics 1
+ObjectTemplate.geometry EscapePod_Hull_m1
+
+
+
+rem

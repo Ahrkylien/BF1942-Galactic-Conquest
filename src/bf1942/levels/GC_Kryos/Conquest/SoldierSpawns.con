@@ -1,0 +1,165 @@
+rem SoldierSpawns.con created by Battlecraft 1942
+rem (\Program Files\Battlefield 1942\Mods\GCMOD\bf1942\levels\GC_Kryos/conquest/SoldierSpawns.con)
+
+rem ----------------------------------------- 
+rem ---  Imperial_Base_Spawn1  ---
+rem ----------------------------------------- 
+Object.create Imperial_Base_Spawn1
+Object.absolutePosition 592.18/82.41/446.81
+Object.rotation -135.84/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Rebel_Base_Spawn1  ---
+rem ----------------------------------------- 
+Object.create Rebel_Base_Spawn1
+Object.absolutePosition 1507.13/75.54/1751.60
+Object.rotation -132.65/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Rebel_Base_Spawn2  ---
+rem ----------------------------------------- 
+Object.create Rebel_Base_Spawn2
+Object.absolutePosition 1368.34/75.46/1664.17
+Object.rotation 174.17/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Rebel_Base_Spawn3  ---
+rem ----------------------------------------- 
+Object.create Rebel_Base_Spawn3
+Object.absolutePosition 1436.23/75.47/1789.08
+Object.rotation -186.13/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Rebel_Base_Spawn4  ---
+rem ----------------------------------------- 
+Object.create Rebel_Base_Spawn4
+Object.absolutePosition 1345.08/75.48/1759.23
+Object.rotation 119.82/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Imperial_Base_Spawn2  ---
+rem ----------------------------------------- 
+Object.create Imperial_Base_Spawn2
+Object.absolutePosition 569.64/82.28/423.95
+Object.rotation 44.93/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Imperial_Base_Spawn3  ---
+rem ----------------------------------------- 
+Object.create Imperial_Base_Spawn3
+Object.absolutePosition 609.72/82.50/397.79
+Object.rotation 42.78/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Imperial_Base_Spawn4  ---
+rem ----------------------------------------- 
+Object.create Imperial_Base_Spawn4
+Object.absolutePosition 620.10/82.51/384.74
+Object.rotation 45.13/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Ion_Cannon_Spawn1  ---
+rem ----------------------------------------- 
+Object.create Ion_Cannon_Spawn1
+Object.absolutePosition 1373.42/107.77/657.74
+Object.rotation 181.12/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Power_Generator_Spawn1  ---
+rem ----------------------------------------- 
+Object.create Power_Generator_Spawn1
+Object.absolutePosition 886.87/96.59/990.90
+Object.rotation 221.01/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Water_Cooling_Station_Spawn3  ---
+rem ----------------------------------------- 
+Object.create Water_Cooling_Station_Spawn3
+Object.absolutePosition 1562.20/80.65/1131.47
+Object.rotation -94.82/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Ion_Cannon_Spawn2  ---
+rem ----------------------------------------- 
+Object.create Ion_Cannon_Spawn2
+Object.absolutePosition 1368.04/107.87/618.83
+Object.rotation 89.08/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Ion_Cannon_Spawn3  ---
+rem ----------------------------------------- 
+Object.create Ion_Cannon_Spawn3
+Object.absolutePosition 1427.00/107.81/695.64
+Object.rotation -89.40/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Ion_Cannon_Spawn4  ---
+rem ----------------------------------------- 
+Object.create Ion_Cannon_Spawn4
+Object.absolutePosition 1409.34/107.77/695.70
+Object.rotation -90.67/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Ion_Cannon_Spawn5  ---
+rem ----------------------------------------- 
+Object.create Ion_Cannon_Spawn5
+Object.absolutePosition 1365.85/107.84/635.20
+Object.rotation 46.46/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Power_Generator_Spawn2  ---
+rem ----------------------------------------- 
+Object.create Power_Generator_Spawn2
+Object.absolutePosition 889.35/98.57/1023.41
+Object.rotation -87.43/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Power_Generator_Spawn3  ---
+rem ----------------------------------------- 
+Object.create Power_Generator_Spawn3
+Object.absolutePosition 898.18/98.12/981.54
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Power_Generator_Spawn4  ---
+rem ----------------------------------------- 
+Object.create Power_Generator_Spawn4
+Object.absolutePosition 825.69/96.59/971.81
+Object.rotation 89.96/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Power_Generator_Spawn5  ---
+rem ----------------------------------------- 
+Object.create Power_Generator_Spawn5
+Object.absolutePosition 825.37/96.59/1017.18
+Object.rotation 89.76/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Water_Cooling_Station_Spawn1  ---
+rem ----------------------------------------- 
+Object.create Water_Cooling_Station_Spawn1
+Object.absolutePosition 1562.13/83.35/1035.10
+Object.rotation 33.91/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Water_Cooling_Station_Spawn2  ---
+rem ----------------------------------------- 
+Object.create Water_Cooling_Station_Spawn2
+Object.absolutePosition 1599.22/83.35/1101.68
+Object.rotation -151.17/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Water_Cooling_Station_Spawn4  ---
+rem ----------------------------------------- 
+Object.create Water_Cooling_Station_Spawn4
+Object.absolutePosition 1518.39/80.65/1059.06
+Object.rotation -179.43/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Water_Cooling_Station_Spawn5  ---
+rem ----------------------------------------- 
+Object.create Water_Cooling_Station_Spawn5
+Object.absolutePosition 1496.44/81.02/1116.12
+Object.rotation 116.08/0.00/0.00
+
+rem EndOfFile

@@ -1,0 +1,5 @@
+rem *** frog ***
+ObjectTemplate.create SimpleObject frog
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.triggerRadius 100
+ObjectTemplate.loadSoundScript frog.ssc

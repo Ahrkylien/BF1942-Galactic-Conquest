@@ -16,7 +16,7 @@ ObjectTemplate.speedMod .1
 ObjectTemplate.hitpoints 5000
 ObjectTemplate.maxhitpoints 5000
 ObjectTemplate.material 821
-ObjectTemplate.criticalDamage 120
+ObjectTemplate.criticalDamage 150
 ObjectTemplate.hpLostWhileCriticalDamage 12
 ObjectTemplate.explosionForceMod 10
 ObjectTemplate.addArmorEffect 800 em_ExFumePOW 0/17/-9
@@ -31,6 +31,32 @@ ObjectTemplate.addArmorEffect 120 e_alarm2 0/5/100
 ObjectTemplate.addArmorEffect 120 e_waterBoatSinkEf 0/-2/-5
 ObjectTemplate.addArmorEffect 120 e_waterBoatSinkEf 0/-2/25
 ObjectTemplate.addArmorEffect 120 e_waterBoatSinkEf 0/-2/-35
+ObjectTemplate.fadeAtTimeToLiveAfterDeath 0.01
+
+rem DEATH BLOW
+ObjectTemplate.addArmorEffect 0 e_ExplGas -14.9/0/-10
+ObjectTemplate.addArmorEffect 0 e_ExplGas 16.9/5.83/0
+ObjectTemplate.addArmorEffect 0 e_ExplGas -16.9/5.83/0
+ObjectTemplate.addArmorEffect 0 e_ExplCap 0/0/0
+
+ObjectTemplate.addArmorEffect 12 e_ExplGas 0/4.3/74.3
+ObjectTemplate.addArmorEffect 15 e_ExplGas 0/16/41.9
+ObjectTemplate.addArmorEffect 112 e_ExplGas 16.9/5.83/23
+ObjectTemplate.addArmorEffect 30 e_ExplGas -16.9/5.83/23
+ObjectTemplate.addArmorEffect 50 e_ExplGas 0/0/0
+
+ObjectTemplate.addArmorEffect 130 e_ExplGas 0/4.3/74.3
+ObjectTemplate.addArmorEffect 50 e_ExplGas 0/16/41.9
+ObjectTemplate.addArmorEffect 80 e_ExplGas 16.9/5.83/23
+ObjectTemplate.addArmorEffect 75 e_ExplGas -16.9/5.83/23
+ObjectTemplate.addArmorEffect 40 e_ExplGas 0/0/0
+
+ObjectTemplate.addArmorEffect 144 e_ExplGas 0/4.3/74.3
+ObjectTemplate.addArmorEffect 85 e_ExplGas 0/16/41.9
+ObjectTemplate.addArmorEffect 70 e_ExplGas 16.9/5.83/23
+ObjectTemplate.addArmorEffect 35 e_ExplGas -16.9/5.83/23
+ObjectTemplate.addArmorEffect 30 e_ExplGas 0/0/0
+rem DEATH BLOW
 rem -------------------------------------
 ObjectTemplate.addTemplate lodNebulonB
 rem -------------------------------------
@@ -61,6 +87,7 @@ ObjectTemplate.hasResponsePhysics 0
 rem -------------------------------------
 ObjectTemplate.addTemplate NebulonBComplex
 ObjectTemplate.addTemplate NebulonBSimple
+ObjectTemplate.addTemplate NoWreck
 rem -------------------------------------
 ObjectTemplate.lodSelector NebulonBLodSelector
 
@@ -91,6 +118,16 @@ ObjectTemplate.addTemplate Capital_Wheel
 ObjectTemplate.setPosition 10/-140/-10
 ObjectTemplate.addTemplate Capital_Wheel
 ObjectTemplate.setPosition -10/-140/-10
+
+ObjectTemplate.addTemplate Capital_Wheel
+ObjectTemplate.setPosition 10/140/10
+ObjectTemplate.addTemplate Capital_Wheel
+ObjectTemplate.setPosition -10/140/10
+ObjectTemplate.addTemplate Capital_Wheel
+ObjectTemplate.setPosition 10/140/-10
+ObjectTemplate.addTemplate Capital_Wheel
+ObjectTemplate.setPosition -10/140/-10
+
 ObjectTemplate.addTemplate CapitalBodyWingVertical
 ObjectTemplate.setRotation 0/0/-89.999
 rem ------------------------------------
@@ -289,8 +326,8 @@ ObjectTemplate.addTemplate NebulonB_Turret_1_Y
 ObjectTemplate.setPosition 0/0/.57
 ObjectTemplate.setRotation 0/0/0
 rem -------------------------------------
-ObjectTemplate.setMinRotation -38/0/0
-ObjectTemplate.setMaxRotation 38/0/0
+ObjectTemplate.setMinRotation -31/0/0
+ObjectTemplate.setMaxRotation 31/0/0
 ObjectTemplate.setMaxSpeed 30/0/0
 ObjectTemplate.setAcceleration 5000/0/0
 ObjectTemplate.setInputToYaw c_PIMouseLookX
@@ -310,7 +347,7 @@ ObjectTemplate.setRotation 0/0/0
 ObjectTemplate.addTemplate NebulonB_Turbolaser
 ObjectTemplate.setPosition 0/0/1.57
 rem -------------------------------------
-ObjectTemplate.setMinRotation 0/-85/0
+ObjectTemplate.setMinRotation 0/-75/0
 ObjectTemplate.setMaxRotation 0/0/0
 ObjectTemplate.setMaxSpeed 0/30/0
 ObjectTemplate.setAcceleration 0/5000/0
@@ -348,7 +385,7 @@ ObjectTemplate.setRotation 0/0/0
 ObjectTemplate.addTemplate NebulonB_laser
 ObjectTemplate.setPosition 0/0/1.57
 rem -------------------------------------
-ObjectTemplate.setMinRotation 0/-85/0
+ObjectTemplate.setMinRotation 0/-75/0
 ObjectTemplate.setMaxRotation 0/0/0
 ObjectTemplate.setMaxSpeed 0/80/0
 ObjectTemplate.setAcceleration 0/5000/0
@@ -421,6 +458,7 @@ ObjectTemplate.geometry NebulonBlow
 
 rem *** LodSelector ***
 LodSelectorTemplate.create DistCompareSelector2 NebulonBLodSelector
+LodSelectorTemplate.hasDestroyedLod 1
 LodSelectorTemplate.addLodDistance 700
 
 rem *** Lancer_Gun_Mesh ***
@@ -518,7 +556,7 @@ ObjectTemplate.speedMod .5
 ObjectTemplate.hitpoints 5000
 ObjectTemplate.maxhitpoints 5000
 ObjectTemplate.material 821
-ObjectTemplate.criticalDamage 120
+ObjectTemplate.criticalDamage 150
 ObjectTemplate.hpLostWhileCriticalDamage 12
 ObjectTemplate.explosionForceMod 10
 ObjectTemplate.addArmorEffect 800 em_ExFumePOW 0/17/-9
@@ -533,6 +571,32 @@ ObjectTemplate.addArmorEffect 120 e_alarm2 0/5/100
 ObjectTemplate.addArmorEffect 120 e_waterBoatSinkEf 0/-2/-5
 ObjectTemplate.addArmorEffect 120 e_waterBoatSinkEf 0/-2/25
 ObjectTemplate.addArmorEffect 120 e_waterBoatSinkEf 0/-2/-35
+ObjectTemplate.fadeAtTimeToLiveAfterDeath 0.01
+
+rem DEATH BLOW
+ObjectTemplate.addArmorEffect 0 e_ExplGas -14.9/0/-10
+ObjectTemplate.addArmorEffect 0 e_ExplGas 16.9/5.83/0
+ObjectTemplate.addArmorEffect 0 e_ExplGas -16.9/5.83/0
+ObjectTemplate.addArmorEffect 0 e_ExplCap 0/0/0
+
+ObjectTemplate.addArmorEffect 12 e_ExplGas 0/4.3/74.3
+ObjectTemplate.addArmorEffect 15 e_ExplGas 0/16/41.9
+ObjectTemplate.addArmorEffect 112 e_ExplGas 16.9/5.83/23
+ObjectTemplate.addArmorEffect 30 e_ExplGas -16.9/5.83/23
+ObjectTemplate.addArmorEffect 50 e_ExplGas 0/0/0
+
+ObjectTemplate.addArmorEffect 130 e_ExplGas 0/4.3/74.3
+ObjectTemplate.addArmorEffect 50 e_ExplGas 0/16/41.9
+ObjectTemplate.addArmorEffect 80 e_ExplGas 16.9/5.83/23
+ObjectTemplate.addArmorEffect 75 e_ExplGas -16.9/5.83/23
+ObjectTemplate.addArmorEffect 40 e_ExplGas 0/0/0
+
+ObjectTemplate.addArmorEffect 144 e_ExplGas 0/4.3/74.3
+ObjectTemplate.addArmorEffect 85 e_ExplGas 0/16/41.9
+ObjectTemplate.addArmorEffect 70 e_ExplGas 16.9/5.83/23
+ObjectTemplate.addArmorEffect 35 e_ExplGas -16.9/5.83/23
+ObjectTemplate.addArmorEffect 30 e_ExplGas 0/0/0
+rem DEATH BLOW
 rem -------------------------------------
 ObjectTemplate.addTemplate lodNebulonB4
 rem -------------------------------------
@@ -565,6 +629,7 @@ ObjectTemplate.hasResponsePhysics 0
 rem -------------------------------------
 ObjectTemplate.addTemplate NebulonBComplex4
 ObjectTemplate.addTemplate NebulonBSimple
+ObjectTemplate.addTemplate NoWreck
 rem -------------------------------------
 ObjectTemplate.lodSelector NebulonB3LodSelector
 
@@ -595,6 +660,16 @@ ObjectTemplate.addTemplate Capital_Wheel
 ObjectTemplate.setPosition 10/-140/-10
 ObjectTemplate.addTemplate Capital_Wheel
 ObjectTemplate.setPosition -10/-140/-10
+
+ObjectTemplate.addTemplate Capital_Wheel
+ObjectTemplate.setPosition 10/140/10
+ObjectTemplate.addTemplate Capital_Wheel
+ObjectTemplate.setPosition -10/140/10
+ObjectTemplate.addTemplate Capital_Wheel
+ObjectTemplate.setPosition 10/140/-10
+ObjectTemplate.addTemplate Capital_Wheel
+ObjectTemplate.setPosition -10/140/-10
+
 ObjectTemplate.addTemplate CapitalBodyWingVertical
 ObjectTemplate.setRotation 0/0/-89.999
 rem -------------------------------------
@@ -653,4 +728,6 @@ ObjectTemplate.addTemplate NebulonB_Turret_PCO5
 
 rem *** LodSelector ***
 LodSelectorTemplate.create DistCompareSelector2 NebulonB3LodSelector
+LodSelectorTemplate.hasDestroyedLod 1
 LodSelectorTemplate.addLodDistance 700
+

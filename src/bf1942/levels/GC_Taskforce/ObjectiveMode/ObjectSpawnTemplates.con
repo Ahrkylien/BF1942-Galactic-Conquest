@@ -1,0 +1,22 @@
+ObjectTemplate.create ObjectSpawner yt600spawner
+ObjectTemplate.setObjectTemplate 2 yt600
+ObjectTemplate.setObjectTemplate 1 yt600-3
+ObjectTemplate.MinSpawnDelay 30
+ObjectTemplate.MaxSpawnDelay 80
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 30
+ObjectTemplate.Distance 20
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.MaxNrOfObjectSpawned 1
+
+ObjectTemplate.create ObjectSpawner yt600spawner2
+ObjectTemplate.setObjectTemplate 2 yt600-2
+ObjectTemplate.setObjectTemplate 1 yt600-4
+ObjectTemplate.MinSpawnDelay 30
+ObjectTemplate.MaxSpawnDelay 80
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 30
+ObjectTemplate.Distance 20
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.MaxNrOfObjectSpawned 1
+

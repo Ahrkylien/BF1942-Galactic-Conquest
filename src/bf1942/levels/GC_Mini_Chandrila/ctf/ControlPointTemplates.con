@@ -1,0 +1,56 @@
+rem ControlPointTemplates.con created by Battlecraft 1942
+rem (\Program Files\Battlefield 1942\Mods\GCMOD\bf1942\levels\GC_Mini_Chandrila/ctf/ControlPointTemplates.con)
+
+NetworkableInfo.createNewInfo ControlPointInfo
+NetworkableInfo.setPredictionMode PMNone
+NetworkableInfo.setBasePriority c_NIGhostAlways
+
+rem ----------------------------------------- 
+rem ---  Eastern_Peak  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ControlPoint Eastern_Peak
+ObjectTemplate.networkableInfo ControlPointInfo
+ObjectTemplate.setControlPointName Eastern_Peak
+ObjectTemplate.radius 15
+ObjectTemplate.team 0
+ObjectTemplate.spawnGroupId 3
+ObjectTemplate.objectSpawnerId 3
+ObjectTemplate.areaValue 40
+ObjectTemplate.timeToGetControl 10
+ObjectTemplate.timeToLoseControl 10
+ObjectTemplate.disableIfEnemyInsideRadius 0
+ObjectTemplate.disableWhenLosingControl 0
+ObjectTemplate.loseControlWhenEnemyClose 1
+ObjectTemplate.loseControlWhenNotClose 0
+ObjectTemplate.geometry flagbase_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.addTemplate AnimatedFlag
+ObjectTemplate.setPosition 0.000000/8.200000/0.000000
+ObjectTemplate.setTeamGeometry 1 flagge_m1
+ObjectTemplate.setTeamGeometry 2 flagus_m1
+
+rem ----------------------------------------- 
+rem ---  Western_Peak  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ControlPoint Western_Peak
+ObjectTemplate.networkableInfo ControlPointInfo
+ObjectTemplate.setControlPointName New_Control_Point2
+ObjectTemplate.radius 15
+ObjectTemplate.team 0
+ObjectTemplate.spawnGroupId 4
+ObjectTemplate.objectSpawnerId 4
+ObjectTemplate.areaValue 40
+ObjectTemplate.timeToGetControl 10
+ObjectTemplate.timeToLoseControl 10
+ObjectTemplate.disableIfEnemyInsideRadius 0
+ObjectTemplate.disableWhenLosingControl 0
+ObjectTemplate.loseControlWhenEnemyClose 1
+ObjectTemplate.loseControlWhenNotClose 0
+ObjectTemplate.geometry flagbase_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.addTemplate AnimatedFlag
+ObjectTemplate.setPosition 0.000000/8.200000/0.000000
+ObjectTemplate.setTeamGeometry 1 flagge_m1
+ObjectTemplate.setTeamGeometry 2 flagus_m1
+
+rem EndOfFile

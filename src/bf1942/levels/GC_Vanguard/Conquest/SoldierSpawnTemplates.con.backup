@@ -1,0 +1,8 @@
+ObjectTemplate.create SpawnPoint reb1
+ObjectTemplate.setSpawnId 1
+ObjectTemplate.setGroup 1
+
+ObjectTemplate.create SpawnPoint impspawn
+ObjectTemplate.setSpawnId 2
+ObjectTemplate.setGroup 2
+

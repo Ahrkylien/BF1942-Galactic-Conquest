@@ -1,0 +1,154 @@
+rem ControlPointTemplates.con created by Battlecraft 1942
+rem (C:\Program Files\EA Games\Battlefield 1942\Mods\GCMOD\bf1942\levels\GC_Mini_Caves/conquest/ControlPointTemplates.con)
+
+NetworkableInfo.createNewInfo ControlPointInfo
+NetworkableInfo.setPredictionMode PMNone
+NetworkableInfo.setBasePriority c_NIGhostAlways
+
+rem ----------------------------------------- 
+rem ---  Rebel_Base  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ControlPoint Rebel_Base
+ObjectTemplate.networkableInfo ControlPointInfo
+ObjectTemplate.setControlPointName Rebel_Base
+ObjectTemplate.radius 10
+ObjectTemplate.team 2
+ObjectTemplate.spawnGroupId 2
+ObjectTemplate.objectSpawnerId 2
+ObjectTemplate.areaValue 0
+ObjectTemplate.timeToGetControl 9999
+ObjectTemplate.timeToLoseControl 9999
+ObjectTemplate.disableIfEnemyInsideRadius 0
+ObjectTemplate.disableWhenLosingControl 0
+ObjectTemplate.loseControlWhenEnemyClose 1
+ObjectTemplate.loseControlWhenNotClose 0
+ObjectTemplate.unableToChangeTeam 1
+ObjectTemplate.geometry flagbase_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.addTemplate AnimatedFlag
+ObjectTemplate.setPosition 0.000000/0.000000/0.000000
+ObjectTemplate.setTeamGeometry 1 flagge_m1
+ObjectTemplate.setTeamGeometry 2 flagus_m1
+
+rem ----------------------------------------- 
+rem ---  Upper_Bridge_Rebel_Side  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ControlPoint Upper_Bridge_Rebel_Side
+ObjectTemplate.networkableInfo ControlPointInfo
+ObjectTemplate.setControlPointName Upper_Bridge_Rebel_Side
+ObjectTemplate.radius 10
+ObjectTemplate.team 0
+ObjectTemplate.spawnGroupId 4
+ObjectTemplate.objectSpawnerId 4
+ObjectTemplate.areaValue 35
+ObjectTemplate.timeToGetControl 10
+ObjectTemplate.timeToLoseControl 5
+ObjectTemplate.disableIfEnemyInsideRadius 0
+ObjectTemplate.disableWhenLosingControl 0
+ObjectTemplate.loseControlWhenEnemyClose 1
+ObjectTemplate.loseControlWhenNotClose 0
+ObjectTemplate.geometry flagbase_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.addTemplate AnimatedFlag
+ObjectTemplate.setPosition 0.000000/0.000000/0.000000
+ObjectTemplate.setTeamGeometry 1 flagge_m1
+ObjectTemplate.setTeamGeometry 2 flagus_m1
+
+rem ----------------------------------------- 
+rem ---  Lower_Bridge_Rebel_Side  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ControlPoint Lower_Bridge_Rebel_Side
+ObjectTemplate.networkableInfo ControlPointInfo
+ObjectTemplate.setControlPointName Lower_Bridge_Rebel_Side
+ObjectTemplate.radius 10
+ObjectTemplate.team 0
+ObjectTemplate.spawnGroupId 6
+ObjectTemplate.objectSpawnerId 6
+ObjectTemplate.areaValue 35
+ObjectTemplate.timeToGetControl 10
+ObjectTemplate.timeToLoseControl 5
+ObjectTemplate.disableIfEnemyInsideRadius 0
+ObjectTemplate.disableWhenLosingControl 0
+ObjectTemplate.loseControlWhenEnemyClose 1
+ObjectTemplate.loseControlWhenNotClose 0
+ObjectTemplate.geometry flagbase_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.addTemplate AnimatedFlag
+ObjectTemplate.setPosition 0.000000/0.000000/0.000000
+ObjectTemplate.setTeamGeometry 1 flagge_m1
+ObjectTemplate.setTeamGeometry 2 flagus_m1
+
+rem ----------------------------------------- 
+rem ---  Lower_Bridge_Imperial_Side  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ControlPoint Lower_Bridge_Imperial_Side
+ObjectTemplate.networkableInfo ControlPointInfo
+ObjectTemplate.setControlPointName Lower_Bridge_Imperial_Side
+ObjectTemplate.radius 10
+ObjectTemplate.team 0
+ObjectTemplate.spawnGroupId 7
+ObjectTemplate.objectSpawnerId 7
+ObjectTemplate.areaValue 35
+ObjectTemplate.timeToGetControl 10
+ObjectTemplate.timeToLoseControl 5
+ObjectTemplate.disableIfEnemyInsideRadius 0
+ObjectTemplate.disableWhenLosingControl 0
+ObjectTemplate.loseControlWhenEnemyClose 1
+ObjectTemplate.loseControlWhenNotClose 0
+ObjectTemplate.geometry flagbase_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.addTemplate AnimatedFlag
+ObjectTemplate.setPosition 0.000000/0.000000/0.000000
+ObjectTemplate.setTeamGeometry 1 flagge_m1
+ObjectTemplate.setTeamGeometry 2 flagus_m1
+
+rem ----------------------------------------- 
+rem ---  Upper_Bridge_Imperial_Side  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ControlPoint Upper_Bridge_Imperial_Side
+ObjectTemplate.networkableInfo ControlPointInfo
+ObjectTemplate.setControlPointName Upper_Bridge_Imperial_Side
+ObjectTemplate.radius 10
+ObjectTemplate.team 0
+ObjectTemplate.spawnGroupId 5
+ObjectTemplate.objectSpawnerId 5
+ObjectTemplate.areaValue 35
+ObjectTemplate.timeToGetControl 10
+ObjectTemplate.timeToLoseControl 5
+ObjectTemplate.disableIfEnemyInsideRadius 0
+ObjectTemplate.disableWhenLosingControl 0
+ObjectTemplate.loseControlWhenEnemyClose 1
+ObjectTemplate.loseControlWhenNotClose 0
+ObjectTemplate.geometry flagbase_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.addTemplate AnimatedFlag
+ObjectTemplate.setPosition 0.000000/0.000000/0.000000
+ObjectTemplate.setTeamGeometry 1 flagge_m1
+ObjectTemplate.setTeamGeometry 2 flagus_m1
+
+rem ----------------------------------------- 
+rem ---  Imperial_Base  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ControlPoint Imperial_Base
+ObjectTemplate.networkableInfo ControlPointInfo
+ObjectTemplate.setControlPointName Imperial_Base
+ObjectTemplate.radius 10
+ObjectTemplate.team 1
+ObjectTemplate.spawnGroupId 8
+ObjectTemplate.objectSpawnerId 8
+ObjectTemplate.areaValue 0
+ObjectTemplate.timeToGetControl 9999
+ObjectTemplate.timeToLoseControl 9999
+ObjectTemplate.disableIfEnemyInsideRadius 0
+ObjectTemplate.disableWhenLosingControl 0
+ObjectTemplate.loseControlWhenEnemyClose 1
+ObjectTemplate.loseControlWhenNotClose 0
+ObjectTemplate.unableToChangeTeam 1
+ObjectTemplate.geometry flagbase_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.addTemplate AnimatedFlag
+ObjectTemplate.setPosition 0.000000/0.000000/0.000000
+ObjectTemplate.setTeamGeometry 1 flagge_m1
+ObjectTemplate.setTeamGeometry 2 flagus_m1
+
+rem EndOfFile

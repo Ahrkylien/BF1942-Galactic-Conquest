@@ -1,0 +1,7 @@
+[CubeMap]
+PositiveX = GCMOD\levels\GC_Caves_of_Dagobahmini\Textures\env_GC_Caves_of_Dagobah_04.dds
+NegativeX = GCMOD\levels\GC_Caves_of_Dagobahmini\Textures\env_GC_Caves_of_Dagobah_02.dds
+PositiveY = GCMOD\levels\GC_Caves_of_Dagobahmini\Textures\env_GC_Caves_of_Dagobah_05.dds
+NegativeY = GCMOD\levels\GC_Caves_of_Dagobahmini\Textures\env_GC_Caves_of_Dagobah_06.dds
+PositiveZ = GCMOD\levels\GC_Caves_of_Dagobahmini\Textures\env_GC_Caves_of_Dagobah_03.dds
+NegativeZ = GCMOD\levels\GC_Caves_of_Dagobahmini\Textures\env_GC_Caves_of_Dagobah_01.dds

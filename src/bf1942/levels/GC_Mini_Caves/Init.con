@@ -1,0 +1,85 @@
+rem *********************************************
+rem Created by Battlecarp 1942.  Copyright (c)2003,2004 Digital Illusions CE
+rem *********************************************
+ShaderManager.setTextureParam envmap ..\..\bf1942\levels\GC_Mini_Caves\Textures\ENVMAP_G_.rcm
+renderer.globalLodPercent 1
+renderer.globalAmbientColor 0.031373/0.031373/0.031373
+renderer.ambientColor 0.078431/0.078431/0.078431
+renderer.diffuseColor 0.125490/0.109804/0.074510
+renderer.specularColor 0.113725/0.113725/0.113725
+renderer.vertexFogEnable 1
+renderer.fogColorVec 0.000000/0.000000/0.000000
+renderer.animatedMeshAmbientColor 0.15
+textureManager.alternativePath ..\..\bf1942\levels\GC_Mini_Caves\sky
+
+shadow.shadowColor 0.550000
+
+Game.setViewDistance 400
+Game.spawnPlayers 1
+renderer.fogstart -60
+renderer.fogend 300
+
+ObjectTemplate.create Flag BlueFlag
+ObjectTemplate.team 1
+ObjectTemplate.networkableInfo FlagBodyInfo
+ObjectTemplate.radius 5
+ObjectTemplate.TimeToReSpawn 10
+ObjectTemplate.addTemplate AnimatedJapFlag
+
+ObjectTemplate.create Flag RedFlag
+ObjectTemplate.team 2
+ObjectTemplate.networkableInfo FlagBodyInfo
+ObjectTemplate.radius 5
+ObjectTemplate.TimeToReSpawn 10
+ObjectTemplate.addTemplate AnimatedUsFlag
+
+game.setTeamSkin 1 ScoutSoldier
+game.setKit 1 0 TL-21_kit
+game.setKit 1 1 Empire_Trooper
+game.setKit 1 2 Empire_AT
+game.setKit 1 3 Empire_Medic
+game.setKit 1 4 Empire_Engineer
+
+game.setTeamSkin 2 EndorSoldier
+game.setKit 2 0 Rebel_Tracker
+game.setKit 2 1 Rebel_Trooper
+game.setKit 2 2 Rebel_AT
+game.setKit 2 3 Rebel_Medic
+game.setKit 2 4 Rebel_Engineer
+
+game.setLevelCheck 2242588848
+game.setActiveCombatArea 0 0 1024 1024
+
+shaderManager.setDefaultShaderSolidColor 0.2/0.2/0.2
+
+run Init/SkyAndSun
+run Init/Terrain
+
+game.assaultTeam 2
+
+water.specularEnable 1
+water.texLayer1 texture/water05
+water.texLayer2 texture/water06
+water.normalMap texture/normalMap01
+water.scrollDirectionNormalmap 1.000000/0.000000
+water.scrollDirection1 1.000000/-0.500000
+water.scrollDirection2 1.000000/0.500000
+water.specularColor 0.650000/0.550000/0.400000
+water.scrollLayer1 0.020000
+water.scrollLayer2 0.020000
+water.scrollNormalmap 0.020000
+water.specularStreakFactor 0.001000
+water.tileLayer1 0.500000
+water.tileLayer2 0.500000
+water.tileNormalmap 1.000000
+water.lightDirection -0.300000/0.500000/-0.650000
+water.color 0.000000/0.000000/0.000000
+water.deepColor 0.121569/0.149020/0.082353
+water.waterAlphaDepth 0.000000
+water.waterShallowAlpha 0.500000
+
+run Sounds/Environment
+
+game.setBeforeSpawnCameraPosition 1 522.222046/128.118286/622.445068
+game.setBeforeSpawnCameraPosition 2 522.222046/128.118286/622.445068
+

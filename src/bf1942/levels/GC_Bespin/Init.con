@@ -2,15 +2,16 @@ rem *********************************************
 ShaderManager.setTextureParam envmap bf1942\levels\GC_Bespin\Textures\ENVMAP_G_.rcm
 renderer.globalLodPercent 1
 renderer.globalAmbientColor 0.150000/0.150000/0.150000
-renderer.ambientColor 0.180000/0.180000/0.180000
-renderer.diffuseColor 0.400000/0.400000/0.400000
+renderer.ambientColor 0.180000/0.150000/0.130000
+renderer.diffuseColor 0.400000/0.350000/0.250000
 renderer.specularColor 0.300000/0.300000/0.300000
 renderer.vertexFogEnable 1
 
 renderer.fogLinearStart -1000
 renderer.fogLinearEnd 800
 
-renderer.fogColorVec 0.677255/0.678431/0.678824
+renderer.fogColorVec 0.678431/0.439215/0.192156
+rem renderer.fogColorVec 0.937255/0.678431/0.258824
 renderer.animatedMeshAmbientColor 0.3
 textureManager.alternativePath ../../bf1942/levels/GC_Bespin/Textures/Sky
 shadow.shadowColor 0.550000
@@ -75,4 +76,5 @@ water.waterShallowAlpha 1.000000
 rem run Sounds/Environment
 game.setBeforeSpawnCameraPosition 1 1006.53/280/987.52
 game.setBeforeSpawnCameraPosition 2 1006.53/280/987.52
+
 

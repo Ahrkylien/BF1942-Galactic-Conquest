@@ -1,0 +1,157 @@
+rem
+rem ***  ***
+rem
+Object.create speederbikespawner
+Object.absolutePosition 382.373/1.854/640.596
+Object.rotation 71/0/0
+Object.setOSId 2
+rem
+rem ***  ***
+rem
+Object.create speederbikespawner
+Object.absolutePosition 384.877/1.854/635.118
+Object.rotation 66/0/0
+Object.setOSId 2
+rem
+rem ***  ***
+rem
+Object.create sniperrifle
+Object.absolutePosition 667.622/33.0948/499.871
+Object.setOSId 4
+rem
+rem ***  ***
+rem
+Object.create sniperrifle
+Object.absolutePosition 614.536/29.2484/447.279
+Object.setOSId 4
+rem
+rem ***  ***
+rem
+Object.create sniperrifle
+Object.absolutePosition 519.437/51.0439/443.742
+Object.setOSId 6
+rem
+rem ***  ***
+rem
+Object.create sniperrifle
+Object.absolutePosition 504.201/51.1227/443.69
+Object.setOSId 6
+rem
+rem ***  ***
+rem
+Object.create speeder
+Object.absolutePosition 565.66/1.39966/537.818
+Object.rotation -105/0/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create sniperrifle
+Object.absolutePosition 369.42/32.403/520.779
+Object.setOSId 2
+rem
+rem ***  ***
+rem
+Object.create sniperrifle
+Object.absolutePosition 434.21/28.0682/482.865
+Object.setOSId 1
+rem
+rem ***  ***
+rem
+Object.create sniperrifle
+Object.absolutePosition 536.921/27.2214/554.194
+Object.setOSId 1
+rem
+rem ***  ***
+rem
+Object.create sniperrifle
+Object.absolutePosition 576.024/32.0523/597.251
+Object.setOSId 3
+rem
+rem ***  ***
+rem
+Object.create sniperrifle
+Object.absolutePosition 632.145/32.4503/594.456
+Object.setOSId 3
+rem
+rem ***  ***
+rem
+Object.create sniperrifle
+Object.absolutePosition 400.967/12.4655/549.696
+Object.setOSId 2
+rem
+rem ***  ***
+rem
+Object.create mgspawner
+Object.absolutePosition 419.969/1.12934/510.454
+Object.rotation 200.8/0/0
+Object.setOSId 1
+rem
+rem ***  ***
+rem
+Object.create mgspawner
+Object.absolutePosition 399.833/12.1934/556.605
+Object.rotation 73/0/0
+Object.setOSId 2
+rem
+rem ***  ***
+rem
+Object.create mgspawner
+Object.absolutePosition 560.509/9.18512/515.678
+Object.setOSId 1
+rem
+rem ***  ***
+rem
+Object.create mgspawner
+Object.absolutePosition 544.124/8.73052/511.358
+Object.rotation 180/0/0
+Object.setOSId 1
+rem
+rem ***  ***
+rem
+Object.create mgspawner
+Object.absolutePosition 536.28/16.5037/468.048
+Object.rotation 136/0/0
+Object.setOSId 1
+rem
+rem ***  ***
+rem
+Object.create mgspawner
+Object.absolutePosition 563.817/11.2215/362.871
+Object.rotation -48/0/0
+Object.setOSId 4
+rem
+rem ***  ***
+rem
+Object.create mgspawner
+Object.absolutePosition 417.993/18.5134/408.354
+Object.rotation 90/0/0
+Object.setOSId 5
+rem
+rem ***  ***
+rem
+Object.create mgspawner
+Object.absolutePosition 521.195/7.95488/635.049
+Object.rotation -95/0/0
+Object.setOSId 3
+rem
+rem ***  ***
+rem
+Object.create mgspawner
+Object.absolutePosition 527.351/7.82466/652.114
+Object.rotation 101/0/0
+Object.setOSId 3
+rem
+rem ***  ***
+rem
+Object.create mgspawner
+Object.absolutePosition 623.494/15.5401/593.442
+Object.rotation 211/0/0
+Object.setOSId 3
+rem
+rem ***  ***
+rem
+Object.create mgspawner
+Object.absolutePosition 611.535/7.70056/407.419
+Object.rotation 245/0/0
+Object.setOSId 4

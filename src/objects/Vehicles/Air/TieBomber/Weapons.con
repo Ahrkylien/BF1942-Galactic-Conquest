@@ -31,7 +31,7 @@ ObjectTemplate.setNetworkableInfo PlaneFireArmInfo
 ObjectTemplate.aitemplate CorsairBombs
 ObjectTemplate.projectileTemplate TieBomb
 ObjectTemplate.projectilePosition -0.7/-2.2/1.2 0/0/-20
-ObjectTemplate.magSize 30
+ObjectTemplate.magSize 20
 ObjectTemplate.numOfMag 1
 ObjectTemplate.velocity 16
 ObjectTemplate.roundOfFire 2
@@ -39,4 +39,19 @@ ObjectTemplate.setInputFire c_PIAltFire
 ObjectTemplate.fireingForce 1
 ObjectTemplate.AmmoType	7
 
+rem *** SpaceRocketLauncher ***
+ObjectTemplate.create FireArms TieRocketRack
+ObjectTemplate.setNetworkableInfo PlaneFireArmInfo
+ObjectTemplate.setAsynchronyFire 0
+ObjectTemplate.projectileTemplate SpaceRocket
+ObjectTemplate.autoReload 1
+ObjectTemplate.magSize 1
+ObjectTemplate.numOfMag 5
+ObjectTemplate.velocity 140
+ObjectTemplate.roundOfFire 3
+ObjectTemplate.reloadtime 3
+ObjectTemplate.AltFireOnce 1
+ObjectTemplate.setInputFire c_PIAltFire
+ObjectTemplate.addFireArmsPosition 0/0/1
+ObjectTemplate.AmmoType	9
 

@@ -1,0 +1,5 @@
+rem *** waterfront2 ***
+ObjectTemplate.create SimpleObject waterfront2
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.triggerRadius 100
+ObjectTemplate.loadSoundScript waterfront2.ssc

@@ -1,0 +1,5 @@
+rem *** shieldgen ***
+ObjectTemplate.create SimpleObject shieldgen
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.triggerRadius 100
+ObjectTemplate.loadSoundScript shieldgen.ssc

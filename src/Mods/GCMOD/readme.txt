@@ -1,10 +1,218 @@
 
+Galactic Conquest RELEASE 5:
+----------------------------
 
-Note: 4.2 is a patch file, requires Release 4 full install, and should be used to overwrite your existing GCMOD folder. Clients need only run the installer, server managers need to copy the files into their GCMOD folder. 
+Note: This release comes in two formats, either a full install or a patch for our 4.x users. Make sure you install the right Release 5 for you! You need the newest 1.61 version of BF1942 to play GC.
 
-PLEASE READ THE GC MANUAL (located in the gc_manual folder in your GCMOD directory) for information on how to play the game. This update log has only a list of changes between versions. With over 50 vehicles, with unique flying controls, and so many custom player abilities and gameplay types, you really need to read the manual to get the most out of GC. 
+Server Admin NOTE: Not all of the new maps for for 32 player rotations! 
 
-Enjoy! 
+
+NEW VEHICLES:
+----------------------
+-BWing
+  *Space Rockets do heavy damage to Capital Ships but have very short range.
+  *Ion cannons fire for the first fraction of overheat and do damage to cap ships.
+
+-SandCrawler
+  *Used as a mobile spawn fortress for the rebels. Very tough, very big. 
+
+-I3 Satellites
+  *3-man space defense turrets. Used to defend capture points on Vanguard. 
+
+-YT600
+  *Repair craft for Taskforce. Can repair capital ships very quickly. (Pilot)
+  *Has two defensive turrets for fighter protection. 
+
+-ATAT
+  *A mobile spawn, has 6 crew positions. Pilot, Copilot, door operation, and
+    three passengers. 
+  *Crew 5 and 6 exit to ground level. 
+  *Armor is to strong for normal blasters- use harpoons and the heavy AV turrets.
+
+-GAIN_135
+  *3 seat landspeeder, with a tail gun added for extra fun! 
+
+-Sentry Droid
+  *Imperial scout droid that can call in artillery. 
+
+-TieBomber_V Variant
+  *On Vanguard, the Tie Bomber comes with rockets rather than bombs. 
+
+
+NEW MAPS:
+----------------
+-GC_Vanguard - Space Conquest.
+
+-GC_Kryos - Conquest. 
+
+-GC_Corellia - Conquest. 
+
+-GC_Mos_Eisley - Urban Conquest.
+
+
+
+SPECIAL BONUS FEATURES:
+---------------------------------------
+-GC_BonusRace – Special Race map for those who enjoy something different! (Note: Server admins should not have this in a standard rotation.)
+
+-6 GC Mini's – 6 maps designed special for 4v4 up to 8v8 matches. Should not be in normal 32 player server rotations. Great for clan battles! 
+
+
+R5 GENERAL CHANGES:
+-------------------------------------
+-Upper boundary added for all space maps. Capital ships can no longer leave the battle area.  
+
+-Rate of Fire on Lancer laser turrets increased.
+
+-Concussion Missile Damage Increased.
+
+-Sailbarge Side guns changed from light laser to medium laser class. A fully crewed barge can now defend itself from any air threat.
+
+-Sailbarge no longer acts as a mobile spawn point linked to Jabba's palace.
+
+-Fixed bugs with some objects not appearing quick enough at long range.
+
+-Fixed bug with health not showing up while using the TL-21
+
+-Tank armor class is now much stronger vs collisions. You won't blow up sliding into rocks as easy. 
+
+-Visual update to the E-Web Landspeeder model.
+
+-Many new thumbnails for the client map selections. 
+
+-Smoke grenade now casts a different color smoke. 
+
+-ATST-V and ImpTrolley now both take water damage.
+
+-Exit position on Echo Trolley moved, you now exit inside the trolley.
+
+-Scout Camouflage tent is now better blended for every map. 
+
+-Removed response physics on Judicator Lifts, they should stay on track better. 
+
+-Drastically reduced the speed at which droids self-repair, increased their health from 15 to 30. 
+
+-Loaders Adjusted on several maps to provide briefing for objectives.
+
+-New "Flag" capture Icons for the mini map! 
+
+-E-11 scope adjusted for smaller dot.
+
+-Medics can no longer heal as much at one time, before having to rest.
+
+-Scout sprint recharge speed reduced. 
+
+-Fixed a collision bug allowing vehicles to ramp onto the Mon-Cal domes and fall through.
+
+-Standard Gunship rocket complement reduced from 16 to 8. (The full version) 
+
+-Rebel Tank top speed increased. (T3B & T3B-A)
+
+-New Wrecks for Gunship and T3B.
+
+-Fixed the Canyon stairs from killing people so easy.
+
+-Fixed ramp on Waveskimmer from killing people so easy. 
+
+-New Falcon model- Internal detail increased! New textures!
+
+-Landspeeder has new drive physics. 
+
+-Carrack: Fixed a bug where as the Carrack could raise and lower 10 times faster than other ships. 
+
+-Bug fixed on Judicator, where Imperials could shoot out the hanger windows.
+
+-New Escape Pod Interior!
+
+-Snow Speeder: New harpoon-like weapon on the snow speeder rear gun. Has a short range, long reload, and limited ammo. Does heavy damage to the ATAT however. Pilots will have to work with their gunners for aiming.
+
+-Engineer's repair pool reduced slightly.
+
+-Escape pods now pitch slightly better. 
+
+-Fixed a problem with exiting the cloud car. 
+
+-Icons for health and armor now show % numbers! Much better!
+
+-New Low Poly distance LOD on the Ewing.
+
+-Assault Tank Collisions re-optimized.
+
+-Various Bespin building hacks fixes. 
+
+-You can no longer switch seats from the pilot controls on the Snow-speeder.
+
+-Fixed a bug in the Neb-B allowing craft to fly inside it. 
+
+-Fixed echo base exploit. 
+
+-New TIE Cockpit!
+
+
+
+
+MAP CHANGES:
+----------------------
+HOTH:
+-Added 2 Imperial ATAT’s.
+-Added new artwork, Rebel Transport Shuttle.
+-Tie Bomber Removed.
+-Shield generator flag cannot be taken until shield is destroyed. 
+-There is now a second trench flag. 
+-Empire tickets raised by 20 to account for slow ATAT speed.
+-Added Ladders to the two trench flag areas. 
+-The Shuttle/X-Wing spawn on Hoth now has an ammo reload point for speeders. 
+-Snow Speeders are now Rebel only- Capturing Echo is it's own reward.
+-ATST's are now imperial only. 
+
+
+TATOOINE:
+- Major Overhaul to the whole map. New vehicles, capture points.
+
+
+LOK:
+-GAIN135 Added to the map. 
+-Scout Trooper is now the imperial skin.
+-Added Heavy Weapon Kits.
+-Tickets reduced from 215/200 to 200/180. 
+-Two eweb-Tripods added. 
+
+DANTOOINE:
+-Sentry Droid added to Dantooine at Imperial base. Just calls artillery. (check for droid spawn crashes)
+-Normal Landspeeder removed in favor of GAIN.
+
+BESPIN:
+-All new lightmaps and time of day changed to sunset! 
+-New geometry and cover for the flag capture points.
+-Two new flags, outside the city proper.
+-Ticket rate adjustments.
+
+MONCAL:
+-Light settings, water color, water reflection all set for night time feel.
+-Moved and added a few Pads, Tower, and boxes for more cover and less swimming.
+-Ticket Bleed set so the team with 3 flags bleeds the other.
+-New sound effects. 
+
+BEGGARS CANYON:
+-Major overhaul, new Vehicle replacements. 
+
+
+ANCHORHEAD:
+-Heavy Weapon kits added to the map.
+-Tickets reduced from 200/200 to 120/120, drain increased for shorter but more intense rounds. 
+
+TASKFORCE:
+-YT600 added. 2 for each team. 
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -108,6 +316,9 @@ Hoth:
 -Brought Echo flag into the control room instead of under it.
 
 -Hoth sun rotated into the correct position. 
+
+
+
 
 
 
@@ -387,7 +598,7 @@ for rebel.
 
 
 
-GC Patch 0.3
+GC Release 3
 -----------------
 
 
@@ -451,7 +662,7 @@ New Additions:
 - Engineers now repair slightly faster. 
 
 
-GC 0.2 Release:
+GC Release 2:
 ------------------------------------------------------------------------
 
 Thank you for downloading Galactic Conquest .2 Alpha!

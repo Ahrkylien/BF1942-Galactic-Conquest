@@ -1,0 +1,5 @@
+rem *** ambient-radiochatter ***
+ObjectTemplate.create SimpleObject ambient-radiochatter
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.triggerRadius 100
+ObjectTemplate.loadSoundScript ambient-radiochatter.ssc

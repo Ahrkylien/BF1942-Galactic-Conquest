@@ -12,7 +12,7 @@ GeometryTemplate.texBaseName bf1942\levels\gc_bespin\Textures\Tx
 GeometryTemplate.texOffsetX 0
 GeometryTemplate.texOffsetY 0
 rem GeometryTemplate.detailTexName bf1942\levels\gc_bespin\Textures\Detail
-GeometryTemplate.waterLevel 20.000000
+GeometryTemplate.waterLevel 20
 GeometryTemplate.lodDistance 350
 
 GeometryTemplate.seaFloorLevel 21
@@ -33,4 +33,5 @@ Console.worldSize 2048
 Terrain.ShadowAmbient 80/80/80
 Terrain.ShadowBorderFadeTime 0.075
 Terrain.ShadowSamplingCullY 5
+
 

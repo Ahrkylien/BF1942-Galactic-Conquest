@@ -15,6 +15,7 @@ ObjectTemplate.invisibleAtEndEffect 1
 ObjectTemplate.dieAfterColl 1
 ObjectTemplate.useMMOnEndEffect 1
 ObjectTemplate.damageType 1
+ObjectTemplate.cullRadiusScale 3
 
 ObjectTemplate.material 552
 ObjectTemplate.material2 553

@@ -11,7 +11,7 @@ rem -----------------------------------------
 rem ---  shieldgeneratorcp  ---
 rem ----------------------------------------- 
 Object.create shieldgeneratorcp
-Object.absolutePosition 1112.49/15.60/527.15
+Object.absolutePosition 1124.53/16.35/478.91
 
 rem ----------------------------------------- 
 rem ---  secondlinetrench  ---
@@ -30,5 +30,11 @@ rem ---  imperialspawn  ---
 rem ----------------------------------------- 
 Object.create imperialspawn
 Object.absolutePosition 1404.69/21.48/1740.63
+
+rem ----------------------------------------- 
+rem ---  thirdlinetrench  ---
+rem ----------------------------------------- 
+Object.create thirdlinetrench
+Object.absolutePosition 636.13/14.08/423.73
 
 rem EndOfFile

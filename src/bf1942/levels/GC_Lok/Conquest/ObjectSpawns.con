@@ -1,5 +1,5 @@
 rem ObjectSpawns.con created by Battlecraft 1942
-rem (\Program Files\Battlefield 1942\Mods\GCMOD\bf1942\levels\GC_Lok/conquest/ObjectSpawns.con)
+rem (\Program Files\Battlefield 1942\Mods\GCMOD\bf1942\levels\GC_Loka/conquest/ObjectSpawns.con)
 
 rem ----------------------------------------- 
 rem ---  Epsilon_Spawner  ---
@@ -252,5 +252,104 @@ Object.absolutePosition 951.90/90.42/286.59
 Object.rotation 0.00/0.00/0.00
 Object.setOSId 2
 Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  Heavy_Weapons  ---
+rem ----------------------------------------- 
+Object.create Heavy_Weapons
+Object.absolutePosition 937.01/107.38/1454.80
+Object.rotation 90.00/0.00/90.00
+Object.setOSId 5
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Heavy_Weapons  ---
+rem ----------------------------------------- 
+Object.create Heavy_Weapons
+Object.absolutePosition 1005.85/107.43/1454.88
+Object.rotation 90.00/0.00/90.00
+Object.setOSId 5
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Heavy_Weapons  ---
+rem ----------------------------------------- 
+Object.create Heavy_Weapons
+Object.absolutePosition 1343.46/139.79/1584.55
+Object.rotation 0.00/0.00/90.00
+Object.setOSId 1
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Heavy_Weapons  ---
+rem ----------------------------------------- 
+Object.create Heavy_Weapons
+Object.absolutePosition 1342.96/139.80/1583.95
+Object.rotation 180.00/0.00/90.00
+Object.setOSId 1
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Heavy_Weapons  ---
+rem ----------------------------------------- 
+Object.create Heavy_Weapons
+Object.absolutePosition 791.44/92.56/1201.58
+Object.rotation 90.00/0.00/90.00
+Object.setOSId 3
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Heavy_Weapons  ---
+rem ----------------------------------------- 
+Object.create Heavy_Weapons
+Object.absolutePosition 1204.31/90.53/1192.50
+Object.rotation 73.96/0.00/90.00
+Object.setOSId 4
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Heavy_Weapons  ---
+rem ----------------------------------------- 
+Object.create Heavy_Weapons
+Object.absolutePosition 1009.08/90.97/288.80
+Object.rotation 180.00/-105.00/0.00
+Object.setOSId 2
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  Heavy_Weapons  ---
+rem ----------------------------------------- 
+Object.create Heavy_Weapons
+Object.absolutePosition 1011.69/90.96/288.79
+Object.rotation 180.00/-105.00/0.00
+Object.setOSId 2
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  Heavy_Weapons  ---
+rem ----------------------------------------- 
+Object.create Heavy_Weapons
+Object.absolutePosition 1264.53/90.66/1199.53
+Object.rotation 25.25/0.00/90.00
+Object.setOSId 4
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Eweb  ---
+rem ----------------------------------------- 
+Object.create Eweb
+Object.absolutePosition 930.38/107.76/1376.93
+Object.rotation 225.00/0.00/0.00
+Object.setOSId 5
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Eweb  ---
+rem ----------------------------------------- 
+Object.create Eweb
+Object.absolutePosition 1064.16/109.34/1367.86
+Object.rotation 135.00/0.00/0.00
+Object.setOSId 5
+Object.setTeam 1
 
 rem EndOfFile

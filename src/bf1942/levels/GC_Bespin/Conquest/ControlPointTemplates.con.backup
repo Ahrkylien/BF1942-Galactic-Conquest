@@ -1,0 +1,156 @@
+rem ControlPointTemplates.con created by Battlecraft 1942
+rem (d:\battlefield 1942\Mods\cloudtown\bf1942\levels\GC_bespin/conquest/ControlPointTemplates.con)
+
+NetworkableInfo.createNewInfo ControlPointInfo
+NetworkableInfo.setPredictionMode PMNone
+NetworkableInfo.setBasePriority c_NIGhostAlways
+
+rem ----------------------------------------- 
+rem ---  ImperialMine  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ControlPoint ImperialMine
+ObjectTemplate.networkableInfo ControlPointInfo
+ObjectTemplate.setControlPointName ImperialMine
+ObjectTemplate.radius 0
+ObjectTemplate.team 1
+ObjectTemplate.spawnGroupId 2
+ObjectTemplate.objectSpawnerId 2
+ObjectTemplate.areaValue 0
+ObjectTemplate.timeToGetControl 9999
+ObjectTemplate.timeToLoseControl 9999
+ObjectTemplate.disableIfEnemyInsideRadius 0
+ObjectTemplate.disableWhenLosingControl 0
+ObjectTemplate.loseControlWhenEnemyClose 0
+ObjectTemplate.loseControlWhenNotClose 0
+ObjectTemplate.unableToChangeTeam 1
+ObjectTemplate.geometry flagbase_m1
+ObjectTemplate.hasCollisionPhysics 0
+ObjectTemplate.addTemplate AnimatedFlag
+ObjectTemplate.setPosition 0.000000/0/0.000000
+ObjectTemplate.setTeamGeometry 1 flagge_m1
+ObjectTemplate.setTeamGeometry 2 flagus_m1
+
+rem ----------------------------------------- 
+rem ---  RebelMine  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ControlPoint RebelMine
+ObjectTemplate.networkableInfo ControlPointInfo
+ObjectTemplate.setControlPointName RebelMine
+ObjectTemplate.radius 0
+ObjectTemplate.team 2
+ObjectTemplate.spawnGroupId 3
+ObjectTemplate.objectSpawnerId 3
+ObjectTemplate.areaValue 0
+ObjectTemplate.timeToGetControl 9999
+ObjectTemplate.timeToLoseControl 9999
+ObjectTemplate.disableIfEnemyInsideRadius 0
+ObjectTemplate.disableWhenLosingControl 0
+ObjectTemplate.loseControlWhenEnemyClose 0
+ObjectTemplate.loseControlWhenNotClose 0
+ObjectTemplate.unableToChangeTeam 1
+ObjectTemplate.geometry flagbase_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.addTemplate AnimatedFlag
+ObjectTemplate.setPosition 0.000000/0/0.000000
+ObjectTemplate.setTeamGeometry 1 flagge_m1
+ObjectTemplate.setTeamGeometry 2 flagus_m1
+
+rem ----------------------------------------- 
+rem ---  ImperialPlatform  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ControlPoint ImperialPlatform
+ObjectTemplate.networkableInfo ControlPointInfo
+ObjectTemplate.setControlPointName ImperialPlatform
+ObjectTemplate.radius 15
+ObjectTemplate.team 0
+ObjectTemplate.spawnGroupId 5
+ObjectTemplate.objectSpawnerId 5
+ObjectTemplate.areaValue 0
+ObjectTemplate.timeToGetControl 30
+ObjectTemplate.timeToLoseControl 9999
+ObjectTemplate.disableIfEnemyInsideRadius 0
+ObjectTemplate.disableWhenLosingControl 0
+ObjectTemplate.loseControlWhenEnemyClose 1
+ObjectTemplate.loseControlWhenNotClose 0
+ObjectTemplate.onlyTakeableByTeam 1
+ObjectTemplate.geometry flagbase_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.addTemplate AnimatedFlag
+ObjectTemplate.setPosition 0.000000/0/0.000000
+ObjectTemplate.setTeamGeometry 1 flagge_m1
+ObjectTemplate.setTeamGeometry 2 flagus_m1
+
+rem ----------------------------------------- 
+rem ---  RebelPlatform  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ControlPoint RebelPlatform
+ObjectTemplate.networkableInfo ControlPointInfo
+ObjectTemplate.setControlPointName RebelPlatform
+ObjectTemplate.radius 15
+ObjectTemplate.team 0
+ObjectTemplate.spawnGroupId 1
+ObjectTemplate.objectSpawnerId 1
+ObjectTemplate.areaValue 0
+ObjectTemplate.timeToGetControl 30
+ObjectTemplate.timeToLoseControl 9999
+ObjectTemplate.disableIfEnemyInsideRadius 0
+ObjectTemplate.disableWhenLosingControl 0
+ObjectTemplate.loseControlWhenEnemyClose 1
+ObjectTemplate.loseControlWhenNotClose 0
+ObjectTemplate.onlyTakeableByTeam 2
+ObjectTemplate.geometry flagbase_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.addTemplate AnimatedFlag
+ObjectTemplate.setPosition 0.000000/0/0.000000
+ObjectTemplate.setTeamGeometry 1 flagge_m1
+ObjectTemplate.setTeamGeometry 2 flagus_m1
+
+rem ----------------------------------------- 
+rem ---  LowerLevel  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ControlPoint LowerLevel
+ObjectTemplate.networkableInfo ControlPointInfo
+ObjectTemplate.setControlPointName LowerLevel
+ObjectTemplate.radius 20
+ObjectTemplate.team 0
+ObjectTemplate.spawnGroupId 6
+ObjectTemplate.objectSpawnerId 6
+ObjectTemplate.areaValue 50
+ObjectTemplate.timeToGetControl 10
+ObjectTemplate.timeToLoseControl 5
+ObjectTemplate.disableIfEnemyInsideRadius 0
+ObjectTemplate.disableWhenLosingControl 0
+ObjectTemplate.loseControlWhenEnemyClose 1
+ObjectTemplate.loseControlWhenNotClose 0
+ObjectTemplate.geometry flagbase_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.addTemplate AnimatedFlag
+ObjectTemplate.setPosition 0.000000/0/0.000000
+ObjectTemplate.setTeamGeometry 1 flagge_m1
+ObjectTemplate.setTeamGeometry 2 flagus_m1
+
+rem ----------------------------------------- 
+rem ---  UpperLevel  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ControlPoint UpperLevel
+ObjectTemplate.networkableInfo ControlPointInfo
+ObjectTemplate.setControlPointName UpperLevel
+ObjectTemplate.radius 15
+ObjectTemplate.team 0
+ObjectTemplate.spawnGroupId 7
+ObjectTemplate.objectSpawnerId 7
+ObjectTemplate.areaValue 50
+ObjectTemplate.timeToGetControl 10
+ObjectTemplate.timeToLoseControl 5
+ObjectTemplate.disableIfEnemyInsideRadius 0
+ObjectTemplate.disableWhenLosingControl 0
+ObjectTemplate.loseControlWhenEnemyClose 1
+ObjectTemplate.loseControlWhenNotClose 0
+ObjectTemplate.geometry flagbase_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.addTemplate AnimatedFlag
+ObjectTemplate.setPosition 0.000000/0/0.000000
+ObjectTemplate.setTeamGeometry 1 flagge_m1
+ObjectTemplate.setTeamGeometry 2 flagus_m1
+
+rem EndOfFile

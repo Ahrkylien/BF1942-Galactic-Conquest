@@ -1,0 +1,117 @@
+ObjectTemplate.create ObjectSpawner tieinterceptorspanwer
+ObjectTemplate.setObjectTemplate 2 avenger
+ObjectTemplate.setObjectTemplate 1 avenger
+ObjectTemplate.MinSpawnDelay 5
+ObjectTemplate.MaxSpawnDelay 6
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 5
+ObjectTemplate.Distance 5
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.MaxNrOfObjectSpawned 5
+
+ObjectTemplate.create ObjectSpawner tiebomberspawner
+ObjectTemplate.setObjectTemplate 2 tiebomber_v
+ObjectTemplate.setObjectTemplate 1 tiebomber_v
+ObjectTemplate.MinSpawnDelay 5
+ObjectTemplate.MaxSpawnDelay 6
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 5
+ObjectTemplate.Distance 5
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.MaxNrOfObjectSpawned 4
+
+ObjectTemplate.create ObjectSpawner lancerrunnerspawner1
+ObjectTemplate.setObjectTemplate 2 runner
+ObjectTemplate.setObjectTemplate 1 lancer
+ObjectTemplate.MinSpawnDelay 100
+ObjectTemplate.MaxSpawnDelay 120
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 500
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 5
+ObjectTemplate.teamOnVehicle 1
+
+ObjectTemplate.create ObjectSpawner lancerrunner2
+ObjectTemplate.setObjectTemplate 2 runner2
+ObjectTemplate.setObjectTemplate 1 lancer2
+ObjectTemplate.MinSpawnDelay 100
+ObjectTemplate.MaxSpawnDelay 120
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 500
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+
+ObjectTemplate.create ObjectSpawner awingspawner
+ObjectTemplate.setObjectTemplate 2 green
+ObjectTemplate.setObjectTemplate 1 green
+ObjectTemplate.MinSpawnDelay 5
+ObjectTemplate.MaxSpawnDelay 6
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 5
+ObjectTemplate.Distance 5
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.MaxNrOfObjectSpawned 3
+
+ObjectTemplate.create ObjectSpawner point2defence
+ObjectTemplate.setObjectTemplate 2 r2satellite
+ObjectTemplate.setObjectTemplate 1 i2satellite
+ObjectTemplate.MinSpawnDelay 120
+ObjectTemplate.MaxSpawnDelay 140
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 500
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+
+ObjectTemplate.create ObjectSpawner bwingspawner
+ObjectTemplate.setObjectTemplate 2 b-wing
+ObjectTemplate.setObjectTemplate 1 b-wing
+ObjectTemplate.MinSpawnDelay 5
+ObjectTemplate.MaxSpawnDelay 6
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 5
+ObjectTemplate.Distance 5
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.MaxNrOfObjectSpawned 4
+
+ObjectTemplate.create ObjectSpawner tiefighterspawner
+ObjectTemplate.setObjectTemplate 2 alpha
+ObjectTemplate.setObjectTemplate 1 alpha
+ObjectTemplate.MinSpawnDelay 5
+ObjectTemplate.MaxSpawnDelay 6
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 5
+ObjectTemplate.Distance 5
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.MaxNrOfObjectSpawned 10
+
+ObjectTemplate.create ObjectSpawner point3defence
+ObjectTemplate.setObjectTemplate 2 r3satellite
+ObjectTemplate.setObjectTemplate 1 i3satellite
+ObjectTemplate.MinSpawnDelay 100
+ObjectTemplate.MaxSpawnDelay 120
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+
+ObjectTemplate.create ObjectSpawner xwingspawner
+ObjectTemplate.setObjectTemplate 2 red
+ObjectTemplate.setObjectTemplate 1 red
+ObjectTemplate.MinSpawnDelay 5
+ObjectTemplate.MaxSpawnDelay 6
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 5
+ObjectTemplate.Distance 5
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.MaxNrOfObjectSpawned 10
+
+ObjectTemplate.create ObjectSpawner point1spawns
+ObjectTemplate.setObjectTemplate 2 r1satellite
+ObjectTemplate.setObjectTemplate 1 i1satellite
+ObjectTemplate.MinSpawnDelay 120
+ObjectTemplate.MaxSpawnDelay 150
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 500
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+

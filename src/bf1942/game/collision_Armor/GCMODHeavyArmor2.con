@@ -20,12 +20,12 @@ MaterialManager.setEffectTemplate e_collision_metal
 
 MaterialManager.attGroup 832
 MaterialManager.defGroup 811
-MaterialManager.damageMod 0.01
+MaterialManager.damageMod 5
 MaterialManager.setEffectTemplate e_collision_metal
 
 MaterialManager.attGroup 832
 MaterialManager.defGroup 812
-MaterialManager.damageMod 0.01
+MaterialManager.damageMod 5
 MaterialManager.setEffectTemplate e_collision_metal
 
 MaterialManager.attGroup 832
@@ -70,7 +70,7 @@ rem *************************************************
 
 MaterialManager.attGroup 832
 MaterialManager.defGroup 45
-MaterialManager.damageMod 1
+MaterialManager.damageMod 0.1
 MaterialManager.setEffectTemplate e_collision_metal
 
 MaterialManager.attGroup 832

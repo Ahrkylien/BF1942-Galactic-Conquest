@@ -162,8 +162,8 @@ GeometryTemplate.setLodDistance 3 300
 GeometryTemplate.setLodDistance 4 350
 GeometryTemplate.setLodDistance 5 500
 
-GeometryTemplate.create StandardMesh Wreck_Assault_Tank_M1
-GeometryTemplate.file Vehicles/Assault_Tank/Rebel_Tank_main
+GeometryTemplate.create StandardMesh Wreck_Assault_Tank_m1
+GeometryTemplate.file Vehicles/Assault_Tank/wreck_rebel_tank
 GeometryTemplate.setLodDistance 0 0
 GeometryTemplate.setLodDistance 1 200
 GeometryTemplate.setLodDistance 2 250

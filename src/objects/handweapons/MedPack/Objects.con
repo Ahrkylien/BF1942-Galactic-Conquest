@@ -5,7 +5,7 @@ ObjectTemplate.itemIndex 5
 rem ** Magtype == 1 is healing type
 ObjectTemplate.magType 1
 ObjectTemplate.numOfMag 1
-ObjectTemplate.magSize 2500
+ObjectTemplate.magSize 500
 ObjectTemplate.GUIIndex 9
 ObjectTemplate.setHudAmmoType ATIconAndHeatBar
 ObjectTemplate.setAmmoIcon "Ammo/Icon_medkit_64x32.tga"

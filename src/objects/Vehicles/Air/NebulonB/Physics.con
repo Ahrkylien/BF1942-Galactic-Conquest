@@ -58,7 +58,7 @@ ObjectTemplate.setAutomaticPitchStabilization 1
 ObjectTemplate.setInputToRoll c_PIPitch
 ObjectTemplate.setAutomaticReset 1
 ObjectTemplate.setEngineType c_ETPlane
-ObjectTemplate.setTorque 4
+ObjectTemplate.setTorque 1
 ObjectTemplate.setDifferential 1
 
 rem *** Floater ***

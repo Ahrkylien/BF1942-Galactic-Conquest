@@ -1,72 +1,4 @@
 rem
-rem
-Object.create axisairplaneammo
-Object.absolutePosition 2000.96/277.664/2056.07
-Object.Rotation 0/0/0
-rem
-rem
-Object.create axisairplaneammo
-Object.absolutePosition 2011.96/277.664/2056.07
-Object.Rotation 0/0/0
-rem
-rem
-Object.create alliedairplaneammo
-Object.absolutePosition 564.975/190.933/589.625
-Object.Rotation 0/0/0
-rem
-rem
-Object.create alliedairplaneammo
-Object.absolutePosition 564.975/205.933/589.625
-Object.Rotation 0/0/0
-rem
-rem
-Object.create alliedairplaneammo
-Object.absolutePosition 564.975/210.933/589.625
-Object.Rotation 0/0/0
-rem
-rem ***  ***
-rem
-Object.create tan_isd_front
-Object.absolutePosition 3337.51/236.193/3311.2
-Object.Rotation 0/0/0
-rem
-rem ***  ***
-rem
-Object.create tan_isd_back
-Object.absolutePosition 3393.55/236.193/3382.98
-Object.Rotation 0/0/0
-rem
-rem ***  ***
-rem
-Object.create tan_isd_bridge
-Object.absolutePosition 3533.53/236.193/3553.8
-Object.Rotation 0/0/0
-rem
-rem ***  ***
-rem
-Object.create tan_isd_hanger1
-Object.absolutePosition 3313.17/236.193/3296.09
-Object.Rotation 0/0/0
-rem
-rem ***  ***
-rem
-Object.create tan_isd_hanger2
-Object.absolutePosition 3354.68/236.193/3347.99
-Object.Rotation 0/0/0
-rem
-rem ***  ***
-rem
-Object.create tan_isd_top
-Object.absolutePosition 3454.3/236.193/3468.37
-Object.Rotation 0/0/0
-rem
-rem ***  ***
-rem
-Object.create tan_isd_engine
-Object.absolutePosition 3552.07/236.193/3581.98
-Object.Rotation 0/0/0
-rem
-rem
 rem ***  ***
 rem
 Object.create tan_grid01
@@ -165,101 +97,172 @@ Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create tan_grid01
+Object.create tan_gridlow
 Object.absolutePosition 0/650/0
 Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create tan_grid01
+Object.create tan_gridlow
 Object.absolutePosition 1000/650/0
 Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create tan_grid01
+Object.create tan_gridlow
 Object.absolutePosition 2000/650/0
 Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create tan_grid01
+Object.create tan_gridlow
 Object.absolutePosition 3000/650/0
 Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create tan_grid01
+Object.create tan_gridlow
 Object.absolutePosition 0/650/1000
 Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create tan_grid01
+Object.create tan_gridlow
 Object.absolutePosition 1000/650/1000
 Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create tan_grid01
+Object.create tan_gridlow
 Object.absolutePosition 2000/650/1000
 Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create tan_grid01
+Object.create tan_gridlow
 Object.absolutePosition 3000/650/1000
 Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create tan_grid01
+Object.create tan_gridlow
 Object.absolutePosition 0/650/2000
 Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create tan_grid01
+Object.create tan_gridlow
 Object.absolutePosition 1000/650/2000
 Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create tan_grid01
+Object.create tan_gridlow
 Object.absolutePosition 2000/650/2000
 Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create tan_grid01
+Object.create tan_gridlow
 Object.absolutePosition 3000/650/2000
 Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create tan_grid01
+Object.create tan_gridlow
 Object.absolutePosition 0/650/3000
 Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create tan_grid01
+Object.create tan_gridlow
 Object.absolutePosition 1000/650/3000
 Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create tan_grid01
+Object.create tan_gridlow
 Object.absolutePosition 2000/650/3000
 Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create tan_grid01
+Object.create tan_gridlow
 Object.absolutePosition 3000/650/3000
 Object.Rotation 0/0/0
 rem
 rem ***  ***
+rem
+
+
+rem
+rem
+Object.create axisairplaneammo
+Object.absolutePosition 2000.96/277.664/2056.07
+Object.Rotation 0/0/0
+rem
+rem
+Object.create axisairplaneammo
+Object.absolutePosition 2011.96/277.664/2056.07
+Object.Rotation 0/0/0
+rem
+rem
+Object.create alliedairplaneammo
+Object.absolutePosition 564.975/190.933/589.625
+Object.Rotation 0/0/0
+rem
+rem
+Object.create alliedairplaneammo
+Object.absolutePosition 564.975/205.933/589.625
+Object.Rotation 0/0/0
+rem
+rem
+Object.create alliedairplaneammo
+Object.absolutePosition 564.975/210.933/589.625
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create tan_isd_front
+Object.absolutePosition 3337.51/236.193/3311.2
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create tan_isd_back
+Object.absolutePosition 3393.55/236.193/3382.98
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create tan_isd_bridge
+Object.absolutePosition 3533.53/236.193/3553.8
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create tan_isd_hanger1
+Object.absolutePosition 3313.17/236.193/3296.09
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create tan_isd_hanger2
+Object.absolutePosition 3354.68/236.193/3347.99
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create tan_isd_top
+Object.absolutePosition 3454.3/236.193/3468.37
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create tan_isd_engine
+Object.absolutePosition 3552.07/236.193/3581.98
+Object.Rotation 0/0/0
+rem
 rem
 Object.create tan_shipyard_main
 Object.absolutePosition 1992.25/159.128/2010.08

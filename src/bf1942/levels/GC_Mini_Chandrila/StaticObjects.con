@@ -1,0 +1,931 @@
+rem StaticObjects created by Battlecraft 1942
+rem
+rem ***  ***
+rem
+Object.create ctown_walkway8
+Object.absolutePosition 470.65/424.63/472.89
+Object.rotation 45.32/0.00/-8.26
+rem
+rem ***  ***
+rem
+Object.create ctown_walkway8
+Object.absolutePosition 587.51/405.69/588.51
+Object.rotation 89.72/0.00/10.44
+rem
+rem ***  ***
+rem
+Object.create ctown_walkway8
+Object.absolutePosition 457.72/422.18/592.75
+Object.rotation 125.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ctown_walkway8
+Object.absolutePosition 512.80/410.66/521.58
+Object.rotation 0.00/0.00/-10.57
+rem
+rem ***  ***
+rem
+Object.create eu_birtch3_m1
+Object.absolutePosition 507.99/422.22/440.63
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create eu_birtch2_m1
+Object.absolutePosition 487.35/421.25/454.23
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create eu_birtch3_m1
+Object.absolutePosition 525.78/420.60/418.12
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create eu_birtch2_m1
+Object.absolutePosition 553.93/416.09/451.54
+Object.rotation -54.41/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create eu_birtch3_m1
+Object.absolutePosition 571.27/412.18/459.20
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create eu_birtch1_m1
+Object.absolutePosition 593.80/408.86/486.16
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create eu_birtch2_m1
+Object.absolutePosition 591.66/407.81/531.57
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create eu_birtch1_m1
+Object.absolutePosition 578.20/407.72/509.95
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create eu_birtch1_m1
+Object.absolutePosition 509.51/422.92/610.58
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create eu_birtch2_m1
+Object.absolutePosition 540.45/422.15/603.72
+Object.rotation -131.14/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create eu_birtch3_m1
+Object.absolutePosition 526.21/421.93/593.17
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create eu_birtch3_m1
+Object.absolutePosition 528.37/421.56/632.23
+Object.rotation -46.90/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create eu_birtch3_m1
+Object.absolutePosition 593.81/406.34/645.33
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create eu_birtch1_m1
+Object.absolutePosition 585.68/406.71/650.69
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create eu_birtch3_m1
+Object.absolutePosition 482.39/415.09/507.12
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create eu_birtch2_m1
+Object.absolutePosition 468.70/417.71/519.51
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create eu_birtch1_m1
+Object.absolutePosition 562.83/412.89/426.86
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create eu_birtch2_m1
+Object.absolutePosition 595.19/411.78/451.98
+Object.rotation -69.19/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create aspen_bush1_m1
+Object.absolutePosition 581.67/411.61/445.27
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create aspen_bush1_m1
+Object.absolutePosition 587.10/408.12/514.00
+Object.rotation -86.10/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create aspen_bush1_m1
+Object.absolutePosition 623.31/408.30/541.74
+Object.rotation -70.25/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create aspen_bush1_m1
+Object.absolutePosition 547.63/407.41/519.90
+Object.rotation 58.23/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create aspen_bush1_m1
+Object.absolutePosition 488.03/414.42/512.22
+Object.rotation 65.55/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create aspen_bush1_m1
+Object.absolutePosition 452.37/421.53/521.74
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create aspen_bush1_m1
+Object.absolutePosition 435.01/422.67/563.37
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create aspen_bush1_m1
+Object.absolutePosition 483.72/422.25/623.17
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create aspen_bush1_m1
+Object.absolutePosition 510.30/423.70/622.62
+Object.rotation -70.72/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create aspen_bush1_m1
+Object.absolutePosition 531.90/421.26/588.74
+Object.rotation -94.49/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create aspen_bush1_m1
+Object.absolutePosition 585.70/402.56/626.22
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create stones_russia_l_m1
+Object.absolutePosition 597.21/408.61/508.00
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create stones_russia_l_m1
+Object.absolutePosition 473.79/421.47/621.53
+Object.rotation -54.38/6.72/0.00
+rem
+rem ***  ***
+rem
+Object.create ammobox
+Object.absolutePosition 523.43/422.17/604.34
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ammobox
+Object.absolutePosition 515.03/422.18/447.69
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ammobox
+Object.absolutePosition 680.12/434.40/531.89
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create healthpack
+Object.absolutePosition 680.06/435.05/531.89
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create dan_reb_building2
+Object.absolutePosition 518.26/421.84/450.06
+Object.rotation -90.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create dan_reb_pillar
+Object.absolutePosition 483.08/415.36/519.05
+Object.rotation 90.00/1.94/-0.79
+rem
+rem ***  ***
+rem
+Object.create dan_reb_pillar
+Object.absolutePosition 540.31/417.81/427.66
+Object.rotation 89.32/0.00/-7.63
+rem
+rem ***  ***
+rem
+Object.create dan_reb_pillar
+Object.absolutePosition 591.06/410.04/459.73
+Object.rotation 41.75/-8.47/0.00
+rem
+rem ***  ***
+rem
+Object.create dan_reb_pillar
+Object.absolutePosition 605.78/408.37/493.11
+Object.rotation 90.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create dan_reb_wall1
+Object.absolutePosition 616.73/406.67/517.32
+Object.rotation -90.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create dan_reb_wall1
+Object.absolutePosition 616.11/407.35/535.58
+Object.rotation 90.00/3.91/0.00
+rem
+rem ***  ***
+rem
+Object.create dan_reb_pillar
+Object.absolutePosition 540.06/418.79/438.47
+Object.rotation 85.69/5.60/4.29
+rem
+rem ***  ***
+rem
+Object.create dan_reb_pillar
+Object.absolutePosition 561.50/413.55/445.76
+Object.rotation 48.54/-4.68/0.00
+rem
+rem ***  ***
+rem
+Object.create dan_reb_pillar
+Object.absolutePosition 583.62/410.10/467.14
+Object.rotation 46.16/3.93/-1.69
+rem
+rem ***  ***
+rem
+Object.create dan_reb_pillar
+Object.absolutePosition 595.35/407.90/493.55
+Object.rotation 90.00/-3.04/0.00
+rem
+rem ***  ***
+rem
+Object.create dan_reb_arch1
+Object.absolutePosition 519.87/421.80/601.13
+Object.rotation -90.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create dan_reb_arch2
+Object.absolutePosition 519.80/422.02/628.46
+Object.rotation -90.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create dan_reb_wall_misc1
+Object.absolutePosition 621.30/407.87/526.06
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create dan_reb_pillar3
+Object.absolutePosition 566.59/412.31/436.02
+Object.rotation 62.87/-6.29/0.00
+rem
+rem ***  ***
+rem
+Object.create dan_reb_pillar3
+Object.absolutePosition 482.95/414.89/529.09
+Object.rotation 90.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create dan_reb_wall_misc1
+Object.absolutePosition 439.75/421.52/526.99
+Object.rotation 23.77/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create aspen_bush1_m1
+Object.absolutePosition 543.42/415.76/647.83
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create eu_birtch1_m1
+Object.absolutePosition 461.87/418.76/621.66
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create aspen_bush1_m1
+Object.absolutePosition 447.94/415.82/632.00
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create eu_birtch2_m1
+Object.absolutePosition 515.92/422.21/664.02
+Object.rotation -172.29/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create eu_birtch2_m1
+Object.absolutePosition 440.55/425.49/484.40
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create aspen_bush1_m1
+Object.absolutePosition 422.44/426.24/492.25
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create eu_birtch3_m1
+Object.absolutePosition 658.63/382.67/687.65
+Object.rotation -37.38/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create eu_birtch3_m1
+Object.absolutePosition 493.77/421.75/769.96
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create eu_birtch2_m1
+Object.absolutePosition 430.33/428.75/422.23
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create dan_reb_arch1
+Object.absolutePosition 632.66/361.55/394.90
+Object.rotation -227.59/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create eu_birtch1_m1
+Object.absolutePosition 674.15/421.59/410.84
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create aspen_bush1_m1
+Object.absolutePosition 597.82/408.31/564.91
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create dan_reb_building2
+Object.absolutePosition 522.01/421.26/439.80
+Object.rotation 180.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create dan_reb_pillar3
+Object.absolutePosition 456.77/420.93/518.58
+Object.rotation 90.00/8.12/5.18
+rem
+rem ***  ***
+rem
+Object.create aspen_bush1_m1
+Object.absolutePosition 417.10/422.29/525.63
+Object.rotation 15.88/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create aspen_bush1_m1
+Object.absolutePosition 508.99/420.10/462.92
+Object.rotation -134.50/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create eu_birtch1_m1
+Object.absolutePosition 441.24/420.43/773.63
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create dan_reb_pillar
+Object.absolutePosition 594.33/401.98/618.56
+Object.rotation 90.00/0.00/1.68
+rem
+rem ***  ***
+rem
+Object.create dan_reb_pillar
+Object.absolutePosition 586.39/401.95/618.77
+Object.rotation 90.00/1.19/1.81
+rem
+rem ***  ***
+rem
+Object.create dan_reb_pillar3
+Object.absolutePosition 581.49/403.67/639.23
+Object.rotation 90.00/6.31/1.54
+rem
+rem ***  ***
+rem
+Object.create dan_reb_pillar
+Object.absolutePosition 591.54/404.56/637.06
+Object.rotation 90.00/0.00/-6.14
+rem
+rem ***  ***
+rem
+Object.create dan_reb_pillar
+Object.absolutePosition 554.77/413.55/640.21
+Object.rotation 157.35/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create dan_reb_pillar
+Object.absolutePosition 549.18/413.42/648.98
+Object.rotation 138.47/0.00/-3.68
+rem
+rem ***  ***
+rem
+Object.create dan_reb_pillar
+Object.absolutePosition 541.71/420.61/626.37
+Object.rotation 90.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create dan_reb_pillar3
+Object.absolutePosition 531.99/421.19/627.89
+Object.rotation 90.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create dan_reb_wall1
+Object.absolutePosition 535.64/420.84/600.80
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create dan_reb_pillar
+Object.absolutePosition 573.09/407.02/656.68
+Object.rotation 90.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create dan_reb_pillar3
+Object.absolutePosition 571.44/407.47/646.11
+Object.rotation 90.00/27.18/11.92
+rem
+rem ***  ***
+rem
+Object.create aspen_bush1_m1
+Object.absolutePosition 519.71/422.19/648.13
+Object.rotation 68.86/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create dan_reb_pillar3
+Object.absolutePosition 601.51/408.09/553.41
+Object.rotation 56.97/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create dan_reb_pillar
+Object.absolutePosition 594.13/407.76/546.59
+Object.rotation 59.45/0.00/7.70
+rem
+rem ***  ***
+rem
+Object.create aspen_bush1_m1
+Object.absolutePosition 592.59/407.88/540.18
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create dan_reb_arch2
+Object.absolutePosition 597.17/407.75/526.08
+Object.rotation 180.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create aspen_bush1_m1
+Object.absolutePosition 608.30/410.93/471.56
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create dan_reb_wall1
+Object.absolutePosition 532.39/420.31/444.69
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create dan_reb_wall1
+Object.absolutePosition 524.35/420.35/427.66
+Object.rotation 90.00/7.66/0.00
+rem
+rem ***  ***
+rem
+Object.create dan_reb_pillar
+Object.absolutePosition 501.06/421.35/457.36
+Object.rotation 128.42/0.00/4.77
+rem
+rem ***  ***
+rem
+Object.create dan_reb_pillar3
+Object.absolutePosition 494.12/420.80/448.61
+Object.rotation 124.83/6.35/0.81
+rem
+rem ***  ***
+rem
+Object.create eu_birtch1_m1
+Object.absolutePosition 457.93/427.10/494.21
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create dan_reb_wall_misc1
+Object.absolutePosition 446.42/426.36/489.76
+Object.rotation -116.19/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create dan_reb_pillar3
+Object.absolutePosition 434.67/426.01/490.16
+Object.rotation 90.00/-1.24/0.12
+rem
+rem ***  ***
+rem
+Object.create eu_birtch3_m1
+Object.absolutePosition 413.48/425.11/498.71
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create dan_reb_pillar3
+Object.absolutePosition 413.33/422.72/517.32
+Object.rotation 90.00/0.00/3.47
+rem
+rem ***  ***
+rem
+Object.create dan_reb_pillar
+Object.absolutePosition 457.19/420.93/527.85
+Object.rotation 90.00/3.13/-2.25
+rem
+rem ***  ***
+rem
+Object.create dan_reb_pillar
+Object.absolutePosition 539.55/406.94/519.82
+Object.rotation 90.00/0.00/-4.80
+rem
+rem ***  ***
+rem
+Object.create dan_reb_pillar
+Object.absolutePosition 540.54/407.60/528.62
+Object.rotation 90.00/9.14/3.03
+rem
+rem ***  ***
+rem
+Object.create dan_reb_wall1
+Object.absolutePosition 572.01/407.72/512.70
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create aspen_bush1_m1
+Object.absolutePosition 616.92/407.80/505.08
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create aspen_bush1_m1
+Object.absolutePosition 547.69/415.24/418.17
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create aspen_bush1_m1
+Object.absolutePosition 482.15/415.24/500.09
+Object.rotation -60.66/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create dan_reb_wall1
+Object.absolutePosition 491.82/421.88/628.32
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create dan_reb_wall1
+Object.absolutePosition 498.29/421.09/613.34
+Object.rotation 90.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create dan_reb_building2
+Object.absolutePosition 501.88/422.24/620.96
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create eu_birtch3_m1
+Object.absolutePosition 468.22/417.00/657.03
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create eu_birtch1_m1
+Object.absolutePosition 457.26/416.50/650.22
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create aspen_bush1_m1
+Object.absolutePosition 501.93/418.93/674.52
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create eu_birtch2_m1
+Object.absolutePosition 424.22/422.37/528.36
+Object.rotation -153.03/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create dan_reb_pillar3
+Object.absolutePosition 441.17/422.46/571.04
+Object.rotation 126.33/-9.90/-6.02
+rem
+rem ***  ***
+rem
+Object.create dan_reb_pillar
+Object.absolutePosition 448.63/422.90/565.04
+Object.rotation 128.13/-1.18/2.32
+rem
+rem ***  ***
+rem
+Object.create dan_reb_pillar3
+Object.absolutePosition 480.51/421.04/608.19
+Object.rotation 119.86/9.61/-2.98
+rem
+rem ***  ***
+rem
+Object.create eu_birtch1_m1
+Object.absolutePosition 428.75/422.50/556.01
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create aspen_bush1_m1
+Object.absolutePosition 414.83/428.18/422.58
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create eu_birtch2_m1
+Object.absolutePosition 515.99/419.80/460.25
+Object.rotation 174.38/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create eu_birtch2_m1
+Object.absolutePosition 656.78/413.36/582.28
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create eu_birtch3_m1
+Object.absolutePosition 684.19/430.61/543.58
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create aspen_bush1_m1
+Object.absolutePosition 683.93/421.14/597.69
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create aspen_bush1_m1
+Object.absolutePosition 590.58/408.01/655.83
+Object.rotation 18.18/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create dan_reb_pillar3
+Object.absolutePosition 560.85/407.30/527.55
+Object.rotation 90.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create dan_reb_pillar
+Object.absolutePosition 560.79/407.75/519.16
+Object.rotation 90.00/-2.50/0.00
+rem
+rem ***  ***
+rem
+Object.create barricade1
+Object.absolutePosition 457.47/422.36/592.43
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create barricade2
+Object.absolutePosition 471.16/422.37/600.32
+Object.rotation 34.99/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create barricade3
+Object.absolutePosition 465.58/422.37/593.21
+Object.rotation 60.13/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create barricade2
+Object.absolutePosition 450.09/422.38/581.68
+Object.rotation -144.54/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create barricade3
+Object.absolutePosition 464.71/422.38/602.40
+Object.rotation 35.74/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create barricade1
+Object.absolutePosition 450.83/422.38/584.59
+Object.rotation 68.05/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create barricade3
+Object.absolutePosition 458.92/422.37/581.20
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create barricade3
+Object.absolutePosition 594.86/403.27/602.43
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create barricade2
+Object.absolutePosition 586.21/404.68/594.35
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create stones_russia_l_m1
+Object.absolutePosition 542.26/422.33/610.82
+Object.rotation 95.42/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create dan_reb_pillar3
+Object.absolutePosition 613.52/407.68/521.84
+Object.rotation 90.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create dan_reb_pillar3
+Object.absolutePosition 617.74/406.92/521.56
+Object.rotation 90.00/6.84/9.92
+rem
+rem ***  ***
+rem
+Object.create aspen_bush1_m1
+Object.absolutePosition 555.46/407.72/527.93
+Object.rotation -34.89/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create barricade2
+Object.absolutePosition 527.14/408.13/521.41
+Object.rotation 90.35/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create barricade3
+Object.absolutePosition 520.37/409.32/528.19
+Object.rotation -121.62/0.00/5.25
+rem
+rem ***  ***
+rem
+Object.create barricade1
+Object.absolutePosition 514.63/410.46/527.93
+Object.rotation 136.75/0.31/6.96
+rem
+rem ***  ***
+rem
+Object.create barricade2
+Object.absolutePosition 516.96/410.01/520.31
+Object.rotation 89.20/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create barricade1
+Object.absolutePosition 504.54/412.30/522.47
+Object.rotation -110.19/0.00/2.24
+rem
+rem ***  ***
+rem
+Object.create barricade2
+Object.absolutePosition 498.44/413.48/526.82
+Object.rotation -92.27/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create stones_russia_l_m1
+Object.absolutePosition 472.93/415.87/507.53
+Object.rotation -101.58/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create barricade2
+Object.absolutePosition 588.76/405.98/587.76
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create barricade1
+Object.absolutePosition 594.16/405.33/591.28
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create barricade2
+Object.absolutePosition 595.47/408.49/573.31
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create barricade3
+Object.absolutePosition 587.45/407.96/576.60
+Object.rotation -50.58/0.00/-8.02
+rem
+rem ***  ***
+rem
+Object.create barricade3
+Object.absolutePosition 485.41/422.85/468.63
+Object.rotation -32.81/0.00/-1.35
+rem
+rem ***  ***
+rem
+Object.create barricade2
+Object.absolutePosition 478.90/422.94/462.78
+Object.rotation 135.61/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create barricade2
+Object.absolutePosition 463.60/426.38/481.83
+Object.rotation -44.01/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create barricade1
+Object.absolutePosition 469.72/425.00/473.68
+Object.rotation 0.00/-7.80/-5.19
+rem
+rem ***  ***
+rem
+Object.create barricade1
+Object.absolutePosition 471.45/425.49/480.18
+Object.rotation -72.33/0.00/3.58
+rem
+rem ***  ***
+rem
+Object.create barricade3
+Object.absolutePosition 468.83/426.22/484.23
+Object.rotation 0.00/0.00/-4.60

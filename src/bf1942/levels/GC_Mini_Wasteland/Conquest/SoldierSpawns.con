@@ -1,0 +1,74 @@
+rem SoldierSpawns.con created by Battlecraft 1942
+rem (\Program Files\Battlefield 1942\Mods\GCMOD\bf1942\levels\GC_Mini_Wasteland/conquest/SoldierSpawns.con)
+
+rem ----------------------------------------- 
+rem ---  Imperial_Base_Spawn1  ---
+rem ----------------------------------------- 
+Object.create Imperial_Base_Spawn1
+Object.absolutePosition 589.87/110.11/871.68
+Object.rotation -180.90/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Rebel_Base_Spawn1  ---
+rem ----------------------------------------- 
+Object.create Rebel_Base_Spawn1
+Object.absolutePosition 522.32/111.44/231.10
+Object.rotation -177.78/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Rebel_Base_Spawn2  ---
+rem ----------------------------------------- 
+Object.create Rebel_Base_Spawn2
+Object.absolutePosition 529.68/111.46/198.82
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Rebel_Base_Spawn3  ---
+rem ----------------------------------------- 
+Object.create Rebel_Base_Spawn3
+Object.absolutePosition 540.72/111.46/199.40
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Imperial_Base_Spawn2  ---
+rem ----------------------------------------- 
+Object.create Imperial_Base_Spawn2
+Object.absolutePosition 611.42/109.62/870.06
+Object.rotation -181.35/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Imperial_Lowland_Spawn1  ---
+rem ----------------------------------------- 
+Object.create Imperial_Lowland_Spawn1
+Object.absolutePosition 364.66/75.99/716.41
+Object.rotation -48.17/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Imperial_Lowland_Spawn2  ---
+rem ----------------------------------------- 
+Object.create Imperial_Lowland_Spawn2
+Object.absolutePosition 331.95/73.84/743.99
+Object.rotation 133.69/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Imperial_Base_Spawn3  ---
+rem ----------------------------------------- 
+Object.create Imperial_Base_Spawn3
+Object.absolutePosition 585.54/109.65/881.81
+Object.rotation -92.53/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Rebel_Lowland_Spawn1  ---
+rem ----------------------------------------- 
+Object.create Rebel_Lowland_Spawn1
+Object.absolutePosition 682.56/75.68/384.27
+Object.rotation 83.34/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Rebel_Lowland_Spawn2  ---
+rem ----------------------------------------- 
+Object.create Rebel_Lowland_Spawn2
+Object.absolutePosition 733.39/77.69/362.42
+Object.rotation 0.00/0.00/0.00
+
+rem EndOfFile

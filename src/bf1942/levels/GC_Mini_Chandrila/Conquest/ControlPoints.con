@@ -1,0 +1,28 @@
+rem ControlPoints.con created by Battlecraft 1942
+rem (\Program Files\Battlefield 1942\Mods\GCMOD\bf1942\levels\GC_Mini_Chandrila/conquest/ControlPoints.con)
+
+rem ----------------------------------------- 
+rem ---  Northern_Peak  ---
+rem ----------------------------------------- 
+Object.create Northern_Peak
+Object.absolutePosition 532.10/422.17/604.89
+
+rem ----------------------------------------- 
+rem ---  Southern_Peak  ---
+rem ----------------------------------------- 
+Object.create Southern_Peak
+Object.absolutePosition 523.80/422.15/444.12
+
+rem ----------------------------------------- 
+rem ---  Eastern_Peak  ---
+rem ----------------------------------------- 
+Object.create Eastern_Peak
+Object.absolutePosition 616.06/407.78/528.28
+
+rem ----------------------------------------- 
+rem ---  Western_Peak  ---
+rem ----------------------------------------- 
+Object.create Western_Peak
+Object.absolutePosition 450.21/421.56/525.77
+
+rem EndOfFile

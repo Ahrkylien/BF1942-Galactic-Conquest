@@ -103,26 +103,20 @@
               <TransformNode>
                 <Float description="X">0.0</Float>
                 <Float description="Y">0.0</Float>
-                <Float description="Width">350.0</Float>
+                <Float description="Width">500.0</Float>
                 <Float description="Height">20.0</Float>
                 <TextNode description="Transformed node">
-                  <StringData description="String">GALACTIC CONQUEST 0.3</StringData>
-                  <RightAlignedStyle description="Style">Trebuchet MS18.dif</RightAlignedStyle>
+                  <StringData description="String">galactic conquest release 5</StringData>
+                  <Style description="Style">StarJedi18.dif</Style>
                 </TextNode>
               </TransformNode>
               <TransformNode>
-                <Float description="X">375.0</Float>
-                <Float description="Y">16.0</Float>
-                <Float description="Width">350.0</Float>
-                <Float description="Height">40.0</Float>
+                <Float description="X">500.0</Float>
+                <Float description="Y">10.0</Float>
+                <Float description="Width">300.0</Float>
+                <Float description="Height">20.0</Float>
                 <TextNode description="Transformed node">
-                  <BfLocaleStringData description="String">
-                    <BfLocaleData description="Locale" name="Locale/Locale">
-                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                    </BfLocaleData>
-                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                    <StringData description="String Id">A Battlefield: 1942 modification</StringData>
-                  </BfLocaleStringData>
+                  <StringData description="String">     A Battlefield: 1942 modification</StringData>
                   <BfStyle description="Style">standard6.dif</BfStyle>
                 </TextNode>
               </TransformNode>
@@ -140,14 +134,8 @@
                 <Float description="Width">350.0</Float>
                 <Float description="Height">20.0</Float>
                 <TextNode description="Transformed node">
-                  <BfLocaleStringData description="String">
-                    <BfLocaleData description="Locale" name="Locale/Locale">
-                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                    </BfLocaleData>
-                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                    <StringData description="String Id">Suge</StringData>
-                  </BfLocaleStringData>
-                  <RightAlignedStyle description="Style" name="Style/CreditHeadingStyle">Trebuchet MS14.dif</RightAlignedStyle>
+                  <StringData description="String">szier</StringData>
+                  <RightAlignedStyle description="Style">StarJedi14.dif</RightAlignedStyle>
                 </TextNode>
               </TransformNode>
               <TransformNode>
@@ -156,7 +144,7 @@
                 <Float description="Width">360.0</Float>
                 <Float description="Height">20.0</Float>
                 <TextNode description="Transformed node">
-                  <StringData description="String">Eric Izso - Project Director/Modeler/Skinner</StringData>
+                  <StringData description="String">Scott Zier - Project Leader/Mapper/Modeler/Coder</StringData>
                   <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
                 </TextNode>
               </TransformNode>
@@ -174,14 +162,8 @@
                 <Float description="Width">350.0</Float>
                 <Float description="Height">20.0</Float>
                 <TextNode description="Transformed node">
-                  <BfLocaleStringData description="String">
-                    <BfLocaleData description="Locale" name="Locale/Locale">
-                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                    </BfLocaleData>
-                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                    <StringData description="String Id">JayBiggs</StringData>
-                  </BfLocaleStringData>
-                  <RightAlignedStyle description="Style" name="Style/CreditHeadingStyle">Trebuchet MS14.dif</RightAlignedStyle>
+                  <StringData description="String">luuri</StringData>
+                  <RightAlignedStyle description="Style">StarJedi14.dif</RightAlignedStyle>
                 </TextNode>
               </TransformNode>
               <TransformNode>
@@ -190,7 +172,7 @@
                 <Float description="Width">360.0</Float>
                 <Float description="Height">20.0</Float>
                 <TextNode description="Transformed node">
-                  <StringData description="String">Jevon Paradis - Project Director/Skinner</StringData>
+                  <StringData description="String">Mikael Achrén - Art Team Leader/Senior Artist</StringData>
                   <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
                 </TextNode>
               </TransformNode>
@@ -208,14 +190,8 @@
                 <Float description="Width">350.0</Float>
                 <Float description="Height">20.0</Float>
                 <TextNode description="Transformed node">
-                  <BfLocaleStringData description="String">
-                    <BfLocaleData description="Locale" name="Locale/Locale">
-                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                    </BfLocaleData>
-                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                    <StringData description="String Id">SZier</StringData>
-                  </BfLocaleStringData>
-                  <RightAlignedStyle description="Style" name="Style/CreditHeadingStyle">Trebuchet MS14.dif</RightAlignedStyle>
+                  <StringData description="String">jaybiggs</StringData>
+                  <RightAlignedStyle description="Style">StarJedi14.dif</RightAlignedStyle>
                 </TextNode>
               </TransformNode>
               <TransformNode>
@@ -224,7 +200,7 @@
                 <Float description="Width">360.0</Float>
                 <Float description="Height">20.0</Float>
                 <TextNode description="Transformed node">
-                  <StringData description="String">Scott Zier - Project Director/Modeler/Skinner/Mapper/Coder</StringData>
+                  <StringData description="String">Jevon Paradis - Project Founder/Modeler/Skinner</StringData>
                   <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
                 </TextNode>
               </TransformNode>
@@ -242,14 +218,8 @@
                 <Float description="Width">350.0</Float>
                 <Float description="Height">20.0</Float>
                 <TextNode description="Transformed node">
-                  <BfLocaleStringData description="String">
-                    <BfLocaleData description="Locale" name="Locale/Locale">
-                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                    </BfLocaleData>
-                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                    <StringData description="String Id">Luuri</StringData>
-                  </BfLocaleStringData>
-                  <RightAlignedStyle description="Style" name="Style/CreditHeadingStyle">Trebuchet MS14.dif</RightAlignedStyle>
+                  <StringData description="String">loopfish</StringData>
+                  <RightAlignedStyle description="Style">StarJedi14.dif</RightAlignedStyle>
                 </TextNode>
               </TransformNode>
               <TransformNode>
@@ -258,7 +228,7 @@
                 <Float description="Width">360.0</Float>
                 <Float description="Height">20.0</Float>
                 <TextNode description="Transformed node">
-                  <StringData description="String">Mikael Achrén - Modeler/Skinner/Cinematics/Lead 2-D Artist</StringData>
+                  <StringData description="String">Sam Komfner	- Coder/Sound &amp; Effects Engineer</StringData>
                   <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
                 </TextNode>
               </TransformNode>
@@ -276,14 +246,8 @@
                 <Float description="Width">350.0</Float>
                 <Float description="Height">20.0</Float>
                 <TextNode description="Transformed node">
-                  <BfLocaleStringData description="String">
-                    <BfLocaleData description="Locale" name="Locale/Locale">
-                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                    </BfLocaleData>
-                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                    <StringData description="String Id">Socketman</StringData>
-                  </BfLocaleStringData>
-                  <RightAlignedStyle description="Style" name="Style/CreditHeadingStyle">Trebuchet MS14.dif</RightAlignedStyle>
+                  <StringData description="String">suge</StringData>
+                  <RightAlignedStyle description="Style">StarJedi14.dif</RightAlignedStyle>
                 </TextNode>
               </TransformNode>
               <TransformNode>
@@ -292,7 +256,7 @@
                 <Float description="Width">360.0</Float>
                 <Float description="Height">20.0</Float>
                 <TextNode description="Transformed node">
-                  <StringData description="String">Brad Ashford - Mapper</StringData>
+                  <StringData description="String">Eric Izso - Team Leader/Modeller/Skinner</StringData>
                   <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
                 </TextNode>
               </TransformNode>
@@ -310,14 +274,8 @@
                 <Float description="Width">350.0</Float>
                 <Float description="Height">20.0</Float>
                 <TextNode description="Transformed node">
-                  <BfLocaleStringData description="String">
-                    <BfLocaleData description="Locale" name="Locale/Locale">
-                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                    </BfLocaleData>
-                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                    <StringData description="String Id">Phantom</StringData>
-                  </BfLocaleStringData>
-                  <RightAlignedStyle description="Style" name="Style/CreditHeadingStyle">Trebuchet MS14.dif</RightAlignedStyle>
+                  <StringData description="String">abblepc</StringData>
+                  <RightAlignedStyle description="Style">StarJedi14.dif</RightAlignedStyle>
                 </TextNode>
               </TransformNode>
               <TransformNode>
@@ -326,7 +284,7 @@
                 <Float description="Width">360.0</Float>
                 <Float description="Height">20.0</Float>
                 <TextNode description="Transformed node">
-                  <StringData description="String">Daniel Aston - Mapper</StringData>
+                  <StringData description="String">Jeff Beck - Coder</StringData>
                   <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
                 </TextNode>
               </TransformNode>
@@ -344,14 +302,8 @@
                 <Float description="Width">350.0</Float>
                 <Float description="Height">20.0</Float>
                 <TextNode description="Transformed node">
-                  <BfLocaleStringData description="String">
-                    <BfLocaleData description="Locale" name="Locale/Locale">
-                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                    </BfLocaleData>
-                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                    <StringData description="String Id">AbblePC</StringData>
-                  </BfLocaleStringData>
-                  <RightAlignedStyle description="Style" name="Style/CreditHeadingStyle">Trebuchet MS14.dif</RightAlignedStyle>
+                  <StringData description="String">miztah</StringData>
+                  <RightAlignedStyle description="Style">StarJedi14.dif</RightAlignedStyle>
                 </TextNode>
               </TransformNode>
               <TransformNode>
@@ -360,7 +312,7 @@
                 <Float description="Width">360.0</Float>
                 <Float description="Height">20.0</Float>
                 <TextNode description="Transformed node">
-                  <StringData description="String">Jeff Beck - Coder</StringData>
+                  <StringData description="String">Matt Jones - PR/Mapper</StringData>
                   <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
                 </TextNode>
               </TransformNode>
@@ -378,14 +330,8 @@
                 <Float description="Width">350.0</Float>
                 <Float description="Height">20.0</Float>
                 <TextNode description="Transformed node">
-                  <BfLocaleStringData description="String">
-                    <BfLocaleData description="Locale" name="Locale/Locale">
-                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                    </BfLocaleData>
-                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                    <StringData description="String Id">Psistorm</StringData>
-                  </BfLocaleStringData>
-                  <RightAlignedStyle description="Style" name="Style/CreditHeadingStyle">Trebuchet MS14.dif</RightAlignedStyle>
+                  <StringData description="String">dirtylowmofo</StringData>
+                  <RightAlignedStyle description="Style">StarJedi14.dif</RightAlignedStyle>
                 </TextNode>
               </TransformNode>
               <TransformNode>
@@ -394,7 +340,7 @@
                 <Float description="Width">360.0</Float>
                 <Float description="Height">20.0</Float>
                 <TextNode description="Transformed node">
-                  <StringData description="String">Stefan Biermann - Modeler</StringData>
+                  <StringData description="String">Rob - Modeller/Skinner/Coder/Meshwork</StringData>
                   <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
                 </TextNode>
               </TransformNode>
@@ -412,14 +358,8 @@
                 <Float description="Width">350.0</Float>
                 <Float description="Height">20.0</Float>
                 <TextNode description="Transformed node">
-                  <BfLocaleStringData description="String">
-                    <BfLocaleData description="Locale" name="Locale/Locale">
-                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                    </BfLocaleData>
-                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                    <StringData description="String Id">Wardancer</StringData>
-                  </BfLocaleStringData>
-                  <RightAlignedStyle description="Style" name="Style/CreditHeadingStyle">Trebuchet MS14.dif</RightAlignedStyle>
+                  <StringData description="String">preacher</StringData>
+                  <RightAlignedStyle description="Style">StarJedi14.dif</RightAlignedStyle>
                 </TextNode>
               </TransformNode>
               <TransformNode>
@@ -428,7 +368,7 @@
                 <Float description="Width">360.0</Float>
                 <Float description="Height">20.0</Float>
                 <TextNode description="Transformed node">
-                  <StringData description="String">Svante Ekström - Tech Support/Forum Moderator</StringData>
+                  <StringData description="String">Gareth O'Neill - Modeller/Skinner/2D Artwork</StringData>
                   <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
                 </TextNode>
               </TransformNode>
@@ -446,14 +386,8 @@
                 <Float description="Width">350.0</Float>
                 <Float description="Height">20.0</Float>
                 <TextNode description="Transformed node">
-                  <BfLocaleStringData description="String">
-                    <BfLocaleData description="Locale" name="Locale/Locale">
-                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                    </BfLocaleData>
-                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                    <StringData description="String Id">CourtesyFlush</StringData>
-                  </BfLocaleStringData>
-                  <RightAlignedStyle description="Style" name="Style/CreditHeadingStyle">Trebuchet MS14.dif</RightAlignedStyle>
+                  <StringData description="String">muhahahahaha</StringData>
+                  <RightAlignedStyle description="Style">StarJedi14.dif</RightAlignedStyle>
                 </TextNode>
               </TransformNode>
               <TransformNode>
@@ -462,7 +396,7 @@
                 <Float description="Width">360.0</Float>
                 <Float description="Height">20.0</Float>
                 <TextNode description="Transformed node">
-                  <StringData description="String">Nathan Frost - Modeler/Skinner</StringData>
+                  <StringData description="String">Rob Stiasny - Menus/Coder/HUDs/Installer</StringData>
                   <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
                 </TextNode>
               </TransformNode>
@@ -480,14 +414,8 @@
                 <Float description="Width">350.0</Float>
                 <Float description="Height">20.0</Float>
                 <TextNode description="Transformed node">
-                  <BfLocaleStringData description="String">
-                    <BfLocaleData description="Locale" name="Locale/Locale">
-                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                    </BfLocaleData>
-                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                    <StringData description="String Id">Alec Harrison</StringData>
-                  </BfLocaleStringData>
-                  <RightAlignedStyle description="Style" name="Style/CreditHeadingStyle">Trebuchet MS14.dif</RightAlignedStyle>
+                  <StringData description="String">lord dill</StringData>
+                  <RightAlignedStyle description="Style">StarJedi14.dif</RightAlignedStyle>
                 </TextNode>
               </TransformNode>
               <TransformNode>
@@ -496,7 +424,7 @@
                 <Float description="Width">360.0</Float>
                 <Float description="Height">20.0</Float>
                 <TextNode description="Transformed node">
-                  <StringData description="String">Music Composition</StringData>
+                  <StringData description="String">Joseph Nemec - Mapper/Coder</StringData>
                   <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
                 </TextNode>
               </TransformNode>
@@ -514,14 +442,8 @@
                 <Float description="Width">350.0</Float>
                 <Float description="Height">20.0</Float>
                 <TextNode description="Transformed node">
-                  <BfLocaleStringData description="String">
-                    <BfLocaleData description="Locale" name="Locale/Locale">
-                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                    </BfLocaleData>
-                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                    <StringData description="String Id">HaVoK-G2</StringData>
-                  </BfLocaleStringData>
-                  <RightAlignedStyle description="Style" name="Style/CreditHeadingStyle">Trebuchet MS14.dif</RightAlignedStyle>
+                  <StringData description="String">frame</StringData>
+                  <RightAlignedStyle description="Style">StarJedi14.dif</RightAlignedStyle>
                 </TextNode>
               </TransformNode>
               <TransformNode>
@@ -530,7 +452,7 @@
                 <Float description="Width">360.0</Float>
                 <Float description="Height">20.0</Float>
                 <TextNode description="Transformed node">
-                  <StringData description="String">Tim Hyde II - Modeler/Skinner</StringData>
+                  <StringData description="String">Dennis Thony Pedersen - Modeler/Coder</StringData>
                   <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
                 </TextNode>
               </TransformNode>
@@ -548,14 +470,8 @@
                 <Float description="Width">350.0</Float>
                 <Float description="Height">20.0</Float>
                 <TextNode description="Transformed node">
-                  <BfLocaleStringData description="String">
-                    <BfLocaleData description="Locale" name="Locale/Locale">
-                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                    </BfLocaleData>
-                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                    <StringData description="String Id">Miztah</StringData>
-                  </BfLocaleStringData>
-                  <RightAlignedStyle description="Style" name="Style/CreditHeadingStyle">Trebuchet MS14.dif</RightAlignedStyle>
+                  <StringData description="String">phantom</StringData>
+                  <RightAlignedStyle description="Style">StarJedi14.dif</RightAlignedStyle>
                 </TextNode>
               </TransformNode>
               <TransformNode>
@@ -564,7 +480,7 @@
                 <Float description="Width">360.0</Float>
                 <Float description="Height">20.0</Float>
                 <TextNode description="Transformed node">
-                  <StringData description="String">Matt Jones - Public Relations/Mapper</StringData>
+                  <StringData description="String">Daniel Aston - Mapper</StringData>
                   <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
                 </TextNode>
               </TransformNode>
@@ -582,14 +498,8 @@
                 <Float description="Width">350.0</Float>
                 <Float description="Height">20.0</Float>
                 <TextNode description="Transformed node">
-                  <BfLocaleStringData description="String">
-                    <BfLocaleData description="Locale" name="Locale/Locale">
-                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                    </BfLocaleData>
-                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                    <StringData description="String Id">neko^</StringData>
-                  </BfLocaleStringData>
-                  <RightAlignedStyle description="Style" name="Style/CreditHeadingStyle">Trebuchet MS14.dif</RightAlignedStyle>
+                  <StringData description="String">neko</StringData>
+                  <RightAlignedStyle description="Style">StarJedi14.dif</RightAlignedStyle>
                 </TextNode>
               </TransformNode>
               <TransformNode>
@@ -616,14 +526,8 @@
                 <Float description="Width">350.0</Float>
                 <Float description="Height">20.0</Float>
                 <TextNode description="Transformed node">
-                  <BfLocaleStringData description="String">
-                    <BfLocaleData description="Locale" name="Locale/Locale">
-                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                    </BfLocaleData>
-                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                    <StringData description="String Id">Loopfish</StringData>
-                  </BfLocaleStringData>
-                  <RightAlignedStyle description="Style" name="Style/CreditHeadingStyle">Trebuchet MS14.dif</RightAlignedStyle>
+                  <StringData description="String">nomen</StringData>
+                  <RightAlignedStyle description="Style">StarJedi14.dif</RightAlignedStyle>
                 </TextNode>
               </TransformNode>
               <TransformNode>
@@ -632,7 +536,7 @@
                 <Float description="Width">360.0</Float>
                 <Float description="Height">20.0</Float>
                 <TextNode description="Transformed node">
-                  <StringData description="String">Sam Komfner - Coder/Sound Engineer</StringData>
+                  <StringData description="String">norman - Modeller/Skinner </StringData>
                   <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
                 </TextNode>
               </TransformNode>
@@ -650,14 +554,8 @@
                 <Float description="Width">350.0</Float>
                 <Float description="Height">20.0</Float>
                 <TextNode description="Transformed node">
-                  <BfLocaleStringData description="String">
-                    <BfLocaleData description="Locale" name="Locale/Locale">
-                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                    </BfLocaleData>
-                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                    <StringData description="String Id">Liam--</StringData>
-                  </BfLocaleStringData>
-                  <RightAlignedStyle description="Style" name="Style/CreditHeadingStyle">Trebuchet MS14.dif</RightAlignedStyle>
+                  <StringData description="String">liam--</StringData>
+                  <RightAlignedStyle description="Style">StarJedi14.dif</RightAlignedStyle>
                 </TextNode>
               </TransformNode>
               <TransformNode>
@@ -684,14 +582,8 @@
                 <Float description="Width">350.0</Float>
                 <Float description="Height">20.0</Float>
                 <TextNode description="Transformed node">
-                  <BfLocaleStringData description="String">
-                    <BfLocaleData description="Locale" name="Locale/Locale">
-                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                    </BfLocaleData>
-                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                    <StringData description="String Id">Guy-OnThe-Couch</StringData>
-                  </BfLocaleStringData>
-                  <RightAlignedStyle description="Style" name="Style/CreditHeadingStyle">Trebuchet MS14.dif</RightAlignedStyle>
+                  <StringData description="String">django</StringData>
+                  <RightAlignedStyle description="Style">StarJedi14.dif</RightAlignedStyle>
                 </TextNode>
               </TransformNode>
               <TransformNode>
@@ -700,7 +592,7 @@
                 <Float description="Width">360.0</Float>
                 <Float description="Height">20.0</Float>
                 <TextNode description="Transformed node">
-                  <StringData description="String">Anthony Luzier - Mapper</StringData>
+                  <StringData description="String">Stephan Bork - Coder</StringData>
                   <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
                 </TextNode>
               </TransformNode>
@@ -718,14 +610,8 @@
                 <Float description="Width">350.0</Float>
                 <Float description="Height">20.0</Float>
                 <TextNode description="Transformed node">
-                  <BfLocaleStringData description="String">
-                    <BfLocaleData description="Locale" name="Locale/Locale">
-                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                    </BfLocaleData>
-                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                    <StringData description="String Id">VocalVoodoo</StringData>
-                  </BfLocaleStringData>
-                  <RightAlignedStyle description="Style" name="Style/CreditHeadingStyle">Trebuchet MS14.dif</RightAlignedStyle>
+                  <StringData description="String">woodrow</StringData>
+                  <RightAlignedStyle description="Style">StarJedi14.dif</RightAlignedStyle>
                 </TextNode>
               </TransformNode>
               <TransformNode>
@@ -734,7 +620,7 @@
                 <Float description="Width">360.0</Float>
                 <Float description="Height">20.0</Float>
                 <TextNode description="Transformed node">
-                  <StringData description="String">Josh Mahler - Sound/Voice actor</StringData>
+                  <StringData description="String">Richard Woodward-Roth - Coder</StringData>
                   <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
                 </TextNode>
               </TransformNode>
@@ -752,14 +638,8 @@
                 <Float description="Width">350.0</Float>
                 <Float description="Height">20.0</Float>
                 <TextNode description="Transformed node">
-                  <BfLocaleStringData description="String">
-                    <BfLocaleData description="Locale" name="Locale/Locale">
-                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                    </BfLocaleData>
-                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                    <StringData description="String Id">Preacher</StringData>
-                  </BfLocaleStringData>
-                  <RightAlignedStyle description="Style" name="Style/CreditHeadingStyle">Trebuchet MS14.dif</RightAlignedStyle>
+                  <StringData description="String">tyler</StringData>
+                  <RightAlignedStyle description="Style">StarJedi14.dif</RightAlignedStyle>
                 </TextNode>
               </TransformNode>
               <TransformNode>
@@ -768,7 +648,7 @@
                 <Float description="Width">360.0</Float>
                 <Float description="Height">20.0</Float>
                 <TextNode description="Transformed node">
-                  <StringData description="String">Gareth O'Neill - Modeler/Skinner/2D Artist</StringData>
+                  <StringData description="String">Tyler - Modeller/SKinner</StringData>
                   <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
                 </TextNode>
               </TransformNode>
@@ -786,14 +666,8 @@
                 <Float description="Width">350.0</Float>
                 <Float description="Height">20.0</Float>
                 <TextNode description="Transformed node">
-                  <BfLocaleStringData description="String">
-                    <BfLocaleData description="Locale" name="Locale/Locale">
-                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                    </BfLocaleData>
-                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                    <StringData description="String Id">Killthraka</StringData>
-                  </BfLocaleStringData>
-                  <RightAlignedStyle description="Style" name="Style/CreditHeadingStyle">Trebuchet MS14.dif</RightAlignedStyle>
+                  <StringData description="String">killthraka</StringData>
+                  <RightAlignedStyle description="Style">StarJedi14.dif</RightAlignedStyle>
                 </TextNode>
               </TransformNode>
               <TransformNode>
@@ -820,14 +694,8 @@
                 <Float description="Width">350.0</Float>
                 <Float description="Height">20.0</Float>
                 <TextNode description="Transformed node">
-                  <BfLocaleStringData description="String">
-                    <BfLocaleData description="Locale" name="Locale/Locale">
-                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                    </BfLocaleData>
-                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                    <StringData description="String Id">YoYo</StringData>
-                  </BfLocaleStringData>
-                  <RightAlignedStyle description="Style" name="Style/CreditHeadingStyle">Trebuchet MS14.dif</RightAlignedStyle>
+                  <StringData description="String">Gamboot</StringData>
+                  <RightAlignedStyle description="Style">StarJedi14.dif</RightAlignedStyle>
                 </TextNode>
               </TransformNode>
               <TransformNode>
@@ -836,7 +704,7 @@
                 <Float description="Width">360.0</Float>
                 <Float description="Height">20.0</Float>
                 <TextNode description="Transformed node">
-                  <StringData description="String">Nick Simonetti - Modeler/Skinner</StringData>
+                  <StringData description="String">Dave Wilson - GC Official Helper</StringData>
                   <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
                 </TextNode>
               </TransformNode>
@@ -854,14 +722,8 @@
                 <Float description="Width">350.0</Float>
                 <Float description="Height">20.0</Float>
                 <TextNode description="Transformed node">
-                  <BfLocaleStringData description="String">
-                    <BfLocaleData description="Locale" name="Locale/Locale">
-                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                    </BfLocaleData>
-                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                    <StringData description="String Id">Kman</StringData>
-                  </BfLocaleStringData>
-                  <RightAlignedStyle description="Style" name="Style/CreditHeadingStyle">Trebuchet MS14.dif</RightAlignedStyle>
+                  <StringData description="String">kman</StringData>
+                  <RightAlignedStyle description="Style">StarJedi14.dif</RightAlignedStyle>
                 </TextNode>
               </TransformNode>
               <TransformNode>
@@ -888,14 +750,8 @@
                 <Float description="Width">350.0</Float>
                 <Float description="Height">20.0</Float>
                 <TextNode description="Transformed node">
-                  <BfLocaleStringData description="String">
-                    <BfLocaleData description="Locale" name="Locale/Locale">
-                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                    </BfLocaleData>
-                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                    <StringData description="String Id">MUHAHAHAHAHA</StringData>
-                  </BfLocaleStringData>
-                  <RightAlignedStyle description="Style" name="Style/CreditHeadingStyle">Trebuchet MS14.dif</RightAlignedStyle>
+                  <StringData description="String">vocalvoodoo</StringData>
+                  <RightAlignedStyle description="Style">StarJedi14.dif</RightAlignedStyle>
                 </TextNode>
               </TransformNode>
               <TransformNode>
@@ -904,7 +760,7 @@
                 <Float description="Width">360.0</Float>
                 <Float description="Height">20.0</Float>
                 <TextNode description="Transformed node">
-                  <StringData description="String">Rob Stiasny - Coder/Installers</StringData>
+                  <StringData description="String">Josh Mahler - Sound/Voice actor</StringData>
                   <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
                 </TextNode>
               </TransformNode>
@@ -922,14 +778,8 @@
                 <Float description="Width">350.0</Float>
                 <Float description="Height">20.0</Float>
                 <TextNode description="Transformed node">
-                  <BfLocaleStringData description="String">
-                    <BfLocaleData description="Locale" name="Locale/Locale">
-                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                    </BfLocaleData>
-                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                    <StringData description="String Id">Frame_1</StringData>
-                  </BfLocaleStringData>
-                  <RightAlignedStyle description="Style" name="Style/CreditHeadingStyle">Trebuchet MS14.dif</RightAlignedStyle>
+                  <StringData description="String">flpngboy</StringData>
+                  <RightAlignedStyle description="Style">StarJedi14.dif</RightAlignedStyle>
                 </TextNode>
               </TransformNode>
               <TransformNode>
@@ -938,7 +788,7 @@
                 <Float description="Width">360.0</Float>
                 <Float description="Height">20.0</Float>
                 <TextNode description="Transformed node">
-                  <StringData description="String">Dennis Thony Pedersen - Mapper/Modeler</StringData>
+                  <StringData description="String">Allen Guzzetta  - Sound Engineer, Technical Writer</StringData>
                   <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
                 </TextNode>
               </TransformNode>
@@ -956,14 +806,8 @@
                 <Float description="Width">350.0</Float>
                 <Float description="Height">20.0</Float>
                 <TextNode description="Transformed node">
-                  <BfLocaleStringData description="String">
-                    <BfLocaleData description="Locale" name="Locale/Locale">
-                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                    </BfLocaleData>
-                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                    <StringData description="String Id">Gamboot</StringData>
-                  </BfLocaleStringData>
-                  <RightAlignedStyle description="Style" name="Style/CreditHeadingStyle">Trebuchet MS14.dif</RightAlignedStyle>
+                  <StringData description="String">courtesyflush</StringData>
+                  <RightAlignedStyle description="Style">StarJedi14.dif</RightAlignedStyle>
                 </TextNode>
               </TransformNode>
               <TransformNode>
@@ -972,7 +816,7 @@
                 <Float description="Width">360.0</Float>
                 <Float description="Height">20.0</Float>
                 <TextNode description="Transformed node">
-                  <StringData description="String">Dave Wilson - GC Official Helper/Spirit Leader</StringData>
+                  <StringData description="String">Nathan Frost - Skinner/Modeller</StringData>
                   <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
                 </TextNode>
               </TransformNode>
@@ -990,14 +834,8 @@
                 <Float description="Width">350.0</Float>
                 <Float description="Height">20.0</Float>
                 <TextNode description="Transformed node">
-                  <BfLocaleStringData description="String">
-                    <BfLocaleData description="Locale" name="Locale/Locale">
-                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                    </BfLocaleData>
-                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                    <StringData description="String Id">DirtyLowMoFo</StringData>
-                  </BfLocaleStringData>
-                  <RightAlignedStyle description="Style" name="Style/CreditHeadingStyle">Trebuchet MS14.dif</RightAlignedStyle>
+                  <StringData description="String">Squiggles</StringData>
+                  <RightAlignedStyle description="Style">StarJedi14.dif</RightAlignedStyle>
                 </TextNode>
               </TransformNode>
               <TransformNode>
@@ -1006,7 +844,7 @@
                 <Float description="Width">360.0</Float>
                 <Float description="Height">20.0</Float>
                 <TextNode description="Transformed node">
-                  <StringData description="String">Rob  - Modeler/Skinner/Coder</StringData>
+                  <StringData description="String">Stephen Dodge - Modeller/Skinner</StringData>
                   <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
                 </TextNode>
               </TransformNode>
@@ -1024,14 +862,8 @@
                 <Float description="Width">350.0</Float>
                 <Float description="Height">20.0</Float>
                 <TextNode description="Transformed node">
-                  <BfLocaleStringData description="String">
-                    <BfLocaleData description="Locale" name="Locale/Locale">
-                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                    </BfLocaleData>
-                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                    <StringData description="String Id">GITS</StringData>
-                  </BfLocaleStringData>
-                  <RightAlignedStyle description="Style" name="Style/CreditHeadingStyle">Trebuchet MS14.dif</RightAlignedStyle>
+                  <StringData description="String">gits</StringData>
+                  <RightAlignedStyle description="Style">StarJedi14.dif</RightAlignedStyle>
                 </TextNode>
               </TransformNode>
               <TransformNode>
@@ -1040,7 +872,7 @@
                 <Float description="Width">360.0</Float>
                 <Float description="Height">20.0</Float>
                 <TextNode description="Transformed node">
-                  <StringData description="String">Petri T - Modeler</StringData>
+                  <StringData description="String">Modeler</StringData>
                   <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
                 </TextNode>
               </TransformNode>
@@ -1058,14 +890,8 @@
                 <Float description="Width">350.0</Float>
                 <Float description="Height">20.0</Float>
                 <TextNode description="Transformed node">
-                  <BfLocaleStringData description="String">
-                    <BfLocaleData description="Locale" name="Locale/Locale">
-                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                    </BfLocaleData>
-                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                    <StringData description="String Id">DracoNB</StringData>
-                  </BfLocaleStringData>
-                  <RightAlignedStyle description="Style" name="Style/CreditHeadingStyle">Trebuchet MS14.dif</RightAlignedStyle>
+                  <StringData description="String">draconb</StringData>
+                  <RightAlignedStyle description="Style">StarJedi14.dif</RightAlignedStyle>
                 </TextNode>
               </TransformNode>
               <TransformNode>
@@ -1074,7 +900,7 @@
                 <Float description="Width">360.0</Float>
                 <Float description="Height">20.0</Float>
                 <TextNode description="Transformed node">
-                  <StringData description="String">John Mackay - Modeler</StringData>
+                  <StringData description="String">Modeler</StringData>
                   <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
                 </TextNode>
               </TransformNode>
@@ -1092,14 +918,8 @@
                 <Float description="Width">350.0</Float>
                 <Float description="Height">20.0</Float>
                 <TextNode description="Transformed node">
-                  <BfLocaleStringData description="String">
-                    <BfLocaleData description="Locale" name="Locale/Locale">
-                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                    </BfLocaleData>
-                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                    <StringData description="String Id">NoMeN</StringData>
-                  </BfLocaleStringData>
-                  <RightAlignedStyle description="Style" name="Style/CreditHeadingStyle">Trebuchet MS14.dif</RightAlignedStyle>
+                  <StringData description="String">psistorm</StringData>
+                  <RightAlignedStyle description="Style">StarJedi14.dif</RightAlignedStyle>
                 </TextNode>
               </TransformNode>
               <TransformNode>
@@ -1108,7 +928,7 @@
                 <Float description="Width">360.0</Float>
                 <Float description="Height">20.0</Float>
                 <TextNode description="Transformed node">
-                  <StringData description="String">Norman - Skinner</StringData>
+                  <StringData description="String">Stefan Biermann - Modeler</StringData>
                   <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
                 </TextNode>
               </TransformNode>
@@ -1126,14 +946,8 @@
                 <Float description="Width">350.0</Float>
                 <Float description="Height">20.0</Float>
                 <TextNode description="Transformed node">
-                  <BfLocaleStringData description="String">
-                    <BfLocaleData description="Locale" name="Locale/Locale">
-                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                    </BfLocaleData>
-                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                    <StringData description="String Id">Limper</StringData>
-                  </BfLocaleStringData>
-                  <RightAlignedStyle description="Style" name="Style/CreditHeadingStyle">Trebuchet MS14.dif</RightAlignedStyle>
+                  <StringData description="String">alec harrison</StringData>
+                  <RightAlignedStyle description="Style">StarJedi14.dif</RightAlignedStyle>
                 </TextNode>
               </TransformNode>
               <TransformNode>
@@ -1142,7 +956,7 @@
                 <Float description="Width">360.0</Float>
                 <Float description="Height">20.0</Float>
                 <TextNode description="Transformed node">
-                  <StringData description="String">Modeler</StringData>
+                  <StringData description="String">Galactic Conquest Musical Score</StringData>
                   <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
                 </TextNode>
               </TransformNode>
@@ -1160,14 +974,8 @@
                 <Float description="Width">350.0</Float>
                 <Float description="Height">20.0</Float>
                 <TextNode description="Transformed node">
-                  <BfLocaleStringData description="String">
-                    <BfLocaleData description="Locale" name="Locale/Locale">
-                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                    </BfLocaleData>
-                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                    <StringData description="String Id">Special Thanks</StringData>
-                  </BfLocaleStringData>
-                  <RightAlignedStyle description="Style" name="Style/CreditHeadingStyle">Trebuchet MS14.dif</RightAlignedStyle>
+                  <StringData description="String">special thanks</StringData>
+                  <RightAlignedStyle description="Style">StarJedi14.dif</RightAlignedStyle>
                 </TextNode>
               </TransformNode>
               <TransformNode>
@@ -1201,7 +1009,7 @@
                     <BoolData description="Valid" name="Locale/Valid">True</BoolData>
                     <StringData description="String Id" />
                   </BfLocaleStringData>
-                  <RightAlignedStyle description="Style" name="Style/CreditHeadingStyle">Trebuchet MS14.dif</RightAlignedStyle>
+                  <RightAlignedStyle description="Style">StarJedi14.dif</RightAlignedStyle>
                 </TextNode>
               </TransformNode>
               <TransformNode>
@@ -1235,7 +1043,7 @@
                     <BoolData description="Valid" name="Locale/Valid">True</BoolData>
                     <StringData description="String Id" />
                   </BfLocaleStringData>
-                  <RightAlignedStyle description="Style" name="Style/CreditHeadingStyle">Trebuchet MS14.dif</RightAlignedStyle>
+                  <RightAlignedStyle description="Style">StarJedi14.dif</RightAlignedStyle>
                 </TextNode>
               </TransformNode>
               <TransformNode>
@@ -1269,7 +1077,7 @@
                     <BoolData description="Valid" name="Locale/Valid">True</BoolData>
                     <StringData description="String Id" />
                   </BfLocaleStringData>
-                  <RightAlignedStyle description="Style" name="Style/CreditHeadingStyle">Trebuchet MS14.dif</RightAlignedStyle>
+                  <RightAlignedStyle description="Style">StarJedi14.dif</RightAlignedStyle>
                 </TextNode>
               </TransformNode>
               <TransformNode>
@@ -1303,7 +1111,7 @@
                     <BoolData description="Valid" name="Locale/Valid">True</BoolData>
                     <StringData description="String Id" />
                   </BfLocaleStringData>
-                  <RightAlignedStyle description="Style" name="Style/CreditHeadingStyle">Trebuchet MS14.dif</RightAlignedStyle>
+                  <RightAlignedStyle description="Style">StarJedi14.dif</RightAlignedStyle>
                 </TextNode>
               </TransformNode>
               <TransformNode>
@@ -1337,7 +1145,7 @@
                     <BoolData description="Valid" name="Locale/Valid">True</BoolData>
                     <StringData description="String Id" />
                   </BfLocaleStringData>
-                  <RightAlignedStyle description="Style" name="Style/CreditHeadingStyle">Trebuchet MS14.dif</RightAlignedStyle>
+                  <RightAlignedStyle description="Style">StarJedi14.dif</RightAlignedStyle>
                 </TextNode>
               </TransformNode>
               <TransformNode>
@@ -1371,7 +1179,7 @@
                     <BoolData description="Valid" name="Locale/Valid">True</BoolData>
                     <StringData description="String Id" />
                   </BfLocaleStringData>
-                  <RightAlignedStyle description="Style" name="Style/CreditHeadingStyle">Trebuchet MS14.dif</RightAlignedStyle>
+                  <RightAlignedStyle description="Style">StarJedi14.dif</RightAlignedStyle>
                 </TextNode>
               </TransformNode>
               <TransformNode>
@@ -1405,7 +1213,7 @@
                     <BoolData description="Valid" name="Locale/Valid">True</BoolData>
                     <StringData description="String Id" />
                   </BfLocaleStringData>
-                  <RightAlignedStyle description="Style" name="Style/CreditHeadingStyle">Trebuchet MS14.dif</RightAlignedStyle>
+                  <RightAlignedStyle description="Style">StarJedi14.dif</RightAlignedStyle>
                 </TextNode>
               </TransformNode>
               <TransformNode>
@@ -1424,7 +1232,7 @@
             <Float description="X">0.0</Float>
             <Float description="Y">2485.0</Float>
             <Float description="Width">500.0</Float>
-            <Float description="Height">80.0</Float>
+            <Float description="Height">40.0</Float>
             <g description="Transformed node">
               <TransformNode>
                 <Float description="X">0.0</Float>
@@ -1439,16 +1247,16 @@
                     <BoolData description="Valid" name="Locale/Valid">True</BoolData>
                     <StringData description="String Id" />
                   </BfLocaleStringData>
-                  <RightAlignedStyle description="Style" name="Style/CreditHeadingStyle">Trebuchet MS14.dif</RightAlignedStyle>
+                  <RightAlignedStyle description="Style">StarJedi14.dif</RightAlignedStyle>
                 </TextNode>
               </TransformNode>
               <TransformNode>
                 <Float description="X">375.0</Float>
                 <Float description="Y">11.0</Float>
                 <Float description="Width">360.0</Float>
-                <Float description="Height">60.0</Float>
+                <Float description="Height">20.0</Float>
                 <TextNode description="Transformed node">
-                  <StringData description="String">Everyone from http://scifi3d.theforce.net/ for a few misc. models.</StringData>
+                  <StringData description="String">Everyone at Digital Illusions CE</StringData>
                   <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
                 </TextNode>
               </TransformNode>
@@ -1473,7 +1281,7 @@
                     <BoolData description="Valid" name="Locale/Valid">True</BoolData>
                     <StringData description="String Id" />
                   </BfLocaleStringData>
-                  <RightAlignedStyle description="Style" name="Style/CreditHeadingStyle">Trebuchet MS14.dif</RightAlignedStyle>
+                  <RightAlignedStyle description="Style">StarJedi14.dif</RightAlignedStyle>
                 </TextNode>
               </TransformNode>
               <TransformNode>
@@ -1482,7 +1290,7 @@
                 <Float description="Width">360.0</Float>
                 <Float description="Height">20.0</Float>
                 <TextNode description="Transformed node">
-                  <StringData description="String">Everyone at Digital Illusions CE</StringData>
+                  <StringData description="String">AB and Electronic Arts who </StringData>
                   <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
                 </TextNode>
               </TransformNode>
@@ -1507,41 +1315,7 @@
                     <BoolData description="Valid" name="Locale/Valid">True</BoolData>
                     <StringData description="String Id" />
                   </BfLocaleStringData>
-                  <RightAlignedStyle description="Style" name="Style/CreditHeadingStyle">Trebuchet MS14.dif</RightAlignedStyle>
-                </TextNode>
-              </TransformNode>
-              <TransformNode>
-                <Float description="X">375.0</Float>
-                <Float description="Y">11.0</Float>
-                <Float description="Width">360.0</Float>
-                <Float description="Height">20.0</Float>
-                <TextNode description="Transformed node">
-                  <StringData description="String">AB and Electronic Arts who </StringData>
-                  <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
-                </TextNode>
-              </TransformNode>
-            </g>
-          </TransformNode>
-          <TransformNode>
-            <Float description="X">0.0</Float>
-            <Float description="Y">2545.0</Float>
-            <Float description="Width">500.0</Float>
-            <Float description="Height">40.0</Float>
-            <g description="Transformed node">
-              <TransformNode>
-                <Float description="X">0.0</Float>
-                <Float description="Y">0.0</Float>
-                <Float description="Width">350.0</Float>
-                <Float description="Height">20.0</Float>
-                <TextNode description="Transformed node">
-                  <BfLocaleStringData description="String">
-                    <BfLocaleData description="Locale" name="Locale/Locale">
-                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                    </BfLocaleData>
-                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                    <StringData description="String Id" />
-                  </BfLocaleStringData>
-                  <RightAlignedStyle description="Style" name="Style/CreditHeadingStyle">Trebuchet MS14.dif</RightAlignedStyle>
+                  <RightAlignedStyle description="Style">StarJedi14.dif</RightAlignedStyle>
                 </TextNode>
               </TransformNode>
               <TransformNode>
@@ -1555,13 +1329,6 @@
                 </TextNode>
               </TransformNode>
             </g>
-          </TransformNode>
-          <TransformNode>
-            <Float description="X">250.0</Float>
-            <Float description="Y">2585.0</Float>
-            <Float description="Width">256.0</Float>
-            <Float description="Height">64.0</Float>
-            <PictureNode description="Transformed node">gclogo.tga</PictureNode>
           </TransformNode>
         </g>
       </BfTransformNode>

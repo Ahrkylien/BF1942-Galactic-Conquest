@@ -47,8 +47,8 @@ ObjectTemplate.setInputToYaw c_PIYaw
 ObjectTemplate.setInputToRoll c_PIThrottle
 ObjectTemplate.setAutomaticReset 1
 ObjectTemplate.setEngineType c_ETTank
-ObjectTemplate.setTorque 4.0
-ObjectTemplate.setDifferential 4.0
+ObjectTemplate.setTorque 8.0
+ObjectTemplate.setDifferential 5.0
 ObjectTemplate.setNumberOfGears 5
 ObjectTemplate.setGearUp 0.95
 ObjectTemplate.setGearDown 0.45

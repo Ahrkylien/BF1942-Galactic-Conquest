@@ -5,7 +5,7 @@ ObjectTemplate.itemIndex 6
 rem ** Magtype == 1 is healing type (repairing)
 ObjectTemplate.magType 1
 ObjectTemplate.numOfMag 1
-ObjectTemplate.magSize 5000
+ObjectTemplate.magSize 3000
 ObjectTemplate.GUIIndex 4
 ObjectTemplate.setHudAmmoType ATIconAndReloadBar
 ObjectTemplate.setAmmoIcon "Ammo/Icon_repairkit_64x32.tga"

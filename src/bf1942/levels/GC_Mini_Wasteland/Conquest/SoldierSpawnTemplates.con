@@ -1,0 +1,74 @@
+rem SoldierSpawnTemplates.con created by Battlecraft 1942
+rem (\Program Files\Battlefield 1942\Mods\GCMOD\bf1942\levels\GC_Mini_Wasteland/conquest/SoldierSpawnTemplates.con)
+
+rem ----------------------------------------- 
+rem ---  Imperial_Base_Spawn1  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Imperial_Base_Spawn1
+ObjectTemplate.setSpawnId 2
+ObjectTemplate.setGroup 1
+
+rem ----------------------------------------- 
+rem ---  Rebel_Base_Spawn1  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Rebel_Base_Spawn1
+ObjectTemplate.setSpawnId 3
+ObjectTemplate.setGroup 2
+
+rem ----------------------------------------- 
+rem ---  Rebel_Base_Spawn2  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Rebel_Base_Spawn2
+ObjectTemplate.setSpawnId 4
+ObjectTemplate.setGroup 2
+
+rem ----------------------------------------- 
+rem ---  Rebel_Base_Spawn3  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Rebel_Base_Spawn3
+ObjectTemplate.setSpawnId 5
+ObjectTemplate.setGroup 2
+
+rem ----------------------------------------- 
+rem ---  Imperial_Base_Spawn2  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Imperial_Base_Spawn2
+ObjectTemplate.setSpawnId 6
+ObjectTemplate.setGroup 1
+
+rem ----------------------------------------- 
+rem ---  Imperial_Lowland_Spawn1  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Imperial_Lowland_Spawn1
+ObjectTemplate.setSpawnId 7
+ObjectTemplate.setGroup 5
+
+rem ----------------------------------------- 
+rem ---  Imperial_Lowland_Spawn2  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Imperial_Lowland_Spawn2
+ObjectTemplate.setSpawnId 8
+ObjectTemplate.setGroup 5
+
+rem ----------------------------------------- 
+rem ---  Imperial_Base_Spawn3  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Imperial_Base_Spawn3
+ObjectTemplate.setSpawnId 47
+ObjectTemplate.setGroup 1
+
+rem ----------------------------------------- 
+rem ---  Rebel_Lowland_Spawn1  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Rebel_Lowland_Spawn1
+ObjectTemplate.setSpawnId 48
+ObjectTemplate.setGroup 3
+
+rem ----------------------------------------- 
+rem ---  Rebel_Lowland_Spawn2  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Rebel_Lowland_Spawn2
+ObjectTemplate.setSpawnId 49
+ObjectTemplate.setGroup 3
+
+rem EndOfFile

@@ -2,30 +2,30 @@ GeometryTemplate.create StandardMesh Sandcrawler_Hull_M1
 GeometryTemplate.file Vehicles/Sandcrawler/sandcrawler_main
 GeometryTemplate.hasDynamicShadow 1
 GeometryTemplate.setLodDistance 0 0
-GeometryTemplate.setLodDistance 1 30
-GeometryTemplate.setLodDistance 2 80
-GeometryTemplate.setLodDistance 3 150
-GeometryTemplate.setLodDistance 4 200
-GeometryTemplate.setLodDistance 5 300
+GeometryTemplate.setLodDistance 1 200
+GeometryTemplate.setLodDistance 2 300
+GeometryTemplate.setLodDistance 3 400
+GeometryTemplate.setLodDistance 4 500
+GeometryTemplate.setLodDistance 5 800
 
 GeometryTemplate.create StandardMesh Sandcrawler_Door_M1
 GeometryTemplate.file Vehicles/Sandcrawler/sandcrawler_door
-GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.hasDynamicShadow 0
 GeometryTemplate.setLodDistance 0 0
-GeometryTemplate.setLodDistance 1 30
-GeometryTemplate.setLodDistance 2 80
-GeometryTemplate.setLodDistance 3 150
-GeometryTemplate.setLodDistance 4 200
-GeometryTemplate.setLodDistance 5 300
+GeometryTemplate.setLodDistance 1 200
+GeometryTemplate.setLodDistance 2 300
+GeometryTemplate.setLodDistance 3 400
+GeometryTemplate.setLodDistance 4 500
+GeometryTemplate.setLodDistance 5 800
 
 GeometryTemplate.create StandardMesh Sandcrawler_Interior_M1
 GeometryTemplate.file Vehicles/Sandcrawler/sandcrawler_int
 GeometryTemplate.setLodDistance 0 0
-GeometryTemplate.setLodDistance 1 30
-GeometryTemplate.setLodDistance 2 80
-GeometryTemplate.setLodDistance 3 150
-GeometryTemplate.setLodDistance 4 200
-GeometryTemplate.setLodDistance 5 300
+GeometryTemplate.setLodDistance 1 100
+GeometryTemplate.setLodDistance 2 200
+GeometryTemplate.setLodDistance 3 300
+GeometryTemplate.setLodDistance 4 400
+GeometryTemplate.setLodDistance 5 600
 
 GeometryTemplate.create AnimatedMesh Sandcrawler_TrackL_M1
 GeometryTemplate.file sandcrawler_track_l

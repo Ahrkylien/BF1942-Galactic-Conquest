@@ -8,7 +8,7 @@ ObjectTemplate.setPosition 0/0/1.5
 rem -------------------------------------
 ObjectTemplate.geometry imp_skiff_gun
 ObjectTemplate.aiTemplate Browning 
-ObjectTemplate.projectileTemplate LightLaserProjectileGreenNS
+ObjectTemplate.projectileTemplate MediumLaserProjectileGreenS
 ObjectTemplate.projectilePosition 0/0/1
 ObjectTemplate.magSize -1
 ObjectTemplate.numOfMag 999
@@ -27,8 +27,8 @@ objectTemplate.timeDelayOnOverHeat 0.2
 
 REM *** DAMAGE OVER DISTANCE ***
 ObjectTemplate.minDamage 0.5
-ObjectTemplate.distToStartLoseDamage 100
-ObjectTemplate.distToMinDamage 300
+ObjectTemplate.distToStartLoseDamage 400
+ObjectTemplate.distToMinDamage 700
 ObjectTemplate.AmmoType	10
 
 ObjectTemplate.addSkeletonIK Bip01_R_Hand 0.1697/0.1258/-0.1248 -30/80/179

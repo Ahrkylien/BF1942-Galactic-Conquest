@@ -41,6 +41,11 @@ MaterialManager.defGroup 832
 MaterialManager.damageMod 20
 MaterialManager.setEffectTemplate ArtyBlueNS_Expl
 
+MaterialManager.attGroup 711
+MaterialManager.defGroup 833
+MaterialManager.damageMod 20
+MaterialManager.setEffectTemplate e_RichoMetal
+
 rem * *************************************************
 rem *		Infantry target
 rem * *************************************************

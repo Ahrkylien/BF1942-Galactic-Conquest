@@ -85,7 +85,7 @@ ObjectTemplate.addTemplate Wave_PCO2
 ObjectTemplate.addTemplate Wave_PCO3
 
 ObjectTemplate.addTemplate WS_EWeb
-ObjectTemplate.setPosition -0.0266697/9.5/-5.01215
+ObjectTemplate.setPosition -0.0266697/9.6/-6.01215
 ObjectTemplate.setRotation -180/0/0
 
 ObjectTemplate.addTemplate Waveskim_Ramp
@@ -173,6 +173,8 @@ rem *** ***
 ObjectTemplate.create PlayerControlObject WS_Eweb
 ObjectTemplate.aiTemplate B17MG
 ObjectTemplate.setNetworkableInfo WaveBodyInfo
+ObjectTemplate.geometry Eweb_carriage_m1
+ObjectTemplate.hasCollisionPhysics 1
 rem -------------------------------------
 ObjectTemplate.addTemplate Eweb_Base
 rem -------------------------------------

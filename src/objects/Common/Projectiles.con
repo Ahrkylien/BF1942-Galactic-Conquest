@@ -90,6 +90,38 @@ ObjectTemplate.stopAtEndEffect 1
 ObjectTemplate.invisible 0
 ObjectTemplate.material 704
 
+rem *** MediumLaserProjectileBlueNS ***
+ObjectTemplate.create Projectile MediumLaserProjectileBlueNS
+ObjectTemplate.geometry Tlight_b2_m1
+ObjectTemplate.tracerScaler 50.0
+ObjectTemplate.timeToLive CRD_NONE/5/0/0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.gravityModifier 0.0
+ObjectTemplate.hasCollisionEffect 1
+ObjectTemplate.hasOnTimeEffect 0
+ObjectTemplate.invisibleAtEndEffect 1
+ObjectTemplate.dieAfterColl 1
+ObjectTemplate.stopAtEndEffect 1
+ObjectTemplate.invisible 0
+rem Material is from Heavy Blasters on Tanks
+ObjectTemplate.material 713
+
+rem *** MediumLaserProjectileBlueNS ***
+ObjectTemplate.create Projectile MediumLaserProjectileBlueNSFake
+ObjectTemplate.geometry Tlight_b2_m1
+ObjectTemplate.tracerScaler 50.0
+ObjectTemplate.timeToLive CRD_NONE/5/0/0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.gravityModifier 0.0
+ObjectTemplate.hasCollisionEffect 1
+ObjectTemplate.hasOnTimeEffect 0
+ObjectTemplate.invisibleAtEndEffect 1
+ObjectTemplate.dieAfterColl 1
+ObjectTemplate.stopAtEndEffect 1
+ObjectTemplate.invisible 0
+rem Faked as a normal Medium projectile- not ion
+ObjectTemplate.material 702
+
 rem ---------- Laser Projectiles - With Splash ----------
 
 rem *** LightLaserProjectileRedS ***

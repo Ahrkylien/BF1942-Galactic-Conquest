@@ -1,0 +1,20 @@
+
+
+rem *** Easternshore ***
+ObjectTemplate.create AreaObject Easternshore
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript Easternshore.ssc
+ObjectTemplate.triggerRadius 200
+ObjectTemplate.addLinePoint 0/0
+ObjectTemplate.addLinePoint -158/174
+ObjectTemplate.addLinePoint -141/294
+ObjectTemplate.addLinePoint -184/430
+ObjectTemplate.addLinePoint -128/526
+ObjectTemplate.addLinePoint -101/660
+ObjectTemplate.addLinePoint -154/799
+ObjectTemplate.addLinePoint -70/884
+ObjectTemplate.addLinePoint -75/946
+ObjectTemplate.addLinePoint -129/1057
+ObjectTemplate.addLinePoint -95/1276
+ObjectTemplate.addLinePoint -70/1472
+ObjectTemplate.addLinePoint 20/1563

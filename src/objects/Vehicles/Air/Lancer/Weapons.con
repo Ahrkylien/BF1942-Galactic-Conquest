@@ -32,9 +32,9 @@ ObjectTemplate.projectileTemplate MediumLaserProjectileGreenS
 ObjectTemplate.magSize -1
 ObjectTemplate.magType 0
 ObjectTemplate.numOfMag 999
-ObjectTemplate.velocity 680
+ObjectTemplate.velocity 700
 ObjectTemplate.reloadtime 0.0001
-ObjectTemplate.roundOfFire 4.33
+ObjectTemplate.roundOfFire 5.3
 ObjectTemplate.addFireArmsPosition 0/0/0 0/0/0
 ObjectTemplate.addFireArmsPosition 0/0/0 0/0/0
 ObjectTemplate.addFireArmsPosition 0/0/0 0/0/0

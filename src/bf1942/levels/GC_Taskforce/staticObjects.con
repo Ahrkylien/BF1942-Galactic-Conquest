@@ -21,198 +21,202 @@ Object.rotation 183/0/0
 Object.setTeam 1
 Object.rotation 96.3007/4.07659/-32.7755
 
-
 rem
-Object.create tan_grid02
+rem ***  ***
+rem
+Object.create tan_grid01
 Object.absolutePosition 0/41/0
 Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create tan_grid02
+Object.create tan_grid01
 Object.absolutePosition 1000/41/0
 Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create tan_grid02
+Object.create tan_grid01
 Object.absolutePosition 2000/41/0
 Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create tan_grid02
+Object.create tan_grid01
 Object.absolutePosition 3000/41/0
 Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create tan_grid02
+Object.create tan_grid01
 Object.absolutePosition 0/41/1000
 Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create tan_grid02
+Object.create tan_grid01
 Object.absolutePosition 1000/41/1000
 Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create tan_grid02
+Object.create tan_grid01
 Object.absolutePosition 2000/41/1000
 Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create tan_grid02
+Object.create tan_grid01
 Object.absolutePosition 3000/41/1000
 Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create tan_grid02
+Object.create tan_grid01
 Object.absolutePosition 0/41/2000
 Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create tan_grid02
+Object.create tan_grid01
 Object.absolutePosition 1000/41/2000
 Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create tan_grid02
+Object.create tan_grid01
 Object.absolutePosition 2000/41/2000
 Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create tan_grid02
+Object.create tan_grid01
 Object.absolutePosition 3000/41/2000
 Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create tan_grid02
+Object.create tan_grid01
 Object.absolutePosition 0/41/3000
 Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create tan_grid02
+Object.create tan_grid01
 Object.absolutePosition 1000/41/3000
 Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create tan_grid02
+Object.create tan_grid01
 Object.absolutePosition 2000/41/3000
 Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create tan_grid02
+Object.create tan_grid01
 Object.absolutePosition 3000/41/3000
 Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create tan_grid02
+Object.create tan_gridlow
 Object.absolutePosition 0/650/0
 Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create tan_grid02
+Object.create tan_gridlow
 Object.absolutePosition 1000/650/0
 Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create tan_grid02
+Object.create tan_gridlow
 Object.absolutePosition 2000/650/0
 Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create tan_grid02
+Object.create tan_gridlow
 Object.absolutePosition 3000/650/0
 Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create tan_grid02
+Object.create tan_gridlow
 Object.absolutePosition 0/650/1000
 Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create tan_grid02
+Object.create tan_gridlow
 Object.absolutePosition 1000/650/1000
 Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create tan_grid02
+Object.create tan_gridlow
 Object.absolutePosition 2000/650/1000
 Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create tan_grid02
+Object.create tan_gridlow
 Object.absolutePosition 3000/650/1000
 Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create tan_grid02
+Object.create tan_gridlow
 Object.absolutePosition 0/650/2000
 Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create tan_grid02
+Object.create tan_gridlow
 Object.absolutePosition 1000/650/2000
 Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create tan_grid02
+Object.create tan_gridlow
 Object.absolutePosition 2000/650/2000
 Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create tan_grid02
+Object.create tan_gridlow
 Object.absolutePosition 3000/650/2000
 Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create tan_grid02
+Object.create tan_gridlow
 Object.absolutePosition 0/650/3000
 Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create tan_grid02
+Object.create tan_gridlow
 Object.absolutePosition 1000/650/3000
 Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create tan_grid02
+Object.create tan_gridlow
 Object.absolutePosition 2000/650/3000
 Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create tan_grid02
+Object.create tan_gridlow
 Object.absolutePosition 3000/650/3000
 Object.Rotation 0/0/0
 rem
+rem ***  ***
+rem
+
 Object.create tan_aster
 Object.absolutePosition 2393.09/275.267/1871.87
 Object.Rotation 0/0/0

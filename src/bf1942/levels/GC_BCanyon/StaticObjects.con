@@ -580,7 +580,7 @@ rem
 rem ***  ***
 rem
 Object.create tent1
-Object.absolutePosition 621.33/141.21/1591.01
+Object.absolutePosition 620.62/141.21/1591.05
 Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
@@ -598,8 +598,8 @@ rem
 rem ***  ***
 rem
 Object.create medunit
-Object.absolutePosition 1189.60/95.69/1008.63
-Object.rotation 0.00/0.00/0.00
+Object.absolutePosition 1189.60/96.00/1008.63
+Object.rotation 0.00/7.54/10.41
 rem
 rem ***  ***
 rem
@@ -940,8 +940,8 @@ rem
 rem ***  ***
 rem
 Object.create tent1
-Object.absolutePosition 1649.17/84.05/669.11
-Object.rotation 0.00/0.00/0.00
+Object.absolutePosition 1648.41/84.50/668.38
+Object.rotation 0.00/0.00/-10.00
 rem
 rem ***  ***
 rem
@@ -994,7 +994,7 @@ rem
 rem ***  ***
 rem
 Object.create medunit
-Object.absolutePosition 1587.94/84.14/710.58
+Object.absolutePosition 1624.17/84.14/706.30
 Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
@@ -1013,7 +1013,7 @@ rem
 rem ***  ***
 rem
 Object.create bc_stairs
-Object.absolutePosition 1296.61/52.27/991.43
+Object.absolutePosition 1296.91/52.27/992.04
 Object.rotation 270.00/0.00/0.00
 rem
 rem ***  ***
@@ -1080,7 +1080,7 @@ rem
 rem ***  ***
 rem
 Object.create ammobox
-Object.absolutePosition 1592.89/84.14/681.46
+Object.absolutePosition 1585.74/84.14/707.94
 Object.rotation 270.00/0.00/0.00
 rem
 rem ***  ***
@@ -1091,72 +1091,24 @@ Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
-Object.create alarm1
-Object.absolutePosition 1921.81/28.28/103.15
+Object.create portablel_m1
+Object.absolutePosition 1619.52/84.14/703.67
 Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
-Object.create alarm1
-Object.absolutePosition 1905.93/12.55/197.71
-Object.rotation 0.00/0.00/0.00
+Object.create tat_chubstand
+Object.absolutePosition 1650.30/84.04/665.99
+Object.rotation 270.00/0.00/0.00
 rem
 rem ***  ***
 rem
-Object.create buildingsmokeidledark
-Object.absolutePosition 1933.03/18.97/152.50
-Object.rotation 0.00/0.00/0.00
+Object.create portablel_m1
+Object.absolutePosition 1650.12/84.14/671.02
+Object.rotation 90.00/0.00/0.00
 rem
 rem ***  ***
 rem
-Object.create buildingsmokeidledark
-Object.absolutePosition 1907.27/14.26/196.29
-Object.rotation 0.00/0.00/0.00
-rem
-rem ***  ***
-rem
-Object.create buildingsmokeidledark
-Object.absolutePosition 1904.63/19.31/203.68
-Object.rotation -150.92/0.00/0.00
-rem
-rem ***  ***
-rem
-Object.create buildingsmokeidledark
-Object.absolutePosition 1922.86/24.20/103.19
-Object.rotation 0.00/0.00/0.00
-rem
-rem ***  ***
-rem
-Object.create buildingsmokeidledark
-Object.absolutePosition 1910.29/19.09/203.06
-Object.rotation 0.00/0.00/0.00
-rem
-rem ***  ***
-rem
-Object.create buildingsmokeidledark
-Object.absolutePosition 1934.07/13.94/145.88
-Object.rotation -143.35/0.00/0.00
-rem
-rem ***  ***
-rem
-Object.create alarm1
-Object.absolutePosition 1913.17/20.21/157.57
-Object.rotation 0.00/0.00/0.00
-rem
-rem ***  ***
-rem
-Object.create buildingsmokeidledark
-Object.absolutePosition 1935.26/20.24/140.95
-Object.rotation 89.35/0.00/0.00
-rem
-rem ***  ***
-rem
-Object.create buildingsmokeidledark
-Object.absolutePosition 1907.91/22.62/197.98
-Object.rotation -73.95/0.00/0.00
-rem
-rem ***  ***
-rem
-Object.create buildingsmokeidledark
-Object.absolutePosition 1920.29/15.39/168.28
+Object.create portablel_m1
+Object.absolutePosition 1578.26/83.43/1561.55
 Object.rotation 0.00/0.00/0.00

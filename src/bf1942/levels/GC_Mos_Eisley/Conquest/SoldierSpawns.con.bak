@@ -1,0 +1,146 @@
+rem
+rem ***  ***
+rem
+Object.create northwestspawn
+Object.absolutePosition 377.878/7.16076/629.746
+rem
+rem ***  ***
+rem
+Object.create southwestspawn
+Object.absolutePosition 407.766/18.408/417.2
+Object.rotation 32.9/0/0
+rem
+rem ***  ***
+rem
+Object.create centralspawn
+Object.absolutePosition 512.464/6.12901/554.262
+Object.rotation -125/0/0
+rem
+rem ***  ***
+rem
+Object.create centralspawn2
+Object.absolutePosition 503.228/6.85299/476.861
+Object.rotation -133/0/0
+rem
+rem ***  ***
+rem
+Object.create centralspawn3
+Object.absolutePosition 523.894/14.7102/467.693
+Object.rotation 64/0/0
+rem
+rem ***  ***
+rem
+Object.create centralspawn4
+Object.absolutePosition 540.459/4.57866/497.348
+Object.rotation 180/0/0
+rem
+rem ***  ***
+rem
+Object.create centralspawn5
+Object.absolutePosition 481.739/6.68725/541.414
+Object.rotation 135/0/0
+rem
+rem ***  ***
+rem
+Object.create centralspawn6
+Object.absolutePosition 515.86/10.2904/505.931
+Object.rotation -45/0/0
+rem
+rem ***  ***
+rem
+Object.create northeastspawn
+Object.absolutePosition 631.487/11.5072/596.058
+Object.rotation -124.6/0/0
+rem
+rem ***  ***
+rem
+Object.create southeastspawn
+Object.absolutePosition 619.73/0.478521/415.214
+Object.rotation 220/0/0
+rem
+rem ***  ***
+rem
+Object.create southcbdspawn
+Object.absolutePosition 507.305/51.4674/431.539
+Object.rotation 45/0/0
+rem
+rem ***  ***
+rem
+Object.create northwestspawn
+Object.absolutePosition 426.76/6.914/601.853
+Object.rotation 130/0/0
+rem
+rem ***  ***
+rem
+Object.create northwestspawn
+Object.absolutePosition 397.841/12.2528/545.36
+rem
+rem ***  ***
+rem
+Object.create southeastspawn
+Object.absolutePosition 673.394/8.14187/364.384
+Object.rotation -50/0/0
+Object.setOSId 65
+Object.setTeam 6
+rem
+rem ***  ***
+rem
+Object.create southeastspawn
+Object.absolutePosition 656.352/6.38765/429.689
+Object.rotation 14/0/0
+Object.setOSId 662807
+Object.setTeam 163927020
+rem
+rem ***  ***
+rem
+Object.create southwestspawn
+Object.absolutePosition 424.139/0.950873/419.964
+Object.rotation 80/0/0
+Object.setOSId 0
+Object.setTeam 0
+rem
+rem ***  ***
+rem
+Object.create southwestspawn
+Object.absolutePosition 434.11/0.857412/438.814
+Object.rotation 91/0/0
+Object.setOSId 65
+Object.setTeam 163918976
+rem
+rem ***  ***
+rem
+Object.create northeastspawn
+Object.absolutePosition 612.414/5.71371/594.565
+Object.setOSId 839517144
+Object.setTeam 159024780
+rem
+rem ***  ***
+rem
+Object.create northeastspawn
+Object.absolutePosition 605.759/5.267/611.758
+Object.setOSId 336200865
+Object.setTeam 159024780
+rem
+rem ***  ***
+rem
+Object.create southcbdspawn
+Object.absolutePosition 516.495/51.8044/431.513
+Object.rotation -45/0/0
+Object.setOSId 1049
+Object.setTeam 1536
+rem
+rem ***  ***
+rem
+Object.create southcbdspawn
+Object.absolutePosition 504.114/19.4332/435.104
+Object.rotation 90/0/0
+Object.setOSId 0
+Object.setTeam 0
+rem
+rem ***  ***
+rem
+Object.create southcbdspawn
+Object.absolutePosition 519.856/19.9792/436.531
+Object.rotation -90/0/0
+Object.setOSId 163938420
+Object.setTeam 0

@@ -1,0 +1,35 @@
+rem
+rem ***  ***
+rem
+Object.create rebebbasetemplate
+Object.absolutePosition 267.372/347.9/266.241
+Object.setOSId 65
+Object.setTeam 260
+rem
+rem ***  ***
+rem
+Object.create imperail_spawntemplate
+Object.absolutePosition 65.2725/371.382/3942.74
+Object.setOSId 0
+Object.setTeam 0
+rem
+rem ***  ***
+rem
+Object.create hyperspace_nav1template
+Object.absolutePosition 3092.89/323.057/3439.01
+Object.setOSId 5505852
+Object.setTeam 0
+rem
+rem ***  ***
+rem
+Object.create field_navpointtemplate
+Object.absolutePosition 3491.46/206.905/766.768
+Object.setOSId 266868340
+Object.setTeam 266866996
+rem
+rem ***  ***
+rem
+Object.create field_entry_navtemplate
+Object.absolutePosition 1992.97/339.283/2195.91
+Object.setOSId 266875892
+Object.setTeam 266875888

@@ -39,7 +39,7 @@ ObjectTemplate.radius 17
 ObjectTemplate.team 2
 ObjectTemplate.spawnGroupId 4
 ObjectTemplate.objectSpawnerId 4
-ObjectTemplate.areaValue 30
+ObjectTemplate.areaValue 20
 ObjectTemplate.timeToGetControl 10
 ObjectTemplate.timeToLoseControl 10
 ObjectTemplate.disableIfEnemyInsideRadius 0
@@ -59,7 +59,7 @@ rem -----------------------------------------
 ObjectTemplate.create ControlPoint firstlinetrench
 ObjectTemplate.networkableInfo ControlPointInfo
 ObjectTemplate.setControlPointName Fallen_Walker
-ObjectTemplate.radius 30
+ObjectTemplate.radius 20
 ObjectTemplate.team 0
 ObjectTemplate.spawnGroupId 3
 ObjectTemplate.objectSpawnerId 3
@@ -107,11 +107,35 @@ rem ---  shieldgeneratorcp  ---
 rem ----------------------------------------- 
 ObjectTemplate.create ControlPoint shieldgeneratorcp
 ObjectTemplate.networkableInfo ControlPointInfo
-ObjectTemplate.setControlPointName Shield_Generator
-ObjectTemplate.radius 29
+ObjectTemplate.setControlPointName Shield_Generatorcp
+ObjectTemplate.radius 2
 ObjectTemplate.team 2
 ObjectTemplate.spawnGroupId 6
 ObjectTemplate.objectSpawnerId 6
+ObjectTemplate.areaValue 20
+ObjectTemplate.timeToGetControl 10
+ObjectTemplate.timeToLoseControl 10
+ObjectTemplate.disableIfEnemyInsideRadius 0
+ObjectTemplate.disableWhenLosingControl 0
+ObjectTemplate.loseControlWhenEnemyClose 1
+ObjectTemplate.loseControlWhenNotClose 0
+ObjectTemplate.geometry flagbase_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.addTemplate AnimatedFlag
+ObjectTemplate.setPosition 0.000000/0.000000/0.000000
+ObjectTemplate.setTeamGeometry 1 flagge_m1
+ObjectTemplate.setTeamGeometry 2 flagus_m1
+
+rem ----------------------------------------- 
+rem ---  thirdlinetrench  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ControlPoint thirdlinetrench
+ObjectTemplate.networkableInfo ControlPointInfo
+ObjectTemplate.setControlPointName Trench_Defence2
+ObjectTemplate.radius 17
+ObjectTemplate.team 2
+ObjectTemplate.spawnGroupId 7
+ObjectTemplate.objectSpawnerId 7
 ObjectTemplate.areaValue 20
 ObjectTemplate.timeToGetControl 10
 ObjectTemplate.timeToLoseControl 10

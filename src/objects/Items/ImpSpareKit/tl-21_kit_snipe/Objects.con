@@ -8,7 +8,7 @@ ObjectTemplate.networkableInfo KitInfo
 ObjectTemplate.addTemplate imp_backpack
 
 ObjectTemplate.setHealthBarIcon "Ingame/Healthbar_empty_assault_64x64.tga"
-ObjectTemplate.setHealthBarFullIcon "Ingame/Heavy_Imperial.tga"
+ObjectTemplate.setHealthBarFullIcon "Ingame/Healthbar_full_assault_64x64.tga"
 ObjectTemplate.addWeaponIcon "Weapon/icon_alliesknife.dds"
 ObjectTemplate.addWeaponIcon "Weapon/icon_null.dds"
 ObjectTemplate.addWeaponIcon "Weapon/icon_tl21.dds"

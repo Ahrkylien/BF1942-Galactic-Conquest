@@ -1,0 +1,172 @@
+rem SoldierSpawnTemplates.con created by Battlecraft 1942
+rem (\Program Files\Battlefield 1942\Mods\GCMOD\bf1942\levels\GC_Corellia/conquest/SoldierSpawnTemplates.con)
+
+rem ----------------------------------------- 
+rem ---  Bela_Vistal_Spawn1  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Bela_Vistal_Spawn1
+ObjectTemplate.setSpawnId 0
+ObjectTemplate.setGroup 1
+
+rem ----------------------------------------- 
+rem ---  Coronet_Spawn1  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Coronet_Spawn1
+ObjectTemplate.setSpawnId 1
+ObjectTemplate.setGroup 2
+
+rem ----------------------------------------- 
+rem ---  Rebel_Hideout_Spawn1  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Rebel_Hideout_Spawn1
+ObjectTemplate.setSpawnId 15
+ObjectTemplate.setGroup 6
+
+rem ----------------------------------------- 
+rem ---  Vreni_Island_Spawn1  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Vreni_Island_Spawn1
+ObjectTemplate.setSpawnId 16
+ObjectTemplate.setGroup 3
+
+rem ----------------------------------------- 
+rem ---  Imperial_Outpost_Spawn1  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Imperial_Outpost_Spawn1
+ObjectTemplate.setSpawnId 17
+ObjectTemplate.setGroup 5
+
+rem ----------------------------------------- 
+rem ---  Vreni_Island_Spawn2  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Vreni_Island_Spawn2
+ObjectTemplate.setSpawnId 18
+ObjectTemplate.setGroup 3
+
+rem ----------------------------------------- 
+rem ---  Vreni_Island_Spawn3  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Vreni_Island_Spawn3
+ObjectTemplate.setSpawnId 19
+ObjectTemplate.setGroup 3
+
+rem ----------------------------------------- 
+rem ---  Rebel_Hideout_Spawn2  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Rebel_Hideout_Spawn2
+ObjectTemplate.setSpawnId 20
+ObjectTemplate.setGroup 6
+
+rem ----------------------------------------- 
+rem ---  Rebel_Hideout_Spawn3  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Rebel_Hideout_Spawn3
+ObjectTemplate.setSpawnId 21
+ObjectTemplate.setGroup 6
+
+rem ----------------------------------------- 
+rem ---  Imperial_Outpost_Spawn2  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Imperial_Outpost_Spawn2
+ObjectTemplate.setSpawnId 22
+ObjectTemplate.setGroup 5
+
+rem ----------------------------------------- 
+rem ---  Imperial_Outpost_Spawn3  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Imperial_Outpost_Spawn3
+ObjectTemplate.setSpawnId 23
+ObjectTemplate.setGroup 5
+
+rem ----------------------------------------- 
+rem ---  Daoba_Guerfel_Spawn1  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Daoba_Guerfel_Spawn1
+ObjectTemplate.setSpawnId 24
+ObjectTemplate.setGroup 4
+
+rem ----------------------------------------- 
+rem ---  Daoba_Guerfel_Spawn2  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Daoba_Guerfel_Spawn2
+ObjectTemplate.setSpawnId 25
+ObjectTemplate.setGroup 4
+
+rem ----------------------------------------- 
+rem ---  Daoba_Guerfel_Spawn3  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Daoba_Guerfel_Spawn3
+ObjectTemplate.setSpawnId 26
+ObjectTemplate.setGroup 4
+
+rem ----------------------------------------- 
+rem ---  Vreni_Island_Spawn4  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Vreni_Island_Spawn4
+ObjectTemplate.setSpawnId 27
+ObjectTemplate.setGroup 3
+
+rem ----------------------------------------- 
+rem ---  Daoba_Guerfel_Spawn4  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Daoba_Guerfel_Spawn4
+ObjectTemplate.setSpawnId 28
+ObjectTemplate.setGroup 4
+
+rem ----------------------------------------- 
+rem ---  Imperial_Outpost_Spawn4  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Imperial_Outpost_Spawn4
+ObjectTemplate.setSpawnId 29
+ObjectTemplate.setGroup 5
+
+rem ----------------------------------------- 
+rem ---  Rebel_Hideout_Spawn4  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Rebel_Hideout_Spawn4
+ObjectTemplate.setSpawnId 30
+ObjectTemplate.setGroup 6
+
+rem ----------------------------------------- 
+rem ---  Coronet_Spawn2  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Coronet_Spawn2
+ObjectTemplate.setSpawnId 31
+ObjectTemplate.setGroup 2
+
+rem ----------------------------------------- 
+rem ---  Coronet_Spawn3  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Coronet_Spawn3
+ObjectTemplate.setSpawnId 32
+ObjectTemplate.setGroup 2
+
+rem ----------------------------------------- 
+rem ---  Coronet_Spawn4  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Coronet_Spawn4
+ObjectTemplate.setSpawnId 33
+ObjectTemplate.setGroup 2
+
+rem ----------------------------------------- 
+rem ---  Bela_Vistal_Spawn2  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Bela_Vistal_Spawn2
+ObjectTemplate.setSpawnId 34
+ObjectTemplate.setGroup 1
+
+rem ----------------------------------------- 
+rem ---  Bela_Vistal_Spawn3  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Bela_Vistal_Spawn3
+ObjectTemplate.setSpawnId 35
+ObjectTemplate.setGroup 1
+
+rem ----------------------------------------- 
+rem ---  Bela_Vistal_Spawn4  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Bela_Vistal_Spawn4
+ObjectTemplate.setSpawnId 36
+ObjectTemplate.setGroup 1
+
+rem EndOfFile

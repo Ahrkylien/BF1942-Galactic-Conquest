@@ -35,7 +35,7 @@ rem
 rem ***  ***
 rem
 Object.create dune_sea_2
-Object.absolutePosition 605.344/112.58/378.296
+Object.absolutePosition 608.735/112.26/447.81
 Object.rotation 20/0/0
 Object.setOSId 0
 Object.setTeam 0
@@ -43,7 +43,7 @@ rem
 rem ***  ***
 rem
 Object.create dune_sea_3
-Object.absolutePosition 622.407/112.987/390.988
+Object.absolutePosition 650.697/113.06/408.118
 Object.rotation -71/0/0
 Object.setOSId 0
 Object.setTeam 0
@@ -51,7 +51,7 @@ rem
 rem ***  ***
 rem
 Object.create imp_1
-Object.absolutePosition 3670.18/19.3816/3575.84
+Object.absolutePosition 2891.94/225.46/1520.64
 Object.rotation -91/0/0
 Object.setOSId 0
 Object.setTeam 0
@@ -59,7 +59,7 @@ rem
 rem ***  ***
 rem
 Object.create imp_2
-Object.absolutePosition 3671.74/18.6883/3646.85
+Object.absolutePosition 2899.01/225.18/1568.92
 Object.rotation 142/0/0
 Object.setOSId 0
 Object.setTeam 0
@@ -67,15 +67,15 @@ rem
 rem ***  ***
 rem
 Object.create cant_1
-Object.absolutePosition 3409.27/18.6716/3523.54
-Object.rotation -91/5/0
+Object.absolutePosition 1946.48/108.922/227.976
+Object.rotation -181/5/0
 Object.setOSId 112
 Object.setTeam 154609470
 rem
 rem ***  ***
 rem
 Object.create cant_2
-Object.absolutePosition 3414.24/18.1483/3527.26
+Object.absolutePosition 1929.12/108.125/166.765
 Object.rotation 91/0/0
 Object.setOSId 112
 Object.setTeam 0
@@ -83,7 +83,7 @@ rem
 rem ***  ***
 rem
 Object.create cant_3
-Object.absolutePosition 3429.31/18.5483/3523.33
+Object.absolutePosition 1998.85/108.702/143.332
 Object.rotation -92/0/0
 Object.setOSId 3856
 Object.setTeam 6357069
@@ -91,7 +91,7 @@ rem
 rem ***  ***
 rem
 Object.create jawa_2
-Object.absolutePosition 627.124/79.9872/3364.28
+Object.absolutePosition 1598.42/110.488/1210.01
 Object.rotation -131/0/0
 Object.setOSId 112
 Object.setTeam 0
@@ -99,7 +99,30 @@ rem
 rem ***  ***
 rem
 Object.create jawa3
-Object.absolutePosition 622.193/77.3355/3344.59
+Object.absolutePosition 1593.48/109.777/1190.32
 Object.rotation 196/0/0
 Object.setOSId 112
 Object.setTeam 158728688
+rem
+rem ***  ***
+rem
+Object.create another1
+Object.absolutePosition 2851.59/224.776/1565.93
+Object.rotation 160/0/0
+Object.setOSId 1862928084
+Object.setTeam 198799420
+rem
+rem ***  ***
+rem
+Object.create another2
+Object.absolutePosition 2951.5/225.39/1534.82
+Object.rotation 80/0/0
+Object.setOSId 112
+Object.setTeam 203751968
+rem
+rem ***  ***
+rem
+Object.create another3
+Object.absolutePosition 2045.74/109.457/199.423
+Object.setOSId 112
+Object.setTeam 1853182778

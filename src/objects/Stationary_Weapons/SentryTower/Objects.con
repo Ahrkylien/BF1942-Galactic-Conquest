@@ -13,7 +13,7 @@ ObjectTemplate.Material 811
 Objecttemplate.GUIIndex 80
 ObjectTemplate.setVehicleIcon "Vehicle/Icon_SpyTurret.dds"
 ObjectTemplate.setVehicleIconPos 64/64
-ObjectTemplate.setMinimapIcon "Minimap/minimap_icon_eweb_16x16.dds"
+ObjectTemplate.setMinimapIcon "Minimap/minimap_icon_stationary_16x16.tga"
 ObjectTemplate.setNumberOfWeaponIcons 1
 ObjectTemplate.setPrimaryAmmoIcon "Ammo/icon_laser_64x64.dds"
 ObjectTemplate.setPrimaryAmmoBar ABAmmoBar
@@ -22,46 +22,6 @@ ObjectTemplate.setVehicleCategory VCLand
 ObjectTemplate.setVehicleType VTStationaryMG
 rem ObjectTemplate.setCrossHairType CHTIcon
 rem --------------------------------------------
-ObjectTemplate.addTemplate STSeat
-ObjectTemplate.setPosition 0.04/4.85/-0.37
-ObjectTemplate.addTemplate Spy_TurretEntry
-ObjectTemplate.setPosition 0.04/4.05/0
-ObjectTemplate.setRotation 0/0/0
-ObjectTemplate.addTemplate Spy_TurretGunRotation
-ObjectTemplate.setPosition 0.04/5.15/0.73
+ObjectTemplate.addTemplate Eweb_SentryBase
+ObjectTemplate.setPosition 0.04/4.05/0.73
 
-ObjectTemplate.create EntryPoint Spy_TurretEntry
-ObjectTemplate.setEntryRadius 3
-
-ObjectTemplate.create RotationalBundle Spy_TurretGunRotation
-ObjectTemplate.networkableInfo Spy_Turret_TurretInfo
-ObjectTemplate.geometry Eweb_cannon_m1
-ObjectTemplate.setHasCollisionPhysics 1
-ObjectTemplate.setHasResponsePhysics 1
-rem -------------------------------------
-ObjectTemplate.addTemplate Eweb_Camera
-ObjectTemplate.setPosition 0/0.4/-0.5
-ObjectTemplate.addTemplate ewebweaponfire
-ObjectTemplate.setPosition 0/0/1.06
-ObjectTemplate.addTemplate ewebhanddummy
-rem -------------------------------------
-ObjectTemplate.setMinRotation -40/-20/0
-ObjectTemplate.setMaxRotation 40/18/0
-ObjectTemplate.setMaxSpeed 180/180/0
-ObjectTemplate.setAcceleration 1000/1000/0
-ObjectTemplate.setInputToYaw c_pimouselookX
-ObjectTemplate.setInputToPitch c_pimouselookY
-
-ObjectTemplate.create SeatObject STSeat
-ObjectTemplate.seatFlags c_SeatShowFullBodySoldier
-ObjectTemplate.seatFlags c_SeatShowStandingSoldier
-ObjectTemplate.seatFlags c_SeatIsOutside
-
-beginrem
-rotation options...
-pitch 25 -18
-yaw 32
-or
-pitch 5  -18
-yaw 70
-endrem

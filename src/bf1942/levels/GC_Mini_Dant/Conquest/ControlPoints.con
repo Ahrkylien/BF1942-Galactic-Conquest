@@ -1,0 +1,35 @@
+rem
+rem ***  ***
+rem
+Object.create impmaintemplate
+Object.absolutePosition 1229.28/0.0883/1012.49
+Object.setOSId 4917238
+Object.setTeam 0
+rem
+rem ***  ***
+rem
+Object.create imperial_sidetemplate
+Object.absolutePosition 1103.75/62.1938/1045.76
+Object.setOSId 0
+Object.setTeam 0
+rem
+rem ***  ***
+rem
+Object.create the_bridgetemplate
+Object.absolutePosition 1054.9/60.9957/920.268
+Object.setOSId 0
+Object.setTeam 0
+rem
+rem ***  ***
+rem
+Object.create rebel_sidetemplate
+Object.absolutePosition 959.016/62.2242/848.886
+Object.setOSId 0
+Object.setTeam 0
+rem
+rem ***  ***
+rem
+Object.create rebelmaintemplate
+Object.absolutePosition 864.201/0.7305/783.239
+Object.setOSId 0
+Object.setTeam 0

@@ -50,7 +50,7 @@ rem -----------------------------------------
 rem ---  shipspawns  ---
 rem ----------------------------------------- 
 Object.create shipspawns
-Object.absolutePosition 1367.50/91.39/1234.22
+Object.absolutePosition 1366.44/91.39/1233.12
 Object.rotation -495.00/0.00/0.00
 Object.setOSId 3
 Object.setTeam 0
@@ -121,8 +121,8 @@ rem -----------------------------------------
 rem ---  shipspawns  ---
 rem ----------------------------------------- 
 Object.create shipspawns
-Object.absolutePosition 1607.67/91.16/406.57
-Object.rotation -549.18/0.00/0.00
+Object.absolutePosition 1573.89/91.16/410.63
+Object.rotation -570.75/0.00/0.00
 Object.setOSId 4
 Object.setTeam 0
 
@@ -139,8 +139,8 @@ rem -----------------------------------------
 rem ---  shipspawns  ---
 rem ----------------------------------------- 
 Object.create shipspawns
-Object.absolutePosition 379.34/91.68/602.53
-Object.rotation -357.77/0.00/0.00
+Object.absolutePosition 404.04/91.68/577.15
+Object.rotation -427.93/0.00/0.00
 Object.setOSId 5
 Object.setTeam 0
 
@@ -201,8 +201,8 @@ rem -----------------------------------------
 rem ---  shipspawns  ---
 rem ----------------------------------------- 
 Object.create shipspawns
-Object.absolutePosition 1555.89/91.71/485.40
-Object.rotation 9.66/0.00/0.00
+Object.absolutePosition 1465.94/91.71/450.22
+Object.rotation -60.43/0.00/0.00
 Object.setOSId 4
 Object.setTeam 0
 
@@ -210,8 +210,8 @@ rem -----------------------------------------
 rem ---  shipspawns  ---
 rem ----------------------------------------- 
 Object.create shipspawns
-Object.absolutePosition 1633.13/91.14/491.35
-Object.rotation 40.42/0.00/0.00
+Object.absolutePosition 1592.16/91.14/536.16
+Object.rotation -1.03/0.00/0.00
 Object.setOSId 4
 Object.setTeam 0
 
@@ -219,7 +219,7 @@ rem -----------------------------------------
 rem ---  shipspawns  ---
 rem ----------------------------------------- 
 Object.create shipspawns
-Object.absolutePosition 415.90/91.48/508.68
+Object.absolutePosition 442.40/91.48/418.53
 Object.rotation -150.07/0.00/0.00
 Object.setOSId 5
 Object.setTeam 0

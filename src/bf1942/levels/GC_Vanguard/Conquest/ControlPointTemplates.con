@@ -1,0 +1,111 @@
+NetworkableInfo.createNewInfo ControlPointInfo
+NetworkableInfo.setPredictionMode PMNone
+NetworkableInfo.setBasePriority c_NIGhostAlways
+
+ObjectTemplate.create ControlPoint hyperspace_nav1template
+ObjectTemplate.networkableInfo ControlPointInfo
+ObjectTemplate.setControlPointName Hyperspace_Nav1
+ObjectTemplate.radius 135
+ObjectTemplate.team 1
+ObjectTemplate.spawnGroupId 3
+ObjectTemplate.objectSpawnerId 3
+ObjectTemplate.timeToGetControl 2
+ObjectTemplate.timeToLoseControl 5
+ObjectTemplate.geometry flagbase_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.areaValue 55
+ObjectTemplate.disableIfEnemyInsideRadius 0
+ObjectTemplate.disableWhenLosingControl 0
+ObjectTemplate.loseControlWhenEnemyClose 1
+ObjectTemplate.loseControlWhenNotClose 0
+ObjectTemplate.addTemplate AnimatedFlag
+ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.setTeamGeometry 1 flagge_m1
+ObjectTemplate.setTeamGeometry 2 flagus_m1
+
+ObjectTemplate.create ControlPoint field_navpointtemplate
+ObjectTemplate.networkableInfo ControlPointInfo
+ObjectTemplate.setControlPointName Field_NavPoint
+ObjectTemplate.radius 150
+ObjectTemplate.team 2
+ObjectTemplate.spawnGroupId 4
+ObjectTemplate.objectSpawnerId 4
+ObjectTemplate.timeToGetControl 2
+ObjectTemplate.timeToLoseControl 5
+ObjectTemplate.geometry flagbase_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.areaValue 55
+ObjectTemplate.disableIfEnemyInsideRadius 0
+ObjectTemplate.disableWhenLosingControl 0
+ObjectTemplate.loseControlWhenEnemyClose 1
+ObjectTemplate.loseControlWhenNotClose 0
+ObjectTemplate.addTemplate AnimatedFlag
+ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.setTeamGeometry 1 flagge_m1
+ObjectTemplate.setTeamGeometry 2 flagus_m1
+
+ObjectTemplate.create ControlPoint field_entry_navtemplate
+ObjectTemplate.networkableInfo ControlPointInfo
+ObjectTemplate.setControlPointName Field_Entry_Nav
+ObjectTemplate.radius 65
+ObjectTemplate.team 0
+ObjectTemplate.spawnGroupId 5
+ObjectTemplate.objectSpawnerId 5
+ObjectTemplate.timeToGetControl 2
+ObjectTemplate.timeToLoseControl 5
+ObjectTemplate.geometry flagbase_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.areaValue 55
+ObjectTemplate.disableIfEnemyInsideRadius 0
+ObjectTemplate.disableWhenLosingControl 0
+ObjectTemplate.loseControlWhenEnemyClose 1
+ObjectTemplate.loseControlWhenNotClose 0
+ObjectTemplate.addTemplate AnimatedFlag
+ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.setTeamGeometry 1 flagge_m1
+ObjectTemplate.setTeamGeometry 2 flagus_m1
+
+ObjectTemplate.create ControlPoint imperail_spawntemplate
+ObjectTemplate.networkableInfo ControlPointInfo
+ObjectTemplate.setControlPointName imperail_spawn
+ObjectTemplate.radius 6
+ObjectTemplate.team 1
+ObjectTemplate.spawnGroupId 2
+ObjectTemplate.objectSpawnerId 2
+ObjectTemplate.timeToGetControl 10
+ObjectTemplate.timeToLoseControl 10
+ObjectTemplate.unableToChangeTeam 1
+ObjectTemplate.geometry flagbase_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.areaValue 0
+ObjectTemplate.disableIfEnemyInsideRadius 0
+ObjectTemplate.disableWhenLosingControl 0
+ObjectTemplate.loseControlWhenEnemyClose 1
+ObjectTemplate.loseControlWhenNotClose 0
+ObjectTemplate.addTemplate AnimatedFlag
+ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.setTeamGeometry 1 flagge_m1
+ObjectTemplate.setTeamGeometry 2 flagus_m1
+
+ObjectTemplate.create ControlPoint rebebbasetemplate
+ObjectTemplate.networkableInfo ControlPointInfo
+ObjectTemplate.setControlPointName rebebbase
+ObjectTemplate.radius 3
+ObjectTemplate.team 2
+ObjectTemplate.spawnGroupId 1
+ObjectTemplate.objectSpawnerId 1
+ObjectTemplate.timeToGetControl 10
+ObjectTemplate.timeToLoseControl 10
+ObjectTemplate.unableToChangeTeam 1
+ObjectTemplate.geometry flagbase_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.areaValue 0
+ObjectTemplate.disableIfEnemyInsideRadius 0
+ObjectTemplate.disableWhenLosingControl 0
+ObjectTemplate.loseControlWhenEnemyClose 1
+ObjectTemplate.loseControlWhenNotClose 0
+ObjectTemplate.addTemplate AnimatedFlag
+ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.setTeamGeometry 1 flagge_m1
+ObjectTemplate.setTeamGeometry 2 flagus_m1
+

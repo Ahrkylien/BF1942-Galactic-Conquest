@@ -41,6 +41,11 @@ MaterialManager.defGroup 832
 MaterialManager.damageMod 2
 MaterialManager.setEffectTemplate e_ExplGranade
 
+MaterialManager.attGroup 544
+MaterialManager.defGroup 833
+MaterialManager.damageMod 200
+MaterialManager.setEffectTemplate e_ExplGranade
+
 rem * *************************************************
 rem *		Infantry target
 rem * *************************************************

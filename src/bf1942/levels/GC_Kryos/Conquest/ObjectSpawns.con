@@ -1,0 +1,337 @@
+rem ObjectSpawns.con created by Battlecraft 1942
+rem (\Program Files\Battlefield 1942\Mods\GCMOD\bf1942\levels\GC_Kryos/conquest/ObjectSpawns.con)
+
+rem ----------------------------------------- 
+rem ---  Medium_Transport_Spawner  ---
+rem ----------------------------------------- 
+Object.create Medium_Transport_Spawner
+Object.absolutePosition 609.18/82.91/386.83
+Object.rotation 44.00/0.00/0.00
+Object.setOSId 1
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Medium_Transport_Spawner  ---
+rem ----------------------------------------- 
+Object.create Medium_Transport_Spawner
+Object.absolutePosition 633.25/82.91/410.98
+Object.rotation 44.00/0.00/0.00
+Object.setOSId 1
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Medium_Transport_Spawner  ---
+rem ----------------------------------------- 
+Object.create Medium_Transport_Spawner
+Object.absolutePosition 1331.73/73.60/1639.89
+Object.rotation -119.71/0.00/0.00
+Object.setOSId 2
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  Medium_Transport_Spawner  ---
+rem ----------------------------------------- 
+Object.create Medium_Transport_Spawner
+Object.absolutePosition 1546.10/72.80/1746.55
+Object.rotation -253.16/0.00/0.00
+Object.setOSId 2
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  Medium_Transport_Spawner  ---
+rem ----------------------------------------- 
+Object.create Medium_Transport_Spawner
+Object.absolutePosition 1487.72/72.86/1733.20
+Object.rotation -130.91/0.00/0.00
+Object.setOSId 2
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  Medium_Transport_Spawner  ---
+rem ----------------------------------------- 
+Object.create Medium_Transport_Spawner
+Object.absolutePosition 1409.33/72.53/1641.84
+Object.rotation -247.96/0.00/0.00
+Object.setOSId 2
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  Fighter_Spawner  ---
+rem ----------------------------------------- 
+Object.create Fighter_Spawner
+Object.absolutePosition 575.38/83.84/454.86
+Object.rotation 45.00/0.00/0.00
+Object.setOSId 1
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Fighter_Spawner  ---
+rem ----------------------------------------- 
+Object.create Fighter_Spawner
+Object.absolutePosition 601.19/84.23/430.19
+Object.rotation 45.00/0.00/0.00
+Object.setOSId 1
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Fighter_Spawner  ---
+rem ----------------------------------------- 
+Object.create Fighter_Spawner
+Object.absolutePosition 1315.95/90.49/1771.57
+Object.rotation -152.65/0.00/0.00
+Object.setOSId 2
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  Fighter_Spawner  ---
+rem ----------------------------------------- 
+Object.create Fighter_Spawner
+Object.absolutePosition 1524.56/90.57/1706.23
+Object.rotation -192.73/0.00/0.00
+Object.setOSId 2
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  Airsupport_Spawner  ---
+rem ----------------------------------------- 
+Object.create Airsupport_Spawner
+Object.absolutePosition 1366.47/79.19/1745.68
+Object.rotation -184.59/0.00/0.00
+Object.setOSId 2
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  Airsupport_Spawner  ---
+rem ----------------------------------------- 
+Object.create Airsupport_Spawner
+Object.absolutePosition 585.94/83.76/414.74
+Object.rotation 45.00/0.00/0.00
+Object.setOSId 1
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Troop_Transport_Spawner  ---
+rem ----------------------------------------- 
+Object.create Troop_Transport_Spawner
+Object.absolutePosition 606.76/80.53/462.76
+Object.rotation 41.57/0.00/0.00
+Object.setOSId 1
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Turbolaser_Spawner  ---
+rem ----------------------------------------- 
+Object.create Turbolaser_Spawner
+Object.absolutePosition 560.41/80.64/439.60
+Object.rotation 45.00/0.00/0.00
+Object.setOSId 1
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Troop_Transport_Spawner  ---
+rem ----------------------------------------- 
+Object.create Troop_Transport_Spawner
+Object.absolutePosition 1393.54/106.08/630.02
+Object.rotation 90.00/0.00/0.00
+Object.setOSId 3
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  DTAP_Landspeeder_X  ---
+rem ----------------------------------------- 
+Object.create DTAP_Landspeeder_X
+Object.absolutePosition 1410.18/106.61/683.96
+Object.rotation 270.00/0.00/0.00
+Object.setOSId 3
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  Heavy_Transport_Spawner  ---
+rem ----------------------------------------- 
+Object.create Heavy_Transport_Spawner
+Object.absolutePosition 885.74/97.78/1010.21
+Object.rotation 270.00/0.00/0.00
+Object.setOSId 5
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  DTAP_Landspeeder_X  ---
+rem ----------------------------------------- 
+Object.create DTAP_Landspeeder_X
+Object.absolutePosition 884.26/96.93/972.04
+Object.rotation 270.00/0.00/0.00
+Object.setOSId 5
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  Troop_Transport_Spawner  ---
+rem ----------------------------------------- 
+Object.create Troop_Transport_Spawner
+Object.absolutePosition 1499.24/80.64/1042.66
+Object.rotation -86.89/0.00/0.00
+Object.setOSId 4
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  DTAP_Landspeeder_X  ---
+rem ----------------------------------------- 
+Object.create DTAP_Landspeeder_X
+Object.absolutePosition 1611.10/81.02/1053.14
+Object.rotation -241.08/0.00/0.00
+Object.setOSId 4
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  Heavy_Weapons  ---
+rem ----------------------------------------- 
+Object.create Heavy_Weapons
+Object.absolutePosition 891.55/98.70/991.58
+Object.rotation 0.00/-90.00/0.00
+Object.setOSId 5
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  Heavy_Weapons  ---
+rem ----------------------------------------- 
+Object.create Heavy_Weapons
+Object.absolutePosition 891.56/98.70/992.13
+Object.rotation 0.00/-90.00/0.00
+Object.setOSId 5
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  Heavy_Weapons  ---
+rem ----------------------------------------- 
+Object.create Heavy_Weapons
+Object.absolutePosition 1366.80/108.30/619.97
+Object.rotation 0.00/-90.00/0.00
+Object.setOSId 3
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  Heavy_Weapons  ---
+rem ----------------------------------------- 
+Object.create Heavy_Weapons
+Object.absolutePosition 1366.82/108.30/617.87
+Object.rotation 0.00/-90.00/0.00
+Object.setOSId 3
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  Heavy_Weapons  ---
+rem ----------------------------------------- 
+Object.create Heavy_Weapons
+Object.absolutePosition 1558.34/83.90/1031.44
+Object.rotation -33.09/-90.00/0.00
+Object.setOSId 4
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  Heavy_Weapons  ---
+rem ----------------------------------------- 
+Object.create Heavy_Weapons
+Object.absolutePosition 1602.34/83.84/1108.78
+Object.rotation -113.66/-90.00/0.00
+Object.setOSId 4
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  Heavy_Weapons  ---
+rem ----------------------------------------- 
+Object.create Heavy_Weapons
+Object.absolutePosition 604.29/83.00/407.27
+Object.rotation 35.00/-90.00/0.00
+Object.setOSId 1
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Heavy_Weapons  ---
+rem ----------------------------------------- 
+Object.create Heavy_Weapons
+Object.absolutePosition 603.76/83.00/406.72
+Object.rotation 35.00/-90.00/0.00
+Object.setOSId 1
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Heavy_Weapons  ---
+rem ----------------------------------------- 
+Object.create Heavy_Weapons
+Object.absolutePosition 603.15/83.00/406.12
+Object.rotation 35.00/-90.00/0.00
+Object.setOSId 1
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Heavy_Weapons  ---
+rem ----------------------------------------- 
+Object.create Heavy_Weapons
+Object.absolutePosition 1502.36/76.05/1764.74
+Object.rotation -1.04/-104.00/0.00
+Object.setOSId 2
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  Heavy_Weapons  ---
+rem ----------------------------------------- 
+Object.create Heavy_Weapons
+Object.absolutePosition 1524.86/76.09/1758.43
+Object.rotation -271.02/-104.00/0.00
+Object.setOSId 2
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  Heavy_Weapons  ---
+rem ----------------------------------------- 
+Object.create Heavy_Weapons
+Object.absolutePosition 1508.80/76.06/1742.46
+Object.rotation -112.73/-104.00/0.00
+Object.setOSId 2
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  Fighter2_Spawn  ---
+rem ----------------------------------------- 
+Object.create Fighter2_Spawn
+Object.absolutePosition 1562.41/96.59/1131.47
+Object.rotation -95.91/0.00/0.00
+Object.setOSId 4
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  AP_Turret  ---
+rem ----------------------------------------- 
+Object.create AP_Turret
+Object.absolutePosition 913.68/96.60/992.27
+Object.rotation 90.00/0.00/0.00
+Object.setOSId 5
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  Atst_Normal  ---
+rem ----------------------------------------- 
+Object.create Atst_Normal
+Object.absolutePosition 614.85/82.91/407.34
+Object.rotation 44.00/0.00/0.00
+Object.setOSId 1
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Atst_Normal  ---
+rem ----------------------------------------- 
+Object.create Atst_Normal
+Object.absolutePosition 628.17/82.91/391.75
+Object.rotation 44.00/0.00/0.00
+Object.setOSId 1
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  AV_Turret  ---
+rem ----------------------------------------- 
+Object.create AV_Turret
+Object.absolutePosition 1445.68/106.10/691.84
+Object.rotation 0.00/0.00/0.00
+Object.setOSId 3
+Object.setTeam 0
+
+rem EndOfFile

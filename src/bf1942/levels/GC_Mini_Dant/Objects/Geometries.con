@@ -1,0 +1,39 @@
+GeometryTemplate.create StandardMesh Dancratedark
+GeometryTemplate.file dancratedark
+GeometryTemplate.setLodDistance 0 1000
+GeometryTemplate.onlyUseHigestLod true
+
+GeometryTemplate.create StandardMesh Dancrategrey
+GeometryTemplate.file hothcrategrey
+GeometryTemplate.setLodDistance 0 1000
+GeometryTemplate.onlyUseHigestLod true
+
+GeometryTemplate.create StandardMesh t3bwreck
+GeometryTemplate.file Vehicles/Assault_Tank/Rebel_Tank_main
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+GeometryTemplate.setLodDistance 2 200
+GeometryTemplate.setLodDistance 3 400
+GeometryTemplate.setLodDistance 4 600
+GeometryTemplate.setLodDistance 5 800
+
+GeometryTemplate.create StandardMesh awreck
+GeometryTemplate.file Vehicles/AWing/Wreck_AWing
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+GeometryTemplate.setLodDistance 2 200
+GeometryTemplate.setLodDistance 3 400
+GeometryTemplate.setLodDistance 4 600
+GeometryTemplate.setLodDistance 5 800
+
+GeometryTemplate.create StandardMesh gswreck
+GeometryTemplate.file Vehicles/RepGun/gunship
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+GeometryTemplate.setLodDistance 2 200
+GeometryTemplate.setLodDistance 3 400
+GeometryTemplate.setLodDistance 4 600
+GeometryTemplate.setLodDistance 5 800
+
+
+

@@ -1,0 +1,94 @@
+rem ObjectSpawns.con created by Battlecraft 1942
+rem (\Program Files\Battlefield 1942\Mods\GCMOD\bf1942\levels\GC_Mini_Wasteland/conquest/ObjectSpawns.con)
+
+rem ----------------------------------------- 
+rem ---  Armor_Spawner  ---
+rem ----------------------------------------- 
+Object.create Armor_Spawner
+Object.absolutePosition 510.13/111.46/213.11
+Object.rotation 0.00/0.00/0.00
+Object.setOSId 2
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  Armor_Spawner  ---
+rem ----------------------------------------- 
+Object.create Armor_Spawner
+Object.absolutePosition 540.00/111.43/230.02
+Object.rotation 0.00/0.00/0.00
+Object.setOSId 2
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  Armor_Spawner  ---
+rem ----------------------------------------- 
+Object.create Armor_Spawner
+Object.absolutePosition 572.04/109.61/874.52
+Object.rotation 180.00/0.00/0.00
+Object.setOSId 1
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Armor_Spawner  ---
+rem ----------------------------------------- 
+Object.create Armor_Spawner
+Object.absolutePosition 603.89/109.62/862.51
+Object.rotation 180.00/0.00/0.00
+Object.setOSId 1
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Speeder_Spawner  ---
+rem ----------------------------------------- 
+Object.create Speeder_Spawner
+Object.absolutePosition 371.70/77.58/724.77
+Object.rotation -53.92/0.00/0.00
+Object.setOSId 5
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  Speeder_Spawner  ---
+rem ----------------------------------------- 
+Object.create Speeder_Spawner
+Object.absolutePosition 738.82/77.82/368.70
+Object.rotation -55.25/0.00/0.00
+Object.setOSId 3
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  HW_Spawner  ---
+rem ----------------------------------------- 
+Object.create HW_Spawner
+Object.absolutePosition 521.76/112.33/233.22
+Object.rotation -90.00/0.00/-90.00
+Object.setOSId 2
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  HW_Spawner  ---
+rem ----------------------------------------- 
+Object.create HW_Spawner
+Object.absolutePosition 581.79/110.11/859.50
+Object.rotation 0.00/-114.24/0.00
+Object.setOSId 1
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  HW_Spawner  ---
+rem ----------------------------------------- 
+Object.create HW_Spawner
+Object.absolutePosition 370.92/76.55/711.51
+Object.rotation 44.18/15.31/-94.00
+Object.setOSId 5
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  HW_Spawner  ---
+rem ----------------------------------------- 
+Object.create HW_Spawner
+Object.absolutePosition 681.31/74.86/391.28
+Object.rotation 13.94/12.80/-101.14
+Object.setOSId 3
+Object.setTeam 0
+
+rem EndOfFile

@@ -5,7 +5,7 @@ NetworkableInfo.setBasePriority c_NIGhostAlways
 ObjectTemplate.create ControlPoint the_sarlacctemplate
 ObjectTemplate.networkableInfo ControlPointInfo
 ObjectTemplate.setControlPointName The_Sarlacc
-ObjectTemplate.radius 23
+ObjectTemplate.radius 17
 ObjectTemplate.team 0
 ObjectTemplate.spawnGroupId 6
 ObjectTemplate.objectSpawnerId 6
@@ -14,19 +14,14 @@ ObjectTemplate.timeToLoseControl 10
 ObjectTemplate.geometry flagbase_m1
 ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.areaValue 40
-ObjectTemplate.disableIfEnemyInsideRadius 0
-ObjectTemplate.disableWhenLosingControl 0
-ObjectTemplate.loseControlWhenEnemyClose 1
-ObjectTemplate.loseControlWhenNotClose 0
 ObjectTemplate.addTemplate AnimatedFlag
-ObjectTemplate.setPosition 0/8.2/0
-ObjectTemplate.addTemplate e_glowflagpole
+ObjectTemplate.setPosition 0/0/0
 ObjectTemplate.setTeamGeometry 1 flagge_m1
 ObjectTemplate.setTeamGeometry 2 flagus_m1
 
 ObjectTemplate.create ControlPoint cantina
 ObjectTemplate.networkableInfo ControlPointInfo
-ObjectTemplate.setControlPointName Mos_Eisly_Cantina
+ObjectTemplate.setControlPointName Bestine_Cantina
 ObjectTemplate.radius 2
 ObjectTemplate.team 0
 ObjectTemplate.spawnGroupId 2
@@ -36,13 +31,9 @@ ObjectTemplate.timeToLoseControl 10
 ObjectTemplate.geometry flagbase_m1
 ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.areaValue 40
-ObjectTemplate.disableIfEnemyInsideRadius 0
-ObjectTemplate.disableWhenLosingControl 0
-ObjectTemplate.loseControlWhenEnemyClose 1
-ObjectTemplate.loseControlWhenNotClose 0
 ObjectTemplate.addTemplate AnimatedFlag
-ObjectTemplate.setPosition 0/8.2/0
-ObjectTemplate.addTemplate e_glowflagpole
+ObjectTemplate.setPosition 0/0/0
+rem ObjectTemplate.addTemplate e_glowflagpole
 ObjectTemplate.setTeamGeometry 1 flagge_m1
 ObjectTemplate.setTeamGeometry 2 flagus_m1
 
@@ -59,13 +50,9 @@ ObjectTemplate.unableToChangeTeam 1
 ObjectTemplate.geometry flagbase_m1
 ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.areaValue 0
-ObjectTemplate.disableIfEnemyInsideRadius 0
-ObjectTemplate.disableWhenLosingControl 0
-ObjectTemplate.loseControlWhenEnemyClose 1
-ObjectTemplate.loseControlWhenNotClose 0
 ObjectTemplate.addTemplate AnimatedFlag
-ObjectTemplate.setPosition 0/8.2/0
-ObjectTemplate.addTemplate e_glowflagpole
+ObjectTemplate.setPosition 0/0/0
+rem ObjectTemplate.addTemplate e_glowflagpole
 ObjectTemplate.setTeamGeometry 1 flagge_m1
 ObjectTemplate.setTeamGeometry 2 flagus_m1
 
@@ -81,13 +68,9 @@ ObjectTemplate.timeToLoseControl 10
 ObjectTemplate.geometry flagbase_m1
 ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.areaValue 40
-ObjectTemplate.disableIfEnemyInsideRadius 0
-ObjectTemplate.disableWhenLosingControl 0
-ObjectTemplate.loseControlWhenEnemyClose 1
-ObjectTemplate.loseControlWhenNotClose 0
 ObjectTemplate.addTemplate AnimatedFlag
-ObjectTemplate.setPosition 0/8.2/0
-ObjectTemplate.addTemplate e_glowflagpole
+ObjectTemplate.setPosition 0/0/0
+rem ObjectTemplate.addTemplate e_glowflagpole
 ObjectTemplate.setTeamGeometry 1 flagge_m1
 ObjectTemplate.setTeamGeometry 2 flagus_m1
 
@@ -103,13 +86,9 @@ ObjectTemplate.timeToLoseControl 10
 ObjectTemplate.geometry flagbase_m1
 ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.areaValue 40
-ObjectTemplate.disableIfEnemyInsideRadius 0
-ObjectTemplate.disableWhenLosingControl 0
-ObjectTemplate.loseControlWhenEnemyClose 1
-ObjectTemplate.loseControlWhenNotClose 0
 ObjectTemplate.addTemplate AnimatedFlag
-ObjectTemplate.setPosition 0/8.2/0
-ObjectTemplate.addTemplate e_glowflagpole
+ObjectTemplate.setPosition 0/0/0
+rem ObjectTemplate.addTemplate e_glowflagpole
 ObjectTemplate.setTeamGeometry 1 flagge_m1
 ObjectTemplate.setTeamGeometry 2 flagus_m1
 
@@ -126,13 +105,9 @@ ObjectTemplate.unableToChangeTeam 1
 ObjectTemplate.geometry flagbase_m1
 ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.areaValue 0
-ObjectTemplate.disableIfEnemyInsideRadius 0
-ObjectTemplate.disableWhenLosingControl 0
-ObjectTemplate.loseControlWhenEnemyClose 1
-ObjectTemplate.loseControlWhenNotClose 0
 ObjectTemplate.addTemplate AnimatedFlag
-ObjectTemplate.setPosition 0/8.2/0
-ObjectTemplate.addTemplate e_glowflagpole
+ObjectTemplate.setPosition 0/0/0
+rem ObjectTemplate.addTemplate e_glowflagpole
 ObjectTemplate.setTeamGeometry 1 flagge_m1
 ObjectTemplate.setTeamGeometry 2 flagus_m1
 

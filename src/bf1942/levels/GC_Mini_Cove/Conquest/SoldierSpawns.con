@@ -1,0 +1,109 @@
+rem SoldierSpawns.con created by Battlecraft 1942
+rem (\Program Files\Battlefield 1942\Mods\GCMOD\bf1942\levels\GC_Mini_Cove/conquest/SoldierSpawns.con)
+
+rem ----------------------------------------- 
+rem ---  rebel_base_Spawn1  ---
+rem ----------------------------------------- 
+Object.create rebel_base_Spawn1
+Object.absolutePosition 863.10/100.49/859.31
+Object.rotation 51.29/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  rebel_base_Spawn2  ---
+rem ----------------------------------------- 
+Object.create rebel_base_Spawn2
+Object.absolutePosition 886.61/100.24/834.38
+Object.rotation -15.13/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  rebel_base_Spawn3  ---
+rem ----------------------------------------- 
+Object.create rebel_base_Spawn3
+Object.absolutePosition 828.84/100.85/886.62
+Object.rotation 109.54/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  imperial_base_Spawn1  ---
+rem ----------------------------------------- 
+Object.create imperial_base_Spawn1
+Object.absolutePosition 194.35/103.16/170.83
+Object.rotation -90.89/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  imperial_base_Spawn2  ---
+rem ----------------------------------------- 
+Object.create imperial_base_Spawn2
+Object.absolutePosition 197.71/103.70/154.88
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  imperial_base_Spawn3  ---
+rem ----------------------------------------- 
+Object.create imperial_base_Spawn3
+Object.absolutePosition 198.31/103.08/191.10
+Object.rotation -182.42/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  imperial_base_Spawn4  ---
+rem ----------------------------------------- 
+Object.create imperial_base_Spawn4
+Object.absolutePosition 743.16/105.20/426.77
+Object.rotation -92.03/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  imperial_base_Spawn5  ---
+rem ----------------------------------------- 
+Object.create imperial_base_Spawn5
+Object.absolutePosition 706.14/103.75/454.38
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  imperial_base_Spawn6  ---
+rem ----------------------------------------- 
+Object.create imperial_base_Spawn6
+Object.absolutePosition 649.24/104.01/448.61
+Object.rotation 94.76/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  rebel_dome_Spawn1  ---
+rem ----------------------------------------- 
+Object.create rebel_dome_Spawn1
+Object.absolutePosition 450.03/108.28/424.93
+Object.rotation -37.27/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  rebel_dome_Spawn2  ---
+rem ----------------------------------------- 
+Object.create rebel_dome_Spawn2
+Object.absolutePosition 479.92/108.61/406.49
+Object.rotation -183.59/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  rebel_dome_Spawn3  ---
+rem ----------------------------------------- 
+Object.create rebel_dome_Spawn3
+Object.absolutePosition 418.22/107.92/360.93
+Object.rotation 24.20/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  imperial_dome_Spawn1  ---
+rem ----------------------------------------- 
+Object.create imperial_dome_Spawn1
+Object.absolutePosition 510.76/118.19/560.11
+Object.rotation -21.84/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  imperial_dome_Spawn2  ---
+rem ----------------------------------------- 
+Object.create imperial_dome_Spawn2
+Object.absolutePosition 479.57/117.60/575.17
+Object.rotation 9.90/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  imperial_dome_Spawn3  ---
+rem ----------------------------------------- 
+Object.create imperial_dome_Spawn3
+Object.absolutePosition 510.53/117.59/598.65
+Object.rotation -73.04/0.00/0.00
+
+rem EndOfFile

@@ -3314,6 +3314,48 @@
         <DataPlaceholder description="Last part" />
       </VariablePictureNode>
       <TransformNode>
+        <Float description="X">21.0</Float>
+        <Float description="Y">50.0</Float>
+        <Float description="Width">20.0</Float>
+        <Float description="Height">64.0</Float>
+        <g description="Transformed node">
+          <ActionNode>
+            <SetVariableAction description="Action">
+              <IntData description="Variable" name="MyHealth">100</IntData>
+              <DivData description="Data">
+                <MulData description="Data 1">
+                  <FloatData description="Data 1" name="Soldier/SoldierHitPoints">5.0</FloatData>
+                  <IntData description="Data 2">100</IntData>
+                </MulData>
+                <FloatData description="Data 2" name="Soldier/SoldierMaxHitPoints">10.0</FloatData>
+              </DivData>
+            </SetVariableAction>
+          </ActionNode>
+          <EffectNode>
+            <ColorEffect description="Effect">
+              <Float description="Red">0.20784300565719604</Float>
+              <Float description="Green">0.8784310221672058</Float>
+              <Float description="Blue">0.9098029732704163</Float>
+              <Float description="Alpha">1.0</Float>
+            </ColorEffect>
+          </EffectNode>
+          <TextNode>
+            <IntData description="String" name="MyHealth">100</IntData>
+            <RightAlignedStyle description="Style" name="Style/InGameCenter8">Trebuchet MS8.dif</RightAlignedStyle>
+          </TextNode>
+          <TransformNode>
+            <Float description="X">18.0</Float>
+            <Float description="Y">0.0</Float>
+            <Float description="Width">15.0</Float>
+            <Float description="Height">64.0</Float>
+            <TextNode description="Transformed node">
+              <StringData description="String">%</StringData>
+              <BfLeftOutlineStyle description="Style" name="Style/InGameCenter8">Trebuchet MS8.dif</BfLeftOutlineStyle>
+            </TextNode>
+          </TransformNode>
+        </g>
+      </TransformNode>
+      <TransformNode>
         <Float description="X">-43.0</Float>
         <Float description="Y">0.0</Float>
         <Float description="Width">64.0</Float>
@@ -3761,6 +3803,48 @@
         <Float description="In time">0.0</Float>
         <Float description="Out time">0.0</Float>
       </CullNode>
+      <TransformNode>
+        <Float description="X">5.0</Float>
+        <Float description="Y">123.0</Float>
+        <Float description="Width">20.0</Float>
+        <Float description="Height">64.0</Float>
+        <g description="Transformed node">
+          <ActionNode>
+            <SetVariableAction description="Action">
+              <IntData description="Variable" name="MyVehicleHealth">100</IntData>
+              <DivData description="Data">
+                <MulData description="Data 1">
+                  <FloatData description="Data 1" name="Vehicle/VehicleHitPoints">9.0</FloatData>
+                  <IntData description="Data 2">100</IntData>
+                </MulData>
+                <FloatData description="Data 2" name="Vehicle/VehicleMaxHitPoints">10.0</FloatData>
+              </DivData>
+            </SetVariableAction>
+          </ActionNode>
+          <EffectNode>
+            <ColorEffect description="Effect">
+              <Float description="Red">0.20784300565719604</Float>
+              <Float description="Green">0.8784310221672058</Float>
+              <Float description="Blue">0.9098029732704163</Float>
+              <Float description="Alpha">1.0</Float>
+            </ColorEffect>
+          </EffectNode>
+          <TextNode>
+            <IntData description="String" name="MyVehicleHealth">100</IntData>
+            <RightAlignedStyle description="Style" name="Style/InGameCenter8">Trebuchet MS8.dif</RightAlignedStyle>
+          </TextNode>
+          <TransformNode>
+            <Float description="X">18.0</Float>
+            <Float description="Y">0.0</Float>
+            <Float description="Width">15.0</Float>
+            <Float description="Height">64.0</Float>
+            <TextNode description="Transformed node">
+              <StringData description="String">%</StringData>
+              <BfLeftOutlineStyle description="Style" name="Style/InGameCenter8">Trebuchet MS8.dif</BfLeftOutlineStyle>
+            </TextNode>
+          </TransformNode>
+        </g>
+      </TransformNode>
       <TransformNode>
         <Float description="X">-18.0</Float>
         <Float description="Y">73.0</Float>

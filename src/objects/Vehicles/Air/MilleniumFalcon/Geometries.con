@@ -2,11 +2,11 @@ GeometryTemplate.create StandardMesh MilleniumFalcon_fus_M1
 GeometryTemplate.file Vehicles/MilleniumFalcon/falconbody
 GeometryTemplate.hasDynamicShadow 1
 GeometryTemplate.setLodDistance 0 0
-GeometryTemplate.setLodDistance 1 20
-GeometryTemplate.setLodDistance 2 50
-GeometryTemplate.setLodDistance 3 100
-GeometryTemplate.setLodDistance 4 150
-GeometryTemplate.setLodDistance 5 250
+GeometryTemplate.setLodDistance 1 100
+GeometryTemplate.setLodDistance 2 200
+GeometryTemplate.setLodDistance 3 300
+GeometryTemplate.setLodDistance 4 450
+GeometryTemplate.setLodDistance 5 650
 
 GeometryTemplate.create StandardMesh MFDoorGeom
 GeometryTemplate.file Vehicles/MilleniumFalcon/falcondoor

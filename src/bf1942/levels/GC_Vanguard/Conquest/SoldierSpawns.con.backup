@@ -1,0 +1,16 @@
+rem
+rem ***  ***
+rem
+Object.create reb1
+Object.absolutePosition 228.803/348.556/268.119
+Object.rotation 191/0/0
+Object.setOSId 190680416
+Object.setTeam 187835368
+rem
+rem ***  ***
+rem
+Object.create impspawn
+Object.absolutePosition 49.2812/371.856/3924.94
+Object.rotation -228/0/0
+Object.setOSId -620097937
+Object.setTeam 191870376

@@ -1,5 +1,5 @@
 rem ControlPointTemplates.con created by Battlecraft 1942
-rem (\Program Files\Battlefield 1942\Mods\GCMOD\bf1942\levels\GC_BCanyon/conquest/ControlPointTemplates.con)
+rem (\Program Files\Battlefield 1942\Mods\GCMOD\bf1942\levels\GC_BCanyonatst/conquest/ControlPointTemplates.con)
 
 NetworkableInfo.createNewInfo ControlPointInfo
 NetworkableInfo.setPredictionMode PMNone

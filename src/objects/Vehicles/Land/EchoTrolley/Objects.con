@@ -7,6 +7,7 @@ ObjectTemplate.hasMobilePhysics 1
 ObjectTemplate.hasDynamicShadow 1
 ObjectTemplate.explosionRadius 8
 ObjectTemplate.explosionDamage 5
+ObjectTemplate.damageFromWater 1
 ObjectTemplate.exitTimer 1
 ObjectTemplate.drag 1.5
 ObjectTemplate.mass 2500
@@ -34,7 +35,7 @@ ObjectTemplate.aiTemplate Hanomag
 rem -------------------------------------
 ObjectTemplate.addTemplate lodEchoTrolley
 rem -------------------------------------
-ObjectTemplate.setSoldierExitLocation 1.8/0/-0.2 0/0/0
+ObjectTemplate.setSoldierExitLocation 0/0/-0.2 0/0/0
 ObjectTemplate.setVehicleIcon "Vehicle/Icon_echotrolley.dds"
 ObjectTemplate.setVehicleIconPos 78/56
 ObjectTemplate.setNumberOfWeaponIcons 0
@@ -100,7 +101,7 @@ ObjectTemplate.setRotation 45/0/0
 ObjectTemplate.addTemplate EchoTrolley_Entry
 ObjectTemplate.setPosition -1.8/0/-2.6
 rem -------------------------------------
-ObjectTemplate.setSoldierExitLocation -1.8/0/-2.6 45/0/0
+ObjectTemplate.setSoldierExitLocation 0/0/0 45/0/0
 ObjectTemplate.setVehicleIcon "Vehicle/Icon_echotrolley.dds"
 ObjectTemplate.setVehicleIconPos 66/85
 ObjectTemplate.setVehicleCategory VCLand
@@ -120,7 +121,7 @@ ObjectTemplate.setRotation 90/0/0
 ObjectTemplate.addTemplate EchoTrolley_Entry
 ObjectTemplate.setPosition -1.8/0/0
 rem -------------------------------------
-ObjectTemplate.setSoldierExitLocation -1.8/0/0 90/0/0
+ObjectTemplate.setSoldierExitLocation -0.5/0/0 90/0/0
 ObjectTemplate.setVehicleIcon "Vehicle/Icon_echotrolley.dds"
 ObjectTemplate.setVehicleIconPos 50/67
 ObjectTemplate.setVehicleCategory VCLand
@@ -140,7 +141,7 @@ ObjectTemplate.setRotation 135/0/0
 ObjectTemplate.addTemplate EchoTrolley_Entry
 ObjectTemplate.setPosition -1.8/0/2.6
 rem -------------------------------------
-ObjectTemplate.setSoldierExitLocation -1.8/0/2.6 135/0/0
+ObjectTemplate.setSoldierExitLocation -0.56/0/0 135/0/0
 ObjectTemplate.setVehicleIcon "Vehicle/Icon_echotrolley.dds"
 ObjectTemplate.setVehicleIconPos 34/49
 ObjectTemplate.setVehicleCategory VCLand
@@ -160,7 +161,7 @@ ObjectTemplate.setRotation 180/0/0
 ObjectTemplate.addTemplate EchoTrolley_Entry
 ObjectTemplate.setPosition 1.8/0/2.6
 rem -------------------------------------
-ObjectTemplate.setSoldierExitLocation 1.8/0/2.6 180/0/0
+ObjectTemplate.setSoldierExitLocation 0.2/0/0 180/0/0
 ObjectTemplate.setVehicleIcon "Vehicle/Icon_echotrolley.dds"
 ObjectTemplate.setVehicleIconPos 56/44
 ObjectTemplate.setVehicleCategory VCLand
@@ -180,7 +181,7 @@ ObjectTemplate.setRotation 0/0/0
 ObjectTemplate.addTemplate EchoTrolley_Entry
 ObjectTemplate.setPosition 1.8/0/-2.6
 rem -------------------------------------
-ObjectTemplate.setSoldierExitLocation 1.8/0/-2.6 0/0/0
+ObjectTemplate.setSoldierExitLocation 0.4/0/0 0/0/0
 ObjectTemplate.setVehicleIcon "Vehicle/Icon_echotrolley.dds"
 ObjectTemplate.setVehicleIconPos 92/77
 ObjectTemplate.setVehicleCategory VCLand

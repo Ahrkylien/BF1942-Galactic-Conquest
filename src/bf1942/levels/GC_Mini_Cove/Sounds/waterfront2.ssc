@@ -1,0 +1,52 @@
+################################################################
+#templateLevel HIGH
+
+newPatch
+
+#########################
+####### Mon Cal #########
+#########################
+load @ROOT/Sound/@RTD/waterfront2.wav
+loop
+volume .9
+minDistance 30
+randomStartPitch .1/.1
+priority -9
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 75
+	param 100
+	param 1
+	param -1	
+endEffect
+
+################################################################
+
+#templateLevel MEDIUM
+
+newPatch
+
+#########################
+####### Mon Cal #########
+#########################
+load @ROOT/Sound/@RTD/waterfront2.wav
+loop
+volume .8
+minDistance 10
+randomStartPitch .1/.1
+priority -9
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 15
+	param 25
+	param 1
+	param -1	
+endEffect

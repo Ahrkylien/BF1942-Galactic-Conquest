@@ -1,0 +1,284 @@
+rem SoldierSpawns.con created by Battlecraft 1942
+rem (d:\battlefield 1942\Mods\cloudtown\bf1942\levels\GC_bespin/conquest/SoldierSpawns.con)
+
+rem ----------------------------------------- 
+rem ---  ImperialMine_Spawn1  ---
+rem ----------------------------------------- 
+Object.create ImperialMine_Spawn1
+Object.absolutePosition 297.23/280.20/1034.43
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  ImperialMine_Spawn2  ---
+rem ----------------------------------------- 
+Object.create ImperialMine_Spawn2
+Object.absolutePosition 261.57/280.18/1036.72
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  ImperialMine_Spawn3  ---
+rem ----------------------------------------- 
+Object.create ImperialMine_Spawn3
+Object.absolutePosition 261.44/280.22/953.96
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  ImperialMine_Spawn4  ---
+rem ----------------------------------------- 
+Object.create ImperialMine_Spawn4
+Object.absolutePosition 293.34/280.25/955.46
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  ImperialMine_Spawn5  ---
+rem ----------------------------------------- 
+Object.create ImperialMine_Spawn5
+Object.absolutePosition 317.98/280.23/984.18
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  ImperialMine_Spawn6  ---
+rem ----------------------------------------- 
+Object.create ImperialMine_Spawn6
+Object.absolutePosition 317.92/280.24/1010.38
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  ImperialMine_Spawn7  ---
+rem ----------------------------------------- 
+Object.create ImperialMine_Spawn7
+Object.absolutePosition 285.05/280.24/983.72
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  ImperialMine_Spawn8  ---
+rem ----------------------------------------- 
+Object.create ImperialMine_Spawn8
+Object.absolutePosition 286.76/280.25/1012.37
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  RebelMine_Spawn1  ---
+rem ----------------------------------------- 
+Object.create RebelMine_Spawn1
+Object.absolutePosition 1786.19/280.20/1037.22
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  RebelMine_Spawn2  ---
+rem ----------------------------------------- 
+Object.create RebelMine_Spawn2
+Object.absolutePosition 1752.46/280.20/1037.85
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  RebelMine_Spawn3  ---
+rem ----------------------------------------- 
+Object.create RebelMine_Spawn3
+Object.absolutePosition 1728.90/280.20/1017.96
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  RebelMine_Spawn4  ---
+rem ----------------------------------------- 
+Object.create RebelMine_Spawn4
+Object.absolutePosition 1727.01/280.21/979.61
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  RebelMine_Spawn5  ---
+rem ----------------------------------------- 
+Object.create RebelMine_Spawn5
+Object.absolutePosition 1783.39/280.21/953.80
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  RebelMine_Spawn6  ---
+rem ----------------------------------------- 
+Object.create RebelMine_Spawn6
+Object.absolutePosition 1752.14/280.21/957.78
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  RebelMine_Spawn7  ---
+rem ----------------------------------------- 
+Object.create RebelMine_Spawn7
+Object.absolutePosition 1759.56/280.19/1011.46
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  RebelMine_Spawn8  ---
+rem ----------------------------------------- 
+Object.create RebelMine_Spawn8
+Object.absolutePosition 1751.71/280.23/986.20
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  ImperialPlatform_Spawn1  ---
+rem ----------------------------------------- 
+Object.create ImperialPlatform_Spawn1
+Object.absolutePosition 771.70/268.28/1000.49
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  ImperialPlatform_Spawn2  ---
+rem ----------------------------------------- 
+Object.create ImperialPlatform_Spawn2
+Object.absolutePosition 772.36/268.28/1009.54
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  ImperialPlatform_Spawn3  ---
+rem ----------------------------------------- 
+Object.create ImperialPlatform_Spawn3
+Object.absolutePosition 782.59/268.28/1004.99
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  ImperialPlatform_Spawn4  ---
+rem ----------------------------------------- 
+Object.create ImperialPlatform_Spawn4
+Object.absolutePosition 764.99/268.29/1005.08
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  ImperialPlatform_Spawn5  ---
+rem ----------------------------------------- 
+Object.create ImperialPlatform_Spawn5
+Object.absolutePosition 758.42/268.29/1014.99
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  ImperialPlatform_Spawn6  ---
+rem ----------------------------------------- 
+Object.create ImperialPlatform_Spawn6
+Object.absolutePosition 758.01/268.29/994.53
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  ImperialPlatform_Spawn7  ---
+rem ----------------------------------------- 
+Object.create ImperialPlatform_Spawn7
+Object.absolutePosition 771.71/268.29/1021.57
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  ImperialPlatform_Spawn8  ---
+rem ----------------------------------------- 
+Object.create ImperialPlatform_Spawn8
+Object.absolutePosition 772.69/268.29/987.38
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  RebelPlatform_Spawn1  ---
+rem ----------------------------------------- 
+Object.create RebelPlatform_Spawn1
+Object.absolutePosition 1238.87/268.31/997.89
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  RebelPlatform_Spawn2  ---
+rem ----------------------------------------- 
+Object.create RebelPlatform_Spawn2
+Object.absolutePosition 1238.75/268.32/1009.81
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  RebelPlatform_Spawn3  ---
+rem ----------------------------------------- 
+Object.create RebelPlatform_Spawn3
+Object.absolutePosition 1230.88/268.33/1003.87
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  RebelPlatform_Spawn4  ---
+rem ----------------------------------------- 
+Object.create RebelPlatform_Spawn4
+Object.absolutePosition 1245.34/268.33/1003.93
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  RebelPlatform_Spawn5  ---
+rem ----------------------------------------- 
+Object.create RebelPlatform_Spawn5
+Object.absolutePosition 1243.76/268.33/986.62
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  RebelPlatform_Spawn6  ---
+rem ----------------------------------------- 
+Object.create RebelPlatform_Spawn6
+Object.absolutePosition 1244.70/268.33/1019.60
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  RebelPlatform_Spawn7  ---
+rem ----------------------------------------- 
+Object.create RebelPlatform_Spawn7
+Object.absolutePosition 1253.45/268.31/995.02
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  RebelPlatform_Spawn8  ---
+rem ----------------------------------------- 
+Object.create RebelPlatform_Spawn8
+Object.absolutePosition 1254.29/268.31/1013.46
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  LowerLevel_Spawn1  ---
+rem ----------------------------------------- 
+Object.create LowerLevel_Spawn1
+Object.absolutePosition 995.42/251.84/929.29
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  LowerLevel_Spawn2  ---
+rem ----------------------------------------- 
+Object.create LowerLevel_Spawn2
+Object.absolutePosition 1016.94/251.84/929.66
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  LowerLevel_Spawn3  ---
+rem ----------------------------------------- 
+Object.create LowerLevel_Spawn3
+Object.absolutePosition 995.04/251.84/909.01
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  LowerLevel_Spawn4  ---
+rem ----------------------------------------- 
+Object.create LowerLevel_Spawn4
+Object.absolutePosition 1014.87/251.84/908.79
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  UpperLevel_Spawn1  ---
+rem ----------------------------------------- 
+Object.create UpperLevel_Spawn1
+Object.absolutePosition 1001.23/274.42/1043.23
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  UpperLevel_Spawn2  ---
+rem ----------------------------------------- 
+Object.create UpperLevel_Spawn2
+Object.absolutePosition 1009.55/274.42/1045.24
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  UpperLevel_Spawn3  ---
+rem ----------------------------------------- 
+Object.create UpperLevel_Spawn3
+Object.absolutePosition 999.73/274.42/1033.91
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  UpperLevel_Spawn4  ---
+rem ----------------------------------------- 
+Object.create UpperLevel_Spawn4
+Object.absolutePosition 1010.78/274.42/1034.30
+Object.rotation 0.00/0.00/0.00
+
+rem EndOfFile

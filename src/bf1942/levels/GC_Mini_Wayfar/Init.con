@@ -1,0 +1,65 @@
+rem *********************************************
+rem Created by Battlecraft 1942.  Copyright (c)2003,2004 Digital Illusions CE
+rem *********************************************
+ShaderManager.setTextureParam envmap bf1942\levels\GC_Mini_Wayfar\Textures\ENVMAP_G_.rcm
+renderer.globalLodPercent 1
+renderer.globalAmbientColor 0.094118/0.094118/0.094118
+renderer.ambientColor 0.113725/0.109804/0.113725
+renderer.diffuseColor 0.349020/0.294118/0.200000
+renderer.specularColor 0.294118/0.294118/0.294118
+renderer.vertexFogEnable 1
+renderer.fogColorVec 0.827451/0.729412/0.576471
+renderer.animatedMeshAmbientColor 0.35
+textureManager.alternativePath bf1942/levels/GC_Mini_Wayfar/Textures/sky
+
+shadow.shadowColor 0.550000
+
+bf1942/levels/GC_Mini_Wayfar/Textures/sky
+
+Game.setViewDistance 400
+Game.spawnPlayers 1
+renderer.fogstart 0
+renderer.fogend 600
+
+ObjectTemplate.create Flag BlueFlag
+ObjectTemplate.team 1
+ObjectTemplate.networkableInfo FlagBodyInfo
+ObjectTemplate.radius 5
+ObjectTemplate.TimeToReSpawn 10
+ObjectTemplate.addTemplate AnimatedJapFlag
+
+ObjectTemplate.create Flag RedFlag
+ObjectTemplate.team 2
+ObjectTemplate.networkableInfo FlagBodyInfo
+ObjectTemplate.radius 5
+ObjectTemplate.TimeToReSpawn 10
+ObjectTemplate.addTemplate AnimatedSoFlag
+
+game.setTeamSkin 1 JapaneseSoldier
+game.setKit 1 0 Empire_Scout
+game.setKit 1 1 Empire_Trooper
+game.setKit 1 2 Empire_AT
+game.setKit 1 3 Empire_Medic
+game.setKit 1 4 Empire_Engineer
+
+game.setTeamSkin 2 RussianSoldier
+game.setKit 2 0 Rebel_Scout
+game.setKit 2 1 Rebel_Trooper
+game.setKit 2 2 Rebel_AT
+game.setKit 2 3 Rebel_Medic
+game.setKit 2 4 Rebel_Engineer
+game.setLevelCheck 2242588848
+game.setActiveCombatArea 256 256 512 512
+
+shaderManager.setDefaultShaderSolidColor 0.2/0.2/0.2
+
+run Init/SkyAndSun
+run Init/Terrain
+run Objects/Objects
+
+game.assaultTeam 2
+
+run Sounds/Environment
+
+game.setBeforeSpawnCameraPosition 1 522.581177/96.556763/401.145630
+game.setBeforeSpawnCameraPosition 2 522.581177/96.556763/401.145630

@@ -54,6 +54,23 @@ ObjectTemplate.addFireArmsPosition -0.5445/-0.2366/1.2107
 ObjectTemplate.addFireArmsPosition 0.5445/-0.2366/1.2107
 ObjectTemplate.AmmoType	9
 
+rem *** XWingProtonTorpedoLauncher ***
+ObjectTemplate.create FireArms Rogue2_missle
+ObjectTemplate.setNetworkableInfo PlaneFireArmInfo
+ObjectTemplate.setAsynchronyFire 1
+ObjectTemplate.projectileTemplate ProtonTorpedo
+ObjectTemplate.autoReload 1
+ObjectTemplate.magSize 1
+ObjectTemplate.numOfMag 3
+ObjectTemplate.velocity 150
+ObjectTemplate.roundOfFire 3
+ObjectTemplate.reloadtime 4
+ObjectTemplate.AltFireOnce 1
+ObjectTemplate.setInputFire c_PIAltFire
+ObjectTemplate.addFireArmsPosition -0.5445/-0.2366/1.2107
+ObjectTemplate.addFireArmsPosition 0.5445/-0.2366/1.2107
+ObjectTemplate.AmmoType	9
+
 rem *** Astromech_Droid_repair ***
 ObjectTemplate.create FireArms Astromech_Droid_repair
 ObjectTemplate.setNetworkableInfo PlaneFireArmInfo
@@ -93,6 +110,7 @@ ObjectTemplate.team 0
 ObjectTemplate.addVehicleType YWing -1 5 0
 ObjectTemplate.addVehicleType X-Wing -1 3 0
 ObjectTemplate.addVehicleType rogue -1 3 0
+ObjectTemplate.addVehicleType Red -1 2 0
 beginRem
 ObjectTemplate.addAmmoType 0 -1 10 0
 ObjectTemplate.addAmmoType 1 -1 15 0

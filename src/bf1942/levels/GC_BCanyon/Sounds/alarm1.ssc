@@ -9,7 +9,7 @@ newPatch
 load @ROOT/Sound/@RTD/alarm1.wav
 loop
 volume .5
-minDistance 30
+minDistance 45
 randomStartPitch .1/.1
 priority -9
 
@@ -18,8 +18,8 @@ beginEffect
 	controlDestination Volume
 	controlSource Distance
 	envelope Ramp
-	param 35
 	param 50
+	param 75
 	param 1
 	param -1	
 endEffect

@@ -68,30 +68,30 @@ ObjectTemplate.setFlapLift 0
 rem *** EscapePodRudderBackLeft ***
 ObjectTemplate.create Wing EscapePodRudderBackLeft
 ObjectTemplate.setNetworkableInfo EscapePod_wing_info
-ObjectTemplate.setMinRotation 0/-10/0
-ObjectTemplate.setMaxRotation 0/20/0
+ObjectTemplate.setMinRotation 0/-22/0
+ObjectTemplate.setMaxRotation 0/22/0
 ObjectTemplate.setMaxSpeed 0/60/0
 ObjectTemplate.setAcceleration 0/-60/0
 rem ObjectTemplate.setInputToPitch c_PIPitch
 ObjectTemplate.setAutomaticReset 1
 ObjectTemplate.setPositionOffset 0.5/0/0
 ObjectTemplate.rememberExcessInput 1
-ObjectTemplate.setWingLift 0.5
-ObjectTemplate.setFlapLift 0.7
+ObjectTemplate.setWingLift 1
+ObjectTemplate.setFlapLift 2
 
 rem *** EscapePodRudderBackRight ***
 ObjectTemplate.create Wing EscapePodRudderBackRight
 ObjectTemplate.setNetworkableInfo EscapePod_wing_info
-ObjectTemplate.setMinRotation 0/-10/0
-ObjectTemplate.setMaxRotation 0/20/0
+ObjectTemplate.setMinRotation 0/-22/0
+ObjectTemplate.setMaxRotation 0/22/0
 ObjectTemplate.setMaxSpeed 0/60/0
 ObjectTemplate.setAcceleration 0/-60/0
 ObjectTemplate.setInputToPitch c_PIPitch
 ObjectTemplate.setAutomaticReset 1
 ObjectTemplate.setPositionOffset -0.5/0/0
 ObjectTemplate.rememberExcessInput 1
-ObjectTemplate.setWingLift 0.5
-ObjectTemplate.setFlapLift 0.7
+ObjectTemplate.setWingLift 1
+ObjectTemplate.setFlapLift 2
 
 rem *** EscapePodRudderFrontLeft ***
 ObjectTemplate.create Wing EscapePodRudderFrontLeft

@@ -1,0 +1,9 @@
+GeometryTemplate.create StandardMesh ME_building_corner_m1
+GeometryTemplate.file ../bf1942/levels/GC_Mos_Eisley/Standardmesh/me_building_corner_m1
+
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 10
+GeometryTemplate.setLodDistance 2 20
+GeometryTemplate.setLodDistance 3 70
+GeometryTemplate.setLodDistance 4 100
+GeometryTemplate.setLodDistance 5 350

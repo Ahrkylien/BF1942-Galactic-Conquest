@@ -1,0 +1,40 @@
+
+
+rem *** river ***
+ObjectTemplate.create AreaObject river
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript river.ssc
+ObjectTemplate.triggerRadius 100
+ObjectTemplate.addLinePoint 0/0
+ObjectTemplate.addLinePoint 311/-85
+ObjectTemplate.addLinePoint 358/-92
+ObjectTemplate.addLinePoint 443/-38
+ObjectTemplate.addLinePoint 497/19
+ObjectTemplate.addLinePoint 589/140
+ObjectTemplate.addLinePoint 670/209
+ObjectTemplate.addLinePoint 913/243
+ObjectTemplate.addLinePoint 968/229
+ObjectTemplate.addLinePoint 915/203
+ObjectTemplate.addLinePoint 766/196
+ObjectTemplate.addLinePoint 677/176
+ObjectTemplate.addLinePoint 623/137
+ObjectTemplate.addLinePoint 530/-5
+ObjectTemplate.addLinePoint 419/-107
+ObjectTemplate.addLinePoint 405/-151
+ObjectTemplate.addLinePoint 473/-232
+ObjectTemplate.addLinePoint 579/-280
+ObjectTemplate.addLinePoint 652/-296
+ObjectTemplate.addLinePoint 713/-286
+ObjectTemplate.addLinePoint 951/-168
+ObjectTemplate.addLinePoint 1018/-152
+ObjectTemplate.addLinePoint 954/-217
+ObjectTemplate.addLinePoint 754/-319
+ObjectTemplate.addLinePoint 668/-321
+ObjectTemplate.addLinePoint 588/-319
+ObjectTemplate.addLinePoint 464/-276
+ObjectTemplate.addLinePoint 378/-203
+ObjectTemplate.addLinePoint 329/-149
+ObjectTemplate.addLinePoint 229/-86
+ObjectTemplate.addLinePoint 124/-47
+ObjectTemplate.addLinePoint 57/-33
+ObjectTemplate.addLinePoint 2/-33
