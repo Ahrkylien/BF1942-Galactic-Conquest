@@ -22,6 +22,7 @@ REM *** DAMAGE OVER DISTANCE ***
 ObjectTemplate.minDamage 0.5
 ObjectTemplate.distToStartLoseDamage 100
 ObjectTemplate.distToMinDamage 300
+ObjectTemplate.AmmoType	10
 
 rem *** YWingProtonTorpedoLauncher ***
 ObjectTemplate.create FireArms YWingProtonTorpedoLauncher
@@ -35,7 +36,7 @@ ObjectTemplate.roundOfFire 3
 ObjectTemplate.reloadtime 10
 ObjectTemplate.AltFireOnce 1
 ObjectTemplate.setInputFire c_PIAltFire
-ObjectTemplate.AmmoType	7
+ObjectTemplate.AmmoType	9
 
 rem *** YWingGunTurretFirearm ***
 ObjectTemplate.create FireArms YWingGunTurretFirearm
@@ -61,3 +62,4 @@ REM *** DAMAGE OVER DISTANCE ***
 ObjectTemplate.minDamage 0.5
 ObjectTemplate.distToStartLoseDamage 100
 ObjectTemplate.distToMinDamage 300
+ObjectTemplate.AmmoType	10

@@ -1,0 +1,4 @@
+ObjectTemplate.create Bundle mc_pipe
+ObjectTemplate.geometry mc_pipe
+objectTemplate.aiTemplate mc_pipe
+ObjectTemplate.setHasCollisionPhysics 1

@@ -24,3 +24,4 @@ REM *** DAMAGE OVER DISTANCE ***
 ObjectTemplate.minDamage 0.5
 ObjectTemplate.distToStartLoseDamage 100
 ObjectTemplate.distToMinDamage 300
+ObjectTemplate.AmmoType	8

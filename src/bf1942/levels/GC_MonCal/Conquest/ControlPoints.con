@@ -1,0 +1,36 @@
+rem
+rem ***  ***
+rem
+Object.create impstarttemplate
+Object.absolutePosition 386.407/104.687/1724.26
+Object.setOSId 328248
+Object.setTeam 154939900
+rem
+rem ***  ***
+rem
+Object.create city_access_1template
+Object.absolutePosition 1453.79/94.0184/1421.3
+Object.setOSId 154607364
+Object.setTeam 0
+rem
+rem ***  ***
+rem
+Object.create city_access_2template
+Object.absolutePosition 1330.31/92.4239/1289.26
+Object.setOSId 0
+Object.setTeam 0
+rem
+rem ***  ***
+rem
+Object.create city_access_3template
+Object.absolutePosition 1597.82/94.2729/453.328
+Object.rotation -80/0/0
+Object.setOSId 65
+Object.setTeam 1048578
+rem
+rem ***  ***
+rem
+Object.create city_access_4template
+Object.absolutePosition 473.519/90.0785/505.05
+Object.setOSId 983538
+Object.setTeam 154964072

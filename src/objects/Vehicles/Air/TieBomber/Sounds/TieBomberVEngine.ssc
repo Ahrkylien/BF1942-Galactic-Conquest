@@ -6,7 +6,7 @@ newPatch
 ### VTOL ###
 ############
 load @ROOT/Sound/@RTD/tiebomber-engine.wav
-volume 0.6
+volume 0.5
 loop
 minDistance 20
 randomStartPitch 0.05/0.05 
@@ -30,8 +30,7 @@ beginEffect
 	param 0.6
 	param 1.05
 	param 0.95
-	param 0
-	
+	param 0	
 endEffect
 
 *** Engine Volume Start ***
@@ -42,7 +41,7 @@ beginEffect
 	param 0
 	param 1
 	param 0
-	param 1
+	param 0.9
 endEffect
 
 *** Distance Volume ***

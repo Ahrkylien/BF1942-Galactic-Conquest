@@ -16,8 +16,8 @@ ObjectTemplate.hasArmor 1
 ObjectTemplate.angleMod 1
 ObjectTemplate.speedMod 1
 ObjectTemplate.hasArmor 1
-ObjectTemplate.hitpoints 350
-ObjectTemplate.maxhitpoints 350
+ObjectTemplate.hitpoints 400
+ObjectTemplate.maxhitpoints 400
 ObjectTemplate.material 811
 ObjectTemplate.criticalDamage 35
 ObjectTemplate.hpLostWhileCriticalDamage 3.5
@@ -241,6 +241,7 @@ ObjectTemplate.setMinimapIcon "Minimap/minimap_icon_sailBarge_16x16.dds"
 
 rem *** SailBarge_DeckGun_Rotation ***
 ObjectTemplate.create RotationalBundle SailBarge_DeckGun_Rotation
+ObjectTemplate.loadSoundScript Sounds/LambdaGunRotate.ssc
 ObjectTemplate.hasMobilePhysics 1
 ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.hasResponsePhysics 1
@@ -253,10 +254,10 @@ ObjectTemplate.setPosition 0/1.1/-2.3
 ObjectTemplate.addTemplate SailBarge_Seat
 ObjectTemplate.setPosition 0/0/-1.7
 rem -------------------------------------
-ObjectTemplate.setMinRotation 0/-20/0
+ObjectTemplate.setMinRotation 0/-38/0
 ObjectTemplate.setMaxRotation 0/20/0
-ObjectTemplate.setMaxSpeed 100/100/0
-ObjectTemplate.setAcceleration 300/300/0
+ObjectTemplate.setMaxSpeed 35/35/0
+ObjectTemplate.setAcceleration 5000/5000/0
 ObjectTemplate.setInputToYaw c_PIMouseLookX
 ObjectTemplate.setInputToPitch c_PIMouseLookY
 

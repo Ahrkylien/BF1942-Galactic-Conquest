@@ -77,4 +77,4 @@ objectTemplate.healFactor 0.25
 objectTemplate.selfHealFactor 0.15
 
 rem *** engineer repair ***
-objectTemplate.repairFactor 0.2
+objectTemplate.repairFactor 0.3

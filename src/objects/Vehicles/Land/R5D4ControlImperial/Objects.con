@@ -19,7 +19,7 @@ ObjectTemplate.damageFromWater 1
 rem -------------------------------------
 ObjectTemplate.addTemplate lodR5D4ControlImperial
 rem -------------------------------------
-ObjectTemplate.setSoldierExitLocation 1/0/-1.2 -35/0/0
+ObjectTemplate.setSoldierExitLocation 0/0/2.5 -35/0/0
 ObjectTemplate.setVehicleIcon "Vehicle/icon_r5d4control.dds"
 ObjectTemplate.setVehicleIconPos 22/38
 ObjectTemplate.setNumberOfWeaponIcons 1
@@ -47,10 +47,8 @@ rem -------------------------------------
 ObjectTemplate.addTemplate R5D4Control_Entry
 ObjectTemplate.setPosition 1.062/1.075/-1.1175
 ObjectTemplate.addTemplate R5D4Control_Camera
-ObjectTemplate.setPosition 1/1.5/-1.2
-ObjectTemplate.setRotation -35/0/0
-ObjectTemplate.addTemplate R5D4Control_Seat
-ObjectTemplate.setPosition 1/1/-2
+ObjectTemplate.setPosition 0/.5/0
+ObjectTemplate.setRotation 0/0/0
 ObjectTemplate.addTemplate R5D4DroidDummyImperial
 ObjectTemplate.setPosition 0/0.27/0.08
 ObjectTemplate.addTemplate R5D4DroidLauncherImperial

@@ -40,7 +40,7 @@ ObjectTemplate.setNumberOfWeaponIcons 2
 ObjectTemplate.setPrimaryAmmoIcon "Ammo/Icon_bomb.tga"
 ObjectTemplate.setPrimaryAmmoBar ABAmmoBarReloadBar
 ObjectTemplate.setSecondaryAmmoIcon "Ammo/icon_laser_64x64.dds"
-ObjectTemplate.setSecondaryAmmoBar ABHeatBarOnly
+ObjectTemplate.setSecondaryAmmoBar ABAmmoBarHeatBar
 ObjectTemplate.setCrossHairType CHTCrossHair
 ObjectTemplate.setVehicleCategory VCLand
 ObjectTemplate.setVehicleType  VTLightTank
@@ -135,7 +135,7 @@ ObjectTemplate.setVehicleIcon "Vehicle/Icon_atst.dds"
 ObjectTemplate.setVehicleIconPos 44/18
 ObjectTemplate.setNumberOfWeaponIcons 1
 ObjectTemplate.setPrimaryAmmoIcon "Ammo/icon_laser_64x64.dds"
-ObjectTemplate.setPrimaryAmmoBar ABHeatBarOnly
+ObjectTemplate.setPrimaryAmmoBar ABAmmoBarHeatBar
 ObjectTemplate.setCrossHairType CHTCrossHair
 ObjectTemplate.setVehicleCategory VCLand
 ObjectTemplate.setVehicleType  VTLightTank

@@ -63,7 +63,7 @@ ObjectTemplate.setDifferential 12
 rem *** SpeederbikeStrafeEngine ***
 ObjectTemplate.create Engine SpeederbikeStrafeEngine
 ObjectTemplate.setNetworkableInfo SpeederbikeEngineInfo
-ObjectTemplate.loadSoundScript Sounds/SpeederbikeEngine.ssc
+rem ObjectTemplate.loadSoundScript Sounds/SpeederbikeEngine.ssc
 ObjectTemplate.hasMobilePhysics 1
 ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.hasResponsePhysics 1

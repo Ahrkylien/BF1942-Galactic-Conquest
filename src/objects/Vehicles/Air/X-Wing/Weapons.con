@@ -21,6 +21,7 @@ REM *** DAMAGE OVER DISTANCE ***
 ObjectTemplate.minDamage 0.5
 ObjectTemplate.distToStartLoseDamage 100
 ObjectTemplate.distToMinDamage 300
+ObjectTemplate.AmmoType	10
 
 rem *** XWing_Laser_Cannon_Silent ***
 ObjectTemplate.create FireArms XWing_Laser_Cannon_Silent
@@ -44,6 +45,7 @@ REM *** DAMAGE OVER DISTANCE ***
 ObjectTemplate.minDamage 0.5
 ObjectTemplate.distToStartLoseDamage 100
 ObjectTemplate.distToMinDamage 300
+ObjectTemplate.AmmoType	10
 
 rem *** XWingProtonTorpedoLauncher ***
 ObjectTemplate.create FireArms XWingProtonTorpedoLauncher
@@ -58,9 +60,9 @@ ObjectTemplate.roundOfFire 3
 ObjectTemplate.reloadtime 4
 ObjectTemplate.AltFireOnce 1
 ObjectTemplate.setInputFire c_PIAltFire
-ObjectTemplate.AmmoType	7
 ObjectTemplate.addFireArmsPosition -0.5445/-0.2366/1.2107
 ObjectTemplate.addFireArmsPosition 0.5445/-0.2366/1.2107
+ObjectTemplate.AmmoType	9
 
 rem *** Astromech_Droid_repair ***
 ObjectTemplate.create FireArms Astromech_Droid_repair

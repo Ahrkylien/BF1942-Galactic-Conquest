@@ -17,7 +17,7 @@ ObjectTemplate.setHealthBarFullIcon "Ingame/Healthbar_full_engineer_64x64.tga"
 ObjectTemplate.addWeaponIcon "Weapon/icon_axisknife.dds"
 ObjectTemplate.addWeaponIcon "Weapon/icon_speederpistol.dds"
 ObjectTemplate.addWeaponIcon "Weapon/icon_null.dds"
-ObjectTemplate.addWeaponIcon "Weapon/icon_cryoban.dds"
+ObjectTemplate.addWeaponIcon "Weapon/Icon_demokit.dds"
 ObjectTemplate.addWeaponIcon "Weapon/icon_medpack.dds"
 ObjectTemplate.addWeaponIcon "Weapon/icon_hydrospanner.dds"
 
@@ -28,9 +28,10 @@ ObjectTemplate.setKitActiveName 4 "RESPAWN_ACTIVE_ENGINEER"
 rem ObjectTemplate.addTemplate BuildEweb
 ObjectTemplate.addTemplate speederpistol
 ObjectTemplate.addTemplate KnifeAxis
-ObjectTemplate.addTemplate Cryoban
-ObjectTemplate.addTemplate medpack
+ObjectTemplate.addTemplate MedPack
 ObjectTemplate.addTemplate RepairPack
+ObjectTemplate.addTemplate Detonator
+ObjectTemplate.addTemplate ExpPack
 ObjectTemplate.addTemplate NoChute
 
 

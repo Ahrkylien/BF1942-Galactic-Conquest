@@ -1,4 +1,4 @@
-rem *** Lancer ***
+rem *** Carrack ***
 ObjectTemplate.create PlayerControlObject Carrack
 ObjectTemplate.setNetworkableInfo Carrack_Body_Info
 ObjectTemplate.saveInSeparateFile 1
@@ -16,21 +16,21 @@ ObjectTemplate.speedMod .1
 ObjectTemplate.hitpoints 5500
 ObjectTemplate.maxhitpoints 5500
 ObjectTemplate.material 821
-ObjectTemplate.criticalDamage 120
+ObjectTemplate.criticalDamage 115
 ObjectTemplate.hpLostWhileCriticalDamage 12
 ObjectTemplate.explosionForceMod 10
 ObjectTemplate.addArmorEffect 800 em_ExFumePOW 0/17/-9
 ObjectTemplate.addArmorEffect 600 em_FletcherDamage 0/0/0
 ObjectTemplate.addArmorEffect 350 em_FletcherDamage 0/0/20
 ObjectTemplate.addArmorEffect 350 em_FletcherDamage 0/0/-30
-ObjectTemplate.addArmorEffect 350 e_alarm2 0/5/100
+ObjectTemplate.addArmorEffect 300 e_carrackclax 0/-10/182
+ObjectTemplate.addArmorEffect 300 e_carrackclax 0/-20/-100
 ObjectTemplate.addArmorEffect 300 em_FletcherDamage 0/0/110
 ObjectTemplate.addArmorEffect 300 em_FletcherDamage 0/0/110
 ObjectTemplate.addArmorEffect 300 em_FletcherDamage 0/0/110
-ObjectTemplate.addArmorEffect 120 e_alarm2 0/5/100
-ObjectTemplate.addArmorEffect 120 e_waterBoatSinkEf 0/-2/-5
-ObjectTemplate.addArmorEffect 120 e_waterBoatSinkEf 0/-2/25
-ObjectTemplate.addArmorEffect 120 e_waterBoatSinkEf 0/-2/-35
+ObjectTemplate.addArmorEffect 175 e_carrackalm 0/0/180
+ObjectTemplate.addArmorEffect 175 e_carrackalm 0/0/-100
+
 rem -------------------------------------
 ObjectTemplate.addTemplate lodCarrack
 rem -------------------------------------
@@ -68,21 +68,32 @@ ObjectTemplate.lodSelector CarrackLodSelector
 rem *** LancerComplex ***
 ObjectTemplate.create Bundle CarrackComplex
 ObjectTemplate.setNetworkableInfo Carrack_Body_Info
+ObjectTemplate.loadSoundScript Sounds/capenginecarrack.ssc
 ObjectTemplate.geometry carrackbody
 ObjectTemplate.hasMobilePhysics 1
 ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.hasResponsePhysics 1
 rem -------------------------------------
-ObjectTemplate.addTemplate Carrack_Floater
+ObjectTemplate.addTemplate Capital_Floater
 ObjectTemplate.setPosition 0/0/0
-ObjectTemplate.addTemplate Carrack_Floater
+ObjectTemplate.addTemplate Capital_Floater
 ObjectTemplate.setPosition -28/0/80
-ObjectTemplate.addTemplate Carrack_Floater
+ObjectTemplate.addTemplate Capital_Floater
 ObjectTemplate.setPosition 28/0/80
-ObjectTemplate.addTemplate Carrack_Floater
+ObjectTemplate.addTemplate Capital_Floater
+ObjectTemplate.setPosition 28/0/-70
+ObjectTemplate.addTemplate Capital_Floater
 ObjectTemplate.setPosition -28/0/-70
-ObjectTemplate.addTemplate Carrack_Floater
-ObjectTemplate.setPosition -28/0/-70
+ObjectTemplate.addTemplate Capital_Wheel
+ObjectTemplate.setPosition 10/-80/10
+ObjectTemplate.addTemplate Capital_Wheel
+ObjectTemplate.setPosition -10/-80/10
+ObjectTemplate.addTemplate Capital_Wheel
+ObjectTemplate.setPosition 10/-80/-10
+ObjectTemplate.addTemplate Capital_Wheel
+ObjectTemplate.setPosition -10/-80/-10
+ObjectTemplate.addTemplate CapitalBodyWingVertical
+ObjectTemplate.setRotation 0/0/-89.999
 rem ------------------------------------
 ObjectTemplate.addTemplate axisairplaneammo
 ObjectTemplate.setPosition 6.61952/-10.7558/-26.8206
@@ -417,17 +428,16 @@ ObjectTemplate.criticalDamage 120
 ObjectTemplate.hpLostWhileCriticalDamage 12
 ObjectTemplate.explosionForceMod 10
 ObjectTemplate.addArmorEffect 800 em_ExFumePOW 0/17/-9
-ObjectTemplate.addArmorEffect 800 em_FletcherDamage 0/0/0
-ObjectTemplate.addArmorEffect 800 em_FletcherDamage 0/0/20
-ObjectTemplate.addArmorEffect 800 em_FletcherDamage 0/0/-30
-ObjectTemplate.addArmorEffect 800 e_alarm2 0/5/100
-ObjectTemplate.addArmorEffect 800 em_FletcherDamage 0/0/110
-ObjectTemplate.addArmorEffect 800 em_FletcherDamage 0/0/110
-ObjectTemplate.addArmorEffect 800 em_FletcherDamage 0/0/110
-ObjectTemplate.addArmorEffect 500 e_alarm2 0/5/100
-ObjectTemplate.addArmorEffect 120 e_waterBoatSinkEf 0/-2/-5
-ObjectTemplate.addArmorEffect 120 e_waterBoatSinkEf 0/-2/25
-ObjectTemplate.addArmorEffect 120 e_waterBoatSinkEf 0/-2/-35
+ObjectTemplate.addArmorEffect 600 em_FletcherDamage 0/0/0
+ObjectTemplate.addArmorEffect 350 em_FletcherDamage 0/0/20
+ObjectTemplate.addArmorEffect 350 em_FletcherDamage 0/0/-30
+ObjectTemplate.addArmorEffect 300 e_carrackclax 0/-10/182
+ObjectTemplate.addArmorEffect 300 e_carrackclax 0/-20/-100
+ObjectTemplate.addArmorEffect 300 em_FletcherDamage 0/0/110
+ObjectTemplate.addArmorEffect 300 em_FletcherDamage 0/0/110
+ObjectTemplate.addArmorEffect 300 em_FletcherDamage 0/0/110
+ObjectTemplate.addArmorEffect 175 e_carrackalm 0/0/180
+ObjectTemplate.addArmorEffect 175 e_carrackalm 0/0/-100
 rem -------------------------------------
 ObjectTemplate.addTemplate lodCarrack2
 rem -------------------------------------
@@ -462,21 +472,32 @@ ObjectTemplate.lodSelector Carrack2LodSelector
 rem *** LancerComplex ***
 ObjectTemplate.create Bundle CarrackComplex2
 ObjectTemplate.setNetworkableInfo Carrack_Body_Info
+ObjectTemplate.loadSoundScript Sounds/capenginecarrack.ssc
 ObjectTemplate.geometry carrackbody
 ObjectTemplate.hasMobilePhysics 1
 ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.hasResponsePhysics 1
 rem -------------------------------------
-ObjectTemplate.addTemplate Carrack_Floater
+ObjectTemplate.addTemplate Capital_Floater
 ObjectTemplate.setPosition 0/0/0
-ObjectTemplate.addTemplate Carrack_Floater
+ObjectTemplate.addTemplate Capital_Floater
 ObjectTemplate.setPosition -28/0/80
-ObjectTemplate.addTemplate Carrack_Floater
+ObjectTemplate.addTemplate Capital_Floater
 ObjectTemplate.setPosition 28/0/80
-ObjectTemplate.addTemplate Carrack_Floater
+ObjectTemplate.addTemplate Capital_Floater
+ObjectTemplate.setPosition 28/0/-70
+ObjectTemplate.addTemplate Capital_Floater
 ObjectTemplate.setPosition -28/0/-70
-ObjectTemplate.addTemplate Carrack_Floater
-ObjectTemplate.setPosition -28/0/-70
+ObjectTemplate.addTemplate Capital_Wheel
+ObjectTemplate.setPosition 10/-80/10
+ObjectTemplate.addTemplate Capital_Wheel
+ObjectTemplate.setPosition -10/-80/10
+ObjectTemplate.addTemplate Capital_Wheel
+ObjectTemplate.setPosition 10/-80/-10
+ObjectTemplate.addTemplate Capital_Wheel
+ObjectTemplate.setPosition -10/-80/-10
+ObjectTemplate.addTemplate CapitalBodyWingVertical
+ObjectTemplate.setRotation 0/0/-89.999
 rem ------------------------------------
 ObjectTemplate.addTemplate axisairplaneammo
 ObjectTemplate.setPosition 6.61952/-10.7558/-26.8206

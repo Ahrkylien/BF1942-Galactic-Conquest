@@ -4,8 +4,8 @@ ObjectTemplate.setNetworkableInfo Ewing_body_info
 ObjectTemplate.saveInSeparateFile 1
 ObjectTemplate.hasMobilePhysics 1
 ObjectTemplate.hasDynamicShadow 1
-ObjectTemplate.drag 0.068
-ObjectTemplate.mass 2500
+ObjectTemplate.drag 0.29
+ObjectTemplate.mass 2700
 ObjectTemplate.inertiaModifier 0.775/0.825/0.825
 ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.hasResponsePhysics 1
@@ -14,8 +14,8 @@ ObjectTemplate.explosionDamage 5
 ObjectTemplate.hasArmor 1
 ObjectTemplate.angleMod 1
 ObjectTemplate.speedMod 1
-ObjectTemplate.hitpoints 180
-ObjectTemplate.maxhitpoints 180
+ObjectTemplate.hitpoints 110
+ObjectTemplate.maxhitpoints 110
 ObjectTemplate.material 801
 ObjectTemplate.criticalDamage 18
 ObjectTemplate.hpLostWhileCriticalDamage 1.8
@@ -26,26 +26,24 @@ ObjectTemplate.addArmorEffect 36 em_MustangDamage 0/0.102/2.11
 ObjectTemplate.addArmorEffect 36 em_PlaneDamage 0/0.103/2.61
 ObjectTemplate.addArmorEffect 18 e_MustangFire 0/0.6/2.11
 ObjectTemplate.addArmorEffect 0 e_ExplGas 0/0/0
-ObjectTemplate.addArmorEffect 0 e_scrapmetal_Mustang 0/0/0
 ObjectTemplate.addArmorEffect -1 WaterWaterExplosion 0/0/0
 ObjectTemplate.damageFromWater 1
 ObjectTemplate.aiTemplate Mustang
 rem -------------------------------------
 ObjectTemplate.addTemplate lodEwing
 rem -------------------------------------
-ObjectTemplate.setSoldierExitLocation -1.5/0/-1 0/0/0
+ObjectTemplate.setSoldierExitLocation -1/0/0 0/0/0
 ObjectTemplate.GUIIndex 32
-ObjectTemplate.setVehicleIcon "Vehicle/Icon_mustang.tga"
+ObjectTemplate.setVehicleIcon "Vehicle/Icon_ewing.dds"
 ObjectTemplate.setVehicleIconPos 62/93
-ObjectTemplate.setNumberOfWeaponIcons 2
-ObjectTemplate.setPrimaryAmmoIcon "Ammo/Icon_bullet.tga"
+ObjectTemplate.setNumberOfWeaponIcons 1
+ObjectTemplate.setPrimaryAmmoIcon "Ammo/icon_laser_64x64.tga"
 ObjectTemplate.setPrimaryAmmoBar ABAmmoBar
-ObjectTemplate.setSecondaryAmmoIcon "Ammo/Icon_bomb.tga"
-ObjectTemplate.setSecondaryAmmoBar ABAmmoBarReloadBar
 ObjectTemplate.setCrossHairType CHTIcon
 ObjectTemplate.setVehicleCategory VCAir
 ObjectTemplate.setVehicleType  VTFighter
 ObjectTemplate.setToolTipType  TTFighter
+ObjectTemplate.setMinimapIcon "minimap/minimap_icon_x-wing_16x16.dds"
 
 rem *** lodEwing ***
 ObjectTemplate.create LodObject lodEwing
@@ -67,7 +65,7 @@ ObjectTemplate.hasResponsePhysics 1
 rem -------------------------------------
 ObjectTemplate.addTemplate lodEwingCockpit
 ObjectTemplate.addTemplate EwingCamera
-ObjectTemplate.setPosition 0/1/-1.8
+ObjectTemplate.setPosition 0/1/-.2
 ObjectTemplate.addTemplate EwingEntry
 ObjectTemplate.setPosition 0/0/-0.499
 ObjectTemplate.addTemplate EwingSeat
@@ -75,8 +73,6 @@ ObjectTemplate.setPosition 0/0.45/-1.2
 ObjectTemplate.addTemplate EwingEngine
 ObjectTemplate.setPosition 0/0.5/5
 ObjectTemplate.addTemplate EwingGuns
-ObjectTemplate.addTemplate EwingBombDummy
-ObjectTemplate.setPosition 0/0/0
 
 ObjectTemplate.addTemplate EWingVTOLEngineRack
 ObjectTemplate.setPosition 4.5/1.5/4.5
@@ -100,30 +96,32 @@ ObjectTemplate.setPosition 3/-2/-3.5
 ObjectTemplate.addTemplate DummyWheel
 ObjectTemplate.setPosition -3/-2/-3.5
 
-ObjectTemplate.addTemplate EWingFlaps1
-ObjectTemplate.setPosition -1.862/0.003/0.15
-ObjectTemplate.setRotation 5.859/0/-4.437
-ObjectTemplate.addTemplate EWingFlaps2
-ObjectTemplate.setPosition 1.863/0.003/0.15
-ObjectTemplate.setRotation -5.858/0/4.438
-ObjectTemplate.addTemplate EWingRudderBackVertical
-ObjectTemplate.setPosition 0/1.339/-4.679
-ObjectTemplate.setRotation 0/0/-89.999
+ObjectTemplate.addTemplate EWingWing_L
+ObjectTemplate.setPosition -2.736/-0.216/-0.699
+ObjectTemplate.setRotation 13/0/-9.498
+ObjectTemplate.addTemplate EWingWing_R
+ObjectTemplate.setPosition 2.741/-0.216/-0.699
+ObjectTemplate.setRotation -12.998/0/9
+ObjectTemplate.addTemplate EWingRollWing_L
+ObjectTemplate.setPosition -5.357/0/0.048
+ObjectTemplate.setRotation 18.4/0/-8.999
+ObjectTemplate.addTemplate EWingRollWing_R
+ObjectTemplate.setPosition 5.362/0/0.048
+ObjectTemplate.setRotation -18.399/0/9.5
+ObjectTemplate.addTemplate EWingPitchWing_L
+ObjectTemplate.setPosition -1.263/0.8/-5.877
+ObjectTemplate.setRotation 0/-1.7/0
+ObjectTemplate.addTemplate EWingPitchWing_R
+ObjectTemplate.setPosition 1.266/0.8/-5.877
+ObjectTemplate.setRotation 0/-1.7/0
+ObjectTemplate.addTemplate EWingYawWing
+ObjectTemplate.setPosition 0/1.088/-6.067
+ObjectTemplate.setRotation 0/0/-89.998
 ObjectTemplate.addTemplate EWingBodyWingVertical
-ObjectTemplate.setPosition 0/0/0.3
 ObjectTemplate.setRotation 0/0/-89.999
-ObjectTemplate.addTemplate EWingRudderBackLeft
-ObjectTemplate.setPosition -1.015/0.869/-4.039
-ObjectTemplate.addTemplate EWingRudderBackRight
-ObjectTemplate.setPosition 1.014/0.87/-4.035
-ObjectTemplate.addTemplate EWingRudderFrontLeft
-ObjectTemplate.setPosition -4.29/0.195/0.32
-ObjectTemplate.setRotation 6.652/0/-4.412
-ObjectTemplate.addTemplate EWingRudderFrontRight
-ObjectTemplate.setPosition 4.291/0.195/0.32
-ObjectTemplate.setRotation -6.651/0/4.413
+
 ObjectTemplate.addTemplate EWingEngine
-ObjectTemplate.setPosition 0/0.5/4
+ObjectTemplate.setPosition 0/0/4
 
 rem *** lodEwingCockpit ***
 ObjectTemplate.create LodObject lodEwingCockpit
@@ -139,7 +137,7 @@ ObjectTemplate.hasDynamicShadow 1
 ObjectTemplate.geometry EWing_Fus_M1
 rem -------------------------------------
 rem ObjectTemplate.addTemplate EwingCockpit
-rem ObjectTemplate.setPosition 0/0.821/-0.271
+rem ObjectTemplate.setPosition 0/-0.05/0
 rem -------------------------------------
 
 rem *** EwingCockpit ***
@@ -180,11 +178,9 @@ ObjectTemplate.geometry EWing_Fus_L1
 
 rem *** EwingWreck ***
 ObjectTemplate.create SimpleObject EwingWreck
-ObjectTemplate.geometry Wreck_EWing1_M1
-ObjectTemplate.addTemplate e_MustangFire 0/0.6/2.11
-ObjectTemplate.startoneffects 1
+ObjectTemplate.geometry Wreck_Null
 
 rem *** EwingLodSelector ***
 LodSelectorTemplate.create DistCompareSelector2 EwingLodSelector
 LodSelectorTemplate.hasDestroyedLod 1
-LodSelectorTemplate.addLodDistance 200
+LodSelectorTemplate.addLodDistance 800

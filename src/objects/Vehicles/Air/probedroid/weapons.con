@@ -17,6 +17,7 @@ REM *** DAMAGE OVER DISTANCE ***
 ObjectTemplate.minDamage 0.5
 ObjectTemplate.distToStartLoseDamage 50
 ObjectTemplate.distToMinDamage 200
+ObjectTemplate.AmmoType	8
 
 rem *** probedroidSpy ***
 ObjectTemplate.create FireArms probedroidSpy

@@ -5,7 +5,7 @@ ObjectTemplate.itemIndex 3
 ObjectTemplate.projectileTemplate RocketProjectile1
 ObjectTemplate.projectilePosition 0/0/0
 ObjectTemplate.ForceOnExplosion 2
-ObjectTemplate.magSize 2
+ObjectTemplate.magSize 4
 ObjectTemplate.numOfMag 4
 ObjectTemplate.magType 0
 ObjectTemplate.autoReload 1
@@ -31,7 +31,7 @@ ObjectTemplate.useScope 1
 ObjectTemplate.setScopeIcon "plx_launcher.tga"
 
 Rem *** Deviation Begin *****
-ObjectTemplate.velocity 72
+ObjectTemplate.velocity 35
 
 ObjectTemplate.setRecoilForceUp CRD_UNIFORM/0.25/0.3/0
 ObjectTemplate.setRecoilForceLeftRight CRD_UNIFORM/-0.15/0.15/0

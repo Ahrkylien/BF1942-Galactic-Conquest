@@ -8,8 +8,8 @@ ObjectTemplate.visibleBarrelTemplate e_MuzzHeavy
 rem -------------------------------------
 ObjectTemplate.projectileTemplate MediumLaserProjectileRedS
 ObjectTemplate.projectilePosition 0/0/2
-ObjectTemplate.magSize -1
-ObjectTemplate.numOfMag 999
+ObjectTemplate.magSize 600
+ObjectTemplate.numOfMag 1
 ObjectTemplate.velocity 600
 ObjectTemplate.reloadtime 0.0001
 ObjectTemplate.autoReload 1
@@ -17,13 +17,14 @@ ObjectTemplate.roundOfFire 2.7
 ObjectTemplate.addFireArmsPosition 0.15/0.225/1.8 0/0/0
 ObjectTemplate.addFireArmsPosition -0.15/0.225/1.8 0/0/0
 REM *** OVERHEAT *** 
-objectTemplate.heatAddWhenFire 0.05
-objectTemplate.coolDownPerSec 0.7
-objectTemplate.timeDelayOnOverHeat 2
+objectTemplate.heatAddWhenFire 0.065
+objectTemplate.coolDownPerSec 0.6
+objectTemplate.timeDelayOnOverHeat 3
 REM *** DAMAGE OVER DISTANCE ***
 ObjectTemplate.minDamage 0.5
 ObjectTemplate.distToStartLoseDamage 250
 ObjectTemplate.distToMinDamage 500
+ObjectTemplate.AmmoType	8
 
 rem ------------------------------------------------
 
@@ -34,7 +35,7 @@ ObjectTemplate.setNetworkableInfo PlaneFireArmInfo
 ObjectTemplate.projectileTemplate ATSTGrenadeLauncherProjectile
 ObjectTemplate.projectilePosition 0/0/0.25
 ObjectTemplate.magSize 2
-ObjectTemplate.numOfMag 10
+ObjectTemplate.numOfMag 5
 ObjectTemplate.velocity 50
 ObjectTemplate.reloadtime 6
 ObjectTemplate.roundOfFire 0.3
@@ -42,6 +43,7 @@ ObjectTemplate.autoReload 1
 ObjectTemplate.AltFireOnce 1
 ObjectTemplate.setinputfire c_PIAltFire
 ObjectTemplate.addFireArmsPosition -1.5238/0.3561/0.7561 0/0/0
+ObjectTemplate.AmmoType	7
 
 rem *** ATSTGrenadeLauncherProjectile ***
 ObjectTemplate.create Projectile ATSTGrenadeLauncherProjectile 
@@ -68,20 +70,21 @@ ObjectTemplate.geometry ATSTRGun
 rem -------------------------------------
 ObjectTemplate.visibleBarrelTemplate e_MuzzHeavy
 rem -------------------------------------
-ObjectTemplate.projectileTemplate StrongLaserProjectileRedNS
-ObjectTemplate.magSize -1
+ObjectTemplate.projectileTemplate MediumLaserProjectileRedNS
+ObjectTemplate.magSize 400
 ObjectTemplate.magType 0
-ObjectTemplate.numOfMag 999
+ObjectTemplate.numOfMag 1
 ObjectTemplate.velocity 700
 ObjectTemplate.reloadtime 0.0001
 ObjectTemplate.roundOfFire 3.7
 ObjectTemplate.addFireArmsPosition 0/0/0.65 0/0/0
 REM *** OVERHEAT *** 
-objectTemplate.heatAddWhenFire 0.055
-objectTemplate.coolDownPerSec 0.85
-objectTemplate.timeDelayOnOverHeat 2
+objectTemplate.heatAddWhenFire 0.065
+objectTemplate.coolDownPerSec 0.6
+objectTemplate.timeDelayOnOverHeat 3
 REM *** DAMAGE OVER DISTANCE ***
 ObjectTemplate.minDamage 0.5
 ObjectTemplate.distToStartLoseDamage 250
 ObjectTemplate.distToMinDamage 500
+ObjectTemplate.AmmoType	8
 

@@ -18,7 +18,7 @@ MaterialManager.setEffectTemplate e_ExplBazooka
 
 MaterialManager.attGroup 539
 MaterialManager.defGroup 811
-MaterialManager.damageMod 2
+MaterialManager.damageMod 3
 MaterialManager.setEffectTemplate e_ExplBazooka
 
 MaterialManager.attGroup 539

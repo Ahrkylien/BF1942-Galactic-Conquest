@@ -24,6 +24,7 @@ REM *** DAMAGE OVER DISTANCE ***
 ObjectTemplate.minDamage 0.5
 ObjectTemplate.distToStartLoseDamage 100
 ObjectTemplate.distToMinDamage 300
+ObjectTemplate.AmmoType	8
 
 rem *** TieBombRack ***
 ObjectTemplate.create FireArms TieBombRack
@@ -33,9 +34,10 @@ ObjectTemplate.projectileTemplate TieBomb
 ObjectTemplate.projectilePosition -1.7/-1/-0.2
 ObjectTemplate.magSize 30
 ObjectTemplate.numOfMag 1
-ObjectTemplate.velocity 50
+ObjectTemplate.velocity 16
 ObjectTemplate.roundOfFire 2
 ObjectTemplate.setInputFire c_PIAltFire
 ObjectTemplate.fireingForce 1
+ObjectTemplate.AmmoType	7
 
 

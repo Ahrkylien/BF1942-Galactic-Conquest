@@ -32,7 +32,7 @@ ObjectTemplate.setTeam 2
 
 ObjectTemplate.create TimerObjective Timer
 ObjectTemplate.setNetworkableInfo ObjectiveInfo
-ObjectTemplate.TimeLimit 3100.0
+ObjectTemplate.TimeLimit 1800
 ObjectTemplate.setObjectiveDelay 3.0
 ObjectTemplate.setTeam 1
 

@@ -52,6 +52,21 @@ ObjectTemplate.setGearUp 0.3
 ObjectTemplate.setGearDown 0.3
 ObjectTemplate.setNoPropellerEffectAtSpeed 190
 
+rem *** LandspeederDownforceEngine ***
+ObjectTemplate.create Engine LanspeederDwnEngine
+ObjectTemplate.setNetworkableInfo LandspeederEngineInfo
+rem --------------------------------------
+rem --------------------------------------
+ObjectTemplate.setMinRotation 0/0/99
+ObjectTemplate.setMaxRotation 0/0/100
+ObjectTemplate.setMaxSpeed 0/0/200
+ObjectTemplate.setAcceleration 0/0/1500
+ObjectTemplate.setInputToRoll c_PIThrottle
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setEngineType c_ETPlane
+ObjectTemplate.setTorque 30
+ObjectTemplate.setDifferential 12
+
 
 
 

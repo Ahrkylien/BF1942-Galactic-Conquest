@@ -6,11 +6,12 @@ ObjectTemplate.geometry speedergun
 ObjectTemplate.setHasCollisionPhysics 1
 ObjectTemplate.networkableInfo KitInfo
 
+
 ObjectTemplate.setHealthBarIcon "Ingame/Healthbar_empty_assault_64x64.tga"
 ObjectTemplate.setHealthBarFullIcon "Ingame/Healthbar_full_assault_64x64.tga"
-ObjectTemplate.addWeaponIcon "Weapon/icon_null.dds"
-ObjectTemplate.addWeaponIcon "Weapon/icon_null.dds"
+ObjectTemplate.addWeaponIcon "Weapon/icon_axisknife.dds"
 ObjectTemplate.addWeaponIcon "Weapon/icon_speederpistol.dds"
+ObjectTemplate.addWeaponIcon "Weapon/icon_null.dds"
 ObjectTemplate.addWeaponIcon "Weapon/icon_null.dds"
 ObjectTemplate.addWeaponIcon "Weapon/icon_null.dds"
 
@@ -19,7 +20,7 @@ ObjectTemplate.setKitName 1 "RESPAWN_ASSAULT"
 ObjectTemplate.setKitActiveName 1 "RESPAWN_ACTIVE_ASSAULT"
 
 ObjectTemplate.addTemplate SpeederPistol
+ObjectTemplate.addTemplate KnifeAxis
 ObjectTemplate.addTemplate NoChute
 
 ObjectTemplate.aiTemplate  Assault
-

@@ -28,7 +28,7 @@ ObjectTemplate.setAmomBarPosY -17
 ObjectTemplate.setAmomBarTextPosX 5
 ObjectTemplate.setAmomBarTextPosY 10
 ObjectTemplate.setSniperSight 1
-ObjectTemplate.setCrossHairType CHTCrossHair
+ObjectTemplate.setCrossHairType CHTNone
 ObjectTemplate.soldierZoomFov 0.6 
 ObjectTemplate.soldierZoomPosition -0.07/0/0
 ObjectTemplate.soldierCameraPosition -0.02/-0.03/0.01

@@ -15906,9 +15906,7 @@ BESONDERHEIT: Auf dieser Karte können beide Stützpunkte erobert werden.</col>
     <col language="Chinese">西邊前哨基地 </col>
   </entry>
   <entry word="GCMOD_INFO">
-    <col language="English">There is unrest in the Galactic Senate several hundred solar systems have declared their intentions to leave the Republic. This separatist movement has made it difficult for the limited number of Jedi Knights to maintain peace and order in the galaxy. The Galactic Senate are to vote on the critical issue of creating an Army of the Republic to assist the overwhelmed Jedi.
-As a young man in the Galaxy it is time to choose your path in the great struggle to restore peace and order to the Galaxy
-May the force be with you</col>
+    <col language="English">It is a period of civil war.  The Galactic Empire faces a constant threat from Rebel forces, who wish to to bring freedom to all those oppressed by the Empire.  You must choose whether your allegiance lies with the Empire, or with the underdog Rebels.  Imperials : Get those Rebel scum!  Rebels: May the Force be with you.</col>
     <col language="French">Avant-poste ouest</col>
     <col language="Italian">Avamposto ovest</col>
     <col language="Spanish">Puesto occidental</col>
@@ -15997,14 +15995,14 @@ May the force be with you</col>
     <col language="Korean">서쪽 망루</col>
     <col language="Chinese">西邊前哨基地 </col>
   </entry>
-  <entry word="MULTIPLAYER_MAP_TYPE_OBJECTIVE_MAP">
-    <col language="English">OBJECTIVE MAP</col>
-    <col language="French">CARTE OBJECTIVE</col>
-    <col language="Italian">MAPPA OBIETTIVO</col>
-    <col language="Spanish">MAPA OBJETIVO</col>
-    <col language="German">FRONTALANGRIFF-KARTE</col>
-    <col language="Japanese">ヘッドオンマップ</col>
-    <col language="Korean">정면대결 맵</col>
-    <col language="Chinese">全面衝突地圖</col>
+  <entry word="MULTIPLAYER_BRIEFING_MONCAL">
+    <col language="English">Mon Calamari has fallen under attack by Imperial Forces, eager to extract vengeance on the world's natives for their active role in the Rebellion. With the World Devastators on the far side of the planet, light imperial forces wage battle over vital city access docks and strategic defense locations.</col>
+    <col language="French">Avant-poste ouest</col>
+    <col language="Italian">Avamposto ovest</col>
+    <col language="Spanish">Puesto occidental</col>
+    <col language="German">Westlicher Außenposten</col>
+    <col language="Japanese">西の前哨地点</col>
+    <col language="Korean">서쪽 망루</col>
+    <col language="Chinese">西邊前哨基地 </col>
   </entry>
 </lexicon>

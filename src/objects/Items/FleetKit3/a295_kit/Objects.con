@@ -4,10 +4,10 @@ ObjectTemplate.setKitTeam 2
 
 ObjectTemplate.setHealthBarIcon "Ingame/reb_Healthbar_empty_assault_64x64.tga"
 ObjectTemplate.setHealthBarFullIcon "Ingame/reb_Healthbar_full_assault_64x64.tga"
-ObjectTemplate.addWeaponIcon "Weapon/icon_null.dds"
-ObjectTemplate.addWeaponIcon "Weapon/icon_null.dds"
+ObjectTemplate.addWeaponIcon "Weapon/icon_alliesknife.dds"
 ObjectTemplate.addWeaponIcon "Weapon/icon_null.dds"
 ObjectTemplate.addWeaponIcon "Weapon/icon_a295.dds"
+ObjectTemplate.addWeaponIcon "Weapon/icon_null.dds"
 ObjectTemplate.addWeaponIcon "Weapon/icon_null.dds"
 
 ObjectTemplate.setKitIcon 1 "kits/Icon_assault_allies_selected.tga"
@@ -19,8 +19,8 @@ ObjectTemplate.setHasCollisionPhysics 1
 ObjectTemplate.networkableInfo KitInfo
 
 ObjectTemplate.addTemplate A295
-rem ObjectTemplate.addTemplate Dl44
 
+ObjectTemplate.addTemplate KnifeAllies
 ObjectTemplate.addTemplate NoChute
 
 ObjectTemplate.aitemplate Assault

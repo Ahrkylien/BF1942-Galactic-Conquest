@@ -29,7 +29,7 @@ rem -------------------------------------
 ObjectTemplate.addFireArmsPosition 0.1/-0.14/0 0/0/0
 ObjectTemplate.addFireArmsPosition -0.1/-0.14/0 0/0/0
 rem -------------------------------------
-ObjectTemplate.AmmoType	3
+ObjectTemplate.AmmoType	7
 
 rem *** SkiffProjectile ***
 ObjectTemplate.create Projectile SkiffProjectile

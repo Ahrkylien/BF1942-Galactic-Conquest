@@ -32,8 +32,8 @@ rem * *************************************************
 
 MaterialManager.attGroup 553
 MaterialManager.setCell 40 7
-MaterialManager.setCell 41 2 
-MaterialManager.setCell 42 2 
+MaterialManager.setCell 41 4
+MaterialManager.setCell 42 4
 
 rem * *************************************************
 rem *		scout cars target

@@ -927,6 +927,7 @@ rem
 Object.create windtower3
 Object.absolutePosition 3523.73/200.818/2187.32
 Object.Rotation 0/0/0
+rem
 rem ***  ***
 rem
 Object.create tat_skiff_static
@@ -1098,6 +1099,7 @@ Object.absolutePosition 615.973/76.084/3349.79
 Object.Rotation 34/0/0
 Object.geometry.scale 0.98/0.98/0.98
 rem
+rem ***  ***
 rem
 Object.create citywall2
 Object.absolutePosition 3366.45/14.8507/3556.9

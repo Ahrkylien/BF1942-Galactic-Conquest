@@ -34,11 +34,11 @@ ObjectTemplate.setIsFirstPersonPart 1
 
 ObjectTemplate.addTemplate USSoldierRightHand
 ObjectTemplate.setIsFirstPersonPart 0
-ObjectTemplate.setLodValue 0.03
+
 
 ObjectTemplate.addTemplate USSoldierLeftHand
 ObjectTemplate.setIsFirstPersonPart 0
-ObjectTemplate.setLodValue 0.03
+
 
 ObjectTemplate.addTemplate 1pUSSoldierRightHand
 ObjectTemplate.setIsFirstPersonPart 1

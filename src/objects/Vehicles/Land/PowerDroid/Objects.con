@@ -30,10 +30,14 @@ ObjectTemplate.loadSoundScript ../../../Common/Sounds/SupplyDepot.ssc
 
 rem *** powerdroidVehicleSupplyDepot ***
 ObjectTemplate.create SupplyDepot powerdroidVehicleSupplyDepot
-ObjectTemplate.radius 15
+ObjectTemplate.radius 20
 ObjectTemplate.team 0
 ObjectTemplate.setHealth 0 0 0
 ObjectTemplate.addAmmoType 0 -1 20 0
+ObjectTemplate.addAmmoType 10 -1 100 0
+ObjectTemplate.addAmmoType 9 -1 4 0
+ObjectTemplate.addAmmoType 8 -1 100 0
+ObjectTemplate.addAmmoType 7 -1 4 0
 ObjectTemplate.workOnVehicles 1
 ObjectTemplate.workOnSoldiers 0
 ObjectTemplate.loadSoundScript ../../../Common/Sounds/SupplyDepot.ssc

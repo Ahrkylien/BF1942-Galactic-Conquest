@@ -30,7 +30,7 @@ rem
 rem ***  ***
 rem
 Object.create droids
-Object.absolutePosition 647.889/141.761/1570.32
+Object.absolutePosition 647.889/141.978/1570.32
 Object.setOSId 5
 rem
 rem ***  ***
@@ -97,14 +97,14 @@ rem
 rem ***  ***
 rem
 Object.create droids
-Object.absolutePosition 1896.06/57.3258/1689.89
+Object.absolutePosition 1896.06/57.5151/1689.89
 Object.rotation -101/0/0
 Object.setTeam 1
 rem
 rem ***  ***
 rem
 Object.create droids
-Object.absolutePosition 149.433/40.1343/1217.14
+Object.absolutePosition 149.433/40.3316/1217.14
 Object.rotation -245/0/0
 Object.setTeam 1
 rem
@@ -132,7 +132,7 @@ rem
 rem ***  ***
 rem
 Object.create droids
-Object.absolutePosition 1419.81/120.093/1008.09
+Object.absolutePosition 1419.81/120.307/1008.09
 Object.rotation 178/0/0
 Object.setOSId 1
 rem

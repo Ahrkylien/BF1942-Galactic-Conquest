@@ -25,13 +25,11 @@ ObjectTemplate.addArmorEffect 240 em_FletcherDamage 0/0/0
 ObjectTemplate.addArmorEffect 240 em_FletcherDamage 0/0/20
 ObjectTemplate.addArmorEffect 240 em_FletcherDamage 0/0/-30
 ObjectTemplate.addArmorEffect 240 e_alarm1 0/5/60
-ObjectTemplate.addArmorEffect 240 e_alarm1 0/5/20
 ObjectTemplate.addArmorEffect 240 e_alarm1 0/5/-20
 ObjectTemplate.addArmorEffect 120 em_FletcherDamage 0/0/0
 ObjectTemplate.addArmorEffect 120 em_FletcherDamage 0/0/20
 ObjectTemplate.addArmorEffect 120 em_FletcherDamage 0/0/-30
 ObjectTemplate.addArmorEffect 120 e_alarm1 0/5/60
-ObjectTemplate.addArmorEffect 120 e_alarm1 0/5/20
 ObjectTemplate.addArmorEffect 120 e_alarm1 0/5/-20
 ObjectTemplate.addArmorEffect 120 e_waterBoatSinkEf 0/-2/-5
 ObjectTemplate.addArmorEffect 120 e_waterBoatSinkEf 0/-2/25
@@ -70,21 +68,30 @@ ObjectTemplate.lodSelector RunnerLodSelector
 rem *** RunnerComplex ***
 ObjectTemplate.create Bundle RunnerComplex
 ObjectTemplate.setNetworkableInfo Runner_body_info
+ObjectTemplate.loadSoundScript Sounds/capenginerunner.ssc
 ObjectTemplate.geometry runnerbody
 ObjectTemplate.hasMobilePhysics 1
 ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.hasResponsePhysics 1
 rem -------------------------------------
-ObjectTemplate.addTemplate Runner_Floater
+ObjectTemplate.addTemplate Capital_Floater
 ObjectTemplate.setPosition 0/0/0
-ObjectTemplate.addTemplate Runner_Floater
+ObjectTemplate.addTemplate Capital_Floater
 ObjectTemplate.setPosition -28/0/80
-ObjectTemplate.addTemplate Runner_Floater
+ObjectTemplate.addTemplate Capital_Floater
 ObjectTemplate.setPosition 28/0/80
-ObjectTemplate.addTemplate Runner_Floater
+ObjectTemplate.addTemplate Capital_Floater
+ObjectTemplate.setPosition 28/0/-70
+ObjectTemplate.addTemplate Capital_Floater
 ObjectTemplate.setPosition -28/0/-70
-ObjectTemplate.addTemplate Runner_Floater
-ObjectTemplate.setPosition -28/0/-70
+ObjectTemplate.addTemplate Capital_Wheel
+ObjectTemplate.setPosition 10/-45/10
+ObjectTemplate.addTemplate Capital_Wheel
+ObjectTemplate.setPosition -10/-45/10
+ObjectTemplate.addTemplate Capital_Wheel
+ObjectTemplate.setPosition 10/-45/-10
+ObjectTemplate.addTemplate Capital_Wheel
+ObjectTemplate.setPosition -10/-45/-10
 rem ------------------------------------
 ObjectTemplate.addTemplate RunnerSeat
 ObjectTemplate.setPosition 0/4/74.1
@@ -136,6 +143,9 @@ ObjectTemplate.setRotation -90/0/0
 ObjectTemplate.addTemplate RunnerVEngine
 ObjectTemplate.setPosition 0/0/0
 ObjectTemplate.setRotation 0/270/0
+ObjectTemplate.addTemplate CapitalBodyWingVertical
+ObjectTemplate.setRotation 0/0/-89.999
+
 
 rem -----------------------------------------------------------------------------------------------
 rem ------------------------------------------- Create PCOs ------------------------------------
@@ -442,6 +452,7 @@ rem ----------------------------------------------------------------------------
 rem *** BlockadeRunner ***
 ObjectTemplate.create PlayerControlObject Runner2
 ObjectTemplate.setNetworkableInfo Runner_Body_Info
+ObjectTemplate.loadSoundScript Sounds/capenginerunner.ssc
 ObjectTemplate.saveInSeparateFile 1
 ObjectTemplate.hasMobilePhysics 1
 ObjectTemplate.hasDynamicShadow 1
@@ -466,13 +477,11 @@ ObjectTemplate.addArmorEffect 240 em_FletcherDamage 0/0/0
 ObjectTemplate.addArmorEffect 240 em_FletcherDamage 0/0/20
 ObjectTemplate.addArmorEffect 240 em_FletcherDamage 0/0/-30
 ObjectTemplate.addArmorEffect 240 e_alarm1 0/5/60
-ObjectTemplate.addArmorEffect 240 e_alarm1 0/5/20
 ObjectTemplate.addArmorEffect 240 e_alarm1 0/5/-20
 ObjectTemplate.addArmorEffect 120 em_FletcherDamage 0/0/0
 ObjectTemplate.addArmorEffect 120 em_FletcherDamage 0/0/20
 ObjectTemplate.addArmorEffect 120 em_FletcherDamage 0/0/-30
 ObjectTemplate.addArmorEffect 120 e_alarm1 0/5/60
-ObjectTemplate.addArmorEffect 120 e_alarm1 0/5/20
 ObjectTemplate.addArmorEffect 120 e_alarm1 0/5/-20
 ObjectTemplate.addArmorEffect 120 e_waterBoatSinkEf 0/-2/-5
 ObjectTemplate.addArmorEffect 120 e_waterBoatSinkEf 0/-2/25

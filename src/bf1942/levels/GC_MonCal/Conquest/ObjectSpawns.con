@@ -1,0 +1,181 @@
+rem
+rem ***  ***
+rem
+Object.create TLPerminant
+Object.absolutePosition 330.8/109.82/1673.03
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create tiexwing
+Object.absolutePosition 363.534/108.342/1690.43
+Object.rotation 67/0/0
+Object.setOSId 1
+rem
+rem ***  ***
+rem
+Object.create tiexwing
+Object.absolutePosition 1338.05/112.325/1373.52
+Object.rotation -254/0/0
+Object.setOSId 2
+rem
+rem ***  ***
+rem
+Object.create shipspawns
+Object.absolutePosition 1503.87/93.9282/1431.44
+Object.rotation -306/0/0
+Object.setOSId 2
+rem
+rem ***  ***
+rem
+Object.create shipspawns
+Object.absolutePosition 1458.11/94.3759/1471.37
+Object.rotation -335/0/0
+Object.setOSId 2
+rem
+rem ***  ***
+rem
+Object.create shipspawns
+Object.absolutePosition 1448.87/94.0368/1249.61
+Object.rotation -580/0/0
+Object.setOSId 3
+rem
+rem ***  ***
+rem
+Object.create shipspawns
+Object.absolutePosition 1401.19/94.3272/1242.69
+Object.rotation -495/0/0
+Object.setOSId 3
+rem
+rem ***  ***
+rem
+Object.create tiexwing
+Object.absolutePosition 1474.3/112.789/1273.64
+Object.rotation -246/0/0
+Object.setOSId 3
+rem
+rem ***  ***
+rem
+Object.create shipspawns
+Object.absolutePosition 301.985/95.5689/1737.05
+Object.rotation -814.999/0/0
+Object.setOSId 1
+rem
+rem ***  ***
+rem
+Object.create shipspawns
+Object.absolutePosition 308.111/94.2515/1705.07
+Object.rotation -844.999/0/0
+Object.setOSId 1
+rem
+rem ***  ***
+rem
+Object.create implander
+Object.absolutePosition 177.689/115.602/1163.47
+Object.rotation 164/0/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create gunshipbomber
+Object.absolutePosition 369.825/108.932/1725.88
+Object.rotation 137/0/0
+Object.setOSId 1
+rem
+rem ***  ***
+rem
+Object.create turbolasersspawns
+Object.absolutePosition 394.43/104.439/1693.15
+Object.rotation -240/0/0
+Object.setOSId 1
+rem
+rem
+rem
+
+rem
+rem ***  ***
+rem
+Object.create ewebfullstation
+Object.absolutePosition 197.307/111.217/1199.43
+Object.rotation 39/0/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create ewebfullstation
+Object.absolutePosition 189.608/111.198/1202.34
+Object.rotation -36/0/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create turbolasersspawns
+Object.absolutePosition 160.447/110.93/1124.72
+Object.rotation -240/0/0
+Object.setOSId 5
+rem
+rem ***  ***
+rem
+Object.create r2d2spawner
+Object.absolutePosition 554.246/96.3419/469.652
+Object.rotation -81/0/0
+Object.setOSId 5
+rem
+rem ***  ***
+rem
+Object.create impdroid
+Object.absolutePosition 147.987/110.954/1207.15
+Object.rotation 329/0/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create shipspawns
+Object.absolutePosition 1629.39/90.4282/416.56
+Object.rotation -577/0/0
+Object.setOSId 4
+rem
+rem ***  ***
+rem
+Object.create tiexwing
+Object.absolutePosition 584.797/112.487/505.831
+Object.rotation -246/0/0
+Object.setOSId 5
+rem
+rem ***  ***
+rem
+Object.create shipspawns
+Object.absolutePosition 1642.04/95.5244/469.44
+Object.rotation -660/0/0
+Object.setOSId 4
+rem
+rem ***  ***
+rem
+rem
+rem ***  ***
+rem
+Object.create shipspawns
+Object.absolutePosition 334.282/95.9085/550.904
+Object.rotation -424/0/0
+Object.setOSId 5
+rem
+rem ***  ***
+rem
+Object.create shipspawns
+Object.absolutePosition 161.429/93.752/1293.8
+Object.rotation -740.999/0/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create gunshipbomber
+Object.absolutePosition 1395.75/100.114/1358.69
+Object.rotation 134/0/0
+Object.setOSId 2
+rem
+rem ***  ***
+rem
+Object.create turbolasersspawns
+Object.absolutePosition 1078.81/103.846/723.606
+Object.rotation -240/0/0
+Object.setOSId 2

@@ -13,7 +13,7 @@ ObjectTemplate.timeToGetControl 10
 ObjectTemplate.timeToLoseControl 10
 ObjectTemplate.geometry flagbase_m1
 ObjectTemplate.hasCollisionPhysics 1
-ObjectTemplate.areaValue 0
+ObjectTemplate.areaValue 9
 ObjectTemplate.disableIfEnemyInsideRadius 0
 ObjectTemplate.disableWhenLosingControl 0
 ObjectTemplate.loseControlWhenEnemyClose 1
@@ -35,7 +35,7 @@ ObjectTemplate.timeToGetControl 10
 ObjectTemplate.timeToLoseControl 10
 ObjectTemplate.geometry flagbase_m1
 ObjectTemplate.hasCollisionPhysics 1
-ObjectTemplate.areaValue 0
+ObjectTemplate.areaValue 9
 ObjectTemplate.disableIfEnemyInsideRadius 0
 ObjectTemplate.disableWhenLosingControl 0
 ObjectTemplate.loseControlWhenEnemyClose 1
@@ -58,7 +58,7 @@ ObjectTemplate.timeToLoseControl 10
 ObjectTemplate.unableToChangeTeam 1
 ObjectTemplate.geometry flagbase_m1
 ObjectTemplate.hasCollisionPhysics 1
-ObjectTemplate.areaValue 80
+ObjectTemplate.areaValue 60
 ObjectTemplate.disableIfEnemyInsideRadius 0
 ObjectTemplate.disableWhenLosingControl 0
 ObjectTemplate.loseControlWhenEnemyClose 1
@@ -80,7 +80,7 @@ ObjectTemplate.timeToGetControl 10
 ObjectTemplate.timeToLoseControl 10
 ObjectTemplate.geometry flagbase_m1
 ObjectTemplate.hasCollisionPhysics 1
-ObjectTemplate.areaValue 0
+ObjectTemplate.areaValue 9
 ObjectTemplate.disableIfEnemyInsideRadius 0
 ObjectTemplate.disableWhenLosingControl 0
 ObjectTemplate.loseControlWhenEnemyClose 1
@@ -103,7 +103,7 @@ ObjectTemplate.timeToGetControl 10
 ObjectTemplate.timeToLoseControl 10
 ObjectTemplate.geometry flagbase_m1
 ObjectTemplate.hasCollisionPhysics 1
-ObjectTemplate.areaValue 80
+ObjectTemplate.areaValue 60
 ObjectTemplate.disableIfEnemyInsideRadius 0
 ObjectTemplate.disableWhenLosingControl 0
 ObjectTemplate.loseControlWhenEnemyClose 1
@@ -125,7 +125,7 @@ ObjectTemplate.timeToGetControl 10
 ObjectTemplate.timeToLoseControl 10
 ObjectTemplate.geometry flagbase_m1
 ObjectTemplate.hasCollisionPhysics 1
-ObjectTemplate.areaValue 0
+ObjectTemplate.areaValue 9
 ObjectTemplate.disableIfEnemyInsideRadius 0
 ObjectTemplate.disableWhenLosingControl 0
 ObjectTemplate.loseControlWhenEnemyClose 1
@@ -147,7 +147,7 @@ ObjectTemplate.timeToGetControl 10
 ObjectTemplate.timeToLoseControl 10
 ObjectTemplate.geometry flagbase_m1
 ObjectTemplate.hasCollisionPhysics 1
-ObjectTemplate.areaValue 0
+ObjectTemplate.areaValue 9
 ObjectTemplate.disableIfEnemyInsideRadius 0
 ObjectTemplate.disableWhenLosingControl 0
 ObjectTemplate.loseControlWhenEnemyClose 1
@@ -162,14 +162,14 @@ ObjectTemplate.create ControlPoint level1_security_roomtemplate
 ObjectTemplate.networkableInfo ControlPointInfo
 ObjectTemplate.setControlPointName Level1_Security_Room
 ObjectTemplate.radius 5
-ObjectTemplate.team 1
+ObjectTemplate.team 0
 ObjectTemplate.spawnGroupId 4
 ObjectTemplate.objectSpawnerId 4
 ObjectTemplate.timeToGetControl 10
 ObjectTemplate.timeToLoseControl 10
 ObjectTemplate.geometry flagbase_m1
 ObjectTemplate.hasCollisionPhysics 1
-ObjectTemplate.areaValue 0
+ObjectTemplate.areaValue 9
 ObjectTemplate.disableIfEnemyInsideRadius 0
 ObjectTemplate.disableWhenLosingControl 0
 ObjectTemplate.loseControlWhenEnemyClose 1

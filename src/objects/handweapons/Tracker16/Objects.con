@@ -25,9 +25,9 @@ ObjectTemplate.soldierCameraPosition -0.01/-0.042/0.09
 ObjectTemplate.addRootSpeed 0
 ObjectTemplate.AmmoType	1
 
-ObjectTemplate.minDamage 0.5
-ObjectTemplate.distToStartLoseDamage 150
-ObjectTemplate.distToMinDamage 350
+ObjectTemplate.minDamage 0.05
+ObjectTemplate.distToStartLoseDamage 50
+ObjectTemplate.distToMinDamage 100
 
 rem ObjectTemplate.autoReload 1
 Rem *** Deviation Begin *****
@@ -38,12 +38,12 @@ ObjectTemplate.setRecoilForceLeftRight CRD_UNIFORM/0.7/-0.7/0
 ObjectTemplate.setHasRecoilForce 1
 ObjectTemplate.setGoBackOnRecoil 1
 
-ObjectTemplate.setFireDev 2.0 2.0 1.25
-ObjectTemplate.setDevMod 0.75 0.35 0.25
-ObjectTemplate.setMinDev 1.0
-ObjectTemplate.setspeedDev 1.0 1.0 1.0 0.75
-ObjectTemplate.setTurnDev 1.0 1.0 1.0 0.75
-ObjectTemplate.setMiscDev 3.0 3.0 0.5
+ObjectTemplate.setFireDev 1.5 0.7 0.08
+ObjectTemplate.setDevMod 1 0.74 0.5
+ObjectTemplate.setTurnDev 0.5 0.1 0.2 0.1
+ObjectTemplate.setSpeedDev 3 0.4 0.2 0.1
+ObjectTemplate.setMiscDev 3 2.5 0.4
+ObjectTemplate.setMinDev 0.2
 
 Rem *** Deviation  End *****
 

@@ -7,12 +7,11 @@ rem -------------------------------------
 ObjectTemplate.visibleBarrelTemplate e_MuzzThomp
 rem -------------------------------------
 ObjectTemplate.projectileTemplate StrongLaserProjectileRedS
-ObjectTemplate.magSize 10
+ObjectTemplate.magSize 20
 ObjectTemplate.autoReload 1
 ObjectTemplate.numOfMag 800
 ObjectTemplate.velocity 650
 ObjectTemplate.reloadtime 10
-ObjectTemplate.roundOfFire 2
-ObjectTemplate.AmmoType	7
+ObjectTemplate.roundOfFire 6
 ObjectTemplate.addFireArmsPosition 0/1/2.54 0/0/0
-
+ObjectTemplate.AmmoType	8

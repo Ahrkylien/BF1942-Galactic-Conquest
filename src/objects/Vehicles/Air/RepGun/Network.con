@@ -1,0 +1,16 @@
+NetworkableInfo.createNewInfo repgun_engine_info
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo repgun_body_info
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo repgun_wing_info
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo repgun_turrent_Info
+NetworkableInfo.setPredictionMode PMLinear
+
+
+
+
+

@@ -1,0 +1,9 @@
+ObjectTemplate.create ObjectSpawner tl2
+ObjectTemplate.setObjectTemplate 2 turbolaser
+ObjectTemplate.setObjectTemplate 1 turbolaser
+ObjectTemplate.SpawnDelay 25
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+

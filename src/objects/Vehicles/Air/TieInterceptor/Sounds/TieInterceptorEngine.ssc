@@ -62,7 +62,16 @@ beginEffect
 	param 1
 endEffect
 
-
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 1
+	param 1
+	param 0.75
+	param 1	
+endEffect
 
 *** Distance Volume ***
 beginEffect
@@ -86,7 +95,91 @@ beginEffect
 	param -1	
 endEffect
 
+################
+### CockpitL ###
+################
 
+load @ROOT/Sound/@RTD/tieinterceptor-cockpit-l.wav
+loop
+minDistance 2
+relativePosition -0.2/0/0.3
+volume 0.4
+priority 6
+*** Engine start ***
+beginEffect
+	controlDestination Volume
+	controlSource Time
+	envelope Ramp
+	param 0.4
+	param 1.2
+	param 0
+	param 1
+endEffect
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 1
+	param 1
+	param 1
+	param -1	
+endEffect
+
+*** Engine stop ***
+beginEffect
+	controlDestination Volume
+	controlSource TimeRelease
+	envelope Ramp
+	param 0
+	param 0.2
+	param 1
+	param -1	
+endEffect
+
+################
+### CockpitR ###
+################
+
+load @ROOT/Sound/@RTD/tieinterceptor-cockpit-r.wav
+loop
+minDistance 2
+relativePosition 0.2/0/0.3
+volume 0.4
+priority 6
+*** Engine start ***
+beginEffect
+	controlDestination Volume
+	controlSource Time
+	envelope Ramp
+	param 0.4
+	param 1.2
+	param 0
+	param 1
+endEffect
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 1
+	param 1
+	param 1
+	param -1	
+endEffect
+
+*** Engine stop ***
+beginEffect
+	controlDestination Volume
+	controlSource TimeRelease
+	envelope Ramp
+	param 0
+	param 0.2
+	param 1
+	param -1	
+endEffect
 
 ###################
 ### Engine Stop ###

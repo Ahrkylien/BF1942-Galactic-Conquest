@@ -23,11 +23,11 @@ ObjectTemplate.addArmorEffect 350 em_ExFumePOW 0/17/-9
 ObjectTemplate.addArmorEffect 350 em_FletcherDamage 0/0/0
 ObjectTemplate.addArmorEffect 350 em_FletcherDamage 0/0/20
 ObjectTemplate.addArmorEffect 350 em_FletcherDamage 0/0/-30
-ObjectTemplate.addArmorEffect 350 e_alarm2 0/5/100
+ObjectTemplate.addArmorEffect 350 e_alarm2 0/5/80
 ObjectTemplate.addArmorEffect 300 em_FletcherDamage 0/0/110
 ObjectTemplate.addArmorEffect 300 em_FletcherDamage 0/0/110
 ObjectTemplate.addArmorEffect 300 em_FletcherDamage 0/0/110
-ObjectTemplate.addArmorEffect 120 e_alarm2 0/5/100
+ObjectTemplate.addArmorEffect 120 e_alarm2 0/5/80
 ObjectTemplate.addArmorEffect 120 e_waterBoatSinkEf 0/-2/-5
 ObjectTemplate.addArmorEffect 120 e_waterBoatSinkEf 0/-2/25
 ObjectTemplate.addArmorEffect 120 e_waterBoatSinkEf 0/-2/-35
@@ -64,21 +64,32 @@ ObjectTemplate.lodSelector LancerLodSelector
 rem *** LancerComplex ***
 ObjectTemplate.create Bundle LancerComplex
 ObjectTemplate.setNetworkableInfo Lancer_body_info
+ObjectTemplate.loadSoundScript Sounds/capenginelancer.ssc
 ObjectTemplate.geometry lancerbody
 ObjectTemplate.hasMobilePhysics 1
 ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.hasResponsePhysics 1
 rem -------------------------------------
-ObjectTemplate.addTemplate Lancer_Floater
+ObjectTemplate.addTemplate Capital_Floater
 ObjectTemplate.setPosition 0/0/0
-ObjectTemplate.addTemplate Lancer_Floater
+ObjectTemplate.addTemplate Capital_Floater
 ObjectTemplate.setPosition -28/0/80
-ObjectTemplate.addTemplate Lancer_Floater
+ObjectTemplate.addTemplate Capital_Floater
 ObjectTemplate.setPosition 28/0/80
-ObjectTemplate.addTemplate Lancer_Floater
+ObjectTemplate.addTemplate Capital_Floater
+ObjectTemplate.setPosition 28/0/-70
+ObjectTemplate.addTemplate Capital_Floater
 ObjectTemplate.setPosition -28/0/-70
-ObjectTemplate.addTemplate Lancer_Floater
-ObjectTemplate.setPosition -28/0/-70
+ObjectTemplate.addTemplate Capital_Wheel
+ObjectTemplate.setPosition 10/-80/10
+ObjectTemplate.addTemplate Capital_Wheel
+ObjectTemplate.setPosition -10/-80/10
+ObjectTemplate.addTemplate Capital_Wheel
+ObjectTemplate.setPosition 10/-80/-10
+ObjectTemplate.addTemplate Capital_Wheel
+ObjectTemplate.setPosition -10/-80/-10
+ObjectTemplate.addTemplate CapitalBodyWingVertical
+ObjectTemplate.setRotation 0/0/-89.999
 rem ------------------------------------
 ObjectTemplate.addTemplate LancerMainEngine
 ObjectTemplate.setPosition -10/0/0
@@ -101,11 +112,10 @@ ObjectTemplate.setPosition 0/14/113
 ObjectTemplate.addTemplate LancerEntry
 ObjectTemplate.setPosition 0/13.31/113
 ObjectTemplate.addTemplate LancerSeat
-ObjectTemplate.setPosition 0/12.73/115.30
+ObjectTemplate.setPosition -0.0539179/13.196/113.652
 ObjectTemplate.setRotation 0/0/0
 ObjectTemplate.addTemplate LancerInsidearea
 ObjectTemplate.addTemplate Lancerwindowarea
-ObjectTemplate.addTemplate LancerUnitarea
 ObjectTemplate.addTemplate impescapepodspawn
 ObjectTemplate.setPosition 6/4.28815/99.1166
 ObjectTemplate.setRotation 90.6524/0.0/0.0
@@ -145,12 +155,12 @@ ObjectTemplate.addTemplate Lancer_Turret_2
 ObjectTemplate.setPosition 0/11.4/35.37
 ObjectTemplate.setRotation 0/180/180
 ObjectTemplate.addTemplate LancerEntry
-ObjectTemplate.setPosition 0/3.8/113.9
+ObjectTemplate.setPosition 2.7183/3.62294/110.978
 ObjectTemplate.addTemplate LancerSeat
-ObjectTemplate.setPosition 1.83/3.4/113.30
-ObjectTemplate.setRotation -216/0/0
+ObjectTemplate.setPosition 2.7183/3.62294/110.978
+ObjectTemplate.setRotation 90/0/0
 rem -------------------------------------
-ObjectTemplate.setSoldierExitLocation 0/3.8/111.9 0/0/0
+ObjectTemplate.setSoldierExitLocation 2.7183/3.62294/110.978 0/0/0
 ObjectTemplate.setVehicleIcon "Vehicle/Icon_lancer.dds"
 ObjectTemplate.setVehicleIconPos 72/58
 ObjectTemplate.setNumberOfWeaponIcons 1
@@ -168,12 +178,12 @@ ObjectTemplate.addTemplate Lancer_Turret_1
 ObjectTemplate.setPosition 0/-30.3/33
 ObjectTemplate.setRotation 0/0/180
 ObjectTemplate.addTemplate LancerEntry
-ObjectTemplate.setPosition 0/3.8/113.9
+ObjectTemplate.setPosition 0.00605297/3.62294/112.634
 ObjectTemplate.addTemplate LancerSeat
-ObjectTemplate.setPosition -1.83/3.4/113.30
-ObjectTemplate.setRotation 216/0/0
+ObjectTemplate.setPosition 0.00605297/3.62294/112.634
+ObjectTemplate.setRotation 0/0/0
 rem -------------------------------------
-ObjectTemplate.setSoldierExitLocation 0/3.8/111.9 0/0/0
+ObjectTemplate.setSoldierExitLocation 0.00605297/3.62294/112.634 0/0/0
 ObjectTemplate.setVehicleIcon "Vehicle/Icon_lancer.dds"
 ObjectTemplate.setVehicleIconPos 62/93
 ObjectTemplate.setNumberOfWeaponIcons 1
@@ -191,12 +201,12 @@ ObjectTemplate.addTemplate Lancer_Turret_2
 ObjectTemplate.setPosition -25.3338/-6.62506/-83.1102
 ObjectTemplate.setRotation 0/0/90
 ObjectTemplate.addTemplate LancerEntry
-ObjectTemplate.setPosition 0/3.8/113.9
+ObjectTemplate.setPosition -3.2195/3.62294/110.963
 ObjectTemplate.addTemplate LancerSeat
-ObjectTemplate.setPosition 2.95/3.4/109.98
-ObjectTemplate.setRotation -252/0/0
+ObjectTemplate.setPosition -3.2195/3.62294/110.963
+ObjectTemplate.setRotation -90/0/0
 rem -------------------------------------
-ObjectTemplate.setSoldierExitLocation 0/3.8/111.9 0/0/0
+ObjectTemplate.setSoldierExitLocation -3.2195/3.62294/110.963 0/0/0
 ObjectTemplate.setVehicleIcon "Vehicle/Icon_lancer.dds"
 ObjectTemplate.setVehicleIconPos 97/61
 ObjectTemplate.setNumberOfWeaponIcons 1
@@ -214,12 +224,12 @@ ObjectTemplate.addTemplate Lancer_Turret_2
 ObjectTemplate.setPosition 0/-34.6135/-83.1102
 ObjectTemplate.setRotation 0/0/180
 ObjectTemplate.addTemplate LancerEntry
-ObjectTemplate.setPosition 0/3.8/113.9
+ObjectTemplate.setPosition -4.83731/13.196/117.934
 ObjectTemplate.addTemplate LancerSeat
-ObjectTemplate.setPosition -2.95/3.4/109.98
-ObjectTemplate.setRotation 252/0/0
+ObjectTemplate.setPosition -4.83731/13.196/117.934
+ObjectTemplate.setRotation 0/0/0
 rem -------------------------------------
-ObjectTemplate.setSoldierExitLocation 0/3.8/111.9 0/0/0
+ObjectTemplate.setSoldierExitLocation -4.83731/13.196/117.934 0/0/0
 ObjectTemplate.setVehicleIcon "Vehicle/Icon_lancer.dds"
 ObjectTemplate.setVehicleIconPos 107/66
 ObjectTemplate.setNumberOfWeaponIcons 1
@@ -237,12 +247,12 @@ ObjectTemplate.addTemplate Lancer_Turret_2
 ObjectTemplate.setPosition 25.1852/-6.67251/-83.1102
 ObjectTemplate.setRotation 0/0/-90.0
 ObjectTemplate.addTemplate LancerEntry
-ObjectTemplate.setPosition 0/3.8/113.9
+ObjectTemplate.setPosition 4.75825/13.196/117.934
 ObjectTemplate.addTemplate LancerSeat
-ObjectTemplate.setPosition 0/3.4/107.7
+ObjectTemplate.setPosition 4.75825/13.196/117.934
 ObjectTemplate.setRotation 0/0/0
 rem -------------------------------------
-ObjectTemplate.setSoldierExitLocation 0/3.8/111.9 0/0/0
+ObjectTemplate.setSoldierExitLocation 4.75825/13.196/117.934 0/0/0
 ObjectTemplate.setVehicleIcon "Vehicle/Icon_lancer.dds"
 ObjectTemplate.setVehicleIconPos 66/55
 ObjectTemplate.setNumberOfWeaponIcons 1
@@ -357,7 +367,8 @@ ObjectTemplate.setEntryRadius 20
 
 rem *** Seat ***
 ObjectTemplate.create SeatObject LancerSeat
-ObjectTemplate.seatFlags c_SeatShowFullBodySoldier
+ObjectTemplate.seatFlags c_SeatShowStandingSoldier
+
 
 rem *** Simple ***
 ObjectTemplate.create SimpleObject LancerSimple
@@ -424,11 +435,11 @@ ObjectTemplate.addArmorEffect 350 em_ExFumePOW 0/17/-9
 ObjectTemplate.addArmorEffect 350 em_FletcherDamage 0/0/0
 ObjectTemplate.addArmorEffect 350 em_FletcherDamage 0/0/20
 ObjectTemplate.addArmorEffect 350 em_FletcherDamage 0/0/-30
-ObjectTemplate.addArmorEffect 350 e_alarm2 0/5/100
+ObjectTemplate.addArmorEffect 350 e_alarm2 0/5/80
 ObjectTemplate.addArmorEffect 300 em_FletcherDamage 0/0/110
 ObjectTemplate.addArmorEffect 300 em_FletcherDamage 0/0/110
 ObjectTemplate.addArmorEffect 300 em_FletcherDamage 0/0/110
-ObjectTemplate.addArmorEffect 120 e_alarm2 0/5/100
+ObjectTemplate.addArmorEffect 120 e_alarm2 0/5/80
 ObjectTemplate.addArmorEffect 120 e_waterBoatSinkEf 0/-2/-5
 ObjectTemplate.addArmorEffect 120 e_waterBoatSinkEf 0/-2/25
 ObjectTemplate.addArmorEffect 120 e_waterBoatSinkEf 0/-2/-35

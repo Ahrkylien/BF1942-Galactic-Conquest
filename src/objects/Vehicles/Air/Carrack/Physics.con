@@ -3,6 +3,7 @@ rem *****LANCER PHYSICS CODE*****
 rem *** MAIN Engine ***
 ObjectTemplate.create Engine CarrackMainEngine
 ObjectTemplate.setNetworkableInfo CarrackEngineInfo
+ObjectTemplate.loadSoundScript Sounds/carrackengine.ssc
 ObjectTemplate.setMinRotation 0/0/-700
 ObjectTemplate.setMaxRotation 0/0/3000
 ObjectTemplate.setMaxSpeed 0/0/3000
@@ -13,6 +14,7 @@ ObjectTemplate.setAutomaticReset 1
 ObjectTemplate.setEngineType c_ETPlane
 ObjectTemplate.setTorque 25
 ObjectTemplate.setDifferential 30
+
 
 rem *** TurnLeftRight Engine ***
 ObjectTemplate.create Engine CarrackTREngine

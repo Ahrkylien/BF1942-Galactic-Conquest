@@ -5,7 +5,7 @@ NetworkableInfo.setBasePriority c_NIGhostAlways
 ObjectTemplate.create ControlPoint the_sarlacctemplate
 ObjectTemplate.networkableInfo ControlPointInfo
 ObjectTemplate.setControlPointName The_Sarlacc
-ObjectTemplate.radius 23
+ObjectTemplate.radius 17.4
 ObjectTemplate.team 0
 ObjectTemplate.spawnGroupId 6
 ObjectTemplate.objectSpawnerId 6
@@ -26,7 +26,7 @@ ObjectTemplate.setTeamGeometry 2 flagus_m1
 
 ObjectTemplate.create ControlPoint cantina
 ObjectTemplate.networkableInfo ControlPointInfo
-ObjectTemplate.setControlPointName Mos_Eisly_Cantina
+ObjectTemplate.setControlPointName Mos_Eisley_Cantina
 ObjectTemplate.radius 2
 ObjectTemplate.team 0
 ObjectTemplate.spawnGroupId 2

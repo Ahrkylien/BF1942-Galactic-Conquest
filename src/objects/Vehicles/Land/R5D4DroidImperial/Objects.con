@@ -22,10 +22,10 @@ ObjectTemplate.hpLostWhileCriticalDamage 0.15
 ObjectTemplate.explosionForceMod 10
 ObjectTemplate.hpLostWhileUpSideDown 1.5
 ObjectTemplate.hpLostWhileDamageFromWater 1.5
-ObjectTemplate.addArmorEffect 3 e_PanzDamage 0/1/-1.6
-ObjectTemplate.addArmorEffect 1.5 e_PanzFire 0/1/-1.4
+rem ObjectTemplate.addArmorEffect 3 e_PanzDamage 0/1/-1.6
+rem ObjectTemplate.addArmorEffect 1.5 e_PanzFire 0/1/-1.4
 ObjectTemplate.addArmorEffect 0 e_ExplodeGas 0/0/0
-ObjectTemplate.addArmorEffect 0 e_scrapmetal_R5D4 0/0/0
+rem ObjectTemplate.addArmorEffect 0 e_scrapmetal_R5D4 0/0/0
 ObjectTemplate.addArmorEffect 0 e_r5d4die 0/0/0
 ObjectTemplate.addArmorEffect -1 WaterWaterExplosion 0/0/0
 ObjectTemplate.damageFromWater 1

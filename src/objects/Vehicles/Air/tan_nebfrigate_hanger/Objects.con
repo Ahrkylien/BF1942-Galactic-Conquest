@@ -144,6 +144,7 @@ ObjectTemplate.spawnOffset 0/0/0
 ObjectTemplate.team 2
 ObjectTemplate.MaxNrOfObjectSpawned 1
 ObjectTemplate.damageWhenLost 0
+ObjectTemplate.teamOnVehicle 1
 
 *** Runner Spawner2 ***
 ObjectTemplate.create ObjectSpawner runnerspawner3
@@ -158,5 +159,6 @@ ObjectTemplate.spawnOffset 0/0/0
 ObjectTemplate.team 2
 ObjectTemplate.MaxNrOfObjectSpawned 1
 ObjectTemplate.damageWhenLost 0
+ObjectTemplate.teamOnVehicle 1
 
 

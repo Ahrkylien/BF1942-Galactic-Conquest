@@ -43,7 +43,7 @@ Object.setTeam 0
 rem
 rem ***  ***
 rem
-Object.create Lost_CityTemplate
+Object.create lost_citytemplate
 Object.absolutePosition 1286.43/78.8564/1610.55
 Object.setOSId -201259689
 Object.setTeam 0

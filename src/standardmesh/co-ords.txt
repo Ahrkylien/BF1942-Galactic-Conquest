@@ -1,2 +1,0 @@
-canopy position:    0/0.907/-1.1836
-head position:      0.0303/0.9057/-2.3432

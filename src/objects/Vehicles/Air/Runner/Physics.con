@@ -18,13 +18,14 @@ ObjectTemplate.setDifferential 50
 rem *** Runner TurnLeftRight Engine ***
 ObjectTemplate.create Engine RunnerTREngine
 ObjectTemplate.setNetworkableInfo RunnerEngineInfo
-ObjectTemplate.setMinRotation 0/0/-4000
+ObjectTemplate.setMinRotation 0/0/-5000
 ObjectTemplate.setMaxRotation 0/0/5000
-ObjectTemplate.setMaxSpeed 0/0/5000
+ObjectTemplate.setMaxSpeed 0.2/0.2/0.2
 ObjectTemplate.setAcceleration 0/0/5000
 ObjectTemplate.setInputToRoll c_PIYaw
 ObjectTemplate.setAutomaticRollStabilization 1
 ObjectTemplate.setAutomaticPitchStabilization 1
+ObjectTemplate.RememberExcessInput 0
 ObjectTemplate.setAutomaticReset 1
 ObjectTemplate.setEngineType c_ETPlane
 ObjectTemplate.setTorque 60
@@ -44,20 +45,3 @@ ObjectTemplate.setAutomaticReset 1
 ObjectTemplate.setEngineType c_ETPlane
 ObjectTemplate.setTorque 30
 ObjectTemplate.setDifferential 40
-
-rem *** Runner_Floater ***
-ObjectTemplate.create FloatingBundle Runner_Floater
-ObjectTemplate.saveInSeparateFile 1
-ObjectTemplate.setHullHeight 2000
-ObjectTemplate.setFloatMaxLift 1.975
-ObjectTemplate.setFloatMinLift 1.975
-ObjectTemplate.setAutomaticRollStabilization 1
-ObjectTemplate.setAutomaticPitchStabilization 1
-ObjectTemplate.setDragModifier 0   
-ObjectTemplate.setMinRotation 0/5/0
-ObjectTemplate.setMaxRotation 0/5/0
-ObjectTemplate.setMaxSpeed 0/5/0
-ObjectTemplate.setAcceleration 0/4/0
-ObjectTemplate.setInputToPitch 0
-ObjectTemplate.setAutomaticReset 0
-rem 1.962

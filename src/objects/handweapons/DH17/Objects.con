@@ -32,7 +32,7 @@ ObjectTemplate.setAmmoIcon "ammo/icon_laser_64x32.dds"
 ObjectTemplate.setCrossHairType CHTCrossHair
 
 Rem *** Deviation Begin *****
-ObjectTemplate.velocity 340
+ObjectTemplate.velocity 600
 ObjectTemplate.setRecoilForceUp CRD_UNIFORM/0.4/0.6/0
 ObjectTemplate.setRecoilForceLeftRight CRD_UNIFORM/-0.2/-0.2/0
 ObjectTemplate.setHasRecoilForce 1

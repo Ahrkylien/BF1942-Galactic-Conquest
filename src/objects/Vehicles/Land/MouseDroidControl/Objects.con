@@ -18,7 +18,7 @@ ObjectTemplate.addArmorEffect 0 e_ExplGas 0/-1/0
 ObjectTemplate.addArmorEffect 0 e_scrapmetal_wasserfall 0/0.5/0
 ObjectTemplate.addArmorEffect -1 WaterWaterExplosion 0/-1/0
 ObjectTemplate.damageFromWater 1
-ObjectTemplate.setSoldierExitLocation 0/0.5/-1 0/0/0
+ObjectTemplate.setSoldierExitLocation 2/0.5/-3 0/0/0
 ObjectTemplate.setVehicleIcon "Vehicle/icon_mousedroid_control.dds"
 ObjectTemplate.setVehicleIconPos 22/38
 ObjectTemplate.setNumberOfWeaponIcons 1
@@ -28,17 +28,13 @@ ObjectTemplate.setCrossHairType CHTNone
 ObjectTemplate.setMinimapIcon "Minimap/minimap_icon_stationary_16x16.tga"
 
 ObjectTemplate.addTemplate MouseDroidLauncher
-ObjectTemplate.setPosition 0.671/0.147/-0.6
-ObjectTemplate.setRotation 180/0/0
-ObjectTemplate.addTemplate MouseDroidDummy
-ObjectTemplate.setPosition 0.671/0.147/0.172
-ObjectTemplate.setRotation 180/0/0
+ObjectTemplate.setPosition 0/.2217/-.557
+ObjectTemplate.setRotation 0/0/0
 ObjectTemplate.addTemplate MouseDroidControlEntry
 ObjectTemplate.setPosition 0/0/0
 ObjectTemplate.addTemplate MouseDroidControlCamera
-ObjectTemplate.setPosition 0/1.2/-1.6
-ObjectTemplate.addTemplate MouseDroidControlSeat
-ObjectTemplate.setPosition -0.3/1.2/-0.8
+ObjectTemplate.setPosition 0/.2/-0.3
+ObjectTemplate.setRotation 180/0/0
 
 rem *** MouseDroidControlEntry ***
 ObjectTemplate.create EntryPoint MouseDroidControlEntry

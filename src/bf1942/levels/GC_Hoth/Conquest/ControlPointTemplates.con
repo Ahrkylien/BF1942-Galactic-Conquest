@@ -12,7 +12,7 @@ ObjectTemplate.objectSpawnerId 2
 ObjectTemplate.timeToGetControl 20
 ObjectTemplate.timeToLoseControl 20
 ObjectTemplate.geometry flagbase_m1
-ObjectTemplate.areaValue 26
+ObjectTemplate.areaValue 40
 ObjectTemplate.disableIfEnemyInsideRadius 0
 ObjectTemplate.disableWhenLosingControl 0
 ObjectTemplate.loseControlWhenEnemyClose 1
@@ -35,7 +35,7 @@ ObjectTemplate.objectSpawnerId 4
 ObjectTemplate.timeToGetControl 10
 ObjectTemplate.timeToLoseControl 10
 ObjectTemplate.geometry flagbase_m1
-ObjectTemplate.areaValue 26
+ObjectTemplate.areaValue 40
 ObjectTemplate.disableIfEnemyInsideRadius 0
 ObjectTemplate.disableWhenLosingControl 0
 ObjectTemplate.loseControlWhenEnemyClose 1
@@ -58,7 +58,7 @@ ObjectTemplate.objectSpawnerId 3
 ObjectTemplate.timeToGetControl 10
 ObjectTemplate.timeToLoseControl 10
 ObjectTemplate.geometry flagbase_m1
-ObjectTemplate.areaValue 26
+ObjectTemplate.areaValue 40
 ObjectTemplate.disableIfEnemyInsideRadius 0
 ObjectTemplate.disableWhenLosingControl 0
 ObjectTemplate.loseControlWhenEnemyClose 1
@@ -82,7 +82,7 @@ ObjectTemplate.timeToGetControl 99999999
 ObjectTemplate.timeToLoseControl 999999999
 ObjectTemplate.unableToChangeTeam 1
 ObjectTemplate.geometry flagbase_m1
-ObjectTemplate.areaValue 0
+ObjectTemplate.areaValue 40
 ObjectTemplate.disableIfEnemyInsideRadius 0
 ObjectTemplate.disableWhenLosingControl 0
 ObjectTemplate.loseControlWhenEnemyClose 1
@@ -105,7 +105,7 @@ ObjectTemplate.objectSpawnerId 6
 ObjectTemplate.timeToGetControl 10
 ObjectTemplate.timeToLoseControl 10
 ObjectTemplate.geometry flagbase_m1
-ObjectTemplate.areaValue 26
+ObjectTemplate.areaValue 40
 ObjectTemplate.disableIfEnemyInsideRadius 0
 ObjectTemplate.disableWhenLosingControl 0
 ObjectTemplate.loseControlWhenEnemyClose 1

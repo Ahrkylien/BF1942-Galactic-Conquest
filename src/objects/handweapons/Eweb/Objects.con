@@ -4,7 +4,7 @@ ObjectTemplate.networkableInfo DefgunBodyInfo
 ObjectTemplate.aiTemplate DefgunAI
 ObjectTemplate.geometry eweb_tripod_m1
 ObjectTemplate.setHasMobilePhysics 1
-ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.setHasCollisionPhysics 0
 ObjectTemplate.setHasResponsePhysics 0
 ObjectTemplate.setHasPointPhysics 0
 ObjectTemplate.hasCollisionEffect 0

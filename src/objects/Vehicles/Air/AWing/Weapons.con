@@ -22,14 +22,15 @@ REM *** DAMAGE OVER DISTANCE ***
 ObjectTemplate.minDamage 0.5
 ObjectTemplate.distToStartLoseDamage 100
 ObjectTemplate.distToMinDamage 300
+ObjectTemplate.AmmoType	10
 
 rem *** AWingConcussionMissiles ***
 ObjectTemplate.create FireArms AWingConcussionMissile
 ObjectTemplate.setNetworkableInfo PlaneFireArmInfo
 ObjectTemplate.projectileTemplate ConcussionMissile
 ObjectTemplate.magSize 8
-ObjectTemplate.numOfMag 16
-ObjectTemplate.velocity 200
+ObjectTemplate.numOfMag 2
+ObjectTemplate.velocity 250
 ObjectTemplate.fireOnce 1
 ObjectTemplate.autoReload 1
 ObjectTemplate.reloadtime 3
@@ -37,4 +38,4 @@ ObjectTemplate.roundOfFire 1.8
 ObjectTemplate.fireingForce 1
 ObjectTemplate.AltFireOnce 1
 ObjectTemplate.setInputFire c_PIAltFire
-ObjectTemplate.AmmoType	7
+ObjectTemplate.AmmoType	9

@@ -8,32 +8,32 @@ rem * *************************************************
 
 MaterialManager.attGroup 551
 MaterialManager.defGroup 801
-MaterialManager.damageMod 5
+MaterialManager.damageMod 7
 
 MaterialManager.attGroup 551
 MaterialManager.defGroup 802
-MaterialManager.damageMod 8
+MaterialManager.damageMod 9
 
 MaterialManager.attGroup 551
 MaterialManager.defGroup 811
-MaterialManager.damageMod 3
-
-MaterialManager.attGroup 551
-MaterialManager.defGroup 812
 MaterialManager.damageMod 4
 
 MaterialManager.attGroup 551
+MaterialManager.defGroup 812
+MaterialManager.damageMod 5
+
+MaterialManager.attGroup 551
 MaterialManager.defGroup 821
-MaterialManager.damageMod 0
+MaterialManager.damageMod 0.5
 
 rem * *************************************************
 rem *		Infantry target
 rem * *************************************************
 
 MaterialManager.attGroup 551
-MaterialManager.setCell 40 7
-MaterialManager.setCell 41 6 
-MaterialManager.setCell 42 6 
+MaterialManager.setCell 40 30
+MaterialManager.setCell 41 25
+MaterialManager.setCell 42 25
 
 rem * *************************************************
 rem *		scout cars target

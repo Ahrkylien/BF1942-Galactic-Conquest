@@ -18,17 +18,17 @@ MaterialManager.setEffectTemplate e_RichoMetalHeavy
 
 MaterialManager.attGroup 703
 MaterialManager.defGroup 811
-MaterialManager.damageMod 1
+MaterialManager.damageMod 0
 MaterialManager.setEffectTemplate e_RichoMetalHeavy
 
 MaterialManager.attGroup 703
 MaterialManager.defGroup 812
-MaterialManager.damageMod 1.5
+MaterialManager.damageMod 0
 MaterialManager.setEffectTemplate e_RichoMetalHeavy
 
 MaterialManager.attGroup 703
 MaterialManager.defGroup 821
-MaterialManager.damageMod 0.1
+MaterialManager.damageMod 0
 MaterialManager.setEffectTemplate e_RichoMetalHeavy
 
 rem * *************************************************

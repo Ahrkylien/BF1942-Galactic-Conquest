@@ -5,7 +5,7 @@ ObjectTemplate.hasDynamicShadow 1
 ObjectTemplate.projectileTemplate ConcussionGrenadeProjectile
 ObjectTemplate.projectilePosition 0/0/0
 ObjectTemplate.ForceOnExplosion 15
-ObjectTemplate.magSize 2
+ObjectTemplate.magSize 3
 ObjectTemplate.numOfMag 1
 ObjectTemplate.magType 0
 ObjectTemplate.reloadtime 2

@@ -2,18 +2,18 @@ rem
 rem ***  ***
 rem
 Object.create lambdafalcon
-Object.absolutePosition 3692.65/22.8558/3635.78
+Object.absolutePosition 3692.65/24.7958/3635.78
 Object.rotation -141/-5/0
 Object.setOSId 1
 rem
 rem ***  ***
-rem speederbikespawner
 rem
 Object.create speederbikespawner
 Object.absolutePosition 3642.87/18.5/3610.11
 Object.rotation -130/0/0
 Object.setOSId 1
 rem
+rem ***  ***
 rem
 Object.create speeder
 Object.absolutePosition 3466.16/17.7981/3602.69
@@ -30,14 +30,7 @@ rem
 rem ***  ***
 rem
 Object.create speeder
-Object.absolutePosition 629.737/112.053/396.433
-Object.rotation 22/0/0
-Object.setOSId 3
-rem
-rem ***  ***
-rem
-Object.create speeder
-Object.absolutePosition 641.456/112.383/391.907
+Object.absolutePosition 640.767/112.336/392.854
 Object.rotation 21/0/0
 Object.setOSId 3
 rem
@@ -79,15 +72,15 @@ rem
 rem ***  ***
 rem
 Object.create speeder
-Object.absolutePosition 635.881/112.191/394.504
+Object.absolutePosition 633.791/112.126/395.525
 Object.rotation 21/0/0
 Object.setOSId 3
 rem
 rem ***  ***
 rem
 Object.create speeder
-Object.absolutePosition 614.346/76.6819/3348.1
-Object.rotation 120/0/0
+Object.absolutePosition 612.69/76.5393/3347.39
+Object.rotation 217/0/0
 Object.setOSId 7
 rem
 rem ***  ***
@@ -131,3 +124,31 @@ Object.create r5droidspawn2
 Object.absolutePosition 1502.68/72.0424/2456.69
 Object.rotation -299.999/0/0
 Object.setTeam 2
+rem
+rem ***  ***
+rem
+Object.create speederbikespawner
+Object.absolutePosition 3646.86/18.5/3604.76
+Object.rotation -130/0/0
+Object.setOSId 1
+rem
+rem ***  ***
+rem
+Object.create speederbikespawner
+Object.absolutePosition 632.03/78.4348/3332.12
+Object.rotation 191/0/0
+Object.setOSId 7
+rem
+rem ***  ***
+rem
+Object.create gunshipsspawner
+Object.absolutePosition 605.753/115.456/450.779
+Object.rotation 99/0/0
+Object.setOSId 3
+rem
+rem ***  ***
+rem
+Object.create tiexwing
+Object.absolutePosition 3509.73/24.1716/3641.46
+Object.rotation -153/0/0
+Object.setOSId 2

@@ -1,10 +1,10 @@
-subshader "2 - Default" "StandardMesh/Default"
+subshader "scopelight_Material0" "StandardMesh/Default"
 {
 	lighting true;
 	lightingSpecular true;
 	materialDiffuse 1.0 1.0 1.0;
-	materialSpecular 0.337255 0.337255 0.337255;
-	materialSpecularPower 12.5;
+	materialSpecular 0.5 1.0 0.5;
+	materialSpecularPower 5.5;
 	transparent true;
 	twosided true;
 	blendSrc sourceAlpha;

@@ -1,7 +1,8 @@
 subshader "PDroid_Body_Material0" "StandardMesh/Default"
 {
 	lighting true;
-	materialDiffuse 0.588 0.588 0.588;
 	lightingSpecular false;
-	texture "texture/Vehicles/ProbeDroid/probedroid_body";
+	materialDiffuse 0.588 0.588 0.588;
+	texture "texture/vehicles/probedroid/probedroid_body";
 }
+

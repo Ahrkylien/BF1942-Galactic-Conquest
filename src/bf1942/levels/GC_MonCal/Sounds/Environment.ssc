@@ -1,0 +1,23 @@
+#templateLevel HIGH
+
+newPatch
+############
+### Near ###
+############
+load @ROOT/Sound/@RTD/ambient-moncal.wav
+loop
+minDistance 10
+volume .2
+priority -10
+
+#templateLevel MEDIUM
+
+newPatch
+############
+### Near ###
+############
+load @ROOT/Sound/@RTD/ambient-moncal.wav
+loop
+minDistance 10
+volume .2
+priority -10

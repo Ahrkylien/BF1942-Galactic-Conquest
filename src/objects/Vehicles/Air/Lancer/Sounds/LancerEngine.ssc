@@ -8,8 +8,8 @@ newPatch
 load @ROOT/Sound/@RTD/VEAKGVRUN.wav
 relativePosition 0/-3/0
 loop
-minDistance 40
-volume .4
+minDistance 80
+volume .7
 priority 9
 *** Engine start ***
 beginEffect
@@ -40,8 +40,8 @@ beginEffect
 	controlDestination Volume
 	controlSource Distance
 	envelope Ramp
-	param 150
-	param 300
+	param 85
+	param 100
 	param 1
 	param -1	
 endEffect
@@ -65,8 +65,8 @@ endEffect
 load @ROOT/Sound/@RTD/subprop1.wav
 relativePosition 0/-3/0
 loop
-minDistance 10
-volume .4
+minDistance 20
+volume .7
 priority 9
 *** Engine start ***
 beginEffect
@@ -121,8 +121,8 @@ endEffect
 load @ROOT/Sound/@RTD/subengn2.wav
 relativePosition 0/-3/0
 loop
-minDistance 20
-volume .4
+minDistance 40
+volume .7
 priority 9
 *** Engine start ***
 beginEffect
@@ -176,7 +176,7 @@ endEffect
 volume .4
 load @ROOT/Sound/@RTD/subengn3.wav
 loop
-minDistance 30
+minDistance 60
 relativePosition 0/-6/70
 priority 9
 *** Engine start ***
@@ -208,7 +208,7 @@ beginEffect
 	controlDestination Volume
 	controlSource Distance
 	envelope Ramp
-	param 40
+	param 60
 	param 100
 	param 1
 	param -1	
@@ -228,10 +228,10 @@ endEffect
 ################
 ### Main mid ###
 ################
-volume .4
+volume .7
 load @ROOT/Sound/@RTD/VEACYCRUN.wav
 loop
-minDistance 20
+minDistance 40
 relativePosition 0/-6/140
 priority 9
 *** Engine start ***
@@ -283,10 +283,10 @@ endEffect
 ################
 ### Main mid ###
 ################
-volume .4
+volume .6
 load @ROOT/Sound/@RTD/subengn4.wav
 loop
-minDistance 40
+minDistance 80
 relativePosition 0/-6/180
 priority 9
 *** Engine start ***
@@ -338,10 +338,10 @@ endEffect
 ##################
 ### Main front ###
 ##################
-volume .4
+volume .6
 load @ROOT/Sound/@RTD/VEACYCRUN.wav
 loop
-minDistance 20
+minDistance 40
 relativePosition 0/-6/30
 priority 9
 *** Engine start ***
@@ -373,8 +373,8 @@ beginEffect
 	controlDestination Volume
 	controlSource Distance
 	envelope Ramp
-	param 60
-	param 120
+	param 40
+	param 100
 	param 1
 	param -1	
 endEffect

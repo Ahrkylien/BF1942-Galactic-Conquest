@@ -9,6 +9,7 @@ ObjectTemplate.autoReload 1
 ObjectTemplate.reloadtime 3
 ObjectTemplate.roundOfFire 1.8
 ObjectTemplate.fireingForce 1
+ObjectTemplate.AmmoType	9
 
 rem *** MF_Turret_Lasers ***
 ObjectTemplate.create FireArms MF_Turret_Lasers
@@ -40,6 +41,7 @@ REM *** DAMAGE OVER DISTANCE ***
 ObjectTemplate.minDamage 0.5
 ObjectTemplate.distToStartLoseDamage 100
 ObjectTemplate.distToMinDamage 300
+ObjectTemplate.AmmoType	10
 
 rem *** MF_Turret_Barrel_Pair ***
 ObjectTemplate.create Bundle MF_Turret_Barrel_Pair

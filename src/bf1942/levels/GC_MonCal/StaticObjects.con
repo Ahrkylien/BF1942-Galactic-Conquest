@@ -1,0 +1,834 @@
+rem
+rem ***  ***
+rem
+Object.create hothcratedark
+Object.absolutePosition 1389.22/94.6684/1373.28
+Object.Rotation 159.095/0/0
+rem
+rem ***  ***
+rem
+Object.create hothcratedark
+Object.absolutePosition 1431.61/94.6684/1272.12
+Object.Rotation 138.766/0/0
+rem
+rem ***  ***
+rem
+Object.create hothcratedark
+Object.absolutePosition 1433.42/94.6684/1275.35
+Object.Rotation 104.91/0/0
+rem
+rem ***  ***
+rem
+Object.create hothcratedark
+Object.absolutePosition 1423.37/94.6684/1302.33
+Object.Rotation 104.91/0/0
+rem
+rem ***  ***
+rem
+Object.create hothcratedark
+Object.absolutePosition 543.145/108.937/414.332
+Object.Rotation 104.91/0/0
+rem
+rem ***  ***
+rem
+Object.create hothcratedark
+Object.absolutePosition 1394.65/94.6684/1337
+Object.Rotation -167.049/0/0
+rem
+rem ***  ***
+rem
+Object.create hothcratedark
+Object.absolutePosition 458.881/92.5621/501.14
+Object.Rotation 138.766/0/0
+rem
+rem ***  ***
+rem
+Object.create hothcratedark
+Object.absolutePosition 423.873/94.2969/533.153
+Object.Rotation 27.0553/0/0
+rem
+rem ***  ***
+rem
+Object.create hothcratedark
+Object.absolutePosition 466.197/92.5621/486.201
+Object.Rotation 138.766/0/0
+rem
+rem ***  ***
+rem
+Object.create hothcratedark
+Object.absolutePosition 550.299/94.6684/462.756
+Object.Rotation 138.766/0/0
+rem
+rem ***  ***
+rem
+Object.create hothcratedark
+Object.absolutePosition 1398.33/94.6684/1337.42
+Object.Rotation 159.095/0/0
+rem
+rem ***  ***
+rem
+Object.create hothcratedark
+Object.absolutePosition 552.107/94.6684/465.984
+Object.Rotation 104.91/0/0
+rem
+rem ***  ***
+rem
+Object.create hothcratedark
+Object.absolutePosition 542.059/94.6684/492.965
+Object.Rotation 104.91/0/0
+rem
+rem ***  ***
+rem
+Object.create hothcratedark
+Object.absolutePosition 518.464/97.2607/477.193
+Object.Rotation 104.91/0/0
+rem
+rem ***  ***
+rem
+Object.create hothcratedark
+Object.absolutePosition 520.17/94.6684/477.127
+Object.Rotation 104.91/0/0
+rem
+rem ***  ***
+rem
+Object.create hothcratedark
+Object.absolutePosition 517.697/94.6684/479.577
+Object.Rotation 104.91/0/0
+rem
+rem ***  ***
+rem
+Object.create hothcratedark
+Object.absolutePosition 1388.68/94.6684/1369.84
+Object.Rotation 159.095/0/0
+rem
+rem ***  ***
+rem
+Object.create hothcratedark
+Object.absolutePosition 1414.33/94.6684/1361.36
+Object.Rotation 159.095/0/0
+rem
+rem ***  ***
+rem
+Object.create hothcratedark
+Object.absolutePosition 1387.73/97.2607/1371.26
+Object.Rotation 159.095/0/0
+rem
+rem ***  ***
+rem
+Object.create hothcrategrey
+Object.absolutePosition 474.631/92.588/517.841
+Object.Rotation 77.8544/0/0
+rem
+rem ***  ***
+rem
+Object.create hothcrategrey
+Object.absolutePosition 517.26/94.6943/475.648
+Object.Rotation 77.8544/0/0
+rem
+rem ***  ***
+rem
+Object.create hothcrategrey
+Object.absolutePosition 1385.78/94.6943/1371.34
+Object.Rotation 132.04/0/0
+rem
+rem ***  ***
+rem
+Object.create jud_security
+Object.absolutePosition 385.297/104.368/1728.81
+Object.Rotation -132.599/0/0
+rem
+rem ***  ***
+rem
+Object.create jud_security
+Object.absolutePosition 386.039/104.368/1728.48
+Object.Rotation 177.561/0/0
+rem
+rem ***  ***
+rem
+Object.create jud_security
+Object.absolutePosition 385.043/104.368/1729.57
+Object.Rotation -79.9976/0/0
+rem
+rem ***  ***
+rem
+Object.create mc_dock_inside
+Object.absolutePosition 1594.74/94.1859/453.922
+Object.Rotation 105.502/0/0
+rem
+rem ***  ***
+rem
+Object.create mc_dock_inside
+Object.absolutePosition 1452.45/94.1859/1419.34
+Object.Rotation 40.5387/0/0
+rem
+rem ***  ***
+rem
+Object.create mc_dock_inside
+Object.absolutePosition 382.922/94.1859/552.439
+Object.Rotation -63.1553/0/0
+rem
+rem ***  ***
+rem
+Object.create mc_dock_inside
+Object.absolutePosition 1334.51/92.0874/1289.73
+Object.Rotation -91.1122/0/0
+rem
+rem ***  ***
+rem
+Object.create mc_dock_outside
+Object.absolutePosition 382.922/94.1859/552.439
+Object.Rotation -63.1553/0/0
+rem
+rem ***  ***
+rem
+Object.create mc_dock_outside
+Object.absolutePosition 1334.51/92.0874/1289.73
+Object.Rotation -91.1122/0/0
+rem
+rem ***  ***
+rem
+Object.create mc_dock_outside
+Object.absolutePosition 1452.45/94.1859/1419.34
+Object.Rotation 40.5387/0/0
+rem
+rem ***  ***
+rem
+Object.create mc_dock_outside
+Object.absolutePosition 1594.74/94.1859/453.922
+Object.Rotation 105.502/0/0
+rem
+rem ***  ***
+rem
+Object.create mc_fort_gate
+Object.absolutePosition 388.478/104.361/1679.83
+Object.Rotation -24.6038/0/0
+rem
+rem ***  ***
+rem
+Object.create mc_fort_gate
+Object.absolutePosition 348.933/104.361/1717.96
+Object.Rotation 105.917/0/0
+rem
+rem ***  ***
+rem
+Object.create mc_fort_tower
+Object.absolutePosition 401.785/104.175/1699.02
+Object.Rotation -104.203/0/0
+rem
+rem ***  ***
+rem
+Object.create mc_fort_tower
+Object.absolutePosition 368.752/104.056/1744.4
+Object.Rotation -160.418/0/0
+rem
+rem ***  ***
+rem
+Object.create mc_fort_tower
+Object.absolutePosition 394.424/104.175/1683.11
+Object.Rotation -24.6038/0/0
+rem
+rem ***  ***
+rem
+Object.create mc_fort_tower
+Object.absolutePosition 398.549/104.175/1712.03
+Object.Rotation -104.203/0/0
+rem
+rem ***  ***
+rem
+Object.create mc_fort_tower
+Object.absolutePosition 395.257/104.175/1725.03
+Object.Rotation -104.203/0/0
+rem
+rem ***  ***
+rem
+Object.create mc_fort_tower
+Object.absolutePosition 347.564/104.175/1711.31
+Object.Rotation 105.917/0/0
+rem
+rem ***  ***
+rem
+Object.create mc_fort_tower
+Object.absolutePosition 354.883/104.175/1736.97
+Object.Rotation 105.917/0/0
+rem
+rem ***  ***
+rem
+Object.create mc_fort_tower
+Object.absolutePosition 351.204/104.175/1724.07
+Object.Rotation 105.917/0/0
+rem
+rem ***  ***
+rem
+Object.create mc_fort_tower
+Object.absolutePosition 381.391/104.056/1739.9
+Object.Rotation -160.418/0/0
+rem
+rem ***  ***
+rem
+Object.create mc_fort_tower
+Object.absolutePosition 354.902/104.175/1677.44
+Object.Rotation 65.3962/0/0
+rem
+rem ***  ***
+rem
+Object.create mc_fort_tower
+Object.absolutePosition 382.359/104.175/1677.58
+Object.Rotation -24.6038/0/0
+rem
+rem ***  ***
+rem
+Object.create mc_fort_tower
+Object.absolutePosition 370.162/104.175/1672
+Object.Rotation -24.6038/0/0
+rem
+rem ***  ***
+rem
+Object.create mc_fort_tower
+Object.absolutePosition 349.317/104.175/1689.64
+Object.Rotation 65.3962/0/0
+rem
+rem ***  ***
+rem
+Object.create mc_fort_wall
+Object.absolutePosition 346.023/104.381/1695.59
+Object.Rotation 65.3962/0/0
+rem
+rem ***  ***
+rem
+Object.create mc_fort_wall
+Object.absolutePosition 403.95/104.381/1692.57
+Object.Rotation -104.203/0/0
+rem
+rem ***  ***
+rem
+Object.create mc_fort_wall
+Object.absolutePosition 351.609/104.381/1683.39
+Object.Rotation 65.3962/0/0
+rem
+rem ***  ***
+rem
+Object.create mc_fort_wall
+Object.absolutePosition 357.267/104.325/1671.21
+Object.Rotation 65.3962/0/0
+rem
+rem ***  ***
+rem
+Object.create mc_fort_wall
+Object.absolutePosition 364.212/104.381/1668.71
+Object.Rotation -24.6038/0/0
+rem
+rem ***  ***
+rem
+Object.create mc_fort_wall
+Object.absolutePosition 400.714/104.381/1705.58
+Object.Rotation -104.203/0/0
+rem
+rem ***  ***
+rem
+Object.create mc_fort_wall
+Object.absolutePosition 400.508/104.381/1685.33
+Object.Rotation -24.6038/0/0
+rem
+rem ***  ***
+rem
+Object.create mc_fort_wall
+Object.absolutePosition 376.409/104.381/1674.29
+Object.Rotation -24.6038/0/0
+rem
+rem ***  ***
+rem
+Object.create mc_fort_wall
+Object.absolutePosition 397.423/104.381/1718.58
+Object.Rotation -104.203/0/0
+rem
+rem ***  ***
+rem
+Object.create mc_fort_wall
+Object.absolutePosition 394.056/104.325/1731.59
+Object.Rotation -104.203/0/0
+rem
+rem ***  ***
+rem
+Object.create mc_fort_wall
+Object.absolutePosition 387.953/104.262/1738.12
+Object.Rotation -160.418/0/0
+rem
+rem ***  ***
+rem
+Object.create mc_fort_wall
+Object.absolutePosition 345.296/104.381/1705.24
+Object.Rotation 105.917/0/0
+rem
+rem ***  ***
+rem
+Object.create mc_fort_wall
+Object.absolutePosition 352.565/104.381/1730.73
+Object.Rotation 105.917/0/0
+rem
+rem ***  ***
+rem
+Object.create mc_fort_wall
+Object.absolutePosition 375.314/104.262/1742.61
+Object.Rotation -160.418/0/0
+rem
+rem ***  ***
+rem
+Object.create mc_fort_wall
+Object.absolutePosition 362.636/104.206/1747.05
+Object.Rotation -160.418/0/0
+rem
+rem ***  ***
+rem
+Object.create mc_fort_wall
+Object.absolutePosition 356.244/104.381/1743.63
+Object.Rotation 105.917/0/0
+rem
+rem ***  ***
+rem
+Object.create mc_pad
+Object.absolutePosition 1417.51/94.1859/1285.05
+Object.Rotation -17.6233/0/0
+rem
+rem ***  ***
+rem
+Object.create mc_pad
+Object.absolutePosition 535.525/94.1859/475.223
+Object.Rotation -62.7981/0/0
+rem
+rem ***  ***
+rem
+Object.create mc_pad
+Object.absolutePosition 1396.32/94.1859/1356.07
+Object.Rotation 44.092/0/0
+rem
+rem ***  ***
+rem
+Object.create mc_pipe
+Object.absolutePosition 1589.06/79.9099/448.748
+Object.Rotation 47.6336/0/0
+rem
+rem ***  ***
+rem
+Object.create mc_pipe
+Object.absolutePosition 1594.88/72.434/461.068
+Object.Rotation 153.734/0/0
+rem
+rem ***  ***
+rem
+Object.create mc_pipe
+Object.absolutePosition 1594.88/82.5652/461.068
+Object.Rotation 153.734/0/0
+rem
+rem ***  ***
+rem
+Object.create mc_pipe
+Object.absolutePosition 1589.06/69.7788/448.748
+Object.Rotation 47.6336/0/0
+rem
+rem ***  ***
+rem
+Object.create mc_pipe
+Object.absolutePosition 366.814/71.6309/560.442
+Object.Rotation 119.806/0/0
+rem
+rem ***  ***
+rem
+Object.create mc_pipe
+Object.absolutePosition 1610.71/69.7788/456.673
+Object.Rotation -72.1723/0/0
+rem
+rem ***  ***
+rem
+Object.create mc_pipe
+Object.absolutePosition 466.977/78.2682/537.966
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create mc_pipe
+Object.absolutePosition 1335.04/79.6636/1279.73
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create mc_pipe
+Object.absolutePosition 472.132/93.3819/474.52
+Object.Rotation 25/90/90
+rem
+rem ***  ***
+rem
+Object.create mc_pipe
+Object.absolutePosition 462.965/93.3819/478.864
+Object.Rotation 26/90/90
+rem
+rem ***  ***
+rem
+Object.create mc_pipe
+Object.absolutePosition 1320.87/79.6636/1297.92
+Object.Rotation 119.806/0/0
+rem
+rem ***  ***
+rem
+Object.create mc_pipe
+Object.absolutePosition 1320.87/69.5324/1297.92
+Object.Rotation 119.806/0/0
+rem
+rem ***  ***
+rem
+Object.create mc_pipe
+Object.absolutePosition 481.343/94.627/530.951
+Object.Rotation 26/90/90
+rem
+rem ***  ***
+rem
+Object.create mc_pipe
+Object.absolutePosition 453.789/93.3819/483.28
+Object.Rotation 25.9999/90/90
+rem
+rem ***  ***
+rem
+Object.create mc_pipe
+Object.absolutePosition 1335.04/69.5324/1279.73
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create mc_pipe
+Object.absolutePosition 439.423/77.0232/490.294
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create mc_pipe
+Object.absolutePosition 490.519/94.627/526.535
+Object.Rotation 26/90/90
+rem
+rem ***  ***
+rem
+Object.create mc_pipe
+Object.absolutePosition 380.988/81.7621/542.257
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create mc_pipe
+Object.absolutePosition 1610.71/79.9099/456.673
+Object.Rotation -72.1723/0/0
+rem
+rem ***  ***
+rem
+Object.create mc_pipe
+Object.absolutePosition 380.988/71.6309/542.257
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create mc_pipe
+Object.absolutePosition 499.686/94.627/522.192
+Object.Rotation 26/90/90
+rem
+rem ***  ***
+rem
+Object.create mc_pipe
+Object.absolutePosition 366.814/81.7621/560.442
+Object.Rotation 119.806/0/0
+rem
+rem ***  ***
+rem
+Object.create mc_pipe_cap
+Object.absolutePosition 362.152/98.1881/563.097
+Object.Rotation 117/-90/0
+rem
+rem ***  ***
+rem
+Object.create mc_pipe_cap
+Object.absolutePosition 1592.49/98.9912/465.873
+Object.Rotation -116/-90/-90
+rem
+rem ***  ***
+rem
+Object.create mc_pipe_cap
+Object.absolutePosition 471.767/93.4189/474.673
+Object.Rotation -153/-90/90
+rem
+rem ***  ***
+rem
+Object.create mc_pipe_cap
+Object.absolutePosition 1585.11/96.336/445.122
+Object.Rotation 48/-90/0
+rem
+rem ***  ***
+rem
+Object.create mc_pipe_cap
+Object.absolutePosition 499.322/94.664/522.344
+Object.Rotation -149/-90/90
+rem
+rem ***  ***
+rem
+Object.create mc_pipe_cap
+Object.absolutePosition 1615.83/96.336/455.044
+Object.Rotation 17/-90/-90
+rem
+rem ***  ***
+rem
+Object.create mc_pipe_cap
+Object.absolutePosition 1335.06/96.0897/1274.37
+Object.Rotation -264/-90/-90
+rem
+rem ***  ***
+rem
+Object.create mc_pipe_cap
+Object.absolutePosition 1316.21/96.0897/1300.57
+Object.Rotation 118/-90/0
+rem
+rem ***  ***
+rem
+Object.create mc_pipe_cap
+Object.absolutePosition 381.002/98.1881/536.892
+Object.Rotation -268/-90/-90
+rem
+rem ***  ***
+rem
+Object.create mc_pipe_curve
+Object.absolutePosition 1320.87/93.939/1297.92
+Object.Rotation 119.806/0/0
+rem
+rem ***  ***
+rem
+Object.create mc_pipe_curve
+Object.absolutePosition 467.035/92.4632/537.931
+Object.Rotation -63.3362/0/0
+rem
+rem ***  ***
+rem
+Object.create mc_pipe_curve
+Object.absolutePosition 1610.71/94.1853/456.67
+Object.Rotation -72.1723/0/0
+rem
+rem ***  ***
+rem
+Object.create mc_pipe_curve
+Object.absolutePosition 1589.06/94.1853/448.753
+Object.Rotation 47.6336/0/0
+rem
+rem ***  ***
+rem
+Object.create mc_pipe_curve
+Object.absolutePosition 366.819/96.0374/560.445
+Object.Rotation 119.806/0/0
+rem
+rem ***  ***
+rem
+Object.create mc_pipe_curve
+Object.absolutePosition 1594.88/96.8405/461.067
+Object.Rotation 153.734/0/0
+rem
+rem ***  ***
+rem
+Object.create mc_pipe_curve
+Object.absolutePosition 439.48/91.2181/490.26
+Object.Rotation -63.3362/0/0
+rem
+rem ***  ***
+rem
+Object.create mc_pipe_curve
+Object.absolutePosition 380.983/96.0374/542.26
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create mc_pipe_curve
+Object.absolutePosition 1335.04/93.939/1279.74
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create mc_tower
+Object.absolutePosition 1531.74/80.2528/471.214
+Object.Rotation 46.5302/0/0
+rem
+rem ***  ***
+rem
+Object.create mc_tower
+Object.absolutePosition 1473.5/93.5242/1272.84
+Object.Rotation -134.113/0/0
+rem
+rem ***  ***
+rem
+Object.create mc_tower
+Object.absolutePosition 536.426/94.1758/416.618
+Object.Rotation -55.4393/0/0
+rem
+rem ***  ***
+rem
+Object.create mc_tower
+Object.absolutePosition 583.655/93.5242/506.332
+Object.Rotation -179.288/0/0
+rem
+rem ***  ***
+rem
+Object.create mc_tower
+Object.absolutePosition 589.448/98.2363/1637.64
+Object.Rotation -70.8372/19.4516/6.60114
+rem
+rem ***  ***
+rem
+Object.create mc_tower
+Object.absolutePosition 1339.12/94.2282/1372.56
+Object.Rotation 51.4125/0/0
+rem
+rem ***  ***
+rem
+Object.create ammobox
+Object.absolutePosition 195.017/111.07/1200.91
+Object.Rotation 3/0/0
+rem
+rem ***  ***
+rem
+Object.create ammobox
+Object.absolutePosition 388.024/104.636/1728.04
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create ammobox
+Object.absolutePosition 388.053/105.276/1728.06
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create echotrolleyvehiclesupplydepot
+Object.absolutePosition 377.36/104.7/1728.95
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create powerdroidvehiclesupplydepot
+Object.absolutePosition 367.466/104.702/1731
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create powerdroidvehiclesupplydepot
+Object.absolutePosition 364.06/104.702/1690.85
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create powerdroidvehiclesupplydepot
+Object.absolutePosition 312.183/94.0206/1712.94
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create powerdroidvehiclesupplydepot
+Object.absolutePosition 300.03/94.1052/1735.18
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create powerdroidvehiclesupplydepot
+Object.absolutePosition 302.503/93.9657/1707.11
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create powerdroidvehiclesupplydepot
+Object.absolutePosition 190.011/111.073/1196.2
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create powerdroidvehiclesupplydepot
+Object.absolutePosition 189.973/110.54/1207.25
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create powerdroidvehiclesupplydepot
+Object.absolutePosition 1531.98/95.7882/470.831
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create ammobox
+Object.absolutePosition 536.016/93.5651/412.796
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create ammobox
+Object.absolutePosition 586.296/93.5108/506.898
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create ammobox
+Object.absolutePosition 382.392/94.6274/553.247
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create ammobox
+Object.absolutePosition 1595.02/94.5738/453.195
+Object.Rotation 103/0/0
+rem
+rem ***  ***
+rem
+Object.create ammobox
+Object.absolutePosition 1595.57/94.6242/454.396
+Object.Rotation 103/0/0
+rem
+rem ***  ***
+rem
+Object.create powerdroidvehiclesupplydepot
+Object.absolutePosition 1604.34/95.7416/420.287
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create powerdroidvehiclesupplydepot
+Object.absolutePosition 1620.59/95.7238/475.98
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create ammobox
+Object.absolutePosition 1436.11/96.4375/1423.66
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create powerdroidvehiclesupplydepot
+Object.absolutePosition 1418.71/95.3629/1285.01
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create powerdroidvehiclesupplydepot
+Object.absolutePosition 1396.05/95.7176/1355.82
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create powerdroidvehiclesupplydepot
+Object.absolutePosition 1390.18/95.3115/1256.35
+Object.Rotation 0/0/0
+rem
+rem ***  ***
+rem
+Object.create ammobox
+Object.absolutePosition 193.017/111.068/1201.23
+Object.Rotation 24/0/0
+rem
+rem ***  ***
+rem
+Object.create ammobox
+Object.absolutePosition 146.676/111.008/1205.59
+Object.Rotation 24/0/0
+rem
+rem ***  ***
+rem
+Object.create ammobox
+Object.absolutePosition 588.397/99.2341/1637.11
+Object.Rotation 0/0/0

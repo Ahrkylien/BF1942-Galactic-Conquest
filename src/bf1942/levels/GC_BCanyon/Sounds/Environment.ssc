@@ -4,11 +4,11 @@ newPatch
 ############
 ### Near ###
 ############
-load @ROOT/Sound/@RTD/windall.wav
+load @ROOT/Sound/@RTD/ambient-tatooinewind.wav
 loop
 minDistance 10
 randomStartPitch 0.25 / 0.0
-volume .6
+volume 0.5
 priority -10
 
 #templateLevel MEDIUM
@@ -17,9 +17,9 @@ newPatch
 ############
 ### Near ###
 ############
-load @ROOT/Sound/@RTD/windall.wav
+load @ROOT/Sound/@RTD/ambient-tatooinewind.wav
 loop
 minDistance 10
 randomStartPitch 0.25 / 0.0
-volume .6
+volume 0.5
 priority -10

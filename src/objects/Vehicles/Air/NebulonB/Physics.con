@@ -3,6 +3,7 @@ rem *****LANCER PHYSICS CODE*****
 rem *** MAIN Engine ***
 ObjectTemplate.create Engine NebulonBMainEngine
 ObjectTemplate.setNetworkableInfo NebulonBEngineInfo
+ObjectTemplate.loadSoundScript Sounds/nebengine.ssc
 ObjectTemplate.setMinRotation 0/0/-700
 ObjectTemplate.setMaxRotation 0/0/3000
 ObjectTemplate.setMaxSpeed 0/0/3000

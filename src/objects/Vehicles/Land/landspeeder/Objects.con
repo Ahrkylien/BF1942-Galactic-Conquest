@@ -10,10 +10,10 @@ ObjectTemplate.explosionRadius 8
 ObjectTemplate.explosionDamage 5
 ObjectTemplate.damageFromWater 1
 ObjectTemplate.drag 0.49
-ObjectTemplate.GravityModifier CRD_NONE/2.5/0/0 
+rem ObjectTemplate.GravityModifier CRD_NONE/1/0/0 
 ObjectTemplate.dragOffset 0/-1/2
 ObjectTemplate.mass 3000
-ObjectTemplate.inertiaModifier 2/4/2
+ObjectTemplate.inertiaModifier 2/1/2
 ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.hasResponsePhysics 1
 ObjectTemplate.hasArmor 1
@@ -84,6 +84,8 @@ ObjectTemplate.setRotation 0/0/-89.998
 ObjectTemplate.addTemplate landspeederRRudder
 ObjectTemplate.setPosition 2/1.088/-6.067
 ObjectTemplate.setRotation 0/0/-89.998
+ObjectTemplate.addTemplate LanspeederDwnEngine
+ObjectTemplate.setRotation 0/90/0
 rem ---Turning Engines for Landspeeder----
 ObjectTemplate.addTemplate landspeederLTurnEngine
 ObjectTemplate.setPosition -2/-0.5/0

@@ -83,63 +83,11 @@ water.waterShallowAlpha 1
 
 run Sounds/Environment
 
+
 rem *** Set team 1 ***
-game.setBeforeSpawnCameraPosition 1 1439.9753/74.8605/513.702
+game.setBeforeSpawnCameraPosition 1 630.891/120/1300
 rem *** Set team 2 ***
-game.setBeforeSpawnCameraPosition 2 1439.9753/74.8605/513.702
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+game.setBeforeSpawnCameraPosition 2 630.891/120/1300
 
 
 

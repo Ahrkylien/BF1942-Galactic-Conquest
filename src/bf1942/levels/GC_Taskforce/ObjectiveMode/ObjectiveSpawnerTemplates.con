@@ -96,6 +96,7 @@ ObjectTemplate.SpawnDelayAtStart 0
 ObjectTemplate.holdObject 1
 ObjectTemplate.TimeToLive 999
 ObjectTemplate.Distance 200
+ObjectTemplate.teamOnVehicle 1
 
 ObjectTemplate.create ObjectSpawner RunnerObjective2
 ObjectTemplate.setObjectTemplate 2 runner2
@@ -105,6 +106,7 @@ ObjectTemplate.SpawnDelayAtStart 0
 ObjectTemplate.holdObject 1
 ObjectTemplate.TimeToLive 999
 ObjectTemplate.Distance 200
+ObjectTemplate.teamOnVehicle 1
 
 ObjectTemplate.create ObjectSpawner NebObjective
 ObjectTemplate.setObjectTemplate 2 NebulonB
@@ -114,6 +116,7 @@ ObjectTemplate.SpawnDelayAtStart 0
 ObjectTemplate.holdObject 1
 ObjectTemplate.TimeToLive 999
 ObjectTemplate.Distance 200
+ObjectTemplate.teamOnVehicle 1
 
 ObjectTemplate.create ObjectSpawner NebObjective2
 ObjectTemplate.setObjectTemplate 2 NebulonB2
@@ -123,6 +126,7 @@ ObjectTemplate.SpawnDelayAtStart 0
 ObjectTemplate.holdObject 1
 ObjectTemplate.TimeToLive 999
 ObjectTemplate.Distance 200
+ObjectTemplate.teamOnVehicle 1
 
 ObjectTemplate.create ObjectSpawner LancerObjective
 ObjectTemplate.setObjectTemplate 2 lancer
@@ -132,6 +136,7 @@ ObjectTemplate.SpawnDelayAtStart 0
 ObjectTemplate.holdObject 1
 ObjectTemplate.TimeToLive 999
 ObjectTemplate.Distance 200
+ObjectTemplate.teamOnVehicle 1
 
 ObjectTemplate.create ObjectSpawner LancerObjective2
 ObjectTemplate.setObjectTemplate 2 lancer2
@@ -141,6 +146,7 @@ ObjectTemplate.SpawnDelayAtStart 0
 ObjectTemplate.holdObject 1
 ObjectTemplate.TimeToLive 999
 ObjectTemplate.Distance 200
+ObjectTemplate.teamOnVehicle 1
 
 ObjectTemplate.create ObjectSpawner CarrackObjective
 ObjectTemplate.setObjectTemplate 2 carrack
@@ -150,6 +156,7 @@ ObjectTemplate.SpawnDelayAtStart 0
 ObjectTemplate.holdObject 1
 ObjectTemplate.TimeToLive 999
 ObjectTemplate.Distance 200
+ObjectTemplate.teamOnVehicle 1
 
 ObjectTemplate.create ObjectSpawner CarrackObjective2
 ObjectTemplate.setObjectTemplate 2 carrack2
@@ -159,6 +166,7 @@ ObjectTemplate.SpawnDelayAtStart 0
 ObjectTemplate.holdObject 1
 ObjectTemplate.TimeToLive 999
 ObjectTemplate.Distance 200
+ObjectTemplate.teamOnVehicle 1
 
 rem ================= OjectiveSpawnerTemplates =======================================
 

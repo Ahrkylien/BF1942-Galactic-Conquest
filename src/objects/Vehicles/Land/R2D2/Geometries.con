@@ -22,4 +22,4 @@ GeometryTemplate.create StandardMesh R2D2_Wheel_M1
 GeometryTemplate.file Tiger_whe3L_M1
 
 GeometryTemplate.create StandardMesh Wreck_R2D2_M1
-GeometryTemplate.file scrap_metal3_m1.sm
+GeometryTemplate.file scrap_metal3_m1

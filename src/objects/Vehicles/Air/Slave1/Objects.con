@@ -13,8 +13,8 @@ ObjectTemplate.hasResponsePhysics 1
 ObjectTemplate.hasArmor 1
 ObjectTemplate.angleMod 1
 ObjectTemplate.speedMod 1
-ObjectTemplate.hitpoints 85
-ObjectTemplate.maxhitpoints 85
+ObjectTemplate.hitpoints 120
+ObjectTemplate.maxhitpoints 120
 ObjectTemplate.material 811
 ObjectTemplate.criticalDamage 8.5
 ObjectTemplate.hpLostWhileCriticalDamage 0.85
@@ -174,12 +174,14 @@ ObjectTemplate.setPosition -0.78/-0.3/2.97
 ObjectTemplate.addTemplate Slave1_Ion_Cannon
 ObjectTemplate.setPosition 0/-3/5.4
 ObjectTemplate.setRotation 0/0/0
+ObjectTemplate.addTemplate Slave1Entry
+ObjectTemplate.setPosition 3.5/-13/-3.5
 rem -------------------------------------
 ObjectTemplate.setSoldierExitLocation 3.5/-13.5/7 0/0/0
 ObjectTemplate.setVehicleIcon "Vehicle/icon_slave1.dds"
 ObjectTemplate.setVehicleIconPos 68/50
 ObjectTemplate.setNumberOfWeaponIcons 1
-ObjectTemplate.setPrimaryAmmoIcon "Ammo/Icon_artillery.tga"
+ObjectTemplate.setPrimaryAmmoIcon "Ammo/Icon_bomb.tga"
 ObjectTemplate.setPrimaryAmmoBar ABAmmoBarReloadBar
 ObjectTemplate.setCrossHairType CHTIcon
 ObjectTemplate.setVehicleCategory VCAir
@@ -206,7 +208,7 @@ ObjectTemplate.seatAnimationLowerBody Lb_PassengerInHanomag
 
 rem *** Slave1Entry ***
 ObjectTemplate.create EntryPoint Slave1Entry
-ObjectTemplate.setEntryRadius 3.5
+ObjectTemplate.setEntryRadius 4
 
 rem *** lodSlave1Cockpit ***
 ObjectTemplate.create LodObject lodSlave1Cockpit

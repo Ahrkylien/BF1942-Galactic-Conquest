@@ -36,17 +36,17 @@ rem *		Infantry target
 rem * *************************************************
 MaterialManager.attGroup 531
 MaterialManager.defGroup 40
-MaterialManager.damageMod 4
+MaterialManager.damageMod 6.1
 MaterialManager.setEffectTemplate e_blood01
 
 MaterialManager.attGroup 531
 MaterialManager.defGroup 41
-MaterialManager.damageMod 2.5
+MaterialManager.damageMod 5
 MaterialManager.setEffectTemplate e_blood01
 
 MaterialManager.attGroup 531
 MaterialManager.defGroup 42
-MaterialManager.damageMod 1
+MaterialManager.damageMod 3.5
 MaterialManager.setEffectTemplate e_blood01
 
 

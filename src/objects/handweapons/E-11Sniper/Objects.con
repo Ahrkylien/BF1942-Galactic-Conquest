@@ -22,7 +22,7 @@ ObjectTemplate.setAmmoIcon "ammo/icon_laser_64x32.dds"
 ObjectTemplate.setHasMag 0
 ObjectTemplate.setScopeIcon "imp_E-11_sniper.tga"
 ObjectTemplate.setSniperSight 1
-ObjectTemplate.setCrossHairType CHTCrossHair
+ObjectTemplate.setCrossHairType CHTNone
 ObjectTemplate.soldierZoomFov 0.6 
 ObjectTemplate.soldierZoomPosition -0.1/0/0
 ObjectTemplate.soldierCameraPosition -0.02/-0.04/0.1

@@ -1,3 +1,10 @@
+rem ***  ***
+rem
+Object.create ambient-sandpeople_spawner
+Object.absolutePosition 0/100/0
+Object.rotation 0/0/0
+Object.setOSId 5
+rem
 rem
 rem ***  ***
 rem

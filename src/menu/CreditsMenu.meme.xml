@@ -106,7 +106,7 @@
                 <Float description="Width">350.0</Float>
                 <Float description="Height">20.0</Float>
                 <TextNode description="Transformed node">
-                  <StringData description="String">GALACTIC CONQUEST 0.2</StringData>
+                  <StringData description="String">GALACTIC CONQUEST 0.3</StringData>
                   <RightAlignedStyle description="Style">Trebuchet MS18.dif</RightAlignedStyle>
                 </TextNode>
               </TransformNode>
@@ -258,7 +258,7 @@
                 <Float description="Width">360.0</Float>
                 <Float description="Height">20.0</Float>
                 <TextNode description="Transformed node">
-                  <StringData description="String">Mikael Achrén - Modeler/Skinner</StringData>
+                  <StringData description="String">Mikael Achrén - Modeler/Skinner/Cinematics/Lead 2-D Artist</StringData>
                   <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
                 </TextNode>
               </TransformNode>
@@ -938,7 +938,7 @@
                 <Float description="Width">360.0</Float>
                 <Float description="Height">20.0</Float>
                 <TextNode description="Transformed node">
-                  <StringData description="String">Ralph Wiggum - Mapper/Modeler</StringData>
+                  <StringData description="String">Dennis Thony Pedersen - Mapper/Modeler</StringData>
                   <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
                 </TextNode>
               </TransformNode>
@@ -1040,7 +1040,7 @@
                 <Float description="Width">360.0</Float>
                 <Float description="Height">20.0</Float>
                 <TextNode description="Transformed node">
-                  <StringData description="String">Modeler</StringData>
+                  <StringData description="String">Petri T - Modeler</StringData>
                   <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
                 </TextNode>
               </TransformNode>
@@ -1424,7 +1424,7 @@
             <Float description="X">0.0</Float>
             <Float description="Y">2485.0</Float>
             <Float description="Width">500.0</Float>
-            <Float description="Height">40.0</Float>
+            <Float description="Height">80.0</Float>
             <g description="Transformed node">
               <TransformNode>
                 <Float description="X">0.0</Float>
@@ -1446,9 +1446,9 @@
                 <Float description="X">375.0</Float>
                 <Float description="Y">11.0</Float>
                 <Float description="Width">360.0</Float>
-                <Float description="Height">20.0</Float>
+                <Float description="Height">60.0</Float>
                 <TextNode description="Transformed node">
-                  <StringData description="String">Everyone at Digital Illusions CE</StringData>
+                  <StringData description="String">Everyone from http://scifi3d.theforce.net/ for a few misc. models.</StringData>
                   <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
                 </TextNode>
               </TransformNode>
@@ -1482,7 +1482,7 @@
                 <Float description="Width">360.0</Float>
                 <Float description="Height">20.0</Float>
                 <TextNode description="Transformed node">
-                  <StringData description="String">AB and Electronic Arts who </StringData>
+                  <StringData description="String">Everyone at Digital Illusions CE</StringData>
                   <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
                 </TextNode>
               </TransformNode>
@@ -1516,6 +1516,40 @@
                 <Float description="Width">360.0</Float>
                 <Float description="Height">20.0</Float>
                 <TextNode description="Transformed node">
+                  <StringData description="String">AB and Electronic Arts who </StringData>
+                  <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
+                </TextNode>
+              </TransformNode>
+            </g>
+          </TransformNode>
+          <TransformNode>
+            <Float description="X">0.0</Float>
+            <Float description="Y">2545.0</Float>
+            <Float description="Width">500.0</Float>
+            <Float description="Height">40.0</Float>
+            <g description="Transformed node">
+              <TransformNode>
+                <Float description="X">0.0</Float>
+                <Float description="Y">0.0</Float>
+                <Float description="Width">350.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
+                  <BfLocaleStringData description="String">
+                    <BfLocaleData description="Locale" name="Locale/Locale">
+                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    </BfLocaleData>
+                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
+                    <StringData description="String Id" />
+                  </BfLocaleStringData>
+                  <RightAlignedStyle description="Style" name="Style/CreditHeadingStyle">Trebuchet MS14.dif</RightAlignedStyle>
+                </TextNode>
+              </TransformNode>
+              <TransformNode>
+                <Float description="X">375.0</Float>
+                <Float description="Y">11.0</Float>
+                <Float description="Width">360.0</Float>
+                <Float description="Height">20.0</Float>
+                <TextNode description="Transformed node">
                   <StringData description="String">brought us Battlefield 1942.</StringData>
                   <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
                 </TextNode>
@@ -1524,7 +1558,7 @@
           </TransformNode>
           <TransformNode>
             <Float description="X">250.0</Float>
-            <Float description="Y">2545.0</Float>
+            <Float description="Y">2585.0</Float>
             <Float description="Width">256.0</Float>
             <Float description="Height">64.0</Float>
             <PictureNode description="Transformed node">gclogo.tga</PictureNode>

@@ -4,12 +4,12 @@ ObjectTemplate.setNetworkableInfo TurboLaserBodyInfo
 ObjectTemplate.saveInSeparateFile 1
 ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.hasResponsePhysics 1
-ObjectTemplate.geometry TurboLaserBase_m1
 ObjectTemplate.hasArmor 1
 ObjectTemplate.hitpoints 90
 ObjectTemplate.maxhitpoints 90
 ObjectTemplate.material 811
 ObjectTemplate.criticalDamage 9
+ObjectTemplate.geometry DefGun_thing_M1
 ObjectTemplate.hpLostWhileCriticalDamage 0.9
 rem ObjectTemplate.addArmorEffect 9 e_Wreck1Smoke 0/2/0
 ObjectTemplate.addArmorEffect 0 e_scrapmetal_awing 0/2/0
@@ -45,12 +45,11 @@ rem *** TurboLaserComplex ***
 ObjectTemplate.create Bundle TurboLaserComplex
 ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.geometry TurboLaserBase_m1
 rem -------------------------------------
 ObjectTemplate.addTemplate TurboLaserEntry
 ObjectTemplate.setPosition 0/0/0
 ObjectTemplate.setRotation 0/0/0
-rem ObjectTemplate.addTemplate TurboLaserBase
-rem ObjectTemplate.setPosition 0/0/0
 ObjectTemplate.addTemplate TurboLaserHead
 ObjectTemplate.setPosition 0/0/0.071
 rem -------------------------------------
@@ -97,7 +96,7 @@ ObjectTemplate.setPosition 0/0.05/1.5
 ObjectTemplate.addTemplate TurboLaserGun
 ObjectTemplate.setPosition 0/0/0
 rem**********************
-ObjectTemplate.setMinRotation 0/-50/0
+ObjectTemplate.setMinRotation 0/-70/0
 ObjectTemplate.setMaxRotation 0/10/0
 ObjectTemplate.setMaxSpeed 0/200/0
 ObjectTemplate.setAcceleration 0/700/0

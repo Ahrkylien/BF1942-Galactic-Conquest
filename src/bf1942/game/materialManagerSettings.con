@@ -1,6 +1,7 @@
 Run materialManagerdefine.con
 
 run damage_system/A295
+run damage_system/BeamLaserDirect
 run damage_system/CapitalLaserDirect
 run damage_system/CapitalLaserSplash
 run damage_system/DH17
@@ -25,6 +26,7 @@ run damage_system/ProtonTorpedoDirect
 run damage_system/ProtonTorpedoSplash
 run damage_system/Razor
 run damage_system/Rocket1Direct
+run damage_system/Rocket2Direct
 run damage_system/Rocket1Splash
 run damage_system/SpeederPistol
 run damage_system/StrongLaserDirect

@@ -260,6 +260,24 @@ ObjectTemplate.ForceOnExplosion 2
 ObjectTemplate.explodeNearEnemyDistance 6.5
 ObjectTemplate.ProximityFusePrimer 0.01
 
+rem *** BeamLaserProjectileGreenS ***
+ObjectTemplate.create Projectile BeamLaserProjectileGreenS
+ObjectTemplate.timeToLive CRD_NONE/5/0/0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.gravityModifier 0.0
+ObjectTemplate.hasCollisionEffect 1
+ObjectTemplate.hasOnTimeEffect 1
+ObjectTemplate.invisibleAtEndEffect 1
+ObjectTemplate.dieAfterColl 1
+ObjectTemplate.stopAtEndEffect 1
+ObjectTemplate.invisible 1
+ObjectTemplate.material 708
+ObjectTemplate.material2 551
+ObjectTemplate.damageType 1
+ObjectTemplate.radius 4
+ObjectTemplate.ForceOnExplosion 20
+ObjectTemplate.explodeNearEnemyDistance 6.5
+ObjectTemplate.ProximityFusePrimer 0.01
 
 ObjectTemplate.create Projectile AA_Allies_Projectile
 ObjectTemplate.geometry tracklight_M1
@@ -286,10 +304,11 @@ rem ---------- Rocket Projectiles ----------
 rem *** RocketProjectile1 ***
 ObjectTemplate.create Projectile RocketProjectile1
 ObjectTemplate.geometry FlechetteRocket_m1
-ObjectTemplate.timeToLive CRD_NONE/10/0/0
-ObjectTemplate.timeOnEndEffect 0.5
+ObjectTemplate.timeToLive CRD_NONE/28/0/0
+rem ObjectTemplate.timeOnEndEffect 0.1
 ObjectTemplate.hasCollisionPhysics 1
-ObjectTemplate.gravityModifier .17
+rem ObjectTemplate.gravityModifier .17
+ObjectTemplate.gravityModifier 0
 ObjectTemplate.hasCollisionEffect 1
 ObjectTemplate.invisibleAtEndEffect 1
 ObjectTemplate.damageType 1
@@ -300,5 +319,6 @@ ObjectTemplate.ForceOnExplosion 1
 ObjectTemplate.addTemplate e_projectilePlx-2m
 ObjectTemplate.loadSoundScript Sounds/bazookaprojectile.ssc
 
+rem See Object code for Rocket2 projectile
 rem ---------- Bomb Projectiles ----------
 

@@ -18,12 +18,12 @@ MaterialManager.setEffectTemplate e_RichoMetal
 
 MaterialManager.attGroup 521
 MaterialManager.defGroup 811
-MaterialManager.damageMod 0.25
+MaterialManager.damageMod 0.08
 MaterialManager.setEffectTemplate e_RichoMetal
 
 MaterialManager.attGroup 521
 MaterialManager.defGroup 812
-MaterialManager.damageMod 0.4
+MaterialManager.damageMod 0.1
 MaterialManager.setEffectTemplate e_RichoMetal
 
 MaterialManager.attGroup 521

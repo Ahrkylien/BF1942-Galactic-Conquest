@@ -3,7 +3,7 @@ subshader "nebulonb_hull_Material0" "StandardMesh/Default"
 	lighting true;
 	lightingSpecular false;
 	materialDiffuse 0.588 0.588 0.588;
-	texture "texture/Vehicles/NebulonB/tex1";
+	texture "texture/vehicles/nebulonb/tex1";
 }
 
 subshader "nebulonb_hull_Material1" "StandardMesh/Default"
@@ -11,7 +11,7 @@ subshader "nebulonb_hull_Material1" "StandardMesh/Default"
 	lighting true;
 	lightingSpecular false;
 	materialDiffuse 0.588 0.588 0.588;
-	texture "texture/Vehicles/NebulonB/tex7";
+	texture "texture/vehicles/nebulonb/tex7";
 }
 
 subshader "nebulonb_hull_Material2" "StandardMesh/Default"
@@ -19,7 +19,7 @@ subshader "nebulonb_hull_Material2" "StandardMesh/Default"
 	lighting true;
 	lightingSpecular false;
 	materialDiffuse 0.588 0.588 0.588;
-	texture "texture/Vehicles/NebulonB/tex6";
+	texture "texture/vehicles/nebulonb/tex6";
 }
 
 subshader "nebulonb_hull_Material3" "StandardMesh/Default"
@@ -27,7 +27,7 @@ subshader "nebulonb_hull_Material3" "StandardMesh/Default"
 	lighting true;
 	lightingSpecular false;
 	materialDiffuse 0.588 0.588 0.588;
-	texture "texture/Vehicles/NebulonB/tex5";
+	texture "texture/vehicles/nebulonb/tex5";
 }
 
 subshader "nebulonb_hull_Material4" "StandardMesh/Default"
@@ -35,7 +35,7 @@ subshader "nebulonb_hull_Material4" "StandardMesh/Default"
 	lighting true;
 	lightingSpecular false;
 	materialDiffuse 0.588 0.588 0.588;
-	texture "texture/Vehicles/NebulonB/tex4";
+	texture "texture/vehicles/nebulonb/tex4";
 }
 
 subshader "nebulonb_hull_Material5" "StandardMesh/Default"
@@ -43,7 +43,7 @@ subshader "nebulonb_hull_Material5" "StandardMesh/Default"
 	lighting true;
 	lightingSpecular false;
 	materialDiffuse 0.588 0.588 0.588;
-	texture "texture/Vehicles/NebulonB/tex3";
+	texture "texture/vehicles/nebulonb/tex3";
 }
 
 subshader "nebulonb_hull_Material6" "StandardMesh/Default"
@@ -51,7 +51,7 @@ subshader "nebulonb_hull_Material6" "StandardMesh/Default"
 	lighting true;
 	lightingSpecular false;
 	materialDiffuse 0.588 0.588 0.588;
-	texture "texture/Vehicles/NebulonB/tex2";
+	texture "texture/vehicles/nebulonb/tex2";
 }
 
 subshader "nebulonb_hull_Material7" "StandardMesh/Default"
@@ -59,7 +59,7 @@ subshader "nebulonb_hull_Material7" "StandardMesh/Default"
 	lighting true;
 	lightingSpecular false;
 	materialDiffuse 0.588 0.588 0.588;
-	texture "texture/Vehicles/NebulonB/rstripe";
+	texture "texture/vehicles/nebulonb/rstripe";
 }
 
 subshader "nebulonb_hull_Material8" "StandardMesh/Default"
@@ -67,7 +67,7 @@ subshader "nebulonb_hull_Material8" "StandardMesh/Default"
 	lighting true;
 	lightingSpecular false;
 	materialDiffuse 0.588 0.588 0.588;
-	texture "texture/Buildings/Tanaab/tan_isd01";
+	texture "texture/buildings/tanaab/tan_isd01";
 }
 
 subshader "nebulonb_hull_Material9" "StandardMesh/Default"
@@ -75,7 +75,7 @@ subshader "nebulonb_hull_Material9" "StandardMesh/Default"
 	lighting true;
 	lightingSpecular false;
 	materialDiffuse 0.588 0.588 0.588;
-	texture "texture/Buildings/Tanaab/tan_frig04";
+	texture "texture/buildings/tanaab/tan_frig04";
 }
 
 subshader "nebulonb_hull_Material10" "StandardMesh/Default"
@@ -83,7 +83,7 @@ subshader "nebulonb_hull_Material10" "StandardMesh/Default"
 	lighting true;
 	lightingSpecular false;
 	materialDiffuse 0.588 0.588 0.588;
-	texture "texture/Buildings/Tanaab/tan_isd04";
+	texture "texture/buildings/tanaab/tan_isd04";
 }
 
 subshader "nebulonb_hull_Material11" "StandardMesh/Default"
@@ -91,6 +91,6 @@ subshader "nebulonb_hull_Material11" "StandardMesh/Default"
 	lighting true;
 	lightingSpecular false;
 	materialDiffuse 0.588 0.588 0.588;
-	texture "texture/Buildings/Tanaab/tan_isd05";
+	texture "texture/buildings/tanaab/tan_isd05";
 }
 
