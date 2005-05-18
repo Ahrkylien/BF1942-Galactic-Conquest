@@ -51,6 +51,7 @@ shaderManager.setDefaultShaderSolidColor 0.2/0.2/0.2
 
 run Init/SkyAndSun
 run Init/Terrain
+run Objects/Objects
 
 water.specularEnable 0
 water.texLayer1 texture/water07

@@ -66,12 +66,13 @@ ObjectTemplate.invisibleAtEndEffect 1
 ObjectTemplate.hasArmor 1
 ObjectTemplate.hitPoints 9999
 ObjectTemplate.maxHitPoints 9999
-ObjectTemplate.explosionDamage 0
+ObjectTemplate.explosionDamage 1
 rem *** ExpPacks explodes after 120 seconds, if not detonated by hand first.
 ObjectTemplate.timeToLive CRD_NONE/120/0/0
 ObjectTemplate.dieAfterColl 0
-ObjectTemplate.radius 10
-ObjectTemplate.ForceOnExplosion 65
+ObjectTemplate.radius 15
+ObjectTemplate.ForceOnExplosion 85
+ObjectTemplate.explosionForceMod 15
 ObjectTemplate.DamageType 1
 ObjectTemplate.hasOnTimeEffect 1
 ObjectTemplate.useMMOnEndEffect 1

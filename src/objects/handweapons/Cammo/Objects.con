@@ -6,7 +6,7 @@ ObjectTemplate.projectileTemplate BuildCammo
 ObjectTemplate.projectilePosition 0/0/0
 ObjectTemplate.hasDynamicShadow 0
 ObjectTemplate.projectileVisible 0
-ObjectTemplate.magSize 1
+ObjectTemplate.magSize 2
 ObjectTemplate.numOfMag 1
 ObjectTemplate.magType 0
 ObjectTemplate.reloadtime 999
@@ -56,7 +56,7 @@ ObjectTemplate.holdObject 0
 ObjectTemplate.minSpawnDelay 0 
 ObjectTemplate.maxSpawnDelay 0 
 ObjectTemplate.TimeToLive 10
-ObjectTemplate.Distance 20 
+ObjectTemplate.Distance 1000 
 ObjectTemplate.spawnOffset 0/.17/0
 ObjectTemplate.team 2 
 ObjectTemplate.MaxNrOfObjectSpawned 1 

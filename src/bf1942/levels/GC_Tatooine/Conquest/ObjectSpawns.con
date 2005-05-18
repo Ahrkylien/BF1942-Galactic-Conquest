@@ -104,6 +104,12 @@ Object.absolutePosition 1502.68/72.0424/2456.69
 Object.rotation -299.999/0/0
 Object.setTeam 2
 rem
+rem *** ***
+Object.create droid_capsule_s
+Object.absolutePosition 1502.17/72.13/2460.58
+Object.rotation 0.00/0.00/0.00
+Object.setTeam 2
+rem
 rem ***  ***
 rem
 Object.create speederbikespawner

@@ -1,5 +1,5 @@
 rem ObjectSpawnTemplates.con created by Battlecraft 1942
-rem (\Program Files\Battlefield 1942\Mods\GCMOD\bf1942\levels\GC_Race/conquest/ObjectSpawnTemplates.con)
+rem (\Program Files\Battlefield 1942\Mods\GCMOD\bf1942\levels\GC_BonusRace/conquest/ObjectSpawnTemplates.con)
 
 rem ----------------------------------------- 
 rem ---  Fighter  ---
@@ -36,7 +36,7 @@ rem ---  Transport  ---
 rem ----------------------------------------- 
 ObjectTemplate.create ObjectSpawner Transport
 ObjectTemplate.setObjectTemplate 1 epsilon
-ObjectTemplate.setObjectTemplate 2 yt1300
+ObjectTemplate.setObjectTemplate 2 milleniumfalcon
 ObjectTemplate.MinSpawnDelay 10
 ObjectTemplate.MaxSpawnDelay 15
 ObjectTemplate.SpawnDelayAtStart 0
@@ -104,6 +104,51 @@ ObjectTemplate.TimeToLive 45
 ObjectTemplate.Distance 40
 ObjectTemplate.DamageWhenLost 10
 ObjectTemplate.maxNrOfObjectSpawned 10
+ObjectTemplate.teamOnVehicle 0
+
+rem ----------------------------------------- 
+rem ---  Gunship  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner Gunship
+ObjectTemplate.setObjectTemplate 1 impgunship
+ObjectTemplate.setObjectTemplate 2 repgun
+ObjectTemplate.MinSpawnDelay 10
+ObjectTemplate.MaxSpawnDelay 20
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.maxNrOfObjectSpawned 2
+ObjectTemplate.teamOnVehicle 0
+
+rem ----------------------------------------- 
+rem ---  Sentry  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner Sentry_spawner
+ObjectTemplate.setObjectTemplate 1 sentrycontrol
+ObjectTemplate.setObjectTemplate 2 sentrycontrol
+ObjectTemplate.MinSpawnDelay 10
+ObjectTemplate.MaxSpawnDelay 20
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.maxNrOfObjectSpawned 1
+ObjectTemplate.teamOnVehicle 0
+
+rem ----------------------------------------- 
+rem ---  Dtap_Spawner  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner Dtap_Spawner
+ObjectTemplate.setObjectTemplate 1 impskiff
+ObjectTemplate.setObjectTemplate 2 impskiff
+ObjectTemplate.MinSpawnDelay 10
+ObjectTemplate.MaxSpawnDelay 20
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.maxNrOfObjectSpawned 4
 ObjectTemplate.teamOnVehicle 0
 
 rem EndOfFile

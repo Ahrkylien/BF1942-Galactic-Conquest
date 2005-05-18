@@ -84,11 +84,11 @@ ObjectTemplate.setPosition -3.5/-2.5/11
 ObjectTemplate.addTemplate LambdaEntry
 ObjectTemplate.setPosition 3.5/-2.5/11
 ObjectTemplate.addTemplate LambdaFrontGun
+ObjectTemplate.addTemplate LambdaEngine
+ObjectTemplate.setPosition 0/0/0
 ObjectTemplate.addTemplate LambdaDoorPCO
 ObjectTemplate.setPosition 0/0/0
 ObjectTemplate.addTemplate LambdaBackGunPCO
-ObjectTemplate.addTemplate LambdaEngine
-ObjectTemplate.setPosition 0/0/0
 ObjectTemplate.addTemplate LambdaBodyWingVertical
 ObjectTemplate.setRotation 0/0/-90
 ObjectTemplate.addTemplate LambdaVTOLRack
@@ -115,6 +115,23 @@ ObjectTemplate.setRotation 0/-1.7/0
 ObjectTemplate.addTemplate LambdaRudder
 ObjectTemplate.setPosition 0/1/-6
 ObjectTemplate.setRotation 0/0/-90
+ObjectTemplate.addTemplate LambdaDummyEngineRack
+ObjectTemplate.setPosition 0/1.4/2.2
+ObjectTemplate.addTemplate LambdaDummyRearEngineRack
+ObjectTemplate.setPosition .9/1.65/-7.95
+ObjectTemplate.addTemplate LambdaEngineRack1
+ObjectTemplate.setPosition 0/1/2.5
+ObjectTemplate.addTemplate LambdaEngineRack2
+ObjectTemplate.setPosition 0/1/-2.5
+ObjectTemplate.addTemplate LambdaEngineRack3
+ObjectTemplate.setPosition 0/1/0
+
+rem ObjectTemplate.addTemplate GunMainEngine
+rem ObjectTemplate.setPosition 0/0/1
+rem ObjectTemplate.setRotation 180/0/0
+ObjectTemplate.addTemplate LambdaLevelEngine
+ObjectTemplate.setPosition 0/0/0
+
 ObjectTemplate.addTemplate LambdaPCO4
 ObjectTemplate.addTemplate LambdaPCO5
 ObjectTemplate.addTemplate LambdaPCO6
@@ -197,6 +214,99 @@ ObjectTemplate.setGearUpEngineInput 1.16
 ObjectTemplate.addTemplate LambdaRightWingGun
 ObjectTemplate.setPosition 0/-2.4/5.8
 ObjectTemplate.setRotation 0/90/0
+
+rem -----------------------------------------------------------
+rem ENGINE RACK CODE - Nice Rack, baby. - 
+rem -----------------------------------------------------------
+
+rem *** DummyEngineRack ***
+ObjectTemplate.create RotationalBundle LambdaDummyEngineRack
+ObjectTemplate.setNetworkableInfo lambdabodyinfo
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate LambdaDummyEngine
+ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.setRotation 0/270/0
+rem -------------------------------------
+ObjectTemplate.setMinRotation -2/-2/-2
+ObjectTemplate.setMaxRotation 2/2/2
+ObjectTemplate.setMaxSpeed 150/150/-150
+ObjectTemplate.setAcceleration 150/150/-150
+ObjectTemplate.setInputToRoll c_PIRoll
+ObjectTemplate.setInputToPitch c_PIPitch
+ObjectTemplate.setAutomaticReset 1
+
+rem *** DummyRearEngineRack ***
+ObjectTemplate.create Bundle LambdaDummyRearEngineRack
+ObjectTemplate.setNetworkableInfo lambdabodyinfo
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate LambdaDummyRearEngine
+ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.setRotatation 0/270/0
+rem -------------------------------------
+
+rem *** EngineRack1 ***
+ObjectTemplate.create RotationalBundle LambdaEngineRack1
+rem ObjectTemplate.setNetworkableInfo lambdabodyinfo
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate LambdaHoverEngine1
+ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.setRotation 0/270/0
+rem -------------------------------------
+ObjectTemplate.setMinRotation -20/-20/-20
+ObjectTemplate.setMaxRotation 20/20/20
+ObjectTemplate.setMaxSpeed 150/150/-150
+ObjectTemplate.setAcceleration 150/150/-150
+ObjectTemplate.setInputToRoll c_PIYaw
+ObjectTemplate.setInputToPitch c_PIPitch
+ObjectTemplate.setAutomaticReset 1
+
+
+rem *** EngineRack2 ***
+ObjectTemplate.create RotationalBundle LambdaEngineRack2
+rem ObjectTemplate.setNetworkableInfo lambdabodyinfo
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate LambdaHoverEngine2
+ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.setRotation 0/270/0
+rem -------------------------------------
+ObjectTemplate.setMinRotation -20/-20/-20
+ObjectTemplate.setMaxRotation 20/20/20
+ObjectTemplate.setMaxSpeed 150/150/150
+ObjectTemplate.setAcceleration 150/150/150
+ObjectTemplate.setInputToRoll c_PIYaw
+ObjectTemplate.setInputToPitch c_PIPitch
+ObjectTemplate.setAutomaticReset 1
+
+rem *** EngineRack3 ***
+ObjectTemplate.create RotationalBundle LambdaEngineRack3
+rem ObjectTemplate.setNetworkableInfo lambdabodyinfo
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate LambdaHoverEngine3
+ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.setRotation 0/270/0
+rem -------------------------------------
+ObjectTemplate.setMinRotation -20/-20/-20
+ObjectTemplate.setMaxRotation 20/20/20
+ObjectTemplate.setMaxSpeed 150/150/-150
+ObjectTemplate.setAcceleration 150/150/-150
+ObjectTemplate.setInputToRoll c_PIRoll
+ObjectTemplate.setInputToPitch c_PIPitch
+ObjectTemplate.setAutomaticReset 1
 
 rem -------------------------------------------------------------------------------------
 

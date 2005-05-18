@@ -97,7 +97,7 @@ rem *** Set team 2 ***
 game.setBeforeSpawnCameraPosition 2 1439.9753/1500/513.702
 
 
-
+run objects/loadObjects
 
 
 

@@ -7,7 +7,7 @@ newPatch
 ####################
 load @ROOT/Sound/@RTD/repgunner-engine-start.wav
 relativePosition 0/0/-2
-minDistance 30
+minDistance 50
 volume 0.6
 dopplerOff
 priority -2
@@ -54,27 +54,15 @@ beginEffect
 	param 0.2
 endEffect
 
-*** Engine Pitch ***
+*** Speed Pitch ***
 beginEffect
 	controlDestination Pitch
-	controlSource Extern #map<Engine::Rpm>
-	envelope Ramp
-	param 0
-	param 1
-	param 0.7
-	param 0.1
+	controlSource Speed
+	envelope Linear
+	param 0.95
+	param 0.003
 endEffect
 
-*** Engine Volume Start ***
-beginEffect
-	controlDestination Volume
-	controlSource Extern #map<Engine::Rpm>
-	envelope Ramp
-	param 0
-	param 1.2
-	param 0.8
-	param 0.9
-endEffect
 
 *** Distance Volume ***
 beginEffect

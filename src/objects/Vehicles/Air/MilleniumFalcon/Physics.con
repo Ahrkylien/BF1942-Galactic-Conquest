@@ -9,9 +9,9 @@ ObjectTemplate.addTemplate MilleniumFalconLandingfront
 ObjectTemplate.setPosition 0/0.725/9.164
 ObjectTemplate.addTemplate MilleniumFalconbackpadsgear
 ObjectTemplate.setPosition 0/.5/2
-rem ObjectTemplate.addTemplate MilleniumFalconvtolengine
-rem ObjectTemplate.setPosition 0/0/0
-rem ObjectTemplate.setRotation 0/-60/0
+ObjectTemplate.addTemplate MilleniumFalconvtolengine
+ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.setRotation 0/-60/0
 ObjectTemplate.addTemplate MilleniumFalconbackrightgdl
 ObjectTemplate.setPosition 3.038/0.22/-7.6
 ObjectTemplate.setRotation 0/0/-130
@@ -102,8 +102,185 @@ ObjectTemplate.setAcceleration 0/0/5000
 ObjectTemplate.setInputToRoll c_PIAltFire
 ObjectTemplate.setAutomaticReset 1
 ObjectTemplate.setEngineType c_ETPlane
-ObjectTemplate.setTorque 50000
-ObjectTemplate.setDifferential 100
+ObjectTemplate.setTorque 5000
+ObjectTemplate.setDifferential 25
+
+rem _____________________________________________________________________________
+rem *****  HoverBaby Yea!  *****
+rem _____________________________________________________________________________
+
+rem ____________________________________________________________________________
+rem ____________________________________________________________________________
+
+rem **** DUMMY ENGINES ****
+
+rem *** DummyEngineRack ***
+ObjectTemplate.create RotationalBundle FalconDummyEngineRack
+rem ObjectTemplate.setNetworkableInfo Millenium_Body_Info
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate FalconDummyEngine
+ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.setRotation 0/270/0
+rem -------------------------------------
+ObjectTemplate.setMinRotation -2/-2/-2
+ObjectTemplate.setMaxRotation 2/2/2
+ObjectTemplate.setMaxSpeed 150/150/-150
+ObjectTemplate.setAcceleration 150/150/-150
+ObjectTemplate.setInputToRoll c_PIRoll
+ObjectTemplate.setInputToPitch c_PIPitch
+ObjectTemplate.setAutomaticReset 1
+
+rem *** DummyRearEngineRack ***
+ObjectTemplate.create Bundle FalconDummyRearEngineRack
+rem ObjectTemplate.setNetworkableInfo Millenium_Body_Info
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate FalconDummyRearEngine
+ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.setRotatation 0/270/0
+rem -------------------------------------
+
+rem *** EngineRack1 ***
+ObjectTemplate.create RotationalBundle FalconEngineRack1
+rem ObjectTemplate.setNetworkableInfo Millenium_Body_Info
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate FalconHoverEngine1
+ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.setRotation 0/270/0
+rem -------------------------------------
+ObjectTemplate.setMinRotation -20/-20/-20
+ObjectTemplate.setMaxRotation 20/20/20
+ObjectTemplate.setMaxSpeed 150/150/-150
+ObjectTemplate.setAcceleration 150/150/-150
+ObjectTemplate.setInputToRoll c_PIYaw
+ObjectTemplate.setInputToPitch c_PIPitch
+ObjectTemplate.setAutomaticReset 1
+
+
+rem *** EngineRack2 ***
+ObjectTemplate.create RotationalBundle FalconEngineRack2
+rem ObjectTemplate.setNetworkableInfo Millenium_Body_Info
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate FalconHoverEngine2
+ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.setRotation 0/270/0
+rem -------------------------------------
+ObjectTemplate.setMinRotation -20/-20/-20
+ObjectTemplate.setMaxRotation 20/20/20
+ObjectTemplate.setMaxSpeed 150/150/150
+ObjectTemplate.setAcceleration 150/150/150
+ObjectTemplate.setInputToRoll c_PIYaw
+ObjectTemplate.setInputToPitch c_PIPitch
+ObjectTemplate.setAutomaticReset 1
+
+rem *** EngineRack3 ***
+ObjectTemplate.create RotationalBundle FalconEngineRack3
+rem ObjectTemplate.setNetworkableInfo Millenium_Body_Info
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate FalconHoverEngine3
+ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.setRotation 0/270/0
+rem -------------------------------------
+ObjectTemplate.setMinRotation -20/-20/-20
+ObjectTemplate.setMaxRotation 20/20/20
+ObjectTemplate.setMaxSpeed 150/150/-150
+ObjectTemplate.setAcceleration 150/150/-150
+ObjectTemplate.setInputToRoll c_PIRoll
+ObjectTemplate.setInputToPitch c_PIPitch
+ObjectTemplate.setAutomaticReset 1
+
+rem _____________________________________________________________________________
+rem _____________________________________________________________________________
+
+
+rem *** FalconDummyEngine ***
+ObjectTemplate.create Engine FalconDummyEngine
+ObjectTemplate.hasCollisionPhysics 1
+rem ObjectTemplate.setNetworkableInfo Millenium_engine_info
+ObjectTemplate.setMinRotation 0/0/50
+ObjectTemplate.setMaxRotation 0/0/1000
+ObjectTemplate.setMaxSpeed 0/0/9500
+ObjectTemplate.setAcceleration 0/0/15000
+ObjectTemplate.setInputToRoll c_PIThrottle
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setEngineType c_ETPlane
+ObjectTemplate.setTorque .1
+ObjectTemplate.setDifferential .1
+ObjectTemplate.setNoPropellerEffectAtSpeed 50
+
+rem *** FalconDummyRearEngine ***
+ObjectTemplate.create Engine FalconDummyRearEngine
+rem ObjectTemplate.setNetworkableInfo Millenium_engine_info
+ObjectTemplate.setMinRotation 0/0/50
+ObjectTemplate.setMaxRotation 0/0/500
+ObjectTemplate.setMaxSpeed 0/0/50
+ObjectTemplate.setAcceleration 0/0/100
+ObjectTemplate.setInputToRoll c_PIThrottle
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setEngineType c_ETPlane
+ObjectTemplate.setTorque .1
+ObjectTemplate.setDifferential .1
+ObjectTemplate.setNoPropellerEffectAtSpeed 100
+
+rem *** HoverEngine1 ***
+ObjectTemplate.create Engine FalconHoverEngine1
+ObjectTemplate.setNetworkableInfo Millenium_engine_info
+ObjectTemplate.setMinRotation -5000/-5000/2300
+ObjectTemplate.setMaxRotation 5000/5000/5000
+ObjectTemplate.setMaxSpeed 50/50/9500
+ObjectTemplate.setAcceleration 50/50/10050
+ObjectTemplate.setInputToRoll c_PIThrottle
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setEngineType c_ETPlane
+ObjectTemplate.setTorque 18
+ObjectTemplate.setDifferential 3.5
+ObjectTemplate.setNoPropellerEffectAtSpeed 3000
+
+rem *** HoverEngine2 ***
+ObjectTemplate.create Engine FalconHoverEngine2
+ObjectTemplate.setNetworkableInfo Millenium_engine_info
+ObjectTemplate.loadSoundScript Sounds/RepGunEngine.ssc
+rem -------------------------------------
+ObjectTemplate.setMinRotation -5000/-5000/2300
+ObjectTemplate.setMaxRotation 5000/5000/5000
+ObjectTemplate.setMaxSpeed 50/50/9500
+ObjectTemplate.setAcceleration 50/50/10050
+ObjectTemplate.setInputToRoll c_PIThrottle
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setEngineType c_ETPlane
+ObjectTemplate.setTorque 18
+ObjectTemplate.setDifferential 3.5
+ObjectTemplate.setNoPropellerEffectAtSpeed 3000
+
+rem *** HoverEngine3 ***
+ObjectTemplate.create Engine FalconHoverEngine3
+ObjectTemplate.setNetworkableInfo Millenium_engine_info
+ObjectTemplate.setMinRotation -5000/-5000/2300
+ObjectTemplate.setMaxRotation 5000/5000/5000
+ObjectTemplate.setMaxSpeed 50/50/9500
+ObjectTemplate.setAcceleration 50/50/10050
+ObjectTemplate.setInputToRoll c_PIThrottle
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setEngineType c_ETPlane
+ObjectTemplate.setTorque 18
+ObjectTemplate.setDifferential 3.5
+ObjectTemplate.setNoPropellerEffectAtSpeed 3000
+rem _____________________________________________________________________________
+rem _____________________________________________________________________________
 
 rem ---------------------- landing gear ------------------------------
 
@@ -416,7 +593,7 @@ ObjectTemplate.setMinRotation 0/0/0
 ObjectTemplate.setMaxRotation 0/0/5000
 ObjectTemplate.setMaxSpeed 0/0/900
 ObjectTemplate.setAcceleration 0/0/5000
-ObjectTemplate.setInputToRoll c_PIAltFire
+ObjectTemplate.setInputToRoll c_PIThrottle
 ObjectTemplate.setAutomaticReset 1
 ObjectTemplate.setEngineType c_ETPlane
 ObjectTemplate.setTorque 50

@@ -1,5 +1,5 @@
 rem ObjectSpawns.con created by Battlecraft 1942
-rem (\Program Files\Battlefield 1942\Mods\GCMOD\bf1942\levels\GC_Race/conquest/ObjectSpawns.con)
+rem (\Program Files\Battlefield 1942\Mods\GCMOD\bf1942\levels\GC_BonusRace/conquest/ObjectSpawns.con)
 
 rem ----------------------------------------- 
 rem ---  Fighter  ---
@@ -306,5 +306,68 @@ Object.absolutePosition 68.30/256.67/2011.55
 Object.rotation 180.00/0.00/0.00
 Object.setOSId 6
 Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  Gunship  ---
+rem ----------------------------------------- 
+Object.create Gunship
+Object.absolutePosition 15.33/258.62/1992.74
+Object.rotation 135.00/0.00/0.00
+Object.setOSId 6
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  Gunship  ---
+rem ----------------------------------------- 
+Object.create Gunship
+Object.absolutePosition 2028.41/258.87/2013.92
+Object.rotation -135.00/0.00/0.00
+Object.setOSId 5
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Sentry  ---
+rem ----------------------------------------- 
+Object.create Sentry_spawner
+Object.absolutePosition 990.69/261.38/1740.03
+Object.rotation 134.34/0.00/0.00
+Object.setOSId 4
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  Sentry  ---
+rem ----------------------------------------- 
+Object.create Sentry_spawner
+Object.absolutePosition 1037.30/3.61/282.58
+Object.rotation -90/0.00/0.00
+Object.setOSId 1
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Sentry  ---
+rem ----------------------------------------- 
+Object.create Sentry_spawner
+Object.absolutePosition 1038.90/3.62/185.82
+Object.rotation -90/0.00/0.00
+Object.setOSId 2
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  Dtap_Spawner  ---
+rem ----------------------------------------- 
+Object.create Dtap_Spawner
+Object.absolutePosition 48.65/256.71/2023.05
+Object.rotation -180.00/0.00/0.00
+Object.setOSId 6
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  Dtap_Spawner  ---
+rem ----------------------------------------- 
+Object.create Dtap_Spawner
+Object.absolutePosition 1976.57/257.20/2035.75
+Object.rotation -180.00/0.00/0.00
+Object.setOSId 5
+Object.setTeam 1
 
 rem EndOfFile

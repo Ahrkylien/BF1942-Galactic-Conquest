@@ -275,8 +275,8 @@ GeometryTemplate.setLodDistance 3 100
 GeometryTemplate.setLodDistance 4 150
 GeometryTemplate.setLodDistance 5 250
 
-GeometryTemplate.create StandardMesh tan_lambdabody_m1
-GeometryTemplate.file Vehicles/Lambda/tan_lambda_body
+GeometryTemplate.create StandardMesh lambdabody_m1
+GeometryTemplate.file Vehicles/Lambda/lambda_body
 GeometryTemplate.hasDynamicShadow 0
 GeometryTemplate.setLodDistance 0 0
 GeometryTemplate.setLodDistance 1 20
@@ -285,8 +285,8 @@ GeometryTemplate.setLodDistance 3 100
 GeometryTemplate.setLodDistance 4 150
 GeometryTemplate.setLodDistance 5 250
 
-GeometryTemplate.create StandardMesh tan_lambdatopwing_m1
-GeometryTemplate.file Vehicles/Lambda/tan_lambda_dorsal_wing
+GeometryTemplate.create StandardMesh lambdatopwing_m1
+GeometryTemplate.file Vehicles/Lambda/lambda_dorsal_wing
 GeometryTemplate.hasDynamicShadow 0
 GeometryTemplate.setLodDistance 0 0
 GeometryTemplate.setLodDistance 1 20
@@ -295,8 +295,8 @@ GeometryTemplate.setLodDistance 3 100
 GeometryTemplate.setLodDistance 4 150
 GeometryTemplate.setLodDistance 5 250
 
-GeometryTemplate.create StandardMesh tan_lambdaleftwing_m1
-GeometryTemplate.file Vehicles/Lambda/tan_lambda_left_wing
+GeometryTemplate.create StandardMesh lambdaleftwing_m1
+GeometryTemplate.file Vehicles/Lambda/lambda_left_wing
 GeometryTemplate.hasDynamicShadow 0
 GeometryTemplate.setLodDistance 0 0
 GeometryTemplate.setLodDistance 1 20
@@ -305,8 +305,8 @@ GeometryTemplate.setLodDistance 3 100
 GeometryTemplate.setLodDistance 4 150
 GeometryTemplate.setLodDistance 5 250
 
-GeometryTemplate.create StandardMesh tan_lambdarightwing_m1
-GeometryTemplate.file Vehicles/Lambda/tan_lambda_right_wing
+GeometryTemplate.create StandardMesh lambdarightwing_m1
+GeometryTemplate.file Vehicles/Lambda/lambda_right_wing
 GeometryTemplate.hasDynamicShadow 0
 GeometryTemplate.setLodDistance 0 0
 GeometryTemplate.setLodDistance 1 20

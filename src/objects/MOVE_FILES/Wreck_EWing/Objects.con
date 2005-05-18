@@ -1,6 +1,6 @@
 ObjectTemplate.create Bundle Wreck_EWing
 ObjectTemplate.saveInSeparateFile 1
-ObjectTemplate.geometry Wreck_EWing2_M1
+ObjectTemplate.geometry Wreck_Null
 ObjectTemplate.setHasCollisionPhysics 1
 ObjectTemplate.setHasResponsePhysics 1
 ObjectTemplate.destroyed 1

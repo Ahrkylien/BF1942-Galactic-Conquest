@@ -2,10 +2,8 @@ rem *********** 5.Dec 04 by Django
 rem *********** Patched by SZier
 rem *********** version 4.0
 rem *********** (Intergrated into Build R5 - HUDS - Etc)
-rem *********** patch 3 - Jan 6th 2004
-rem *********** patch 4 - Jan 14th 2004 Django
-rem *********** patch 5 - Jan 19th 2004 Django
-rem *********** patch  Jan 29th 2004 Django
+rem *********** patch Feb 22th 2005 : seat door,4,5,6 visible soldier positions fixed, Django
+
 
 rem *** atatde ***
 ObjectTemplate.create playercontrolobject ATAT
@@ -19,14 +17,14 @@ ObjectTemplate.explosionRadius 12
 ObjectTemplate.explosionDamage 5
 ObjectTemplate.damageFromWater 90
 ObjectTemplate.drag 5
-ObjectTemplate.mass 200000
+ObjectTemplate.mass 1000000
 ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.hasResponsePhysics 1
 ObjectTemplate.hasArmor 1
 ObjectTemplate.speedMod 1
 ObjectTemplate.hitpoints 850
 ObjectTemplate.maxhitpoints 850
-ObjectTemplate.material 831
+ObjectTemplate.material 812
 ObjectTemplate.setSoldierExitLocation 0/16.3845/7 0/0/0
 ObjectTemplate.criticalDamage 12
 ObjectTemplate.hpLostWhileCriticalDamage 1.2
@@ -249,8 +247,8 @@ ObjectTemplate.addTemplate atatdehatchcamera
 ObjectTemplate.setPosition 3.40914/16/-1.56142
 ObjectTemplate.setRotation -90.0/0.0/0.0
 ObjectTemplate.addTemplate atatpassseat
-ObjectTemplate.setPosition 3.40914/15.3986/-1.56142
-ObjectTemplate.setRotation -90.0/0.0/0.0
+ObjectTemplate.setPosition 3.2/15.7/-1.56142
+ObjectTemplate.setRotation -90.0/10.0/0.0
 ObjectTemplate.addTemplate atatdeentry
 ObjectTemplate.setPosition 3.40914/15.3845/-1.56142
 ObjectTemplate.addTemplate atatdeentry
@@ -274,8 +272,9 @@ ObjectTemplate.addTemplate atatdehatchcamera
 ObjectTemplate.setPosition 3.40914/16/1.56142
 ObjectTemplate.setRotation -90.0/0.0/0.0
 ObjectTemplate.addtemplate atatpassseat
-ObjectTemplate.setPosition 3.40914/15.4002/1.56142
-ObjectTemplate.setRotation -90.0/0.0/0.0
+ObjectTemplate.setPosition 3.2/15.7/1.56142
+rem ObjectTemplate.setPosition 3/15.6/1.56142
+ObjectTemplate.setRotation -90.0/10.0/0.0
 ObjectTemplate.addTemplate atatdeentry
 ObjectTemplate.setPosition 3.40914/15.3845/1.56142
 ObjectTemplate.addTemplate atatdeentry
@@ -300,8 +299,8 @@ ObjectTemplate.addTemplate atatdehatchcamera
 ObjectTemplate.setPosition -2.10466/16/0
 ObjectTemplate.setRotation 90.0/0.0/0.0
 ObjectTemplate.addtemplate atatpassseat
-ObjectTemplate.setPosition -2.10466/15.4/0.0
-ObjectTemplate.setRotation 90.0/0.0/0.0
+ObjectTemplate.setPosition -1.9/15.7/0.0
+ObjectTemplate.setRotation 90.0/10.0/0.0
 ObjectTemplate.addTemplate atatdeentry
 ObjectTemplate.setPosition -2.10466/15.3845/0
 ObjectTemplate.addTemplate atatdeentry
@@ -327,7 +326,7 @@ ObjectTemplate.addTemplate atatdehatchcamera
 ObjectTemplate.setPosition -3.469/16/-4.33479
 ObjectTemplate.setRotation -70/0/0
 ObjectTemplate.addTemplate atatdoorseat
-ObjectTemplate.setPosition -3.469/15.6705/-4.33479
+ObjectTemplate.setPosition -3.469/15.5705/-4.33479
 ObjectTemplate.setRotation -70/0/0
 ObjectTemplate.addTemplate atatdedoorrot
 ObjectTemplate.setPosition -4.86043/14.71/3.51076
@@ -456,8 +455,8 @@ ObjectTemplate.create rotationalbundle drive_wheelfl
 ObjectTemplate.setNetworkableInfo atatdelegInfo
 ObjectTemplate.setMinRotation 0/0/0
 ObjectTemplate.setMaxRotation 0/0/0
-ObjectTemplate.setMaxSpeed 50/0/0
-ObjectTemplate.setAcceleration 1000/0/0
+ObjectTemplate.setMaxSpeed 60/0/0
+ObjectTemplate.setAcceleration 10/0/0
 ObjectTemplate.setInputToYaw c_PIThrottle
 ObjectTemplate.addTemplate counterrot0fl
 ObjectTemplate.setRotation 0.0/10.0/0.0
@@ -470,8 +469,8 @@ ObjectTemplate.create rotationalbundle counterrot0fl
 ObjectTemplate.setNetworkableInfo atatdelegInfo
 ObjectTemplate.setMinRotation 0/0/0
 ObjectTemplate.setMaxRotation 0/0/0
-ObjectTemplate.setMaxSpeed 100/0/0
-ObjectTemplate.setAcceleration -2000/0/0
+ObjectTemplate.setMaxSpeed 120/0/0
+ObjectTemplate.setAcceleration -20/0/0
 ObjectTemplate.setInputToYaw c_PIThrottle
 ObjectTemplate.addTemplate upperlegfl
 ObjectTemplate.setPosition 0.0/-4.64451e-007/1.42602e-006
@@ -483,8 +482,8 @@ ObjectTemplate.create rotationalbundle upperlegfl
 ObjectTemplate.setNetworkableInfo atatdelegInfo
 ObjectTemplate.setMinRotation 0/0/0
 ObjectTemplate.setMaxRotation 0/0/0
-ObjectTemplate.setMaxSpeed 50/0/0
-ObjectTemplate.setAcceleration 1000/0/0
+ObjectTemplate.setMaxSpeed 60/0/0
+ObjectTemplate.setAcceleration 10/0/0
 ObjectTemplate.setInputToYaw c_PIThrottle
 ObjectTemplate.addTemplate legsegmentflspring
 ObjectTemplate.setPosition 0.0/6.42219e-006/-1.67878e-006
@@ -495,8 +494,8 @@ ObjectTemplate.create rotationalbundle counterrot1fl
 ObjectTemplate.setNetworkableInfo atatdelegInfo
 ObjectTemplate.setMinRotation 0/0/0
 ObjectTemplate.setMaxRotation 0/0/0
-ObjectTemplate.setMaxSpeed 100/0/0
-ObjectTemplate.setAcceleration -2000/0/0
+ObjectTemplate.setMaxSpeed 120/0/0
+ObjectTemplate.setAcceleration -20/0/0
 ObjectTemplate.setInputToYaw c_PIThrottle
 ObjectTemplate.addTemplate lowerlegfl
 ObjectTemplate.setPosition 0.0/-0.430364/-2.03343
@@ -507,8 +506,8 @@ ObjectTemplate.create rotationalbundle lowerlegfl
 ObjectTemplate.setNetworkableInfo atatdelegInfo
 ObjectTemplate.setMinRotation 0/0/0
 ObjectTemplate.setMaxRotation 0/0/0
-ObjectTemplate.setMaxSpeed 50/0/0
-ObjectTemplate.setAcceleration 1000/0/0
+ObjectTemplate.setMaxSpeed 60/0/0
+ObjectTemplate.setAcceleration 10/0/0
 ObjectTemplate.setInputToYaw c_PIThrottle
 ObjectTemplate.addTemplate legsegment2flspring
 ObjectTemplate.addTemplate backrightleg
@@ -529,8 +528,8 @@ ObjectTemplate.create rotationalbundle drive_wheellfoot
 ObjectTemplate.setNetworkableInfo atatdelegInfo
 ObjectTemplate.setMinRotation 0/0/0
 ObjectTemplate.setMaxRotation 0/0/0
-ObjectTemplate.setMaxSpeed 50/0/0
-ObjectTemplate.setAcceleration 1000/0/0
+ObjectTemplate.setMaxSpeed 60/0/0
+ObjectTemplate.setAcceleration 10/0/0
 ObjectTemplate.setInputToYaw c_PIThrottle
 ObjectTemplate.addTemplate counterrot2fl
 ObjectTemplate.setRotation 0.0/10.0/0.0
@@ -541,8 +540,8 @@ ObjectTemplate.create rotationalbundle counterrot2fl
 ObjectTemplate.setNetworkableInfo atatdelegInfo
 ObjectTemplate.setMinRotation 0/0/0
 ObjectTemplate.setMaxRotation 0/0/0
-ObjectTemplate.setMaxSpeed 100/0/0
-ObjectTemplate.setAcceleration -2000/0/0
+ObjectTemplate.setMaxSpeed 120/0/0
+ObjectTemplate.setAcceleration -20/0/0
 ObjectTemplate.setInputToYaw c_PIThrottle
 ObjectTemplate.addTemplate footsegmentrot
 ObjectTemplate.setPosition 0.0/4.77416e-006/8.77065e-007
@@ -554,8 +553,8 @@ ObjectTemplate.create rotationalbundle footsegmentrot
 ObjectTemplate.setNetworkableInfo atatdelegInfo
 ObjectTemplate.setMinRotation 0/0/0
 ObjectTemplate.setMaxRotation 0/0/0
-ObjectTemplate.setMaxSpeed 50/0/0
-ObjectTemplate.setAcceleration 1000/0/0
+ObjectTemplate.setMaxSpeed 60/0/0
+ObjectTemplate.setAcceleration 10/0/0
 ObjectTemplate.setInputToYaw c_PIThrottle
 ObjectTemplate.addTemplate footl
 ObjectTemplate.setPosition 0.0/-6.07284e-007/6.98627e-006
@@ -579,8 +578,8 @@ ObjectTemplate.create rotationalbundle drive_wheelfr
 ObjectTemplate.setNetworkableInfo atatdelegInfo
 ObjectTemplate.setMinRotation 0/0/0
 ObjectTemplate.setMaxRotation 0/0/0
-ObjectTemplate.setMaxSpeed 50/0/0
-ObjectTemplate.setAcceleration 500/0/0
+ObjectTemplate.setMaxSpeed 60/0/0
+ObjectTemplate.setAcceleration 10/0/0
 ObjectTemplate.setInputToYaw c_PIThrottle
 ObjectTemplate.addTemplate counterrot0fr
 ObjectTemplate.setRotation 0.0/10.0/0.0
@@ -593,8 +592,8 @@ ObjectTemplate.create rotationalbundle counterrot0fr
 ObjectTemplate.setNetworkableInfo atatdelegInfo
 ObjectTemplate.setMinRotation 0/0/0
 ObjectTemplate.setMaxRotation 0/0/0
-ObjectTemplate.setMaxSpeed 100/0/0
-ObjectTemplate.setAcceleration -1000/0/0
+ObjectTemplate.setMaxSpeed 120/0/0
+ObjectTemplate.setAcceleration -20/0/0
 ObjectTemplate.setInputToYaw c_PIThrottle
 ObjectTemplate.addTemplate upperlegfr
 ObjectTemplate.setPosition 0.0/1.23984e-005/-2.03895e-006
@@ -606,8 +605,8 @@ ObjectTemplate.create rotationalbundle upperlegfr
 ObjectTemplate.setNetworkableInfo atatdelegInfo
 ObjectTemplate.setMinRotation 0/0/0
 ObjectTemplate.setMaxRotation 0/0/0
-ObjectTemplate.setMaxSpeed 50/0/0
-ObjectTemplate.setAcceleration 500/0/0
+ObjectTemplate.setMaxSpeed 60/0/0
+ObjectTemplate.setAcceleration 10/0/0
 ObjectTemplate.setInputToYaw c_PIThrottle
 ObjectTemplate.addTemplate legsegmentfrspring
 ObjectTemplate.setPosition 0.0/-2.25915e-006/-2.72725e-006
@@ -618,8 +617,8 @@ ObjectTemplate.create rotationalbundle counterrot1fr
 ObjectTemplate.setNetworkableInfo atatdelegInfo
 ObjectTemplate.setMinRotation 0/0/0
 ObjectTemplate.setMaxRotation 0/0/0
-ObjectTemplate.setMaxSpeed 100/0/0
-ObjectTemplate.setAcceleration -1000/0/0
+ObjectTemplate.setMaxSpeed 120/0/0
+ObjectTemplate.setAcceleration -20/0/0
 ObjectTemplate.setInputToYaw c_PIThrottle
 ObjectTemplate.addTemplate lowerlegfr
 ObjectTemplate.setPosition 0.0/-0.0734909/-1.44995
@@ -630,8 +629,8 @@ ObjectTemplate.create rotationalbundle lowerlegfr
 ObjectTemplate.setNetworkableInfo atatdelegInfo
 ObjectTemplate.setMinRotation 0/0/0
 ObjectTemplate.setMaxRotation 0/0/0
-ObjectTemplate.setMaxSpeed 50/0/0
-ObjectTemplate.setAcceleration 500/0/0
+ObjectTemplate.setMaxSpeed 60/0/0
+ObjectTemplate.setAcceleration 10/0/0
 ObjectTemplate.setInputToYaw c_PIThrottle
 ObjectTemplate.addTemplate legsegment2frspring
 ObjectTemplate.addTemplate backleftleg
@@ -647,8 +646,8 @@ ObjectTemplate.create rotationalbundle drive_wheelrfoot
 ObjectTemplate.setNetworkableInfo atatdelegInfo
 ObjectTemplate.setMinRotation 0/0/0
 ObjectTemplate.setMaxRotation 0/0/0
-ObjectTemplate.setMaxSpeed 50/0/0
-ObjectTemplate.setAcceleration 500/0/0
+ObjectTemplate.setMaxSpeed 60/0/0
+ObjectTemplate.setAcceleration 10/0/0
 ObjectTemplate.setInputToYaw c_PIThrottle
 ObjectTemplate.addTemplate counterrot2fr
 ObjectTemplate.setRotation 0.0/10.0/0.0
@@ -659,8 +658,8 @@ ObjectTemplate.create rotationalbundle counterrot2fr
 ObjectTemplate.setNetworkableInfo atatdelegInfo
 ObjectTemplate.setMinRotation 0/0/0
 ObjectTemplate.setMaxRotation 0/0/0
-ObjectTemplate.setMaxSpeed 100/0/0
-ObjectTemplate.setAcceleration -1000/0/0
+ObjectTemplate.setMaxSpeed 120/0/0
+ObjectTemplate.setAcceleration -20/0/0
 ObjectTemplate.setInputToYaw c_PIThrottle
 ObjectTemplate.addTemplate footsegmentrotr
 ObjectTemplate.setPosition 1.72818e-007/1.30473e-005/-1.94632e-006
@@ -672,8 +671,8 @@ ObjectTemplate.create rotationalbundle footsegmentrotr
 ObjectTemplate.setNetworkableInfo atatdelegInfo
 ObjectTemplate.setMinRotation 0/0/0
 ObjectTemplate.setMaxRotation 0/0/0
-ObjectTemplate.setMaxSpeed 50/0/0
-ObjectTemplate.setAcceleration 500/0/0
+ObjectTemplate.setMaxSpeed 60/0/0
+ObjectTemplate.setAcceleration 10/0/0
 ObjectTemplate.setInputToYaw c_PIThrottle
 ObjectTemplate.addTemplate footr
 ObjectTemplate.setPosition 1.72818e-007/-2.07438e-006/2.17007e-006
@@ -691,8 +690,8 @@ ObjectTemplate.create rotationalbundle drive_wheelbl
 ObjectTemplate.setNetworkableInfo atatdelegInfo
 ObjectTemplate.setMinRotation 0/0/0
 ObjectTemplate.setMaxRotation 0/0/0
-ObjectTemplate.setMaxSpeed 50/0/0
-ObjectTemplate.setAcceleration 1000/0/0
+ObjectTemplate.setMaxSpeed 60/0/0
+ObjectTemplate.setAcceleration 10/0/0
 ObjectTemplate.setInputToYaw c_PIThrottle
 ObjectTemplate.addTemplate counterrot0bl
 ObjectTemplate.setRotation 0.0/10.0/0.0
@@ -703,8 +702,8 @@ ObjectTemplate.create rotationalbundle counterrot0bl
 ObjectTemplate.setNetworkableInfo atatdelegInfo
 ObjectTemplate.setMinRotation 0/0/0
 ObjectTemplate.setMaxRotation 0/0/0
-ObjectTemplate.setMaxSpeed 100/0/0
-ObjectTemplate.setAcceleration -2000/0/0
+ObjectTemplate.setMaxSpeed 120/0/0
+ObjectTemplate.setAcceleration -20/0/0
 ObjectTemplate.setInputToYaw c_PIThrottle
 ObjectTemplate.addTemplate upperlegbl
 ObjectTemplate.setPosition 0.0/-8.69085e-006/3.33739e-006
@@ -716,8 +715,8 @@ ObjectTemplate.create rotationalbundle upperlegbl
 ObjectTemplate.setNetworkableInfo atatdelegInfo
 ObjectTemplate.setMinRotation 0/0/0
 ObjectTemplate.setMaxRotation 0/0/0
-ObjectTemplate.setMaxSpeed 50/0/0
-ObjectTemplate.setAcceleration 1000/0/0
+ObjectTemplate.setMaxSpeed 60/0/0
+ObjectTemplate.setAcceleration 10/0/0
 ObjectTemplate.setInputToYaw c_PIThrottle
 ObjectTemplate.addTemplate legsegmentblspring
 ObjectTemplate.setPosition 0.0/-4.31886e-006/2.96512e-007
@@ -728,8 +727,8 @@ ObjectTemplate.create rotationalbundle drive_wheelbr
 ObjectTemplate.setNetworkableInfo atatdelegInfo
 ObjectTemplate.setMinRotation 0/0/0
 ObjectTemplate.setMaxRotation 0/0/0
-ObjectTemplate.setMaxSpeed 50/0/0
-ObjectTemplate.setAcceleration 1000/0/0
+ObjectTemplate.setMaxSpeed 60/0/0
+ObjectTemplate.setAcceleration 10/0/0
 ObjectTemplate.setInputToYaw c_PIThrottle
 ObjectTemplate.addTemplate counterrot0br
 ObjectTemplate.setRotation 0.0/10.0/0.0
@@ -740,8 +739,8 @@ ObjectTemplate.create rotationalbundle counterrot0br
 ObjectTemplate.setNetworkableInfo atatdelegInfo
 ObjectTemplate.setMinRotation 0/0/0
 ObjectTemplate.setMaxRotation 0/0/0
-ObjectTemplate.setMaxSpeed 100/0/0
-ObjectTemplate.setAcceleration -2000/0/0
+ObjectTemplate.setMaxSpeed 120/0/0
+ObjectTemplate.setAcceleration -20/0/0
 ObjectTemplate.setInputToYaw c_PIThrottle
 ObjectTemplate.addTemplate upperlegbr
 ObjectTemplate.setPosition 0.0/-3.70533e-006/-4.57992e-006
@@ -753,8 +752,8 @@ ObjectTemplate.create rotationalbundle upperlegbr
 ObjectTemplate.setNetworkableInfo atatdelegInfo
 ObjectTemplate.setMinRotation 0/0/0
 ObjectTemplate.setMaxRotation 0/0/0
-ObjectTemplate.setMaxSpeed 50/0/0
-ObjectTemplate.setAcceleration 1000/0/0
+ObjectTemplate.setMaxSpeed 60/0/0
+ObjectTemplate.setAcceleration 10/0/0
 ObjectTemplate.setInputToYaw c_PIThrottle
 ObjectTemplate.addTemplate legsegmentbrspring
 ObjectTemplate.setPosition 0.0/1.72575e-006/1.16683e-006
@@ -791,7 +790,6 @@ ObjectTemplate.setAutomaticReset 1
 ObjectTemplate.addTemplate atatdedummyfrontspringl
 ObjectTemplate.setPosition 0.248666/0.00714722/0.00453949
 
-
 rem *******************************************************************************************
 
 
@@ -807,14 +805,14 @@ ObjectTemplate.explosionRadius 12
 ObjectTemplate.explosionDamage 5
 ObjectTemplate.damageFromWater 90
 ObjectTemplate.drag 5
-ObjectTemplate.mass 200000
+ObjectTemplate.mass 1000000
 ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.hasResponsePhysics 1
 ObjectTemplate.hasArmor 1
 ObjectTemplate.speedMod 1
 ObjectTemplate.hitpoints 850
 ObjectTemplate.maxhitpoints 850
-ObjectTemplate.material 831
+ObjectTemplate.material 812
 ObjectTemplate.setSoldierExitLocation 0/16.3845/7 0/0/0
 ObjectTemplate.criticalDamage 12
 ObjectTemplate.hpLostWhileCriticalDamage 1.2

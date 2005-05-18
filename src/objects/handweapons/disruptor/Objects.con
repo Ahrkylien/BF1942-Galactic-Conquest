@@ -9,11 +9,11 @@ ObjectTemplate.itemIndex 3
 ObjectTemplate.projectileTemplate disruptorProjectile
 ObjectTemplate.projectilePosition 0/0/0
 ObjectTemplate.hasDynamicShadow 1
-ObjectTemplate.magSize 5
-ObjectTemplate.numOfMag 4
+ObjectTemplate.magSize 10
+ObjectTemplate.numOfMag 5
 ObjectTemplate.magType 0
 ObjectTemplate.reloadtime 1.6
-ObjectTemplate.roundOfFire 1
+ObjectTemplate.roundOfFire 1.25
 ObjectTemplate.fireOnce 1
 ObjectTemplate.altFireOnce 1
 ObjectTemplate.zoomFov 0.9
@@ -54,7 +54,7 @@ ObjectTemplate.addTemplate disruptorLod
 ObjectTemplate.addTemplate e_MuzzDisruptor
 ObjectTemplate.setInputId -1
 ObjectTemplate.startoneffects 0
-ObjectTemplate.setPosition 0/0.08/0.55
+ObjectTemplate.setPosition 0/0.08/0.75
 ObjectTemplate.setRotation 0/0/0
 
 
@@ -68,11 +68,11 @@ ObjectTemplate.itemIndex 3
 ObjectTemplate.projectileTemplate disruptorProjectile
 ObjectTemplate.projectilePosition 0/0/0
 ObjectTemplate.hasDynamicShadow 1
-ObjectTemplate.magSize 5
-ObjectTemplate.numOfMag 4
+ObjectTemplate.magSize 10
+ObjectTemplate.numOfMag 5
 ObjectTemplate.magType 0
 ObjectTemplate.reloadtime 1.6
-ObjectTemplate.roundOfFire 1
+ObjectTemplate.roundOfFire 1.25
 ObjectTemplate.fireOnce 1
 ObjectTemplate.altFireOnce 1
 ObjectTemplate.zoomFov 0.9
@@ -113,7 +113,7 @@ ObjectTemplate.addTemplate disruptor2Lod
 ObjectTemplate.addTemplate e_MuzzDisruptor
 ObjectTemplate.setInputId -1
 ObjectTemplate.startoneffects 0
-ObjectTemplate.setPosition 0/0.08/0.55
+ObjectTemplate.setPosition 0/0/0.75
 ObjectTemplate.setRotation 0/0/0
 
 

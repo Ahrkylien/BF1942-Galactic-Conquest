@@ -73,4 +73,57 @@ Object.rotation 90.00/-60.00/180.00
 Object.setOSId 3
 Object.setTeam 0
 
+rem ----------------------------------------- 
+rem ---  droid_capsule_spawner  ---
+rem ----------------------------------------- 
+Object.create droid_capsule_s
+Object.absolutePosition 448.35/111.38/383.65
+Object.rotation 0.00/0.00/0.00
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  droid_capsule_spawner  ---
+rem ----------------------------------------- 
+Object.create droid_capsule_s
+Object.absolutePosition 697.43/107.72/438.03
+Object.rotation 0.00/0.00/0.00
+Object.setTeam 1
+
+
+rem ----------------------------------------- 
+rem ---  DTAP  ---
+rem ----------------------------------------- 
+Object.create DTAP
+Object.absolutePosition 188.25/104.24/196.39
+Object.rotation 0.00/0.00/0.00
+Object.setOSId 1
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  DTAP  ---
+rem ----------------------------------------- 
+Object.create DTAP
+Object.absolutePosition 181.08/104.59/196.62
+Object.rotation 0.00/0.00/0.00
+Object.setOSId 1
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  DTAP  ---
+rem ----------------------------------------- 
+Object.create DTAP
+Object.absolutePosition 887.10/101.73/863.87
+Object.rotation -138.37/0.00/0.00
+Object.setOSId 2
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  DTAP  ---
+rem ----------------------------------------- 
+Object.create DTAP
+Object.absolutePosition 867.58/101.69/882.63
+Object.rotation -137.55/0.00/0.00
+Object.setOSId 2
+Object.setTeam 2
+
 rem EndOfFile

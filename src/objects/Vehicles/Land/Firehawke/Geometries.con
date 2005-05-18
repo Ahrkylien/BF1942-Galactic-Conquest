@@ -81,7 +81,7 @@ GeometryTemplate.setLodDistance 4 350
 GeometryTemplate.setLodDistance 5 500
 
 GeometryTemplate.create StandardMesh Wreck_firehawke
-GeometryTemplate.file Vehicles/Firehawke/firehawke_wreck
+GeometryTemplate.file Vehicles/Firehawke/wreck_firehawk
 GeometryTemplate.setLodDistance 0 0
 GeometryTemplate.setLodDistance 1 200
 GeometryTemplate.setLodDistance 2 250

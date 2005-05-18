@@ -7,3 +7,4 @@ game.setLoadPicture ../../bf1942/levels/GC_Mini_Wasteland/Menu/loadscreen.tga
 game.setServerInfoIcon ../../bf1942/levels/GC_Mini_Wasteland/menu/serverInfo.dds
 game.setMultiplayerBriefingObjectives "The planet Lok can make even the most well built outpost wither away in its vast wastelands.  Two forgotten bases have rediscovered each other and plan to wipe the other off the face of the planet.  Cross the Wasteland to capture and defend key locations..."
 game.setMapId "GCMOD"
+game.setBackgroundMusic "music/miniwasteland/music.bik"

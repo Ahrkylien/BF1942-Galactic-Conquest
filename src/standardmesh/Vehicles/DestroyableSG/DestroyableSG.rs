@@ -1,4 +1,4 @@
-subshader "shieldgenerator_Material0" "StandardMesh/Default"
+subshader "DestroyableSG_Material0" "StandardMesh/Default"
 {
 	lighting true;
 	lightingSpecular false;

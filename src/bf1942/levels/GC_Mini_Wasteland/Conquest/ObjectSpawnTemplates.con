@@ -17,21 +17,6 @@ ObjectTemplate.maxNrOfObjectSpawned 1
 ObjectTemplate.teamOnVehicle 0
 
 rem ----------------------------------------- 
-rem ---  Speeder_Spawner  ---
-rem ----------------------------------------- 
-ObjectTemplate.create ObjectSpawner Speeder_Spawner
-ObjectTemplate.setObjectTemplate 1 speederbike
-ObjectTemplate.setObjectTemplate 2 speederbike
-ObjectTemplate.MinSpawnDelay 15
-ObjectTemplate.MaxSpawnDelay 25
-ObjectTemplate.SpawnDelayAtStart 0
-ObjectTemplate.TimeToLive 45
-ObjectTemplate.Distance 40
-ObjectTemplate.DamageWhenLost 10
-ObjectTemplate.maxNrOfObjectSpawned 1
-ObjectTemplate.teamOnVehicle 0
-
-rem ----------------------------------------- 
 rem ---  HW_Spawner  ---
 rem ----------------------------------------- 
 ObjectTemplate.create ObjectSpawner HW_Spawner
@@ -43,7 +28,52 @@ ObjectTemplate.SpawnDelayAtStart 0
 ObjectTemplate.TimeToLive 45
 ObjectTemplate.Distance 40
 ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.maxNrOfObjectSpawned 2
+ObjectTemplate.teamOnVehicle 0
+
+rem ----------------------------------------- 
+rem ---  Transport  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner Transport
+ObjectTemplate.setObjectTemplate 1 imptrolley
+ObjectTemplate.setObjectTemplate 2 imptrolley
+ObjectTemplate.MinSpawnDelay 15
+ObjectTemplate.MaxSpawnDelay 30
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.maxNrOfObjectSpawned 3
+ObjectTemplate.teamOnVehicle 0
+
+rem ----------------------------------------- 
+rem ---  Gain  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner Gain
+ObjectTemplate.setObjectTemplate 1 gain-135
+ObjectTemplate.setObjectTemplate 2 gain-135
+ObjectTemplate.MinSpawnDelay 10
+ObjectTemplate.MaxSpawnDelay 20
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
 ObjectTemplate.maxNrOfObjectSpawned 1
+ObjectTemplate.teamOnVehicle 0
+
+rem ----------------------------------------- 
+rem ---  Bikes  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner Bikes
+ObjectTemplate.setObjectTemplate 1 speederbike
+ObjectTemplate.setObjectTemplate 2 speederbike
+ObjectTemplate.MinSpawnDelay 15
+ObjectTemplate.MaxSpawnDelay 30
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.maxNrOfObjectSpawned 2
 ObjectTemplate.teamOnVehicle 0
 
 rem EndOfFile

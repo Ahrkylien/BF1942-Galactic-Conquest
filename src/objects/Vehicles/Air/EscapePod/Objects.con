@@ -76,7 +76,11 @@ ObjectTemplate.setRotation 90/0/90
 ObjectTemplate.addTemplate EscapePodEntry
 ObjectTemplate.setPosition 0/0/0
 ObjectTemplate.setRotation 0/0/0
-beginRem
+ObjectTemplate.addTemplate EP_Play
+ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.addTemplate EP_Play2
+ObjectTemplate.setPosition 0/0/0
+
 ObjectTemplate.addTemplate AWingVTOLEngineRack
 ObjectTemplate.setPosition 4.5/1.5/4.5
 ObjectTemplate.setRotation 0/-90/0
@@ -89,7 +93,7 @@ ObjectTemplate.setRotation 0/-90/0
 ObjectTemplate.addTemplate AWingVTOLEngineRack
 ObjectTemplate.setPosition -4.5/1.5/-4.5
 ObjectTemplate.setRotation 0/-90/0
-endRem
+
 ObjectTemplate.addTemplate RollWheelBundle
 ObjectTemplate.setPosition 2/-1.3/2.5
 ObjectTemplate.addTemplate RollWheelBundle

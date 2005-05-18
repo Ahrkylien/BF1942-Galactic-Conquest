@@ -2,3 +2,28 @@ rem ObjectSpawns.con created by Battlecraft 1942
 rem (C:\Program Files\EA Games\Battlefield 1942\Mods\GCMOD\bf1942\levels\GC_Caves_of_Dagobahmini/conquest/ObjectSpawns.con)
 
 rem EndOfFile
+
+
+rem ----------------------------------------- 
+rem ---  droid_capsule_spawner  ---
+rem ----------------------------------------- 
+Object.create droid_capsule_s
+Object.absolutePosition 320.53/137.10/677.80
+Object.rotation 80.00/0.00/0.00
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  droid_capsule_spawner  ---
+rem ----------------------------------------- 
+Object.create droid_capsule_s
+Object.absolutePosition 515.97/132.13/541.77
+Object.rotation 0.00/0.00/0.00
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  droid_capsule_spawner  ---
+rem ----------------------------------------- 
+rem Object.create droid_capsule_s
+rem Object.absolutePosition 496.62/126.48/699.12
+rem Object.rotation 0.00/0.00/0.00
+rem Object.setTeam 1

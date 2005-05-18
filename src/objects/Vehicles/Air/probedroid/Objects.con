@@ -18,6 +18,7 @@ ObjectTemplate.gravityModifier 1
 ObjectTemplate.mass 1000
 ObjectTemplate.inertiaModifier 0/0/0
 ObjectTemplate.hasArmor 1
+ObjectTemplate.vehicleFOV 1.8
 ObjectTemplate.destroyOnExit 1
 ObjectTemplate.hitpoints 20
 ObjectTemplate.maxhitpoints 20

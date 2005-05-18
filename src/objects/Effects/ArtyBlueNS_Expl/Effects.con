@@ -1,6 +1,7 @@
 rem *** e_ExplBombSmall ***
 ObjectTemplate.create EffectBundle ArtyBlueNS_Expl
 ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript Sounds/Explani02.ssc
 rem -------------------------------------
 ObjectTemplate.addTemplate Em_NExplBombSmall 
 ObjectTemplate.setRotation 90/0/0

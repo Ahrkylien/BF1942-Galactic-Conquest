@@ -5,7 +5,7 @@ rem -----------------------------------------
 rem ---  Armor_Spawner  ---
 rem ----------------------------------------- 
 Object.create Armor_Spawner
-Object.absolutePosition 510.13/111.46/213.11
+Object.absolutePosition 509.30/111.43/231.85
 Object.rotation 0.00/0.00/0.00
 Object.setOSId 2
 Object.setTeam 2
@@ -23,7 +23,7 @@ rem -----------------------------------------
 rem ---  Armor_Spawner  ---
 rem ----------------------------------------- 
 Object.create Armor_Spawner
-Object.absolutePosition 572.04/109.61/874.52
+Object.absolutePosition 572.66/109.61/862.37
 Object.rotation 180.00/0.00/0.00
 Object.setOSId 1
 Object.setTeam 1
@@ -36,24 +36,6 @@ Object.absolutePosition 603.89/109.62/862.51
 Object.rotation 180.00/0.00/0.00
 Object.setOSId 1
 Object.setTeam 1
-
-rem ----------------------------------------- 
-rem ---  Speeder_Spawner  ---
-rem ----------------------------------------- 
-Object.create Speeder_Spawner
-Object.absolutePosition 371.70/77.58/724.77
-Object.rotation -53.92/0.00/0.00
-Object.setOSId 5
-Object.setTeam 0
-
-rem ----------------------------------------- 
-rem ---  Speeder_Spawner  ---
-rem ----------------------------------------- 
-Object.create Speeder_Spawner
-Object.absolutePosition 738.82/77.82/368.70
-Object.rotation -55.25/0.00/0.00
-Object.setOSId 3
-Object.setTeam 0
 
 rem ----------------------------------------- 
 rem ---  HW_Spawner  ---
@@ -88,6 +70,78 @@ rem -----------------------------------------
 Object.create HW_Spawner
 Object.absolutePosition 681.31/74.86/391.28
 Object.rotation 13.94/12.80/-101.14
+Object.setOSId 3
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  Transport  ---
+rem ----------------------------------------- 
+Object.create Transport
+Object.absolutePosition 572.51/109.63/874.98
+Object.rotation 180.00/0.00/0.00
+Object.setOSId 1
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Transport  ---
+rem ----------------------------------------- 
+Object.create Transport
+Object.absolutePosition 509.77/111.42/213.76
+Object.rotation 0.00/0.00/0.00
+Object.setOSId 2
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  Gain  ---
+rem ----------------------------------------- 
+Object.create Gain
+Object.absolutePosition 614.29/110.31/862.68
+Object.rotation 180.00/0.00/0.00
+Object.setOSId 1
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Gain  ---
+rem ----------------------------------------- 
+Object.create Gain
+Object.absolutePosition 550.64/111.70/217.36
+Object.rotation 45.83/0.00/0.00
+Object.setOSId 2
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  Gain  ---
+rem ----------------------------------------- 
+Object.create Gain
+Object.absolutePosition 363.41/74.52/760.62
+Object.rotation -168.37/0.00/0.00
+Object.setOSId 5
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  Gain  ---
+rem ----------------------------------------- 
+Object.create Gain
+Object.absolutePosition 739.60/77.27/368.11
+Object.rotation -30.00/0.00/0.00
+Object.setOSId 3
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  Bikes  ---
+rem ----------------------------------------- 
+Object.create Bikes
+Object.absolutePosition 372.35/77.06/725.29
+Object.rotation -48.01/0.00/0.00
+Object.setOSId 5
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  Bikes  ---
+rem ----------------------------------------- 
+Object.create Bikes
+Object.absolutePosition 706.95/74.72/399.34
+Object.rotation 60.46/0.00/0.00
 Object.setOSId 3
 Object.setTeam 0
 

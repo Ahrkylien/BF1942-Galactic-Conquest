@@ -54,7 +54,7 @@ rem -------------------------------------
 
 rem *** TurboLaserEntry ***
 ObjectTemplate.create EntryPoint TurboLaserEntry
-ObjectTemplate.setEntryRadius 15
+ObjectTemplate.setEntryRadius 4
 
 rem *** TurboLaserHead ***
 ObjectTemplate.create RotationalBundle TurboLaserHead

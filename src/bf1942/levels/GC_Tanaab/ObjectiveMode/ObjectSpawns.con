@@ -74,6 +74,6 @@ rem
 rem ***  ***
 rem
 Object.create lancer2spawn
-Object.absolutePosition 1677.95/299.718/1811
+Object.absolutePosition 1677.95/278.718/1811
 Object.rotation -32/0/0
 Object.setTeam 1

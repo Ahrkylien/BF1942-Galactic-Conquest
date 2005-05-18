@@ -101,6 +101,14 @@ Object.setOSId 6
 Object.setTeam 0
 
 rem ----------------------------------------- 
+rem ---  droid_capsule_spawner  ---
+rem ----------------------------------------- 
+Object.create droid_capsule_s
+Object.absolutePosition 1403.14/118.94/803.42
+Object.rotation 0.00/0.00/0.00
+Object.setTeam 2
+
+rem ----------------------------------------- 
 rem ---  skyhopalways  ---
 rem ----------------------------------------- 
 Object.create skyhopalways

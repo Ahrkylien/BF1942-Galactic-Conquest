@@ -77,6 +77,21 @@ ObjectTemplate.maxNrOfObjectSpawned 1
 ObjectTemplate.teamOnVehicle 0
 
 rem ----------------------------------------- 
+rem ---  droidcapsulespawner  ---
+rem -----------------------------------------
+ObjectTemplate.create ObjectSpawner droid_capsule_s
+ObjectTemplate.setObjectTemplate 1 droidcapsule
+ObjectTemplate.setObjectTemplate 2 droidcapsule
+ObjectTemplate.MinSpawnDelay 5
+ObjectTemplate.MaxSpawnDelay 10
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 999
+ObjectTemplate.Distance 999
+ObjectTemplate.DamageWhenLost 0
+ObjectTemplate.maxNrOfObjectSpawned 1
+ObjectTemplate.teamOnVehicle 0
+
+rem ----------------------------------------- 
 rem ---  R5D4Imperial  ---
 rem ----------------------------------------- 
 ObjectTemplate.create ObjectSpawner R5D4Imperial

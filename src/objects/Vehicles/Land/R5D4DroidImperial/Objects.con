@@ -12,6 +12,7 @@ ObjectTemplate.hasResponsePhysics 1
 ObjectTemplate.explosionRadius 10
 ObjectTemplate.explosionDamage 10
 ObjectTemplate.hasArmor 1
+ObjectTemplate.VehicleFOV 1.8
 ObjectTemplate.destroyOnExit 1
 ObjectTemplate.angleMod 1
 ObjectTemplate.speedMod 1

@@ -38,15 +38,13 @@ beginEffect
 	param 1
 endEffect
 
-*** Engine Pitch ***
+*** Speed Pitch ***
 beginEffect
 	controlDestination Pitch
-	controlSource Extern #map<Engine::Rpm>
-	envelope Ramp
-	param 0
-	param 0.8
-	param 0.9
-	param 0.2
+	controlSource Speed
+	envelope Linear
+	param 0.95
+	param 0.003
 endEffect
 
 *** Engine Volume Start ***

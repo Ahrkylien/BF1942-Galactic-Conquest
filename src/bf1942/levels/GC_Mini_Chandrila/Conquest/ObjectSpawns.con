@@ -1,40 +1,4 @@
 rem ObjectSpawns.con created by Battlecraft 1942
 rem (\Program Files\Battlefield 1942\Mods\GCMOD\bf1942\levels\GC_Mini_Chandrila/conquest/ObjectSpawns.con)
 
-rem ----------------------------------------- 
-rem ---  HW_Spawner  ---
-rem ----------------------------------------- 
-Object.create HW_Spawner
-Object.absolutePosition 520.46/423.47/627.87
-Object.rotation 90.00/-110.00/0.00
-Object.setOSId 1
-Object.setTeam 0
-
-rem ----------------------------------------- 
-rem ---  HW_Spawner  ---
-rem ----------------------------------------- 
-Object.create HW_Spawner
-Object.absolutePosition 439.82/421.97/527.52
-Object.rotation 55.48/5.90/-112.59
-Object.setOSId 4
-Object.setTeam 0
-
-rem ----------------------------------------- 
-rem ---  HW_Spawner  ---
-rem ----------------------------------------- 
-Object.create HW_Spawner
-Object.absolutePosition 621.21/408.20/526.46
-Object.rotation 31.93/-3.83/99.93
-Object.setOSId 3
-Object.setTeam 0
-
-rem ----------------------------------------- 
-rem ---  HW_Spawner  ---
-rem ----------------------------------------- 
-Object.create HW_Spawner
-Object.absolutePosition 524.48/422.55/439.22
-Object.rotation 0.00/-63.10/-176.82
-Object.setOSId 2
-Object.setTeam 0
-
 rem EndOfFile

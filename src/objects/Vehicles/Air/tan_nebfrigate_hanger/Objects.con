@@ -119,8 +119,8 @@ ObjectTemplate.damageWhenLost 10
 
 *** Falcon Spawner ***
 ObjectTemplate.create ObjectSpawner falconspawner2
-ObjectTemplate.setObjectTemplate 1 yt1300
-ObjectTemplate.setObjectTemplate 2 yt1300
+ObjectTemplate.setObjectTemplate 1 MilleniumFalcon
+ObjectTemplate.setObjectTemplate 2 MilleniumFalcon
 ObjectTemplate.holdObject 1
 ObjectTemplate.minSpawnDelay 15
 ObjectTemplate.maxSpawnDelay 60

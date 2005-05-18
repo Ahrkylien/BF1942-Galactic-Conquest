@@ -74,6 +74,22 @@ Object.setOSId 1
 Object.setTeam 0
 
 rem ----------------------------------------- 
+rem ---  droid_capsule_spawner  ---
+rem ----------------------------------------- 
+Object.create droid_capsule_s
+Object.absolutePosition 379.82/78.15/848.95
+Object.rotation 0.00/0.00/0.00
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  droid_capsule_spawner  ---
+rem ----------------------------------------- 
+Object.create droid_capsule_s
+Object.absolutePosition 490.11/50.0/129.49
+Object.rotation 0.00/0.00/0.00
+Object.setTeam 1
+
+rem ----------------------------------------- 
 rem ---  Speederbike_Spawner  ---
 rem ----------------------------------------- 
 Object.create Speederbike_Spawner

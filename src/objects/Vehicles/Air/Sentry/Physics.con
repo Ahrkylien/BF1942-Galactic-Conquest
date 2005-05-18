@@ -4,7 +4,7 @@ rem *** Sentry_BobEngine ***
 ObjectTemplate.create Engine Sentry_BobEngine
 ObjectTemplate.setNetworkableInfo Sentry_BobEngineInfo
 ObjectTemplate.setAttachToListener 1
-ObjectTemplate.loadSoundScript Sounds/ImpSkiffEngine.ssc
+ObjectTemplate.loadSoundScript Sounds/SentryEngine.ssc
 ObjectTemplate.hasMobilePhysics 1
 ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.hasResponsePhysics 1
@@ -23,11 +23,26 @@ ObjectTemplate.setNumberOfGears 5
 ObjectTemplate.setGearUp 0.95
 ObjectTemplate.setGearDown 0.4
 
+rem *** SentryGlideEngine ***
+ObjectTemplate.create Engine SentrymoveEngine
+ObjectTemplate.setNetworkableInfo Sentry_BobEngineInfo
+ObjectTemplate.loadSoundScript Sounds/SentryEngine.ssc
+rem -------------------------------------
+ObjectTemplate.setMinRotation 0/0/0
+ObjectTemplate.setMaxRotation 0/0/1
+ObjectTemplate.setMaxSpeed 0/0/5000
+ObjectTemplate.setAcceleration 0/0/5000
+ObjectTemplate.setInputToRoll c_PIAltFire
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setEngineType c_ETPlane
+ObjectTemplate.setTorque 200
+ObjectTemplate.setDifferential 5
+
 
 rem *** Sentry_BobHoverEngine1 ***
 ObjectTemplate.create Engine Sentry_BobHoverEngine1
 ObjectTemplate.setNetworkableInfo Sentry_BobHoverEngine1Info
-rem ObjectTemplate.loadSoundScript Sounds/CorsairEngine.ssc
+rem ObjectTemplate.loadSoundScript Sounds/SentryEngine.ssc
 rem -------------------------------------
 rem ObjectTemplate.addTemplate lodSentry_BobHoverProp
 rem ObjectTemplate.setPosition 0/0/0
@@ -48,7 +63,7 @@ ObjectTemplate.setNoPropellerEffectAtSpeed 3000
 rem *** Sentry_BobHoverEngine2 ***
 ObjectTemplate.create Engine Sentry_BobHoverEngine2
 ObjectTemplate.setNetworkableInfo Sentry_BobHoverEngine2Info
-rem ObjectTemplate.loadSoundScript Sounds/CorsairEngine.ssc
+rem ObjectTemplate.loadSoundScript Sounds/SentryEngine.ssc
 rem -------------------------------------
 rem ObjectTemplate.addTemplate lodSentry_BobHoverProp
 rem ObjectTemplate.setPosition 0/0/0
@@ -71,7 +86,7 @@ ObjectTemplate.setNoPropellerEffectAtSpeed 3000
 rem *** Sentry_BobHoverEngine3 ***
 ObjectTemplate.create Engine Sentry_BobHoverEngine3
 ObjectTemplate.setNetworkableInfo Sentry_BobHoverEngine3Info
-ObjectTemplate.loadSoundScript Sounds/CorsairEngine.ssc
+ObjectTemplate.loadSoundScript Sounds/SentryEngine.ssc
 rem -------------------------------------
 rem ObjectTemplate.addTemplate lodSentry_BobHoverProp
 rem ObjectTemplate.setPosition 0/0/0

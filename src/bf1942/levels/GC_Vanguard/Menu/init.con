@@ -4,3 +4,4 @@ game.setMultiplayerBriefingObjectives "While the Battle for Endor gets underway,
 game.setLoadPicture Load/vanguard.tga
 game.setServerInfoIcon ../../bf1942/levels/gc_vanguard/menu/serverInfo.dds
 game.setMapId "GCMOD"
+game.setBackgroundMusic "music/vanguard/music.bik"

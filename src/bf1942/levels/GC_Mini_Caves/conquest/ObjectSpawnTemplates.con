@@ -2,3 +2,20 @@ rem ObjectSpawnTemplates.con created by Battlecraft 1942
 rem (C:\Program Files\EA Games\Battlefield 1942\Mods\GCMOD\bf1942\levels\GC_Caves_of_Dagobahmini/conquest/ObjectSpawnTemplates.con)
 
 rem EndOfFile
+
+
+
+rem ----------------------------------------- 
+rem ---  droidcapsulespawner  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner droid_capsule_s
+ObjectTemplate.setObjectTemplate 1 droidcapsule
+ObjectTemplate.setObjectTemplate 2 droidcapsule
+ObjectTemplate.MinSpawnDelay 5
+ObjectTemplate.MaxSpawnDelay 10
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 999
+ObjectTemplate.Distance 999
+ObjectTemplate.DamageWhenLost 0
+ObjectTemplate.maxNrOfObjectSpawned 1
+ObjectTemplate.teamOnVehicle 0

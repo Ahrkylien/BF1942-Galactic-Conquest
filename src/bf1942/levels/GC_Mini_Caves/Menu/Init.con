@@ -11,3 +11,4 @@ game.setMultiplayerBriefingObjectives "Deep within the caverns of Dagobah, an ep
 game.setServerInfoIcon ../../bf1942/levels/GC_Mini_Caves/menu/serverInfo.dds
 
 game.setMapId "GCMOD"
+game.setBackgroundMusic "music/minicaves/music.bik"

@@ -31,3 +31,4 @@ game.setMultiplayerBriefingMapType MULTIPLAYER_MAP_TYPE_HEADON_MAP
 game.setLoadPicture Load/dantooine.tga
 game.setServerInfoIcon ../../bf1942/levels/GC_Dantooine/menu/serverInfo.dds
 game.setMapId "GCMOD"
+game.setBackgroundMusic "music/dantooine/music.bik"

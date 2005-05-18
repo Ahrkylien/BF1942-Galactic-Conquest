@@ -117,12 +117,6 @@ rem
 rem ***  ***
 rem
 Object.create hothcrategrey
-Object.absolutePosition 475.83/92.59/522.01
-Object.rotation 77.85/0.00/0.00
-rem
-rem ***  ***
-rem
-Object.create hothcrategrey
 Object.absolutePosition 517.26/94.69/475.65
 Object.rotation 77.85/0.00/0.00
 rem
@@ -1107,7 +1101,7 @@ rem
 rem ***  ***
 rem
 Object.create mc_tower
-Object.absolutePosition 1528.49/93.61/413.86
+Object.absolutePosition 1528.49/93.40/413.86
 Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***

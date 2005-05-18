@@ -3,6 +3,9 @@ rem *** REPUBLIC GUNSHIP ***
 rem Galactic Conquest
 rem ************************
 
+rem RepGun Feb 16, 2005
+rem Repgun Added new glide engine as RepLevelEngine
+
 ObjectTemplate.create PlayerControlObject RepGun
 ObjectTemplate.setNetworkableInfo repgun_body_info
 ObjectTemplate.saveInSeparateFile 1
@@ -91,9 +94,9 @@ ObjectTemplate.setPosition 3/-3/7
 ObjectTemplate.addTemplate RollWheelBundle
 ObjectTemplate.setPosition -3/-3/7
 ObjectTemplate.addTemplate DummyWheel
-ObjectTemplate.setPosition 3/-3/-7
+ObjectTemplate.setPosition 3.5/-3/-7
 ObjectTemplate.addTemplate DummyWheel
-ObjectTemplate.setPosition -3/-3/-7
+ObjectTemplate.setPosition -3.5/-3/-7
 
 
 ObjectTemplate.addTemplate GunShip_Wing_Mesh
@@ -114,6 +117,8 @@ ObjectTemplate.setPosition 0/1/0
 rem ObjectTemplate.addTemplate GunMainEngine
 rem ObjectTemplate.setPosition 0/0/1
 rem ObjectTemplate.setRotation 180/0/0
+ObjectTemplate.addTemplate RepLevelEngine
+ObjectTemplate.setPosition 0/0/0
 
 ObjectTemplate.addTemplate GunShipRockets
 
@@ -150,7 +155,7 @@ ObjectTemplate.geometry gunship_fturret_left
 rem -------------------------------------
 ObjectTemplate.addTemplate GunShipFrontLaser
 rem -------------------------------------
-ObjectTemplate.setMinRotation -35/-20/0
+ObjectTemplate.setMinRotation -35/-25/0
 ObjectTemplate.setMaxRotation 35/70/0
 ObjectTemplate.setMaxSpeed 15/15/0
 ObjectTemplate.setAcceleration 5000/5000/0
@@ -164,7 +169,7 @@ ObjectTemplate.geometry gunship_fturret_right
 rem -------------------------------------
 ObjectTemplate.addTemplate GunShipFrontLaser
 rem -------------------------------------
-ObjectTemplate.setMinRotation -35/-20/0
+ObjectTemplate.setMinRotation -35/-25/0
 ObjectTemplate.setMaxRotation 35/70/0
 ObjectTemplate.setMaxSpeed 15/15/0
 ObjectTemplate.setAcceleration 5000/5000/0
@@ -602,13 +607,13 @@ ObjectTemplate.addTemplate GunShip_Passenger1
 ObjectTemplate.addTemplate GunShip_Passenger2
 
 ObjectTemplate.addTemplate RollWheelBundle
-ObjectTemplate.setPosition 3/-3/7
+ObjectTemplate.setPosition 3.5/-3/7
 ObjectTemplate.addTemplate RollWheelBundle
-ObjectTemplate.setPosition -3/-3/7
+ObjectTemplate.setPosition -3.5/-3/7
 ObjectTemplate.addTemplate DummyWheel
-ObjectTemplate.setPosition 3/-3/-7
+ObjectTemplate.setPosition 4.5/-3/-7
 ObjectTemplate.addTemplate DummyWheel
-ObjectTemplate.setPosition -3/-3/-7
+ObjectTemplate.setPosition -4.5/-3/-7
 
 
 ObjectTemplate.addTemplate GunShip_Wing_Mesh
@@ -629,6 +634,8 @@ ObjectTemplate.setPosition 0/1/0
 rem ObjectTemplate.addTemplate GunMainEngine
 rem ObjectTemplate.setPosition 0/0/1
 rem ObjectTemplate.setRotation 180/0/0
+ObjectTemplate.addTemplate RepLevelEngine
+ObjectTemplate.setPosition 0/0/0
 
 ObjectTemplate.addTemplate GunShipRockets2
 
@@ -739,13 +746,13 @@ ObjectTemplate.addTemplate GunShip_Passenger1
 ObjectTemplate.addTemplate GunShip_Passenger2
 
 ObjectTemplate.addTemplate RollWheelBundle
-ObjectTemplate.setPosition 3/-3/7
+ObjectTemplate.setPosition 3.5/-3/7
 ObjectTemplate.addTemplate RollWheelBundle
-ObjectTemplate.setPosition -3/-3/7
+ObjectTemplate.setPosition -3.5/-3/7
 ObjectTemplate.addTemplate DummyWheel
-ObjectTemplate.setPosition 3/-3/-7
+ObjectTemplate.setPosition 4.5/-3/-7
 ObjectTemplate.addTemplate DummyWheel
-ObjectTemplate.setPosition -3/-3/-7
+ObjectTemplate.setPosition -4.5/-3/-7
 
 
 ObjectTemplate.addTemplate ImpGunShip_Wing_Mesh
@@ -762,6 +769,8 @@ ObjectTemplate.addTemplate GunShipEngineRack2
 ObjectTemplate.setPosition 0/1/-2.5
 ObjectTemplate.addTemplate GunShipEngineRack3
 ObjectTemplate.setPosition 0/1/0
+ObjectTemplate.addTemplate RepLevelEngine
+ObjectTemplate.setPosition 0/0/0
 
 
 ObjectTemplate.addTemplate GunShipRockets

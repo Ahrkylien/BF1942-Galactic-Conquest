@@ -1,168 +1,267 @@
-rem
-rem ***  ***
-rem
+rem ObjectSpawns.con created by Battlecraft 1942
+rem (e:\Battlefield\Mods\GCMOD\bf1942\levels\GC_Judicator/conquest/ObjectSpawns.con)
+
+rem ----------------------------------------- 
+rem ---  gren_kit_spawner  ---
+rem ----------------------------------------- 
 Object.create gren_kit_spawner
-Object.absolutePosition 461.323/338.364/863.617
+Object.absolutePosition 461.32/338.36/863.62
+Object.rotation 0.00/0.00/0.00
 Object.setTeam 1
-rem
-rem ***  ***
-rem
+
+rem ----------------------------------------- 
+rem ---  mousespawner  ---
+rem ----------------------------------------- 
 Object.create mousespawner
-Object.absolutePosition 596.053/341.401/974.378
+Object.absolutePosition 596.05/341.40/974.38
+Object.rotation 0.00/0.00/0.00
 Object.setTeam 1
-rem
-rem ***  ***
-rem
+
+rem ----------------------------------------- 
+rem ---  jud_uplift_spawner  ---
+rem ----------------------------------------- 
 Object.create jud_uplift_spawner
-Object.absolutePosition 1654.56/342/887.866
+Object.absolutePosition 1654.56/342.00/887.87
+Object.rotation 0.00/0.00/0.00
 Object.setTeam 1
-rem
-rem ***  ***
-rem
+
+rem ----------------------------------------- 
+rem ---  jud_uplift_spawner  ---
+rem ----------------------------------------- 
 Object.create jud_uplift_spawner
-Object.absolutePosition 1687.55/589/922.091
-Object.rotation -90/0/0
+Object.absolutePosition 1687.55/589.00/922.09
+Object.rotation -90.00/0.00/0.00
 Object.setTeam 1
-rem
-rem ***  ***
-rem
+
+rem ----------------------------------------- 
+rem ---  jud_uplift_spawner  ---
+rem ----------------------------------------- 
 Object.create jud_uplift_spawner
-Object.absolutePosition 1677.32/342/897.902
-Object.rotation -45/0/0
+Object.absolutePosition 1677.32/342.00/897.90
+Object.rotation -45.00/0.00/0.00
 Object.setTeam 1
-rem
-rem ***  ***
-rem
+
+rem ----------------------------------------- 
+rem ---  jud_uplift_spawner  ---
+rem ----------------------------------------- 
 Object.create jud_uplift_spawner
-Object.absolutePosition 1620.72/589/921.882
-Object.rotation 90/0/0
+Object.absolutePosition 1620.72/589.00/921.88
+Object.rotation 90.00/0.00/0.00
 Object.setTeam 1
-rem
-rem ***  ***
-rem
+
+rem ----------------------------------------- 
+rem ---  jud_uplift_spawner  ---
+rem ----------------------------------------- 
 Object.create jud_uplift_spawner
-Object.absolutePosition 1629.73/342/944.857
-Object.rotation 135/0/0
+Object.absolutePosition 1629.73/342.00/944.86
+Object.rotation 135.00/0.00/0.00
 Object.setTeam 1
-rem
-rem ***  ***
-rem
-Object.create tramcar_s
-Object.absolutePosition 578.719/337/1015.57
-Object.rotation 90/0/0
-Object.setTeam 1
-rem
-rem ***  ***
-rem
-Object.create tramcar_s
-Object.absolutePosition 578.719/337/1007
-Object.rotation 90/0/0
-Object.setTeam 1
-rem
-rem ***  ***
-rem
-Object.create tramcar_s
-Object.absolutePosition 578.719/337/1024.14
-Object.rotation 90/0/0
-Object.setTeam 1
-rem
-rem ***  ***
-rem
-Object.create tramcar_s
-Object.absolutePosition 578.719/337/1032.72
-Object.rotation 90/0/0
-Object.setTeam 1
-rem
-rem ***  ***
-rem
-Object.create tramcar_s
-Object.absolutePosition 1643.53/337/1041.35
-Object.rotation 90/0/0
-Object.setTeam 1
-rem
-rem ***  ***
-rem
-Object.create tramcar_s
-Object.absolutePosition 1643.48/337/1049.98
-Object.rotation 90/0/0
-Object.setTeam 1
-rem
-rem ***  ***
-rem
+
+
+rem ----------------------------------------- 
+rem ---  tl-21_kit_spawner  ---
+rem ----------------------------------------- 
 Object.create tl-21_kit_spawner
-Object.absolutePosition 540.074/341.65/988.77
-Object.rotation 90/0/0
+Object.absolutePosition 540.07/341.65/988.77
+Object.rotation 90.00/0.00/0.00
 Object.setTeam 1
-rem
-rem ***  ***
-rem
+
+rem ----------------------------------------- 
+rem ---  tl-21_kit_spawner  ---
+rem ----------------------------------------- 
 Object.create tl-21_kit_spawner
-Object.absolutePosition 692.608/341.623/920.052
+Object.absolutePosition 692.61/341.62/920.05
+Object.rotation 180.00/0.00/0.00
 Object.setTeam 1
-rem
-rem ***  ***
-rem
+
+rem ----------------------------------------- 
+rem ---  tl-21_kit_spawner  ---
+rem ----------------------------------------- 
 Object.create tl-21_kit_spawner
-Object.absolutePosition 887.058/341.623/911.461
+Object.absolutePosition 887.06/341.62/911.46
+Object.rotation 180.00/0.00/0.00
 Object.setTeam 1
-rem
-rem ***  ***
-rem
+
+rem ----------------------------------------- 
+rem ---  tl-21_kit_spawner  ---
+rem ----------------------------------------- 
 Object.create tl-21_kit_spawner
-Object.absolutePosition 1034.94/341.623/882.624
-Object.rotation -180/0/0
+Object.absolutePosition 1034.94/341.62/882.62
+Object.rotation -180.00/0.00/0.00
 Object.setTeam 1
-rem
-rem ***  ***
-rem
+
+rem ----------------------------------------- 
+rem ---  tl-21_kit_spawner  ---
+rem ----------------------------------------- 
 Object.create tl-21_kit_spawner
-Object.absolutePosition 1423.64/341.623/865.214
-Object.rotation -180/0/0
+Object.absolutePosition 1423.64/341.62/865.21
+Object.rotation -180.00/0.00/0.00
 Object.setTeam 1
-rem
-rem ***  ***
-rem
+
+rem ----------------------------------------- 
+rem ---  mousespawner  ---
+rem ----------------------------------------- 
 Object.create mousespawner
-Object.absolutePosition 687.805/341.401/920.91
+Object.absolutePosition 687.80/341.40/920.91
+Object.rotation 0.00/0.00/0.00
 Object.setTeam 1
-rem
-rem ***  ***
-rem
+
+rem ----------------------------------------- 
+rem ---  tl-21_kit_spawner  ---
+rem ----------------------------------------- 
 Object.create tl-21_kit_spawner
-Object.absolutePosition 763.021/341.858/893.481
-Object.rotation -87/0/0
+Object.absolutePosition 763.02/341.86/893.48
+Object.rotation -87.00/0.00/0.00
 Object.setTeam 1
-rem
-rem ***  ***
-rem
+
+rem ----------------------------------------- 
+rem ---  mousespawner  ---
+rem ----------------------------------------- 
 Object.create mousespawner
-Object.absolutePosition 1050.3/341.401/886.177
-Object.rotation 91/0/0
+Object.absolutePosition 1050.30/341.40/886.18
+Object.rotation 91.00/0.00/0.00
 Object.setTeam 1
-rem
-rem ***  ***
-rem
-Object.create tramcar_s
-Object.absolutePosition 1090.65/337/1015.85
-Object.rotation 90/0/0
-Object.setTeam 1
-rem
-rem ***  ***
-rem
-Object.create tramcar_s
-Object.absolutePosition 1090.64/337/1023.99
-Object.rotation 90/0/0
-Object.setTeam 1
-rem
-rem ***  ***
-rem
-Object.create tramcar_s
-Object.absolutePosition 1090.36/337/1032.59
-Object.rotation 90/0/0
-Object.setTeam 1
-rem
-rem ***  ***
-rem
+
+
+rem ----------------------------------------- 
+rem ---  gren_kit_spawner  ---
+rem ----------------------------------------- 
 Object.create gren_kit_spawner
-Object.absolutePosition 461.061/338.369/863.391
+Object.absolutePosition 461.06/338.37/863.39
+Object.rotation 0.00/0.00/0.00
 Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  droid_capsule_spawner  ---
+rem ----------------------------------------- 
+rem Object.create droid_capsule_s
+rem Object.absolutePosition 1089.24/343.54/878.96
+rem Object.rotation -140.00/0.00/0.00
+rem Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  droid_capsule_spawner  ---
+rem ----------------------------------------- 
+Object.create droid_capsule_s
+Object.absolutePosition 540.07/341.54/988.77
+Object.rotation 362.36/0.00/0.00
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  tramcar_s  ---
+rem ----------------------------------------- 
+Object.create tramcar_s
+Object.absolutePosition 578.72/337.00/1015.57
+Object.rotation 90.00/0.00/0.00
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  tramcar_s  ---
+rem ----------------------------------------- 
+Object.create tramcar_s
+Object.absolutePosition 578.72/337.00/1007.00
+Object.rotation 90.00/0.00/0.00
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  tramcar_s  ---
+rem ----------------------------------------- 
+Object.create tramcar_s
+Object.absolutePosition 578.72/337.00/1024.20
+Object.rotation 90.00/0.00/0.00
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  tramcar_s  ---
+rem ----------------------------------------- 
+Object.create tramcar_s
+Object.absolutePosition 1004./337.00/1032.73
+Object.rotation 270.00/0.00/0.00
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  tramcar_s  ---
+rem ----------------------------------------- 
+Object.create tramcar_s
+Object.absolutePosition 1643.53/337.00/1041.35
+Object.rotation 270.00/0.00/0.00
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  tramcar_s  ---
+rem ----------------------------------------- 
+Object.create tramcar_s
+Object.absolutePosition 1643.48/337.00/1049.98
+Object.rotation 270.00/0.00/0.00
+Object.setTeam 1
+
+rem ********************************************
+
+
+rem ----------------------------------------- 
+rem ---  tramcar_s  ---
+rem ----------------------------------------- 
+Object.create tramcar_s
+Object.absolutePosition 1090.65/337.00/1015.85
+Object.rotation 90.00/0.00/0.00
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  tramcar_s  ---
+rem ----------------------------------------- 
+Object.create tramcar_s
+Object.absolutePosition 1090.64/337.00/1023.99
+Object.rotation 90.00/0.00/0.00
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  tramcar_s  ---
+rem ----------------------------------------- 
+Object.create tramcar_s
+Object.absolutePosition 1090.36/337.00/1032.59
+Object.rotation 90.00/0.00/0.00
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  tramcar_s  ---
+rem ----------------------------------------- 
+Object.create tramcar_s
+Object.absolutePosition 1004.00/337.00/1041.25
+Object.rotation 270.00/0.00/0.00
+Object.setTeam 1
+
+
+
+rem ****** Sound Stuff by Vocal Voodo
+rem ****** included by Django *****
+
+rem ----------------------------------------- 
+rem ---  Jud_Ambient_Beginning_Spawn1  ---
+rem ----------------------------------------- 
+Object.create Jud_Ambient_Beginning_Spawn1
+Object.absolutePosition 511.46/340.58/894.54
+Object.rotation 92.31/0.00/0.00
+Object.setOSId 2
+Object.setTeam 0
+rem ----------------------------------------- 
+rem ---  Jud_ambient_Tramcontrol_Spawn1  ---
+rem ----------------------------------------- 
+Object.create Jud_ambient_Tramcontrol_Spawn1
+Object.absolutePosition 559.25/340.58/1032.33
+Object.rotation 0.00/0.00/0.00
+Object.setOSId 5
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Jud_Ambient_Flag5_Spawn1  ---
+rem ----------------------------------------- 
+Object.create Jud_Ambient_Flag5_Spawn1
+Object.absolutePosition 1049.04/340.58/920.29
+Object.rotation 0.00/0.00/0.00
+Object.setOSId 8
+Object.setTeam 1
+
+
+
+
+rem EndOfFile

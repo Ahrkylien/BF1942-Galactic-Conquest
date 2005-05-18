@@ -1,10 +1,10 @@
 rem *********************************************
 rem Created by Battlecraft 1942.  Copyright (c)2003,2004 Digital Illusions CE
 rem *********************************************
-Game.setNumberOfTickets 1 50
-Game.setNumberOfTickets 2 50
-Game.setTicketLostPerMin 1 10
-Game.setTicketLostPerMin 2 10
+Game.setNumberOfTickets 1 80
+Game.setNumberOfTickets 2 80
+Game.setTicketLostPerMin 1 8
+Game.setTicketLostPerMin 2 8
 
 run Conquest/SpawnpointManagerSettings
 run Conquest/SoldierSpawnTemplates

@@ -1,20 +1,16 @@
 rem StaticObjects created by Battlecraft 1942
-rem StaticObjects created by Battlecraft 1942
 rem
 rem ***  ***
 rem
 Object.create alliedairplaneammo
-Object.absolutePosition 772.16/32.58/96.90
+Object.absolutePosition 776.74/34.35/103.27
 Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create alliedairplaneammo
-Object.absolutePosition 772.16/32.58/96.90
+Object.absolutePosition 766.44/34.28/103.47
 Object.rotation 0.00/0.00/0.00
-rem
-rem ***  ***
-rem
 rem
 rem ***  ***
 rem
@@ -151,12 +147,6 @@ rem
 rem ***  ***
 rem
 Object.create axisairplaneammo
-Object.absolutePosition 415.73/4.75/411.58
-Object.rotation 0.00/0.00/0.00
-rem
-rem ***  ***
-rem
-Object.create axisairplaneammo
 Object.absolutePosition 1289.43/16.01/1803.30
 Object.rotation 0.00/0.00/0.00
 rem
@@ -206,18 +196,6 @@ rem ***  ***
 rem
 Object.create axisairplaneammo
 Object.absolutePosition 1216.00/15.60/1684.00
-Object.rotation 0.00/0.00/0.00
-rem
-rem ***  ***
-rem
-Object.create axisairplaneammo
-Object.absolutePosition 387.73/4.74/383.58
-Object.rotation 0.00/0.00/0.00
-rem
-rem ***  ***
-rem
-Object.create axisairplaneammo
-Object.absolutePosition 403.73/4.55/399.58
 Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
@@ -319,13 +297,13 @@ rem
 rem ***  ***
 rem
 Object.create echo_contpan
-Object.absolutePosition 338.40/2.73/315.40
+Object.absolutePosition 338.34/2.73/315.38
 Object.rotation -139.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create echo_contpan
-Object.absolutePosition 324.00/2.73/324.50
+Object.absolutePosition 324.07/2.73/324.58
 Object.rotation 41.00/0.00/0.00
 rem
 rem ***  ***
@@ -972,15 +950,9 @@ Object.rotation -23.50/0.00/0.00
 rem
 rem ***  ***
 rem
-Object.create ioncannon
-Object.absolutePosition 356.21/15.84/553.07
-Object.rotation 0.00/28.75/0.00
-rem
-rem ***  ***
-rem
-Object.create mediscanner
-Object.absolutePosition 361.81/3.77/335.91
-Object.rotation 40.35/0.00/0.00
+rem Object.create ioncannon
+rem Object.absolutePosition 356.21/15.84/553.07
+rem Object.rotation 0.00/28.75/0.00
 rem
 rem ***  ***
 rem
@@ -1380,9 +1352,9 @@ Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
-Object.create wreckbundle2
-Object.absolutePosition 378.77/5.92/446.57
-Object.rotation 178.00/0.00/0.00
+rem Object.create wreckbundle2
+rem Object.absolutePosition 378.77/5.92/446.57
+rem Object.rotation 178.00/0.00/0.00
 rem
 rem ***  ***
 rem
@@ -1431,3 +1403,16 @@ rem
 Object.create ladder_7m_m1
 Object.absolutePosition 516.93/19.18/645.09
 Object.rotation 180.00/24.51/0.00
+rem
+rem ***  ***
+rem
+Object.create axisairplaneammo
+Object.absolutePosition 1108.57/15.56/497.57
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create axisairplaneammo
+Object.absolutePosition 1122.24/15.56/506.30
+Object.rotation 0.00/0.00/0.00
+rem

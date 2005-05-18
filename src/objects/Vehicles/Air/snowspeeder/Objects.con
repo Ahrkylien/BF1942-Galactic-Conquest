@@ -242,6 +242,7 @@ ObjectTemplate.setInputToPitch c_PIMouseLookY
 
 rem *** Snowspeeder BreakFlap Left ***
 ObjectTemplate.create RotationalBundle snowspeederBreakFlapL
+ObjectTemplate.setNetworkableInfo snowspeeder_wing_info
 ObjectTemplate.geometry ss_breakflap_left
 ObjectTemplate.setMinRotation 0/-65/0
 ObjectTemplate.setMaxRotation 0/65/0
@@ -253,6 +254,7 @@ ObjectTemplate.setAutomaticReset 1
 
 rem *** Snowspeeder BreakFlap Right ***
 ObjectTemplate.create RotationalBundle snowspeederBreakFlapR
+ObjectTemplate.setNetworkableInfo snowspeeder_wing_info
 ObjectTemplate.geometry ss_breakflap_right
 ObjectTemplate.setMinRotation 0/-65/0
 ObjectTemplate.setMaxRotation 0/65/0
@@ -264,6 +266,7 @@ ObjectTemplate.setAutomaticReset 1
 
 rem *** Snowspeeder BreakFlap Left ***
 ObjectTemplate.create RotationalBundle snowspeederBreakFlapL1
+ObjectTemplate.setNetworkableInfo snowspeeder_wing_info
 ObjectTemplate.geometry ss_breakflap_left
 ObjectTemplate.setMinRotation 0/-65/0
 ObjectTemplate.setMaxRotation 0/65/0
@@ -275,6 +278,7 @@ ObjectTemplate.setAutomaticReset 1
 
 rem *** Snowspeeder BreakFlap Right ***
 ObjectTemplate.create RotationalBundle snowspeederBreakFlapR2
+ObjectTemplate.setNetworkableInfo snowspeeder_wing_info
 ObjectTemplate.geometry ss_breakflap_right
 ObjectTemplate.setMinRotation 0/-65/0
 ObjectTemplate.setMaxRotation 0/65/0

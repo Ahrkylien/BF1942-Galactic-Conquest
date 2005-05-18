@@ -146,6 +146,22 @@ Object.setOSId 1
 Object.setTeam 1
 
 rem ----------------------------------------- 
+rem ---  droid_capsule_spawner  ---
+rem ----------------------------------------- 
+Object.create droid_capsule_s
+Object.absolutePosition 914.76/77.16/1974.93
+Object.rotation 0.00/0.00/0.00
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  droid_capsule_spawner  ---
+rem ----------------------------------------- 
+Object.create droid_capsule_s
+Object.absolutePosition 1625.92/77.41/1542.06
+Object.rotation 0.00/0.00/0.00
+Object.setTeam 1
+
+rem ----------------------------------------- 
 rem ---  Bacta_Tank_Spawner  ---
 rem ----------------------------------------- 
 Object.create Bacta_Tank_Spawner

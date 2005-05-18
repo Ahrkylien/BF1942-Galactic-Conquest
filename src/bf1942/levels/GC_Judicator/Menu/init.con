@@ -31,3 +31,4 @@ game.setMultiplayerBriefingMapType MULTIPLAYER_MAP_TYPE_OBJECTIVE_MAP
 game.setLoadPicture Load/judicator.tga
 game.setServerInfoIcon ../../bf1942/levels/gc_judicator/menu/serverInfo.dds
 game.setMapId "GCMOD"
+game.setBackgroundMusic "music/judicator/music.bik"

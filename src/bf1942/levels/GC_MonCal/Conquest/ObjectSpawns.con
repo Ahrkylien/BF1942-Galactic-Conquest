@@ -108,6 +108,15 @@ Object.rotation -240.00/0.00/0.00
 Object.setOSId 1
 Object.setTeam 0
 
+
+rem ----------------------------------------- 
+rem ---  droid_capsule_spawner  ---
+rem ----------------------------------------- 
+Object.create droid_capsule_s
+Object.absolutePosition 1057.69/98.47/741.09
+Object.rotation 0.00/0.00/0.00
+Object.setTeam 1
+
 rem ----------------------------------------- 
 rem ---  r2d2spawner  ---
 rem ----------------------------------------- 

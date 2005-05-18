@@ -179,7 +179,7 @@ ObjectTemplate.geometry EWing_Fus_L1
 
 rem *** EWingWreck ***
 ObjectTemplate.create SimpleObject EWingWreck
-ObjectTemplate.geometry Wreck_EWing1_M1
+ObjectTemplate.geometry Wreck_Null
 
 rem *** EWingLodSelector ***
 LodSelectorTemplate.create DistCompareSelector2 EWingLodSelector

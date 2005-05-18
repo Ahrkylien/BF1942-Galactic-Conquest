@@ -2,24 +2,9 @@ rem ObjectSpawnTemplates.con created by Battlecraft 1942
 rem (\Program Files\Battlefield 1942\Mods\GCMOD\bf1942\levels\GC_Bespin/conquest/ObjectSpawnTemplates.con)
 
 rem ----------------------------------------- 
-rem ---  cloudcar_spawner_platforms  ---
+rem ---  CloudbusImp  ---
 rem ----------------------------------------- 
-ObjectTemplate.create ObjectSpawner cloudcar_spawner_platforms
-ObjectTemplate.setObjectTemplate 1 cloudcar
-ObjectTemplate.setObjectTemplate 2 cloudcar
-ObjectTemplate.MinSpawnDelay 10
-ObjectTemplate.MaxSpawnDelay 20
-ObjectTemplate.SpawnDelayAtStart 0
-ObjectTemplate.TimeToLive 15
-ObjectTemplate.Distance 40
-ObjectTemplate.DamageWhenLost 10
-ObjectTemplate.maxNrOfObjectSpawned 2
-ObjectTemplate.teamOnVehicle 0
-
-rem ----------------------------------------- 
-rem ---  cloudbus_spawner  ---
-rem ----------------------------------------- 
-ObjectTemplate.create ObjectSpawner cloudbus_spawner
+ObjectTemplate.create ObjectSpawner CloudbusImp
 ObjectTemplate.setObjectTemplate 1 cloudbus
 ObjectTemplate.setObjectTemplate 2 cloudbus
 ObjectTemplate.MinSpawnDelay 10
@@ -29,12 +14,57 @@ ObjectTemplate.TimeToLive 45
 ObjectTemplate.Distance 40
 ObjectTemplate.DamageWhenLost 10
 ObjectTemplate.maxNrOfObjectSpawned 2
-ObjectTemplate.teamOnVehicle 0
+ObjectTemplate.teamOnVehicle 1
 
 rem ----------------------------------------- 
-rem ---  cloudcar_spawner_mines  ---
+rem ---  CloudcarmineImp  ---
 rem ----------------------------------------- 
-ObjectTemplate.create ObjectSpawner cloudcar_spawner_mines
+ObjectTemplate.create ObjectSpawner CloudcarmineImp
+ObjectTemplate.setObjectTemplate 1 cloudcar
+ObjectTemplate.setObjectTemplate 2 cloudcar
+ObjectTemplate.MinSpawnDelay 10
+ObjectTemplate.MaxSpawnDelay 20
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.maxNrOfObjectSpawned 2
+ObjectTemplate.teamOnVehicle 1
+
+rem ----------------------------------------- 
+rem ---  CloudbusReb  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner CloudbusReb
+ObjectTemplate.setObjectTemplate 1 cloudbus
+ObjectTemplate.setObjectTemplate 2 cloudbus
+ObjectTemplate.MinSpawnDelay 10
+ObjectTemplate.MaxSpawnDelay 20
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.maxNrOfObjectSpawned 2
+ObjectTemplate.teamOnVehicle 1
+
+rem ----------------------------------------- 
+rem ---  CloudcarmineReb  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner CloudcarmineReb
+ObjectTemplate.setObjectTemplate 1 cloudcar
+ObjectTemplate.setObjectTemplate 2 cloudcar
+ObjectTemplate.MinSpawnDelay 10
+ObjectTemplate.MaxSpawnDelay 20
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.maxNrOfObjectSpawned 2
+ObjectTemplate.teamOnVehicle 1
+
+rem ----------------------------------------- 
+rem ---  Cloudcarplatforms  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner Cloudcarplatforms
 ObjectTemplate.setObjectTemplate 1 cloudcar
 ObjectTemplate.setObjectTemplate 2 cloudcar
 ObjectTemplate.MinSpawnDelay 10

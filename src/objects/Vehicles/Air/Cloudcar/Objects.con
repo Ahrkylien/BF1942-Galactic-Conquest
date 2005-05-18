@@ -42,7 +42,7 @@ ObjectTemplate.damageFromWater 1
 rem -------------------------------------
 ObjectTemplate.addTemplate lodCloudcar
 rem -------------------------------------
-ObjectTemplate.setSoldierExitLocation 0/2.2/0 0/0/0
+ObjectTemplate.setSoldierExitLocation 0/1/1.5 0/0/0
 ObjectTemplate.setVehicleIcon "Vehicle/icon_cloudcar.dds"
 ObjectTemplate.setVehicleIconPos 109/49
 ObjectTemplate.setNumberOfWeaponIcons 1
@@ -149,7 +149,7 @@ ObjectTemplate.addTemplate CloudcarEntry
 ObjectTemplate.setPosition 2.5/-1/0
 ObjectTemplate.addTemplate CloudcarLaser2
 rem -------------------------------------
-ObjectTemplate.setSoldierExitLocation 0/2.2/0 0/0/0
+ObjectTemplate.setSoldierExitLocation 0/1/1.5 0/0/0
 ObjectTemplate.setVehicleIcon "Vehicle/icon_cloudcar.dds"
 ObjectTemplate.setVehicleIconPos 44/40
 ObjectTemplate.setNumberOfWeaponIcons 1

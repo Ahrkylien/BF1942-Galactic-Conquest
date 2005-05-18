@@ -3,7 +3,7 @@
 rem *** ***
 ObjectTemplate.create FireArms Firehawke_GunBarrel
 ObjectTemplate.setNetworkableInfo TankFireArmInfo
-ObjectTemplate.loadSoundScript Sounds/ATSTLaser.ssc
+ObjectTemplate.loadSoundScript Sounds/FirehawkeCannon.ssc
 ObjectTemplate.geometry firehawke_mgun_recoil
 rem -------------------------------------
 ObjectTemplate.addTemplate e_MuzzFirehawke
@@ -35,10 +35,10 @@ ObjectTemplate.setNetworkableInfo TankFireArmInfo
 ObjectTemplate.loadSoundScript Sounds/ATSTLaser.ssc
 rem -------------------------------------
 ObjectTemplate.addTemplate e_MuzzHeavy
-ObjectTemplate.setPosition 0/0/1.5
+ObjectTemplate.setPosition 0/0/-2.75
 rem -------------------------------------
 ObjectTemplate.projectileTemplate MediumLaserProjectileGreenS
-ObjectTemplate.projectilePosition 0/0/1.5
+ObjectTemplate.projectilePosition 0/0/0.5
 ObjectTemplate.magSize 50
 ObjectTemplate.numOfMag 5
 ObjectTemplate.velocity 600

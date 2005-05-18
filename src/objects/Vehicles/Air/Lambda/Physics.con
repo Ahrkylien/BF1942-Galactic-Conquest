@@ -33,6 +33,94 @@ ObjectTemplate.setEngineType c_ETPlane
 ObjectTemplate.setTorque 65
 ObjectTemplate.setDifferential 8
 
+rem *** LambdaGlideEngine ***
+ObjectTemplate.create Engine LambdaLevelEngine
+ObjectTemplate.setNetworkableInfo lambdaengineinfo
+ObjectTemplate.loadSoundScript Sounds/RepGunEngine.ssc
+rem -------------------------------------
+ObjectTemplate.setMinRotation 0/0/0
+ObjectTemplate.setMaxRotation 0/0/1
+ObjectTemplate.setMaxSpeed 0/0/5000
+ObjectTemplate.setAcceleration 0/0/5000
+ObjectTemplate.setInputToRoll c_PIAltFire
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setEngineType c_ETPlane
+ObjectTemplate.setTorque 500
+ObjectTemplate.setDifferential 10
+
+rem *** LambdaDummyEngine ***
+ObjectTemplate.create Engine LambdaDummyEngine
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.setNetworkableInfo lambdaengineinfo
+ObjectTemplate.setMinRotation 0/0/50
+ObjectTemplate.setMaxRotation 0/0/1000
+ObjectTemplate.setMaxSpeed 0/0/9500
+ObjectTemplate.setAcceleration 0/0/15000
+ObjectTemplate.setInputToRoll c_PIThrottle
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setEngineType c_ETPlane
+ObjectTemplate.setTorque .1
+ObjectTemplate.setDifferential .1
+ObjectTemplate.setNoPropellerEffectAtSpeed 50
+
+rem *** LambdaDummyRearEngine ***
+ObjectTemplate.create Engine LambdaDummyRearEngine
+ObjectTemplate.setNetworkableInfo lambdaengineinfo
+ObjectTemplate.setMinRotation 0/0/50
+ObjectTemplate.setMaxRotation 0/0/500
+ObjectTemplate.setMaxSpeed 0/0/50
+ObjectTemplate.setAcceleration 0/0/100
+ObjectTemplate.setInputToRoll c_PIThrottle
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setEngineType c_ETPlane
+ObjectTemplate.setTorque .1
+ObjectTemplate.setDifferential .1
+ObjectTemplate.setNoPropellerEffectAtSpeed 100
+
+rem *** HoverEngine1 ***
+ObjectTemplate.create Engine LambdaHoverEngine1
+ObjectTemplate.setNetworkableInfo lambdaengineinfo
+ObjectTemplate.setMinRotation -5000/-5000/2300
+ObjectTemplate.setMaxRotation 5000/5000/5000
+ObjectTemplate.setMaxSpeed 50/50/9500
+ObjectTemplate.setAcceleration 50/50/10050
+ObjectTemplate.setInputToRoll c_PIThrottle
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setEngineType c_ETPlane
+ObjectTemplate.setTorque 18
+ObjectTemplate.setDifferential 3.5
+ObjectTemplate.setNoPropellerEffectAtSpeed 3000
+
+rem *** HoverEngine2 ***
+ObjectTemplate.create Engine LambdaHoverEngine2
+ObjectTemplate.setNetworkableInfo lambdaengineinfo
+ObjectTemplate.loadSoundScript Sounds/RepGunEngine.ssc
+rem -------------------------------------
+ObjectTemplate.setMinRotation -5000/-5000/2300
+ObjectTemplate.setMaxRotation 5000/5000/5000
+ObjectTemplate.setMaxSpeed 50/50/9500
+ObjectTemplate.setAcceleration 50/50/10050
+ObjectTemplate.setInputToRoll c_PIThrottle
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setEngineType c_ETPlane
+ObjectTemplate.setTorque 18
+ObjectTemplate.setDifferential 3.5
+ObjectTemplate.setNoPropellerEffectAtSpeed 3000
+
+rem *** HoverEngine3 ***
+ObjectTemplate.create Engine LambdaHoverEngine3
+ObjectTemplate.setNetworkableInfo lambdaengineinfo
+ObjectTemplate.setMinRotation -5000/-5000/2300
+ObjectTemplate.setMaxRotation 5000/5000/5000
+ObjectTemplate.setMaxSpeed 50/50/9500
+ObjectTemplate.setAcceleration 50/50/10050
+ObjectTemplate.setInputToRoll c_PIThrottle
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setEngineType c_ETPlane
+ObjectTemplate.setTorque 18
+ObjectTemplate.setDifferential 3.5
+ObjectTemplate.setNoPropellerEffectAtSpeed 3000
+
 rem *** LambdaVTOLRack ***
 ObjectTemplate.create RotationalBundle LambdaVTOLRack
 ObjectTemplate.hasMobilePhysics 1

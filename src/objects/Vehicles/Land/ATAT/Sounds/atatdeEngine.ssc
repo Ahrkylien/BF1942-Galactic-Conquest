@@ -87,6 +87,15 @@ beginEffect
 	param 1
 endEffect
 
+*** ATAT Engine Pitch ***
+beginEffect
+controlDestination Pitch 
+controlSource Speed
+envelope Linear
+param 0.4
+param 0.1
+endEffect
+
 *** Engine Volume ***
 beginEffect
 	controlDestination Volume
@@ -119,6 +128,7 @@ beginEffect
 	param 1
 	param -1	
 endEffect
+
 
 *** Engine stop ***
 beginEffect

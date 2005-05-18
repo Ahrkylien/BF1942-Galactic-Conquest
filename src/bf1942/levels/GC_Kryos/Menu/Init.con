@@ -8,3 +8,4 @@ game.setServerInfoIcon ../../bf1942/levels/GC_Kryos/menu/serverInfo.dds
 game.setMultiplayerBriefingObjectives "Imperial spies have learned of a top secret weapon being constructed for the Rebels some where in the Mon Cal system. A Star Destroyer was sent to investigate all outlying planets. When the ship approached Sep Elopon, they picked up energy readings coming from the frozen moon Kryos. When the Star Destroyer moved into orbit around Kryos, it was nearly destroyed from fire from the surface. Unfortunately for the Rebels, the Empire was able to detach a ground assault force to the planet in hopes to destroy this new weapon and learn where the Rebels' new secret base is..."
 
 game.setMapId "GCMOD"
+game.setBackgroundMusic "music/kryos/music.bik"

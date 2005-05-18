@@ -31,3 +31,4 @@ game.setMultiplayerBriefingMapType MULTIPLAYER_MAP_TYPE_HEADON_MAP
 game.setLoadPicture Load/tatooine.tga
 game.setServerInfoIcon ../../bf1942/levels/gc_tatooine/menu/serverInfo.dds
 game.setMapId "GCMOD"
+game.setBackgroundMusic "music/tatooine/music.bik"

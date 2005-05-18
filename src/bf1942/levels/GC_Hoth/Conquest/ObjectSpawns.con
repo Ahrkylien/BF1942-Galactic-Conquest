@@ -5,8 +5,18 @@ rem -----------------------------------------
 rem ---  bactatankspawner  ---
 rem ----------------------------------------- 
 Object.create bactatankspawner
-Object.absolutePosition 353.73/3.68/340.54
-Object.rotation -231.50/0.00/0.00
+Object.absolutePosition 355.27/3.68/338.41
+Object.rotation -145.00/0.00/0.00
+Object.setOSId 2
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  medscanner  ---
+rem ----------------------------------------- 
+Object.create medscanner_s
+Object.absolutePosition 348.19/3.68/333.21
+Object.rotation -145.00/0.00/0.00
+Object.setOSId 2
 Object.setTeam 2
 
 rem ----------------------------------------- 
@@ -234,6 +244,22 @@ Object.rotation -84.00/0.00/0.00
 Object.setTeam 2
 
 rem ----------------------------------------- 
+rem ---  droid_capsule_spawner  --- center dwn atat
+rem ----------------------------------------- 
+rem Object.create droid_capsule_s
+rem Object.absolutePosition 1053.56/14.63/778.05
+rem Object.rotation 138.00/0.00/0.00
+rem Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  droid_capsule_spawner  --- rebel trench flag
+rem ----------------------------------------- 
+Object.create droid_capsule_s
+Object.absolutePosition 1868.23/31.60/538.14
+Object.rotation 0.00/0.00/0.00
+Object.setTeam 2
+
+rem ----------------------------------------- 
 rem ---  trollyspawn  ---
 rem ----------------------------------------- 
 Object.create trollyspawn
@@ -327,5 +353,41 @@ Object.create atatspawner
 Object.absolutePosition 1287.26/26.41/1818.60
 Object.rotation -165.00/0.00/0.00
 Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  trollyspawn  ---
+rem ----------------------------------------- 
+Object.create trollyspawn
+Object.absolutePosition 539.44/16.40/707.75
+Object.rotation 90.00/0.00/0.00
+Object.setOSId 4
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  trollyspawn  ---
+rem ----------------------------------------- 
+Object.create trollyspawn
+Object.absolutePosition 587.84/15.28/480.45
+Object.rotation 270.00/0.00/0.00
+Object.setOSId 7
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  Ioncannonx_Spawn1  ---
+rem ----------------------------------------- 
+Object.create Ioncannonx_Spawn1
+Object.absolutePosition 356.16/21.88/573.56
+Object.rotation 0.00/0.00/0.00
+Object.setTeam 2
+
+beginrem
+rem ----------------------------------------- 
+rem ---  IonControl_Spawn1  ---
+rem ----------------------------------------- 
+Object.create IonControl_Spawn1
+Object.absolutePosition 324.02/2.73/324.58
+Object.rotation 41.00/0.00/0.00
+Object.setTeam 2
+endrem
 
 rem EndOfFile

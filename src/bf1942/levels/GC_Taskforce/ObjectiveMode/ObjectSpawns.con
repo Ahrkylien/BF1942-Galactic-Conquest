@@ -14,6 +14,19 @@ Object.absolutePosition 2000.17/272.042/450.14
 Object.rotation 0/0/0
 Object.setTeam 2
 
+
+Object.create droid_capsule_s
+Object.absolutePosition 2817.85/298.93/2066.15
+Object.rotation 0.00/0.00/0.00
+Object.setTeam 1
+
+
+rem Object.create droid_capsule_s
+rem Object.absolutePosition 2838.17/288.26/2074.52
+rem Object.rotation 0.00/0.00/0.00
+rem Object.setTeam 1
+
+
 Object.create yt600spawner2
 Object.absolutePosition 1500.17/272.042/450.14
 Object.rotation 0/0/0

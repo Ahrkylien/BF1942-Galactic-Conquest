@@ -327,8 +327,8 @@ ObjectTemplate.stopAtEndEffect 1
 ObjectTemplate.material 713
 ObjectTemplate.material2 714
 ObjectTemplate.damageType 1
-ObjectTemplate.radius 4
-ObjectTemplate.ForceOnExplosion 15
+ObjectTemplate.radius 10
+ObjectTemplate.ForceOnExplosion 30
 ObjectTemplate.explodeNearEnemyDistance 6.5
 ObjectTemplate.ProximityFusePrimer 0.01
 
@@ -374,4 +374,5 @@ ObjectTemplate.loadSoundScript Sounds/bazookaprojectile.ssc
 
 rem See Object code for Rocket2 projectile
 rem ---------- Bomb Projectiles ----------
+
 

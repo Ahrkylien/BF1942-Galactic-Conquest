@@ -462,9 +462,6 @@ ObjectTemplate.aiTemplate KatyushaCannon
 rem -------------------------------------
 ObjectTemplate.addTemplate rat_turret_x
 ObjectTemplate.setPosition 0/2.3142/0.1346
-
-ObjectTemplate.addTemplate Assault_Tank_Camera_PcoId1
-ObjectTemplate.setPosition 0/3.85/-2.8
 ObjectTemplate.addTemplate Assault_TankEntry
 ObjectTemplate.setPosition 0/0/-3.2772
 rem -------------------------------------
@@ -500,6 +497,8 @@ rem -------------------------------------
 ObjectTemplate.addTemplate rat_turret_y
 ObjectTemplate.setPosition 0/0/-.3576
 ObjectTemplate.setRotation 0/-10/0
+ObjectTemplate.addTemplate Assault_Tank_Camera_PcoId1
+ObjectTemplate.setPosition 0/3.85/-2.8
 rem -------------------------------------
 ObjectTemplate.setMinRotation -70/0/0
 ObjectTemplate.setMaxRotation 70/0/0

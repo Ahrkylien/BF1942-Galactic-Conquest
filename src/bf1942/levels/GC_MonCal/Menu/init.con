@@ -32,3 +32,4 @@ game.setMultiplayerBriefingMapType MULTIPLAYER_MAP_TYPE_HEADON_MAP
 game.setLoadPicture Load/moncal.tga
 game.setServerInfoIcon ../../bf1942/levels/GC_MonCal/menu/serverInfo.dds
 game.setMapId "GCMOD"
+game.setBackgroundMusic "music/moncal/music.bik"

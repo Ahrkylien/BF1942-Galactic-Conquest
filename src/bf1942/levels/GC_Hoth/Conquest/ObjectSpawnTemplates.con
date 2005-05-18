@@ -164,6 +164,21 @@ ObjectTemplate.maxNrOfObjectSpawned 1
 ObjectTemplate.teamOnVehicle 0
 
 rem ----------------------------------------- 
+rem ---  droidcapsulespawner  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner droid_capsule_s
+ObjectTemplate.setObjectTemplate 1 droidcapsule
+ObjectTemplate.setObjectTemplate 2 droidcapsule
+ObjectTemplate.MinSpawnDelay 5
+ObjectTemplate.MaxSpawnDelay 10
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 999
+ObjectTemplate.Distance 999
+ObjectTemplate.DamageWhenLost 0
+ObjectTemplate.maxNrOfObjectSpawned 1
+ObjectTemplate.teamOnVehicle 0
+
+rem ----------------------------------------- 
 rem ---  probedroidcontrolspawner  ---
 rem ----------------------------------------- 
 ObjectTemplate.create ObjectSpawner probedroidcontrolspawner
@@ -198,7 +213,22 @@ ObjectTemplate.create ObjectSpawner bactatankspawner
 ObjectTemplate.setObjectTemplate 1 bactatank
 ObjectTemplate.setObjectTemplate 2 bactatank
 ObjectTemplate.MinSpawnDelay 10
-ObjectTemplate.MaxSpawnDelay 10
+ObjectTemplate.MaxSpawnDelay 11
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.maxNrOfObjectSpawned 1
+ObjectTemplate.teamOnVehicle 0
+
+rem ----------------------------------------- 
+rem ---  medbedscanner_s  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner medbedscanner_s
+ObjectTemplate.setObjectTemplate 1 medscanner
+ObjectTemplate.setObjectTemplate 2 medscanner
+ObjectTemplate.MinSpawnDelay 10
+ObjectTemplate.MaxSpawnDelay 11
 ObjectTemplate.SpawnDelayAtStart 0
 ObjectTemplate.TimeToLive 45
 ObjectTemplate.Distance 40
@@ -262,5 +292,38 @@ ObjectTemplate.Distance 500
 ObjectTemplate.DamageWhenLost 0
 ObjectTemplate.maxNrOfObjectSpawned 1
 ObjectTemplate.teamOnVehicle 1
+
+
+rem ----------------------------------------- 
+rem ---  ioncannonx spawner  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner Ioncannonx_Spawn1
+ObjectTemplate.setObjectTemplate 1 ioncannonx
+ObjectTemplate.setObjectTemplate 2 ioncannonx
+ObjectTemplate.MinSpawnDelay 999999
+ObjectTemplate.MaxSpawnDelay 999999
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.maxNrOfObjectSpawned 1
+ObjectTemplate.teamOnVehicle 0
+
+beginrem
+rem ----------------------------------------- 
+rem ---  IonControl spawner  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner IonControl_Spawn1
+ObjectTemplate.setObjectTemplate 1 ioncontrol
+ObjectTemplate.setObjectTemplate 2 ioncontrol
+ObjectTemplate.MinSpawnDelay 999999
+ObjectTemplate.MaxSpawnDelay 999999
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.maxNrOfObjectSpawned 1
+ObjectTemplate.teamOnVehicle 0
+endrem
 
 rem EndOfFile

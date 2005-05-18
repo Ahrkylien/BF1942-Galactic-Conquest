@@ -1,5 +1,5 @@
 rem ControlPointTemplates.con created by Battlecraft 1942
-rem (\Program Files\Battlefield 1942\Mods\GCMOD\bf1942\levels\GC_Race/conquest/ControlPointTemplates.con)
+rem (\Program Files\Battlefield 1942\Mods\GCMOD\bf1942\levels\GC_BonusRace/conquest/ControlPointTemplates.con)
 
 NetworkableInfo.createNewInfo ControlPointInfo
 NetworkableInfo.setPredictionMode PMNone
@@ -15,7 +15,7 @@ ObjectTemplate.radius 5
 ObjectTemplate.team 1
 ObjectTemplate.spawnGroupId 1
 ObjectTemplate.objectSpawnerId 1
-ObjectTemplate.areaValue 0
+ObjectTemplate.areaValue 100
 ObjectTemplate.timeToGetControl 9999
 ObjectTemplate.timeToLoseControl 9999
 ObjectTemplate.disableIfEnemyInsideRadius 0
@@ -40,7 +40,7 @@ ObjectTemplate.radius 5
 ObjectTemplate.team 2
 ObjectTemplate.spawnGroupId 2
 ObjectTemplate.objectSpawnerId 2
-ObjectTemplate.areaValue 0
+ObjectTemplate.areaValue 100
 ObjectTemplate.timeToGetControl 9999
 ObjectTemplate.timeToLoseControl 9999
 ObjectTemplate.disableIfEnemyInsideRadius 0

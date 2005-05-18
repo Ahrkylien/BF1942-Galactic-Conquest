@@ -14,7 +14,7 @@ ObjectTemplate.addWeaponIcon "Weapon/icon_null.dds"
 ObjectTemplate.addWeaponIcon "Weapon/icon_null.dds"
 ObjectTemplate.addWeaponIcon "Weapon/icon_null.dds"
 
-ObjectTemplate.setKitIcon 2 "kits/Icon_antitank_axis_selected.tga"
+ObjectTemplate.setKitIcon 2 "kits/Icon_assault_axis_selected.tga"
 ObjectTemplate.setKitName 2 "RESPAWN_AT"
 ObjectTemplate.setKitActiveName 2 "RESPAWN_ACTIVE_AT"
 

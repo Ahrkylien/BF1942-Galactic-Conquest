@@ -137,6 +137,33 @@ Object.setOSId 1
 Object.setTeam 1
 
 rem ----------------------------------------- 
+rem ---  droid_capsule_spawner  ---
+rem ----------------------------------------- 
+Object.create droid_capsule_s
+Object.absolutePosition 1338.11/78.45/581.48
+Object.rotation 0.00/-2.98/-9.37
+Object.setTeam 2
+
+
+rem ----------------------------------------- 
+rem ---  droid_capsule_spawner  ---
+rem ----------------------------------------- 
+Object.create droid_capsule_s
+Object.absolutePosition 501.90/68.37/379.21
+Object.rotation 0.00/0.00/0.00
+Object.setTeam 1
+
+
+rem ----------------------------------------- 
+rem ---  droid_capsule_spawner  ---
+rem ----------------------------------------- 
+Object.create droid_capsule_s
+Object.absolutePosition 296.21/66.84/1557.99
+Object.rotation 0.00/0.00/0.00
+Object.setTeam 1
+
+
+rem ----------------------------------------- 
 rem ---  DTAP_Gain135_Spawner  ---
 rem ----------------------------------------- 
 Object.create DTAP_Gain135_Spawner

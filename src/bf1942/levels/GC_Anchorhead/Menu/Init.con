@@ -10,3 +10,4 @@ game.setMultiplayerBriefingObjectives "Imperial intelligence has noticed an incr
 
 game.setLoadPicture Load/anchorhead.tga
 game.setMapId "GCMOD"
+game.setBackgroundMusic "music/anchorhead/music.bik"

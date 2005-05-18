@@ -6,7 +6,7 @@ objectTemplate.cullRadiusScale 5
 ObjectTemplate.hasMobilePhysics 1
 ObjectTemplate.hasDynamicShadow 1
 ObjectTemplate.drag 1.5
-ObjectTemplate.mass 2500
+ObjectTemplate.mass 100
 ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.hasResponsePhysics 1
 ObjectTemplate.explosionRadius 10

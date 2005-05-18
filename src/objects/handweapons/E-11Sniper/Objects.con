@@ -10,7 +10,7 @@ ObjectTemplate.useScope 1
 ObjectTemplate.projectileTemplate E-11sniperProjectile
 ObjectTemplate.hasDynamicShadow 0
 ObjectTemplate.projectilePosition 0/0.058/0
-ObjectTemplate.magSize 30
+ObjectTemplate.magSize 50
 ObjectTemplate.numOfMag 1
 ObjectTemplate.magType 0
 ObjectTemplate.reloadtime 0.0001

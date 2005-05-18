@@ -14,7 +14,7 @@ ObjectTemplate.addWeaponIcon "Weapon/icon_null.dds"
 ObjectTemplate.addWeaponIcon "Weapon/icon_null.dds"
 ObjectTemplate.addWeaponIcon "Weapon/icon_null.dds"
 
-ObjectTemplate.setKitIcon 3 "kits/Icon_medic_axis_selected.tga"
+ObjectTemplate.setKitIcon 3 "kits/Icon_assault_axis_selected.tga"
 ObjectTemplate.setKitName 3 "RESPAWN_MEDIC"
 ObjectTemplate.setKitActiveName 3 "RESPAWN_ACTIVE_MEDIC"
 

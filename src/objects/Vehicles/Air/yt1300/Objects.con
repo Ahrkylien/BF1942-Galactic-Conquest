@@ -38,10 +38,11 @@ ObjectTemplate.aiTemplate B17
 rem -------------------------------------
 ObjectTemplate.addTemplate lodyt1300
 rem -------------------------------------
+rem *************** FALCON SOLDIER SPAWN
+ObjectTemplate.addTemplate yt1300_sold_spawn
+rem ObjectTemplate.setPosition -0.5/2.823/-0.5
+rem *************** FALCON SOLDIER SPAWN
 rem ******Active MF Radar - Distance in air/common/objects.con*******
-ObjectTemplate.setPcoId 0
-ObjectTemplate.addPcoPosId 1
-ObjectTemplate.addPcoPosId 30
 ObjectTemplate.sonarPos 1
 ObjectTemplate.setSoldierExitLocation 12/2.7/7.8 -135/0/0
 ObjectTemplate.setVehicleIcon "Vehicle/Icon_falcon.dds"
@@ -87,10 +88,6 @@ rem ---------------------------------
 ObjectTemplate.addTemplate FalconVTOLRack
 ObjectTemplate.setPosition 0/0/-0.01
 ObjectTemplate.setRotation 180.0/-90.0/-180.0
-rem *************** FALCON SOLDIER SPAWN
-ObjectTemplate.addTemplate yt1300_sold_spawn
-ObjectTemplate.setPosition -0.5/2.823/-0.5
-rem *************** FALCON SOLDIER SPAWN
 ObjectTemplate.addTemplate MF_Turret_PCO1
 ObjectTemplate.addTemplate MF_Turret_PCO2
 ObjectTemplate.addTemplate MilleniumFalconFlapLeftMiddle
@@ -112,6 +109,8 @@ ObjectTemplate.setPosition 1.146/1.012/-6.539
 ObjectTemplate.addTemplate MilleniumFalconRudder
 ObjectTemplate.setPosition 0.03/1.88/-6.649
 ObjectTemplate.setRotation 0/0/-89.999
+ObjectTemplate.addTemplate MFHyperDriveEngine
+ObjectTemplate.setPosition 0/0/0
 ObjectTemplate.addTemplate MilleniumFalconBodyWingVertical
 ObjectTemplate.setRotation 0/0/-89.999
 ObjectTemplate.AddTemplate Ammobox

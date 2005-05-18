@@ -11,7 +11,7 @@ ObjectTemplate.addTemplate Reb_AT_Backpack
 ObjectTemplate.setHealthBarIcon "Ingame/reb_Healthbar_empty_at_64x64.tga"
 ObjectTemplate.setHealthBarFullIcon "Ingame/reb_Healthbar_full_at_64x64.tga"
 ObjectTemplate.addWeaponIcon "Weapon/icon_alliesknife.dds"
-ObjectTemplate.addWeaponIcon "Weapon/icon_dl44.dds"
+ObjectTemplate.addWeaponIcon "Weapon/icon_dh-17.dds"
 ObjectTemplate.addWeaponIcon "Weapon/icon_plx2m.dds"
 ObjectTemplate.addWeaponIcon "Weapon/icon_null.dds"
 ObjectTemplate.addWeaponIcon "Weapon/icon_rebmine.dds"
@@ -21,7 +21,7 @@ ObjectTemplate.setKitName 2 "RESPAWN_AT"
 ObjectTemplate.setKitActiveName 2 "RESPAWN_ACTIVE_AT"
 
 ObjectTemplate.addTemplate PLX-2M
-ObjectTemplate.addTemplate Dl44
+ObjectTemplate.addTemplate DH-17
 ObjectTemplate.addTemplate KnifeAllies
 ObjectTemplate.addTemplate RebMine
 

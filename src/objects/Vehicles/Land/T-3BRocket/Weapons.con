@@ -1,5 +1,6 @@
 ObjectTemplate.create Projectile T-3BRocket
 ObjectTemplate.geometry T-3Br_rocket_m1
+ObjectTemplate.loadSoundScript Sounds/T-3BRocket.ssc
 ObjectTemplate.timeToLive CRD_NONE/20/0/0
 ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.setHasPointPhysics 0

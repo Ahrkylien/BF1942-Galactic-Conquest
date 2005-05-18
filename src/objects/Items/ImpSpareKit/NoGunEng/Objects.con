@@ -15,7 +15,7 @@ ObjectTemplate.addWeaponIcon "Weapon/icon_null.dds"
 ObjectTemplate.addWeaponIcon "Weapon/icon_null.dds"
 
 
-ObjectTemplate.setKitIcon 4 "kits/Icon_engineer_axis_selected.tga"
+ObjectTemplate.setKitIcon 4 "kits/Icon_assault_axis_selected.tga"
 ObjectTemplate.setKitName 4 "RESPAWN_ENGINEER"
 ObjectTemplate.setKitActiveName 4 "RESPAWN_ACTIVE_ENGINEER"
 

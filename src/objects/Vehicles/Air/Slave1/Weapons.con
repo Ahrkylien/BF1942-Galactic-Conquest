@@ -23,7 +23,6 @@ REM *** DAMAGE OVER DISTANCE ***
 ObjectTemplate.minDamage 0.5
 ObjectTemplate.distToStartLoseDamage 100
 ObjectTemplate.distToMinDamage 300
-ObjectTemplate.AmmoType	8
 
 rem *** Slave1_Ion_Cannon ***
 ObjectTemplate.create FireArms Slave1_Ion_Cannon
@@ -32,15 +31,15 @@ ObjectTemplate.loadSoundScript Sounds/Slave1_Ion_Cannon.ssc
 rem -------------------------------------
 ObjectTemplate.visibleBarrelTemplate e_muzzGun
 rem -------------------------------------
-ObjectTemplate.projectileTemplate TieBomb
-ObjectTemplate.magSize 1
-ObjectTemplate.numOfMag 10
-ObjectTemplate.velocity 30
-ObjectTemplate.reloadtime 3
+ObjectTemplate.projectileTemplate StrongLaserProjectileRedNS
+ObjectTemplate.magSize -1
+ObjectTemplate.magType 0
+ObjectTemplate.numOfMag 999
+ObjectTemplate.velocity 800
+ObjectTemplate.reloadtime 7
 ObjectTemplate.autoReload 1
 ObjectTemplate.roundOfFire 0.75
-ObjectTemplate.addFireArmsPosition 0/-1.3/2.5 0/90/0
-ObjectTemplate.AmmoType	9
+ObjectTemplate.addFireArmsPosition 0/0/0 0/0/0
 
 rem *** Slave1_Missile_Launchers ***
 ObjectTemplate.create FireArms Slave1_Missile_Launchers
@@ -48,16 +47,14 @@ ObjectTemplate.setNetworkableInfo PlaneFireArmInfo
 rem -------------------------------------
 ObjectTemplate.visibleBarrelTemplate e_MuzzHeavy
 rem -------------------------------------
-ObjectTemplate.setAsynchronyFire 1
-ObjectTemplate.projectileTemplate RocketProjectile2
-ObjectTemplate.magSize 4
+ObjectTemplate.projectileTemplate ConcussionMissile
+ObjectTemplate.magSize 16
 ObjectTemplate.numOfMag 4
-ObjectTemplate.velocity 135
+ObjectTemplate.velocity 200
 ObjectTemplate.autoReload 1
 ObjectTemplate.reloadtime 4
-ObjectTemplate.roundOfFire 5
+ObjectTemplate.roundOfFire 1.8
 ObjectTemplate.fireingForce 1
 ObjectTemplate.addFireArmsPosition -1.8/0/0 0/0/0
 ObjectTemplate.addFireArmsPosition 1.8/0/0 0/0/0
 ObjectTemplate.setInputFire c_PIAltFire
-ObjectTemplate.AmmoType	7

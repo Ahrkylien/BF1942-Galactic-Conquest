@@ -57,7 +57,7 @@ rem -------------------------------------
 
 rem *** I.M.D.SEntry ***
 ObjectTemplate.create EntryPoint I.M.D.SEntry
-ObjectTemplate.setEntryRadius 15
+ObjectTemplate.setEntryRadius 5
 
 rem *** I.M.D.SHead ***
 ObjectTemplate.create RotationalBundle I.M.D.SHead

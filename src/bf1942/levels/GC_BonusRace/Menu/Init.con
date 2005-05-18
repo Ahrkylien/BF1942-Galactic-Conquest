@@ -8,3 +8,4 @@ game.setServerInfoIcon ../../bf1942/levels/GC_BonusRace/menu/serverInfo.dds
 game.setMultiplayerBriefingObjectives "The fog has lifted for the final day of the 100th Anual Chandrila Racing Challenge. The competition has been fierce between the two remaining teams, The Galactic Empire and Rebel Alliance. They will need to take advantage of newly enhanced skyhopper engine to secure victory in the skys.  They will also need lighting fast reflexs on our famous speederbike course. Have Fun Racers! On your Mark... Get Set... SMACKTARD!!!"
 
 game.setMapId "GCMOD"
+game.setBackgroundMusic "music/bonusrace/music.bik"

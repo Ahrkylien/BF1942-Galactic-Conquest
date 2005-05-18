@@ -172,6 +172,27 @@ Object.setOSId 1
 rem
 rem ***  ***
 rem
+Object.create droid_capsule_s
+Object.absolutePosition 190.04/36.74/1868.66
+Object.rotation 0.00/0.00/0.00
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create droid_capsule_s
+Object.absolutePosition 913.90/36.43/94.45
+Object.rotation 0.00/0.00/0.00
+Object.setTeam 2
+rem
+rem ***  ***
+rem
+Object.create droid_capsule_s
+Object.absolutePosition 1605.85/36.61/1982.47
+Object.rotation 0.00/0.00/0.00
+Object.setTeam 1
+rem
+rem ***  ***
+rem
 Object.create antiairdefence
 Object.absolutePosition 928.212/84.3188/540.467
 Object.rotation 53/0/0

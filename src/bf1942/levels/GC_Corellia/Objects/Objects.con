@@ -5,3 +5,5 @@ ObjectTemplate.setHasCollisionPhysics 1
 ObjectTemplate.create Bundle tent1_nosound
 ObjectTemplate.geometry tent1
 ObjectTemplate.setHasCollisionPhysics 1
+
+run Vehicles/Air/MilleniumFalcon/go

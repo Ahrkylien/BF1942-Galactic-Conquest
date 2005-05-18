@@ -86,7 +86,7 @@ rem -----------------------------------------
 rem ---  Fighter_Spawner  ---
 rem ----------------------------------------- 
 Object.create Fighter_Spawner
-Object.absolutePosition 1524.56/90.57/1706.23
+Object.absolutePosition 1525.16/90.57/1702.23
 Object.rotation -192.73/0.00/0.00
 Object.setOSId 2
 Object.setTeam 2
@@ -113,8 +113,8 @@ rem -----------------------------------------
 rem ---  Troop_Transport_Spawner  ---
 rem ----------------------------------------- 
 Object.create Troop_Transport_Spawner
-Object.absolutePosition 606.76/80.53/462.76
-Object.rotation 41.57/0.00/0.00
+Object.absolutePosition 600.12/80.53/464.24
+Object.rotation 43.58/0.00/0.00
 Object.setOSId 1
 Object.setTeam 1
 
@@ -180,6 +180,14 @@ Object.absolutePosition 1611.10/81.02/1053.14
 Object.rotation -241.08/0.00/0.00
 Object.setOSId 4
 Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  droid_capsule_spawner  ---
+rem ----------------------------------------- 
+Object.create droid_capsule_s
+Object.absolutePosition 754.50/111.76/791.75
+Object.rotation 90.00/0.00/0.00
+Object.setTeam 1
 
 rem ----------------------------------------- 
 rem ---  Heavy_Weapons  ---
@@ -308,18 +316,18 @@ Object.setOSId 5
 Object.setTeam 0
 
 rem ----------------------------------------- 
-rem ---  Atst_Normal  ---
+rem ---  Atst_v  ---
 rem ----------------------------------------- 
-Object.create Atst_Normal
+Object.create Atst_v
 Object.absolutePosition 614.85/82.91/407.34
 Object.rotation 44.00/0.00/0.00
 Object.setOSId 1
 Object.setTeam 1
 
 rem ----------------------------------------- 
-rem ---  Atst_Normal  ---
+rem ---  Atst_v  ---
 rem ----------------------------------------- 
-Object.create Atst_Normal
+Object.create Atst_v
 Object.absolutePosition 628.17/82.91/391.75
 Object.rotation 44.00/0.00/0.00
 Object.setOSId 1
@@ -333,5 +341,41 @@ Object.absolutePosition 1445.68/106.10/691.84
 Object.rotation 0.00/0.00/0.00
 Object.setOSId 3
 Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  Medium_Transport_Spawner  ---
+rem ----------------------------------------- 
+Object.create Medium_Transport_Spawner
+Object.absolutePosition 1335.59/73.52/1729.21
+Object.rotation 240.12/0.00/0.00
+Object.setOSId 2
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  Medium_Transport_Spawner  ---
+rem ----------------------------------------- 
+Object.create Medium_Transport_Spawner
+Object.absolutePosition 1445.27/73.62/1832.75
+Object.rotation -275.52/0.00/0.00
+Object.setOSId 2
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  AP_Turret  ---
+rem ----------------------------------------- 
+Object.create AP_Turret
+Object.absolutePosition 1591.90/80.66/1062.48
+Object.rotation 300.00/0.00/0.00
+Object.setOSId 4
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  DTAP_Impbase  ---
+rem ----------------------------------------- 
+Object.create DTAP_Impbase
+Object.absolutePosition 608.09/81.77/455.59
+Object.rotation 40.83/0.00/0.00
+Object.setOSId 1
+Object.setTeam 1
 
 rem EndOfFile

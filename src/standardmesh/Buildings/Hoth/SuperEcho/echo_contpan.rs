@@ -11,7 +11,7 @@ subshader "echo_contpan_Material1" "StandardMesh/Default"
 	lighting true;
 	lightingSpecular false;
 	materialDiffuse 0.588 0.588 0.588;
-	texture "texture/buildings/SuperEcho/miniscreenB";
+	texture "mods/gcmod/movies/hud2.bik";
 }
 
 subshader "echo_contpan_Material2" "StandardMesh/Default"
@@ -19,6 +19,6 @@ subshader "echo_contpan_Material2" "StandardMesh/Default"
 	lighting true;
 	lightingSpecular false;
 	materialDiffuse 0.588 0.588 0.588;
-	texture "texture/buildings/SuperEcho/miniscreenA";
+	texture "mods/gcmod/movies/TieHud1_1.bik";
 }
 

@@ -8,7 +8,7 @@ ObjectTemplate.projectileTemplate dressilianrifleProjectile
 ObjectTemplate.projectilePosition 0/0/0
 ObjectTemplate.hasDynamicShadow 0
 ObjectTemplate.magSize 10
-ObjectTemplate.numOfMag 3
+ObjectTemplate.numOfMag 5
 ObjectTemplate.magType 0
 ObjectTemplate.unZoomBetweenFireTime 0
 ObjectTemplate.useScope 1

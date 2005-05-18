@@ -1,115 +1,126 @@
-rem ObjectSpawnTemplates.con created by Battlecraft 1942
-rem (\Program Files\Battlefield 1942\Mods\GCMOD\bf1942\levels\GC_Hoth/conquest/ObjectSpawnTemplates.con)
-
-rem ----------------------------------------- 
-rem ---  apturretspawner  ---
-rem ----------------------------------------- 
 ObjectTemplate.create ObjectSpawner apturretspawner
-ObjectTemplate.setObjectTemplate 1 apturret
 ObjectTemplate.setObjectTemplate 2 apturret
+ObjectTemplate.setObjectTemplate 1 apturret
 ObjectTemplate.MinSpawnDelay 60
 ObjectTemplate.MaxSpawnDelay 120
 ObjectTemplate.SpawnDelayAtStart 0
 ObjectTemplate.TimeToLive 45
 ObjectTemplate.Distance 40
 ObjectTemplate.DamageWhenLost 10
-ObjectTemplate.maxNrOfObjectSpawned 1
 ObjectTemplate.teamOnVehicle 1
 
-rem ----------------------------------------- 
-rem ---  milleniumfalconspawner  ---
-rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner tiefighter-awing
+ObjectTemplate.setObjectTemplate 2 awing
+ObjectTemplate.setObjectTemplate 1 tiefighter
+ObjectTemplate.MinSpawnDelay 10
+ObjectTemplate.MaxSpawnDelay 30
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 20
+
 ObjectTemplate.create ObjectSpawner milleniumfalconspawner
-ObjectTemplate.setObjectTemplate 1 milleniumfalcon
 ObjectTemplate.setObjectTemplate 2 milleniumfalcon
+ObjectTemplate.setObjectTemplate 1 milleniumfalcon
 ObjectTemplate.MinSpawnDelay 60
 ObjectTemplate.MaxSpawnDelay 90
 ObjectTemplate.SpawnDelayAtStart 0
 ObjectTemplate.TimeToLive 45
 ObjectTemplate.Distance 40
 ObjectTemplate.DamageWhenLost 20
-ObjectTemplate.maxNrOfObjectSpawned 1
-ObjectTemplate.teamOnVehicle 0
 
-rem ----------------------------------------- 
-rem ---  tiefighter-snowspeeder  ---
-rem ----------------------------------------- 
 ObjectTemplate.create ObjectSpawner tiefighter-snowspeeder
-ObjectTemplate.setObjectTemplate 1 snowspeeder
 ObjectTemplate.setObjectTemplate 2 snowspeeder
+ObjectTemplate.setObjectTemplate 1 snowspeeder
 ObjectTemplate.MinSpawnDelay 40
 ObjectTemplate.MaxSpawnDelay 60
 ObjectTemplate.SpawnDelayAtStart 0
 ObjectTemplate.TimeToLive 45
 ObjectTemplate.Distance 40
 ObjectTemplate.DamageWhenLost 20
-ObjectTemplate.maxNrOfObjectSpawned 1
-ObjectTemplate.teamOnVehicle 0
 
-rem ----------------------------------------- 
-rem ---  avturretspawner  ---
-rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner lambdaspawner
+ObjectTemplate.setObjectTemplate 2 lambda
+ObjectTemplate.setObjectTemplate 1 lambda
+ObjectTemplate.MinSpawnDelay 10
+ObjectTemplate.MaxSpawnDelay 30
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 20
+
 ObjectTemplate.create ObjectSpawner avturretspawner
-ObjectTemplate.setObjectTemplate 1 avturret
 ObjectTemplate.setObjectTemplate 2 avturret
+ObjectTemplate.setObjectTemplate 1 avturret
 ObjectTemplate.MinSpawnDelay 60
 ObjectTemplate.MaxSpawnDelay 120
 ObjectTemplate.SpawnDelayAtStart 0
 ObjectTemplate.TimeToLive 45
 ObjectTemplate.Distance 40
 ObjectTemplate.DamageWhenLost 10
-ObjectTemplate.maxNrOfObjectSpawned 1
 ObjectTemplate.teamOnVehicle 1
 
-rem ----------------------------------------- 
-rem ---  snipertowerspawn  ---
-rem ----------------------------------------- 
-ObjectTemplate.create ObjectSpawner snipertowerspawn
-ObjectTemplate.setObjectTemplate 1 spy_turret
-ObjectTemplate.setObjectTemplate 2 spy_turret
-ObjectTemplate.MinSpawnDelay 25
-ObjectTemplate.MaxSpawnDelay 25
-ObjectTemplate.SpawnDelayAtStart 0
-ObjectTemplate.TimeToLive 45
-ObjectTemplate.Distance 40
-ObjectTemplate.DamageWhenLost 10
-ObjectTemplate.maxNrOfObjectSpawned 1
-ObjectTemplate.teamOnVehicle 0
-
-rem ----------------------------------------- 
-rem ---  trollyspawn  ---
-rem ----------------------------------------- 
-ObjectTemplate.create ObjectSpawner trollyspawn
-ObjectTemplate.setObjectTemplate 1 echotrolley
-ObjectTemplate.setObjectTemplate 2 echotrolley
-ObjectTemplate.MinSpawnDelay 25
-ObjectTemplate.MaxSpawnDelay 25
-ObjectTemplate.SpawnDelayAtStart 0
-ObjectTemplate.TimeToLive 45
-ObjectTemplate.Distance 40
-ObjectTemplate.DamageWhenLost 10
-ObjectTemplate.maxNrOfObjectSpawned 2
-ObjectTemplate.teamOnVehicle 0
-
-rem ----------------------------------------- 
-rem ---  xwingalltime  ---
-rem ----------------------------------------- 
 ObjectTemplate.create ObjectSpawner xwingalltime
-ObjectTemplate.setObjectTemplate 1 x-wing
 ObjectTemplate.setObjectTemplate 2 x-wing
+ObjectTemplate.setObjectTemplate 1 x-wing
 ObjectTemplate.MinSpawnDelay 25
 ObjectTemplate.MaxSpawnDelay 50
 ObjectTemplate.SpawnDelayAtStart 0
 ObjectTemplate.TimeToLive 45
 ObjectTemplate.Distance 40
 ObjectTemplate.DamageWhenLost 10
-ObjectTemplate.maxNrOfObjectSpawned 1
-ObjectTemplate.teamOnVehicle 0
 
-rem ----------------------------------------- 
-rem ---  atst-atst  ---
-rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner trollyspawn
+ObjectTemplate.setObjectTemplate 2 echotrolley
+ObjectTemplate.setObjectTemplate 1 echotrolley
+ObjectTemplate.SpawnDelay 25
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.MaxNrOfObjectSpawned 2
+
+ObjectTemplate.create ObjectSpawner snipertowerspawn
+ObjectTemplate.setObjectTemplate 2 spy_turret
+ObjectTemplate.setObjectTemplate 1 spy_turret
+ObjectTemplate.SpawnDelay 25
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+
+ObjectTemplate.create ObjectSpawner tiefighterspawner
+ObjectTemplate.setObjectTemplate 2 tiefighter
+ObjectTemplate.setObjectTemplate 1 tiefighter
+ObjectTemplate.MinSpawnDelay 40
+ObjectTemplate.MaxSpawnDelay 60
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 20
+
+ObjectTemplate.create ObjectSpawner tiefighter-xwing
+ObjectTemplate.setObjectTemplate 2 xwing
+ObjectTemplate.setObjectTemplate 1 tiefighter
+ObjectTemplate.MinSpawnDelay 10
+ObjectTemplate.MaxSpawnDelay 30
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 20
+
+ObjectTemplate.create ObjectSpawner landspeeder-landspeeder
+ObjectTemplate.setObjectTemplate 2 landspeeder
+ObjectTemplate.setObjectTemplate 1 landspeeder
+ObjectTemplate.MinSpawnDelay 10
+ObjectTemplate.MaxSpawnDelay 30
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+
 ObjectTemplate.create ObjectSpawner atst-atst
+ObjectTemplate.setObjectTemplate 2 
 ObjectTemplate.setObjectTemplate 1 atst
 ObjectTemplate.MinSpawnDelay 40
 ObjectTemplate.MaxSpawnDelay 80
@@ -117,72 +128,47 @@ ObjectTemplate.SpawnDelayAtStart 0
 ObjectTemplate.TimeToLive 45
 ObjectTemplate.Distance 40
 ObjectTemplate.DamageWhenLost 10
-ObjectTemplate.maxNrOfObjectSpawned 1
-ObjectTemplate.teamOnVehicle 0
 
-rem ----------------------------------------- 
-rem ---  tiefighterspawner  ---
-rem ----------------------------------------- 
-ObjectTemplate.create ObjectSpawner tiefighterspawner
-ObjectTemplate.setObjectTemplate 1 tiefighter
-ObjectTemplate.setObjectTemplate 2 tiefighter
-ObjectTemplate.MinSpawnDelay 40
-ObjectTemplate.MaxSpawnDelay 60
-ObjectTemplate.SpawnDelayAtStart 0
-ObjectTemplate.TimeToLive 45
-ObjectTemplate.Distance 40
-ObjectTemplate.DamageWhenLost 20
-ObjectTemplate.maxNrOfObjectSpawned 1
-ObjectTemplate.teamOnVehicle 0
-
-rem ----------------------------------------- 
-rem ---  rdroidreb  ---
-rem ----------------------------------------- 
 ObjectTemplate.create ObjectSpawner rdroidreb
-ObjectTemplate.setObjectTemplate 1 r5d4control
 ObjectTemplate.setObjectTemplate 2 r5d4control
-ObjectTemplate.MinSpawnDelay 25
-ObjectTemplate.MaxSpawnDelay 25
+ObjectTemplate.setObjectTemplate 1 r5d4control
+ObjectTemplate.SpawnDelay 25
 ObjectTemplate.SpawnDelayAtStart 0
 ObjectTemplate.TimeToLive 45
 ObjectTemplate.Distance 40
 ObjectTemplate.DamageWhenLost 10
-ObjectTemplate.maxNrOfObjectSpawned 1
-ObjectTemplate.teamOnVehicle 0
 
-rem ----------------------------------------- 
-rem ---  tiebomber-snowspeeder  ---
-rem ----------------------------------------- 
 ObjectTemplate.create ObjectSpawner tiebomber-snowspeeder
-ObjectTemplate.setObjectTemplate 1 tiebomber
 ObjectTemplate.setObjectTemplate 2 snowspeeder
+ObjectTemplate.setObjectTemplate 1 tiebomber
 ObjectTemplate.MinSpawnDelay 40
 ObjectTemplate.MaxSpawnDelay 60
 ObjectTemplate.SpawnDelayAtStart 0
 ObjectTemplate.TimeToLive 45
 ObjectTemplate.Distance 40
 ObjectTemplate.DamageWhenLost 20
-ObjectTemplate.maxNrOfObjectSpawned 1
-ObjectTemplate.teamOnVehicle 0
 
-rem ----------------------------------------- 
-rem ---  probedroidcontrolspawner  ---
-rem ----------------------------------------- 
 ObjectTemplate.create ObjectSpawner probedroidcontrolspawner
+ObjectTemplate.setObjectTemplate 2 
 ObjectTemplate.setObjectTemplate 1 probedroidcontrol
-ObjectTemplate.MinSpawnDelay 10
-ObjectTemplate.MaxSpawnDelay 10
+ObjectTemplate.SpawnDelay 10
 ObjectTemplate.SpawnDelayAtStart 0
 ObjectTemplate.TimeToLive 45
 ObjectTemplate.Distance 40
 ObjectTemplate.DamageWhenLost 10
-ObjectTemplate.maxNrOfObjectSpawned 1
-ObjectTemplate.teamOnVehicle 0
 
-rem ----------------------------------------- 
-rem ---  turbolaserspawner  ---
-rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner atat-atat
+ObjectTemplate.setObjectTemplate 2 
+ObjectTemplate.setObjectTemplate 1 atat
+ObjectTemplate.MinSpawnDelay 40
+ObjectTemplate.MaxSpawnDelay 80
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+
 ObjectTemplate.create ObjectSpawner turbolaserspawner
+ObjectTemplate.setObjectTemplate 2 
 ObjectTemplate.setObjectTemplate 1 turbolaser
 ObjectTemplate.MinSpawnDelay 60
 ObjectTemplate.MaxSpawnDelay 120
@@ -190,37 +176,14 @@ ObjectTemplate.SpawnDelayAtStart 0
 ObjectTemplate.TimeToLive 45
 ObjectTemplate.Distance 40
 ObjectTemplate.DamageWhenLost 10
-ObjectTemplate.maxNrOfObjectSpawned 1
 ObjectTemplate.teamOnVehicle 1
 
-rem ----------------------------------------- 
-rem ---  weaponspawners  ---
-rem ----------------------------------------- 
-ObjectTemplate.create ObjectSpawner weaponspawners
-ObjectTemplate.setObjectTemplate 1 tl-21_kit
-ObjectTemplate.setObjectTemplate 2 rebel_tracker
-ObjectTemplate.MinSpawnDelay 5
-ObjectTemplate.MaxSpawnDelay 10
-ObjectTemplate.SpawnDelayAtStart 0
-ObjectTemplate.TimeToLive 45
-ObjectTemplate.Distance 40
-ObjectTemplate.DamageWhenLost 10
-ObjectTemplate.maxNrOfObjectSpawned 1
-ObjectTemplate.teamOnVehicle 0
-
-rem ----------------------------------------- 
-rem ---  bactatankspawner  ---
-rem ----------------------------------------- 
 ObjectTemplate.create ObjectSpawner bactatankspawner
-ObjectTemplate.setObjectTemplate 1 bactatank
 ObjectTemplate.setObjectTemplate 2 bactatank
-ObjectTemplate.MinSpawnDelay 10
-ObjectTemplate.MaxSpawnDelay 10
+ObjectTemplate.setObjectTemplate 1 bactatank
+ObjectTemplate.SpawnDelay 10
 ObjectTemplate.SpawnDelayAtStart 0
 ObjectTemplate.TimeToLive 45
 ObjectTemplate.Distance 40
 ObjectTemplate.DamageWhenLost 10
-ObjectTemplate.maxNrOfObjectSpawned 1
-ObjectTemplate.teamOnVehicle 0
 
-rem EndOfFile

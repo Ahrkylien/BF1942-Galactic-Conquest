@@ -2,7 +2,7 @@
 
 ObjectTemplate.create EffectBundle BlueNS_Expl
 ObjectTemplate.saveInSeparateFile 1
-ObjectTemplate.loadSoundScript Sounds/ExplGranade.ssc
+ObjectTemplate.loadSoundScript Sounds/Explani02.ssc
 rem -------------------------------------
 ObjectTemplate.addTemplate Em_NExplGranade
 ObjectTemplate.setRotation 90/0/0

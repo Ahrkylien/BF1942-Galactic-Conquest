@@ -5,7 +5,7 @@ ShaderManager.setTextureParam envmap bf1942\levels\GC_MonCal\Textures\ENVMAP_G_.
 renderer.vertexFogEnable 1
 renderer.fogLinearStart 250
 renderer.fogLinearEnd 600
-renderer.fogColorVec 0.054700/0.058600/0.101600
+renderer.fogColorVec 0.168627/0.203922/0.266667
 renderer.globalLodPercent 1
 renderer.globalAmbientColor 0.0500000/0.0500000/0.07500000
 renderer.ambientColor 0.100000/0.100000/0.100000
@@ -71,7 +71,7 @@ water.normalMap texture/normalMap02
 water.scrollDirectionNormalmap 1/-1
 water.scrollDirection1 1/1
 water.scrollDirection2 -1/-1
-water.specularColor 0.2/0.2/0.3
+water.specularColor 0.25/0.25/0.30
 water.scrollLayer1 0.02
 water.scrollLayer2 0.02
 water.scrollNormalmap 0.02

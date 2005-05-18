@@ -1,7 +1,7 @@
 rem defender tickets are set to 100
 Game.setNumberOfTickets 2 100
 Game.setTicketLostPerMin 1 0
-Game.setTicketLostPerMin 2 4
+Game.setTicketLostPerMin 2 0
 
 run ObjectiveMode/SpawnpointManagerSettings
 

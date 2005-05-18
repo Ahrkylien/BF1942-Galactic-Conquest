@@ -19,7 +19,7 @@ subshader "mousedroid_control_Material2" "StandardMesh/Default"
 	lighting true;
 	lightingSpecular false;
 	materialDiffuse 0.588 0.588 0.588;
-	texture "texture/Vehicles/MouseDroidControl/screen_panel01";
+	texture "mods/gcmod/movies/pro2.bik";
 }
 
 subshader "mousedroid_control_Material3" "StandardMesh/Default"
@@ -27,7 +27,7 @@ subshader "mousedroid_control_Material3" "StandardMesh/Default"
 	lighting true;
 	lightingSpecular false;
 	materialDiffuse 0.588 0.588 0.588;
-	texture "texture/Vehicles/MouseDroidControl/screen_panel02";
+	texture "mods/gcmod/movies/New_Pro.bik";
 }
 
 subshader "mousedroid_control_Material4" "StandardMesh/Default"

@@ -9,6 +9,18 @@ ObjectTemplate.Distance 20
 ObjectTemplate.DamageWhenLost 10
 ObjectTemplate.MaxNrOfObjectSpawned 1
 
+ObjectTemplate.create ObjectSpawner droid_capsule_s
+ObjectTemplate.setObjectTemplate 1 droidcapsule
+ObjectTemplate.setObjectTemplate 2 droidcapsule
+ObjectTemplate.MinSpawnDelay 5
+ObjectTemplate.MaxSpawnDelay 10
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 999
+ObjectTemplate.Distance 999
+ObjectTemplate.DamageWhenLost 0
+ObjectTemplate.maxNrOfObjectSpawned 1
+ObjectTemplate.teamOnVehicle 0
+
 ObjectTemplate.create ObjectSpawner yt600spawner2
 ObjectTemplate.setObjectTemplate 2 yt600-2
 ObjectTemplate.setObjectTemplate 1 yt600-4

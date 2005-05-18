@@ -56,6 +56,18 @@ ObjectTemplate.TimeToLive 45
 ObjectTemplate.Distance 40
 ObjectTemplate.DamageWhenLost 0
 
+ObjectTemplate.create ObjectSpawner droid_capsule_s
+ObjectTemplate.setObjectTemplate 1 droidcapsule
+ObjectTemplate.setObjectTemplate 2 droidcapsule
+ObjectTemplate.MinSpawnDelay 5
+ObjectTemplate.MaxSpawnDelay 10
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 999
+ObjectTemplate.Distance 999
+ObjectTemplate.DamageWhenLost 0
+ObjectTemplate.maxNrOfObjectSpawned 1
+rem ObjectTemplate.teamOnVehicle 1
+
 ObjectTemplate.create ObjectSpawner lambda_spaners
 ObjectTemplate.setObjectTemplate 2 lambda
 ObjectTemplate.setObjectTemplate 1 lambda

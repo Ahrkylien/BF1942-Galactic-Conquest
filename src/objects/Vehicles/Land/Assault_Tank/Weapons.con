@@ -3,7 +3,7 @@
 rem *** Assault_TankGunBarrel ***
 ObjectTemplate.create FireArms Assault_TankGunBarrel
 ObjectTemplate.setNetworkableInfo TankFireArmInfo
-ObjectTemplate.loadSoundScript Sounds/ATSTLaser.ssc
+ObjectTemplate.loadSoundScript Sounds/Assualt_TankCannon.ssc
 ObjectTemplate.geometry Assault_Tank_barrels
 ObjectTemplate.aiTemplate TigerMainGun
 rem -------------------------------------

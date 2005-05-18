@@ -13,6 +13,21 @@ ObjectTemplate.setEngineType c_ETPlane
 ObjectTemplate.setTorque 50
 ObjectTemplate.setDifferential 20
 
+rem *** RepGlideEngine ***
+ObjectTemplate.create Engine RepLevelEngine
+ObjectTemplate.setNetworkableInfo repgun_engine_info
+ObjectTemplate.loadSoundScript Sounds/RepGunEngine.ssc
+rem -------------------------------------
+ObjectTemplate.setMinRotation 0/0/0
+ObjectTemplate.setMaxRotation 0/0/1
+ObjectTemplate.setMaxSpeed 0/0/5000
+ObjectTemplate.setAcceleration 0/0/5000
+ObjectTemplate.setInputToRoll c_PIAltFire
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setEngineType c_ETPlane
+ObjectTemplate.setTorque 500
+ObjectTemplate.setDifferential 10
+
 rem *** GunShipDummyEngine ***
 ObjectTemplate.create Engine GunShipDummyEngine
 ObjectTemplate.hasCollisionPhysics 1

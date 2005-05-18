@@ -8,3 +8,4 @@ game.setServerInfoIcon ../../bf1942/levels/GC_Corellia/menu/serverInfo.dds
 game.setMultiplayerBriefingObjectives "Immediately after the destruction of the Deathstar the Rebel base on Yavin 4 was abandaned.  Imperial forces began desperately searching the galaxy for their whereabouts.  During the search, Imperial spies identified a ship matching the description of the Millenium Falcon leaving Ord Mandell enroute to Corellia. The Empire issued a communicade to the Imperial garrisson in Bela Vistal on Corellia.  Their orders: The Empire has declared Imperial Law over the Corellian system.  By any means necessary take control of the outlying regions and rid Rebel influence once and for all..."
 
 game.setMapId "GCMOD"
+game.setBackgroundMusic "music/corellia/music.bik"

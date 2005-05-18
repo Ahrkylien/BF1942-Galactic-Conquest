@@ -11,11 +11,11 @@ rem -----------------------------------------
 ObjectTemplate.create ControlPoint echobasecp
 ObjectTemplate.networkableInfo ControlPointInfo
 ObjectTemplate.setControlPointName Echobase
-ObjectTemplate.radius 10
+ObjectTemplate.radius 8
 ObjectTemplate.team 2
 ObjectTemplate.spawnGroupId 2
 ObjectTemplate.objectSpawnerId 2
-ObjectTemplate.areaValue 50
+ObjectTemplate.areaValue 25
 ObjectTemplate.timeToGetControl 20
 ObjectTemplate.timeToLoseControl 20
 ObjectTemplate.disableIfEnemyInsideRadius 0
@@ -39,7 +39,7 @@ ObjectTemplate.radius 17
 ObjectTemplate.team 2
 ObjectTemplate.spawnGroupId 4
 ObjectTemplate.objectSpawnerId 4
-ObjectTemplate.areaValue 20
+ObjectTemplate.areaValue 25
 ObjectTemplate.timeToGetControl 10
 ObjectTemplate.timeToLoseControl 10
 ObjectTemplate.disableIfEnemyInsideRadius 0
@@ -63,7 +63,7 @@ ObjectTemplate.radius 20
 ObjectTemplate.team 0
 ObjectTemplate.spawnGroupId 3
 ObjectTemplate.objectSpawnerId 3
-ObjectTemplate.areaValue 20
+ObjectTemplate.areaValue 25
 ObjectTemplate.timeToGetControl 10
 ObjectTemplate.timeToLoseControl 10
 ObjectTemplate.disableIfEnemyInsideRadius 0
@@ -87,7 +87,7 @@ ObjectTemplate.radius 50
 ObjectTemplate.team 1
 ObjectTemplate.spawnGroupId 1
 ObjectTemplate.objectSpawnerId 1
-ObjectTemplate.areaValue 50
+ObjectTemplate.areaValue 25
 ObjectTemplate.timeToGetControl 99999999
 ObjectTemplate.timeToLoseControl 999999999
 ObjectTemplate.disableIfEnemyInsideRadius 0
@@ -112,7 +112,7 @@ ObjectTemplate.radius 2
 ObjectTemplate.team 2
 ObjectTemplate.spawnGroupId 6
 ObjectTemplate.objectSpawnerId 6
-ObjectTemplate.areaValue 20
+ObjectTemplate.areaValue 25
 ObjectTemplate.timeToGetControl 10
 ObjectTemplate.timeToLoseControl 10
 ObjectTemplate.disableIfEnemyInsideRadius 0
@@ -136,7 +136,7 @@ ObjectTemplate.radius 17
 ObjectTemplate.team 2
 ObjectTemplate.spawnGroupId 7
 ObjectTemplate.objectSpawnerId 7
-ObjectTemplate.areaValue 20
+ObjectTemplate.areaValue 25
 ObjectTemplate.timeToGetControl 10
 ObjectTemplate.timeToLoseControl 10
 ObjectTemplate.disableIfEnemyInsideRadius 0

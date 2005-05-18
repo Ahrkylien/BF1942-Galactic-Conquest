@@ -1,9 +1,5 @@
 rem ******** Destroyable Shieldgenerator ******
-rem ******** Wreckmodel stays until a new spawn 
-rem ******** 21.Jan by Django
-rem ******** 23.jan Explosion recoded
-rem ******** 25.jan matId to 811, Explosion recoded
-
+rem ******** 29 April 05
 
 ObjectTemplate.create PlayercontrolObject DestroyableSG
 ObjectTemplate.setNetworkableInfo DestroyableSGInfo

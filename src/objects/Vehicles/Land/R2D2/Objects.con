@@ -11,6 +11,7 @@ ObjectTemplate.mass 2500
 ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.hasResponsePhysics 1
 ObjectTemplate.hasArmor 1
+ObjectTemplate.VehicleFOV 1.8
 ObjectTemplate.destroyOnExit 1
 ObjectTemplate.speedMod 1
 ObjectTemplate.exitTimer 1
@@ -126,9 +127,9 @@ ObjectTemplate.setRotation 0/20/0
 ObjectTemplate.addTemplate R2D2AttackWeapon
 ObjectTemplate.setPosition 0/0/0.2
 ObjectTemplate.setRotation 0/20/0
-rem ObjectTemplate.addTemplate R2D2Laser
-rem ObjectTemplate.setPosition 0/0/0.2
-rem ObjectTemplate.setRotation 0/20/0
+ObjectTemplate.addTemplate R2D2Laser
+ObjectTemplate.setPosition 0/0/0.2
+ObjectTemplate.setRotation 0/20/0
 rem -------------------------------------
 ObjectTemplate.setMinRotation 0/-30/0
 ObjectTemplate.setMaxRotation 0/30/0

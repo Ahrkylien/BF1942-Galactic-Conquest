@@ -1,3 +1,196 @@
+Galactic Conquest Release 5.3:
+------------------------------
+
+This list is a compilation of the tweaks, fixes and add-ins for this patch.  
+
+
+= Animations= 
+
+- TIE Cockpit has 3 animated readouts
+- Detpacks have flashing warning lights
+- Rebel Mines have mini lights
+- Ammobox has recharging display
+- Echo Control Panels have animated readouts
+- R2 has blinking lights 
+
+= Weapon Changes =
+
+- Disruptor has new muzzleflash effect with correct color
+- Disruptor has a 25% faster rate of fire, 10 rounds per clip, and 5 clips = 50 total shots
+- Dressilian Rifle has 2 more clips than before for a total of 50 shots
+- E-11 Sniper rifle ammo count increased from 30 to 50
+- Rebel AV class now has DH-17 instead of DH-44
+- Scout now starts with 2 Cammo Tents
+
+= Kits =
+
+- Rebel Disruptor-Medpack kit for Judicator
+- Imperial Disrutor-Letal injection kit for Judicator
+- Ironman/Grenade Kit now has DH-17
+- Grenades removed from Trooper class on Wayfar
+- Heavy Weapon Kit to replace AV class for Wayfar and Chandrila
+- Race Kit with (knife, pistol, medpack, hydrospanner)
+
+= Vehicles =
+
+Please note that for the new Glide/Hyperdrive/VTOL engines, the controls are as follows:
+
+Throttle (typically w) will engage the VTOL when lightly pressed, and will continue movement forward after reaching a certain speed.  To utilize the glide (lambda/gunship) or hyperdrive (Falcon) engine, press the Alt-fire (typically the right mouse button).  This will be useful when trying to exit Echo Base or from the docking port of the frigate (as in Tanaab).
+
+- Gunship now has Glide engine (alt fire) to move the vehicle foward
+- Gunship co-pilot guns adjusted for better hieght targeting.
+- Gunship base changed to allow players to escape buring (side-lying) wreck and for better sideways landing.
+- Falcon has new Hyperdrive Engine (alt fire) to give it the speed it always needed
+- Falcon wreck mesh removed to reduce AT-AT spamming attacks and to reduce wreckage entrapment for players.
+- DTAP/Imp Skiff has new Glide Engine
+- DTAP/Imp Skiff changed rear gun for cross platform compatability (some players invert thier controls) 
+- DTAP/Imp Skiff door sounds fixed
+- DTAP/Imp Skiff front guns minimum distance damage changed to allow for better target hits.
+- Sentry droid now has forward glide engine added to Alt Fire.
+- AT-AT player positions 4,5,6 fixed so the player is no longer inside the bench
+- Snowspeeder Flaps are now viewable in game by other clients as well.
+- Lanspeeder shadows fixed
+- R2 droid's weapon fixed
+- R2 Droid, R4D5 Droid, and Probe Droid have new Wide Field Of View
+- Cloud Car exit position fixed so players can escape when vehicle is upside down
+- Cloud Bus 2nd position has free look to view door position
+- T3-B Tank has new sounds for primary and secondary fire
+- Firehawke has new main Cannon sound script
+- Muzzle flash for secondary laser on firehawke tank repositioned
+- Tank shell impact sounds fixed so you can hear them from FAR away
+- Splash Damage on tank shells has an increased radius
+- Artilery cam changed to follow cammera
+- Artilery shell impact now has sound
+- Turbolaser and I.M.D.S entry radius reduced
+- Lambda/Epsilon Flight Code Revised with Glide Engine and new VTOL for more controled hovering.
+ 
+
+= MAPS =
+
+
+Bespin
+_________
+
+- Bespin Server/Client Crash Fixed 
+- Vehicles at main base spawns had to be set to team only
+- New playerspawns give more cover when spawning 
+
+Hoth
+_________
+
+- Echo Base flag exploit fixed
+- Can not enter Bactatank at Echo from hanger  
+- Medscanner Removed from Echo to prevent healing through walls
+- Changed Bleed system so that capturing ONLY echo doesn't cause rebels to bleed.  Imperials now need 2 flags to neutralize and any 3 to cause a ticket bleed for the rebels. 
+- Falcon is now a mobile spawn point that will ALLWAYS spawn at Echo
+- Removed Imperial vehicle ammo reload from Echo hanger to reduce Imperial base raping
+- Added imperial vehicle ammo near shield generator
+- Added 2 trolleys spawns along the trench
+
+Kryos
+__________
+
+- Rebels get 2 more amphs for more transportation
+- Imperials get all 4 ATST upgraded to ATST-V
+- Imperials get a DTAP spawn at main base
+- AP Turret added to Water Cooling Station control point
+
+MonCal
+___________
+
+- New sky!
+- Fog settings correctly set to sky
+- New Moncal thumbnail added
+
+Judicator
+____________
+
+- Rebels capturing ONLY the main bridge will not make the Imps bleed anymore. 
+- Rebels must cap 2 to neturalize, if they push the imperials to 2 flags the imps will bleed.
+- Rebels start with 10% more tickets then imperials now
+- The rebel runner weapon racks now spawn 2 A295 rifles, 1 Tracker, 1 Rebel Disruptor kit
+- Imperial weapon racks now spawn 2 E-11 rifles, 1 TL-21, 1 Imp Disruptor Kit
+- Added Imperial voice alarms linked to flag capture!  They sound GREAT!
+- Spawn Interface class select icons for judicator fixed
+
+BonusRace
+____________
+
+- Race Kit for all classes except scout (knife, pistol, medpack, hydrospanner)
+- Tickets now bleed so the map will actually end.
+- Upgraded glide engines for Sentry Droid, Falcon, Gunship, DTAP, and Ewing
+
+Tatooine
+_____________
+
+- Fixed Tatooine folder structure to stop random crash.
+
+
+Tanaab
+_____________
+
+- Lancer Spawn position adjusted to reduce lag
+
+
+Anchorhead
+_____________
+
+- Loadcounter fixed
+
+Corellia
+_____________
+
+- Ticket Bleed slightly increased
+
+Mini_Wasteland
+_____________
+
+- Gains, imp trolleys, and more speederbikes spawn for less walking.
+- Map should support 32 people now
+- Loadcounter fixed
+
+Mini_Cove
+____________
+
+- Imp and Reb FULL gunships instead of half gunships
+- Main bases have 2 dtap spawns that spawn 5 each.  That makes 10 dtaps per side.
+- Map should support 32 people and be very intresting with all the dtaps
+- Loadcounter fixed
+
+Mini_Wayfar
+____________
+
+- Removed Nades from Trooper Class
+- New Kit to replace AV class with Heavy Weapons
+- Loadcounter fixed
+
+Mini_Chandrila
+_____________
+
+- New Kit to replace AV class with Heavy Weapons
+- Loadcounter fixed
+
+
+-=In Map Music=-
+_____________
+
+- 6 Maps have added in ambient map midi music converted to .bik to enhance the pleasure of map levels during play. The files are strictly client side and are configured by the player to suit thier desire and music taste. These can be changed by the player at thier liesure, simply by creating a .bik file called music.bik and inserted into the corresponding level folder under the main Music folder for GC. Each map level has a corresponding folder in the Music folder which contains that maps music.bik file.
+
+To use your own music:
+1) download the RAD Tools from http://www.radgametools.com/default.htm 
+2) Run Bink & Smacker
+3) convert any sound file (wav, mp3, asx, etc) to .bik format with the "BINK IT" feature - please see the Bink documentation for more info on how to do this.
+4) make sure the file is named Music.bik, and copy it to the bik file you created to the GCMOD\Music\mapname folder.
+
+
+- Tip: You may want to adjust your music level for in game music before loading any of the maps..  A level of ~45% seemed to work best during our testing.
+
+- Included maps with midi's are tatooine, hoth, tanaab, judicator, deathstar and bonusrace. The midi files that were converted to bik format for use in game are midi's found on popular Star Wars fan midi sites such as http://www.starwarssource.net/sws_media_downloads.php ...  Thanks to this great site for having many of our favorites.
+
+
+
+----------------------------------------------------------------------------------------------------------------------------
+
 
 Galactic Conquest RELEASE 5:
 ----------------------------

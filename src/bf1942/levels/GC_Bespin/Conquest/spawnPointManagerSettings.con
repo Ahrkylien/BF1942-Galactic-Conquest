@@ -2,9 +2,9 @@ rem spawnPointManagerSettings.con created by Battlecraft 1942
 rem (\Program Files\Battlefield 1942\Mods\GCMOD\bf1942\levels\GC_Bespin/conquest/spawnPointManagerSettings.con)
 
 rem ----------------------------------------- 
-rem ---  group 4  ---
+rem ---  group 1  ---
 rem ----------------------------------------- 
-spawnPointManager.group 4
+spawnPointManager.group 1
 spawnPointManager.groupTeam 0
 spawnPointManager.groupIcon test1.tga
 
@@ -12,14 +12,21 @@ rem -----------------------------------------
 rem ---  group 2  ---
 rem ----------------------------------------- 
 spawnPointManager.group 2
-spawnPointManager.groupTeam 1
+spawnPointManager.groupTeam 0
 spawnPointManager.groupIcon test1.tga
 
 rem ----------------------------------------- 
 rem ---  group 3  ---
 rem ----------------------------------------- 
 spawnPointManager.group 3
-spawnPointManager.groupTeam 2
+spawnPointManager.groupTeam 0
+spawnPointManager.groupIcon test1.tga
+
+rem ----------------------------------------- 
+rem ---  group 4  ---
+rem ----------------------------------------- 
+spawnPointManager.group 4
+spawnPointManager.groupTeam 0
 spawnPointManager.groupIcon test1.tga
 
 rem ----------------------------------------- 
@@ -30,37 +37,9 @@ spawnPointManager.groupTeam 0
 spawnPointManager.groupIcon test1.tga
 
 rem ----------------------------------------- 
-rem ---  group 1  ---
-rem ----------------------------------------- 
-spawnPointManager.group 1
-spawnPointManager.groupTeam 0
-spawnPointManager.groupIcon test1.tga
-
-rem ----------------------------------------- 
-rem ---  group 6  ---
-rem ----------------------------------------- 
-spawnPointManager.group 6
-spawnPointManager.groupTeam 0
-spawnPointManager.groupIcon test1.tga
-
-rem ----------------------------------------- 
 rem ---  group 7  ---
 rem ----------------------------------------- 
 spawnPointManager.group 7
-spawnPointManager.groupTeam 0
-spawnPointManager.groupIcon test1.tga
-
-rem ----------------------------------------- 
-rem ---  group 9  ---
-rem ----------------------------------------- 
-spawnPointManager.group 9
-spawnPointManager.groupTeam 0
-spawnPointManager.groupIcon test1.tga
-
-rem ----------------------------------------- 
-rem ---  group 10  ---
-rem ----------------------------------------- 
-spawnPointManager.group 10
 spawnPointManager.groupTeam 0
 spawnPointManager.groupIcon test1.tga
 

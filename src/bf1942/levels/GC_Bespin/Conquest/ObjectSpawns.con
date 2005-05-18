@@ -2,119 +2,103 @@ rem ObjectSpawns.con created by Battlecraft 1942
 rem (\Program Files\Battlefield 1942\Mods\GCMOD\bf1942\levels\GC_Bespin/conquest/ObjectSpawns.con)
 
 rem ----------------------------------------- 
-rem ---  cloudcar_spawner_mines  ---
+rem ---  CloudbusImp  ---
 rem ----------------------------------------- 
-Object.create cloudcar_spawner_mines
-Object.absolutePosition 338.39/282.70/990.17
-Object.rotation 89.85/0.00/0.00
-Object.setOSId 2
+Object.create CloudbusImp
+Object.absolutePosition 277.70/282.30/938.21
+Object.rotation 90.00/0.00/0.00
 Object.setTeam 1
 
 rem ----------------------------------------- 
-rem ---  cloudcar_spawner_mines  ---
+rem ---  CloudbusImp  ---
 rem ----------------------------------------- 
-Object.create cloudcar_spawner_mines
-Object.absolutePosition 338.79/281.80/1003.28
-Object.rotation 89.18/0.00/0.00
-Object.setOSId 2
+Object.create CloudbusImp
+Object.absolutePosition 277.69/282.30/1057.73
+Object.rotation 270.00/0.00/0.00
 Object.setTeam 1
 
 rem ----------------------------------------- 
-rem ---  cloudbus_spawner  ---
+rem ---  CloudcarmineImp  ---
 rem ----------------------------------------- 
-Object.create cloudbus_spawner
-Object.absolutePosition 277.67/282.04/934.06
-Object.rotation 91.99/0.00/0.00
-Object.setOSId 2
+Object.create CloudcarmineImp
+Object.absolutePosition 339.36/282.00/991.39
+Object.rotation 90.00/0.00/0.00
 Object.setTeam 1
 
 rem ----------------------------------------- 
-rem ---  cloudbus_spawner  ---
+rem ---  CloudcarmineImp  ---
 rem ----------------------------------------- 
-Object.create cloudbus_spawner
-Object.absolutePosition 277.58/282.04/1061.45
-Object.rotation -87.25/0.00/0.00
-Object.setOSId 2
+Object.create CloudcarmineImp
+Object.absolutePosition 339.19/282.00/1004.24
+Object.rotation 90.00/0.00/0.00
 Object.setTeam 1
 
 rem ----------------------------------------- 
-rem ---  cloudbus_spawner  ---
+rem ---  CloudbusReb  ---
 rem ----------------------------------------- 
-Object.create cloudbus_spawner
-Object.absolutePosition 1765.27/282.04/934.58
-Object.rotation 92.27/0.00/0.00
-Object.setOSId 3
+Object.create CloudbusReb
+Object.absolutePosition 1768.49/282.30/1056.64
+Object.rotation 270.00/0.00/0.00
 Object.setTeam 2
 
 rem ----------------------------------------- 
-rem ---  cloudbus_spawner  ---
+rem ---  CloudbusReb  ---
 rem ----------------------------------------- 
-Object.create cloudbus_spawner
-Object.absolutePosition 1768.26/282.04/1058.57
-Object.rotation -87.06/0.00/0.00
-Object.setOSId 3
+Object.create CloudbusReb
+Object.absolutePosition 1765.39/282.30/937.57
+Object.rotation 90.00/0.00/0.00
 Object.setTeam 2
 
 rem ----------------------------------------- 
-rem ---  cloudcar_spawner_mines  ---
+rem ---  CloudcarmineReb  ---
 rem ----------------------------------------- 
-Object.create cloudcar_spawner_mines
-Object.absolutePosition 1706.58/281.88/1004.31
-Object.rotation -86.23/0.00/0.00
-Object.setOSId 3
+Object.create CloudcarmineReb
+Object.absolutePosition 1705.32/282.00/991.39
+Object.rotation 270.00/0.00/0.00
 Object.setTeam 2
 
 rem ----------------------------------------- 
-rem ---  cloudcar_spawner_mines  ---
+rem ---  CloudcarmineReb  ---
 rem ----------------------------------------- 
-Object.create cloudcar_spawner_mines
-Object.absolutePosition 1706.28/282.04/991.79
-Object.rotation -91.84/0.00/0.00
-Object.setOSId 3
+Object.create CloudcarmineReb
+Object.absolutePosition 1705.52/282.00/1004.88
+Object.rotation 270.00/0.00/0.00
 Object.setTeam 2
 
 rem ----------------------------------------- 
-rem ---  cloudcar_spawner_platforms  ---
+rem ---  Cloudcarplatforms  ---
 rem ----------------------------------------- 
-Object.create cloudcar_spawner_platforms
-Object.absolutePosition 752.24/270.11/1018.80
-Object.rotation -44.26/0.00/0.00
-Object.setOSId 5
-Object.setTeam 1
+Object.create Cloudcarplatforms
+Object.absolutePosition 1263.89/270.20/1014.13
+Object.rotation 56.55/0.00/0.00
+Object.setOSId 2
+Object.setTeam 0
 
 rem ----------------------------------------- 
-rem ---  cloudcar_spawner_platforms  ---
+rem ---  Cloudcarplatforms  ---
 rem ----------------------------------------- 
-Object.create cloudcar_spawner_platforms
-Object.absolutePosition 751.46/270.11/990.19
-Object.rotation -135.64/0.00/0.00
-Object.setOSId 5
-Object.setTeam 1
+Object.create Cloudcarplatforms
+Object.absolutePosition 1262.87/270.20/992.55
+Object.rotation 124.08/0.00/0.00
+Object.setOSId 2
+Object.setTeam 0
 
 rem ----------------------------------------- 
-rem ---  cloudcar_spawner_platforms  ---
+rem ---  Cloudcarplatforms  ---
 rem ----------------------------------------- 
-Object.create cloudcar_spawner_platforms
-Object.absolutePosition 1259.24/270.11/990.70
-Object.rotation 136.33/0.00/0.00
+Object.create Cloudcarplatforms
+Object.absolutePosition 748.78/270.20/994.05
+Object.rotation -119.79/0.00/0.00
 Object.setOSId 1
-Object.setTeam 2
+Object.setTeam 0
 
 rem ----------------------------------------- 
-rem ---  cloudcar_spawner_platforms  ---
+rem ---  Cloudcarplatforms  ---
 rem ----------------------------------------- 
-Object.create cloudcar_spawner_platforms
-Object.absolutePosition 1260.40/270.11/1015.32
-Object.rotation 48.92/0.00/0.00
+Object.create Cloudcarplatforms
+Object.absolutePosition 747.95/270.20/1013.32
+Object.rotation -67.48/0.00/0.00
 Object.setOSId 1
-Object.setTeam 2
-
-rem ----------------------------------------- 
-rem ---  cloudcar_spawner_platforms  ---
-rem ----------------------------------------- 
-Object.create cloudcar_spawner_platforms
-Object.absolutePosition 866.87/282.82/1045.85
-Object.rotation -87.37/0.00/0.00
 Object.setTeam 0
 
 rem EndOfFile

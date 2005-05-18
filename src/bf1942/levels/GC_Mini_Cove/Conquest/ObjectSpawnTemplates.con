@@ -7,8 +7,8 @@ rem -----------------------------------------
 ObjectTemplate.create ObjectSpawner Boatpawn
 ObjectTemplate.setObjectTemplate 1 amphibian
 ObjectTemplate.setObjectTemplate 2 amphibian
-ObjectTemplate.MinSpawnDelay 20
-ObjectTemplate.MaxSpawnDelay 35
+ObjectTemplate.MinSpawnDelay 15
+ObjectTemplate.MaxSpawnDelay 25
 ObjectTemplate.SpawnDelayAtStart 0
 ObjectTemplate.TimeToLive 45
 ObjectTemplate.Distance 40
@@ -20,10 +20,10 @@ rem -----------------------------------------
 rem ---  Air_Transport  ---
 rem ----------------------------------------- 
 ObjectTemplate.create ObjectSpawner Air_Transport
-ObjectTemplate.setObjectTemplate 1 repgun2
-ObjectTemplate.setObjectTemplate 2 repgun2
-ObjectTemplate.MinSpawnDelay 30
-ObjectTemplate.MaxSpawnDelay 45
+ObjectTemplate.setObjectTemplate 1 impgunship
+ObjectTemplate.setObjectTemplate 2 repgun
+ObjectTemplate.MinSpawnDelay 20
+ObjectTemplate.MaxSpawnDelay 30
 ObjectTemplate.SpawnDelayAtStart 0
 ObjectTemplate.TimeToLive 45
 ObjectTemplate.Distance 40
@@ -37,13 +37,43 @@ rem -----------------------------------------
 ObjectTemplate.create ObjectSpawner HW_Spawner
 ObjectTemplate.setObjectTemplate 1 tl-21_kit
 ObjectTemplate.setObjectTemplate 2 rebel_tracker
-ObjectTemplate.MinSpawnDelay 15
-ObjectTemplate.MaxSpawnDelay 20
+ObjectTemplate.MinSpawnDelay 10
+ObjectTemplate.MaxSpawnDelay 15
 ObjectTemplate.SpawnDelayAtStart 0
 ObjectTemplate.TimeToLive 45
 ObjectTemplate.Distance 40
 ObjectTemplate.DamageWhenLost 10
 ObjectTemplate.maxNrOfObjectSpawned 1
+ObjectTemplate.teamOnVehicle 0
+
+rem ----------------------------------------- 
+rem ---  droidcapsulespawner  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner droid_capsule_s
+ObjectTemplate.setObjectTemplate 1 droidcapsule
+ObjectTemplate.setObjectTemplate 2 droidcapsule
+ObjectTemplate.MinSpawnDelay 5
+ObjectTemplate.MaxSpawnDelay 10
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 999
+ObjectTemplate.Distance 999
+ObjectTemplate.DamageWhenLost 0
+ObjectTemplate.maxNrOfObjectSpawned 1
+ObjectTemplate.teamOnVehicle 0
+
+rem ----------------------------------------- 
+rem ---  DTAP  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner DTAP
+ObjectTemplate.setObjectTemplate 1 impskiff
+ObjectTemplate.setObjectTemplate 2 impskiff
+ObjectTemplate.MinSpawnDelay 10
+ObjectTemplate.MaxSpawnDelay 15
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.maxNrOfObjectSpawned 5
 ObjectTemplate.teamOnVehicle 0
 
 rem EndOfFile
