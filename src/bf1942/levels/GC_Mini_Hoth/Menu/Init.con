@@ -1,0 +1,12 @@
+rem *********************************************
+rem Created by Battlecraft 1942.  Copyright (c)2003,2004 Digital Illusions CE
+rem *********************************************
+Game.setLocalized 1
+
+game.setLoadPicture ../../bf1942/levels/GC_Mini_Hoth/menu/HothNight.tga
+game.setServerInfoIcon ../../bf1942/levels/GC_Mini_Hoth/menu/serverInfo.dds
+
+game.setMultiplayerBriefingObjectives "After the Rebel defeat on Hoth, The Empire has begun developing an occupational force on the barren wasteland. The remaining Rebel forces who were stranded after the defeat, are taking matters into their own hands."   
+
+game.setMapId "GCMOD"
+

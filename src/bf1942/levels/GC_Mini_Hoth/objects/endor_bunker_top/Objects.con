@@ -1,0 +1,8 @@
+ObjectTemplate.Create SimpleObject endor_bunker_top
+ObjectTemplate.Geometry endor_bunker_top
+ObjectTemplate.SetHasCollisionPhysics 1
+ObjectTemplate.CullRadiusScale 3.0
+ObjectTemplate.AiTemplate endor_bunker_topAI
+ObjectTemplate.loadSoundScript Sounds/Ambient1.ssc
+ObjectTemplate.loadSoundScript Sounds/Ambient2.ssc
+ObjectTemplate.loadSoundScript Sounds/Ambient3.ssc

@@ -1,0 +1,3 @@
+ObjectTemplate.create SimpleObject imp_bunker_round
+ObjectTemplate.geometry imp_bunker_round
+ObjectTemplate.setHasCollisionPhysics 1

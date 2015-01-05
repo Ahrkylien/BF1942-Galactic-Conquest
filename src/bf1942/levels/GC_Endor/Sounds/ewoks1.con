@@ -1,0 +1,7 @@
+
+
+rem *** ewoks ***
+ObjectTemplate.create SimpleObject ewoks1
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.triggerRadius 100
+ObjectTemplate.loadSoundScript ewoks1.ssc

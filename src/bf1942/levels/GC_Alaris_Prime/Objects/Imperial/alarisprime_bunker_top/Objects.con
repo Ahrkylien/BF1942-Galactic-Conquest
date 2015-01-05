@@ -1,0 +1,3 @@
+ObjectTemplate.create SimpleObject alarisprime_bunker_top
+ObjectTemplate.geometry alarisprime_bunker_top
+ObjectTemplate.setHasCollisionPhysics 1

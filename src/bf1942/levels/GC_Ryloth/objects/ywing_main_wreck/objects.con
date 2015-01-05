@@ -1,0 +1,5 @@
+ObjectTemplate.create SimpleObject ywing_main_wreck
+ObjectTemplate.geometry ywing_main_wreck
+ObjectTemplate.setHasCollisionPhysics 1
+objectTemplate.cullRadiusScale 3.0
+ObjectTemplate.aiTemplate myobject

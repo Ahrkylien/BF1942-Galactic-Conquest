@@ -1,0 +1,3 @@
+GeometryTemplate.create StandardMesh pod_stadiumseats
+GeometryTemplate.file buildings/Tatooine/pod_stadiumseats
+GeometryTemplate.setLodDistance 0 0

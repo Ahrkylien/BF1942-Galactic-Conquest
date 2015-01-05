@@ -1,0 +1,3 @@
+ObjectTemplate.create Bundle pod_tracklight
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.geometry pod_tracklight

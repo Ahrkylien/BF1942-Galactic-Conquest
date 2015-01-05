@@ -1,0 +1,22 @@
+
+newPatch
+############
+### Podracer_Brake ###
+############
+load @ROOT/Sound/@RTD/Podracer_Engine_Brake.wav
+minDistance 10
+volume 1.0
+dopplerOff
+priority 8
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 20
+	param 60
+	param 1
+	param -1	
+endEffect
+
+

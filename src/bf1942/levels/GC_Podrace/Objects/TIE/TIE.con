@@ -1,0 +1,24 @@
+ObjectTemplate.create Rotationalbundle TIE
+ObjectTemplate.setHasCollisionPhysics 0
+ObjectTemplate.setMinRotation 0/0/0
+ObjectTemplate.setMaxRotation 0/0/0
+ObjectTemplate.setMaxSpeed 181/0/0
+ObjectTemplate.setAcceleration 60/0/0
+ObjectTemplate.sethascollisionphysics 1
+ObjectTemplate.addtemplate TIE2
+ObjectTemplate.setposition 0/0/0
+ObjectTemplate.setContinousRotationSpeed -4/0/0
+
+ObjectTemplate.create rotationalbundle TIE2
+ObjectTemplate.setHasCollisionPhysics 0
+ObjectTemplate.setMinRotation 0/0/0
+ObjectTemplate.setMaxRotation 0/0/0
+ObjectTemplate.setMaxSpeed 181/0/0
+ObjectTemplate.setAcceleration 60/0/0
+ObjectTemplate.addtemplate TiefighterSimplebundle
+ObjectTemplate.setposition -800/0/0
+ObjectTemplate.setContinousRotationSpeed 4/0/0
+
+ObjectTemplate.create bundle TiefighterSimplebundle
+ObjectTemplate.addtemplate TiefighterSimple
+ObjectTemplate.loadSoundScript TIE.ssc

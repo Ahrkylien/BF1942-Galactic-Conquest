@@ -1,0 +1,273 @@
+rem
+rem ***  ***
+rem
+Object.create unnamedspawn
+Object.absolutePosition 520.881/31.595/524.867
+Object.rotation -177/0/0
+Object.setOSId 0
+Object.setTeam 35020716
+rem
+rem ***  ***
+rem
+Object.create unnamedspawn1
+Object.absolutePosition 510.875/28.3495/519.001
+Object.rotation 176/0/0
+Object.setOSId 112
+Object.setTeam 7471174
+rem
+rem ***  ***
+rem
+Object.create unnamedspawn2
+Object.absolutePosition 508.227/37.9326/556.887
+Object.rotation 194/0/0
+Object.setOSId 112
+Object.setTeam 54369780
+rem
+rem ***  ***
+rem
+Object.create unnamedspawn3
+Object.absolutePosition 529.962/37.9313/558.391
+Object.rotation 188/0/0
+Object.setOSId 112
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create unnamedspawn4
+Object.absolutePosition 497.093/36.8035/533.481
+Object.rotation -184/0/0
+Object.setOSId 112
+Object.setTeam 0
+rem
+rem ***  ***
+rem
+Object.create unnamedspawn5
+Object.absolutePosition 582.291/32.5071/419.252
+Object.setOSId 112
+Object.setTeam 0
+rem
+rem ***  ***
+rem
+Object.create unnamedspawn6
+Object.absolutePosition 570.041/32.7377/420.02
+Object.rotation -94/0/0
+Object.setOSId 0
+Object.setTeam 0
+rem
+rem ***  ***
+rem
+Object.create unnamedspawn7
+Object.absolutePosition 550.613/36.0071/418.446
+Object.rotation -90/0/0
+Object.setOSId 112
+Object.setTeam 0
+rem
+rem ***  ***
+rem
+Object.create unnamedspawn8
+Object.absolutePosition 578.856/32.5785/424.963
+Object.rotation -83/0/0
+Object.setOSId 112
+Object.setTeam 0
+rem
+rem ***  ***
+rem
+Object.create unnamedspawn9
+Object.absolutePosition 586.991/32.5546/416.183
+Object.rotation -91/0/0
+Object.setOSId 112
+Object.setTeam 0
+rem
+rem ***  ***
+rem
+Object.create unnamedspawn10
+Object.absolutePosition 465.101/28.0569/408.606
+Object.setOSId 49
+Object.setTeam 0
+rem
+rem ***  ***
+rem
+Object.create unnamedspawn11
+Object.absolutePosition 463.677/27.9855/377.172
+Object.rotation 185/0/0
+Object.setOSId 0
+Object.setTeam 0
+rem
+rem ***  ***
+rem
+Object.create unnamedspawn12
+Object.absolutePosition 445.254/28.1121/395.785
+Object.rotation -89/0/0
+Object.setOSId 0
+Object.setTeam 0
+rem
+rem ***  ***
+rem
+Object.create unnamedspawn13
+Object.absolutePosition 468.997/28.2088/397.214
+Object.rotation -93/0/0
+Object.setOSId 112
+Object.setTeam 0
+rem
+rem ***  ***
+rem
+Object.create unnamedspawn14
+Object.absolutePosition 451.091/28.1816/394.514
+Object.rotation 93/0/0
+Object.setOSId 0
+Object.setTeam 0
+rem
+rem ***  ***
+rem
+Object.create unnamedspawn15
+Object.absolutePosition 332.22/45.5675/184.695
+Object.rotation 58/0/0
+Object.setOSId 112
+Object.setTeam 0
+rem
+rem ***  ***
+rem
+Object.create unnamedspawn16
+Object.absolutePosition 341.766/45.5675/171.124
+Object.setOSId 112
+Object.setTeam 0
+rem
+rem ***  ***
+rem
+Object.create unnamedspawn17
+Object.absolutePosition 363.518/47.5629/143.702
+Object.rotation -35/0/0
+Object.setOSId 112
+Object.setTeam 0
+rem
+rem ***  ***
+rem
+Object.create unnamedspawn18
+Object.absolutePosition 300.308/47.3074/223.685
+Object.rotation 127/0/0
+Object.setOSId 112
+Object.setTeam 0
+rem
+rem ***  ***
+rem
+Object.create unnamedspawn19
+Object.absolutePosition 333.884/45.3961/197.187
+Object.rotation 43/0/0
+Object.setOSId 112
+Object.setTeam 0
+rem
+rem ***  ***
+rem
+Object.create unnamedspawn20
+Object.absolutePosition 463.883/33.3112/648.113
+Object.rotation -182/0/0
+Object.setOSId 0
+Object.setTeam 35020596
+rem
+rem ***  ***
+rem
+Object.create unnamedspawn21
+Object.absolutePosition 477.452/35.3419/642.495
+Object.rotation 171/0/0
+Object.setOSId 112
+Object.setTeam 0
+rem
+rem ***  ***
+rem
+Object.create unnamedspawn22
+Object.absolutePosition 477.835/33.2848/634.334
+Object.rotation 182/0/0
+Object.setOSId 112
+Object.setTeam 0
+rem
+rem ***  ***
+rem
+Object.create unnamedspawn23
+Object.absolutePosition 473.238/34.8276/666.542
+Object.rotation 136/0/0
+Object.setOSId 65
+Object.setTeam 0
+rem
+rem ***  ***
+rem
+Object.create unnamedspawn24
+Object.absolutePosition 477.487/34.8276/668.518
+Object.rotation -167/0/0
+Object.setOSId -1475734572
+Object.setTeam 54385340
+rem
+rem ***  ***
+rem
+Object.create unnamedspawn25
+Object.absolutePosition 286.955/62.1007/405.146
+Object.setOSId 65
+Object.setTeam 0
+rem
+rem ***  ***
+rem
+Object.create unnamedspawn26
+Object.absolutePosition 287.695/60.4837/410.841
+Object.setOSId -1123415880
+Object.setTeam 54383900
+rem
+rem ***  ***
+rem
+Object.create unnamedspawn27
+Object.absolutePosition 290.119/59.0649/415.901
+Object.rotation 40/0/0
+Object.setOSId 65
+Object.setTeam 0
+rem
+rem ***  ***
+rem
+Object.create unnamedspawn28
+Object.absolutePosition 296.102/58.1909/418.36
+Object.rotation 59/0/0
+Object.setOSId 112
+Object.setTeam 0
+rem
+rem ***  ***
+rem
+Object.create unnamedspawn29
+Object.absolutePosition 303.851/57.1085/417.899
+Object.rotation 108/0/0
+Object.setOSId 112
+Object.setTeam 0
+rem
+rem ***  ***
+rem
+Object.create unnamedspawn30
+Object.absolutePosition 415.557/39.2415/311.857
+Object.setOSId 0
+Object.setTeam 3104624
+rem
+rem ***  ***
+rem
+Object.create unnamedspawn31
+Object.absolutePosition 417.11/30.3491/292.186
+Object.rotation 111/0/0
+Object.setOSId 503981344
+Object.setTeam 134651660
+rem
+rem ***  ***
+rem
+Object.create unnamedspawn32
+Object.absolutePosition 411.823/39.4277/290.251
+Object.rotation 2094/0/0
+Object.setOSId 65
+Object.setTeam 1936027236
+rem
+rem ***  ***
+rem
+Object.create unnamedspawn33
+Object.absolutePosition 421.484/42.2505/266.934
+Object.rotation -59/0/0
+Object.setOSId 112
+Object.setTeam 0
+rem
+rem ***  ***
+rem
+Object.create unnamedspawn34
+Object.absolutePosition 431.681/37.8993/312.564
+Object.setOSId 0
+Object.setTeam 0

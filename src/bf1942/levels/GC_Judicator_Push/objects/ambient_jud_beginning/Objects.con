@@ -1,0 +1,31 @@
+ObjectTemplate.create PlayerControlObject ambient_jud_beginning
+ObjectTemplate.setNetworkableInfo ambient_jud_beginningBodyInfo
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.hasCollisionPhysics 0
+ObjectTemplate.hasResponsePhysics 0
+ObjectTemplate.hasArmor 1
+ObjectTemplate.hitpoints 5
+ObjectTemplate.maxhitpoints 5
+ObjectTemplate.criticalDamage 5
+ObjectTemplate.hpLostWhileCriticalDamage 1
+ObjectTemplate.material 810
+ObjectTemplate.addArmorEffect 0 e_ambient_jud_beginning 0/0/0
+ObjectTemplate.timetoliveafterdeath 99999
+ObjectTemplate.fadeAtTimeToLiveAfterDeath 0
+
+rem -------------------------------------
+ObjectTemplate.setSoldierExitLocation 0/0/0 0/0/0
+ObjectTemplate.setVehicleIconPos 45/76
+ObjectTemplate.setNumberOfWeaponIcons 0
+ObjectTemplate.setCrossHairType CHTNone
+ObjectTemplate.setVehicleCategory VCLand
+ObjectTemplate.setVehicleType  VTAAGun
+ObjectTemplate.setMinimapIcon "Minimap/minimap_icon_noshow_16x16.dds"
+
+rem *** e_ambient_jud_beginning ***
+ObjectTemplate.create EffectBundle e_ambient_jud_beginning
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript Sounds/ambient_jud_beginning.ssc
+rem -------------------------------------
+ObjectTemplate.timeToLive CRD_NONE/32/0/0
+rem -----------------------------------

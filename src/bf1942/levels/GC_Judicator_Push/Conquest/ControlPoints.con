@@ -1,0 +1,40 @@
+rem
+rem ***  ***
+rem
+Object.create imperial_bridgetemplate
+Object.absolutePosition 1591.56/590.19/881.71
+rem
+rem ***  ***
+rem
+Object.create rebelblockadetemplate
+Object.absolutePosition 541.45/341.23/849.9
+rem
+rem ***  ***
+rem
+Object.create lift_controltemplate
+Object.absolutePosition 1642.13/341.4/992.66
+rem
+rem ***  ***
+rem
+Object.create level1_security_roomtemplate
+Object.absolutePosition 557.61/341.4/925.22
+rem
+rem ***  ***
+rem
+Object.create tram_controltemplate
+Object.absolutePosition 551.205/336.54/984.94
+rem
+rem ***  ***
+rem
+Object.create checkpoint_1template
+Object.absolutePosition 827.77/341.4/918.54
+rem
+rem ***  ***
+rem
+Object.create checkpoint_3template
+Object.absolutePosition 1042.54/341.35/885.08
+rem
+rem ***  ***
+rem
+Object.create checkpoint_6template
+Object.absolutePosition 1431.43/341.41/867.99

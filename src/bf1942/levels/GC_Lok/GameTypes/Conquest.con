@@ -1,8 +1,8 @@
 rem *********************************************
 rem Created by Battlecraft 1942.  Copyright (c)2003,2004 Digital Illusions CE
 rem *********************************************
-Game.setNumberOfTickets 1 100
-Game.setNumberOfTickets 2 115
+Game.setNumberOfTickets 1 90
+Game.setNumberOfTickets 2 110
 Game.setTicketLostPerMin 1 6
 Game.setTicketLostPerMin 2 6
 

@@ -1,0 +1,185 @@
+rem SoldierSpawns.con created by Battlecraft 1942
+rem (E:\Battlefield\Mods\GCMOD\bf1942\levels\GC_Judicator/conquest/SoldierSpawns.con)
+
+rem ----------------------------------------- 
+rem ---  imp01  ---
+rem ----------------------------------------- 
+Object.create imp01
+Object.absolutePosition 1621.45/590.16/883.16
+Object.rotation 0.00/0.00/0.00
+
+
+rem ----------------------------------------- 
+rem ---  imp02  ---
+rem ----------------------------------------- 
+Object.create imp02
+Object.absolutePosition 1596.04/591.46/872.55
+Object.rotation 0.00/0.00/0.00
+
+
+rem ----------------------------------------- 
+rem ---  imp03  ---
+rem ----------------------------------------- 
+Object.create imp03
+Object.absolutePosition 1615.6100/588.8470/889.7940
+Object.rotation 179.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  imp04  ---
+rem ----------------------------------------- 
+Object.create imp04
+Object.absolutePosition 1596.04/591.46/872.55
+Object.rotation 0.00/0.00/0.00
+
+
+rem ----------------------------------------- 
+rem ---  reb01  ---
+rem ----------------------------------------- 
+Object.create reb01
+Object.absolutePosition 511.34/342.01/858.21
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  lift01  ---
+rem ----------------------------------------- 
+Object.create lift01
+Object.absolutePosition 1666.89/342.29/953.61
+Object.rotation -180.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  sec01  ---
+rem ----------------------------------------- 
+Object.create sec01
+Object.absolutePosition 591.19/342.36/959.79
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  tram01  ---
+rem ----------------------------------------- 
+Object.create tram01
+Object.absolutePosition 561.658/336.674/990
+Object.rotation -180.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  reb02  ---
+rem ----------------------------------------- 
+Object.create reb02
+Object.absolutePosition 411.63/345.90/852.55
+Object.rotation 129.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  reb03  ---
+rem ----------------------------------------- 
+Object.create reb03
+Object.absolutePosition 511.43/341.83/839.16
+Object.rotation -1.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  reb05  ---
+rem ----------------------------------------- 
+Object.create reb05
+Object.absolutePosition 474.83/338.95/837.16
+Object.rotation -92.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  reb06  ---
+rem ----------------------------------------- 
+Object.create reb06
+Object.absolutePosition 464.44/338.18/860.97
+Object.rotation 91.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  sec02  ---
+rem ----------------------------------------- 
+Object.create sec02
+Object.absolutePosition 594.21/342.06/972.47
+Object.rotation 181.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  sec05  ---
+rem ----------------------------------------- 
+Object.create sec05
+Object.absolutePosition 599.09/342.28/964.92
+Object.rotation -91.00/0.00/0.00
+
+
+rem ----------------------------------------- 
+rem ---  tram02  ---
+rem ----------------------------------------- 
+Object.create tram02
+Object.absolutePosition 561.658/336.674/996.84
+Object.rotation 0.00/0.00/0.00
+
+
+rem ----------------------------------------- 
+rem ---  tram03  ---
+rem ----------------------------------------- 
+Object.create tram03
+Object.absolutePosition 579.10/339.02/1010.91
+Object.rotation 91.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  lift02  ---
+rem ----------------------------------------- 
+Object.create lift02
+Object.absolutePosition 1641.01/342.75/953.14
+Object.rotation 145.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  lift03  ---
+rem ----------------------------------------- 
+Object.create lift03
+Object.absolutePosition 1650.59/342.20/974.48
+Object.rotation 88.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  lift04  ---
+rem ----------------------------------------- 
+Object.create lift04
+Object.absolutePosition 1655.36/342.57/974.38
+Object.rotation -91.00/0.00/0.00
+
+
+rem ----------------------------------------- 
+rem ---  cp18  ---
+rem ----------------------------------------- 
+Object.create cp18
+Object.absolutePosition 666.53/342.24/907.30
+Object.rotation -180.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  cp19  ---
+rem ----------------------------------------- 
+Object.create cp19
+Object.absolutePosition 832.62/341.43/903.06
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  cp22  ---
+rem ----------------------------------------- 
+Object.create cp22
+Object.absolutePosition 1087.33/343.00/890.58
+Object.rotation 182.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  cp23  ---
+rem ----------------------------------------- 
+Object.create cp23
+Object.absolutePosition 1087.24/342.51/886.19
+Object.rotation -359.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  cp28  ---
+rem ----------------------------------------- 
+Object.create cp28
+Object.absolutePosition 1443.35/341.43/885.64
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  cp29  ---
+rem ----------------------------------------- 
+Object.create cp29
+Object.absolutePosition 1443.04/341.43/891.65
+Object.rotation 181.00/0.00/0.00
+
+rem EndOfFile

@@ -1,0 +1,127 @@
+ObjectTemplate.create PlayercontrolObject ionobjective
+ObjectTemplate.NetworkableInfo ionobjectiveInfo
+objectTemplate.cullRadiusScale 5
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.explosionRadius 20
+ObjectTemplate.explosionDamage 5
+ObjectTemplate.drag 2
+ObjectTemplate.dragOffset 0/0/0
+ObjectTemplate.mass 4500
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasArmor 1
+ObjectTemplate.speedMod 2
+ObjectTemplate.hitpoints 1000
+ObjectTemplate.maxhitpoints 1000
+ObjectTemplate.material 811
+ObjectTemplate.criticalDamage 0
+ObjectTemplate.explosionForceMod 15
+ObjectTemplate.hpLostWhileCriticalDamage 10
+ObjectTemplate.explosionRadius 50
+ObjectTemplate.explosionDamage 20
+ObjectTemplate.explosionForceMod 100
+
+ObjectTemplate.fadeAtTimeToLiveAfterDeath 0
+ObjectTemplate.timetoliveafterdeath 9999
+
+ObjectTemplate.addArmorEffect 500 em_TieInterceptorDamage -20/217/0
+ObjectTemplate.addArmorEffect 200 em_PlaneDamage -20/217/0
+ObjectTemplate.addArmorEffect 150 e_TieInterceptorFire -20/217/0
+ObjectTemplate.addArmorEffect 0 e_ExplGas -20/217/0
+ObjectTemplate.addArmorEffect 0 e_ScrapMetal_TieFighter -20/217/0
+ObjectTemplate.addArmorEffect -1 WaterWaterExplosion -20/217/0
+ObjectTemplate.addArmorEffect 0 e_ExplGas -9/12/-1
+ObjectTemplate.addArmorEffect 0 e_ExplGas 9/5.83/0
+ObjectTemplate.addArmorEffect 0 e_ExplGas -3/10/0
+ObjectTemplate.addArmorEffect 0 e_ExplCap 3/12/1
+ObjectTemplate.addArmorEffect 12 e_ExplGas 0/4.3/7.3
+ObjectTemplate.addArmorEffect 15 e_ExplGas 0/12/9
+ObjectTemplate.addArmorEffect 11 e_ExplGas 6.9/13/3
+ObjectTemplate.addArmorEffect 30 e_ExplGas -6.9/13/3
+ObjectTemplate.addArmorEffect 50 e_ExplGas 0/15/0
+ObjectTemplate.addArmorEffect 13 e_ExplGas 0/14/0
+ObjectTemplate.addArmorEffect 50 e_ExplGas 0/15/2
+ObjectTemplate.addArmorEffect 80 e_ExplGas 6.9/5/5
+ObjectTemplate.addArmorEffect 75 e_ExplGas -6/13/3
+ObjectTemplate.addArmorEffect 40 e_ExplGas 0/14/0
+ObjectTemplate.addArmorEffect 14 e_ExplGas 0/15/0
+ObjectTemplate.addArmorEffect 50 e_ExplGas 0/12/0
+ObjectTemplate.addArmorEffect 70 e_ExplGas 1/13/0
+ObjectTemplate.addArmorEffect 35 e_ExplGas -1/12/0
+ObjectTemplate.addArmorEffect 30 e_ExplGas 0/12/0
+ObjectTemplate.addArmorEffect 0 e_Wreck1Smoke 0/1/0
+ObjectTemplate.damageFromWater 1
+
+rem -------------------------------
+rem --------------------------------------
+ObjectTemplate.addTemplate lodioncannon
+rem --------------------------------------
+ObjectTemplate.GUIIndex 67
+ObjectTemplate.setPrimaryAmmoBar ABNone
+ObjectTemplate.setCrossHairType CHTNone
+ObjectTemplate.setVehicleCategory VCLand
+ObjectTemplate.setVehicleType VTDefGun
+ObjectTemplate.setToolTipType  TTDefGun
+ObjectTemplate.setMinimapIcon "Minimap/minimap_icon_stationary_16x16.tga"
+
+rem *** lodioncannon ***
+ObjectTemplate.create LodObject lodioncannon
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate ioncannon_complex
+ObjectTemplate.addTemplate ioncannon_simple2
+ObjectTemplate.addTemplate ioncannon_wrecks
+rem -------------------------------------
+ObjectTemplate.lodSelector ioncannonLodSelector
+
+rem ***  ***
+ObjectTemplate.create Bundle ioncannon_complex
+ObjectTemplate.geometry ioncannon_m
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+rem -------------------------------
+
+
+rem -------------ion_autofire------------
+ObjectTemplate.addTemplate ion_autofireSpawner
+ObjectTemplate.setRotation 0/-90/0
+
+rem *** ***
+ObjectTemplate.create SimpleObject ioncannon_simple2
+ObjectTemplate.geometry ioncannon_m
+
+rem *** ***
+ObjectTemplate.create SimpleObject ioncannon_wrecks
+ObjectTemplate.geometry ioncannon_wreck_m
+ObjectTemplate.addTemplate e_ScrapMetalSmoke
+ObjectTemplate.addTemplate e_ScrapMetalSmoke
+ObjectTemplate.setPosition 3.0/-0.495522/11.64
+ObjectTemplate.addTemplate e_ScrapMetalSmoke
+ObjectTemplate.setPosition 3.0/-0.495522/11.64
+
+
+LodSelectorTemplate.create DistCompareSelector2 ioncannonLodSelector
+LodSelectorTemplate.hasDestroyedLod 1
+LodSelectorTemplate.addLodDistance 900
+
+
+rem ********** ion_autofire   *********
+Object.create ion_autofireSpawner
+ObjectTemplate.setPosition 0/20/0
+
+rem ----------------------------------------- 
+rem ---  ion_autofireSpawner  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner ion_autofireSpawner
+ObjectTemplate.setObjectTemplate 1 ion_autofire
+ObjectTemplate.setObjectTemplate 2 ion_autofire
+ObjectTemplate.MinSpawnDelay 2
+ObjectTemplate.MaxSpawnDelay 5
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 10
+ObjectTemplate.Distance 10
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.maxNrOfObjectSpawned 1
+ObjectTemplate.team 1

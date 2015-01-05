@@ -1,0 +1,95 @@
+
+
+rem *** GasganoTurboSound ***
+ObjectTemplate.create FireArms GasganoTurboSound
+ObjectTemplate.setNetworkableInfo GasganoFireInfo
+ObjectTemplate.loadSoundScript Sounds/Gasgano_Turbo.ssc
+ObjectTemplate.projectilePosition 0/0/0
+ObjectTemplate.fireingForce 20
+ObjectTemplate.magSize 1
+ObjectTemplate.numOfMag 1
+ObjectTemplate.magType 0
+ObjectTemplate.altFireOnce 1
+ObjectTemplate.reloadtime 5
+ObjectTemplate.autoReload 1
+ObjectTemplate.roundOfFire 1
+ObjectTemplate.AmmoType 8
+ObjectTemplate.velocity 0
+ObjectTemplate.setInputFire c_PIAltFire
+
+beginrem
+rem *** GasganoBrakeSound ***
+ObjectTemplate.create FireArms GasganoBrakeSound
+ObjectTemplate.setNetworkableInfo GasganoFireInfo
+ObjectTemplate.loadSoundScript Sounds/Gasgano_TurboEngine.ssc
+ObjectTemplate.projectilePosition 0/0/0
+ObjectTemplate.magSize 1
+ObjectTemplate.numOfMag 1
+ObjectTemplate.magType 0
+ObjectTemplate.fireOnce 1
+ObjectTemplate.reloadtime 5
+ObjectTemplate.autoReload 1
+ObjectTemplate.roundOfFire 1
+ObjectTemplate.AmmoType 8
+ObjectTemplate.velocity 0
+ObjectTemplate.setInputFire c_PIAltFire
+endrem
+
+rem *** GasganoRepairSound ***
+ObjectTemplate.create FireArms GasganoRepairSound
+ObjectTemplate.setNetworkableInfo GasganoFireInfo
+ObjectTemplate.loadSoundScript Sounds/Gasgano_RepairSound.ssc
+ObjectTemplate.projectilePosition 0/0/0
+ObjectTemplate.magSize 1
+ObjectTemplate.numOfMag 1
+ObjectTemplate.magType 0
+ObjectTemplate.fireOnce 1
+ObjectTemplate.reloadtime 5
+ObjectTemplate.autoReload 1
+ObjectTemplate.roundOfFire 1
+ObjectTemplate.AmmoType 8
+ObjectTemplate.velocity 0
+ObjectTemplate.setInputFire c_PIFire
+
+
+rem *** GasganoRepair ***
+ObjectTemplate.create FireArms GasganoRepair
+ObjectTemplate.projectileTemplate GasganoRepair_projectile
+ObjectTemplate.projectilePosition 0/0/0.4
+ObjectTemplate.magSize -1
+ObjectTemplate.magType 0
+ObjectTemplate.numOfMag -1
+ObjectTemplate.velocity 10
+ObjectTemplate.autoReload 1
+ObjectTemplate.reloadtime 0.01
+ObjectTemplate.roundOfFire 5
+ObjectTemplate.heatAddWhenFire 0.06
+ObjectTemplate.coolDownPerSec 0.2
+ObjectTemplate.timeDelayOnOverHeat 2
+ObjectTemplate.setInputFire c_PIFire
+
+
+rem *** GasganoRepair_projectile ***
+ObjectTemplate.create Projectile GasganoRepair_projectile
+ObjectTemplate.addTemplate Gasgano_repair_point
+ObjectTemplate.timeToLive CRD_NONE/0.04/0/0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.gravityModifier 0.1
+ObjectTemplate.hasCollisionEffect 1
+ObjectTemplate.hasOnTimeEffect 1
+ObjectTemplate.invisibleAtEndEffect 1
+ObjectTemplate.invisible 0
+ObjectTemplate.material 620
+
+
+rem *** Gasgano_repair_point ***
+ObjectTemplate.create SupplyDepot Gasgano_repair_point
+ObjectTemplate.radius 10
+ObjectTemplate.team 0
+ObjectTemplate.addVehicleType Gasgano -1 7 0
+ObjectTemplate.addVehicleType Gasgano1 -1 7 0
+ObjectTemplate.addVehicleType Gasgano2 -1 7 0
+ObjectTemplate.addVehicleType Gasgano3 -1 7 0
+ObjectTemplate.addVehicleType Gasgano4 -1 7 0
+ObjectTemplate.workOnVehicles 1
+ObjectTemplate.workOnSoldiers 0

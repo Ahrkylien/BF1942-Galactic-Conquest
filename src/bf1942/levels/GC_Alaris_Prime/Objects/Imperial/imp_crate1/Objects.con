@@ -1,0 +1,3 @@
+ObjectTemplate.create SimpleObject imp_crate1
+ObjectTemplate.geometry imp_crate1
+ObjectTemplate.setHasCollisionPhysics 1

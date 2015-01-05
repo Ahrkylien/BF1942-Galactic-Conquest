@@ -1,0 +1,3 @@
+ObjectTemplate.create SimpleObject bc_stairs
+ObjectTemplate.geometry bc_stairs
+ObjectTemplate.setHasCollisionPhysics 1

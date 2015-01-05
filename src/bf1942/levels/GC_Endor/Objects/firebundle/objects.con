@@ -1,0 +1,13 @@
+ObjectTemplate.create bundle firebundle
+ObjectTemplate.geometry explFire_Test_m1
+ObjectTemplate.setHasCollisionPhysics 1
+
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.hasArmor 1
+ObjectTemplate.maxhitpoints 25
+ObjectTemplate.hitpoints 25
+ObjectTemplate.Material 40
+ObjectTemplate.addArmorEffect 25 e_ZeroFire 0/.63/0
+ObjectTemplate.addArmorEffect 25 e_BuildingSmokeIdleDark 0.7/1.5/0.7
+rem ObjectTemplate.addArmorEffect 25 e_m3a1Fire 0.7/0.65/0.7

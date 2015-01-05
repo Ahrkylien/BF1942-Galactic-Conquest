@@ -1,0 +1,24 @@
+ObjectTemplate.create Rotationalbundle Rebrunner
+ObjectTemplate.setHasCollisionPhysics 0
+ObjectTemplate.setMinRotation 0/0/0
+ObjectTemplate.setMaxRotation 0/0/0
+ObjectTemplate.setMaxSpeed 30/0/0
+ObjectTemplate.setAcceleration 10/0/0
+ObjectTemplate.sethascollisionphysics 1
+ObjectTemplate.addtemplate Rebrunner2
+ObjectTemplate.setposition 0/0/0
+ObjectTemplate.setContinousRotationSpeed 1/0/0
+
+ObjectTemplate.create rotationalbundle Rebrunner2
+ObjectTemplate.setHasCollisionPhysics 0
+ObjectTemplate.setMinRotation 0/0/0
+ObjectTemplate.setMaxRotation 0/0/0
+ObjectTemplate.setMaxSpeed 30/0/0
+ObjectTemplate.setAcceleration 10/0/0
+ObjectTemplate.addtemplate RunnerSimplebundle
+ObjectTemplate.setposition 800/0/0
+ObjectTemplate.setContinousRotationSpeed -1/0/0
+
+ObjectTemplate.create bundle RunnerSimplebundle
+ObjectTemplate.addtemplate RunnerSimple
+ObjectTemplate.loadSoundScript Rebrunner.ssc

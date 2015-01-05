@@ -1,0 +1,8 @@
+GeometryTemplate.create StandardMesh imp_corner
+GeometryTemplate.file imp_corner
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+GeometryTemplate.setLodDistance 2 300
+GeometryTemplate.setLodDistance 3 500
+GeometryTemplate.setLodDistance 4 700
+GeometryTemplate.setLodDistance 5 900

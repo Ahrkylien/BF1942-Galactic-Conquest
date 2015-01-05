@@ -1,0 +1,3 @@
+ObjectTemplate.create SimpleObject imp_smallgenerator_end_b
+ObjectTemplate.geometry imp_smallgenerator_end_b
+ObjectTemplate.setHasCollisionPhysics 1

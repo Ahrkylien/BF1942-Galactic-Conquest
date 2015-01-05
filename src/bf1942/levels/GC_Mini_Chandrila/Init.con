@@ -38,14 +38,14 @@ ObjectTemplate.addTemplate AnimatedUsFlag
 game.setTeamSkin 1 ScoutSoldier
 game.setKit 1 0 Empire_Scout
 game.setKit 1 1 Empire_Trooper
-game.setKit 1 2 tl-21_kit_AV
+game.setKit 1 2 Empire_AT
 game.setKit 1 3 Empire_Medic
 game.setKit 1 4 Empire_Engineer
 
 game.setTeamSkin 2 EndorSoldier
 game.setKit 2 0 Rebel_Scout
 game.setKit 2 1 Rebel_Trooper
-game.setKit 2 2 tracker_kit_AV
+game.setKit 2 2 Rebel_AT
 game.setKit 2 3 Rebel_Medic
 game.setKit 2 4 Rebel_Engineer
 game.setLevelCheck 2242588848

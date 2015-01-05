@@ -1,0 +1,28 @@
+rem ControlPoints.con created by Battlecraft 1942
+rem (E:\Battlefield\Mods\GCMOD\bf1942\levels\GC_Podrace/conquest/ControlPoints.con)
+
+rem ----------------------------------------- 
+rem ---  Imperial_Start  ---
+rem ----------------------------------------- 
+Object.create Imperial_Start
+Object.absolutePosition 850.47/195.52/265.10
+
+rem ----------------------------------------- 
+rem ---  Rebel_Start  ---
+rem ----------------------------------------- 
+Object.create Rebel_Start
+Object.absolutePosition 845.88/195.83/158.56
+
+rem ----------------------------------------- 
+rem ---  Checkpoint  ---
+rem ----------------------------------------- 
+Object.create Checkpoint
+Object.absolutePosition 1262.00/245.36/1659.34
+
+rem ----------------------------------------- 
+rem ---  Finish_Line  ---
+rem ----------------------------------------- 
+Object.create Finish_Line
+Object.absolutePosition 711.90/204.04/211.94
+
+rem EndOfFile

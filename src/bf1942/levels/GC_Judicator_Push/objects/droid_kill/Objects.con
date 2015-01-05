@@ -1,0 +1,20 @@
+ObjectTemplate.create Bundle droid_kill
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.geometry Ammobox_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+objectTemplate.cullRadiusScale 3.0
+rem -------------------------------------
+ObjectTemplate.addTemplate Droid_death
+ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.setRotation 0/0/0
+
+ObjectTemplate.create SupplyDepot Droid_death
+ObjectTemplate.radius 20
+ObjectTemplate.team 0
+ObjectTemplate.addVehicleType mouse_droid -1 -100 0
+ObjectTemplate.workOnVehicles 1
+ObjectTemplate.workOnSoldiers 0
+rem ObjectTemplate.setHealth -1 -100 0
+
+

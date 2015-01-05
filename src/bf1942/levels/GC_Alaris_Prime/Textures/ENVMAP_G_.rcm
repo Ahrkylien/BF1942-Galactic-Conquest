@@ -1,0 +1,8 @@
+[CubeMap]
+PositiveX = bf1942\levels\Stalingrad\Textures\env_omaha_02.dds
+NegativeX = bf1942\levels\Stalingrad\Textures\env_omaha_04.dds
+PositiveY = bf1942\levels\Stalingrad\Textures\env_omaha_05.dds
+NegativeY = bf1942\levels\Stalingrad\Textures\env_omaha_06.dds
+PositiveZ = bf1942\levels\Stalingrad\Textures\env_omaha_01.dds
+NegativeZ = bf1942\levels\Stalingrad\Textures\env_omaha_03.dds
+

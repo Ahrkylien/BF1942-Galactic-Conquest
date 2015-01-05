@@ -1,0 +1,4 @@
+GeometryTemplate.create StandardMesh shieldplan
+GeometryTemplate.file buildings/Tatooine/shieldplan
+GeometryTemplate.setLodDistance 0 0
+

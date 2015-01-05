@@ -1,0 +1,21 @@
+Game.setLocalized 1
+
+game.setMultiplayerBriefingObjectives "The Empire is constructing a new Death Star orbiting the small moon of Endor. The Death Star is protected by an engery field generated at the moons surface. A bold attempt by the Rebels has brought them to Endor to destroy the disable or destory the shield Generator. With the shield Generator offline the Rebel fleet will be able to directly attack the Death Star"
+
+rem ** Allied Debriefing **
+game.setAlliedDebriefingMajorVictory "The force is now with you!"
+game.setAlliedDebriefingMinorVictory "Many comrades has fallen, but the Imperial forces have been defeated."
+game.setAlliedDebriefingMajorDefeat "I sense a great disturbance in the force"
+game.setAlliedDebriefingMinorDefeat "We are defeated, but we shall return"
+
+rem ** Axis Debriefing **
+game.setAxisDebriefingMajorVictory "Victory! Lord Vader will hear of your valour."
+game.setAxisDebriefingMinorVictory "Many dark forces has fallen, but the Rebel forces have been defeated."
+game.setAxisDebriefingMajorDefeat "I sense a great disturbance in the force"
+game.setAxisDebriefingMinorDefeat "We are defeated, but we shall return"
+
+game.setServerInfoIcon ../../bf1942/levels/GC_Ryloth/menu/serverinfo.dds
+game.setLoadPicture ../../bf1942/levels/GC_Endor/Menu/endor1.tga
+
+
+game.setMapId "GCMOD"

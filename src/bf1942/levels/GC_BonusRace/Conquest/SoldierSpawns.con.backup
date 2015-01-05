@@ -1,0 +1,74 @@
+rem SoldierSpawns.con created by Battlecraft 1942
+rem (\Program Files\Battlefield 1942\Mods\GCMOD\bf1942\levels\GC_Race/conquest/SoldierSpawns.con)
+
+rem ----------------------------------------- 
+rem ---  AxisBase_Spawn1  ---
+rem ----------------------------------------- 
+Object.create AxisBase_Spawn1
+Object.absolutePosition 1049.01/3.63/281.88
+Object.rotation -183.88/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  AlliedBase_Spawn1  ---
+rem ----------------------------------------- 
+Object.create AlliedBase_Spawn1
+Object.absolutePosition 1044.26/3.63/183.91
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  SpeederbikeI_Spawn1  ---
+rem ----------------------------------------- 
+Object.create SpeederbikeI_Spawn1
+Object.absolutePosition 841.96/243.80/1741.99
+Object.rotation 90.51/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  SpeedbikeR_Spawn1  ---
+rem ----------------------------------------- 
+Object.create SpeedbikeR_Spawn1
+Object.absolutePosition 898.35/243.78/1741.92
+Object.rotation -91.43/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Imperial_Ships_Spawn1  ---
+rem ----------------------------------------- 
+Object.create Imperial_Ships_Spawn1
+Object.absolutePosition 2008.23/256.16/2030.42
+Object.rotation -90.36/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Rebel_Ships_Spawn1  ---
+rem ----------------------------------------- 
+Object.create Rebel_Ships_Spawn1
+Object.absolutePosition 21.78/255.69/2021.77
+Object.rotation 88.33/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  SkyhopperI_Spawn1  ---
+rem ----------------------------------------- 
+Object.create SkyhopperI_Spawn1
+Object.absolutePosition 1043.72/3.63/281.49
+Object.rotation 180.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  SkyhopperR_Spawn1  ---
+rem ----------------------------------------- 
+Object.create SkyhopperR_Spawn1
+Object.absolutePosition 1049.75/3.63/186.08
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  SpeedbikeR_Spawn2  ---
+rem ----------------------------------------- 
+Object.create SpeedbikeR_Spawn2
+Object.absolutePosition 898.64/243.62/1735.91
+Object.rotation -90.49/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  SpeederbikeI_Spawn2  ---
+rem ----------------------------------------- 
+Object.create SpeederbikeI_Spawn2
+Object.absolutePosition 841.10/243.73/1736.09
+Object.rotation 90.57/0.00/0.00
+
+rem EndOfFile

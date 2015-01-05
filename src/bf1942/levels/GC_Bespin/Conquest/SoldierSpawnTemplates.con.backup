@@ -1,284 +1,186 @@
 rem SoldierSpawnTemplates.con created by Battlecraft 1942
-rem (d:\battlefield 1942\Mods\cloudtown\bf1942\levels\GC_bespin/conquest/SoldierSpawnTemplates.con)
+rem (\Program Files\Battlefield 1942\Mods\GCMOD\bf1942\levels\GC_Bespin/conquest/SoldierSpawnTemplates.con)
 
 rem ----------------------------------------- 
-rem ---  ImperialMine_Spawn1  ---
+rem ---  Imperial_Platform_Spawn1  ---
 rem ----------------------------------------- 
-ObjectTemplate.create SpawnPoint ImperialMine_Spawn1
+ObjectTemplate.create SpawnPoint Imperial_Platform_Spawn1
 ObjectTemplate.setSpawnId 1
-ObjectTemplate.setGroup 2
+ObjectTemplate.setGroup 1
 
 rem ----------------------------------------- 
-rem ---  ImperialMine_Spawn2  ---
+rem ---  Imperial_Platform_Spawn2  ---
 rem ----------------------------------------- 
-ObjectTemplate.create SpawnPoint ImperialMine_Spawn2
+ObjectTemplate.create SpawnPoint Imperial_Platform_Spawn2
 ObjectTemplate.setSpawnId 2
-ObjectTemplate.setGroup 2
+ObjectTemplate.setGroup 1
 
 rem ----------------------------------------- 
-rem ---  ImperialMine_Spawn3  ---
+rem ---  Imperial_Platform_Spawn3  ---
 rem ----------------------------------------- 
-ObjectTemplate.create SpawnPoint ImperialMine_Spawn3
+ObjectTemplate.create SpawnPoint Imperial_Platform_Spawn3
 ObjectTemplate.setSpawnId 3
-ObjectTemplate.setGroup 2
+ObjectTemplate.setGroup 1
 
 rem ----------------------------------------- 
-rem ---  ImperialMine_Spawn4  ---
+rem ---  Imperial_Platform_Spawn4  ---
 rem ----------------------------------------- 
-ObjectTemplate.create SpawnPoint ImperialMine_Spawn4
+ObjectTemplate.create SpawnPoint Imperial_Platform_Spawn4
 ObjectTemplate.setSpawnId 4
-ObjectTemplate.setGroup 2
+ObjectTemplate.setGroup 1
 
 rem ----------------------------------------- 
-rem ---  ImperialMine_Spawn5  ---
+rem ---  Imperial_Platform_Spawn5  ---
 rem ----------------------------------------- 
-ObjectTemplate.create SpawnPoint ImperialMine_Spawn5
+ObjectTemplate.create SpawnPoint Imperial_Platform_Spawn5
 ObjectTemplate.setSpawnId 5
-ObjectTemplate.setGroup 2
+ObjectTemplate.setGroup 1
 
 rem ----------------------------------------- 
-rem ---  ImperialMine_Spawn6  ---
+rem ---  Rebel_Platform_Spawn1  ---
 rem ----------------------------------------- 
-ObjectTemplate.create SpawnPoint ImperialMine_Spawn6
+ObjectTemplate.create SpawnPoint Rebel_Platform_Spawn1
 ObjectTemplate.setSpawnId 6
 ObjectTemplate.setGroup 2
 
 rem ----------------------------------------- 
-rem ---  ImperialMine_Spawn7  ---
+rem ---  Rebel_Platform_Spawn2  ---
 rem ----------------------------------------- 
-ObjectTemplate.create SpawnPoint ImperialMine_Spawn7
+ObjectTemplate.create SpawnPoint Rebel_Platform_Spawn2
 ObjectTemplate.setSpawnId 7
 ObjectTemplate.setGroup 2
 
 rem ----------------------------------------- 
-rem ---  ImperialMine_Spawn8  ---
+rem ---  Rebel_Platform_Spawn3  ---
 rem ----------------------------------------- 
-ObjectTemplate.create SpawnPoint ImperialMine_Spawn8
+ObjectTemplate.create SpawnPoint Rebel_Platform_Spawn3
 ObjectTemplate.setSpawnId 8
 ObjectTemplate.setGroup 2
 
 rem ----------------------------------------- 
-rem ---  RebelMine_Spawn1  ---
+rem ---  Rebel_Platform_Spawn4  ---
 rem ----------------------------------------- 
-ObjectTemplate.create SpawnPoint RebelMine_Spawn1
+ObjectTemplate.create SpawnPoint Rebel_Platform_Spawn4
 ObjectTemplate.setSpawnId 9
-ObjectTemplate.setGroup 3
+ObjectTemplate.setGroup 2
 
 rem ----------------------------------------- 
-rem ---  RebelMine_Spawn2  ---
+rem ---  Rebel_Platform_Spawn5  ---
 rem ----------------------------------------- 
-ObjectTemplate.create SpawnPoint RebelMine_Spawn2
+ObjectTemplate.create SpawnPoint Rebel_Platform_Spawn5
 ObjectTemplate.setSpawnId 10
-ObjectTemplate.setGroup 3
+ObjectTemplate.setGroup 2
 
 rem ----------------------------------------- 
-rem ---  RebelMine_Spawn3  ---
+rem ---  Imperial_Bridge_Spawn1  ---
 rem ----------------------------------------- 
-ObjectTemplate.create SpawnPoint RebelMine_Spawn3
+ObjectTemplate.create SpawnPoint Imperial_Bridge_Spawn1
 ObjectTemplate.setSpawnId 11
 ObjectTemplate.setGroup 3
 
 rem ----------------------------------------- 
-rem ---  RebelMine_Spawn4  ---
+rem ---  Imperial_Bridge_Spawn2  ---
 rem ----------------------------------------- 
-ObjectTemplate.create SpawnPoint RebelMine_Spawn4
+ObjectTemplate.create SpawnPoint Imperial_Bridge_Spawn2
 ObjectTemplate.setSpawnId 12
 ObjectTemplate.setGroup 3
 
 rem ----------------------------------------- 
-rem ---  RebelMine_Spawn5  ---
+rem ---  Imperial_Bridge_Spawn3  ---
 rem ----------------------------------------- 
-ObjectTemplate.create SpawnPoint RebelMine_Spawn5
+ObjectTemplate.create SpawnPoint Imperial_Bridge_Spawn3
 ObjectTemplate.setSpawnId 13
 ObjectTemplate.setGroup 3
 
 rem ----------------------------------------- 
-rem ---  RebelMine_Spawn6  ---
+rem ---  Imperial_Bridge_Spawn4  ---
 rem ----------------------------------------- 
-ObjectTemplate.create SpawnPoint RebelMine_Spawn6
+ObjectTemplate.create SpawnPoint Imperial_Bridge_Spawn4
 ObjectTemplate.setSpawnId 14
 ObjectTemplate.setGroup 3
 
 rem ----------------------------------------- 
-rem ---  RebelMine_Spawn7  ---
+rem ---  Rebel_Tower_Spawn1  ---
 rem ----------------------------------------- 
-ObjectTemplate.create SpawnPoint RebelMine_Spawn7
+ObjectTemplate.create SpawnPoint Rebel_Tower_Spawn1
 ObjectTemplate.setSpawnId 15
-ObjectTemplate.setGroup 3
+ObjectTemplate.setGroup 4
 
 rem ----------------------------------------- 
-rem ---  RebelMine_Spawn8  ---
+rem ---  Rebel_Tower_Spawn2  ---
 rem ----------------------------------------- 
-ObjectTemplate.create SpawnPoint RebelMine_Spawn8
+ObjectTemplate.create SpawnPoint Rebel_Tower_Spawn2
 ObjectTemplate.setSpawnId 16
-ObjectTemplate.setGroup 3
+ObjectTemplate.setGroup 4
 
 rem ----------------------------------------- 
-rem ---  ImperialPlatform_Spawn1  ---
+rem ---  Rebel_Tower_Spawn3  ---
 rem ----------------------------------------- 
-ObjectTemplate.create SpawnPoint ImperialPlatform_Spawn1
+ObjectTemplate.create SpawnPoint Rebel_Tower_Spawn3
 ObjectTemplate.setSpawnId 17
-ObjectTemplate.setGroup 5
+ObjectTemplate.setGroup 4
 
 rem ----------------------------------------- 
-rem ---  ImperialPlatform_Spawn2  ---
+rem ---  Rebel_Tower_Spawn4  ---
 rem ----------------------------------------- 
-ObjectTemplate.create SpawnPoint ImperialPlatform_Spawn2
+ObjectTemplate.create SpawnPoint Rebel_Tower_Spawn4
 ObjectTemplate.setSpawnId 18
-ObjectTemplate.setGroup 5
+ObjectTemplate.setGroup 4
 
 rem ----------------------------------------- 
-rem ---  ImperialPlatform_Spawn3  ---
+rem ---  Central_Platform_Spawn1  ---
 rem ----------------------------------------- 
-ObjectTemplate.create SpawnPoint ImperialPlatform_Spawn3
+ObjectTemplate.create SpawnPoint Central_Platform_Spawn1
 ObjectTemplate.setSpawnId 19
 ObjectTemplate.setGroup 5
 
 rem ----------------------------------------- 
-rem ---  ImperialPlatform_Spawn4  ---
+rem ---  Central_Platform_Spawn2  ---
 rem ----------------------------------------- 
-ObjectTemplate.create SpawnPoint ImperialPlatform_Spawn4
+ObjectTemplate.create SpawnPoint Central_Platform_Spawn2
 ObjectTemplate.setSpawnId 20
 ObjectTemplate.setGroup 5
 
 rem ----------------------------------------- 
-rem ---  ImperialPlatform_Spawn5  ---
+rem ---  Central_Platform_Spawn4  ---
 rem ----------------------------------------- 
-ObjectTemplate.create SpawnPoint ImperialPlatform_Spawn5
-ObjectTemplate.setSpawnId 21
-ObjectTemplate.setGroup 5
-
-rem ----------------------------------------- 
-rem ---  ImperialPlatform_Spawn6  ---
-rem ----------------------------------------- 
-ObjectTemplate.create SpawnPoint ImperialPlatform_Spawn6
+ObjectTemplate.create SpawnPoint Central_Platform_Spawn4
 ObjectTemplate.setSpawnId 22
 ObjectTemplate.setGroup 5
 
 rem ----------------------------------------- 
-rem ---  ImperialPlatform_Spawn7  ---
+rem ---  Central_Platform_Spawn5  ---
 rem ----------------------------------------- 
-ObjectTemplate.create SpawnPoint ImperialPlatform_Spawn7
+ObjectTemplate.create SpawnPoint Central_Platform_Spawn5
 ObjectTemplate.setSpawnId 23
 ObjectTemplate.setGroup 5
 
 rem ----------------------------------------- 
-rem ---  ImperialPlatform_Spawn8  ---
+rem ---  Court_Yard_Spawn1  ---
 rem ----------------------------------------- 
-ObjectTemplate.create SpawnPoint ImperialPlatform_Spawn8
+ObjectTemplate.create SpawnPoint Court_Yard_Spawn1
 ObjectTemplate.setSpawnId 24
-ObjectTemplate.setGroup 5
+ObjectTemplate.setGroup 7
 
 rem ----------------------------------------- 
-rem ---  RebelPlatform_Spawn1  ---
+rem ---  Court_Yard_Spawn2  ---
 rem ----------------------------------------- 
-ObjectTemplate.create SpawnPoint RebelPlatform_Spawn1
+ObjectTemplate.create SpawnPoint Court_Yard_Spawn2
 ObjectTemplate.setSpawnId 25
-ObjectTemplate.setGroup 1
+ObjectTemplate.setGroup 7
 
 rem ----------------------------------------- 
-rem ---  RebelPlatform_Spawn2  ---
+rem ---  Court_Yard_Spawn3  ---
 rem ----------------------------------------- 
-ObjectTemplate.create SpawnPoint RebelPlatform_Spawn2
+ObjectTemplate.create SpawnPoint Court_Yard_Spawn3
+ObjectTemplate.setSpawnId 26
+ObjectTemplate.setGroup 7
+
+rem ----------------------------------------- 
+rem ---  Court_Yard_Spawn4  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Court_Yard_Spawn4
 ObjectTemplate.setSpawnId 27
-ObjectTemplate.setGroup 1
-
-rem ----------------------------------------- 
-rem ---  RebelPlatform_Spawn3  ---
-rem ----------------------------------------- 
-ObjectTemplate.create SpawnPoint RebelPlatform_Spawn3
-ObjectTemplate.setSpawnId 29
-ObjectTemplate.setGroup 1
-
-rem ----------------------------------------- 
-rem ---  RebelPlatform_Spawn4  ---
-rem ----------------------------------------- 
-ObjectTemplate.create SpawnPoint RebelPlatform_Spawn4
-ObjectTemplate.setSpawnId 30
-ObjectTemplate.setGroup 1
-
-rem ----------------------------------------- 
-rem ---  RebelPlatform_Spawn5  ---
-rem ----------------------------------------- 
-ObjectTemplate.create SpawnPoint RebelPlatform_Spawn5
-ObjectTemplate.setSpawnId 31
-ObjectTemplate.setGroup 1
-
-rem ----------------------------------------- 
-rem ---  RebelPlatform_Spawn6  ---
-rem ----------------------------------------- 
-ObjectTemplate.create SpawnPoint RebelPlatform_Spawn6
-ObjectTemplate.setSpawnId 32
-ObjectTemplate.setGroup 1
-
-rem ----------------------------------------- 
-rem ---  RebelPlatform_Spawn7  ---
-rem ----------------------------------------- 
-ObjectTemplate.create SpawnPoint RebelPlatform_Spawn7
-ObjectTemplate.setSpawnId 33
-ObjectTemplate.setGroup 1
-
-rem ----------------------------------------- 
-rem ---  RebelPlatform_Spawn8  ---
-rem ----------------------------------------- 
-ObjectTemplate.create SpawnPoint RebelPlatform_Spawn8
-ObjectTemplate.setSpawnId 34
-ObjectTemplate.setGroup 1
-
-rem ----------------------------------------- 
-rem ---  LowerLevel_Spawn1  ---
-rem ----------------------------------------- 
-ObjectTemplate.create SpawnPoint LowerLevel_Spawn1
-ObjectTemplate.setSpawnId 37
-ObjectTemplate.setGroup 6
-
-rem ----------------------------------------- 
-rem ---  LowerLevel_Spawn2  ---
-rem ----------------------------------------- 
-ObjectTemplate.create SpawnPoint LowerLevel_Spawn2
-ObjectTemplate.setSpawnId 38
-ObjectTemplate.setGroup 6
-
-rem ----------------------------------------- 
-rem ---  LowerLevel_Spawn3  ---
-rem ----------------------------------------- 
-ObjectTemplate.create SpawnPoint LowerLevel_Spawn3
-ObjectTemplate.setSpawnId 39
-ObjectTemplate.setGroup 6
-
-rem ----------------------------------------- 
-rem ---  LowerLevel_Spawn4  ---
-rem ----------------------------------------- 
-ObjectTemplate.create SpawnPoint LowerLevel_Spawn4
-ObjectTemplate.setSpawnId 40
-ObjectTemplate.setGroup 6
-
-rem ----------------------------------------- 
-rem ---  UpperLevel_Spawn1  ---
-rem ----------------------------------------- 
-ObjectTemplate.create SpawnPoint UpperLevel_Spawn1
-ObjectTemplate.setSpawnId 41
-ObjectTemplate.setGroup 7
-
-rem ----------------------------------------- 
-rem ---  UpperLevel_Spawn2  ---
-rem ----------------------------------------- 
-ObjectTemplate.create SpawnPoint UpperLevel_Spawn2
-ObjectTemplate.setSpawnId 42
-ObjectTemplate.setGroup 7
-
-rem ----------------------------------------- 
-rem ---  UpperLevel_Spawn3  ---
-rem ----------------------------------------- 
-ObjectTemplate.create SpawnPoint UpperLevel_Spawn3
-ObjectTemplate.setSpawnId 43
-ObjectTemplate.setGroup 7
-
-rem ----------------------------------------- 
-rem ---  UpperLevel_Spawn4  ---
-rem ----------------------------------------- 
-ObjectTemplate.create SpawnPoint UpperLevel_Spawn4
-ObjectTemplate.setSpawnId 44
 ObjectTemplate.setGroup 7
 
 rem EndOfFile

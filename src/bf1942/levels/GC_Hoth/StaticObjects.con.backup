@@ -1,1402 +1,1418 @@
-rem ***  
+rem StaticObjects created by Battlecraft 1942
+rem
+rem ***  ***
+rem
+Object.create alliedairplaneammo
+Object.absolutePosition 776.74/34.35/103.27
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create alliedairplaneammo
+Object.absolutePosition 766.44/34.28/103.47
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
 Object.create rebtrans
-Object.absolutePosition 811.074/35.9777/39.2232
-Object.rotation 55.8159/0.0/0.0
+Object.absolutePosition 811.07/35.98/39.22
+Object.rotation 55.82/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create alliedairplaneammo
 Object.absolutePosition 407.73/4.69/395.58
-Object.Rotation 0/0/0
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create alliedairplaneammo
 Object.absolutePosition 391.73/4.72/379.58
-Object.Rotation 0/0/0
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create alliedairplaneammo
 Object.absolutePosition 419.73/4.97/407.58
-Object.Rotation 0/0/0
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create ambient-hangar
-Object.absolutePosition 408.42/4.7/399.77
-Object.Rotation 0/0/0
+Object.absolutePosition 408.42/4.70/399.77
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create ambient-radiochatter
-Object.absolutePosition 330.82/4.75/320.3
-Object.Rotation 0/0/0
+Object.absolutePosition 330.82/4.75/320.30
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create ambient-radiochatter
-Object.absolutePosition 336.47/4/317.2
-Object.Rotation 126/0/0
+Object.absolutePosition 336.47/4.00/317.20
+Object.rotation 126.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create ammobox
 Object.absolutePosition 538.16/14.28/689.81
-Object.Rotation 0/0/0
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create ammobox
 Object.absolutePosition 1353.29/16.01/1770.05
-Object.Rotation 0/0/0
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create ammobox
-Object.absolutePosition 1378.45/16.257/1787.93
-Object.Rotation 0/0/0
+Object.absolutePosition 1378.45/16.26/1787.93
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create ammobox
-Object.absolutePosition 1076/15.6/492
-Object.Rotation 0/0/0
+Object.absolutePosition 1076.00/15.60/492.00
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create ammobox
 Object.absolutePosition 992.07/17.06/807.49
-Object.Rotation 0/0/0
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create ammobox
 Object.absolutePosition 347.84/3.57/439.24
-Object.Rotation 16/0/0
+Object.rotation 16.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create ammobox
-Object.absolutePosition 558.72/14.39/585.2
-Object.Rotation 0/0/0
+Object.absolutePosition 558.72/14.39/585.20
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create ammobox
 Object.absolutePosition 630.16/14.13/454.17
-Object.Rotation 0/0/0
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create ammobox
-Object.absolutePosition 516.4/14.43/656.16
-Object.Rotation 0/0/0
+Object.absolutePosition 516.40/14.43/656.16
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create ammobox
 Object.absolutePosition 1053.56/14.63/778.05
-Object.Rotation 138/0/0
+Object.rotation 138.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create ammobox
-Object.absolutePosition 1124.13/15.6/579.63
-Object.Rotation 0/0/0
+Object.absolutePosition 1124.13/15.60/579.63
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create atatbarge
-Object.absolutePosition 1472.9/15.6/1719.51
-Object.Rotation 70/0/0
+Object.absolutePosition 1472.90/15.60/1719.51
+Object.rotation 70.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create atatbarge
 Object.absolutePosition 1338.47/21.93/1668.06
-Object.Rotation 21.25/0/0
+Object.rotation 21.25/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create atatdeadfront1
 Object.absolutePosition 1001.73/15.33/827.09
-Object.Rotation -128/0/0
+Object.rotation -128.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create atatdeadfront1
-Object.absolutePosition 1148.08/19.83/1235.9
-Object.Rotation -149.84/0.5/90
+Object.absolutePosition 1148.08/19.83/1235.90
+Object.rotation -149.84/0.50/90.00
 rem
 rem ***  ***
 rem
 Object.create axisairplaneammo
-Object.absolutePosition 415.73/4.75/411.58
-Object.Rotation 0/0/0
-rem
-rem ***  ***
-rem
-Object.create axisairplaneammo
-Object.absolutePosition 1289.43/16.01/1803.3
-Object.Rotation 0/0/0
+Object.absolutePosition 1289.43/16.01/1803.30
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create axisairplaneammo
 Object.absolutePosition 1289.39/16.01/1774.37
-Object.Rotation 0/0/0
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create axisairplaneammo
 Object.absolutePosition 1272.61/16.01/1733.51
-Object.Rotation 0/0/0
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create axisairplaneammo
-Object.absolutePosition 1275.3/16.06/1788.24
-Object.Rotation 0/0/0
+Object.absolutePosition 1275.30/16.06/1788.24
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create axisairplaneammo
-Object.absolutePosition 1248/15.65/1692
-Object.Rotation 0/0/0
+Object.absolutePosition 1248.00/15.65/1692.00
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create axisairplaneammo
-Object.absolutePosition 1188/15.62/1692
-Object.Rotation 0/0/0
+Object.absolutePosition 1188.00/15.62/1692.00
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create axisairplaneammo
-Object.absolutePosition 1272.89/15.6/1757.58
-Object.Rotation 0/0/0
+Object.absolutePosition 1272.89/15.60/1757.58
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create axisairplaneammo
-Object.absolutePosition 1217.95/15.6/1718.18
-Object.Rotation 0/0/0
+Object.absolutePosition 1217.95/15.60/1718.18
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create axisairplaneammo
-Object.absolutePosition 1216/15.6/1684
-Object.Rotation 0/0/0
+Object.absolutePosition 1216.00/15.60/1684.00
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create axisairplaneammo
-Object.absolutePosition 387.73/4.74/383.58
-Object.Rotation 0/0/0
-rem
-rem ***  ***
-rem
-Object.create axisairplaneammo
-Object.absolutePosition 403.73/4.55/399.58
-Object.Rotation 0/0/0
-rem
-rem ***  ***
-rem
-Object.create axisairplaneammo
-Object.absolutePosition 1279.83/16.07/1823.7
-Object.Rotation 0/0/0
+Object.absolutePosition 1279.83/16.07/1823.70
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create axisairplaneammo
 Object.absolutePosition 1259.29/16.01/1802.78
-Object.Rotation 0/0/0
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create axisairplaneammo
-Object.absolutePosition 1256.5/16.01/1774.41
-Object.Rotation 0/0/0
+Object.absolutePosition 1256.50/16.01/1774.41
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create axisairplaneammo
-Object.absolutePosition 1233.4/16.04/1741.27
-Object.Rotation 0/0/0
+Object.absolutePosition 1233.40/16.04/1741.27
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create axisairplaneammo
-Object.absolutePosition 1260/16.01/1752
-Object.Rotation 0/0/0
+Object.absolutePosition 1260.00/16.01/1752.00
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create axisairplaneammo
 Object.absolutePosition 1247.23/15.77/1717.79
-Object.Rotation 0/0/0
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create echo_chair
-Object.absolutePosition 323.46/3.06/323.4
-Object.Rotation -15/-90/-90
+Object.absolutePosition 323.46/3.06/323.40
+Object.rotation -15.00/-90.00/-90.00
 rem
 rem ***  ***
 rem
 Object.create echo_chair
 Object.absolutePosition 331.65/2.74/318.84
-Object.Rotation -14/0/0
+Object.rotation -14.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create echo_chair
 Object.absolutePosition 329.09/2.74/319.35
-Object.Rotation -139/0/0
+Object.rotation -139.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create echo_chair
 Object.absolutePosition 335.66/2.74/313.94
-Object.Rotation 6/0/0
+Object.rotation 6.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create echo_chair
 Object.absolutePosition 334.11/2.74/316.74
-Object.Rotation -119/0/0
+Object.rotation -119.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create echo_contpan
-Object.absolutePosition 336.87/2.73/313.67
-Object.Rotation -139/0/0
+Object.absolutePosition 336.65/2.73/313.40
+Object.rotation -139.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create echo_contpan
 Object.absolutePosition 327.94/2.73/321.22
-Object.Rotation -139/0/0
+Object.rotation -139.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create echo_contpan
 Object.absolutePosition 328.72/2.73/320.53
-Object.Rotation 41/0/0
+Object.rotation 41.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create echo_contpan
 Object.absolutePosition 332.87/2.73/316.93
-Object.Rotation 41/0/0
+Object.rotation 41.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create echo_contpan
 Object.absolutePosition 332.08/2.73/317.61
-Object.Rotation -139/0/0
+Object.rotation -139.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create echo_contpan
-Object.absolutePosition 338.61/2.73/315.66
-Object.Rotation -139/0/0
+Object.absolutePosition 338.34/2.73/315.38
+Object.rotation -139.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create echo_contpan
 Object.absolutePosition 324.07/2.73/324.58
-Object.Rotation 41/0/0
+Object.rotation 41.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create echo_control
 Object.absolutePosition 335.13/2.56/324.54
-Object.Rotation -139/0/0
+Object.rotation -139.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create echo_control_top
-Object.absolutePosition 335.61/3.1/325.04
-Object.Rotation 41/0/0
+Object.absolutePosition 335.61/3.10/325.04
+Object.rotation 41.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create echo_floorlight
 Object.absolutePosition 410.16/3.87/374.18
-Object.Rotation 41/0/0
+Object.rotation 41.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create echo_floorlight
-Object.absolutePosition 429.9/3.87/396.88
-Object.Rotation 41/0/0
+Object.absolutePosition 429.90/3.87/396.88
+Object.rotation 41.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create echo_floorlight
-Object.absolutePosition 446/3.87/417.22
-Object.Rotation 41/0/0
+Object.absolutePosition 446.00/3.87/417.22
+Object.rotation 41.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create echo_floorlight
 Object.absolutePosition 483.99/3.87/385.13
-Object.Rotation 41/0/0
+Object.rotation 41.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create echo_floorlight
 Object.absolutePosition 466.22/3.87/364.69
-Object.Rotation 41/0/0
+Object.rotation 41.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create echo_floorlight
-Object.absolutePosition 446.41/3.87/341.9
-Object.Rotation 41/0/0
+Object.absolutePosition 446.41/3.87/341.90
+Object.rotation 41.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create echo_floorlight
 Object.absolutePosition 427.85/3.87/320.55
-Object.Rotation 41/0/0
+Object.rotation 41.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create echo_floorlight
 Object.absolutePosition 412.67/3.87/303.09
-Object.Rotation 41/0/0
+Object.rotation 41.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create echo_floorlight
-Object.absolutePosition 390.43/3.87/430.8
-Object.Rotation 41/0/0
+Object.absolutePosition 390.43/3.87/430.80
+Object.rotation 41.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create echo_floorlight
 Object.absolutePosition 371.01/3.87/408.45
-Object.Rotation 41/0/0
+Object.rotation 41.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create echo_floorlight
-Object.absolutePosition 351.7/3.87/386.24
-Object.Rotation 41/0/0
+Object.absolutePosition 351.70/3.87/386.24
+Object.rotation 41.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create echo_floorlight
 Object.absolutePosition 336.03/3.87/368.21
-Object.Rotation 41/0/0
+Object.rotation 41.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create echo_floorlight
-Object.absolutePosition 391.15/3.87/352.3
-Object.Rotation 41/0/0
+Object.absolutePosition 391.15/3.87/352.30
+Object.rotation 41.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create echo_floorlight
 Object.absolutePosition 375.69/3.87/334.52
-Object.Rotation 41/0/0
+Object.rotation 41.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create echo_floorlight
-Object.absolutePosition 346.3/3.87/429.72
-Object.Rotation 41/0/0
+Object.absolutePosition 346.30/3.87/429.72
+Object.rotation 41.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create echo_floorlight
 Object.absolutePosition 366.17/3.87/452.59
-Object.Rotation -139/0/0
+Object.rotation -139.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create echo_floorlight
 Object.absolutePosition 363.31/3.87/376.43
-Object.Rotation -139/0/0
+Object.rotation -139.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create echo_floorlight
-Object.absolutePosition 382.42/3.87/398.4
-Object.Rotation -139/0/0
+Object.absolutePosition 382.42/3.87/398.40
+Object.rotation -139.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create echo_floorlight
 Object.absolutePosition 401.98/3.87/420.91
-Object.Rotation -139/0/0
+Object.rotation -139.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create echo_floorlight
 Object.absolutePosition 419.37/3.87/439.45
-Object.Rotation -139/0/0
+Object.rotation -139.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create echo_floorlight
-Object.absolutePosition 386.9/3.87/324.65
-Object.Rotation -139/0/0
+Object.absolutePosition 386.90/3.87/324.65
+Object.rotation -139.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create echo_floorlight
 Object.absolutePosition 402.54/3.87/342.65
-Object.Rotation -139/0/0
+Object.rotation -139.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create echo_floorlight
 Object.absolutePosition 421.19/3.87/364.11
-Object.Rotation -139/0/0
+Object.rotation -139.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create echo_floorlight
 Object.absolutePosition 440.82/3.87/386.69
-Object.Rotation -139/0/0
+Object.rotation -139.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create echo_floorlight
 Object.absolutePosition 458.73/3.87/407.29
-Object.Rotation -139/0/0
+Object.rotation -139.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create echo_floorlight
 Object.absolutePosition 311.21/3.87/389.36
-Object.Rotation -139/0/0
+Object.rotation -139.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create echo_floorlight
 Object.absolutePosition 348.62/3.87/356.93
-Object.Rotation -139/0/0
+Object.rotation -139.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create echo_floorlight
 Object.absolutePosition 326.97/3.87/407.48
-Object.Rotation -139/0/0
+Object.rotation -139.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create echo_hall
-Object.absolutePosition 328.68/3.7/343.28
-Object.Rotation -139/0/0
+Object.absolutePosition 328.68/3.70/343.28
+Object.rotation -139.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create echo_hanger1
-Object.absolutePosition 434.67/3.58/352.3
-Object.Rotation -139/0/0
+Object.absolutePosition 434.67/3.58/352.30
+Object.rotation -139.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create echo_hanger2
 Object.absolutePosition 395.91/3.72/385.69
-Object.Rotation -139/0/0
+Object.rotation -139.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create echo_hanger3
-Object.absolutePosition 357.76/2.4/418.93
-Object.Rotation -139/0/0
+Object.absolutePosition 357.76/2.40/418.93
+Object.rotation -139.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create echo_highlight
 Object.absolutePosition 343.23/5.46/331.71
-Object.Rotation -139/0/0
+Object.rotation -139.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create echo_highlight
 Object.absolutePosition 340.97/5.46/333.67
-Object.Rotation 41/0/0
+Object.rotation 41.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create echo_ice
 Object.absolutePosition 306.21/3.65/339.51
-Object.Rotation -54/0/0
+Object.rotation -54.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create echo_ice
 Object.absolutePosition 322.42/3.69/344.26
-Object.Rotation 81/0/0
+Object.rotation 81.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create echo_lights
-Object.absolutePosition 367.65/2/353.18
-Object.Rotation -139/0/0
+Object.absolutePosition 367.65/2.00/353.18
+Object.rotation -139.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create echo_map
 Object.absolutePosition 333.45/3.07/327.79
-Object.Rotation -50/0/0
+Object.rotation -50.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create echo_map
 Object.absolutePosition 337.89/3.07/321.18
-Object.Rotation -49/0/0
+Object.rotation -49.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create echo_map
 Object.absolutePosition 335.74/3.07/323.87
-Object.Rotation -139/0/0
+Object.rotation -139.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create echo_medlight
 Object.absolutePosition 345.71/6.66/338.99
-Object.Rotation -49/0/0
+Object.rotation -49.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create echo_medlight
 Object.absolutePosition 351.77/6.66/333.67
-Object.Rotation -139/0/0
+Object.rotation -139.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create echo_medlight
 Object.absolutePosition 355.16/6.66/330.72
-Object.Rotation -139/0/0
+Object.rotation -139.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create echo_medlight
 Object.absolutePosition 348.94/6.66/336.13
-Object.Rotation -139/0/0
+Object.rotation -139.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create echo_medlight
 Object.absolutePosition 349.23/6.66/343.04
-Object.Rotation -49/0/0
+Object.rotation -49.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create echo_medroom
 Object.absolutePosition 351.91/3.67/336.27
-Object.Rotation -139/0/0
+Object.rotation -139.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create echo_mountain
-Object.absolutePosition 369.6/2.27/354.98
-Object.Rotation -139/0/0
+Object.absolutePosition 369.60/2.27/354.98
+Object.rotation -139.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create echo_pan1
 Object.absolutePosition 356.74/4.72/339.99
-Object.Rotation -139/0/0
+Object.rotation -139.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create echo_pan1
-Object.absolutePosition 350.43/4.72/345.6
-Object.Rotation -139/0/0
+Object.absolutePosition 350.43/4.72/345.60
+Object.rotation -139.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create echo_pan1
 Object.absolutePosition 351.55/4.72/344.62
-Object.Rotation -139/0/0
+Object.rotation -139.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create echo_pan1
 Object.absolutePosition 356.48/4.72/340.22
-Object.Rotation -139/0/0
+Object.rotation -139.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create echo_pan3
 Object.absolutePosition 350.54/4.62/332.05
-Object.Rotation 41/0/0
+Object.rotation 41.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create echo_pan3
 Object.absolutePosition 347.75/5.03/334.47
-Object.Rotation -139/0/0
+Object.rotation -139.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create echo_pan3
 Object.absolutePosition 357.89/4.62/339.15
-Object.Rotation -49/0/0
+Object.rotation -49.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create echo_pan3
 Object.absolutePosition 360.63/4.49/333.05
-Object.Rotation 41/0/0
+Object.rotation 41.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create echo_toplights
 Object.absolutePosition 333.03/6.39/342.35
-Object.Rotation -139/0/0
+Object.rotation -139.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create echo_tubes
 Object.absolutePosition 351.76/5.52/336.55
-Object.Rotation -139/0/0
+Object.rotation -139.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create echo_wallgrate
 Object.absolutePosition 356.42/3.92/322.57
-Object.Rotation -49/8/0
+Object.rotation -49.00/8.00/0.00
 rem
 rem ***  ***
 rem
 Object.create echo_wallgrate
 Object.absolutePosition 338.58/3.97/336.13
-Object.Rotation 41/11/0
+Object.rotation 41.00/11.00/0.00
 rem
 rem ***  ***
 rem
 Object.create echo_wallplanel
 Object.absolutePosition 334.88/2.75/325.66
-Object.Rotation -139/0/0
+Object.rotation -139.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create echocontrolpanel
 Object.absolutePosition 1464.26/66.28/1728.49
-Object.Rotation 160/0/0
+Object.rotation 160.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create healthpack
-Object.absolutePosition 1030.34/15.99/922.4
-Object.Rotation 0/0/0
+Object.absolutePosition 1030.34/15.99/922.40
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create hothcratedark
-Object.absolutePosition 335.4/3.9/395.1
-Object.Rotation 6.75/0/0
+Object.absolutePosition 335.40/3.90/395.10
+Object.rotation 6.75/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create hothcratedark
 Object.absolutePosition 783.65/30.53/112.47
-Object.Rotation 58/0/0
+Object.rotation 58.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create hothcratedark
 Object.absolutePosition 363.33/3.64/341.26
-Object.Rotation 45/0/0
+Object.rotation 45.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create hothcratedark
 Object.absolutePosition 349.73/3.79/428.77
-Object.Rotation 102.5/0/0
+Object.rotation 102.50/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create hothcratedark
 Object.absolutePosition 345.42/6.17/438.34
-Object.Rotation 16/0/0
+Object.rotation 16.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create hothcratedark
 Object.absolutePosition 357.85/3.14/446.84
-Object.Rotation 16/0/0
+Object.rotation 16.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create hothcratedark
 Object.absolutePosition 783.24/33.13/112.39
-Object.Rotation 58/0/0
+Object.rotation 58.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create hothcratedark
 Object.absolutePosition 343.38/6.43/425.08
-Object.Rotation 16/0/0
+Object.rotation 16.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create hothcratedark
-Object.absolutePosition 330.32/3.9/373.16
-Object.Rotation -17.5/0/0
+Object.absolutePosition 330.32/3.90/373.16
+Object.rotation -17.50/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create hothcratedark
-Object.absolutePosition 334.46/3.9/369.79
-Object.Rotation 26.75/0/0
+Object.absolutePosition 334.46/3.90/369.79
+Object.rotation 26.75/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create hothcratedark
-Object.absolutePosition 333.45/3.9/372.88
-Object.Rotation 6.75/0/0
+Object.absolutePosition 333.45/3.90/372.88
+Object.rotation 6.75/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create hothcratedark
-Object.absolutePosition 332.92/6.4/372.17
-Object.Rotation -55.25/0/0
+Object.absolutePosition 332.92/6.40/372.17
+Object.rotation -55.25/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create hothcratedark
 Object.absolutePosition 343.79/3.83/425.17
-Object.Rotation 16/0/0
+Object.rotation 16.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create hothcrategrey
 Object.absolutePosition 330.05/6.34/371.01
-Object.Rotation -55.25/0/0
+Object.rotation -55.25/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create hothcrategrey
-Object.absolutePosition 332.2/6.32/369.34
-Object.Rotation 36.5/0/0
+Object.absolutePosition 332.20/6.32/369.34
+Object.rotation 36.50/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create hothcrategrey
 Object.absolutePosition 331.94/3.87/369.02
-Object.Rotation 36.5/0/0
+Object.rotation 36.50/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create hothcrategrey
-Object.absolutePosition 333.61/3.8/422.97
-Object.Rotation 16/0/0
+Object.absolutePosition 333.61/3.80/422.97
+Object.rotation 16.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create hothcrategrey
 Object.absolutePosition 338.37/3.87/421.94
-Object.Rotation 16/0/0
+Object.rotation 16.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create hothcrategrey
 Object.absolutePosition 333.39/3.83/419.48
-Object.Rotation 4.75/0/0
+Object.rotation 4.75/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create hothcrategrey
-Object.absolutePosition 331.44/3.8/394.17
-Object.Rotation 55.25/0/0
+Object.absolutePosition 331.44/3.80/394.17
+Object.rotation 55.25/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create hothcrategrey
-Object.absolutePosition 415.36/3.85/301.6
-Object.Rotation -60.75/0/0
+Object.absolutePosition 415.36/3.85/301.60
+Object.rotation -60.75/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create hothcrategrey
 Object.absolutePosition 409.92/3.85/302.13
-Object.Rotation -60.75/0/0
+Object.rotation -60.75/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create hothcrategrey
 Object.absolutePosition 789.71/30.53/107.03
-Object.Rotation 105.25/0/0
+Object.rotation 105.25/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create hothcrategrey
 Object.absolutePosition 790.01/30.53/98.79
-Object.Rotation 36.75/0/0
+Object.rotation 36.75/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create hothcrategrey
-Object.absolutePosition 791.91/30.5/102.34
-Object.Rotation 48/0/0
+Object.absolutePosition 791.91/30.50/102.34
+Object.rotation 48.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create hothcrategrey
 Object.absolutePosition 358.85/3.26/343.97
-Object.Rotation -60.75/0/0
+Object.rotation -60.75/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create hothcrategrey
-Object.absolutePosition 346.22/3.8/419.16
-Object.Rotation 55.25/0/0
+Object.absolutePosition 346.22/3.80/419.16
+Object.rotation 55.25/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create hothcrategrey
 Object.absolutePosition 794.37/30.57/106.72
-Object.Rotation 48/0/0
+Object.rotation 48.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create hothcrategrey
-Object.absolutePosition 362.6/3.14/446.43
-Object.Rotation 63/0/0
+Object.absolutePosition 362.60/3.14/446.43
+Object.rotation 63.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create hothcrategrey
 Object.absolutePosition 345.48/3.55/438.31
-Object.Rotation 16/0/0
+Object.rotation 16.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create hothcrategrey
 Object.absolutePosition 356.26/5.14/448.86
-Object.Rotation 95/-42/0
+Object.rotation 95.00/-42.00/0.00
 rem
 rem ***  ***
 rem
 Object.create hothcrategrey
 Object.absolutePosition 344.86/3.88/429.95
-Object.Rotation 16/0/0
+Object.rotation 16.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create hothcrategrey
-Object.absolutePosition 338.4/3.83/426.86
-Object.Rotation 73.25/0/0
+Object.absolutePosition 338.40/3.83/426.86
+Object.rotation 73.25/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create hothcrategrey
-Object.absolutePosition 789.17/30.5/112.11
-Object.Rotation 87.25/0/0
+Object.absolutePosition 789.17/30.50/112.11
+Object.rotation 87.25/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create hothcrategrey
-Object.absolutePosition 323.21/3.9/375.59
-Object.Rotation 0/0/0
+Object.absolutePosition 323.21/3.90/375.59
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create hothfloor
-Object.absolutePosition 625.72/13.93/431.63
-Object.Rotation 89/0/0
+Object.absolutePosition 627.15/13.93/432.81
+Object.rotation 89.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create hothfloor
 Object.absolutePosition 522.51/14.28/678.83
-Object.Rotation 0/0/0
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create hothfloor
-Object.absolutePosition 625/14.14/500.84
-Object.Rotation 0/0/0
+Object.absolutePosition 625.00/14.14/500.84
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create hothfloor
 Object.absolutePosition 549.25/14.08/617.46
-Object.Rotation 43/0/0
+Object.rotation 43.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create hothfloor
 Object.absolutePosition 592.58/14.32/570.67
-Object.Rotation 0/0/0
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create hothhut1
 Object.absolutePosition 1880.96/32.37/524.19
-Object.Rotation -69.5/0/0
+Object.rotation -69.50/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create hothhut1
-Object.absolutePosition 1871.33/32.4/531.54
-Object.Rotation -177.75/0/0
+Object.absolutePosition 1871.33/32.40/531.54
+Object.rotation -177.75/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create hothhut1
-Object.absolutePosition 1874.1/32.99/509.11
-Object.Rotation -23.5/0/0
+Object.absolutePosition 1874.10/32.99/509.11
+Object.rotation -23.50/0.00/0.00
 rem
 rem ***  ***
 rem
-Object.create ioncannon
-Object.absolutePosition 356.21/15.84/553.07
-Object.Rotation 0/28.75/0
-rem
-rem ***  ***
-rem
-Object.create ioncannon
-Object.absolutePosition 356.21/15.84/553.07
-Object.Rotation 0/28.75/0
-rem
-rem ***  ***
-rem
-Object.create mediscanner
-Object.absolutePosition 361.81/3.77/335.91
-Object.Rotation 40.35/0/0
+rem Object.create ioncannon
+rem Object.absolutePosition 356.21/15.84/553.07
+rem Object.rotation 0.00/28.75/0.00
 rem
 rem ***  ***
 rem
 Object.create powergen
 Object.absolutePosition 537.34/14.02/597.32
-Object.Rotation -178.5/0/0
+Object.rotation -178.50/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create powergen
 Object.absolutePosition 566.11/14.35/568.13
-Object.Rotation -71.25/0/0
+Object.rotation -71.25/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create powergen
 Object.absolutePosition 564.77/14.03/608.01
-Object.Rotation -91.75/0/0
-rem
-rem ***  ***
-rem
-Object.create shieldgenerator
-Object.absolutePosition 1140.73/15.6/486.86
-Object.Rotation 49.25/0/0
+Object.rotation -91.75/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create trenchgrate
-Object.absolutePosition 596.2/14.26/511.8
-Object.Rotation -89/0/0
+Object.absolutePosition 596.20/14.26/511.80
+Object.rotation -89.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create trenchgrate
-Object.absolutePosition 596.2/14.26/499.03
-Object.Rotation -89/0/0
+Object.absolutePosition 596.20/14.26/499.03
+Object.rotation -89.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create trenchgrate
-Object.absolutePosition 596.2/14.26/525.45
-Object.Rotation -89/0/0
+Object.absolutePosition 596.20/14.26/525.45
+Object.rotation -89.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create trenchgrate
-Object.absolutePosition 533.98/14.38/652.2
-Object.Rotation 0/0/0
+Object.absolutePosition 533.98/14.38/652.20
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create trenchgrate
 Object.absolutePosition 540.09/14.38/663.02
-Object.Rotation 88/0/0
+Object.rotation 88.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create trenchgrate
-Object.absolutePosition 539.9/14.38/677.28
-Object.Rotation 88/0/0
+Object.absolutePosition 539.90/14.38/677.28
+Object.rotation 88.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create trenchgrate
 Object.absolutePosition 539.94/14.38/696.27
-Object.Rotation 88/0/0
+Object.rotation 88.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create trenchgrate
-Object.absolutePosition 596.2/14.42/539.77
-Object.Rotation -89/0/0
+Object.absolutePosition 596.20/14.42/539.77
+Object.rotation -89.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create trenchgrate
 Object.absolutePosition 592.38/14.42/551.88
-Object.Rotation 178/0/0
+Object.rotation 178.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create trenchgrate
 Object.absolutePosition 636.22/14.06/414.67
-Object.Rotation -89/0/0
+Object.rotation -89.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create trenchgrate
 Object.absolutePosition 578.64/14.42/551.88
-Object.Rotation 178/0/0
+Object.rotation 178.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create trenchgrate
 Object.absolutePosition 564.02/14.42/559.57
-Object.Rotation 90/0/0
+Object.rotation 90.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create trenchgrate
 Object.absolutePosition 564.02/14.42/572.36
-Object.Rotation 90/0/0
+Object.rotation 90.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create trenchgrate
 Object.absolutePosition 564.02/14.42/586.18
-Object.Rotation 90/0/0
+Object.rotation 90.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create trenchgrate
 Object.absolutePosition 564.02/14.42/599.66
-Object.Rotation 90/0/0
+Object.rotation 90.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create trenchgrate
-Object.absolutePosition 551.42/14.23/587.5
-Object.Rotation -5/0/0
+Object.absolutePosition 551.42/14.23/587.50
+Object.rotation -5.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create trenchgrate
-Object.absolutePosition 514.53/14.43/652.6
-Object.Rotation -6.25/0/0
+Object.absolutePosition 514.53/14.43/652.60
+Object.rotation -6.25/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create trenchgrate
-Object.absolutePosition 596.2/14.26/475.07
-Object.Rotation -89/0/0
+Object.absolutePosition 596.20/14.26/475.07
+Object.rotation -89.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create trenchgrate
 Object.absolutePosition 540.29/14.23/590.54
-Object.Rotation 87/0/0
+Object.rotation 87.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create trenchgrate
 Object.absolutePosition 524.25/14.38/652.31
-Object.Rotation 0/0/0
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create trenchgrate
-Object.absolutePosition 596.2/14.06/461.55
-Object.Rotation -89/0/0
+Object.absolutePosition 596.20/14.06/461.55
+Object.rotation -89.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create trenchgrate
 Object.absolutePosition 608.12/14.06/455.69
-Object.Rotation -180/0/0
+Object.rotation -180.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create trenchgrate
 Object.absolutePosition 539.87/14.23/605.65
-Object.Rotation 87/0/0
+Object.rotation 87.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create trenchgrate
 Object.absolutePosition 540.37/14.23/619.64
-Object.Rotation 97/0/0
+Object.rotation 97.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create trenchgrate
 Object.absolutePosition 540.73/14.23/632.82
-Object.Rotation 91/0/0
+Object.rotation 91.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create trenchgrate
 Object.absolutePosition 620.95/14.06/456.11
-Object.Rotation -180/0/0
+Object.rotation -180.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create trenchgrate
 Object.absolutePosition 635.64/14.06/449.31
-Object.Rotation -89/0/0
+Object.rotation -89.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create trenchgrate
 Object.absolutePosition 636.22/14.06/431.64
-Object.Rotation -89/0/0
+Object.rotation -89.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create trenchgrate
 Object.absolutePosition 540.85/14.38/647.84
-Object.Rotation 88/0/0
+Object.rotation 88.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create trenchgrate
-Object.absolutePosition 596.2/14.26/486.02
-Object.Rotation -89/0/0
+Object.absolutePosition 596.20/14.26/486.02
+Object.rotation -89.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create trenchlight
 Object.absolutePosition 591.66/16.22/544.34
-Object.Rotation -87/0/0
+Object.rotation -87.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create trenchlight
 Object.absolutePosition 591.59/16.36/526.85
-Object.Rotation -87/0/0
+Object.rotation -87.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create trenchlight
 Object.absolutePosition 591.59/16.59/508.42
-Object.Rotation -87/0/0
+Object.rotation -87.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create trenchlight
 Object.absolutePosition 591.59/15.18/475.41
-Object.Rotation -87/0/0
+Object.rotation -87.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create trenchlight
 Object.absolutePosition 591.59/15.02/457.24
-Object.Rotation -87/0/0
+Object.rotation -87.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create trenchlight
-Object.absolutePosition 631.2/17.13/449.52
-Object.Rotation -87/0/0
+Object.absolutePosition 631.20/17.13/449.52
+Object.rotation -87.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create trenchlight
 Object.absolutePosition 535.66/15.61/680.42
-Object.Rotation -87/0/0
+Object.rotation -87.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create trenchlight
 Object.absolutePosition 535.66/15.61/688.55
-Object.Rotation -87/0/0
+Object.rotation -87.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create trenchlight
 Object.absolutePosition 535.53/15.61/697.11
-Object.Rotation -87/0/0
+Object.rotation -87.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create trenchlight
-Object.absolutePosition 535.66/16.22/607.5
-Object.Rotation -87/0/0
+Object.absolutePosition 535.66/16.22/607.50
+Object.rotation -87.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create trenchlight
 Object.absolutePosition 535.66/16.22/590.37
-Object.Rotation -87/0/0
+Object.rotation -87.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create trenchlight
 Object.absolutePosition 559.15/15.95/574.27
-Object.Rotation -87/0/0
+Object.rotation -87.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create trenchlight
 Object.absolutePosition 559.15/15.97/559.13
-Object.Rotation -87/0/0
+Object.rotation -87.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create trenchlight
-Object.absolutePosition 2048/30.6/0
-Object.Rotation 0/0/0
+Object.absolutePosition 2048.00/30.60/0.00
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create wallsnow2
-Object.absolutePosition 1073.43/15.6/486.58
-Object.Rotation -96.25/0/0
+Object.absolutePosition 1073.43/15.60/486.58
+Object.rotation -96.25/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create wallsnow2
-Object.absolutePosition 1080.51/15.6/494.56
-Object.Rotation -3.75/0/0
+Object.absolutePosition 1080.51/15.60/494.56
+Object.rotation -3.75/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create wallsnow2
-Object.absolutePosition 1076.68/15.6/470.74
-Object.Rotation 68.25/0/0
+Object.absolutePosition 1076.68/15.60/470.74
+Object.rotation 68.25/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create wallsnow2
-Object.absolutePosition 1083.45/15.6/456.09
-Object.Rotation 62.25/0/0
+Object.absolutePosition 1083.45/15.60/456.09
+Object.rotation 62.25/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create wallsnow2
-Object.absolutePosition 1079.26/15.6/535.91
-Object.Rotation -63/0/0
+Object.absolutePosition 1079.26/15.60/535.91
+Object.rotation -63.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create wallsnow2
-Object.absolutePosition 1100.77/15.6/559.35
-Object.Rotation -42.25/0/0
+Object.absolutePosition 1100.77/15.60/559.35
+Object.rotation -42.25/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create wallsnow2
-Object.absolutePosition 1127.21/15.6/573.37
-Object.Rotation 46.5/0/0
+Object.absolutePosition 1127.21/15.60/573.37
+Object.rotation 46.50/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create wallsnow2
-Object.absolutePosition 1128.42/15.6/584.72
-Object.Rotation -41.75/0/0
+Object.absolutePosition 1128.42/15.60/584.72
+Object.rotation -41.75/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create wallsnow2
-Object.absolutePosition 1142.2/15.6/589.94
-Object.Rotation 0/0/0
+Object.absolutePosition 1142.20/15.60/589.94
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create wallsnow2
-Object.absolutePosition 1088.85/15.6/548.49
-Object.Rotation -42.5/0/0
+Object.absolutePosition 1088.85/15.60/548.49
+Object.rotation -42.50/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create wallsnow2
 Object.absolutePosition 1092.27/15.61/442.52
-Object.Rotation 51.75/0/0
+Object.rotation 51.75/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create wallsnow2
 Object.absolutePosition 1158.44/15.59/589.94
-Object.Rotation 0/0/0
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create wallsnow2
-Object.absolutePosition 1073.96/15.6/520.95
-Object.Rotation -78/0/0
+Object.absolutePosition 1073.96/15.60/520.95
+Object.rotation -78.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create wallsnow2
 Object.absolutePosition 1111.64/15.44/558.69
-Object.Rotation 46.5/0/0
+Object.rotation 46.50/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create wreckbundle1
-Object.absolutePosition 1528.06/31.2/863.42
-Object.Rotation 0/0/0
+Object.absolutePosition 1528.06/31.20/863.42
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create wreckbundle2
-Object.absolutePosition 856/16.73/980
-Object.Rotation 0/0/0
+Object.absolutePosition 856.00/16.73/980.00
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create wreckbundle2
-Object.absolutePosition 1160/16.89/844
-Object.Rotation 0/0/0
+Object.absolutePosition 1160.00/16.89/844.00
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create wreckbundle2
 Object.absolutePosition 721.53/19.13/854.41
-Object.Rotation 0/0/0
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create wreckbundle2
-Object.absolutePosition 771.31/24.6/1372.79
-Object.Rotation 0/0/0
+Object.absolutePosition 771.31/24.60/1372.79
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
-Object.create wreckbundle2
-Object.absolutePosition 378.77/5.92/446.57
-Object.Rotation 178/0/0
+rem Object.create wreckbundle2
+rem Object.absolutePosition 378.77/5.92/446.57
+rem Object.rotation 178.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create wreckbundle2
 Object.absolutePosition 591.63/15.88/736.98
-Object.Rotation -123/0/0
+Object.rotation -123.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create e_scrapmetalsmoke
 Object.absolutePosition 591.04/16.14/737.34
-Object.Rotation 0/0/0
+Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create sentrytowerbase
 Object.absolutePosition 589.12/15.94/544.52
-Object.Rotation 61/0/0
+Object.rotation 61.00/0.00/0.00
 rem
 rem ***  ***
 rem
 Object.create sentrytowerbase
 Object.absolutePosition 1134.51/15.79/587.27
-Object.Rotation -77/0/0
+Object.rotation -77.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ammobox
+Object.absolutePosition 636.01/14.13/417.53
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create swbf_arcade
+Object.absolutePosition 357.66/10.00/334.35
+Object.rotation -136.97/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ladder_7m_m1
+Object.absolutePosition 636.20/17.28/408.54
+Object.rotation 180.00/12.44/0.00
+rem
+rem ***  ***
+rem
+Object.create ladder_7m_m1
+Object.absolutePosition 516.93/19.18/645.09
+Object.rotation 180.00/24.51/0.00
+rem
+rem ***  ***
+rem
+Object.create axisairplaneammo
+Object.absolutePosition 1108.57/15.56/497.57
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create axisairplaneammo
+Object.absolutePosition 1122.24/15.56/506.30
+Object.rotation 0.00/0.00/0.00
+rem

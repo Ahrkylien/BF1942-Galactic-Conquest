@@ -1,0 +1,970 @@
+
+
+rem *** PodRacerEngine ***
+ObjectTemplate.create Engine PodRacerEngine
+ObjectTemplate.setNetworkableInfo PodRacerEngineInfo
+ObjectTemplate.loadSoundScript Sounds/PodRacerEngine.ssc
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.setMinRotation 0/0/-100
+ObjectTemplate.setMaxRotation 0/0/100
+ObjectTemplate.setMaxSpeed 0/0/1000
+ObjectTemplate.setAcceleration 0/0/3000
+ObjectTemplate.setInputToRoll c_PIThrottle
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setEngineType c_ETPlane
+ObjectTemplate.setTorque 800
+ObjectTemplate.setDifferential 200
+ObjectTemplate.setGearUp 1.0
+ObjectTemplate.setGearDown 0.3
+ObjectTemplate.addTemplate PodRacerFrontWheelR
+ObjectTemplate.setPosition 1.8/0.110001/9.43531
+ObjectTemplate.addTemplate PodRacerFrontWheelL
+ObjectTemplate.setPosition -1.8/0.110001/9.43531
+ObjectTemplate.addTemplate PodRacerBackSpringR
+ObjectTemplate.setPosition 1.8/-0.472/-6.52467
+ObjectTemplate.addTemplate PodRacerBackSpringL
+ObjectTemplate.setPosition -1.8/-0.472/-6.52467
+
+
+rem *** PodRacerTailEngine ***
+ObjectTemplate.create Engine PodRacerTailEngine
+ObjectTemplate.setNetworkableInfo PodRacerEngineInfo
+ObjectTemplate.loadSoundScript Sounds/PodRacer_Turn.ssc
+ObjectTemplate.setMinRotation 0/0/-15
+ObjectTemplate.setMaxRotation 0/0/15
+ObjectTemplate.setMaxSpeed 0/0/50
+ObjectTemplate.setAcceleration 0/0/1000
+ObjectTemplate.setInputToRoll c_PIYaw
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.rememberExcessInput 0
+ObjectTemplate.setEngineType c_ETPlane
+ObjectTemplate.setTorque 50
+ObjectTemplate.setDifferential 1
+
+
+rem *** PodRacerDEngine ***
+ObjectTemplate.create Engine PodRacerDEngine
+ObjectTemplate.setNetworkableInfo PodRacerEngineInfo
+ObjectTemplate.setMinRotation 0/0/20
+ObjectTemplate.setMaxRotation 0/0/200
+ObjectTemplate.setMaxSpeed 0/0/6000
+ObjectTemplate.setAcceleration 0/0/3000
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setEngineType c_ETPlane
+ObjectTemplate.setTorque 250
+ObjectTemplate.setDifferential 30
+ObjectTemplate.setInputToRoll c_PIAltFire
+
+
+rem *** PodRacerTurboEngine ***
+ObjectTemplate.create Engine PodRacerTurboEngine
+ObjectTemplate.setNetworkableInfo PodRacerEngineInfo
+ObjectTemplate.loadSoundScript Sounds/Podracer_TurboEngine.ssc
+ObjectTemplate.setMinRotation 0/0/0
+ObjectTemplate.setMaxRotation 0/0/1
+ObjectTemplate.setMaxSpeed 0/0/7000
+ObjectTemplate.setAcceleration 0/0/7000
+ObjectTemplate.setInputToRoll c_PIAltFire
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setEngineType c_ETPlane
+ObjectTemplate.setTorque 4000
+ObjectTemplate.setDifferential 400
+ObjectTemplate.HeatIncrement 0.1
+ObjectTemplate.InverseHeatBar 1
+ObjectTemplate.setHeatBarType B
+ObjectTemplate.CoolingFactor 0.15
+
+rem *** PodRacerFrontSpringR ***
+ObjectTemplate.create Spring PodRacerFrontSpringR
+ObjectTemplate.geometry Willy_WheelR_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFContactGrip
+ObjectTemplate.setStrength 50
+ObjectTemplate.setDamping 5
+ObjectTemplate.createInvisible 1
+
+
+rem *** PodRacerFrontSpringL ***
+ObjectTemplate.create Spring PodRacerFrontSpringL
+ObjectTemplate.geometry Willy_WheelL_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFContactGrip
+ObjectTemplate.setStrength 50
+ObjectTemplate.setDamping 5
+ObjectTemplate.createInvisible 1
+
+
+rem *** PodRacerBackSpringR ***
+ObjectTemplate.create Spring PodRacerBackSpringR
+ObjectTemplate.geometry Willy_WheelR_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFEngineGrip
+ObjectTemplate.setStrength 50
+ObjectTemplate.setDamping 5
+ObjectTemplate.createInvisible 1
+
+
+rem *** PodRacerBackSpringL ***
+ObjectTemplate.create Spring PodRacerBackSpringL
+ObjectTemplate.geometry Willy_WheelL_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFEngineGrip
+ObjectTemplate.setStrength 50
+ObjectTemplate.setDamping 5
+ObjectTemplate.createInvisible 1
+
+
+rem *** PodRacerRudderFront ***
+ObjectTemplate.create Wing PodRacerRudderFront
+ObjectTemplate.setNetworkableInfo WingInfo
+ObjectTemplate.setMinRotation 0/-8/0
+ObjectTemplate.setMaxRotation 0/8/0
+ObjectTemplate.setMaxSpeed 0/100/0
+ObjectTemplate.setAcceleration 0/-150/0
+ObjectTemplate.setInputToPitch c_PIYaw
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setWingLift 0
+ObjectTemplate.setFlapLift 10
+
+
+rem *** PodRacerRudderRear ***
+ObjectTemplate.create Wing PodRacerRudderRear
+ObjectTemplate.setNetworkableInfo WingInfo
+ObjectTemplate.setMinRotation 0/-8/0
+ObjectTemplate.setMaxRotation 0/8/0
+ObjectTemplate.setMaxSpeed 0/500/0
+ObjectTemplate.setAcceleration 0/1000/0
+ObjectTemplate.setInputToPitch c_PIYaw
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setWingLift 0
+ObjectTemplate.setFlapLift 10
+
+
+rem *** PodRacerAirBrake ***
+ObjectTemplate.create Wing PodRacerAirBrake
+ObjectTemplate.setNetworkableInfo WingInfo
+ObjectTemplate.setMinRotation 0/-12/0
+ObjectTemplate.setMaxRotation 0/12/0
+ObjectTemplate.setMaxSpeed 0/900/0
+ObjectTemplate.setAcceleration 0/5000/0
+ObjectTemplate.setInputToPitch c_PIRoll
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setWingLift 0
+ObjectTemplate.setFlapLift 20
+
+
+rem *** PodRacer_Floater ***
+ObjectTemplate.create FloatingBundle PodRacer_Floater
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.setHullHeight 2500
+ObjectTemplate.setFloatMaxLift 1.962
+ObjectTemplate.setFloatMinLift 1.962
+ObjectTemplate.setDragModifier 0
+ObjectTemplate.setMinRotation 0/5/0
+ObjectTemplate.setMaxRotation 0/5/0
+ObjectTemplate.setMaxSpeed 0/5/0
+ObjectTemplate.setAcceleration 0/4/0
+ObjectTemplate.setInputToPitch 0
+ObjectTemplate.setAutomaticReset 0
+
+
+rem *** PodRacer_WaterFloater ***
+ObjectTemplate.create FloatingBundle PodRacer_WaterFloater
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.setHullHeight 0.1
+ObjectTemplate.setFloatMaxLift 6
+ObjectTemplate.setFloatMinLift 6
+
+
+
+rem podracer1
+
+
+
+
+rem *** PodRacer1Engine ***
+ObjectTemplate.create Engine PodRacer1Engine
+ObjectTemplate.setNetworkableInfo PodRacer1EngineInfo
+ObjectTemplate.loadSoundScript Sounds/PodRacer1Engine.ssc
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.setMinRotation 0/0/-100
+ObjectTemplate.setMaxRotation 0/0/100
+ObjectTemplate.setMaxSpeed 0/0/1000
+ObjectTemplate.setAcceleration 0/0/3000
+ObjectTemplate.setInputToRoll c_PIThrottle
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setEngineType c_ETPlane
+ObjectTemplate.setTorque 800
+ObjectTemplate.setDifferential 200
+ObjectTemplate.setGearUp 1.0
+ObjectTemplate.setGearDown 0.3
+ObjectTemplate.addTemplate PodRacer1FrontWheelR
+ObjectTemplate.setPosition 1.8/0.110001/9.43531
+ObjectTemplate.addTemplate PodRacer1FrontWheelL
+ObjectTemplate.setPosition -1.8/0.110001/9.43531
+ObjectTemplate.addTemplate PodRacer1BackSpringR
+ObjectTemplate.setPosition 1.8/-0.472/-6.52467
+ObjectTemplate.addTemplate PodRacer1BackSpringL
+ObjectTemplate.setPosition -1.8/-0.472/-6.52467
+
+
+rem *** PodRacer1TailEngine ***
+ObjectTemplate.create Engine PodRacer1TailEngine
+ObjectTemplate.setNetworkableInfo PodRacer1EngineInfo
+ObjectTemplate.loadSoundScript Sounds/PodRacer1_Turn.ssc
+ObjectTemplate.setMinRotation 0/0/-15
+ObjectTemplate.setMaxRotation 0/0/15
+ObjectTemplate.setMaxSpeed 0/0/50
+ObjectTemplate.setAcceleration 0/0/1000
+ObjectTemplate.setInputToRoll c_PIYaw
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.rememberExcessInput 0
+ObjectTemplate.setEngineType c_ETPlane
+ObjectTemplate.setTorque 50
+ObjectTemplate.setDifferential 1
+
+
+rem *** PodRacer1DEngine ***
+ObjectTemplate.create Engine PodRacer1DEngine
+ObjectTemplate.setNetworkableInfo PodRacer1EngineInfo
+ObjectTemplate.setMinRotation 0/0/20
+ObjectTemplate.setMaxRotation 0/0/200
+ObjectTemplate.setMaxSpeed 0/0/6000
+ObjectTemplate.setAcceleration 0/0/3000
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setEngineType c_ETPlane
+ObjectTemplate.setTorque 250
+ObjectTemplate.setDifferential 30
+ObjectTemplate.setInputToRoll c_PIAltFire
+
+
+rem *** PodRacer1TurboEngine ***
+ObjectTemplate.create Engine PodRacer1TurboEngine
+ObjectTemplate.setNetworkableInfo PodRacer1EngineInfo
+ObjectTemplate.loadSoundScript Sounds/PodRacer1_TurboEngine.ssc
+ObjectTemplate.setMinRotation 0/0/0
+ObjectTemplate.setMaxRotation 0/0/1
+ObjectTemplate.setMaxSpeed 0/0/7000
+ObjectTemplate.setAcceleration 0/0/7000
+ObjectTemplate.setInputToRoll c_PIAltFire
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setEngineType c_ETPlane
+ObjectTemplate.setTorque 4000
+ObjectTemplate.setDifferential 400
+ObjectTemplate.HeatIncrement 0.1
+ObjectTemplate.InverseHeatBar 1
+ObjectTemplate.setHeatBarType B
+ObjectTemplate.CoolingFactor 0.15
+
+rem *** PodRacer1FrontSpringR ***
+ObjectTemplate.create Spring PodRacer1FrontSpringR
+ObjectTemplate.geometry Willy_WheelR_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFContactGrip
+ObjectTemplate.setStrength 50
+ObjectTemplate.setDamping 5
+ObjectTemplate.createInvisible 1
+
+
+rem *** PodRacer1FrontSpringL ***
+ObjectTemplate.create Spring PodRacer1FrontSpringL
+ObjectTemplate.geometry Willy_WheelL_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFContactGrip
+ObjectTemplate.setStrength 50
+ObjectTemplate.setDamping 5
+ObjectTemplate.createInvisible 1
+
+
+rem *** PodRacer1BackSpringR ***
+ObjectTemplate.create Spring PodRacer1BackSpringR
+ObjectTemplate.geometry Willy_WheelR_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFEngineGrip
+ObjectTemplate.setStrength 50
+ObjectTemplate.setDamping 5
+ObjectTemplate.createInvisible 1
+
+
+rem *** PodRacer1BackSpringL ***
+ObjectTemplate.create Spring PodRacer1BackSpringL
+ObjectTemplate.geometry Willy_WheelL_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFEngineGrip
+ObjectTemplate.setStrength 50
+ObjectTemplate.setDamping 5
+ObjectTemplate.createInvisible 1
+
+
+rem *** PodRacer1RudderFront ***
+ObjectTemplate.create Wing PodRacer1RudderFront
+ObjectTemplate.setNetworkableInfo WingInfo
+ObjectTemplate.setMinRotation 0/-8/0
+ObjectTemplate.setMaxRotation 0/8/0
+ObjectTemplate.setMaxSpeed 0/100/0
+ObjectTemplate.setAcceleration 0/-150/0
+ObjectTemplate.setInputToPitch c_PIYaw
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setWingLift 0
+ObjectTemplate.setFlapLift 10
+
+
+rem *** PodRacer1RudderRear ***
+ObjectTemplate.create Wing PodRacer1RudderRear
+ObjectTemplate.setNetworkableInfo WingInfo
+ObjectTemplate.setMinRotation 0/-8/0
+ObjectTemplate.setMaxRotation 0/8/0
+ObjectTemplate.setMaxSpeed 0/500/0
+ObjectTemplate.setAcceleration 0/1000/0
+ObjectTemplate.setInputToPitch c_PIYaw
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setWingLift 0
+ObjectTemplate.setFlapLift 10
+
+
+rem *** PodRacer1AirBrake ***
+ObjectTemplate.create Wing PodRacer1AirBrake
+ObjectTemplate.setNetworkableInfo WingInfo
+ObjectTemplate.setMinRotation 0/-12/0
+ObjectTemplate.setMaxRotation 0/12/0
+ObjectTemplate.setMaxSpeed 0/900/0
+ObjectTemplate.setAcceleration 0/5000/0
+ObjectTemplate.setInputToPitch c_PIRoll
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setWingLift 0
+ObjectTemplate.setFlapLift 20
+
+
+rem *** PodRacer1_Floater ***
+ObjectTemplate.create FloatingBundle PodRacer1_Floater
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.setHullHeight 2500
+ObjectTemplate.setFloatMaxLift 1.962
+ObjectTemplate.setFloatMinLift 1.962
+ObjectTemplate.setDragModifier 0
+ObjectTemplate.setMinRotation 0/5/0
+ObjectTemplate.setMaxRotation 0/5/0
+ObjectTemplate.setMaxSpeed 0/5/0
+ObjectTemplate.setAcceleration 0/4/0
+ObjectTemplate.setInputToPitch 0
+ObjectTemplate.setAutomaticReset 0
+
+
+rem *** PodRacer1_WaterFloater ***
+ObjectTemplate.create FloatingBundle PodRacer1_WaterFloater
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.setHullHeight 0.1
+ObjectTemplate.setFloatMaxLift 6
+ObjectTemplate.setFloatMinLift 6
+
+
+
+rem PodRacer2
+
+
+
+
+rem *** PodRacer2Engine ***
+ObjectTemplate.create Engine PodRacer2Engine
+ObjectTemplate.setNetworkableInfo PodRacer2EngineInfo
+ObjectTemplate.loadSoundScript Sounds/PodRacer2Engine.ssc
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.setMinRotation 0/0/-100
+ObjectTemplate.setMaxRotation 0/0/100
+ObjectTemplate.setMaxSpeed 0/0/1000
+ObjectTemplate.setAcceleration 0/0/3000
+ObjectTemplate.setInputToRoll c_PIThrottle
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setEngineType c_ETPlane
+ObjectTemplate.setTorque 800
+ObjectTemplate.setDifferential 200
+ObjectTemplate.setGearUp 1.0
+ObjectTemplate.setGearDown 0.3
+ObjectTemplate.addTemplate PodRacer2FrontWheelR
+ObjectTemplate.setPosition 1.8/0.110001/9.43531
+ObjectTemplate.addTemplate PodRacer2FrontWheelL
+ObjectTemplate.setPosition -1.8/0.110001/9.43531
+ObjectTemplate.addTemplate PodRacer2BackSpringR
+ObjectTemplate.setPosition 1.8/-0.472/-6.52467
+ObjectTemplate.addTemplate PodRacer2BackSpringL
+ObjectTemplate.setPosition -1.8/-0.472/-6.52467
+
+
+rem *** PodRacer2TailEngine ***
+ObjectTemplate.create Engine PodRacer2TailEngine
+ObjectTemplate.setNetworkableInfo PodRacer2EngineInfo
+ObjectTemplate.loadSoundScript Sounds/PodRacer2_Turn.ssc
+ObjectTemplate.setMinRotation 0/0/-15
+ObjectTemplate.setMaxRotation 0/0/15
+ObjectTemplate.setMaxSpeed 0/0/50
+ObjectTemplate.setAcceleration 0/0/1000
+ObjectTemplate.setInputToRoll c_PIYaw
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.rememberExcessInput 0
+ObjectTemplate.setEngineType c_ETPlane
+ObjectTemplate.setTorque 50
+ObjectTemplate.setDifferential 1
+
+
+rem *** PodRacer2DEngine ***
+ObjectTemplate.create Engine PodRacer2DEngine
+ObjectTemplate.setNetworkableInfo PodRacer2EngineInfo
+ObjectTemplate.setMinRotation 0/0/20
+ObjectTemplate.setMaxRotation 0/0/200
+ObjectTemplate.setMaxSpeed 0/0/6000
+ObjectTemplate.setAcceleration 0/0/3000
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setEngineType c_ETPlane
+ObjectTemplate.setTorque 250
+ObjectTemplate.setDifferential 30
+ObjectTemplate.setInputToRoll c_PIAltFire
+
+
+rem *** PodRacer2TurboEngine ***
+ObjectTemplate.create Engine PodRacer2TurboEngine
+ObjectTemplate.setNetworkableInfo PodRacer2EngineInfo
+ObjectTemplate.loadSoundScript Sounds/PodRacer2_TurboEngine.ssc
+ObjectTemplate.setMinRotation 0/0/0
+ObjectTemplate.setMaxRotation 0/0/1
+ObjectTemplate.setMaxSpeed 0/0/7000
+ObjectTemplate.setAcceleration 0/0/7000
+ObjectTemplate.setInputToRoll c_PIAltFire
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setEngineType c_ETPlane
+ObjectTemplate.setTorque 4000
+ObjectTemplate.setDifferential 400
+ObjectTemplate.HeatIncrement 0.1
+ObjectTemplate.InverseHeatBar 1
+ObjectTemplate.setHeatBarType B
+ObjectTemplate.CoolingFactor 0.15
+
+rem *** PodRacer2FrontSpringR ***
+ObjectTemplate.create Spring PodRacer2FrontSpringR
+ObjectTemplate.geometry Willy_WheelR_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFContactGrip
+ObjectTemplate.setStrength 50
+ObjectTemplate.setDamping 5
+ObjectTemplate.createInvisible 1
+
+
+rem *** PodRacer2FrontSpringL ***
+ObjectTemplate.create Spring PodRacer2FrontSpringL
+ObjectTemplate.geometry Willy_WheelL_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFContactGrip
+ObjectTemplate.setStrength 50
+ObjectTemplate.setDamping 5
+ObjectTemplate.createInvisible 1
+
+
+rem *** PodRacer2BackSpringR ***
+ObjectTemplate.create Spring PodRacer2BackSpringR
+ObjectTemplate.geometry Willy_WheelR_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFEngineGrip
+ObjectTemplate.setStrength 50
+ObjectTemplate.setDamping 5
+ObjectTemplate.createInvisible 1
+
+
+rem *** PodRacer2BackSpringL ***
+ObjectTemplate.create Spring PodRacer2BackSpringL
+ObjectTemplate.geometry Willy_WheelL_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFEngineGrip
+ObjectTemplate.setStrength 50
+ObjectTemplate.setDamping 5
+ObjectTemplate.createInvisible 1
+
+
+rem *** PodRacer2RudderFront ***
+ObjectTemplate.create Wing PodRacer2RudderFront
+ObjectTemplate.setNetworkableInfo WingInfo
+ObjectTemplate.setMinRotation 0/-8/0
+ObjectTemplate.setMaxRotation 0/8/0
+ObjectTemplate.setMaxSpeed 0/100/0
+ObjectTemplate.setAcceleration 0/-150/0
+ObjectTemplate.setInputToPitch c_PIYaw
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setWingLift 0
+ObjectTemplate.setFlapLift 10
+
+
+rem *** PodRacer2RudderRear ***
+ObjectTemplate.create Wing PodRacer2RudderRear
+ObjectTemplate.setNetworkableInfo WingInfo
+ObjectTemplate.setMinRotation 0/-8/0
+ObjectTemplate.setMaxRotation 0/8/0
+ObjectTemplate.setMaxSpeed 0/500/0
+ObjectTemplate.setAcceleration 0/1000/0
+ObjectTemplate.setInputToPitch c_PIYaw
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setWingLift 0
+ObjectTemplate.setFlapLift 10
+
+
+rem *** PodRacer2AirBrake ***
+ObjectTemplate.create Wing PodRacer2AirBrake
+ObjectTemplate.setNetworkableInfo WingInfo
+ObjectTemplate.setMinRotation 0/-12/0
+ObjectTemplate.setMaxRotation 0/12/0
+ObjectTemplate.setMaxSpeed 0/900/0
+ObjectTemplate.setAcceleration 0/5000/0
+ObjectTemplate.setInputToPitch c_PIRoll
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setWingLift 0
+ObjectTemplate.setFlapLift 20
+
+
+rem *** PodRacer2_Floater ***
+ObjectTemplate.create FloatingBundle PodRacer2_Floater
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.setHullHeight 2500
+ObjectTemplate.setFloatMaxLift 1.962
+ObjectTemplate.setFloatMinLift 1.962
+ObjectTemplate.setDragModifier 0
+ObjectTemplate.setMinRotation 0/5/0
+ObjectTemplate.setMaxRotation 0/5/0
+ObjectTemplate.setMaxSpeed 0/5/0
+ObjectTemplate.setAcceleration 0/4/0
+ObjectTemplate.setInputToPitch 0
+ObjectTemplate.setAutomaticReset 0
+
+
+rem *** PodRacer2_WaterFloater ***
+ObjectTemplate.create FloatingBundle PodRacer2_WaterFloater
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.setHullHeight 0.1
+ObjectTemplate.setFloatMaxLift 6
+ObjectTemplate.setFloatMinLift 6
+
+
+
+
+
+rem PodRacer3
+
+
+
+
+rem *** PodRacer3Engine ***
+ObjectTemplate.create Engine PodRacer3Engine
+ObjectTemplate.setNetworkableInfo PodRacer3EngineInfo
+ObjectTemplate.loadSoundScript Sounds/PodRacer3Engine.ssc
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.setMinRotation 0/0/-100
+ObjectTemplate.setMaxRotation 0/0/100
+ObjectTemplate.setMaxSpeed 0/0/1000
+ObjectTemplate.setAcceleration 0/0/3000
+ObjectTemplate.setInputToRoll c_PIThrottle
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setEngineType c_ETPlane
+ObjectTemplate.setTorque 800
+ObjectTemplate.setDifferential 200
+ObjectTemplate.setGearUp 1.0
+ObjectTemplate.setGearDown 0.3
+ObjectTemplate.addTemplate PodRacer3FrontWheelR
+ObjectTemplate.setPosition 1.8/0.110001/9.43531
+ObjectTemplate.addTemplate PodRacer3FrontWheelL
+ObjectTemplate.setPosition -1.8/0.110001/9.43531
+ObjectTemplate.addTemplate PodRacer3BackSpringR
+ObjectTemplate.setPosition 1.8/-0.472/-6.52467
+ObjectTemplate.addTemplate PodRacer3BackSpringL
+ObjectTemplate.setPosition -1.8/-0.472/-6.52467
+
+
+rem *** PodRacer3TailEngine ***
+ObjectTemplate.create Engine PodRacer3TailEngine
+ObjectTemplate.setNetworkableInfo PodRacer3EngineInfo
+ObjectTemplate.loadSoundScript Sounds/PodRacer3_Turn.ssc
+ObjectTemplate.setMinRotation 0/0/-15
+ObjectTemplate.setMaxRotation 0/0/15
+ObjectTemplate.setMaxSpeed 0/0/50
+ObjectTemplate.setAcceleration 0/0/1000
+ObjectTemplate.setInputToRoll c_PIYaw
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.rememberExcessInput 0
+ObjectTemplate.setEngineType c_ETPlane
+ObjectTemplate.setTorque 50
+ObjectTemplate.setDifferential 1
+
+
+rem *** PodRacer3DEngine ***
+ObjectTemplate.create Engine PodRacer3DEngine
+ObjectTemplate.setNetworkableInfo PodRacer3EngineInfo
+ObjectTemplate.setMinRotation 0/0/20
+ObjectTemplate.setMaxRotation 0/0/200
+ObjectTemplate.setMaxSpeed 0/0/6000
+ObjectTemplate.setAcceleration 0/0/3000
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setEngineType c_ETPlane
+ObjectTemplate.setTorque 250
+ObjectTemplate.setDifferential 30
+ObjectTemplate.setInputToRoll c_PIAltFire
+
+
+rem *** PodRacer3TurboEngine ***
+ObjectTemplate.create Engine PodRacer3TurboEngine
+ObjectTemplate.setNetworkableInfo PodRacer3EngineInfo
+ObjectTemplate.loadSoundScript Sounds/PodRacer3_TurboEngine.ssc
+ObjectTemplate.setMinRotation 0/0/0
+ObjectTemplate.setMaxRotation 0/0/1
+ObjectTemplate.setMaxSpeed 0/0/7000
+ObjectTemplate.setAcceleration 0/0/7000
+ObjectTemplate.setInputToRoll c_PIAltFire
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setEngineType c_ETPlane
+ObjectTemplate.setTorque 4000
+ObjectTemplate.setDifferential 400
+ObjectTemplate.HeatIncrement 0.1
+ObjectTemplate.InverseHeatBar 1
+ObjectTemplate.setHeatBarType B
+ObjectTemplate.CoolingFactor 0.15
+
+rem *** PodRacer3FrontSpringR ***
+ObjectTemplate.create Spring PodRacer3FrontSpringR
+ObjectTemplate.geometry Willy_WheelR_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFContactGrip
+ObjectTemplate.setStrength 50
+ObjectTemplate.setDamping 5
+ObjectTemplate.createInvisible 1
+
+
+rem *** PodRacer3FrontSpringL ***
+ObjectTemplate.create Spring PodRacer3FrontSpringL
+ObjectTemplate.geometry Willy_WheelL_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFContactGrip
+ObjectTemplate.setStrength 50
+ObjectTemplate.setDamping 5
+ObjectTemplate.createInvisible 1
+
+
+rem *** PodRacer3BackSpringR ***
+ObjectTemplate.create Spring PodRacer3BackSpringR
+ObjectTemplate.geometry Willy_WheelR_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFEngineGrip
+ObjectTemplate.setStrength 50
+ObjectTemplate.setDamping 5
+ObjectTemplate.createInvisible 1
+
+
+rem *** PodRacer3BackSpringL ***
+ObjectTemplate.create Spring PodRacer3BackSpringL
+ObjectTemplate.geometry Willy_WheelL_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFEngineGrip
+ObjectTemplate.setStrength 50
+ObjectTemplate.setDamping 5
+ObjectTemplate.createInvisible 1
+
+
+rem *** PodRacer3RudderFront ***
+ObjectTemplate.create Wing PodRacer3RudderFront
+ObjectTemplate.setNetworkableInfo WingInfo
+ObjectTemplate.setMinRotation 0/-8/0
+ObjectTemplate.setMaxRotation 0/8/0
+ObjectTemplate.setMaxSpeed 0/100/0
+ObjectTemplate.setAcceleration 0/-150/0
+ObjectTemplate.setInputToPitch c_PIYaw
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setWingLift 0
+ObjectTemplate.setFlapLift 10
+
+
+rem *** PodRacer3RudderRear ***
+ObjectTemplate.create Wing PodRacer3RudderRear
+ObjectTemplate.setNetworkableInfo WingInfo
+ObjectTemplate.setMinRotation 0/-8/0
+ObjectTemplate.setMaxRotation 0/8/0
+ObjectTemplate.setMaxSpeed 0/500/0
+ObjectTemplate.setAcceleration 0/1000/0
+ObjectTemplate.setInputToPitch c_PIYaw
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setWingLift 0
+ObjectTemplate.setFlapLift 10
+
+
+rem *** PodRacer3AirBrake ***
+ObjectTemplate.create Wing PodRacer3AirBrake
+ObjectTemplate.setNetworkableInfo WingInfo
+ObjectTemplate.setMinRotation 0/-12/0
+ObjectTemplate.setMaxRotation 0/12/0
+ObjectTemplate.setMaxSpeed 0/900/0
+ObjectTemplate.setAcceleration 0/5000/0
+ObjectTemplate.setInputToPitch c_PIRoll
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setWingLift 0
+ObjectTemplate.setFlapLift 20
+
+
+rem *** PodRacer3_Floater ***
+ObjectTemplate.create FloatingBundle PodRacer3_Floater
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.setHullHeight 2500
+ObjectTemplate.setFloatMaxLift 1.962
+ObjectTemplate.setFloatMinLift 1.962
+ObjectTemplate.setDragModifier 0
+ObjectTemplate.setMinRotation 0/5/0
+ObjectTemplate.setMaxRotation 0/5/0
+ObjectTemplate.setMaxSpeed 0/5/0
+ObjectTemplate.setAcceleration 0/4/0
+ObjectTemplate.setInputToPitch 0
+ObjectTemplate.setAutomaticReset 0
+
+
+rem *** PodRacer3_WaterFloater ***
+ObjectTemplate.create FloatingBundle PodRacer3_WaterFloater
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.setHullHeight 0.1
+ObjectTemplate.setFloatMaxLift 6
+ObjectTemplate.setFloatMinLift 6
+
+
+
+
+
+rem PodRacer4
+
+
+
+
+rem *** PodRacer4Engine ***
+ObjectTemplate.create Engine PodRacer4Engine
+ObjectTemplate.setNetworkableInfo PodRacer4EngineInfo
+ObjectTemplate.loadSoundScript Sounds/PodRacer4Engine.ssc
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.setMinRotation 0/0/-100
+ObjectTemplate.setMaxRotation 0/0/100
+ObjectTemplate.setMaxSpeed 0/0/1000
+ObjectTemplate.setAcceleration 0/0/3000
+ObjectTemplate.setInputToRoll c_PIThrottle
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setEngineType c_ETPlane
+ObjectTemplate.setTorque 800
+ObjectTemplate.setDifferential 200
+ObjectTemplate.setGearUp 1.0
+ObjectTemplate.setGearDown 0.3
+ObjectTemplate.addTemplate PodRacer4FrontWheelR
+ObjectTemplate.setPosition 1.8/0.110001/9.43531
+ObjectTemplate.addTemplate PodRacer4FrontWheelL
+ObjectTemplate.setPosition -1.8/0.110001/9.43531
+ObjectTemplate.addTemplate PodRacer4BackSpringR
+ObjectTemplate.setPosition 1.8/-0.472/-6.52467
+ObjectTemplate.addTemplate PodRacer4BackSpringL
+ObjectTemplate.setPosition -1.8/-0.472/-6.52467
+
+
+rem *** PodRacer4TailEngine ***
+ObjectTemplate.create Engine PodRacer4TailEngine
+ObjectTemplate.setNetworkableInfo PodRacer4EngineInfo
+ObjectTemplate.loadSoundScript Sounds/PodRacer4_Turn.ssc
+ObjectTemplate.setMinRotation 0/0/-15
+ObjectTemplate.setMaxRotation 0/0/15
+ObjectTemplate.setMaxSpeed 0/0/50
+ObjectTemplate.setAcceleration 0/0/1000
+ObjectTemplate.setInputToRoll c_PIYaw
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.rememberExcessInput 0
+ObjectTemplate.setEngineType c_ETPlane
+ObjectTemplate.setTorque 50
+ObjectTemplate.setDifferential 1
+
+
+rem *** PodRacer4DEngine ***
+ObjectTemplate.create Engine PodRacer4DEngine
+ObjectTemplate.setNetworkableInfo PodRacer4EngineInfo
+ObjectTemplate.setMinRotation 0/0/20
+ObjectTemplate.setMaxRotation 0/0/200
+ObjectTemplate.setMaxSpeed 0/0/6000
+ObjectTemplate.setAcceleration 0/0/3000
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setEngineType c_ETPlane
+ObjectTemplate.setTorque 250
+ObjectTemplate.setDifferential 30
+ObjectTemplate.setInputToRoll c_PIAltFire
+
+
+rem *** PodRacer4TurboEngine ***
+ObjectTemplate.create Engine PodRacer4TurboEngine
+ObjectTemplate.setNetworkableInfo PodRacer4EngineInfo
+ObjectTemplate.loadSoundScript Sounds/PodRacer4_TurboEngine.ssc
+ObjectTemplate.setMinRotation 0/0/0
+ObjectTemplate.setMaxRotation 0/0/1
+ObjectTemplate.setMaxSpeed 0/0/7000
+ObjectTemplate.setAcceleration 0/0/7000
+ObjectTemplate.setInputToRoll c_PIAltFire
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setEngineType c_ETPlane
+ObjectTemplate.setTorque 4000
+ObjectTemplate.setDifferential 400
+ObjectTemplate.HeatIncrement 0.1
+ObjectTemplate.InverseHeatBar 1
+ObjectTemplate.setHeatBarType B
+ObjectTemplate.CoolingFactor 0.15
+
+rem *** PodRacer4FrontSpringR ***
+ObjectTemplate.create Spring PodRacer4FrontSpringR
+ObjectTemplate.geometry Willy_WheelR_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFContactGrip
+ObjectTemplate.setStrength 50
+ObjectTemplate.setDamping 5
+ObjectTemplate.createInvisible 1
+
+
+rem *** PodRacer4FrontSpringL ***
+ObjectTemplate.create Spring PodRacer4FrontSpringL
+ObjectTemplate.geometry Willy_WheelL_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFContactGrip
+ObjectTemplate.setStrength 50
+ObjectTemplate.setDamping 5
+ObjectTemplate.createInvisible 1
+
+
+rem *** PodRacer4BackSpringR ***
+ObjectTemplate.create Spring PodRacer4BackSpringR
+ObjectTemplate.geometry Willy_WheelR_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFEngineGrip
+ObjectTemplate.setStrength 50
+ObjectTemplate.setDamping 5
+ObjectTemplate.createInvisible 1
+
+
+rem *** PodRacer4BackSpringL ***
+ObjectTemplate.create Spring PodRacer4BackSpringL
+ObjectTemplate.geometry Willy_WheelL_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.Grip c_PGFEngineGrip
+ObjectTemplate.setStrength 50
+ObjectTemplate.setDamping 5
+ObjectTemplate.createInvisible 1
+
+
+rem *** PodRacer4RudderFront ***
+ObjectTemplate.create Wing PodRacer4RudderFront
+ObjectTemplate.setNetworkableInfo WingInfo
+ObjectTemplate.setMinRotation 0/-8/0
+ObjectTemplate.setMaxRotation 0/8/0
+ObjectTemplate.setMaxSpeed 0/100/0
+ObjectTemplate.setAcceleration 0/-150/0
+ObjectTemplate.setInputToPitch c_PIYaw
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setWingLift 0
+ObjectTemplate.setFlapLift 10
+
+
+rem *** PodRacer4RudderRear ***
+ObjectTemplate.create Wing PodRacer4RudderRear
+ObjectTemplate.setNetworkableInfo WingInfo
+ObjectTemplate.setMinRotation 0/-8/0
+ObjectTemplate.setMaxRotation 0/8/0
+ObjectTemplate.setMaxSpeed 0/500/0
+ObjectTemplate.setAcceleration 0/1000/0
+ObjectTemplate.setInputToPitch c_PIYaw
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setWingLift 0
+ObjectTemplate.setFlapLift 10
+
+
+rem *** PodRacer4AirBrake ***
+ObjectTemplate.create Wing PodRacer4AirBrake
+ObjectTemplate.setNetworkableInfo WingInfo
+ObjectTemplate.setMinRotation 0/-12/0
+ObjectTemplate.setMaxRotation 0/12/0
+ObjectTemplate.setMaxSpeed 0/900/0
+ObjectTemplate.setAcceleration 0/5000/0
+ObjectTemplate.setInputToPitch c_PIRoll
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setWingLift 0
+ObjectTemplate.setFlapLift 20
+
+
+rem *** PodRacer4_Floater ***
+ObjectTemplate.create FloatingBundle PodRacer4_Floater
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.setHullHeight 2500
+ObjectTemplate.setFloatMaxLift 1.962
+ObjectTemplate.setFloatMinLift 1.962
+ObjectTemplate.setDragModifier 0
+ObjectTemplate.setMinRotation 0/5/0
+ObjectTemplate.setMaxRotation 0/5/0
+ObjectTemplate.setMaxSpeed 0/5/0
+ObjectTemplate.setAcceleration 0/4/0
+ObjectTemplate.setInputToPitch 0
+ObjectTemplate.setAutomaticReset 0
+
+
+rem *** PodRacer4_WaterFloater ***
+ObjectTemplate.create FloatingBundle PodRacer4_WaterFloater
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.setHullHeight 0.1
+ObjectTemplate.setFloatMaxLift 6
+ObjectTemplate.setFloatMinLift 6
+
+
+
+
+
+
+
+
+
+
+
+

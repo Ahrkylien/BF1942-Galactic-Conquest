@@ -1,0 +1,7 @@
+rem *** just an invisible shieldwall used for PodRacer map
+
+ObjectTemplate.create SimpleObject shieldplan
+ObjectTemplate.geometry shieldplan
+ObjectTemplate.setHasCollisionPhysics 1
+
+

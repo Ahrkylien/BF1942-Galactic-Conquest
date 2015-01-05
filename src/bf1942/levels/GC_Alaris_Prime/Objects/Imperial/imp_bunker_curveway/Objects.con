@@ -1,0 +1,3 @@
+ObjectTemplate.create SimpleObject imp_bunker_curveway
+ObjectTemplate.geometry imp_bunker_curveway
+ObjectTemplate.setHasCollisionPhysics 1

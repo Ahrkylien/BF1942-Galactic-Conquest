@@ -1,0 +1,26 @@
+GeometryTemplate.create StandardMesh jud_destr_door
+GeometryTemplate.file jud_destr_door
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 30
+GeometryTemplate.setLodDistance 2 50
+GeometryTemplate.setLodDistance 3 70
+GeometryTemplate.setLodDistance 4 100
+GeometryTemplate.setLodDistance 5 300
+
+GeometryTemplate.create StandardMesh jud_destr_door_wreck
+GeometryTemplate.file jud_destr_door_wreck
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 30
+GeometryTemplate.setLodDistance 2 50
+GeometryTemplate.setLodDistance 3 70
+GeometryTemplate.setLodDistance 4 100
+GeometryTemplate.setLodDistance 5 300
+
+GeometryTemplate.create StandardMesh jud_destr_doorShield
+GeometryTemplate.file jud_destr_doorShield
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 30
+GeometryTemplate.setLodDistance 2 50
+GeometryTemplate.setLodDistance 3 70
+GeometryTemplate.setLodDistance 4 100
+GeometryTemplate.setLodDistance 5 300

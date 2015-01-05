@@ -1,0 +1,46 @@
+rem ControlPoints.con created by Battlecraft 1942
+rem (E:\Battlefield\Mods\GCMOD\bf1942\levels\gc_ryloth/conquest/ControlPoints.con)
+
+rem ----------------------------------------- 
+rem ---  Main_Entrance  ---
+rem ----------------------------------------- 
+Object.create Main_Entrance
+Object.absolutePosition 827.61/94.70/1533.49
+
+rem ----------------------------------------- 
+rem ---  Rebel_LZ  ---
+rem ----------------------------------------- 
+Object.create Rebel_LZ
+Object.absolutePosition 1358.82/93.69/295.56
+
+rem ----------------------------------------- 
+rem ---  Mountain_Outpost  ---
+rem ----------------------------------------- 
+Object.create Mountain_Outpost
+Object.absolutePosition 657.43/103.62/1233.41
+
+rem ----------------------------------------- 
+rem ---  Forward_Fire_Base  ---
+rem ----------------------------------------- 
+Object.create Forward_Fire_Base
+Object.absolutePosition 772.10/72.50/565.70
+
+rem ----------------------------------------- 
+rem ---  Forward_Trenches  ---
+rem ----------------------------------------- 
+Object.create Forward_Trenches
+Object.absolutePosition 873.26/69.26/1015.18
+
+rem ----------------------------------------- 
+rem ---  Main_Base  ---
+rem ----------------------------------------- 
+Object.create Main_Base
+Object.absolutePosition 780.44/70.87/1428.54
+
+rem ----------------------------------------- 
+rem ---  Second_trench_line  ---
+rem ----------------------------------------- 
+Object.create Second_trench_line
+Object.absolutePosition 775.85/63.40/1247.77
+
+rem EndOfFile

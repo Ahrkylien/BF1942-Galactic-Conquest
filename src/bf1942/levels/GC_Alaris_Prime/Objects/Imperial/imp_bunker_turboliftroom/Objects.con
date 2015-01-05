@@ -1,0 +1,3 @@
+ObjectTemplate.create SimpleObject imp_bunker_turboliftroom
+ObjectTemplate.geometry imp_bunker_turboliftroom
+ObjectTemplate.setHasCollisionPhysics 1

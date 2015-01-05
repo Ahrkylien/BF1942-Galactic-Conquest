@@ -1,0 +1,4 @@
+ObjectTemplate.create SimpleObject wing
+ObjectTemplate.geometry wing
+ObjectTemplate.setHasCollisionPhysics 1
+objectTemplate.cullRadiusScale 3.0

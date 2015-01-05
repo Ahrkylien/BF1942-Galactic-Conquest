@@ -1,0 +1,4 @@
+ObjectTemplate.create SimpleObject imperial_hangar
+ObjectTemplate.geometry imperial_hangar
+ObjectTemplate.setHasCollisionPhysics 1
+objectTemplate.cullRadiusScale 3.0

@@ -1,0 +1,39 @@
+ObjectTemplate.create ObjectSpawner bunkerdoor
+ObjectTemplate.setObjectTemplate 2 endor_bunkerdoor
+ObjectTemplate.setObjectTemplate 1 endor_bunkerdoor
+ObjectTemplate.MinSpawnDelay 999999
+ObjectTemplate.MaxSpawnDelay 9999999
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 49
+ObjectTemplate.teamOnVehicle 1
+
+ObjectTemplate.create ObjectSpawner shoebox
+ObjectTemplate.setObjectTemplate 2 echotrolley
+ObjectTemplate.setObjectTemplate 1 echotrolley
+ObjectTemplate.SpawnDelay 25
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 1065353216
+
+ObjectTemplate.create ObjectSpawner probedroid
+ObjectTemplate.setObjectTemplate 2 probedroidcontrol
+ObjectTemplate.setObjectTemplate 1 probedroidcontrol
+ObjectTemplate.SpawnDelay 10
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 65347493
+
+ObjectTemplate.create ObjectSpawner spamcannon
+ObjectTemplate.setObjectTemplate 2 rebel_tracker
+ObjectTemplate.setObjectTemplate 1 tl-21_kit
+ObjectTemplate.MinSpawnDelay 10
+ObjectTemplate.MaxSpawnDelay 20
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 178237281
+

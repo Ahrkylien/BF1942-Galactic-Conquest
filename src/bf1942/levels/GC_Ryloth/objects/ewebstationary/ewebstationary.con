@@ -1,0 +1,7 @@
+run Network
+run Ai/Objects
+run Ai/Weapons
+run Objects2
+run geometries
+rem run Weapons
+run Objects

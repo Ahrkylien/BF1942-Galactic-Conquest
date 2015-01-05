@@ -1,0 +1,11 @@
+GeometryTemplate.create StandardMesh com_table
+GeometryTemplate.file buildings/Imperial/com_table
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+GeometryTemplate.setLodDistance 2 175
+GeometryTemplate.setLodDistance 3 250
+GeometryTemplate.setLodDistance 4 300
+GeometryTemplate.setLodDistance 5 400
+
+
+

@@ -1,0 +1,6 @@
+ObjectTemplate.create SimpleObject ambient-Endor
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.triggerRadius 1000
+objectTemplate.loadSoundScript Sounds/ambient-endor.ssc
+
+

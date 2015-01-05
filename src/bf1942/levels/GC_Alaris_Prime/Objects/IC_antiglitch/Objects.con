@@ -1,0 +1,4 @@
+ObjectTemplate.create SimpleObject IC_antiglitch
+ObjectTemplate.geometry IC_antiglitch
+ObjectTemplate.setHasCollisionPhysics 1
+

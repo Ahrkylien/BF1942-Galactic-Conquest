@@ -1,0 +1,3 @@
+ObjectTemplate.create SimpleObject imp_computer4
+ObjectTemplate.geometry imp_computer4
+ObjectTemplate.setHasCollisionPhysics 1

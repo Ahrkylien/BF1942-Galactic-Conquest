@@ -1,0 +1,255 @@
+rem ObjectSpawnTemplates.con created by Battlecraft 1942
+rem (E:\Battlefield\Mods\GCMOD\bf1942\levels\GC_Judicator/conquest/ObjectSpawnTemplates.con)
+
+rem ----------------------------------------- 
+rem ---  tl-21_kit_spawner  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner tl-21_kit_spawner
+ObjectTemplate.setObjectTemplate 1 tl-21_kit
+ObjectTemplate.setObjectTemplate 2 tl-21_kit
+ObjectTemplate.MinSpawnDelay 10
+ObjectTemplate.MaxSpawnDelay 20
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+rem ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.maxNrOfObjectSpawned 1
+rem ObjectTemplate.teamOnVehicle 0
+
+rem ----------------------------------------- 
+rem ---  New_tl_21_kit_spawner  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner new_tl_21_kit_spawner
+ObjectTemplate.setObjectTemplate 1 tl-21_kit
+ObjectTemplate.setObjectTemplate 2 tl-21_kit
+ObjectTemplate.MinSpawnDelay 10
+ObjectTemplate.MaxSpawnDelay 20
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+rem ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.maxNrOfObjectSpawned 1
+rem ObjectTemplate.teamOnVehicle 0
+
+rem ----------------------------------------- 
+rem ---  tracker_16_kit_spawner  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner tracker_16_kit_spawner
+ObjectTemplate.setObjectTemplate 1 Rebel_Tracker
+ObjectTemplate.setObjectTemplate 2 Rebel_Tracker
+ObjectTemplate.MinSpawnDelay 10
+ObjectTemplate.MaxSpawnDelay 20
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+rem ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.maxNrOfObjectSpawned 1
+rem ObjectTemplate.teamOnVehicle 0
+
+rem ----------------------------------------- 
+rem ---  Dressilian_kit_spawner  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner Dressilian_kit_spawner
+ObjectTemplate.setObjectTemplate 1 Dressilian_kit
+ObjectTemplate.setObjectTemplate 2 Dressilian_kit
+ObjectTemplate.MinSpawnDelay 10
+ObjectTemplate.MaxSpawnDelay 20
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+rem ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.maxNrOfObjectSpawned 1
+rem ObjectTemplate.teamOnVehicle 0
+
+rem ----------------------------------------- 
+rem ---  e11_kit_spawner  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner e11sniper_kit_spawner
+ObjectTemplate.setObjectTemplate 1 e11sniper_kit
+ObjectTemplate.setObjectTemplate 2 e11sniper_kit
+ObjectTemplate.MinSpawnDelay 10
+ObjectTemplate.MaxSpawnDelay 20
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+rem ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.maxNrOfObjectSpawned 1
+rem ObjectTemplate.teamOnVehicle 0
+
+rem ----------------------------------------- 
+rem ---  e11_kit_spawner  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner e11_kit_spawner
+ObjectTemplate.setObjectTemplate 1 e11_kit
+ObjectTemplate.setObjectTemplate 2 e11_kit
+ObjectTemplate.MinSpawnDelay 10
+ObjectTemplate.MaxSpawnDelay 20
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+rem ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.maxNrOfObjectSpawned 1
+rem ObjectTemplate.teamOnVehicle 0
+
+
+rem ----------------------------------------- 
+rem ---  Empire_Medic_kit_spawner  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner Empire_Medic_kit_spawner
+ObjectTemplate.setObjectTemplate 1 Empire_Medic
+ObjectTemplate.setObjectTemplate 2 Empire_Medic
+ObjectTemplate.MinSpawnDelay 10
+ObjectTemplate.MaxSpawnDelay 20
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+rem ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.maxNrOfObjectSpawned 1
+rem ObjectTemplate.teamOnVehicle 0
+
+rem ----------------------------------------- 
+rem ---  jud_uplift_spawner  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner jud_uplift_spawner
+ObjectTemplate.setObjectTemplate 1 uplift
+ObjectTemplate.setObjectTemplate 2 uplift
+ObjectTemplate.MinSpawnDelay 5
+ObjectTemplate.MaxSpawnDelay 10
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+rem ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.maxNrOfObjectSpawned 1
+rem ObjectTemplate.teamOnVehicle 0
+
+rem ----------------------------------------- 
+rem ---  tramcar_s  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner tramcar_s
+ObjectTemplate.setObjectTemplate 1 tramcar
+ObjectTemplate.setObjectTemplate 2 tramcar
+ObjectTemplate.MinSpawnDelay 5
+ObjectTemplate.MaxSpawnDelay 10
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 25
+ObjectTemplate.Distance 2
+rem ObjectTemplate.DamageWhenLost 50
+ObjectTemplate.maxNrOfObjectSpawned 2
+rem ObjectTemplate.teamOnVehicle 0
+
+rem ----------------------------------------- 
+rem ---  gren_kit_spawner  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner gren_kit_spawner
+ObjectTemplate.setObjectTemplate 1 gren_kit
+ObjectTemplate.setObjectTemplate 2 gren_kit
+ObjectTemplate.MinSpawnDelay 10
+ObjectTemplate.MaxSpawnDelay 20
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+rem ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.maxNrOfObjectSpawned 1
+rem ObjectTemplate.teamOnVehicle 0
+
+rem ----------------------------------------- 
+rem ---  mousespawner  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner mousespawner
+ObjectTemplate.setObjectTemplate 1 mousedroidcontrol
+ObjectTemplate.setObjectTemplate 2 mousedroidcontrol
+ObjectTemplate.MinSpawnDelay 5
+ObjectTemplate.MaxSpawnDelay 10
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 999
+ObjectTemplate.Distance 999
+rem ObjectTemplate.DamageWhenLost 0
+ObjectTemplate.maxNrOfObjectSpawned 1
+rem ObjectTemplate.teamOnVehicle 0
+
+rem ----------------------------------------- 
+rem ---  Jud_Ambient_Beginning_Spawn1  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner Jud_Ambient_Beginning_Spawn1
+ObjectTemplate.setObjectTemplate 1 ambient_jud_beginning
+ObjectTemplate.setObjectTemplate 2 ambient_jud_beginning
+ObjectTemplate.MinSpawnDelay 9999
+ObjectTemplate.MaxSpawnDelay 9999
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 9999
+ObjectTemplate.Distance 20
+rem ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.maxNrOfObjectSpawned 1
+rem ObjectTemplate.teamOnVehicle 0
+
+rem ----------------------------------------- 
+rem ---  Jud_ambient_Tramcontrol_Spawn1  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner Jud_ambient_Tramcontrol_Spawn1
+ObjectTemplate.setObjectTemplate 2 ambient_jud_tramcontrol
+ObjectTemplate.MinSpawnDelay 120
+ObjectTemplate.MaxSpawnDelay 120
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 9999
+ObjectTemplate.Distance 9999
+rem ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.maxNrOfObjectSpawned 1
+rem ObjectTemplate.teamOnVehicle 0
+
+rem ----------------------------------------- 
+rem ---  Jud_Ambient_Flag5_Spawn1  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner Jud_Ambient_Flag5_Spawn1
+ObjectTemplate.setObjectTemplate 2 ambient_jud_e5flag
+ObjectTemplate.MinSpawnDelay 120
+ObjectTemplate.MaxSpawnDelay 120
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 9999
+ObjectTemplate.Distance 9999
+rem ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.maxNrOfObjectSpawned 1
+rem ObjectTemplate.teamOnVehicle 0
+
+rem ----------------------------------------- 
+rem ---  Jud_Push2_2  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner Jud_Push2_2
+ObjectTemplate.setObjectTemplate 1 jud_destr_door
+ObjectTemplate.MinSpawnDelay 0
+ObjectTemplate.MaxSpawnDelay 0
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 9999
+ObjectTemplate.Distance 9999
+rem ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.maxNrOfObjectSpawned 1
+rem ObjectTemplate.teamOnVehicle 0
+
+rem ----------------------------------------- 
+rem ---  Jud_Push_bridge_shield_door
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner Jud_Push_bridge_shield_door
+ObjectTemplate.setObjectTemplate 1 jud_destr_door_bridge
+ObjectTemplate.MinSpawnDelay 0
+ObjectTemplate.MaxSpawnDelay 0
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 9999
+ObjectTemplate.Distance 9999
+rem ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.maxNrOfObjectSpawned 1
+rem ObjectTemplate.teamOnVehicle 0
+
+
+rem ----------------------------------------- 
+rem ---  Jud_droid_barrier_spawner
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner Jud_droid_barrier_spawner
+ObjectTemplate.setObjectTemplate 1 jud_droid_barrier
+ObjectTemplate.MinSpawnDelay 0
+ObjectTemplate.MaxSpawnDelay 0
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 9999
+ObjectTemplate.Distance 9999
+rem ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.maxNrOfObjectSpawned 1
+rem ObjectTemplate.teamOnVehicle 0
+rem EndOfFile

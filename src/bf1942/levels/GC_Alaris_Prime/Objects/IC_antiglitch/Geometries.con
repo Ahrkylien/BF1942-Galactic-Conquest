@@ -1,0 +1,7 @@
+GeometryTemplate.create StandardMesh IC_antiglitch
+GeometryTemplate.file IC_antiglitch
+GeometryTemplate.setLodDistance 0 0
+
+
+
+

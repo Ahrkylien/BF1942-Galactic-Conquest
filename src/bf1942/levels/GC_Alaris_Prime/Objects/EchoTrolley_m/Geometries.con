@@ -1,0 +1,22 @@
+GeometryTemplate.create StandardMesh EchoTrolley_Hul1_M1
+GeometryTemplate.file Vehicles/EchoTrolley_m/EchoTrolley_m
+GeometryTemplate.hasDynamicShadow 1
+
+rem GeometryTemplate.setLodDistance 0 0
+rem GeometryTemplate.setLodDistance 1 10
+rem GeometryTemplate.setLodDistance 2 30
+rem GeometryTemplate.setLodDistance 3 70
+rem GeometryTemplate.setLodDistance 4 100
+rem GeometryTemplate.setLodDistance 5 140
+
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 30
+GeometryTemplate.setLodDistance 2 70
+GeometryTemplate.setLodDistance 3 100
+GeometryTemplate.setLodDistance 4 140
+GeometryTemplate.setLodDistance 5 180
+
+GeometryTemplate.create StandardMesh Wreck_EchoTrolley_M1
+GeometryTemplate.file Vehicles/EchoTrolley_m/Wreck_EchoTrolley
+
+

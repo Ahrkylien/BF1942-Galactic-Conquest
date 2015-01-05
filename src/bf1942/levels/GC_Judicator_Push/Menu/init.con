@@ -1,0 +1,33 @@
+Game.setLocalized 1
+
+rem ** Allied Briefing **
+game.setAlliedCampaign MULTIPLAYER_BRIEFING_JUDICATOR_PUSH
+game.setAlliedHints MULTIPLAYER_BRIEFING_JUDICATOR_PUSH
+game.setAlliedObjectives MULTIPLAYER_BRIEFING_JUDICATOR_PUSH
+game.setAlliedSkirmish MULTIPLAYER_BRIEFING_JUDICATOR_PUSH
+
+rem ** Axis Briefing **
+game.setAxisCampaign MULTIPLAYER_BRIEFING_JUDICATOR_PUSH
+game.setAxisHints MULTIPLAYER_BRIEFING_JUDICATOR_PUSH
+game.setAxisObjectives MULTIPLAYER_BRIEFING_JUDICATOR_PUSH
+game.setAxisSkirmish MULTIPLAYER_BRIEFING_JUDICATOR_PUSH
+
+rem ** Allied Debriefing **
+game.setAlliedDebriefingMajorVictory REBEL_MAJOR_VICTORY_BRIEFING
+game.setAlliedDebriefingMinorVictory REBEL_MINOR_VICTORY_BRIEFING
+game.setAlliedDebriefingMajorDefeat REBEL_MINOR_DEFEAT_BRIEFING
+game.setAlliedDebriefingMinorDefeat REBEL_MAJOR_DEFEAT_BRIEFING
+
+rem ** Axis Debriefing **
+game.setAxisDebriefingMajorVictory IMPERIAL_MAJOR_VICTORY_BRIEFING
+game.setAxisDebriefingMinorVictory IMPERIAL_MINOR_VICTORY_BRIEFING
+game.setAxisDebriefingMajorDefeat IMPERIAL_MINOR_DEFEAT_BRIEFING
+game.setAxisDebriefingMinorDefeat IMPERIAL_MAJOR_DEFEAT_BRIEFING
+
+rem ** Multiplayer Briefing **
+game.setMultiplayerBriefingObjectives MULTIPLAYER_BRIEFING_JUDICATOR_PUSH
+game.setMultiplayerBriefingMapType MULTIPLAYER_MAP_TYPE_OBJECTIVE_MAP
+
+game.setLoadPicture ../../bf1942/levels/GC_Judicator_Push/Menu/Judicator_Push.tga
+game.setServerInfoIcon ../../bf1942/levels/GC_Judicator_Push/menu/serverInfo.dds
+game.setMapId "GCMOD"

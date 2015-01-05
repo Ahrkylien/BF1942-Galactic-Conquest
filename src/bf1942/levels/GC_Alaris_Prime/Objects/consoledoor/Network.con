@@ -1,0 +1,5 @@
+NetworkableInfo.createNewInfo consoledoorInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo dadoorInfo
+NetworkableInfo.setPredictionMode PMLinear

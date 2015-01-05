@@ -1,0 +1,414 @@
+
+
+GeometryTemplate.create StandardMesh PodRacer_cockpit_M1
+GeometryTemplate.file Vehicles/PodRacer/pod_teemto_cockpit
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+GeometryTemplate.setLodDistance 2 400
+GeometryTemplate.setLodDistance 3 800
+GeometryTemplate.setLodDistance 4 1000
+GeometryTemplate.setLodDistance 5 1400
+
+GeometryTemplate.create StandardMesh podteemto_bb
+GeometryTemplate.file Vehicles/PodRacer/pod_teemto_bb
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh PodRacer_EnergyBeam
+GeometryTemplate.file Vehicles/PodRacer/teemto_EnergyClutch
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+GeometryTemplate.setLodDistance 2 400
+GeometryTemplate.setLodDistance 3 800
+
+GeometryTemplate.create StandardMesh PodRacer_EnergyObstacle
+GeometryTemplate.file Vehicles/PodRacer/PodRacer_EnergyObstacle
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+
+
+GeometryTemplate.create StandardMesh PodRacer_Rotor_M1
+GeometryTemplate.file Vehicles/PodRacer/pod_teemto_rotor
+
+
+GeometryTemplate.create StandardMesh PodRacer_L1
+GeometryTemplate.file Vehicles/PodRacer/pod_teemto_low
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 30
+GeometryTemplate.setLodDistance 2 80
+GeometryTemplate.setLodDistance 3 120
+GeometryTemplate.setLodDistance 4 160
+GeometryTemplate.setLodDistance 5 300
+
+
+GeometryTemplate.create StandardMesh Wreck_PodRacer_M1
+GeometryTemplate.file Vehicles/PodRacer/pod_teemto_wreck
+
+GeometryTemplate.create StandardMesh Wreck1_PodRacer_M1
+GeometryTemplate.file Vehicles/PodRacer/pod_teemto_wreck1
+
+GeometryTemplate.create StandardMesh PodRacer_cables_M1
+GeometryTemplate.file Vehicles/PodRacer/pod_teemto_cables
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+
+GeometryTemplate.create StandardMesh PodRacer_rudder_M1
+GeometryTemplate.file Vehicles/PodRacer/pod_teemto_rudder
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+
+
+GeometryTemplate.create StandardMesh PodRacer_Turbo_left_M1
+GeometryTemplate.file Vehicles/PodRacer/pod_teemto_engine_left
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+GeometryTemplate.setLodDistance 2 400
+GeometryTemplate.setLodDistance 3 800
+GeometryTemplate.setLodDistance 4 1000
+GeometryTemplate.setLodDistance 5 1400
+
+
+GeometryTemplate.create StandardMesh PodRacer_Turbo_right_M1
+GeometryTemplate.file Vehicles/PodRacer/pod_teemto_engine_right
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+GeometryTemplate.setLodDistance 2 400
+GeometryTemplate.setLodDistance 3 800
+GeometryTemplate.setLodDistance 4 1000
+GeometryTemplate.setLodDistance 5 1400
+
+
+
+
+
+GeometryTemplate.create StandardMesh PodRacer1_cockpit_M1
+GeometryTemplate.file Vehicles/PodRacer/pod_teemto1_cockpit
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+GeometryTemplate.setLodDistance 2 400
+GeometryTemplate.setLodDistance 3 800
+GeometryTemplate.setLodDistance 4 1000
+GeometryTemplate.setLodDistance 5 1400
+
+GeometryTemplate.create StandardMesh podteemto_bb
+GeometryTemplate.file Vehicles/PodRacer/pod_teemto_bb
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh PodRacer_EnergyBeam
+GeometryTemplate.file Vehicles/PodRacer/teemto_EnergyClutch
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+GeometryTemplate.setLodDistance 2 400
+GeometryTemplate.setLodDistance 3 800
+
+GeometryTemplate.create StandardMesh PodRacer_EnergyObstacle
+GeometryTemplate.file Vehicles/PodRacer/PodRacer_EnergyObstacle
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+
+
+GeometryTemplate.create StandardMesh PodRacer1_Rotor_M1
+GeometryTemplate.file Vehicles/PodRacer/pod_teemto_rotor
+
+
+GeometryTemplate.create StandardMesh PodRacer1_L1
+GeometryTemplate.file Vehicles/PodRacer/pod_teemto1_low
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 30
+GeometryTemplate.setLodDistance 2 80
+GeometryTemplate.setLodDistance 3 120
+GeometryTemplate.setLodDistance 4 160
+GeometryTemplate.setLodDistance 5 300
+
+
+GeometryTemplate.create StandardMesh Wreck_PodRacer1_M1
+GeometryTemplate.file Vehicles/PodRacer/pod_teemto_wreck
+
+GeometryTemplate.create StandardMesh Wreck1_PodRacer1_M1
+GeometryTemplate.file Vehicles/PodRacer/pod_teemto_wreck1
+
+GeometryTemplate.create StandardMesh PodRacer1_cables_M1
+GeometryTemplate.file Vehicles/PodRacer/pod_teemto1_cables
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+
+GeometryTemplate.create StandardMesh PodRacer_rudder1_M1
+GeometryTemplate.file Vehicles/PodRacer/pod_teemto1_rudder
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+
+
+GeometryTemplate.create StandardMesh PodRacer1_Turbo_left_M1
+GeometryTemplate.file Vehicles/PodRacer/pod_teemto1_engine_left
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+GeometryTemplate.setLodDistance 2 400
+GeometryTemplate.setLodDistance 3 800
+GeometryTemplate.setLodDistance 4 1000
+GeometryTemplate.setLodDistance 5 1400
+
+
+GeometryTemplate.create StandardMesh PodRacer1_Turbo_right_M1
+GeometryTemplate.file Vehicles/PodRacer/pod_teemto1_engine_right
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+GeometryTemplate.setLodDistance 2 400
+GeometryTemplate.setLodDistance 3 800
+GeometryTemplate.setLodDistance 4 1000
+GeometryTemplate.setLodDistance 5 1400
+
+
+
+
+GeometryTemplate.create StandardMesh PodRacer2_cockpit_M1
+GeometryTemplate.file Vehicles/PodRacer/pod_teemto2_cockpit
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+GeometryTemplate.setLodDistance 2 400
+GeometryTemplate.setLodDistance 3 800
+GeometryTemplate.setLodDistance 4 1000
+GeometryTemplate.setLodDistance 5 1400
+
+GeometryTemplate.create StandardMesh podteemto_bb
+GeometryTemplate.file Vehicles/PodRacer/pod_teemto_bb
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh PodRacer_EnergyBeam
+GeometryTemplate.file Vehicles/PodRacer/teemto_EnergyClutch
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+GeometryTemplate.setLodDistance 2 400
+GeometryTemplate.setLodDistance 3 800
+
+GeometryTemplate.create StandardMesh PodRacer_EnergyObstacle
+GeometryTemplate.file Vehicles/PodRacer/PodRacer_EnergyObstacle
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+
+
+GeometryTemplate.create StandardMesh PodRacer2_Rotor_M1
+GeometryTemplate.file Vehicles/PodRacer/pod_teemto_rotor
+
+
+GeometryTemplate.create StandardMesh PodRacer2_L1
+GeometryTemplate.file Vehicles/PodRacer/pod_teemto2_low
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 30
+GeometryTemplate.setLodDistance 2 80
+GeometryTemplate.setLodDistance 3 120
+GeometryTemplate.setLodDistance 4 160
+GeometryTemplate.setLodDistance 5 300
+
+
+GeometryTemplate.create StandardMesh Wreck_PodRacer2_M1
+GeometryTemplate.file Vehicles/PodRacer/pod_teemto_wreck
+
+GeometryTemplate.create StandardMesh Wreck1_PodRacer2_M1
+GeometryTemplate.file Vehicles/PodRacer/pod_teemto_wreck1
+
+GeometryTemplate.create StandardMesh PodRacer2_cables_M1
+GeometryTemplate.file Vehicles/PodRacer/pod_teemto2_cables
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+
+GeometryTemplate.create StandardMesh PodRacer_rudder1_M1
+GeometryTemplate.file Vehicles/PodRacer/pod_teemto2_rudder
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+
+
+GeometryTemplate.create StandardMesh PodRacer2_Turbo_left_M1
+GeometryTemplate.file Vehicles/PodRacer/pod_teemto2_engine_left
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+GeometryTemplate.setLodDistance 2 400
+GeometryTemplate.setLodDistance 3 800
+GeometryTemplate.setLodDistance 4 1000
+GeometryTemplate.setLodDistance 5 1400
+
+
+GeometryTemplate.create StandardMesh PodRacer2_Turbo_right_M1
+GeometryTemplate.file Vehicles/PodRacer/pod_teemto2_engine_right
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+GeometryTemplate.setLodDistance 2 400
+GeometryTemplate.setLodDistance 3 800
+GeometryTemplate.setLodDistance 4 1000
+GeometryTemplate.setLodDistance 5 1400
+
+
+
+
+
+GeometryTemplate.create StandardMesh PodRacer3_cockpit_M1
+GeometryTemplate.file Vehicles/PodRacer/pod_teemto3_cockpit
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+GeometryTemplate.setLodDistance 2 400
+GeometryTemplate.setLodDistance 3 800
+GeometryTemplate.setLodDistance 4 1000
+GeometryTemplate.setLodDistance 5 1400
+
+GeometryTemplate.create StandardMesh podteemto_bb
+GeometryTemplate.file Vehicles/PodRacer/pod_teemto_bb
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh PodRacer_EnergyBeam
+GeometryTemplate.file Vehicles/PodRacer/teemto_EnergyClutch
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+GeometryTemplate.setLodDistance 2 400
+GeometryTemplate.setLodDistance 3 800
+
+GeometryTemplate.create StandardMesh PodRacer_EnergyObstacle
+GeometryTemplate.file Vehicles/PodRacer/PodRacer_EnergyObstacle
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+
+
+GeometryTemplate.create StandardMesh PodRacer3_Rotor_M1
+GeometryTemplate.file Vehicles/PodRacer/pod_teemto_rotor
+
+
+GeometryTemplate.create StandardMesh PodRacer3_L1
+GeometryTemplate.file Vehicles/PodRacer/pod_teemto3_low
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 30
+GeometryTemplate.setLodDistance 2 80
+GeometryTemplate.setLodDistance 3 120
+GeometryTemplate.setLodDistance 4 160
+GeometryTemplate.setLodDistance 5 300
+
+
+GeometryTemplate.create StandardMesh Wreck_PodRacer3_M1
+GeometryTemplate.file Vehicles/PodRacer/pod_teemto_wreck
+
+GeometryTemplate.create StandardMesh Wreck1_PodRacer3_M1
+GeometryTemplate.file Vehicles/PodRacer/pod_teemto_wreck1
+
+GeometryTemplate.create StandardMesh PodRacer3_cables_M1
+GeometryTemplate.file Vehicles/PodRacer/pod_teemto3_cables
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+
+GeometryTemplate.create StandardMesh PodRacer_rudder1_M1
+GeometryTemplate.file Vehicles/PodRacer/pod_teemto3_rudder
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+
+
+GeometryTemplate.create StandardMesh PodRacer3_Turbo_left_M1
+GeometryTemplate.file Vehicles/PodRacer/pod_teemto3_engine_left
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+GeometryTemplate.setLodDistance 2 400
+GeometryTemplate.setLodDistance 3 800
+GeometryTemplate.setLodDistance 4 1000
+GeometryTemplate.setLodDistance 5 1400
+
+
+GeometryTemplate.create StandardMesh PodRacer3_Turbo_right_M1
+GeometryTemplate.file Vehicles/PodRacer/pod_teemto3_engine_right
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+GeometryTemplate.setLodDistance 2 400
+GeometryTemplate.setLodDistance 3 800
+GeometryTemplate.setLodDistance 4 1000
+GeometryTemplate.setLodDistance 5 1400
+
+
+
+
+GeometryTemplate.create StandardMesh PodRacer4_cockpit_M1
+GeometryTemplate.file Vehicles/PodRacer/pod_teemto4_cockpit
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+GeometryTemplate.setLodDistance 2 400
+GeometryTemplate.setLodDistance 3 800
+GeometryTemplate.setLodDistance 4 1000
+GeometryTemplate.setLodDistance 5 1400
+
+GeometryTemplate.create StandardMesh podteemto_bb
+GeometryTemplate.file Vehicles/PodRacer/pod_teemto_bb
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh PodRacer_EnergyBeam
+GeometryTemplate.file Vehicles/PodRacer/teemto_EnergyClutch
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+GeometryTemplate.setLodDistance 2 400
+GeometryTemplate.setLodDistance 3 800
+
+GeometryTemplate.create StandardMesh PodRacer_EnergyObstacle
+GeometryTemplate.file Vehicles/PodRacer/PodRacer_EnergyObstacle
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+
+
+GeometryTemplate.create StandardMesh PodRacer4_Rotor_M1
+GeometryTemplate.file Vehicles/PodRacer/pod_teemto_rotor
+
+
+GeometryTemplate.create StandardMesh PodRacer4_L1
+GeometryTemplate.file Vehicles/PodRacer/pod_teemto4_low
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 30
+GeometryTemplate.setLodDistance 2 80
+GeometryTemplate.setLodDistance 3 120
+GeometryTemplate.setLodDistance 4 160
+GeometryTemplate.setLodDistance 5 300
+
+
+GeometryTemplate.create StandardMesh Wreck_PodRacer4_M1
+GeometryTemplate.file Vehicles/PodRacer/pod_teemto_wreck
+
+GeometryTemplate.create StandardMesh Wreck1_PodRacer4_M1
+GeometryTemplate.file Vehicles/PodRacer/pod_teemto_wreck1
+
+GeometryTemplate.create StandardMesh PodRacer4_cables_M1
+GeometryTemplate.file Vehicles/PodRacer/pod_teemto4_cables
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+
+GeometryTemplate.create StandardMesh PodRacer_rudder1_M1
+GeometryTemplate.file Vehicles/PodRacer/pod_teemto4_rudder
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+
+
+GeometryTemplate.create StandardMesh PodRacer4_Turbo_left_M1
+GeometryTemplate.file Vehicles/PodRacer/pod_teemto4_engine_left
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+GeometryTemplate.setLodDistance 2 400
+GeometryTemplate.setLodDistance 3 800
+GeometryTemplate.setLodDistance 4 1000
+GeometryTemplate.setLodDistance 5 1400
+
+
+GeometryTemplate.create StandardMesh PodRacer4_Turbo_right_M1
+GeometryTemplate.file Vehicles/PodRacer/pod_teemto4_engine_right
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+GeometryTemplate.setLodDistance 2 400
+GeometryTemplate.setLodDistance 3 800
+GeometryTemplate.setLodDistance 4 1000
+GeometryTemplate.setLodDistance 5 1400
+
+
+
+

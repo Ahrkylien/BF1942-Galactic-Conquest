@@ -1,0 +1,32 @@
+rem ********************************
+rem * Precache Objects             *
+rem * created by PrecacheGenerator *
+rem * by AI                        *
+rem ********************************
+
+Object.active __BF_NONE__
+Object.create echotrolley
+Object.delete
+Object.create echotrolley
+Object.delete
+Object.create gain-135
+Object.delete
+Object.create gain-135
+Object.delete
+Object.create speederbike
+Object.delete
+Object.create speederbike
+Object.delete
+Object.create cratetransporter
+Object.delete
+Object.create cratetransporter
+Object.delete
+Object.create mousedroidcontrol
+Object.delete
+Object.create mousedroidcontrol
+Object.delete
+Object.create jud_destr_door
+Object.delete
+Object.create ap_vent_shield
+Object.delete
+Object.active __BF_NONE__

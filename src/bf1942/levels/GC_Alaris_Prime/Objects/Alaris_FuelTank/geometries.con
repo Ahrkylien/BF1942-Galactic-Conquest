@@ -1,0 +1,31 @@
+renderer.beginGlobalCluster Alaris_FuelTank
+
+GeometryTemplate.create StandardMesh Alaris_FuelTank_m
+GeometryTemplate.file Alaris_FuelTank
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+GeometryTemplate.setLodDistance 2 200
+GeometryTemplate.setLodDistance 3 300
+GeometryTemplate.setLodDistance 4 400
+GeometryTemplate.setLodDistance 5 1500
+
+GeometryTemplate.create StandardMesh iondeflector_m
+GeometryTemplate.file iondeflector
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+GeometryTemplate.setLodDistance 2 200
+GeometryTemplate.setLodDistance 3 300
+GeometryTemplate.setLodDistance 4 400
+GeometryTemplate.setLodDistance 5 1500
+
+renderer.endGlobalCluster
+
+
+GeometryTemplate.create StandardMesh Alaris_FuelTank_wreck
+GeometryTemplate.file Alaris_FuelTank
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+GeometryTemplate.setLodDistance 2 200
+GeometryTemplate.setLodDistance 3 300
+GeometryTemplate.setLodDistance 4 400
+GeometryTemplate.setLodDistance 5 1500

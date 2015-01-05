@@ -1,0 +1,16 @@
+rem *** Plugins ***
+aiTemplatePlugIn.create Cover endor_bunker_tunnelCover
+aiTemplatePlugIn.coverValue 20.0
+
+aiTemplatePlugIn.create Physical endor_bunker_tunnelPhysical
+
+rem *** AITemplate ***
+aiTemplate.create endor_bunker_tunnelAI
+aiTemplate.addType ITCover
+aiTemplate.addType ITScaleRender
+aiTemplate.degeneration 1
+aiTemplate.allowedTimeDiff -1
+aiTemplate.basicTemp 1
+aiTemplate.commonKnowledge 1
+aiTemplate.addPlugIn endor_bunker_tunnelCover
+aiTemplate.addPlugIn endor_bunker_tunnelPhysical

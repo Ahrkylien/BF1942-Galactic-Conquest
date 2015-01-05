@@ -1,0 +1,95 @@
+
+
+rem *** PodRacerTurboSound ***
+ObjectTemplate.create FireArms PodRacerTurboSound
+ObjectTemplate.setNetworkableInfo PlaneFireArmInfo
+ObjectTemplate.loadSoundScript Sounds/Podracer_Turbo.ssc
+ObjectTemplate.projectilePosition 0/0/0
+ObjectTemplate.fireingForce 20
+ObjectTemplate.magSize 1
+ObjectTemplate.numOfMag 1
+ObjectTemplate.magType 0
+ObjectTemplate.altFireOnce 1
+ObjectTemplate.reloadtime 5
+ObjectTemplate.autoReload 1
+ObjectTemplate.roundOfFire 1
+ObjectTemplate.AmmoType 8
+ObjectTemplate.velocity 0
+ObjectTemplate.setInputFire c_PIAltFire
+
+beginrem
+rem *** PodRacerBrakeSound ***
+ObjectTemplate.create FireArms PodRacerBrakeSound
+ObjectTemplate.setNetworkableInfo PlaneFireArmInfo
+ObjectTemplate.loadSoundScript Sounds/Podracer_TurboEngine.ssc
+ObjectTemplate.projectilePosition 0/0/0
+ObjectTemplate.magSize 1
+ObjectTemplate.numOfMag 1
+ObjectTemplate.magType 0
+ObjectTemplate.fireOnce 1
+ObjectTemplate.reloadtime 5
+ObjectTemplate.autoReload 1
+ObjectTemplate.roundOfFire 1
+ObjectTemplate.AmmoType 8
+ObjectTemplate.velocity 0
+ObjectTemplate.setInputFire c_PIAltFire
+endrem
+
+rem *** PodRacerRepairSound ***
+ObjectTemplate.create FireArms PodRacerRepairSound
+ObjectTemplate.setNetworkableInfo PlaneFireArmInfo
+ObjectTemplate.loadSoundScript Sounds/Podracer_RepairSound.ssc
+ObjectTemplate.projectilePosition 0/0/0
+ObjectTemplate.magSize 1
+ObjectTemplate.numOfMag 1
+ObjectTemplate.magType 0
+ObjectTemplate.fireOnce 1
+ObjectTemplate.reloadtime 5
+ObjectTemplate.autoReload 1
+ObjectTemplate.roundOfFire 1
+ObjectTemplate.AmmoType 8
+ObjectTemplate.velocity 0
+ObjectTemplate.setInputFire c_PIFire
+
+
+rem *** PodRacerRepair ***
+ObjectTemplate.create FireArms PodRacerRepair
+ObjectTemplate.projectileTemplate PodRacerRepair_projectile
+ObjectTemplate.projectilePosition 0/0/0.4
+ObjectTemplate.magSize -1
+ObjectTemplate.magType 0
+ObjectTemplate.numOfMag -1
+ObjectTemplate.velocity 10
+ObjectTemplate.autoReload 1
+ObjectTemplate.reloadtime 0.01
+ObjectTemplate.roundOfFire 5
+ObjectTemplate.heatAddWhenFire 0.06
+ObjectTemplate.coolDownPerSec 0.2
+ObjectTemplate.timeDelayOnOverHeat 2
+ObjectTemplate.setInputFire c_PIFire
+
+
+rem *** PodRacerRepair_projectile ***
+ObjectTemplate.create Projectile PodRacerRepair_projectile
+ObjectTemplate.addTemplate PodRacer_repair_point
+ObjectTemplate.timeToLive CRD_NONE/0.04/0/0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.gravityModifier 0.1
+ObjectTemplate.hasCollisionEffect 1
+ObjectTemplate.hasOnTimeEffect 1
+ObjectTemplate.invisibleAtEndEffect 1
+ObjectTemplate.invisible 0
+ObjectTemplate.material 620
+
+
+rem *** PodRacer_repair_point ***
+ObjectTemplate.create SupplyDepot PodRacer_repair_point
+ObjectTemplate.radius 10
+ObjectTemplate.team 0
+ObjectTemplate.addVehicleType PodracerV1 -1 6 0
+ObjectTemplate.addVehicleType Podracer1V1 -1 6 0
+ObjectTemplate.addVehicleType Podracer2V1 -1 6 0
+ObjectTemplate.addVehicleType Podracer3V1 -1 6 0
+ObjectTemplate.addVehicleType Podracer4V1 -1 6 0
+ObjectTemplate.workOnVehicles 1
+ObjectTemplate.workOnSoldiers 0

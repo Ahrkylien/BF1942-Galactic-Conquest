@@ -1,0 +1,4 @@
+ObjectTemplate.create Bundle pod_tallrock1
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.geometry pod_tallrock1
+ObjectTemplate.loadSoundScript Sounds/pod_tallrock1.ssc

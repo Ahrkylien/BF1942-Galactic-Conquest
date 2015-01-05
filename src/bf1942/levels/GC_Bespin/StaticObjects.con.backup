@@ -441,8 +441,7 @@ rem
 rem ***  ***
 rem
 Object.create ctown_statue2
-rem Object.absolutePosition 1006.23/267.10/938.29
-Object.absolutePosition 1006.23/251.841/836.588
+Object.absolutePosition 1006.23/251.84/836.59
 Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
@@ -1184,505 +1183,505 @@ Object.absolutePosition 854.73/280.72/1010.98
 Object.rotation 0.00/0.00/0.00
 rem
 rem ***  ***
-beginrem
-Object.create barricade3
-Object.absolutePosition 1220.64/268.32/1008.06
-Object.rotation 56.56/0.00/0.00
 rem
-rem ***  ***
-rem
-Object.create barricade3
-Object.absolutePosition 791.54/268.30/1008.54
-Object.rotation -64.12/0.00/0.00
-rem
-rem ***  ***
-rem
-Object.create barricade3
-Object.absolutePosition 791.71/268.30/999.88
-Object.rotation 55.08/0.00/0.00
-rem
-rem ***  ***
-rem
-Object.create barricade2
-Object.absolutePosition 1013.07/274.43/1030.34
-Object.rotation -33.04/0.00/0.00
-rem
-rem ***  ***
-rem
-Object.create barricade2
-Object.absolutePosition 998.61/274.42/1031.31
-Object.rotation 24.72/0.00/0.00
-rem
-rem ***  ***
-rem
-Object.create barricade1
-Object.absolutePosition 1015.27/274.42/1039.37
-Object.rotation 83.34/0.00/0.00
-rem
-rem ***  ***
-rem
-Object.create barricade1
-Object.absolutePosition 1015.35/274.42/1036.74
-Object.rotation 95.48/0.00/0.00
-rem
-rem ***  ***
-rem
-Object.create barricade1
-Object.absolutePosition 996.86/274.43/1036.06
-Object.rotation 84.11/0.00/0.00
-rem
-rem ***  ***
-rem
-Object.create barricade1
-Object.absolutePosition 996.83/274.43/1038.65
-Object.rotation 95.95/0.00/0.00
-rem
-rem ***  ***
-rem
-Object.create barricade3
-Object.absolutePosition 993.48/251.84/915.82
-Object.rotation -50.70/0.00/0.00
-rem
-rem ***  ***
-rem
-Object.create barricade3
-Object.absolutePosition 1016.05/251.84/914.78
-Object.rotation 34.41/0.00/0.00
-rem
-rem ***  ***
-rem
-Object.create barricade1
-Object.absolutePosition 1000.13/251.83/929.66
-Object.rotation 44.41/0.00/0.00
-rem
-rem ***  ***
-rem
-Object.create barricade1
-Object.absolutePosition 1002.64/251.83/927.98
-Object.rotation 18.57/0.00/0.00
-rem
-rem ***  ***
-rem
-Object.create barricade1
-Object.absolutePosition 1005.34/251.83/927.56
-Object.rotation -3.42/0.00/0.00
-rem
-rem ***  ***
-rem
-Object.create barricade1
-Object.absolutePosition 1007.82/251.85/928.72
-Object.rotation -34.18/0.00/0.00
-rem
-rem *** ***
-endrem
-rem //new bits added
-
-rem ***  
 Object.create bespin_archway1
-Object.absolutePosition 1072.09/274.281/1054.69
-Object.rotation 0.0/0.0/0.0
-
-rem ***  
+Object.absolutePosition 1072.09/274.28/1054.69
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
 Object.create bespin_bench1
-Object.absolutePosition 1006.18/274.434/1025.26
-Object.rotation 0.0/0.0/0.0
-
-rem ***  
+Object.absolutePosition 1006.18/274.43/1025.26
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
 Object.create bespin_bench2
-Object.absolutePosition 1019.55/274.438/1014.38
-Object.rotation 0.0/0.0/0.0
-
-rem ***  
+Object.absolutePosition 1019.55/274.44/1014.38
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
 Object.create bespin_garden_floor
-Object.absolutePosition 1006.11/251.824/860.146
-Object.rotation 0.0/0.0/0.0
-
-rem ***  
+Object.absolutePosition 1006.11/251.82/860.15
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
 Object.create bespin_garden_walls
-Object.absolutePosition 1006.11/251.824/888.056
-Object.rotation 0.0/0.0/0.0
-
-rem ***  
+Object.absolutePosition 1006.11/251.82/888.06
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
 Object.create bespin_monument2
-Object.absolutePosition 1006.26/251.796/888.038
-Object.rotation 0.0/0.0/0.0
-
-rem ***  
+Object.absolutePosition 1006.26/251.80/888.04
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
 Object.create bespin_tree1
-Object.absolutePosition 997.033/252.351/841.613
-Object.rotation 25.0/0.0/0.0
-
-rem ***  
+Object.absolutePosition 997.03/252.35/841.61
+Object.rotation 25.00/0.00/0.00
+rem
+rem ***  ***
+rem
 Object.create bespin_statue3
-Object.absolutePosition 1006.21/251.616/929.146
-Object.rotation 0.0/0.0/0.0
-
-rem ***  
+Object.absolutePosition 1006.21/251.62/929.15
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
 Object.create ctown_monument1
-Object.absolutePosition 1006.11/274.373/1033.4
-Object.rotation 0.0/0.0/0.0
-
-rem ***  
+Object.absolutePosition 1006.11/274.37/1033.40
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
 Object.create ctown_uplevel_rail2
 Object.absolutePosition 1006.26/274.41/1009.82
-Object.rotation 0.0/0.0/0.0
-
-rem ***  
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
 Object.create ctown_walkway6_pilars
-Object.absolutePosition 1006.23/251.741/943.123
-Object.rotation 0.0/0.0/0.0
-
-rem ***  
+Object.absolutePosition 1006.23/251.74/943.12
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
 Object.create ctown_walkway6_rails
-Object.absolutePosition 1006.25/251.541/946.299
-Object.rotation 0.0/0.0/0.0
-
-rem ***  
+Object.absolutePosition 1006.25/251.54/946.30
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
 Object.create ctown_walkway10_rails
-Object.absolutePosition 1062.75/274.297/1035.33
-Object.rotation 0.0/0.0/0.0
-
-rem ***  
+Object.absolutePosition 1062.75/274.30/1035.33
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
 Object.create ctown_walkway11_rails
-Object.absolutePosition 1066.14/274.402/992.336
-Object.rotation 0.0/0.0/0.0
-
-rem ***  
+Object.absolutePosition 1066.14/274.40/992.34
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
 Object.create bespin_archway1
-Object.absolutePosition 1061.64/274.281/1054.69
-Object.rotation 0.0/0.0/0.0
-
-rem ***  
+Object.absolutePosition 1061.64/274.28/1054.69
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
 Object.create bespin_archway1
-Object.absolutePosition 1047.27/274.281/1054.65
-Object.rotation -28.643/0.0/0.0
-
-rem ***  
+Object.absolutePosition 1047.27/274.28/1054.65
+Object.rotation -28.64/0.00/0.00
+rem
+rem ***  ***
+rem
 Object.create bespin_archway1
-Object.absolutePosition 1038.2/274.281/1042.28
-Object.rotation -19.8868/0.0/0.0
-
-rem ***  
+Object.absolutePosition 1038.20/274.28/1042.28
+Object.rotation -19.89/0.00/0.00
+rem
+rem ***  ***
+rem
 Object.create bespin_tree1
-Object.absolutePosition 997.033/252.351/867.32
-Object.rotation 125.0/0.0/0.0
-
-rem ***  
+Object.absolutePosition 997.03/252.35/867.32
+Object.rotation 125.00/0.00/0.00
+rem
+rem ***  ***
+rem
 Object.create bespin_tree1
-Object.absolutePosition 997.033/252.351/854.188
-Object.rotation -160.0/0.0/0.0
-
-rem ***  
+Object.absolutePosition 997.03/252.35/854.19
+Object.rotation -160.00/0.00/0.00
+rem
+rem ***  ***
+rem
 Object.create bespin_tree1
-Object.absolutePosition 997.033/252.351/861.017
-Object.rotation 60.0/0.0/0.0
-
-rem ***  
+Object.absolutePosition 997.03/252.35/861.02
+Object.rotation 60.00/0.00/0.00
+rem
+rem ***  ***
+rem
 Object.create bespin_tree1
-Object.absolutePosition 997.033/252.351/848.009
-Object.rotation 0.0/0.0/0.0
-
-rem ***  
+Object.absolutePosition 997.03/252.35/848.01
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
 Object.create bespin_tree1
-Object.absolutePosition 1015.22/252.351/867.32
-Object.rotation 0.0/0.0/0.0
-
-rem ***  
+Object.absolutePosition 1015.22/252.35/867.32
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
 Object.create bespin_tree1
-Object.absolutePosition 1015.22/252.351/861.017
-Object.rotation -95.0/0.0/0.0
-
-rem ***  
+Object.absolutePosition 1015.22/252.35/861.02
+Object.rotation -95.00/0.00/0.00
+rem
+rem ***  ***
+rem
 Object.create bespin_tree1
-Object.absolutePosition 1015.22/252.351/854.188
-Object.rotation 125.0/0.0/0.0
-
-rem ***  
+Object.absolutePosition 1015.22/252.35/854.19
+Object.rotation 125.00/0.00/0.00
+rem
+rem ***  ***
+rem
 Object.create bespin_tree1
-Object.absolutePosition 1015.22/252.351/848.009
-Object.rotation -30.0/0.0/0.0
-
-rem ***  
+Object.absolutePosition 1015.22/252.35/848.01
+Object.rotation -30.00/0.00/0.00
+rem
+rem ***  ***
+rem
 Object.create bespin_tree1
-Object.absolutePosition 1015.22/252.351/841.613
-Object.rotation -110.0/0.0/0.0
-
-rem ***  
+Object.absolutePosition 1015.22/252.35/841.61
+Object.rotation -110.00/0.00/0.00
+rem
+rem ***  ***
+rem
 Object.create bespin_tree1
-Object.absolutePosition 1015.22/252.351/876.461
-Object.rotation -70.0/0.0/0.0
-
-rem ***  
+Object.absolutePosition 1015.22/252.35/876.46
+Object.rotation -70.00/0.00/0.00
+rem
+rem ***  ***
+rem
 Object.create bespin_tree1
-Object.absolutePosition 1015.22/252.351/899.66
-Object.rotation 165.0/0.0/0.0
-
-rem ***  
+Object.absolutePosition 1015.22/252.35/899.66
+Object.rotation 165.00/0.00/0.00
+rem
+rem ***  ***
+rem
 Object.create bespin_tree1
-Object.absolutePosition 1019.53/252.351/892.483
-Object.rotation -120.0/0.0/0.0
-
-rem ***  
+Object.absolutePosition 1019.53/252.35/892.48
+Object.rotation -120.00/0.00/0.00
+rem
+rem ***  ***
+rem
 Object.create bespin_tree1
-Object.absolutePosition 1019.53/252.351/883.7
-Object.rotation 100.0/0.0/0.0
-
-rem ***  
+Object.absolutePosition 1019.53/252.35/883.70
+Object.rotation 100.00/0.00/0.00
+rem
+rem ***  ***
+rem
 Object.create bespin_tree1
-Object.absolutePosition 992.669/252.351/892.452
-Object.rotation -120.0/0.0/0.0
-
-rem ***  
+Object.absolutePosition 992.67/252.35/892.45
+Object.rotation -120.00/0.00/0.00
+rem
+rem ***  ***
+rem
 Object.create bespin_tree1
-Object.absolutePosition 992.669/252.351/883.669
-Object.rotation 180.0/0.0/0.0
-
-rem ***  
+Object.absolutePosition 992.67/252.35/883.67
+Object.rotation 180.00/0.00/0.00
+rem
+rem ***  ***
+rem
 Object.create bespin_tree1
-Object.absolutePosition 996.977/252.351/876.492
-Object.rotation -45.0/0.0/0.0
-
-rem ***  
+Object.absolutePosition 996.98/252.35/876.49
+Object.rotation -45.00/0.00/0.00
+rem
+rem ***  ***
+rem
 Object.create bespin_tree1
-Object.absolutePosition 996.977/252.351/899.691
-Object.rotation 90.0/0.0/0.0
-
-rem ***  
+Object.absolutePosition 996.98/252.35/899.69
+Object.rotation 90.00/0.00/0.00
+rem
+rem ***  ***
+rem
 Object.create bespin_tree1
-Object.absolutePosition 1015.22/252.351/917.072
-Object.rotation -135.0/0.0/0.0
-
-rem ***  
+Object.absolutePosition 1015.22/252.35/917.07
+Object.rotation -135.00/0.00/0.00
+rem
+rem ***  ***
+rem
 Object.create bespin_tree1
-Object.absolutePosition 1015.22/252.351/908.87
-Object.rotation 0.0/0.0/0.0
-
-rem ***  
+Object.absolutePosition 1015.22/252.35/908.87
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
 Object.create bespin_tree1
-Object.absolutePosition 997.033/252.351/917.072
-Object.rotation 70.0/0.0/0.0
-
-rem ***  
+Object.absolutePosition 997.03/252.35/917.07
+Object.rotation 70.00/0.00/0.00
+rem
+rem ***  ***
+rem
 Object.create bespin_tree1
-Object.absolutePosition 997.033/252.351/908.87
-Object.rotation -65.0/0.0/0.0
-
-rem ***  
+Object.absolutePosition 997.03/252.35/908.87
+Object.rotation -65.00/0.00/0.00
+rem
+rem ***  ***
+rem
 Object.create bespin_tree1
-Object.absolutePosition 1006.09/252.351/921.499
-Object.rotation -105.0/0.0/0.0
-
-rem ***  
+Object.absolutePosition 1006.09/252.35/921.50
+Object.rotation -105.00/0.00/0.00
+rem
+rem ***  ***
+rem
 Object.create bespin_bench2
-Object.absolutePosition 1019.55/274.438/994.443
-Object.rotation 0.0/0.0/0.0
-
-rem ***  
+Object.absolutePosition 1019.55/274.44/994.44
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
 Object.create bespin_bench2
-Object.absolutePosition 993.197/274.438/994.443
-Object.rotation 0.0/0.0/0.0
-
-rem ***  
+Object.absolutePosition 993.20/274.44/994.44
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
 Object.create bespin_bench2
-Object.absolutePosition 993.197/274.438/1014.38
-Object.rotation 0.0/0.0/0.0
-
-rem ***  
+Object.absolutePosition 993.20/274.44/1014.38
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
 Object.create bespin_bench2
-Object.absolutePosition 1026.29/251.86/903.577
-Object.rotation -90.0/0.0/0.0
-
-rem ***  
+Object.absolutePosition 1026.29/251.86/903.58
+Object.rotation -90.00/0.00/0.00
+rem
+rem ***  ***
+rem
 Object.create bespin_bench2
-Object.absolutePosition 1026.29/251.86/872.137
-Object.rotation -90.0/0.0/0.0
-
-rem ***  
+Object.absolutePosition 1026.29/251.86/872.14
+Object.rotation -90.00/0.00/0.00
+rem
+rem ***  ***
+rem
 Object.create bespin_bench2
-Object.absolutePosition 986.276/251.86/872.137
-Object.rotation -90.0/0.0/0.0
-
-rem ***  
+Object.absolutePosition 986.28/251.86/872.14
+Object.rotation -90.00/0.00/0.00
+rem
+rem ***  ***
+rem
 Object.create bespin_bench2
-Object.absolutePosition 986.276/251.86/903.577
-Object.rotation -90.0/0.0/0.0
-
-rem ***  
+Object.absolutePosition 986.28/251.86/903.58
+Object.rotation -90.00/0.00/0.00
+rem
+rem ***  ***
+rem
 Object.create bespin_bench1
-Object.absolutePosition 1000.28/274.434/1027.65
-Object.rotation 45.0/0.0/0.0
-
-rem ***  
+Object.absolutePosition 1000.28/274.43/1027.65
+Object.rotation 45.00/0.00/0.00
+rem
+rem ***  ***
+rem
 Object.create bespin_bench1
-Object.absolutePosition 1012.01/274.434/1027.65
-Object.rotation -45.0/0.0/0.0
-
-rem ***  
+Object.absolutePosition 1012.01/274.43/1027.65
+Object.rotation -45.00/0.00/0.00
+rem
+rem ***  ***
+rem
 Object.create bespin_bench1
-Object.absolutePosition 1000.31/274.434/1039.14
-Object.rotation 135.0/0.0/0.0
-
-rem ***  
+Object.absolutePosition 1000.31/274.43/1039.14
+Object.rotation 135.00/0.00/0.00
+rem
+rem ***  ***
+rem
 Object.create bespin_bench1
-Object.absolutePosition 1006.13/274.434/1041.53
-Object.rotation 180.0/0.0/0.0
-
-rem ***  
+Object.absolutePosition 1006.13/274.43/1041.53
+Object.rotation 180.00/0.00/0.00
+rem
+rem ***  ***
+rem
 Object.create bespin_bench1
-Object.absolutePosition 1012.03/274.434/1039.14
-Object.rotation -135.0/0.0/0.0
-
-rem ***  
+Object.absolutePosition 1012.03/274.43/1039.14
+Object.rotation -135.00/0.00/0.00
+rem
+rem ***  ***
+rem
 Object.create bespin_bench1
-Object.absolutePosition 1004.05/274.434/1023.93
-Object.rotation 10.0/0.0/0.0
-
-rem ***  
+Object.absolutePosition 1004.05/274.43/1023.93
+Object.rotation 10.00/0.00/0.00
+rem
+rem ***  ***
+rem
 Object.create bespin_bench1
-Object.absolutePosition 1008.16/274.434/1023.93
-Object.rotation -10.0/0.0/0.0
-
-rem ***  
+Object.absolutePosition 1008.16/274.43/1023.93
+Object.rotation -10.00/0.00/0.00
+rem
+rem ***  ***
+rem
 Object.create bespin_bench1
-Object.absolutePosition 1012.02/274.434/1011.9
-Object.rotation -90.0/0.0/0.0
-
-rem ***  
+Object.absolutePosition 1012.02/274.43/1011.90
+Object.rotation -90.00/0.00/0.00
+rem
+rem ***  ***
+rem
 Object.create bespin_bench1
-Object.absolutePosition 1012.02/274.434/997.15
-Object.rotation -90.0/0.0/0.0
-
-rem ***  
+Object.absolutePosition 1012.02/274.43/997.15
+Object.rotation -90.00/0.00/0.00
+rem
+rem ***  ***
+rem
 Object.create bespin_bench1
-Object.absolutePosition 1012.02/274.434/1004.54
-Object.rotation -90.0/0.0/0.0
-
-rem ***  
+Object.absolutePosition 1012.02/274.43/1004.54
+Object.rotation -90.00/0.00/0.00
+rem
+rem ***  ***
+rem
 Object.create bespin_bench1
-Object.absolutePosition 1000.38/274.434/1004.54
-Object.rotation -90.0/0.0/0.0
-
-rem ***  
+Object.absolutePosition 1000.38/274.43/1004.54
+Object.rotation -90.00/0.00/0.00
+rem
+rem ***  ***
+rem
 Object.create bespin_bench1
-Object.absolutePosition 1000.38/274.434/1011.9
-Object.rotation -90.0/0.0/0.0
-
-rem ***  
+Object.absolutePosition 1000.38/274.43/1011.90
+Object.rotation -90.00/0.00/0.00
+rem
+rem ***  ***
+rem
 Object.create bespin_bench1
-Object.absolutePosition 1000.38/274.434/997.15
-Object.rotation -90.0/0.0/0.0
-
-rem ***  
+Object.absolutePosition 1000.38/274.43/997.15
+Object.rotation -90.00/0.00/0.00
+rem
+rem ***  ***
+rem
 Object.create bespin_bench1
-Object.absolutePosition 1009.33/274.434/990.164
-Object.rotation -30.0/0.0/0.0
-
-rem ***  
+Object.absolutePosition 1009.33/274.43/990.16
+Object.rotation -30.00/0.00/0.00
+rem
+rem ***  ***
+rem
 Object.create bespin_bench1
-Object.absolutePosition 1003.12/274.434/990.164
-Object.rotation 30.0/0.0/0.0
-
-rem ***  
+Object.absolutePosition 1003.12/274.43/990.16
+Object.rotation 30.00/0.00/0.00
+rem
+rem ***  ***
+rem
 Object.create bespin_bench1
-Object.absolutePosition 1009.67/274.434/972.094
-Object.rotation -62.8668/0.0/0.0
-
-rem ***  
+Object.absolutePosition 1009.67/274.43/972.09
+Object.rotation -62.87/0.00/0.00
+rem
+rem ***  ***
+rem
 Object.create bespin_bench1
-Object.absolutePosition 1002.77/274.434/972.094
-Object.rotation -117.98/0.0/0.0
-
-rem ***  
+Object.absolutePosition 1002.77/274.43/972.09
+Object.rotation -117.98/0.00/0.00
+rem
+rem ***  ***
+rem
 Object.create bespin_bench2
-Object.absolutePosition 1006.23/274.438/980.028
-Object.rotation 0.0/0.0/0.0
-
-rem ***  
+Object.absolutePosition 1006.23/274.44/980.03
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
 Object.create bespin_bench1
-Object.absolutePosition 1018.6/251.854/888.063
-Object.rotation -90.0/0.0/0.0
-
-rem ***  
+Object.absolutePosition 1018.60/251.85/888.06
+Object.rotation -90.00/0.00/0.00
+rem
+rem ***  ***
+rem
 Object.create bespin_bench1
-Object.absolutePosition 1016.77/251.854/894.478
-Object.rotation -120.86/0.0/0.0
-
-rem ***  
+Object.absolutePosition 1016.77/251.85/894.48
+Object.rotation -120.86/0.00/0.00
+rem
+rem ***  ***
+rem
 Object.create bespin_bench1
-Object.absolutePosition 1016.77/251.854/881.576
-Object.rotation -58.8287/0.0/0.0
-
-rem ***  
+Object.absolutePosition 1016.77/251.85/881.58
+Object.rotation -58.83/0.00/0.00
+rem
+rem ***  ***
+rem
 Object.create bespin_bench1
-Object.absolutePosition 995.467/251.854/881.6
-Object.rotation 59.1396/0.0/0.0
-
-rem ***  
+Object.absolutePosition 995.47/251.85/881.60
+Object.rotation 59.14/0.00/0.00
+rem
+rem ***  ***
+rem
 Object.create bespin_bench1
-Object.absolutePosition 993.642/251.854/888.015
-Object.rotation 90.0/0.0/0.0
-
-rem ***  
+Object.absolutePosition 993.64/251.85/888.02
+Object.rotation 90.00/0.00/0.00
+rem
+rem ***  ***
+rem
 Object.create bespin_bench1
-Object.absolutePosition 995.467/251.854/894.502
-Object.rotation 121.171/0.0/0.0
-
-rem ***  
+Object.absolutePosition 995.47/251.85/894.50
+Object.rotation 121.17/0.00/0.00
+rem
+rem ***  ***
+rem
 Object.create bespin_bench1
-Object.absolutePosition 1006.11/251.854/901.103
-Object.rotation -180.0/0.0/0.0
-
-rem ***  
+Object.absolutePosition 1006.11/251.85/901.10
+Object.rotation -180.00/0.00/0.00
+rem
+rem ***  ***
+rem
 Object.create bespin_bench1
-Object.absolutePosition 1006.11/251.854/909.777
-Object.rotation -180.0/0.0/0.0
-
-rem ***  
+Object.absolutePosition 1006.11/251.85/909.78
+Object.rotation -180.00/0.00/0.00
+rem
+rem ***  ***
+rem
 Object.create bespin_bench1
-Object.absolutePosition 1006.11/251.854/872.947
-Object.rotation -180.0/0.0/0.0
-
-rem ***  
+Object.absolutePosition 1006.11/251.85/872.95
+Object.rotation -180.00/0.00/0.00
+rem
+rem ***  ***
+rem
 Object.create bespin_bench1
-Object.absolutePosition 1006.11/251.854/864.273
-Object.rotation -180.0/0.0/0.0
-
-rem ***  
+Object.absolutePosition 1006.11/251.85/864.27
+Object.rotation -180.00/0.00/0.00
+rem
+rem ***  ***
+rem
 Object.create bespin_bench1
-Object.absolutePosition 1006.11/251.854/855.65
-Object.rotation -180.0/0.0/0.0
-
-rem ***  
+Object.absolutePosition 1006.11/251.85/855.65
+Object.rotation -180.00/0.00/0.00
+rem
+rem ***  ***
+rem
 Object.create bespin_bench1
-Object.absolutePosition 1006.11/251.854/846.976
-Object.rotation -180.0/0.0/0.0
-
-rem ***  
+Object.absolutePosition 1006.11/251.85/846.98
+Object.rotation -180.00/0.00/0.00
+rem
+rem ***  ***
+rem
 Object.create ctown_walkway10_rails_mirrored
-Object.absolutePosition 949.76/274.305/1035.29
-Object.rotation 0.0/0.0/0.0
-
-rem ***  
+Object.absolutePosition 949.76/274.30/1035.29
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
 Object.create ctown_walkway11_rails_mirrored
-Object.absolutePosition 946.37/274.411/992.307
-Object.rotation 0.0/0.0/0.0
-
-rem ***  
+Object.absolutePosition 946.37/274.41/992.31
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
 Object.create bespin_archway1
-Object.absolutePosition 940.368/274.281/1054.69
-Object.rotation 0.0/0.0/0.0
-
-rem ***  
+Object.absolutePosition 940.37/274.28/1054.69
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
 Object.create bespin_archway1
-Object.absolutePosition 950.967/274.281/1054.69
-Object.rotation 0.0/0.0/0.0
-
-rem ***  
+Object.absolutePosition 950.97/274.28/1054.69
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
 Object.create bespin_archway1
-Object.absolutePosition 974.226/274.281/1042.27
-Object.rotation 20.0/0.0/0.0
-
-rem ***  
+Object.absolutePosition 974.23/274.28/1042.27
+Object.rotation 20.00/0.00/0.00
+rem
+rem ***  ***
+rem
 Object.create bespin_archway1
-Object.absolutePosition 965.234/274.281/1054.66
-Object.rotation 30.5/0.0/0.0
+Object.absolutePosition 965.23/274.28/1054.66
+Object.rotation 30.50/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create echo_chair_imp
+Object.absolutePosition 277.66/280.24/997.56
+Object.rotation 90.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create echo_chair_reb
+Object.absolutePosition 1766.87/280.24/996.67
+Object.rotation 270.00/0.00/0.00

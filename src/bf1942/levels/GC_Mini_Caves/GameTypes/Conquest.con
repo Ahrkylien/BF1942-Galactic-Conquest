@@ -1,5 +1,5 @@
-Game.setNumberOfTickets 1 50
-Game.setNumberOfTickets 2 50
+Game.setNumberOfTickets 1 75
+Game.setNumberOfTickets 2 75
 Game.setTicketLostPerMin 1 6
 Game.setTicketLostPerMin 2 6
 

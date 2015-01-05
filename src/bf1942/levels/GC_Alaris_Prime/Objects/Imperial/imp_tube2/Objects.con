@@ -1,0 +1,3 @@
+ObjectTemplate.create SimpleObject imp_tube2
+ObjectTemplate.geometry imp_tube2
+ObjectTemplate.setHasCollisionPhysics 1

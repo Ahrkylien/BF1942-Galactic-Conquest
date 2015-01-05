@@ -1,4 +1,9 @@
 rem
+rem
+Object.create jud_fakedoor01
+Object.absolutePosition 556.06/341.40/1001.42
+Object.rotation 26.76/0.00/0.00
+rem
 rem ***  ***
 rem
 Object.create static_runner
@@ -5859,9 +5864,6 @@ Object.Rotation 180/0/0
 rem
 rem ***  ***
 rem
-Object.create jud_security2
-Object.absolutePosition 536.421/341.312/972.962
-Object.Rotation -90/0/0
 rem
 rem ***  ***
 rem

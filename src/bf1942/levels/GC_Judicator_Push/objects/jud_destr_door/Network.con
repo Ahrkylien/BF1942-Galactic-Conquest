@@ -1,0 +1,2 @@
+NetworkableInfo.createNewInfo jud_destr_doorBodyInfo
+NetworkableInfo.setPredictionMode PMLinear

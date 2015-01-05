@@ -1,0 +1,215 @@
+rem
+rem ***  ***
+rem
+Object.create jud_uplift_spawner
+Object.absolutePosition 1654.56/342/887.87
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create jud_uplift_spawner
+Object.absolutePosition 1687.55/589/922.09
+Object.rotation -90/0/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create jud_uplift_spawner
+Object.absolutePosition 1677.32/342/897.9
+Object.rotation -45/0/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create jud_uplift_spawner
+Object.absolutePosition 1620.72/589/921.88
+Object.rotation 90/0/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create jud_uplift_spawner
+Object.absolutePosition 1629.73/342/944.86
+Object.rotation 135/0/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create tramcar_s
+Object.absolutePosition 578.72/337/1015.57
+Object.rotation 90/0/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create tramcar_s
+Object.absolutePosition 578.72/337/1007
+Object.rotation 90/0/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create tramcar_s
+Object.absolutePosition 578.72/337/1024.14
+Object.rotation 90/0/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create tramcar_s
+Object.absolutePosition 578.72/337/1032.72
+Object.rotation 90/0/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create tramcar_s
+Object.absolutePosition 1643.53/337/1041.35
+Object.rotation 90/0/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create tramcar_s
+Object.absolutePosition 1643.48/337/1049.98
+Object.rotation 90/0/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create tramcar_s
+Object.absolutePosition 1090.65/337/1015.85
+Object.rotation 90/0/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create tramcar_s
+Object.absolutePosition 1090.64/337/1023.99
+Object.rotation 90/0/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create tramcar_s
+Object.absolutePosition 1090.36/337/1032.59
+Object.rotation 90/0/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create jud_ambient_beginning_spawn1
+Object.absolutePosition 511.46/340.58/894.54
+Object.rotation 92.31/0/0
+Object.setOSId 2
+Object.setTeam 2
+rem
+rem ***  ***
+rem
+Object.create jud_ambient_tramcontrol_spawn1
+Object.absolutePosition 559.25/340.58/1032.33
+Object.setOSId 5
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create jud_ambient_flag5_spawn1
+Object.absolutePosition 1049.04/340.58/920.29
+Object.setOSId 8
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create jud_push2_2
+Object.absolutePosition 557.2/336.54/984.94
+Object.rotation 90/0/0
+Object.setOSId 4
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create jud_push2_2
+Object.absolutePosition 545.9/336.588/984.887
+Object.rotation 90/0/0
+Object.setOSId 4
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create jud_push2_2
+Object.absolutePosition 1046.14/341/892.67
+Object.setOSId 6
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create jud_push2_2
+Object.absolutePosition 827.66/341/910.22
+Object.setOSId 4
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create jud_push2_2
+Object.absolutePosition 1434.83/341/875.27
+Object.setOSId 8
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create jud_push2_2
+Object.absolutePosition 1648.82/341/992.67
+Object.rotation 90/0/0
+Object.setOSId 11
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create jud_push_bridge_shield_door
+Object.absolutePosition 1629.23/588.888/897.331
+Object.rotation 45/0/0
+Object.setOSId 3
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create tl-21_kit_spawner
+Object.absolutePosition 763.02/341.86/893.48
+Object.rotation -87/0/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create gren_kit_spawner
+Object.absolutePosition 1035.81/343/882.692
+Object.rotation 90/0/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create new_tl_21_kit_spawner
+Object.absolutePosition 1034.96/343/882.692
+Object.rotation 90/0/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create new_tl_21_kit_spawner
+Object.absolutePosition 1582/590.5/865
+Object.rotation 90/0/0
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create empire_medic_kit_spawner
+Object.absolutePosition 1581.97/590.5/884.3
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create tracker_16_kit_spawner
+Object.absolutePosition 1642.48/343/989
+Object.rotation 90/0/0
+Object.setTeam 1
+
+

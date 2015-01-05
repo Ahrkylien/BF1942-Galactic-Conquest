@@ -1,0 +1,373 @@
+rem ObjectSpawns.con created by Battlecraft 1942
+rem (\Program Files\Battlefield 1942\Mods\GCMOD\bf1942\levels\GC_BonusRace/conquest/ObjectSpawns.con)
+
+rem ----------------------------------------- 
+rem ---  Fighter  ---
+rem ----------------------------------------- 
+Object.create Fighter
+Object.absolutePosition 1992.19/260.07/2024.95
+Object.rotation 180.00/0.00/0.00
+Object.setOSId 5
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  Fighter  ---
+rem ----------------------------------------- 
+Object.create Fighter
+Object.absolutePosition 1981.84/260.40/2024.45
+Object.rotation 180.00/0.00/0.00
+Object.setOSId 5
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  Medium_Fighter  ---
+rem ----------------------------------------- 
+Object.create Medium_Fighter
+Object.absolutePosition 1971.48/259.33/2025.18
+Object.rotation 180.00/0.00/0.00
+Object.setOSId 5
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  Fighter  ---
+rem ----------------------------------------- 
+Object.create Fighter
+Object.absolutePosition 31.67/255.47/2012.66
+Object.rotation 180.00/0.00/0.00
+Object.setOSId 6
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  Fighter  ---
+rem ----------------------------------------- 
+Object.create Fighter
+Object.absolutePosition 39.54/255.23/2012.43
+Object.rotation 180.00/0.00/0.00
+Object.setOSId 6
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  Medium_Fighter  ---
+rem ----------------------------------------- 
+Object.create Medium_Fighter
+Object.absolutePosition 52.38/255.88/2009.78
+Object.rotation 180.00/0.00/0.00
+Object.setOSId 6
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  Transport  ---
+rem ----------------------------------------- 
+Object.create Transport
+Object.absolutePosition 54.86/258.53/35.93
+Object.rotation 0.00/0.00/0.00
+Object.setOSId 6
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  Transport  ---
+rem ----------------------------------------- 
+Object.create Transport
+Object.absolutePosition 1997.49/261.89/93.49
+Object.rotation -37.72/0.00/0.00
+Object.setOSId 5
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  other  ---
+rem ----------------------------------------- 
+Object.create other
+Object.absolutePosition 1979.18/259.39/79.34
+Object.rotation -43.27/0.00/0.00
+Object.setOSId 5
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  other  ---
+rem ----------------------------------------- 
+Object.create other
+Object.absolutePosition 25.75/258.43/37.64
+Object.rotation 0.00/0.00/0.00
+Object.setOSId 6
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  Speederbike2  ---
+rem ----------------------------------------- 
+Object.create Speederbike2
+Object.absolutePosition 888.02/244.60/1726.76
+Object.rotation 180.00/0.00/0.00
+Object.setOSId 4
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  Speederbike2  ---
+rem ----------------------------------------- 
+Object.create Speederbike2
+Object.absolutePosition 851.96/244.66/1726.81
+Object.rotation 180.00/0.00/0.00
+Object.setOSId 3
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Speederbike2  ---
+rem ----------------------------------------- 
+Object.create Speederbike2
+Object.absolutePosition 884.01/244.66/1726.89
+Object.rotation 180.00/0.00/0.00
+Object.setOSId 4
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  Speederbike2  ---
+rem ----------------------------------------- 
+Object.create Speederbike2
+Object.absolutePosition 880.10/244.66/1726.76
+Object.rotation 180.00/0.00/0.00
+Object.setOSId 4
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  Speederbike2  ---
+rem ----------------------------------------- 
+Object.create Speederbike2
+Object.absolutePosition 875.99/244.66/1726.70
+Object.rotation 180.00/0.00/0.00
+Object.setOSId 4
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  Speederbike2  ---
+rem ----------------------------------------- 
+Object.create Speederbike2
+Object.absolutePosition 872.02/244.66/1726.76
+Object.rotation 180.00/0.00/0.00
+Object.setOSId 4
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  Speederbike2  ---
+rem ----------------------------------------- 
+Object.create Speederbike2
+Object.absolutePosition 867.97/244.67/1726.73
+Object.rotation 180.00/0.00/0.00
+Object.setOSId 3
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Speederbike2  ---
+rem ----------------------------------------- 
+Object.create Speederbike2
+Object.absolutePosition 864.00/244.67/1726.79
+Object.rotation 180.00/0.00/0.00
+Object.setOSId 3
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Speederbike2  ---
+rem ----------------------------------------- 
+Object.create Speederbike2
+Object.absolutePosition 860.01/244.66/1726.74
+Object.rotation 180.00/0.00/0.00
+Object.setOSId 3
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Speederbike2  ---
+rem ----------------------------------------- 
+Object.create Speederbike2
+Object.absolutePosition 855.96/244.66/1726.71
+Object.rotation 180.00/0.00/0.00
+Object.setOSId 3
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Skyhopper2  ---
+rem ----------------------------------------- 
+Object.create Skyhopper2
+Object.absolutePosition 1055.97/7.93/266.18
+Object.rotation 90.00/0.00/0.00
+Object.setOSId 1
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Skyhopper2  ---
+rem ----------------------------------------- 
+Object.create Skyhopper2
+Object.absolutePosition 1055.86/7.93/250.12
+Object.rotation 90.00/0.00/0.00
+Object.setOSId 1
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Skyhopper2  ---
+rem ----------------------------------------- 
+Object.create Skyhopper2
+Object.absolutePosition 1055.89/7.93/233.26
+Object.rotation 90.00/0.00/0.00
+Object.setOSId 1
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Skyhopper2  ---
+rem ----------------------------------------- 
+Object.create Skyhopper2
+Object.absolutePosition 1055.97/7.93/217.29
+Object.rotation 90.00/0.00/0.00
+Object.setOSId 2
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  Skyhopper2  ---
+rem ----------------------------------------- 
+Object.create Skyhopper2
+Object.absolutePosition 1055.96/7.93/201.90
+Object.rotation 90.00/0.00/0.00
+Object.setOSId 2
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  Skyhopper2  ---
+rem ----------------------------------------- 
+Object.create Skyhopper2
+Object.absolutePosition 1041.49/8.19/257.50
+Object.rotation 90.00/0.00/0.00
+Object.setOSId 1
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Skyhopper2  ---
+rem ----------------------------------------- 
+Object.create Skyhopper2
+Object.absolutePosition 1041.39/8.19/241.02
+Object.rotation 90.00/0.00/0.00
+Object.setOSId 1
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Skyhopper2  ---
+rem ----------------------------------------- 
+Object.create Skyhopper2
+Object.absolutePosition 1029.97/8.19/249.09
+Object.rotation 90.00/0.00/0.00
+Object.setOSId 1
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Skyhopper2  ---
+rem ----------------------------------------- 
+Object.create Skyhopper2
+Object.absolutePosition 1041.76/8.19/224.86
+Object.rotation 90.00/0.00/0.00
+Object.setOSId 2
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  Skyhopper2  ---
+rem ----------------------------------------- 
+Object.create Skyhopper2
+Object.absolutePosition 1041.53/8.19/209.28
+Object.rotation 90.00/0.00/0.00
+Object.setOSId 2
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  Skyhopper2  ---
+rem ----------------------------------------- 
+Object.create Skyhopper2
+Object.absolutePosition 1029.62/8.29/232.18
+Object.rotation 90.00/0.00/0.00
+Object.setOSId 2
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  Skyhopper2  ---
+rem ----------------------------------------- 
+Object.create Skyhopper2
+Object.absolutePosition 1029.60/8.27/215.91
+Object.rotation 90.00/0.00/0.00
+Object.setOSId 2
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  Snowspeeder2  ---
+rem ----------------------------------------- 
+Object.create Snowspeeder2
+Object.absolutePosition 1954.76/258.70/2023.62
+Object.rotation 180.00/0.00/0.00
+Object.setOSId 5
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Snowspeeder2  ---
+rem ----------------------------------------- 
+Object.create Snowspeeder2
+Object.absolutePosition 68.30/256.67/2011.55
+Object.rotation 180.00/0.00/0.00
+Object.setOSId 6
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  Gunship  ---
+rem ----------------------------------------- 
+Object.create Gunship
+Object.absolutePosition 15.33/258.62/1992.74
+Object.rotation 135.00/0.00/0.00
+Object.setOSId 6
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  Gunship  ---
+rem ----------------------------------------- 
+Object.create Gunship
+Object.absolutePosition 2028.41/258.87/2013.92
+Object.rotation -135.00/0.00/0.00
+Object.setOSId 5
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Sentry  ---
+rem ----------------------------------------- 
+Object.create Sentry_spawner
+Object.absolutePosition 990.69/261.38/1740.03
+Object.rotation 134.34/0.00/0.00
+Object.setOSId 4
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  Sentry  ---
+rem ----------------------------------------- 
+Object.create Sentry_spawner
+Object.absolutePosition 1037.30/3.61/282.58
+Object.rotation -90/0.00/0.00
+Object.setOSId 1
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Sentry  ---
+rem ----------------------------------------- 
+Object.create Sentry_spawner
+Object.absolutePosition 1038.90/3.62/185.82
+Object.rotation -90/0.00/0.00
+Object.setOSId 2
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  Dtap_Spawner  ---
+rem ----------------------------------------- 
+Object.create Dtap_Spawner
+Object.absolutePosition 48.65/256.71/2023.05
+Object.rotation -180.00/0.00/0.00
+Object.setOSId 6
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  Dtap_Spawner  ---
+rem ----------------------------------------- 
+Object.create Dtap_Spawner
+Object.absolutePosition 1976.57/257.20/2035.75
+Object.rotation -180.00/0.00/0.00
+Object.setOSId 5
+Object.setTeam 1
+
+rem EndOfFile

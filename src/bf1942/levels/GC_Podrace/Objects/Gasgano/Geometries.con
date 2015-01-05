@@ -1,0 +1,346 @@
+GeometryTemplate.create StandardMesh Gasgano_cockpit_M1
+GeometryTemplate.file Vehicles/Gasgano/Gasgano_cockpit
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+GeometryTemplate.setLodDistance 2 400
+GeometryTemplate.setLodDistance 3 800
+GeometryTemplate.setLodDistance 4 1000
+GeometryTemplate.setLodDistance 5 1400
+
+GeometryTemplate.create StandardMesh Gasgano_bb
+GeometryTemplate.file Vehicles/Gasgano/Gasgano_bb
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh Gasgano_EnergyBeam
+GeometryTemplate.file Vehicles/Gasgano/Gasgano_EnergyClutch
+rem GeometryTemplate.file Vehicles/PodRacer/teemto_EnergyClutch
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+GeometryTemplate.setLodDistance 2 400
+GeometryTemplate.setLodDistance 3 800
+
+GeometryTemplate.create StandardMesh Gasgano_EnergyObstacle
+GeometryTemplate.file Vehicles/PodRacer/PodRacer_EnergyObstacle
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+
+
+GeometryTemplate.create StandardMesh Wreck_Gasgano_M1
+GeometryTemplate.file Vehicles/Gasgano/Gasgano_wreck
+
+GeometryTemplate.create StandardMesh Gasgano_cable_M1
+GeometryTemplate.file Vehicles/Gasgano/Gasgano_cable
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+
+GeometryTemplate.create StandardMesh Gasgano_L1
+GeometryTemplate.file Vehicles/Gasgano/Gasgano_low
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 30
+GeometryTemplate.setLodDistance 2 80
+GeometryTemplate.setLodDistance 3 120
+GeometryTemplate.setLodDistance 4 160
+GeometryTemplate.setLodDistance 5 220
+
+GeometryTemplate.create StandardMesh Gasgano_Turbo_left_M1
+GeometryTemplate.file Vehicles/Gasgano/Gasgano_l_engine
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+GeometryTemplate.setLodDistance 2 400
+GeometryTemplate.setLodDistance 3 800
+GeometryTemplate.setLodDistance 4 1000
+GeometryTemplate.setLodDistance 5 1400
+
+
+GeometryTemplate.create StandardMesh Gasgano_Turbo_right_M1
+GeometryTemplate.file Vehicles/Gasgano/Gasgano_r_engine
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+GeometryTemplate.setLodDistance 2 400
+GeometryTemplate.setLodDistance 3 800
+GeometryTemplate.setLodDistance 4 1000
+GeometryTemplate.setLodDistance 5 1400
+
+
+
+
+GeometryTemplate.create StandardMesh Gasgano1_cockpit_M1
+GeometryTemplate.file Vehicles/Gasgano/Gasgano1_cockpit
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+GeometryTemplate.setLodDistance 2 400
+GeometryTemplate.setLodDistance 3 800
+GeometryTemplate.setLodDistance 4 1000
+GeometryTemplate.setLodDistance 5 1400
+
+GeometryTemplate.create StandardMesh Gasgano_bb
+GeometryTemplate.file Vehicles/Gasgano/Gasgano_bb
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh Gasgano_EnergyBeam
+GeometryTemplate.file Vehicles/Gasgano/Gasgano_EnergyClutch
+rem GeometryTemplate.file Vehicles/PodRacer/teemto_EnergyClutch
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+GeometryTemplate.setLodDistance 2 400
+GeometryTemplate.setLodDistance 3 800
+
+GeometryTemplate.create StandardMesh Gasgano_EnergyObstacle
+GeometryTemplate.file Vehicles/PodRacer/PodRacer_EnergyObstacle
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+
+
+GeometryTemplate.create StandardMesh Wreck1_Gasgano_M1
+GeometryTemplate.file Vehicles/Gasgano/Gasgano_wreck
+
+GeometryTemplate.create StandardMesh Gasgano1_cable_M1
+GeometryTemplate.file Vehicles/Gasgano/Gasgano_cable
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+
+GeometryTemplate.create StandardMesh Gasgano1_L1
+GeometryTemplate.file Vehicles/Gasgano/Gasgano1_low
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 30
+GeometryTemplate.setLodDistance 2 80
+GeometryTemplate.setLodDistance 3 120
+GeometryTemplate.setLodDistance 4 160
+GeometryTemplate.setLodDistance 5 220
+
+GeometryTemplate.create StandardMesh Gasgano1_Turbo_left_M1
+GeometryTemplate.file Vehicles/Gasgano/Gasgano1_l_engine
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+GeometryTemplate.setLodDistance 2 400
+GeometryTemplate.setLodDistance 3 800
+GeometryTemplate.setLodDistance 4 1000
+GeometryTemplate.setLodDistance 5 1400
+
+
+GeometryTemplate.create StandardMesh Gasgano1_Turbo_right_M1
+GeometryTemplate.file Vehicles/Gasgano/Gasgano1_r_engine
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+GeometryTemplate.setLodDistance 2 400
+GeometryTemplate.setLodDistance 3 800
+GeometryTemplate.setLodDistance 4 1000
+GeometryTemplate.setLodDistance 5 1400
+
+
+GeometryTemplate.create StandardMesh Gasgano2_cockpit_M1
+GeometryTemplate.file Vehicles/Gasgano/Gasgano2_cockpit
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+GeometryTemplate.setLodDistance 2 400
+GeometryTemplate.setLodDistance 3 800
+GeometryTemplate.setLodDistance 4 1000
+GeometryTemplate.setLodDistance 5 1400
+
+GeometryTemplate.create StandardMesh Gasgano_bb
+GeometryTemplate.file Vehicles/Gasgano/Gasgano_bb
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh Gasgano_EnergyBeam
+GeometryTemplate.file Vehicles/Gasgano/Gasgano_EnergyClutch
+rem GeometryTemplate.file Vehicles/PodRacer/teemto_EnergyClutch
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+GeometryTemplate.setLodDistance 2 400
+GeometryTemplate.setLodDistance 3 800
+
+GeometryTemplate.create StandardMesh Gasgano_EnergyObstacle
+GeometryTemplate.file Vehicles/PodRacer/PodRacer_EnergyObstacle
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+
+
+GeometryTemplate.create StandardMesh Wreck1_Gasgano_M1
+GeometryTemplate.file Vehicles/Gasgano/Gasgano_wreck
+
+GeometryTemplate.create StandardMesh Gasgano2_cable_M1
+GeometryTemplate.file Vehicles/Gasgano/Gasgano_cable
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+
+GeometryTemplate.create StandardMesh Gasgano2_L1
+GeometryTemplate.file Vehicles/Gasgano/Gasgano2_low
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 30
+GeometryTemplate.setLodDistance 2 80
+GeometryTemplate.setLodDistance 3 120
+GeometryTemplate.setLodDistance 4 160
+GeometryTemplate.setLodDistance 5 220
+
+GeometryTemplate.create StandardMesh Gasgano2_Turbo_left_M1
+GeometryTemplate.file Vehicles/Gasgano/Gasgano2_l_engine
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+GeometryTemplate.setLodDistance 2 400
+GeometryTemplate.setLodDistance 3 800
+GeometryTemplate.setLodDistance 4 1000
+GeometryTemplate.setLodDistance 5 1400
+
+
+GeometryTemplate.create StandardMesh Gasgano2_Turbo_right_M1
+GeometryTemplate.file Vehicles/Gasgano/Gasgano2_r_engine
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+GeometryTemplate.setLodDistance 2 400
+GeometryTemplate.setLodDistance 3 800
+GeometryTemplate.setLodDistance 4 1000
+GeometryTemplate.setLodDistance 5 1400
+
+
+
+
+
+
+
+
+
+GeometryTemplate.create StandardMesh Gasgano3_cockpit_M1
+GeometryTemplate.file Vehicles/Gasgano/Gasgano3_cockpit
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+GeometryTemplate.setLodDistance 2 400
+GeometryTemplate.setLodDistance 3 800
+GeometryTemplate.setLodDistance 4 1000
+GeometryTemplate.setLodDistance 5 1400
+
+GeometryTemplate.create StandardMesh Gasgano_bb
+GeometryTemplate.file Vehicles/Gasgano/Gasgano_bb
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh Gasgano_EnergyBeam
+GeometryTemplate.file Vehicles/Gasgano/Gasgano_EnergyClutch
+rem GeometryTemplate.file Vehicles/PodRacer/teemto_EnergyClutch
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+GeometryTemplate.setLodDistance 2 400
+GeometryTemplate.setLodDistance 3 800
+
+GeometryTemplate.create StandardMesh Gasgano_EnergyObstacle
+GeometryTemplate.file Vehicles/PodRacer/PodRacer_EnergyObstacle
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+
+
+GeometryTemplate.create StandardMesh Wreck1_Gasgano_M1
+GeometryTemplate.file Vehicles/Gasgano/Gasgano_wreck
+
+GeometryTemplate.create StandardMesh Gasgano3_cable_M1
+GeometryTemplate.file Vehicles/Gasgano/Gasgano_cable
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+
+GeometryTemplate.create StandardMesh Gasgano3_L1
+GeometryTemplate.file Vehicles/Gasgano/Gasgano3_low
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 30
+GeometryTemplate.setLodDistance 2 80
+GeometryTemplate.setLodDistance 3 120
+GeometryTemplate.setLodDistance 4 160
+GeometryTemplate.setLodDistance 5 220
+
+GeometryTemplate.create StandardMesh Gasgano3_Turbo_left_M1
+GeometryTemplate.file Vehicles/Gasgano/Gasgano3_l_engine
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+GeometryTemplate.setLodDistance 2 400
+GeometryTemplate.setLodDistance 3 800
+GeometryTemplate.setLodDistance 4 1000
+GeometryTemplate.setLodDistance 5 1400
+
+
+GeometryTemplate.create StandardMesh Gasgano3_Turbo_right_M1
+GeometryTemplate.file Vehicles/Gasgano/Gasgano3_r_engine
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+GeometryTemplate.setLodDistance 2 400
+GeometryTemplate.setLodDistance 3 800
+GeometryTemplate.setLodDistance 4 1000
+GeometryTemplate.setLodDistance 5 1400
+
+
+
+
+
+
+GeometryTemplate.create StandardMesh Gasgano4_cockpit_M1
+GeometryTemplate.file Vehicles/Gasgano/Gasgano4_cockpit
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+GeometryTemplate.setLodDistance 2 400
+GeometryTemplate.setLodDistance 3 800
+GeometryTemplate.setLodDistance 4 1000
+GeometryTemplate.setLodDistance 5 1400
+
+GeometryTemplate.create StandardMesh Gasgano_bb
+GeometryTemplate.file Vehicles/Gasgano/Gasgano_bb
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh Gasgano_EnergyBeam
+GeometryTemplate.file Vehicles/Gasgano/Gasgano_EnergyClutch
+rem GeometryTemplate.file Vehicles/PodRacer/teemto_EnergyClutch
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+GeometryTemplate.setLodDistance 2 400
+GeometryTemplate.setLodDistance 3 800
+
+GeometryTemplate.create StandardMesh Gasgano_EnergyObstacle
+GeometryTemplate.file Vehicles/PodRacer/PodRacer_EnergyObstacle
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+
+
+GeometryTemplate.create StandardMesh Wreck1_Gasgano_M1
+GeometryTemplate.file Vehicles/Gasgano/Gasgano_wreck
+
+GeometryTemplate.create StandardMesh Gasgano4_cable_M1
+GeometryTemplate.file Vehicles/Gasgano/Gasgano_cable
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+
+GeometryTemplate.create StandardMesh Gasgano4_L1
+GeometryTemplate.file Vehicles/Gasgano/Gasgano4_low
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 30
+GeometryTemplate.setLodDistance 2 80
+GeometryTemplate.setLodDistance 3 120
+GeometryTemplate.setLodDistance 4 160
+GeometryTemplate.setLodDistance 5 220
+
+GeometryTemplate.create StandardMesh Gasgano4_Turbo_left_M1
+GeometryTemplate.file Vehicles/Gasgano/Gasgano4_l_engine
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+GeometryTemplate.setLodDistance 2 400
+GeometryTemplate.setLodDistance 3 800
+GeometryTemplate.setLodDistance 4 1000
+GeometryTemplate.setLodDistance 5 1400
+
+
+GeometryTemplate.create StandardMesh Gasgano4_Turbo_right_M1
+GeometryTemplate.file Vehicles/Gasgano/Gasgano4_r_engine
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+GeometryTemplate.setLodDistance 2 400
+GeometryTemplate.setLodDistance 3 800
+GeometryTemplate.setLodDistance 4 1000
+GeometryTemplate.setLodDistance 5 1400

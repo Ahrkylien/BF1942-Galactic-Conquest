@@ -14,7 +14,7 @@ ObjectTemplate.TimeToLive 45
 ObjectTemplate.Distance 40
 ObjectTemplate.DamageWhenLost 10
 ObjectTemplate.maxNrOfObjectSpawned 1
-ObjectTemplate.teamOnVehicle 1
+ObjectTemplate.teamOnVehicle 0
 
 rem ----------------------------------------- 
 rem ---  milleniumfalconspawner  ---
@@ -49,8 +49,8 @@ rem -----------------------------------------
 rem ---  tiefighter-snowspeeder  ---
 rem ----------------------------------------- 
 ObjectTemplate.create ObjectSpawner tiefighter-snowspeeder
-ObjectTemplate.setObjectTemplate 1 snowspeeder_v
-ObjectTemplate.setObjectTemplate 2 snowspeeder_v
+ObjectTemplate.setObjectTemplate 1 snowspeeder
+ObjectTemplate.setObjectTemplate 2 snowspeeder
 ObjectTemplate.MinSpawnDelay 40
 ObjectTemplate.MaxSpawnDelay 60
 ObjectTemplate.SpawnDelayAtStart 0
@@ -58,7 +58,7 @@ ObjectTemplate.TimeToLive 45
 ObjectTemplate.Distance 40
 ObjectTemplate.DamageWhenLost 20
 ObjectTemplate.maxNrOfObjectSpawned 1
-ObjectTemplate.teamOnVehicle 1
+rem ObjectTemplate.teamOnVehicle 1
 
 rem ----------------------------------------- 
 rem ---  avturretspawner  ---
@@ -73,7 +73,7 @@ ObjectTemplate.TimeToLive 45
 ObjectTemplate.Distance 40
 ObjectTemplate.DamageWhenLost 10
 ObjectTemplate.maxNrOfObjectSpawned 1
-ObjectTemplate.teamOnVehicle 1
+ObjectTemplate.teamOnVehicle 0
 
 rem ----------------------------------------- 
 rem ---  xwingalltime  ---
@@ -88,7 +88,7 @@ ObjectTemplate.TimeToLive 45
 ObjectTemplate.Distance 40
 ObjectTemplate.DamageWhenLost 10
 ObjectTemplate.maxNrOfObjectSpawned 1
-ObjectTemplate.teamOnVehicle 1
+ObjectTemplate.teamOnVehicle 0
 
 rem ----------------------------------------- 
 rem ---  trollyspawn  ---
@@ -132,7 +132,7 @@ ObjectTemplate.TimeToLive 45
 ObjectTemplate.Distance 40
 ObjectTemplate.DamageWhenLost 20
 ObjectTemplate.maxNrOfObjectSpawned 1
-ObjectTemplate.teamOnVehicle 1
+ObjectTemplate.teamOnVehicle 0
 
 rem ----------------------------------------- 
 rem ---  atst-atst  ---
@@ -146,7 +146,7 @@ ObjectTemplate.TimeToLive 45
 ObjectTemplate.Distance 40
 ObjectTemplate.DamageWhenLost 10
 ObjectTemplate.maxNrOfObjectSpawned 1
-ObjectTemplate.teamOnVehicle 1
+ObjectTemplate.teamOnVehicle 0
 
 rem ----------------------------------------- 
 rem ---  rdroidreb  ---
@@ -161,7 +161,7 @@ ObjectTemplate.TimeToLive 45
 ObjectTemplate.Distance 40
 ObjectTemplate.DamageWhenLost 10
 ObjectTemplate.maxNrOfObjectSpawned 1
-ObjectTemplate.teamOnVehicle 0
+ObjectTemplate.teamOnVehicle 2
 
 rem ----------------------------------------- 
 rem ---  droidcapsulespawner  ---

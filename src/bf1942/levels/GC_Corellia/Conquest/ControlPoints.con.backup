@@ -1,0 +1,40 @@
+rem ControlPoints.con created by Battlecraft 1942
+rem (\Program Files\Battlefield 1942\Mods\GCMOD\bf1942\levels\GC_Corellia/conquest/ControlPoints.con)
+
+rem ----------------------------------------- 
+rem ---  Bela_Vistal  ---
+rem ----------------------------------------- 
+Object.create Bela_Vistal
+Object.absolutePosition 1388.61/66.08/1757.99
+
+rem ----------------------------------------- 
+rem ---  Nerf_City  ---
+rem ----------------------------------------- 
+Object.create Nerf_City
+Object.absolutePosition 874.33/79.59/253.68
+
+rem ----------------------------------------- 
+rem ---  Vreni_Island  ---
+rem ----------------------------------------- 
+Object.create Vreni_Island
+Object.absolutePosition 569.40/72.30/995.88
+
+rem ----------------------------------------- 
+rem ---  Daoba_Guerfel  ---
+rem ----------------------------------------- 
+Object.create Daoba_Guerfel
+Object.absolutePosition 1516.00/76.08/988.77
+
+rem ----------------------------------------- 
+rem ---  Rebel_Hideout  ---
+rem ----------------------------------------- 
+Object.create Rebel_Hideout
+Object.absolutePosition 1133.83/76.18/721.54
+
+rem ----------------------------------------- 
+rem ---  Imperial_Outpost  ---
+rem ----------------------------------------- 
+Object.create Imperial_Outpost
+Object.absolutePosition 1074.79/93.16/1339.10
+
+rem EndOfFile

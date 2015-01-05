@@ -1,0 +1,3 @@
+ObjectTemplate.create SimpleObject imp_bunker_smallgangway1
+ObjectTemplate.geometry imp_bunker_smallgangway1
+ObjectTemplate.setHasCollisionPhysics 1

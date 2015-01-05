@@ -1,0 +1,129 @@
+rem ObjectSpawns.con created by Battlecraft 1942
+rem (\Program Files\Battlefield 1942\Mods\GCMOD\bf1942\levels\GC_Mini_Cove/conquest/ObjectSpawns.con)
+
+rem ----------------------------------------- 
+rem ---  Air_Transport  ---
+rem ----------------------------------------- 
+Object.create Air_Transport
+Object.absolutePosition 178.08/107.53/164.30
+Object.rotation 0.00/0.00/0.00
+Object.setOSId 1
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Air_Transport  ---
+rem ----------------------------------------- 
+Object.create Air_Transport
+Object.absolutePosition 876.66/104.09/873.27
+Object.rotation -135.48/0.00/0.00
+Object.setOSId 2
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  Boatpawn  ---
+rem ----------------------------------------- 
+Object.create Boatpawn
+Object.absolutePosition 229.94/98.53/168.66
+Object.rotation 93.00/0.00/0.00
+Object.setOSId 1
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Boatpawn  ---
+rem ----------------------------------------- 
+Object.create Boatpawn
+Object.absolutePosition 836.27/98.45/870.65
+Object.rotation 196.76/0.00/0.00
+Object.setOSId 2
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  HW_Spawner  ---
+rem ----------------------------------------- 
+Object.create HW_Spawner
+Object.absolutePosition 424.31/109.71/393.98
+Object.rotation 90.00/-60.00/180.00
+Object.setOSId 3
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  HW_Spawner  ---
+rem ----------------------------------------- 
+Object.create HW_Spawner
+Object.absolutePosition 672.25/106.17/426.11
+Object.rotation 90.00/-60.00/180.00
+Object.setOSId 4
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  HW_Spawner  ---
+rem ----------------------------------------- 
+Object.create HW_Spawner
+Object.absolutePosition 672.25/106.24/427.31
+Object.rotation 90.00/-60.00/180.00
+Object.setOSId 4
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  HW_Spawner  ---
+rem ----------------------------------------- 
+Object.create HW_Spawner
+Object.absolutePosition 424.33/109.66/395.34
+Object.rotation 90.00/-60.00/180.00
+Object.setOSId 3
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  droid_capsule_spawner  ---
+rem ----------------------------------------- 
+Object.create droid_capsule_s
+Object.absolutePosition 448.35/111.38/383.65
+Object.rotation 0.00/0.00/0.00
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  droid_capsule_spawner  ---
+rem ----------------------------------------- 
+Object.create droid_capsule_s
+Object.absolutePosition 697.43/107.72/438.03
+Object.rotation 0.00/0.00/0.00
+Object.setTeam 1
+
+
+rem ----------------------------------------- 
+rem ---  DTAP  ---
+rem ----------------------------------------- 
+Object.create DTAP
+Object.absolutePosition 188.25/104.24/196.39
+Object.rotation 0.00/0.00/0.00
+Object.setOSId 1
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  DTAP  ---
+rem ----------------------------------------- 
+Object.create DTAP
+Object.absolutePosition 181.08/104.59/196.62
+Object.rotation 0.00/0.00/0.00
+Object.setOSId 1
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  DTAP  ---
+rem ----------------------------------------- 
+Object.create DTAP
+Object.absolutePosition 887.10/101.73/863.87
+Object.rotation -138.37/0.00/0.00
+Object.setOSId 2
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  DTAP  ---
+rem ----------------------------------------- 
+Object.create DTAP
+Object.absolutePosition 867.58/101.69/882.63
+Object.rotation -137.55/0.00/0.00
+Object.setOSId 2
+Object.setTeam 2
+
+rem EndOfFile

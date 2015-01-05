@@ -1,0 +1,52 @@
+rem ControlPoints.con created by Battlecraft 1942
+rem (E:\Battlefield\Mods\GCMOD\bf1942\levels\GC_Judicator/conquest/ControlPoints.con)
+
+rem ----------------------------------------- 
+rem ---  imperial_bridgetemplate  ---
+rem ----------------------------------------- 
+Object.create imperial_bridgetemplate
+Object.absolutePosition 1591.56/590.19/881.71
+
+rem ----------------------------------------- 
+rem ---  rebelblockadetemplate  ---
+rem ----------------------------------------- 
+Object.create rebelblockadetemplate
+Object.absolutePosition 541.45/341.23/849.90
+
+rem ----------------------------------------- 
+rem ---  lift_controltemplate  ---
+rem ----------------------------------------- 
+Object.create lift_controltemplate
+Object.absolutePosition 1642.13/341.40/992.66
+
+rem ----------------------------------------- 
+rem ---  level1_security_roomtemplate  ---
+rem ----------------------------------------- 
+Object.create level1_security_roomtemplate
+Object.absolutePosition 557.61/341.40/925.22
+
+rem ----------------------------------------- 
+rem ---  tram_controltemplate  ---
+rem ----------------------------------------- 
+Object.create tram_controltemplate
+Object.absolutePosition 551.2050/336.54/984.94
+
+rem ----------------------------------------- 
+rem ---  checkpoint_1template  ---
+rem ----------------------------------------- 
+Object.create checkpoint_1template
+Object.absolutePosition 827.77/341.40/918.54
+
+rem ----------------------------------------- 
+rem ---  checkpoint_3template  ---
+rem ----------------------------------------- 
+Object.create checkpoint_3template
+Object.absolutePosition 1042.54/341.35/885.08
+
+rem ----------------------------------------- 
+rem ---  checkpoint_6template  ---
+rem ----------------------------------------- 
+Object.create checkpoint_6template
+Object.absolutePosition 1431.43/341.41/867.99
+
+rem EndOfFile

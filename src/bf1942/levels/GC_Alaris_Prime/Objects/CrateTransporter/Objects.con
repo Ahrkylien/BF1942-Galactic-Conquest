@@ -1,0 +1,169 @@
+rem *** CrateTransporter ***
+ObjectTemplate.create PlayerControlObject CrateTransporter
+ObjectTemplate.NameTagOffset -0.3/-0.2/0
+ObjectTemplate.setNetworkableInfo CrateTransporterBodyInfo
+ObjectTemplate.saveInSeparateFile 1
+objectTemplate.cullRadiusScale 5
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.explosionRadius 8
+ObjectTemplate.explosionDamage 5
+ObjectTemplate.damageFromWater 1
+ObjectTemplate.drag 1
+ObjectTemplate.GravityModifier 50
+rem ObjectTemplate.GravityModifier CRD_NONE/1/0/0 
+ObjectTemplate.dragOffset 0/-1/2
+ObjectTemplate.mass 3500
+rem ObjectTemplate.inertiaModifier 2/1/2
+ObjectTemplate.hasArmor 1
+ObjectTemplate.speedMod 1
+ObjectTemplate.exitTimer 0.75
+ObjectTemplate.hitpoints 80
+ObjectTemplate.maxhitpoints 80
+ObjectTemplate.material 801
+ObjectTemplate.criticalDamage 6
+ObjectTemplate.hpLostWhileCriticalDamage 1
+ObjectTemplate.explosionForceMod 10
+ObjectTemplate.hpLostWhileUpSideDown 6
+ObjectTemplate.hpLostWhileDamageFromWater 6
+
+ObjectTemplate.addArmorEffect 12 e_WillyDamage 0/1.7/0
+ObjectTemplate.addArmorEffect 6 e_WillyFire 0/0.5/0.8
+ObjectTemplate.addArmorEffect 0 e_scrapmetal_willy 0/0/0
+ObjectTemplate.addArmorEffect 0 e_ExplGas 0/1.2/0
+ObjectTemplate.addArmorEffect 0 e_scrapmetal_LandSpeeder 0/0/0
+ObjectTemplate.addArmorEffect -1 WaterWaterExplosion  0/0/0
+
+ObjectTemplate.aiTemplate Willy
+rem -------------------------------------
+ObjectTemplate.addTemplate lodCrateTransporter
+rem -------------------------------------
+ObjectTemplate.setSoldierExitLocation -2.7/0/0 0/0/0
+ObjectTemplate.setVehicleIcon "../../menu/Vehicle/Icon_CrateTransporter.dds"
+ObjectTemplate.setVehicleIconPos 60/55
+ObjectTemplate.setPrimaryAmmoBar ABNone
+ObjectTemplate.setCrossHairType CHTNone
+ObjectTemplate.setVehicleCategory VCLand
+ObjectTemplate.setVehicleType  VTScoutCar
+ObjectTemplate.setMinimapIcon "../../menu/texture/minimap/minimap_icon_cratetransporter_16x16.dds"
+
+
+rem *** lodCrateTransporter ***
+ObjectTemplate.create LodObject lodCrateTransporter
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate CrateTransporterComplex
+rem ObjectTemplate.addTemplate LandspeederSimple
+ObjectTemplate.addTemplate CrateTransporterWreck
+rem -------------------------------------
+ObjectTemplate.lodSelector CrateTransporterLodSelector
+
+
+rem *** LandspeederComplex ***
+ObjectTemplate.create Bundle CrateTransporterComplex
+ObjectTemplate.geometry CrateTransporter_model
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasDynamicShadow 1
+rem -------------------------------------
+ObjectTemplate.addTemplate CrateTransporterCamera
+ObjectTemplate.setPosition 0.0/1.43567/-4.03599
+
+ObjectTemplate.addTemplate CrateTransporterSeat
+rem ObjectTemplate.setPosition 0.0/0.783271/-3.6787
+ObjectTemplate.setPosition 0.0/0.783271/-3.8787
+ObjectTemplate.addTemplate CrateTransporterEntry
+ObjectTemplate.setPosition 0.0/0.783271/-3.6787
+rem ObjectTemplate.addTemplate CrateTransporterSteeringDummy
+rem ObjectTemplate.setPosition -0.399/0.35/0.15
+rem ObjectTemplate.setRotation 0/34/0
+rem -------------------------------------
+ObjectTemplate.addTemplate CrateTransporterEngine
+ObjectTemplate.setPosition 0/0/0
+
+rem *** CrateTransporterCamera ***
+ObjectTemplate.create Camera CrateTransporterCamera
+ObjectTemplate.setMinRotation -110/-40/0
+ObjectTemplate.setMaxRotation 110/10/0
+ObjectTemplate.setPivotPosition 0/0.25/0.3
+ObjectTemplate.setMaxSpeed 90/90/0
+ObjectTemplate.setAcceleration 5000/5000/0
+ObjectTemplate.setInputToYaw c_PIMouseLookX
+ObjectTemplate.setInputToPitch c_PIMouseLookY
+
+rem *** CrateTransporterSeat ***
+ObjectTemplate.create SeatObject CrateTransporterSeat
+rem ObjectTemplate.seatFlags c_SeatShowFullBodySoldier
+rem ObjectTemplate.seatFlags c_SeatIsOutside
+ObjectTemplate.seatFlags c_SeatShowStandingSoldier
+ObjectTemplate.seatFlags c_SeatIsOutside
+rem ObjectTemplate.seatAnimationUpperBody Ub_Pusher
+rem ObjectTemplate.seatAnimationLowerBody Lb_Pusher
+
+
+rem *** CrateTransporterEntry ***
+ObjectTemplate.create EntryPoint CrateTransporterEntry
+ObjectTemplate.setEntryRadius 2.3
+
+
+
+
+
+rem *** CrateTransporterSimple ***
+ObjectTemplate.create SimpleObject CrateTransporterSimple
+ObjectTemplate.geometry CrateTransporter_model
+
+rem *** CrateTransporterWreck ***
+ObjectTemplate.create SimpleObject CrateTransporterWreck
+ObjectTemplate.geometry CrateTransporter_Wreck_model
+
+rem *** CrateTransporterLodSelector ***
+LodSelectorTemplate.create DistCompareSelector2 CrateTransporterLodSelector
+LodSelectorTemplate.hasDestroyedLod 1
+
+
+
+rem ------------------------------
+rem *** FrontWheelR ***
+ObjectTemplate.create RotationalBundle CrateTransporterFrontWheelR
+ObjectTemplate.setNetworkableInfo CrateTransporterSteeringInfo
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate FHFrontSpringR
+ObjectTemplate.setPosition 0/0/0
+rem -------------------------------------
+ObjectTemplate.setMinRotation -30/0/0
+ObjectTemplate.setMaxRotation 30/0/0
+ObjectTemplate.setMaxSpeed 200/0/0
+ObjectTemplate.setAcceleration 200/0/0
+ObjectTemplate.setInputToYaw c_PIYaw
+ObjectTemplate.setAutomaticReset 1
+
+
+rem *** FrontWheelL ***
+ObjectTemplate.create RotationalBundle CrateTransporterFrontWheelL
+ObjectTemplate.setNetworkableInfo CrateTransporterSteeringInfo
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate FHFrontSpringL
+ObjectTemplate.setPosition 0/0/0
+rem -------------------------------------
+ObjectTemplate.setMinRotation -30/0/0
+ObjectTemplate.setMaxRotation 30/0/0
+ObjectTemplate.setMaxSpeed 200/0/0
+ObjectTemplate.setAcceleration 200/0/0
+ObjectTemplate.setInputToYaw c_PIYaw
+ObjectTemplate.setAutomaticReset 1
+
+rem -----------------------------------------
+
+

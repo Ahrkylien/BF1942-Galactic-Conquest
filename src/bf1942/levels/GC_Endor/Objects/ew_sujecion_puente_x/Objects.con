@@ -1,0 +1,5 @@
+ObjectTemplate.Create SimpleObject ew_sujecion_puente_x
+ObjectTemplate.Geometry ew_sujecion_puente_x
+ObjectTemplate.SetHasCollisionPhysics 1
+ObjectTemplate.CullRadiusScale 3.0
+ObjectTemplate.AiTemplate ew_sujecion_puente_x

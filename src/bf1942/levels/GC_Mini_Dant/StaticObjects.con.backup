@@ -1,7 +1,7 @@
 rem
 rem ***  ***
 rem
-Object.create LambdaStatic
+Object.create lambdastatic
 Object.absolutePosition 1237.48/67.4791/999.186
 Object.Rotation 0/0/0
 rem
@@ -139,151 +139,151 @@ Object.Rotation -2/0/0
 rem
 rem ***  ***
 rem
-Object.create Dancratedark
+Object.create dancratedark
 Object.absolutePosition 1180.2/61.875/1034.33
 Object.Rotation 7/0/0
 rem
 rem ***  ***
 rem
-Object.create Dancrategrey
+Object.create dancrategrey
 Object.absolutePosition 1181.2/62.7627/1027.36
 Object.Rotation -9/0/0
 rem
 rem ***  ***
 rem
-Object.create Dancrategrey
+Object.create dancrategrey
 Object.absolutePosition 1191.61/61.8568/1036.69
 Object.Rotation 20/0/0
 rem
 rem ***  ***
 rem
-Object.create Dancrategrey
+Object.create dancrategrey
 Object.absolutePosition 1184.13/62.724/1027.37
 Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create Dancrategrey
+Object.create dancrategrey
 Object.absolutePosition 1182.75/65.308/1027.18
 Object.Rotation 20/0/0
 rem
 rem ***  ***
 rem
-Object.create Dancrategrey
+Object.create dancrategrey
 Object.absolutePosition 1133.8/62.1087/1014.78
 Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create Dancratedark
-Object.absolutePosition 1072.07/62.055/976.062
+Object.create dancratedark
+Object.absolutePosition 1072.07/62.1497/976.062
 Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create Dancrategrey
+Object.create dancrategrey
 Object.absolutePosition 1073.07/61.8976/969.09
 Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create Dancrategrey
+Object.create dancrategrey
 Object.absolutePosition 1076/61.9375/969.096
 Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create Dancrategrey
+Object.create dancrategrey
 Object.absolutePosition 1074.62/64.4276/968.909
 Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create Dancrategrey
-Object.absolutePosition 1083.49/61.9923/978.421
+Object.create dancrategrey
+Object.absolutePosition 1083.49/62.0916/978.421
 Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create Dancrategrey
+Object.create dancrategrey
 Object.absolutePosition 1101.53/62.2777/980.421
 Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create Dancrategrey
+Object.create dancrategrey
 Object.absolutePosition 1098.65/62.2493/979.539
 Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create Dancratedark
+Object.create dancratedark
 Object.absolutePosition 1068.07/61.9435/969.593
 Object.Rotation 30/4/0
 rem
 rem ***  ***
 rem
-Object.create Dancrategrey
+Object.create dancrategrey
 Object.absolutePosition 1015.28/81.1228/988.963
 Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create Dancrategrey
+Object.create dancrategrey
 Object.absolutePosition 1012.35/81.0685/988.956
 Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create Dancrategrey
+Object.create dancrategrey
 Object.absolutePosition 1015.3/83.6116/988.923
 Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create Dancratedark
+Object.create dancratedark
 Object.absolutePosition 1011.34/81.4735/995.928
 Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create Dancratedark
+Object.create dancratedark
 Object.absolutePosition 1007.35/81.1337/989.46
 Object.Rotation 30/4/0
 rem
 rem ***  ***
 rem
-Object.create Dancrategrey
+Object.create dancrategrey
 Object.absolutePosition 1060.12/63.3663/923.763
 Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create Dancrategrey
+Object.create dancrategrey
 Object.absolutePosition 1061.5/60.9646/923.95
 Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create Dancrategrey
+Object.create dancrategrey
 Object.absolutePosition 1058.57/60.7607/923.943
 Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create Dancratedark
+Object.create dancratedark
 Object.absolutePosition 1048.69/61.1847/921.09
 Object.Rotation 30/4/0
 rem
 rem ***  ***
 rem
-Object.create Dancratedark
+Object.create dancratedark
 Object.absolutePosition 1060.71/61.0888/938.089
 Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create Dancratedark
+Object.create dancratedark
 Object.absolutePosition 1044.54/60.7226/898.99
 Object.Rotation 30/4/0
 rem
@@ -367,7 +367,7 @@ Object.Rotation 90.0001/0/0
 rem
 rem ***  ***
 rem
-Object.create Dancratedark
+Object.create dancratedark
 Object.absolutePosition 1165.04/62.1811/1034.92
 Object.Rotation 7/0/0
 rem
@@ -404,12 +404,6 @@ rem
 rem ***  ***
 rem
 Object.create dan_grass1
-Object.absolutePosition 1124.96/62.0883/1042.92
-Object.Rotation 112.896/0/0
-rem
-rem ***  ***
-rem
-Object.create dan_grass1
 Object.absolutePosition 1120.93/62.0883/1045.62
 Object.Rotation 220.463/0/0
 rem
@@ -422,12 +416,6 @@ rem
 rem ***  ***
 rem
 Object.create dan_grass1
-Object.absolutePosition 1123.68/62.0883/1045.37
-Object.Rotation 221.32/0/0
-rem
-rem ***  ***
-rem
-Object.create dan_grass1
 Object.absolutePosition 1126.33/62.0883/1044.47
 Object.Rotation 245.874/0/0
 rem
@@ -436,12 +424,6 @@ rem
 Object.create dan_grass1
 Object.absolutePosition 1121.1/62.0883/1040.47
 Object.Rotation 181.868/0/0
-rem
-rem ***  ***
-rem
-Object.create dan_grass1
-Object.absolutePosition 1117.4/62.0883/1044.61
-Object.Rotation 76.7944/0/0
 rem
 rem ***  ***
 rem
@@ -500,61 +482,49 @@ rem
 rem ***  ***
 rem
 Object.create dan_grass1
-Object.absolutePosition 1122.81/62.0883/1049.37
-Object.Rotation 217.046/0/0
-rem
-rem ***  ***
-rem
-Object.create dan_grass1
-Object.absolutePosition 1118.08/62.0883/1047.69
-Object.Rotation 277.394/0/0
-rem
-rem ***  ***
-rem
-Object.create dan_grass1
 Object.absolutePosition 1116.65/62.0883/1040.14
 Object.Rotation 54.8987/0/0
 rem
 rem ***  ***
 rem
 Object.create dan_grass1
-Object.absolutePosition 1079.79/62.1938/982.46
+Object.absolutePosition 1079.79/61.9351/982.46
 Object.Rotation 303.761/0/0
 rem
 rem ***  ***
 rem
 Object.create dan_grass1
-Object.absolutePosition 1075.56/62.1938/975.701
+Object.absolutePosition 1075.56/61.9351/975.701
 Object.Rotation 102.03/0/0
 rem
 rem ***  ***
 rem
 Object.create dan_grass1
-Object.absolutePosition 1069.83/62.2148/978.976
+Object.absolutePosition 1069.83/61.9608/978.976
 Object.Rotation 305.717/0/0
 rem
 rem ***  ***
 rem
 Object.create dan_grass1
-Object.absolutePosition 1074.04/62.1938/979.738
+Object.absolutePosition 1074.04/61.8724/979.738
 Object.Rotation 259.827/0/0
 rem
 rem ***  ***
 rem
 Object.create dan_grass1
-Object.absolutePosition 1072.52/62.1938/981.591
+Object.absolutePosition 1072.52/61.9391/981.591
 Object.Rotation 79.9915/0/0
 rem
 rem ***  ***
 rem
 Object.create dan_grass1
-Object.absolutePosition 1074.6/62.1938/982.899
+Object.absolutePosition 1074.6/61.9291/982.899
 Object.Rotation 138.197/0/0
 rem
 rem ***  ***
 rem
 Object.create dan_grass1
-Object.absolutePosition 1077.12/62.1938/978.523
+Object.absolutePosition 1077.12/61.9258/978.523
 Object.Rotation 128.99/0/0
 rem
 rem ***  ***
@@ -805,19 +775,19 @@ Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create Dancratedark
+Object.create dancratedark
 Object.absolutePosition 1051.67/60.8078/910.427
 Object.Rotation 30/4/0
 rem
 rem ***  ***
 rem
-Object.create Dancratedark
+Object.create dancratedark
 Object.absolutePosition 1042.93/61.1883/913.12
 Object.Rotation 30/4/0
 rem
 rem ***  ***
 rem
-Object.create Dancrategrey
+Object.create dancrategrey
 Object.absolutePosition 1048.62/60.784/908.999
 Object.Rotation 0/0/0
 rem
@@ -889,93 +859,75 @@ Object.Rotation 540.999/0/0
 rem
 rem ***  ***
 rem
-Object.create Dancrategrey
+Object.create dancrategrey
 Object.absolutePosition 1034.62/61.968/884.96
 Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create Dancrategrey
+Object.create dancrategrey
 Object.absolutePosition 1034.57/64.4581/884.713
 Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create Dancrategrey
+Object.create dancrategrey
 Object.absolutePosition 1031.95/61.9281/885.058
 Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create Dancratedark
+Object.create dancratedark
 Object.absolutePosition 992.766/62.0855/888.019
 Object.Rotation 30/4/0
 rem
 rem ***  ***
 rem
-Object.create Dancratedark
+Object.create dancratedark
 Object.absolutePosition 1026.14/62.0855/889.898
 Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create Dancrategrey
+Object.create dancrategrey
 Object.absolutePosition 1001.07/61.9785/913.603
 Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create Dancrategrey
+Object.create dancrategrey
 Object.absolutePosition 1037.42/63.9154/854.152
 Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create Dancrategrey
+Object.create dancrategrey
 Object.absolutePosition 1027.19/63.9154/859.855
 Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create imp_module_corridor1
-Object.absolutePosition 1024.75/63.9055/841.097
-Object.Rotation -139/0/0
-rem
-rem ***  ***
-rem
-Object.create imp_module_ramp1
-Object.absolutePosition 1026.86/63.8029/843.426
-Object.Rotation 579.999/0/0
-rem
-rem ***  ***
-rem
-Object.create imp_module_ramp1
-Object.absolutePosition 1022.68/63.8029/838.708
-Object.Rotation 758.998/0/0
-rem
-rem ***  ***
-rem
-Object.create Dancrategrey
+Object.create dancrategrey
 Object.absolutePosition 1002.46/62.0228/910.427
 Object.Rotation 0/0/0
 Object.geometry.scale 1.3/1.3/1.3
 rem
 rem ***  ***
 rem
-Object.create Dancrategrey
+Object.create dancrategrey
 Object.absolutePosition 1006.45/62.0228/891.201
 Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create Dancratedark
+Object.create dancratedark
 Object.absolutePosition 1001.42/61.9119/916.759
 Object.Rotation 0/0/0
 Object.geometry.scale 1.34/1.34/1.34
 rem
 rem ***  ***
 rem
-Object.create Dancrategrey
+Object.create dancrategrey
 Object.absolutePosition 998.24/61.925/917.136
 Object.Rotation 0/0/0
 rem
@@ -1011,32 +963,32 @@ Object.Rotation 179/0/0
 rem
 rem ***  ***
 rem
-Object.create Dancrategrey
+Object.create dancrategrey
 Object.absolutePosition 949.906/61.9923/794.476
 Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create Dancrategrey
+Object.create dancrategrey
 Object.absolutePosition 839.612/61.9816/883.84
 Object.Rotation -49/0/0
 rem
 rem ***  ***
 rem
-Object.create Dancrategrey
+Object.create dancrategrey
 Object.absolutePosition 843.024/62.2248/881.165
 Object.Rotation -23/0/0
 Object.geometry.scale 1.3/1.3/1.3
 rem
 rem ***  ***
 rem
-Object.create Dancrategrey
+Object.create dancrategrey
 Object.absolutePosition 894.173/62.6482/840.786
 Object.Rotation 59/0/0
 rem
 rem ***  ***
 rem
-Object.create Dancrategrey
+Object.create dancrategrey
 Object.absolutePosition 903.416/61.8557/839.255
 Object.Rotation 62/0/0
 rem
@@ -1090,9 +1042,6 @@ Object.Rotation -88/-0.999999/-23.1999
 rem
 rem ***  ***
 rem
-rem
-rem ***  ***
-rem
 Object.create dan_reb_pillar3
 Object.absolutePosition 872.834/62.7305/783.677
 Object.Rotation 0/0/0
@@ -1105,7 +1054,7 @@ Object.Rotation 0/0/0
 rem
 rem ***  ***
 rem
-Object.create Dancrategrey
+Object.create dancrategrey
 Object.absolutePosition 935.866/62.3053/792.568
 Object.Rotation 0/0/0
 Object.geometry.scale 1.7/1.7/1.7

@@ -1,0 +1,4 @@
+ObjectTemplate.create Bundle pod_halfarch
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.geometry pod_halfarch
+ObjectTemplate.loadSoundScript Sounds/pod_halfarch.ssc

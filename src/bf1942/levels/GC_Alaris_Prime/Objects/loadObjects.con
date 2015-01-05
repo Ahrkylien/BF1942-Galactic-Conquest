@@ -1,0 +1,214 @@
+
+
+run ambient-AP/objects
+
+run ctown_pipe/objects
+run ctown_pipe/geometries
+run bc_stairs/objects
+run bc_stairs/geometries
+run ctown_wall2/objects
+run ctown_wall2/geometries
+run ctown_wall3/objects
+run ctown_wall3/geometries
+run ctown_building13/objects
+run ctown_building13/geometries
+run ctown_building1/objects
+run ctown_building1/geometries
+run ctown_building11/objects
+run ctown_building11/geometries
+run ctown_building15/objects
+run ctown_building15/geometries
+run ctown_building4/objects
+run ctown_building4/geometries
+run ctown_Pole1/objects
+run ctown_Pole1/geometries
+run jud_light1/geometries
+run imperial/imp_bunker_lamp2/geometries
+run imperial/imp_bunker_lamp2/objects
+run gunship_static/gunship_static
+run Vehicles/Land/Speederbike/Speederbike
+
+run IC_antiglitch/objects
+run IC_antiglitch/geometries
+run ion_autofire/ion_autofire
+run ionobjective/ionobjective
+run Alaris_shieldgen/Alaris_shieldgen
+run EchoTrolley_m/EchoTrolley_m
+rem **** 3.person ansicht:  
+rem run Soldiers/Common/objects
+run handweapons/build_shield/build_shield
+
+rem ****bunker objects ******
+run Ap_vent_shield/Ap_vent_shield
+run jud_destr_door/jud_destr_door
+run CrateTransporter/CrateTransporter
+run imp_cratetransporter/objects
+run imp_cratetransporter/geometries
+run Imperial/alarisprime_bunker_top/objects
+run Imperial/alarisprime_bunker_top/geometries
+run Imperial/Collision/objects
+run Imperial/Collision/geometries
+run Imperial/imp_bunker_bulk03/objects
+run Imperial/imp_bunker_bulk03/geometries
+run Imperial/imp_bunker_closeddoor1/objects
+run Imperial/imp_bunker_closeddoor1/geometries
+run Imperial/com_table/objects
+run Imperial/com_table/geometries
+
+run Imperial/jud_security2/geometries
+run Imperial/jud_security2/objects
+
+run Imperial/imp_bunker_controlroom/objects
+run Imperial/imp_bunker_controlroom/geometries
+
+run Imperial/imp_bunker_curve_r/objects
+run Imperial/imp_bunker_curve_r/geometries
+
+run Imperial/imp_bunker_curveway/objects
+run Imperial/imp_bunker_curveway/geometries
+
+run Imperial/imp_bunker_doorframe1/objects
+run Imperial/imp_bunker_doorframe1/geometries
+
+run Imperial/imp_bunker_doorframe2/objects
+run Imperial/imp_bunker_doorframe2/geometries
+
+run Imperial/imp_bunker_doorframe3/objects
+run Imperial/imp_bunker_doorframe3/geometries
+
+run Imperial/imp_bunker_doorframe4/objects
+run Imperial/imp_bunker_doorframe4/geometries
+
+run Imperial/imp_bunker_doorframe5/objects
+run Imperial/imp_bunker_doorframe5/geometries
+
+run Imperial/imp_bunker_exhaust1/objects
+run Imperial/imp_bunker_exhaust1/geometries
+
+run Imperial/imp_bunker_fakedoor1/objects
+run Imperial/imp_bunker_fakedoor1/geometries
+
+run Imperial/imp_bunker_fakedoor2/objects
+run Imperial/imp_bunker_fakedoor2/geometries
+
+run Imperial/imp_bunker_fakedoor3/objects
+run Imperial/imp_bunker_fakedoor3/geometries
+run Imperial/imp_bunker_faketl/objects
+run Imperial/imp_bunker_faketl/geometries
+
+run Imperial/imp_bunker_mainroom/objects
+run Imperial/imp_bunker_mainroom/geometries
+
+run Imperial/imp_bunker_mainroom_stairs/objects
+run Imperial/imp_bunker_mainroom_stairs/geometries
+
+run Imperial/imp_bunker_pillar1/objects
+run Imperial/imp_bunker_pillar1/geometries
+
+run Imperial/imp_bunker_ramp/objects
+run Imperial/imp_bunker_ramp/geometries
+
+run Imperial/imp_bunker_round/objects
+run Imperial/imp_bunker_round/geometries
+
+run Imperial/imp_bunker_smallgangway1/objects
+run Imperial/imp_bunker_smallgangway1/geometries
+
+run Imperial/imp_bunker_smallgenroom/objects
+run Imperial/imp_bunker_smallgenroom/geometries
+
+run Imperial/imp_bunker_smallstairs_segment/objects
+run Imperial/imp_bunker_smallstairs_segment/geometries
+
+run Imperial/imp_bunker_smallstairs_top/objects
+run Imperial/imp_bunker_smallstairs_top/geometries
+run Imperial/imp_bunker_stairsroom1/objects
+run Imperial/imp_bunker_stairsroom1/geometries
+run Imperial/imp_bunker_t_piece_r/objects
+run Imperial/imp_bunker_t_piece_r/geometries
+
+
+run Imperial/imp_computer1/objects
+run Imperial/imp_computer1/geometries
+run Imperial/imp_computer2/objects
+run Imperial/imp_computer2/geometries
+run Imperial/imp_computer3/objects
+run Imperial/imp_computer3/geometries
+run Imperial/imp_computer4/objects
+run Imperial/imp_computer4/geometries
+run Imperial/imp_computer5/objects
+run Imperial/imp_computer5/geometries
+run Imperial/imp_computer6/objects
+run Imperial/imp_computer6/geometries
+run Imperial/imp_computer7/objects
+run Imperial/imp_computer7/geometries
+run Imperial/imp_computer8/objects
+run Imperial/imp_computer8/geometries
+run Imperial/imp_computer9/objects
+run Imperial/imp_computer9/geometries
+
+run Imperial/imp_computer10/objects
+run Imperial/imp_computer10/geometries
+
+
+run Imperial/imp_crane1_cable/objects
+run Imperial/imp_crane1_cable/geometries
+run Imperial/imp_crane1_claw/objects
+run Imperial/imp_crane1_claw/geometries
+run Imperial/imp_crane1_hoses/objects
+run Imperial/imp_crane1_hoses/geometries
+run Imperial/imp_crane1_main/objects
+run Imperial/imp_crane1_main/geometries
+
+run Imperial/imp_crate1/objects
+run Imperial/imp_crate1/geometries
+
+run Imperial/imp_crate1/objects
+run Imperial/imp_crate1/geometries
+run Imperial/imp_crate1/objects
+run Imperial/imp_crate1/geometries
+
+
+run Imperial/imp_bunker_vent1/objects
+run Imperial/imp_bunker_vent1/geometries
+run Imperial/imp_bunker_ventilationroom1/objects
+run Imperial/imp_bunker_ventilationroom1/geometries
+
+run Imperial/imp_bunker_ventilationroom2/objects
+run Imperial/imp_bunker_ventilationroom2/geometries
+
+run Imperial/imp_bunker_weaponroom/objects
+run Imperial/imp_bunker_weaponroom/geometries
+
+run Imperial/imp_transporter/objects
+run Imperial/imp_transporter/geometries
+run Imperial/imp_holotel1/objects
+run Imperial/imp_holotel1/geometries
+
+run Imperial/imp_smallgenerator_end_a/objects
+run Imperial/imp_smallgenerator_end_a/geometries
+
+run Imperial/imp_smallgenerator_end_b/objects
+run Imperial/imp_smallgenerator_end_b/geometries
+
+run Imperial/imp_smallgenerator_segment/objects
+run Imperial/imp_smallgenerator_segment/geometries
+
+run Imperial/imp_tank1/objects
+run Imperial/imp_tank1/geometries
+run Imperial/imp_tank2/objects
+run Imperial/imp_tank2/geometries
+
+run Imperial/imp_tube1/objects
+run Imperial/imp_tube1/geometries
+run Imperial/imp_tube2/objects
+run Imperial/imp_tube2/geometries
+run Imperial/imp_tube3/objects
+run Imperial/imp_tube3/geometries
+run Imperial/imp_tube4/objects
+run Imperial/imp_tube4/geometries
+
+run Imperial/imp_bunker_cr_windowframe/objects
+run Imperial/imp_bunker_cr_windowframe/geometries
+
+

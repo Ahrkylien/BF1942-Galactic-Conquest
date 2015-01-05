@@ -1,0 +1,21 @@
+##############
+### noName ###
+##############
+newPatch
+load @ROOT/Sound/@RTD/Podracer_Engine_Thrust1.wav
+minDistance 20
+stop FinishSample
+dopplerOff
+priority 7
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 50
+	param 100
+	param 1
+	param -1
+endEffect
+
+

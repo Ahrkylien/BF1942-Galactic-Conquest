@@ -1,0 +1,9 @@
+run ambient_jud_beginning/ambient_jud_beginning
+
+run ambient_jud_e5Flag/ambient_jud_e5Flag
+
+run ambient_jud_tramcontrol/ambient_jud_tramcontrol
+
+run jud_destr_door/jud_destr_door
+
+run droid_kill/droid_kill

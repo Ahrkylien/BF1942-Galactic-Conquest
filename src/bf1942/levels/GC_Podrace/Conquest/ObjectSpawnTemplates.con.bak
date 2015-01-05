@@ -1,0 +1,265 @@
+rem ObjectSpawnTemplates.con created by Battlecraft 1942
+rem (E:\Battlefield\Mods\GCMOD\bf1942\levels\GC_Podrace/conquest/ObjectSpawnTemplates.con)
+
+rem ----------------------------------------- 
+rem ---  Speeder1  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner Speeder1
+ObjectTemplate.setObjectTemplate 1 speederbike
+ObjectTemplate.setObjectTemplate 2 speederbike
+ObjectTemplate.MinSpawnDelay 10
+ObjectTemplate.MaxSpawnDelay 15
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 20
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.maxNrOfObjectSpawned 2
+rem ObjectTemplate.teamOnVehicle 0
+
+rem ----------------------------------------- 
+rem ---  R2D2x1  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner R2D2x1
+ObjectTemplate.setObjectTemplate 1 r2d2
+ObjectTemplate.setObjectTemplate 2 r2d2
+ObjectTemplate.MinSpawnDelay 10
+ObjectTemplate.MaxSpawnDelay 15
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.maxNrOfObjectSpawned 2
+rem ObjectTemplate.teamOnVehicle 0
+
+rem ----------------------------------------- 
+rem ---  transport1  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner transport1
+ObjectTemplate.setObjectTemplate 1 landspeederEweb
+ObjectTemplate.setObjectTemplate 2 landspeederEweb
+ObjectTemplate.MinSpawnDelay 10
+ObjectTemplate.MaxSpawnDelay 20
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.maxNrOfObjectSpawned 2
+rem ObjectTemplate.teamOnVehicle 0
+
+rem ----------------------------------------- 
+rem ---  Tatooine_Sounds  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner Tatooine_Sounds
+ObjectTemplate.setObjectTemplate 1 ambient-tatooine
+ObjectTemplate.setObjectTemplate 2 ambient-tatooine
+ObjectTemplate.MinSpawnDelay 10
+ObjectTemplate.MaxSpawnDelay 20
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.maxNrOfObjectSpawned 1
+rem ObjectTemplate.teamOnVehicle 1
+
+rem ----------------------------------------- 
+rem ---  Stadium_Sounds  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner Stadium_Sounds
+ObjectTemplate.setObjectTemplate 1 ambient-stadium
+ObjectTemplate.setObjectTemplate 2 ambient-stadium
+ObjectTemplate.MinSpawnDelay 10
+ObjectTemplate.MaxSpawnDelay 20
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.maxNrOfObjectSpawned 1
+rem ObjectTemplate.teamOnVehicle 1
+
+rem ----------------------------------------- 
+rem ---  Shield_Gate  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner Shield_Gate
+ObjectTemplate.setObjectTemplate 1 pod_shieldgate
+ObjectTemplate.setObjectTemplate 2 pod_shieldgate
+ObjectTemplate.MinSpawnDelay 10
+ObjectTemplate.MaxSpawnDelay 15
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.maxNrOfObjectSpawned 1
+rem ObjectTemplate.teamOnVehicle 1
+
+rem ----------------------------------------- 
+rem ---  Sandpeople_Sounds  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner Sandpeople_Sounds
+ObjectTemplate.setObjectTemplate 1 ambient-sandpeople
+ObjectTemplate.setObjectTemplate 2 ambient-sandpeople
+ObjectTemplate.MinSpawnDelay 10
+ObjectTemplate.MaxSpawnDelay 20
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.maxNrOfObjectSpawned 1
+rem ObjectTemplate.teamOnVehicle 1
+
+rem ----------------------------------------- 
+rem ---  Racers  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner Racers
+ObjectTemplate.setObjectTemplate 1 podracerv1
+ObjectTemplate.setObjectTemplate 2 podracerv1
+ObjectTemplate.MinSpawnDelay 5
+ObjectTemplate.MaxSpawnDelay 5
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 1
+ObjectTemplate.Distance 45
+ObjectTemplate.DamageWhenLost 500
+ObjectTemplate.maxNrOfObjectSpawned 1
+rem ObjectTemplate.teamOnVehicle 0
+
+
+
+rem ----------------------------------------- 
+rem ---  Racers1  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner Racers1
+ObjectTemplate.setObjectTemplate 1 podracer1v1
+ObjectTemplate.setObjectTemplate 2 podracer1v1
+ObjectTemplate.MinSpawnDelay 5
+ObjectTemplate.MaxSpawnDelay 5
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 1
+ObjectTemplate.Distance 45
+ObjectTemplate.DamageWhenLost 500
+ObjectTemplate.maxNrOfObjectSpawned 1
+rem ObjectTemplate.teamOnVehicle 0
+
+rem ----------------------------------------- 
+rem ---  Racers2  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner Racers2
+ObjectTemplate.setObjectTemplate 1 podracer2v1
+ObjectTemplate.setObjectTemplate 2 podracer2v1
+ObjectTemplate.MinSpawnDelay 5
+ObjectTemplate.MaxSpawnDelay 5
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 1
+ObjectTemplate.Distance 45
+ObjectTemplate.DamageWhenLost 500
+ObjectTemplate.maxNrOfObjectSpawned 1
+rem ObjectTemplate.teamOnVehicle 0
+
+rem ----------------------------------------- 
+rem ---  Racers3  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner Racers3
+ObjectTemplate.setObjectTemplate 1 podracer3v1
+ObjectTemplate.setObjectTemplate 2 podracer3v1
+ObjectTemplate.MinSpawnDelay 5
+ObjectTemplate.MaxSpawnDelay 5
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 1
+ObjectTemplate.Distance 45
+ObjectTemplate.DamageWhenLost 500
+ObjectTemplate.maxNrOfObjectSpawned 1
+rem ObjectTemplate.teamOnVehicle 0
+
+
+rem ----------------------------------------- 
+rem ---  Racers4  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner Racers4
+ObjectTemplate.setObjectTemplate 1 podracer4v1
+ObjectTemplate.setObjectTemplate 2 podracer4v1
+ObjectTemplate.MinSpawnDelay 5
+ObjectTemplate.MaxSpawnDelay 5
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 1
+ObjectTemplate.Distance 45
+ObjectTemplate.DamageWhenLost 500
+ObjectTemplate.maxNrOfObjectSpawned 1
+rem ObjectTemplate.teamOnVehicle 0
+
+
+rem ----------------------------------------- 
+rem ---  Racers5  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner Racers5
+ObjectTemplate.setObjectTemplate 1 gasgano
+ObjectTemplate.setObjectTemplate 2 gasgano
+ObjectTemplate.MinSpawnDelay 5
+ObjectTemplate.MaxSpawnDelay 5
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 1
+ObjectTemplate.Distance 45
+ObjectTemplate.DamageWhenLost 1000
+ObjectTemplate.maxNrOfObjectSpawned 1
+rem ObjectTemplate.teamOnVehicle 0
+
+
+
+rem ----------------------------------------- 
+rem ---  Racers6  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner Racers6
+ObjectTemplate.setObjectTemplate 1 gasgano1
+ObjectTemplate.setObjectTemplate 2 gasgano1
+ObjectTemplate.MinSpawnDelay 5
+ObjectTemplate.MaxSpawnDelay 5
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 1
+ObjectTemplate.Distance 45
+ObjectTemplate.DamageWhenLost 1000
+ObjectTemplate.maxNrOfObjectSpawned 1
+rem ObjectTemplate.teamOnVehicle 0
+
+rem ----------------------------------------- 
+rem ---  Racers7  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner Racers7
+ObjectTemplate.setObjectTemplate 1 gasgano2
+ObjectTemplate.setObjectTemplate 2 gasgano2
+ObjectTemplate.MinSpawnDelay 5
+ObjectTemplate.MaxSpawnDelay 5
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 1
+ObjectTemplate.Distance 45
+ObjectTemplate.DamageWhenLost 1000
+ObjectTemplate.maxNrOfObjectSpawned 1
+rem ObjectTemplate.teamOnVehicle 0
+
+rem ----------------------------------------- 
+rem ---  Racers8  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner Racers8
+ObjectTemplate.setObjectTemplate 1 gasgano3
+ObjectTemplate.setObjectTemplate 2 gasgano3
+ObjectTemplate.MinSpawnDelay 5
+ObjectTemplate.MaxSpawnDelay 5
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 1
+ObjectTemplate.Distance 45
+ObjectTemplate.DamageWhenLost 1000
+ObjectTemplate.maxNrOfObjectSpawned 1
+rem ObjectTemplate.teamOnVehicle 0
+
+rem ----------------------------------------- 
+rem ---  Racers9 ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner Racers9
+ObjectTemplate.setObjectTemplate 1 gasgano4
+ObjectTemplate.setObjectTemplate 2 gasgano4
+ObjectTemplate.MinSpawnDelay 5
+ObjectTemplate.MaxSpawnDelay 5
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 1
+ObjectTemplate.Distance 45
+ObjectTemplate.DamageWhenLost 1000
+ObjectTemplate.maxNrOfObjectSpawned 1
+rem ObjectTemplate.teamOnVehicle 0
+
+rem EndOfFile

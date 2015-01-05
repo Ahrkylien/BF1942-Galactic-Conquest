@@ -1,0 +1,5 @@
+ObjectTemplate.Create SimpleObject EwokGlider_static
+ObjectTemplate.Geometry EwokGlider_static
+ObjectTemplate.SetHasCollisionPhysics 1
+ObjectTemplate.CullRadiusScale 3.0
+ObjectTemplate.AiTemplate EwokGlider

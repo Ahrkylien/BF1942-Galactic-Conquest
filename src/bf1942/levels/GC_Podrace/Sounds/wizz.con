@@ -1,0 +1,5 @@
+rem *** wizz ***
+ObjectTemplate.create SimpleObject wizz
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.triggerRadius 100
+ObjectTemplate.loadSoundScript wizz.ssc

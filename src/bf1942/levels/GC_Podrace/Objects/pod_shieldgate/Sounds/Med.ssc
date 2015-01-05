@@ -1,0 +1,21 @@
+
+newPatch
+#########################################################################################################
+### Main ###
+############
+
+load @ROOT/Sound/@RTD/Race_Start.wav
+minDistance 75
+randomStartPitch 0.05 / 0.05
+dopplerOff
+priority 9
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 75
+	param 125
+	param 1
+	param -1
+endEffect

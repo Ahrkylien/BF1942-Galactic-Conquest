@@ -1,0 +1,12 @@
+GeometryTemplate.create StandardMesh imp_bunker_faketl
+GeometryTemplate.file buildings/Imperial/imp_bunker_faketl
+
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+GeometryTemplate.setLodDistance 2 175
+GeometryTemplate.setLodDistance 3 250
+GeometryTemplate.setLodDistance 4 300
+GeometryTemplate.setLodDistance 5 400
+
+
+

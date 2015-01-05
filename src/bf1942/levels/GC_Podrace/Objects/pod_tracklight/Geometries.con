@@ -1,0 +1,7 @@
+GeometryTemplate.create StandardMesh pod_tracklight
+GeometryTemplate.file buildings/Tatooine/pod_tracklight
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+GeometryTemplate.setLodDistance 2 400
+GeometryTemplate.setLodDistance 3 800
+

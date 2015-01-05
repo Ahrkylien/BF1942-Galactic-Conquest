@@ -1,0 +1,5 @@
+ObjectTemplate.create SimpleObject imp_bridge
+ObjectTemplate.geometry imp_bridge
+ObjectTemplate.setHasCollisionPhysics 1
+objectTemplate.cullRadiusScale 3.0
+ObjectTemplate.aiTemplate myobject

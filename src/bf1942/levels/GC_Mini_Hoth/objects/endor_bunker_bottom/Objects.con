@@ -1,0 +1,5 @@
+ObjectTemplate.Create SimpleObject endor_bunker_bottom
+ObjectTemplate.Geometry endor_bunker_bottom
+ObjectTemplate.SetHasCollisionPhysics 0
+ObjectTemplate.CullRadiusScale 3.0
+objectTemplate.aiTemplate endor_bunker_bottomAI

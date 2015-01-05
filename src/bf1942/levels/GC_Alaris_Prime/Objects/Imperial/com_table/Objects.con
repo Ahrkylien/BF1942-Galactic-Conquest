@@ -1,0 +1,3 @@
+ObjectTemplate.create SimpleObject com_table
+ObjectTemplate.geometry com_table
+ObjectTemplate.setHasCollisionPhysics 1

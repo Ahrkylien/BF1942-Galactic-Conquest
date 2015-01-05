@@ -1,0 +1,58 @@
+rem run lambda_body/lambda_body
+run endor_bunker_top/endor_bunker_top
+run endor_bunker_bottom/endor_bunker_bottom
+run endor_bunker_tunnel/endor_bunker_tunnel
+run endor_bunkerdoor/endor_bunkerdoor
+run Endor_Bush1/Endor_Bush1
+run endor_fern1/endor_fern1
+run endor_fern2/endor_fern2
+run Endor_Lift/Endor_Lift
+run endor_log/endor_log
+run endor_stattree5/endor_stattree5
+run Endor_Tree5/Endor_Tree5
+run Endor_Tree6/Endor_Tree6
+run EndorPipes/EndorPipes
+run lambda_endor/lambda_endor
+run rotp_column/rotp_column
+run rotp_column_floor/rotp_column_floor
+run rotp_corridor/rotp_corridor
+run rotp_gangway/rotp_gangway
+run rotp_platform/rotp_platform
+rem run rotp_beam/rotp_beam
+run EwokGlider_static/EwokGlider_static
+run ewok_platform/ewok_platform
+run ewok_hut1_bsp/ewok_hut1_bsp
+run ewok_hut1/ewok_hut1
+run ewok_bridge4_corner/ewok_bridge4_corner
+run ewok_bridge3_upanddown/ewok_bridge3_upanddown
+run ewok_bridge2_short/ewok_bridge2_short
+run ewok_bridge1/ewok_bridge1
+run ew_totem/ew_totem
+run ew_sujecion_puente_x/ew_sujecion_puente_x
+run ew_sujecion_puente/ew_sujecion_puente
+run ew_puente_med/ew_puente_med
+run ew_puente_largo/ew_puente_largo
+run ew_plataforma_g/ew_plataforma_g
+run ew_espiral/ew_espiral
+run ew_cabeza_scout/ew_cabeza_scout
+run ew_cabanya_jefe/ew_cabanya_jefe
+run ew_cabanya_cat/ew_cabanya_cat
+run Controldesk/Controldesk
+run catapulta/catapulta
+run campamento_camu/campamento_camu
+run ATAT_Static/ATAT_Static
+run generador/generador
+run jud_light1/geometries
+run ambient-Endor/objects
+run firebundle/objects
+
+rem run Soldiers/Common/objects
+run Soldiers/EndorSoldier/geometries
+
+run Vehicles/Air/EwokGlider/EwokGlider
+run Vehicles/Land/ATSTxEndor/ATSTxEndor
+run Vehicles/Land/Lift_Cabine/Lift_Cabine
+run Vehicles/Land/PlatformLift/PlatformLift
+run Vehicles/Land/R2D2x/R2D2x
+run Vehicles/Land/Speederbike/Speederbike
+run handweapons/build_shield/build_shield

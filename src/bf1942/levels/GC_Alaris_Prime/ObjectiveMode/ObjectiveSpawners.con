@@ -1,0 +1,28 @@
+rem ============================= OBJECTS to destroy ================
+
+Object.create Alaris_FuelTankSpawner
+Object.absolutePosition 471.26/199.40/941.63
+Object.rotation  0/0.00/0.00
+Object.setName objective1
+Object.setTeam 1
+
+Object.create ionobjectiveSpawner
+Object.absolutePosition 494.34/229.53/790.21
+Object.rotation 0.00/0.00/0.00
+Object.setName objective2
+Object.setTeam 1
+
+rem // Axis = 1 , Allied = 2
+rem ============================= ATTACKERS ========================================
+
+Object.create DestroyAlaris_FuelTankObjectiveSpawner01
+object.setName ObjectiveSpawner01
+
+Object.create DestroyionobjectiveObjectiveSpawner02
+object.setName ObjectiveSpawner02
+
+object.create AlliedANDCompositeObjectiveSpawner
+object.setName REBELS
+
+object.create AxisTimerObjectiveSpawner
+object.setName EMPIRE

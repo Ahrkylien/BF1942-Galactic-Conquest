@@ -1,0 +1,3 @@
+ObjectTemplate.create SimpleObject jud_security2
+ObjectTemplate.geometry jud_security2
+ObjectTemplate.setHasCollisionPhysics 1

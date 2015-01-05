@@ -1,0 +1,26 @@
+GeometryTemplate.create StandardMesh Ap_vent_door
+GeometryTemplate.file Ap_vent_shield
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 30
+GeometryTemplate.setLodDistance 2 50
+GeometryTemplate.setLodDistance 3 70
+GeometryTemplate.setLodDistance 4 100
+GeometryTemplate.setLodDistance 5 300
+
+GeometryTemplate.create StandardMesh Ap_vent_shield_wreck
+GeometryTemplate.file jud_destr_door_wreck
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 30
+GeometryTemplate.setLodDistance 2 50
+GeometryTemplate.setLodDistance 3 70
+GeometryTemplate.setLodDistance 4 100
+GeometryTemplate.setLodDistance 5 300
+
+GeometryTemplate.create StandardMesh Ap_vent_shield
+GeometryTemplate.file Ap_vent_shield
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 30
+GeometryTemplate.setLodDistance 2 50
+GeometryTemplate.setLodDistance 3 70
+GeometryTemplate.setLodDistance 4 100
+GeometryTemplate.setLodDistance 5 300

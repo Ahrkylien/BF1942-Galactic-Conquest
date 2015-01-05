@@ -1,0 +1,67 @@
+rem *********************************************
+rem Created by Battlecraft 1942.  Copyright (c)2003,2004 Digital Illusions CE
+rem *********************************************
+ShaderManager.setTextureParam envmap bf1942\levels\GC_ryloth\Textures\ENVMAP_G_.rcm
+renderer.globalLodPercent 1
+renderer.globalAmbientColor 0.086275/0.086275/0.086275
+renderer.ambientColor 0.239216/0.219608/0.219608
+renderer.diffuseColor 0.380000/0.370000/0.360000
+renderer.specularColor 0.300000/0.300000/0.300000
+renderer.vertexFogEnable 1
+renderer.fogColorVec 0.949020/0.533333/0.333333
+renderer.animatedMeshAmbientColor 0.35
+shadow.shadowColor 0.500000
+textureManager.alternativePath ..bf1942
+
+run textures/init
+
+renderer.vertexFogEnable 1
+renderer.fogLinearStart -1000
+renderer.fogLinearEnd 600
+
+Game.setViewDistance 650
+Game.spawnPlayers 1
+
+
+ObjectTemplate.create Flag BlueFlag
+ObjectTemplate.team 1
+ObjectTemplate.networkableInfo FlagBodyInfo
+ObjectTemplate.radius 5
+ObjectTemplate.TimeToReSpawn 10
+ObjectTemplate.addTemplate AnimatedJapFlag
+
+ObjectTemplate.create Flag RedFlag
+ObjectTemplate.team 2
+ObjectTemplate.networkableInfo FlagBodyInfo
+ObjectTemplate.radius 5
+ObjectTemplate.TimeToReSpawn 10
+ObjectTemplate.addTemplate AnimatedUsFlag
+
+game.setTeamSkin 1 JapaneseSoldier
+game.setKit 1 0 Empire_Scout
+game.setKit 1 1 Empire_Trooper
+game.setKit 1 2 Empire_AT
+game.setKit 1 3 Empire_Medic
+game.setKit 1 4 Empire_Engineer
+
+game.setTeamSkin 2 EndorSoldier
+game.setKit 2 0 Rebel_Scout
+game.setKit 2 1 Rebel_Trooper
+game.setKit 2 2 Rebel_AT
+game.setKit 2 3 Rebel_Medic
+game.setKit 2 4 Rebel_Engineer
+game.setLevelCheck 2242588848
+game.setActiveCombatArea 0 0 2048 2048
+
+shaderManager.setDefaultShaderSolidColor 0.2/0.2/0.2
+
+run Init/SkyAndSun
+run Init/Terrain
+run objects/init
+
+game.assaultTeam 2
+
+run Sounds/Environment
+
+game.setBeforeSpawnCameraPosition 1 1036.843506/226.107437/1325.670532
+game.setBeforeSpawnCameraPosition 2 1036.843506/226.107437/1325.670532

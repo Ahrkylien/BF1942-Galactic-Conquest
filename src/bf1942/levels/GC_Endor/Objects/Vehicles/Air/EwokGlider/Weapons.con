@@ -1,0 +1,35 @@
+
+
+rem *** RockWeapon ***
+ObjectTemplate.create FireArms RockWeapon
+ObjectTemplate.loadSoundScript Sounds/Ewokglider_fire.ssc
+ObjectTemplate.setNetworkableInfo PlaneFireArmInfo
+ObjectTemplate.setAsynchronyFire 1
+ObjectTemplate.projectileTemplate RockWeapon_Projectile
+ObjectTemplate.autoReload 1
+ObjectTemplate.magSize 1
+ObjectTemplate.numOfMag 5
+ObjectTemplate.velocity 0
+ObjectTemplate.roundOfFire 3
+ObjectTemplate.reloadtime 4
+ObjectTemplate.fireOnce 1
+ObjectTemplate.setInputFire c_PIFire
+ObjectTemplate.addFireArmsPosition 0/0/0
+ObjectTemplate.AmmoType 9
+
+
+rem *** RockWeapon_Projectile ***
+ObjectTemplate.create Projectile RockWeapon_Projectile
+ObjectTemplate.networkableInfo ProjectileInfo
+ObjectTemplate.geometry RockWeapon
+ObjectTemplate.timeToLive CRD_NONE/10/0/0
+ObjectTemplate.hasCollisionPhysics 1
+rem ObjectTemplate.gravityModifier 0.15
+ObjectTemplate.hasCollisionEffect 1
+ObjectTemplate.invisibleAtEndEffect 1
+ObjectTemplate.damageType 1
+ObjectTemplate.material 544
+ObjectTemplate.material2 540
+ObjectTemplate.radius 15
+ObjectTemplate.ForceOnExplosion 1
+

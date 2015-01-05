@@ -2,35 +2,35 @@ rem
 rem ***  ***
 rem
 Object.create tl-21_kit_spawner
-Object.absolutePosition 1064.13/63.8557/995.435
+Object.absolutePosition 1063.8/63.9149/995.269
 Object.setTeam 1
 rem
 rem ***  ***
 rem
-rem
-rem ***  ***
-rem
 Object.create tl-21_kit_spawner
-Object.absolutePosition 1064.13/63.8557/996.57
+Object.absolutePosition 1063.33/64.02/995.378
 Object.setTeam 1
 rem
 rem ***  ***
 rem
+Object.create tl-21_kit_spawner
+Object.absolutePosition 928.489/63.7303/860.194
+Object.setTeam 2
+rem
+rem *** *** 
+Object.create droid_capsule_s
+Object.absolutePosition 1027.44/80.55/806.43
+Object.rotation 0.00/0.00/0.00
+Object.setTeam 1
 rem
 rem ***  ***
 rem
 Object.create tl-21_kit_spawner
-Object.absolutePosition 928.93/63.7322/862.453
+Object.absolutePosition 929.175/63.7321/860.109
 Object.setTeam 2
 rem
-rem ***  ***
-rem
-rem
-rem ***  ***
-rem
-Object.create tl-21_kit_spawner
-Object.absolutePosition 928.93/63.7322/861.318
-Object.setTeam 2
-rem
-rem ***  ***
-rem
+rem *** *** 
+Object.create droid_capsule_s
+Object.absolutePosition 1053.37/81.93/1062.97
+Object.rotation 0.00/0.00/0.00
+Object.setTeam 1

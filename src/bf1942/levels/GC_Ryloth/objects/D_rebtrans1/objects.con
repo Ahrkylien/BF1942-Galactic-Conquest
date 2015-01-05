@@ -1,0 +1,88 @@
+
+
+rem *** D_Rebtrans1 ***
+ObjectTemplate.create PlayerControlObject D_Rebtrans1
+ObjectTemplate.setNetworkableInfo D_RebtransBodyInfo
+ObjectTemplate.geometry D_Rebtrans1_m1
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.cullRadiusScale 5
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.mass 3500
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 0
+ObjectTemplate.hasArmor 1
+ObjectTemplate.hitpoints 550
+ObjectTemplate.maxhitpoints 550
+ObjectTemplate.material 811
+ObjectTemplate.criticalDamage 1
+ObjectTemplate.hpLostWhileCriticalDamage 0.1
+ObjectTemplate.addArmorEffect 50 e_scrapmetal 0/6/0
+ObjectTemplate.addArmorEffect 50 e_scrapmetal -4/6/5
+ObjectTemplate.addArmorEffect 50 e_ExplGas 0/2/0
+ObjectTemplate.addArmorEffect 50 em_FletcherDamage 7/7/20
+ObjectTemplate.addArmorEffect 0 em_FletcherDamage -7/7/-20
+ObjectTemplate.addArmorEffect 0 em_FletcherDamage -5/8/-60
+ObjectTemplate.addArmorEffect 0 em_FletcherDamage 6/16/-50
+ObjectTemplate.addArmorEffect 0 em_FletcherDamage 4/6/5
+ObjectTemplate.addArmorEffect 0 em_ExFumePOW 0/4/0
+ObjectTemplate.addArmorEffect 0 em_FletcherDamage -14/6/8
+ObjectTemplate.addArmorEffect 0 em_FletcherDamage -7/6/15
+ObjectTemplate.addArmorEffect 0 e_scrapmetal 0/-6/0
+ObjectTemplate.addArmorEffect 0 e_ExplCap  5/9/0
+ObjectTemplate.addArmorEffect 0 e_scrapmetal 0/16/-10
+ObjectTemplate.addArmorEffect 0 e_scrapmetal -4/6/50
+ObjectTemplate.addArmorEffect 0 e_ExplGas -20/3/-8
+ObjectTemplate.addArmorEffect 0 e_ExplGas 3/15/0
+ObjectTemplate.addArmorEffect 0 e_ExplGas -20/5/660
+ObjectTemplate.addArmorEffect 0 e_ExplGas 1/14.3/10
+ObjectTemplate.addArmorEffect 0 e_ExplGas -50/6/15
+ObjectTemplate.addArmorEffect 0 e_ExplGas 2/5.0/-15
+ObjectTemplate.addArmorEffect 50 e_ExplGas -3/8.0/-10
+ObjectTemplate.addArmorEffect 50 e_ExplGas 1/7/0
+ObjectTemplate.addArmorEffect 50 e_ExplGas 10/2.3/-30
+ObjectTemplate.addArmorEffect 40 e_ExplGas 5/2/5
+ObjectTemplate.addArmorEffect 30 e_ExplGas -3/1/5
+ObjectTemplate.addArmorEffect 20 e_ExplGas 0/2/-1
+ObjectTemplate.addArmorEffect 10 e_ExplGas 10/3/0
+ObjectTemplate.addArmorEffect 0 em_ExFumePOW -3/4/-15
+ObjectTemplate.addArmorEffect 0 e_ExplGas 50/4.3/-20
+ObjectTemplate.addArmorEffect 0 e_ExplGas -4/-3/20
+ObjectTemplate.addArmorEffect 0 e_ExplGas 2/0/10
+ObjectTemplate.addArmorEffect 0 e_ExplGas -5/4/0
+ObjectTemplate.addArmorEffect 0 e_ExplGas -2/0/-50
+ObjectTemplate.addArmorEffect 0 e_scrapmetal 4/-6/-5
+ObjectTemplate.addArmorEffect 0 e_scrapmetal -2/-6/50
+ObjectTemplate.addArmorEffect 0 e_scrapmetal 20/10/40
+ObjectTemplate.addArmorEffect 0 e_Wreck1Smoke 0/10/30
+ObjectTemplate.addArmorEffect 0 e_ExplCap  50/10/2
+ObjectTemplate.timetoliveafterdeath 0
+ObjectTemplate.setSoldierExitLocation 0/0/0 0/0/0
+ObjectTemplate.setVehicleIconPos 60/55
+ObjectTemplate.setPrimaryAmmoBar ABNone
+ObjectTemplate.setCrossHairType CHTNone
+ObjectTemplate.setVehicleCategory VCLand
+ObjectTemplate.setVehicleType VTScoutCar
+
+ObjectTemplate.setMinimapIcon "Minimap/minimap_icon_runner_16x16.dds"
+rem ObjectTemplate.addTemplate Rebelreloadpoint
+
+
+rem *** Rebelreloadpoint ***
+ObjectTemplate.create Bundle Rebelreloadpoint
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.hasCollisionPhysics 0
+ObjectTemplate.hasResponsePhysics 0
+ ObjectTemplate.addTemplate RebelSupplyDepot
+
+
+rem *** RebelSupplyDepot ***
+ObjectTemplate.create SupplyDepot RebelSupplyDepot
+ObjectTemplate.radius 150
+ObjectTemplate.team 2
+ObjectTemplate.setHealth 0 0 0
+ObjectTemplate.addAmmoType 10 -1 100 0
+ObjectTemplate.addAmmoType 9 -1 4 0
+ObjectTemplate.addAmmoType 8 -1 100 0
+ObjectTemplate.addAmmoType 7 -1 4 0
+ObjectTemplate.workOnVehicles 1
+ObjectTemplate.workOnSoldiers 0

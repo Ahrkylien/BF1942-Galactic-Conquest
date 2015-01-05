@@ -1,0 +1,3 @@
+ObjectTemplate.create SimpleObject imp_bunker_fakedoor2
+ObjectTemplate.geometry imp_bunker_fakedoor2
+ObjectTemplate.setHasCollisionPhysics 1

@@ -1,0 +1,42 @@
+rem ********************************
+rem * Precache Objects             *
+rem * created by PrecacheGenerator *
+rem * by AI                        *
+rem ********************************
+
+Object.active __BF_NONE__
+Object.create speederbike
+Object.delete
+Object.create speederbike
+Object.delete
+Object.create atstendor
+Object.delete
+Object.create atstendor
+Object.delete
+Object.create eweb
+Object.delete
+Object.create eweb
+Object.delete
+Object.create endor_bunkerdoor
+Object.delete
+Object.create endor_bunkerdoor
+Object.delete
+Object.create mousedroidcontrol
+Object.delete
+Object.create mousedroidcontrol
+Object.delete
+Object.create tl-21_kit
+Object.delete
+Object.create rebel_tracker
+Object.delete
+Object.create r2d2x
+Object.delete
+Object.create ewokglider
+Object.delete
+Object.create ewokglider
+Object.delete
+Object.create lift_cabine
+Object.delete
+Object.create lift_cabine
+Object.delete
+Object.active __BF_NONE__

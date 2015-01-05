@@ -1,0 +1,30 @@
+
+rem *** e_glow ***
+ObjectTemplate.create EffectBundle e_glow_ionShield
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_glow_ionShield
+rem -------------------------------------
+
+rem *** Em_glow***
+ObjectTemplate.create Emitter Em_glow_ionShield
+ObjectTemplate.template Fx_glow_ionShield
+ObjectTemplate.looping 1
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.lodDistance 1000
+ObjectTemplate.timeToLive CRD_UNIFORM/1/0/0
+ObjectTemplate.intensity CRD_NONE/10/0/0
+ObjectTemplate.startRotation CRD_NONE/0/0/180
+
+rem *** Fx_glow ***
+ObjectTemplate.create Particle Fx_glow_ionShield
+ObjectTemplate.timeToLive CRD_UNIFORM/1.2/1.1/0
+ObjectTemplate.size CRD_NONE/1/0/0
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+ObjectTemplate.geometry ionshield_effect
+ObjectTemplate.sizeModifier 1.1/1/1.1
+ObjectTemplate.sizeOverTime 0/30|100/32
+ObjectTemplate.alphaOverTime 0/0|50/0.3|100/0

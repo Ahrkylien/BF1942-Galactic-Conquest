@@ -132,22 +132,6 @@ Object.rotation 0.00/0.00/0.00
 Object.setTeam 1
 
 rem ----------------------------------------- 
-rem ---  droid_capsule_spawner  ---
-rem ----------------------------------------- 
-rem Object.create droid_capsule_s
-rem Object.absolutePosition 1089.24/343.54/878.96
-rem Object.rotation -140.00/0.00/0.00
-rem Object.setTeam 1
-
-rem ----------------------------------------- 
-rem ---  droid_capsule_spawner  ---
-rem ----------------------------------------- 
-Object.create droid_capsule_s
-Object.absolutePosition 540.07/341.54/988.77
-Object.rotation 362.36/0.00/0.00
-Object.setTeam 2
-
-rem ----------------------------------------- 
 rem ---  tramcar_s  ---
 rem ----------------------------------------- 
 Object.create tramcar_s

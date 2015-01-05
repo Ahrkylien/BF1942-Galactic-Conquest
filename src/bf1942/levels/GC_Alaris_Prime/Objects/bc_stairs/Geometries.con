@@ -1,0 +1,12 @@
+GeometryTemplate.create StandardMesh bc_stairs
+GeometryTemplate.file bc_stairs
+
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+GeometryTemplate.setLodDistance 2 175
+GeometryTemplate.setLodDistance 3 250
+GeometryTemplate.setLodDistance 4 300
+GeometryTemplate.setLodDistance 5 400
+
+
+

@@ -1,0 +1,40 @@
+rem ControlPoints.con created by Battlecraft 1942
+rem (\Program Files\Battlefield 1942\Mods\GCMOD\bf1942\levels\GC_Race/conquest/ControlPoints.con)
+
+rem ----------------------------------------- 
+rem ---  SkyhopperI  ---
+rem ----------------------------------------- 
+Object.create SkyhopperI
+Object.absolutePosition 1060.06/3.63/280.14
+
+rem ----------------------------------------- 
+rem ---  SkyhopperR  ---
+rem ----------------------------------------- 
+Object.create SkyhopperR
+Object.absolutePosition 1060.08/3.63/184.03
+
+rem ----------------------------------------- 
+rem ---  SpeederbikeI  ---
+rem ----------------------------------------- 
+Object.create SpeederbikeI
+Object.absolutePosition 845.76/243.84/1725.70
+
+rem ----------------------------------------- 
+rem ---  SpeedbikeR  ---
+rem ----------------------------------------- 
+Object.create SpeedbikeR
+Object.absolutePosition 893.91/243.64/1725.75
+
+rem ----------------------------------------- 
+rem ---  Imperial_Ships  ---
+rem ----------------------------------------- 
+Object.create Imperial_Ships
+Object.absolutePosition 2012.74/256.07/2023.30
+
+rem ----------------------------------------- 
+rem ---  Rebel_Ships  ---
+rem ----------------------------------------- 
+Object.create Rebel_Ships
+Object.absolutePosition 21.11/255.45/2013.25
+
+rem EndOfFile

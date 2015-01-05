@@ -1,0 +1,6 @@
+
+
+ObjectTemplate.create SimpleObject Gunship_static
+ObjectTemplate.geometry Gunship_static
+ObjectTemplate.hasCollisionPhysics 1
+

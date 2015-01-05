@@ -1,0 +1,23 @@
+rem *********************************************
+rem Created by Battlecraft 1942.  Copyright (c)2003 Digital Illusions CE
+rem *********************************************
+Game.setLocalized 1
+
+rem ** Allied Debriefing **
+game.setAlliedDebriefingMajorVictory REBEL_MAJOR_VICTORY_BRIEFING
+game.setAlliedDebriefingMinorVictory REBEL_MINOR_VICTORY_BRIEFING
+game.setAlliedDebriefingMajorDefeat REBEL_MINOR_DEFEAT_BRIEFING
+game.setAlliedDebriefingMinorDefeat REBEL_MAJOR_DEFEAT_BRIEFING
+
+rem ** Axis Debriefing **
+game.setAxisDebriefingMajorVictory IMPERIAL_MAJOR_VICTORY_BRIEFING
+game.setAxisDebriefingMinorVictory IMPERIAL_MINOR_VICTORY_BRIEFING
+game.setAxisDebriefingMajorDefeat IMPERIAL_MINOR_DEFEAT_BRIEFING
+game.setAxisDebriefingMinorDefeat IMPERIAL_MAJOR_DEFEAT_BRIEFING
+
+game.setLoadPicture ../../bf1942/levels/GC_Alaris_Prime/menu/AlarisPrime.tga
+game.setServerInfoIcon ../../bf1942/levels/GC_Alaris_Prime/menu/serverInfo.dds
+
+game.setMultiplayerBriefingObjectives "Rebel intelligence has discovered the location of an ION Cannon at an Imperial Compound. It is believed the cannon is responsible for destroying multiple vessels near the Wookie planet of Alaris Prime. The Rebellion will not stand for such an agressive move by The Empire." 
+
+game.setMapId "GCMOD"

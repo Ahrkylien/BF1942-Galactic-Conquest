@@ -1,0 +1,32 @@
+renderer.beginGlobalCluster Alaris_shieldgen
+
+GeometryTemplate.create StandardMesh Alaris_shieldgen_m
+GeometryTemplate.file Buildings/Imperial/imp_smallgenerator_bundle
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+GeometryTemplate.setLodDistance 2 200
+GeometryTemplate.setLodDistance 3 300
+GeometryTemplate.setLodDistance 4 400
+GeometryTemplate.setLodDistance 5 1500
+
+GeometryTemplate.create StandardMesh iondeflector
+GeometryTemplate.file iondeflector
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 500
+
+
+renderer.endGlobalCluster
+
+
+GeometryTemplate.create StandardMesh ionshield_effect
+GeometryTemplate.file ionshield_effect
+
+
+GeometryTemplate.create StandardMesh Alaris_shieldgen_wreck
+GeometryTemplate.file Buildings/Imperial/imp_smallgenerator_bundle_wreck
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+GeometryTemplate.setLodDistance 2 200
+GeometryTemplate.setLodDistance 3 300
+GeometryTemplate.setLodDistance 4 400
+GeometryTemplate.setLodDistance 5 1500

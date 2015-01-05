@@ -1,0 +1,8 @@
+GeometryTemplate.Create StandardMesh ew_cabeza_scout
+GeometryTemplate.File buildings/Endor/ew_cabeza_scout
+GeometryTemplate.SetLodDistance 0 0
+GeometryTemplate.SetLodDistance 1 50
+GeometryTemplate.SetLodDistance 2 75
+GeometryTemplate.SetLodDistance 3 100
+GeometryTemplate.SetLodDistance 4 125
+GeometryTemplate.SetLodDistance 5 150

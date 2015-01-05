@@ -1,0 +1,11 @@
+GeometryTemplate.create StandardMesh Wreck_R2D2_M1
+GeometryTemplate.file Wreck_R2D2_M1
+
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+GeometryTemplate.setLodDistance 2 175
+GeometryTemplate.setLodDistance 3 250
+GeometryTemplate.setLodDistance 4 300
+GeometryTemplate.setLodDistance 5 400
+
+

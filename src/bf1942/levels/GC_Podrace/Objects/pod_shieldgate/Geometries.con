@@ -1,0 +1,3 @@
+GeometryTemplate.create StandardMesh pod_shieldgate
+GeometryTemplate.file buildings/Tatooine/pod_shieldgate
+GeometryTemplate.setLodDistance 0 800

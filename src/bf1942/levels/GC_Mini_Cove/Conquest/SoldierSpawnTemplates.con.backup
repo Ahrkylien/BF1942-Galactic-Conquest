@@ -1,0 +1,109 @@
+rem SoldierSpawnTemplates.con created by Battlecraft 1942
+rem (\Program Files\Battlefield 1942\Mods\GCMOD\bf1942\levels\GC_Mini_Cove/conquest/SoldierSpawnTemplates.con)
+
+rem ----------------------------------------- 
+rem ---  rebel_base_Spawn1  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint rebel_base_Spawn1
+ObjectTemplate.setSpawnId 2
+ObjectTemplate.setGroup 2
+
+rem ----------------------------------------- 
+rem ---  rebel_base_Spawn2  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint rebel_base_Spawn2
+ObjectTemplate.setSpawnId 3
+ObjectTemplate.setGroup 2
+
+rem ----------------------------------------- 
+rem ---  rebel_base_Spawn3  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint rebel_base_Spawn3
+ObjectTemplate.setSpawnId 4
+ObjectTemplate.setGroup 2
+
+rem ----------------------------------------- 
+rem ---  imperial_base_Spawn1  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint imperial_base_Spawn1
+ObjectTemplate.setSpawnId 7
+ObjectTemplate.setGroup 1
+
+rem ----------------------------------------- 
+rem ---  imperial_base_Spawn2  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint imperial_base_Spawn2
+ObjectTemplate.setSpawnId 8
+ObjectTemplate.setGroup 1
+
+rem ----------------------------------------- 
+rem ---  imperial_base_Spawn3  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint imperial_base_Spawn3
+ObjectTemplate.setSpawnId 9
+ObjectTemplate.setGroup 1
+
+rem ----------------------------------------- 
+rem ---  imperial_base_Spawn4  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint imperial_base_Spawn4
+ObjectTemplate.setSpawnId 10
+ObjectTemplate.setGroup 4
+
+rem ----------------------------------------- 
+rem ---  imperial_base_Spawn5  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint imperial_base_Spawn5
+ObjectTemplate.setSpawnId 11
+ObjectTemplate.setGroup 4
+
+rem ----------------------------------------- 
+rem ---  imperial_base_Spawn6  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint imperial_base_Spawn6
+ObjectTemplate.setSpawnId 12
+ObjectTemplate.setGroup 4
+
+rem ----------------------------------------- 
+rem ---  rebel_dome_Spawn1  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint rebel_dome_Spawn1
+ObjectTemplate.setSpawnId 13
+ObjectTemplate.setGroup 3
+
+rem ----------------------------------------- 
+rem ---  rebel_dome_Spawn2  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint rebel_dome_Spawn2
+ObjectTemplate.setSpawnId 14
+ObjectTemplate.setGroup 3
+
+rem ----------------------------------------- 
+rem ---  rebel_dome_Spawn3  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint rebel_dome_Spawn3
+ObjectTemplate.setSpawnId 15
+ObjectTemplate.setGroup 3
+
+rem ----------------------------------------- 
+rem ---  imperial_dome_Spawn1  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint imperial_dome_Spawn1
+ObjectTemplate.setSpawnId 16
+ObjectTemplate.setGroup 5
+
+rem ----------------------------------------- 
+rem ---  imperial_dome_Spawn2  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint imperial_dome_Spawn2
+ObjectTemplate.setSpawnId 17
+ObjectTemplate.setGroup 5
+
+rem ----------------------------------------- 
+rem ---  imperial_dome_Spawn3  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint imperial_dome_Spawn3
+ObjectTemplate.setSpawnId 18
+ObjectTemplate.setGroup 5
+
+rem EndOfFile

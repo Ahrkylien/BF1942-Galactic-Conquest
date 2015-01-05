@@ -1,0 +1,107 @@
+rem ObjectSpawnTemplates.con created by Battlecraft 1942
+rem (E:\Battlefield\Mods\GCMOD\bf1942\levels\GC_Alaris_Prime/conquest/ObjectSpawnTemplates.con)
+
+rem ----------------------------------------- 
+rem ---  trolleys  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner trolleys
+ObjectTemplate.setObjectTemplate 1 gain-135
+ObjectTemplate.setObjectTemplate 2 gain-135
+ObjectTemplate.MinSpawnDelay 10
+ObjectTemplate.MaxSpawnDelay 20
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.maxNrOfObjectSpawned 1
+ObjectTemplate.teamOnVehicle 0
+
+rem ----------------------------------------- 
+rem ---  DTAP_Gain135_Spawner  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner DTAP_Gain135_Spawner
+ObjectTemplate.setObjectTemplate 1 gain-135
+ObjectTemplate.setObjectTemplate 2 gain-135
+ObjectTemplate.MinSpawnDelay 10
+ObjectTemplate.MaxSpawnDelay 20
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.maxNrOfObjectSpawned 1
+ObjectTemplate.teamOnVehicle 0
+
+rem ----------------------------------------- 
+rem ---  Speederbikes  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner Speederbikes
+ObjectTemplate.setObjectTemplate 1 speederbike
+ObjectTemplate.setObjectTemplate 2 speederbike
+ObjectTemplate.MinSpawnDelay 10
+ObjectTemplate.MaxSpawnDelay 20
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 65
+ObjectTemplate.Distance 50
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.maxNrOfObjectSpawned 4
+ObjectTemplate.teamOnVehicle 0
+
+rem ----------------------------------------- 
+rem ---  CrateTransporter_Spawner  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner CrateTransporter_Spawner
+ObjectTemplate.setObjectTemplate 1 cratetransporter
+ObjectTemplate.setObjectTemplate 2 cratetransporter
+ObjectTemplate.MinSpawnDelay 2
+ObjectTemplate.MaxSpawnDelay 2
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.maxNrOfObjectSpawned 1
+ObjectTemplate.teamOnVehicle 0
+
+rem ----------------------------------------- 
+rem ---  Mouse_Spawner  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner Mouse_Spawner
+ObjectTemplate.setObjectTemplate 1 mousedroidcontrol
+ObjectTemplate.setObjectTemplate 2 mousedroidcontrol
+ObjectTemplate.MinSpawnDelay 10
+ObjectTemplate.MaxSpawnDelay 20
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.maxNrOfObjectSpawned 1
+ObjectTemplate.teamOnVehicle 0
+
+rem ----------------------------------------- 
+rem ---  destr_door_spawn1  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner destr_door_spawn1
+ObjectTemplate.setObjectTemplate 1 jud_destr_door
+ObjectTemplate.MinSpawnDelay 0
+ObjectTemplate.MaxSpawnDelay 0
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 20
+ObjectTemplate.Distance 9999
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.maxNrOfObjectSpawned 1
+ObjectTemplate.teamOnVehicle 1
+
+rem ----------------------------------------- 
+rem ---  ap_vent_shield_Spawn1  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner ap_vent_shield_Spawn1
+ObjectTemplate.setObjectTemplate 1 ap_vent_shield
+ObjectTemplate.MinSpawnDelay 0
+ObjectTemplate.MaxSpawnDelay 0
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 20
+ObjectTemplate.Distance 9999
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.maxNrOfObjectSpawned 1
+ObjectTemplate.teamOnVehicle 1
+
+rem EndOfFile

@@ -1,8 +1,7 @@
-
-Game.setNumberOfTickets 2 250
-Game.setNumberOfTickets 1 250
-Game.setTicketLostPerMin 2 30
-Game.setTicketLostPerMin 1 30
+Game.setNumberOfTickets 1 100
+Game.setNumberOfTickets 2 100
+Game.setTicketLostPerMin 1 10
+Game.setTicketLostPerMin 2 10
 
 run Conquest/SpawnpointManagerSettings
 

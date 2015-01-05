@@ -612,7 +612,6 @@ Object.absolutePosition 266.907/38.3919/920.082
 Object.Rotation 0/0/0
 rem
 rem ***  ***
-rem ***  ***
 rem
 Object.create imp_house1
 Object.absolutePosition 894.324/84.3188/568.377
@@ -677,6 +676,8 @@ rem
 Object.create dan_reb_wall1
 Object.absolutePosition 915.274/34.9916/88.2642
 Object.Rotation 0/0/0
+rem
+rem ***  ***
 rem
 Object.create ammobox
 Object.absolutePosition 913.897/36.4349/94.4473
@@ -1285,14 +1286,14 @@ rem
 rem ***  ***
 rem
 Object.create ladder_15m_m1
-Object.absolutePosition 240.542/48.4648/1008.77
-Object.Rotation 179/2/0
+Object.absolutePosition 240.544/48.4648/1008.56
+Object.Rotation 179/1/0
 rem
 rem ***  ***
 rem
 Object.create ladder_15m_m1
-Object.absolutePosition 788.7/48.4984/1728
-Object.Rotation 162/2/0
+Object.absolutePosition 789.028/48.4985/1727.89
+Object.Rotation 162/2.13443e-007/0
 rem
 rem ***  ***
 rem

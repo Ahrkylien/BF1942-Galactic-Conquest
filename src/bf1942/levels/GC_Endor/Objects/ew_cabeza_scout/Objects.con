@@ -1,0 +1,5 @@
+ObjectTemplate.Create SimpleObject ew_cabeza_scout
+ObjectTemplate.Geometry ew_cabeza_scout
+ObjectTemplate.SetHasCollisionPhysics 1
+ObjectTemplate.CullRadiusScale 3.0
+ObjectTemplate.AiTemplate ew_cabeza_scout

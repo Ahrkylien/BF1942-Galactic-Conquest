@@ -1,0 +1,8 @@
+NetworkableInfo.createNewInfo CrateTransporterEngineInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo CrateTransporterSteeringInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+NetworkableInfo.createNewInfo CrateTransporterBodyInfo
+NetworkableInfo.setPredictionMode PMLinear

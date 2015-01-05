@@ -51,6 +51,7 @@ shaderManager.setDefaultShaderSolidColor 0.2/0.2/0.2
 
 run Init/SkyAndSun
 run Init/Terrain
+run Objects/Objects
 
 water.specularEnable 0
 water.texLayer1 texture/water07
@@ -76,4 +77,5 @@ water.waterShallowAlpha 1.000000
 rem run Sounds/Environment
 game.setBeforeSpawnCameraPosition 1 1006.53/280/987.52
 game.setBeforeSpawnCameraPosition 2 1006.53/280/987.52
+
 

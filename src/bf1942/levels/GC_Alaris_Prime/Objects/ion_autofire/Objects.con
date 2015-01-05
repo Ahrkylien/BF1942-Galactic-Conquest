@@ -1,0 +1,43 @@
+
+ObjectTemplate.create PlayerControlObject ion_autofire
+ObjectTemplate.setNetworkableInfo ion_autofireInfo
+ObjectTemplate.loadSoundScript Sounds/ion_autofire.ssc
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasArmor 1
+ObjectTemplate.explosionRadius 0
+ObjectTemplate.explosionDamage 0
+ObjectTemplate.hitpoints 1
+ObjectTemplate.maxhitpoints 1
+ObjectTemplate.criticalDamage 1
+ObjectTemplate.explosionForceMod 10
+ObjectTemplate.hpLostWhileCriticalDamage 1
+ObjectTemplate.material 810
+ObjectTemplate.addArmorEffect 1 e_ion_autofire 0/0/0
+rem ObjectTemplate.addArmorEffect 1 e_MuzzHeavy 0/20/0
+ObjectTemplate.setMinimapIcon "Minimap/minimap_icon_noshow_16x16.dds"
+rem ObjectTemplate.setMinimapIcon "Minimap/minimap_icon_apturret_16x16.dds"
+
+rem *** e_ion_autofire ***
+ObjectTemplate.create EffectBundle e_ion_autofire
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.timeToLive CRD_NONE/15/0/0
+ObjectTemplate.addTemplate Em_ion_autofire
+
+rem *** Em_ion_autofire ***
+ObjectTemplate.create Emitter Em_ion_autofire
+ObjectTemplate.template ion_autofireProjectile
+ObjectTemplate.looping 0
+ObjectTemplate.addEmitterSpeed 1
+ObjectTemplate.emitterSpeedScale 1
+ObjectTemplate.startProbability 1
+ObjectTemplate.lodDistance 2000
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/700/0/0
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/0/0/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/0/0/0
+ObjectTemplate.startRotation CRD_NONE/0/0/0
+
+ObjectTemplate.create Particle ion_autofireProjectile
+ObjectTemplate.geometry ion_autofireProjectile
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0

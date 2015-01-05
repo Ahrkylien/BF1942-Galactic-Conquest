@@ -1,0 +1,40 @@
+rem
+rem ***  ***
+rem
+Object.create testtemplate
+Object.absolutePosition 464.39/27.91/394.01
+rem
+rem ***  ***
+rem
+Object.create imperial_strongholdtemplate
+Object.absolutePosition 475.31/39.79/668.83
+rem
+rem ***  ***
+rem
+Object.create fallen_walkertemplate
+Object.absolutePosition 413.55/39.2714/293.92
+Object.rotation 1/3/3
+rem
+rem ***  ***
+rem
+Object.create rebel_strongholdtemplate
+Object.absolutePosition 329.695/45.57/188.259
+rem
+rem ***  ***
+rem
+Object.create unnamedcontroltemplate
+Object.absolutePosition 515.242/28.092/520.271
+rem
+rem ***  ***
+rem
+Object.create peaktemplate
+Object.absolutePosition 286.304/62.567/398.642
+Object.setOSId 0
+Object.setTeam 0
+rem
+rem ***  ***
+rem
+Object.create armourytemplate
+Object.absolutePosition 589.809/32.5845/420.946
+Object.setOSId 65
+Object.setTeam 0

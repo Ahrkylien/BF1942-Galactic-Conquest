@@ -1,0 +1,91 @@
+ObjectTemplate.create PlayerControlObject Ap_vent_shield
+ObjectTemplate.setNetworkableInfo Ap_vent_shieldBodyInfo
+ObjectTemplate.loadSoundScript Sounds/Ambient.ssc
+ObjectTemplate.saveInSeparateFile 1
+objectTemplate.cullRadiusScale 5
+ObjectTemplate.explosionRadius 0
+ObjectTemplate.explosionDamage 0
+ObjectTemplate.damageFromWater 1
+ObjectTemplate.drag 2
+ObjectTemplate.mass 4500
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasArmor 1
+ObjectTemplate.speedMod 1
+ObjectTemplate.hitpoints 8000
+ObjectTemplate.maxhitpoints 8000
+ObjectTemplate.material 84
+ObjectTemplate.criticalDamage 8000
+ObjectTemplate.hpLostWhileCriticalDamage 400
+ObjectTemplate.explosionForceMod 0
+ObjectTemplate.hpLostWhileUpSideDown 0
+ObjectTemplate.hpLostWhileDamageFromWater 0
+ObjectTemplate.timetoliveafterdeath 10
+ObjectTemplate.startoneffects 0
+rem -------------------------------------
+ObjectTemplate.addTemplate lodAp_vent_shield
+rem -------------------------------------
+ObjectTemplate.GUIIndex 30
+ObjectTemplate.setVehicleIcon ""
+ObjectTemplate.setVehicleIconPos 80/57
+ObjectTemplate.setNumberOfWeaponIcons 0
+ObjectTemplate.setVehicleCategory VCLand
+ObjectTemplate.setVehicleType  VTScoutCar
+ObjectTemplate.setMinimapIcon ""
+ObjectTemplate.hasRestrictedExit 1
+rem ObjectTemplate.addTemplate tabuzone
+ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.setRotation 0/0/0
+
+
+ObjectTemplate.create SupplyDepot tabuzone
+ObjectTemplate.radius 2
+ObjectTemplate.team 0
+ObjectTemplate.workOnVehicles 1
+ObjectTemplate.workOnSoldiers 1
+ObjectTemplate.setHealth -1 -5 0
+
+
+
+rem *** lodAp_vent_shield ***
+ObjectTemplate.create LodObject lodAp_vent_shield
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.addTemplate Ap_vent_shieldComplex
+ObjectTemplate.addTemplate Ap_vent_shieldSimple
+ObjectTemplate.addTemplate Ap_vent_shieldWreck
+ObjectTemplate.lodSelector Ap_vent_shieldLodSelector
+
+rem *** Ap_vent_shieldComplex ***
+ObjectTemplate.create Bundle Ap_vent_shieldComplex
+ObjectTemplate.geometry Ap_vent_shield
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.addTemplate Ap_vent_shield_obst
+
+ObjectTemplate.create Obstacle Ap_vent_shield_obst
+ObjectTemplate.geometry Ap_vent_shield
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.AddToCollisionGroup c_CGLandscape
+ObjectTemplate.AddToCollisionGroup c_CGStaticObjects
+ObjectTemplate.createInvisible 1
+ObjectTemplate.loadSoundScript Sounds/Landmine.ssc
+
+
+rem *** Ap_vent_shieldSimple ***
+ObjectTemplate.create Bundle Ap_vent_shieldSimple
+ObjectTemplate.geometry Ap_vent_shield
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+
+rem *** Ap_vent_shieldwreck ***
+ObjectTemplate.create Bundle Ap_vent_shieldwreck
+
+
+rem *** Ap_vent_shieldLodSelector ***
+LodSelectorTemplate.create DistCompareSelector2 Ap_vent_shieldLodSelector
+LodSelectorTemplate.hasDestroyedLod 1
+LodSelectorTemplate.addLodDistance 300

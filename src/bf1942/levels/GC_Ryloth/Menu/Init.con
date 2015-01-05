@@ -1,0 +1,23 @@
+rem *********************************************
+rem Created by Battlecraft 1942.  Copyright (c)2003,2004 Digital Illusions CE
+rem *********************************************
+Game.setLocalized 1
+
+rem ** Allied Debriefing **
+game.setAlliedDebriefingMajorVictory REBEL_MAJOR_VICTORY_BRIEFING
+game.setAlliedDebriefingMinorVictory REBEL_MINOR_VICTORY_BRIEFING
+game.setAlliedDebriefingMajorDefeat REBEL_MINOR_DEFEAT_BRIEFING
+game.setAlliedDebriefingMinorDefeat REBEL_MAJOR_DEFEAT_BRIEFING
+
+rem ** Axis Debriefing **
+game.setAxisDebriefingMajorVictory IMPERIAL_MAJOR_VICTORY_BRIEFING
+game.setAxisDebriefingMinorVictory IMPERIAL_MINOR_VICTORY_BRIEFING
+game.setAxisDebriefingMajorDefeat IMPERIAL_MINOR_DEFEAT_BRIEFING
+game.setAxisDebriefingMinorDefeat IMPERIAL_MAJOR_DEFEAT_BRIEFING
+
+game.setLoadPicture ../../bf1942/levels/GC_Ryloth/menu/ryloth.tga
+game.setServerInfoIcon ../../bf1942/levels/GC_Ryloth/menu/serverinfo.dds
+
+game.setMultiplayerBriefingObjectives "The Months following the Empire's defeat at the Battle of Endor were far from peaceful. Loyal Imperial forces dug into their planetary bases, determined to lose no more ground to what they still considered to be Rebel insurgents. The fragile New Republic was forced to wage bloody campaigns on forsaken planets to rout them. On the baked world of Ryloth the Alliance forces prepare to take to arms once again, against a desperate Imperial stronghold. The Battle for Ryloth has begun..."
+
+game.setMapId "GCMOD"

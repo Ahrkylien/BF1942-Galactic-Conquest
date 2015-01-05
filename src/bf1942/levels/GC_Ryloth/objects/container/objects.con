@@ -1,0 +1,5 @@
+ObjectTemplate.create SimpleObject container
+ObjectTemplate.geometry container
+ObjectTemplate.setHasCollisionPhysics 1
+objectTemplate.cullRadiusScale 3.0
+ObjectTemplate.aiTemplate myobject

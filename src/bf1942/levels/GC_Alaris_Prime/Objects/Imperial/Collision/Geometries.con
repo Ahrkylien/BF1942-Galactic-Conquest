@@ -1,0 +1,7 @@
+GeometryTemplate.create StandardMesh Collision
+GeometryTemplate.file buildings/Imperial/Collision
+GeometryTemplate.setLodDistance 0 0
+
+
+
+

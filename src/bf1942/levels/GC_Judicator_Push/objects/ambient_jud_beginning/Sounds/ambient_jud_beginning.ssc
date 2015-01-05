@@ -1,0 +1,17 @@
+newPatch
+load @ROOT/Sound/@RTD/ambient_jud_beginning.wav
+volume 1.0
+minDistance 500
+dopplerOff
+loop
+priority 9
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 500
+	param 1000
+	param 1
+	param -1	
+endEffect

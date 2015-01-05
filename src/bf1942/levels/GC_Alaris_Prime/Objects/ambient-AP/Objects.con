@@ -1,0 +1,10 @@
+ObjectTemplate.create SimpleObject ambient-AP
+rem ObjectTemplate.geometry ambient-AP
+rem ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.triggerRadius 400
+objectTemplate.loadSoundScript Sounds/ambient-AP.ssc
+
+
+
+

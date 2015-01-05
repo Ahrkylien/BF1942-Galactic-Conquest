@@ -1,0 +1,31 @@
+rem *** pod_sheildgate ***
+ObjectTemplate.create PlayerControlObject pod_shieldgate
+ObjectTemplate.setNetworkableInfo pod_shieldgateBodyInfo
+ObjectTemplate.geometry pod_shieldgate
+ObjectTemplate.saveInSeparateFile 1
+objectTemplate.cullRadiusScale 5
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.mass 3500
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 0
+ObjectTemplate.hasArmor 1
+ObjectTemplate.hitpoints 20
+ObjectTemplate.maxhitpoints 20
+ObjectTemplate.material 801
+ObjectTemplate.criticalDamage 20
+ObjectTemplate.hpLostWhileCriticalDamage 4
+ObjectTemplate.addArmorEffect 0 e_pod_start 0/3/0
+ObjectTemplate.timetoliveafterdeath 1
+rem -------------------------------------
+ObjectTemplate.setSoldierExitLocation 0/0/0 0/0/0
+ObjectTemplate.setVehicleIconPos 60/55
+ObjectTemplate.setPrimaryAmmoBar ABNone
+ObjectTemplate.setCrossHairType CHTNone
+ObjectTemplate.setVehicleCategory VCLand
+ObjectTemplate.setVehicleType  VTScoutCar
+ObjectTemplate.setMinimapIcon "Minimap/minimap_icon_noshow_16x16.dds"
+
+rem *** e_pod_start ***
+ObjectTemplate.create EffectBundle e_pod_start
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript Sounds/pod_start.ssc

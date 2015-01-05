@@ -1,0 +1,4 @@
+GeometryTemplate.create StandardMesh StartHud
+GeometryTemplate.file StartHud
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20

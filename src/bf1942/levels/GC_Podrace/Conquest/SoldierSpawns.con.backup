@@ -1,0 +1,102 @@
+rem SoldierSpawns.con created by Battlecraft 1942
+rem (E:\Battlefield\Mods\GCMOD\bf1942\levels\gc_podrace/conquest/SoldierSpawns.con)
+
+rem ----------------------------------------- 
+rem ---  StadiumSeats_Spawn1  ---
+rem ----------------------------------------- 
+Object.create StadiumSeats_Spawn1
+Object.absolutePosition 835.83/191.52/201.90
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  StadiumSeats_Spawn2  ---
+rem ----------------------------------------- 
+Object.create StadiumSeats_Spawn2
+Object.absolutePosition 835.88/191.52/183.65
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  StadiumSeats_Spawn3  ---
+rem ----------------------------------------- 
+Object.create StadiumSeats_Spawn3
+Object.absolutePosition 807.70/191.52/188.71
+Object.rotation 33.30/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  StadiumSeats_Spawn4  ---
+rem ----------------------------------------- 
+Object.create StadiumSeats_Spawn4
+Object.absolutePosition 864.43/191.52/191.17
+Object.rotation -32.80/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  StadiumSeatsImps_Spawn2  ---
+rem ----------------------------------------- 
+Object.create StadiumSeatsImps_Spawn2
+Object.absolutePosition 832.68/191.53/222.65
+Object.rotation -152.21/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  StadiumSeatsImps_Spawn3  ---
+rem ----------------------------------------- 
+Object.create StadiumSeatsImps_Spawn3
+Object.absolutePosition 860.37/191.54/235.63
+Object.rotation 179.81/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  StadiumSeatsImps_Spawn4  ---
+rem ----------------------------------------- 
+Object.create StadiumSeatsImps_Spawn4
+Object.absolutePosition 832.68/191.55/240.34
+Object.rotation 148.86/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  StadiumSeatsImps_Spawn1  ---
+rem ----------------------------------------- 
+Object.create StadiumSeatsImps_Spawn1
+Object.absolutePosition 857.78/191.53/215.24
+Object.rotation -152.60/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Rebel_Start_Spawn1  ---
+rem ----------------------------------------- 
+Object.create Rebel_Start_Spawn1
+Object.absolutePosition 808.12/191.53/236.68
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Imperial_Start_Spawn1  ---
+rem ----------------------------------------- 
+Object.create Imperial_Start_Spawn1
+Object.absolutePosition 804.80/191.41/212.69
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Rebel_Start_Spawn2  ---
+rem ----------------------------------------- 
+Object.create Rebel_Start_Spawn2
+Object.absolutePosition 860.21/191.55/162.26
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Rebel_Start_Spawn3  ---
+rem ----------------------------------------- 
+Object.create Rebel_Start_Spawn3
+Object.absolutePosition 837.35/191.55/157.92
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Imperial_Start_Spawn2  ---
+rem ----------------------------------------- 
+Object.create Imperial_Start_Spawn2
+Object.absolutePosition 838.90/191.56/259.15
+Object.rotation 176.69/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Imperial_Start_Spawn3  ---
+rem ----------------------------------------- 
+Object.create Imperial_Start_Spawn3
+Object.absolutePosition 860.46/191.57/270.16
+Object.rotation 179.94/0.00/0.00
+
+rem EndOfFile

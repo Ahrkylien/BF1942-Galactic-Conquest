@@ -1,0 +1,34 @@
+rem ControlPoints.con created by Battlecraft 1942
+rem (\Program Files\Battlefield 1942\Mods\GCMOD\bf1942\levels\GC_Kryos/conquest/ControlPoints.con)
+
+rem ----------------------------------------- 
+rem ---  Imperial_Base  ---
+rem ----------------------------------------- 
+Object.create Imperial_Base
+Object.absolutePosition 579.19/80.55/434.41
+
+rem ----------------------------------------- 
+rem ---  Rebel_Base  ---
+rem ----------------------------------------- 
+Object.create Rebel_Base
+Object.absolutePosition 1513.43/75.33/1756.74
+
+rem ----------------------------------------- 
+rem ---  Ion_Cannon  ---
+rem ----------------------------------------- 
+Object.create Ion_Cannon
+Object.absolutePosition 1399.55/107.89/643.69
+
+rem ----------------------------------------- 
+rem ---  Water_Cooling_Station  ---
+rem ----------------------------------------- 
+Object.create Water_Cooling_Station
+Object.absolutePosition 1532.51/81.23/1096.77
+
+rem ----------------------------------------- 
+rem ---  Power_Generator  ---
+rem ----------------------------------------- 
+Object.create Power_Generator
+Object.absolutePosition 860.88/96.42/992.02
+
+rem EndOfFile

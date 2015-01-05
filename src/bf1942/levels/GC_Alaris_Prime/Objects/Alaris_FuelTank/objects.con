@@ -1,0 +1,91 @@
+ObjectTemplate.create PlayercontrolObject Alaris_FuelTank
+ObjectTemplate.NetworkableInfo Alaris_FuelTankInfo
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasArmor 1
+rem ObjectTemplate.hitpoints 150
+rem ObjectTemplate.maxhitpoints 150
+ObjectTemplate.hitpoints 300
+ObjectTemplate.maxhitpoints 300
+ObjectTemplate.material 811
+ObjectTemplate.criticalDamage 0
+ObjectTemplate.hpLostWhileCriticalDamage 10
+ObjectTemplate.explosionRadius 50
+ObjectTemplate.explosionDamage 20
+ObjectTemplate.explosionForceMod 100
+ObjectTemplate.FadeAtTimeToLiveAfterDeath -1
+ObjectTemplate.addArmorEffect 100 em_TieInterceptorDamage 0/0/0
+ObjectTemplate.addArmorEffect 100 em_PlaneDamage 0/0/0
+ObjectTemplate.addArmorEffect 100 e_TieInterceptorFire 0/0/0
+ObjectTemplate.addArmorEffect 0 e_ExplGas 0/0/0
+ObjectTemplate.addArmorEffect -1 WaterWaterExplosion 0/0/0
+ObjectTemplate.damageFromWater 1
+
+rem -------------------------------
+rem --------------------------------------
+ObjectTemplate.addTemplate lodAlaris_FuelTank
+rem --------------------------------------
+ObjectTemplate.GUIIndex 67
+ObjectTemplate.setPrimaryAmmoBar ABNone
+ObjectTemplate.setCrossHairType CHTNone
+ObjectTemplate.setVehicleCategory VCLand
+ObjectTemplate.setVehicleType VTDefGun
+ObjectTemplate.setToolTipType  TTDefGun
+ObjectTemplate.setMinimapIcon "Minimap/minimap_icon_stationary_16x16.tga"
+
+
+
+
+
+
+
+rem -------------------------------
+ObjectTemplate.create LodObject lodAlaris_FuelTank
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate Alaris_FuelTank_complex
+ObjectTemplate.addTemplate Alaris_FuelTank_simple2
+ObjectTemplate.addTemplate Alaris_FuelTank_wrecks
+rem -------------------------------------
+ObjectTemplate.lodSelector Alaris_FuelTankLodSelector
+
+rem ***  ***
+ObjectTemplate.create Bundle Alaris_FuelTank_complex
+ObjectTemplate.geometry Alaris_FuelTank_m
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+rem -------------------------------
+ObjectTemplate.addTemplate daiondeflector
+ObjectTemplate.setPosition 47.53/20.83/-102.07
+ObjectTemplate.setRotation 0.0/0.0/0.0
+
+rem -------------------------------
+rem -------------------------------
+ObjectTemplate.create Bundle daiondeflector
+ObjectTemplate.geometry iondeflector_m
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+
+
+
+
+rem -------------------------------
+rem -------------------------------
+
+ObjectTemplate.create SimpleObject Alaris_FuelTank_simple2
+ObjectTemplate.geometry Alaris_FuelTank_m
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+
+rem *** ***
+ObjectTemplate.create SimpleObject Alaris_FuelTank_wrecks
+ObjectTemplate.geometry Alaris_FuelTank_wreck
+
+LodSelectorTemplate.create DistCompareSelector2 Alaris_FuelTankLodSelector
+LodSelectorTemplate.hasDestroyedLod 1
+LodSelectorTemplate.addLodDistance 900
+
+
+

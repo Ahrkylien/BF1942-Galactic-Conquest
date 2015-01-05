@@ -1,0 +1,112 @@
+ObjectTemplate.create PlayercontrolObject Alaris_shieldgen
+ObjectTemplate.NetworkableInfo Alaris_shieldgenInfo
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasArmor 1
+
+ObjectTemplate.hitpoints 900
+ObjectTemplate.maxhitpoints 900
+ObjectTemplate.material 811
+ObjectTemplate.criticalDamage 10
+ObjectTemplate.hpLostWhileCriticalDamage 10
+ObjectTemplate.explosionRadius 50
+ObjectTemplate.explosionDamage 20
+ObjectTemplate.explosionForceMod 100
+rem ObjectTemplate.FadeAtTimeToLiveAfterDeath 1
+rem ObjectTemplate.timetoliveafterdeath 5
+ObjectTemplate.addArmorEffect 100 em_TieInterceptorDamage 0/0/0
+ObjectTemplate.addArmorEffect 100 em_PlaneDamage 0/0/0
+ObjectTemplate.addArmorEffect 100 e_TieInterceptorFire 0/0/0
+ObjectTemplate.addArmorEffect 0 e_ExplGas 0/0/0
+ObjectTemplate.addArmorEffect 0 e_Wreck1Smoke 0/2/-1
+ObjectTemplate.addArmorEffect 0 e_ExplCap  2/2/2
+ObjectTemplate.addArmorEffect -1 WaterWaterExplosion 0/0/0
+ObjectTemplate.damageFromWater 1
+
+rem -------------------------------
+rem --------------------------------------
+ObjectTemplate.addTemplate lodAlaris_shieldgen
+rem --------------------------------------
+ObjectTemplate.GUIIndex 67
+ObjectTemplate.setPrimaryAmmoBar ABNone
+ObjectTemplate.setCrossHairType CHTNone
+ObjectTemplate.setVehicleCategory VCLand
+ObjectTemplate.setVehicleType VTDefGun
+ObjectTemplate.setToolTipType  TTDefGun
+ObjectTemplate.setMinimapIcon "Minimap/minimap_icon_stationary_16x16.tga"
+
+
+rem -------------------------------
+ObjectTemplate.create LodObject lodAlaris_shieldgen
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate Alaris_shieldgen_complex
+ObjectTemplate.addTemplate Alaris_shieldgen_simple2
+ObjectTemplate.addTemplate Alaris_shieldgen_wrecks
+rem -------------------------------------
+ObjectTemplate.lodSelector Alaris_shieldgenLodSelector
+
+rem ***  ***
+ObjectTemplate.create Bundle Alaris_shieldgen_complex
+ObjectTemplate.geometry Alaris_shieldgen_m
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+
+rem *****  holder 
+ObjectTemplate.addTemplate holder
+ObjectTemplate.setPosition 0/0/0
+Object.rotation 0/0.00/0.00
+
+
+ObjectTemplate.create Bundle holder
+ObjectTemplate.addTemplate d_iondeflector
+ObjectTemplate.setPosition 23.08/30.13/-151.42
+ObjectTemplate.setRotation 0/0/0
+
+
+
+rem -------------------------------
+rem --------------- django --------
+
+ObjectTemplate.create bundle d_iondeflector
+ObjectTemplate.geometry iondeflector
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.addTemplate obs_ionShield
+ObjectTemplate.addTemplate e_glow_ionShield
+
+ObjectTemplate.createInvisible 1
+
+
+
+ObjectTemplate.create Obstacle obs_ionShield
+ObjectTemplate.geometry iondeflector
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.AddToCollisionGroup c_CGLandscape
+ObjectTemplate.AddToCollisionGroup c_CGStaticObjects
+ObjectTemplate.createInvisible 1
+ObjectTemplate.loadSoundScript Sounds/Landmine.ssc
+
+
+rem -------------------------------
+rem -------------------------------
+
+ObjectTemplate.create SimpleObject Alaris_shieldgen_simple2
+ObjectTemplate.geometry Alaris_shieldgen_m
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+
+rem *** ***
+ObjectTemplate.create bundle Alaris_shieldgen_wrecks
+ObjectTemplate.geometry Alaris_shieldgen_wreck
+ObjectTemplate.addtemplate e_scrapmetalsmoke
+ObjectTemplate.setPosition 0/1.5/0
+
+LodSelectorTemplate.create DistCompareSelector2 Alaris_shieldgenLodSelector
+LodSelectorTemplate.hasDestroyedLod 1
+LodSelectorTemplate.addLodDistance 900
+
+
+

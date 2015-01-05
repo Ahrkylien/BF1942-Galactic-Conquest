@@ -1,0 +1,33 @@
+rem *********************************************
+rem Created by Battlecraft 1942.  Copyright (c)2003,2004 Digital Illusions CE
+rem *********************************************
+GeometryTemplate.create PatchTerrain patchGeometry
+GeometryTemplate.file bf1942\levels\GC_Mini_Hoth\Heightmap
+GeometryTemplate.materialMap bf1942\levels\GC_Mini_Hoth\Materialmap
+GeometryTemplate.materialSize 256
+GeometryTemplate.targetTriCount 5000
+GeometryTemplate.worldSize 1024
+GeometryTemplate.yScale 0.300000
+GeometryTemplate.texBaseName bf1942\levels\GC_Mini_Hoth\Textures\Tx
+GeometryTemplate.texOffsetX 0
+GeometryTemplate.texOffsetY 0
+GeometryTemplate.detailTexName bf1942\levels\GC_Mini_Hoth\Textures\Detail
+GeometryTemplate.waterLevel 12.8043
+GeometryTemplate.seaFloorLevel 0
+GeometryTemplate.lodDistance 350
+
+ObjectTemplate.create SimpleObject terrainObject
+ObjectTemplate.geometry patchGeometry
+objectTemplate.createNotInGrid 1
+
+Object.create terrainObject
+Object.setName track
+Object.absolutePosition 0/0/0
+Object.rotation 0/0/0
+
+Console.worldSize 1024
+
+Terrain.ShadowAmbient 80/80/90
+Terrain.ShadowBorderFadeTime 0.25
+Terrain.ShadowSamplingCullY 15
+

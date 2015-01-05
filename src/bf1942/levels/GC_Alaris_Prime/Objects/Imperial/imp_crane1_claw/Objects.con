@@ -1,0 +1,3 @@
+ObjectTemplate.create SimpleObject imp_crane1_claw
+ObjectTemplate.geometry imp_crane1_claw
+ObjectTemplate.setHasCollisionPhysics 1

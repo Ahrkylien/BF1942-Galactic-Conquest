@@ -1,0 +1,66 @@
+rem *********************************************
+rem Created by Battlecraft 1942.  Copyright (c)2003,2004 Digital Illusions CE
+rem *********************************************
+ShaderManager.setTextureParam envmap bf1942\levels\GC_PodRace\Textures\ENVMAP_G_.rcm
+renderer.globalLodPercent 1
+renderer.globalAmbientColor 0.094118/0.094118/0.094118
+renderer.ambientColor 0.109804/0.109804/0.109804
+renderer.diffuseColor 0.329412/0.286275/0.219608
+renderer.specularColor 0.345098/0.305882/0.247059
+renderer.vertexFogEnable 1
+renderer.fogColorVec 0.800000/0.588235/0.470588
+renderer.animatedMeshAmbientColor 0.30
+textureManager.alternativePath bf1942
+
+shadow.shadowColor 0.550000
+
+bf1942/levels/GC_PodRace/sky
+
+Game.setViewDistance 900
+Game.spawnPlayers 1
+renderer.fogstart 600
+renderer.fogend 800
+
+ObjectTemplate.create Flag BlueFlag
+ObjectTemplate.team 1
+ObjectTemplate.networkableInfo FlagBodyInfo
+ObjectTemplate.radius 5
+ObjectTemplate.TimeToReSpawn 10
+ObjectTemplate.addTemplate AnimatedGeFlag
+
+ObjectTemplate.create Flag RedFlag
+ObjectTemplate.team 2
+ObjectTemplate.networkableInfo FlagBodyInfo
+ObjectTemplate.radius 5
+ObjectTemplate.TimeToReSpawn 10
+ObjectTemplate.addTemplate AnimatedUsFlag
+
+
+game.setTeamSkin 1 ScoutSoldier
+game.setKit 1 0 Empire_Scout
+game.setKit 1 1 ImpRace_Kit
+game.setKit 1 2 ImpRace_Kit
+game.setKit 1 3 ImpRace_Kit
+game.setKit 1 4 ImpRace_Kit
+
+game.setTeamSkin 2 FleetSoldier
+game.setKit 2 0 Rebel_Scout
+game.setKit 2 1 RebelRace_Kit
+game.setKit 2 2 RebelRace_Kit
+game.setKit 2 3 RebelRace_Kit
+game.setKit 2 4 RebelRace_Kit
+
+game.setLevelCheck 2242588848
+game.setActiveCombatArea 0 0 2048 2048
+shaderManager.setDefaultShaderSolidColor 0.2/0.2/0.2
+
+run Init/SkyAndSun
+run Init/Terrain
+
+game.assaultTeam 2
+
+run Sounds/Environment
+run Objects/Objects
+
+game.setBeforeSpawnCameraPosition 1 876.670532/226.487427/89.671844
+game.setBeforeSpawnCameraPosition 2 876.670532/226.487427/89.671844

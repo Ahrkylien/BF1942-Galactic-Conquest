@@ -1,0 +1,5 @@
+run effects/init
+run endor_bunkerdoor/endor_bunkerdoor
+run endor_bunker_bottom/endor_bunker_bottom
+run endor_bunker_tunnel/endor_bunker_tunnel
+run endor_bunker_top/endor_bunker_top

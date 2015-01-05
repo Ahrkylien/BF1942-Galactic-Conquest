@@ -1,0 +1,5 @@
+ObjectTemplate.create SimpleObject firehawk_pen
+ObjectTemplate.geometry firehawk_pen
+ObjectTemplate.setHasCollisionPhysics 1
+objectTemplate.cullRadiusScale 3.0
+ObjectTemplate.aiTemplate myobject

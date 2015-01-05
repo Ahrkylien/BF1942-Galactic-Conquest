@@ -1,7 +1,7 @@
 rem *********************************************
 rem Created by Battlecraft 1942.  Copyright (c)2003,2004 Digital Illusions CE
 rem *********************************************
-ShaderManager.setTextureParam envmap bf1942\levels\GC_Quarren_Cove\Textures\ENVMAP_G_.rcm
+ShaderManager.setTextureParam envmap bf1942\levels\GC_Mini_Cove\Textures\ENVMAP_G_.rcm
 renderer.globalLodPercent 1
 renderer.globalAmbientColor 0.200000/0.200000/0.200000
 renderer.ambientColor 0.094118/0.094118/0.094118
@@ -9,12 +9,11 @@ renderer.diffuseColor 0.376471/0.364706/0.364706
 renderer.specularColor 0.294118/0.294118/0.294118
 renderer.vertexFogEnable 1
 renderer.fogColorVec 0.811765/0.894118/0.941177
-renderer.animatedMeshAmbientColor 0.35
-textureManager.alternativePath bf1942/levels/GC_Quarren_Cove/Textures/sky
+renderer.animatedMeshAmbientColor 0.30
+textureManager.alternativePath bf1942/levels/GC_Mini_Cove/Textures/sky
+shadow.shadowColor 0.450000
 
-shadow.shadowColor 0.550000
-
-bf1942/levels/GC_Quarren_Cove/Textures/sky
+bf1942/levels/GC_Mini_Cove/Textures/sky
 
 Game.setViewDistance 600
 Game.spawnPlayers 1
@@ -55,6 +54,7 @@ shaderManager.setDefaultShaderSolidColor 0.2/0.2/0.2
 
 run Init/SkyAndSun
 run Init/Terrain
+run Objects/Objects
 
 game.assaultTeam 2
 
@@ -80,3 +80,7 @@ water.waterAlphaDepth 1.000000
 rem alphadepth was 0
 water.waterShallowAlpha 1.000000
 
+run Sounds/Environment
+
+game.setBeforeSpawnCameraPosition 1 528.546387/118.161964/183.558701
+game.setBeforeSpawnCameraPosition 2 528.546387/118.161964/183.558701

@@ -1,40 +1,40 @@
 rem ControlPoints.con created by Battlecraft 1942
-rem (d:\battlefield 1942\Mods\cloudtown\bf1942\levels\GC_bespin/conquest/ControlPoints.con)
+rem (\Program Files\Battlefield 1942\Mods\GCMOD\bf1942\levels\GC_Bespin/conquest/ControlPoints.con)
 
 rem ----------------------------------------- 
-rem ---  ImperialMine  ---
+rem ---  Imperial_Platform  ---
 rem ----------------------------------------- 
-Object.create ImperialMine
-Object.absolutePosition 277.64/287.51/993.31
-
-rem ----------------------------------------- 
-rem ---  RebelMine  ---
-rem ----------------------------------------- 
-Object.create RebelMine
-Object.absolutePosition 1767.45/284.85/994.35
-
-rem ----------------------------------------- 
-rem ---  ImperialPlatform  ---
-rem ----------------------------------------- 
-Object.create ImperialPlatform
+Object.create Imperial_Platform
 Object.absolutePosition 772.13/268.30/1004.27
 
 rem ----------------------------------------- 
-rem ---  RebelPlatform  ---
+rem ---  Rebel_Platform  ---
 rem ----------------------------------------- 
-Object.create RebelPlatform
-Object.absolutePosition 1240.58/268.30/1003.86
+Object.create Rebel_Platform
+Object.absolutePosition 1240.58/268.30/1004.27
 
 rem ----------------------------------------- 
-rem ---  LowerLevel  ---
+rem ---  Imperial_Bridge  ---
 rem ----------------------------------------- 
-Object.create LowerLevel
-Object.absolutePosition 1005.24/251.85/916.11
+Object.create Imperial_Bridge
+Object.absolutePosition 881.92/279.83/962.78
 
 rem ----------------------------------------- 
-rem ---  UpperLevel  ---
+rem ---  Rebel_Tower  ---
 rem ----------------------------------------- 
-Object.create UpperLevel
-Object.absolutePosition 1006.09/274.41/1033.02
+Object.create Rebel_Tower
+Object.absolutePosition 1147.12/280.30/1045.96
+
+rem ----------------------------------------- 
+rem ---  Central_Platform  ---
+rem ----------------------------------------- 
+Object.create Central_Platform
+Object.absolutePosition 1006.12/275.50/1033.39
+
+rem ----------------------------------------- 
+rem ---  Court_Yard  ---
+rem ----------------------------------------- 
+Object.create Court_Yard
+Object.absolutePosition 1006.00/251.68/913.11
 
 rem EndOfFile

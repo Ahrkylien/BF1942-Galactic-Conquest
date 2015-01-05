@@ -1,0 +1,943 @@
+rem StaticObjects created by Battlecraft 1942
+rem
+rem ***  ***
+rem
+Object.create mc_pad
+Object.absolutePosition 876.28/99.94/872.47
+Object.rotation 45.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create mc_dock_outside
+Object.absolutePosition 688.00/105.00/427.00
+Object.rotation 270.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create mc_dock_outside
+Object.absolutePosition 439.00/108.70/394.00
+Object.rotation -90.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create mc_tower
+Object.absolutePosition 479.51/107.42/411.20
+Object.rotation 120.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create mc_tower
+Object.absolutePosition 645.20/102.83/448.51
+Object.rotation 35.09/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create mc_tower
+Object.absolutePosition 504.58/117.22/575.12
+Object.rotation -439.90/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create mc_pad
+Object.absolutePosition 504.92/117.61/574.18
+Object.rotation -23.74/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create mc_dock_inside
+Object.absolutePosition 439.00/108.70/394.00
+Object.rotation -90.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create mc_dock_inside
+Object.absolutePosition 688.00/105.00/427.00
+Object.rotation 270.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create mc_tower
+Object.absolutePosition 891.85/99.17/816.53
+Object.rotation -73.19/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create hothcrategrey
+Object.absolutePosition 490.53/118.20/582.31
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create hothcrategrey
+Object.absolutePosition 506.46/118.18/589.47
+Object.rotation -55.99/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create hothcrategrey
+Object.absolutePosition 439.94/108.43/430.76
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create hothcrategrey
+Object.absolutePosition 452.26/108.27/426.06
+Object.rotation -31.53/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create hothcrategrey
+Object.absolutePosition 688.95/103.74/467.01
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create hothcrategrey
+Object.absolutePosition 703.00/103.73/456.21
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create imp_house1
+Object.absolutePosition 198.34/103.09/189.95
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create mc_dock_outside
+Object.absolutePosition 795.98/99.94/892.18
+Object.rotation 42.83/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create mc_dock_inside
+Object.absolutePosition 795.98/99.94/892.18
+Object.rotation 42.83/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create imp_house1
+Object.absolutePosition 197.76/103.70/154.71
+Object.rotation 180.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create jungle_plant1_m1
+Object.absolutePosition 512.28/108.26/379.45
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create jungle_plant16_m1
+Object.absolutePosition 482.44/117.08/513.66
+Object.rotation 87.86/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create jungle_plant17_m1
+Object.absolutePosition 394.11/118.26/570.14
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create jungle_tree10_m1
+Object.absolutePosition 724.56/103.66/442.48
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create jungle_tree11_m1
+Object.absolutePosition 483.43/108.30/363.73
+Object.rotation -148.91/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create jungle_tree11b_m1
+Object.absolutePosition 494.38/113.41/482.90
+Object.rotation -131.18/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create jungle_tree10_m1
+Object.absolutePosition 462.46/122.69/663.80
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create jungle_tree11_m1
+Object.absolutePosition 430.83/119.24/626.58
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create stones_africa_l_m1
+Object.absolutePosition 390.13/115.70/508.25
+Object.rotation -70.19/3.48/0.00
+rem
+rem ***  ***
+rem
+Object.create stones_africa_l_m1
+Object.absolutePosition 750.14/103.36/454.10
+Object.rotation 75.21/1.66/-1.45
+rem
+rem ***  ***
+rem
+Object.create stones_africa_l_m1
+Object.absolutePosition 585.54/116.40/531.95
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create jungle_plant1_m1
+Object.absolutePosition 646.27/103.24/430.36
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create jungle_plant16_m1
+Object.absolutePosition 624.75/104.81/465.88
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create jungle_plant17_m1
+Object.absolutePosition 535.74/117.67/583.86
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create jungle_plant17_m1
+Object.absolutePosition 391.07/107.72/403.28
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create jungle_plant17_m1
+Object.absolutePosition 557.52/119.19/627.29
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create jungle_plant16_m1
+Object.absolutePosition 702.12/105.30/507.86
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create jungle_plant16_m1
+Object.absolutePosition 651.47/139.19/628.32
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ammobox
+Object.absolutePosition 446.21/108.32/428.94
+Object.rotation -37.67/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ammobox
+Object.absolutePosition 696.18/103.76/462.92
+Object.rotation -30.52/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create jungle_plant17_m1
+Object.absolutePosition 532.38/109.89/423.18
+Object.rotation 112.86/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create jungle_plant1_m1
+Object.absolutePosition 608.97/112.40/524.68
+Object.rotation -195.06/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create jungle_plant16_m1
+Object.absolutePosition 545.64/117.37/552.18
+Object.rotation 97.10/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create jungle_plant16_m1
+Object.absolutePosition 539.96/107.41/391.66
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create jungle_plant17_m1
+Object.absolutePosition 470.16/111.42/473.13
+Object.rotation -77.11/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create jungle_plant1_m1
+Object.absolutePosition 471.43/117.56/551.76
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create jungle_plant1_m1
+Object.absolutePosition 456.92/119.04/635.66
+Object.rotation -26.66/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create jungle_plant16_m1
+Object.absolutePosition 437.32/117.20/590.24
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create jungle_plant17_m1
+Object.absolutePosition 184.32/103.69/186.49
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create jungle_plant17_m1
+Object.absolutePosition 189.16/103.95/154.67
+Object.rotation 70.24/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create hothcrategrey
+Object.absolutePosition 484.30/117.62/529.56
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create hothcrategrey
+Object.absolutePosition 519.22/118.19/569.06
+Object.rotation -40.77/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create hothcrategrey
+Object.absolutePosition 554.45/117.72/568.69
+Object.rotation 5.35/0.00/-1.84
+rem
+rem ***  ***
+rem
+Object.create hothcrategrey
+Object.absolutePosition 552.68/117.53/558.01
+Object.rotation -33.52/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create hothcrategrey
+Object.absolutePosition 473.67/118.47/533.95
+Object.rotation 36.37/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create jungle_tree11_m1
+Object.absolutePosition 618.55/107.77/495.39
+Object.rotation 30.67/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create jungle_tree11b_m1
+Object.absolutePosition 507.63/120.66/641.16
+Object.rotation 25.59/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create jungle_plant1_m1
+Object.absolutePosition 548.08/119.02/628.24
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create stones_africa_l_m1
+Object.absolutePosition 543.58/106.06/376.52
+Object.rotation -19.51/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create hothcrategrey
+Object.absolutePosition 498.82/108.89/393.33
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create hothcrategrey
+Object.absolutePosition 504.77/108.26/405.82
+Object.rotation -26.31/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create hothcrategrey
+Object.absolutePosition 737.03/104.33/436.37
+Object.rotation -35.15/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create hothcrategrey
+Object.absolutePosition 652.75/101.59/401.88
+Object.rotation -27.65/-8.27/25.95
+rem
+rem ***  ***
+rem
+Object.create jungle_plant16_m1
+Object.absolutePosition 500.32/111.27/463.77
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create jungle_tree10_m1
+Object.absolutePosition 385.69/111.24/475.16
+Object.rotation -278.03/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create waterfront2
+Object.absolutePosition 559.49/100.07/481.29
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create waterfront2
+Object.absolutePosition 581.39/100.08/390.79
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create waterfront2
+Object.absolutePosition 656.00/99.92/365.69
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create waterfront2
+Object.absolutePosition 742.11/99.96/406.18
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create waterfront2
+Object.absolutePosition 780.32/99.94/487.41
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create waterfront2
+Object.absolutePosition 761.52/99.97/579.87
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create waterfront2
+Object.absolutePosition 724.10/100.31/659.09
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create waterfront2
+Object.absolutePosition 610.26/99.93/747.70
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create waterfront2
+Object.absolutePosition 523.22/99.94/758.98
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create waterfront2
+Object.absolutePosition 441.33/99.95/741.65
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create waterfront2
+Object.absolutePosition 384.91/99.94/693.58
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create waterfront2
+Object.absolutePosition 332.41/99.92/606.83
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create waterfront2
+Object.absolutePosition 311.95/99.96/493.58
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create waterfront2
+Object.absolutePosition 364.72/99.93/390.20
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create waterfront2
+Object.absolutePosition 440.57/99.95/329.04
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create waterfront2
+Object.absolutePosition 522.54/99.94/326.59
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ambient-moncal
+Object.absolutePosition 875.79/99.98/845.31
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ambient-moncal
+Object.absolutePosition 861.77/99.98/894.54
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ambient-moncal
+Object.absolutePosition 760.08/99.96/861.56
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create mc_pipe_curve
+Object.absolutePosition 689.60/107.91/432.64
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create mc_pipe_cap
+Object.absolutePosition 689.60/110.04/427.07
+Object.rotation 90.00/0.00/-90.00
+rem
+rem ***  ***
+rem
+Object.create mc_pipe_curve
+Object.absolutePosition 689.56/107.99/420.83
+Object.rotation 180.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create hothcrategrey
+Object.absolutePosition 673.82/105.39/426.74
+Object.rotation 0.00/0.00/-6.80
+rem
+rem ***  ***
+rem
+Object.create lambda-engine-3
+Object.absolutePosition 689.00/108.19/426.87
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create mc_pipe_curve
+Object.absolutePosition 441.19/112.55/399.60
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create mc_pipe_curve
+Object.absolutePosition 441.27/112.61/387.55
+Object.rotation 180.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create mc_pipe_cap
+Object.absolutePosition 441.31/114.65/393.87
+Object.rotation 90.00/0.00/-90.00
+rem
+rem ***  ***
+rem
+Object.create lambda-engine-3
+Object.absolutePosition 441.25/113.19/393.51
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create hothcrategrey
+Object.absolutePosition 459.33/108.47/451.60
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create hothcrategrey
+Object.absolutePosition 700.91/103.75/471.73
+Object.rotation -29.84/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create hothcrategrey
+Object.absolutePosition 581.09/116.67/550.14
+Object.rotation 28.61/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create hothcrategrey
+Object.absolutePosition 465.55/115.87/507.33
+Object.rotation 0.00/0.00/6.28
+rem
+rem ***  ***
+rem
+Object.create jungle_plant1_m1
+Object.absolutePosition 414.68/117.39/553.52
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create jungle_plant17_m1
+Object.absolutePosition 481.53/119.25/630.19
+Object.rotation -99.12/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create jungle_plant17_m1
+Object.absolutePosition 422.07/110.94/482.13
+Object.rotation -103.31/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create hothcrategrey
+Object.absolutePosition 401.70/108.30/420.08
+Object.rotation -33.50/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create jungle_plant17_m1
+Object.absolutePosition 484.39/121.45/655.61
+Object.rotation -96.91/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create stones_africa_l_m1
+Object.absolutePosition 391.87/116.53/518.95
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create hothcrategrey
+Object.absolutePosition 552.84/106.07/415.43
+Object.rotation 0.00/0.00/-11.69
+rem
+rem ***  ***
+rem
+Object.create hothcrategrey
+Object.absolutePosition 564.77/103.05/403.66
+Object.rotation -53.43/-12.30/-8.19
+rem
+rem ***  ***
+rem
+Object.create hothcrategrey
+Object.absolutePosition 628.86/101.67/432.01
+Object.rotation 1.32/0.00/11.43
+rem
+rem ***  ***
+rem
+Object.create hothcrategrey
+Object.absolutePosition 534.18/106.46/514.16
+Object.rotation 0.12/-14.66/-7.22
+rem
+rem ***  ***
+rem
+Object.create hothcrategrey
+Object.absolutePosition 426.03/108.99/394.65
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create jungle_tree10_m1
+Object.absolutePosition 557.63/114.35/533.43
+Object.rotation -114.35/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create jungle_tree11b_m1
+Object.absolutePosition 676.26/105.38/509.42
+Object.rotation -301.43/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create jungle_tree10_m1
+Object.absolutePosition 522.63/108.19/371.26
+Object.rotation 38.25/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create jungle_tree11b_m1
+Object.absolutePosition 425.11/116.11/538.34
+Object.rotation -187.88/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create hothcrategrey
+Object.absolutePosition 554.07/104.44/442.72
+Object.rotation 7.08/8.15/-19.41
+rem
+rem ***  ***
+rem
+Object.create jungle_plant17_m1
+Object.absolutePosition 493.92/109.70/440.06
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create jungle_plant17_m1
+Object.absolutePosition 588.75/118.14/575.49
+Object.rotation -88.83/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create palmshort_m1
+Object.absolutePosition 521.61/108.49/406.55
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create palmshort_m1
+Object.absolutePosition 405.45/110.45/470.13
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create palmshort_m1
+Object.absolutePosition 467.78/114.89/492.03
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create palmshort_m1
+Object.absolutePosition 470.60/117.52/561.53
+Object.rotation -70.16/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create palmshort_m1
+Object.absolutePosition 533.53/115.17/542.09
+Object.rotation 26.97/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create palmshort_m1
+Object.absolutePosition 639.46/104.20/479.42
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create palmshort_m1
+Object.absolutePosition 690.19/104.03/493.98
+Object.rotation -39.85/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create palmshort_m1
+Object.absolutePosition 558.59/118.38/614.04
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create palmshort_m1
+Object.absolutePosition 463.55/119.78/644.46
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create palmshort_m1
+Object.absolutePosition 426.30/117.58/594.71
+Object.rotation -75.10/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create jungle_plant1_m1
+Object.absolutePosition 483.34/109.75/454.93
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create jungle_plant16_m1
+Object.absolutePosition 461.40/107.99/435.07
+Object.rotation 141.54/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create jungle_plant1_m1
+Object.absolutePosition 419.25/113.00/496.55
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create jungle_plant17_m1
+Object.absolutePosition 452.67/114.38/526.88
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create jungle_plant17_m1
+Object.absolutePosition 474.12/117.56/583.17
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create jungle_plant1_m1
+Object.absolutePosition 530.43/117.61/595.17
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create jungle_plant17_m1
+Object.absolutePosition 534.41/118.69/622.53
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create jungle_plant17_m1
+Object.absolutePosition 630.47/107.33/505.27
+Object.rotation 130.40/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create stones_africa_l_m1
+Object.absolutePosition 479.89/114.46/488.17
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create palmshort_m1
+Object.absolutePosition 443.81/109.30/462.37
+Object.rotation -59.07/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create jungle_plant17_m1
+Object.absolutePosition 593.43/112.63/514.36
+Object.rotation -57.08/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create stones_africa_l_m1
+Object.absolutePosition 457.37/110.63/472.59
+Object.rotation -45.28/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create hothcrategrey
+Object.absolutePosition 503.69/116.38/528.64
+Object.rotation 0.00/0.00/-13.01
+rem
+rem ***  ***
+rem
+Object.create hothcrategrey
+Object.absolutePosition 470.38/117.36/571.68
+Object.rotation -21.96/0.00/4.97
+rem
+rem ***  ***
+rem
+Object.create hothcrategrey
+Object.absolutePosition 542.31/117.49/584.63
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create jungle_plant1_m1
+Object.absolutePosition 518.30/114.15/535.87
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create stones_africa_l_m1
+Object.absolutePosition 451.90/117.65/609.91
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create jungle_plant17_m1
+Object.absolutePosition 629.28/110.99/537.91
+Object.rotation -86.09/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create hothcrategrey
+Object.absolutePosition 498.52/118.19/560.94
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create hothcrategrey
+Object.absolutePosition 494.10/118.19/561.29
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create hothcrategrey
+Object.absolutePosition 496.25/120.78/561.10
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create hothcrategrey
+Object.absolutePosition 493.45/118.19/585.93
+Object.rotation -49.81/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create hothcrategrey
+Object.absolutePosition 518.94/118.19/574.45
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create birds
+Object.absolutePosition 520.57/118.95/370.69
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create cricket1
+Object.absolutePosition 460.77/109.35/433.64
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create cricket2
+Object.absolutePosition 545.77/117.65/551.06
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create cricket1
+Object.absolutePosition 702.00/106.42/506.72
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create cricket1
+Object.absolutePosition 437.10/118.41/589.27
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create hawk
+Object.absolutePosition 507.33/135.38/641.50
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create bird
+Object.absolutePosition 724.51/112.50/442.65
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create alliedairplaneammo
+Object.absolutePosition 877.00/105.36/873.19
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create axisairplaneammo
+Object.absolutePosition 178.09/111.40/165.07
+Object.rotation 0.00/0.00/0.00

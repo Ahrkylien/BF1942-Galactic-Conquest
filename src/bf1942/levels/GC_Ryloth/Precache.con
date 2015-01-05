@@ -1,0 +1,88 @@
+rem ********************************
+rem * Precache Objects             *
+rem * created by PrecacheGenerator *
+rem * by AI                        *
+rem ********************************
+
+Object.active __BF_NONE__
+Object.create firehawke
+Object.delete
+Object.create firehawke
+Object.delete
+Object.create miau
+Object.delete
+Object.create miau
+Object.delete
+Object.create tiebomber
+Object.delete
+Object.create apturret
+Object.delete
+Object.create apturret
+Object.delete
+Object.create t-3b
+Object.delete
+Object.create t-3b
+Object.delete
+Object.create t-3ba
+Object.delete
+Object.create t-3ba
+Object.delete
+Object.create gain-135
+Object.delete
+Object.create gain-135
+Object.delete
+Object.create turbolaser
+Object.delete
+Object.create turbolaser
+Object.delete
+Object.create turbolaser
+Object.delete
+Object.create turbolaser
+Object.delete
+Object.create turbolaser
+Object.delete
+Object.create apturret
+Object.delete
+Object.create ywing
+Object.delete
+Object.create turbolaser
+Object.delete
+Object.create turbolaser
+Object.delete
+Object.create t-3b
+Object.delete
+Object.create repgun
+Object.delete
+Object.create firehawke
+Object.delete
+Object.create t-3b
+Object.delete
+Object.create turbolaser
+Object.delete
+Object.create turbolaser
+Object.delete
+Object.create i.m.d.s
+Object.delete
+Object.create i.m.d.s
+Object.delete
+Object.create atpt
+Object.delete
+Object.create stationary_eweb
+Object.delete
+Object.create stationary_eweb
+Object.delete
+Object.create i.m.d.s
+Object.delete
+Object.create i.m.d.s
+Object.delete
+Object.create x-wing
+Object.delete
+Object.create tiefighter
+Object.delete
+Object.create tl-21_kit
+Object.delete
+Object.create tl-21_kit
+Object.delete
+Object.create d_rebtrans1
+Object.delete
+Object.active __BF_NONE__

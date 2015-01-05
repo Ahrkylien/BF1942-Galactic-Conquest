@@ -1,0 +1,33 @@
+
+
+rem *** e_enginePodRacer ***
+ObjectTemplate.create EffectBundle e_enginePodRacer
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+ObjectTemplate.addTemplate Em_enginePodRacer
+ObjectTemplate.setRotation -180.0/-3.69359e-005/0.0
+
+
+rem *** Em_enginePodRacer ***
+ObjectTemplate.create Emitter Em_enginePodRacer
+ObjectTemplate.template Fx_enginePodRacer
+ObjectTemplate.lodDistance 500
+ObjectTemplate.IntensityAtSpeed 20
+ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_NONE/11/0/0
+ObjectTemplate.startRotation CRD_NORMAL/0/180/0
+ObjectTemplate.noPhysics 1
+ObjectTemplate.addChild 1
+ObjectTemplate.looping 1
+ObjectTemplate.startAtCreation 1
+
+
+rem *** fx_enginePodRacer ***
+ObjectTemplate.create Particle fx_enginePodRacer
+ObjectTemplate.geometry e_Podracer_Thrust_Engine_m1
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.size CRD_NONE/2/1/0
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+ObjectTemplate.sizeModifier 1/1/2
+ObjectTemplate.sizeOverTime 0/1|100/0.5
+ObjectTemplate.alphaOverTime 0/0|100/0.2

@@ -1,0 +1,7 @@
+ObjectTemplate.create SimpleObject iondeflector
+ObjectTemplate.geometry iondeflector_m
+ObjectTemplate.setHasCollisionPhysics 1
+
+
+
+

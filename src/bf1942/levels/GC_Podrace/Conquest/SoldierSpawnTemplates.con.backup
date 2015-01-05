@@ -1,0 +1,111 @@
+rem SoldierSpawnTemplates.con created by Battlecraft 1942
+rem (E:\Battlefield\Mods\GCMOD\bf1942\levels\gc_podrace/conquest/SoldierSpawnTemplates.con)
+
+rem ----------------------------------------- 
+rem ---  StadiumSeats_Spawn1  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint StadiumSeats_Spawn1
+ObjectTemplate.setSpawnId 2
+ObjectTemplate.setGroup 2
+ObjectTemplate.setEnterOnSpawn 1
+
+rem ----------------------------------------- 
+rem ---  StadiumSeats_Spawn2  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint StadiumSeats_Spawn2
+ObjectTemplate.setSpawnId 2
+ObjectTemplate.setGroup 2
+ObjectTemplate.setEnterOnSpawn 1
+
+rem ----------------------------------------- 
+rem ---  StadiumSeats_Spawn3  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint StadiumSeats_Spawn3
+ObjectTemplate.setSpawnId 2
+ObjectTemplate.setGroup 2
+ObjectTemplate.setEnterOnSpawn 1
+
+rem ----------------------------------------- 
+rem ---  StadiumSeats_Spawn4  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint StadiumSeats_Spawn4
+ObjectTemplate.setSpawnId 2
+ObjectTemplate.setGroup 2
+ObjectTemplate.setEnterOnSpawn 1
+
+rem ----------------------------------------- 
+rem ---  StadiumSeatsImps_Spawn2  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint StadiumSeatsImps_Spawn2
+ObjectTemplate.setSpawnId 1
+ObjectTemplate.setGroup 1
+ObjectTemplate.setEnterOnSpawn 1
+
+rem ----------------------------------------- 
+rem ---  StadiumSeatsImps_Spawn3  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint StadiumSeatsImps_Spawn3
+ObjectTemplate.setSpawnId 1
+ObjectTemplate.setGroup 1
+ObjectTemplate.setEnterOnSpawn 1
+
+rem ----------------------------------------- 
+rem ---  StadiumSeatsImps_Spawn4  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint StadiumSeatsImps_Spawn4
+ObjectTemplate.setSpawnId 1
+ObjectTemplate.setGroup 1
+ObjectTemplate.setEnterOnSpawn 1
+
+rem ----------------------------------------- 
+rem ---  StadiumSeatsImps_Spawn1  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint StadiumSeatsImps_Spawn1
+ObjectTemplate.setSpawnId 1
+ObjectTemplate.setGroup 1
+ObjectTemplate.setEnterOnSpawn 1
+
+rem ----------------------------------------- 
+rem ---  Rebel_Start_Spawn1  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Rebel_Start_Spawn1
+ObjectTemplate.setSpawnId 3
+ObjectTemplate.setGroup 2
+ObjectTemplate.setEnterOnSpawn 1
+
+rem ----------------------------------------- 
+rem ---  Imperial_Start_Spawn1  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Imperial_Start_Spawn1
+ObjectTemplate.setSpawnId 4
+ObjectTemplate.setGroup 1
+ObjectTemplate.setEnterOnSpawn 1
+
+rem ----------------------------------------- 
+rem ---  Rebel_Start_Spawn2  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Rebel_Start_Spawn2
+ObjectTemplate.setSpawnId 5
+ObjectTemplate.setGroup 6
+
+rem ----------------------------------------- 
+rem ---  Rebel_Start_Spawn3  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Rebel_Start_Spawn3
+ObjectTemplate.setSpawnId 6
+ObjectTemplate.setGroup 6
+
+rem ----------------------------------------- 
+rem ---  Imperial_Start_Spawn2  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Imperial_Start_Spawn2
+ObjectTemplate.setSpawnId 7
+ObjectTemplate.setGroup 5
+
+rem ----------------------------------------- 
+rem ---  Imperial_Start_Spawn3  ---
+rem ----------------------------------------- 
+ObjectTemplate.create SpawnPoint Imperial_Start_Spawn3
+ObjectTemplate.setSpawnId 8
+ObjectTemplate.setGroup 5
+rem EndOfFile

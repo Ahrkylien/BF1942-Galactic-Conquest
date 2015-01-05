@@ -1,0 +1,2 @@
+NetworkableInfo.createNewInfo ambient_jud_tramcontrolBodyInfo
+NetworkableInfo.setPredictionMode PMLinear

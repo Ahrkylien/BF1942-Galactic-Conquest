@@ -1,0 +1,173 @@
+ObjectTemplate.create SpawnPoint cp28
+ObjectTemplate.setSpawnId 28
+ObjectTemplate.setGroup 11
+rem ----------------------------------------- 
+rem ---  cp29  ---
+rem ----------------------------------------- 
+
+ObjectTemplate.create SpawnPoint cp18
+ObjectTemplate.setSpawnId 18
+ObjectTemplate.setGroup 4
+rem ----------------------------------------- 
+rem ---  cp19  ---
+rem ----------------------------------------- 
+
+ObjectTemplate.create SpawnPoint cp29
+ObjectTemplate.setSpawnId 29
+ObjectTemplate.setGroup 11
+rem ----------------------------------------- 
+rem ---  cp18  ---
+rem ----------------------------------------- 
+
+ObjectTemplate.create SpawnPoint cp19
+ObjectTemplate.setSpawnId 19
+ObjectTemplate.setGroup 6
+rem ----------------------------------------- 
+rem ---  imp01  ---
+rem ----------------------------------------- 
+
+ObjectTemplate.create SpawnPoint imp01
+ObjectTemplate.setSpawnId 1
+ObjectTemplate.setGroup 1
+rem ----------------------------------------- 
+rem ---  imp02  ---
+rem ----------------------------------------- 
+
+ObjectTemplate.create SpawnPoint imp02
+ObjectTemplate.setSpawnId 17
+ObjectTemplate.setGroup 1
+rem ----------------------------------------- 
+rem ---  imp03  ---
+rem ----------------------------------------- 
+
+ObjectTemplate.create SpawnPoint imp03
+ObjectTemplate.setSpawnId 18
+ObjectTemplate.setGroup 1
+rem ----------------------------------------- 
+rem ---  imp04  ---
+rem ----------------------------------------- 
+
+ObjectTemplate.create SpawnPoint reb01
+ObjectTemplate.setSpawnId 2
+ObjectTemplate.setGroup 2
+rem ----------------------------------------- 
+rem ---  reb02  ---
+rem ----------------------------------------- 
+
+ObjectTemplate.create SpawnPoint tram01
+ObjectTemplate.setSpawnId 5
+ObjectTemplate.setGroup 5
+rem ----------------------------------------- 
+rem ---  reb01  ---
+rem ----------------------------------------- 
+
+ObjectTemplate.create SpawnPoint imp04
+ObjectTemplate.setSpawnId 19
+ObjectTemplate.setGroup 1
+rem ----------------------------------------- 
+rem ---  tram01  ---
+rem ----------------------------------------- 
+
+ObjectTemplate.create SpawnPoint tram02
+ObjectTemplate.setSpawnId 11
+ObjectTemplate.setGroup 5
+rem ----------------------------------------- 
+rem ---  reb03  ---
+rem ----------------------------------------- 
+
+ObjectTemplate.create SpawnPoint lift01
+ObjectTemplate.setSpawnId 3
+ObjectTemplate.setGroup 3
+rem ----------------------------------------- 
+rem ---  tram02  ---
+rem ----------------------------------------- 
+
+ObjectTemplate.create SpawnPoint reb02
+ObjectTemplate.setSpawnId 5
+ObjectTemplate.setGroup 2
+rem ----------------------------------------- 
+rem ---  lift01  ---
+rem ----------------------------------------- 
+
+ObjectTemplate.create SpawnPoint lift02
+ObjectTemplate.setSpawnId 13
+ObjectTemplate.setGroup 3
+rem ----------------------------------------- 
+rem ---  cp22  ---
+rem ----------------------------------------- 
+
+ObjectTemplate.create SpawnPoint tram03
+ObjectTemplate.setSpawnId 12
+ObjectTemplate.setGroup 5
+rem ----------------------------------------- 
+rem ---  lift02  ---
+rem ----------------------------------------- 
+
+ObjectTemplate.create SpawnPoint sec01
+ObjectTemplate.setSpawnId 4
+ObjectTemplate.setGroup 4
+rem ----------------------------------------- 
+rem ---  tram03  ---
+rem ----------------------------------------- 
+
+ObjectTemplate.create SpawnPoint reb03
+ObjectTemplate.setSpawnId 6
+ObjectTemplate.setGroup 2
+rem ----------------------------------------- 
+rem ---  sec01  ---
+rem ----------------------------------------- 
+
+ObjectTemplate.create SpawnPoint lift03
+ObjectTemplate.setSpawnId 14
+ObjectTemplate.setGroup 3
+rem ----------------------------------------- 
+rem ---  cp23  ---
+rem ----------------------------------------- 
+
+ObjectTemplate.create SpawnPoint sec02
+ObjectTemplate.setSpawnId 9
+ObjectTemplate.setGroup 4
+rem ----------------------------------------- 
+rem ---  lift03  ---
+rem ----------------------------------------- 
+
+ObjectTemplate.create SpawnPoint cp22
+ObjectTemplate.setSpawnId 22
+ObjectTemplate.setGroup 8
+rem ----------------------------------------- 
+rem ---  sec02  ---
+rem ----------------------------------------- 
+
+ObjectTemplate.create SpawnPoint lift04
+ObjectTemplate.setSpawnId 15
+ObjectTemplate.setGroup 3
+rem ----------------------------------------- 
+rem ---  reb06  ---
+rem ----------------------------------------- 
+
+ObjectTemplate.create SpawnPoint reb05
+ObjectTemplate.setSpawnId 7
+ObjectTemplate.setGroup 2
+rem ----------------------------------------- 
+rem ---  lift04  ---
+rem ----------------------------------------- 
+
+ObjectTemplate.create SpawnPoint cp23
+ObjectTemplate.setSpawnId 23
+ObjectTemplate.setGroup 8
+rem ----------------------------------------- 
+rem ---  reb05  ---
+rem ----------------------------------------- 
+
+ObjectTemplate.create SpawnPoint reb06
+ObjectTemplate.setSpawnId 8
+ObjectTemplate.setGroup 2
+rem ----------------------------------------- 
+rem ---  sec05  ---
+rem ----------------------------------------- 
+
+ObjectTemplate.create SpawnPoint sec05
+ObjectTemplate.setSpawnId 10
+ObjectTemplate.setGroup 4
+rem EndOfFile
+

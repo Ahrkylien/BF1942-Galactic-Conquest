@@ -1,0 +1,52 @@
+rem ControlPoints.con created by Battlecraft 1942
+rem (E:\Battlefield\Mods\GCMOD\bf1942\levels\gc_alaris_prime/conquest/ControlPoints.con)
+
+
+if v_arg1 == host
+rem ----------------------------------------- 
+rem ---  Imperial_Ion_Cannon  ---
+rem ----------------------------------------- 
+Object.create Imperial_Ion_Cannon
+Object.absolutePosition 578.59/219.45/761.53
+
+
+
+rem ----------------------------------------- 
+rem ---  Wookiee_Temple  ---
+rem ----------------------------------------- 
+Object.create Wookiee_Temple
+Object.absolutePosition 853.64/121.89/390.57
+
+
+
+rem ----------------------------------------- 
+rem ---  Mainhall_CP  ---
+rem ----------------------------------------- 
+Object.create Mainhall_CP
+Object.absolutePosition 520.76/217.29/927.60
+
+rem ----------------------------------------- 
+rem ---  Controlroom  ---
+rem ----------------------------------------- 
+Object.create Controlroom
+Object.absolutePosition 533.49/225.52/949.75
+
+rem ----------------------------------------- 
+rem ---  fuelroom  ---
+rem ----------------------------------------- 
+Object.create fuelroom
+Object.absolutePosition 469.65/221.93/897.13
+beginrem
+rem ----------------------------------------- 
+rem ---  Rebel_Landing_Point  ---
+rem ----------------------------------------- 
+Object.create Rebel_Landing_Point
+Object.absolutePosition 215.38/0.03/712.32
+
+rem ----------------------------------------- 
+rem ---  Lumberyard  ---
+rem ----------------------------------------- 
+Object.create Lumberyard
+Object.absolutePosition 267.23/0.95/214.06
+endrem
+endIf

@@ -1,0 +1,3313 @@
+rem StaticObjects created by Battlecraft 1942
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 598.55/126.76/408.26
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 526.82/126.55/373.24
+Object.rotation -46.70/2.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 304.19/123.81/437.50
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create rotp_column
+Object.absolutePosition 422.35/114.66/760.14
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create rotp_column
+Object.absolutePosition 371.89/114.66/760.39
+Object.rotation 4.64/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create rotp_platform
+Object.absolutePosition 396.93/152.22/760.34
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create rotp_corridor
+Object.absolutePosition 397.09/132.23/760.26
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 463.55/123.30/393.44
+Object.rotation -201.30/-28.81/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 510.75/130.30/136.63
+Object.rotation -64.50/-7.70/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 335.68/118.27/670.69
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 633.42/120.56/593.25
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 299.14/132.34/346.15
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 301.19/131.95/295.45
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 240.36/128.09/369.69
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 641.51/116.97/539.64
+Object.rotation -101.80/25.60/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 266.71/123.21/604.84
+Object.rotation -104.20/-5.10/0.00
+rem
+rem ***  ***
+rem
+Object.create ew_sujecion_puente
+Object.absolutePosition 292.03/113.35/482.88
+Object.rotation -16.30/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ew_sujecion_puente_x
+Object.absolutePosition 335.38/125.87/443.97
+Object.rotation -97.50/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create campamento_camu
+Object.absolutePosition 490.67/121.26/515.79
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 229.42/133.65/318.37
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ew_plataforma_g
+Object.absolutePosition 257.17/156.99/368.64
+Object.rotation -199.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ew_plataforma_g
+Object.absolutePosition 274.71/157.04/359.10
+Object.rotation -18.50/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ew_espiral
+Object.absolutePosition 240.37/148.12/369.69
+Object.rotation -132.70/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ew_plataforma_g
+Object.absolutePosition 290.25/157.00/351.72
+Object.rotation -197.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ew_puente_largo
+Object.absolutePosition 295.98/152.56/324.88
+Object.rotation -9.10/-15.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ew_plataforma_g
+Object.absolutePosition 301.91/148.14/293.92
+Object.rotation -176.90/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ew_puente_largo
+Object.absolutePosition 324.37/143.68/276.79
+Object.rotation -46.60/-15.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ew_puente_largo
+Object.absolutePosition 260.41/142.30/390.77
+Object.rotation 44.10/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ew_puente_largo
+Object.absolutePosition 243.84/152.55/345.06
+Object.rotation 27.90/-15.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ew_plataforma_g
+Object.absolutePosition 228.77/147.98/318.85
+Object.rotation 155.41/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ew_puente_largo
+Object.absolutePosition 255.53/147.71/311.25
+Object.rotation -69.30/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ew_puente_med
+Object.absolutePosition 282.30/148.03/301.36
+Object.rotation -70.40/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ew_puente_largo
+Object.absolutePosition 284.83/142.31/415.90
+Object.rotation 44.10/-0.10/0.00
+rem
+rem ***  ***
+rem
+Object.create ew_plataforma_g
+Object.absolutePosition 304.09/142.84/437.22
+Object.rotation -86.70/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ew_puente_largo
+Object.absolutePosition 348.09/137.03/446.69
+Object.rotation -101.10/-20.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ew_puente_med
+Object.absolutePosition 325.61/142.64/442.32
+Object.rotation -101.10/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ew_puente_largo
+Object.absolutePosition 296.49/142.35/468.19
+Object.rotation -16.30/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ew_puente_largo
+Object.absolutePosition 286.73/138.91/501.58
+Object.rotation -16.30/10.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ew_plataforma_g
+Object.absolutePosition 279.13/136.67/527.97
+Object.rotation 482.80/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create rotp_gangway
+Object.absolutePosition 371.30/114.54/745.59
+Object.rotation 1.87/-0.57/0.00
+rem
+rem ***  ***
+rem
+Object.create rotp_gangway
+Object.absolutePosition 421.84/114.61/745.33
+Object.rotation 1.82/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create rotp_gangway
+Object.absolutePosition 421.72/114.60/774.73
+Object.rotation 177.57/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create rotp_gangway
+Object.absolutePosition 372.62/114.59/775.28
+Object.rotation 182.40/0.75/0.11
+rem
+rem ***  ***
+rem
+Object.create rotp_gangway
+Object.absolutePosition 357.47/114.54/762.27
+Object.rotation 96.26/-0.48/-0.20
+rem
+rem ***  ***
+rem
+Object.create rotp_gangway
+Object.absolutePosition 436.77/114.48/759.79
+Object.rotation 273.24/-0.77/0.00
+rem
+rem ***  ***
+rem
+Object.create ew_puente_largo
+Object.absolutePosition 492.27/128.43/299.19
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ew_puente_largo
+Object.absolutePosition 349.45/135.85/253.14
+Object.rotation -46.60/-10.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_bunker_top
+Object.absolutePosition 631.70/112.56/849.80
+Object.rotation 90.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_bunker_tunnel
+Object.absolutePosition 631.70/112.56/849.80
+Object.rotation 90.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_bunker_bottom
+Object.absolutePosition 631.70/112.56/849.80
+Object.rotation 90.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 433.09/134.40/109.49
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 349.25/128.19/165.42
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 388.96/130.65/241.76
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 696.49/132.87/297.59
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 375.88/127.87/365.22
+Object.rotation 0.00/-1.10/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 274.35/131.63/233.38
+Object.rotation 45.00/3.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 246.14/129.07/174.32
+Object.rotation -67.80/-5.10/0.00
+rem
+rem ***  ***
+rem
+Object.create ladder_15m_m1
+Object.absolutePosition 243.33/139.23/377.89
+Object.rotation -207.33/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ladder_15m_m1
+Object.absolutePosition 235.45/144.80/308.02
+Object.rotation -30.14/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ew_sujecion_puente_x
+Object.absolutePosition 257.60/125.86/388.14
+Object.rotation 44.10/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ew_sujecion_puente_x
+Object.absolutePosition 274.67/132.01/304.00
+Object.rotation -70.40/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ew_sujecion_puente_x
+Object.absolutePosition 283.39/125.72/414.43
+Object.rotation 44.10/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ladder_10m_m1
+Object.absolutePosition 291.47/132.72/533.13
+Object.rotation -104.24/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ew_sujecion_puente
+Object.absolutePosition 337.99/109.61/263.90
+Object.rotation -46.60/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ew_cabanya_cat
+Object.absolutePosition 255.24/156.92/376.12
+Object.rotation -120.40/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ew_cabanya_cat
+Object.absolutePosition 262.90/157.14/372.32
+Object.rotation -64.40/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ew_cabanya_jefe
+Object.absolutePosition 277.24/157.06/365.00
+Object.rotation -38.20/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create catapulta
+Object.absolutePosition 374.27/134.68/313.25
+Object.rotation 37.90/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create catapulta
+Object.absolutePosition 302.03/132.49/328.04
+Object.rotation 55.90/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create catapulta
+Object.absolutePosition 289.56/157.56/356.83
+Object.rotation 79.70/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ew_totem
+Object.absolutePosition 272.00/157.18/353.04
+Object.rotation -246.20/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ew_cabeza_scout
+Object.absolutePosition 274.51/157.22/362.87
+Object.rotation -169.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ew_cabeza_scout
+Object.absolutePosition 277.68/157.20/361.16
+Object.rotation -153.20/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ew_cabeza_scout
+Object.absolutePosition 366.11/132.28/451.51
+Object.rotation 84.40/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ew_cabeza_scout
+Object.absolutePosition 366.63/132.30/448.64
+Object.rotation 81.10/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ew_cabanya
+Object.absolutePosition 300.56/147.85/289.28
+Object.rotation -105.50/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ew_cabanya
+Object.absolutePosition 225.20/147.61/314.01
+Object.rotation -67.30/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ew_cabanya
+Object.absolutePosition 223.64/147.69/320.94
+Object.rotation 10.50/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ew_cabanya
+Object.absolutePosition 300.06/142.55/433.19
+Object.rotation -64.60/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ew_cabanya
+Object.absolutePosition 307.56/142.63/442.43
+Object.rotation 119.60/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ew_cabanya
+Object.absolutePosition 245.79/156.66/367.72
+Object.rotation -178.60/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 279.43/123.08/528.62
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 239.57/118.34/484.05
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 461.41/133.20/279.39
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ewoks1
+Object.absolutePosition 275.03/163.92/357.75
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 188.97/128.76/232.51
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 155.06/126.85/404.51
+Object.rotation 13.60/-23.20/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 447.77/114.27/627.55
+Object.rotation -121.21/-2.02/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 505.20/121.19/587.53
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create arbol_hueco
+Object.absolutePosition 509.43/131.62/352.14
+Object.rotation -731.85/97.60/1.60
+rem
+rem ***  ***
+rem
+Object.create ew_puente_largo
+Object.absolutePosition 256.87/132.75/504.52
+Object.rotation -137.20/10.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ew_puente_largo
+Object.absolutePosition 216.69/147.80/293.00
+Object.rotation 24.50/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ew_puente_largo
+Object.absolutePosition 202.24/145.20/261.27
+Object.rotation 24.50/-10.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ew_plataforma_g
+Object.absolutePosition 189.00/142.23/232.99
+Object.rotation -15.80/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ew_puente_med
+Object.absolutePosition 169.55/140.55/242.00
+Object.rotation -65.60/10.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ew_plataforma_g
+Object.absolutePosition 236.87/130.60/484.90
+Object.rotation -90.10/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ew_sujecion_puente
+Object.absolutePosition 208.57/118.79/275.24
+Object.rotation 24.50/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ew_cabanya
+Object.absolutePosition 284.61/136.45/525.74
+Object.rotation -162.30/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ew_cabanya
+Object.absolutePosition 235.89/130.31/479.38
+Object.rotation -56.10/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ew_puente_med
+Object.absolutePosition 220.83/129.61/498.77
+Object.rotation -229.60/-5.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ew_cabanya
+Object.absolutePosition 194.42/141.97/230.24
+Object.rotation -163.80/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 557.26/115.73/533.13
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 320.64/130.01/234.09
+Object.rotation 105.40/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 440.23/124.39/461.59
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_tree6
+Object.absolutePosition 362.32/122.52/504.24
+Object.rotation -77.50/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_tree6
+Object.absolutePosition 423.99/127.40/361.31
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_tree6
+Object.absolutePosition 561.19/131.51/320.54
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_tree6
+Object.absolutePosition 213.78/127.81/545.43
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_tree6
+Object.absolutePosition 376.51/132.88/128.66
+Object.rotation -18.00/2.50/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_tree6
+Object.absolutePosition 580.64/125.70/477.57
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_log
+Object.absolutePosition 625.55/138.12/300.79
+Object.rotation 0.00/103.20/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_tree6
+Object.absolutePosition 676.55/116.77/474.66
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 701.64/115.26/419.44
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_tree6
+Object.absolutePosition 661.91/122.07/361.15
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 598.57/129.87/349.88
+Object.rotation 9.00/-5.90/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 667.46/128.83/145.92
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 643.90/130.63/226.40
+Object.rotation -17.60/4.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_tree6
+Object.absolutePosition 307.49/130.95/117.94
+Object.rotation -63.10/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_tree6
+Object.absolutePosition 163.72/135.42/281.08
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 188.79/133.25/403.84
+Object.rotation 27.50/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_tree6
+Object.absolutePosition 220.01/123.97/632.28
+Object.rotation 217.50/3.60/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 569.06/131.00/257.69
+Object.rotation 0.00/2.80/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 569.73/128.57/96.21
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 485.25/128.70/341.72
+Object.rotation 0.00/3.16/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_tree6
+Object.absolutePosition 334.94/128.91/402.58
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 348.33/128.08/580.02
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 406.72/124.71/574.40
+Object.rotation -65.63/-4.52/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_tree6
+Object.absolutePosition 411.71/133.50/297.56
+Object.rotation 0.00/9.65/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_tree5
+Object.absolutePosition 370.51/127.39/274.41
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_tree5
+Object.absolutePosition 376.01/129.98/197.79
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_tree5
+Object.absolutePosition 258.33/132.63/282.51
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_tree5
+Object.absolutePosition 231.41/130.86/238.94
+Object.rotation -34.90/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_log
+Object.absolutePosition 310.57/128.32/171.82
+Object.rotation 26.17/83.58/-13.90
+rem
+rem ***  ***
+rem
+Object.create arbol_curvo
+Object.absolutePosition 308.60/125.66/362.76
+Object.rotation -54.82/-23.14/-21.66
+rem
+rem ***  ***
+rem
+Object.create endor_tree5
+Object.absolutePosition 524.34/128.89/273.01
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_tree5
+Object.absolutePosition 403.35/127.42/166.51
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_tree5
+Object.absolutePosition 475.86/132.00/128.02
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create arbol_hueco
+Object.absolutePosition 658.57/127.72/962.18
+Object.rotation -18.18/-97.20/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_tree5
+Object.absolutePosition 566.33/130.25/200.04
+Object.rotation 0.00/-11.71/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_tree6
+Object.absolutePosition 387.51/112.77/621.48
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_tree6
+Object.absolutePosition 518.30/109.75/624.57
+Object.rotation -118.79/-22.70/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 542.14/122.79/747.44
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 584.02/115.19/648.78
+Object.rotation 22.33/1.56/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_tree6
+Object.absolutePosition 633.25/130.55/729.41
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 669.62/132.14/684.39
+Object.rotation -59.33/-3.65/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 719.78/131.89/609.65
+Object.rotation -59.79/4.44/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 827.75/123.08/704.21
+Object.rotation 52.20/71.63/-7.55
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 592.08/114.85/810.35
+Object.rotation -14.08/-1.20/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 486.86/115.36/699.85
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 410.84/114.89/670.44
+Object.rotation 66.53/-4.30/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 267.85/122.15/822.30
+Object.rotation 4.64/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_tree6
+Object.absolutePosition 298.99/120.28/777.46
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 270.44/112.19/711.96
+Object.rotation -21.55/8.86/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 348.15/114.93/856.92
+Object.rotation 39.69/2.32/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 432.57/124.51/872.11
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_tree6
+Object.absolutePosition 476.73/116.47/842.04
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 496.12/125.76/927.00
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 572.53/124.97/946.01
+Object.rotation 1.41/-6.86/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 675.36/119.68/782.03
+Object.rotation 0.00/-2.84/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 181.65/132.94/161.92
+Object.rotation -24.70/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 228.10/126.85/87.92
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_tree6
+Object.absolutePosition 170.51/127.63/101.37
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_tree5
+Object.absolutePosition 680.02/127.21/743.72
+Object.rotation -55.11/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_tree5
+Object.absolutePosition 553.22/113.07/877.51
+Object.rotation -36.91/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_tree5
+Object.absolutePosition 546.77/119.57/706.03
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_tree5
+Object.absolutePosition 637.46/135.64/667.59
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_tree5
+Object.absolutePosition 599.79/115.52/592.04
+Object.rotation -53.79/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_tree5
+Object.absolutePosition 612.05/115.73/492.70
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_log
+Object.absolutePosition 646.72/121.37/416.64
+Object.rotation 65.56/-80.35/0.00
+rem
+rem ***  ***
+rem
+Object.create arbol_curvo
+Object.absolutePosition 637.87/120.82/422.68
+Object.rotation -71.35/37.43/-29.32
+rem
+rem ***  ***
+rem
+Object.create endor_log
+Object.absolutePosition 736.55/133.88/610.36
+Object.rotation -30.00/-93.69/0.00
+rem
+rem ***  ***
+rem
+Object.create arbol_hueco
+Object.absolutePosition 665.62/116.20/524.87
+Object.rotation -61.21/-80.62/-1.86
+rem
+rem ***  ***
+rem
+Object.create endor_tree5
+Object.absolutePosition 504.64/116.96/882.22
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_tree5
+Object.absolutePosition 344.95/117.86/820.92
+Object.rotation -33.62/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_tree5
+Object.absolutePosition 461.46/113.10/671.68
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_tree5
+Object.absolutePosition 535.48/121.44/453.25
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_tree5
+Object.absolutePosition 397.55/124.96/473.69
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_tree5
+Object.absolutePosition 494.91/124.09/428.46
+Object.rotation -41.25/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_tree5
+Object.absolutePosition 186.08/106.56/782.86
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_tree5
+Object.absolutePosition 446.37/118.32/821.08
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_tree5
+Object.absolutePosition 199.99/129.84/521.55
+Object.rotation 45.75/-4.28/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_tree5
+Object.absolutePosition 303.08/124.81/579.29
+Object.rotation -78.75/-4.59/0.00
+rem
+rem ***  ***
+rem
+Object.create generador
+Object.absolutePosition 634.63/113.99/849.74
+Object.rotation 90.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_log
+Object.absolutePosition 405.71/130.04/234.98
+Object.rotation -148.80/-81.84/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 83.15/155.56/415.07
+Object.rotation 17.71/-1.19/-3.62
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 54.62/156.06/237.01
+Object.rotation -62.44/-5.20/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 87.97/155.92/50.36
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 416.18/155.56/21.81
+Object.rotation -14.69/6.16/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 472.72/154.88/17.90
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 300.50/155.89/25.61
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 168.82/154.79/26.06
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 106.16/132.72/183.80
+Object.rotation 0.00/-3.82/-2.75
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 43.34/155.92/71.87
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 68.49/155.24/288.40
+Object.rotation 0.00/0.00/-6.32
+rem
+rem ***  ***
+rem
+Object.create endor_log
+Object.absolutePosition 139.55/138.99/311.01
+Object.rotation -14.18/-159.45/93.68
+rem
+rem ***  ***
+rem
+Object.create endor_tree5
+Object.absolutePosition 34.69/155.89/167.94
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 51.27/155.78/473.49
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_tree6
+Object.absolutePosition 112.70/129.98/515.98
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 130.39/126.27/584.89
+Object.rotation 0.00/-5.14/-7.51
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 24.99/153.52/615.36
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 48.75/155.70/568.91
+Object.rotation 71.49/6.20/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 103.93/130.60/660.05
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 154.69/110.07/720.01
+Object.rotation 0.00/0.00/-4.43
+rem
+rem ***  ***
+rem
+Object.create endor_tree6
+Object.absolutePosition 88.21/121.25/718.56
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 54.95/145.69/865.89
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 128.00/145.69/991.42
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_tree6
+Object.absolutePosition 61.73/145.71/963.42
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_tree5
+Object.absolutePosition 29.71/151.45/757.32
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 85.64/120.15/786.08
+Object.rotation 0.00/0.00/2.46
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 141.96/110.19/815.89
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_tree6
+Object.absolutePosition 191.51/111.45/881.65
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 135.24/120.11/900.89
+Object.rotation -41.25/0.00/-1.79
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 243.98/145.77/1001.24
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 330.37/116.62/930.88
+Object.rotation -42.48/-9.89/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 417.76/145.58/979.27
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 35.03/156.67/677.88
+Object.rotation -279.70/5.87/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 87.39/144.51/901.43
+Object.rotation -52.28/-5.52/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 202.42/145.64/989.89
+Object.rotation -19.25/-4.32/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 316.38/145.05/993.87
+Object.rotation 16.04/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 253.89/109.63/925.12
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 522.21/145.72/999.51
+Object.rotation -30.97/-0.77/-3.83
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 696.15/145.69/1001.00
+Object.rotation 0.00/-2.56/1.54
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 733.43/128.26/720.16
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_tree6
+Object.absolutePosition 735.36/122.95/774.52
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 806.80/125.27/755.20
+Object.rotation -33.73/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 728.11/116.08/916.96
+Object.rotation -18.26/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 771.24/111.99/835.84
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_tree6
+Object.absolutePosition 787.78/113.96/883.27
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 820.31/145.75/953.57
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 887.10/146.75/852.09
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 937.10/146.60/666.67
+Object.rotation -8.99/-3.99/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_tree6
+Object.absolutePosition 756.54/133.22/675.10
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 797.22/130.43/618.97
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 908.16/145.73/581.72
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_tree6
+Object.absolutePosition 835.83/130.82/659.99
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 835.11/128.47/397.17
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_tree6
+Object.absolutePosition 673.45/121.96/565.52
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 757.26/129.09/554.81
+Object.rotation -110.92/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 720.98/125.29/496.49
+Object.rotation 0.00/-7.37/7.36
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 864.65/136.31/463.87
+Object.rotation 0.00/12.29/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 981.32/145.95/466.55
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 990.89/145.88/308.58
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 977.00/145.92/166.90
+Object.rotation -36.93/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 942.22/146.09/81.89
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 813.64/145.97/21.68
+Object.rotation -38.16/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 671.96/145.98/17.29
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 759.73/128.51/334.31
+Object.rotation -23.79/0.00/4.09
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 918.24/127.86/380.35
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_tree6
+Object.absolutePosition 871.68/131.94/340.08
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 827.64/132.07/279.61
+Object.rotation -29.36/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 907.96/132.08/279.69
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_tree6
+Object.absolutePosition 736.82/126.25/261.48
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 734.29/123.09/188.29
+Object.rotation -39.85/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 733.08/133.01/79.85
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_tree6
+Object.absolutePosition 767.92/129.73/127.41
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 881.18/127.73/196.86
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 805.13/132.24/202.16
+Object.rotation -46.43/0.00/-2.94
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 819.90/126.67/87.07
+Object.rotation -35.22/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 874.03/126.34/131.12
+Object.rotation -12.36/9.79/8.23
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 731.37/145.07/21.30
+Object.rotation -5.16/6.70/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 865.35/146.24/53.38
+Object.rotation -53.19/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 975.15/145.74/226.42
+Object.rotation -86.91/4.09/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 989.24/145.76/375.46
+Object.rotation -96.29/2.40/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 954.35/146.10/543.86
+Object.rotation -130.18/2.08/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 779.41/145.88/960.74
+Object.rotation 20.54/-3.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 622.03/144.96/987.08
+Object.rotation 0.00/-4.47/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 472.54/145.84/968.86
+Object.rotation -48.63/-4.89/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 857.96/145.11/897.46
+Object.rotation 54.26/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_tree5
+Object.absolutePosition 150.06/134.24/184.01
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_tree5
+Object.absolutePosition 701.59/130.41/106.53
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_tree5
+Object.absolutePosition 829.52/125.79/131.33
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_tree5
+Object.absolutePosition 831.61/126.68/182.03
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_tree5
+Object.absolutePosition 877.31/130.48/249.74
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_tree5
+Object.absolutePosition 897.07/127.87/409.28
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_tree5
+Object.absolutePosition 760.67/130.94/611.28
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_tree5
+Object.absolutePosition 748.00/133.14/519.23
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_tree5
+Object.absolutePosition 690.75/130.42/600.49
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_tree5
+Object.absolutePosition 803.45/131.34/655.99
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 820.00/125.70/545.46
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 769.80/126.06/469.88
+Object.rotation -65.30/-9.57/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_tree6
+Object.absolutePosition 923.47/122.31/502.53
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_tree6
+Object.absolutePosition 938.85/127.94/224.10
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_tree6
+Object.absolutePosition 910.03/121.66/158.49
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 929.33/145.58/638.48
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_tree5
+Object.absolutePosition 572.07/153.50/12.87
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_tree6
+Object.absolutePosition 502.96/131.18/60.71
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 381.16/134.98/56.05
+Object.rotation -49.67/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_tree6
+Object.absolutePosition 638.81/127.14/64.10
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_tree6
+Object.absolutePosition 206.31/106.87/738.58
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_tree6
+Object.absolutePosition 259.98/126.61/655.02
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create atat_static
+Object.absolutePosition 421.70/113.15/731.75
+Object.rotation 90.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create lambda_endor
+Object.absolutePosition 439.29/130.28/177.08
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create tent1
+Object.absolutePosition 457.03/126.24/192.75
+Object.rotation -89.30/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ew_puente_largo
+Object.absolutePosition 215.45/147.86/348.66
+Object.rotation -24.30/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ew_puente_largo
+Object.absolutePosition 221.49/132.86/461.66
+Object.rotation 30.20/10.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ew_puente_largo
+Object.absolutePosition 204.01/138.97/431.61
+Object.rotation 30.20/10.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ew_plataforma_g
+Object.absolutePosition 188.07/142.82/403.95
+Object.rotation -337.50/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ew_puente_largo
+Object.absolutePosition 201.21/144.78/380.32
+Object.rotation -24.30/9.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ew_sujecion_puente
+Object.absolutePosition 209.38/118.84/362.31
+Object.rotation -24.30/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ew_sujecion_puente_x
+Object.absolutePosition 211.17/120.18/444.11
+Object.rotation 32.10/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ew_cabanya
+Object.absolutePosition 194.48/142.48/404.36
+Object.rotation 166.70/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create arbol_hueco
+Object.absolutePosition 356.33/118.53/628.68
+Object.rotation -560.10/-516.30/-103.70
+rem
+rem ***  ***
+rem
+Object.create endor_tree5
+Object.absolutePosition 457.35/115.52/562.37
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create arbol_curvo
+Object.absolutePosition 416.01/116.95/597.31
+Object.rotation -62.20/-0.20/-20.00
+rem
+rem ***  ***
+rem
+Object.create arbol_curvo
+Object.absolutePosition 425.33/133.61/258.71
+Object.rotation -16.10/-91.90/-32.50
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 449.92/128.62/231.86
+Object.rotation -10.10/-2.40/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 514.98/127.83/238.38
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 526.53/127.32/183.76
+Object.rotation -83.20/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 388.22/127.48/168.94
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 321.46/131.45/281.37
+Object.rotation 80.10/2.80/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 219.17/134.07/294.54
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 176.12/131.82/357.62
+Object.rotation -110.40/-4.40/-1.40
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 519.66/119.29/551.92
+Object.rotation 26.70/-2.30/-6.70
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 533.24/119.42/488.42
+Object.rotation -94.10/-3.80/-1.80
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 405.21/127.78/379.13
+Object.rotation -76.00/0.00/-0.50
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 529.23/128.76/330.38
+Object.rotation 0.00/4.80/0.60
+rem
+rem ***  ***
+rem
+Object.create endor_log
+Object.absolutePosition 438.05/123.00/479.74
+Object.rotation -11.60/80.50/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 404.92/124.77/489.55
+Object.rotation 0.00/0.00/-6.30
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 338.11/129.35/427.11
+Object.rotation -29.30/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 236.32/128.57/206.76
+Object.rotation 0.00/-1.40/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 327.74/122.88/507.67
+Object.rotation -80.60/1.80/3.40
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 375.78/125.46/558.73
+Object.rotation -49.70/3.70/4.10
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 421.25/113.13/633.69
+Object.rotation 27.20/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 478.31/111.58/635.62
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 365.74/113.72/663.89
+Object.rotation -319.70/4.70/0.40
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 435.06/112.67/683.35
+Object.rotation -26.20/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 624.68/112.80/872.51
+Object.rotation -7.25/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 512.29/116.16/749.59
+Object.rotation -79.80/13.70/0.70
+rem
+rem ***  ***
+rem
+Object.create jud_fakedoor02
+Object.absolutePosition 635.00/107.18/858.24
+Object.rotation 0.00/-9.10/0.00
+rem
+rem ***  ***
+rem
+Object.create jud_comp01
+Object.absolutePosition 641.63/107.71/857.97
+Object.rotation 180.86/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 630.46/115.12/849.62
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 649.44/112.72/879.40
+Object.rotation 176.85/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 647.41/112.56/820.89
+Object.rotation 22.61/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_log
+Object.absolutePosition 715.25/116.20/804.57
+Object.rotation -37.60/19.30/-91.10
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 653.10/113.94/913.96
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 709.82/113.15/854.44
+Object.rotation -0.40/1.20/2.10
+rem
+rem ***  ***
+rem
+Object.create endor_log
+Object.absolutePosition 540.84/114.77/871.44
+Object.rotation 48.38/-87.16/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 486.59/112.59/792.25
+Object.rotation 91.60/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 463.89/121.62/866.55
+Object.rotation 0.00/-5.40/-2.60
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 131.65/131.09/383.41
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 136.65/139.65/228.98
+Object.rotation -143.00/6.50/-4.10
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 170.24/126.93/471.20
+Object.rotation 26.70/26.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_log
+Object.absolutePosition 158.50/120.01/519.45
+Object.rotation 111.36/-292.40/44.20
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 369.63/114.80/794.92
+Object.rotation 0.00/6.20/-2.60
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 310.78/122.09/805.98
+Object.rotation -51.40/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 291.54/126.61/616.25
+Object.rotation 200.00/4.10/6.00
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 305.61/125.90/547.11
+Object.rotation 45.80/0.47/-4.06
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 521.03/112.90/851.26
+Object.rotation -221.40/3.30/3.80
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 531.13/123.17/937.54
+Object.rotation 0.00/-1.30/-1.40
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 529.45/114.34/683.85
+Object.rotation -161.60/3.60/-0.50
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 590.61/114.37/618.60
+Object.rotation 29.50/-3.00/3.60
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 622.59/134.81/684.03
+Object.rotation -125.70/0.00/-1.50
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 778.16/112.18/861.05
+Object.rotation 35.90/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 633.84/117.86/564.34
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 629.84/117.76/456.78
+Object.rotation 58.10/9.90/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 549.88/124.04/414.04
+Object.rotation -71.20/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 464.96/129.08/351.96
+Object.rotation 41.20/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 466.53/132.05/110.34
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 402.33/134.94/79.08
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 333.39/131.90/130.59
+Object.rotation 0.00/1.17/1.77
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 252.70/128.94/106.54
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 209.88/130.56/145.00
+Object.rotation 38.90/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 107.61/130.16/90.60
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 131.73/129.94/132.26
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 78.76/132.18/168.55
+Object.rotation 0.00/0.90/-4.40
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 117.49/129.33/486.97
+Object.rotation 0.00/0.40/-3.30
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 99.94/131.50/620.93
+Object.rotation 0.00/0.00/-9.00
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 661.15/129.78/714.46
+Object.rotation 0.00/4.40/-3.78
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 716.27/133.25/676.16
+Object.rotation -26.50/0.85/-0.44
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 771.44/125.69/754.30
+Object.rotation -13.80/0.00/-1.00
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 448.58/119.83/428.01
+Object.rotation -19.50/4.20/-1.50
+rem
+rem ***  ***
+rem
+Object.create endor_log
+Object.absolutePosition 842.36/133.11/331.86
+Object.rotation -21.80/-87.20/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_log
+Object.absolutePosition 851.96/117.87/589.49
+Object.rotation -72.50/-56.90/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 725.02/129.50/560.66
+Object.rotation 0.00/-1.70/3.40
+rem
+rem ***  ***
+rem
+Object.create ew_plataforma_g
+Object.absolutePosition 806.13/146.88/755.81
+Object.rotation -132.70/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ew_plataforma_g
+Object.absolutePosition 731.64/150.59/720.13
+Object.rotation -73.33/-16.15/0.00
+rem
+rem ***  ***
+rem
+Object.create ew_puente_largo
+Object.absolutePosition 760.09/137.34/719.84
+Object.rotation 92.90/30.00/-11.10
+rem
+rem ***  ***
+rem
+Object.create ew_puente_largo
+Object.absolutePosition 793.61/126.69/739.08
+Object.rotation -134.40/-3.00/-70.70
+rem
+rem ***  ***
+rem
+Object.create ew_cabanya
+Object.absolutePosition 801.58/147.00/751.79
+Object.rotation -49.80/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ew_plataforma_g
+Object.absolutePosition 810.77/131.93/685.93
+Object.rotation 95.90/177.31/-1.89
+rem
+rem ***  ***
+rem
+Object.create ew_cabanya_cat
+Object.absolutePosition 745.87/130.12/704.21
+Object.rotation -40.50/-1.10/10.10
+rem
+rem ***  ***
+rem
+Object.create ew_sujecion_puente_x
+Object.absolutePosition 794.29/137.31/732.59
+Object.rotation -144.50/-55.73/-2.10
+rem
+rem ***  ***
+rem
+Object.create catapulta
+Object.absolutePosition 786.66/134.55/690.84
+Object.rotation -51.40/-28.23/-201.75
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 778.84/131.93/649.38
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 781.51/130.38/589.31
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 722.31/123.08/466.75
+Object.rotation -42.40/3.50/0.20
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 769.35/124.96/383.83
+Object.rotation 3.70/6.00/5.20
+rem
+rem ***  ***
+rem
+Object.create arbol_curvo
+Object.absolutePosition 740.19/121.06/432.45
+Object.rotation -5.70/-46.30/-5.50
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 689.44/127.35/248.69
+Object.rotation -28.00/0.00/4.10
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 650.61/126.82/174.76
+Object.rotation -30.90/-1.40/-2.20
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 670.45/127.09/100.50
+Object.rotation 0.00/3.34/5.48
+rem
+rem ***  ***
+rem
+Object.create arbol_curvo
+Object.absolutePosition 722.25/128.93/137.87
+Object.rotation -72.00/-2.70/-10.08
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 742.26/130.76/110.21
+Object.rotation 0.00/-4.44/2.25
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 794.47/128.98/71.11
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 789.13/128.66/157.15
+Object.rotation -66.70/2.10/-0.70
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 786.87/129.59/281.12
+Object.rotation -152.30/1.80/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 859.53/125.71/166.05
+Object.rotation 43.00/2.70/-3.60
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 900.92/130.21/230.69
+Object.rotation -37.93/-4.40/-1.50
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 935.19/130.08/290.76
+Object.rotation -24.10/2.80/-4.80
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 883.10/130.47/311.52
+Object.rotation 0.00/1.80/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 825.52/130.58/345.07
+Object.rotation 0.00/6.60/1.38
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 879.40/128.48/371.01
+Object.rotation 0.00/3.80/-1.60
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 935.80/126.91/419.18
+Object.rotation -27.00/-1.70/0.00
+rem
+rem ***  ***
+rem
+Object.create arbol_curvo
+Object.absolutePosition 956.62/135.93/339.07
+Object.rotation -186.20/5.20/-21.00
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 845.74/132.79/432.10
+Object.rotation 0.00/-9.60/-2.00
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 537.97/130.01/87.67
+Object.rotation -107.70/-3.70/1.70
+rem
+rem ***  ***
+rem
+Object.create endor_log
+Object.absolutePosition 569.59/132.03/161.35
+Object.rotation 76.10/-92.90/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 155.02/119.84/628.26
+Object.rotation -3.00/-1.07/-12.40
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 125.88/125.83/551.60
+Object.rotation 0.00/-0.30/-6.90
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 244.15/127.99/633.93
+Object.rotation -125.00/5.20/-6.10
+rem
+rem ***  ***
+rem
+Object.create endor_log
+Object.absolutePosition 163.51/108.74/800.73
+Object.rotation 0.00/-93.37/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_log
+Object.absolutePosition 160.38/115.49/794.73
+Object.rotation -18.70/-12.93/-95.52
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 198.55/106.98/759.18
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 115.50/116.76/737.08
+Object.rotation 0.00/3.70/-2.60
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 113.45/116.29/810.70
+Object.rotation 42.30/0.90/-10.20
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 156.94/115.56/876.71
+Object.rotation 28.51/-6.11/-7.96
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 275.56/119.11/850.68
+Object.rotation 0.00/10.90/1.90
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 227.42/114.18/805.31
+Object.rotation 0.00/-2.20/14.50
+rem
+rem ***  ***
+rem
+Object.create endor_tree5
+Object.absolutePosition 177.32/119.80/940.72
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 177.90/117.83/917.75
+Object.rotation 0.00/-5.00/-2.50
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 427.39/123.49/924.82
+Object.rotation -162.20/2.60/-2.40
+rem
+rem ***  ***
+rem
+Object.create arbol_curvo
+Object.absolutePosition 292.59/126.23/973.41
+Object.rotation 85.60/7.90/-36.70
+rem
+rem ***  ***
+rem
+Object.create endor_tree5
+Object.absolutePosition 666.22/112.92/892.47
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_tree5
+Object.absolutePosition 663.63/113.09/831.74
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 702.78/113.24/823.27
+Object.rotation 70.50/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 680.18/113.57/883.33
+Object.rotation 120.94/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 289.97/124.62/665.03
+Object.rotation -100.70/3.20/-10.10
+rem
+rem ***  ***
+rem
+Object.create lambda_endor
+Object.absolutePosition 371.01/156.66/761.98
+Object.rotation 319.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_log
+Object.absolutePosition 429.60/113.10/668.59
+Object.rotation -70.60/-92.60/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 324.07/110.70/723.45
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 714.58/122.85/754.52
+Object.rotation -19.40/4.60/-3.50
+rem
+rem ***  ***
+rem
+Object.create ew_sujecion_puente_x
+Object.absolutePosition 765.19/131.64/694.80
+Object.rotation 28.94/-67.31/-1.20
+rem
+rem ***  ***
+rem
+Object.create ew_cabanya_jefe
+Object.absolutePosition 794.87/133.31/675.88
+Object.rotation 180.90/-52.26/-141.28
+rem
+rem ***  ***
+rem
+Object.create ew_totem
+Object.absolutePosition 780.13/133.61/684.48
+Object.rotation -182.22/-0.62/-92.73
+rem
+rem ***  ***
+rem
+Object.create ew_plataforma_g
+Object.absolutePosition 695.83/130.36/709.63
+Object.rotation 5.61/0.81/-1.99
+rem
+rem ***  ***
+rem
+Object.create ew_puente_med
+Object.absolutePosition 719.37/144.94/717.74
+Object.rotation 136.49/-89.92/-40.40
+rem
+rem ***  ***
+rem
+Object.create ew_cabanya_jefe
+Object.absolutePosition 732.85/133.15/693.97
+Object.rotation 0.00/-167.90/-71.79
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 255.28/129.64/358.24
+Object.rotation 121.02/0.00/6.21
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 273.98/131.46/297.72
+Object.rotation 23.61/-0.90/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 594.99/115.24/885.97
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_tree5
+Object.absolutePosition 473.64/112.81/803.27
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_tree5
+Object.absolutePosition 513.53/113.24/783.91
+Object.rotation -13.40/2.60/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_stattree5
+Object.absolutePosition 534.38/114.32/813.89
+Object.rotation 81.40/-4.60/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 619.16/113.18/821.86
+Object.rotation 22.61/-0.70/1.40
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 452.41/112.85/592.50
+Object.rotation 75.20/2.40/2.90
+rem
+rem ***  ***
+rem
+Object.create endor_tree5
+Object.absolutePosition 123.32/131.61/448.91
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create campamento_camu
+Object.absolutePosition 658.07/136.91/651.11
+Object.rotation 90.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create mc_fort_tower
+Object.absolutePosition 621.63/132.04/112.69
+Object.rotation -90.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create mc_fort_tower
+Object.absolutePosition 631.95/136.31/292.08
+Object.rotation -126.90/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ammobox
+Object.absolutePosition 630.09/141.17/290.51
+Object.rotation 52.70/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 290.20/125.12/457.76
+Object.rotation -124.84/-3.80/-3.77
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 221.92/129.78/401.65
+Object.rotation 0.00/2.80/-0.70
+rem
+rem ***  ***
+rem
+Object.create ammobox
+Object.absolutePosition 256.12/157.08/376.83
+Object.rotation 19.15/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ammobox
+Object.absolutePosition 233.69/130.74/488.03
+Object.rotation -47.50/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create healthpack
+Object.absolutePosition 233.69/131.41/488.03
+Object.rotation -47.50/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ammobox
+Object.absolutePosition 459.53/126.65/190.50
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create healthpack
+Object.absolutePosition 436.85/131.60/169.56
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ewokglider_static
+Object.absolutePosition 228.19/149.77/322.74
+Object.rotation -187.22/-50.95/0.00
+rem
+rem ***  ***
+rem
+Object.create ewokglider_static
+Object.absolutePosition 812.10/131.12/675.83
+Object.rotation -159.07/16.08/-2.30
+rem
+rem ***  ***
+rem
+Object.create catapulta
+Object.absolutePosition 772.47/132.84/663.86
+Object.rotation -34.75/-1.51/-94.18
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 338.30/122.13/358.23
+Object.rotation 0.00/0.00/1.30
+rem
+rem ***  ***
+rem
+Object.create endor_fern2
+Object.absolutePosition 495.30/122.74/295.07
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_log
+Object.absolutePosition 820.52/123.87/723.25
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ladder_5m_m1
+Object.absolutePosition 418.32/138.40/733.73
+Object.rotation 92.14/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create healthpack
+Object.absolutePosition 424.68/142.31/732.32
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ammobox
+Object.absolutePosition 414.54/135.93/734.42
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create controldesk
+Object.absolutePosition 636.40/107.26/847.76
+Object.rotation 91.09/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ammobox
+Object.absolutePosition 646.57/107.32/847.33
+Object.rotation -90.80/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ammobox
+Object.absolutePosition 365.67/157.81/767.73
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create echo_chair
+Object.absolutePosition 633.77/107.30/848.39
+Object.rotation 92.01/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create echo_chair
+Object.absolutePosition 638.64/107.30/848.34
+Object.rotation 85.40/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create jud_fakedoor02
+Object.absolutePosition 631.65/107.21/841.95
+Object.rotation -180.13/-6.60/0.50
+rem
+rem ***  ***
+rem
+Object.create tan_computer
+Object.absolutePosition 625.09/107.31/849.68
+Object.rotation 89.78/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create echocontrolpanel3
+Object.absolutePosition 640.35/107.31/842.56
+Object.rotation 179.44/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create jud_fakedoor02
+Object.absolutePosition 423.87/114.57/764.47
+Object.rotation 17.17/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create jud_fakedoor02
+Object.absolutePosition 368.78/114.59/763.76
+Object.rotation -43.10/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create jud_fakedoor02
+Object.absolutePosition 425.81/135.73/763.11
+Object.rotation 49.61/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create jud_fakedoor02
+Object.absolutePosition 368.85/135.65/763.84
+Object.rotation 315.96/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endor_lift
+Object.absolutePosition 397.09/152.91/760.80
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ammobox
+Object.absolutePosition 374.55/136.05/763.17
+Object.rotation 53.68/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create tan_computer
+Object.absolutePosition 385.31/136.06/761.78
+Object.rotation -179.90/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create tan_computer
+Object.absolutePosition 408.09/136.06/758.73
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create healthpack
+Object.absolutePosition 425.66/136.04/757.65
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create hothcrategrey
+Object.absolutePosition 415.06/152.87/764.95
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create hothcrategrey
+Object.absolutePosition 414.87/152.87/761.40
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create medunit
+Object.absolutePosition 635.84/107.33/842.52
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endorpipes
+Object.absolutePosition 645.32/107.34/855.85
+Object.rotation 90.31/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create endorpipes
+Object.absolutePosition 645.30/107.34/843.88
+Object.rotation 89.62/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create healthpack
+Object.absolutePosition 278.16/157.26/365.49
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create echo_contpan
+Object.absolutePosition 497.49/121.65/518.97
+Object.rotation -268.46/0.00/1.86
+rem
+rem ***  ***
+rem
+Object.create healthpack
+Object.absolutePosition 481.85/121.65/518.55
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ammobox
+Object.absolutePosition 481.95/121.77/518.58
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create echo_pan3
+Object.absolutePosition 367.63/116.06/762.98
+Object.rotation -134.38/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create echo_pan3
+Object.absolutePosition 422.60/116.06/765.07
+Object.rotation -82.65/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create echo_pan3
+Object.absolutePosition 367.66/137.04/763.00
+Object.rotation -134.63/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create echo_pan3
+Object.absolutePosition 424.74/137.04/764.45
+Object.rotation -74.01/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create echo_pan3
+Object.absolutePosition 396.06/154.23/762.05
+Object.rotation 179.71/-0.24/7.80
+rem
+rem ***  ***
+rem
+Object.create echo_pan3
+Object.absolutePosition 398.05/154.23/759.60
+Object.rotation 360.07/-0.24/9.15
+rem
+rem ***  ***
+rem
+Object.create jud_light1
+Object.absolutePosition 646.84/142.95/652.61
+Object.rotation 180.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create jud_light1
+Object.absolutePosition 669.74/142.95/652.61
+Object.rotation 180.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create jud_light1
+Object.absolutePosition 658.17/142.95/652.61
+Object.rotation 180.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create jud_light1
+Object.absolutePosition 658.17/142.95/665.50
+Object.rotation 180.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create jud_light1
+Object.absolutePosition 658.17/142.95/640.10
+Object.rotation 180.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create jud_light1
+Object.absolutePosition 477.90/127.33/516.01
+Object.rotation 180.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create jud_light1
+Object.absolutePosition 500.79/127.33/516.01
+Object.rotation 180.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create jud_light1
+Object.absolutePosition 489.22/127.33/516.01
+Object.rotation 180.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create jud_light1
+Object.absolutePosition 489.22/127.33/528.89
+Object.rotation 180.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create jud_light1
+Object.absolutePosition 489.22/127.33/503.49
+Object.rotation 180.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create jud_light1
+Object.absolutePosition 422.32/144.88/760.12
+Object.rotation 180.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create jud_light1
+Object.absolutePosition 397.61/139.08/760.12
+Object.rotation 180.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create jud_light1
+Object.absolutePosition 409.62/139.08/760.12
+Object.rotation 180.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create jud_light1
+Object.absolutePosition 384.55/139.08/760.12
+Object.rotation 180.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create jud_light1
+Object.absolutePosition 371.84/144.88/760.12
+Object.rotation 180.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create jud_light1
+Object.absolutePosition 371.84/118.93/760.12
+Object.rotation 180.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create jud_light1
+Object.absolutePosition 422.33/118.93/760.12
+Object.rotation 180.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create jud_light1
+Object.absolutePosition 591.98/114.82/850.40
+Object.rotation 180.00/0.00/10.55
+rem
+rem ***  ***
+rem
+Object.create jud_light1
+Object.absolutePosition 603.42/112.74/850.40
+Object.rotation 180.00/0.00/9.96
+rem
+rem ***  ***
+rem
+Object.create jud_light1
+Object.absolutePosition 612.74/111.09/850.40
+Object.rotation 180.00/0.00/10.46
+rem
+rem ***  ***
+rem
+Object.create jud_light1
+Object.absolutePosition 619.21/111.13/850.40
+Object.rotation 180.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create jud_light1
+Object.absolutePosition 655.35/111.65/850.40
+Object.rotation 180.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create jud_light1
+Object.absolutePosition 663.22/111.65/850.40
+Object.rotation 180.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create jud_light1
+Object.absolutePosition 670.92/111.65/849.94
+Object.rotation 180.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create jud_light1
+Object.absolutePosition 678.91/111.65/848.86
+Object.rotation 180.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create firebundle
+Object.absolutePosition 301.71/132.74/327.68
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create firebundle
+Object.absolutePosition 785.32/132.46/691.26
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create firebundle
+Object.absolutePosition 280.94/127.40/418.39
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create firebundle
+Object.absolutePosition 374.81/134.85/313.93
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ambient-endor
+Object.absolutePosition 193.44/132.53/160.22
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ambient-endor
+Object.absolutePosition 400.00/128.83/200.00
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ambient-endor
+Object.absolutePosition 600.00/129.16/200.00
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ambient-endor
+Object.absolutePosition 800.00/134.65/200.00
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ambient-endor
+Object.absolutePosition 600.00/114.44/400.00
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ambient-endor
+Object.absolutePosition 800.00/131.53/400.00
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ambient-endor
+Object.absolutePosition 200.00/131.53/800.00
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ambient-endor
+Object.absolutePosition 400.00/131.53/800.00
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ambient-endor
+Object.absolutePosition 797.19/131.53/609.49
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ammobox
+Object.absolutePosition 655.23/137.30/645.23
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ambient-endor
+Object.absolutePosition 446.67/119.82/501.43
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create firebundle
+Object.absolutePosition 737.75/132.84/691.97
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create firebundle
+Object.absolutePosition 791.20/132.13/675.84
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create firebundle
+Object.absolutePosition 634.06/123.14/414.65
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create firebundle
+Object.absolutePosition 427.61/128.61/524.00
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create firebundle
+Object.absolutePosition 430.45/128.80/524.48
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create ammobox
+Object.absolutePosition 412.02/135.98/761.90
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create echocontrolpanel3
+Object.absolutePosition 374.15/136.06/756.60
+Object.rotation 133.35/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create echo_contpan
+Object.absolutePosition 396.91/136.04/761.96
+Object.rotation 90.59/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create echo_contpan
+Object.absolutePosition 399.73/136.06/761.94
+Object.rotation 90.50/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create healthpack
+Object.absolutePosition 396.38/137.04/761.71
+Object.rotation 0.00/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create echo_chair
+Object.absolutePosition 397.54/136.06/760.96
+Object.rotation -88.82/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create echo_chair
+Object.absolutePosition 399.28/136.06/761.00
+Object.rotation -80.97/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create echo_chair
+Object.absolutePosition 396.31/136.06/760.95
+Object.rotation -80.97/0.00/0.00
+rem
+rem ***  ***
+rem
+Object.create echo_chair
+Object.absolutePosition 400.41/136.06/761.11
+Object.rotation -80.97/0.00/0.00

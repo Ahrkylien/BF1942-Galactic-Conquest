@@ -1,0 +1,81 @@
+ObjectTemplate.create PlayercontrolObject consoledoor
+ObjectTemplate.NetworkableInfo consoledoorInfo
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasArmor 1
+ObjectTemplate.hitpoints 100
+ObjectTemplate.maxhitpoints 100
+ObjectTemplate.material 811
+ObjectTemplate.criticalDamage 0
+ObjectTemplate.hpLostWhileCriticalDamage 10
+ObjectTemplate.explosionRadius 50
+ObjectTemplate.explosionDamage 20
+ObjectTemplate.explosionForceMod 100
+ObjectTemplate.FadeAtTimeToLiveAfterDeath -1
+ObjectTemplate.addArmorEffect 50 em_TieInterceptorDamage 0/0/0
+ObjectTemplate.addArmorEffect 20 em_PlaneDamage 0/0/0
+ObjectTemplate.addArmorEffect 15 e_TieInterceptorFire 0/0/0
+ObjectTemplate.addArmorEffect 0 e_ExplGas 0/0/0
+ObjectTemplate.addArmorEffect -1 WaterWaterExplosion 0/0/0
+ObjectTemplate.damageFromWater 1
+
+rem -------------------------------
+rem --------------------------------------
+ObjectTemplate.addTemplate lodconsoledoor
+rem --------------------------------------
+ObjectTemplate.GUIIndex 67
+ObjectTemplate.setPrimaryAmmoBar ABNone
+ObjectTemplate.setCrossHairType CHTNone
+ObjectTemplate.setVehicleCategory VCLand
+ObjectTemplate.setVehicleType VTDefGun
+ObjectTemplate.setToolTipType  TTDefGun
+ObjectTemplate.setMinimapIcon "Minimap/minimap_icon_stationary_16x16.tga"
+
+rem *** lodX-Wing ***
+ObjectTemplate.create LodObject lodconsoledoor
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate consoledoor_complex
+ObjectTemplate.addTemplate consoledoor_simple2
+ObjectTemplate.addTemplate consoledoor_wrecks
+rem -------------------------------------
+ObjectTemplate.lodSelector consoledoorLodSelector
+
+rem ***  ***
+ObjectTemplate.create Bundle consoledoor_complex
+ObjectTemplate.geometry consoledoor_m
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+rem -------------------------------
+rem -------------------------------
+ObjectTemplate.addTemplate dadoor
+ObjectTemplate.setNetworkableInfo dadoorInfo
+ObjectTemplate.setPosition -286.76/97.68/443.15
+ObjectTemplate.setRotation 180.0/0.0/0.0
+
+rem -------------------------------
+rem -------------------------------
+ObjectTemplate.create Bundle dadoor
+ObjectTemplate.geometry blastdoor_m
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.material 84
+
+
+
+
+
+ObjectTemplate.create SimpleObject consoledoor_simple2
+ObjectTemplate.geometry consoledoor_m
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+
+rem *** ***
+ObjectTemplate.create SimpleObject consoledoor_wrecks
+ObjectTemplate.geometry consoledoor_wreck
+
+LodSelectorTemplate.create DistCompareSelector2 consoledoorLodSelector
+LodSelectorTemplate.hasDestroyedLod 1
+LodSelectorTemplate.addLodDistance 900

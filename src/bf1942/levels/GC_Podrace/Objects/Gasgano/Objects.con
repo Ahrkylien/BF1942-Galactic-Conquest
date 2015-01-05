@@ -1,0 +1,1565 @@
+
+
+rem *** Gasgano ***
+ObjectTemplate.create PlayerControlObject Gasgano
+ObjectTemplate.NameTagOffset -0.3/-0.2/0
+ObjectTemplate.setNetworkableInfo GasganoBodyInfo
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.cullRadiusScale 5
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.explosionRadius 2
+ObjectTemplate.explosionDamage 2
+ObjectTemplate.damageFromWater 0
+ObjectTemplate.drag 0.5
+ObjectTemplate.mass 7000
+ObjectTemplate.inertiaModifier 80000/5/80000
+ObjectTemplate.hasArmor 1
+ObjectTemplate.speedMod .2
+ObjectTemplate.hitpoints 1000
+ObjectTemplate.maxhitpoints 1000
+ObjectTemplate.material 802
+ObjectTemplate.criticalDamage 2.5
+ObjectTemplate.hpLostWhileCriticalDamage 0.25
+ObjectTemplate.explosionForceMod 10
+ObjectTemplate.hpLostWhileUpSideDown 2.5
+ObjectTemplate.hpLostWhileDamageFromWater 0
+ObjectTemplate.addArmorEffect 50 e_WillyDamage -2/2.5/2
+ObjectTemplate.addArmorEffect 20 e_WillyFire -2/2.5/2
+ObjectTemplate.addArmorEffect 1 e_scrapmetal_willy -2.1/2/2
+ObjectTemplate.addArmorEffect 0 e_ExplGas 0/1/2
+ObjectTemplate.aiTemplate Willy
+ObjectTemplate.setSoldierExitLocation -1.5/0/-0.8 0/0/0
+ObjectTemplate.GUIIndex 27
+ObjectTemplate.setVehicleIcon "vehicle/Icon_Gasgano.dds"
+ObjectTemplate.setVehicleIconPos 22/40
+ObjectTemplate.setNumberOfWeaponIcons 1
+ObjectTemplate.setPrimaryAmmoIcon "Ammo/icon_repairkit_64x32.dds"
+ObjectTemplate.setPrimaryAmmoBar ABHeatBarOnly
+ObjectTemplate.setSecondaryAmmoIcon "Ammo/icon_repairkit_64x32.dds"
+ObjectTemplate.setSecondaryAmmoBar ABAmmoBarHeatBar
+ObjectTemplate.setCrossHairType CHTNone
+ObjectTemplate.setVehicleCategory VCAir
+ObjectTemplate.setVehicleType VTFighter
+ObjectTemplate.setMinimapIcon "minimap\minimap_icon_speederbike_16x16.dds"
+ObjectTemplate.hasRestrictedExit 1
+ObjectTemplate.addTemplate lodGasgano
+ObjectTemplate.addTemplate PodRacer_WaterFloater
+ObjectTemplate.setPosition 0.0/-0.628829/2.0
+ObjectTemplate.addTemplate PodRacer_WaterFloater
+ObjectTemplate.setPosition 0.0/-0.628829/-2.0
+
+
+rem *** lodGasgano ***
+ObjectTemplate.create LodObject lodGasgano
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.lodSelector GasganoLodSelector
+ObjectTemplate.addTemplate GasganoComplex
+ObjectTemplate.setPosition 0.0/0.561603/0.0
+ObjectTemplate.addTemplate GasganoSimple
+ObjectTemplate.addTemplate GasganoWreck
+
+
+rem *** GasganoComplex ***
+ObjectTemplate.create RotationalBundle GasganoComplex
+ObjectTemplate.geometry Gasgano_bb
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.createInvisible 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.setMinRotation 0/0/-25
+ObjectTemplate.setMaxRotation 0/0/25
+ObjectTemplate.setMaxSpeed 0/0/45
+ObjectTemplate.setAcceleration 0/0/-45
+ObjectTemplate.setInputToRoll c_PIRoll
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.addTemplate GasganoTurboSound
+ObjectTemplate.setPosition 0.0/0.72972/0.301201
+ObjectTemplate.addTemplate GasganoRepair
+ObjectTemplate.setPosition 0.0/0.72972/0.301201
+ObjectTemplate.addTemplate GasganoRepairSound
+ObjectTemplate.setPosition 0.0/0.72972/0.301201
+ObjectTemplate.addTemplate Gasgano_Floater
+ObjectTemplate.setPosition 3.0/-0.496655/3.0
+ObjectTemplate.setRotation 180.0/-90.0/-180.0
+ObjectTemplate.addTemplate Gasgano_Floater
+ObjectTemplate.setPosition -3.0/-0.496655/3.0
+ObjectTemplate.setRotation 180.0/-90.0/-180.0
+ObjectTemplate.addTemplate Gasgano_Floater
+ObjectTemplate.setPosition 3.0/-0.496655/-3.0
+ObjectTemplate.setRotation 180.0/-90.0/-180.0
+ObjectTemplate.addTemplate Gasgano_Floater
+ObjectTemplate.setPosition -3.0/-0.496655/-3.0
+ObjectTemplate.setRotation 180.0/-90.0/-180.0
+ObjectTemplate.addTemplate GasganoEngine
+ObjectTemplate.setPosition 0.0/0.377163/0.0512009
+ObjectTemplate.addTemplate GasganoDEngine
+ObjectTemplate.setPosition 0.0/0.72972/1
+ObjectTemplate.setRotation 180.0/90.0/-180.0
+
+ObjectTemplate.addTemplate GasganoTurboEngine
+ObjectTemplate.setPosition 0.0/0.72972/0.301201
+ObjectTemplate.addTemplate GasganoTailEngine
+ObjectTemplate.setPosition 0.0/0.72972/2.3012
+ObjectTemplate.setRotation 90.0/0.0/0.0
+ObjectTemplate.addTemplate GasganoTailEngine
+ObjectTemplate.setPosition 0.0/0.72972/-4.6988
+ObjectTemplate.setRotation -90.0/0.0/0.0
+ObjectTemplate.addTemplate GasganoRudderRear
+ObjectTemplate.setPosition 0.0/1.43891/-6.47937
+ObjectTemplate.setRotation 0.0/0.0/-90.0
+ObjectTemplate.addTemplate GasganoRudderFront
+ObjectTemplate.setPosition 0.0/1.24549/7.06284
+ObjectTemplate.setRotation 0.0/0.0/-90.0
+ObjectTemplate.addTemplate GasganoAirBrake
+ObjectTemplate.setPosition 0.0/1.43891/-6.47937
+ObjectTemplate.setRotation 0.0/0.0/-90.0
+ObjectTemplate.addTemplate GasganoEntry
+ObjectTemplate.addTemplate Gasgano_cockpit_rot
+ObjectTemplate.setPosition 0.0/1.80084/-3.13584
+ObjectTemplate.setRotation 0.0/-1.36603/0.0
+
+
+rem *** Gasgano_cockpit_rot ***
+ObjectTemplate.create RotationalBundle Gasgano_cockpit_rot
+ObjectTemplate.setNetworkableInfo GasganoBodyInfo
+ObjectTemplate.geometry Gasgano_cockpit_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.setMinRotation 0/-2/-20
+ObjectTemplate.setMaxRotation 0/2/20
+ObjectTemplate.setMaxSpeed 0/10/25
+ObjectTemplate.setAcceleration 0/5/-20
+ObjectTemplate.setInputToRoll c_PIYaw
+ObjectTemplate.setInputToPitch c_PIPitch
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.addTemplate GasganoCamera
+ObjectTemplate.setPosition 0.0/1.35468/-0.954421
+ObjectTemplate.setRotation 0.0/15.0/0.0
+ObjectTemplate.addTemplate Gasgano_Engine_Ani
+ObjectTemplate.setPosition 2e-007/0.708887/0.98876
+ObjectTemplate.addTemplate Gasgano_Seat
+ObjectTemplate.setPosition 0.0/1.02706/-0.691387
+ObjectTemplate.setRotation 0.0/-18.8986/0.0
+ObjectTemplate.addTemplate GasganoEnergyBeam
+ObjectTemplate.setPosition -0.0027457/-0.673647/7.14467
+ObjectTemplate.addTemplate Gasgano_EnergyObstacle
+ObjectTemplate.setPosition 3e-007/-0.651076/7.16158
+
+
+rem *** GasganoEnergyBeam ***
+ObjectTemplate.create SimpleObject GasganoEnergyBeam
+ObjectTemplate.geometry Gasgano_EnergyBeam
+
+
+rem *** Gasgano_EnergyObstacle ***
+ObjectTemplate.create Obstacle Gasgano_EnergyObstacle
+ObjectTemplate.geometry Gasgano_EnergyObstacle
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.addToCollisionGroup c_CGProjectiles
+ObjectTemplate.aiTemplate dam_rails
+
+
+rem *** Gasgano_Engine_Ani ***
+ObjectTemplate.create Bundle Gasgano_Engine_Ani
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 0
+ObjectTemplate.addTemplate Gasgano_cable_rot
+
+
+rem *** Gasgano_cable_rot ***
+ObjectTemplate.create RotationalBundle Gasgano_cable_rot
+ObjectTemplate.geometry Gasgano_Cable_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 0
+ObjectTemplate.setMinRotation 0/0/-15
+ObjectTemplate.setMaxRotation 0/0/15
+ObjectTemplate.setMaxSpeed 0/0/20
+ObjectTemplate.setAcceleration 0/0/20
+ObjectTemplate.setInputToRoll c_PIYaw
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.addTemplate Gasgano_Turbo_rot_l
+ObjectTemplate.setPosition -2.06104/-1.34945/5.97172
+ObjectTemplate.setRotation 0.0/1.36604/0.0
+ObjectTemplate.addTemplate Gasgano_Turbo_rot_r
+ObjectTemplate.setPosition 2.14685/-1.34981/5.95464
+ObjectTemplate.setRotation 0.0/1.36604/0.0
+
+
+rem *** Gasgano_Turbo_rot_l ***
+ObjectTemplate.create RotationalBundle Gasgano_Turbo_rot_l
+ObjectTemplate.setNetworkableInfo GasganoBodyInfo
+ObjectTemplate.geometry Gasgano_Turbo_left_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.setMinRotation -4/0/-8
+ObjectTemplate.setMaxRotation 4/0/8
+ObjectTemplate.setMaxSpeed 10/0/50
+ObjectTemplate.setAcceleration 10/0/-20
+ObjectTemplate.setInputToRoll c_PIYaw
+ObjectTemplate.setInputToYaw c_PIYaw
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.addTemplate e_enginePodRacer
+ObjectTemplate.setPosition 0.0057127/0.00620294/-2.10026
+ObjectTemplate.setRotation -0.831779/-0.145447/0.850252
+
+
+rem *** Gasgano_Turbo_rot_r ***
+ObjectTemplate.create RotationalBundle Gasgano_Turbo_rot_r
+ObjectTemplate.geometry Gasgano_Turbo_right_M1
+ObjectTemplate.setNetworkableInfo GasganoBodyInfo
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.setMinRotation -4/0/-8
+ObjectTemplate.setMaxRotation 4/0/8
+ObjectTemplate.setMaxSpeed 10/0/50
+ObjectTemplate.setAcceleration 10/0/-20
+ObjectTemplate.setInputToRoll c_PIYaw
+ObjectTemplate.setInputToYaw c_PIYaw
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.addTemplate e_enginePodRacer
+ObjectTemplate.setPosition -0.14647/0.0197009/-2.06906
+ObjectTemplate.setRotation -0.83181/-0.145455/0.850252
+
+
+rem *** GasganoFrontWheelR ***
+ObjectTemplate.create RotationalBundle GasganoFrontWheelR
+ObjectTemplate.setNetworkableInfo GasganoSteeringInfo
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.setMinRotation -40/0/0
+ObjectTemplate.setMaxRotation 40/0/0
+ObjectTemplate.setMaxSpeed 300/0/0
+ObjectTemplate.setAcceleration 1000/0/0
+ObjectTemplate.setInputToYaw c_PIYaw
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.addTemplate GasganoFrontSpringR
+ObjectTemplate.setPosition 0.0/-0.0518164/0.0
+
+
+rem *** GasganoFrontWheelL ***
+ObjectTemplate.create RotationalBundle GasganoFrontWheelL
+ObjectTemplate.setNetworkableInfo GasganoSteeringInfo
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.setMinRotation -40/0/0
+ObjectTemplate.setMaxRotation 40/0/0
+ObjectTemplate.setMaxSpeed 300/0/0
+ObjectTemplate.setAcceleration 1000/0/0
+ObjectTemplate.setInputToYaw c_PIYaw
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.addTemplate GasganoFrontSpringL
+ObjectTemplate.setPosition 0.0/-0.0518164/0.0
+
+
+rem *** GasganoCamera ***
+ObjectTemplate.create Camera GasganoCamera
+ObjectTemplate.setMinRotation -110/-20/0
+ObjectTemplate.setMaxRotation 110/40/0
+ObjectTemplate.setPivotPosition 0/0.25/0.3
+ObjectTemplate.setMaxSpeed 90/90/0
+ObjectTemplate.setAcceleration 5000/-5000/0
+ObjectTemplate.setInputToYaw c_PIMouseLookX
+ObjectTemplate.setInputToPitch c_PIMouseLookY
+ObjectTemplate.toggleMouseLook 1
+ObjectTemplate.OutsideHudOffset 0/0/2
+
+
+rem *** Gasgano_Seat ***
+ObjectTemplate.create SeatObject Gasgano_Seat
+ObjectTemplate.seatFlags c_SeatShowHalfBodySoldier
+ObjectTemplate.seatFlags c_SeatIsOutside
+
+
+rem *** GasganoEntry ***
+ObjectTemplate.create EntryPoint GasganoEntry
+ObjectTemplate.setEntryRadius 3
+
+
+rem *** GasganoSimple ***
+ObjectTemplate.create SimpleObject GasganoSimple
+ObjectTemplate.geometry Gasgano_L1
+
+
+rem *** GasganoWreck ***
+ObjectTemplate.create SimpleObject GasganoWreck
+ObjectTemplate.geometry Wreck_Gasgano_M1
+
+
+rem *** GasganoLodSelector ***
+LodSelectorTemplate.create DistCompareSelector2 GasganoLodSelector
+LodSelectorTemplate.hasDestroyedLod 1
+LodSelectorTemplate.addLodDistance 300
+
+
+
+rem ***** Gasgano1
+
+
+
+rem *** Gasgano1 ***
+ObjectTemplate.create PlayerControlObject Gasgano1
+ObjectTemplate.NameTagOffset -0.3/-0.2/0
+ObjectTemplate.setNetworkableInfo Gasgano1BodyInfo
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.cullRadiusScale 5
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.explosionRadius 2
+ObjectTemplate.explosionDamage 2
+ObjectTemplate.damageFromWater 0
+ObjectTemplate.drag 0.5
+ObjectTemplate.mass 7000
+ObjectTemplate.inertiaModifier 80000/5/80000
+ObjectTemplate.hasArmor 1
+ObjectTemplate.speedMod .2
+ObjectTemplate.hitpoints 1000
+ObjectTemplate.maxhitpoints 1000
+ObjectTemplate.material 802
+ObjectTemplate.criticalDamage 2.5
+ObjectTemplate.hpLostWhileCriticalDamage 0.25
+ObjectTemplate.explosionForceMod 10
+ObjectTemplate.hpLostWhileUpSideDown 2.5
+ObjectTemplate.hpLostWhileDamageFromWater 0
+ObjectTemplate.addArmorEffect 50 e_WillyDamage -2/2.5/2
+ObjectTemplate.addArmorEffect 20 e_WillyFire -2/2.5/2
+ObjectTemplate.addArmorEffect 1 e_scrapmetal_willy -2.1/2/2
+ObjectTemplate.addArmorEffect 0 e_ExplGas 0/1/2
+ObjectTemplate.aiTemplate Willy
+ObjectTemplate.setSoldierExitLocation -1.5/0/-0.8 0/0/0
+ObjectTemplate.GUIIndex 27
+ObjectTemplate.setVehicleIcon "vehicle/Icon_Gasgano.dds"
+ObjectTemplate.setVehicleIconPos 22/40
+ObjectTemplate.setNumberOfWeaponIcons 1
+ObjectTemplate.setPrimaryAmmoIcon "Ammo/icon_repairkit_64x32.dds"
+ObjectTemplate.setPrimaryAmmoBar ABHeatBarOnly
+ObjectTemplate.setSecondaryAmmoIcon "Ammo/icon_repairkit_64x32.dds"
+ObjectTemplate.setSecondaryAmmoBar ABAmmoBarHeatBar
+ObjectTemplate.setCrossHairType CHTNone
+ObjectTemplate.setVehicleCategory VCAir
+ObjectTemplate.setVehicleType VTFighter
+ObjectTemplate.setMinimapIcon "minimap\minimap_icon_speederbike_16x16.dds"
+ObjectTemplate.hasRestrictedExit 1
+ObjectTemplate.addTemplate lodGasgano1
+ObjectTemplate.addTemplate PodRacer_WaterFloater
+ObjectTemplate.setPosition 0.0/-0.628829/2.0
+ObjectTemplate.addTemplate PodRacer_WaterFloater
+ObjectTemplate.setPosition 0.0/-0.628829/-2.0
+
+
+rem *** lodGasgano1 ***
+ObjectTemplate.create LodObject lodGasgano1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.lodSelector Gasgano1LodSelector
+ObjectTemplate.addTemplate Gasgano1Complex
+ObjectTemplate.setPosition 0.0/0.561603/0.0
+ObjectTemplate.addTemplate Gasgano1Simple
+ObjectTemplate.addTemplate Gasgano1Wreck
+
+
+rem *** Gasgano1Complex ***
+ObjectTemplate.create RotationalBundle Gasgano1Complex
+ObjectTemplate.geometry Gasgano_bb
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.createInvisible 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.setMinRotation 0/0/-25
+ObjectTemplate.setMaxRotation 0/0/25
+ObjectTemplate.setMaxSpeed 0/0/45
+ObjectTemplate.setAcceleration 0/0/-45
+ObjectTemplate.setInputToRoll c_PIRoll
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.addTemplate GasganoTurboSound
+ObjectTemplate.setPosition 0.0/0.72972/0.301201
+ObjectTemplate.addTemplate GasganoRepair
+ObjectTemplate.setPosition 0.0/0.72972/0.301201
+ObjectTemplate.addTemplate GasganoRepairSound
+ObjectTemplate.setPosition 0.0/0.72972/0.301201
+ObjectTemplate.addTemplate Gasgano1_Floater
+ObjectTemplate.setPosition 3.0/-0.496655/3.0
+ObjectTemplate.setRotation 180.0/-90.0/-180.0
+ObjectTemplate.addTemplate Gasgano1_Floater
+ObjectTemplate.setPosition -3.0/-0.496655/3.0
+ObjectTemplate.setRotation 180.0/-90.0/-180.0
+ObjectTemplate.addTemplate Gasgano1_Floater
+ObjectTemplate.setPosition 3.0/-0.496655/-3.0
+ObjectTemplate.setRotation 180.0/-90.0/-180.0
+ObjectTemplate.addTemplate Gasgano1_Floater
+ObjectTemplate.setPosition -3.0/-0.496655/-3.0
+ObjectTemplate.setRotation 180.0/-90.0/-180.0
+ObjectTemplate.addTemplate Gasgano1Engine
+ObjectTemplate.setPosition 0.0/0.377163/0.0512009
+ObjectTemplate.addTemplate Gasgano1DEngine
+ObjectTemplate.setPosition 0.0/0.72972/1
+ObjectTemplate.setRotation 180.0/90.0/-180.0
+
+ObjectTemplate.addTemplate Gasgano1TurboEngine
+ObjectTemplate.setPosition 0.0/0.72972/0.301201
+ObjectTemplate.addTemplate Gasgano1TailEngine
+ObjectTemplate.setPosition 0.0/0.72972/2.3012
+ObjectTemplate.setRotation 90.0/0.0/0.0
+ObjectTemplate.addTemplate Gasgano1TailEngine
+ObjectTemplate.setPosition 0.0/0.72972/-4.6988
+ObjectTemplate.setRotation -90.0/0.0/0.0
+ObjectTemplate.addTemplate Gasgano1RudderRear
+ObjectTemplate.setPosition 0.0/1.43891/-6.47937
+ObjectTemplate.setRotation 0.0/0.0/-90.0
+ObjectTemplate.addTemplate Gasgano1RudderFront
+ObjectTemplate.setPosition 0.0/1.24549/7.06284
+ObjectTemplate.setRotation 0.0/0.0/-90.0
+ObjectTemplate.addTemplate Gasgano1AirBrake
+ObjectTemplate.setPosition 0.0/1.43891/-6.47937
+ObjectTemplate.setRotation 0.0/0.0/-90.0
+ObjectTemplate.addTemplate Gasgano1Entry
+ObjectTemplate.addTemplate Gasgano1_cockpit_rot
+ObjectTemplate.setPosition 0.0/1.80084/-3.13584
+ObjectTemplate.setRotation 0.0/-1.36603/0.0
+
+
+rem *** Gasgano1_cockpit_rot ***
+ObjectTemplate.create RotationalBundle Gasgano1_cockpit_rot
+ObjectTemplate.setNetworkableInfo Gasgano1BodyInfo
+ObjectTemplate.geometry Gasgano1_cockpit_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.setMinRotation 0/-2/-20
+ObjectTemplate.setMaxRotation 0/2/20
+ObjectTemplate.setMaxSpeed 0/10/25
+ObjectTemplate.setAcceleration 0/5/-20
+ObjectTemplate.setInputToRoll c_PIYaw
+ObjectTemplate.setInputToPitch c_PIPitch
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.addTemplate Gasgano1Camera
+ObjectTemplate.setPosition 0.0/1.35468/-0.954421
+ObjectTemplate.setRotation 0.0/15.0/0.0
+ObjectTemplate.addTemplate Gasgano1_Engine_Ani
+ObjectTemplate.setPosition 2e-007/0.708887/0.98876
+ObjectTemplate.addTemplate Gasgano1_Seat
+ObjectTemplate.setPosition 0.0/1.02706/-0.691387
+ObjectTemplate.setRotation 0.0/-18.8986/0.0
+ObjectTemplate.addTemplate GasganoEnergyBeam
+ObjectTemplate.setPosition -0.0027457/-0.673647/7.14467
+ObjectTemplate.addTemplate Gasgano_EnergyObstacle
+ObjectTemplate.setPosition 3e-007/-0.651076/7.16158
+
+
+rem *** GasganoEnergyBeam ***
+ObjectTemplate.create SimpleObject GasganoEnergyBeam
+ObjectTemplate.geometry Gasgano_EnergyBeam
+
+
+rem *** Gasgano_EnergyObstacle ***
+ObjectTemplate.create Obstacle Gasgano_EnergyObstacle
+ObjectTemplate.geometry Gasgano_EnergyObstacle
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.addToCollisionGroup c_CGProjectiles
+ObjectTemplate.aiTemplate dam_rails
+
+
+rem *** Gasgano1_Engine_Ani ***
+ObjectTemplate.create Bundle Gasgano1_Engine_Ani
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 0
+ObjectTemplate.addTemplate Gasgano1_cable_rot
+
+
+rem *** Gasgano1_cable_rot ***
+ObjectTemplate.create RotationalBundle Gasgano1_cable_rot
+ObjectTemplate.geometry Gasgano1_Cable_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 0
+ObjectTemplate.setMinRotation 0/0/-15
+ObjectTemplate.setMaxRotation 0/0/15
+ObjectTemplate.setMaxSpeed 0/0/20
+ObjectTemplate.setAcceleration 0/0/20
+ObjectTemplate.setInputToRoll c_PIYaw
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.addTemplate Gasgano1_Turbo_rot_l
+ObjectTemplate.setPosition -2.06104/-1.34945/5.97172
+ObjectTemplate.setRotation 0.0/1.36604/0.0
+ObjectTemplate.addTemplate Gasgano1_Turbo_rot_r
+ObjectTemplate.setPosition 2.14685/-1.34981/5.95464
+ObjectTemplate.setRotation 0.0/1.36604/0.0
+
+
+rem *** Gasgano1_Turbo_rot_l ***
+ObjectTemplate.create RotationalBundle Gasgano1_Turbo_rot_l
+ObjectTemplate.setNetworkableInfo Gasgano1BodyInfo
+ObjectTemplate.geometry Gasgano1_Turbo_left_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.setMinRotation -4/0/-8
+ObjectTemplate.setMaxRotation 4/0/8
+ObjectTemplate.setMaxSpeed 10/0/50
+ObjectTemplate.setAcceleration 10/0/-20
+ObjectTemplate.setInputToRoll c_PIYaw
+ObjectTemplate.setInputToYaw c_PIYaw
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.addTemplate e_enginePodRacer
+ObjectTemplate.setPosition 0.0057127/0.00620294/-2.10026
+ObjectTemplate.setRotation -0.831779/-0.145447/0.850252
+
+
+rem *** Gasgano1_Turbo_rot_r ***
+ObjectTemplate.create RotationalBundle Gasgano1_Turbo_rot_r
+ObjectTemplate.geometry Gasgano1_Turbo_right_M1
+ObjectTemplate.setNetworkableInfo Gasgano1BodyInfo
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.setMinRotation -4/0/-8
+ObjectTemplate.setMaxRotation 4/0/8
+ObjectTemplate.setMaxSpeed 10/0/50
+ObjectTemplate.setAcceleration 10/0/-20
+ObjectTemplate.setInputToRoll c_PIYaw
+ObjectTemplate.setInputToYaw c_PIYaw
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.addTemplate e_enginePodRacer
+ObjectTemplate.setPosition -0.14647/0.0197009/-2.06906
+ObjectTemplate.setRotation -0.83181/-0.145455/0.850252
+
+
+rem *** Gasgano1FrontWheelR ***
+ObjectTemplate.create RotationalBundle Gasgano1FrontWheelR
+ObjectTemplate.setNetworkableInfo Gasgano1SteeringInfo
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.setMinRotation -40/0/0
+ObjectTemplate.setMaxRotation 40/0/0
+ObjectTemplate.setMaxSpeed 300/0/0
+ObjectTemplate.setAcceleration 1000/0/0
+ObjectTemplate.setInputToYaw c_PIYaw
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.addTemplate Gasgano1FrontSpringR
+ObjectTemplate.setPosition 0.0/-0.0518164/0.0
+
+
+rem *** Gasgano1FrontWheelL ***
+ObjectTemplate.create RotationalBundle Gasgano1FrontWheelL
+ObjectTemplate.setNetworkableInfo Gasgano1SteeringInfo
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.setMinRotation -40/0/0
+ObjectTemplate.setMaxRotation 40/0/0
+ObjectTemplate.setMaxSpeed 300/0/0
+ObjectTemplate.setAcceleration 1000/0/0
+ObjectTemplate.setInputToYaw c_PIYaw
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.addTemplate Gasgano1FrontSpringL
+ObjectTemplate.setPosition 0.0/-0.0518164/0.0
+
+
+rem *** Gasgano1Camera ***
+ObjectTemplate.create Camera Gasgano1Camera
+ObjectTemplate.setMinRotation -110/-20/0
+ObjectTemplate.setMaxRotation 110/40/0
+ObjectTemplate.setPivotPosition 0/0.25/0.3
+ObjectTemplate.setMaxSpeed 90/90/0
+ObjectTemplate.setAcceleration 5000/-5000/0
+ObjectTemplate.setInputToYaw c_PIMouseLookX
+ObjectTemplate.setInputToPitch c_PIMouseLookY
+ObjectTemplate.toggleMouseLook 1
+ObjectTemplate.OutsideHudOffset 0/0/2
+
+
+rem *** Gasgano1_Seat ***
+ObjectTemplate.create SeatObject Gasgano1_Seat
+ObjectTemplate.seatFlags c_SeatShowHalfBodySoldier
+ObjectTemplate.seatFlags c_SeatIsOutside
+
+
+rem *** Gasgano1Entry ***
+ObjectTemplate.create EntryPoint Gasgano1Entry
+ObjectTemplate.setEntryRadius 3
+
+
+rem *** Gasgano1Simple ***
+ObjectTemplate.create SimpleObject Gasgano1Simple
+ObjectTemplate.geometry Gasgano1_L1
+
+
+rem *** Gasgano1Wreck ***
+ObjectTemplate.create SimpleObject Gasgano1Wreck
+ObjectTemplate.geometry Wreck_Gasgano_M1
+
+
+rem *** Gasgano1LodSelector ***
+LodSelectorTemplate.create DistCompareSelector2 Gasgano1LodSelector
+LodSelectorTemplate.hasDestroyedLod 1
+LodSelectorTemplate.addLodDistance 300
+
+
+
+
+
+rem ***** Gasgano2
+
+
+
+rem *** Gasgano2 ***
+ObjectTemplate.create PlayerControlObject Gasgano2
+ObjectTemplate.NameTagOffset -0.3/-0.2/0
+ObjectTemplate.setNetworkableInfo Gasgano2BodyInfo
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.cullRadiusScale 5
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.explosionRadius 2
+ObjectTemplate.explosionDamage 2
+ObjectTemplate.damageFromWater 0
+ObjectTemplate.drag 0.5
+ObjectTemplate.mass 7000
+ObjectTemplate.inertiaModifier 80000/5/80000
+ObjectTemplate.hasArmor 1
+ObjectTemplate.speedMod .2
+ObjectTemplate.hitpoints 1000
+ObjectTemplate.maxhitpoints 1000
+ObjectTemplate.material 802
+ObjectTemplate.criticalDamage 2.5
+ObjectTemplate.hpLostWhileCriticalDamage 0.25
+ObjectTemplate.explosionForceMod 10
+ObjectTemplate.hpLostWhileUpSideDown 2.5
+ObjectTemplate.hpLostWhileDamageFromWater 0
+ObjectTemplate.addArmorEffect 50 e_WillyDamage -2/2.5/2
+ObjectTemplate.addArmorEffect 20 e_WillyFire -2/2.5/2
+ObjectTemplate.addArmorEffect 1 e_scrapmetal_willy -2.1/2/2
+ObjectTemplate.addArmorEffect 0 e_ExplGas 0/1/2
+ObjectTemplate.aiTemplate Willy
+ObjectTemplate.setSoldierExitLocation -1.5/0/-0.8 0/0/0
+ObjectTemplate.GUIIndex 27
+ObjectTemplate.setVehicleIcon "vehicle/Icon_Gasgano.dds"
+ObjectTemplate.setVehicleIconPos 22/40
+ObjectTemplate.setNumberOfWeaponIcons 1
+ObjectTemplate.setPrimaryAmmoIcon "Ammo/icon_repairkit_64x32.dds"
+ObjectTemplate.setPrimaryAmmoBar ABHeatBarOnly
+ObjectTemplate.setSecondaryAmmoIcon "Ammo/icon_repairkit_64x32.dds"
+ObjectTemplate.setSecondaryAmmoBar ABAmmoBarHeatBar
+ObjectTemplate.setCrossHairType CHTNone
+ObjectTemplate.setVehicleCategory VCAir
+ObjectTemplate.setVehicleType VTFighter
+ObjectTemplate.setMinimapIcon "minimap\minimap_icon_speederbike_16x16.dds"
+ObjectTemplate.hasRestrictedExit 1
+ObjectTemplate.addTemplate lodGasgano2
+ObjectTemplate.addTemplate PodRacer_WaterFloater
+ObjectTemplate.setPosition 0.0/-0.628829/2.0
+ObjectTemplate.addTemplate PodRacer_WaterFloater
+ObjectTemplate.setPosition 0.0/-0.628829/-2.0
+
+
+rem *** lodGasgano2 ***
+ObjectTemplate.create LodObject lodGasgano2
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.lodSelector Gasgano2LodSelector
+ObjectTemplate.addTemplate Gasgano2Complex
+ObjectTemplate.setPosition 0.0/0.561603/0.0
+ObjectTemplate.addTemplate Gasgano2Simple
+ObjectTemplate.addTemplate Gasgano2Wreck
+
+
+rem *** Gasgano2Complex ***
+ObjectTemplate.create RotationalBundle Gasgano2Complex
+ObjectTemplate.geometry Gasgano_bb
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.createInvisible 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.setMinRotation 0/0/-25
+ObjectTemplate.setMaxRotation 0/0/25
+ObjectTemplate.setMaxSpeed 0/0/45
+ObjectTemplate.setAcceleration 0/0/-45
+ObjectTemplate.setInputToRoll c_PIRoll
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.addTemplate GasganoTurboSound
+ObjectTemplate.setPosition 0.0/0.72972/0.301201
+ObjectTemplate.addTemplate GasganoRepair
+ObjectTemplate.setPosition 0.0/0.72972/0.301201
+ObjectTemplate.addTemplate GasganoRepairSound
+ObjectTemplate.setPosition 0.0/0.72972/0.301201
+ObjectTemplate.addTemplate Gasgano2_Floater
+ObjectTemplate.setPosition 3.0/-0.496655/3.0
+ObjectTemplate.setRotation 180.0/-90.0/-180.0
+ObjectTemplate.addTemplate Gasgano2_Floater
+ObjectTemplate.setPosition -3.0/-0.496655/3.0
+ObjectTemplate.setRotation 180.0/-90.0/-180.0
+ObjectTemplate.addTemplate Gasgano2_Floater
+ObjectTemplate.setPosition 3.0/-0.496655/-3.0
+ObjectTemplate.setRotation 180.0/-90.0/-180.0
+ObjectTemplate.addTemplate Gasgano2_Floater
+ObjectTemplate.setPosition -3.0/-0.496655/-3.0
+ObjectTemplate.setRotation 180.0/-90.0/-180.0
+ObjectTemplate.addTemplate Gasgano2Engine
+ObjectTemplate.setPosition 0.0/0.377163/0.0512009
+ObjectTemplate.addTemplate Gasgano2DEngine
+ObjectTemplate.setPosition 0.0/0.72972/1
+ObjectTemplate.setRotation 180.0/90.0/-180.0
+
+ObjectTemplate.addTemplate Gasgano2TurboEngine
+ObjectTemplate.setPosition 0.0/0.72972/0.301201
+ObjectTemplate.addTemplate Gasgano2TailEngine
+ObjectTemplate.setPosition 0.0/0.72972/2.3012
+ObjectTemplate.setRotation 90.0/0.0/0.0
+ObjectTemplate.addTemplate Gasgano2TailEngine
+ObjectTemplate.setPosition 0.0/0.72972/-4.6988
+ObjectTemplate.setRotation -90.0/0.0/0.0
+ObjectTemplate.addTemplate Gasgano2RudderRear
+ObjectTemplate.setPosition 0.0/1.43891/-6.47937
+ObjectTemplate.setRotation 0.0/0.0/-90.0
+ObjectTemplate.addTemplate Gasgano2RudderFront
+ObjectTemplate.setPosition 0.0/1.24549/7.06284
+ObjectTemplate.setRotation 0.0/0.0/-90.0
+ObjectTemplate.addTemplate Gasgano2AirBrake
+ObjectTemplate.setPosition 0.0/1.43891/-6.47937
+ObjectTemplate.setRotation 0.0/0.0/-90.0
+ObjectTemplate.addTemplate Gasgano2Entry
+ObjectTemplate.addTemplate Gasgano2_cockpit_rot
+ObjectTemplate.setPosition 0.0/1.80084/-3.13584
+ObjectTemplate.setRotation 0.0/-1.36603/0.0
+
+
+rem *** Gasgano2_cockpit_rot ***
+ObjectTemplate.create RotationalBundle Gasgano2_cockpit_rot
+ObjectTemplate.setNetworkableInfo Gasgano2BodyInfo
+ObjectTemplate.geometry Gasgano2_cockpit_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.setMinRotation 0/-2/-20
+ObjectTemplate.setMaxRotation 0/2/20
+ObjectTemplate.setMaxSpeed 0/10/25
+ObjectTemplate.setAcceleration 0/5/-20
+ObjectTemplate.setInputToRoll c_PIYaw
+ObjectTemplate.setInputToPitch c_PIPitch
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.addTemplate Gasgano2Camera
+ObjectTemplate.setPosition 0.0/1.35468/-0.954421
+ObjectTemplate.setRotation 0.0/15.0/0.0
+ObjectTemplate.addTemplate Gasgano2_Engine_Ani
+ObjectTemplate.setPosition 2e-007/0.708887/0.98876
+ObjectTemplate.addTemplate Gasgano2_Seat
+ObjectTemplate.setPosition 0.0/1.02706/-0.691387
+ObjectTemplate.setRotation 0.0/-18.8986/0.0
+ObjectTemplate.addTemplate GasganoEnergyBeam
+ObjectTemplate.setPosition -0.0027457/-0.673647/7.14467
+ObjectTemplate.addTemplate Gasgano_EnergyObstacle
+ObjectTemplate.setPosition 3e-007/-0.651076/7.16158
+
+
+rem *** GasganoEnergyBeam ***
+ObjectTemplate.create SimpleObject GasganoEnergyBeam
+ObjectTemplate.geometry Gasgano_EnergyBeam
+
+
+rem *** Gasgano_EnergyObstacle ***
+ObjectTemplate.create Obstacle Gasgano_EnergyObstacle
+ObjectTemplate.geometry Gasgano_EnergyObstacle
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.addToCollisionGroup c_CGProjectiles
+ObjectTemplate.aiTemplate dam_rails
+
+
+rem *** Gasgano2_Engine_Ani ***
+ObjectTemplate.create Bundle Gasgano2_Engine_Ani
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 0
+ObjectTemplate.addTemplate Gasgano2_cable_rot
+
+
+rem *** Gasgano2_cable_rot ***
+ObjectTemplate.create RotationalBundle Gasgano2_cable_rot
+ObjectTemplate.geometry Gasgano2_Cable_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 0
+ObjectTemplate.setMinRotation 0/0/-15
+ObjectTemplate.setMaxRotation 0/0/15
+ObjectTemplate.setMaxSpeed 0/0/20
+ObjectTemplate.setAcceleration 0/0/20
+ObjectTemplate.setInputToRoll c_PIYaw
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.addTemplate Gasgano2_Turbo_rot_l
+ObjectTemplate.setPosition -2.06104/-1.34945/5.97172
+ObjectTemplate.setRotation 0.0/1.36604/0.0
+ObjectTemplate.addTemplate Gasgano2_Turbo_rot_r
+ObjectTemplate.setPosition 2.14685/-1.34981/5.95464
+ObjectTemplate.setRotation 0.0/1.36604/0.0
+
+
+rem *** Gasgano2_Turbo_rot_l ***
+ObjectTemplate.create RotationalBundle Gasgano2_Turbo_rot_l
+ObjectTemplate.setNetworkableInfo Gasgano2BodyInfo
+ObjectTemplate.geometry Gasgano2_Turbo_left_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.setMinRotation -4/0/-8
+ObjectTemplate.setMaxRotation 4/0/8
+ObjectTemplate.setMaxSpeed 10/0/50
+ObjectTemplate.setAcceleration 10/0/-20
+ObjectTemplate.setInputToRoll c_PIYaw
+ObjectTemplate.setInputToYaw c_PIYaw
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.addTemplate e_enginePodRacer
+ObjectTemplate.setPosition 0.0057127/0.00620294/-2.10026
+ObjectTemplate.setRotation -0.831779/-0.145447/0.850252
+
+
+rem *** Gasgano2_Turbo_rot_r ***
+ObjectTemplate.create RotationalBundle Gasgano2_Turbo_rot_r
+ObjectTemplate.geometry Gasgano2_Turbo_right_M1
+ObjectTemplate.setNetworkableInfo Gasgano2BodyInfo
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.setMinRotation -4/0/-8
+ObjectTemplate.setMaxRotation 4/0/8
+ObjectTemplate.setMaxSpeed 10/0/50
+ObjectTemplate.setAcceleration 10/0/-20
+ObjectTemplate.setInputToRoll c_PIYaw
+ObjectTemplate.setInputToYaw c_PIYaw
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.addTemplate e_enginePodRacer
+ObjectTemplate.setPosition -0.14647/0.0197009/-2.06906
+ObjectTemplate.setRotation -0.83181/-0.145455/0.850252
+
+
+rem *** Gasgano2FrontWheelR ***
+ObjectTemplate.create RotationalBundle Gasgano2FrontWheelR
+ObjectTemplate.setNetworkableInfo Gasgano2SteeringInfo
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.setMinRotation -40/0/0
+ObjectTemplate.setMaxRotation 40/0/0
+ObjectTemplate.setMaxSpeed 300/0/0
+ObjectTemplate.setAcceleration 1000/0/0
+ObjectTemplate.setInputToYaw c_PIYaw
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.addTemplate Gasgano2FrontSpringR
+ObjectTemplate.setPosition 0.0/-0.0518164/0.0
+
+
+rem *** Gasgano2FrontWheelL ***
+ObjectTemplate.create RotationalBundle Gasgano2FrontWheelL
+ObjectTemplate.setNetworkableInfo Gasgano2SteeringInfo
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.setMinRotation -40/0/0
+ObjectTemplate.setMaxRotation 40/0/0
+ObjectTemplate.setMaxSpeed 300/0/0
+ObjectTemplate.setAcceleration 1000/0/0
+ObjectTemplate.setInputToYaw c_PIYaw
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.addTemplate Gasgano2FrontSpringL
+ObjectTemplate.setPosition 0.0/-0.0518164/0.0
+
+
+rem *** Gasgano2Camera ***
+ObjectTemplate.create Camera Gasgano2Camera
+ObjectTemplate.setMinRotation -110/-20/0
+ObjectTemplate.setMaxRotation 110/40/0
+ObjectTemplate.setPivotPosition 0/0.25/0.3
+ObjectTemplate.setMaxSpeed 90/90/0
+ObjectTemplate.setAcceleration 5000/-5000/0
+ObjectTemplate.setInputToYaw c_PIMouseLookX
+ObjectTemplate.setInputToPitch c_PIMouseLookY
+ObjectTemplate.toggleMouseLook 1
+ObjectTemplate.OutsideHudOffset 0/0/2
+
+
+rem *** Gasgano2_Seat ***
+ObjectTemplate.create SeatObject Gasgano2_Seat
+ObjectTemplate.seatFlags c_SeatShowHalfBodySoldier
+ObjectTemplate.seatFlags c_SeatIsOutside
+
+
+rem *** Gasgano2Entry ***
+ObjectTemplate.create EntryPoint Gasgano2Entry
+ObjectTemplate.setEntryRadius 3
+
+
+rem *** Gasgano2Simple ***
+ObjectTemplate.create SimpleObject Gasgano2Simple
+ObjectTemplate.geometry Gasgano2_L1
+
+
+rem *** Gasgano2Wreck ***
+ObjectTemplate.create SimpleObject Gasgano2Wreck
+ObjectTemplate.geometry Wreck_Gasgano_M1
+
+
+rem *** Gasgano2LodSelector ***
+LodSelectorTemplate.create DistCompareSelector2 Gasgano2LodSelector
+LodSelectorTemplate.hasDestroyedLod 1
+LodSelectorTemplate.addLodDistance 300
+
+
+
+
+
+rem ***** Gasgano3
+
+
+
+rem *** Gasgano3 ***
+ObjectTemplate.create PlayerControlObject Gasgano3
+ObjectTemplate.NameTagOffset -0.3/-0.2/0
+ObjectTemplate.setNetworkableInfo Gasgano3BodyInfo
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.cullRadiusScale 5
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.explosionRadius 2
+ObjectTemplate.explosionDamage 2
+ObjectTemplate.damageFromWater 0
+ObjectTemplate.drag 0.5
+ObjectTemplate.mass 7000
+ObjectTemplate.inertiaModifier 80000/5/80000
+ObjectTemplate.hasArmor 1
+ObjectTemplate.speedMod .2
+ObjectTemplate.hitpoints 1000
+ObjectTemplate.maxhitpoints 1000
+ObjectTemplate.material 802
+ObjectTemplate.criticalDamage 2.5
+ObjectTemplate.hpLostWhileCriticalDamage 0.25
+ObjectTemplate.explosionForceMod 10
+ObjectTemplate.hpLostWhileUpSideDown 2.5
+ObjectTemplate.hpLostWhileDamageFromWater 0
+ObjectTemplate.addArmorEffect 50 e_WillyDamage -2/2.5/2
+ObjectTemplate.addArmorEffect 20 e_WillyFire -2/2.5/2
+ObjectTemplate.addArmorEffect 1 e_scrapmetal_willy -2.1/2/2
+ObjectTemplate.addArmorEffect 0 e_ExplGas 0/1/2
+ObjectTemplate.aiTemplate Willy
+ObjectTemplate.setSoldierExitLocation -1.5/0/-0.8 0/0/0
+ObjectTemplate.GUIIndex 27
+ObjectTemplate.setVehicleIcon "vehicle/Icon_Gasgano.dds"
+ObjectTemplate.setVehicleIconPos 22/40
+ObjectTemplate.setNumberOfWeaponIcons 1
+ObjectTemplate.setPrimaryAmmoIcon "Ammo/icon_repairkit_64x32.dds"
+ObjectTemplate.setPrimaryAmmoBar ABHeatBarOnly
+ObjectTemplate.setSecondaryAmmoIcon "Ammo/icon_repairkit_64x32.dds"
+ObjectTemplate.setSecondaryAmmoBar ABAmmoBarHeatBar
+ObjectTemplate.setCrossHairType CHTNone
+ObjectTemplate.setVehicleCategory VCAir
+ObjectTemplate.setVehicleType VTFighter
+ObjectTemplate.setMinimapIcon "minimap\minimap_icon_speederbike_16x16.dds"
+ObjectTemplate.hasRestrictedExit 1
+ObjectTemplate.addTemplate lodGasgano3
+ObjectTemplate.addTemplate PodRacer_WaterFloater
+ObjectTemplate.setPosition 0.0/-0.628829/2.0
+ObjectTemplate.addTemplate PodRacer_WaterFloater
+ObjectTemplate.setPosition 0.0/-0.628829/-2.0
+
+
+rem *** lodGasgano3 ***
+ObjectTemplate.create LodObject lodGasgano3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.lodSelector Gasgano3LodSelector
+ObjectTemplate.addTemplate Gasgano3Complex
+ObjectTemplate.setPosition 0.0/0.561603/0.0
+ObjectTemplate.addTemplate Gasgano3Simple
+ObjectTemplate.addTemplate Gasgano3Wreck
+
+
+rem *** Gasgano3Complex ***
+ObjectTemplate.create RotationalBundle Gasgano3Complex
+ObjectTemplate.geometry Gasgano_bb
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.createInvisible 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.setMinRotation 0/0/-25
+ObjectTemplate.setMaxRotation 0/0/25
+ObjectTemplate.setMaxSpeed 0/0/45
+ObjectTemplate.setAcceleration 0/0/-45
+ObjectTemplate.setInputToRoll c_PIRoll
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.addTemplate GasganoTurboSound
+ObjectTemplate.setPosition 0.0/0.72972/0.301201
+ObjectTemplate.addTemplate GasganoRepair
+ObjectTemplate.setPosition 0.0/0.72972/0.301201
+ObjectTemplate.addTemplate GasganoRepairSound
+ObjectTemplate.setPosition 0.0/0.72972/0.301201
+ObjectTemplate.addTemplate Gasgano3_Floater
+ObjectTemplate.setPosition 3.0/-0.496655/3.0
+ObjectTemplate.setRotation 180.0/-90.0/-180.0
+ObjectTemplate.addTemplate Gasgano3_Floater
+ObjectTemplate.setPosition -3.0/-0.496655/3.0
+ObjectTemplate.setRotation 180.0/-90.0/-180.0
+ObjectTemplate.addTemplate Gasgano3_Floater
+ObjectTemplate.setPosition 3.0/-0.496655/-3.0
+ObjectTemplate.setRotation 180.0/-90.0/-180.0
+ObjectTemplate.addTemplate Gasgano3_Floater
+ObjectTemplate.setPosition -3.0/-0.496655/-3.0
+ObjectTemplate.setRotation 180.0/-90.0/-180.0
+ObjectTemplate.addTemplate Gasgano3Engine
+ObjectTemplate.setPosition 0.0/0.377163/0.0512009
+ObjectTemplate.addTemplate Gasgano3DEngine
+ObjectTemplate.setPosition 0.0/0.72972/1
+ObjectTemplate.setRotation 180.0/90.0/-180.0
+
+ObjectTemplate.addTemplate Gasgano3TurboEngine
+ObjectTemplate.setPosition 0.0/0.72972/0.301201
+ObjectTemplate.addTemplate Gasgano3TailEngine
+ObjectTemplate.setPosition 0.0/0.72972/2.3012
+ObjectTemplate.setRotation 90.0/0.0/0.0
+ObjectTemplate.addTemplate Gasgano3TailEngine
+ObjectTemplate.setPosition 0.0/0.72972/-4.6988
+ObjectTemplate.setRotation -90.0/0.0/0.0
+ObjectTemplate.addTemplate Gasgano3RudderRear
+ObjectTemplate.setPosition 0.0/1.43891/-6.47937
+ObjectTemplate.setRotation 0.0/0.0/-90.0
+ObjectTemplate.addTemplate Gasgano3RudderFront
+ObjectTemplate.setPosition 0.0/1.24549/7.06284
+ObjectTemplate.setRotation 0.0/0.0/-90.0
+ObjectTemplate.addTemplate Gasgano3AirBrake
+ObjectTemplate.setPosition 0.0/1.43891/-6.47937
+ObjectTemplate.setRotation 0.0/0.0/-90.0
+ObjectTemplate.addTemplate Gasgano3Entry
+ObjectTemplate.addTemplate Gasgano3_cockpit_rot
+ObjectTemplate.setPosition 0.0/1.80084/-3.13584
+ObjectTemplate.setRotation 0.0/-1.36603/0.0
+
+
+rem *** Gasgano3_cockpit_rot ***
+ObjectTemplate.create RotationalBundle Gasgano3_cockpit_rot
+ObjectTemplate.setNetworkableInfo Gasgano3BodyInfo
+ObjectTemplate.geometry Gasgano3_cockpit_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.setMinRotation 0/-2/-20
+ObjectTemplate.setMaxRotation 0/2/20
+ObjectTemplate.setMaxSpeed 0/10/25
+ObjectTemplate.setAcceleration 0/5/-20
+ObjectTemplate.setInputToRoll c_PIYaw
+ObjectTemplate.setInputToPitch c_PIPitch
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.addTemplate Gasgano3Camera
+ObjectTemplate.setPosition 0.0/1.35468/-0.954421
+ObjectTemplate.setRotation 0.0/15.0/0.0
+ObjectTemplate.addTemplate Gasgano3_Engine_Ani
+ObjectTemplate.setPosition 2e-007/0.708887/0.98876
+ObjectTemplate.addTemplate Gasgano3_Seat
+ObjectTemplate.setPosition 0.0/1.02706/-0.691387
+ObjectTemplate.setRotation 0.0/-18.8986/0.0
+ObjectTemplate.addTemplate GasganoEnergyBeam
+ObjectTemplate.setPosition -0.0027457/-0.673647/7.14467
+ObjectTemplate.addTemplate Gasgano_EnergyObstacle
+ObjectTemplate.setPosition 3e-007/-0.651076/7.16158
+
+
+rem *** GasganoEnergyBeam ***
+ObjectTemplate.create SimpleObject GasganoEnergyBeam
+ObjectTemplate.geometry Gasgano_EnergyBeam
+
+
+rem *** Gasgano_EnergyObstacle ***
+ObjectTemplate.create Obstacle Gasgano_EnergyObstacle
+ObjectTemplate.geometry Gasgano_EnergyObstacle
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.addToCollisionGroup c_CGProjectiles
+ObjectTemplate.aiTemplate dam_rails
+
+
+rem *** Gasgano3_Engine_Ani ***
+ObjectTemplate.create Bundle Gasgano3_Engine_Ani
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 0
+ObjectTemplate.addTemplate Gasgano3_cable_rot
+
+
+rem *** Gasgano3_cable_rot ***
+ObjectTemplate.create RotationalBundle Gasgano3_cable_rot
+ObjectTemplate.geometry Gasgano3_Cable_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 0
+ObjectTemplate.setMinRotation 0/0/-15
+ObjectTemplate.setMaxRotation 0/0/15
+ObjectTemplate.setMaxSpeed 0/0/20
+ObjectTemplate.setAcceleration 0/0/20
+ObjectTemplate.setInputToRoll c_PIYaw
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.addTemplate Gasgano3_Turbo_rot_l
+ObjectTemplate.setPosition -2.06104/-1.34945/5.97172
+ObjectTemplate.setRotation 0.0/1.36604/0.0
+ObjectTemplate.addTemplate Gasgano3_Turbo_rot_r
+ObjectTemplate.setPosition 2.14685/-1.34981/5.95464
+ObjectTemplate.setRotation 0.0/1.36604/0.0
+
+
+rem *** Gasgano3_Turbo_rot_l ***
+ObjectTemplate.create RotationalBundle Gasgano3_Turbo_rot_l
+ObjectTemplate.setNetworkableInfo Gasgano3BodyInfo
+ObjectTemplate.geometry Gasgano3_Turbo_left_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.setMinRotation -4/0/-8
+ObjectTemplate.setMaxRotation 4/0/8
+ObjectTemplate.setMaxSpeed 10/0/50
+ObjectTemplate.setAcceleration 10/0/-20
+ObjectTemplate.setInputToRoll c_PIYaw
+ObjectTemplate.setInputToYaw c_PIYaw
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.addTemplate e_enginePodRacer
+ObjectTemplate.setPosition 0.0057127/0.00620294/-2.10026
+ObjectTemplate.setRotation -0.831779/-0.145447/0.850252
+
+
+rem *** Gasgano3_Turbo_rot_r ***
+ObjectTemplate.create RotationalBundle Gasgano3_Turbo_rot_r
+ObjectTemplate.geometry Gasgano3_Turbo_right_M1
+ObjectTemplate.setNetworkableInfo Gasgano3BodyInfo
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.setMinRotation -4/0/-8
+ObjectTemplate.setMaxRotation 4/0/8
+ObjectTemplate.setMaxSpeed 10/0/50
+ObjectTemplate.setAcceleration 10/0/-20
+ObjectTemplate.setInputToRoll c_PIYaw
+ObjectTemplate.setInputToYaw c_PIYaw
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.addTemplate e_enginePodRacer
+ObjectTemplate.setPosition -0.14647/0.0197009/-2.06906
+ObjectTemplate.setRotation -0.83181/-0.145455/0.850252
+
+
+rem *** Gasgano3FrontWheelR ***
+ObjectTemplate.create RotationalBundle Gasgano3FrontWheelR
+ObjectTemplate.setNetworkableInfo Gasgano3SteeringInfo
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.setMinRotation -40/0/0
+ObjectTemplate.setMaxRotation 40/0/0
+ObjectTemplate.setMaxSpeed 300/0/0
+ObjectTemplate.setAcceleration 1000/0/0
+ObjectTemplate.setInputToYaw c_PIYaw
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.addTemplate Gasgano3FrontSpringR
+ObjectTemplate.setPosition 0.0/-0.0518164/0.0
+
+
+rem *** Gasgano3FrontWheelL ***
+ObjectTemplate.create RotationalBundle Gasgano3FrontWheelL
+ObjectTemplate.setNetworkableInfo Gasgano3SteeringInfo
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.setMinRotation -40/0/0
+ObjectTemplate.setMaxRotation 40/0/0
+ObjectTemplate.setMaxSpeed 300/0/0
+ObjectTemplate.setAcceleration 1000/0/0
+ObjectTemplate.setInputToYaw c_PIYaw
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.addTemplate Gasgano3FrontSpringL
+ObjectTemplate.setPosition 0.0/-0.0518164/0.0
+
+
+rem *** Gasgano3Camera ***
+ObjectTemplate.create Camera Gasgano3Camera
+ObjectTemplate.setMinRotation -110/-20/0
+ObjectTemplate.setMaxRotation 110/40/0
+ObjectTemplate.setPivotPosition 0/0.25/0.3
+ObjectTemplate.setMaxSpeed 90/90/0
+ObjectTemplate.setAcceleration 5000/-5000/0
+ObjectTemplate.setInputToYaw c_PIMouseLookX
+ObjectTemplate.setInputToPitch c_PIMouseLookY
+ObjectTemplate.toggleMouseLook 1
+ObjectTemplate.OutsideHudOffset 0/0/2
+
+
+rem *** Gasgano3_Seat ***
+ObjectTemplate.create SeatObject Gasgano3_Seat
+ObjectTemplate.seatFlags c_SeatShowHalfBodySoldier
+ObjectTemplate.seatFlags c_SeatIsOutside
+
+
+rem *** Gasgano3Entry ***
+ObjectTemplate.create EntryPoint Gasgano3Entry
+ObjectTemplate.setEntryRadius 3
+
+
+rem *** Gasgano3Simple ***
+ObjectTemplate.create SimpleObject Gasgano3Simple
+ObjectTemplate.geometry Gasgano3_L1
+
+
+rem *** Gasgano3Wreck ***
+ObjectTemplate.create SimpleObject Gasgano3Wreck
+ObjectTemplate.geometry Wreck_Gasgano_M1
+
+
+rem *** Gasgano3LodSelector ***
+LodSelectorTemplate.create DistCompareSelector2 Gasgano3LodSelector
+LodSelectorTemplate.hasDestroyedLod 1
+LodSelectorTemplate.addLodDistance 300
+
+
+
+
+
+rem ***** Gasgano4
+
+
+
+rem *** Gasgano4 ***
+ObjectTemplate.create PlayerControlObject Gasgano4
+ObjectTemplate.NameTagOffset -0.3/-0.2/0
+ObjectTemplate.setNetworkableInfo Gasgano4BodyInfo
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.cullRadiusScale 5
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.explosionRadius 2
+ObjectTemplate.explosionDamage 2
+ObjectTemplate.damageFromWater 0
+ObjectTemplate.drag 0.5
+ObjectTemplate.mass 7000
+ObjectTemplate.inertiaModifier 80000/5/80000
+ObjectTemplate.hasArmor 1
+ObjectTemplate.speedMod .2
+ObjectTemplate.hitpoints 1000
+ObjectTemplate.maxhitpoints 1000
+ObjectTemplate.material 802
+ObjectTemplate.criticalDamage 2.5
+ObjectTemplate.hpLostWhileCriticalDamage 0.25
+ObjectTemplate.explosionForceMod 10
+ObjectTemplate.hpLostWhileUpSideDown 2.5
+ObjectTemplate.hpLostWhileDamageFromWater 0
+ObjectTemplate.addArmorEffect 50 e_WillyDamage -2/2.5/2
+ObjectTemplate.addArmorEffect 20 e_WillyFire -2/2.5/2
+ObjectTemplate.addArmorEffect 1 e_scrapmetal_willy -2.1/2/2
+ObjectTemplate.addArmorEffect 0 e_ExplGas 0/1/2
+ObjectTemplate.aiTemplate Willy
+ObjectTemplate.setSoldierExitLocation -1.5/0/-0.8 0/0/0
+ObjectTemplate.GUIIndex 27
+ObjectTemplate.setVehicleIcon "vehicle/Icon_Gasgano.dds"
+ObjectTemplate.setVehicleIconPos 22/40
+ObjectTemplate.setNumberOfWeaponIcons 1
+ObjectTemplate.setPrimaryAmmoIcon "Ammo/icon_repairkit_64x32.dds"
+ObjectTemplate.setPrimaryAmmoBar ABHeatBarOnly
+ObjectTemplate.setSecondaryAmmoIcon "Ammo/icon_repairkit_64x32.dds"
+ObjectTemplate.setSecondaryAmmoBar ABAmmoBarHeatBar
+ObjectTemplate.setCrossHairType CHTNone
+ObjectTemplate.setVehicleCategory VCAir
+ObjectTemplate.setVehicleType VTFighter
+ObjectTemplate.setMinimapIcon "minimap\minimap_icon_speederbike_16x16.dds"
+ObjectTemplate.hasRestrictedExit 1
+ObjectTemplate.addTemplate lodGasgano4
+ObjectTemplate.addTemplate PodRacer_WaterFloater
+ObjectTemplate.setPosition 0.0/-0.628829/2.0
+ObjectTemplate.addTemplate PodRacer_WaterFloater
+ObjectTemplate.setPosition 0.0/-0.628829/-2.0
+
+
+rem *** lodGasgano4 ***
+ObjectTemplate.create LodObject lodGasgano4
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.lodSelector Gasgano4LodSelector
+ObjectTemplate.addTemplate Gasgano4Complex
+ObjectTemplate.setPosition 0.0/0.561603/0.0
+ObjectTemplate.addTemplate Gasgano4Simple
+ObjectTemplate.addTemplate Gasgano4Wreck
+
+
+rem *** Gasgano4Complex ***
+ObjectTemplate.create RotationalBundle Gasgano4Complex
+ObjectTemplate.geometry Gasgano_bb
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.createInvisible 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.setMinRotation 0/0/-25
+ObjectTemplate.setMaxRotation 0/0/25
+ObjectTemplate.setMaxSpeed 0/0/45
+ObjectTemplate.setAcceleration 0/0/-45
+ObjectTemplate.setInputToRoll c_PIRoll
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.addTemplate GasganoTurboSound
+ObjectTemplate.setPosition 0.0/0.72972/0.301201
+ObjectTemplate.addTemplate GasganoRepair
+ObjectTemplate.setPosition 0.0/0.72972/0.301201
+ObjectTemplate.addTemplate GasganoRepairSound
+ObjectTemplate.setPosition 0.0/0.72972/0.301201
+ObjectTemplate.addTemplate Gasgano4_Floater
+ObjectTemplate.setPosition 3.0/-0.496655/3.0
+ObjectTemplate.setRotation 180.0/-90.0/-180.0
+ObjectTemplate.addTemplate Gasgano4_Floater
+ObjectTemplate.setPosition -3.0/-0.496655/3.0
+ObjectTemplate.setRotation 180.0/-90.0/-180.0
+ObjectTemplate.addTemplate Gasgano4_Floater
+ObjectTemplate.setPosition 3.0/-0.496655/-3.0
+ObjectTemplate.setRotation 180.0/-90.0/-180.0
+ObjectTemplate.addTemplate Gasgano4_Floater
+ObjectTemplate.setPosition -3.0/-0.496655/-3.0
+ObjectTemplate.setRotation 180.0/-90.0/-180.0
+ObjectTemplate.addTemplate Gasgano4Engine
+ObjectTemplate.setPosition 0.0/0.377163/0.0512009
+ObjectTemplate.addTemplate Gasgano4DEngine
+ObjectTemplate.setPosition 0.0/0.72972/1
+ObjectTemplate.setRotation 180.0/90.0/-180.0
+
+ObjectTemplate.addTemplate Gasgano4TurboEngine
+ObjectTemplate.setPosition 0.0/0.72972/0.301201
+ObjectTemplate.addTemplate Gasgano4TailEngine
+ObjectTemplate.setPosition 0.0/0.72972/2.3012
+ObjectTemplate.setRotation 90.0/0.0/0.0
+ObjectTemplate.addTemplate Gasgano4TailEngine
+ObjectTemplate.setPosition 0.0/0.72972/-4.6988
+ObjectTemplate.setRotation -90.0/0.0/0.0
+ObjectTemplate.addTemplate Gasgano4RudderRear
+ObjectTemplate.setPosition 0.0/1.43891/-6.47937
+ObjectTemplate.setRotation 0.0/0.0/-90.0
+ObjectTemplate.addTemplate Gasgano4RudderFront
+ObjectTemplate.setPosition 0.0/1.24549/7.06284
+ObjectTemplate.setRotation 0.0/0.0/-90.0
+ObjectTemplate.addTemplate Gasgano4AirBrake
+ObjectTemplate.setPosition 0.0/1.43891/-6.47937
+ObjectTemplate.setRotation 0.0/0.0/-90.0
+ObjectTemplate.addTemplate Gasgano4Entry
+ObjectTemplate.addTemplate Gasgano4_cockpit_rot
+ObjectTemplate.setPosition 0.0/1.80084/-3.13584
+ObjectTemplate.setRotation 0.0/-1.36603/0.0
+
+
+rem *** Gasgano4_cockpit_rot ***
+ObjectTemplate.create RotationalBundle Gasgano4_cockpit_rot
+ObjectTemplate.setNetworkableInfo Gasgano4BodyInfo
+ObjectTemplate.geometry Gasgano4_cockpit_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.setMinRotation 0/-2/-20
+ObjectTemplate.setMaxRotation 0/2/20
+ObjectTemplate.setMaxSpeed 0/10/25
+ObjectTemplate.setAcceleration 0/5/-20
+ObjectTemplate.setInputToRoll c_PIYaw
+ObjectTemplate.setInputToPitch c_PIPitch
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.addTemplate Gasgano4Camera
+ObjectTemplate.setPosition 0.0/1.35468/-0.954421
+ObjectTemplate.setRotation 0.0/15.0/0.0
+ObjectTemplate.addTemplate Gasgano4_Engine_Ani
+ObjectTemplate.setPosition 2e-007/0.708887/0.98876
+ObjectTemplate.addTemplate Gasgano4_Seat
+ObjectTemplate.setPosition 0.0/1.02706/-0.691387
+ObjectTemplate.setRotation 0.0/-18.8986/0.0
+ObjectTemplate.addTemplate GasganoEnergyBeam
+ObjectTemplate.setPosition -0.0027457/-0.673647/7.14467
+ObjectTemplate.addTemplate Gasgano_EnergyObstacle
+ObjectTemplate.setPosition 3e-007/-0.651076/7.16158
+
+
+rem *** GasganoEnergyBeam ***
+ObjectTemplate.create SimpleObject GasganoEnergyBeam
+ObjectTemplate.geometry Gasgano_EnergyBeam
+
+
+rem *** Gasgano_EnergyObstacle ***
+ObjectTemplate.create Obstacle Gasgano_EnergyObstacle
+ObjectTemplate.geometry Gasgano_EnergyObstacle
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.addToCollisionGroup c_CGProjectiles
+ObjectTemplate.aiTemplate dam_rails
+
+
+rem *** Gasgano4_Engine_Ani ***
+ObjectTemplate.create Bundle Gasgano4_Engine_Ani
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 0
+ObjectTemplate.addTemplate Gasgano4_cable_rot
+
+
+rem *** Gasgano4_cable_rot ***
+ObjectTemplate.create RotationalBundle Gasgano4_cable_rot
+ObjectTemplate.geometry Gasgano4_Cable_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 0
+ObjectTemplate.setMinRotation 0/0/-15
+ObjectTemplate.setMaxRotation 0/0/15
+ObjectTemplate.setMaxSpeed 0/0/20
+ObjectTemplate.setAcceleration 0/0/20
+ObjectTemplate.setInputToRoll c_PIYaw
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.addTemplate Gasgano4_Turbo_rot_l
+ObjectTemplate.setPosition -2.06104/-1.34945/5.97172
+ObjectTemplate.setRotation 0.0/1.36604/0.0
+ObjectTemplate.addTemplate Gasgano4_Turbo_rot_r
+ObjectTemplate.setPosition 2.14685/-1.34981/5.95464
+ObjectTemplate.setRotation 0.0/1.36604/0.0
+
+
+rem *** Gasgano4_Turbo_rot_l ***
+ObjectTemplate.create RotationalBundle Gasgano4_Turbo_rot_l
+ObjectTemplate.setNetworkableInfo Gasgano4BodyInfo
+ObjectTemplate.geometry Gasgano4_Turbo_left_M1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.setMinRotation -4/0/-8
+ObjectTemplate.setMaxRotation 4/0/8
+ObjectTemplate.setMaxSpeed 10/0/50
+ObjectTemplate.setAcceleration 10/0/-20
+ObjectTemplate.setInputToRoll c_PIYaw
+ObjectTemplate.setInputToYaw c_PIYaw
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.addTemplate e_enginePodRacer
+ObjectTemplate.setPosition 0.0057127/0.00620294/-2.10026
+ObjectTemplate.setRotation -0.831779/-0.145447/0.850252
+
+
+rem *** Gasgano4_Turbo_rot_r ***
+ObjectTemplate.create RotationalBundle Gasgano4_Turbo_rot_r
+ObjectTemplate.geometry Gasgano4_Turbo_right_M1
+ObjectTemplate.setNetworkableInfo Gasgano4BodyInfo
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.setMinRotation -4/0/-8
+ObjectTemplate.setMaxRotation 4/0/8
+ObjectTemplate.setMaxSpeed 10/0/50
+ObjectTemplate.setAcceleration 10/0/-20
+ObjectTemplate.setInputToRoll c_PIYaw
+ObjectTemplate.setInputToYaw c_PIYaw
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.addTemplate e_enginePodRacer
+ObjectTemplate.setPosition -0.14647/0.0197009/-2.06906
+ObjectTemplate.setRotation -0.83181/-0.145455/0.850252
+
+
+rem *** Gasgano4FrontWheelR ***
+ObjectTemplate.create RotationalBundle Gasgano4FrontWheelR
+ObjectTemplate.setNetworkableInfo Gasgano4SteeringInfo
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.setMinRotation -40/0/0
+ObjectTemplate.setMaxRotation 40/0/0
+ObjectTemplate.setMaxSpeed 300/0/0
+ObjectTemplate.setAcceleration 1000/0/0
+ObjectTemplate.setInputToYaw c_PIYaw
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.addTemplate Gasgano4FrontSpringR
+ObjectTemplate.setPosition 0.0/-0.0518164/0.0
+
+
+rem *** Gasgano4FrontWheelL ***
+ObjectTemplate.create RotationalBundle Gasgano4FrontWheelL
+ObjectTemplate.setNetworkableInfo Gasgano4SteeringInfo
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.setMinRotation -40/0/0
+ObjectTemplate.setMaxRotation 40/0/0
+ObjectTemplate.setMaxSpeed 300/0/0
+ObjectTemplate.setAcceleration 1000/0/0
+ObjectTemplate.setInputToYaw c_PIYaw
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.addTemplate Gasgano4FrontSpringL
+ObjectTemplate.setPosition 0.0/-0.0518164/0.0
+
+
+rem *** Gasgano4Camera ***
+ObjectTemplate.create Camera Gasgano4Camera
+ObjectTemplate.setMinRotation -110/-20/0
+ObjectTemplate.setMaxRotation 110/40/0
+ObjectTemplate.setPivotPosition 0/0.25/0.3
+ObjectTemplate.setMaxSpeed 90/90/0
+ObjectTemplate.setAcceleration 5000/-5000/0
+ObjectTemplate.setInputToYaw c_PIMouseLookX
+ObjectTemplate.setInputToPitch c_PIMouseLookY
+ObjectTemplate.toggleMouseLook 1
+ObjectTemplate.OutsideHudOffset 0/0/2
+
+
+rem *** Gasgano4_Seat ***
+ObjectTemplate.create SeatObject Gasgano4_Seat
+ObjectTemplate.seatFlags c_SeatShowHalfBodySoldier
+ObjectTemplate.seatFlags c_SeatIsOutside
+
+
+rem *** Gasgano4Entry ***
+ObjectTemplate.create EntryPoint Gasgano4Entry
+ObjectTemplate.setEntryRadius 3
+
+
+rem *** Gasgano4Simple ***
+ObjectTemplate.create SimpleObject Gasgano4Simple
+ObjectTemplate.geometry Gasgano4_L1
+
+
+rem *** Gasgano4Wreck ***
+ObjectTemplate.create SimpleObject Gasgano4Wreck
+ObjectTemplate.geometry Wreck_Gasgano_M1
+
+
+rem *** Gasgano4LodSelector ***
+LodSelectorTemplate.create DistCompareSelector2 Gasgano4LodSelector
+LodSelectorTemplate.hasDestroyedLod 1
+LodSelectorTemplate.addLodDistance 300
+
+
+
+

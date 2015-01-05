@@ -1,0 +1,12 @@
+GeometryTemplate.create StandardMesh alarisprime_bunker_top
+GeometryTemplate.file Buildings/Imperial/alarisprime_bunker_top
+
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+GeometryTemplate.setLodDistance 2 175
+GeometryTemplate.setLodDistance 3 250
+GeometryTemplate.setLodDistance 4 300
+GeometryTemplate.setLodDistance 5 400
+
+
+

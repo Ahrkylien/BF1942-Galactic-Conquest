@@ -1,0 +1,26 @@
+GeometryTemplate.create StandardMesh ioncannon_m
+GeometryTemplate.file ioncannon
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+GeometryTemplate.setLodDistance 2 200
+GeometryTemplate.setLodDistance 3 300
+GeometryTemplate.setLodDistance 4 400
+GeometryTemplate.setLodDistance 5 1500
+
+GeometryTemplate.create StandardMesh ioncannon_wreck_m
+GeometryTemplate.file Vehicles/IonCannonx/ioncannonxwreck
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+GeometryTemplate.setLodDistance 2 200
+GeometryTemplate.setLodDistance 3 300
+GeometryTemplate.setLodDistance 4 400
+GeometryTemplate.setLodDistance 5 1500
+
+GeometryTemplate.create StandardMesh ion_autofireProjectile
+GeometryTemplate.file Tlight_r3_m1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 50
+GeometryTemplate.setLodDistance 2 100
+GeometryTemplate.setLodDistance 3 200
+GeometryTemplate.setLodDistance 4 400
+GeometryTemplate.setLodDistance 5 1000

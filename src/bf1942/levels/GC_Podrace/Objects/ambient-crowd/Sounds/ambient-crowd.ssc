@@ -1,0 +1,19 @@
+newPatch
+############
+### Near ###
+############
+load @ROOT/Sound/@RTD/ambient-crowd.wav
+loop
+minDistance 140
+volume .7
+priority 2
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 80
+	param 140
+	param 1
+	param -1	
+endEffect

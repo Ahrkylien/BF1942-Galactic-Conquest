@@ -1,0 +1,29 @@
+
+rem *** Plugins ***
+aiTemplatePlugIn.create Cover endor_bunkerdoor_aiCover
+aiTemplatePlugIn.coverValue 5.0
+
+aiTemplatePlugIn.create Physical endor_bunkerdoor_aiPhysical
+
+aiTemplatePlugIn.create Unit endor_bunkerdoor_aiUnit
+aiTemplatePlugIn.equipmentType 10
+aiTemplatePlugIn.setStrategicStrength 0 9
+aiTemplatePlugIn.setStrategicStrength 1 9
+aiTemplatePlugIn.setStrType HeavyArmour
+
+rem *** AITemplate ***
+aiTemplate.create endor_bunkerdoor_ai
+aiTemplate.addType ITUnit
+aiTemplate.addType ITGround
+aiTemplate.addType ITFixed
+aiTemplate.addType ITCover
+aiTemplate.addType ITTargetTemperature
+aiTemplate.degeneration 50
+aiTemplate.allowedTimeDiff 2
+aiTemplate.basicTemp 120
+aiTemplate.commonKnowledge 0
+aiTemplate.addPlugIn endor_bunkerdoor_aiCover
+aiTemplate.addPlugIn endor_bunkerdoor_aiPhysical
+aiTemplate.addPlugIn endor_bunkerdoor_aiUnit
+
+

@@ -1,0 +1,5 @@
+ObjectTemplate.create Bundle ew_totem
+ObjectTemplate.geometry ew_totem
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.CullRadiusScale 3.0
+ObjectTemplate.aiTemplate ew_totem

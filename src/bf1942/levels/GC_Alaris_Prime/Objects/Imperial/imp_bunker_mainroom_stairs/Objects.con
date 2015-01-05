@@ -1,0 +1,3 @@
+ObjectTemplate.create SimpleObject imp_bunker_mainroom_stairs
+ObjectTemplate.geometry imp_bunker_mainroom_stairs
+ObjectTemplate.setHasCollisionPhysics 1

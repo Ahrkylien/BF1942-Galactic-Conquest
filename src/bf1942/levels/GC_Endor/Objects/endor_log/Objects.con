@@ -1,0 +1,5 @@
+ObjectTemplate.Create SimpleObject endor_log
+ObjectTemplate.Geometry endor_log
+ObjectTemplate.SetHasCollisionPhysics 1
+ObjectTemplate.CullRadiusScale 3.0
+ObjectTemplate.AiTemplate endor_log

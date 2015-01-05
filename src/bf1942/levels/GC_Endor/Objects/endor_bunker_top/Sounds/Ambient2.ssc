@@ -1,0 +1,20 @@
+newPatch
+############
+### Near ###
+############
+load @ROOT/Sound/@RTD/capenginecarrack.wav
+loop
+minDistance 6
+volume .9
+priority 5
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 60
+	param 80
+	param 1
+	param -1	
+endEffect
+

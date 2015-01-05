@@ -1,0 +1,158 @@
+ObjectTemplate.create ObjectSpawner tracker_16_kit_spawner
+ObjectTemplate.setObjectTemplate 2 rebel_tracker
+ObjectTemplate.setObjectTemplate 1 rebel_tracker
+ObjectTemplate.MinSpawnDelay 10
+ObjectTemplate.MaxSpawnDelay 20
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 1969714497
+ObjectTemplate.maxNrOfObjectSpawned 1
+
+ObjectTemplate.create ObjectSpawner empire_medic_kit_spawner
+ObjectTemplate.setObjectTemplate 2 empire_medic
+ObjectTemplate.setObjectTemplate 1 empire_medic
+ObjectTemplate.MinSpawnDelay 10
+ObjectTemplate.MaxSpawnDelay 20
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 49
+ObjectTemplate.maxNrOfObjectSpawned 1
+
+ObjectTemplate.create ObjectSpawner jud_push2_2
+ObjectTemplate.setObjectTemplate 2 
+ObjectTemplate.setObjectTemplate 1 jud_destr_door
+ObjectTemplate.SpawnDelay 0
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 9999
+ObjectTemplate.Distance 9999
+ObjectTemplate.DamageWhenLost 1919246957
+ObjectTemplate.maxNrOfObjectSpawned 1
+
+ObjectTemplate.create ObjectSpawner jud_ambient_beginning_spawn1
+ObjectTemplate.setObjectTemplate 2 ambient_jud_beginning
+ObjectTemplate.setObjectTemplate 1 ambient_jud_beginning
+ObjectTemplate.SpawnDelay 9999
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 9999
+ObjectTemplate.Distance 20
+ObjectTemplate.DamageWhenLost 17
+ObjectTemplate.maxNrOfObjectSpawned 1
+
+ObjectTemplate.create ObjectSpawner jud_ambient_tramcontrol_spawn1
+ObjectTemplate.setObjectTemplate 2 ambient_jud_tramcontrol
+ObjectTemplate.setObjectTemplate 1 
+ObjectTemplate.SpawnDelay 120
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 9999
+ObjectTemplate.Distance 9999
+ObjectTemplate.DamageWhenLost 1685284213
+ObjectTemplate.maxNrOfObjectSpawned 1
+
+ObjectTemplate.create ObjectSpawner tl-21_kit_spawner
+ObjectTemplate.setObjectTemplate 2 tl-21_kit
+ObjectTemplate.setObjectTemplate 1 tl-21_kit
+ObjectTemplate.MinSpawnDelay 10
+ObjectTemplate.MaxSpawnDelay 20
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 1178237281
+ObjectTemplate.maxNrOfObjectSpawned 1
+
+ObjectTemplate.create ObjectSpawner jud_droid_barrier_spawner
+ObjectTemplate.setObjectTemplate 2 
+ObjectTemplate.setObjectTemplate 1 jud_droid_barrier
+ObjectTemplate.SpawnDelay 0
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 9999
+ObjectTemplate.Distance 9999
+ObjectTemplate.DamageWhenLost 1852788026
+ObjectTemplate.maxNrOfObjectSpawned 1
+
+ObjectTemplate.create ObjectSpawner jud_push_bridge_shield_door
+ObjectTemplate.setObjectTemplate 2 
+ObjectTemplate.setObjectTemplate 1 jud_destr_door_bridge
+ObjectTemplate.SpawnDelay 0
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 9999
+ObjectTemplate.Distance 9999
+ObjectTemplate.DamageWhenLost 0
+ObjectTemplate.maxNrOfObjectSpawned 1
+
+ObjectTemplate.create ObjectSpawner jud_uplift_spawner
+ObjectTemplate.setObjectTemplate 2 uplift
+ObjectTemplate.setObjectTemplate 1 uplift
+ObjectTemplate.MinSpawnDelay 5
+ObjectTemplate.MaxSpawnDelay 10
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 2036425843
+ObjectTemplate.maxNrOfObjectSpawned 1
+
+ObjectTemplate.create ObjectSpawner jud_ambient_flag5_spawn1
+ObjectTemplate.setObjectTemplate 2 ambient_jud_e5flag
+ObjectTemplate.setObjectTemplate 1 
+ObjectTemplate.SpawnDelay 120
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 9999
+ObjectTemplate.Distance 9999
+ObjectTemplate.DamageWhenLost 0
+ObjectTemplate.maxNrOfObjectSpawned 1
+
+ObjectTemplate.create ObjectSpawner e11_kit_spawner
+ObjectTemplate.setObjectTemplate 2 e11_kit
+ObjectTemplate.setObjectTemplate 1 e11_kit
+ObjectTemplate.MinSpawnDelay 10
+ObjectTemplate.MaxSpawnDelay 20
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 1632451180
+ObjectTemplate.maxNrOfObjectSpawned 1
+
+ObjectTemplate.create ObjectSpawner tramcar_s
+ObjectTemplate.setObjectTemplate 2 tramcar
+ObjectTemplate.setObjectTemplate 1 tramcar
+ObjectTemplate.MinSpawnDelay 5
+ObjectTemplate.MaxSpawnDelay 10
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 25
+ObjectTemplate.Distance 2
+ObjectTemplate.DamageWhenLost 48
+ObjectTemplate.maxNrOfObjectSpawned 2
+
+ObjectTemplate.create ObjectSpawner gren_kit_spawner
+ObjectTemplate.setObjectTemplate 2 gren_kit
+ObjectTemplate.setObjectTemplate 1 gren_kit
+ObjectTemplate.MinSpawnDelay 10
+ObjectTemplate.MaxSpawnDelay 20
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 2036425843
+ObjectTemplate.maxNrOfObjectSpawned 1
+
+ObjectTemplate.create ObjectSpawner new_tl_21_kit_spawner
+ObjectTemplate.setObjectTemplate 2 tl-21_kit
+ObjectTemplate.setObjectTemplate 1 tl-21_kit
+ObjectTemplate.MinSpawnDelay 10
+ObjectTemplate.MaxSpawnDelay 20
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+ObjectTemplate.DamageWhenLost 71981488
+ObjectTemplate.maxNrOfObjectSpawned 1
+
+ObjectTemplate.create ObjectSpawner mousespawner
+ObjectTemplate.setObjectTemplate 2 mousedroidcontrol
+ObjectTemplate.setObjectTemplate 1 mousedroidcontrol
+ObjectTemplate.MinSpawnDelay 5
+ObjectTemplate.MaxSpawnDelay 10
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 999
+ObjectTemplate.Distance 999
+ObjectTemplate.DamageWhenLost 49
+ObjectTemplate.maxNrOfObjectSpawned 1

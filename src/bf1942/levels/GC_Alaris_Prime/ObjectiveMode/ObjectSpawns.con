@@ -1,0 +1,211 @@
+rem ObjectSpawns.con created by Battlecraft 1942
+rem (E:\Battlefield\Mods\GCMOD\bf1942\levels\GC_Alaris_Prime/conquest/ObjectSpawns.con)
+
+rem ----------------------------------------- 
+rem ---  trolleys  ---
+rem ----------------------------------------- 
+Object.create trolleys
+Object.absolutePosition 598.81/219.42/746.17
+Object.rotation -180.32/0.00/0.00
+Object.setOSId 1
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  trolleys  ---
+rem ----------------------------------------- 
+Object.create trolleys
+Object.absolutePosition 203.56/0.27/706.45
+Object.rotation -180.65/0.00/0.00
+Object.setOSId 2
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  trolleys  ---
+rem ----------------------------------------- 
+Object.create trolleys
+Object.absolutePosition 233.61/0.10/711.27
+Object.rotation -149.63/0.00/0.00
+Object.setOSId 2
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  DTAP_Gain135_Spawner  ---
+rem ----------------------------------------- 
+Object.create DTAP_Gain135_Spawner
+Object.absolutePosition 216.54/9.58/474.58
+Object.rotation 92.80/0.00/0.00
+Object.setOSId 2
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  DTAP_Gain135_Spawner  ---
+rem ----------------------------------------- 
+Object.create DTAP_Gain135_Spawner
+Object.absolutePosition 211.24/-0.02/725.27
+Object.rotation -181.25/0.00/0.00
+Object.setOSId 2
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  DTAP_Gain135_Spawner  ---
+rem ----------------------------------------- 
+Object.create DTAP_Gain135_Spawner
+Object.absolutePosition 567.71/219.44/763.53
+Object.rotation 177.95/0.00/0.00
+Object.setOSId 1
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  Speederbikes  ---
+rem ----------------------------------------- 
+Object.create Speederbikes
+Object.absolutePosition 208.65/10.57/503.54
+Object.rotation 97.50/0.00/0.00
+Object.setOSId 2
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  Speederbikes  ---
+rem ----------------------------------------- 
+Object.create Speederbikes
+Object.absolutePosition 279.00/1.64/199.10
+Object.rotation 0.00/0.00/0.00
+Object.setOSId 6
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  Speederbikes  ---
+rem ----------------------------------------- 
+Object.create Speederbikes
+Object.absolutePosition 276.03/1.56/198.06
+Object.rotation 0.00/0.00/0.00
+Object.setOSId 6
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  CrateTransporter_Spawner  ---
+rem ----------------------------------------- 
+Object.create CrateTransporter_Spawner
+Object.absolutePosition 515.03/217.58/921.30
+Object.rotation 0.00/0.00/0.00
+Object.setOSId 9
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  Mouse_Spawner  ---
+rem ----------------------------------------- 
+Object.create Mouse_Spawner
+Object.absolutePosition 533.77/225.53/958.70
+Object.rotation 10.90/0.00/0.00
+Object.setOSId 10
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  DTAP_Gain135_Spawner  ---
+rem ----------------------------------------- 
+Object.create DTAP_Gain135_Spawner
+Object.absolutePosition 764.51/126.98/392.81
+Object.rotation -88.01/0.00/0.00
+Object.setOSId 4
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  trolleys  ---
+rem ----------------------------------------- 
+Object.create trolleys
+Object.absolutePosition 770.52/126.98/382.62
+Object.rotation -83.59/0.00/0.00
+Object.setOSId 4
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  destr_door_spawn1  ---
+rem ----------------------------------------- 
+Object.create destr_door_spawn1
+Object.absolutePosition 567.89/218.88/832.70
+Object.rotation -0.80/0.00/0.00
+Object.setOSId 1
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  destr_door_spawn1  ---
+rem ----------------------------------------- 
+Object.create destr_door_spawn1
+Object.absolutePosition 478.71/208.60/963.70
+Object.rotation 190.71/0.00/0.00
+Object.setOSId 10
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  destr_door_spawn1  ---
+rem ----------------------------------------- 
+Object.create destr_door_spawn1
+Object.absolutePosition 524.55/216.98/967.03
+Object.rotation 101.06/0.00/0.00
+Object.setOSId 9
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  destr_door_spawn1  ---
+rem ----------------------------------------- 
+Object.create destr_door_spawn1
+Object.absolutePosition 502.92/216.73/899.49
+Object.rotation 270.14/0.00/0.00
+Object.setOSId 9
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  destr_door_spawn1  ---
+rem ----------------------------------------- 
+Object.create destr_door_spawn1
+Object.absolutePosition 469.26/216.92/916.88
+Object.rotation 190.98/0.00/0.00
+Object.setOSId 9
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  destr_door_spawn1  ---
+rem ----------------------------------------- 
+Object.create destr_door_spawn1
+Object.absolutePosition 468.63/234.89/917.09
+Object.rotation 10.61/0.00/0.00
+Object.setOSId 10
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  ap_vent_shield_Spawn1  ---
+rem ----------------------------------------- 
+Object.create ap_vent_shield_Spawn1
+Object.absolutePosition 470.68/241.24/936.90
+Object.rotation -79.24/0.00/0.00
+Object.setOSId 10
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  ap_vent_shield_Spawn1  ---
+rem ----------------------------------------- 
+Object.create ap_vent_shield_Spawn1
+Object.absolutePosition 470.68/232.24/936.90
+Object.rotation -79.24/0.00/0.00
+Object.setOSId 10
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Speederbikes  ---
+rem ----------------------------------------- 
+Object.create Speederbikes
+Object.absolutePosition 562.52/220.49/744.10
+Object.rotation 163.18/0.00/0.00
+Object.setOSId 1
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  destr_door_spawn1  ---
+rem ----------------------------------------- 
+Object.create destr_door_spawn1
+Object.absolutePosition 499.73/221.62/912.94
+Object.rotation 190.48/0.00/0.00
+Object.setOSId 10
+Object.setTeam 0
+
+rem EndOfFile

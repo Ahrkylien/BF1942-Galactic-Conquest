@@ -1,0 +1,28 @@
+rem
+rem ***  ***
+rem
+Object.create bunkerdoor
+Object.absolutePosition 533.564/38.5516/417.84
+Object.rotation -92.0001/0/6.4033e-007
+Object.setOSId 2
+rem
+rem ***  ***
+rem
+Object.create spamcannon
+Object.absolutePosition 527.923/42.6148/448.341
+Object.rotation -2/-28/-3.20165e-007
+Object.setOSId 7
+rem
+rem ***  ***
+rem
+Object.create shoebox
+Object.absolutePosition 489.907/33.2848/644.951
+Object.rotation 175/0/0
+Object.setOSId 2
+rem
+rem ***  ***
+rem
+Object.create shoebox
+Object.absolutePosition 342.536/45.3961/191.944
+Object.rotation 51/0/0
+Object.setOSId 4

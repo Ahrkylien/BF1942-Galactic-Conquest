@@ -1,0 +1,32 @@
+renderer.beginGlobalCluster consoledoor
+
+GeometryTemplate.create StandardMesh consoledoor_m
+GeometryTemplate.file buildings/Judicator/jud_security2
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+GeometryTemplate.setLodDistance 2 200
+GeometryTemplate.setLodDistance 3 300
+GeometryTemplate.setLodDistance 4 400
+GeometryTemplate.setLodDistance 5 1500
+
+GeometryTemplate.create StandardMesh blastdoor_m
+GeometryTemplate.file buildings/Judicator/jud_fakedoor04
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+GeometryTemplate.setLodDistance 2 200
+GeometryTemplate.setLodDistance 3 300
+GeometryTemplate.setLodDistance 4 400
+GeometryTemplate.setLodDistance 5 1500
+
+
+renderer.endGlobalCluster
+
+GeometryTemplate.create StandardMesh consoledoor_wreck
+GeometryTemplate.file buildings/Judicator/jud_security2
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+GeometryTemplate.setLodDistance 2 200
+GeometryTemplate.setLodDistance 3 300
+GeometryTemplate.setLodDistance 4 400
+GeometryTemplate.setLodDistance 5 1500
+

@@ -1,0 +1,52 @@
+################################################################
+#templateLevel HIGH
+
+newPatch
+
+#########################
+### Flyby Wizz ###
+#########################
+load @ROOT/Sound/@RTD/ambient-tatooinewind.wav
+loop
+volume 1.0
+minDistance 15
+randomStartPitch .1/.1
+priority -9
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 35
+	param 50
+	param 1
+	param -1	
+endEffect
+
+################################################################
+
+#templateLevel MEDIUM
+
+newPatch
+
+#########################
+### Flyby Wizz ###
+#########################
+load @ROOT/Sound/@RTD/ambient-tatooinewind.wav
+loop
+volume 1.0
+minDistance 15
+randomStartPitch .1/.1
+priority -9
+
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 50
+	param 25
+	param 1
+	param -1	
+endEffect

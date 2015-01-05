@@ -1,0 +1,194 @@
+rem ObjectSpawns.con created by Battlecraft 1942
+rem (E:\Battlefield\Mods\GCMOD\bf1942\levels\GC_Podrace/conquest/ObjectSpawns.con)
+
+rem ----------------------------------------- 
+rem ---  Speeder1  ---
+rem ----------------------------------------- 
+Object.create Speeder1
+Object.absolutePosition 869.70/192.28/268.05
+Object.rotation 180.00/0.00/0.00
+Object.setOSId 1
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  R2D2x1  ---
+rem ----------------------------------------- 
+Object.create R2D2x1
+Object.absolutePosition 826.47/192.30/158.40
+Object.rotation 0.00/0.00/0.00
+Object.setOSId 2
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  transport1  ---
+rem ----------------------------------------- 
+Object.create transport1
+Object.absolutePosition 843.68/191.54/261.49
+Object.rotation 180.08/0.00/0.00
+Object.setOSId 1
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  transport1  ---
+rem ----------------------------------------- 
+Object.create transport1
+Object.absolutePosition 852.47/191.52/162.31
+Object.rotation 0.00/0.00/0.00
+Object.setOSId 2
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  Tatooine_Sounds  ---
+rem ----------------------------------------- 
+Object.create Tatooine_Sounds
+Object.absolutePosition 805.26/209.65/304.76
+Object.rotation 0.00/0.00/0.00
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Tatooine_Sounds  ---
+rem ----------------------------------------- 
+Object.create Tatooine_Sounds
+Object.absolutePosition 1969.49/200.69/92.96
+Object.rotation 0.00/0.00/0.00
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Stadium_Sounds  ---
+rem ----------------------------------------- 
+Object.create Stadium_Sounds
+Object.absolutePosition 894.94/214.33/164.96
+Object.rotation 0.00/0.00/0.00
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Shield_Gate  ---
+rem ----------------------------------------- 
+Object.create Shield_Gate
+Object.absolutePosition 894.78/190.92/212.92
+Object.rotation -90.00/0.00/0.00
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Sandpeople_Sounds  ---
+rem ----------------------------------------- 
+Object.create Sandpeople_Sounds
+Object.absolutePosition 1674.25/264.82/1803.81
+Object.rotation 0.00/0.00/0.00
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  Sandpeople_Sounds  ---
+rem ----------------------------------------- 
+Object.create Sandpeople_Sounds
+Object.absolutePosition 1517.45/269.91/1010.70
+Object.rotation 0.00/0.00/0.00
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  Sandpeople_Sounds  ---
+rem ----------------------------------------- 
+Object.create Sandpeople_Sounds
+Object.absolutePosition 175.62/258.37/1835.60
+Object.rotation 0.00/0.00/0.00
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  Tatooine_Sounds  ---
+rem ----------------------------------------- 
+Object.create Tatooine_Sounds
+Object.absolutePosition 425.79/195.52/1678.61
+Object.rotation 0.00/0.00/0.00
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  Racers  ---
+rem ----------------------------------------- 
+Object.create Racers
+Object.absolutePosition 863.96/191.57/235.77
+Object.rotation 91.30/0.00/0.00
+Object.setOSId 1
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  Racers1  ---
+rem ----------------------------------------- 
+Object.create Racers1
+Object.absolutePosition 864.34/191.53/191.49
+Object.rotation 90.40/0.00/0.00
+Object.setOSId 1
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  Racers2  ---
+rem ----------------------------------------- 
+Object.create Racers2
+Object.absolutePosition 861.29/191.55/215.12
+Object.rotation 89.90/0.00/0.00
+Object.setOSId 1
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  Racers3  ---
+rem ----------------------------------------- 
+Object.create Racers3
+Object.absolutePosition 835.90/191.54/183.65
+Object.rotation 89.80/0.00/0.00
+Object.setOSId 1
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  Racers4  ---
+rem ----------------------------------------- 
+Object.create Racers4
+Object.absolutePosition 836.17/191.57/240.04
+Object.rotation 93.10/0.00/0.00
+Object.setOSId 1
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  Racers5  ---
+rem ----------------------------------------- 
+Object.create Racers5
+Object.absolutePosition 835.76/191.54/202.02
+Object.rotation 91.30/0.00/0.00
+Object.setOSId 2
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  Racers6  ---
+rem ----------------------------------------- 
+Object.create Racers6
+Object.absolutePosition 836.25/191.57/222.79
+Object.rotation 93.40/0.00/0.00
+Object.setOSId 2
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  Racers7  ---
+rem ----------------------------------------- 
+Object.create Racers7
+Object.absolutePosition 807.73/191.50/188.68
+Object.rotation 90.40/0.00/0.00
+Object.setOSId 2
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  Racers8  ---
+rem ----------------------------------------- 
+Object.create Racers8
+Object.absolutePosition 807.89/191.52/236.88
+Object.rotation 89.80/0.00/0.00
+Object.setOSId 2
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  Racers9  ---
+rem ----------------------------------------- 
+Object.create Racers9
+Object.absolutePosition 808.41/191.57/213.05
+Object.rotation 87.90/0.00/0.00
+Object.setOSId 2
+Object.setTeam 0
+
+

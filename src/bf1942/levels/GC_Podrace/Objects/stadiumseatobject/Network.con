@@ -1,0 +1,2 @@
+NetworkableInfo.createNewInfo StadiumSeatObjectInfo
+NetworkableInfo.setPredictionMode PMLinear

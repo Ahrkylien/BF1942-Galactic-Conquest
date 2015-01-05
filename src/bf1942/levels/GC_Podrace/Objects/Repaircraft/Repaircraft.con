@@ -1,0 +1,24 @@
+ObjectTemplate.create Rotationalbundle Repaircraft
+ObjectTemplate.setHasCollisionPhysics 0
+ObjectTemplate.setMinRotation 0/0/0
+ObjectTemplate.setMaxRotation 0/0/0
+ObjectTemplate.setMaxSpeed 181/0/0
+ObjectTemplate.setAcceleration 60/0/0
+ObjectTemplate.sethascollisionphysics 1
+ObjectTemplate.addtemplate Repaircraft2
+ObjectTemplate.setposition 0/0/0
+ObjectTemplate.setContinousRotationSpeed -2/0/0
+
+ObjectTemplate.create rotationalbundle Repaircraft2
+ObjectTemplate.setHasCollisionPhysics 0
+ObjectTemplate.setMinRotation 0/0/0
+ObjectTemplate.setMaxRotation 0/0/0
+ObjectTemplate.setMaxSpeed 181/0/0
+ObjectTemplate.setAcceleration 60/0/0
+ObjectTemplate.addtemplate yt600Simplebundle
+ObjectTemplate.setposition -800/0/0
+ObjectTemplate.setContinousRotationSpeed 2/0/0
+
+ObjectTemplate.create bundle yt600Simplebundle
+ObjectTemplate.addtemplate yt600Simple
+ObjectTemplate.loadSoundScript Repaircraft.ssc

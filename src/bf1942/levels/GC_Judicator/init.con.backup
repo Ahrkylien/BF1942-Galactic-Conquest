@@ -43,7 +43,7 @@ ObjectTemplate.team 2
 ObjectTemplate.networkableInfo FlagBodyInfo
 ObjectTemplate.radius 5
 ObjectTemplate.TimeToReSpawn 10
-ObjectTemplate.addTemplate AnimatedUkFlag
+ObjectTemplate.addTemplate AnimatedUsFlag
 
 
 game.setTeamSkin 1 JapaneseSoldier
@@ -97,7 +97,7 @@ rem *** Set team 2 ***
 game.setBeforeSpawnCameraPosition 2 1439.9753/1500/513.702
 
 
-
+run objects/loadObjects
 
 
 

@@ -1,0 +1,29 @@
+ObjectTemplate.create PlayerControlObject ambient-stadium
+ObjectTemplate.setNetworkableInfo ambient-stadiumBodyInfo
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.hasCollisionPhysics 0
+ObjectTemplate.hasResponsePhysics 0
+ObjectTemplate.hasArmor 1
+ObjectTemplate.hitpoints 16
+ObjectTemplate.maxhitpoints 16
+ObjectTemplate.criticalDamage 16
+ObjectTemplate.hpLostWhileCriticalDamage 1
+ObjectTemplate.material 810
+ObjectTemplate.addArmorEffect 0 e_stadium_random 0/0/0
+ObjectTemplate.timetoliveafterdeath 0
+rem -------------------------------------
+ObjectTemplate.setSoldierExitLocation 0/0/0 0/0/0
+ObjectTemplate.setVehicleIconPos 45/76
+ObjectTemplate.setNumberOfWeaponIcons 0
+ObjectTemplate.setCrossHairType CHTNone
+ObjectTemplate.setVehicleCategory VCLand
+ObjectTemplate.setVehicleType  VTAAGun
+ObjectTemplate.setMinimapIcon "Minimap/minimap_icon_noshow_16x16.dds"
+
+rem *** e_stadium_random ***
+ObjectTemplate.create EffectBundle e_stadium_random
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.loadSoundScript Sounds/stadium_random.ssc
+rem -------------------------------------
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+rem -------------------------------------

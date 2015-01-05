@@ -1,0 +1,32 @@
+rem defender tickets are set to 100
+Game.setNumberOfTickets 2 100
+Game.setTicketLostPerMin 1 0
+Game.setTicketLostPerMin 2 0
+
+run ObjectiveMode/SpawnpointManagerSettings
+
+run ObjectiveMode/SoldierSpawnTemplates
+run ObjectiveMode/SoldierSpawns
+
+run ObjectiveMode/ObjectSpawnTemplates
+run ObjectiveMode/ControlPointTemplates
+run ObjectiveMode/ObjectiveSpawnerTemplates v_arg1 
+
+rem if v_arg1 == host
+rem ----- Host 
+rem ---------------------------------------------------------------------------- 
+
+run ObjectiveMode/ObjectSpawns 
+run ObjectiveMode/ControlPoints v_arg1
+run ObjectiveMode/ObjectiveSpawners v_arg1 
+
+rem ----------------------------------------------------------------------------
+rem endIf
+
+
+run ObjectiveMode/ObjectiveCommon v_arg1 
+
+Game.setLevelCheck 3972524759
+rem *** EndOfFile ***
+
+

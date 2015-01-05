@@ -1,0 +1,5 @@
+ObjectTemplate.create SimpleObject imp_ramp
+ObjectTemplate.geometry imp_ramp
+ObjectTemplate.setHasCollisionPhysics 1
+objectTemplate.cullRadiusScale 3.0
+ObjectTemplate.aiTemplate myobject

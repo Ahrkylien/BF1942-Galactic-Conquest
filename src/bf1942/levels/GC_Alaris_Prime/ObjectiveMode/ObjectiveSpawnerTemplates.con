@@ -1,0 +1,90 @@
+
+rem ======== Networkable ============================
+
+NetworkableInfo.createNewInfo ObjectiveInfo
+NetworkableInfo.setPredictionMode PMNone
+NetworkableInfo.setBasePriority c_NIGhostAlways
+
+rem ================ ObjectiveTemplates =====================
+rem // Axis = 1 , Allied = 2
+
+
+ObjectTemplate.create DestroyTargetObjective DestroyAlaris_FuelTank
+ObjectTemplate.setNetworkableInfo ObjectiveInfo
+ObjectTemplate.setTargetName objective1
+ObjectTemplate.ObjectiveName THE_SHIELD_GENERATOR
+ObjectTemplate.setObjectiveDelay 1.0
+ObjectTemplate.setTeam 2
+
+ObjectTemplate.create DestroyTargetObjective Destroyionobjective
+ObjectTemplate.setNetworkableInfo ObjectiveInfo
+ObjectTemplate.setTargetName objective2
+ObjectTemplate.ObjectiveName THE_ION_CANNON
+ObjectTemplate.setObjectiveDelay 1.0
+ObjectTemplate.setTeam 2
+
+
+ObjectTemplate.create TimerObjective Timer
+ObjectTemplate.setNetworkableInfo ObjectiveInfo
+ObjectTemplate.TimeLimit 3600.0
+ObjectTemplate.setObjectiveDelay 3.0
+ObjectTemplate.setTeam 1
+
+
+ObjectTemplate.create ANDCompositeObjective Composite
+ObjectTemplate.setNetworkableInfo ObjectiveInfo
+ObjectTemplate.addObjectiveSpawnerToComposite ObjectiveSpawner01
+ObjectTemplate.addObjectiveSpawnerToComposite ObjectiveSpawner02
+ObjectTemplate.setObjectiveDelay 3.0
+ObjectTemplate.setTeam 2
+
+rem ============== ObjectTemplate for the objects to be destroyed ================
+
+rem if v_arg1 == host
+
+
+ObjectTemplate.create ObjectSpawner Alaris_FuelTankSpawner
+ObjectTemplate.setObjectTemplate 2 Alaris_shieldgen
+ObjectTemplate.setObjectTemplate 1 Alaris_shieldgen
+ObjectTemplate.SpawnDelay 9999
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 120
+ObjectTemplate.Distance 200
+
+ObjectTemplate.create ObjectSpawner ionobjectiveSpawner
+ObjectTemplate.setObjectTemplate 2 ionobjective
+ObjectTemplate.setObjectTemplate 1 ionobjective
+ObjectTemplate.SpawnDelay 9999
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 120
+ObjectTemplate.Distance 200
+
+
+rem ================= OjectiveSpawnerTemplates =======================================
+
+
+rem ============== ObjectTemplate for the objects to be destroyed ================
+
+
+ObjectTemplate.create ObjectSpawner DestroyAlaris_FuelTankObjectiveSpawner01
+ObjectTemplate.setObjectTemplate 1 DestroyAlaris_FuelTank
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.setTeam 1
+
+ObjectTemplate.create ObjectSpawner DestroyionobjectiveObjectiveSpawner02
+ObjectTemplate.setObjectTemplate 1 Destroyionobjective
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.setTeam 1
+
+
+ObjectTemplate.create ObjectSpawner AxisTimerObjectiveSpawner
+ObjectTemplate.setObjectTemplate 1 Timer
+ObjectTemplate.setSpawnDelay 1
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.setTeam 1
+
+ObjectTemplate.create ObjectSpawner AlliedANDCompositeObjectiveSpawner
+ObjectTemplate.setObjectTemplate 1 Composite
+ObjectTemplate.setTeam 1
+
+rem endIf

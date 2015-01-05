@@ -1,0 +1,92 @@
+ObjectTemplate.create PlayerControlObject jud_destr_door
+ObjectTemplate.setNetworkableInfo jud_destr_doorBodyInfo
+ObjectTemplate.loadSoundScript Sounds/Ambient.ssc
+ObjectTemplate.saveInSeparateFile 1
+objectTemplate.cullRadiusScale 5
+ObjectTemplate.explosionRadius 0
+ObjectTemplate.explosionDamage 0
+ObjectTemplate.damageFromWater 1
+ObjectTemplate.drag 2
+ObjectTemplate.mass 4500
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasArmor 1
+ObjectTemplate.speedMod 1
+ObjectTemplate.hitpoints 8000
+ObjectTemplate.maxhitpoints 8000
+ObjectTemplate.material 84
+ObjectTemplate.criticalDamage 8000
+ObjectTemplate.hpLostWhileCriticalDamage 400
+ObjectTemplate.explosionForceMod 0
+ObjectTemplate.hpLostWhileUpSideDown 0
+ObjectTemplate.hpLostWhileDamageFromWater 0
+ObjectTemplate.timetoliveafterdeath 10
+ObjectTemplate.startoneffects 0
+rem -------------------------------------
+ObjectTemplate.addTemplate lodjud_destr_door
+rem -------------------------------------
+ObjectTemplate.GUIIndex 30
+ObjectTemplate.setVehicleIcon ""
+ObjectTemplate.setVehicleIconPos 80/57
+ObjectTemplate.setNumberOfWeaponIcons 0
+ObjectTemplate.setVehicleCategory VCLand
+ObjectTemplate.setVehicleType  VTScoutCar
+ObjectTemplate.setMinimapIcon ""
+ObjectTemplate.hasRestrictedExit 1
+ObjectTemplate.addTemplate tabuzone
+ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.setRotation 0/0/0
+
+
+ObjectTemplate.create SupplyDepot tabuzone
+ObjectTemplate.radius 2
+ObjectTemplate.team 0
+ObjectTemplate.workOnVehicles 1
+ObjectTemplate.workOnSoldiers 1
+ObjectTemplate.setHealth -1 -1 0
+
+
+
+rem *** lodjud_destr_door ***
+ObjectTemplate.create LodObject lodjud_destr_door
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.addTemplate jud_destr_doorComplex
+ObjectTemplate.addTemplate jud_destr_doorSimple
+ObjectTemplate.addTemplate jud_destr_doorWreck
+ObjectTemplate.lodSelector jud_destr_doorLodSelector
+
+rem *** jud_destr_doorComplex ***
+ObjectTemplate.create Bundle jud_destr_doorComplex
+ObjectTemplate.geometry jud_destr_door
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.addTemplate destr_door_obst
+
+ObjectTemplate.create Obstacle destr_door_obst
+ObjectTemplate.geometry jud_destr_door_shield
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.AddToCollisionGroup c_CGLandscape
+ObjectTemplate.AddToCollisionGroup c_CGStaticObjects
+ObjectTemplate.createInvisible 1
+ObjectTemplate.loadSoundScript Sounds/Landmine.ssc
+
+
+rem *** jud_destr_doorSimple ***
+ObjectTemplate.create Bundle jud_destr_doorSimple
+ObjectTemplate.geometry jud_destr_door
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+
+rem *** jud_destr_doorwreck ***
+ObjectTemplate.create Bundle jud_destr_doorwreck
+
+
+rem *** jud_destr_doorLodSelector ***
+LodSelectorTemplate.create DistCompareSelector2 jud_destr_doorLodSelector
+LodSelectorTemplate.hasDestroyedLod 1
+LodSelectorTemplate.addLodDistance 300
+

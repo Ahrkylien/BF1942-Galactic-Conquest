@@ -1,0 +1,7 @@
+rem run ai/objects
+rem ************
+run network
+run objects
+run geometries
+
+run effects

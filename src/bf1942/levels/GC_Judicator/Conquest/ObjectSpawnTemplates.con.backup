@@ -1,18 +1,27 @@
+rem ObjectSpawnTemplates.con created by Battlecraft 1942
+rem (e:\Battlefield\Mods\GCMOD\bf1942\levels\GC_Judicator/conquest/ObjectSpawnTemplates.con)
+
+rem ----------------------------------------- 
+rem ---  tl-21_kit_spawner  ---
+rem ----------------------------------------- 
 ObjectTemplate.create ObjectSpawner tl-21_kit_spawner
-ObjectTemplate.setObjectTemplate 2 tl-21_kit
 ObjectTemplate.setObjectTemplate 1 tl-21_kit
+ObjectTemplate.setObjectTemplate 2 tl-21_kit
 ObjectTemplate.MinSpawnDelay 10
 ObjectTemplate.MaxSpawnDelay 20
 ObjectTemplate.SpawnDelayAtStart 0
 ObjectTemplate.TimeToLive 45
 ObjectTemplate.Distance 40
 ObjectTemplate.DamageWhenLost 10
-ObjectTemplate.team 1
 ObjectTemplate.maxNrOfObjectSpawned 1
+ObjectTemplate.teamOnVehicle 0
 
+rem ----------------------------------------- 
+rem ---  jud_uplift_spawner  ---
+rem ----------------------------------------- 
 ObjectTemplate.create ObjectSpawner jud_uplift_spawner
-ObjectTemplate.setObjectTemplate 2 uplift
 ObjectTemplate.setObjectTemplate 1 uplift
+ObjectTemplate.setObjectTemplate 2 uplift
 ObjectTemplate.MinSpawnDelay 5
 ObjectTemplate.MaxSpawnDelay 10
 ObjectTemplate.SpawnDelayAtStart 0
@@ -20,10 +29,14 @@ ObjectTemplate.TimeToLive 45
 ObjectTemplate.Distance 40
 ObjectTemplate.DamageWhenLost 10
 ObjectTemplate.maxNrOfObjectSpawned 1
+ObjectTemplate.teamOnVehicle 0
 
+rem ----------------------------------------- 
+rem ---  tramcar_s  ---
+rem ----------------------------------------- 
 ObjectTemplate.create ObjectSpawner tramcar_s
-ObjectTemplate.setObjectTemplate 2 tramcar
 ObjectTemplate.setObjectTemplate 1 tramcar
+ObjectTemplate.setObjectTemplate 2 tramcar
 ObjectTemplate.MinSpawnDelay 5
 ObjectTemplate.MaxSpawnDelay 10
 ObjectTemplate.SpawnDelayAtStart 0
@@ -31,22 +44,29 @@ ObjectTemplate.TimeToLive 25
 ObjectTemplate.Distance 2
 ObjectTemplate.DamageWhenLost 50
 ObjectTemplate.maxNrOfObjectSpawned 2
+ObjectTemplate.teamOnVehicle 0
 
+rem ----------------------------------------- 
+rem ---  gren_kit_spawner  ---
+rem ----------------------------------------- 
 ObjectTemplate.create ObjectSpawner gren_kit_spawner
-ObjectTemplate.setObjectTemplate 2 gren_kit
 ObjectTemplate.setObjectTemplate 1 gren_kit
+ObjectTemplate.setObjectTemplate 2 gren_kit
 ObjectTemplate.MinSpawnDelay 10
 ObjectTemplate.MaxSpawnDelay 20
 ObjectTemplate.SpawnDelayAtStart 0
 ObjectTemplate.TimeToLive 45
 ObjectTemplate.Distance 40
 ObjectTemplate.DamageWhenLost 10
-ObjectTemplate.team 1
 ObjectTemplate.maxNrOfObjectSpawned 1
+ObjectTemplate.teamOnVehicle 0
 
+rem ----------------------------------------- 
+rem ---  mousespawner  ---
+rem ----------------------------------------- 
 ObjectTemplate.create ObjectSpawner mousespawner
-ObjectTemplate.setObjectTemplate 2 mousedroidcontrol
 ObjectTemplate.setObjectTemplate 1 mousedroidcontrol
+ObjectTemplate.setObjectTemplate 2 mousedroidcontrol
 ObjectTemplate.MinSpawnDelay 5
 ObjectTemplate.MaxSpawnDelay 10
 ObjectTemplate.SpawnDelayAtStart 0
@@ -54,4 +74,55 @@ ObjectTemplate.TimeToLive 999
 ObjectTemplate.Distance 999
 ObjectTemplate.DamageWhenLost 0
 ObjectTemplate.maxNrOfObjectSpawned 1
+ObjectTemplate.teamOnVehicle 0
 
+rem ****** soundstuff by Vocal Voodo
+rem ****** included by Django
+
+rem ----------------------------------------- 
+rem ---  Jud_Ambient_Beginning_Spawn1  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner Jud_Ambient_Beginning_Spawn1
+ObjectTemplate.setObjectTemplate 2 ambient_jud_beginning
+ObjectTemplate.setObjectTemplate 1 ambient_jud_beginning
+ObjectTemplate.MinSpawnDelay 99999
+ObjectTemplate.MaxSpawnDelay 99999
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 999999
+ObjectTemplate.Distance 20
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.maxNrOfObjectSpawned 1
+ObjectTemplate.teamOnVehicle 0
+
+rem ----------------------------------------- 
+rem ---  Jud_ambient_Tramcontrol_Spawn1  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner Jud_ambient_Tramcontrol_Spawn1
+ObjectTemplate.setObjectTemplate 2 ambient_jud_tramcontrol
+ObjectTemplate.MinSpawnDelay 120
+ObjectTemplate.MaxSpawnDelay 120
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 999999
+ObjectTemplate.Distance 9999
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.maxNrOfObjectSpawned 1
+ObjectTemplate.teamOnVehicle 0
+
+rem ----------------------------------------- 
+rem ---  Jud_Ambient_Flag5_Spawn1  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner Jud_Ambient_Flag5_Spawn1
+ObjectTemplate.setObjectTemplate 2 ambient_jud_e5flag
+ObjectTemplate.MinSpawnDelay 120
+ObjectTemplate.MaxSpawnDelay 120
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 999999
+ObjectTemplate.Distance 9999
+ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.maxNrOfObjectSpawned 1
+ObjectTemplate.teamOnVehicle 0
+
+
+
+
+rem EndOfFile

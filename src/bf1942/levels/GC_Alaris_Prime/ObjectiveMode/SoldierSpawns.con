@@ -1,0 +1,221 @@
+rem SoldierSpawns.con created by Battlecraft 1942
+rem (E:\Battlefield\Mods\GCMOD\bf1942\levels\GC_Alaris_Prime/conquest/SoldierSpawns.con)
+
+rem ----------------------------------------- 
+rem ---  Rebel_Landing_Point_Spawn1  ---
+rem ----------------------------------------- 
+Object.create Rebel_Landing_Point_Spawn1
+Object.absolutePosition 230.57/-0.01/719.06
+Object.rotation -180.16/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Rebel_Landing_Point_Spawn3  ---
+rem ----------------------------------------- 
+Object.create Rebel_Landing_Point_Spawn3
+Object.absolutePosition 215.03/0.12/701.96
+Object.rotation -185.69/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Rebel_Landing_Point_Spawn2  ---
+rem ----------------------------------------- 
+Object.create Rebel_Landing_Point_Spawn2
+Object.absolutePosition 240.12/0.17/697.76
+Object.rotation -181.65/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Rebel_Landing_Point_Spawn4  ---
+rem ----------------------------------------- 
+Object.create Rebel_Landing_Point_Spawn4
+Object.absolutePosition 228.15/0.34/691.68
+Object.rotation -210.42/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Lumberyard_Spawn1  ---
+rem ----------------------------------------- 
+Object.create Lumberyard_Spawn1
+Object.absolutePosition 269.17/0.95/223.83
+Object.rotation 90.44/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Lumberyard_Spawn2  ---
+rem ----------------------------------------- 
+Object.create Lumberyard_Spawn2
+Object.absolutePosition 266.80/0.67/203.96
+Object.rotation 87.86/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Lumberyard_Spawn3  ---
+rem ----------------------------------------- 
+Object.create Lumberyard_Spawn3
+Object.absolutePosition 285.21/0.96/222.94
+Object.rotation -199.80/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Lumberyard_Spawn4  ---
+rem ----------------------------------------- 
+Object.create Lumberyard_Spawn4
+Object.absolutePosition 282.59/0.78/198.96
+Object.rotation 13.47/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Wookiee_Temple_Spawn1  ---
+rem ----------------------------------------- 
+Object.create Wookiee_Temple_Spawn1
+Object.absolutePosition 848.97/121.15/390.06
+Object.rotation -92.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Wookiee_Temple_Spawn2  ---
+rem ----------------------------------------- 
+Object.create Wookiee_Temple_Spawn2
+Object.absolutePosition 761.37/126.99/371.11
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Wookiee_Temple_Spawn3  ---
+rem ----------------------------------------- 
+Object.create Wookiee_Temple_Spawn3
+Object.absolutePosition 776.52/126.99/397.21
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Wookiee_Temple_Spawn4  ---
+rem ----------------------------------------- 
+Object.create Wookiee_Temple_Spawn4
+Object.absolutePosition 759.12/126.99/408.40
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Imperial_Ion_Cannon_Spawn1  ---
+rem ----------------------------------------- 
+Object.create Imperial_Ion_Cannon_Spawn1
+Object.absolutePosition 563.15/219.47/776.84
+Object.rotation -7.12/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Imperial_Ion_Cannon_Spawn2  ---
+rem ----------------------------------------- 
+Object.create Imperial_Ion_Cannon_Spawn2
+Object.absolutePosition 589.54/219.47/747.52
+Object.rotation -183.91/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Imperial_Ion_Cannon_Spawn3  ---
+rem ----------------------------------------- 
+Object.create Imperial_Ion_Cannon_Spawn3
+Object.absolutePosition 509.95/229.52/756.58
+Object.rotation -183.91/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Imperial_Ion_Cannon_Spawn4  ---
+rem ----------------------------------------- 
+Object.create Imperial_Ion_Cannon_Spawn4
+Object.absolutePosition 636.48/229.53/753.82
+Object.rotation -183.91/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  imp_bunker_tanks_Spawn1  ---
+rem ----------------------------------------- 
+Object.create imp_bunker_tanks_Spawn1
+Object.absolutePosition 463.48/217.29/910.02
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  imp_bunker_tanks_Spawn2  ---
+rem ----------------------------------------- 
+Object.create imp_bunker_tanks_Spawn2
+Object.absolutePosition 486.54/217.29/892.82
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  imp_bunker_tanks_Spawn3  ---
+rem ----------------------------------------- 
+Object.create imp_bunker_tanks_Spawn3
+Object.absolutePosition 455.74/217.29/893.18
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  imp_bunker_Vent_cp_Spawn2  ---
+rem ----------------------------------------- 
+Object.create imp_bunker_Vent_cp_Spawn2
+Object.absolutePosition 467.26/243.86/921.69
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  imp_bunker_holotable_Spawn1  ---
+rem ----------------------------------------- 
+Object.create imp_bunker_holotable_Spawn1
+Object.absolutePosition 533.18/225.86/941.86
+Object.rotation 178.84/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  imp_bunker_holotable_Spawn2  ---
+rem ----------------------------------------- 
+Object.create imp_bunker_holotable_Spawn2
+Object.absolutePosition 530.31/225.53/973.27
+Object.rotation 184.43/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  imp_bunker_holotable_Spawn3  ---
+rem ----------------------------------------- 
+Object.create imp_bunker_holotable_Spawn3
+Object.absolutePosition 544.16/225.53/956.16
+Object.rotation -163.19/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  imp_bunker_main_Spawn1  ---
+rem ----------------------------------------- 
+Object.create imp_bunker_main_Spawn1
+Object.absolutePosition 543.41/217.29/924.41
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  imp_bunker_main_Spawn2  ---
+rem ----------------------------------------- 
+Object.create imp_bunker_main_Spawn2
+Object.absolutePosition 536.23/217.28/927.20
+Object.rotation -109.05/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  imp_bunker_main_Spawn3  ---
+rem ----------------------------------------- 
+Object.create imp_bunker_main_Spawn3
+Object.absolutePosition 501.05/217.29/923.47
+Object.rotation 80.48/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  weaponroom_cp_Spawn1  ---
+rem ----------------------------------------- 
+Object.create weaponroom_cp_Spawn1
+Object.absolutePosition 581.12/218.44/896.85
+Object.rotation -101.53/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Mainhall_CP_Spawn2  ---
+rem ----------------------------------------- 
+Object.create Mainhall_CP_Spawn2
+Object.absolutePosition 573.14/218.43/901.46
+Object.rotation -50.62/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  weaponroom_cp_Spawn2  ---
+rem ----------------------------------------- 
+Object.create weaponroom_cp_Spawn2
+Object.absolutePosition 571.85/218.44/879.89
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Mainhall_CP_Spawn4  ---
+rem ----------------------------------------- 
+Object.create Mainhall_CP_Spawn4
+Object.absolutePosition 467.88/208.81/961.51
+Object.rotation 178.23/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Mainhall_CP_Spawn5  ---
+rem ----------------------------------------- 
+Object.create Mainhall_CP_Spawn5
+Object.absolutePosition 460.27/208.80/929.21
+Object.rotation 0.00/0.00/0.00
+
+rem EndOfFile

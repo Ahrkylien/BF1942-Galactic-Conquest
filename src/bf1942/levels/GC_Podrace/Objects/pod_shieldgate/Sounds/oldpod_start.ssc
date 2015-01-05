@@ -1,0 +1,17 @@
+newPatch
+load @ROOT/Sound/@RTD/Race_Start.wav
+volume 0.7
+minDistance 100
+dopplerOff
+stop FinishSample
+priority 9
+*** Distance Volume ***
+beginEffect
+	controlDestination Volume
+	controlSource Distance
+	envelope Ramp
+	param 100
+	param 300
+	param 1
+	param -1	
+endEffect

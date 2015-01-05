@@ -8,9 +8,9 @@ Object.setOSId 5
 rem
 rem ***  ***
 rem
-Object.create r5controlspawner
+Object.create sentrycontrolspawner
 Object.absolutePosition 243.494/36.6415/983.601
-Object.rotation 180/0/0
+Object.rotation 0/0/0
 Object.setOSId 5
 rem
 rem ***  ***
@@ -88,9 +88,9 @@ Object.setOSId 5
 rem
 rem ***  ***
 rem
-Object.create atst_landspeeder
-Object.absolutePosition 364.089/44/985.6
-Object.rotation -89/0/0
+Object.create gainspawner
+Object.absolutePosition 355.145/36.9691/1015.87
+Object.rotation -92/0/0
 Object.setOSId 5
 rem
 rem ***  ***
@@ -103,21 +103,21 @@ rem
 rem ***  ***
 rem
 Object.create impskiff_ls
-Object.absolutePosition 365.536/37.9308/999.267
-Object.rotation -85/0/0
+Object.absolutePosition 359.373/38.4339/979.961
+Object.rotation -80/0/0
 Object.setOSId 5
 rem
 rem ***  ***
 rem
 Object.create impskiff_ls
-Object.absolutePosition 364.723/37.9308/993.628
-Object.rotation -85/0/0
+Object.absolutePosition 355.192/38.4654/1009.01
+Object.rotation -92/0/0
 Object.setOSId 5
 rem
 rem ***  ***
 rem
 Object.create imptank_rebtank
-Object.absolutePosition 248.094/36.2989/942.58
+Object.absolutePosition 248.861/36.2781/945.274
 Object.rotation 87/0/0
 Object.setOSId 5
 rem
@@ -127,13 +127,6 @@ Object.create impart_rebart
 Object.absolutePosition 259.882/36.7008/933.326
 Object.rotation -1/0/0
 Object.setOSId 5
-rem
-rem ***  ***
-rem
-Object.create imptank_rebtank
-Object.absolutePosition 843.265/37.6418/1743.65
-Object.rotation 159/0/0
-Object.setOSId 2
 rem
 rem ***  ***
 rem
@@ -179,6 +172,27 @@ Object.setOSId 1
 rem
 rem ***  ***
 rem
+Object.create droid_capsule_s
+Object.absolutePosition 190.04/36.74/1868.66
+Object.rotation 0.00/0.00/0.00
+Object.setTeam 1
+rem
+rem ***  ***
+rem
+Object.create droid_capsule_s
+Object.absolutePosition 913.90/36.43/94.45
+Object.rotation 0.00/0.00/0.00
+Object.setTeam 2
+rem
+rem ***  ***
+rem
+Object.create droid_capsule_s
+Object.absolutePosition 1605.85/36.61/1982.47
+Object.rotation 0.00/0.00/0.00
+Object.setTeam 1
+rem
+rem ***  ***
+rem
 Object.create antiairdefence
 Object.absolutePosition 928.212/84.3188/540.467
 Object.rotation 53/0/0
@@ -196,13 +210,6 @@ rem
 Object.create antiairdefence
 Object.absolutePosition 1716.34/70.1461/789.582
 Object.rotation -89/0/0
-Object.setOSId 4
-rem
-rem ***  ***
-rem
-Object.create rebelassaulttank
-Object.absolutePosition 1785.4/71.2043/784.941
-Object.rotation -4.58903e-006/0/0
 Object.setOSId 4
 rem
 rem ***  ***
@@ -229,8 +236,8 @@ rem
 rem ***  ***
 rem
 Object.create tiebomber_spawner
-Object.absolutePosition 174.481/39.6769/1887.72
-Object.rotation 4.99999/0/0
+Object.absolutePosition 362.849/39.2987/992.167
+Object.rotation -86/0/0
 Object.setTeam 1
 rem
 rem ***  ***
@@ -259,11 +266,41 @@ rem
 Object.create weaponspawners
 Object.absolutePosition 895.742/86.1815/546.728
 Object.rotation 0/-98/0
-Object.setOSId 2
+Object.setOSId 1
 rem
 rem ***  ***
 rem
 Object.create weaponspawners
 Object.absolutePosition 896.165/86.1621/546.283
 Object.rotation 0/-98/0
+Object.setOSId 1
+rem
+rem ***  ***
+rem
+Object.create gainspawner
+Object.absolutePosition 1369.59/45.4155/1377.32
+Object.setOSId 3
+rem
+rem ***  ***
+rem
+Object.create gainspawner
+Object.absolutePosition 1635.49/56.488/769.316
+Object.rotation 12/0/0
+Object.setOSId 4
+rem
+rem ***  ***
+rem
+Object.create gainspawner
+Object.absolutePosition 843.144/37.7334/1745.05
+Object.rotation -198/0/0
 Object.setOSId 2
+rem
+rem ***  ***
+rem
+Object.create gainspawner
+Object.absolutePosition 1732.15/70.1148/816.162
+Object.rotation -20/0/0
+Object.setOSId 4
+rem
+rem ***  ***
+rem

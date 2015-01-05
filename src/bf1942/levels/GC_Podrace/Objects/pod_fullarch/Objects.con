@@ -1,0 +1,4 @@
+ObjectTemplate.create Bundle pod_fullarch
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.geometry pod_fullarch
+ObjectTemplate.loadSoundScript Sounds/pod_fullarch.ssc

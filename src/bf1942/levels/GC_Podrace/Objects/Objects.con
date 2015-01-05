@@ -1,0 +1,26 @@
+run t16/objects
+run rebrunner/rebrunner
+run tatooinebus/tatooinebus
+run TIE/TIE
+run Repaircraft/Repaircraft
+
+run ambient-crowd/ambient-crowd
+run ambient-stadium/ambient-stadium
+run e_PodRacer_Thrust_Engine_m1/e_PodRacer_Thrust_Engine_m1
+run Gasgano/Gasgano
+run PodRacerV1/PodRacerV1
+run pod_cave/pod_cave
+run pod_finishlinearch/pod_finishlinearch
+run pod_finishlinetower/pod_finishlinetower
+run pod_fullarch/pod_fullarch
+run pod_fullarch2/pod_fullarch2
+run pod_halfarch/pod_halfarch
+run pod_shieldgate/pod_shieldgate
+run pod_stadiumseats/pod_stadiumseats
+run pod_tallrock1/pod_tallrock1
+run pod_tallrock2/pod_tallrock2
+run pod_tracklight/pod_tracklight
+run R2D2x/R2D2x
+run shieldplan/shieldplan
+rem run Speederbike/Speederbike
+run stadiumseatobject/stadiumseatobject

@@ -1,0 +1,5 @@
+ObjectTemplate.Create SimpleObject rotp_platform
+ObjectTemplate.Geometry rotp_platform
+ObjectTemplate.SetHasCollisionPhysics 1
+ObjectTemplate.CullRadiusScale 3.0
+ObjectTemplate.AiTemplate rotp_platform

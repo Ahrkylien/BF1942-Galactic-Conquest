@@ -1,0 +1,24 @@
+ObjectTemplate.create Rotationalbundle tatooinebus
+ObjectTemplate.setHasCollisionPhysics 0
+ObjectTemplate.setMinRotation 0/0/0
+ObjectTemplate.setMaxRotation 0/0/0
+ObjectTemplate.setMaxSpeed 40/0/0
+ObjectTemplate.setAcceleration 15/0/0
+ObjectTemplate.sethascollisionphysics 1
+ObjectTemplate.addtemplate tatooinebus2
+ObjectTemplate.setposition 0/0/0
+ObjectTemplate.setContinousRotationSpeed 1.25/0/0
+
+ObjectTemplate.create rotationalbundle tatooinebus2
+ObjectTemplate.setHasCollisionPhysics 0
+ObjectTemplate.setMinRotation 0/0/0
+ObjectTemplate.setMaxRotation 0/0/0
+ObjectTemplate.setMaxSpeed 40/0/0
+ObjectTemplate.setAcceleration 15/0/0
+ObjectTemplate.addtemplate bespin_cloudbusSimplebundle
+ObjectTemplate.setposition 800/0/0
+ObjectTemplate.setContinousRotationSpeed -1.25/0/0
+
+ObjectTemplate.create bundle bespin_cloudbusSimplebundle
+ObjectTemplate.addtemplate bespin_cloudbusSimple
+ObjectTemplate.loadSoundScript tatooinebus.ssc

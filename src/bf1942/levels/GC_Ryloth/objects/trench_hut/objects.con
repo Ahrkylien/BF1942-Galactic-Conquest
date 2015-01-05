@@ -1,0 +1,5 @@
+ObjectTemplate.create SimpleObject trench_hut
+ObjectTemplate.geometry trench_hut
+ObjectTemplate.setHasCollisionPhysics 1
+objectTemplate.cullRadiusScale 3.0
+ObjectTemplate.aiTemplate myobject

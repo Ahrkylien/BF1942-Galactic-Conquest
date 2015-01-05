@@ -140,7 +140,7 @@ rem ---  airtransport_spawn  ---
 rem ----------------------------------------- 
 ObjectTemplate.create ObjectSpawner airtransport_spawn
 ObjectTemplate.setObjectTemplate 1 epsilon
-ObjectTemplate.setObjectTemplate 2 repgun2
+ObjectTemplate.setObjectTemplate 2 repgun
 ObjectTemplate.MinSpawnDelay 60
 ObjectTemplate.MaxSpawnDelay 75
 ObjectTemplate.SpawnDelayAtStart 0
