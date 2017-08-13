@@ -1,8 +1,10 @@
 subshader "tat_chubstand_Material0" "StandardMesh/Default"
 {
 	lighting true;
-	lightingSpecular false;
-	materialDiffuse 1.0 1.0 1.0;
+	ightingSpecular true;
+	materialDiffuse 0.5 0.5 0.5;
+	materialSpecular 1 1 1;
+	envmap true;
 	texture "texture/Buildings/Tatooine/tat_chub";
 }
 

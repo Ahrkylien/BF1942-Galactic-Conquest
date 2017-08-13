@@ -4,6 +4,6 @@ subshader "ctown_walkway10_rails_Material0" "StandardMesh/Default"
 	lightingSpecular false;
 	materialDiffuse 0.588 0.588 0.588;
 	twosided true;
-	texture "texture/Buildings/Bespin/ctown_building_id1";
+	texture "texture/Buildings/Bespin/ctown_building_id7";
 }
 

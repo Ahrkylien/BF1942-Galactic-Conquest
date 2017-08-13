@@ -1,16 +1,19 @@
 subshader "skyhopper_low_Material0" "StandardMesh/Default"
 {
 	lighting true;
+	materialDiffuse 1 1 1;
 	lightingSpecular false;
-	materialDiffuse 0.588 0.588 0.588;
+	materialSpecular 0.8 0.8 0.8;
+	materialSpecularPower 4.0;
+	envmap true;
 	texture "texture/Vehicles/Skyhopper/skyhopper";
 }
 
 subshader "skyhopper_low_Material1" "StandardMesh/Default"
 {
 	lighting true;
-	lightingSpecular true;
-	materialDiffuse 0.588235 0.588235 0.588235;
+	materialDiffuse 1 1 1;
+	lightingSpecular false;
 	materialSpecular 0.8 0.8 0.8;
 	materialSpecularPower 4.0;
 	envmap true;
@@ -20,8 +23,11 @@ subshader "skyhopper_low_Material1" "StandardMesh/Default"
 subshader "skyhopper_low_Material2" "StandardMesh/Default"
 {
 	lighting true;
+	materialDiffuse 1 1 1;
 	lightingSpecular false;
-	materialDiffuse 0.588 0.588 0.588;
+	materialSpecular 0.8 0.8 0.8;
+	materialSpecularPower 4.0;
+	envmap true;
 	texture "texture/Vehicles/Skyhopper/skyhopper_gun";
 }
 

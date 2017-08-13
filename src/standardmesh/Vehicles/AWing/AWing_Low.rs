@@ -1,8 +1,12 @@
 subshader "AWing_Low_Material0" "StandardMesh/Default"
 {
 	lighting true;
-	lightingSpecular false;
-	materialDiffuse 0.588 0.588 0.588;
+	materialDiffuse 0.588235 0.588235 0.588235;
+	lightingSpecular true;
+	materialSpecular 0.5 0.5 0.5;
+	materialSpecularPower 1.0;
+        twosided false;
+	envmap true;
 	texture "texture/Vehicles/AWing/awing_low";
 }
 

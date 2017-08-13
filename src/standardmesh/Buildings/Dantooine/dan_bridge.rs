@@ -22,3 +22,13 @@ subshader "dan_bridge_Material2" "StandardMesh/Default"
 	texture "texture/buildings/dantooine/base02";
 }
 
+subshader "dan_bridge_Material3" "StandardMesh/Default"
+{
+	lighting false;
+	lightingSpecular true;
+	materialDiffuse 1.0 1.0 1.0;
+	materialSpecular 0.8 0.8 0.8;
+	materialSpecularPower 1.0;
+	texture "texture/buildings/dantooine/base01";
+}
+

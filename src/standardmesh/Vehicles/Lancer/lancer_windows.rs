@@ -1,10 +1,10 @@
 subshader "lancer_windows_Material0" "StandardMesh/Default"
 {
 	lighting true;
-	lightingSpecular false;
-	materialDiffuse 0.588235 0.588235 0.588235;
-	transparent true;
+	envmap true;
+	materialDiffuse 1.0 1.0 1.0;
+	transparent false;
+	depthWrite false;
 	texture "texture/Vehicles/Lancer/Transparent";
-      depthWrite false;
 }
 

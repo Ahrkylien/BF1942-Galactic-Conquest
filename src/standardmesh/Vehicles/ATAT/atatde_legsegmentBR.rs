@@ -1,4 +1,4 @@
-subshader "atatde_legsegment_Material0" "StandardMesh/Default"
+subshader "atatde_legsegmentBR_Material0" "StandardMesh/Default"
 {
 	lighting true;
 	lightingSpecular false;

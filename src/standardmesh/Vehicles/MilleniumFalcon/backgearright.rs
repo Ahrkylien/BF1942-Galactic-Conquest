@@ -1,9 +1,10 @@
 subshader "backgearright_Material0" "StandardMesh/Default"
 {
 	lighting true;
-	lightingSpecular true;
 	materialDiffuse 1 1 1;
-	materialSpecular 0.12549 0.12549 0.12549;
-	materialSpecularPower 12.5;
+	lightingSpecular false;
+	materialSpecular 0.8 0.8 0.8;
+	materialSpecularPower 4.0;
+	envmap true;
 	texture "texture/Vehicles/MilleniumFalcon/Image1";
 }

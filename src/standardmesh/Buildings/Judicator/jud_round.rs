@@ -12,24 +12,27 @@ subshader "jud_round_Material0" "StandardMesh/Default"
 subshader "jud_round_Material1" "StandardMesh/Default"
 {
 	lighting true;
-	lightingSpecular false;
-	materialDiffuse 1.0 0.0862745 0.882353;
+	materialDiffuse 0.588235 0.588235 0.588235;
+	envmap true;
+	lightingSpecular true;
 	texture "texture/buildings/judicator/jud_floornospec";
 }
 
 subshader "jud_round_Material2" "StandardMesh/Default"
 {
 	lighting true;
-	lightingSpecular false;
-	materialDiffuse 0.588235 0.588235 0.796079;
+	materialDiffuse 0.588235 0.588235 0.588235;
+	envmap true;
+	lightingSpecular true;
 	texture "texture/buildings/judicator/jud_pipe";
 }
 
 subshader "jud_round_Material3" "StandardMesh/Default"
 {
 	lighting true;
-	lightingSpecular false;
-	materialDiffuse 0.65098 0.588235 0.596078;
+	materialDiffuse 0.588235 0.588235 0.588235;
+	envmap true;
+	lightingSpecular true;
 	texture "texture/buildings/judicator/jud_wall01";
 }
 

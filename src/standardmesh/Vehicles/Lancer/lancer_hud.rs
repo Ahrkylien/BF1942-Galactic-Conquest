@@ -1,6 +1,6 @@
 subshader "01 - Default" "StandardMesh/Default"
 {
-	lighting true;
+	lighting false;
 	materialDiffuse 1 1 1;
 	lightingSpecular false;
         transparent true;

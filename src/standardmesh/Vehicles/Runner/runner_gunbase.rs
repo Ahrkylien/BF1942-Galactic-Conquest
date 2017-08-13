@@ -1,24 +1,33 @@
 subshader "runner_gunbase_Material0" "StandardMesh/Default"
 {
 	lighting true;
-	lightingSpecular false;
-	materialDiffuse 0.67451 0.647059 0.505882;
-	texture "texture/buildings/tanaab/tan_frig01";
+	materialDiffuse 1 1 1;
+	lightingSpecular true;
+	materialSpecular 0.8 0.8 0.8;
+	materialSpecularPower 16.0;
+	envmap false;
+	texture "texture/vehicles/runner/mainhull";
 }
 
 subshader "runner_gunbase_Material1" "StandardMesh/Default"
 {
 	lighting true;
-	lightingSpecular false;
-	materialDiffuse 1.0 0.0 0.0;
-	texture "texture/buildings/tanaab/tan_frig02";
+	materialDiffuse 1 1 1;
+	lightingSpecular true;
+	materialSpecular 0.8 0.8 0.8;
+	materialSpecularPower 16.0;
+	envmap false;
+	texture "texture/vehicles/runner/redstripe";
 }
 
 subshader "runner_gunbase_Material2" "StandardMesh/Default"
 {
 	lighting true;
-	lightingSpecular false;
-	materialDiffuse 0.588 0.588 0.588;
+	materialDiffuse 1 1 1;
+	lightingSpecular true;
+	materialSpecular 0.8 0.8 0.8;
+	materialSpecularPower 16.0;
+	envmap false;
 	texture "texture/vehicles/runner/tan_runner01";
 }
 

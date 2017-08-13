@@ -1,24 +1,33 @@
 subshader "ctown_building4_Material0" "StandardMesh/Default"
 {
-	lighting false;
-	lightingSpecular false;
-	materialDiffuse 1.0 1.0 1.0;
+	lighting true;
+	materialDiffuse 0.588235 0.588235 0.588235;
+	lightingSpecular true;
+	materialSpecular 0.8 0.8 0.8;
+	materialSpecularPower 4.0;
+	envmap true;
 	texture "texture/Buildings/Bespin/ctown_building_id1";
 }
 
 subshader "ctown_building4_Material1" "StandardMesh/Default"
 {
-	lighting false;
-	lightingSpecular false;
-	materialDiffuse 1.0 1.0 1.0;
+	lighting true;
+	materialDiffuse 0.588235 0.588235 0.588235;
+	lightingSpecular true;
+	materialSpecular 0.8 0.8 0.8;
+	materialSpecularPower 4.0;
+	envmap true;
 	texture "texture/Buildings/Bespin/ctown_building_id7";
 }
 
 subshader "ctown_building4_Material2" "StandardMesh/Default"
 {
 	lighting false;
-	lightingSpecular false;
-	materialDiffuse 1.0 1.0 1.0;
+	materialDiffuse 0.588235 0.588235 0.588235;
+	lightingSpecular true;
+	materialSpecular 0.8 0.8 0.8;
+	materialSpecularPower 4.0;
+	envmap true;
 	texture "texture/Buildings/Bespin/ctown_building_id4";
 }
 

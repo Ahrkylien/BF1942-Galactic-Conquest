@@ -6,6 +6,7 @@ subshader "2 - Default" "StandardMesh/Default"
 	materialSpecular 1.0 1.0 1.0;
 	materialSpecularPower 10.0;
 	twosided true;
+	envmap true;
 	texture "texture/buildings/judicator/jud_armory";
 }
 

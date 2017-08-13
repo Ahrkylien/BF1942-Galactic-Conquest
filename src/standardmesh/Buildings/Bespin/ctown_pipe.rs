@@ -4,5 +4,5 @@ subshader "ctown_pipe_Material0" "StandardMesh/Default"
 	materialDiffuse 1 1 1;
 	lightingSpecular false;
         twosided True;
-	texture "texture/Buildings/Bespin/ctown_building_id1";
+	texture "texture/Buildings/Bespin/ctown_building_id1_pipe";
 }

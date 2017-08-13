@@ -12,16 +12,18 @@ subshader "jud_tramtunnel_Material0" "StandardMesh/Default"
 subshader "jud_tramtunnel_Material1" "StandardMesh/Default"
 {
 	lighting true;
-	lightingSpecular false;
-	materialDiffuse 1.0 0.0862745 0.882353;
+	materialDiffuse 0.588235 0.588235 0.588235;
+	envmap true;
+	lightingSpecular true;
 	texture "texture/buildings/judicator/jud_floornospec";
 }
 
 subshader "jud_tramtunnel_Material2" "StandardMesh/Default"
 {
 	lighting true;
-	lightingSpecular false;
-	materialDiffuse 0.243137 0.258824 0.505882;
+	materialDiffuse 0.588235 0.588235 0.588235;
+	envmap true;
+	lightingSpecular true;
 	texture "texture/buildings/judicator/jud_door02";
 }
 

@@ -1,9 +1,13 @@
 subshader "ewing_cockpit_Material0" "StandardMesh/Default"
 {
 	lighting true;
-	lightingSpecular false;
-      twosided true;
-	materialDiffuse 0.588235 0.588235 0.588235;
+	lightingSpecular true;
+	materialSpecular 0.5 0.5 0.5;
+	materialSpecularPower 1.5;
+        lightingSpecular true;
+	envmap true;
+        twosided true;
+	materialDiffuse 0.5 0.5 0.5;
 	texture "texture/vehicles/ewing/ewingcockpit";
 }
 

@@ -1,9 +1,14 @@
-subshader "7 - Default" "StandardMesh/Default"
+subshader "runner_pods_Material0" "StandardMesh/Default"
 {
 	lighting true;
-	lightingSpecular false;
-	materialDiffuse 1.0 1.0 1.0;
-      transparent true;
-      texture "texture/vehicles/runner/podwall";
+	lightingSpecular true;
+	materialDiffuse 0.588235 0.588235 0.588235;
+	materialSpecular 0.8 0.8 0.8;
+	materialSpecularPower 4.0;
+	transparent true;
+	depthWrite true;
+	twosided true;
+	envmap true;
+	texture "texture/vehicles/runner/podwall";
 }
 

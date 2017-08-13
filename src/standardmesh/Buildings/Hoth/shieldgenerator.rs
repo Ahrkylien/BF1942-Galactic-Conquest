@@ -1,7 +1,8 @@
 subshader "shieldgenerator_Material0" "StandardMesh/Default"
 {
 	lighting true;
-	materialDiffuse 0.588235 0.588235 0.588235;
 	lightingSpecular false;
+	materialDiffuse 0.588235 0.588235 0.588235;
 	texture "texture/buildings/hoth/shieldgenerator";
 }
+

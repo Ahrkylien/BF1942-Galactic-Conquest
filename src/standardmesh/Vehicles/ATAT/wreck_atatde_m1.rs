@@ -1,4 +1,4 @@
-subshader "atat_foot1_Material0" "StandardMesh/Default"
+subshader "wreck_atatde_m1_Material0" "StandardMesh/Default"
 {
 	lighting true;
 	lightingSpecular false;

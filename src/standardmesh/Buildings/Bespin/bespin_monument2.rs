@@ -14,6 +14,7 @@ subshader "bespin_monument2_Material1" "StandardMesh/Default"
         transparent true;
         depthWrite false;
 	materialDiffuse 1.0 1.0 1.0;
+	twosided true;
 	texture "texture/Buildings/Bespin/bespin_monument2_id3";
 }
 

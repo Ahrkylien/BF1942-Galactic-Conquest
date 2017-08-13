@@ -4,16 +4,19 @@ subshader "flagbase_m1_Material0" "StandardMesh/Default"
 	lightingSpecular false;
 	materialDiffuse 0.588235 0.588235 0.588235;
 	transparent true;
-      depthWrite false;
+        depthWrite false;
 	alphaTestRef 0.7;
-	texture "mods/gcmod/movies/flagbeam+alpha.tga";
+	texture "texture/flagbeam";
 }
 
 subshader "flagbase_m1_Material1" "StandardMesh/Default"
 {
 	lighting true;
+	materialDiffuse 0.588235 0.588235 0.588235;
 	lightingSpecular false;
-	materialDiffuse 0.588 0.588 0.588;
+	materialSpecular 0.5 0.5 0.5;
+	materialSpecularPower 4.0;
+	envmap true;
 	texture "texture/flagbase";
 }
 

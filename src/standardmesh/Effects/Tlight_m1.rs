@@ -1,10 +1,11 @@
-subshader "Tlight_m1_Material1" "StandardMesh/Default"
+subshader "Tlight_m1_Material0" "StandardMesh/Default"
 {
-	lighting false;
+	lighting true;
+	lightingSpecular false;
+	materialDiffuse 1.0 1.0 1.0;
 	transparent true;
-	blendSrc sourceAlpha; 
+	blendSrc sourceAlpha;
 	blendDest one;
-	depthWrite false;
 	alphaTestRef 0.4;
 	texture "texture/Effects/tracklight_s";
 }

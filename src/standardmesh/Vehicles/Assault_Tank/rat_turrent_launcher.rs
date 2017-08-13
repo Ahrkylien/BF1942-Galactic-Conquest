@@ -1,8 +1,8 @@
 subshader "rat_turrent_launcher_Material0" "StandardMesh/Default"
 {
 	lighting true;
-	lightingSpecular false;
-	materialDiffuse 0.588235 0.588235 0.588235;
+	envmap true;
+	materialDiffuse 1.0 1.0 1.0;
 	texture "texture/vehicles/Assault_Tank/rat_turret";
 }
 

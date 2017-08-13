@@ -1,4 +1,4 @@
-subshader "atatde_Lfoot_m1_Material0" "StandardMesh/Default"
+subshader "atatde_Rfoot_m1_Material0" "StandardMesh/Default"
 {
 	lighting true;
 	lightingSpecular false;

@@ -5,6 +5,7 @@ subshader "BactaTank_Material0" "StandardMesh/Default"
 	materialSpecular 0.117647 0.117647 0.117647;
 	materialSpecularPower 12.5;
         lightingSpecular true;
+	envmap true;
 	transparent true;
         twosided true;
 	texture "texture/Vehicles/BactaTank/BACTA_FINAL";

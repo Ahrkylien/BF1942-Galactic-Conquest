@@ -1,6 +1,6 @@
 subshader "lancer_powergun_hud_Material0" "StandardMesh/Default"
 {
-	lighting true;
+	lighting false;
 	materialDiffuse 1 1 1;
 	lightingSpecular false;
         transparent true;

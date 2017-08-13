@@ -2,7 +2,8 @@ subshader "wrench_m1_Material0" "StandardMesh/Default"
 {
 	lighting true;
 	lightingSpecular false;
-	materialDiffuse 0.588235 0.588235 0.588235;
+	materialDiffuse 1 1 1;
+	envmap true;
 	texture "texture/weapons/HS";
 }
 

@@ -10,7 +10,7 @@ subshader "static_runner_Material1" "StandardMesh/Default"
 {
 	lighting true;
 	lightingSpecular false;
-	materialDiffuse 1.0 0.0 0.0;
+	materialDiffuse 1.0 1.0 1.0;
 	texture "texture/vehicles/runner/redstripe";
 }
 

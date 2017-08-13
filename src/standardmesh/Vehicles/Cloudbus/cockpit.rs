@@ -4,5 +4,6 @@ subshader "cockpit_Material0" "StandardMesh/Default"
 	materialDiffuse 0.588235 0.588235 0.588235;
 	lightingSpecular false;
 	twosided true;
+	transparent true;
 	texture "texture/Vehicles/Cloudbus/cloudbus1_v2";
 }

@@ -1,7 +1,10 @@
 subshader "xwing_cockpit_v5_Material0" "StandardMesh/Default"
 {
 	lighting true;
-	materialDiffuse 0.588 0.588 0.588;
-	lightingSpecular false;
+	lightingSpecular true;
+	materialDiffuse 0.588235 0.588235 0.588235;
+	materialSpecular 0.8 0.8 0.8;
+	materialSpecularPower 4.0;
+	envmap true;
 	texture "texture/Vehicles/XWing/cockpit1_v2";
 }

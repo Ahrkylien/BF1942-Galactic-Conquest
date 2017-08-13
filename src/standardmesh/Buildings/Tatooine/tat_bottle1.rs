@@ -2,7 +2,9 @@ subshader "tat_bottle1_Material0" "StandardMesh/Default"
 {
 	lighting true;
 	materialDiffuse 1 1 1;
-	lightingSpecular false;
+	materialSpecular 0.1 0.1 0.1;
+	envmap true;
+	lightingSpecular true;
 	transparent true;
 	texture "texture/Buildings/Tatooine/bottle1";
 }
