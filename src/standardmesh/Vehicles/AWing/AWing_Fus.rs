@@ -21,3 +21,14 @@ subshader "AWing_Fus_Material1" "StandardMesh/Default"
 	texture "texture/Vehicles/AWing/awing";
 }
 
+subshader "AWing_Fus_Material2" "StandardMesh/Default"
+{
+	lighting true;
+	lightingSpecular true;
+	materialDiffuse 0.588 0.588 0.588;
+	materialSpecular 0.9 0.9 0.9;
+	materialSpecularPower 1.0;
+	envmap true;
+	texture "texture/Vehicles/AWing/awing_detail";
+}
+
