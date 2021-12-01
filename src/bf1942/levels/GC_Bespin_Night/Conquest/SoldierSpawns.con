@@ -1,0 +1,186 @@
+rem SoldierSpawns.con created by Battlecraft 1942
+rem (\Program Files\Battlefield 1942\Mods\GCMOD\bf1942\levels\GC_Bespin/conquest/SoldierSpawns.con)
+
+rem ----------------------------------------- 
+rem ---  Imperial_Platform_Spawn1  ---
+rem ----------------------------------------- 
+Object.create Imperial_Platform_Spawn1
+Object.absolutePosition 758.55/270.25/1004.39
+Object.rotation 90.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Imperial_Platform_Spawn2  ---
+rem ----------------------------------------- 
+Object.create Imperial_Platform_Spawn2
+Object.absolutePosition 771.93/268.29/994.33
+Object.rotation 90.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Imperial_Platform_Spawn3  ---
+rem ----------------------------------------- 
+Object.create Imperial_Platform_Spawn3
+Object.absolutePosition 772.36/268.30/1013.55
+Object.rotation 90.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Imperial_Platform_Spawn4  ---
+rem ----------------------------------------- 
+Object.create Imperial_Platform_Spawn4
+Object.absolutePosition 802.52/268.32/1011.94
+Object.rotation 270.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Imperial_Platform_Spawn5  ---
+rem ----------------------------------------- 
+Object.create Imperial_Platform_Spawn5
+Object.absolutePosition 802.42/268.32/996.38
+Object.rotation 270.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Rebel_Platform_Spawn1  ---
+rem ----------------------------------------- 
+Object.create Rebel_Platform_Spawn1
+Object.absolutePosition 1251.18/268.29/1004.33
+Object.rotation 270.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Rebel_Platform_Spawn2  ---
+rem ----------------------------------------- 
+Object.create Rebel_Platform_Spawn2
+Object.absolutePosition 1240.00/268.31/995.10
+Object.rotation 270.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Rebel_Platform_Spawn3  ---
+rem ----------------------------------------- 
+Object.create Rebel_Platform_Spawn3
+Object.absolutePosition 1240.28/268.31/1013.72
+Object.rotation 270.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Rebel_Platform_Spawn4  ---
+rem ----------------------------------------- 
+Object.create Rebel_Platform_Spawn4
+Object.absolutePosition 1210.15/268.32/1012.03
+Object.rotation 90.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Rebel_Platform_Spawn5  ---
+rem ----------------------------------------- 
+Object.create Rebel_Platform_Spawn5
+Object.absolutePosition 1209.69/268.32/996.21
+Object.rotation 90.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Imperial_Bridge_Spawn1  ---
+rem ----------------------------------------- 
+Object.create Imperial_Bridge_Spawn1
+Object.absolutePosition 874.11/280.42/962.86
+Object.rotation 90.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Imperial_Bridge_Spawn2  ---
+rem ----------------------------------------- 
+Object.create Imperial_Bridge_Spawn2
+Object.absolutePosition 892.59/279.29/962.61
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Imperial_Bridge_Spawn3  ---
+rem ----------------------------------------- 
+Object.create Imperial_Bridge_Spawn3
+Object.absolutePosition 857.07/280.42/958.07
+Object.rotation 90.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Imperial_Bridge_Spawn4  ---
+rem ----------------------------------------- 
+Object.create Imperial_Bridge_Spawn4
+Object.absolutePosition 860.64/280.41/990.70
+Object.rotation 180.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Rebel_Tower_Spawn1  ---
+rem ----------------------------------------- 
+Object.create Rebel_Tower_Spawn1
+Object.absolutePosition 1154.33/280.60/1045.93
+Object.rotation 270.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Rebel_Tower_Spawn2  ---
+rem ----------------------------------------- 
+Object.create Rebel_Tower_Spawn2
+Object.absolutePosition 1145.94/280.59/1054.11
+Object.rotation 270.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Rebel_Tower_Spawn3  ---
+rem ----------------------------------------- 
+Object.create Rebel_Tower_Spawn3
+Object.absolutePosition 1132.12/280.60/1027.55
+Object.rotation 32.31/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Rebel_Tower_Spawn4  ---
+rem ----------------------------------------- 
+Object.create Rebel_Tower_Spawn4
+Object.absolutePosition 1117.70/276.14/1047.76
+Object.rotation 90.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Central_Platform_Spawn1  ---
+rem ----------------------------------------- 
+Object.create Central_Platform_Spawn1
+Object.absolutePosition 1003.42/274.43/1038.97
+Object.rotation 226.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Central_Platform_Spawn2  ---
+rem ----------------------------------------- 
+Object.create Central_Platform_Spawn2
+Object.absolutePosition 1009.96/274.42/1028.64
+Object.rotation 37.32/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Central_Platform_Spawn4  ---
+rem ----------------------------------------- 
+Object.create Central_Platform_Spawn4
+Object.absolutePosition 993.22/274.43/1017.20
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Central_Platform_Spawn5  ---
+rem ----------------------------------------- 
+Object.create Central_Platform_Spawn5
+Object.absolutePosition 1019.62/274.42/1017.32
+Object.rotation 0.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Court_Yard_Spawn1  ---
+rem ----------------------------------------- 
+Object.create Court_Yard_Spawn1
+Object.absolutePosition 1005.93/251.83/925.19
+Object.rotation -90.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Court_Yard_Spawn2  ---
+rem ----------------------------------------- 
+Object.create Court_Yard_Spawn2
+Object.absolutePosition 1015.75/251.85/887.75
+Object.rotation 308.25/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Court_Yard_Spawn3  ---
+rem ----------------------------------------- 
+Object.create Court_Yard_Spawn3
+Object.absolutePosition 997.25/251.85/888.02
+Object.rotation 32.00/0.00/0.00
+
+rem ----------------------------------------- 
+rem ---  Court_Yard_Spawn4  ---
+rem ----------------------------------------- 
+Object.create Court_Yard_Spawn4
+Object.absolutePosition 1006.13/251.85/938.41
+Object.rotation 180.00/0.00/0.00
+
+rem EndOfFile

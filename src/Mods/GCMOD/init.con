@@ -1,9 +1,8 @@
 game.setCustomGameName GCMOD
 game.addModPath Mods/GCMOD/
 game.addModPath Mods/bf1942/
-game.customGameFlushArchives 0
-game.setCustomGameVersion 8.1
-game.setCustomGameUrl "www.galactic-conquest.net"
+game.setCustomGameVersion 8.4
+game.setCustomGameUrl "www.galacticconquest.rf.gd"
 
 game.setCustomGameInfo "GCMOD_INFO"
 

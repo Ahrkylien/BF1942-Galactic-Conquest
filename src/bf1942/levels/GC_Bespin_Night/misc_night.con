@@ -1,0 +1,93 @@
+GeometryTemplate.active bespin_tree1
+GeometryTemplate.file ../bf1942/levels/GC_Bespin_Night/Standardmesh/Buildings/Bespin/bespin_tree1
+
+REM ----
+
+GeometryTemplate.active Tlight_r1_m1
+GeometryTemplate.file ../bf1942/levels/GC_Bespin_Night/Standardmesh/Effects/Tlight_r1
+geometryTemplate.reload
+
+GeometryTemplate.active Tlight_r2_m1
+GeometryTemplate.file ../bf1942/levels/GC_Bespin_Night/Standardmesh/Effects/Tlight_r2
+geometryTemplate.reload
+
+GeometryTemplate.active Tlight_r3_m1
+GeometryTemplate.file ../bf1942/levels/GC_Bespin_Night/Standardmesh/Effects/Tlight_r3
+geometryTemplate.reload
+
+GeometryTemplate.active Tlight_g1_m1
+GeometryTemplate.file ../bf1942/levels/GC_Bespin_Night/Standardmesh/Effects/Tlight_g1
+geometryTemplate.reload
+
+GeometryTemplate.active Tlight_g2_m1
+GeometryTemplate.file ../bf1942/levels/GC_Bespin_Night/Standardmesh/Effects/Tlight_g2
+geometryTemplate.reload
+
+GeometryTemplate.active Tlight_b2_m1
+GeometryTemplate.file ../bf1942/levels/GC_Bespin_Night/Standardmesh/Effects/Tlight_b2
+geometryTemplate.reload
+
+GeometryTemplate.active Tlight_g3_m1
+GeometryTemplate.file ../bf1942/levels/GC_Bespin_Night/Standardmesh/Effects/Tlight_g3
+geometryTemplate.reload
+
+GeometryTemplate.active tracklight_m1
+GeometryTemplate.file ../bf1942/levels/GC_Bespin_Night/Standardmesh/Effects/tracklight_m1
+geometryTemplate.reload
+
+GeometryTemplate.active TLight_m1
+GeometryTemplate.file ../bf1942/levels/GC_Bespin_Night/Standardmesh/Effects/TLight_m1
+geometryTemplate.reload
+
+REM ---
+
+GeometryTemplate.active Cloudcar_Engine_FX
+GeometryTemplate.file ../bf1942/levels/GC_Bespin_Night/Standardmesh/MOVE_FILES/Cloudcar_Engine_FX
+geometryTemplate.reload
+
+GeometryTemplate.active A_Wing_Engine_FX
+GeometryTemplate.file ../bf1942/levels/GC_Bespin_Night/Standardmesh/MOVE_FILES/A_Wing_Engine_FX
+geometryTemplate.reload
+
+GeometryTemplate.active e_Incom_4L4_Fusial_Thrust_Engine_m1
+GeometryTemplate.file ../bf1942/levels/GC_Bespin_Night/Standardmesh/MOVE_FILES/e_Incom_4L4_Fusial_Thrust_Engine_m1
+geometryTemplate.reload
+
+GeometryTemplate.active Big_Bomb_M1
+GeometryTemplate.file ../bf1942/levels/GC_Bespin_Night/Standardmesh/MOVE_FILES/Big_Bomb_M1
+geometryTemplate.reload
+
+GeometryTemplate.active flagbase_m1
+GeometryTemplate.file ../bf1942/levels/GC_Bespin_Night/Standardmesh/flagbase_m1
+geometryTemplate.reload
+
+GeometryTemplate.active flagge_m1
+GeometryTemplate.file ../bf1942/levels/GC_Bespin_Night/Standardmesh/flagge_m1
+geometryTemplate.reload
+
+GeometryTemplate.active flagus_m1
+GeometryTemplate.file ../bf1942/levels/GC_Bespin_Night/Standardmesh/flagus_m1
+geometryTemplate.reload
+
+REM ----
+
+GeometryTemplate.active GasMine_TowerTop
+GeometryTemplate.file ../bf1942/levels/GC_Bespin_Night/Standardmesh/Buildings/Bespin/GasMine_TowerTop
+
+GeometryTemplate.active GasMine_TowerBottom
+GeometryTemplate.file ../bf1942/levels/GC_Bespin_Night/Standardmesh/Buildings/Bespin/GasMine_TowerBottom
+
+GeometryTemplate.active GasMine_Bottom
+GeometryTemplate.file ../bf1942/levels/GC_Bespin_Night/Standardmesh/Buildings/Bespin/GasMine_Bottom
+
+GeometryTemplate.active GasMine_LL
+GeometryTemplate.file ../bf1942/levels/GC_Bespin_Night/Standardmesh/Buildings/Bespin/GasMine_LL
+
+GeometryTemplate.active GasMine_LR
+GeometryTemplate.file ../bf1942/levels/GC_Bespin_Night/Standardmesh/Buildings/Bespin/GasMine_LR
+
+GeometryTemplate.active GasMine_UL
+GeometryTemplate.file ../bf1942/levels/GC_Bespin_Night/Standardmesh/Buildings/Bespin/GasMine_UL
+
+GeometryTemplate.active GasMine_UR
+GeometryTemplate.file ../bf1942/levels/GC_Bespin_Night/Standardmesh/Buildings/Bespin/GasMine_UR

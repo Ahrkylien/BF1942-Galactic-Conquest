@@ -1,0 +1,40 @@
+rem ControlPoints.con created by Battlecraft 1942
+rem (\Program Files\Battlefield 1942\Mods\GCMOD\bf1942\levels\GC_Bespin/conquest/ControlPoints.con)
+
+rem ----------------------------------------- 
+rem ---  Imperial_Platform  ---
+rem ----------------------------------------- 
+Object.create Imperial_Platform
+Object.absolutePosition 772.13/268.30/1004.27
+
+rem ----------------------------------------- 
+rem ---  Rebel_Platform  ---
+rem ----------------------------------------- 
+Object.create Rebel_Platform
+Object.absolutePosition 1240.58/268.30/1004.27
+
+rem ----------------------------------------- 
+rem ---  Imperial_Bridge  ---
+rem ----------------------------------------- 
+Object.create Imperial_Bridge
+Object.absolutePosition 881.92/279.83/962.78
+
+rem ----------------------------------------- 
+rem ---  Rebel_Tower  ---
+rem ----------------------------------------- 
+Object.create Rebel_Tower
+Object.absolutePosition 1147.12/280.30/1045.96
+
+rem ----------------------------------------- 
+rem ---  Central_Platform  ---
+rem ----------------------------------------- 
+Object.create Central_Platform
+Object.absolutePosition 1006.12/274.4/1045.39
+
+rem ----------------------------------------- 
+rem ---  Court_Yard  ---
+rem ----------------------------------------- 
+Object.create Court_Yard
+Object.absolutePosition 1006.00/251.68/913.11
+
+rem EndOfFile

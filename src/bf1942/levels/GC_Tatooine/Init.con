@@ -3,8 +3,8 @@ rem **** Initialize level specific rendering settings.
 rem
 ShaderManager.setTextureParam envmap bf1942\levels\GC_Tatooine\Textures\ENVMAP_G_.rcm
 renderer.vertexFogEnable 1
-renderer.fogLinearStart -1000
-renderer.fogLinearEnd 750
+renderer.fogLinearStart 1600
+renderer.fogLinearEnd 3000
 
 rem renderer.fogColorVec 0.96/0.84/0.55
 
@@ -22,7 +22,7 @@ shadow.shadowColor 0.5
 
 textureManager.alternativePath ../../bf1942/levels/GC_Tatooine/Textures/Sky
 
-Game.setViewDistance 750
+Game.setViewDistance 3000
 Game.spawnPlayers 1
 
 rem 

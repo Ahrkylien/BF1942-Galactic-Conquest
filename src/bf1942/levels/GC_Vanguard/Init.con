@@ -3,8 +3,8 @@ rem **** Initialize level specific rendering settings.
 rem
 ShaderManager.setTextureParam envmap bf1942\levels\GC_Vanguard\Textures\ENVMAP_G_.rcm
 renderer.vertexFogEnable 1
-renderer.fogLinearStart 800
-renderer.fogLinearEnd 1500
+renderer.fogLinearStart 1600
+renderer.fogLinearEnd 3000
 renderer.fogColorVec 0/0/0
 renderer.globalLodPercent 1
 renderer.globalAmbientColor .2/.2/.2
@@ -18,7 +18,7 @@ shadow.shadowColor 1
 
 textureManager.alternativePath ../../bf1942/levels/GC_Vanguard/Textures/Sky
 
-Game.setViewDistance 1500
+Game.setViewDistance 3000
 Game.spawnPlayers 1
 
 rem 

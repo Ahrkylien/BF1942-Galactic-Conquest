@@ -1,3 +1,125 @@
+Galactic Conquest Release 8.4:
+------------------------------
+- Repacked the 8.3 archives to a smaller format.
+- Removed Bedroom and Sandbox maps
+- Added GC_Bespin_Night map
+- Increased fog-distance for:
+	GC_Tatooine
+	GC_Tanaab
+	GC_Taskforce
+	GC_Vanguard
+- Removed the outdated manual
+- Removed several unused bik/avi files
+
+
+Galactic Conquest Release 8.3:
+------------------------------
+This was a purely graphic mod. This patch is compatible with 8.1 
+
+
+
+Galactic Conquest Release 8.2:
+------------------------------
+This was a purely graphic mod. This patch is compatible with 8.1 
+
+
+
+Galactic Conquest Release 8.1:
+------------------------------
+
+PATCH NOTES
+
+[MAPS]
+
+Alaris Prime
+ - Cap Time for Ion Cannon Base has been reduced to 10 seconds
+ - Imperial Player model changed to scout.
+ - Changed Fog and view distance to match new environment.
+ - Replaced Trolleys with vehicles more suited for the terrain.
+ - Fixed the height map to remove the "Bump of Death" on the hill up to the ion cannon base.  
+ - Grenades on Alaris Prime have been removed due to excessive frag spam.
+ - Sky and fog settings have been changed to correct a mismatch of character color diffusion.
+ - New Loading Screen.
+Corellia
+ - The Scimitar has been removed from the rebel base, and replaced with the Falcon
+Deathstar I
+ - Objective is no longer limited by a “bleed”, per se.  
+Endor
+ - Still in the package, but not recommended for rotation, due to an unknown crash bug. Much of the textures have been re-skinned to have a better appearance.
+Hoth
+ - Each ATAT is now an individual selectable spawn.
+ - The Millennium Falcon, nor the ATAT can be used by the opposing team. 
+ - You must now take off the falcon with hyper-drive. (ALT Fire)
+ - You can now enter the AT-AT from the ground
+Judicator
+ - Secret entrance now has a ladder so players don’t fall and take damage …or die.
+Judicator Push
+ - Checkpoint 3 has been adjusted so that it is no longer recapture-able by the imperials. 
+ - Hidden Sniper rifles have been removed due to being an unfair advantage.
+ - Flag barrier walls no longer cause damage when bumped in to.
+Mos Eisley
+ - Fixed a bug causing a character to die on a spawn.
+Tanaab
+ - "Ground" turrets can no longer be used by the opposing faction to destroy in game objectives.
+Tatooine
+ - Reduced map size
+ - New Vehicles
+ - Better Layout
+Vanguard
+ - The Tie Defender has been removed.
+Wayfar
+ - Grenades on Wayfar have been removed due to excessive frag spam
+
+New Maps
+ - Mini_Hoth – Snowy Assault Mini-Map
+ - Mini_Cove has been re-instated (mon-cal island based combat minimap)
+ - Mini_Wasteland has been re-instated (Name is self-explanatory of the map)
+Discontinued Maps
+ - Kessel has been removed due to imbalance in vehicle relationships, and poor map design.
+ - Sakiya has been removed until further notice due to a lack of vehicles, incomplete content, various bugs, ticketing issues, and poor layout
+ - Aberdeen was removed due to not being a full conversion
+
+[VEHICLES]
+ - Fixed a bug causing all X-Wings to spawn with only 65% Health
+ - Hyper drive was added to their respective vehicles. This can be activated by using the alternate fire on some air vehicles.
+ - You can now enter the AT-AT from the ground.
+ - Land Speeders have now been coded for better handling.
+ - Vehicles can no longer be captured and piloted by the opposing faction (only on certain maps, due to balance issues).
+ - Fixed a bug causing mouse droids to inflict damage of grenade caliber to nearby players upon destruction.
+ - Sand Crawler camera has been altered to allow for better visibility while driving.
+ - T-3BA 1st person camera has been fixed so the player can see where they are driving.
+ - M.I.A.U. camera has been altered to allow better visibility of where you are shooting.
+ - Assault Tanks can now rotate guns 360 degrees. 
+
+[CLASS CHANGES]
+ - Expacks have been removed from certain space maps, as they were not needed and only used for spawn killing.
+ - Grenade count has been increased to the standard 3 grenades.
+ - Medic now has 3 Smoke Grenades. (Up From Two)
+ - Medic Smoke bomb release time has been reduced to 20 seconds. 
+ - Engineer Shields now last 4 minutes.
+ - Engineer Shields no longer fall through objects.
+ - Engineer Shields no longer cause damage to players passing through them
+
+[MECHANICS]
+ - Collision was added to the Star port model to prevent wall clipping and exploits.
+ - Added a ladder in the star port attached to the overlook.
+ - Fixed a bug in the scoring system which gave players 10 points for each death.
+ - Scoring system was reset to the classic mechanic of 1 per kill 5 per base, to increase player teamwork.
+ - Vaporators now have their respective textures.
+ - Ticket amounts have been equalized to offset disproportionality between maps.
+
+[FURTHER NOTES]
+ - Much of the Object, Standard Mesh, and texture cache have been pruned to conserve space.
+ - Server version developed.
+
+8.1 Developed by: {NoC}Kurosaji and {NoC}Sicarius
+Special Thanks to Reegad, Ninth_eye, and Apache Thunder
+Of course, thanks to the Testers.
+
+
+
+
+
 Galactic Conquest Release 5.3:
 ------------------------------
 
