@@ -14,7 +14,7 @@ GeometryTemplate.texOffsetY 0
 GeometryTemplate.detailTexName bf1942\levels\GC_Tatooine\Textures\Detail
 GeometryTemplate.waterLevel 0
 GeometryTemplate.seaFloorLevel 0
-GeometryTemplate.lodDistance 2000
+GeometryTemplate.lodDistance 3000
 
 Water.baseTex texture/Water
 
@@ -32,46 +32,3 @@ Console.worldSize 4096
 Terrain.ShadowAmbient 80/80/90
 Terrain.ShadowBorderFadeTime 0.075
 Terrain.ShadowSamplingCullY 15
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -1,10 +1,10 @@
 game.setCustomGameName GCMOD
 game.addModPath Mods/GCMOD/
 game.addModPath Mods/bf1942/
-game.setCustomGameVersion 8.4
+game.setCustomGameVersion 8.5
 game.setCustomGameUrl "www.galacticconquest.rf.gd"
 
-game.setCustomGameInfo "GCMOD_INFO"
+game.setCustomGameInfo "It is a period of civil war.  The Galactic Empire faces a constant threat from Rebel forces, who wish to to bring freedom to all those oppressed by the Empire.  You must choose whether your allegiance lies with the Empire, or with the underdog Rebels.  Imperials : Get those Rebel scum!  Rebels: May the Force be with you."
 
 Game.setMenuMusicFilename "music/slaughter4.bik"
 Game.setLoadMusicFilename "music/vehicle4.bik"

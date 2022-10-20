@@ -1,3 +1,14 @@
+Galactic Conquest Release 8.5:
+------------------------------
+- Changed GC_Bespin_Night minimap
+- Changed GC_Tatooine sky texture, terrain details and fog color
+- Changed Alaris Prime Load Screen
+- Added CTF support (radio and icons)
+- Changed vehicle names to a more appealing and consistent format (via lexiconAll.dat)
+- Replaced Videos for terminal PC's on Alaris and Endor
+- Added moving textures for the podracers
+
+
 Galactic Conquest Release 8.4:
 ------------------------------
 - Repacked the 8.3 archives to a smaller format.

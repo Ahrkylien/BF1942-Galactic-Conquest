@@ -1,73 +1,53 @@
 ###########################
-### Axis team stole flag ###
+### team 1 stole flag ###
 ###########################
 newPatch
-load @ROOT/Sound/@RTD/@Language/AxisStoleFlag.wav
-load @ROOT/Sound/@RTD/@Language/AxisStoleFlagALT.wav
+load @ROOT/Sound/44khz/@Language/Team1StoleFlag.wav
 
 randomPlay 1
 priority 11
 
 ############################
-### Allied team stole flag ###
+### team 2 stole stole flag ###
 ############################
 newPatch
-load @ROOT/Sound/@RTD/@Language/AlliedStoleFlag.wav
-load @ROOT/Sound/@RTD/@Language/AlliedStoleFlagALT.wav
+load @ROOT/Sound/44khz/@Language/Team2StoleFlag.wav
 
 randomPlay 1
 priority 11
 
 ##################################
-### Axis team captured the flag ###
+### team 1 captured the flag ###
 ##################################
 newPatch
-load @ROOT/Sound/@RTD/@Language/AxisCapturedEnemyFlag.wav
-load @ROOT/Sound/@RTD/@Language/AxisCapturedEnemyFlagALT.wav
+load @ROOT/Sound/44khz/@Language/Team1CapturedEnemyFlag.wav
 
 randomPlay 1
 priority 11
 	
 ###################################
-### Allied team captured the flag ###
+### team 2 captured the flag ###
 ###################################
 newPatch
-load @ROOT/Sound/@RTD/@Language/AlliedCapturedEnemyFlag.wav
-load @ROOT/Sound/@RTD/@Language/AlliedCapturedEnemyFlagALT.wav
+load @ROOT/Sound/44khz/@Language/Team2CapturedEnemyFlag.wav
 
 randomPlay 1
 priority 11
 
 ##################################
-### Axis team returned the flag ###
+### team 1 returned the flag ###
 ##################################
 newPatch
-load @ROOT/Sound/@RTD/@Language/AxisRecoveredFlag.wav
-load @ROOT/Sound/@RTD/@Language/AxisRecoveredFlagALT.wav
+load @ROOT/Sound/44khz/@Language/Team1RecoveredFlag.wav
 
 randomPlay 1
 priority 11
 
 ###################################
-### Allied team returned the flag ###
+### team 2 returned the flag ###
 ###################################
 newPatch
-load @ROOT/Sound/@RTD/@Language/AlliedRecoveredFlag.wav
-load @ROOT/Sound/@RTD/@Language/AlliedRecoveredFlagALT.wav
+load @ROOT/Sound/44khz/@Language/Team2RecoveredFlag.wav
 
 randomPlay 1
-priority 11
-
-##################################
-### Axis team dropped the flag ###
-##################################
-newPatch
-load @ROOT/Sound/@RTD/@Language/AxisRecoveredFlag.wav
-priority 11
-	
-###################################
-### Allied team dropped the flag ###
-###################################
-newPatch
-load @ROOT/Sound/@RTD/@Language/AlliedRecoveredFlag.wav
 priority 11

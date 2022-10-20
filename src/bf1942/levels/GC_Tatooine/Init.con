@@ -8,7 +8,10 @@ renderer.fogLinearEnd 3000
 
 rem renderer.fogColorVec 0.96/0.84/0.55
 
-renderer.fogColorVec .95/.95/.95
+rem renderer.fogColorVec .95/.95/.95
+
+rem new fog: C9A369
+renderer.fogColorVec 0.78823529411/0.63921568627/0.41176470588
 
 renderer.globalLodPercent 1
 renderer.globalAmbientColor .2/.2/.2
@@ -20,7 +23,7 @@ textureManager.alternativePath Texture/Europe
 
 shadow.shadowColor 0.5
 
-textureManager.alternativePath ../../bf1942/levels/GC_Tatooine/Textures/Sky
+textureManager.alternativePath bf1942/Levels/GC_Tatooine/Textures/Sky
 
 Game.setViewDistance 3000
 Game.spawnPlayers 1
@@ -92,41 +95,3 @@ rem *** Set team 1 ***
 game.setBeforeSpawnCameraPosition 1 1000/150/30
 rem *** Set team 2 ***
 game.setBeforeSpawnCameraPosition 2 1000/150/30
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

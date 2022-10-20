@@ -103,17 +103,17 @@ GeometryTemplate.create StandardMesh SkyBox
 GeometryTemplate.file Sky_Bocage_m1
 Sky.initSky
 
-** Clouds
-GeometryTemplate.create StandardMesh Cloud
-GeometryTemplate.file cloud
+rem ** Clouds
+rem GeometryTemplate.create StandardMesh Cloud
+rem GeometryTemplate.file cloud
 
-Sky.addCloud
-Cloud.setName cloud_0
-Cloud.setSrcBlend BMSourceAlpha
-Cloud.setDstBlend BMInvSourceAlpha
-Cloud.setTexScale 8
-Cloud.setSpeed -0.03 0.015
-Cloud.setHeight 3500
+rem Sky.addCloud
+rem Cloud.setName cloud_0
+rem Cloud.setSrcBlend BMSourceAlpha
+rem Cloud.setDstBlend BMInvSourceAlpha
+rem Cloud.setTexScale 8
+rem Cloud.setSpeed -0.03 0.015
+rem Cloud.setHeight 3500
 
 Sky.changeOfsCloudHeight 2500
 Sky.changeOfsCloudDist 333
@@ -125,101 +125,3 @@ sky.changeOfsSkyHeight 0
 Sky.setRotAngle 180
 sky.sunLightDirectionVec -1/0.467/0.1
 TextureManager.mipmaps 1
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

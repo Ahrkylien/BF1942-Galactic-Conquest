@@ -1,8 +1,3 @@
-rem StaticObjects created by Battlecraft 1942
-rem
-rem ***  ***
-rem
-
 Object.create bespin_light1
 Object.absolutePosition 1006.11/279/1033.40
 Object.rotation 0.00/0.00/0.00
