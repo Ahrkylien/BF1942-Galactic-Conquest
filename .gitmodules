@@ -1,0 +1,3 @@
+[submodule "build/BF1942_Extraction_Readout_Scripts"]
+	path = build/BF1942_Extraction_Readout_Scripts
+	url = https://github.com/Ahrkylien/BF1942-Extraction-Readout-Scripts
