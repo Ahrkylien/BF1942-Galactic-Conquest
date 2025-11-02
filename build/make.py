@@ -2,6 +2,7 @@ import os
 import sys
 import shutil
 from BF1942_Extraction_Readout_Scripts.refractor_flat_archive import RefractorFlatArchive
+from BF1942_Extraction_Readout_Scripts.lexicon import LexiconFile
 
 mod_name = "GCMOD"
 
@@ -35,3 +36,9 @@ for archive_path in archive_paths:
     rfa.write(rfa_file_path)
 
 shutil.copytree(f"{src_folder_path}/Mods/{mod_name}", mod_name, dirs_exist_ok=True)
+
+# convert lexiconAll.xml to lexiconAll.dat
+if os.path.isfile(f"{mod_name}/lexiconAll.xml"):
+    lex = LexiconFile(f"{mod_name}/lexiconAll.dat")
+    lex.load_from_xml()
+    lex.write()
