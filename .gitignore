@@ -1,3 +1,11 @@
 build/GCMOD/*
 
+# Ignore all files in src/ (non-recursive)
+src/*
+# But do not ignore subdirectories
+!src/*/
+# But ignore the bf1942 mod and the cache folder
+src/Mods/bf1942/*
+src/cache/*
+
 */__pycache__/*
