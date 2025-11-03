@@ -13,7 +13,7 @@ game_rfa_path = f"{src_folder_path}/bf1942/game.rfa"
 
 level_paths = [f"{levels_folder_path}/{name}" for name in os.listdir(levels_folder_path)]
 mod_archive_paths = [f"{src_folder_path}/{name}" for name in os.listdir(src_folder_path) if not name in ["bf1942", "Mods"]]
-if os.path.isdir(game_rfa_path):
+if os.path.isfile(game_rfa_path):
     mod_archive_paths.append(f"{src_folder_path}/bf1942/game")
 
 archive_paths = mod_archive_paths + level_paths
@@ -38,7 +38,9 @@ for archive_path in archive_paths:
 shutil.copytree(f"{src_folder_path}/Mods/{mod_name}", mod_name, dirs_exist_ok=True)
 
 # convert lexiconAll.xml to lexiconAll.dat
-if os.path.isfile(f"{mod_name}/lexiconAll.xml"):
+lexicon_file_path = f"{mod_name}/lexiconAll.xml"
+if os.path.isfile(lexicon_file_path):
     lex = LexiconFile(f"{mod_name}/lexiconAll.dat")
     lex.load_from_xml()
     lex.write()
+    os.remove(lexicon_file_path)
