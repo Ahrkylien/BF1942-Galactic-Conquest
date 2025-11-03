@@ -8,6 +8,6 @@ src/*
 src/Mods/bf1942/*
 src/cache/*
 
-src/**/logs/*
+src/Mods/**/logs/*
 
 */__pycache__/*
