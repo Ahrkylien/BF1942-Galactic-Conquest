@@ -37,6 +37,10 @@ for archive_path in archive_paths:
 
 shutil.copytree(f"{src_folder_path}/Mods/{mod_name}", mod_name, dirs_exist_ok=True)
 
+copied_logs_folder_path = f"{mod_name}/logs"
+if os.path.exists(copied_logs_folder_path):
+    shutil.rmtree(copied_logs_folder_path)
+
 # convert lexiconAll.xml to lexiconAll.dat
 lexicon_file_path = f"{mod_name}/lexiconAll.xml"
 if os.path.isfile(lexicon_file_path):
