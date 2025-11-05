@@ -9,12 +9,12 @@ mod_name = "GCMOD"
 src_folder_path = "../src"
 
 levels_folder_path = f"{src_folder_path}/bf1942/levels"
-game_rfa_path = f"{src_folder_path}/bf1942/game.rfa"
+game_folder_path = f"{src_folder_path}/bf1942/game"
 
 level_paths = [f"{levels_folder_path}/{name}" for name in os.listdir(levels_folder_path)]
 mod_archive_paths = [f"{src_folder_path}/{name}" for name in os.listdir(src_folder_path) if not name in ["bf1942", "Mods"]]
-if os.path.isfile(game_rfa_path):
-    mod_archive_paths.append(f"{src_folder_path}/bf1942/game")
+if os.path.isdir(game_folder_path):
+    mod_archive_paths.append(game_folder_path)
 
 archive_paths = mod_archive_paths + level_paths
 
