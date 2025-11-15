@@ -9,5 +9,11 @@ src/Mods/bf1942/*
 src/cache/*
 
 src/Mods/**/logs/*
+src/Mods/**/[Ll]exicon[Aa]ll.dat
+
+# Ignore all extensionless files directly within src/menu
+src/[Mm]enu/*
+!src/[Mm]enu/*.*
+!src/[Mm]enu/*/
 
 */__pycache__/*
