@@ -8,7 +8,7 @@ src/*
 src/Mods/bf1942/*
 src/cache/*
 
-src/Mods/**/logs/*
+src/Mods/**/[Ll]ogs/*
 src/Mods/**/[Ll]exicon[Aa]ll.dat
 
 # Ignore all extensionless files directly within src/menu
