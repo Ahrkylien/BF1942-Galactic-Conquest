@@ -16,7 +16,7 @@ textureManager.alternativePath Texture/Europe
 
 shadow.shadowColor 1
 
-textureManager.alternativePath ../../bf1942/levels/GC_DeathStar/Textures/Sky
+textureManager.alternativePath bf1942/levels/GC_DeathStar/Textures/Sky
 
 Game.setViewDistance 3000
 Game.spawnPlayers 1

@@ -13,8 +13,6 @@ renderer.animatedMeshAmbientColor 0.30
 textureManager.alternativePath bf1942/levels/GC_Corellia/sky
 shadow.shadowColor 0.550000
 
-bf1942/levels/GC_Corellia/sky
-
 run objects/objects
 
 Game.setViewDistance 475

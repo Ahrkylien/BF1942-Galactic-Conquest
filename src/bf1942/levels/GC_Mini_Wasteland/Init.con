@@ -10,11 +10,10 @@ renderer.specularColor 0.298039/0.298039/0.298039
 renderer.vertexFogEnable 1
 renderer.fogColorVec 0.309804/0.282353/0.258824
 renderer.animatedMeshAmbientColor 0.33
+
 textureManager.alternativePath bf1942/levels/GC_Mini_Wasteland/sky
 
 shadow.shadowColor 0.550000
-
-bf1942/levels/GC_Mini_Wasteland/sky
 
 run objects/objects
 

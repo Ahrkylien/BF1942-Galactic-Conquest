@@ -14,8 +14,6 @@ textureManager.alternativePath bf1942/levels/GC_BonusRace/Textures/sky
 
 shadow.shadowColor 0.550000
 
-bf1942/levels/GC_BonusRace/Textures/sky
-
 Game.setViewDistance 900
 Game.spawnPlayers 1
 renderer.fogstart 400

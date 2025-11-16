@@ -15,8 +15,6 @@ textureManager.alternativePath bf1942/levels/GC_Anchorhead/sky
 
 shadow.shadowColor 0.550000
 
-bf1942/levels/GC_Anchorhead/sky
-
 run objects/objects
 
 Game.setViewDistance 400

@@ -15,11 +15,10 @@ renderer.animatedMeshAmbientColor 0.15
 renderer.vertexFogEnable 1
 
 textureManager.alternativePath Texture/Africa
-rem *** textureManager.alternativePath ../../bf1942/levels/GC_Mini_Hoth/Textures/Sky
-textureManager.alternativePath ../../bf1942/levels/GC_Mini_Hoth/Textures/Sky
-textureManager.alternativePath ../../bf1942/levels/GC_Mini_Hoth/Texture
-textureManager.alternativePath ../../bf1942/levels/GC_Mini_Hoth/Texture/Buildings/Hoth
-textureManager.alternativePath ../../bf1942/levels/GC_Mini_Hoth/Texture/Buildings/Tatooine
+textureManager.alternativePath bf1942/levels/GC_Mini_Hoth/Textures/Sky
+textureManager.alternativePath bf1942/levels/GC_Mini_Hoth/Texture
+textureManager.alternativePath bf1942/levels/GC_Mini_Hoth/Texture/Buildings/Hoth
+textureManager.alternativePath bf1942/levels/GC_Mini_Hoth/Texture/Buildings/Tatooine
 
 
 shadow.shadowColor 1.0

@@ -9,12 +9,11 @@ renderer.diffuseColor 0.329412/0.286275/0.219608
 renderer.specularColor 0.345098/0.305882/0.247059
 renderer.vertexFogEnable 1
 renderer.fogColorVec 0.800000/0.588235/0.470588
-renderer.animatedMeshAmbientColor 0.30
-textureManager.alternativePath bf1942
+renderer.animatedMeshAmbientColor 0.
+
+textureManager.alternativePath bf1942/levels/GC_PodRace/Textures/sky
 
 shadow.shadowColor 0.550000
-
-bf1942/levels/GC_PodRace/sky
 
 Game.setViewDistance 900
 Game.spawnPlayers 1

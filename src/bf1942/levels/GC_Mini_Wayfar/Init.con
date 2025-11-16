@@ -10,11 +10,10 @@ renderer.specularColor 0.294118/0.294118/0.294118
 renderer.vertexFogEnable 1
 renderer.fogColorVec 0.827451/0.729412/0.576471
 renderer.animatedMeshAmbientColor 0.35
+
 textureManager.alternativePath bf1942/levels/GC_Mini_Wayfar/Textures/sky
 
 shadow.shadowColor 0.550000
-
-bf1942/levels/GC_Mini_Wayfar/Textures/sky
 
 Game.setViewDistance 400
 Game.spawnPlayers 1

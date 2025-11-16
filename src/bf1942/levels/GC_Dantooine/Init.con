@@ -11,9 +11,9 @@ renderer.ambientColor .12/.1/.08
 renderer.diffuseColor .60/.57/0.5
 renderer.specularColor .5/.5/.5
 renderer.animatedMeshAmbientColor 0.40
-textureManager.alternativePath Texture/Africa
 
-textureManager.alternativePath ../../bf1942/levels/GC_Dantooine/Textures/Sky
+textureManager.alternativePath Texture/Africa
+textureManager.alternativePath bf1942/levels/GC_Dantooine/Textures/Sky
 
 shadow.shadowColor 0.5
 
