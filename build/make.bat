@@ -1,2 +1,2 @@
-python3.10 make.py
+python make.py
 pause
