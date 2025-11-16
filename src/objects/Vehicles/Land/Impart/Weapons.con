@@ -21,13 +21,6 @@ ObjectTemplate.fireingForce 40
 ObjectTemplate.recoilSpeed 8.5
 ObjectTemplate.recoilSize 50
 ObjectTemplate.AmmoType	8
-beginRem
-ObjectTemplate.addTemplate e_shellImpartProjectile
-ObjectTemplate.setInputId -1
-ObjectTemplate.startoneffects 1
-ObjectTemplate.setPosition 0/0/-1
-ObjectTemplate.setRotation 0/0/0
-endRem
 
 rem *** ImpartProjectile ***
 ObjectTemplate.create Projectile ImpartProjectile

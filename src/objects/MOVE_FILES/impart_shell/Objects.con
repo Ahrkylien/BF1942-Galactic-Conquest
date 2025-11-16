@@ -1,3 +1,0 @@
-ObjectTemplate.create SimpleObject impart_shell
-ObjectTemplate.geometry impart_shell
-ObjectTemplate.setHasCollisionPhysics 0
