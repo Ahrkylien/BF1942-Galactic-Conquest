@@ -7,8 +7,8 @@ There are no Jedi Powers in the mod, and it was conceived and originally designe
 ## Dependencies
 To pack and build the mod you will need the python dependencies listed in the submodule.
 At the moment of writing that is:
-- `python 3.10` (or higher): python.org/downloads/windows
-- `python-lzo`: pypi.org/project/python-lzo
+- [`python 3.10`](python.org/downloads/windows) (or higher)
+- [python-lzo](pypi.org/project/python-lzo)
 
 ## Run via the debugger
 This repository contains all the (extracted) files and history of the Mod.
