@@ -1,0 +1,3 @@
+ObjectTemplate.create SimpleObject EbonHawk
+ObjectTemplate.geometry EbonHawk
+ObjectTemplate.setHasCollisionPhysics 1

@@ -1,0 +1,189 @@
+var v_time_to_game_end
+var v_time_to_fleet_arival = 99999
+var v_time_to_imp_fleet_destroyed = 99999
+var v_time_to_destroyed_from_arival = 30
+var v_time_to_fleet_arival_before_end = 120
+var v_time_to_fleet_arival_check = 0
+
+rem Ajust for map load time:
+Utils.mathExprI v_time_to_fleet_arival_before_end - 15 -> v_time_to_fleet_arival_before_end
+
+game.timeLimit -> v_time_to_game_end
+if v_time_to_game_end != 0
+	Utils.expr v_time_to_game_end > v_time_to_fleet_arival_before_end -> v_time_to_fleet_arival_check
+	if v_time_to_fleet_arival_check == 1
+		Utils.mathExprI v_time_to_game_end - v_time_to_fleet_arival_before_end -> v_time_to_fleet_arival
+	endif
+endif
+
+Utils.mathExprI v_time_to_fleet_arival + v_time_to_destroyed_from_arival -> v_time_to_imp_fleet_destroyed
+
+vars.set time_to_game_end v_time_to_game_end
+vars.set time_to_fleet_arival v_time_to_fleet_arival
+vars.set time_to_imp_fleet_destroyed v_time_to_imp_fleet_destroyed
+vars.set time_to_destroyed_from_arival v_time_to_destroyed_from_arival
+vars.set time_to_fleet_arival_before_end v_time_to_fleet_arival_before_end
+vars.set time_to_fleet_arival_check v_time_to_fleet_arival_check
+
+
+rem Rebel Fleet spawner at end of game
+
+ObjectTemplate.active Rebel_Fleet_Spawner
+objectTemplate.spawnDelay v_time_to_fleet_arival
+
+object.create Rebel_Fleet_Spawner
+object.absolutePosition 0/300/0
+object.rotation 45/0/0
+
+
+rem Static Carrack destroyer, which is an object that destroys the imperial fleet
+
+ObjectTemplate.active Static_Carrack_destroyer
+objectTemplate.spawnDelay v_time_to_imp_fleet_destroyed
+
+object.create Static_Carrack_destroyer
+object.absolutePosition 1702.987/359.9049/1659.7685
+
+
+rem Imperial fleet
+
+object.create Carrack_spawner
+object.absolutePosition 1702.987/359.9049/1659.7685
+object.rotation -35.5639/0/0
+object.team 1
+
+
+rem Rebel Town
+
+object.create speeder2_spawner
+object.absolutePosition 736.9111/157.311/641.4935
+object.rotation -150.3248/0/0
+object.team 2
+
+object.create speeder2_spawner
+object.absolutePosition 757.5704/157.2307/768.606
+object.rotation 145.9963/0/0
+object.team 2
+
+object.create speeder1_spawner
+object.absolutePosition 721.8853/157.4328/681.9264
+object.rotation 180/0/0
+object.team 2
+
+object.create speeder1_spawner
+object.absolutePosition 735.5245/157.4328/724.5618
+object.rotation 180/0/0
+object.team 2
+
+object.create speeder1_spawner
+object.absolutePosition 814.9432/156.3362/796.6968
+object.rotation -90.7199/0/0
+object.team 2
+
+object.create speeder1_spawner
+object.absolutePosition 770.3803/157.4328/662.9458
+object.rotation -107.8297/0/0
+object.team 2
+
+
+rem Test fighters in town
+
+object.create fighter6_spawner
+object.absolutePosition 728.6214/158.1963/664.1431
+object.rotation 0/0/0
+rem object.team 2
+object.team 3
+
+object.create fighter6_spawner
+object.absolutePosition 739.7787/156.6589/667.0328
+object.rotation 0/0/0
+object.team 2
+
+object.create fighter6_spawner
+object.absolutePosition 751.0966/158.6589/669.6014
+object.rotation 0/0/0
+object.team 4
+
+
+
+rem Test fighters bellow Carrack
+
+rem object.create Slave1
+rem object.absolutePosition 1627.8465/27.2637/1597.4904
+rem object.rotation 0/0/0
+
+rem object.create Repgun
+rem object.absolutePosition 1660.2226/27.2637/1606.6086
+rem object.rotation 0/0/0
+
+rem object.create Awing
+rem object.absolutePosition 1619.6534/27.2637/1638.0595
+rem object.rotation 0/0/0
+
+rem object.create B-Wing
+rem object.absolutePosition 1648.7259/27.2637/1648.367
+rem object.rotation 0/0/0
+
+rem object.create Ewing
+rem object.absolutePosition 1686.9163/27.2637/1661.3174
+rem object.rotation 0/0/0
+
+rem object.create Green
+rem object.absolutePosition 1731.7141/27.2637/1667.5284
+rem object.rotation 0/0/0
+
+rem object.create Skyhopper
+rem object.absolutePosition 1755.1042/27.2637/1624.5805
+rem object.rotation 0/0/0
+
+rem object.create X-wing
+rem object.absolutePosition 1755.1042/27.2637/1624.5805
+rem object.rotation 0/0/0
+
+rem object.create yt1300
+rem object.absolutePosition 1755.1042/27.2637/1624.5805
+rem object.rotation 0/0/0
+
+rem object.create yt600
+rem object.absolutePosition 1644.3544/27.2637/1557.7881
+rem object.rotation 0/0/0
+
+rem object.create Ywing
+rem object.absolutePosition 1644.3544/27.2637/1557.7881
+rem object.rotation 0/0/0
+
+rem object.create Snowspeeder
+rem object.absolutePosition 1688.502/27.2637/1568.825
+rem object.rotation 0/0/0
+
+rem object.create sentrycontrol
+rem object.absolutePosition 1735.1236/27.2637/1581.765
+rem object.rotation 0/0/0
+
+rem object.create TieAdvanced
+rem object.absolutePosition 1557.9747/27.2637/1797.9992
+rem object.rotation 0/0/0
+
+rem object.create TieInterceptor
+rem object.absolutePosition 1600.5903/27.2637/1812.599
+rem object.rotation 0/0/0
+
+rem object.create TieFighter
+rem object.absolutePosition 1637.6817/27.2637/1826.8042
+rem object.rotation 0/0/0
+
+rem object.create TieBomber
+rem object.absolutePosition 1618.3468/27.2637/1769.1942
+rem object.rotation 0/0/0
+
+rem object.create ImpSkiff
+rem object.absolutePosition 1525.2238/27.2637/1850.8741
+rem object.rotation 0/0/0
+
+rem object.create Lambda
+rem object.absolutePosition 1599.4066/27.2637/1878.1009
+rem object.rotation 0/0/0
+
+rem object.create Imperial_LandingCraft
+rem object.absolutePosition 1535.8777/27.2637/1917.1652
+rem object.rotation 0/0/0

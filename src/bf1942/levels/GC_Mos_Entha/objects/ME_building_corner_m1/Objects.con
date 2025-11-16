@@ -1,0 +1,14 @@
+ObjectTemplate.create Bundle ME_building_corner_m1
+ObjectTemplate.geometry ME_building_corner_m1
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.addtemplate ladder_7m_m1
+ObjectTemplate.setposition -1.963/5.0029/0
+ObjectTemplate.setrotation -135/0/0
+ObjectTemplate.addtemplate ladder_7m_m1
+ObjectTemplate.setposition -1.025/5.0029/0.874
+ObjectTemplate.setrotation 45/0/0
+ObjectTemplate.addtemplate me_floorbed
+ObjectTemplate.setposition -0.5/-5.1/0
+rem How fucking many of these beds am i gonna have to add like this :@
+ObjectTemplate.addtemplate me_floorbed
+ObjectTemplate.setposition 3/-5.1/0

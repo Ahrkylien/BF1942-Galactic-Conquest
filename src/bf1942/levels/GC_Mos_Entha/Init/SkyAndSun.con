@@ -1,0 +1,21 @@
+TextureManager.mipmaps 0
+
+Object.create TSun
+Object.isSaveable 0
+Object.name sun
+
+GeometryTemplate.create StandardMesh SkyBox
+GeometryTemplate.file skysphere
+
+Sky.initSky
+
+Sky.changeOfsCloudHeight 7200
+Sky.changeOfsCloudDist 512
+Sky.setCloudFog 0
+
+Sky.setSun sun
+sky.changeOfsSkyHeight 0
+Sky.setRotAngle -100
+sky.sunLightDirectionVec 0.5678/0.2588/0.7815
+
+TextureManager.mipmaps 1

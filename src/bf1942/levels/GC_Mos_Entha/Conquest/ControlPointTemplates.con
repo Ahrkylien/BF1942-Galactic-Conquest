@@ -1,0 +1,167 @@
+NetworkableInfo.createNewInfo ControlPointInfo
+NetworkableInfo.setPredictionMode PMNone
+NetworkableInfo.setBasePriority c_NIGhostAlways
+
+rem ----------------------------------------- 
+rem ---  middle flag  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ControlPoint cntl_town1
+ObjectTemplate.networkableInfo ControlPointInfo
+ObjectTemplate.setControlPointName "Town cantina"
+ObjectTemplate.radius 10
+ObjectTemplate.team 2
+rem ObjectTemplate.spawnGroupId 1
+ObjectTemplate.objectSpawnerId 1
+ObjectTemplate.areaValueTeam1 1
+ObjectTemplate.areaValueTeam2 0
+ObjectTemplate.timeToGetControl 1
+ObjectTemplate.timeToLoseControl 1
+ObjectTemplate.disableIfEnemyInsideRadius 0
+ObjectTemplate.disableWhenLosingControl 0
+ObjectTemplate.loseControlWhenEnemyClose 1
+ObjectTemplate.loseControlWhenNotClose 0
+ObjectTemplate.unableToChangeTeam 0
+ObjectTemplate.onlyTakeableByTeam 1
+ObjectTemplate.geometry flagbase_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.addTemplate AnimatedFlag
+ObjectTemplate.setTeamGeometry 1 flagge_m1
+ObjectTemplate.setTeamGeometry 2 flagus_m1
+
+ObjectTemplate.create ControlPoint cntl_town2
+ObjectTemplate.networkableInfo ControlPointInfo
+ObjectTemplate.setControlPointName "Town west"
+ObjectTemplate.radius 10
+ObjectTemplate.team 2
+rem ObjectTemplate.spawnGroupId 2
+ObjectTemplate.objectSpawnerId 2
+ObjectTemplate.areaValueTeam1 1
+ObjectTemplate.areaValueTeam2 0
+ObjectTemplate.timeToGetControl 1
+ObjectTemplate.timeToLoseControl 1
+ObjectTemplate.disableIfEnemyInsideRadius 0
+ObjectTemplate.disableWhenLosingControl 0
+ObjectTemplate.loseControlWhenEnemyClose 1
+ObjectTemplate.loseControlWhenNotClose 0
+ObjectTemplate.unableToChangeTeam 0
+ObjectTemplate.onlyTakeableByTeam 1
+ObjectTemplate.geometry flagbase_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.addTemplate AnimatedFlag
+ObjectTemplate.setTeamGeometry 1 flagge_m1
+ObjectTemplate.setTeamGeometry 2 flagus_m1
+
+ObjectTemplate.create ControlPoint cntl_town3
+ObjectTemplate.networkableInfo ControlPointInfo
+ObjectTemplate.setControlPointName "Town 3"
+ObjectTemplate.radius 10
+ObjectTemplate.team 2
+rem ObjectTemplate.spawnGroupId 3
+ObjectTemplate.objectSpawnerId 3
+ObjectTemplate.areaValueTeam1 1
+ObjectTemplate.areaValueTeam2 0
+ObjectTemplate.timeToGetControl 1
+ObjectTemplate.timeToLoseControl 1
+ObjectTemplate.disableIfEnemyInsideRadius 0
+ObjectTemplate.disableWhenLosingControl 0
+ObjectTemplate.loseControlWhenEnemyClose 1
+ObjectTemplate.loseControlWhenNotClose 0
+ObjectTemplate.unableToChangeTeam 0
+ObjectTemplate.onlyTakeableByTeam 1
+ObjectTemplate.geometry flagbase_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.addTemplate AnimatedFlag
+ObjectTemplate.setTeamGeometry 1 flagge_m1
+ObjectTemplate.setTeamGeometry 2 flagus_m1
+
+ObjectTemplate.create ControlPoint cntl_town4
+ObjectTemplate.networkableInfo ControlPointInfo
+ObjectTemplate.setControlPointName "Town 4"
+ObjectTemplate.radius 10
+ObjectTemplate.team 2
+rem ObjectTemplate.spawnGroupId 4
+ObjectTemplate.objectSpawnerId 4
+ObjectTemplate.areaValueTeam1 1
+ObjectTemplate.areaValueTeam2 0
+ObjectTemplate.timeToGetControl 1
+ObjectTemplate.timeToLoseControl 1
+ObjectTemplate.disableIfEnemyInsideRadius 0
+ObjectTemplate.disableWhenLosingControl 0
+ObjectTemplate.loseControlWhenEnemyClose 1
+ObjectTemplate.loseControlWhenNotClose 0
+ObjectTemplate.unableToChangeTeam 0
+ObjectTemplate.onlyTakeableByTeam 1
+ObjectTemplate.geometry flagbase_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.addTemplate AnimatedFlag
+ObjectTemplate.setTeamGeometry 1 flagge_m1
+ObjectTemplate.setTeamGeometry 2 flagus_m1
+
+ObjectTemplate.create ControlPoint cntl_town5
+ObjectTemplate.networkableInfo ControlPointInfo
+ObjectTemplate.setControlPointName "Town 5"
+ObjectTemplate.radius 10
+ObjectTemplate.team 2
+rem ObjectTemplate.spawnGroupId 5
+ObjectTemplate.objectSpawnerId 5
+ObjectTemplate.areaValueTeam1 1
+ObjectTemplate.areaValueTeam2 0
+ObjectTemplate.timeToGetControl 1
+ObjectTemplate.timeToLoseControl 1
+ObjectTemplate.disableIfEnemyInsideRadius 0
+ObjectTemplate.disableWhenLosingControl 0
+ObjectTemplate.loseControlWhenEnemyClose 1
+ObjectTemplate.loseControlWhenNotClose 0
+ObjectTemplate.unableToChangeTeam 0
+ObjectTemplate.onlyTakeableByTeam 1
+ObjectTemplate.geometry flagbase_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.addTemplate AnimatedFlag
+ObjectTemplate.setTeamGeometry 1 flagge_m1
+ObjectTemplate.setTeamGeometry 2 flagus_m1
+
+ObjectTemplate.create ControlPoint cntl_town6
+ObjectTemplate.networkableInfo ControlPointInfo
+ObjectTemplate.setControlPointName "Town 6"
+ObjectTemplate.radius 10
+ObjectTemplate.team 2
+rem ObjectTemplate.spawnGroupId 6
+ObjectTemplate.objectSpawnerId 6
+ObjectTemplate.areaValueTeam1 1
+ObjectTemplate.areaValueTeam2 0
+ObjectTemplate.timeToGetControl 1
+ObjectTemplate.timeToLoseControl 1
+ObjectTemplate.disableIfEnemyInsideRadius 0
+ObjectTemplate.disableWhenLosingControl 0
+ObjectTemplate.loseControlWhenEnemyClose 1
+ObjectTemplate.loseControlWhenNotClose 0
+ObjectTemplate.unableToChangeTeam 0
+ObjectTemplate.onlyTakeableByTeam 1
+ObjectTemplate.geometry flagbase_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.addTemplate AnimatedFlag
+ObjectTemplate.setTeamGeometry 1 flagge_m1
+ObjectTemplate.setTeamGeometry 2 flagus_m1
+
+ObjectTemplate.create ControlPoint cntl_town7
+ObjectTemplate.networkableInfo ControlPointInfo
+ObjectTemplate.setControlPointName "Town 7"
+ObjectTemplate.radius 10
+ObjectTemplate.team 2
+rem ObjectTemplate.spawnGroupId 7
+ObjectTemplate.objectSpawnerId 7
+ObjectTemplate.areaValueTeam1 94
+ObjectTemplate.areaValueTeam2 0
+ObjectTemplate.timeToGetControl 1
+ObjectTemplate.timeToLoseControl 1
+ObjectTemplate.disableIfEnemyInsideRadius 0
+ObjectTemplate.disableWhenLosingControl 0
+ObjectTemplate.loseControlWhenEnemyClose 1
+ObjectTemplate.loseControlWhenNotClose 0
+ObjectTemplate.unableToChangeTeam 0
+ObjectTemplate.onlyTakeableByTeam 1
+ObjectTemplate.geometry flagbase_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.addTemplate AnimatedFlag
+ObjectTemplate.setTeamGeometry 1 flagge_m1
+ObjectTemplate.setTeamGeometry 2 flagus_m1
