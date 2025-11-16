@@ -1,0 +1,121 @@
+NetworkableInfo.createNewInfo Rebel_Fleet_Emitter_Info
+rem NetworkableInfo.setPredictionMode PMLinear
+NetworkableInfo.setPredictionMode PMNone
+NetworkableInfo.SetIsUnique 1
+NetworkableInfo.setBasePriority -1
+
+NetworkableInfo.createNewInfo Rebel_Fleet_x_wing_Info
+NetworkableInfo.setPredictionMode PMLinear
+
+ObjectTemplate.create ObjectSpawner Rebel_Fleet_Spawner
+ObjectTemplate.setObjectTemplate 0 Rebel_Fleet_Spawner_sub
+ObjectTemplate.MaxNrOfObjectSpawned 1
+ObjectTemplate.nrOfObjectToSpawn  1
+objectTemplate.spawnDelay 9999
+objectTemplate.spawnDelayAtStart 1
+ObjectTemplate.setTeam 0
+
+ObjectTemplate.create Bundle Rebel_Fleet_Spawner_sub
+ObjectTemplate.geometry Big_Bomb_M1
+ObjectTemplate.hasArmor 1
+ObjectTemplate.hitpoints 100
+ObjectTemplate.maxhitpoints 100
+ObjectTemplate.criticalDamage 100
+ObjectTemplate.hpLostWhileCriticalDamage 1
+ObjectTemplate.timetoliveafterdeath 0
+ObjectTemplate.hasCollisionPhysics 0
+ObjectTemplate.addTemplate Rebel_Fleet_Spawner_sub_sub
+ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.addTemplate Rebel_Fleet_Spawner_sub_sub
+ObjectTemplate.setPosition -10/0/-10
+ObjectTemplate.addTemplate Rebel_Fleet_Spawner_sub_sub
+ObjectTemplate.setPosition 10/0/-10
+ObjectTemplate.addTemplate Rebel_Fleet_Spawner_sub_sub
+ObjectTemplate.setPosition -20/0/-20
+ObjectTemplate.addTemplate Rebel_Fleet_Spawner_sub_sub
+ObjectTemplate.setPosition 20/0/-20
+
+ObjectTemplate.create ObjectSpawner Rebel_Fleet_Spawner_sub_sub
+ObjectTemplate.setObjectTemplate 0 Fake_x_wing
+ObjectTemplate.SpawnDelay 3
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 120
+ObjectTemplate.Distance 200
+ObjectTemplate.DamageWhenLost 20
+ObjectTemplate.MaxNrOfObjectSpawned 10
+
+ObjectTemplate.create Bundle Fake_x_wing
+ObjectTemplate.networkableInfo Rebel_Fleet_x_wing_Info
+ObjectTemplate.geometry Big_Bomb_M1
+ObjectTemplate.hasArmor 1
+ObjectTemplate.hitpoints 100
+ObjectTemplate.maxhitpoints 100
+ObjectTemplate.criticalDamage 100
+ObjectTemplate.hpLostWhileCriticalDamage 1
+ObjectTemplate.timetoliveafterdeath 0
+ObjectTemplate.hasCollisionPhysics 1
+objectTemplate.hasMobilePhysics 1
+objectTemplate.cullRadiusScale 40000
+ObjectTemplate.addTemplate MakeMeFloat
+ObjectTemplate.addTemplate MakeMeGoForeward
+ObjectTemplate.addTemplate X-WingSimple
+ObjectTemplate.addTemplate MyFireEffect
+ObjectTemplate.setPosition -6.25/0.45/-3.2
+ObjectTemplate.addTemplate MyFireEffect
+ObjectTemplate.setPosition 6.25/-0.45/-3.2
+ObjectTemplate.addTemplate MyFireEffect
+ObjectTemplate.setPosition -6.25/-0.45/-3.2
+ObjectTemplate.addTemplate MyFireEffect
+ObjectTemplate.setPosition 6.25/0.45/-3.2
+ObjectTemplate.loadSoundScript Sound/XWingEngine.ssc
+ObjectTemplate.loadSoundScript Sound/XWingLaser.ssc
+
+ObjectTemplate.create FloatingBundle MakeMeFloat
+ObjectTemplate.setHullHeight 300000
+ObjectTemplate.setFloatMaxLift 9.81
+ObjectTemplate.setFloatMinLift 9.81
+ObjectTemplate.setDragModifier 0  
+ObjectTemplate.setMinRotation 0/1/0
+ObjectTemplate.setMaxRotation 0/1/0
+ObjectTemplate.setMaxSpeed 0/10/0
+ObjectTemplate.setAcceleration 0/1000/0
+ObjectTemplate.setInputToPitch 0
+ObjectTemplate.setAutomaticReset 0
+
+ObjectTemplate.create Engine MakeMeGoForeward
+ObjectTemplate.setMinRotation 0/0/-1
+ObjectTemplate.setMaxRotation 0/0/1
+ObjectTemplate.setMaxSpeed 0/0/100
+ObjectTemplate.setAcceleration 0/0/9999
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setEngineType c_ETRocket
+ObjectTemplate.setTorque 99999
+ObjectTemplate.setDifferential 10
+ObjectTemplate.setNumberOfGears 10
+
+ObjectTemplate.create EffectBundle MyFireEffect
+ObjectTemplate.addTemplate MyFireEffect_em
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+
+ObjectTemplate.create Emitter MyFireEffect_em
+ObjectTemplate.template MyFireEffect2
+ObjectTemplate.looping 1
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.lodDistance 40000
+ObjectTemplate.delay CRD_NONE/0/0/0
+ObjectTemplate.timeToLive CRD_NONE/10000/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.positionalSpeedInDof CRD_NONE/100/0/0
+ObjectTemplate.positionalSpeedInUp CRD_NONE/0/0/0
+ObjectTemplate.positionalSpeedInRight CRD_NONE/0/0/0
+objectTemplate.rotationalSpeedInDof CRD_NONE/0/0/0
+objectTemplate.rotationalSpeedInUp CRD_NONE/0/0/0
+objectTemplate.rotationalSpeedInRight CRD_NONE/0/0/0
+objectTemplate.addEmitterSpeed 1
+
+ObjectTemplate.create Bundle MyFireEffect2
+ObjectTemplate.geometry Tlight_r3_m1
+objectTemplate.hasCollisionPhysics 0
+objectTemplate.hasMobilePhysics 1
+objectTemplate.cullRadiusScale 40000
+ObjectTemplate.addTemplate MakeMeFloat

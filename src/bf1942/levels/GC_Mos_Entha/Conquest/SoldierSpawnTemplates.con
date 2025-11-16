@@ -1,0 +1,47 @@
+ObjectTemplate.create SpawnPoint spawn_town_1_1
+ObjectTemplate.setSpawnId 0
+ObjectTemplate.setGroup 1
+
+ObjectTemplate.create SpawnPoint spawn_town_1_2
+ObjectTemplate.setSpawnId 1
+ObjectTemplate.setGroup 1
+
+ObjectTemplate.create SpawnPoint spawn_town_1_3
+ObjectTemplate.setSpawnId 2
+ObjectTemplate.setGroup 1
+
+ObjectTemplate.create SpawnPoint spawn_town_1_4
+ObjectTemplate.setSpawnId 3
+ObjectTemplate.setGroup 1
+
+ObjectTemplate.create SpawnPoint spawn_town_1_5
+ObjectTemplate.setSpawnId 4
+ObjectTemplate.setGroup 1
+
+ObjectTemplate.create SpawnPoint spawn_town_1_6
+ObjectTemplate.setSpawnId 5
+ObjectTemplate.setGroup 1
+
+ObjectTemplate.create SpawnPoint spawn_town_1_7
+ObjectTemplate.setSpawnId 6
+ObjectTemplate.setGroup 1
+
+ObjectTemplate.create SpawnPoint spawn_town_1_8
+ObjectTemplate.setSpawnId 7
+ObjectTemplate.setGroup 1
+
+ObjectTemplate.create SpawnPoint spawn_town_1_9
+ObjectTemplate.setSpawnId 8
+ObjectTemplate.setGroup 1
+
+ObjectTemplate.create SpawnPoint spawn_town_1_10
+ObjectTemplate.setSpawnId 9
+ObjectTemplate.setGroup 1
+
+ObjectTemplate.create SpawnPoint spawn_town_1_11
+ObjectTemplate.setSpawnId 10
+ObjectTemplate.setGroup 1
+
+ObjectTemplate.create SpawnPoint spawn_town_1_12
+ObjectTemplate.setSpawnId 11
+ObjectTemplate.setGroup 1

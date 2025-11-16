@@ -1,0 +1,11 @@
+GeometryTemplate.create StandardMesh N1-Fighter_hull
+GeometryTemplate.file Vehicles/N1-Fighter/N1-Fighter_hull
+rem GeometryTemplate.file yoda
+rem GeometryTemplate.file Vehicles/TieOppressor/tie_oppressor
+GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh N1-Fighter_window
+GeometryTemplate.file Vehicles/N1-Fighter/N1-Fighter_window
+
+GeometryTemplate.create StandardMesh N1-Fighter_engine_light
+GeometryTemplate.file Vehicles/N1-Fighter/N1-Fighter_engine_light

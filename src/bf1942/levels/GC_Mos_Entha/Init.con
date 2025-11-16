@@ -1,0 +1,63 @@
+rem Please read the README first!!
+
+ShaderManager.setTextureParam envmap bf1942\levels\GC_Mos_Entha\Textures\ENVMAP_G_.rcm
+shaderManager.setDefaultShaderSolidColor 0.2/0.2/0.2
+
+rem Do this before fogstart/end, because it will overwrite it 
+Game.setViewDistance 1050
+renderer.vertexFogEnable 1
+renderer.FogColorVec 0.80784313725/0.72549019607/0.56862745098
+renderer.fogstart 0
+rem max setViewDistance-50:
+renderer.fogend 1000
+
+renderer.globalLodPercent 1
+renderer.globalAmbientColor 0.42
+renderer.ambientColor 0
+rem renderer.diffuseColor .2/.2/.1
+rem diffuseColor: lightens the faces pointing to the sun
+rem not needed with proper lightmapping?
+renderer.diffuseColor 0.1
+renderer.specularColor 0.27/0.25/0.26
+renderer.animatedMeshDiffuseFactor 0.42/0.40/0.35
+renderer.animatedMeshAmbientColor 0.28
+
+textureManager.alternativePath bf1942/Levels/GC_Mos_Entha/Texture
+textureManager.alternativePath bf1942/Levels/GC_Mos_Entha/Texture_patched
+
+shadow.shadowColor 0.55
+
+Game.spawnPlayers 1
+
+rem set fixed render settings:
+game.setDetailTexture 4
+rem lightmap settings get overwritten by the selected settings when the player exits the briefing menu..
+
+game.setTeamSkin 1 JapaneseSoldier
+game.setKit 1 0 Empire_Scout
+game.setKit 1 1 Empire_Trooper
+game.setKit 1 2 Empire_AT
+game.setKit 1 3 Empire_Medic
+game.setKit 1 4 Empire_Engineer
+
+game.setTeamSkin 2 RussianSoldier
+game.setKit 2 0 Rebel_Scout
+game.setKit 2 1 Rebel_Trooper
+game.setKit 2 2 Rebel_AT
+game.setKit 2 3 Rebel_Medic
+game.setKit 2 4 Rebel_Engineer
+
+game.setActiveCombatArea 0 0 2048 2048
+
+run Init/SkyAndSun
+run Init/Terrain
+run terrainLightmap
+
+rem game.assaultTeam 2
+
+run Sounds/Environment
+
+game.setBeforeSpawnCameraPosition 1 852.4392/172.1962/555.4125
+game.setBeforeSpawnCameraPosition 2 852.4392/172.1962/555.4125
+
+run objects/init

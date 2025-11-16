@@ -1,0 +1,6 @@
+ObjectTemplate.create SimpleObject tat_curved_pavement1
+ObjectTemplate.geometry tat_curved_pavement1
+ObjectTemplate.setHasCollisionPhysics 1
+rem ObjectTemplate.lodDistance 10000
+ObjectTemplate.CullRadiusScale 1000
+

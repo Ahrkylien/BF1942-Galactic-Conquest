@@ -1,0 +1,12 @@
+object.create engine_light
+object.absolutePosition 2.64089/-0.20248/0.416214
+object.rotation 0/0/0
+
+object.create fire
+object.absolutePosition 0.247376/0.0822501/1.62213
+object.rotation 0/0/0
+
+object.create bomb
+object.absolutePosition 0/-0.258135/2.48576
+object.rotation 0/0/0
+

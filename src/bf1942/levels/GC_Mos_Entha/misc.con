@@ -1,0 +1,51 @@
+GeometryTemplate.active tat_medium
+GeometryTemplate.file ../bf1942/levels/GC_Mos_Entha/Standardmesh/Buildings/Tatooine/tat_medium
+
+GeometryTemplate.active tat_small
+GeometryTemplate.file ../bf1942/levels/GC_Mos_Entha/Standardmesh/Buildings/Tatooine/tat_small
+
+GeometryTemplate.active citywall1
+GeometryTemplate.file ../bf1942/levels/GC_Mos_Entha/Standardmesh/Buildings/Tatooine/citywall1
+
+GeometryTemplate.active citywall2
+GeometryTemplate.file ../bf1942/levels/GC_Mos_Entha/Standardmesh/Buildings/Tatooine/citywall2
+
+GeometryTemplate.active citywall3
+GeometryTemplate.file ../bf1942/levels/GC_Mos_Entha/Standardmesh/Buildings/Tatooine/citywall3
+
+GeometryTemplate.active citywall4
+GeometryTemplate.file ../bf1942/levels/GC_Mos_Entha/Standardmesh/Buildings/Tatooine/citywall4
+
+GeometryTemplate.active citywall5
+GeometryTemplate.file ../bf1942/levels/GC_Mos_Entha/Standardmesh/Buildings/Tatooine/citywall5
+
+GeometryTemplate.active building13_m1
+GeometryTemplate.file ../bf1942/levels/GC_Mos_Entha/Standardmesh/Buildings/building13
+
+GeometryTemplate.active building17
+GeometryTemplate.file ../bf1942/levels/GC_Mos_Entha/Standardmesh/Buildings/building17
+
+GeometryTemplate.active gcsupply
+GeometryTemplate.file ../bf1942/levels/GC_Mos_Entha/Standardmesh/Buildings/Tatooine/gcsupply
+
+GeometryTemplate.active ME_building2_m1
+GeometryTemplate.file ../bf1942/levels/GC_Mos_Entha/Standardmesh/Buildings/Tatooine/tat_building2_m1
+
+GeometryTemplate.active ME_building3_m1
+GeometryTemplate.file ../bf1942/levels/GC_Mos_Entha/Standardmesh/Buildings/Tatooine/tat_Building3_m1
+
+GeometryTemplate.active ME_building4_m1
+GeometryTemplate.file ../bf1942/levels/GC_Mos_Entha/Standardmesh/Buildings/Tatooine/tat_building4_m1
+
+GeometryTemplate.active ME_building4_mirror_m1
+GeometryTemplate.file ../bf1942/levels/GC_Mos_Entha/Standardmesh/Buildings/Tatooine/tat_building4_mirror_m1
+
+GeometryTemplate.active ME_building6_m1
+GeometryTemplate.file ../bf1942/levels/GC_Mos_Entha/Standardmesh/Buildings/Tatooine/tat_building6_m1
+
+GeometryTemplate.active ME_building7_m1
+GeometryTemplate.file ../bf1942/levels/GC_Mos_Entha/Standardmesh/Buildings/Tatooine/tat_building7_m1
+
+GeometryTemplate.active ME_building7_mirror_m1
+GeometryTemplate.file ../bf1942/levels/GC_Mos_Entha/Standardmesh/Buildings/Tatooine/tat_building7_mirror_m1
+

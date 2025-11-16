@@ -1,0 +1,3 @@
+ObjectTemplate.create Bundle me_table_small
+ObjectTemplate.geometry me_table_small
+ObjectTemplate.setHasCollisionPhysics 1

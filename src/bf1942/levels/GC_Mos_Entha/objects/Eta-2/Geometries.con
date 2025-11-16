@@ -1,0 +1,34 @@
+GeometryTemplate.create StandardMesh Eta2_hull
+GeometryTemplate.file Vehicles/Eta-2/Eta-2-hull
+rem GeometryTemplate.file Vehicles/N1-Fighter/N1-Fighter_hull
+GeometryTemplate.hasDynamicShadow 1
+rem GeometryTemplate.setLodDistance 0 0
+rem GeometryTemplate.setLodDistance 1 10
+rem GeometryTemplate.setLodDistance 2 30
+rem GeometryTemplate.setLodDistance 3 70
+rem GeometryTemplate.setLodDistance 4 100
+rem GeometryTemplate.setLodDistance 5 140
+
+rem GeometryTemplate.create StandardMesh TieFighter_L1
+rem GeometryTemplate.file Vehicles/TieFighter/TieFighter_Low
+rem GeometryTemplate.hasDynamicShadow 1
+
+GeometryTemplate.create StandardMesh Eta2_hatch
+GeometryTemplate.file Vehicles/Eta-2/Eta-2-hatch
+
+GeometryTemplate.create StandardMesh Eta2_wing_rt
+GeometryTemplate.file Vehicles/Eta-2/Eta-2-wing-rt
+
+GeometryTemplate.create StandardMesh Eta2_wing_rb
+GeometryTemplate.file Vehicles/Eta-2/Eta-2-wing-rb
+
+GeometryTemplate.create StandardMesh Eta2_wing_lt
+GeometryTemplate.file Vehicles/Eta-2/Eta-2-wing-lt
+
+GeometryTemplate.create StandardMesh Eta2_wing_lb
+GeometryTemplate.file Vehicles/Eta-2/Eta-2-wing-lb
+
+rem GeometryTemplate.create StandardMesh Wreck_TieFighter1_M1
+rem GeometryTemplate.file Vehicles/TieFighter/Wreck_TieFighter1
+
+

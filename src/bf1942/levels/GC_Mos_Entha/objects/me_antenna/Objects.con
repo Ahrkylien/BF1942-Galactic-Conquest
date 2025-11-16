@@ -1,0 +1,3 @@
+ObjectTemplate.create SimpleObject me_antenna
+ObjectTemplate.geometry antenna
+ObjectTemplate.setHasCollisionPhysics 1

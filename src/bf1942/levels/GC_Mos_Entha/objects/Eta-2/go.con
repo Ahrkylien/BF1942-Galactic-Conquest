@@ -1,0 +1,6 @@
+run Geometries
+run Objects
+run Weapons
+rem run Network
+run Physics
+rem run Effects

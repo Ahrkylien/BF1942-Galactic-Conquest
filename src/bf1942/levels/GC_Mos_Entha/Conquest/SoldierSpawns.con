@@ -1,0 +1,84 @@
+var v_spawn_town_1_pos = 744.6081/156.9682/639.2929
+var v_spawn_town_1_rot = 0/0/0
+
+var v_spawn_town_2_pos = 750.1133/157.6134/647.1983
+var v_spawn_town_2_rot = 0/0/0
+
+var v_spawn_town_3_pos = 799.4028/157.1702/657.8003
+var v_spawn_town_3_rot = 0/0/0
+
+var v_spawn_town_4_pos = 722.0439/157.0187/709.4877
+var v_spawn_town_4_rot = 0/0/0
+
+var v_spawn_town_5_pos = 725.1752/156.6714/749.7465
+var v_spawn_town_5_rot = 0/0/0
+
+var v_spawn_town_6_pos = 750.6724/157.314/773.4545
+var v_spawn_town_6_rot = 0/0/0
+
+var v_spawn_town_7_pos = 838.4164/157.3598/720.0291
+var v_spawn_town_7_rot = 0/0/0
+
+var v_spawn_town_8_pos = 882.9403/157.1691/759.421
+var v_spawn_town_8_rot = 0/0/0
+
+var v_spawn_town_9_pos = 846.3891/153.3537/817.943
+var v_spawn_town_9_rot = 0/0/0
+
+var v_spawn_town_10_pos = 814.6762/157.1691/738.7031
+var v_spawn_town_10_rot = 0/0/0
+
+var v_spawn_town_11_pos = 843.16/157.1691/670.2067
+var v_spawn_town_11_rot = 0/0/0
+
+var v_spawn_town_12_pos = 854.833/157.3598/738.9628
+var v_spawn_town_12_rot = 0/0/0
+
+
+object.create spawn_town_1_1
+object.absolutePosition v_spawn_town_1_pos
+object.rotation v_spawn_town_1_rot
+
+object.create spawn_town_1_2
+object.absolutePosition v_spawn_town_2_pos
+object.rotation v_spawn_town_2_rot
+
+object.create spawn_town_1_3
+object.absolutePosition v_spawn_town_3_pos
+object.rotation v_spawn_town_3_rot
+
+object.create spawn_town_1_4
+object.absolutePosition v_spawn_town_4_pos
+object.rotation v_spawn_town_4_rot
+
+object.create spawn_town_1_5
+object.absolutePosition v_spawn_town_5_pos
+object.rotation v_spawn_town_5_rot
+
+object.create spawn_town_1_6
+object.absolutePosition v_spawn_town_6_pos
+object.rotation v_spawn_town_6_rot
+
+object.create spawn_town_1_7
+object.absolutePosition v_spawn_town_7_pos
+object.rotation v_spawn_town_7_rot
+
+object.create spawn_town_1_8
+object.absolutePosition v_spawn_town_8_pos
+object.rotation v_spawn_town_8_rot
+
+object.create spawn_town_1_9
+object.absolutePosition v_spawn_town_9_pos
+object.rotation v_spawn_town_9_rot
+
+object.create spawn_town_1_10
+object.absolutePosition v_spawn_town_10_pos
+object.rotation v_spawn_town_10_rot
+
+object.create spawn_town_1_11
+object.absolutePosition v_spawn_town_11_pos
+object.rotation v_spawn_town_11_rot
+
+object.create spawn_town_1_12
+object.absolutePosition v_spawn_town_12_pos
+object.rotation v_spawn_town_12_rot

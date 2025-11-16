@@ -1,0 +1,3 @@
+ObjectTemplate.create Bundle me_chair
+ObjectTemplate.geometry me_chair
+ObjectTemplate.setHasCollisionPhysics 1

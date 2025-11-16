@@ -1,0 +1,166 @@
+rem Air:
+rem Rebels:
+rem RepGun ----
+rem Slave1
+rem AWing ----
+rem B-Wing ----
+rem EWing ----
+rem Green
+rem Skyhopper ----
+rem Slave1
+rem X-Wing
+rem yt1300
+rem yt600
+rem YWing
+rem Snowspeeder
+rem sentrycontrol
+
+rem NebulonB
+rem Runner
+
+
+rem Imperial:
+rem TieAdvanced
+rem TieBomber
+rem TieFighter
+rem TieInterceptor
+
+rem ImpSkiff
+rem Lambda
+rem Imperial_LandingCraft
+
+rem sentrycontrol
+
+rem Carrack
+rem Lancer
+
+
+
+ObjectTemplate.create ObjectSpawner Carrack_spawner
+ObjectTemplate.setObjectTemplate 1 Static_Carrack
+ObjectTemplate.SpawnDelay 0
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 120
+ObjectTemplate.Distance 200
+ObjectTemplate.DamageWhenLost 20
+ObjectTemplate.MaxNrOfObjectSpawned 1
+ObjectTemplate.nrOfObjectToSpawn 1
+
+ObjectTemplate.create ObjectSpawner fighter1_spawner
+ObjectTemplate.setObjectTemplate 1 tiefighter
+ObjectTemplate.setObjectTemplate 2 X-wing
+ObjectTemplate.SpawnDelay 5
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 120
+ObjectTemplate.Distance 200
+ObjectTemplate.DamageWhenLost 20
+ObjectTemplate.MaxNrOfObjectSpawned 10
+rem ObjectTemplate.holdObject 1
+
+ObjectTemplate.create ObjectSpawner fighter2_spawner
+ObjectTemplate.setObjectTemplate 1 tiefighter
+ObjectTemplate.setObjectTemplate 2 A-wing
+ObjectTemplate.SpawnDelay 5
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 120
+ObjectTemplate.Distance 200
+ObjectTemplate.DamageWhenLost 20
+ObjectTemplate.MaxNrOfObjectSpawned 10
+rem ObjectTemplate.holdObject 1
+
+ObjectTemplate.create ObjectSpawner fighter3_spawner
+ObjectTemplate.setObjectTemplate 1 Avenger
+ObjectTemplate.setObjectTemplate 2 Y-wing
+ObjectTemplate.SpawnDelay 5
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 120
+ObjectTemplate.Distance 200
+ObjectTemplate.DamageWhenLost 20
+ObjectTemplate.MaxNrOfObjectSpawned 10
+rem ObjectTemplate.holdObject 1
+
+ObjectTemplate.create ObjectSpawner fighter4_spawner
+ObjectTemplate.setObjectTemplate 1 tiefighter
+ObjectTemplate.setObjectTemplate 2 E-wing
+ObjectTemplate.SpawnDelay 5
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 120
+ObjectTemplate.Distance 200
+ObjectTemplate.DamageWhenLost 20
+ObjectTemplate.MaxNrOfObjectSpawned 10
+rem ObjectTemplate.holdObject 1
+
+ObjectTemplate.create ObjectSpawner fighter5_spawner
+ObjectTemplate.setObjectTemplate 1 tiefighter
+ObjectTemplate.setObjectTemplate 2 T-16
+ObjectTemplate.SpawnDelay 5
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 120
+ObjectTemplate.Distance 200
+ObjectTemplate.DamageWhenLost 20
+ObjectTemplate.MaxNrOfObjectSpawned 10
+rem ObjectTemplate.holdObject 1
+
+ObjectTemplate.create ObjectSpawner fighter6_spawner
+ObjectTemplate.setObjectTemplate 1 tiefighter
+ObjectTemplate.setObjectTemplate 2 N1-Fighter
+ObjectTemplate.setObjectTemplate 3 Eta-2
+ObjectTemplate.setObjectTemplate 4 TieOppressor
+ObjectTemplate.SpawnDelay 5
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 120
+ObjectTemplate.Distance 200
+ObjectTemplate.DamageWhenLost 20
+ObjectTemplate.MaxNrOfObjectSpawned 10
+rem ObjectTemplate.holdObject 1
+
+ObjectTemplate.create ObjectSpawner speeder1_spawner
+ObjectTemplate.setObjectTemplate 1 Speederbike
+ObjectTemplate.setObjectTemplate 2 Landspeeder
+rem ObjectTemplate.setObjectTemplate 2 GAIN-135
+ObjectTemplate.SpawnDelay 5
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 120
+ObjectTemplate.Distance 200
+ObjectTemplate.DamageWhenLost 20
+ObjectTemplate.MaxNrOfObjectSpawned 10
+
+ObjectTemplate.create ObjectSpawner speeder2_spawner
+rem ObjectTemplate.setObjectTemplate 1 tiefighter
+ObjectTemplate.setObjectTemplate 2 LandspeederEWEB
+ObjectTemplate.SpawnDelay 5
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 120
+ObjectTemplate.Distance 200
+ObjectTemplate.DamageWhenLost 20
+ObjectTemplate.MaxNrOfObjectSpawned 10
+
+ObjectTemplate.create ObjectSpawner speeder3_spawner
+rem ObjectTemplate.setObjectTemplate 1 tiefighter
+ObjectTemplate.setObjectTemplate 2 SKIFFS
+ObjectTemplate.SpawnDelay 5
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 120
+ObjectTemplate.Distance 200
+ObjectTemplate.DamageWhenLost 20
+ObjectTemplate.MaxNrOfObjectSpawned 10
+
+ObjectTemplate.create ObjectSpawner tank_spawner
+ObjectTemplate.setObjectTemplate 1 Firehawke
+ObjectTemplate.setObjectTemplate 2 T-3B
+ObjectTemplate.SpawnDelay 5
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 120
+ObjectTemplate.Distance 200
+ObjectTemplate.DamageWhenLost 20
+ObjectTemplate.MaxNrOfObjectSpawned 10
+
+ObjectTemplate.create ObjectSpawner tank2_spawner
+ObjectTemplate.setObjectTemplate 1 MIAU
+ObjectTemplate.setObjectTemplate 2 T-3BA
+ObjectTemplate.SpawnDelay 5
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 120
+ObjectTemplate.Distance 200
+ObjectTemplate.DamageWhenLost 20
+ObjectTemplate.MaxNrOfObjectSpawned 10

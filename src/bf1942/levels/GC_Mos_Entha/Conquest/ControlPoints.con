@@ -1,0 +1,28 @@
+object.create cntl_town1
+object.absolutePosition 798.0834/157.1962/720.8793
+object.rotation 0/0/0
+
+object.create cntl_town2
+object.absolutePosition 739.0906/157.1962/743.6955
+object.rotation 0/0/0
+
+object.create cntl_town3
+object.absolutePosition 871.9804/163.134/702.6648
+object.rotation 15.3564/0/0
+
+object.create cntl_town4
+object.absolutePosition 731.1382/161.3682/685.3223
+object.rotation -13.2255/0/0
+
+object.create cntl_town5
+object.absolutePosition 842.7594/169.3728/699.5807
+object.rotation -13.2255/0/0
+
+object.create cntl_town6
+object.absolutePosition 872.1922/165.549/787.7598
+object.rotation -13.2255/0/0
+
+object.create cntl_town7
+object.absolutePosition 796.8221/157.1546/786.1265
+object.rotation -13.2255/0/0
+

@@ -1,0 +1,30 @@
+GeometryTemplate.create StandardMesh bridge2
+GeometryTemplate.file Buildings/Tatooine/bridge2_m1
+
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 50
+GeometryTemplate.setLodDistance 3 60
+GeometryTemplate.setLodDistance 4 80
+GeometryTemplate.setLodDistance 5 100
+
+GeometryTemplate.create StandardMesh bridge3_m1
+GeometryTemplate.file Buildings/Tatooine/bridge3_m1
+
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 50
+GeometryTemplate.setLodDistance 3 60
+GeometryTemplate.setLodDistance 4 80
+GeometryTemplate.setLodDistance 5 100
+
+
+GeometryTemplate.create StandardMesh bridge4_m1
+GeometryTemplate.file Buildings/Tatooine/bridge4_m1
+
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 50
+GeometryTemplate.setLodDistance 3 60
+GeometryTemplate.setLodDistance 4 80
+GeometryTemplate.setLodDistance 5 100

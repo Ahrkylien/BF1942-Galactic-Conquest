@@ -1,0 +1,29 @@
+ObjectTemplate.create Bundle ME_building_doubledome_m1
+ObjectTemplate.addtemplate me_floorbed
+ObjectTemplate.setposition -3/5.4940/4.9
+ObjectTemplate.addtemplate me_floorbed
+ObjectTemplate.setposition 1/5.4940/4.9
+
+ObjectTemplate.geometry ME_building_doubledome_m1
+ObjectTemplate.setHasCollisionPhysics 1
+
+
+ObjectTemplate.addtemplate me_roundtable
+ObjectTemplate.setposition -0.7025/0.1113/1.5543
+ObjectTemplate.addtemplate me_chair
+ObjectTemplate.setposition -2.025/0.1340/3.1
+ObjectTemplate.setrotation -45/0/0
+
+ObjectTemplate.addtemplate me_chair
+ObjectTemplate.setposition 1.225/0.1340/3.1
+ObjectTemplate.setrotation 45/0/0
+
+
+ObjectTemplate.addtemplate me_chair
+ObjectTemplate.setposition -2.025/0.1340/0
+ObjectTemplate.setrotation -135/0/0
+
+
+ObjectTemplate.addtemplate me_chair
+ObjectTemplate.setposition 1.225/0.1340/0
+ObjectTemplate.setrotation 135/0/0

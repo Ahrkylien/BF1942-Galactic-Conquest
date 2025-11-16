@@ -1,0 +1,3 @@
+ObjectTemplate.create SimpleObject me_ringthing
+ObjectTemplate.geometry ringthing
+ObjectTemplate.setHasCollisionPhysics 1
