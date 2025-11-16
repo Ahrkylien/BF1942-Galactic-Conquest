@@ -1,5 +1,8 @@
 # Galactic Conquest
-Galactic Conquest full conversion modification for Battlefield 1942.
+Galactic Conquest is a full conversion Star Wars themed modification for Battlefield 1942.\
+
+In it you will travel to iconic destinations of the Galactic Civil War and the Clone Wars!\
+There are no Jedi Powers in the mod, and it was conceived and originally designed in the early era of modding with full permission from LucasArts.
 
 ## Dependencies
 To pack and build the mod you will need the python dependencies listed in the submodule.
