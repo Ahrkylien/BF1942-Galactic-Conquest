@@ -1,7 +1,7 @@
 [CubeMap]
-PositiveX = GCMOD\levels\GC_Ryloth\Textures\env_GC_Ryloth_04.dds
-NegativeX = GCMOD\levels\GC_Ryloth\Textures\env_GC_Ryloth_02.dds
-PositiveY = GCMOD\levels\GC_Ryloth\Textures\env_GC_Ryloth_05.dds
-NegativeY = GCMOD\levels\GC_Ryloth\Textures\env_GC_Ryloth_06.dds
-PositiveZ = GCMOD\levels\GC_Ryloth\Textures\env_GC_Ryloth_03.dds
-NegativeZ = GCMOD\levels\GC_Ryloth\Textures\env_GC_Ryloth_01.dds
+PositiveX = bf1942\levels\GC_Ryloth\Textures\env_GC_ryloth_04.dds
+NegativeX = bf1942\levels\GC_Ryloth\Textures\env_GC_ryloth_02.dds
+PositiveY = bf1942\levels\GC_Ryloth\Textures\env_GC_ryloth_05.dds
+NegativeY = bf1942\levels\GC_Ryloth\Textures\env_GC_ryloth_06.dds
+PositiveZ = bf1942\levels\GC_Ryloth\Textures\env_GC_ryloth_03.dds
+NegativeZ = bf1942\levels\GC_Ryloth\Textures\env_GC_ryloth_01.dds
