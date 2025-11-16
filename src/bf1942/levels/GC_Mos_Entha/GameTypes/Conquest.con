@@ -1,0 +1,3 @@
+rem run Conquest
+rem Game.setTicketLostPerMin 1 15
+rem Game.setTicketLostPerMin 2 15

@@ -1,0 +1,35 @@
+run Rebel_Fleet_Emitter/go
+run tat_curved_pavement1/go
+run N1-Fighter/go
+run TieOppressor/go
+run Eta-2/go
+run EbonHawk/go
+
+run me_antenna\go
+run bridge2\go
+run me_chair\go
+run me_floorbed\go
+run me_roundtable\go
+run me_table\go
+run me_table_small\go
+run me_pot\go
+run bridge1stairs\go
+
+run ME_bridgedbuilding_m1\go
+run ME_building_2floorhouse_m1\go
+run ME_building_Bigbalcony_m1\go
+run ME_building_central_m1\go
+run ME_building_corner_m1\go
+run ME_building_Cornertwo_m1\go
+run ME_building_doubledome_m1\go
+run ME_building_tower2_m1\go
+run ME_building_villa_m1\go
+run me_building8_m1\go
+run me_building8_mirror_m1\go
+run tat_building_large\go
+
+run me_ringthing\go
+
+run Static_Carrack\go
+
+run AlwaysRender\go

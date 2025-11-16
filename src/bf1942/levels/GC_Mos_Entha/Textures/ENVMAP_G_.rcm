@@ -1,0 +1,8 @@
+[CubeMap]
+PositiveX = bf1942\levels\GC_Mos_Entha\Textures\scene_b.dds
+NegativeX = bf1942\levels\GC_Mos_Entha\Textures\scene_f.dds
+PositiveY = bf1942\levels\GC_Mos_Entha\Textures\scene_u.dds
+NegativeY = bf1942\levels\GC_Mos_Entha\Textures\scene_d.dds
+PositiveZ = bf1942\levels\GC_Mos_Entha\Textures\scene_r.dds
+NegativeZ = bf1942\levels\GC_Mos_Entha\Textures\scene_l.dds
+

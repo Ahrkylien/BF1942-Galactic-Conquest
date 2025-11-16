@@ -1,0 +1,20 @@
+GeometryTemplate.create StandardMesh ME_building_tower2_m1
+GeometryTemplate.file Buildings/Tatooine/me_building_tower2_m1
+GeometryTemplate.textureFadeMaxDist 70
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 40
+GeometryTemplate.setLodDistance 3 150
+GeometryTemplate.setLodDistance 4 250
+GeometryTemplate.setLodDistance 5 350
+
+
+GeometryTemplate.create StandardMesh ME_building_tower2_m2
+GeometryTemplate.file Buildings/Tatooine/me_building_tower2_m2
+GeometryTemplate.textureFadeMaxDist 60
+GeometryTemplate.setLodDistance 0 60
+GeometryTemplate.setLodDistance 1 80
+GeometryTemplate.setLodDistance 2 100
+GeometryTemplate.setLodDistance 3 200
+GeometryTemplate.setLodDistance 4 450
+GeometryTemplate.setLodDistance 5 600

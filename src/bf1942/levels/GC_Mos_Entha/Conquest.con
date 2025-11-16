@@ -1,0 +1,22 @@
+Game.setNumberOfTickets 1 100
+Game.setNumberOfTickets 2 100
+Game.setTicketLostPerMin 1 5
+Game.setTicketLostPerMin 2 900
+
+run misc
+
+run Conquest/SpawnpointManagerSettings
+run Conquest/SoldierSpawnTemplates
+run Conquest/SoldierSpawns
+run Conquest/ObjectSpawnTemplates
+run Conquest/ControlPointTemplates
+
+if v_arg1 == host
+	var v_isAiLevel
+	game.isAiLevel -> v_isAiLevel
+	if v_isAiLevel
+		run ai
+	endif
+	run Conquest/ObjectSpawns
+	run Conquest/ControlPoints
+endif

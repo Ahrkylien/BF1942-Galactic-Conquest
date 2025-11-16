@@ -1,0 +1,38 @@
+rem *** N1FLaser1 ***
+ObjectTemplate.create FireArms N1FLaser1
+ObjectTemplate.loadSoundScript "Sounds/N1FLaser.ssc"
+ObjectTemplate.setNetworkableInfo PlaneFireArmInfo
+rem -------------------------------------
+ObjectTemplate.visibleBarrelTemplate e_MuzzHeavy
+rem -------------------------------------
+ObjectTemplate.projectileTemplate MediumLaserProjectileGreenNS
+ObjectTemplate.magSize -1
+ObjectTemplate.magType 0
+ObjectTemplate.numOfMag 999
+ObjectTemplate.velocity 600
+ObjectTemplate.reloadtime 0.1
+ObjectTemplate.roundOfFire 5.3
+ObjectTemplate.addFireArmsPosition -0.247376/0.0822501/1.62213 0/0/0
+ObjectTemplate.addFireArmsPosition 0.247376/0.0822501/1.62213 0/0/0
+REM *** OVERHEAT *** 
+objectTemplate.heatAddWhenFire 0.05
+objectTemplate.coolDownPerSec 0.7
+objectTemplate.timeDelayOnOverHeat 2
+ObjectTemplate.AmmoType	10
+
+rem *** N1FLaser2 ***
+ObjectTemplate.create FireArms N1FBomb
+rem ObjectTemplate.loadSoundScript Sounds/N1FLaser2.ssc
+ObjectTemplate.setNetworkableInfo PlaneFireArmInfo
+ObjectTemplate.visibleBarrelTemplate e_MuzzHeavy
+ObjectTemplate.projectileTemplate fighterbomb
+ObjectTemplate.addFireArmsPosition 0/-0.258135/2.48576 0/0/0
+ObjectTemplate.magSize 20
+ObjectTemplate.numOfMag 1
+ObjectTemplate.velocity 200
+ObjectTemplate.roundOfFire 2
+ObjectTemplate.setInputFire c_PIAltFire
+ObjectTemplate.fireingForce 1
+ObjectTemplate.AmmoType	7
+
+

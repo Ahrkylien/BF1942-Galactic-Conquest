@@ -1,0 +1,30 @@
+rem *** e_engineN1F ***
+ObjectTemplate.create EffectBundle e_engineN1F
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+rem -------------------------------------
+ObjectTemplate.addTemplate Em_engineN1F
+rem -------------------------------------
+rem ObjectTemplate.setStartOnEffects 1
+
+rem *** Em_engineN1F ***
+ObjectTemplate.create Emitter Em_engineN1F
+ObjectTemplate.template Fx_engineN1F
+ObjectTemplate.lodDistance 500
+ObjectTemplate.intensityAtSpeed 1
+rem ObjectTemplate.timeToLive CRD_NONE/0.1/0/0
+ObjectTemplate.intensity CRD_NONE/1/0/0
+ObjectTemplate.startRotation CRD_NORMAL/0/180/0
+ObjectTemplate.noPhysics 1
+ObjectTemplate.addChild 1
+ObjectTemplate.looping 1
+ObjectTemplate.startAtCreation 1
+
+rem *** fx_engineN1F ***
+ObjectTemplate.create Particle fx_engineN1F
+ObjectTemplate.geometry N1-Fighter_engine_light
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.size CRD_NONE/1/.95/0
+ObjectTemplate.gravityModifier CRD_NONE/0/0/0
+ObjectTemplate.sizeModifier 1/1/1
+ObjectTemplate.sizeOverTime 0/1|50/0.95
+ObjectTemplate.alphaOverTime 0/0|100/1

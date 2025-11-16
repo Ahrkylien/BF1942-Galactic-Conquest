@@ -1,0 +1,383 @@
+ObjectTemplate.create PlayerControlObject Static_Carrack
+ObjectTemplate.setNetworkableInfo Carrack_Body_Info
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.inertiaModifier 80000/5/80000
+ObjectTemplate.drag 8
+ObjectTemplate.mass 1000000
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.explosionRadius 15
+ObjectTemplate.explosionDamage 10
+ObjectTemplate.hasArmor 1
+ObjectTemplate.speedMod .1
+ObjectTemplate.hitpoints 5500
+ObjectTemplate.maxhitpoints 5500
+ObjectTemplate.material 821
+ObjectTemplate.criticalDamage 150
+ObjectTemplate.hpLostWhileCriticalDamage 12
+ObjectTemplate.explosionForceMod 10
+ObjectTemplate.addArmorEffect 800 em_ExFumePOW 0/17/-9
+ObjectTemplate.addArmorEffect 600 em_FletcherDamage 0/0/0
+ObjectTemplate.addArmorEffect 350 em_FletcherDamage 0/0/20
+ObjectTemplate.addArmorEffect 350 em_FletcherDamage 0/0/-30
+ObjectTemplate.addArmorEffect 300 e_carrackclax 0/-10/182
+ObjectTemplate.addArmorEffect 300 e_carrackclax 0/-20/-100
+ObjectTemplate.addArmorEffect 300 em_FletcherDamage 0/0/110
+ObjectTemplate.addArmorEffect 300 em_FletcherDamage 0/0/110
+ObjectTemplate.addArmorEffect 300 em_FletcherDamage 0/0/110
+ObjectTemplate.addArmorEffect 175 e_carrackalm 0/0/180
+ObjectTemplate.addArmorEffect 175 e_carrackalm 0/0/-100
+ObjectTemplate.fadeAtTimeToLiveAfterDeath 0.01
+rem DEATH BLOW
+ObjectTemplate.addArmorEffect 0 e_ExplGas -14.9/0/-10
+ObjectTemplate.addArmorEffect 0 e_ExplGas 16.9/5.83/0
+ObjectTemplate.addArmorEffect 0 e_ExplGas -16.9/5.83/0
+ObjectTemplate.addArmorEffect 0 e_ExplCap 0/0/0
+
+ObjectTemplate.addArmorEffect 12 e_ExplGas 0/4.3/74.3
+ObjectTemplate.addArmorEffect 15 e_ExplGas 0/16/41.9
+ObjectTemplate.addArmorEffect 112 e_ExplGas 16.9/5.83/23
+ObjectTemplate.addArmorEffect 30 e_ExplGas -16.9/5.83/23
+ObjectTemplate.addArmorEffect 50 e_ExplGas 0/0/0
+
+ObjectTemplate.addArmorEffect 130 e_ExplGas 0/4.3/74.3
+ObjectTemplate.addArmorEffect 50 e_ExplGas 0/16/41.9
+ObjectTemplate.addArmorEffect 80 e_ExplGas 16.9/5.83/23
+ObjectTemplate.addArmorEffect 75 e_ExplGas -16.9/5.83/23
+ObjectTemplate.addArmorEffect 40 e_ExplGas 0/0/0
+
+ObjectTemplate.addArmorEffect 144 e_ExplGas 0/4.3/74.3
+ObjectTemplate.addArmorEffect 85 e_ExplGas 0/16/41.9
+ObjectTemplate.addArmorEffect 70 e_ExplGas 16.9/5.83/23
+ObjectTemplate.addArmorEffect 35 e_ExplGas -16.9/5.83/23
+ObjectTemplate.addArmorEffect 30 e_ExplGas 0/0/0
+rem DEATH BLOW
+
+rem -------------------------------------
+ObjectTemplate.addTemplate lod_Static_Carrack
+ObjectTemplate.addTemplate CarrackSoldierSpawn
+ObjectTemplate.setPosition -8.03656/-11.4515/90.6003
+ObjectTemplate.setRotation 180/0/0
+ObjectTemplate.addTemplate CarrackSoldierSpawn
+ObjectTemplate.setPosition 4.53065/-11.4515/90.6003
+ObjectTemplate.setRotation 180/0/0
+ObjectTemplate.addTemplate CarrackSoldierSpawn
+ObjectTemplate.setPosition -1.753/-11.4515/80
+ObjectTemplate.setRotation 180/0/0
+ObjectTemplate.addTemplate CarrackSoldierSpawn
+ObjectTemplate.setPosition -1.753/-11.4515/70
+ObjectTemplate.setRotation 180/0/0
+ObjectTemplate.addTemplate CarrackSoldierSpawn
+ObjectTemplate.setPosition -1.753/-11.4515/60
+ObjectTemplate.setRotation 180/0/0
+ObjectTemplate.addTemplate CarrackSoldierSpawn
+ObjectTemplate.setPosition -1.753/-11.4515/50
+ObjectTemplate.setRotation 180/0/0
+ObjectTemplate.addTemplate CarrackSoldierSpawn
+ObjectTemplate.setPosition -1.753/-11.4515/40
+ObjectTemplate.setRotation 180/0/0
+ObjectTemplate.addTemplate CarrackSoldierSpawn
+ObjectTemplate.setPosition -1.753/-11.4515/30
+ObjectTemplate.setRotation 180/0/0
+ObjectTemplate.addTemplate CarrackSoldierSpawn
+ObjectTemplate.setPosition -1.753/-11.4515/20
+ObjectTemplate.setRotation 180/0/0
+ObjectTemplate.addTemplate CarrackSoldierSpawn
+ObjectTemplate.setPosition -1.753/-11.4515/10
+ObjectTemplate.setRotation 180/0/0
+ObjectTemplate.addTemplate CarrackSoldierSpawn
+ObjectTemplate.setPosition -1.753/-11.4515/0
+ObjectTemplate.setRotation 180/0/0
+ObjectTemplate.addTemplate CarrackSoldierSpawn
+ObjectTemplate.setPosition -1.753/-11.4515/-10
+ObjectTemplate.setRotation 180/0/0
+ObjectTemplate.addTemplate CarrackSoldierSpawn
+ObjectTemplate.setPosition -1.753/-11.4515/-20
+ObjectTemplate.setRotation 180/0/0
+ObjectTemplate.addTemplate CarrackSoldierSpawn
+ObjectTemplate.setPosition -1.753/-11.4515/-30
+ObjectTemplate.setRotation 180/0/0
+ObjectTemplate.addTemplate CarrackSoldierSpawn
+ObjectTemplate.setPosition -1.753/-11.4515/-40
+ObjectTemplate.setRotation 180/0/0
+ObjectTemplate.addTemplate CarrackSoldierSpawn
+ObjectTemplate.setPosition -1.753/-11.4515/-50
+ObjectTemplate.setRotation 180/0/0
+ObjectTemplate.addTemplate CarrackSoldierSpawn
+ObjectTemplate.setPosition -1.753/-11.4515/-60
+ObjectTemplate.setRotation 180/0/0
+ObjectTemplate.addTemplate CarrackSoldierSpawn
+ObjectTemplate.setPosition -1.753/-11.4515/-70
+ObjectTemplate.setRotation 180/0/0
+rem ------------------------------
+ObjectTemplate.setPcoId 99
+ObjectTemplate.setSoldierExitLocation -1.79015/11.3314/169.743 0/0/0
+ObjectTemplate.setVehicleIcon "Vehicle/Icon_carrack.dds"
+ObjectTemplate.setNumberOfWeaponIcons 0
+ObjectTemplate.setPrimaryAmmoIcon "Ammo/icon_greenlaser_64x64.dds"
+ObjectTemplate.setPrimaryAmmoBar ABReloadBarOnly
+ObjectTemplate.setCrossHairType CHTNone
+ObjectTemplate.setVehicleCategory VCSea
+ObjectTemplate.setVehicleType VTDestroyer
+ObjectTemplate.setMinimapIcon "Minimap/minimap_icon_carrack_16x16.tga"
+
+ObjectTemplate.create LodObject lod_Static_Carrack
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate Static_Carrack_Complex
+ObjectTemplate.addTemplate CarrackSimple
+ObjectTemplate.addTemplate NoWreck
+rem -------------------------------------
+ObjectTemplate.lodSelector CarrackLodSelector
+
+ObjectTemplate.create Bundle Static_Carrack_Complex
+ObjectTemplate.setNetworkableInfo Carrack_Body_Info
+ObjectTemplate.loadSoundScript Sounds/capenginecarrack.ssc
+ObjectTemplate.geometry carrackbody
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate Capital_Floater
+ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.addTemplate Capital_Floater
+ObjectTemplate.setPosition -28/0/80
+ObjectTemplate.addTemplate Capital_Floater
+ObjectTemplate.setPosition 28/0/80
+ObjectTemplate.addTemplate Capital_Floater
+ObjectTemplate.setPosition 28/0/-70
+ObjectTemplate.addTemplate Capital_Floater
+ObjectTemplate.setPosition -28/0/-70
+ObjectTemplate.addTemplate Capital_Wheel
+ObjectTemplate.setPosition 10/-80/10
+ObjectTemplate.addTemplate Capital_Wheel
+ObjectTemplate.setPosition -10/-80/10
+ObjectTemplate.addTemplate Capital_Wheel
+ObjectTemplate.setPosition 10/-80/-10
+ObjectTemplate.addTemplate Capital_Wheel
+ObjectTemplate.setPosition -10/-80/-10
+
+ObjectTemplate.addTemplate Capital_Wheel
+ObjectTemplate.setPosition 10/80/10
+ObjectTemplate.addTemplate Capital_Wheel
+ObjectTemplate.setPosition -10/80/10
+ObjectTemplate.addTemplate Capital_Wheel
+ObjectTemplate.setPosition 10/80/-10
+ObjectTemplate.addTemplate Capital_Wheel
+ObjectTemplate.setPosition -10/80/-10
+
+ObjectTemplate.addTemplate CapitalBodyWingVertical
+ObjectTemplate.setRotation 0/0/-89.999
+rem ------------------------------------
+ObjectTemplate.addTemplate axisairplaneammo
+ObjectTemplate.setPosition 6.61952/-10.7558/-26.8206
+ObjectTemplate.setRotation 90.0/0.0/0.0
+ObjectTemplate.addTemplate axisairplaneammo
+ObjectTemplate.setPosition -10.1492/-10.7558/-26.8206
+ObjectTemplate.setRotation -90.0/0.0/0.0
+
+ObjectTemplate.addTemplate carrackTieFighterSpawner
+ObjectTemplate.setPosition -7.79165/-10.2861/78.5761
+ObjectTemplate.setRotation -90.0/0.0/0.0
+ObjectTemplate.addTemplate carrackTieFighterSpawner
+ObjectTemplate.setPosition -7.79165/-10.2861/70.5761
+ObjectTemplate.setRotation -90.0/0.0/0.0
+ObjectTemplate.addTemplate carrackTieFighterSpawner
+ObjectTemplate.setPosition -7.79165/-10.2861/62.5761
+ObjectTemplate.setRotation -90.0/0.0/0.0
+ObjectTemplate.addTemplate carrackTieFighterSpawner
+ObjectTemplate.setPosition -7.79165/-10.2861/54.5761
+ObjectTemplate.setRotation -90.0/0.0/0.0
+ObjectTemplate.addTemplate carrackTieFighterSpawner
+ObjectTemplate.setPosition -7.79165/-10.2861/46.5761
+ObjectTemplate.setRotation -90.0/0.0/0.0
+ObjectTemplate.addTemplate carrackTieFighterSpawner
+ObjectTemplate.setPosition -7.79165/-10.2861/38.5761
+ObjectTemplate.setRotation -90.0/0.0/0.0
+ObjectTemplate.addTemplate carrackTieFighterSpawner
+ObjectTemplate.setPosition -7.79165/-10.2861/30.5761
+ObjectTemplate.setRotation -90.0/0.0/0.0
+ObjectTemplate.addTemplate carrackTieFighterSpawner
+ObjectTemplate.setPosition -7.79165/-10.2861/22.5761
+ObjectTemplate.setRotation -90.0/0.0/0.0
+ObjectTemplate.addTemplate carrackTieFighterSpawner
+ObjectTemplate.setPosition -7.79165/-10.2861/14.5761
+ObjectTemplate.setRotation -90.0/0.0/0.0
+ObjectTemplate.addTemplate carrackIntSpawner
+ObjectTemplate.setPosition -7.79165/-10.2861/5.5761
+ObjectTemplate.setRotation -90.0/0.0/0.0
+ObjectTemplate.addTemplate carrackIntSpawner
+ObjectTemplate.setPosition -7.79165/-10.2861/-5.5761
+ObjectTemplate.setRotation -90.0/0.0/0.0
+ObjectTemplate.addTemplate carrackTieAdvancedSpawner
+ObjectTemplate.setPosition -9.79165/-10.2861/-15.5761
+ObjectTemplate.setRotation -90.0/0.0/0.0
+ObjectTemplate.addTemplate carrackTieAdvancedSpawner
+ObjectTemplate.setPosition -9.79165/-10.2861/-25.5761
+ObjectTemplate.setRotation -90.0/0.0/0.0
+ObjectTemplate.addTemplate carrackBomberSpawner
+ObjectTemplate.setPosition -9.79165/-10.2861/-36.5761
+ObjectTemplate.setRotation -90.0/0.0/0.0
+ObjectTemplate.addTemplate carrackBomberSpawner
+ObjectTemplate.setPosition -9.79165/-10.2861/-48.5761
+ObjectTemplate.setRotation -90.0/0.0/0.0
+ObjectTemplate.addTemplate carrackTieOppressorSpawner
+ObjectTemplate.setPosition -11/-10.2861/-58.5761
+ObjectTemplate.setRotation -90.0/0.0/0.0
+ObjectTemplate.addTemplate carrackTieOppressorSpawner
+ObjectTemplate.setPosition -11/-10.2861/-66.5761
+ObjectTemplate.setRotation -90.0/0.0/0.0
+ObjectTemplate.addTemplate carrackTieOppressorSpawner
+ObjectTemplate.setPosition -11/-10.2861/-74.5761
+ObjectTemplate.setRotation -90.0/0.0/0.0
+ObjectTemplate.addTemplate carrackTieOppressorSpawner
+ObjectTemplate.setPosition -11/-10.2861/-82.5761
+ObjectTemplate.setRotation -90.0/0.0/0.0
+
+ObjectTemplate.addTemplate carrackTieFighterSpawner
+ObjectTemplate.setPosition 4.30093/-10.2861/78.5761
+ObjectTemplate.setRotation 90.0/0.0/0.0
+ObjectTemplate.addTemplate carrackTieFighterSpawner
+ObjectTemplate.setPosition 4.30093/-10.2861/70.5761
+ObjectTemplate.setRotation 90.0/0.0/0.0
+ObjectTemplate.addTemplate carrackTieFighterSpawner
+ObjectTemplate.setPosition 4.30093/-10.2861/62.5761
+ObjectTemplate.setRotation 90.0/0.0/0.0
+ObjectTemplate.addTemplate carrackTieFighterSpawner
+ObjectTemplate.setPosition 4.30093/-10.2861/54.5761
+ObjectTemplate.setRotation 90.0/0.0/0.0
+ObjectTemplate.addTemplate carrackTieFighterSpawner
+ObjectTemplate.setPosition 4.30093/-10.2861/46.5761
+ObjectTemplate.setRotation 90.0/0.0/0.0
+ObjectTemplate.addTemplate carrackTieFighterSpawner
+ObjectTemplate.setPosition 4.30093/-10.2861/38.5761
+ObjectTemplate.setRotation 90.0/0.0/0.0
+ObjectTemplate.addTemplate carrackTieFighterSpawner
+ObjectTemplate.setPosition 4.30093/-10.2861/30.5761
+ObjectTemplate.setRotation 90.0/0.0/0.0
+ObjectTemplate.addTemplate carrackTieFighterSpawner
+ObjectTemplate.setPosition 4.30093/-10.2861/22.5761
+ObjectTemplate.setRotation 90.0/0.0/0.0
+ObjectTemplate.addTemplate carrackTieFighterSpawner
+ObjectTemplate.setPosition 4.30093/-10.2861/14.5761
+ObjectTemplate.setRotation 90.0/0.0/0.0
+ObjectTemplate.addTemplate carrackIntSpawner
+ObjectTemplate.setPosition 4.30093/-10.2861/5.5761
+ObjectTemplate.setRotation 90.0/0.0/0.0
+ObjectTemplate.addTemplate carrackIntSpawner
+ObjectTemplate.setPosition 4.30093/-10.2861/-5.5761
+ObjectTemplate.setRotation 90.0/0.0/0.0
+ObjectTemplate.addTemplate carrackTieAdvancedSpawner
+ObjectTemplate.setPosition 6.30093/-10.2861/-15.5761
+ObjectTemplate.setRotation 90.0/0.0/0.0
+ObjectTemplate.addTemplate carrackTieAdvancedSpawner
+ObjectTemplate.setPosition 6.30093/-10.2861/-25.5761
+ObjectTemplate.setRotation 90.0/0.0/0.0
+ObjectTemplate.addTemplate carrackBomberSpawner
+ObjectTemplate.setPosition 6.30093/-10.2861/-36.5761
+ObjectTemplate.setRotation 90.0/0.0/0.0
+ObjectTemplate.addTemplate carrackBomberSpawner
+ObjectTemplate.setPosition 6.30093/-10.2861/-48.5761
+ObjectTemplate.setRotation 90.0/0.0/0.0
+ObjectTemplate.addTemplate carrackTieOppressorSpawner
+ObjectTemplate.setPosition 7.50928/-10.2861/-58.5761
+ObjectTemplate.setRotation 90.0/0.0/0.0
+ObjectTemplate.addTemplate carrackTieOppressorSpawner
+ObjectTemplate.setPosition 7.50928/-10.2861/-66.5761
+ObjectTemplate.setRotation 90.0/0.0/0.0
+ObjectTemplate.addTemplate carrackTieOppressorSpawner
+ObjectTemplate.setPosition 7.50928/-10.2861/-74.5761
+ObjectTemplate.setRotation 90.0/0.0/0.0
+ObjectTemplate.addTemplate carrackTieOppressorSpawner
+ObjectTemplate.setPosition 7.50928/-10.2861/-82.5761
+ObjectTemplate.setRotation 90.0/0.0/0.0
+
+ObjectTemplate.addTemplate Carrack_Rudder1
+ObjectTemplate.setPosition 0/-5/-50
+ObjectTemplate.setRotation 0/0/-90
+
+ObjectTemplate.addTemplate CarrackVEngine
+ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.setRotation 0/270/0
+rem ------------------------------------
+rem ObjectTemplate.addTemplate CarrackCamera
+rem ObjectTemplate.setPosition -2.06554/11.8991/169.415
+ObjectTemplate.addTemplate CarrackInsidearea
+ObjectTemplate.addTemplate ladder_30m_m1
+ObjectTemplate.setPosition -1.97409/-8.62/91.02
+ObjectTemplate.setRotation 0.0/0.0/0.0
+rem -------------------------
+ObjectTemplate.addTemplate Carrack_Turret_PCO1
+ObjectTemplate.addTemplate Carrack_Turret_PCO2
+ObjectTemplate.addTemplate Carrack_Turret_PCO3
+ObjectTemplate.addTemplate Carrack_Turret_PCO4
+ObjectTemplate.addTemplate Carrack_Turret_PCO5
+
+
+rem *** TIE Advanced Spawner ***
+ObjectTemplate.create ObjectSpawner carrackTieAdvancedSpawner
+ObjectTemplate.setObjectTemplate 1 TieAdvanced
+ObjectTemplate.setObjectTemplate 2 TieAdvanced
+ObjectTemplate.holdObject 1
+ObjectTemplate.minSpawnDelay 25
+ObjectTemplate.maxSpawnDelay 50
+ObjectTemplate.TimeToLive 30
+ObjectTemplate.Distance 20
+ObjectTemplate.spawnOffset 0/0/0
+ObjectTemplate.team 1
+ObjectTemplate.MaxNrOfObjectSpawned 1
+ObjectTemplate.damageWhenLost 10
+
+rem *** TIE Oppressor Spawner ***
+ObjectTemplate.create ObjectSpawner carrackTieOppressorSpawner
+ObjectTemplate.setObjectTemplate 1 TieOppressor
+ObjectTemplate.setObjectTemplate 2 TieOppressor
+ObjectTemplate.holdObject 1
+ObjectTemplate.minSpawnDelay 25
+ObjectTemplate.maxSpawnDelay 50
+ObjectTemplate.TimeToLive 30
+ObjectTemplate.Distance 20
+ObjectTemplate.spawnOffset 0/0/0
+ObjectTemplate.team 1
+ObjectTemplate.MaxNrOfObjectSpawned 1
+ObjectTemplate.damageWhenLost 10
+
+
+
+
+
+
+
+
+rem *** destroyer of carrack ***
+ObjectTemplate.create ObjectSpawner Static_Carrack_destroyer
+ObjectTemplate.setObjectTemplate 0 Static_Carrack_destroyer_bundle
+ObjectTemplate.MaxNrOfObjectSpawned 1
+ObjectTemplate.nrOfObjectToSpawn  1
+objectTemplate.spawnDelay 9999
+objectTemplate.spawnDelayAtStart 1
+ObjectTemplate.setTeam 0
+
+ObjectTemplate.create Bundle Static_Carrack_destroyer_bundle
+ObjectTemplate.networkableInfo Rebel_Fleet_x_wing_Info
+ObjectTemplate.geometry Big_Bomb_M1
+ObjectTemplate.addTemplate Static_Carrack_destroyer_buble
+
+
+ObjectTemplate.create SupplyDepot Static_Carrack_destroyer_buble
+ObjectTemplate.radius 200
+ObjectTemplate.team 0
+ObjectTemplate.workOnVehicles 1
+ObjectTemplate.workOnSoldiers 0
+objectTemplate.addVehicleType Static_Carrack -1 -9999 0
+objectTemplate.addVehicleType tiebomber -1 -9999 0
+objectTemplate.addVehicleType TieAdvanced -1 -9999 0
+objectTemplate.addVehicleType TieOppressor -1 -9999 0
+objectTemplate.addVehicleType tiefighter -1 -9999 0
+objectTemplate.addVehicleType TieInterceptor -1 -9999 0
+objectTemplate.addVehicleType alpha -1 -9999 0
+objectTemplate.addVehicleType Avenger -1 -9999 0

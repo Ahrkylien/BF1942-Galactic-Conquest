@@ -1,0 +1,26 @@
+spawnPointManager.group 1
+spawnPointManager.groupTeam 2
+spawnPointManager.groupEnableToChangeTeam 0
+spawnPointManager.groupPos 1807.5674/1157.1963/742.6592
+
+rem Extra for SSM:
+
+spawnPointManager.group 10
+
+spawnPointManager.group 11
+
+spawnPointManager.group 12
+
+spawnPointManager.group 13
+
+spawnPointManager.group 14
+
+spawnPointManager.group 15
+
+spawnPointManager.group 16
+
+spawnPointManager.group 17
+
+spawnPointManager.group 18
+
+
