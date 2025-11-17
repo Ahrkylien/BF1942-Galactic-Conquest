@@ -32,6 +32,8 @@ priority 11
 newPatch
 load @ROOT/Sound/@RTD/@Language/TicketsLosing1.wav
 load @ROOT/Sound/@RTD/@Language/TicketsLosing2.wav
+load @ROOT/Sound/@RTD/@Language/TicketsLosing3.wav
+load @ROOT/Sound/@RTD/@Language/TicketsLosing4.wav
 
 randomPlay 1
 priority 11
@@ -42,6 +44,8 @@ priority 11
 newPatch
 load @ROOT/Sound/@RTD/@Language/TicketsLow1.wav
 load @ROOT/Sound/@RTD/@Language/TicketsLow2.wav
+load @ROOT/Sound/@RTD/@Language/TicketsLow3.wav
+load @ROOT/Sound/@RTD/@Language/TicketsLow4.wav
 
 randomPlay 1
 priority 11
