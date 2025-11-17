@@ -2,7 +2,7 @@
 
 rem *** NoWreck - For things to vanish ***
 ObjectTemplate.create SimpleObject NoWreck
-ObjectTemplate.geometry null
+
 
 rem ---------- Supply/Health Depots ----------
 

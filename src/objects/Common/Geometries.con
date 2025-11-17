@@ -1,8 +1,5 @@
 rem ################################### Lasers #########################
 
-GeometryTemplate.create StandardMesh NoWreck
-GeometryTemplate.file null
-
 rem -------------red---------------
 
 GeometryTemplate.create StandardMesh Tlight_r1_m1
