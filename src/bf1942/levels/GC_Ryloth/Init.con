@@ -62,5 +62,9 @@ game.assaultTeam 2
 
 run Sounds/Environment
 
-game.setBeforeSpawnCameraPosition 1 1036.843506/226.107437/1325.670532
-game.setBeforeSpawnCameraPosition 2 1036.843506/226.107437/1325.670532
+rem game.setBeforeSpawnCameraPosition 1 1036.843506/226.107437/1325.670532
+rem game.setBeforeSpawnCameraPosition 2 1036.843506/226.107437/1325.670532
+rem game.setBeforeSpawnCameraPosition 1 1653.60/227.65/1405.29
+rem game.setBeforeSpawnCameraPosition 2 1653.60/227.65/1405.29
+game.setBeforeSpawnCameraPosition 1 985/195/-35
+game.setBeforeSpawnCameraPosition 2 985/195/-35
