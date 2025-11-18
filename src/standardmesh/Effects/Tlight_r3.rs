@@ -1,6 +1,6 @@
 subshader "Tlight_r3_Material0" "StandardMesh/Default"
 {
-	lighting true;
+	lighting false;
 	lightingSpecular false;
 	materialDiffuse 1.0 1.0 1.0;
 	blendSrc sourceAlpha;
@@ -11,7 +11,7 @@ subshader "Tlight_r3_Material0" "StandardMesh/Default"
 
 subshader "Tlight_r3_Material1" "StandardMesh/Default"
 {
-	lighting true;
+	lighting false;
 	lightingSpecular false;
 	materialDiffuse 1.0 1.0 1.0;
 	blendSrc sourceAlpha;
@@ -22,7 +22,7 @@ subshader "Tlight_r3_Material1" "StandardMesh/Default"
 
 subshader "Tlight_r3_Material2" "StandardMesh/Default"
 {
-	lighting true;
+	lighting false;
 	lightingSpecular false;
 	materialDiffuse 1.0 1.0 1.0;
 	transparent true;

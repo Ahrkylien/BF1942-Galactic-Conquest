@@ -1,6 +1,6 @@
 subshader "Cloudcar_Engine_FX_Material0" "StandardMesh/Default"
 {
-	lighting true;
+	lighting false;
 	lightingSpecular true;
 	materialDiffuse 1.0 1.0 1.0;
 	materialSpecular 0.337255 0.337255 0.337255;

@@ -1,6 +1,6 @@
 subshader "Small_Bomb_M1_Material0" "StandardMesh/Default"
 {
-	lighting true;
+	lighting false;
 	lightingSpecular true;
 	materialDiffuse 1.0 1.0 1.0;
 	materialSpecular 1.0 1.0 1.0;
