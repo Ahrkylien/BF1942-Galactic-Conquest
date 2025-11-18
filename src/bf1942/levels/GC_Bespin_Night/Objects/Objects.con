@@ -35,6 +35,3 @@ ObjectTemplate.setGroup 70
 ObjectTemplate.setEnterOnSpawn 0
 ObjectTemplate.setAIEnterOnSpawn 0
 ObjectTemplate.setSpawnAsParaTroper 0
-
-run bespin_light1/go
-

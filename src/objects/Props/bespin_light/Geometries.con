@@ -1,0 +1,12 @@
+GeometryTemplate.create TreeMesh bespin_light
+GeometryTemplate.file Props/bespin_light
+geometryTemplate.lightColor .5
+
+GeometryTemplate.create StandardMesh bespin_light_ring1
+GeometryTemplate.file Props/bespin_light_ring1
+
+GeometryTemplate.create StandardMesh bespin_light_ring2
+GeometryTemplate.file Props/bespin_light_ring2
+
+GeometryTemplate.create StandardMesh bespin_light_ring3
+GeometryTemplate.file Props/bespin_light_ring3

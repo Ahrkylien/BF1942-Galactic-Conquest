@@ -1,6 +1,6 @@
 run misc_night
 
-Object.create bespin_light1
+Object.create bespin_light
 Object.absolutePosition 1006.11/279/1033.40
 Object.rotation 0.00/0.00/0.00
 

@@ -1,5 +1,5 @@
-ObjectTemplate.create Bundle bespin_light1
-ObjectTemplate.geometry bespin_light1
+ObjectTemplate.create Bundle bespin_light
+ObjectTemplate.geometry bespin_light
 ObjectTemplate.setHasCollisionPhysics 0
 rem ObjectTemplate.lodDistance 10000
 ObjectTemplate.CullRadiusScale 1000
