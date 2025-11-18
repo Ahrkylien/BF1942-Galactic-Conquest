@@ -13,7 +13,7 @@ renderer.fogLinearEnd 800
 renderer.fogColorVec 0.678431/0.439215/0.192156
 rem renderer.fogColorVec 0.937255/0.678431/0.258824
 renderer.animatedMeshAmbientColor 0.3
-textureManager.alternativePath ../../bf1942/levels/GC_Bespin/Textures/Sky
+textureManager.alternativePath bf1942/levels/GC_Bespin/Textures/Sky
 shadow.shadowColor 0.550000
 
 Game.setViewDistance 800

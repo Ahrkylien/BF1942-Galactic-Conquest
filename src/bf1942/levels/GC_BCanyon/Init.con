@@ -12,11 +12,11 @@ renderer.ambientColor .1/.1/.1
 renderer.diffuseColor .40/.38/.27
 renderer.specularColor .5/.45/.3
 renderer.animatedMeshAmbientColor 0.35
-textureManager.alternativePath Texture/Europe
 
 shadow.shadowColor 0.5
 
-textureManager.alternativePath ../../bf1942/levels/GC_BCanyon/Textures/Sky
+textureManager.alternativePath Texture/Europe
+textureManager.alternativePath bf1942/levels/GC_BCanyon/Textures/Sky
 
 Game.setViewDistance 600
 Game.spawnPlayers 1

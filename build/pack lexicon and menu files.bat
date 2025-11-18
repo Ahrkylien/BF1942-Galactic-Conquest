@@ -1,2 +1,2 @@
-python3.10 "pack lexicon and menu files.py"
+python "pack lexicon and menu files.py"
 pause

@@ -1,6 +1,6 @@
 subshader "Tlight_b2_Material0" "StandardMesh/Default"
 {
-	lighting true;
+	lighting false;
 	lightingSpecular false;
 	materialDiffuse 1.0 1.0 1.0;
 	transparent true;
@@ -12,7 +12,7 @@ subshader "Tlight_b2_Material0" "StandardMesh/Default"
 
 subshader "Tlight_b2_Material1" "StandardMesh/Default"
 {
-	lighting true;
+	lighting false;
 	lightingSpecular false;
 	materialDiffuse 1.0 1.0 1.0;
 	transparent true;

@@ -1,6 +1,6 @@
 subshader "tracklight_m1_Material0" "StandardMesh/Default"
 {
-	lighting true;
+	lighting false;
 	lightingSpecular true;
 	materialDiffuse 1 1 1;
 	materialSpecular 0 0 0;

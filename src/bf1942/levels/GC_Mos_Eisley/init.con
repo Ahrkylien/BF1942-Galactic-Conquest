@@ -17,6 +17,7 @@ renderer.ambientColor 0.082/0.08/0.068
 renderer.diffuseColor 0.8/0.65/0.38
 renderer.specularColor 0.9/0.69/0.25
 renderer.animatedMeshAmbientColor 0.3
+
 textureManager.alternativePath Texture/Africa
 textureManager.alternativePath bf1942/levels/GC_Mos_Eisley/textures/
 

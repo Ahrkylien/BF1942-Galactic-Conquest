@@ -19,10 +19,10 @@ renderer.ambientColor .1/.1/.1
 renderer.diffuseColor .38/.37/.36
 renderer.specularColor .3/.3/.3
 renderer.animatedMeshAmbientColor 0.35
-textureManager.alternativePath Texture/Europe
 
 shadow.shadowColor 0.5
 
+textureManager.alternativePath Texture/Europe
 textureManager.alternativePath bf1942/Levels/GC_Tatooine/Textures/Sky
 
 Game.setViewDistance 3000

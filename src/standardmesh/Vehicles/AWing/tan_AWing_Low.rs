@@ -7,6 +7,6 @@ subshader "tan_AWing_Low_Material0" "StandardMesh/Default"
 	materialSpecularPower 1.0;
         twosided false;
 	envmap true;
-	texture "texture/Vehicles/AWing/awing_low";
+	texture "texture/Vehicles/AWing/awing_low_gn";
 }
 

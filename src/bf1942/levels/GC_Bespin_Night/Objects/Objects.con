@@ -1,8 +1,4 @@
-ObjectTemplate.create Bundle echo_chair_reb
-ObjectTemplate.geometry echo_chair_reb
-ObjectTemplate.setHasCollisionPhysics 1
-
-rem -------------------------------------------------
+ObjectTemplate.create Bundle soldier_spawns_reb_base
 ObjectTemplate.addTemplate RebSoldierSpawn
 ObjectTemplate.setPosition 20/0/0
 ObjectTemplate.addTemplate RebSoldierSpawn
@@ -10,7 +6,6 @@ ObjectTemplate.setPosition -20/0/
 ObjectTemplate.addTemplate RebSoldierSpawn
 ObjectTemplate.setPosition 0/0/20
 
-rem -------------------------------------------------
 ObjectTemplate.create SpawnPoint RebSoldierSpawn
 ObjectTemplate.setSpawnRotation 0/0/0
 ObjectTemplate.setSpawnPositionOffset 0/0/0
@@ -21,12 +16,9 @@ ObjectTemplate.setEnterOnSpawn 0
 ObjectTemplate.setAIEnterOnSpawn 0
 ObjectTemplate.setSpawnAsParaTroper 0
 
-
-ObjectTemplate.create Bundle echo_chair_imp
-ObjectTemplate.geometry echo_chair_imp
-ObjectTemplate.setHasCollisionPhysics 1
-
 rem -------------------------------------------------
+
+ObjectTemplate.create Bundle soldier_spawns_imp_base
 ObjectTemplate.addTemplate ImpSoldierSpawn
 ObjectTemplate.setPosition 20/0/0
 ObjectTemplate.addTemplate ImpSoldierSpawn
@@ -34,7 +26,6 @@ ObjectTemplate.setPosition -20/0/0
 ObjectTemplate.addTemplate ImpSoldierSpawn
 ObjectTemplate.setPosition 0/0/20
 
-rem -------------------------------------------------
 ObjectTemplate.create SpawnPoint ImpSoldierSpawn
 ObjectTemplate.setSpawnRotation 0/0/0
 ObjectTemplate.setSpawnPositionOffset 0/0/0
@@ -44,6 +35,3 @@ ObjectTemplate.setGroup 70
 ObjectTemplate.setEnterOnSpawn 0
 ObjectTemplate.setAIEnterOnSpawn 0
 ObjectTemplate.setSpawnAsParaTroper 0
-
-run bespin_light1/go
-

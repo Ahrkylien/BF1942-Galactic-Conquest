@@ -105,7 +105,7 @@ ObjectTemplate.setRotation 0/0/0
 endrem
 
 
-rem -------------- Create Different Coloured Bodies -------------
+rem -------------- Create Different Coloured Bodies (They may seem unused, but a number is appended to their names with setRandomGeometries ) -------------
 ObjectTemplate.create SimpleObject LandspeederX1
 ObjectTemplate.geometry Landspeeder_X1
 ObjectTemplate.hasCollisionPhysics 1

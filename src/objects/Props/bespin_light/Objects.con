@@ -1,0 +1,35 @@
+ObjectTemplate.create Bundle bespin_light
+ObjectTemplate.geometry bespin_light
+ObjectTemplate.setHasCollisionPhysics 0
+rem ObjectTemplate.lodDistance 10000
+ObjectTemplate.CullRadiusScale 1000
+ObjectTemplate.addTemplate bespin_light_ring1
+ObjectTemplate.addTemplate bespin_light_ring2
+ObjectTemplate.addTemplate bespin_light_ring3
+
+ObjectTemplate.create RotationalBundle bespin_light_ring1
+ObjectTemplate.geometry bespin_light_ring1
+ObjectTemplate.setHasCollisionPhysics 0
+ObjectTemplate.setMinRotation 0/0/0
+ObjectTemplate.setMaxRotation 0/0/0
+ObjectTemplate.setMaxSpeed 110
+ObjectTemplate.setAcceleration 10
+ObjectTemplate.setContinousRotationSpeed 0/-35/35
+
+ObjectTemplate.create RotationalBundle bespin_light_ring2
+ObjectTemplate.geometry bespin_light_ring2
+ObjectTemplate.setHasCollisionPhysics 0
+ObjectTemplate.setMinRotation 0/0/0
+ObjectTemplate.setMaxRotation 0/0/0
+ObjectTemplate.setMaxSpeed 110
+ObjectTemplate.setAcceleration 10
+ObjectTemplate.setContinousRotationSpeed 35/35/0
+
+ObjectTemplate.create RotationalBundle bespin_light_ring3
+ObjectTemplate.geometry bespin_light_ring3
+ObjectTemplate.setHasCollisionPhysics 0
+ObjectTemplate.setMinRotation 0/0/0
+ObjectTemplate.setMaxRotation 0/0/0
+ObjectTemplate.setMaxSpeed 110
+ObjectTemplate.setAcceleration 10
+ObjectTemplate.setContinousRotationSpeed 35/0/-35

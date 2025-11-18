@@ -1,4 +1,6 @@
-Object.create bespin_light1
+run misc_night
+
+Object.create bespin_light
 Object.absolutePosition 1006.11/279/1033.40
 Object.rotation 0.00/0.00/0.00
 
@@ -1676,12 +1678,12 @@ Object.rotation 30.50/0.00/0.00
 rem
 rem ***  ***
 rem
-Object.create echo_chair_imp
+Object.create soldier_spawns_imp_base
 Object.absolutePosition 277.66/280.24/997.56
 Object.rotation 90.00/0.00/0.00
 rem
 rem ***  ***
 rem
-Object.create echo_chair_reb
+Object.create soldier_spawns_reb_base
 Object.absolutePosition 1766.87/280.24/996.67
 Object.rotation 270.00/0.00/0.00

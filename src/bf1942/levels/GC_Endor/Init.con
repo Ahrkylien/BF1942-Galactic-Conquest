@@ -13,8 +13,6 @@ renderer.animatedMeshAmbientColor 0.25
 textureManager.alternativePath bf1942/levels/GC_Endor/Textures/sky
 shadow.shadowColor 0.550000
 
-bf1942/levels/GC_Endor/Textures/sky
-
 Game.setViewDistance 300
 Game.spawnPlayers 1
 renderer.fogstart 50

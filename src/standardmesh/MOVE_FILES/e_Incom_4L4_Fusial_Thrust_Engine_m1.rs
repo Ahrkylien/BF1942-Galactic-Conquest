@@ -1,6 +1,6 @@
 subshader "e_Incom_4L4_Fusial_Thrust_Engine_m1" "StandardMesh/Default"
 {
-	lighting true;
+	lighting false;
 	lightingSpecular true;
 	materialDiffuse 1 1 1;
 	materialSpecular 0.337255 0.337255 0.337255;

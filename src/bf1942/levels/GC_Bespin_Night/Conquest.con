@@ -5,8 +5,6 @@ if v_gamePlayMode == GPM_CQ
 	Game.setTicketLostPerMin 2 7
 endif
 
-run misc_night
-
 run Conquest/SpawnpointManagerSettings
 run Conquest/SoldierSpawnTemplates
 run Conquest/SoldierSpawns

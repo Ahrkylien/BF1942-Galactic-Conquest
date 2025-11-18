@@ -1,7 +1,7 @@
 rem *********************************************
 rem Created by Battlecarp 1942.  Copyright (c)2003,2004 Digital Illusions CE
 rem *********************************************
-ShaderManager.setTextureParam envmap ..\..\bf1942\levels\GC_Mini_Caves\Textures\ENVMAP_G_.rcm
+ShaderManager.setTextureParam envmap bf1942\levels\GC_Mini_Caves\Textures\ENVMAP_G_.rcm
 renderer.globalLodPercent 1
 renderer.globalAmbientColor 0.031373/0.031373/0.031373
 renderer.ambientColor 0.078431/0.078431/0.078431
@@ -10,7 +10,7 @@ renderer.specularColor 0.113725/0.113725/0.113725
 renderer.vertexFogEnable 1
 renderer.fogColorVec 0.000000/0.000000/0.000000
 renderer.animatedMeshAmbientColor 0.15
-textureManager.alternativePath ..\..\bf1942\levels\GC_Mini_Caves\sky
+textureManager.alternativePath bf1942\levels\GC_Mini_Caves\sky
 
 shadow.shadowColor 0.550000
 

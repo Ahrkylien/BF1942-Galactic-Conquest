@@ -14,16 +14,10 @@ renderer.diffuseColor .3/.3/.3
 renderer.specularColor .3/.3/.3
 shadow.shadowColor 0.5
 
-rem renderer.globalAmbientColor .075/.075/.1
-rem renderer.ambientColor .02
-rem renderer.diffuseColor .35/.33/.32
-rem renderer.specularColor .15
-rem shadow.shadowColor .38/.38/.4
-
 renderer.animatedMeshAmbientColor 0.35
-textureManager.alternativePath Texture/Europe
 
-textureManager.alternativePath ../../bf1942/levels/GC_Judicator_Push/Textures/Sky
+textureManager.alternativePath Texture/Europe
+textureManager.alternativePath bf1942/levels/GC_Judicator_Push/Textures/Sky
 
 Game.setViewDistance 600
 Game.spawnPlayers 1

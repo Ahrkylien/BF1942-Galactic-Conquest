@@ -1,2 +1,0 @@
-forcematid Imp_LandingCraft_door_rightbot.sm 37
-pause

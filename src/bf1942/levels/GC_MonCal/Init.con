@@ -12,7 +12,8 @@ renderer.ambientColor 0.100000/0.100000/0.100000
 renderer.diffuseColor 0.30000/0.30000/0.30000
 renderer.specularColor 0.1500000/0.150000/0.1500000
 renderer.animatedMeshAmbientColor 0.15
-textureManager.alternativePath ../../bf1942/levels/GC_MonCal/Textures/Sky
+
+textureManager.alternativePath bf1942/levels/GC_MonCal/Textures/Sky
 
 shadow.shadowColor 1.000000
 

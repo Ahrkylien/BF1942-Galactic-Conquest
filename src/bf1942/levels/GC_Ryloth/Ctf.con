@@ -1,0 +1,22 @@
+run SpawnConfiguration/SpawnpointManagerSettings
+run SpawnConfiguration/SoldierSpawnTemplates
+run SpawnConfiguration/SoldierSpawns
+run SpawnConfiguration/ObjectSpawnTemplates
+run SpawnConfiguration/ControlPointTemplates
+
+if v_arg1 == host
+	run SpawnConfiguration/ObjectSpawns
+	run SpawnConfiguration/ControlPoints
+	
+	object.create usbase
+	object.absolutePosition 1318.08/94.4/321.57
+
+	object.create gebase
+	object.absolutePosition 826.69/69.2/1371.13
+else
+	object.create FlagPole
+	object.absolutePosition 1318.08/94.4/321.57
+
+	object.create FlagPole
+	object.absolutePosition 826.69/69.2/1371.13
+endIf

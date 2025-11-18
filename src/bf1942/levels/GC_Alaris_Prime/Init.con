@@ -1,7 +1,7 @@
 rem *********************************************
 rem Created by Battlecraft 1942.  Copyright (c)2003 Digital Illusions CE
 rem *********************************************
-ShaderManager.setTextureParam envmap ..\..\bf1942\levels\GC_Alaris_Prime\Textures\ENVMAP_G_.rcm
+ShaderManager.setTextureParam envmap bf1942\levels\GC_Alaris_Prime\Textures\ENVMAP_G_.rcm
 renderer.globalLodPercent 1
 renderer.globalAmbientColor 0.150000/0.150000/0.150000
 renderer.ambientColor 0.180000/0.150000/0.130000
@@ -10,11 +10,11 @@ renderer.specularColor 0.300000/0.300000/0.300000
 renderer.vertexFogEnable 1
 
 renderer.fogColorVec 0.678431/0.439215/0.192156
-rem renderer.fogColorVec 0.937255/0.678431/0.258824
 renderer.animatedMeshAmbientColor 0.3
-textureManager.alternativePath ..\..\bf1942\levels\GC_Alaris_Prime\Textures\sky
 
-textureManager.alternativePath ..\..\bf1942\levels\GC_Alaris_Prime\Texture
+textureManager.alternativePath bf1942\levels\GC_Alaris_Prime\Textures\sky
+textureManager.alternativePath bf1942\levels\GC_Alaris_Prime\Texture
+
 shadow.shadowColor 0.550000
 
 Game.setViewDistance 700
