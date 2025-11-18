@@ -4,7 +4,7 @@ subshader "landspeeder2_Material0" "StandardMesh/Default"
 	lightingSpecular false;
 	materialDiffuse 1.0 1.0 1.0;
 	envmap true;
-	texture "texture/Vehicles/Landspeeder_X/blue";
+	texture "texture/Vehicles/Landspeeder_X/gian_blue";
 }
 
 subshader "landspeeder2_Material1" "StandardMesh/Default"
