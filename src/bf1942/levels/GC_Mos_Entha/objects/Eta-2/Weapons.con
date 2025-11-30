@@ -1,11 +1,8 @@
-rem *** ETA2Guns ***
-ObjectTemplate.create FireArms ETA2Guns
+ObjectTemplate.create FireArms ETA2LaserCanons
 ObjectTemplate.loadSoundScript Sounds/TieFighterlaser.ssc
 ObjectTemplate.aiTemplate SpitfireMachineGun
 ObjectTemplate.setNetworkableInfo PlaneFireArmInfo
-rem -------------------------------------
 ObjectTemplate.visibleBarrelTemplate e_MuzzHeavy
-rem -------------------------------------
 ObjectTemplate.projectileTemplate MediumLaserProjectileGreenNS
 ObjectTemplate.magSize -1
 ObjectTemplate.magType 0
@@ -13,16 +10,33 @@ ObjectTemplate.numOfMag 999
 ObjectTemplate.velocity 650
 ObjectTemplate.reloadtime 0.0001
 ObjectTemplate.roundOfFire 4.8
-ObjectTemplate.addFireArmsPosition 1.33258/-0.303478/1.61547 0/0/0
-ObjectTemplate.addFireArmsPosition -1.33258/-0.303478/1.61547 0/0/0
-REM *** OVERHEAT *** 
-objectTemplate.heatAddWhenFire 0.07
+ObjectTemplate.addFireArmsPosition 0.393681/-0.0911031/4.23248 0/0/0
+ObjectTemplate.addFireArmsPosition -0.393681/-0.0911031/4.23248 0/0/0
+objectTemplate.heatAddWhenFire 0.06
 objectTemplate.coolDownPerSec 0.8
 objectTemplate.timeDelayOnOverHeat 2.5
-REM *** DAMAGE OVER DISTANCE ***
 ObjectTemplate.minDamage 0.5
 ObjectTemplate.distToStartLoseDamage 100
 ObjectTemplate.distToMinDamage 300
 ObjectTemplate.AmmoType	10
 
-
+ObjectTemplate.create FireArms ETA2IonCanons
+ObjectTemplate.aiTemplate SpitfireMachineGun
+ObjectTemplate.setNetworkableInfo PlaneFireArmInfo
+ObjectTemplate.visibleBarrelTemplate e_MuzzHeavy
+ObjectTemplate.projectileTemplate LightLaserProjectileGreenNS
+ObjectTemplate.magSize 9999
+ObjectTemplate.magType 0
+ObjectTemplate.numOfMag 999
+ObjectTemplate.velocity 650
+ObjectTemplate.reloadtime 0.0001
+ObjectTemplate.roundOfFire 4.8
+ObjectTemplate.addFireArmsPosition 1.71598/-0.399277/2.04263 0/0/0
+ObjectTemplate.addFireArmsPosition -1.71598/-0.399277/2.04263 0/0/0
+objectTemplate.heatAddWhenFire 0.06
+objectTemplate.coolDownPerSec 0.8
+objectTemplate.timeDelayOnOverHeat 2.5
+ObjectTemplate.minDamage 0.5
+ObjectTemplate.distToStartLoseDamage 100
+ObjectTemplate.distToMinDamage 300
+ObjectTemplate.AmmoType	10
