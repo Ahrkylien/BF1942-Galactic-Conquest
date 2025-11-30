@@ -34,17 +34,17 @@ ObjectTemplate.hasResponsePhysics 1
 ObjectTemplate.setMinRotation 0/-30/0
 ObjectTemplate.setMaxSpeed 0/32/0
 ObjectTemplate.setAcceleration 0/32/0
-ObjectTemplate.setGearDownHeight 2.75
-ObjectTemplate.setGearUpHeight 2.76
-ObjectTemplate.setGearDownEngineInput 0.09
-ObjectTemplate.setGearUpEngineInput 0.1
+ObjectTemplate.setGearDownHeight 9999
+ObjectTemplate.setGearUpHeight 2.75
+ObjectTemplate.setGearDownEngineInput 0.002
+ObjectTemplate.setGearUpEngineInput 0.001
 
 ObjectTemplate.create LandingGear Eta2_wing_rt
 ObjectTemplate.geometry Eta2_wing_rt
 ObjectTemplate.hasMobilePhysics 1
 ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.hasResponsePhysics 1
-ObjectTemplate.setMinRotation 0/0/-65
+ObjectTemplate.setMinRotation 0/0/-70
 ObjectTemplate.setMaxSpeed 0/0/130
 ObjectTemplate.setAcceleration 0/0/-1000
 ObjectTemplate.setGearDownHeight 9999
@@ -57,7 +57,7 @@ ObjectTemplate.geometry Eta2_wing_rb
 ObjectTemplate.hasMobilePhysics 1
 ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.hasResponsePhysics 1
-ObjectTemplate.setMaxRotation 0/0/65
+ObjectTemplate.setMaxRotation 0/0/80
 ObjectTemplate.setMaxSpeed 0/0/130
 ObjectTemplate.setAcceleration 0/0/1000
 ObjectTemplate.setGearDownHeight 9999
@@ -70,7 +70,7 @@ ObjectTemplate.geometry Eta2_wing_lt
 ObjectTemplate.hasMobilePhysics 1
 ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.hasResponsePhysics 1
-ObjectTemplate.setMaxRotation 0/0/65
+ObjectTemplate.setMaxRotation 0/0/70
 ObjectTemplate.setMaxSpeed 0/0/130
 ObjectTemplate.setAcceleration 0/0/1000
 ObjectTemplate.setGearDownHeight 9999
@@ -83,7 +83,7 @@ ObjectTemplate.geometry Eta2_wing_lb
 ObjectTemplate.hasMobilePhysics 1
 ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.hasResponsePhysics 1
-ObjectTemplate.setMinRotation 0/0/-65
+ObjectTemplate.setMinRotation 0/0/-80
 ObjectTemplate.setMaxSpeed 0/0/130
 ObjectTemplate.setAcceleration 0/0/-1000
 ObjectTemplate.setGearDownHeight 9999
