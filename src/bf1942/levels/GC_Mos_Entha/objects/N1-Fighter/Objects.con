@@ -25,9 +25,6 @@ ObjectTemplate.hpLostWhileUpSideDown 7
 ObjectTemplate.hpLostWhileDamageFromWater 7
 ObjectTemplate.hasRestrictedExit 1
 
-ObjectTemplate.addArmorEffect 70 e_engineN1F -2.64089/-0.20248/0.416214
-ObjectTemplate.addArmorEffect 70 e_engineN1F 2.64089/-0.20248/0.416214
-
 ObjectTemplate.addArmorEffect 36 em_PlaneDamage -2.64089/-0.20248/0.416214
 rem ObjectTemplate.addArmorEffect 36 e_engineN1F 0/5/-0.1
 
@@ -142,6 +139,11 @@ ObjectTemplate.addTemplate N1FEngineRight
 ObjectTemplate.setPosition 0.5/0.5/4
 ObjectTemplate.addTemplate N1FEngineDummy
 ObjectTemplate.setPosition 0/0/0
+
+ObjectTemplate.addTemplate e_engineN1F
+ObjectTemplate.setPosition -2.64089/-0.20248/0.416214
+ObjectTemplate.addTemplate e_engineN1F
+ObjectTemplate.setPosition 2.64089/-0.20248/0.416214
 
 rem *** N1FCamera ***
 ObjectTemplate.create Camera N1FCamera

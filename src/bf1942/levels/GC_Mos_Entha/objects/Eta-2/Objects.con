@@ -130,6 +130,11 @@ ObjectTemplate.setRotation 0/0/-89.999
 ObjectTemplate.addTemplate Eta2Engine
 ObjectTemplate.setPosition 0/0.5/4
 
+ObjectTemplate.addTemplate e_engineXWing
+ObjectTemplate.setPosition 0.441205/-0.536454/-3.22002
+ObjectTemplate.addTemplate e_engineXWing
+ObjectTemplate.setPosition -0.441205/-0.536454/-3.22002
+
 ObjectTemplate.create LodObject lodEta2Cockpit
 ObjectTemplate.addTemplate ETA2CockpitExternal
 ObjectTemplate.addTemplate TieFighterCockpitInternal
