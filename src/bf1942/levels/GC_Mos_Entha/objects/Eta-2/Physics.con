@@ -25,134 +25,68 @@ ObjectTemplate.setEngineType c_ETPlane
 ObjectTemplate.setTorque 100
 ObjectTemplate.setDifferential 10
 
-rem *** TieFighterVTOLEngineRack ***
-rem ObjectTemplate.create RotationalBundle TieFighterVTOLEngineRack
-rem ObjectTemplate.hasMobilePhysics 1
-rem -------------------------------------
-rem ObjectTemplate.addTemplate TieFighterVTOLEngine
-rem -------------------------------------
-rem ObjectTemplate.setMinRotation -20/-30/0
-rem ObjectTemplate.setMaxRotation 20/30/0
-rem ObjectTemplate.setMaxSpeed 150/50/0
-rem ObjectTemplate.setAcceleration 150/100/0
-rem ObjectTemplate.setInputToPitch c_PIPitch
-rem ObjectTemplate.setInputToYaw c_PIRoll
-rem ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.create LandingGear Eta2_hatch
+ObjectTemplate.loadSoundScript Sounds/XWingCanopy.ssc
+ObjectTemplate.geometry Eta2_hatch
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.setMinRotation 0/-30/0
+ObjectTemplate.setMaxSpeed 0/32/0
+ObjectTemplate.setAcceleration 0/32/0
+ObjectTemplate.setGearDownHeight 2.75
+ObjectTemplate.setGearUpHeight 2.76
+ObjectTemplate.setGearDownEngineInput 0.09
+ObjectTemplate.setGearUpEngineInput 0.1
 
-rem *** TieFighterVTOLEngine ***
-rem ObjectTemplate.create Engine TieFighterVTOLEngine
-rem ObjectTemplate.setNetworkableInfo TieFighter_engine_info
-rem ObjectTemplate.loadSoundScript Sounds/TieFighterVEngine.ssc
-rem ObjectTemplate.setMinRotation -0.3/0/0
-rem ObjectTemplate.setMaxRotation 0.3/0/100
-rem ObjectTemplate.setMaxSpeed 1000/0/3
-rem ObjectTemplate.setAcceleration 500/0/-10000
-rem ObjectTemplate.setInputToRoll c_PIThrottle
-rem ObjectTemplate.setAutomaticReset 1
-rem ObjectTemplate.setEngineType c_ETPlane
-rem ObjectTemplate.setTorque 8
-rem ObjectTemplate.setDifferential 3
+ObjectTemplate.create LandingGear Eta2_wing_rt
+ObjectTemplate.geometry Eta2_wing_rt
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.setMinRotation 0/0/-65
+ObjectTemplate.setMaxSpeed 0/0/130
+ObjectTemplate.setAcceleration 0/0/-1000
+ObjectTemplate.setGearDownHeight 9999
+ObjectTemplate.setGearUpHeight 7
+ObjectTemplate.setGearDownEngineInput 9999
+ObjectTemplate.setGearUpEngineInput 0.001
 
-rem *** TieFighterWing_L ***
-rem ObjectTemplate.create Wing TieFighterWing_L
-rem ObjectTemplate.setNetworkableInfo TieFighter_wing_info
-rem ObjectTemplate.setMinRotation 0/-2/0
-rem ObjectTemplate.setMaxRotation 0/2/0
-rem ObjectTemplate.setMaxSpeed 0/30/0
-rem ObjectTemplate.setAcceleration 0/120/0
-rem ObjectTemplate.setPitchOffset 0.5
-rem ObjectTemplate.setPositionOffset 0/0/0
-rem ObjectTemplate.setFlapLift 4
-rem ObjectTemplate.setRegulateToLift 4.91
-rem ObjectTemplate.setWingToRegulatorRatio 1
+ObjectTemplate.create LandingGear Eta2_wing_rb
+ObjectTemplate.geometry Eta2_wing_rb
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.setMaxRotation 0/0/65
+ObjectTemplate.setMaxSpeed 0/0/130
+ObjectTemplate.setAcceleration 0/0/1000
+ObjectTemplate.setGearDownHeight 9999
+ObjectTemplate.setGearUpHeight 7
+ObjectTemplate.setGearDownEngineInput 9999
+ObjectTemplate.setGearUpEngineInput 0.001
 
-rem *** TieFighterRollWing_L
-rem ObjectTemplate.create Wing TieFighterRollWing_L
-rem ObjectTemplate.setNetworkableInfo TieFighter_wing_info
-rem ObjectTemplate.setMinRotation 0/-25/0
-rem ObjectTemplate.setMaxRotation 0/25/0
-rem ObjectTemplate.setMaxSpeed 0/150/0
-rem ObjectTemplate.setAcceleration 0/-150/0
-rem ObjectTemplate.setInputToPitch c_PIRoll
-rem ObjectTemplate.setAutomaticReset 1
-rem ObjectTemplate.setPitchOffset 0.5
-rem ObjectTemplate.setPositionOffset 1.5/0/-0.4
-rem ObjectTemplate.setWingLift 3
-rem ObjectTemplate.setFlapLift 3
+ObjectTemplate.create LandingGear Eta2_wing_lt
+ObjectTemplate.geometry Eta2_wing_lt
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.setMaxRotation 0/0/65
+ObjectTemplate.setMaxSpeed 0/0/130
+ObjectTemplate.setAcceleration 0/0/1000
+ObjectTemplate.setGearDownHeight 9999
+ObjectTemplate.setGearUpHeight 7
+ObjectTemplate.setGearDownEngineInput 9999
+ObjectTemplate.setGearUpEngineInput 0.001
 
-rem *** TieFighterWing_R ***
-rem ObjectTemplate.create Wing TieFighterWing_R
-rem ObjectTemplate.setNetworkableInfo TieFighter_wing_info
-rem ObjectTemplate.setMinRotation 0/-2/0
-rem ObjectTemplate.setMaxRotation 0/2/0
-rem ObjectTemplate.setMaxSpeed 0/30/0
-rem ObjectTemplate.setAcceleration 0/120/0
-rem ObjectTemplate.setPitchOffset 0.5
-rem ObjectTemplate.setPositionOffset 0/0/0
-rem ObjectTemplate.setFlapLift 5
-rem ObjectTemplate.setRegulateToLift 4.91
-rem ObjectTemplate.setWingToRegulatorRatio 1
-
-rem *** TieFighterRollWing_R ***
-rem ObjectTemplate.create Wing TieFighterRollWing_R
-rem ObjectTemplate.setNetworkableInfo TieFighter_wing_info
-rem ObjectTemplate.setMinRotation 0/-25/0
-rem ObjectTemplate.setMaxRotation 0/25/0
-rem ObjectTemplate.setMaxSpeed 0/150/0
-rem ObjectTemplate.setAcceleration 0/150/0
-rem ObjectTemplate.setInputToPitch c_PIRoll
-rem ObjectTemplate.setAutomaticReset 1
-rem ObjectTemplate.setPitchOffset 0.5
-rem ObjectTemplate.setPositionOffset -1.5/0/-0.4
-rem ObjectTemplate.setWingLift 3
-rem ObjectTemplate.setFlapLift 3
-
-rem *** TieFighterPitchWing_L ***
-rem ObjectTemplate.create Wing TieFighterPitchWing_L 
-rem ObjectTemplate.setNetworkableInfo TieFighter_wing_info
-rem ObjectTemplate.setMinRotation 0/-35/0
-rem ObjectTemplate.setMaxRotation 0/35/0
-rem ObjectTemplate.setMaxSpeed 0/60/0
-rem ObjectTemplate.setAcceleration 0/-60/0
-rem ObjectTemplate.setInputToPitch c_PIPitch
-rem ObjectTemplate.setAutomaticReset 1
-rem ObjectTemplate.setPositionOffset 0.5/0/0
-rem ObjectTemplate.setPitchOffset 0.1
-rem ObjectTemplate.rememberExcessInput 1
-rem ObjectTemplate.setWingLift 1.5
-rem ObjectTemplate.setFlapLift 1
-
-rem *** TieFighterPitchWing_R ***
-rem ObjectTemplate.create Wing TieFighterPitchWing_R
-rem ObjectTemplate.setNetworkableInfo TieFighter_wing_info
-rem ObjectTemplate.setMinRotation 0/-35/0
-rem ObjectTemplate.setMaxRotation 0/35/0
-rem ObjectTemplate.setMaxSpeed 0/0/0
-rem ObjectTemplate.setAcceleration 0/-60/0
-rem ObjectTemplate.setInputToPitch c_PIPitch
-rem ObjectTemplate.setAutomaticReset 1
-rem ObjectTemplate.setPositionOffset -0.5/0/0
-rem ObjectTemplate.setPitchOffset 0.1
-rem ObjectTemplate.rememberExcessInput 1
-rem ObjectTemplate.setWingLift 1.5
-rem ObjectTemplate.setFlapLift 1
-
-rem *** TieFighterYawWing ***
-rem ObjectTemplate.create Wing TieFighterYawWing
-rem ObjectTemplate.setNetworkableInfo TieFighter_wing_info
-rem ObjectTemplate.setMinRotation 0/-15/0
-rem ObjectTemplate.setMaxRotation 0/15/0
-rem ObjectTemplate.setMaxSpeed 0/60/0
-rem ObjectTemplate.setAcceleration 0/60/0
-rem ObjectTemplate.setInputToPitch c_PIYaw
-rem ObjectTemplate.setAutomaticReset 1
-rem ObjectTemplate.setPositionOffset 0/-0.5/0
-rem ObjectTemplate.setWingLift 2
-rem ObjectTemplate.setFlapLift 2
-
-rem *** TieFighterBodyWingVertical ***
-rem ObjectTemplate.create Wing TieFighterBodyWingVertical
-rem ObjectTemplate.setAutomaticReset 1
-rem ObjectTemplate.setPositionOffset 0/0/0
-rem ObjectTemplate.setWingLift 4
-rem ObjectTemplate.setFlapLift 0
+ObjectTemplate.create LandingGear Eta2_wing_lb
+ObjectTemplate.geometry Eta2_wing_lb
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.setMinRotation 0/0/-65
+ObjectTemplate.setMaxSpeed 0/0/130
+ObjectTemplate.setAcceleration 0/0/-1000
+ObjectTemplate.setGearDownHeight 9999
+ObjectTemplate.setGearUpHeight 7
+ObjectTemplate.setGearDownEngineInput 9999
+ObjectTemplate.setGearUpEngineInput 0.001
