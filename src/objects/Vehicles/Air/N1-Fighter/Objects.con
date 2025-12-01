@@ -36,9 +36,7 @@ ObjectTemplate.addArmorEffect 0 e_ExplGas 2.64089/-0.20248/0.416214
 ObjectTemplate.addArmorEffect 0 e_scrapmetal_N1F 0/0/0
 ObjectTemplate.addArmorEffect -1 WaterWaterExplosion 0/0/0
 ObjectTemplate.damageFromWater 1
-rem -------------------------------------
 ObjectTemplate.addTemplate lodN1F
-rem -------------------------------------
 ObjectTemplate.setSoldierExitLocation 0/1/1.5 0/0/0
 ObjectTemplate.setVehicleIcon Vehicle/Icon_n1fighter
 ObjectTemplate.setVehicleIconPos 109/49
@@ -54,26 +52,22 @@ ObjectTemplate.setMinimapIcon Minimap/minimap_icon_n1fighter
 ObjectTemplate.setVehicleCategory VCAir
 ObjectTemplate.setVehicleType VTFighter
 
-rem *** lodN1F ***
+
 ObjectTemplate.create LodObject lodN1F
 ObjectTemplate.hasMobilePhysics 1
 ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.hasResponsePhysics 1
-rem -------------------------------------
 ObjectTemplate.addTemplate N1FComplex
-ObjectTemplate.addTemplate N1FSimple
-ObjectTemplate.addTemplate N1FWreck
-rem -------------------------------------
 ObjectTemplate.lodSelector N1FLodSelector
 
-rem *** N1FComplex ***
+LodSelectorTemplate.create DistCompareSelector2 N1FLodSelector
+
 ObjectTemplate.create Bundle N1FComplex
 ObjectTemplate.hasDynamicShadow 1
 ObjectTemplate.geometry N1-Fighter_hull
 ObjectTemplate.hasMobilePhysics 1
 ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.hasResponsePhysics 1
-rem -------------------------------------
 ObjectTemplate.addTemplate N1FBomb
 ObjectTemplate.addTemplate N1FLaser1
 ObjectTemplate.addTemplate N1FWindow
@@ -83,10 +77,6 @@ ObjectTemplate.addTemplate N1FSeat
 ObjectTemplate.setPosition 0/-0.1/-1
 ObjectTemplate.addTemplate N1FEntry
 ObjectTemplate.setPosition 0/-1/-1
-rem ObjectTemplate.addTemplate N1FFlap
-rem ObjectTemplate.setPosition -1.716/-0.783/-1.185
-rem ObjectTemplate.addTemplate N1FFlap
-rem ObjectTemplate.setPosition 1.716/-0.783/-1.185
 ObjectTemplate.addTemplate RollWheelBundle
 ObjectTemplate.setPosition 2.5/-1.7/3.3
 ObjectTemplate.addTemplate RollWheelBundle
@@ -107,7 +97,6 @@ ObjectTemplate.setRotation 0/-90/0
 ObjectTemplate.addTemplate N1FVTOLEngineRack
 ObjectTemplate.setPosition -4.5/1.5/-4.5
 ObjectTemplate.setRotation 0/-90/0
-
 ObjectTemplate.addTemplate N1FAirbreakLeft
 ObjectTemplate.setPosition -1.538/0.05/-0.882
 ObjectTemplate.setRotation 6.973/-0.612/-5.036
@@ -136,13 +125,11 @@ ObjectTemplate.addTemplate N1FEngineRight
 ObjectTemplate.setPosition 0.5/0.5/4
 ObjectTemplate.addTemplate N1FEngineDummy
 ObjectTemplate.setPosition 0/0/0
-
 ObjectTemplate.addTemplate e_engineN1F
 ObjectTemplate.setPosition -2.64089/-0.20248/0.416214
 ObjectTemplate.addTemplate e_engineN1F
 ObjectTemplate.setPosition 2.64089/-0.20248/0.416214
 
-rem *** N1FCamera ***
 ObjectTemplate.create Camera N1FCamera
 ObjectTemplate.setMinRotation -60/-50/0
 ObjectTemplate.setMaxRotation 60/20/0
@@ -153,48 +140,18 @@ ObjectTemplate.setInputToPitch c_PIMouseLookY
 ObjectTemplate.toggleMouseLook 1
 ObjectTemplate.OutsideHudOffset 0/0/2
 
-rem *** N1FEntry ***
 ObjectTemplate.create EntryPoint N1FEntry
 ObjectTemplate.setEntryRadius 3
 
-rem *** N1FSeat ***
 ObjectTemplate.create SeatObject N1FSeat
 ObjectTemplate.seatFlags c_SeatShowHalfBodySoldier
 
-rem *** N1FWindow ***
 ObjectTemplate.create SimpleObject N1FWindow 
 ObjectTemplate.geometry N1-Fighter_window
 
-rem *** N1FSimple ***
-ObjectTemplate.create SimpleObject N1FSimple
-rem ObjectTemplate.geometry N1F_Fus_m1
-
-rem *** N1FWreck ***
-ObjectTemplate.create SimpleObject N1FWreck
-rem ObjectTemplate.geometry Wreck_N1F1_m1
-
-rem *** N1FLodSelector ***
-LodSelectorTemplate.create DistCompareSelector2 N1FLodSelector
-LodSelectorTemplate.hasDestroyedLod 1
-LodSelectorTemplate.addLodDistance 200
-
-rem *** N1FFlap ***
-ObjectTemplate.create RotationalBundle N1FFlap
-rem ObjectTemplate.geometry N1F_Flap_m1
-ObjectTemplate.loadSoundScript ../Common/Sounds/HullRight.ssc
-ObjectTemplate.setMinRotation 0/-15/0
-ObjectTemplate.setMaxRotation 0/15/0
-ObjectTemplate.setMaxSpeed 0/400/0
-ObjectTemplate.setAcceleration 0/2000/0
-ObjectTemplate.setInputToPitch c_PIPitch
-ObjectTemplate.setAutomaticReset 0
-
-rem *** N1FVTOLEngineRack ***
 ObjectTemplate.create RotationalBundle N1FVTOLEngineRack
 ObjectTemplate.hasMobilePhysics 1
-rem -------------------------------------
 ObjectTemplate.addTemplate N1FVTOLEngine
-rem -------------------------------------
 ObjectTemplate.setMinRotation -20/-30/0
 ObjectTemplate.setMaxRotation 20/30/0
 ObjectTemplate.setMaxSpeed 150/50/0
@@ -203,7 +160,6 @@ ObjectTemplate.setInputToPitch c_PIPitch
 ObjectTemplate.setInputToYaw c_PIRoll
 ObjectTemplate.setAutomaticReset 1
 
-rem *** N1FVTOLEngine ***
 ObjectTemplate.create Engine N1FVTOLEngine
 ObjectTemplate.setNetworkableInfo N1F_engine_info
 ObjectTemplate.setMinRotation 0/0/0
