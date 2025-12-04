@@ -1,0 +1,4 @@
+ObjectTemplate.Create SimpleObject escapepodstatic
+ObjectTemplate.loadSoundScript ../../effects/Common/Sounds/fire.ssc
+ObjectTemplate.hascollisionphysics 1
+ObjectTemplate.geometry EscapePod_Hull_m1

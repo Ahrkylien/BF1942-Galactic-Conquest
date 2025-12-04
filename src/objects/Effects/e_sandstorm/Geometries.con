@@ -1,0 +1,26 @@
+Geometrytemplate.create standardmesh sandstormcylinder_m1
+Geometrytemplate.file Effects/sandstormcylinder_m1 
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 459
+GeometryTemplate.setLodDistance 2 460
+GeometryTemplate.setLodDistance 3 461
+GeometryTemplate.setLodDistance 4 462
+GeometryTemplate.setLodDistance 5 463
+
+Geometrytemplate.create standardmesh sandstormcylinder2_m1
+Geometrytemplate.file Effects/sandstormcylinder2_m1 
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 459
+GeometryTemplate.setLodDistance 2 460
+GeometryTemplate.setLodDistance 3 461
+GeometryTemplate.setLodDistance 4 462
+GeometryTemplate.setLodDistance 5 463
+
+Geometrytemplate.create standardmesh sandstormcylinder3_m1
+Geometrytemplate.file Effects/sandstormcylinder3_m1 
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 459
+GeometryTemplate.setLodDistance 2 460
+GeometryTemplate.setLodDistance 3 461
+GeometryTemplate.setLodDistance 4 462
+GeometryTemplate.setLodDistance 5 463
