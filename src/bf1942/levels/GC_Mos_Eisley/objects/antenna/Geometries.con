@@ -1,9 +1,0 @@
-GeometryTemplate.create StandardMesh antenna
-GeometryTemplate.file ../bf1942/levels/GC_Mos_Eisley/Standardmesh/tat_antenna_m1
-
-GeometryTemplate.setLodDistance 0 0
-GeometryTemplate.setLodDistance 1 20
-GeometryTemplate.setLodDistance 2 50
-GeometryTemplate.setLodDistance 3 60
-GeometryTemplate.setLodDistance 4 80
-GeometryTemplate.setLodDistance 5 100

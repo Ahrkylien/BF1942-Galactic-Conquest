@@ -1,0 +1,17 @@
+GeometryTemplate.create StandardMesh tent2
+GeometryTemplate.file ../bf1942/levels/GC_Mos_Eisley/Standardmesh/tent2
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+GeometryTemplate.setLodDistance 2 300
+GeometryTemplate.setLodDistance 3 400
+GeometryTemplate.setLodDistance 4 500
+GeometryTemplate.setLodDistance 5 900
+
+GeometryTemplate.create StandardMesh tent1
+GeometryTemplate.file ../bf1942/levels/GC_Mos_Eisley/Standardmesh/tent1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 100
+GeometryTemplate.setLodDistance 2 300
+GeometryTemplate.setLodDistance 3 400
+GeometryTemplate.setLodDistance 4 500
+GeometryTemplate.setLodDistance 5 900
