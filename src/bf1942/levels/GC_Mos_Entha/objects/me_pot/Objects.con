@@ -1,5 +1,0 @@
-ObjectTemplate.create Bundle me_pot
-ObjectTemplate.addtemplate palmshort_m1
-ObjectTemplate.setposition 0/1.5/0
-ObjectTemplate.geometry pot
-ObjectTemplate.setHasCollisionPhysics 1

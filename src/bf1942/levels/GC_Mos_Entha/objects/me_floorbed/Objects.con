@@ -1,3 +1,0 @@
-ObjectTemplate.create SimpleObject me_floorbed
-ObjectTemplate.geometry floorbed
-ObjectTemplate.setHasCollisionPhysics 1
