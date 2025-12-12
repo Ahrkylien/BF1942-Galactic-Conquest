@@ -1,13 +1,6 @@
 ObjectTemplate.create Bundle ME_bridgedbuilding_m1
 ObjectTemplate.setHasCollisionPhysics 1
-ObjectTemplate.addTemplate lodME_bridgedbuilding_m1
-
-LodSelectorTemplate.create DistanceSelector ME_bridgedbuilding_m1Selector
-LodSelectorTemplate.addLodDistance 70
-ObjectTemplate.create LodObject lodME_bridgedbuilding_m1
-ObjectTemplate.lodselector ME_bridgedbuilding_m1Selector
 ObjectTemplate.addTemplate ME_bridgedbuilding_m1Interior
-ObjectTemplate.addTemplate ME_bridgedbuilding_m1Exterior
 
 ObjectTemplate.create bundle ME_bridgedbuilding_m1Interior
 ObjectTemplate.geometry ME_bridgedbuilding_m1
@@ -21,7 +14,3 @@ ObjectTemplate.setrotation 90/0/0
 ObjectTemplate.addtemplate ladder_5m_m1
 ObjectTemplate.setposition -5.8/5.2493/2.2
 ObjectTemplate.setrotation 90/0/0
-rem ---------------------------
-
-ObjectTemplate.create SimpleObject ME_bridgedbuilding_m1Exterior
-ObjectTemplate.geometry ME_bridgedbuilding_m2
