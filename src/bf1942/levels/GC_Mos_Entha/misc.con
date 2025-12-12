@@ -49,12 +49,6 @@ GeometryTemplate.file ../bf1942/levels/GC_Mos_Entha/Standardmesh/Buildings/Tatoo
 GeometryTemplate.active ME_building7_mirror_m1
 GeometryTemplate.file ../bf1942/levels/GC_Mos_Entha/Standardmesh/Buildings/Tatooine/tat_building7_mirror_m1
 
-GeometryTemplate.active ME_building8_m1
-GeometryTemplate.file ../bf1942/levels/GC_Mos_Entha/Standardmesh/Buildings/Tatooine/tat_building8_m1
-
-GeometryTemplate.active ME_building8_mirror_m1
-GeometryTemplate.file ../bf1942/levels/GC_Mos_Entha/Standardmesh/Buildings/Tatooine/tat_Building8_mirror_m1
-
 GeometryTemplate.active ME_bridgedbuilding_m1
 GeometryTemplate.file ../bf1942/levels/GC_Mos_Entha/Standardmesh/Buildings/Tatooine/me_building_bridged_m1
 

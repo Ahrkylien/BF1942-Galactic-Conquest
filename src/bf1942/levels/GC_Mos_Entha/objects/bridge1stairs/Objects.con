@@ -1,3 +1,0 @@
-ObjectTemplate.create SimpleObject bridge1stairs
-ObjectTemplate.geometry bridge1stairs
-ObjectTemplate.setHasCollisionPhysics 1
