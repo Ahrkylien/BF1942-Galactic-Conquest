@@ -1,11 +1,2 @@
 run Rebel_Fleet_Emitter/go
-run tat_curved_pavement1/go
-
-run bridge2\go
-run bridge1stairs\go
-
-run tat_building_large\go
-
-run me_ringthing\go
-
-run Static_Carrack\go
+run Static_Carrack/go
