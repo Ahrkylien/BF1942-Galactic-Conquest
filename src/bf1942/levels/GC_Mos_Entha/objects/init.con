@@ -1,14 +1,7 @@
 run Rebel_Fleet_Emitter/go
 run tat_curved_pavement1/go
 
-run me_antenna\go
 run bridge2\go
-run me_chair\go
-run me_floorbed\go
-run me_roundtable\go
-run me_table\go
-run me_table_small\go
-run me_pot\go
 run bridge1stairs\go
 
 run tat_building_large\go
