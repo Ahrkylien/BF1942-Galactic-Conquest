@@ -11,7 +11,7 @@ subshader "tat_roundtable_m1_Material1" "StandardMesh/Default"
 	lighting true;
 	materialDiffuse 1 1 1;
 	lightingSpecular false;
-	texture "texture/Props/tat_dark_1";
+	texture "texture/Buildings/Tatooine/tat_dark_1";
 }
 
 subshader "tat_roundtable_m1_Material2" "StandardMesh/Default"

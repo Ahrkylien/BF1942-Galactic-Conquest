@@ -1,9 +1,12 @@
-GeometryTemplate.create StandardMesh gME_building5_m1
-GeometryTemplate.file Buildings/Tatooine/me_Building5_m1
+GeometryTemplate.create StandardMesh ME_building5_m1
+GeometryTemplate.file buildings/Tatooine/tat_Building5_m1
 
 GeometryTemplate.setLodDistance 0 0
-GeometryTemplate.setLodDistance 1 20
-GeometryTemplate.setLodDistance 2 80
-GeometryTemplate.setLodDistance 3 150
-GeometryTemplate.setLodDistance 4 250
-GeometryTemplate.setLodDistance 5 350
+GeometryTemplate.setLodDistance 1 100
+GeometryTemplate.setLodDistance 2 150
+GeometryTemplate.setLodDistance 3 200
+GeometryTemplate.setLodDistance 4 450
+GeometryTemplate.setLodDistance 5 600
+
+
+
