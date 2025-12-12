@@ -1,9 +1,0 @@
-GeometryTemplate.create StandardMesh ME_building_Bigbalcony_m1
-GeometryTemplate.file Buildings/Tatooine/me_building_bigbalcony_m1
-
-GeometryTemplate.setLodDistance 0 0
-GeometryTemplate.setLodDistance 1 20
-GeometryTemplate.setLodDistance 2 60
-GeometryTemplate.setLodDistance 3 90
-GeometryTemplate.setLodDistance 4 115
-GeometryTemplate.setLodDistance 5 250

@@ -49,3 +49,36 @@ GeometryTemplate.file ../bf1942/levels/GC_Mos_Entha/Standardmesh/Buildings/Tatoo
 GeometryTemplate.active ME_building7_mirror_m1
 GeometryTemplate.file ../bf1942/levels/GC_Mos_Entha/Standardmesh/Buildings/Tatooine/tat_building7_mirror_m1
 
+GeometryTemplate.active ME_building8_m1
+GeometryTemplate.file ../bf1942/levels/GC_Mos_Entha/Standardmesh/Buildings/Tatooine/tat_building8_m1
+
+GeometryTemplate.active ME_building8_mirror_m1
+GeometryTemplate.file ../bf1942/levels/GC_Mos_Entha/Standardmesh/Buildings/Tatooine/tat_Building8_mirror_m1
+
+GeometryTemplate.active ME_bridgedbuilding_m1
+GeometryTemplate.file ../bf1942/levels/GC_Mos_Entha/Standardmesh/Buildings/Tatooine/me_building_bridged_m1
+
+GeometryTemplate.active ME_building_2floorhouse_m1
+GeometryTemplate.file ../bf1942/levels/GC_Mos_Entha/Standardmesh/Buildings/Tatooine/me_building_2floorhouse_m1
+
+GeometryTemplate.active ME_building_Bigbalcony_m1
+GeometryTemplate.file ../bf1942/levels/GC_Mos_Entha/Standardmesh/Buildings/Tatooine/me_building_bigbalcony_m1
+
+GeometryTemplate.active ME_building_central_m1
+GeometryTemplate.file ../bf1942/levels/GC_Mos_Entha/Standardmesh/Buildings/Tatooine/me_building_central_m1
+
+GeometryTemplate.active ME_building_corner_m1
+GeometryTemplate.file ../bf1942/levels/GC_Mos_Entha/Standardmesh/Buildings/Tatooine/me_building_corner_m1
+
+GeometryTemplate.active Mos_Corner_m1
+GeometryTemplate.file ../bf1942/levels/GC_Mos_Entha/Standardmesh/Buildings/Tatooine/Mos_Corner_m1
+
+GeometryTemplate.active ME_building_doubledome_m1
+GeometryTemplate.file ../bf1942/levels/GC_Mos_Entha/Standardmesh/Buildings/Tatooine/ME_building_doubledome_m1
+
+GeometryTemplate.active ME_building_tower2_m1
+GeometryTemplate.file ../bf1942/levels/GC_Mos_Entha/Standardmesh/Buildings/Tatooine/ME_building_tower2_m1
+
+GeometryTemplate.active ME_building_villa_m1
+GeometryTemplate.file ../bf1942/levels/GC_Mos_Entha/Standardmesh/Buildings/Tatooine/ME_building_villa_m1
+

@@ -1,3 +1,0 @@
-ObjectTemplate.create SimpleObject me_building8_mirror_m1
-ObjectTemplate.geometry ME_building8_mirror_m1
-ObjectTemplate.setHasCollisionPhysics 1
