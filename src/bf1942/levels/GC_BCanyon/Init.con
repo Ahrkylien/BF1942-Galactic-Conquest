@@ -21,8 +21,6 @@ textureManager.alternativePath bf1942/levels/GC_BCanyon/Textures/Sky
 Game.setViewDistance 600
 Game.spawnPlayers 1
 
-run objects/objects
-
 rem 
 rem *** Define flags ***
 rem
