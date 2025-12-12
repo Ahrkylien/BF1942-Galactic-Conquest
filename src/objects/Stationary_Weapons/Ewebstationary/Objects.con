@@ -2,7 +2,7 @@ ObjectTemplate.create PlayerControlObject Ewebstationary
 ObjectTemplate.networkableInfo DefgunBodyInfo
 ObjectTemplate.setSoldierExitLocation -0.5/0/-0.8 0/0/0
 ObjectTemplate.aiTemplate Stationary_mg42
-rem ObjectTemplate.geometry eweb_tripod_m1
+ObjectTemplate.geometry eweb_tripod_m1
 ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.saveInSeparateFile 1
 ObjectTemplate.mass 3000
@@ -46,7 +46,7 @@ rem -------------------------------------
 ObjectTemplate.setMinRotation -50/0/0
 ObjectTemplate.setMaxRotation 50/0/0
 ObjectTemplate.setPivotPosition 0/0/0
-ObjectTemplate.setMaxSpeed 60/0/0
+ObjectTemplate.setMaxSpeed 70/0/0
 ObjectTemplate.setAcceleration 5000/0/0
 ObjectTemplate.setContinousRotationSpeed 0/0/0
 ObjectTemplate.setInputToYaw 4
@@ -68,7 +68,7 @@ rem -------------------------------------
 ObjectTemplate.setMinRotation 0/-15/0
 ObjectTemplate.setMaxRotation 0/30/0
 ObjectTemplate.setPivotPosition 0/0/0
-ObjectTemplate.setMaxSpeed 0/60/0
+ObjectTemplate.setMaxSpeed 0/70/0
 ObjectTemplate.setAcceleration 0/5000/0
 ObjectTemplate.setContinousRotationSpeed 0/0/0
 ObjectTemplate.setInputToPitch 5
