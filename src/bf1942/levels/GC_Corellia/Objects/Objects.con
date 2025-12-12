@@ -1,9 +1,1 @@
-ObjectTemplate.create Bundle tat_cantina_nomusic
-ObjectTemplate.geometry tat_cantina
-ObjectTemplate.setHasCollisionPhysics 1
-
-ObjectTemplate.create Bundle tent1_nosound
-ObjectTemplate.geometry tent1
-ObjectTemplate.setHasCollisionPhysics 1
-
 run Vehicles/Air/MilleniumFalcon/go

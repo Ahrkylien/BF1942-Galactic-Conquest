@@ -1,0 +1,83 @@
+ObjectTemplate.create PlayerControlObject Ewebstationary
+ObjectTemplate.networkableInfo DefgunBodyInfo
+ObjectTemplate.setSoldierExitLocation -0.5/0/-0.8 0/0/0
+ObjectTemplate.aiTemplate Stationary_mg42
+rem ObjectTemplate.geometry eweb_tripod_m1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.mass 3000
+ObjectTemplate.setPcoId 0
+ObjectTemplate.HasArmor 1
+ObjectTemplate.HitPoints 45
+ObjectTemplate.MaxHitPoints 45
+ObjectTemplate.Material 45
+Objecttemplate.GUIIndex 81
+ObjectTemplate.setVehicleIcon "Vehicle/icon_eweb.dds"
+ObjectTemplate.setNumberOfWeaponIcons 1
+ObjectTemplate.setPrimaryAmmoIcon "Ammo/icon_laser_64x64.dds"
+ObjectTemplate.setPrimaryAmmoBar ABHeatBarOnly
+ObjectTemplate.setCrossHairType CHTIcon
+ObjectTemplate.setVehicleCategory VCLand
+ObjectTemplate.setVehicleType VTStationaryMG
+ObjectTemplate.setMinimapIcon "Minimap/minimap_icon_stationary_16x16.tga"
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.setHasResponsePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate StationaryEwebPoint
+ObjectTemplate.setPosition 0/1.1/0
+ObjectTemplate.setRotation 0/0/0
+ObjectTemplate.addTemplate EwebstationarySeat
+ObjectTemplate.setPosition 0/.8/-1.1
+ObjectTemplate.addTemplate EwebstationaryEntry
+ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.setRotation 0/0/0
+rem -------------------------------------
+
+rem
+rem *** StationaryMG42point ***
+rem
+ObjectTemplate.create RotationalBundle StationaryEwebPoint
+ObjectTemplate.networkableInfo eweb_TurretInfo
+rem -------------------------------------
+ObjectTemplate.addTemplate StationaryEwebPointRotation
+ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.setRotation 0/0/0
+rem -------------------------------------
+ObjectTemplate.setMinRotation -50/0/0
+ObjectTemplate.setMaxRotation 50/0/0
+ObjectTemplate.setPivotPosition 0/0/0
+ObjectTemplate.setMaxSpeed 60/0/0
+ObjectTemplate.setAcceleration 5000/0/0
+ObjectTemplate.setContinousRotationSpeed 0/0/0
+ObjectTemplate.setInputToYaw 4
+ObjectTemplate.setInputToRoll c_PINone
+
+rem
+rem *** StationaryMG42point ***
+rem
+ObjectTemplate.create RotationalBundle StationaryEwebPointRotation
+ObjectTemplate.networkableInfo eweb_TurretInfo
+rem -------------------------------------
+ObjectTemplate.addTemplate EwebCamera
+ObjectTemplate.setPosition 0/0.4/-0.5
+ObjectTemplate.addTemplate EwebGunbarrel
+ObjectTemplate.addTemplate ewebweaponfire
+ObjectTemplate.setPosition 0/0/1.06
+ObjectTemplate.addTemplate ewebhanddummy
+rem -------------------------------------
+ObjectTemplate.setMinRotation 0/-15/0
+ObjectTemplate.setMaxRotation 0/30/0
+ObjectTemplate.setPivotPosition 0/0/0
+ObjectTemplate.setMaxSpeed 0/60/0
+ObjectTemplate.setAcceleration 0/5000/0
+ObjectTemplate.setContinousRotationSpeed 0/0/0
+ObjectTemplate.setInputToPitch 5
+ObjectTemplate.setInputToRoll c_PINone
+
+ObjectTemplate.create EntryPoint EwebstationaryEntry
+ObjectTemplate.setEntryRadius 5
+
+rem
+ObjectTemplate.create SeatObject EwebstationarySeat
+ObjectTemplate.seatFlags c_SeatShowFullBodySoldier
+ObjectTemplate.seatFlags c_SeatIsOutside

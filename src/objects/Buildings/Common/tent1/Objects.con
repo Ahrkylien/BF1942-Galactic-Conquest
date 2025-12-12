@@ -4,3 +4,6 @@ ObjectTemplate.setHasCollisionPhysics 1
 objectTemplate.aiTemplate tent1
 ObjectTemplate.loadSoundScript Sounds/Ambient.ssc
 
+ObjectTemplate.create Bundle tent1_nosound
+ObjectTemplate.geometry tent1
+ObjectTemplate.setHasCollisionPhysics 1
