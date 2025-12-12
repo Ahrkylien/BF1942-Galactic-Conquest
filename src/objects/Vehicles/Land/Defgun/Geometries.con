@@ -48,11 +48,11 @@ GeometryTemplate.create StandardMesh DefGun_thing_M1
 GeometryTemplate.file DefGun_thing_M1
 GeometryTemplate.hasDynamicShadow 1
 GeometryTemplate.setLodDistance 0 0
-GeometryTemplate.setLodDistance 1 100
-GeometryTemplate.setLodDistance 2 300
-GeometryTemplate.setLodDistance 3 400
-GeometryTemplate.setLodDistance 4 500
-GeometryTemplate.setLodDistance 5 800
+GeometryTemplate.setLodDistance 1 500
+GeometryTemplate.setLodDistance 2 600
+GeometryTemplate.setLodDistance 3 700
+GeometryTemplate.setLodDistance 4 800
+GeometryTemplate.setLodDistance 5 900
 
 GeometryTemplate.create StandardMesh Wreck_DefGun_m1
 GeometryTemplate.file Wreck_DefGun_m1

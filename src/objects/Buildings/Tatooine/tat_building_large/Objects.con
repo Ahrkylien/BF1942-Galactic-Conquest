@@ -7,28 +7,3 @@ ObjectTemplate.addTemplate ladder_12m_m1
 ObjectTemplate.setPosition 2.5561/17.3941/-10.8631
 ObjectTemplate.addTemplate ladder_12m_m1
 ObjectTemplate.setPosition -2.5561/17.3941/-10.8631
-ObjectTemplate.create Bundle tat_building_large
-ObjectTemplate.setHasCollisionPhysics 1
-ObjectTemplate.addTemplate lodtat_building_large
-
-LodSelectorTemplate.create DistanceSelector tat_building_largeSelector
-LodSelectorTemplate.addLodDistance 50
-ObjectTemplate.create LodObject lodtat_building_large
-ObjectTemplate.lodselector tat_building_largeSelector
-ObjectTemplate.addTemplate tat_building_largeInterior
-ObjectTemplate.addTemplate tat_building_largeExterior
-
-ObjectTemplate.create bundle tat_building_largeInterior
-ObjectTemplate.geometry tat_building_large
-rem ---------------------------
-ObjectTemplate.addTemplate ladder_30m_m1
-ObjectTemplate.setPosition 0/31.2497/1.6777
-ObjectTemplate.addTemplate ladder_12m_m1
-ObjectTemplate.setPosition 2.5561/17.3941/-10.8631
-ObjectTemplate.addTemplate ladder_12m_m1
-ObjectTemplate.setPosition -2.5561/17.3941/-10.8631
-rem ---------------------------
-
-ObjectTemplate.create SimpleObject tat_building_largeExterior
-ObjectTemplate.geometry tat_building_large_m2
-

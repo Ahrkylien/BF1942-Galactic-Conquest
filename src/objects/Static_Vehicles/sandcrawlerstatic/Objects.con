@@ -1,31 +1,22 @@
-
-rem *** SandcrawlerComplex ***
 ObjectTemplate.create Bundle SandcrawlerStatic
 ObjectTemplate.geometry Sandcrawler_Hull_M1
 ObjectTemplate.hasMobilePhysics 0
 ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.hasResponsePhysics 0
-ObjectTemplate.addTemplate SandcrawlerInterior
-ObjectTemplate.setPosition 0/0/0
-ObjectTemplate.addTemplate SandcrawlerDoorMesh
-ObjectTemplate.setPosition 0/0/0
-ObjectTemplate.addTemplate SandcrawlerWheels
-ObjectTemplate.setPosition 0/0/0
-rem -------------------------------------
+ObjectTemplate.addTemplate SandcrawlerStaticInterior
+ObjectTemplate.addTemplate SandcrawlerStaticDoorMesh
+ObjectTemplate.addTemplate SandcrawlerStaticWheels
 
-rem *** SandcrawlerInterior ***
-ObjectTemplate.create Bundle SandcrawlerInterior
+ObjectTemplate.create Bundle SandcrawlerStaticInterior
 ObjectTemplate.setHasCollisionPhysics 1
 ObjectTemplate.hasResponsePhysics 1
 ObjectTemplate.geometry Sandcrawler_Interior_M1
-rem -------------------------------------
 ObjectTemplate.addTemplate ladder_10m_m1
 ObjectTemplate.setPosition 6.2/4.5/7.9
 ObjectTemplate.setRotation 0/24.5/0
 ObjectTemplate.addTemplate ladder_5m_m1
 ObjectTemplate.setPosition 6.2/9.09/3.265
 ObjectTemplate.setRotation 0/0/0
-
 ObjectTemplate.AddTemplate Ammobox
 ObjectTemplate.setPosition -6/-0.05/0.5
 ObjectTemplate.AddTemplate Ammobox
@@ -33,12 +24,11 @@ ObjectTemplate.setPosition -6/6.6/-9.5
 ObjectTemplate.AddTemplate Ammobox
 ObjectTemplate.setPosition -3.5/6.6/-9.5
 
-rem *** SandcrawlerDoorMesh ***
-ObjectTemplate.create SimpleObject SandcrawlerDoorMesh
+ObjectTemplate.create SimpleObject SandcrawlerStaticDoorMesh
 ObjectTemplate.geometry Sandcrawler_Door_M1
 ObjectTemplate.hasCollisionPhysics 1
 
-ObjectTemplate.create Bundle SandcrawlerWheels
+ObjectTemplate.create Bundle SandcrawlerStaticWheels
 ObjectTemplate.geometry Sandcrawler_TrackL_M1
 ObjectTemplate.hasCollisionPhysics 1
 ObjectTemplate.geometry Sandcrawler_TrackR_M1

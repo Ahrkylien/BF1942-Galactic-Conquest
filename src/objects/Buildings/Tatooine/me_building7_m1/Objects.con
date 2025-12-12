@@ -1,16 +1,3 @@
-ObjectTemplate.create Bundle ME_building7_m1
-ObjectTemplate.setHasCollisionPhysics 1
-ObjectTemplate.addTemplate lodME_building7_m1
-
-LodSelectorTemplate.create DistanceSelector ME_building7_m1Selector
-LodSelectorTemplate.addLodDistance 500
-ObjectTemplate.create LodObject lodME_building7_m1
-ObjectTemplate.lodselector ME_building7_m1Selector
-ObjectTemplate.addTemplate ME_building7_m1Interior
-ObjectTemplate.addTemplate ME_building7_m1Exterior
-
-ObjectTemplate.create SimpleObject ME_building7_m1Interior
+ObjectTemplate.create SimpleObject ME_building7_m1
 ObjectTemplate.geometry ME_building7_m1
-
-ObjectTemplate.create SimpleObject ME_building7_m1Exterior
-ObjectTemplate.geometry ME_building7_m2
+ObjectTemplate.setHasCollisionPhysics 1
