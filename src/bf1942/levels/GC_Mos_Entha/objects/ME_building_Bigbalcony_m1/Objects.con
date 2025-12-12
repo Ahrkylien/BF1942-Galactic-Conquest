@@ -1,6 +1,0 @@
-ObjectTemplate.create Bundle ME_building_Bigbalcony_m1
-ObjectTemplate.geometry ME_building_Bigbalcony_m1
-ObjectTemplate.addtemplate ladder_20m_m1
-ObjectTemplate.setposition -0.0566/15.7183/0
-ObjectTemplate.setrotation 0/5/0
-ObjectTemplate.setHasCollisionPhysics 1
