@@ -1,3 +1,0 @@
-ObjectTemplate.create SimpleObject imp_cratetransporter
-ObjectTemplate.geometry imp_cratetransporter
-ObjectTemplate.setHasCollisionPhysics 1
