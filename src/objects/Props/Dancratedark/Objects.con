@@ -1,0 +1,4 @@
+ObjectTemplate.create Bundle Dancratedark
+ObjectTemplate.geometry Dancratedark
+ObjectTemplate.cullRadiusScale 5.0
+ObjectTemplate.setHasCollisionPhysics 1

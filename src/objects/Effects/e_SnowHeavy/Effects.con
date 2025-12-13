@@ -33,7 +33,7 @@ ObjectTemplate.cullRadiusScale 1
 
 
 ObjectTemplate.create SpriteParticle Fx_SnowHeavy
-ObjectTemplate.texture e_Snow
+ObjectTemplate.texture Effects/e_Snow
 ObjectTemplate.mipMaps 0
 objectTemplate.drag CRD_NONE/0.1/0/0
 ObjectTemplate.timeToLive CRD_UNIFORM/5/8/0

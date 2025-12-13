@@ -15,9 +15,6 @@ renderer.animatedMeshAmbientColor 0.40
 textureManager.alternativePath Texture/Africa
 textureManager.alternativePath bf1942/levels/GC_Mini_Dant/Textures/Sky
 
-run Objects/Geometries
-run Objects/Objects
-
 shadow.shadowColor 0.5
 
 Game.setViewDistance 700

@@ -1,0 +1,4 @@
+GeometryTemplate.create StandardMesh Dancratedark
+GeometryTemplate.file dancratedark
+GeometryTemplate.setLodDistance 0 1000
+GeometryTemplate.onlyUseHigestLod true
