@@ -10,23 +10,12 @@ run ctown_wall2/objects
 run ctown_wall2/geometries
 run ctown_wall3/objects
 run ctown_wall3/geometries
-run ctown_building13/objects
-run ctown_building13/geometries
-run ctown_building1/objects
-run ctown_building1/geometries
-run ctown_building11/objects
-run ctown_building11/geometries
-run ctown_building15/objects
-run ctown_building15/geometries
-run ctown_building4/objects
-run ctown_building4/geometries
+
 run ctown_Pole1/objects
 run ctown_Pole1/geometries
 run jud_light1/geometries
 run imperial/imp_bunker_lamp2/geometries
 run imperial/imp_bunker_lamp2/objects
-run gunship_static/gunship_static
-run Vehicles/Land/Speederbike/Speederbike
 
 run IC_antiglitch/objects
 run IC_antiglitch/geometries
@@ -34,8 +23,6 @@ run ion_autofire/ion_autofire
 run ionobjective/ionobjective
 run Alaris_shieldgen/Alaris_shieldgen
 run EchoTrolley_m/EchoTrolley_m
-rem **** 3.person ansicht:  
-rem run Soldiers/Common/objects
 run handweapons/build_shield/build_shield
 
 rem ****bunker objects ******
@@ -162,12 +149,6 @@ run Imperial/imp_crane1_main/geometries
 
 run Imperial/imp_crate1/objects
 run Imperial/imp_crate1/geometries
-
-run Imperial/imp_crate1/objects
-run Imperial/imp_crate1/geometries
-run Imperial/imp_crate1/objects
-run Imperial/imp_crate1/geometries
-
 
 run Imperial/imp_bunker_vent1/objects
 run Imperial/imp_bunker_vent1/geometries
