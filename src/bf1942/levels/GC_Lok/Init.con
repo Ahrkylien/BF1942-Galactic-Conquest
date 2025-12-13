@@ -14,8 +14,6 @@ textureManager.alternativePath bf1942/levels/GC_Lok/sky
 
 shadow.shadowColor 0.550000
 
-run objects/objects
-
 Game.setViewDistance 450
 Game.spawnPlayers 1
 renderer.fogstart 200
