@@ -29,6 +29,6 @@ game.setMultiplayerBriefingObjectives MULTIPLAYER_BRIEFING_DANTOOINE
 game.setMultiplayerBriefingMapType MULTIPLAYER_MAP_TYPE_HEADON_MAP
 
 game.setLoadPicture ../../bf1942/levels/GC_Mini_Dant/menu/minidant2.tga
-game.setServerInfoIcon ../../bf1942/levels/GC_Mini_Dant/menu/serverInfo.dds
+game.setServerInfoIcon serverInfo
 game.setMapId "GCMOD"
 game.setBackgroundMusic "music/minidant/music.bik"

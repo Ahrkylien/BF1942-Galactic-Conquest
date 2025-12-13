@@ -28,7 +28,7 @@ rem ** Multiplayer Briefing **
 game.setObjectiveBriefing MULTIPLAYER_BRIEFING_DEATHSTAR
 game.setMultiplayerBriefingMapType MULTIPLAYER_MAP_TYPE_ASSAULT_MAP
 
-game.setLoadPicture Load/trench.tga
-game.setServerInfoIcon ../../bf1942/levels/gc_deathstar/menu/serverInfo.dds
+game.setLoadPicture Load/trench
+game.setServerInfoIcon serverInfo
 game.setMapId "GCMOD"
 game.setBackgroundMusic "music/deathstar/music.bik"

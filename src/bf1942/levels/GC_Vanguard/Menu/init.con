@@ -1,7 +1,7 @@
 Game.setLocalized 1
 
 game.setMultiplayerBriefingObjectives "While the Battle for Endor gets underway, a Vanguard of rebel forces move to block a Hyperspace cooridor to Couruscant that could be used by Imperials for reinforcments, or provide fleeing Imperial officers an escape route."
-game.setLoadPicture Load/vanguard.tga
-game.setServerInfoIcon ../../bf1942/levels/gc_vanguard/menu/serverInfo.dds
+game.setLoadPicture Load/vanguard
+game.setServerInfoIcon serverInfo
 game.setMapId "GCMOD"
 game.setBackgroundMusic "music/vanguard/music.bik"

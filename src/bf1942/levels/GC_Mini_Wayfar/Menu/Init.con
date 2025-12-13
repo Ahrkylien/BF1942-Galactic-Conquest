@@ -4,7 +4,7 @@ rem *********************************************
 Game.setLocalized 1
 
 game.setLoadPicture ../../bf1942/levels/GC_Mini_Wayfar/Menu/loadscreen.tga
-game.setServerInfoIcon ../../bf1942/levels/GC_Mini_Wayfar/menu/serverInfo.dds
+game.setServerInfoIcon serverInfo
 game.setMultiplayerBriefingObjectives "Jabba the Hutt has been using Wayfar's black market to sell weapons to rebel agents.  The Empire has learned of situation and has moved in troops to end all illicit activity. Take control of the town and push back enemy advancement to secure your victory..."
 
 game.setMapId "GCMOD"

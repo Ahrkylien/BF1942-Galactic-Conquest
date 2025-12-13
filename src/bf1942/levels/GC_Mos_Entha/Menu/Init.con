@@ -1,7 +1,7 @@
 Game.setLocalized 1
 
 game.setLoadPicture ../../bf1942/levels/GC_Mos_Entha/menu/load.tga
-game.setServerInfoIcon ../../bf1942/levels/GC_Mos_Entha/menu/serverInfo.dds
+game.setServerInfoIcon serverInfo
 
 game.setMultiplayerBriefingObjectives "Following a fierce fight, the Rebel troops have been forced to retreat to the nearby town of Mos Entha by the superior fighting forces of the Empire. Rallying their troops the Empire will finally take them down. The orbiting Imperial Carrack-class Cruiser is raining down Tie Fighters. The Rebel troops hopes of escape have just gone up in flames. However, new reports indicate that Rebel reinforcements have entered the sector and that they will arrive soon. Until then, the Rebel forces must stand firm...."
 

@@ -5,5 +5,5 @@ Game.setLocalized 1
 
 game.setLoadPicture ../../bf1942/levels/GC_PodRace/Menu/loadscreen.tga
 game.setMultiplayerBriefingObjectives "Let The Pod Race Begin"
-game.setServerInfoIcon ../../bf1942/levels/GC_Podrace/menu/serverinfo.dds
+game.setServerInfoIcon serverInfo
 game.setMapId "GCMOD"

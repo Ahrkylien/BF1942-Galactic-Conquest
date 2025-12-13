@@ -14,7 +14,7 @@ game.setAxisDebriefingMinorVictory "Many dark forces has fallen, but the Rebel f
 game.setAxisDebriefingMajorDefeat "I sense a great disturbance in the force"
 game.setAxisDebriefingMinorDefeat "We are defeated, but we shall return"
 
-game.setServerInfoIcon ../../bf1942/levels/GC_Ryloth/menu/serverinfo.dds
+game.setServerInfoIcon serverInfo
 game.setLoadPicture ../../bf1942/levels/GC_Endor/Menu/endor1.tga
 
 
