@@ -1,6 +1,0 @@
-GeometryTemplate.create StandardMesh bactatank
-GeometryTemplate.file ../bf1942/levels/GC_Lok/Standardmesh/bactatank
-GeometryTemplate.setLodDistance 0 0
-GeometryTemplate.setLodDistance 1 15
-GeometryTemplate.setLodDistance 2 45
-GeometryTemplate.setLodDistance 3 80
