@@ -25,9 +25,6 @@ GeometryTemplate.file ../bf1942/levels/GC_Mos_Entha/Standardmesh/Buildings/build
 GeometryTemplate.active building17
 GeometryTemplate.file ../bf1942/levels/GC_Mos_Entha/Standardmesh/Buildings/building17
 
-GeometryTemplate.active gcsupply
-GeometryTemplate.file ../bf1942/levels/GC_Mos_Entha/Standardmesh/Buildings/Tatooine/gcsupply
-
 GeometryTemplate.active ME_building2_m1
 GeometryTemplate.file ../bf1942/levels/GC_Mos_Entha/Standardmesh/Buildings/Tatooine/tat_building2_m1
 
