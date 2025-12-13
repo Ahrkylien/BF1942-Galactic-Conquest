@@ -29,7 +29,7 @@ game.setMultiplayerBriefingObjectives MULTIPLAYER_BRIEFING_HOTH
 game.setMultiplayerBriefingMapType MULTIPLAYER_MAP_TYPE_HEADON_MAP
 
 
-game.setLoadPicture Load/hoth.tga
-game.setServerInfoIcon ../../bf1942/levels/GC_Hoth/menu/serverInfo.dds
+game.setLoadPicture Load/hoth
+game.setServerInfoIcon serverInfo
 game.setMapId "GCMOD"
 game.setBackgroundMusic "music/hoth/music.bik"

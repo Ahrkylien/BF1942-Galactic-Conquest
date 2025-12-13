@@ -4,7 +4,7 @@ rem *********************************************
 Game.setLocalized 1
 
 game.setLoadPicture ../../bf1942/levels/GC_Mini_Hoth/menu/HothNight.tga
-game.setServerInfoIcon ../../bf1942/levels/GC_Mini_Hoth/menu/serverInfo.dds
+game.setServerInfoIcon serverInfo
 
 game.setMultiplayerBriefingObjectives "After the Rebel defeat on Hoth, The Empire has begun developing an occupational force on the barren wasteland. The remaining Rebel forces who were stranded after the defeat, are taking matters into their own hands."   
 

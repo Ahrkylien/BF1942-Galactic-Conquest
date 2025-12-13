@@ -4,7 +4,7 @@ rem *********************************************
 Game.setLocalized 1
 
 game.setLoadPicture ../../bf1942/levels/GC_Anchorhead/Menu/loadscreen.tga
-game.setServerInfoIcon ../../bf1942/levels/GC_Anchorhead/menu/serverInfo.dds
+game.setServerInfoIcon serverInfo
 game.setMultiplayerBriefingObjectives "Imperial intelligence has noticed an increase of rebel ativity in the small town of Anchorhead.  A legion of Stormtroopers escorting an ATST has raided the southern port and prepares to take control of the town. Rebel troops quickly gather to revolt against the inevitable battle.  Capture and Defend the key locations around the town to secure your victory"
 
 

@@ -8,7 +8,7 @@ game.setLoadPicture ../../bf1942/levels/GC_Mini_Caves/Menu/COD.tga
 game.setMultiplayerBriefingObjectives "Deep within the caverns of Dagobah, an epic power struggle unfolds..."
 
 
-game.setServerInfoIcon ../../bf1942/levels/GC_Mini_Caves/menu/serverInfo.dds
+game.setServerInfoIcon serverInfo
 
 game.setMapId "GCMOD"
 game.setBackgroundMusic "music/minicaves/music.bik"

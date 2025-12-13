@@ -14,7 +14,7 @@ game.setAxisDebriefingMajorDefeat IMPERIAL_MINOR_DEFEAT_BRIEFING
 game.setAxisDebriefingMinorDefeat IMPERIAL_MAJOR_DEFEAT_BRIEFING
 
 game.setLoadPicture ../../mods/GCMOD/Movies/AlarisLS.bik
-game.setServerInfoIcon ../../bf1942/levels/GC_Alaris_Prime/menu/serverInfo.dds
+game.setServerInfoIcon serverInfo
 
 game.setObjectiveBriefing "Rebels Intelligence located an Imperial Outpost on the Wookie Planet of Alaris Prime. Seize the Control Room and the demolotions team will gain access to the generator. Once the ION Cannon Shield has loss its power source the ION Cannon can be destroyed!"
 game.setMultiplayerBriefingObjectives "Rebels Intelligence located an Imperial Outpost on the Wookie Planet of Alaris Prime. Seize the Control Room and the demolotions team will gain access to the generator. Once the ION Cannon Shield has loss its power source the ION Cannon can be destroyed!"

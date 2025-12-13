@@ -29,6 +29,6 @@ game.setMultiplayerBriefingObjectives MULTIPLAYER_BRIEFING_Bocage
 game.setMultiplayerBriefingMapType Conquest
 
 game.setLoadPicture ../../bf1942/levels/gc_mos_eisley/menu/meloader.tga
-game.setServerInfoIcon ../../bf1942/levels/gc_tatooine/menu/serverInfo.dds
+game.setServerInfoIcon serverInfo
 game.setMapId "GCMOD"
 game.setBackgroundMusic "music/moseisley/music.bik"

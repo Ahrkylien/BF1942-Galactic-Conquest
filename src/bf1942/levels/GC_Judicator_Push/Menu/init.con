@@ -29,5 +29,5 @@ game.setMultiplayerBriefingObjectives MULTIPLAYER_BRIEFING_JUDICATOR_PUSH
 game.setMultiplayerBriefingMapType MULTIPLAYER_MAP_TYPE_OBJECTIVE_MAP
 
 game.setLoadPicture ../../bf1942/levels/GC_Judicator_Push/Menu/Judicator_Push.tga
-game.setServerInfoIcon ../../bf1942/levels/GC_Judicator_Push/menu/serverInfo.dds
+game.setServerInfoIcon serverInfo
 game.setMapId "GCMOD"
