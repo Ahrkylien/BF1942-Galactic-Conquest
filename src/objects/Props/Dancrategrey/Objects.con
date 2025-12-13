@@ -1,0 +1,4 @@
+ObjectTemplate.create Bundle Dancrategrey
+ObjectTemplate.geometry Dancrategrey
+ObjectTemplate.cullRadiusScale 5.0
+ObjectTemplate.setHasCollisionPhysics 1

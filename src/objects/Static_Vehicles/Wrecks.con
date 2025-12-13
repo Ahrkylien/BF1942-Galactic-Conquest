@@ -1,25 +1,20 @@
 ObjectTemplate.create Bundle Wreck_LandSpeeder_static
-ObjectTemplate.saveInSeparateFile 1
 ObjectTemplate.geometry Wreck_LandSpeeder1_m1
 ObjectTemplate.setHasCollisionPhysics 1
 
 ObjectTemplate.create Bundle Wreck_LandSpeeder_static2
-ObjectTemplate.saveInSeparateFile 1
 ObjectTemplate.geometry Wreck_LandSpeeder2_m1
 ObjectTemplate.setHasCollisionPhysics 1
 
 ObjectTemplate.create Bundle Wreck_Falcon_Static1
-ObjectTemplate.saveInSeparateFile 1
 ObjectTemplate.geometry Wreck_Falcon1
 ObjectTemplate.setHasCollisionPhysics 1
 
 ObjectTemplate.create Bundle Wreck_Falcon_Static2
-ObjectTemplate.saveInSeparateFile 1
 ObjectTemplate.geometry Wreck_Falcon2
 ObjectTemplate.setHasCollisionPhysics 1
 
 ObjectTemplate.create Bundle Wreck_Skyhopper_Static
-ObjectTemplate.saveInSeparateFile 1
 ObjectTemplate.geometry Wreck_Skyhopper2_M1
 ObjectTemplate.setHasCollisionPhysics 1
 
@@ -28,46 +23,52 @@ ObjectTemplate.geometry EscapePod_Hull_M1
 ObjectTemplate.hasCollisionPhysics 1
 
 ObjectTemplate.create Bundle Wreck_ATST_Static1
-ObjectTemplate.saveInSeparateFile 1
 ObjectTemplate.geometry Wreck_ATST1_M1
 ObjectTemplate.setHasCollisionPhysics 1
 
 ObjectTemplate.create Bundle Wreck_ATST_Static2
-ObjectTemplate.saveInSeparateFile 1
 ObjectTemplate.geometry Wreck_ATST2_M1
 ObjectTemplate.setHasCollisionPhysics 1
 
 ObjectTemplate.create Bundle Wreck_TieAdvanced_Static
-ObjectTemplate.saveInSeparateFile 1
 ObjectTemplate.geometry Wreck_TieAdvanced1_M1
 ObjectTemplate.setHasCollisionPhysics 1
 
 ObjectTemplate.create Bundle Wreck_Snowspeeder_Static
-ObjectTemplate.saveInSeparateFile 1
 ObjectTemplate.geometry Wreck_Snowspeeder1_M1
 ObjectTemplate.setHasCollisionPhysics 1
 
 ObjectTemplate.create Bundle Wreck_Lambda_static1
-ObjectTemplate.saveInSeparateFile 1
 ObjectTemplate.geometry Wreck_Lambda2_m1
 ObjectTemplate.setHasCollisionPhysics 1
 
 ObjectTemplate.create Bundle Wreck_Lambda_static2
-ObjectTemplate.saveInSeparateFile 1
 ObjectTemplate.geometry Wreck_Lambda3_m1
 ObjectTemplate.setHasCollisionPhysics 1
 
 ObjectTemplate.create Bundle Wreck_Lambda_static3
-ObjectTemplate.saveInSeparateFile 1
 ObjectTemplate.geometry Wreck_Lambda1_m1
 ObjectTemplate.setHasCollisionPhysics 1
 
 ObjectTemplate.create Bundle Wreck_TieFighter1_Static
-ObjectTemplate.saveInSeparateFile 1
 ObjectTemplate.geometry Wreck_TieFighter1_M1
 ObjectTemplate.setHasCollisionPhysics 1
 
 ObjectTemplate.create Bundle Wreck_TieFighter2_Static
-ObjectTemplate.saveInSeparateFile 1
 ObjectTemplate.geometry Wreck_TieFighter2_M1
 ObjectTemplate.setHasCollisionPhysics 1
+
+
+
+ObjectTemplate.create Bundle t3bwreck
+ObjectTemplate.geometry Assault_Tank_Hull_M1
+ObjectTemplate.setHasCollisionPhysics 1
+
+ObjectTemplate.create Bundle awreck
+ObjectTemplate.geometry Wreck_AWing_M1
+ObjectTemplate.setHasCollisionPhysics 1
+
+ObjectTemplate.create Bundle gswreck
+ObjectTemplate.geometry GunShip
+ObjectTemplate.setHasCollisionPhysics 1
+

@@ -1,0 +1,4 @@
+GeometryTemplate.create StandardMesh Dancrategrey
+GeometryTemplate.file hothcrategrey
+GeometryTemplate.setLodDistance 0 1000
+GeometryTemplate.onlyUseHigestLod true
