@@ -22,7 +22,6 @@ renderer.specularColor 0.27/0.25/0.26
 renderer.animatedMeshDiffuseFactor 0.42/0.40/0.35
 renderer.animatedMeshAmbientColor 0.28
 
-textureManager.alternativePath bf1942/Levels/GC_Mos_Entha/Texture
 textureManager.alternativePath bf1942/Levels/GC_Mos_Entha/Texture_patched
 
 shadow.shadowColor 0.55
@@ -59,5 +58,3 @@ run Sounds/Environment
 
 game.setBeforeSpawnCameraPosition 1 852.4392/172.1962/555.4125
 game.setBeforeSpawnCameraPosition 2 852.4392/172.1962/555.4125
-
-run objects/init
