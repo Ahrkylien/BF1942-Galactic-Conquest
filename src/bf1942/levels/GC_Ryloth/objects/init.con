@@ -13,7 +13,6 @@ run imp_wall_straight/imp_wall_straight
 run wing/wing
 run container/container
 run hilltop/hilltop
-run ewebstationary/ewebstationary
 run trench_ramp/trench_ramp
 run atpt/atpt
 run D_rebtrans1/D_rebtrans1
