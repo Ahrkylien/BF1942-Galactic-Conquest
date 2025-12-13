@@ -1,0 +1,56 @@
+ObjectTemplate.create PlayerControlObject epsilon_rebel
+ObjectTemplate.setNetworkableInfo LambdaBodyInfo
+ObjectTemplate.saveInSeparateFile 1
+objectTemplate.cullRadiusScale 5
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasDynamicShadow 1
+ObjectTemplate.drag 0.05
+ObjectTemplate.mass 3000
+rem ObjectTemplate.inertiaModifier 0.8/0.8/0.8
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 1
+ObjectTemplate.hasArmor 1
+ObjectTemplate.angleMod 1
+ObjectTemplate.speedMod 0
+ObjectTemplate.hitpoints 400
+ObjectTemplate.maxhitpoints 400
+ObjectTemplate.material 811
+ObjectTemplate.criticalDamage 55
+ObjectTemplate.hpLostWhileCriticalDamage 5
+ObjectTemplate.explosionForceMod 10
+ObjectTemplate.hpLostWhileUpSideDown 40
+ObjectTemplate.hpLostWhileDamageFromWater 40
+
+ObjectTemplate.addArmorEffect 210 em_PlaneDamage 3/-0.1/-7
+ObjectTemplate.addArmorEffect 210 em_PlaneDamage -3/-0.1/-7
+
+ObjectTemplate.addArmorEffect 160 em_B17Damage 3/-0.1/-7
+ObjectTemplate.addArmorEffect 160 em_PlaneDamage -3/-0.1/-7
+
+ObjectTemplate.addArmorEffect 110 em_B17Damage 3/-0.1/-7
+ObjectTemplate.addArmorEffect 110 em_B17Damage -3/-0.1/-7
+
+ObjectTemplate.addArmorEffect 55 e_e_B17Fire 0/-0.1/-7
+
+ObjectTemplate.addArmorEffect 0 e_ExplGas 0/0/0
+ObjectTemplate.addArmorEffect 0 e_ScrapMetal_Lambda 0/0/0
+ObjectTemplate.addArmorEffect -1 WaterWaterExplosion 0/0/0
+ObjectTemplate.damageFromWater 1
+rem -------------------------------------
+ObjectTemplate.addTemplate lodepsilon
+rem -------------------------------------
+rem *************** Lambda SOLDIER SPAWN
+ObjectTemplate.addTemplate epsilon_sold_spawn
+ObjectTemplate.setPosition 0/2/-2
+rem *************** Lambda SOLDIER SPAWN
+ObjectTemplate.sonarPos 1
+ObjectTemplate.setSoldierExitLocation 0/2/-2 0/0/0
+ObjectTemplate.setVehicleIcon "Vehicle/Icon_lambda.dds"
+ObjectTemplate.setVehicleIconPos 92/74
+ObjectTemplate.setNumberOfWeaponIcons 1
+ObjectTemplate.setPrimaryAmmoIcon "Ammo/icon_laser_64x64.dds"
+ObjectTemplate.setPrimaryAmmoBar ABHeatBarOnly
+ObjectTemplate.setCrossHairType CHTIcon
+ObjectTemplate.setVehicleCategory VCAir
+ObjectTemplate.setVehicleType  VTFighter
+ObjectTemplate.setMinimapIcon "Minimap/minimap_icon_lambda_16x16.dds"
