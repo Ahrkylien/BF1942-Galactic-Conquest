@@ -1,9 +1,8 @@
-
 rem *** REPUBLIC GUNSHIP ***
 rem Galactic Conquest
 rem ************************
 
-rem RepGun Feb 16, 2005
+rem RepGun aug 2026
 rem Repgun Added new glide engine as RepLevelEngine
 
 ObjectTemplate.create PlayerControlObject RepGun
@@ -53,8 +52,8 @@ ObjectTemplate.setVehicleIcon "Vehicle/Icon_gunship.dds"
 ObjectTemplate.setVehicleIconPos 41/52
 ObjectTemplate.setCrossHairType CHTIcon
 ObjectTemplate.setVehicleCategory VCAir
-ObjectTemplate.setVehicleType  VTDivebomber
-ObjectTemplate.setToolTipType  TTDivebomber
+ObjectTemplate.setVehicleType VTDivebomber
+ObjectTemplate.setToolTipType TTDivebomber
 ObjectTemplate.setMinimapIcon "Minimap/minimap_icon_gunship.dds"
 
 rem *** lod ***
@@ -78,7 +77,7 @@ ObjectTemplate.hasResponsePhysics 1
 ObjectTemplate.loadSoundScript Sounds/RepGunCockpit.ssc
 rem -------------------------------------
 ObjectTemplate.addTemplate lodGunShipCockpit
-ObjectTemplate.addTemplate GunShipCamera 
+ObjectTemplate.addTemplate GunShipCamera
 ObjectTemplate.setPosition 0/0.3/0
 ObjectTemplate.addTemplate GunShipEntry
 ObjectTemplate.setPosition -0.0015312/1.41595/3.90604
@@ -135,15 +134,15 @@ ObjectTemplate.setPosition -0.636679/-1.95135/6.34031
 ObjectTemplate.addTemplate GunShipFrontGun2
 ObjectTemplate.setPosition 0.666779/-1.95135/6.34031
 rem ObjectTemplate.setRotation 0.0/12.9795/180.0
-ObjectTemplate.addTemplate GunShipCameraMove
-ObjectTemplate.setPosition 0/-0.8/9
+REM ObjectTemplate.addTemplate GunShipCameraMove
+REM ObjectTemplate.setPosition 0/-0.8/9
 rem -------------------------------------
 ObjectTemplate.setSoldierExitLocation 0/-1.2/-1.42359 0/0/0
 ObjectTemplate.setVehicleIcon "Vehicle/Icon_gunship.dds"
 ObjectTemplate.setVehicleIconPos 27/65
 ObjectTemplate.setNumberOfWeaponIcons 1
 ObjectTemplate.setPrimaryAmmoIcon "Ammo/icon_greenlaser_64x64.tga"
-ObjectTemplate.setPrimaryAmmoBar ABAmmoBarOnly
+ObjectTemplate.setPrimaryAmmoBar ABHeatBarOnly
 ObjectTemplate.setCrossHairType CHTIcon
 ObjectTemplate.setVehicleCategory VCLand
 
@@ -153,6 +152,8 @@ ObjectTemplate.setNetworkableInfo repgun_turrent_Info
 ObjectTemplate.loadSoundScript Sounds/TurretRotate.ssc
 ObjectTemplate.geometry gunship_fturret_left
 rem -------------------------------------
+ObjectTemplate.addTemplate GunShipCameraMove
+ObjectTemplate.setPosition 0.636679/1.15135/1.55969
 ObjectTemplate.addTemplate GunShipFrontLaser
 rem -------------------------------------
 ObjectTemplate.setMinRotation -35/-25/0
@@ -273,8 +274,8 @@ ObjectTemplate.setVehicleIconPos 70/61
 ObjectTemplate.setPrimaryAmmoBar ABNone
 ObjectTemplate.setCrossHairType CHTCrossHair
 ObjectTemplate.setVehicleCategory VCLand
-ObjectTemplate.setVehicleType  VTAPC
-ObjectTemplate.setToolTipType  TTAPC
+ObjectTemplate.setVehicleType VTAPC
+ObjectTemplate.setToolTipType TTAPC
 ObjectTemplate.hasRestrictedExit 0
 
 rem *** GunShip Pass ***
@@ -295,14 +296,14 @@ ObjectTemplate.setVehicleIconPos 55/61
 ObjectTemplate.setPrimaryAmmoBar ABNone
 ObjectTemplate.setCrossHairType CHTCrossHair
 ObjectTemplate.setVehicleCategory VCLand
-ObjectTemplate.setVehicleType  VTAPC
-ObjectTemplate.setToolTipType  TTAPC
+ObjectTemplate.setVehicleType VTAPC
+ObjectTemplate.setToolTipType TTAPC
 ObjectTemplate.hasRestrictedExit 0
 
 
 
 rem -----------------------------------------------------------
-rem ENGINE RACK CODE - Nice Rack, baby. - 
+rem ENGINE RACK CODE - Nice Rack, baby. -
 rem -----------------------------------------------------------
 
 rem *** DummyEngineRack ***
@@ -431,12 +432,12 @@ LodSelectorTemplate.addLodDistance 10
 LodSelectorTemplate.addLodComparison 0.5
 
 ObjectTemplate.create Camera GunShipCameraMove
-ObjectTemplate.setMinRotation -35/-20/0
-ObjectTemplate.setMaxRotation 35/70/0
-ObjectTemplate.setMaxSpeed 15/15/0
-ObjectTemplate.setAcceleration 5000/5000/0
-ObjectTemplate.setInputToYaw c_PIMouseLookX
-ObjectTemplate.setInputToPitch c_PIMouseLookY
+REM ObjectTemplate.setMinRotation -35/-20/0
+REM ObjectTemplate.setMaxRotation 35/70/0
+REM ObjectTemplate.setMaxSpeed 15/15/0
+REM ObjectTemplate.setAcceleration 5000/5000/0
+REM ObjectTemplate.setInputToYaw c_PIMouseLookX
+REM ObjectTemplate.setInputToPitch c_PIMouseLookY
 
 rem *** Camera ***
 ObjectTemplate.create Camera GunShipCamera
@@ -570,8 +571,8 @@ ObjectTemplate.setVehicleIcon "Vehicle/Icon_gunship.dds"
 ObjectTemplate.setVehicleIconPos 41/52
 ObjectTemplate.setCrossHairType CHTIcon
 ObjectTemplate.setVehicleCategory VCAir
-ObjectTemplate.setVehicleType  VTDivebomber
-ObjectTemplate.setToolTipType  TTDivebomber
+ObjectTemplate.setVehicleType VTDivebomber
+ObjectTemplate.setToolTipType TTDivebomber
 ObjectTemplate.setMinimapIcon "Minimap/minimap_icon_gunship.dds"
 
 rem *** lod ***
@@ -595,7 +596,7 @@ ObjectTemplate.hasResponsePhysics 1
 ObjectTemplate.loadSoundScript Sounds/RepGunCockpit.ssc
 rem -------------------------------------
 ObjectTemplate.addTemplate lodGunShipCockpit
-ObjectTemplate.addTemplate GunShipCamera 
+ObjectTemplate.addTemplate GunShipCamera
 ObjectTemplate.setPosition 0/0.3/0
 ObjectTemplate.addTemplate GunShipEntry
 ObjectTemplate.setPosition -0.0015312/1.41595/3.90604
@@ -709,8 +710,8 @@ ObjectTemplate.setVehicleIcon "Vehicle/Icon_gunship.dds"
 ObjectTemplate.setVehicleIconPos 41/52
 ObjectTemplate.setCrossHairType CHTIcon
 ObjectTemplate.setVehicleCategory VCAir
-ObjectTemplate.setVehicleType  VTDivebomber
-ObjectTemplate.setToolTipType  TTDivebomber
+ObjectTemplate.setVehicleType VTDivebomber
+ObjectTemplate.setToolTipType TTDivebomber
 ObjectTemplate.setMinimapIcon "Minimap/minimap_icon_gunship.dds"
 
 rem *** lod ***
@@ -734,7 +735,7 @@ ObjectTemplate.hasResponsePhysics 1
 ObjectTemplate.loadSoundScript Sounds/RepGunCockpit.ssc
 rem -------------------------------------
 ObjectTemplate.addTemplate lodImpGunshipCockpit
-ObjectTemplate.addTemplate GunShipCamera 
+ObjectTemplate.addTemplate GunShipCamera
 ObjectTemplate.setPosition 0/0.3/0
 ObjectTemplate.addTemplate ImpGunshipEntry
 ObjectTemplate.setPosition -0.0015312/1.41595/3.90604
