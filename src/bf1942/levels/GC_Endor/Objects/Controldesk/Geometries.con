@@ -1,8 +1,0 @@
-GeometryTemplate.create StandardMesh Controldesk
-GeometryTemplate.file Buildings/Endor/Controldesk
-GeometryTemplate.setLodDistance 0 0
-GeometryTemplate.setLodDistance 1 300
-
-
-
-

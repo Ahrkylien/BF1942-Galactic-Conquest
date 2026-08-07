@@ -1,4 +1,0 @@
-ObjectTemplate.create Bundle EndorPipes
-ObjectTemplate.geometry EndorPipes
-ObjectTemplate.setHasCollisionPhysics 1
-ObjectTemplate.cullRadiusScale 3

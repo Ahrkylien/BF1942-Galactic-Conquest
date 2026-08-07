@@ -1,0 +1,8 @@
+GeometryTemplate.Create StandardMesh generador
+GeometryTemplate.File buildings/Endor/generador
+GeometryTemplate.SetLodDistance 0 0
+GeometryTemplate.SetLodDistance 1 25
+GeometryTemplate.SetLodDistance 2 50
+GeometryTemplate.SetLodDistance 3 75
+GeometryTemplate.SetLodDistance 4 85
+GeometryTemplate.SetLodDistance 5 100

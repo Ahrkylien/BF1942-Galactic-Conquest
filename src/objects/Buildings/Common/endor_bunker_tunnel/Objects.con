@@ -1,0 +1,5 @@
+ObjectTemplate.Create SimpleObject endor_bunker_tunnel
+ObjectTemplate.Geometry endor_bunker_tunnel
+ObjectTemplate.SetHasCollisionPhysics 0
+ObjectTemplate.CullRadiusScale 3.0
+

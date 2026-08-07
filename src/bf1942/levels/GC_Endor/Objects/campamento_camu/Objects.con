@@ -1,4 +1,0 @@
-ObjectTemplate.Create SimpleObject campamento_camu
-ObjectTemplate.Geometry campamento_camu
-ObjectTemplate.SetHasCollisionPhysics 1
-ObjectTemplate.CullRadiusScale 3.0

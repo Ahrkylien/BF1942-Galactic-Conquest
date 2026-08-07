@@ -1,0 +1,5 @@
+ObjectTemplate.Create SimpleObject ew_plataforma_g
+ObjectTemplate.Geometry ew_plataforma_g
+ObjectTemplate.SetHasCollisionPhysics 1
+ObjectTemplate.CullRadiusScale 3.0
+ObjectTemplate.AiTemplate ew_plataforma_g

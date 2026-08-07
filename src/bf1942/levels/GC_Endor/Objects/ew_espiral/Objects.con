@@ -1,5 +1,0 @@
-ObjectTemplate.Create SimpleObject ew_espiral
-ObjectTemplate.Geometry ew_espiral
-ObjectTemplate.SetHasCollisionPhysics 1
-ObjectTemplate.CullRadiusScale 3.0
-ObjectTemplate.AiTemplate ew_espiral

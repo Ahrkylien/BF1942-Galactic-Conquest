@@ -1,5 +1,0 @@
-ObjectTemplate.Create SimpleObject ew_cabanya_jefe
-ObjectTemplate.Geometry ew_cabanya_jefe
-ObjectTemplate.SetHasCollisionPhysics 1
-ObjectTemplate.CullRadiusScale 3.0
-ObjectTemplate.AiTemplate ew_cabanya_jefe

@@ -1,0 +1,5 @@
+ObjectTemplate.Create SimpleObject endor_stattree5
+ObjectTemplate.Geometry endor_stattree5
+ObjectTemplate.SetHasCollisionPhysics 1
+ObjectTemplate.CullRadiusScale 3.0
+

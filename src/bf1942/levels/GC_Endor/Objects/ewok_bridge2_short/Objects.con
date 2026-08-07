@@ -1,6 +1,0 @@
-ObjectTemplate.create SimpleObject ewok_bridge2_short
-ObjectTemplate.aiTemplate ewok_bridge2_short
-ObjectTemplate.geometry ewok_bridge2_short
-ObjectTemplate.setHasCollisionPhysics 1
-
-

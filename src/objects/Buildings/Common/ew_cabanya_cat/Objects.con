@@ -1,0 +1,5 @@
+ObjectTemplate.Create Bundle ew_cabanya_cat
+ObjectTemplate.Geometry ew_cabanya_cat
+ObjectTemplate.SetHasCollisionPhysics 1
+ObjectTemplate.CullRadiusScale 3.0
+ObjectTemplate.AiTemplate ew_cabanya_cat

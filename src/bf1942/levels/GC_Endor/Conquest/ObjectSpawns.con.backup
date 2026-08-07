@@ -1,0 +1,256 @@
+rem ObjectSpawns.con created by Battlecraft 1942
+rem (E:\Battlefield\Mods\GCMOD\bf1942\levels\gc_endor/conquest/ObjectSpawns.con)
+
+rem ----------------------------------------- 
+rem ---  transport  ---
+rem ----------------------------------------- 
+Object.create transport
+Object.absolutePosition 160.12/140.27/246.10
+Object.rotation 15.00/0.00/0.00
+Object.setOSId 2
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  transport  ---
+rem ----------------------------------------- 
+Object.create transport
+Object.absolutePosition 625.66/140.14/282.05
+Object.rotation 90.00/0.00/0.00
+Object.setOSId 2
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  Imperial_ATST  ---
+rem ----------------------------------------- 
+Object.create Imperial_ATST
+Object.absolutePosition 396.29/114.72/757.45
+Object.rotation -180.00/0.00/0.00
+Object.setOSId 6
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  Ground_Defence  ---
+rem ----------------------------------------- 
+Object.create Ground_Defence
+Object.absolutePosition 489.02/121.81/501.60
+Object.rotation 180.00/0.00/0.00
+Object.setOSId 3
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  Ground_Defence  ---
+rem ----------------------------------------- 
+Object.create Ground_Defence
+Object.absolutePosition 489.06/121.78/529.54
+Object.rotation 0.00/0.00/0.00
+Object.setOSId 3
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  Ground_Defence  ---
+rem ----------------------------------------- 
+Object.create Ground_Defence
+Object.absolutePosition 457.91/126.73/194.96
+Object.rotation 45.00/0.00/0.00
+Object.setOSId 2
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  Imperial_ATST  ---
+rem ----------------------------------------- 
+Object.create Imperial_ATST
+Object.absolutePosition 597.17/113.12/872.13
+Object.rotation 270.00/0.00/0.00
+Object.setOSId 1
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  transport  ---
+rem ----------------------------------------- 
+Object.create transport
+Object.absolutePosition 570.94/113.66/837.74
+Object.rotation 270.00/0.00/0.00
+Object.setOSId 2
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  transport  ---
+rem ----------------------------------------- 
+Object.create transport
+Object.absolutePosition 381.35/115.57/759.36
+Object.rotation 180.00/0.00/0.00
+Object.setOSId 2
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  transport  ---
+rem ----------------------------------------- 
+Object.create transport
+Object.absolutePosition 520.88/119.76/516.92
+Object.rotation -362.59/0.00/0.00
+Object.setOSId 2
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  Ground_Defence  ---
+rem ----------------------------------------- 
+Object.create Ground_Defence
+Object.absolutePosition 371.45/136.17/737.21
+Object.rotation -180.00/0.00/0.00
+Object.setOSId 6
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  Ground_Defence  ---
+rem ----------------------------------------- 
+Object.create Ground_Defence
+Object.absolutePosition 444.75/136.23/760.35
+Object.rotation 90.00/0.00/0.00
+Object.setOSId 6
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  transport  ---
+rem ----------------------------------------- 
+Object.create transport
+Object.absolutePosition 687.28/135.96/651.84
+Object.rotation 199.20/0.00/0.00
+Object.setOSId 2
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  Ground_Defence  ---
+rem ----------------------------------------- 
+Object.create Ground_Defence
+Object.absolutePosition 643.92/137.43/652.81
+Object.rotation -90.00/0.00/0.00
+Object.setOSId 1
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  Bunker_Door  ---
+rem ----------------------------------------- 
+Object.create Bunker_Door
+Object.absolutePosition 582.66/113.19/849.79
+Object.rotation 90.00/0.00/0.00
+Object.setOSId 1
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  Imperial_Droid  ---
+rem ----------------------------------------- 
+Object.create Imperial_Droid
+Object.absolutePosition 417.88/114.76/760.57
+Object.rotation -80.80/0.00/0.00
+Object.setOSId 6
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Heavy_Weapons  ---
+rem ----------------------------------------- 
+Object.create Heavy_Weapons
+Object.absolutePosition 621.34/107.80/850.00
+Object.rotation 74.70/-69.42/0.00
+Object.setOSId 1
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Heavy_Weapons  ---
+rem ----------------------------------------- 
+Object.create Heavy_Weapons
+Object.absolutePosition 622.02/107.79/850.72
+Object.rotation -83.95/-75.83/0.00
+Object.setOSId 1
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Heavy_Weapons  ---
+rem ----------------------------------------- 
+Object.create Heavy_Weapons
+Object.absolutePosition 264.22/158.17/373.07
+Object.rotation -36.85/0.87/0.00
+Object.setOSId 1
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  Imperial_Droid  ---
+rem ----------------------------------------- 
+Object.create Imperial_Droid
+Object.absolutePosition 474.24/121.66/512.30
+Object.rotation 180.00/0.00/0.00
+Object.setOSId 6
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Ground_Defence  ---
+rem ----------------------------------------- 
+Object.create Ground_Defence
+Object.absolutePosition 394.59/126.06/582.22
+Object.rotation 45.00/0.00/0.00
+Object.setOSId 3
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Ground_Defence  ---
+rem ----------------------------------------- 
+Object.create Ground_Defence
+Object.absolutePosition 621.86/141.26/290.37
+Object.rotation -45.00/0.00/0.00
+Object.setOSId 2
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  Heavy_Weapons  ---
+rem ----------------------------------------- 
+Object.create Heavy_Weapons
+Object.absolutePosition 631.89/143.51/291.12
+Object.rotation -38.53/0.00/0.00
+Object.setOSId 1
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  R2D2x_Spawn1  ---
+rem ----------------------------------------- 
+Object.create R2D2x_Spawn1
+Object.absolutePosition 448.22/126.76/193.83
+Object.rotation 0.00/0.00/0.00
+Object.setOSId 2
+Object.setTeam 2
+
+rem ----------------------------------------- 
+rem ---  EwokGlider_Spawn1  ---
+rem ----------------------------------------- 
+Object.create EwokGlider_Spawn1
+Object.absolutePosition 286.38/157.37/342.60
+Object.rotation -156.13/0.00/0.00
+Object.setOSId 4
+Object.setTeam 0
+
+rem ----------------------------------------- 
+rem ---  Platform_lift_cabine  ---
+rem ----------------------------------------- 
+Object.create Platform_lift_cabine
+Object.absolutePosition 369.01/115.00/763.76
+Object.rotation -170.49/0.00/0.00
+Object.setOSId 5
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Platform_lift_cabine  ---
+rem ----------------------------------------- 
+Object.create Platform_lift_cabine
+Object.absolutePosition 423.78/115.00/764.39
+Object.rotation 0.00/0.00/0.00
+Object.setOSId 5
+Object.setTeam 1
+
+rem ----------------------------------------- 
+rem ---  Imperial_Droid  ---
+rem ----------------------------------------- 
+Object.create Imperial_Droid
+Object.absolutePosition 419.29/136.01/756.97
+Object.rotation -133.38/0.00/0.00
+Object.setOSId 6
+Object.setTeam 1
+
+rem EndOfFile

@@ -1,5 +1,0 @@
-ObjectTemplate.Create SimpleObject rotp_corridor
-ObjectTemplate.Geometry rotp_corridor
-ObjectTemplate.SetHasCollisionPhysics 1
-ObjectTemplate.CullRadiusScale 3.0
-ObjectTemplate.AiTemplate rotp_corridor

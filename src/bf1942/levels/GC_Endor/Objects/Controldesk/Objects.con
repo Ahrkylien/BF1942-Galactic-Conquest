@@ -1,3 +1,0 @@
-ObjectTemplate.create SimpleObject Controldesk
-ObjectTemplate.geometry Controldesk
-ObjectTemplate.setHasCollisionPhysics 1

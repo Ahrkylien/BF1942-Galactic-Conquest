@@ -1,5 +1,0 @@
-ObjectTemplate.Create SimpleObject catapulta
-ObjectTemplate.Geometry catapulta
-ObjectTemplate.SetHasCollisionPhysics 1
-ObjectTemplate.CullRadiusScale 3.0
-ObjectTemplate.AiTemplate catapulta

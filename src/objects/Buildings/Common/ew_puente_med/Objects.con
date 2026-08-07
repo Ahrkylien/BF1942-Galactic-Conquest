@@ -1,0 +1,5 @@
+ObjectTemplate.Create SimpleObject ew_puente_med
+ObjectTemplate.Geometry ew_puente_med
+ObjectTemplate.SetHasCollisionPhysics 1
+ObjectTemplate.CullRadiusScale 3.0
+ObjectTemplate.AiTemplate ew_puente_med

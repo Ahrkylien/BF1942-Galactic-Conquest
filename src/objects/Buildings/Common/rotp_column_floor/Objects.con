@@ -1,0 +1,5 @@
+ObjectTemplate.Create SimpleObject rotp_column_floor
+ObjectTemplate.Geometry rotp_column_floor
+ObjectTemplate.SetHasCollisionPhysics 1
+ObjectTemplate.CullRadiusScale 3.0
+ObjectTemplate.AiTemplate rotp_column_floor

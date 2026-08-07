@@ -1,3 +1,0 @@
-GeometryTemplate.create StandardMesh endor_bunkerdoor
-GeometryTemplate.file buildings/Endor/endor_bunkerdoor
-GeometryTemplate.setLodDistance 0 200

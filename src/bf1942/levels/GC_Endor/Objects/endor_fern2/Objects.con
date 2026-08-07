@@ -1,5 +1,0 @@
-ObjectTemplate.Create SimpleObject endor_fern2
-ObjectTemplate.Geometry endor_fern2
-ObjectTemplate.SetHasCollisionPhysics 1
-ObjectTemplate.CullRadiusScale 1.5
-ObjectTemplate.AiTemplate endor_fern2

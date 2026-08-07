@@ -1,5 +1,0 @@
-ObjectTemplate.Create SimpleObject ew_puente_largo
-ObjectTemplate.Geometry ew_puente_largo
-ObjectTemplate.SetHasCollisionPhysics 1
-ObjectTemplate.CullRadiusScale 3.0
-ObjectTemplate.AiTemplate ew_puente_largo

@@ -1,0 +1,6 @@
+
+rem *** PlatformLiftSimple ***
+ObjectTemplate.create SimpleObject PlatformLiftSimple
+ObjectTemplate.geometry PlatformLift_Base
+ObjectTemplate.hasCollisionPhysics 1
+

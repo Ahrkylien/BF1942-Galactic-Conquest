@@ -1,4 +1,0 @@
-ObjectTemplate.Create SimpleObject Endor_Lift
-ObjectTemplate.Geometry Endor_Lift
-ObjectTemplate.SetHasCollisionPhysics 1
-

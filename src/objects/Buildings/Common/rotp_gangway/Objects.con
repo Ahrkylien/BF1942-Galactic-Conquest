@@ -1,0 +1,5 @@
+ObjectTemplate.Create SimpleObject rotp_gangway
+ObjectTemplate.Geometry rotp_gangway
+ObjectTemplate.SetHasCollisionPhysics 1
+ObjectTemplate.CullRadiusScale 3.0
+ObjectTemplate.AiTemplate rotp_gangway

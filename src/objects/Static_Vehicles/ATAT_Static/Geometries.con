@@ -1,0 +1,8 @@
+GeometryTemplate.Create StandardMesh ATAT_Static
+GeometryTemplate.File buildings/Endor/ATAT_Static
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 50
+GeometryTemplate.setLodDistance 2 100
+GeometryTemplate.setLodDistance 3 120
+GeometryTemplate.setLodDistance 4 160
+GeometryTemplate.setLodDistance 5 220

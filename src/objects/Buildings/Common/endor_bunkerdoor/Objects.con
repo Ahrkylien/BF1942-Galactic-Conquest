@@ -1,0 +1,33 @@
+rem *** endor_bunkerdoor ***
+ObjectTemplate.create PlayerControlObject endor_bunkerdoor
+ObjectTemplate.setNetworkableInfo endor_bunkerdoorBodyInfo
+ObjectTemplate.geometry endor_bunkerdoor
+ObjectTemplate.saveInSeparateFile 1
+objectTemplate.cullRadiusScale 5
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.mass 3500
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasResponsePhysics 0
+ObjectTemplate.hasArmor 1
+ObjectTemplate.hitpoints 250
+ObjectTemplate.maxhitpoints 250
+ObjectTemplate.material 811
+ObjectTemplate.criticalDamage 1
+ObjectTemplate.hpLostWhileCriticalDamage 0.1
+ObjectTemplate.addArmorEffect 50 e_Wreck1Smoke 0/1/0
+ObjectTemplate.addArmorEffect 0 e_ExplGas 0/0/1
+ObjectTemplate.addArmorEffect 10 e_ExplGas -1/0/0
+ObjectTemplate.addArmorEffect 0 em_ExFumePOW 0/0/0
+ObjectTemplate.addArmorEffect 0 e_scrapmetal 1/1/0
+ObjectTemplate.addArmorEffect 0 em_FletcherDamage -1/0/0
+ObjectTemplate.timetoliveafterdeath 0
+rem -------------------------------------
+ObjectTemplate.setSoldierExitLocation 0/0/0 0/0/0
+ObjectTemplate.setVehicleIconPos 60/55
+ObjectTemplate.setPrimaryAmmoBar ABNone
+ObjectTemplate.setCrossHairType CHTNone
+ObjectTemplate.setVehicleCategory VCLand
+ObjectTemplate.setVehicleType  VTScoutCar
+ObjectTemplate.setMinimapIcon "Minimap/minimap_icon_noshow_16x16.dds"
+
+

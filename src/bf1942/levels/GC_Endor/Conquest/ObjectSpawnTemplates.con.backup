@@ -1,0 +1,138 @@
+rem ObjectSpawnTemplates.con created by Battlecraft 1942
+rem (E:\Battlefield\Mods\GCMOD\bf1942\levels\gc_endor/conquest/ObjectSpawnTemplates.con)
+
+rem ----------------------------------------- 
+rem ---  transport  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner transport
+ObjectTemplate.setObjectTemplate 1 speederbike
+ObjectTemplate.setObjectTemplate 2 speederbike
+ObjectTemplate.MinSpawnDelay 30
+ObjectTemplate.MaxSpawnDelay 45
+ObjectTemplate.SpawnDelayAtStart 60
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+rem ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.maxNrOfObjectSpawned 2
+rem ObjectTemplate.teamOnVehicle 0
+
+rem ----------------------------------------- 
+rem ---  Imperial_ATST  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner Imperial_ATST
+ObjectTemplate.setObjectTemplate 1 atstendor
+ObjectTemplate.setObjectTemplate 2 atstendor
+ObjectTemplate.MinSpawnDelay 60
+ObjectTemplate.MaxSpawnDelay 90
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+rem ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.maxNrOfObjectSpawned 1
+rem ObjectTemplate.teamOnVehicle 0
+
+rem ----------------------------------------- 
+rem ---  Ground_Defence  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner Ground_Defence
+ObjectTemplate.setObjectTemplate 1 eweb
+ObjectTemplate.setObjectTemplate 2 eweb
+ObjectTemplate.MinSpawnDelay 60
+ObjectTemplate.MaxSpawnDelay 90
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+rem ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.maxNrOfObjectSpawned 1
+rem ObjectTemplate.teamOnVehicle 0
+
+rem ----------------------------------------- 
+rem ---  Bunker_Door  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner Bunker_Door
+ObjectTemplate.setObjectTemplate 1 endor_bunkerdoor
+ObjectTemplate.setObjectTemplate 2 endor_bunkerdoor
+ObjectTemplate.MinSpawnDelay 9999
+ObjectTemplate.MaxSpawnDelay 10000
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+rem ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.maxNrOfObjectSpawned 1
+rem ObjectTemplate.teamOnVehicle 0
+
+rem ----------------------------------------- 
+rem ---  Imperial_Droid  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner Imperial_Droid
+ObjectTemplate.setObjectTemplate 1 mousedroidcontrol
+ObjectTemplate.setObjectTemplate 2 mousedroidcontrol
+ObjectTemplate.MinSpawnDelay 30
+ObjectTemplate.MaxSpawnDelay 35
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+rem ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.maxNrOfObjectSpawned 1
+rem ObjectTemplate.teamOnVehicle 1
+
+rem ----------------------------------------- 
+rem ---  Heavy_Weapons  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner Heavy_Weapons
+ObjectTemplate.setObjectTemplate 1 tl-21_kit
+ObjectTemplate.setObjectTemplate 2 rebel_tracker
+ObjectTemplate.MinSpawnDelay 30
+ObjectTemplate.MaxSpawnDelay 35
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+rem ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.maxNrOfObjectSpawned 1
+rem ObjectTemplate.teamOnVehicle 0
+
+rem ----------------------------------------- 
+rem ---  R2D2x_Spawn1  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner R2D2x_Spawn1
+ObjectTemplate.setObjectTemplate 2 r2d2
+ObjectTemplate.MinSpawnDelay 60
+ObjectTemplate.MaxSpawnDelay 61
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+rem ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.maxNrOfObjectSpawned 1
+rem ObjectTemplate.teamOnVehicle 1
+
+rem ----------------------------------------- 
+rem ---  EwokGlider_Spawn1  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner EwokGlider_Spawn1
+ObjectTemplate.setObjectTemplate 1 ewokglider
+ObjectTemplate.setObjectTemplate 2 ewokglider
+ObjectTemplate.MinSpawnDelay 10
+ObjectTemplate.MaxSpawnDelay 20
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 40
+rem ObjectTemplate.DamageWhenLost 10
+ObjectTemplate.maxNrOfObjectSpawned 1
+rem ObjectTemplate.teamOnVehicle 0
+
+rem ----------------------------------------- 
+rem ---  Platform_lift_cabine  ---
+rem ----------------------------------------- 
+ObjectTemplate.create ObjectSpawner Platform_lift_cabine
+ObjectTemplate.setObjectTemplate 1 lift_cabine
+ObjectTemplate.setObjectTemplate 2 lift_cabine
+ObjectTemplate.MinSpawnDelay 9999
+ObjectTemplate.MaxSpawnDelay 10000
+ObjectTemplate.SpawnDelayAtStart 0
+ObjectTemplate.TimeToLive 45
+ObjectTemplate.Distance 0
+rem ObjectTemplate.DamageWhenLost 0
+ObjectTemplate.maxNrOfObjectSpawned 1
+rem ObjectTemplate.teamOnVehicle 0
+
+rem EndOfFile

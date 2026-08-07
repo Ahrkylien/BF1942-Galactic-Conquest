@@ -1,0 +1,26 @@
+GeometryTemplate.create StandardMesh EwokGlider
+GeometryTemplate.file Vehicles/EwokGlider/EwokGlider
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 50
+GeometryTemplate.setLodDistance 3 100
+
+GeometryTemplate.create StandardMesh RockWeapon
+GeometryTemplate.file Vehicles/EwokGlider/RockWeapon
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+
+GeometryTemplate.create StandardMesh EwokGlider_low
+GeometryTemplate.file Vehicles/EwokGlider/EwokGlider_low
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.setLodDistance 0 0
+GeometryTemplate.setLodDistance 1 20
+GeometryTemplate.setLodDistance 2 50
+GeometryTemplate.setLodDistance 3 100
+
+GeometryTemplate.create StandardMesh EwokGlider_wreck
+GeometryTemplate.file Vehicles/EwokGlider/EwokGlider_wreck
+GeometryTemplate.hasDynamicShadow 1
+GeometryTemplate.setLodDistance 0 0

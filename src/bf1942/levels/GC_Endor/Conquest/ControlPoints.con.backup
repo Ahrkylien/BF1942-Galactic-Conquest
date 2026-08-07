@@ -1,0 +1,34 @@
+rem ControlPoints.con created by Battlecraft 1942
+rem (E:\Battlefield\Mods\GCMOD\bf1942\levels\gc_endor/conquest/ControlPoints.con)
+
+rem ----------------------------------------- 
+rem ---  Bunker  ---
+rem ----------------------------------------- 
+Object.create Bunker
+Object.absolutePosition 635.88/107.23/849.04
+
+rem ----------------------------------------- 
+rem ---  Rebel_Landing  ---
+rem ----------------------------------------- 
+Object.create Rebel_Landing
+Object.absolutePosition 439.10/126.64/203.70
+
+rem ----------------------------------------- 
+rem ---  Imperial_Outpost  ---
+rem ----------------------------------------- 
+Object.create Imperial_Outpost
+Object.absolutePosition 489.91/121.55/515.64
+
+rem ----------------------------------------- 
+rem ---  Ewok_Village  ---
+rem ----------------------------------------- 
+Object.create Ewok_Village
+Object.absolutePosition 274.97/157.14/357.76
+
+rem ----------------------------------------- 
+rem ---  Landing_Platform  ---
+rem ----------------------------------------- 
+Object.create Landing_Platform
+Object.absolutePosition 422.76/152.86/760.63
+
+rem EndOfFile

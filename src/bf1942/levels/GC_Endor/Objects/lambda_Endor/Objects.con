@@ -1,5 +1,0 @@
-ObjectTemplate.Create SimpleObject lambda_endor
-ObjectTemplate.Geometry lambda_endor
-ObjectTemplate.SetHasCollisionPhysics 1
-ObjectTemplate.CullRadiusScale 3.0
-ObjectTemplate.AiTemplate lambda_body

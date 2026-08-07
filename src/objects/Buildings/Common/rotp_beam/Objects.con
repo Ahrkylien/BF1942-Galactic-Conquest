@@ -1,0 +1,5 @@
+ObjectTemplate.Create SimpleObject rotp_beam
+ObjectTemplate.Geometry rotp_beam
+ObjectTemplate.SetHasCollisionPhysics 1
+ObjectTemplate.CullRadiusScale 3.0
+

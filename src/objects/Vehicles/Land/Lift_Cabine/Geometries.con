@@ -1,0 +1,5 @@
+
+
+GeometryTemplate.create StandardMesh LiftHud
+GeometryTemplate.file Buildings\Endor\LiftHud
+GeometryTemplate.setLodDistance 0 0
