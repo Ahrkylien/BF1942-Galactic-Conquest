@@ -199,11 +199,11 @@
     <Variable name="StatusMessage/StatusMessage" type="WideString">ADDITIONAL PLAYERS NEEDED UNTIL GAME STARTS: 2</Variable>
     <Variable name="Style/InGame11">Style('Trebuchet MS11.dif')</Variable>
     <Variable name="Style/InGame14">Style('Trebuchet MS14.dif')</Variable>
-    <Variable name="Style/InGame18">Style('Trebuchet MS18.dif')</Variable>
     <Variable name="Style/InGame8">Style('Trebuchet MS8.dif')</Variable>
     <Variable name="Style/InGameAmmoRightStyle">RightAligned('Trebuchet MS11 - Latin.dif')</Variable>
     <Variable name="Style/InGameAmmoStyle">Style('Trebuchet MS11 - Latin.dif')</Variable>
     <Variable name="Style/InGameCenter14">CenterAligned('Trebuchet MS14.dif')</Variable>
+    <Variable name="Style/InGameCenter18">CenterAligned('Trebuchet MS18.dif')</Variable>
     <Variable name="Style/InGameCenter8">CenterAligned('Trebuchet MS8.dif')</Variable>
     <Variable name="Style/InGameCenterLatin14">CenterAligned('Trebuchet MS14 - Latin.dif')</Variable>
     <Variable name="Style/InGameHeading">Style('Trebuchet MS8.dif')</Variable>
@@ -3091,52 +3091,40 @@
     <If condition="ScoreboardMapVote/MapVoteActive">
       <Transform x="150" y="120" width="512" height="512">
         <Picture picture="Voting/map_vote_497x350.tga" />
-        <Transform x="15" y="-2" width="400" height="20">
+        <Transform x="0" y="0" width="512" height="20">
           <Effect>
-            <Color color="#000000" />
+            <Color color="#00efff" />
           </Effect>
-          <Text string="LocaleString(Locale/Locale, Locale/Valid, 'MAPVOTE_HEADING')" style="Style/InGame18" />
+          <Text string="LocaleString(Locale/Locale, Locale/Valid, 'MAPVOTE_HEADING')" style="Style/InGameCenter18" />
         </Transform>
         <Transform x="4" y="27" width="512" height="32">
-          <Transform x="0" y="0" width="479" height="18">
-            <Effect>
-              <Color color="#000000" />
-            </Effect>
-            <Picture picture="" />
-          </Transform>
-          <Transform x="1" y="1" width="477" height="16">
-            <Effect>
-              <Color color="0.519531, 0.49219, 0.300781" />
-            </Effect>
-            <Picture picture="" />
-          </Transform>
           <Transform x="20" y="4" width="100" height="20">
             <Effect>
-              <Color color="#000000" />
+              <Color color="#00efff" />
             </Effect>
             <Text string="LocaleString(Locale/Locale, Locale/Valid, 'MAPVOTE_ID')" style="Style('standard6.dif')" />
           </Transform>
           <Transform x="59" y="4" width="100" height="20">
             <Effect>
-              <Color color="#000000" />
+              <Color color="#00efff" />
             </Effect>
             <Text string="LocaleString(Locale/Locale, Locale/Valid, 'MAPVOTE_MAPNAME')" style="Style('standard6.dif')" />
           </Transform>
           <Transform x="200" y="4" width="100" height="20">
             <Effect>
-              <Color color="#000000" />
+              <Color color="#00efff" />
             </Effect>
             <Text string="LocaleString(Locale/Locale, Locale/Valid, 'MAPVOTE_MOD')" style="Style('standard6.dif')" />
           </Transform>
           <Transform x="300" y="4" width="100" height="20">
             <Effect>
-              <Color color="#000000" />
+              <Color color="#00efff" />
             </Effect>
             <Text string="LocaleString(Locale/Locale, Locale/Valid, 'MAPVOTE_GAMEMODE')" style="Style('standard6.dif')" />
           </Transform>
           <Transform x="412" y="4" width="100" height="20">
             <Effect>
-              <Color color="#000000" />
+              <Color color="#00efff" />
             </Effect>
             <Text string="LocaleString(Locale/Locale, Locale/Valid, 'MAPVOTE_NUMVOTES')" style="Style('standard6.dif')" />
           </Transform>
