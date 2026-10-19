@@ -606,22 +606,7 @@
           </Transform>
         </Transform>
         <Transform x="4" y="128" width="497" height="18">
-          <Transform x="0" y="0" width="503" height="17">
-            <Effect>
-              <Color color="#000000" />
-            </Effect>
-            <Picture picture="" />
-          </Transform>
-          <Transform x="1" y="1" width="501" height="15">
-            <Effect>
-              <Color color="0.519531, 0.49219, 0.300781" />
-            </Effect>
-            <Picture picture="" />
-          </Transform>
           <Transform x="6" y="4" width="100" height="20">
-            <Effect>
-              <Color color="#000000" />
-            </Effect>
             <Text string="LocaleString(Locale/Locale, Locale/Valid, 'MULTIPLAYER_BRIEFING_OBJECTIVES')" style="Style('standard6.dif')" />
           </Transform>
         </Transform>
@@ -629,22 +614,7 @@
           <Text string="InfoMenu/InfoMenuObjectives" style="BfStyle('standard6.dif')" />
         </Transform>
         <Transform x="4" y="230" width="497" height="18">
-          <Transform x="0" y="0" width="503" height="17">
-            <Effect>
-              <Color color="#000000" />
-            </Effect>
-            <Picture picture="" />
-          </Transform>
-          <Transform x="1" y="1" width="501" height="15">
-            <Effect>
-              <Color color="0.519531, 0.49219, 0.300781" />
-            </Effect>
-            <Picture picture="" />
-          </Transform>
           <Transform x="6" y="4" width="100" height="20">
-            <Effect>
-              <Color color="#000000" />
-            </Effect>
             <Text string="LocaleString(Locale/Locale, Locale/Valid, 'MULTIPLAYER_BRIEFING_COMMENTS')" style="Style('standard6.dif')" />
           </Transform>
         </Transform>
