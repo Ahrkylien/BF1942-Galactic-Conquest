@@ -1,1398 +1,391 @@
 <?xml version='1.0' encoding='utf-8'?>
 <MemeFile>
-  <NameNode />
-  <CullEventActionNode>
-    <ActionListAction>
-      <SetVariableAction>
-        <FloatData description="Variable" name="Credits/CreditsY">400.0</FloatData>
-        <FloatData description="Data">470.0</FloatData>
-      </SetVariableAction>
-      <SetVariableAction>
-        <BoolData description="Variable" name="Credits/RunCreditsList">True</BoolData>
-        <BoolData description="Data">False</BoolData>
-      </SetVariableAction>
-      <SetVariableAction>
-        <BoolData description="Variable" name="Credits/Pause">True</BoolData>
-        <BoolData description="Data">True</BoolData>
-      </SetVariableAction>
-      <ActionPlaceholder />
-    </ActionListAction>
-    <TypeEvent>
-      <Byte description="Input index">0</Byte>
-      <Int32 description="Event type">13</Int32>
-    </TypeEvent>
-  </CullEventActionNode>
-  <TimeoutActionNode>
-    <SetVariableAction description="Action">
-      <BoolData description="Variable" name="Credits/RunCreditsList">True</BoolData>
-      <BoolData description="Data">True</BoolData>
-    </SetVariableAction>
-    <Float description="Timeout time">2.0</Float>
-  </TimeoutActionNode>
-  <SplitNode>
-    <g description="Split node">
-      <CullNode>
-        <OrData description="Do Show">
-          <EqualData description="Data 1">
-            <IntData description="Data 1" name="InhibitMenuBehavior">0</IntData>
-            <IntData description="Data 2">1</IntData>
-          </EqualData>
-          <EqualData description="Data 2">
-            <IntData description="Data 1" name="InhibitMenuBehavior">0</IntData>
-            <IntData description="Data 2">2</IntData>
-          </EqualData>
-        </OrData>
-        <Float description="In time">0.0</Float>
-        <Float description="Out time">0.0</Float>
-      </CullNode>
-      <TransformNode>
-        <Float description="X">0.0</Float>
-        <Float description="Y">150.0</Float>
-        <Float description="Width">800.0</Float>
-        <Float description="Height">20.0</Float>
-        <TextNode description="Transformed node">
-          <StringData description="String">Not available in this version!</StringData>
-          <CenterAlignedStyle description="Style">Trebuchet MS11.dif</CenterAlignedStyle>
-        </TextNode>
-      </TransformNode>
-    </g>
-  </SplitNode>
-  <CullNode>
-    <NotEqualData description="Do Show">
-      <IntData description="Data 1" name="InhibitMenuBehavior">0</IntData>
-      <IntData description="Data 2">1</IntData>
-    </NotEqualData>
-    <Float description="In time">0.0</Float>
-    <Float description="Out time">0.0</Float>
-  </CullNode>
-  <CullNode>
-    <NotEqualData description="Do Show">
-      <IntData description="Data 1" name="InhibitMenuBehavior">0</IntData>
-      <IntData description="Data 2">2</IntData>
-    </NotEqualData>
-    <Float description="In time">0.0</Float>
-    <Float description="Out time">0.0</Float>
-  </CullNode>
-  <TransformNode>
-    <Float description="X">20.0</Float>
-    <Float description="Y">85.0</Float>
-    <Float description="Width">760.0</Float>
-    <Float description="Height">450.0</Float>
-    <g description="Transformed node">
-      <ClipNode />
-      <EffectNode>
-        <ColorEffect description="Effect">
-          <Float description="Red">0.8549000024795532</Float>
-          <Float description="Green">0.8549000024795532</Float>
-          <Float description="Blue">0.5881999731063843</Float>
-          <Float description="Alpha">1.0</Float>
-        </ColorEffect>
-      </EffectNode>
-      <BfTransformNode>
-        <IntData description="X">20</IntData>
-        <FloatData description="Y" name="Credits/CreditsY">400.0</FloatData>
-        <Float description="Width">600.0</Float>
-        <Float description="Height">300.0</Float>
-        <g description="Transformed node">
-          <TransformNode>
-            <Float description="X">0.0</Float>
-            <Float description="Y">0.0</Float>
-            <Float description="Width">500.0</Float>
-            <Float description="Height">40.0</Float>
-            <g description="Transformed node">
-              <TransformNode>
-                <Float description="X">0.0</Float>
-                <Float description="Y">0.0</Float>
-                <Float description="Width">500.0</Float>
-                <Float description="Height">20.0</Float>
-                <TextNode description="Transformed node">
-                  <StringData description="String">galactic conquest release 5</StringData>
-                  <Style description="Style">StarJedi18.dif</Style>
-                </TextNode>
-              </TransformNode>
-              <TransformNode>
-                <Float description="X">500.0</Float>
-                <Float description="Y">10.0</Float>
-                <Float description="Width">300.0</Float>
-                <Float description="Height">20.0</Float>
-                <TextNode description="Transformed node">
-                  <StringData description="String">     A Battlefield: 1942 modification</StringData>
-                  <BfStyle description="Style">standard6.dif</BfStyle>
-                </TextNode>
-              </TransformNode>
-            </g>
-          </TransformNode>
-          <TransformNode>
-            <Float description="X">0.0</Float>
-            <Float description="Y">75.0</Float>
-            <Float description="Width">500.0</Float>
-            <Float description="Height">40.0</Float>
-            <g description="Transformed node">
-              <TransformNode>
-                <Float description="X">0.0</Float>
-                <Float description="Y">0.0</Float>
-                <Float description="Width">350.0</Float>
-                <Float description="Height">20.0</Float>
-                <TextNode description="Transformed node">
-                  <StringData description="String">szier</StringData>
-                  <RightAlignedStyle description="Style">StarJedi14.dif</RightAlignedStyle>
-                </TextNode>
-              </TransformNode>
-              <TransformNode>
-                <Float description="X">375.0</Float>
-                <Float description="Y">11.0</Float>
-                <Float description="Width">360.0</Float>
-                <Float description="Height">20.0</Float>
-                <TextNode description="Transformed node">
-                  <StringData description="String">Scott Zier - Project Leader/Mapper/Modeler/Coder</StringData>
-                  <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
-                </TextNode>
-              </TransformNode>
-            </g>
-          </TransformNode>
-          <TransformNode>
-            <Float description="X">0.0</Float>
-            <Float description="Y">150.0</Float>
-            <Float description="Width">500.0</Float>
-            <Float description="Height">40.0</Float>
-            <g description="Transformed node">
-              <TransformNode>
-                <Float description="X">0.0</Float>
-                <Float description="Y">0.0</Float>
-                <Float description="Width">350.0</Float>
-                <Float description="Height">20.0</Float>
-                <TextNode description="Transformed node">
-                  <StringData description="String">luuri</StringData>
-                  <RightAlignedStyle description="Style">StarJedi14.dif</RightAlignedStyle>
-                </TextNode>
-              </TransformNode>
-              <TransformNode>
-                <Float description="X">375.0</Float>
-                <Float description="Y">11.0</Float>
-                <Float description="Width">360.0</Float>
-                <Float description="Height">20.0</Float>
-                <TextNode description="Transformed node">
-                  <StringData description="String">Mikael Achrén - Art Team Leader/Senior Artist</StringData>
-                  <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
-                </TextNode>
-              </TransformNode>
-            </g>
-          </TransformNode>
-          <TransformNode>
-            <Float description="X">0.0</Float>
-            <Float description="Y">225.0</Float>
-            <Float description="Width">500.0</Float>
-            <Float description="Height">40.0</Float>
-            <g description="Transformed node">
-              <TransformNode>
-                <Float description="X">0.0</Float>
-                <Float description="Y">0.0</Float>
-                <Float description="Width">350.0</Float>
-                <Float description="Height">20.0</Float>
-                <TextNode description="Transformed node">
-                  <StringData description="String">jaybiggs</StringData>
-                  <RightAlignedStyle description="Style">StarJedi14.dif</RightAlignedStyle>
-                </TextNode>
-              </TransformNode>
-              <TransformNode>
-                <Float description="X">375.0</Float>
-                <Float description="Y">11.0</Float>
-                <Float description="Width">360.0</Float>
-                <Float description="Height">20.0</Float>
-                <TextNode description="Transformed node">
-                  <StringData description="String">Jevon Paradis - Project Founder/Modeler/Skinner</StringData>
-                  <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
-                </TextNode>
-              </TransformNode>
-            </g>
-          </TransformNode>
-          <TransformNode>
-            <Float description="X">0.0</Float>
-            <Float description="Y">300.0</Float>
-            <Float description="Width">500.0</Float>
-            <Float description="Height">40.0</Float>
-            <g description="Transformed node">
-              <TransformNode>
-                <Float description="X">0.0</Float>
-                <Float description="Y">0.0</Float>
-                <Float description="Width">350.0</Float>
-                <Float description="Height">20.0</Float>
-                <TextNode description="Transformed node">
-                  <StringData description="String">loopfish</StringData>
-                  <RightAlignedStyle description="Style">StarJedi14.dif</RightAlignedStyle>
-                </TextNode>
-              </TransformNode>
-              <TransformNode>
-                <Float description="X">375.0</Float>
-                <Float description="Y">11.0</Float>
-                <Float description="Width">360.0</Float>
-                <Float description="Height">20.0</Float>
-                <TextNode description="Transformed node">
-                  <StringData description="String">Sam Komfner	- Coder/Sound &amp; Effects Engineer</StringData>
-                  <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
-                </TextNode>
-              </TransformNode>
-            </g>
-          </TransformNode>
-          <TransformNode>
-            <Float description="X">0.0</Float>
-            <Float description="Y">375.0</Float>
-            <Float description="Width">500.0</Float>
-            <Float description="Height">40.0</Float>
-            <g description="Transformed node">
-              <TransformNode>
-                <Float description="X">0.0</Float>
-                <Float description="Y">0.0</Float>
-                <Float description="Width">350.0</Float>
-                <Float description="Height">20.0</Float>
-                <TextNode description="Transformed node">
-                  <StringData description="String">suge</StringData>
-                  <RightAlignedStyle description="Style">StarJedi14.dif</RightAlignedStyle>
-                </TextNode>
-              </TransformNode>
-              <TransformNode>
-                <Float description="X">375.0</Float>
-                <Float description="Y">11.0</Float>
-                <Float description="Width">360.0</Float>
-                <Float description="Height">20.0</Float>
-                <TextNode description="Transformed node">
-                  <StringData description="String">Eric Izso - Team Leader/Modeller/Skinner</StringData>
-                  <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
-                </TextNode>
-              </TransformNode>
-            </g>
-          </TransformNode>
-          <TransformNode>
-            <Float description="X">0.0</Float>
-            <Float description="Y">450.0</Float>
-            <Float description="Width">500.0</Float>
-            <Float description="Height">40.0</Float>
-            <g description="Transformed node">
-              <TransformNode>
-                <Float description="X">0.0</Float>
-                <Float description="Y">0.0</Float>
-                <Float description="Width">350.0</Float>
-                <Float description="Height">20.0</Float>
-                <TextNode description="Transformed node">
-                  <StringData description="String">abblepc</StringData>
-                  <RightAlignedStyle description="Style">StarJedi14.dif</RightAlignedStyle>
-                </TextNode>
-              </TransformNode>
-              <TransformNode>
-                <Float description="X">375.0</Float>
-                <Float description="Y">11.0</Float>
-                <Float description="Width">360.0</Float>
-                <Float description="Height">20.0</Float>
-                <TextNode description="Transformed node">
-                  <StringData description="String">Jeff Beck - Coder</StringData>
-                  <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
-                </TextNode>
-              </TransformNode>
-            </g>
-          </TransformNode>
-          <TransformNode>
-            <Float description="X">0.0</Float>
-            <Float description="Y">525.0</Float>
-            <Float description="Width">500.0</Float>
-            <Float description="Height">40.0</Float>
-            <g description="Transformed node">
-              <TransformNode>
-                <Float description="X">0.0</Float>
-                <Float description="Y">0.0</Float>
-                <Float description="Width">350.0</Float>
-                <Float description="Height">20.0</Float>
-                <TextNode description="Transformed node">
-                  <StringData description="String">miztah</StringData>
-                  <RightAlignedStyle description="Style">StarJedi14.dif</RightAlignedStyle>
-                </TextNode>
-              </TransformNode>
-              <TransformNode>
-                <Float description="X">375.0</Float>
-                <Float description="Y">11.0</Float>
-                <Float description="Width">360.0</Float>
-                <Float description="Height">20.0</Float>
-                <TextNode description="Transformed node">
-                  <StringData description="String">Matt Jones - PR/Mapper</StringData>
-                  <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
-                </TextNode>
-              </TransformNode>
-            </g>
-          </TransformNode>
-          <TransformNode>
-            <Float description="X">0.0</Float>
-            <Float description="Y">600.0</Float>
-            <Float description="Width">500.0</Float>
-            <Float description="Height">40.0</Float>
-            <g description="Transformed node">
-              <TransformNode>
-                <Float description="X">0.0</Float>
-                <Float description="Y">0.0</Float>
-                <Float description="Width">350.0</Float>
-                <Float description="Height">20.0</Float>
-                <TextNode description="Transformed node">
-                  <StringData description="String">dirtylowmofo</StringData>
-                  <RightAlignedStyle description="Style">StarJedi14.dif</RightAlignedStyle>
-                </TextNode>
-              </TransformNode>
-              <TransformNode>
-                <Float description="X">375.0</Float>
-                <Float description="Y">11.0</Float>
-                <Float description="Width">360.0</Float>
-                <Float description="Height">20.0</Float>
-                <TextNode description="Transformed node">
-                  <StringData description="String">Rob - Modeller/Skinner/Coder/Meshwork</StringData>
-                  <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
-                </TextNode>
-              </TransformNode>
-            </g>
-          </TransformNode>
-          <TransformNode>
-            <Float description="X">0.0</Float>
-            <Float description="Y">675.0</Float>
-            <Float description="Width">500.0</Float>
-            <Float description="Height">40.0</Float>
-            <g description="Transformed node">
-              <TransformNode>
-                <Float description="X">0.0</Float>
-                <Float description="Y">0.0</Float>
-                <Float description="Width">350.0</Float>
-                <Float description="Height">20.0</Float>
-                <TextNode description="Transformed node">
-                  <StringData description="String">preacher</StringData>
-                  <RightAlignedStyle description="Style">StarJedi14.dif</RightAlignedStyle>
-                </TextNode>
-              </TransformNode>
-              <TransformNode>
-                <Float description="X">375.0</Float>
-                <Float description="Y">11.0</Float>
-                <Float description="Width">360.0</Float>
-                <Float description="Height">20.0</Float>
-                <TextNode description="Transformed node">
-                  <StringData description="String">Gareth O'Neill - Modeller/Skinner/2D Artwork</StringData>
-                  <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
-                </TextNode>
-              </TransformNode>
-            </g>
-          </TransformNode>
-          <TransformNode>
-            <Float description="X">0.0</Float>
-            <Float description="Y">750.0</Float>
-            <Float description="Width">500.0</Float>
-            <Float description="Height">40.0</Float>
-            <g description="Transformed node">
-              <TransformNode>
-                <Float description="X">0.0</Float>
-                <Float description="Y">0.0</Float>
-                <Float description="Width">350.0</Float>
-                <Float description="Height">20.0</Float>
-                <TextNode description="Transformed node">
-                  <StringData description="String">muhahahahaha</StringData>
-                  <RightAlignedStyle description="Style">StarJedi14.dif</RightAlignedStyle>
-                </TextNode>
-              </TransformNode>
-              <TransformNode>
-                <Float description="X">375.0</Float>
-                <Float description="Y">11.0</Float>
-                <Float description="Width">360.0</Float>
-                <Float description="Height">20.0</Float>
-                <TextNode description="Transformed node">
-                  <StringData description="String">Rob Stiasny - Menus/Coder/HUDs/Installer</StringData>
-                  <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
-                </TextNode>
-              </TransformNode>
-            </g>
-          </TransformNode>
-          <TransformNode>
-            <Float description="X">0.0</Float>
-            <Float description="Y">825.0</Float>
-            <Float description="Width">500.0</Float>
-            <Float description="Height">40.0</Float>
-            <g description="Transformed node">
-              <TransformNode>
-                <Float description="X">0.0</Float>
-                <Float description="Y">0.0</Float>
-                <Float description="Width">350.0</Float>
-                <Float description="Height">20.0</Float>
-                <TextNode description="Transformed node">
-                  <StringData description="String">lord dill</StringData>
-                  <RightAlignedStyle description="Style">StarJedi14.dif</RightAlignedStyle>
-                </TextNode>
-              </TransformNode>
-              <TransformNode>
-                <Float description="X">375.0</Float>
-                <Float description="Y">11.0</Float>
-                <Float description="Width">360.0</Float>
-                <Float description="Height">20.0</Float>
-                <TextNode description="Transformed node">
-                  <StringData description="String">Joseph Nemec - Mapper/Coder</StringData>
-                  <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
-                </TextNode>
-              </TransformNode>
-            </g>
-          </TransformNode>
-          <TransformNode>
-            <Float description="X">0.0</Float>
-            <Float description="Y">900.0</Float>
-            <Float description="Width">500.0</Float>
-            <Float description="Height">40.0</Float>
-            <g description="Transformed node">
-              <TransformNode>
-                <Float description="X">0.0</Float>
-                <Float description="Y">0.0</Float>
-                <Float description="Width">350.0</Float>
-                <Float description="Height">20.0</Float>
-                <TextNode description="Transformed node">
-                  <StringData description="String">frame</StringData>
-                  <RightAlignedStyle description="Style">StarJedi14.dif</RightAlignedStyle>
-                </TextNode>
-              </TransformNode>
-              <TransformNode>
-                <Float description="X">375.0</Float>
-                <Float description="Y">11.0</Float>
-                <Float description="Width">360.0</Float>
-                <Float description="Height">20.0</Float>
-                <TextNode description="Transformed node">
-                  <StringData description="String">Dennis Thony Pedersen - Modeler/Coder</StringData>
-                  <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
-                </TextNode>
-              </TransformNode>
-            </g>
-          </TransformNode>
-          <TransformNode>
-            <Float description="X">0.0</Float>
-            <Float description="Y">975.0</Float>
-            <Float description="Width">500.0</Float>
-            <Float description="Height">40.0</Float>
-            <g description="Transformed node">
-              <TransformNode>
-                <Float description="X">0.0</Float>
-                <Float description="Y">0.0</Float>
-                <Float description="Width">350.0</Float>
-                <Float description="Height">20.0</Float>
-                <TextNode description="Transformed node">
-                  <StringData description="String">phantom</StringData>
-                  <RightAlignedStyle description="Style">StarJedi14.dif</RightAlignedStyle>
-                </TextNode>
-              </TransformNode>
-              <TransformNode>
-                <Float description="X">375.0</Float>
-                <Float description="Y">11.0</Float>
-                <Float description="Width">360.0</Float>
-                <Float description="Height">20.0</Float>
-                <TextNode description="Transformed node">
-                  <StringData description="String">Daniel Aston - Mapper</StringData>
-                  <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
-                </TextNode>
-              </TransformNode>
-            </g>
-          </TransformNode>
-          <TransformNode>
-            <Float description="X">0.0</Float>
-            <Float description="Y">1050.0</Float>
-            <Float description="Width">500.0</Float>
-            <Float description="Height">40.0</Float>
-            <g description="Transformed node">
-              <TransformNode>
-                <Float description="X">0.0</Float>
-                <Float description="Y">0.0</Float>
-                <Float description="Width">350.0</Float>
-                <Float description="Height">20.0</Float>
-                <TextNode description="Transformed node">
-                  <StringData description="String">neko</StringData>
-                  <RightAlignedStyle description="Style">StarJedi14.dif</RightAlignedStyle>
-                </TextNode>
-              </TransformNode>
-              <TransformNode>
-                <Float description="X">375.0</Float>
-                <Float description="Y">11.0</Float>
-                <Float description="Width">360.0</Float>
-                <Float description="Height">20.0</Float>
-                <TextNode description="Transformed node">
-                  <StringData description="String">Albert Kaaman - Modeler</StringData>
-                  <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
-                </TextNode>
-              </TransformNode>
-            </g>
-          </TransformNode>
-          <TransformNode>
-            <Float description="X">0.0</Float>
-            <Float description="Y">1125.0</Float>
-            <Float description="Width">500.0</Float>
-            <Float description="Height">40.0</Float>
-            <g description="Transformed node">
-              <TransformNode>
-                <Float description="X">0.0</Float>
-                <Float description="Y">0.0</Float>
-                <Float description="Width">350.0</Float>
-                <Float description="Height">20.0</Float>
-                <TextNode description="Transformed node">
-                  <StringData description="String">nomen</StringData>
-                  <RightAlignedStyle description="Style">StarJedi14.dif</RightAlignedStyle>
-                </TextNode>
-              </TransformNode>
-              <TransformNode>
-                <Float description="X">375.0</Float>
-                <Float description="Y">11.0</Float>
-                <Float description="Width">360.0</Float>
-                <Float description="Height">20.0</Float>
-                <TextNode description="Transformed node">
-                  <StringData description="String">norman - Modeller/Skinner </StringData>
-                  <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
-                </TextNode>
-              </TransformNode>
-            </g>
-          </TransformNode>
-          <TransformNode>
-            <Float description="X">0.0</Float>
-            <Float description="Y">1200.0</Float>
-            <Float description="Width">500.0</Float>
-            <Float description="Height">40.0</Float>
-            <g description="Transformed node">
-              <TransformNode>
-                <Float description="X">0.0</Float>
-                <Float description="Y">0.0</Float>
-                <Float description="Width">350.0</Float>
-                <Float description="Height">20.0</Float>
-                <TextNode description="Transformed node">
-                  <StringData description="String">liam--</StringData>
-                  <RightAlignedStyle description="Style">StarJedi14.dif</RightAlignedStyle>
-                </TextNode>
-              </TransformNode>
-              <TransformNode>
-                <Float description="X">375.0</Float>
-                <Float description="Y">11.0</Float>
-                <Float description="Width">360.0</Float>
-                <Float description="Height">20.0</Float>
-                <TextNode description="Transformed node">
-                  <StringData description="String">Liam Lawson - Mapper/Coder</StringData>
-                  <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
-                </TextNode>
-              </TransformNode>
-            </g>
-          </TransformNode>
-          <TransformNode>
-            <Float description="X">0.0</Float>
-            <Float description="Y">1275.0</Float>
-            <Float description="Width">500.0</Float>
-            <Float description="Height">40.0</Float>
-            <g description="Transformed node">
-              <TransformNode>
-                <Float description="X">0.0</Float>
-                <Float description="Y">0.0</Float>
-                <Float description="Width">350.0</Float>
-                <Float description="Height">20.0</Float>
-                <TextNode description="Transformed node">
-                  <StringData description="String">django</StringData>
-                  <RightAlignedStyle description="Style">StarJedi14.dif</RightAlignedStyle>
-                </TextNode>
-              </TransformNode>
-              <TransformNode>
-                <Float description="X">375.0</Float>
-                <Float description="Y">11.0</Float>
-                <Float description="Width">360.0</Float>
-                <Float description="Height">20.0</Float>
-                <TextNode description="Transformed node">
-                  <StringData description="String">Stephan Bork - Coder</StringData>
-                  <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
-                </TextNode>
-              </TransformNode>
-            </g>
-          </TransformNode>
-          <TransformNode>
-            <Float description="X">0.0</Float>
-            <Float description="Y">1350.0</Float>
-            <Float description="Width">500.0</Float>
-            <Float description="Height">40.0</Float>
-            <g description="Transformed node">
-              <TransformNode>
-                <Float description="X">0.0</Float>
-                <Float description="Y">0.0</Float>
-                <Float description="Width">350.0</Float>
-                <Float description="Height">20.0</Float>
-                <TextNode description="Transformed node">
-                  <StringData description="String">woodrow</StringData>
-                  <RightAlignedStyle description="Style">StarJedi14.dif</RightAlignedStyle>
-                </TextNode>
-              </TransformNode>
-              <TransformNode>
-                <Float description="X">375.0</Float>
-                <Float description="Y">11.0</Float>
-                <Float description="Width">360.0</Float>
-                <Float description="Height">20.0</Float>
-                <TextNode description="Transformed node">
-                  <StringData description="String">Richard Woodward-Roth - Coder</StringData>
-                  <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
-                </TextNode>
-              </TransformNode>
-            </g>
-          </TransformNode>
-          <TransformNode>
-            <Float description="X">0.0</Float>
-            <Float description="Y">1425.0</Float>
-            <Float description="Width">500.0</Float>
-            <Float description="Height">40.0</Float>
-            <g description="Transformed node">
-              <TransformNode>
-                <Float description="X">0.0</Float>
-                <Float description="Y">0.0</Float>
-                <Float description="Width">350.0</Float>
-                <Float description="Height">20.0</Float>
-                <TextNode description="Transformed node">
-                  <StringData description="String">tyler</StringData>
-                  <RightAlignedStyle description="Style">StarJedi14.dif</RightAlignedStyle>
-                </TextNode>
-              </TransformNode>
-              <TransformNode>
-                <Float description="X">375.0</Float>
-                <Float description="Y">11.0</Float>
-                <Float description="Width">360.0</Float>
-                <Float description="Height">20.0</Float>
-                <TextNode description="Transformed node">
-                  <StringData description="String">Tyler - Modeller/SKinner</StringData>
-                  <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
-                </TextNode>
-              </TransformNode>
-            </g>
-          </TransformNode>
-          <TransformNode>
-            <Float description="X">0.0</Float>
-            <Float description="Y">1500.0</Float>
-            <Float description="Width">500.0</Float>
-            <Float description="Height">40.0</Float>
-            <g description="Transformed node">
-              <TransformNode>
-                <Float description="X">0.0</Float>
-                <Float description="Y">0.0</Float>
-                <Float description="Width">350.0</Float>
-                <Float description="Height">20.0</Float>
-                <TextNode description="Transformed node">
-                  <StringData description="String">killthraka</StringData>
-                  <RightAlignedStyle description="Style">StarJedi14.dif</RightAlignedStyle>
-                </TextNode>
-              </TransformNode>
-              <TransformNode>
-                <Float description="X">375.0</Float>
-                <Float description="Y">11.0</Float>
-                <Float description="Width">360.0</Float>
-                <Float description="Height">20.0</Float>
-                <TextNode description="Transformed node">
-                  <StringData description="String">Tavis Settles - Tech Support/Server Admin</StringData>
-                  <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
-                </TextNode>
-              </TransformNode>
-            </g>
-          </TransformNode>
-          <TransformNode>
-            <Float description="X">0.0</Float>
-            <Float description="Y">1575.0</Float>
-            <Float description="Width">500.0</Float>
-            <Float description="Height">40.0</Float>
-            <g description="Transformed node">
-              <TransformNode>
-                <Float description="X">0.0</Float>
-                <Float description="Y">0.0</Float>
-                <Float description="Width">350.0</Float>
-                <Float description="Height">20.0</Float>
-                <TextNode description="Transformed node">
-                  <StringData description="String">Gamboot</StringData>
-                  <RightAlignedStyle description="Style">StarJedi14.dif</RightAlignedStyle>
-                </TextNode>
-              </TransformNode>
-              <TransformNode>
-                <Float description="X">375.0</Float>
-                <Float description="Y">11.0</Float>
-                <Float description="Width">360.0</Float>
-                <Float description="Height">20.0</Float>
-                <TextNode description="Transformed node">
-                  <StringData description="String">Dave Wilson - GC Official Helper</StringData>
-                  <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
-                </TextNode>
-              </TransformNode>
-            </g>
-          </TransformNode>
-          <TransformNode>
-            <Float description="X">0.0</Float>
-            <Float description="Y">1650.0</Float>
-            <Float description="Width">500.0</Float>
-            <Float description="Height">40.0</Float>
-            <g description="Transformed node">
-              <TransformNode>
-                <Float description="X">0.0</Float>
-                <Float description="Y">0.0</Float>
-                <Float description="Width">350.0</Float>
-                <Float description="Height">20.0</Float>
-                <TextNode description="Transformed node">
-                  <StringData description="String">kman</StringData>
-                  <RightAlignedStyle description="Style">StarJedi14.dif</RightAlignedStyle>
-                </TextNode>
-              </TransformNode>
-              <TransformNode>
-                <Float description="X">375.0</Float>
-                <Float description="Y">11.0</Float>
-                <Float description="Width">360.0</Float>
-                <Float description="Height">20.0</Float>
-                <TextNode description="Transformed node">
-                  <StringData description="String">Kurtis Smith - Modeler/Skinner</StringData>
-                  <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
-                </TextNode>
-              </TransformNode>
-            </g>
-          </TransformNode>
-          <TransformNode>
-            <Float description="X">0.0</Float>
-            <Float description="Y">1725.0</Float>
-            <Float description="Width">500.0</Float>
-            <Float description="Height">40.0</Float>
-            <g description="Transformed node">
-              <TransformNode>
-                <Float description="X">0.0</Float>
-                <Float description="Y">0.0</Float>
-                <Float description="Width">350.0</Float>
-                <Float description="Height">20.0</Float>
-                <TextNode description="Transformed node">
-                  <StringData description="String">vocalvoodoo</StringData>
-                  <RightAlignedStyle description="Style">StarJedi14.dif</RightAlignedStyle>
-                </TextNode>
-              </TransformNode>
-              <TransformNode>
-                <Float description="X">375.0</Float>
-                <Float description="Y">11.0</Float>
-                <Float description="Width">360.0</Float>
-                <Float description="Height">20.0</Float>
-                <TextNode description="Transformed node">
-                  <StringData description="String">Josh Mahler - Sound/Voice actor</StringData>
-                  <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
-                </TextNode>
-              </TransformNode>
-            </g>
-          </TransformNode>
-          <TransformNode>
-            <Float description="X">0.0</Float>
-            <Float description="Y">1800.0</Float>
-            <Float description="Width">500.0</Float>
-            <Float description="Height">40.0</Float>
-            <g description="Transformed node">
-              <TransformNode>
-                <Float description="X">0.0</Float>
-                <Float description="Y">0.0</Float>
-                <Float description="Width">350.0</Float>
-                <Float description="Height">20.0</Float>
-                <TextNode description="Transformed node">
-                  <StringData description="String">flpngboy</StringData>
-                  <RightAlignedStyle description="Style">StarJedi14.dif</RightAlignedStyle>
-                </TextNode>
-              </TransformNode>
-              <TransformNode>
-                <Float description="X">375.0</Float>
-                <Float description="Y">11.0</Float>
-                <Float description="Width">360.0</Float>
-                <Float description="Height">20.0</Float>
-                <TextNode description="Transformed node">
-                  <StringData description="String">Allen Guzzetta  - Sound Engineer, Technical Writer</StringData>
-                  <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
-                </TextNode>
-              </TransformNode>
-            </g>
-          </TransformNode>
-          <TransformNode>
-            <Float description="X">0.0</Float>
-            <Float description="Y">1875.0</Float>
-            <Float description="Width">500.0</Float>
-            <Float description="Height">40.0</Float>
-            <g description="Transformed node">
-              <TransformNode>
-                <Float description="X">0.0</Float>
-                <Float description="Y">0.0</Float>
-                <Float description="Width">350.0</Float>
-                <Float description="Height">20.0</Float>
-                <TextNode description="Transformed node">
-                  <StringData description="String">courtesyflush</StringData>
-                  <RightAlignedStyle description="Style">StarJedi14.dif</RightAlignedStyle>
-                </TextNode>
-              </TransformNode>
-              <TransformNode>
-                <Float description="X">375.0</Float>
-                <Float description="Y">11.0</Float>
-                <Float description="Width">360.0</Float>
-                <Float description="Height">20.0</Float>
-                <TextNode description="Transformed node">
-                  <StringData description="String">Nathan Frost - Skinner/Modeller</StringData>
-                  <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
-                </TextNode>
-              </TransformNode>
-            </g>
-          </TransformNode>
-          <TransformNode>
-            <Float description="X">0.0</Float>
-            <Float description="Y">1950.0</Float>
-            <Float description="Width">500.0</Float>
-            <Float description="Height">40.0</Float>
-            <g description="Transformed node">
-              <TransformNode>
-                <Float description="X">0.0</Float>
-                <Float description="Y">0.0</Float>
-                <Float description="Width">350.0</Float>
-                <Float description="Height">20.0</Float>
-                <TextNode description="Transformed node">
-                  <StringData description="String">Squiggles</StringData>
-                  <RightAlignedStyle description="Style">StarJedi14.dif</RightAlignedStyle>
-                </TextNode>
-              </TransformNode>
-              <TransformNode>
-                <Float description="X">375.0</Float>
-                <Float description="Y">11.0</Float>
-                <Float description="Width">360.0</Float>
-                <Float description="Height">20.0</Float>
-                <TextNode description="Transformed node">
-                  <StringData description="String">Stephen Dodge - Modeller/Skinner</StringData>
-                  <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
-                </TextNode>
-              </TransformNode>
-            </g>
-          </TransformNode>
-          <TransformNode>
-            <Float description="X">0.0</Float>
-            <Float description="Y">2025.0</Float>
-            <Float description="Width">500.0</Float>
-            <Float description="Height">40.0</Float>
-            <g description="Transformed node">
-              <TransformNode>
-                <Float description="X">0.0</Float>
-                <Float description="Y">0.0</Float>
-                <Float description="Width">350.0</Float>
-                <Float description="Height">20.0</Float>
-                <TextNode description="Transformed node">
-                  <StringData description="String">gits</StringData>
-                  <RightAlignedStyle description="Style">StarJedi14.dif</RightAlignedStyle>
-                </TextNode>
-              </TransformNode>
-              <TransformNode>
-                <Float description="X">375.0</Float>
-                <Float description="Y">11.0</Float>
-                <Float description="Width">360.0</Float>
-                <Float description="Height">20.0</Float>
-                <TextNode description="Transformed node">
-                  <StringData description="String">Modeler</StringData>
-                  <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
-                </TextNode>
-              </TransformNode>
-            </g>
-          </TransformNode>
-          <TransformNode>
-            <Float description="X">0.0</Float>
-            <Float description="Y">2100.0</Float>
-            <Float description="Width">500.0</Float>
-            <Float description="Height">40.0</Float>
-            <g description="Transformed node">
-              <TransformNode>
-                <Float description="X">0.0</Float>
-                <Float description="Y">0.0</Float>
-                <Float description="Width">350.0</Float>
-                <Float description="Height">20.0</Float>
-                <TextNode description="Transformed node">
-                  <StringData description="String">draconb</StringData>
-                  <RightAlignedStyle description="Style">StarJedi14.dif</RightAlignedStyle>
-                </TextNode>
-              </TransformNode>
-              <TransformNode>
-                <Float description="X">375.0</Float>
-                <Float description="Y">11.0</Float>
-                <Float description="Width">360.0</Float>
-                <Float description="Height">20.0</Float>
-                <TextNode description="Transformed node">
-                  <StringData description="String">Modeler</StringData>
-                  <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
-                </TextNode>
-              </TransformNode>
-            </g>
-          </TransformNode>
-          <TransformNode>
-            <Float description="X">0.0</Float>
-            <Float description="Y">2175.0</Float>
-            <Float description="Width">500.0</Float>
-            <Float description="Height">40.0</Float>
-            <g description="Transformed node">
-              <TransformNode>
-                <Float description="X">0.0</Float>
-                <Float description="Y">0.0</Float>
-                <Float description="Width">350.0</Float>
-                <Float description="Height">20.0</Float>
-                <TextNode description="Transformed node">
-                  <StringData description="String">psistorm</StringData>
-                  <RightAlignedStyle description="Style">StarJedi14.dif</RightAlignedStyle>
-                </TextNode>
-              </TransformNode>
-              <TransformNode>
-                <Float description="X">375.0</Float>
-                <Float description="Y">11.0</Float>
-                <Float description="Width">360.0</Float>
-                <Float description="Height">20.0</Float>
-                <TextNode description="Transformed node">
-                  <StringData description="String">Stefan Biermann - Modeler</StringData>
-                  <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
-                </TextNode>
-              </TransformNode>
-            </g>
-          </TransformNode>
-          <TransformNode>
-            <Float description="X">0.0</Float>
-            <Float description="Y">2250.0</Float>
-            <Float description="Width">500.0</Float>
-            <Float description="Height">40.0</Float>
-            <g description="Transformed node">
-              <TransformNode>
-                <Float description="X">0.0</Float>
-                <Float description="Y">0.0</Float>
-                <Float description="Width">350.0</Float>
-                <Float description="Height">20.0</Float>
-                <TextNode description="Transformed node">
-                  <StringData description="String">alec harrison</StringData>
-                  <RightAlignedStyle description="Style">StarJedi14.dif</RightAlignedStyle>
-                </TextNode>
-              </TransformNode>
-              <TransformNode>
-                <Float description="X">375.0</Float>
-                <Float description="Y">11.0</Float>
-                <Float description="Width">360.0</Float>
-                <Float description="Height">20.0</Float>
-                <TextNode description="Transformed node">
-                  <StringData description="String">Galactic Conquest Musical Score</StringData>
-                  <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
-                </TextNode>
-              </TransformNode>
-            </g>
-          </TransformNode>
-          <TransformNode>
-            <Float description="X">0.0</Float>
-            <Float description="Y">2325.0</Float>
-            <Float description="Width">500.0</Float>
-            <Float description="Height">40.0</Float>
-            <g description="Transformed node">
-              <TransformNode>
-                <Float description="X">0.0</Float>
-                <Float description="Y">0.0</Float>
-                <Float description="Width">350.0</Float>
-                <Float description="Height">20.0</Float>
-                <TextNode description="Transformed node">
-                  <StringData description="String">special thanks</StringData>
-                  <RightAlignedStyle description="Style">StarJedi14.dif</RightAlignedStyle>
-                </TextNode>
-              </TransformNode>
-              <TransformNode>
-                <Float description="X">375.0</Float>
-                <Float description="Y">11.0</Float>
-                <Float description="Width">360.0</Float>
-                <Float description="Height">20.0</Float>
-                <TextNode description="Transformed node">
-                  <StringData description="String">The few, the proud, the Galactic </StringData>
-                  <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
-                </TextNode>
-              </TransformNode>
-            </g>
-          </TransformNode>
-          <TransformNode>
-            <Float description="X">0.0</Float>
-            <Float description="Y">2345.0</Float>
-            <Float description="Width">500.0</Float>
-            <Float description="Height">40.0</Float>
-            <g description="Transformed node">
-              <TransformNode>
-                <Float description="X">0.0</Float>
-                <Float description="Y">0.0</Float>
-                <Float description="Width">350.0</Float>
-                <Float description="Height">20.0</Float>
-                <TextNode description="Transformed node">
-                  <BfLocaleStringData description="String">
-                    <BfLocaleData description="Locale" name="Locale/Locale">
-                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                    </BfLocaleData>
-                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                    <StringData description="String Id" />
-                  </BfLocaleStringData>
-                  <RightAlignedStyle description="Style">StarJedi14.dif</RightAlignedStyle>
-                </TextNode>
-              </TransformNode>
-              <TransformNode>
-                <Float description="X">375.0</Float>
-                <Float description="Y">11.0</Float>
-                <Float description="Width">360.0</Float>
-                <Float description="Height">20.0</Float>
-                <TextNode description="Transformed node">
-                  <StringData description="String">Conquest Alpha testers</StringData>
-                  <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
-                </TextNode>
-              </TransformNode>
-            </g>
-          </TransformNode>
-          <TransformNode>
-            <Float description="X">0.0</Float>
-            <Float description="Y">2365.0</Float>
-            <Float description="Width">500.0</Float>
-            <Float description="Height">40.0</Float>
-            <g description="Transformed node">
-              <TransformNode>
-                <Float description="X">0.0</Float>
-                <Float description="Y">0.0</Float>
-                <Float description="Width">350.0</Float>
-                <Float description="Height">20.0</Float>
-                <TextNode description="Transformed node">
-                  <BfLocaleStringData description="String">
-                    <BfLocaleData description="Locale" name="Locale/Locale">
-                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                    </BfLocaleData>
-                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                    <StringData description="String Id" />
-                  </BfLocaleStringData>
-                  <RightAlignedStyle description="Style">StarJedi14.dif</RightAlignedStyle>
-                </TextNode>
-              </TransformNode>
-              <TransformNode>
-                <Float description="X">375.0</Float>
-                <Float description="Y">11.0</Float>
-                <Float description="Width">360.0</Float>
-                <Float description="Height">20.0</Float>
-                <TextNode description="Transformed node">
-                  <StringData description="String">All of our fans!!!!</StringData>
-                  <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
-                </TextNode>
-              </TransformNode>
-            </g>
-          </TransformNode>
-          <TransformNode>
-            <Float description="X">0.0</Float>
-            <Float description="Y">2385.0</Float>
-            <Float description="Width">500.0</Float>
-            <Float description="Height">40.0</Float>
-            <g description="Transformed node">
-              <TransformNode>
-                <Float description="X">0.0</Float>
-                <Float description="Y">0.0</Float>
-                <Float description="Width">350.0</Float>
-                <Float description="Height">20.0</Float>
-                <TextNode description="Transformed node">
-                  <BfLocaleStringData description="String">
-                    <BfLocaleData description="Locale" name="Locale/Locale">
-                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                    </BfLocaleData>
-                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                    <StringData description="String Id" />
-                  </BfLocaleStringData>
-                  <RightAlignedStyle description="Style">StarJedi14.dif</RightAlignedStyle>
-                </TextNode>
-              </TransformNode>
-              <TransformNode>
-                <Float description="X">375.0</Float>
-                <Float description="Y">11.0</Float>
-                <Float description="Width">360.0</Float>
-                <Float description="Height">20.0</Float>
-                <TextNode description="Transformed node">
-                  <StringData description="String">George Lucas and everyone at </StringData>
-                  <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
-                </TextNode>
-              </TransformNode>
-            </g>
-          </TransformNode>
-          <TransformNode>
-            <Float description="X">0.0</Float>
-            <Float description="Y">2405.0</Float>
-            <Float description="Width">500.0</Float>
-            <Float description="Height">40.0</Float>
-            <g description="Transformed node">
-              <TransformNode>
-                <Float description="X">0.0</Float>
-                <Float description="Y">0.0</Float>
-                <Float description="Width">350.0</Float>
-                <Float description="Height">20.0</Float>
-                <TextNode description="Transformed node">
-                  <BfLocaleStringData description="String">
-                    <BfLocaleData description="Locale" name="Locale/Locale">
-                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                    </BfLocaleData>
-                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                    <StringData description="String Id" />
-                  </BfLocaleStringData>
-                  <RightAlignedStyle description="Style">StarJedi14.dif</RightAlignedStyle>
-                </TextNode>
-              </TransformNode>
-              <TransformNode>
-                <Float description="X">375.0</Float>
-                <Float description="Y">11.0</Float>
-                <Float description="Width">360.0</Float>
-                <Float description="Height">20.0</Float>
-                <TextNode description="Transformed node">
-                  <StringData description="String">LucasFilms Ltd, Industrial Light</StringData>
-                  <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
-                </TextNode>
-              </TransformNode>
-            </g>
-          </TransformNode>
-          <TransformNode>
-            <Float description="X">0.0</Float>
-            <Float description="Y">2425.0</Float>
-            <Float description="Width">500.0</Float>
-            <Float description="Height">40.0</Float>
-            <g description="Transformed node">
-              <TransformNode>
-                <Float description="X">0.0</Float>
-                <Float description="Y">0.0</Float>
-                <Float description="Width">350.0</Float>
-                <Float description="Height">20.0</Float>
-                <TextNode description="Transformed node">
-                  <BfLocaleStringData description="String">
-                    <BfLocaleData description="Locale" name="Locale/Locale">
-                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                    </BfLocaleData>
-                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                    <StringData description="String Id" />
-                  </BfLocaleStringData>
-                  <RightAlignedStyle description="Style">StarJedi14.dif</RightAlignedStyle>
-                </TextNode>
-              </TransformNode>
-              <TransformNode>
-                <Float description="X">375.0</Float>
-                <Float description="Y">11.0</Float>
-                <Float description="Width">360.0</Float>
-                <Float description="Height">20.0</Float>
-                <TextNode description="Transformed node">
-                  <StringData description="String">and Magic, LucasArts and everyone</StringData>
-                  <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
-                </TextNode>
-              </TransformNode>
-            </g>
-          </TransformNode>
-          <TransformNode>
-            <Float description="X">0.0</Float>
-            <Float description="Y">2445.0</Float>
-            <Float description="Width">500.0</Float>
-            <Float description="Height">40.0</Float>
-            <g description="Transformed node">
-              <TransformNode>
-                <Float description="X">0.0</Float>
-                <Float description="Y">0.0</Float>
-                <Float description="Width">350.0</Float>
-                <Float description="Height">20.0</Float>
-                <TextNode description="Transformed node">
-                  <BfLocaleStringData description="String">
-                    <BfLocaleData description="Locale" name="Locale/Locale">
-                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                    </BfLocaleData>
-                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                    <StringData description="String Id" />
-                  </BfLocaleStringData>
-                  <RightAlignedStyle description="Style">StarJedi14.dif</RightAlignedStyle>
-                </TextNode>
-              </TransformNode>
-              <TransformNode>
-                <Float description="X">375.0</Float>
-                <Float description="Y">11.0</Float>
-                <Float description="Width">360.0</Float>
-                <Float description="Height">20.0</Float>
-                <TextNode description="Transformed node">
-                  <StringData description="String">who made the films and universe </StringData>
-                  <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
-                </TextNode>
-              </TransformNode>
-            </g>
-          </TransformNode>
-          <TransformNode>
-            <Float description="X">0.0</Float>
-            <Float description="Y">2465.0</Float>
-            <Float description="Width">500.0</Float>
-            <Float description="Height">40.0</Float>
-            <g description="Transformed node">
-              <TransformNode>
-                <Float description="X">0.0</Float>
-                <Float description="Y">0.0</Float>
-                <Float description="Width">350.0</Float>
-                <Float description="Height">20.0</Float>
-                <TextNode description="Transformed node">
-                  <BfLocaleStringData description="String">
-                    <BfLocaleData description="Locale" name="Locale/Locale">
-                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                    </BfLocaleData>
-                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                    <StringData description="String Id" />
-                  </BfLocaleStringData>
-                  <RightAlignedStyle description="Style">StarJedi14.dif</RightAlignedStyle>
-                </TextNode>
-              </TransformNode>
-              <TransformNode>
-                <Float description="X">375.0</Float>
-                <Float description="Y">11.0</Float>
-                <Float description="Width">360.0</Float>
-                <Float description="Height">20.0</Float>
-                <TextNode description="Transformed node">
-                  <StringData description="String">that inspired this fan-made mod.</StringData>
-                  <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
-                </TextNode>
-              </TransformNode>
-            </g>
-          </TransformNode>
-          <TransformNode>
-            <Float description="X">0.0</Float>
-            <Float description="Y">2485.0</Float>
-            <Float description="Width">500.0</Float>
-            <Float description="Height">40.0</Float>
-            <g description="Transformed node">
-              <TransformNode>
-                <Float description="X">0.0</Float>
-                <Float description="Y">0.0</Float>
-                <Float description="Width">350.0</Float>
-                <Float description="Height">20.0</Float>
-                <TextNode description="Transformed node">
-                  <BfLocaleStringData description="String">
-                    <BfLocaleData description="Locale" name="Locale/Locale">
-                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                    </BfLocaleData>
-                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                    <StringData description="String Id" />
-                  </BfLocaleStringData>
-                  <RightAlignedStyle description="Style">StarJedi14.dif</RightAlignedStyle>
-                </TextNode>
-              </TransformNode>
-              <TransformNode>
-                <Float description="X">375.0</Float>
-                <Float description="Y">11.0</Float>
-                <Float description="Width">360.0</Float>
-                <Float description="Height">20.0</Float>
-                <TextNode description="Transformed node">
-                  <StringData description="String">Everyone at Digital Illusions CE</StringData>
-                  <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
-                </TextNode>
-              </TransformNode>
-            </g>
-          </TransformNode>
-          <TransformNode>
-            <Float description="X">0.0</Float>
-            <Float description="Y">2505.0</Float>
-            <Float description="Width">500.0</Float>
-            <Float description="Height">40.0</Float>
-            <g description="Transformed node">
-              <TransformNode>
-                <Float description="X">0.0</Float>
-                <Float description="Y">0.0</Float>
-                <Float description="Width">350.0</Float>
-                <Float description="Height">20.0</Float>
-                <TextNode description="Transformed node">
-                  <BfLocaleStringData description="String">
-                    <BfLocaleData description="Locale" name="Locale/Locale">
-                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                    </BfLocaleData>
-                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                    <StringData description="String Id" />
-                  </BfLocaleStringData>
-                  <RightAlignedStyle description="Style">StarJedi14.dif</RightAlignedStyle>
-                </TextNode>
-              </TransformNode>
-              <TransformNode>
-                <Float description="X">375.0</Float>
-                <Float description="Y">11.0</Float>
-                <Float description="Width">360.0</Float>
-                <Float description="Height">20.0</Float>
-                <TextNode description="Transformed node">
-                  <StringData description="String">AB and Electronic Arts who </StringData>
-                  <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
-                </TextNode>
-              </TransformNode>
-            </g>
-          </TransformNode>
-          <TransformNode>
-            <Float description="X">0.0</Float>
-            <Float description="Y">2525.0</Float>
-            <Float description="Width">500.0</Float>
-            <Float description="Height">40.0</Float>
-            <g description="Transformed node">
-              <TransformNode>
-                <Float description="X">0.0</Float>
-                <Float description="Y">0.0</Float>
-                <Float description="Width">350.0</Float>
-                <Float description="Height">20.0</Float>
-                <TextNode description="Transformed node">
-                  <BfLocaleStringData description="String">
-                    <BfLocaleData description="Locale" name="Locale/Locale">
-                      <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                    </BfLocaleData>
-                    <BoolData description="Valid" name="Locale/Valid">True</BoolData>
-                    <StringData description="String Id" />
-                  </BfLocaleStringData>
-                  <RightAlignedStyle description="Style">StarJedi14.dif</RightAlignedStyle>
-                </TextNode>
-              </TransformNode>
-              <TransformNode>
-                <Float description="X">375.0</Float>
-                <Float description="Y">11.0</Float>
-                <Float description="Width">360.0</Float>
-                <Float description="Height">20.0</Float>
-                <TextNode description="Transformed node">
-                  <StringData description="String">brought us Battlefield 1942.</StringData>
-                  <Style description="Style" name="Style/CreditsStyle">standard6 - Latin.dif</Style>
-                </TextNode>
-              </TransformNode>
-            </g>
-          </TransformNode>
-        </g>
-      </BfTransformNode>
-      <BfTransformNode>
-        <IntData description="X">20</IntData>
-        <FloatData description="Y" name="Credits/CreditsY">400.0</FloatData>
-        <Float description="Width">600.0</Float>
-        <Float description="Height">300.0</Float>
-        <g description="Transformed node">
-          <CullNode>
-            <BoolData description="Do Show">False</BoolData>
-            <Float description="In time">0.0</Float>
-            <Float description="Out time">0.0</Float>
-          </CullNode>
-          <TransformNode>
-            <Float description="X">0.0</Float>
-            <Float description="Y">0.0</Float>
-            <Float description="Width">500.0</Float>
-            <Float description="Height">40.0</Float>
-            <NodePlaceholder description="Transformed node" />
-          </TransformNode>
-        </g>
-      </BfTransformNode>
-      <CullNode>
-        <BoolData description="Do Show" name="Credits/Pause">True</BoolData>
-        <Float description="In time">0.0</Float>
-        <Float description="Out time">0.0</Float>
-      </CullNode>
-      <BfCreditsNode>
-        <FloatData description="Value" name="Credits/CreditsY">400.0</FloatData>
-        <Float description="End value">-6075.0</Float>
-        <Float description="Reset value">485.0</Float>
-        <Float description="Time">600.0</Float>
-        <BoolData description="Go" name="Credits/RunCreditsList">True</BoolData>
-      </BfCreditsNode>
-      <SplitNode>
-        <CullNode description="Split node">
-          <BoolData description="Do Show">False</BoolData>
-          <Float description="In time">0.0</Float>
-          <Float description="Out time">0.0</Float>
-        </CullNode>
-      </SplitNode>
-      <CullNode>
-        <BoolData description="Do Show">False</BoolData>
-        <Float description="In time">0.0</Float>
-        <Float description="Out time">0.0</Float>
-      </CullNode>
-      <BfCreditsNode>
-        <FloatData description="Value" name="Credits/CreditsY">400.0</FloatData>
-        <Float description="End value">-5005.0</Float>
-        <Float description="Reset value">485.0</Float>
-        <Float description="Time">600.0</Float>
-        <BoolData description="Go" name="Credits/RunCreditsList">True</BoolData>
-      </BfCreditsNode>
-    </g>
-  </TransformNode>
-  <CullEventActionNode>
-    <ToggleVariableAction>
-      <BoolData description="Variable" name="Credits/Pause">True</BoolData>
-    </ToggleVariableAction>
-    <ButtonEvent>
-      <Byte description="Input index">0</Byte>
-      <Int32 description="Event type">1</Int32>
-      <Int32 description="Button type">18</Int32>
-    </ButtonEvent>
-  </CullEventActionNode>
+  <Variables>
+    <Variable name="Credits/CreditsY" type="Float">400</Variable>
+    <Variable name="Credits/Pause" type="Boolean">true</Variable>
+    <Variable name="Credits/RunCreditsList" type="Boolean">true</Variable>
+    <Variable name="InhibitMenuBehavior" type="Int">0</Variable>
+    <Variable name="Locale/Locale">Locale(Locale/Valid)</Variable>
+    <Variable name="Locale/Valid" type="Boolean">true</Variable>
+    <Variable name="Style/CreditsStyle">Style('standard6 - Latin.dif')</Variable>
+  </Variables>
+  <Name />
+  <CullEventAction event="Type(0, PreShow)">
+    <ActionList>
+      <SetVariable variable="Credits/CreditsY" value="470.0" />
+      <SetVariable variable="Credits/RunCreditsList" value="false" />
+      <SetVariable variable="Credits/Pause" value="true" />
+    </ActionList>
+  </CullEventAction>
+  <TimeoutAction timeout-time="2">
+    <SetVariable variable="Credits/RunCreditsList" value="true" />
+  </TimeoutAction>
+  <If condition="InhibitMenuBehavior is 1 or InhibitMenuBehavior is 2">
+    <Transform x="0" y="150" width="800" height="20">
+      <Text string="'Not available in this version!'" style="CenterAligned('Trebuchet MS11.dif')" />
+    </Transform>
+  </If>
+  <If condition="InhibitMenuBehavior is_not 1">
+    <If condition="InhibitMenuBehavior is_not 2">
+      <Transform x="20" y="85" width="760" height="450">
+        <Clip />
+        <Effect>
+          <Color color="0.8549, 0.8549, 0.5882" />
+        </Effect>
+        <Transform x="20" y="Credits/CreditsY" width="600" height="300">
+          <Transform x="0" y="0" width="500" height="40">
+            <Transform x="0" y="0" width="500" height="20">
+              <Text string="'galactic conquest release 5'" style="Style('StarJedi18.dif')" />
+            </Transform>
+            <Transform x="500" y="10" width="300" height="20">
+              <Text string="'     A Battlefield: 1942 modification'" style="BfStyle('standard6.dif')" />
+            </Transform>
+          </Transform>
+          <Transform x="0" y="75" width="500" height="40">
+            <Transform x="0" y="0" width="350" height="20">
+              <Text string="'szier'" style="RightAligned('StarJedi14.dif')" />
+            </Transform>
+            <Transform x="375" y="11" width="360" height="20">
+              <Text string="'Scott Zier - Project Leader/Mapper/Modeler/Coder'" style="Style/CreditsStyle" />
+            </Transform>
+          </Transform>
+          <Transform x="0" y="150" width="500" height="40">
+            <Transform x="0" y="0" width="350" height="20">
+              <Text string="'luuri'" style="RightAligned('StarJedi14.dif')" />
+            </Transform>
+            <Transform x="375" y="11" width="360" height="20">
+              <Text string="'Mikael Achrén - Art Team Leader/Senior Artist'" style="Style/CreditsStyle" />
+            </Transform>
+          </Transform>
+          <Transform x="0" y="225" width="500" height="40">
+            <Transform x="0" y="0" width="350" height="20">
+              <Text string="'jaybiggs'" style="RightAligned('StarJedi14.dif')" />
+            </Transform>
+            <Transform x="375" y="11" width="360" height="20">
+              <Text string="'Jevon Paradis - Project Founder/Modeler/Skinner'" style="Style/CreditsStyle" />
+            </Transform>
+          </Transform>
+          <Transform x="0" y="300" width="500" height="40">
+            <Transform x="0" y="0" width="350" height="20">
+              <Text string="'loopfish'" style="RightAligned('StarJedi14.dif')" />
+            </Transform>
+            <Transform x="375" y="11" width="360" height="20">
+              <Text string="'Sam Komfner&#09;- Coder/Sound &amp; Effects Engineer'" style="Style/CreditsStyle" />
+            </Transform>
+          </Transform>
+          <Transform x="0" y="375" width="500" height="40">
+            <Transform x="0" y="0" width="350" height="20">
+              <Text string="'suge'" style="RightAligned('StarJedi14.dif')" />
+            </Transform>
+            <Transform x="375" y="11" width="360" height="20">
+              <Text string="'Eric Izso - Team Leader/Modeller/Skinner'" style="Style/CreditsStyle" />
+            </Transform>
+          </Transform>
+          <Transform x="0" y="450" width="500" height="40">
+            <Transform x="0" y="0" width="350" height="20">
+              <Text string="'abblepc'" style="RightAligned('StarJedi14.dif')" />
+            </Transform>
+            <Transform x="375" y="11" width="360" height="20">
+              <Text string="'Jeff Beck - Coder'" style="Style/CreditsStyle" />
+            </Transform>
+          </Transform>
+          <Transform x="0" y="525" width="500" height="40">
+            <Transform x="0" y="0" width="350" height="20">
+              <Text string="'miztah'" style="RightAligned('StarJedi14.dif')" />
+            </Transform>
+            <Transform x="375" y="11" width="360" height="20">
+              <Text string="'Matt Jones - PR/Mapper'" style="Style/CreditsStyle" />
+            </Transform>
+          </Transform>
+          <Transform x="0" y="600" width="500" height="40">
+            <Transform x="0" y="0" width="350" height="20">
+              <Text string="'dirtylowmofo'" style="RightAligned('StarJedi14.dif')" />
+            </Transform>
+            <Transform x="375" y="11" width="360" height="20">
+              <Text string="'Rob - Modeller/Skinner/Coder/Meshwork'" style="Style/CreditsStyle" />
+            </Transform>
+          </Transform>
+          <Transform x="0" y="675" width="500" height="40">
+            <Transform x="0" y="0" width="350" height="20">
+              <Text string="'preacher'" style="RightAligned('StarJedi14.dif')" />
+            </Transform>
+            <Transform x="375" y="11" width="360" height="20">
+              <Text string="'Gareth O''Neill - Modeller/Skinner/2D Artwork'" style="Style/CreditsStyle" />
+            </Transform>
+          </Transform>
+          <Transform x="0" y="750" width="500" height="40">
+            <Transform x="0" y="0" width="350" height="20">
+              <Text string="'muhahahahaha'" style="RightAligned('StarJedi14.dif')" />
+            </Transform>
+            <Transform x="375" y="11" width="360" height="20">
+              <Text string="'Rob Stiasny - Menus/Coder/HUDs/Installer'" style="Style/CreditsStyle" />
+            </Transform>
+          </Transform>
+          <Transform x="0" y="825" width="500" height="40">
+            <Transform x="0" y="0" width="350" height="20">
+              <Text string="'lord dill'" style="RightAligned('StarJedi14.dif')" />
+            </Transform>
+            <Transform x="375" y="11" width="360" height="20">
+              <Text string="'Joseph Nemec - Mapper/Coder'" style="Style/CreditsStyle" />
+            </Transform>
+          </Transform>
+          <Transform x="0" y="900" width="500" height="40">
+            <Transform x="0" y="0" width="350" height="20">
+              <Text string="'frame'" style="RightAligned('StarJedi14.dif')" />
+            </Transform>
+            <Transform x="375" y="11" width="360" height="20">
+              <Text string="'Dennis Thony Pedersen - Modeler/Coder'" style="Style/CreditsStyle" />
+            </Transform>
+          </Transform>
+          <Transform x="0" y="975" width="500" height="40">
+            <Transform x="0" y="0" width="350" height="20">
+              <Text string="'phantom'" style="RightAligned('StarJedi14.dif')" />
+            </Transform>
+            <Transform x="375" y="11" width="360" height="20">
+              <Text string="'Daniel Aston - Mapper'" style="Style/CreditsStyle" />
+            </Transform>
+          </Transform>
+          <Transform x="0" y="1050" width="500" height="40">
+            <Transform x="0" y="0" width="350" height="20">
+              <Text string="'neko'" style="RightAligned('StarJedi14.dif')" />
+            </Transform>
+            <Transform x="375" y="11" width="360" height="20">
+              <Text string="'Albert Kaaman - Modeler'" style="Style/CreditsStyle" />
+            </Transform>
+          </Transform>
+          <Transform x="0" y="1125" width="500" height="40">
+            <Transform x="0" y="0" width="350" height="20">
+              <Text string="'nomen'" style="RightAligned('StarJedi14.dif')" />
+            </Transform>
+            <Transform x="375" y="11" width="360" height="20">
+              <Text string="'norman - Modeller/Skinner '" style="Style/CreditsStyle" />
+            </Transform>
+          </Transform>
+          <Transform x="0" y="1200" width="500" height="40">
+            <Transform x="0" y="0" width="350" height="20">
+              <Text string="'liam--'" style="RightAligned('StarJedi14.dif')" />
+            </Transform>
+            <Transform x="375" y="11" width="360" height="20">
+              <Text string="'Liam Lawson - Mapper/Coder'" style="Style/CreditsStyle" />
+            </Transform>
+          </Transform>
+          <Transform x="0" y="1275" width="500" height="40">
+            <Transform x="0" y="0" width="350" height="20">
+              <Text string="'django'" style="RightAligned('StarJedi14.dif')" />
+            </Transform>
+            <Transform x="375" y="11" width="360" height="20">
+              <Text string="'Stephan Bork - Coder'" style="Style/CreditsStyle" />
+            </Transform>
+          </Transform>
+          <Transform x="0" y="1350" width="500" height="40">
+            <Transform x="0" y="0" width="350" height="20">
+              <Text string="'woodrow'" style="RightAligned('StarJedi14.dif')" />
+            </Transform>
+            <Transform x="375" y="11" width="360" height="20">
+              <Text string="'Richard Woodward-Roth - Coder'" style="Style/CreditsStyle" />
+            </Transform>
+          </Transform>
+          <Transform x="0" y="1425" width="500" height="40">
+            <Transform x="0" y="0" width="350" height="20">
+              <Text string="'tyler'" style="RightAligned('StarJedi14.dif')" />
+            </Transform>
+            <Transform x="375" y="11" width="360" height="20">
+              <Text string="'Tyler - Modeller/SKinner'" style="Style/CreditsStyle" />
+            </Transform>
+          </Transform>
+          <Transform x="0" y="1500" width="500" height="40">
+            <Transform x="0" y="0" width="350" height="20">
+              <Text string="'killthraka'" style="RightAligned('StarJedi14.dif')" />
+            </Transform>
+            <Transform x="375" y="11" width="360" height="20">
+              <Text string="'Tavis Settles - Tech Support/Server Admin'" style="Style/CreditsStyle" />
+            </Transform>
+          </Transform>
+          <Transform x="0" y="1575" width="500" height="40">
+            <Transform x="0" y="0" width="350" height="20">
+              <Text string="'Gamboot'" style="RightAligned('StarJedi14.dif')" />
+            </Transform>
+            <Transform x="375" y="11" width="360" height="20">
+              <Text string="'Dave Wilson - GC Official Helper'" style="Style/CreditsStyle" />
+            </Transform>
+          </Transform>
+          <Transform x="0" y="1650" width="500" height="40">
+            <Transform x="0" y="0" width="350" height="20">
+              <Text string="'kman'" style="RightAligned('StarJedi14.dif')" />
+            </Transform>
+            <Transform x="375" y="11" width="360" height="20">
+              <Text string="'Kurtis Smith - Modeler/Skinner'" style="Style/CreditsStyle" />
+            </Transform>
+          </Transform>
+          <Transform x="0" y="1725" width="500" height="40">
+            <Transform x="0" y="0" width="350" height="20">
+              <Text string="'vocalvoodoo'" style="RightAligned('StarJedi14.dif')" />
+            </Transform>
+            <Transform x="375" y="11" width="360" height="20">
+              <Text string="'Josh Mahler - Sound/Voice actor'" style="Style/CreditsStyle" />
+            </Transform>
+          </Transform>
+          <Transform x="0" y="1800" width="500" height="40">
+            <Transform x="0" y="0" width="350" height="20">
+              <Text string="'flpngboy'" style="RightAligned('StarJedi14.dif')" />
+            </Transform>
+            <Transform x="375" y="11" width="360" height="20">
+              <Text string="'Allen Guzzetta  - Sound Engineer, Technical Writer'" style="Style/CreditsStyle" />
+            </Transform>
+          </Transform>
+          <Transform x="0" y="1875" width="500" height="40">
+            <Transform x="0" y="0" width="350" height="20">
+              <Text string="'courtesyflush'" style="RightAligned('StarJedi14.dif')" />
+            </Transform>
+            <Transform x="375" y="11" width="360" height="20">
+              <Text string="'Nathan Frost - Skinner/Modeller'" style="Style/CreditsStyle" />
+            </Transform>
+          </Transform>
+          <Transform x="0" y="1950" width="500" height="40">
+            <Transform x="0" y="0" width="350" height="20">
+              <Text string="'Squiggles'" style="RightAligned('StarJedi14.dif')" />
+            </Transform>
+            <Transform x="375" y="11" width="360" height="20">
+              <Text string="'Stephen Dodge - Modeller/Skinner'" style="Style/CreditsStyle" />
+            </Transform>
+          </Transform>
+          <Transform x="0" y="2025" width="500" height="40">
+            <Transform x="0" y="0" width="350" height="20">
+              <Text string="'gits'" style="RightAligned('StarJedi14.dif')" />
+            </Transform>
+            <Transform x="375" y="11" width="360" height="20">
+              <Text string="'Modeler'" style="Style/CreditsStyle" />
+            </Transform>
+          </Transform>
+          <Transform x="0" y="2100" width="500" height="40">
+            <Transform x="0" y="0" width="350" height="20">
+              <Text string="'draconb'" style="RightAligned('StarJedi14.dif')" />
+            </Transform>
+            <Transform x="375" y="11" width="360" height="20">
+              <Text string="'Modeler'" style="Style/CreditsStyle" />
+            </Transform>
+          </Transform>
+          <Transform x="0" y="2175" width="500" height="40">
+            <Transform x="0" y="0" width="350" height="20">
+              <Text string="'psistorm'" style="RightAligned('StarJedi14.dif')" />
+            </Transform>
+            <Transform x="375" y="11" width="360" height="20">
+              <Text string="'Stefan Biermann - Modeler'" style="Style/CreditsStyle" />
+            </Transform>
+          </Transform>
+          <Transform x="0" y="2250" width="500" height="40">
+            <Transform x="0" y="0" width="350" height="20">
+              <Text string="'alec harrison'" style="RightAligned('StarJedi14.dif')" />
+            </Transform>
+            <Transform x="375" y="11" width="360" height="20">
+              <Text string="'Galactic Conquest Musical Score'" style="Style/CreditsStyle" />
+            </Transform>
+          </Transform>
+          <Transform x="0" y="2325" width="500" height="40">
+            <Transform x="0" y="0" width="350" height="20">
+              <Text string="'special thanks'" style="RightAligned('StarJedi14.dif')" />
+            </Transform>
+            <Transform x="375" y="11" width="360" height="20">
+              <Text string="'The few, the proud, the Galactic '" style="Style/CreditsStyle" />
+            </Transform>
+          </Transform>
+          <Transform x="0" y="2345" width="500" height="40">
+            <Transform x="0" y="0" width="350" height="20">
+              <Text string="LocaleString(Locale/Locale, Locale/Valid, '')" style="RightAligned('StarJedi14.dif')" />
+            </Transform>
+            <Transform x="375" y="11" width="360" height="20">
+              <Text string="'Conquest Alpha testers'" style="Style/CreditsStyle" />
+            </Transform>
+          </Transform>
+          <Transform x="0" y="2365" width="500" height="40">
+            <Transform x="0" y="0" width="350" height="20">
+              <Text string="LocaleString(Locale/Locale, Locale/Valid, '')" style="RightAligned('StarJedi14.dif')" />
+            </Transform>
+            <Transform x="375" y="11" width="360" height="20">
+              <Text string="'All of our fans!!!!'" style="Style/CreditsStyle" />
+            </Transform>
+          </Transform>
+          <Transform x="0" y="2385" width="500" height="40">
+            <Transform x="0" y="0" width="350" height="20">
+              <Text string="LocaleString(Locale/Locale, Locale/Valid, '')" style="RightAligned('StarJedi14.dif')" />
+            </Transform>
+            <Transform x="375" y="11" width="360" height="20">
+              <Text string="'George Lucas and everyone at '" style="Style/CreditsStyle" />
+            </Transform>
+          </Transform>
+          <Transform x="0" y="2405" width="500" height="40">
+            <Transform x="0" y="0" width="350" height="20">
+              <Text string="LocaleString(Locale/Locale, Locale/Valid, '')" style="RightAligned('StarJedi14.dif')" />
+            </Transform>
+            <Transform x="375" y="11" width="360" height="20">
+              <Text string="'LucasFilms Ltd, Industrial Light'" style="Style/CreditsStyle" />
+            </Transform>
+          </Transform>
+          <Transform x="0" y="2425" width="500" height="40">
+            <Transform x="0" y="0" width="350" height="20">
+              <Text string="LocaleString(Locale/Locale, Locale/Valid, '')" style="RightAligned('StarJedi14.dif')" />
+            </Transform>
+            <Transform x="375" y="11" width="360" height="20">
+              <Text string="'and Magic, LucasArts and everyone'" style="Style/CreditsStyle" />
+            </Transform>
+          </Transform>
+          <Transform x="0" y="2445" width="500" height="40">
+            <Transform x="0" y="0" width="350" height="20">
+              <Text string="LocaleString(Locale/Locale, Locale/Valid, '')" style="RightAligned('StarJedi14.dif')" />
+            </Transform>
+            <Transform x="375" y="11" width="360" height="20">
+              <Text string="'who made the films and universe '" style="Style/CreditsStyle" />
+            </Transform>
+          </Transform>
+          <Transform x="0" y="2465" width="500" height="40">
+            <Transform x="0" y="0" width="350" height="20">
+              <Text string="LocaleString(Locale/Locale, Locale/Valid, '')" style="RightAligned('StarJedi14.dif')" />
+            </Transform>
+            <Transform x="375" y="11" width="360" height="20">
+              <Text string="'that inspired this fan-made mod.'" style="Style/CreditsStyle" />
+            </Transform>
+          </Transform>
+          <Transform x="0" y="2485" width="500" height="40">
+            <Transform x="0" y="0" width="350" height="20">
+              <Text string="LocaleString(Locale/Locale, Locale/Valid, '')" style="RightAligned('StarJedi14.dif')" />
+            </Transform>
+            <Transform x="375" y="11" width="360" height="20">
+              <Text string="'Everyone at Digital Illusions CE'" style="Style/CreditsStyle" />
+            </Transform>
+          </Transform>
+          <Transform x="0" y="2505" width="500" height="40">
+            <Transform x="0" y="0" width="350" height="20">
+              <Text string="LocaleString(Locale/Locale, Locale/Valid, '')" style="RightAligned('StarJedi14.dif')" />
+            </Transform>
+            <Transform x="375" y="11" width="360" height="20">
+              <Text string="'AB and Electronic Arts who '" style="Style/CreditsStyle" />
+            </Transform>
+          </Transform>
+          <Transform x="0" y="2525" width="500" height="40">
+            <Transform x="0" y="0" width="350" height="20">
+              <Text string="LocaleString(Locale/Locale, Locale/Valid, '')" style="RightAligned('StarJedi14.dif')" />
+            </Transform>
+            <Transform x="375" y="11" width="360" height="20">
+              <Text string="'brought us Battlefield 1942.'" style="Style/CreditsStyle" />
+            </Transform>
+          </Transform>
+        </Transform>
+        <Transform x="20" y="Credits/CreditsY" width="600" height="300">
+          <If condition="false">
+            <Transform x="0" y="0" width="500" height="40" />
+          </If>
+        </Transform>
+        <If condition="Credits/Pause">
+          <Credits value="Credits/CreditsY" end-value="-6075" reset-value="485" time="600" trigger="Credits/RunCreditsList" />
+          <If condition="false" />
+          <If condition="false">
+            <Credits value="Credits/CreditsY" end-value="-5005" reset-value="485" time="600" trigger="Credits/RunCreditsList" />
+          </If>
+        </If>
+      </Transform>
+      <CullEventAction event="Button(0, ButtonPress, Enter)">
+        <ToggleVariable variable="Credits/Pause" />
+      </CullEventAction>
+    </If>
+  </If>
 </MemeFile>
