@@ -11,4 +11,5 @@ for file in Path("../src/menu").iterdir():
         print(f"Exporting {file}")
         meme_file = MemeFile(file)
         meme_file.read()
+        meme_file.flatten()
         meme_file.save_to_xml()

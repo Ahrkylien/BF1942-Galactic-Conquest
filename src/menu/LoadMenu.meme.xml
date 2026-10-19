@@ -92,782 +92,679 @@
       <Picture picture="" />
     </If>
   </Transform>
-  <Group>
-    <Group>
-      <If condition="TransitionEffect">
-        <Group>
-          <Group>
-            <Group>
-              <Group>
-                <If condition="TransitionEffect is 1">
-                  <TimeoutAction timeout-time="5">
-                    <ActionList>
-                      <SetVariable variable="FocusEffect/BgPicAlpha" value="0.0" />
-                      <SetVariable variable="FocusEffect/GoFadeOutLoadPicture" value="true" />
-                      <SetVariable variable="FocusEffect/GoFadeOut2" value="true" />
-                      <SetVariable variable="FocusEffect/GoMoveYOut" value="true" />
-                      <SetVariable variable="TransitionEffect" value="0" />
-                    </ActionList>
-                  </TimeoutAction>
-                  <Action>
-                    <ActionList>
-                      <SetVariable variable="FocusEffect/BGAlpha" value="0.0" />
-                    </ActionList>
-                  </Action>
-                </If>
-                <If condition="TransitionEffect is 2">
-                  <TimeoutAction timeout-time="1">
-                    <ActionList>
-                      <SetVariable variable="FocusEffect/GoFadeIn" value="true" />
-                      <SetVariable variable="FocusEffect/GoFadeInLoadPicture" value="true" />
-                      <SetVariable variable="FocusEffect/GoMoveYIn" value="true" />
-                      <SetVariable variable="FocusEffect/YPos" value="15.0" />
-                      <SetVariable variable="TransitionEffect" value="0" />
-                    </ActionList>
-                  </TimeoutAction>
-                  <Action>
-                    <ActionList>
-                      <SetVariable variable="FocusEffect/Alpha" value="0.0" />
-                      <SetVariable variable="FocusEffect/LoadAlpha" value="0.0" />
-                    </ActionList>
-                  </Action>
-                </If>
-              </Group>
-              <If condition="TransitionEffect is 3">
-                <TimeoutAction timeout-time="1">
-                  <ActionList>
-                    <SetVariable variable="FocusEffect/GoFadeIn" value="true" />
-                    <SetVariable variable="FocusEffect/GoMoveLeftIn" value="true" />
-                    <SetVariable variable="FocusEffect/GoMoveRightIn" value="true" />
-                    <SetVariable variable="FocusEffect/GoMoveYIn" value="true" />
-                    <SetVariable variable="FocusEffect/LeftPos" value="-30.0" />
-                    <SetVariable variable="FocusEffect/RightPos" value="30.0" />
-                    <SetVariable variable="FocusEffect/YPos" value="30.0" />
-                    <SetVariable variable="TransitionEffect" value="0" />
-                  </ActionList>
-                </TimeoutAction>
-                <Action>
-                  <ActionList>
-                    <SetVariable variable="FocusEffect/Alpha" value="0.0" />
-                    <SetVariable variable="FocusEffect/BGAlpha" value="1.0" />
-                  </ActionList>
-                </Action>
-              </If>
-            </Group>
-            <If condition="TransitionEffect is 4">
-              <If condition="StartingGame is 1 or StartingGame is 4">
-                <TimeoutAction timeout-time="1">
-                  <ActionList>
-                    <SetVariable variable="FocusEffect/Abort" value="1" />
-                    <SetVariable variable="FocusEffect/GoFadeOut" value="true" />
-                    <SetVariable variable="FocusEffect/GoMoveLeftOut" value="true" />
-                    <SetVariable variable="FocusEffect/GoMoveRightOut" value="true" />
-                    <SetVariable variable="FocusEffect/GoMoveYOut" value="true" />
-                    <SetVariable variable="TransitionEffect" value="0" />
-                  </ActionList>
-                </TimeoutAction>
-              </If>
-              <If condition="StartingGame is 0 or (StartingGame is 3 or StartingGame is 2)">
-                <TimeoutAction timeout-time="0">
-                  <ActionList>
-                    <SetVariable variable="FocusEffect/GoFadeOut" value="true" />
-                    <SetVariable variable="FocusEffect/GoFadeOutLoadPicture" value="true" />
-                    <SetVariable variable="FocusEffect/GoMoveYOut" value="true" />
-                    <SetVariable variable="TransitionEffect" value="0" />
-                  </ActionList>
-                </TimeoutAction>
+  <If condition="TransitionEffect">
+    <If condition="TransitionEffect is 1">
+      <TimeoutAction timeout-time="5">
+        <ActionList>
+          <SetVariable variable="FocusEffect/BgPicAlpha" value="0.0" />
+          <SetVariable variable="FocusEffect/GoFadeOutLoadPicture" value="true" />
+          <SetVariable variable="FocusEffect/GoFadeOut2" value="true" />
+          <SetVariable variable="FocusEffect/GoMoveYOut" value="true" />
+          <SetVariable variable="TransitionEffect" value="0" />
+        </ActionList>
+      </TimeoutAction>
+      <Action>
+        <ActionList>
+          <SetVariable variable="FocusEffect/BGAlpha" value="0.0" />
+        </ActionList>
+      </Action>
+    </If>
+    <If condition="TransitionEffect is 2">
+      <TimeoutAction timeout-time="1">
+        <ActionList>
+          <SetVariable variable="FocusEffect/GoFadeIn" value="true" />
+          <SetVariable variable="FocusEffect/GoFadeInLoadPicture" value="true" />
+          <SetVariable variable="FocusEffect/GoMoveYIn" value="true" />
+          <SetVariable variable="FocusEffect/YPos" value="15.0" />
+          <SetVariable variable="TransitionEffect" value="0" />
+        </ActionList>
+      </TimeoutAction>
+      <Action>
+        <ActionList>
+          <SetVariable variable="FocusEffect/Alpha" value="0.0" />
+          <SetVariable variable="FocusEffect/LoadAlpha" value="0.0" />
+        </ActionList>
+      </Action>
+    </If>
+    <If condition="TransitionEffect is 3">
+      <TimeoutAction timeout-time="1">
+        <ActionList>
+          <SetVariable variable="FocusEffect/GoFadeIn" value="true" />
+          <SetVariable variable="FocusEffect/GoMoveLeftIn" value="true" />
+          <SetVariable variable="FocusEffect/GoMoveRightIn" value="true" />
+          <SetVariable variable="FocusEffect/GoMoveYIn" value="true" />
+          <SetVariable variable="FocusEffect/LeftPos" value="-30.0" />
+          <SetVariable variable="FocusEffect/RightPos" value="30.0" />
+          <SetVariable variable="FocusEffect/YPos" value="30.0" />
+          <SetVariable variable="TransitionEffect" value="0" />
+        </ActionList>
+      </TimeoutAction>
+      <Action>
+        <ActionList>
+          <SetVariable variable="FocusEffect/Alpha" value="0.0" />
+          <SetVariable variable="FocusEffect/BGAlpha" value="1.0" />
+        </ActionList>
+      </Action>
+    </If>
+    <If condition="TransitionEffect is 4">
+      <If condition="StartingGame is 1 or StartingGame is 4">
+        <TimeoutAction timeout-time="1">
+          <ActionList>
+            <SetVariable variable="FocusEffect/Abort" value="1" />
+            <SetVariable variable="FocusEffect/GoFadeOut" value="true" />
+            <SetVariable variable="FocusEffect/GoMoveLeftOut" value="true" />
+            <SetVariable variable="FocusEffect/GoMoveRightOut" value="true" />
+            <SetVariable variable="FocusEffect/GoMoveYOut" value="true" />
+            <SetVariable variable="TransitionEffect" value="0" />
+          </ActionList>
+        </TimeoutAction>
+      </If>
+      <If condition="StartingGame is 0 or (StartingGame is 3 or StartingGame is 2)">
+        <TimeoutAction timeout-time="0">
+          <ActionList>
+            <SetVariable variable="FocusEffect/GoFadeOut" value="true" />
+            <SetVariable variable="FocusEffect/GoFadeOutLoadPicture" value="true" />
+            <SetVariable variable="FocusEffect/GoMoveYOut" value="true" />
+            <SetVariable variable="TransitionEffect" value="0" />
+          </ActionList>
+        </TimeoutAction>
+      </If>
+    </If>
+    <If condition="TransitionEffect is 5">
+      <TimeoutAction timeout-time="3">
+        <ActionList>
+          <SetVariable variable="FocusEffect/GoFadeInButton" value="true" />
+          <SetVariable variable="TransitionEffect" value="0" />
+        </ActionList>
+      </TimeoutAction>
+      <Action>
+        <ActionList>
+          <SetVariable variable="FocusEffect/ButtonAlpha" value="0.0" />
+        </ActionList>
+      </Action>
+    </If>
+    <If condition="TransitionEffect is 6">
+      <TimeoutAction timeout-time="0">
+        <ActionList>
+          <SetVariable variable="Load/ShowDefaultLoadingPicture" value="false" />
+          <SetVariable variable="FocusEffect/GoPictureSwitch" value="true" />
+          <SetVariable variable="TransitionEffect" value="0" />
+        </ActionList>
+      </TimeoutAction>
+      <Action>
+        <ActionList>
+          <SetVariable variable="FocusEffect/LoadAlpha" value="FloatRef()" />
+        </ActionList>
+      </Action>
+      <If condition="FocusEffect/Alpha is_not 1.0">
+        <TimeoutAction timeout-time="0">
+          <ActionList>
+            <SetVariable variable="FocusEffect/GoFadeIn" value="true" />
+            <SetVariable variable="FocusEffect/GoMoveYIn" value="true" />
+          </ActionList>
+        </TimeoutAction>
+        <Action>
+          <ActionList>
+            <SetVariable variable="FocusEffect/Alpha" value="0.0" />
+            <SetVariable variable="FocusEffect/LoadAlpha" value="0.0" />
+          </ActionList>
+        </Action>
+      </If>
+    </If>
+  </If>
+  <If condition="not ShowDebriefing">
+    <If condition="Load/LoadState is 0 or Load/LoadState is 5 or (Load/LoadState is 1 or Load/LoadState is 2)">
+      <If condition="StartingGame is 0 or (StartingGame is 3 or StartingGame is 2)">
+        <AddSubNextEffect value="FocusEffect/Alpha" end-value="1" start-time="0.0" start-percentage="0.0" end-time="0.2" delay="0.0" up="false" trigger="FocusEffect/GoFadeIn">
+          <ActionList />
+        </AddSubNextEffect>
+        <AddSubNextEffect value="FocusEffect/LoadAlpha" end-value="1" start-time="0.0" start-percentage="0.0" end-time="0.2" delay="0.0" up="false" trigger="FocusEffect/GoFadeInLoadPicture">
+          <ActionList />
+        </AddSubNextEffect>
+        <AddSubNextEffect value="FocusEffect/YPos" end-value="1" start-time="0.0" start-percentage="0.0" end-time="0.2" delay="0.1" up="false" trigger="FocusEffect/GoMoveYIn">
+          <ActionList>
+            <CallFunction function="ContinueLoading" />
+          </ActionList>
+        </AddSubNextEffect>
+        <AddSubNextEffect value="FocusEffect/Alpha" end-value="0" start-time="0.0" start-percentage="0.0" end-time="0.2" delay="0.1" up="false" trigger="FocusEffect/GoFadeOut">
+          <ActionList>
+            <CallFunction function="CancelLoading" />
+          </ActionList>
+        </AddSubNextEffect>
+        <AddSubNextEffect value="FocusEffect/LoadAlpha" end-value="0" start-time="0.0" start-percentage="0.0" end-time="0.2" delay="0.1" up="false" trigger="FocusEffect/GoFadeOutLoadPicture">
+          <ActionList />
+        </AddSubNextEffect>
+        <AddSubNextEffect value="FocusEffect/Alpha" end-value="0" start-time="0.0" start-percentage="0.0" end-time="0.2" delay="0.1" up="false" trigger="FocusEffect/GoFadeOut2">
+          <ActionList>
+            <SetVariable variable="Load/LoadState" value="4" />
+            <SetVariable variable="FocusEffect/GoFadeIn" value="true" />
+            <SetVariable variable="TransitionEffect" value="0" />
+          </ActionList>
+        </AddSubNextEffect>
+        <AddSubNextEffect value="FocusEffect/YPos" end-value="15" start-time="0.0" start-percentage="0.0" end-time="0.2" delay="0.0" up="false" trigger="FocusEffect/GoMoveYOut" />
+        <AddSubNextEffect value="FocusEffect/LoadAlpha" end-value="1" start-time="0.0" start-percentage="0.0" end-time="1.0" delay="0.0" up="false" trigger="FocusEffect/GoPictureSwitch">
+          <ActionList>
+            <SetVariable variable="Load/ShowDefaultLoadingPicture" value="false" />
+          </ActionList>
+        </AddSubNextEffect>
+        <Transform x="0" y="0" width="800" height="600">
+          <Transform x="0" y="85" width="800" height="450">
+            <Effect>
+              <MultiplyColor alpha="FocusEffect/BgPicAlpha" />
+            </Effect>
+            <Picture picture="Menu/Background.tga" />
+          </Transform>
+          <Effect>
+            <MultiplyColor alpha="FocusEffect/LoadAlpha" />
+          </Effect>
+          <If condition="not Load/ShowDefaultLoadingPicture">
+            <VariablePicture first-part="Load/LoadPicture" />
+          </If>
+          <If condition="Load/ShowDefaultLoadingPicture">
+            <Transform x="0" y="85" width="800" height="450">
+              <Picture picture="Menu/Background.tga" />
+            </Transform>
+          </If>
+        </Transform>
+        <Translate x="0" y="FocusEffect/YPos" />
+        <Effect>
+          <MultiplyColor alpha="FocusEffect/Alpha" />
+        </Effect>
+        <Transform x="260" y="500" width="512" height="64">
+          <Transform x="17" y="33" width="260" height="20">
+            <Transform x="0" y="0" width="260" height="20">
+              <Picture picture="loadbarbackground.tga" />
+            </Transform>
+            <Transform x="2" y="2" width="256" height="16">
+              <Picture picture="loadingfull_256x16.tga" fill-picture="loadbar.tga" data="Load/LoadPercent" maximum-value="100" size="255" horizontal-align="true" fill-order="true" />
+            </Transform>
+          </Transform>
+        </Transform>
+        <Transform x="385" y="555" width="16" height="20">
+          <Effect>
+            <Color color="0.8549, 0.8549, 0.5882" />
+          </Effect>
+          <Action>
+            <SetVariable variable="MyPercent" value="Load/LoadPercent" />
+          </Action>
+          <Text string="MyPercent" style="Style/LoadHeading8" />
+        </Transform>
+        <Transform x="408" y="555" width="10" height="20">
+          <Effect>
+            <Color color="0.8549, 0.8549, 0.5882" />
+          </Effect>
+          <Text string="'%'" style="Style/LoadHeading8" />
+        </Transform>
+      </If>
+      <If condition="StartingGame is 1 or StartingGame is 4">
+        <AddSubEffect value="FocusEffect/Alpha" end-value="1" start-time="0.0" start-percentage="0.0" end-time="0.2" delay="0.0" up="false" trigger="FocusEffect/GoFadeIn" />
+        <AddSubEffect value="FocusEffect/LeftPos" end-value="0" start-time="0.0" start-percentage="0.0" end-time="0.2" delay="0.0" up="false" trigger="FocusEffect/GoMoveLeftIn" />
+        <AddSubEffect value="FocusEffect/RightPos" end-value="0" start-time="0.0" start-percentage="0.0" end-time="0.2" delay="0.0" up="false" trigger="FocusEffect/GoMoveRightIn" />
+        <AddSubEffect value="FocusEffect/YPos" end-value="0" start-time="0.0" start-percentage="0.0" end-time="0.2" delay="0.0" up="false" trigger="FocusEffect/GoMoveYIn" />
+        <If condition="FocusEffect/Abort is 0">
+          <AddSubNextEffect value="FocusEffect/Alpha" end-value="0" start-time="0.0" start-percentage="0.0" end-time="0.2" delay="0.0" up="false" trigger="FocusEffect/GoFadeOut" />
+          <AddSubNextEffect value="FocusEffect/BGAlpha" end-value="0.0" start-time="0.0" start-percentage="0.0" end-time="0.2" delay="0.0" up="false" trigger="FocusEffect/GoFadeOut1">
+            <ActionList>
+              <SetVariable variable="FocusEffect/BGAlpha" value="0.0" />
+              <CallFunction function="StartSinglePlayer" />
+            </ActionList>
+          </AddSubNextEffect>
+          <AddSubNextEffect value="FocusEffect/LeftPos" end-value="-30" start-time="0.0" start-percentage="0.0" end-time="0.2" delay="0.0" up="false" trigger="FocusEffect/GoMoveLeftOut" />
+          <AddSubNextEffect value="FocusEffect/RightPos" end-value="30" start-time="0.0" start-percentage="0.0" end-time="0.2" delay="0.0" up="false" trigger="FocusEffect/GoMoveRightOut" />
+          <AddSubNextEffect value="FocusEffect/YPos" end-value="30" start-time="0.0" start-percentage="0.0" end-time="0.2" delay="0.0" up="false" trigger="FocusEffect/GoMoveYOut" />
+        </If>
+        <If condition="FocusEffect/Abort is 1">
+          <AddSubNextEffect value="FocusEffect/Alpha" end-value="0" start-time="0.0" start-percentage="0.0" end-time="0.2" delay="0.0" up="false" trigger="FocusEffect/GoFadeOut">
+            <ActionList>
+              <CallFunction function="CancelSinglePlayer" />
+            </ActionList>
+          </AddSubNextEffect>
+          <AddSubNextEffect value="FocusEffect/LeftPos" end-value="-30" start-time="0.0" start-percentage="0.0" end-time="0.2" delay="0.0" up="false" trigger="FocusEffect/GoMoveLeftOut" />
+          <AddSubNextEffect value="FocusEffect/RightPos" end-value="30" start-time="0.0" start-percentage="0.0" end-time="0.2" delay="0.0" up="false" trigger="FocusEffect/GoMoveRightOut" />
+        </If>
+        <Transform x="0" y="85" width="800" height="450">
+          <Effect>
+            <MultiplyColor alpha="FocusEffect/BGAlpha" />
+          </Effect>
+          <Transform x="0" y="-85" width="800" height="600">
+            <Effect>
+              <Color color="#000000" />
+            </Effect>
+            <Picture picture="" />
+          </Transform>
+          <Picture picture="Menu/Background.tga" />
+        </Transform>
+        <Effect>
+          <MultiplyColor alpha="FocusEffect/Alpha" />
+        </Effect>
+        <Transform x="30" y="55" width="512" height="512">
+          <Translate x="FocusEffect/LeftPos" y="0" />
+          <Picture picture="Briefing/SP_briefing_512x512.tga" />
+          <Transform x="10" y="8" width="100" height="20">
+            <Effect>
+              <Color color="#000000" />
+            </Effect>
+            <Text string="LocaleString(Locale/Locale, Locale/Valid, 'MULTIPLAYER_MAPNAME')" style="Style/LoadHeading8" />
+          </Transform>
+          <Transform x="4" y="27" width="512" height="512">
+            <VariablePicture first-part="Briefing/BriefingPicture" />
+          </Transform>
+        </Transform>
+        <Transform x="405" y="55" width="512" height="512">
+          <Translate x="FocusEffect/RightPos" y="0" />
+          <Picture picture="Briefing/SP_briefing_512x512.tga" />
+          <Transform x="10" y="8" width="100" height="20">
+            <Effect>
+              <Color color="#000000" />
+            </Effect>
+            <Text string="LocaleString(Locale/Locale, Locale/Valid, 'BRIEFING_HEADING')" style="Style/LoadHeading8" />
+          </Transform>
+          <Transform x="10" y="32" width="340" height="350">
+            <Text string="Briefing/BriefingText" style="BfStyle('standard6.dif')" />
+          </Transform>
+        </Transform>
+        <Translate x="0" y="FocusEffect/YPos" />
+        <Transform x="30" y="455" width="512" height="128">
+          <Picture picture="Briefing/SP_briefing_SMALL_512x128.tga" />
+          <Transform x="10" y="8" width="120" height="20">
+            <Effect>
+              <Color color="#000000" />
+            </Effect>
+            <Text string="LocaleString(Locale/Locale, Locale/Valid, 'BRIEFING_OBJECTIVES_HEADING')" style="Style/LoadHeading8" />
+          </Transform>
+          <Transform x="10" y="35" width="320" height="65">
+            <Text string="Briefing/ObjectivesText" style="BfStyle('standard6.dif')" />
+          </Transform>
+        </Transform>
+        <Transform x="405" y="455" width="512" height="128">
+          <Picture picture="Briefing/SP_briefing_SMALL_512x128.tga" />
+          <AddSubNextEffect value="FocusEffect/ButtonAlpha" end-value="1" start-time="0.0" start-percentage="0.0" end-time="0.5" delay="0.0" up="false" trigger="FocusEffect/GoFadeInButton">
+            <ActionList>
+              <SetVariable variable="Load/LoadState" value="2" />
+            </ActionList>
+          </AddSubNextEffect>
+          <Transform x="10" y="8" width="250" height="20">
+            <Effect>
+              <Color color="#000000" />
+            </Effect>
+            <Text string="Load/LevelName" style="Style/LoadHeading8" />
+          </Transform>
+          <Transform x="50" y="45" width="258" height="18">
+            <If condition="Load/LoadState is 2">
+              <Effect>
+                <MultiplyColor alpha="1.0 minus FocusEffect/ButtonAlpha" />
+              </Effect>
+              <Transform x="0" y="0" width="262" height="18">
+                <Effect>
+                  <Color color="0.5468, 0.5468, 0.5468" />
+                </Effect>
+                <Picture picture="" />
+              </Transform>
+              <Transform x="2" y="1" width="258" height="16">
+                <Effect>
+                  <Color color="#000000" />
+                </Effect>
+                <Picture picture="" />
+              </Transform>
+              <Transform x="3" y="2" width="256" height="14">
+                <Picture picture="loadingfull_256x16.tga" fill-picture="loading_full_256x16.tga" data="Load/LoadPercent" maximum-value="100" size="256" horizontal-align="true" fill-order="false" />
+              </Transform>
+            </If>
+          </Transform>
+          <Transform x="5" y="70" width="360" height="20">
+            <If condition="Load/LoadState is 2">
+              <Effect>
+                <Color color="0.84375, 0.73, 0.65, 1.0 minus FocusEffect/ButtonAlpha" />
+              </Effect>
+              <Text string="Briefing/EscapeToCancel" style="CenterAligned('standard6.dif')" />
+            </If>
+          </Transform>
+          <Transform x="50" y="45" width="258" height="18">
+            <If condition="Load/LoadState is 1">
+              <Transform x="0" y="0" width="262" height="18">
+                <Effect>
+                  <Color color="0.5468, 0.5468, 0.5468" />
+                </Effect>
+                <Picture picture="" />
+              </Transform>
+              <Transform x="2" y="1" width="258" height="16">
+                <Effect>
+                  <Color color="#000000" />
+                </Effect>
+                <Picture picture="" />
+              </Transform>
+              <Transform x="3" y="2" width="256" height="14">
+                <Picture picture="loadingfull_256x16.tga" fill-picture="loading_full_256x16.tga" data="Load/LoadPercent" maximum-value="100" size="256" horizontal-align="true" fill-order="false" />
+              </Transform>
+            </If>
+          </Transform>
+          <Transform x="25" y="50" width="128" height="128">
+            <If condition="Load/LoadState is 0 or Load/LoadState is 2">
+              <Effect>
+                <MultiplyColor alpha="FocusEffect/ButtonAlpha" />
+              </Effect>
+              <Button picture="Menu/knappExt_N.tga" mouse-over-picture="Menu/knappExt_MO.tga" width="109" height="25">
+                <ActionList>
+                  <SetVariable variable="FocusEffect/Abort" value="1" />
+                  <SetVariable variable="FocusEffect/GoFadeOut" value="true" />
+                  <SetVariable variable="FocusEffect/GoFadeOut1" value="true" />
+                  <SetVariable variable="FocusEffect/GoMoveLeftOut" value="true" />
+                  <SetVariable variable="FocusEffect/GoMoveRightOut" value="true" />
+                </ActionList>
+              </Button>
+              <Transform x="5" y="9" width="96" height="18">
+                <Text string="LocaleString(Locale/Locale, Locale/Valid, 'BRIEFING_ABORT')" style="Style/LoadNavigationStyle" />
+              </Transform>
+              <Transform x="2" y="1" width="106" height="23">
+                <CullEventAction event="Button(0, ButtonPress, Select)">
+                  <CallFunction function="Sound/PlayLoadMenuCancel" />
+                </CullEventAction>
+                <CullEventAction event="Type(0, PointerIn)">
+                  <CallFunction function="Sound/PlayLoadMenuHighLight" />
+                </CullEventAction>
+              </Transform>
+            </If>
+          </Transform>
+          <Transform x="225" y="50" width="128" height="128">
+            <If condition="Load/LoadState is 0">
+              <Button picture="Menu/knapp3_N.tga" mouse-over-picture="Menu/knapp3_MO.tga" width="109" height="25">
+                <ActionList>
+                  <CallFunction function="LoadSinglePlayer" />
+                </ActionList>
+              </Button>
+              <Transform x="8" y="9" width="97" height="18">
+                <Text string="LocaleString(Locale/Locale, Locale/Valid, 'BRIEFING_LOAD')" style="Style/LoadNavigationStyle" />
+              </Transform>
+              <Transform x="2" y="1" width="106" height="23">
+                <CullEventAction event="Button(0, ButtonPress, Select)">
+                  <CallFunction function="Sound/PlayLoadMenuCancel" />
+                </CullEventAction>
+                <CullEventAction event="Type(0, PointerIn)">
+                  <CallFunction function="Sound/PlayLoadMenuHighLight" />
+                </CullEventAction>
+              </Transform>
+            </If>
+          </Transform>
+          <Transform x="225" y="50" width="128" height="128">
+            <If condition="Load/LoadState is 2">
+              <Effect>
+                <MultiplyColor alpha="FocusEffect/ButtonAlpha" />
+              </Effect>
+              <Button picture="Menu/knapp3_N.tga" mouse-over-picture="Menu/knapp3_MO.tga" width="109" height="25">
+                <ActionList>
+                  <SetVariable variable="FocusEffect/Abort" value="0" />
+                  <SetVariable variable="FocusEffect/GoFadeOut" value="true" />
+                  <SetVariable variable="FocusEffect/GoFadeOut1" value="true" />
+                  <SetVariable variable="FocusEffect/GoMoveLeftOut" value="true" />
+                  <SetVariable variable="FocusEffect/GoMoveRightOut" value="true" />
+                  <CallFunction function="Sound/PlayLoadMenuStartGame" />
+                </ActionList>
+              </Button>
+              <Transform x="8" y="9" width="97" height="18">
+                <Text string="LocaleString(Locale/Locale, Locale/Valid, 'BRIEFING_PLAY')" style="Style/LoadNavigationStyle" />
+              </Transform>
+              <Transform x="2" y="1" width="106" height="23">
+                <CullEventAction event="Button(0, ButtonPress, Select)">
+                  <CallFunction function="Sound/PlayLoadMenuCancel" />
+                </CullEventAction>
+                <CullEventAction event="Type(0, PointerIn)">
+                  <CallFunction function="Sound/PlayLoadMenuHighLight" />
+                </CullEventAction>
+              </Transform>
+            </If>
+          </Transform>
+          <If condition="Load/LoadState is 1">
+            <Transform x="5" y="70" width="360" height="20">
+              <Effect>
+                <Color color="0.84375, 0.73, 0.65" />
+              </Effect>
+              <Text string="Briefing/EscapeToCancel" style="CenterAligned('standard6.dif')" />
+            </Transform>
+          </If>
+        </Transform>
+      </If>
+    </If>
+    <If condition="Load/LoadState is 4">
+      <AddSubNextEffect value="FocusEffect/Alpha" end-value="1" start-time="0.0" start-percentage="0.0" end-time="0.3" delay="1.0" up="false" trigger="FocusEffect/GoFadeIn">
+        <ActionList>
+          <SetVariable variable="FocusEffect/BGAlpha" value="0.0" />
+        </ActionList>
+      </AddSubNextEffect>
+      <AddSubEffect value="FocusEffect/BGAlpha" end-value="0" start-time="0.0" start-percentage="0.0" end-time="0.3" delay="1.0" up="false" trigger="FocusEffect/GoFadeIn" />
+      <AddSubNextEffect value="FocusEffect/Alpha" end-value="0" start-time="0.0" start-percentage="0.0" end-time="0.3" delay="0.0" up="false" trigger="FocusEffect/GoFadeOut">
+        <ActionList>
+          <CallFunction function="InfoMenu/DeActivateInfoMenu" />
+        </ActionList>
+      </AddSubNextEffect>
+      <Transform x="0" y="0" width="800" height="600">
+        <Effect>
+          <MultiplyColor alpha="FocusEffect/BGAlpha" />
+        </Effect>
+        <Picture picture="" />
+      </Transform>
+      <Effect>
+        <MultiplyColor alpha="FocusEffect/Alpha" />
+      </Effect>
+      <Transform x="144" y="80" width="512" height="512">
+        <Picture picture="Briefing/MP_briefing_512x512.tga" />
+        <Transform x="5" y="-2" width="500" height="20">
+          <Effect>
+            <Color color="#000000" />
+          </Effect>
+          <Text string="InfoMenu/InfoMenuHeading" style="Style/LoadHeadingStyle" />
+        </Transform>
+        <Transform x="150" y="30" width="240" height="20">
+          <Transform x="40" y="3" width="16" height="16">
+            <VariablePicture first-part="AxisTicketFlagLoad" />
+          </Transform>
+          <Transform x="65" y="6" width="80" height="20">
+            <Effect>
+              <Color color="#000000" />
+            </Effect>
+            <Text string="LocaleString(Locale/Locale, Locale/Valid, 'MULTIPLAYER_BRIEFING_VS')" style="CenterAligned('standard6.dif')" />
+          </Transform>
+          <Transform x="150" y="3" width="16" height="16">
+            <VariablePicture first-part="AlliedTicketFlagLoad" />
+          </Transform>
+        </Transform>
+        <Transform x="4" y="58" width="504" height="20">
+          <Effect>
+            <Color color="#000000" />
+          </Effect>
+          <Text string="InfoMenu/InfoMenuGameType" style="Style/LoadHeadingLatinCenter11" />
+        </Transform>
+        <Transform x="10" y="82" width="490" height="40">
+          <Transform x="0" y="0" width="380" height="20">
+            <Text string="LocaleString(Locale/Locale, Locale/Valid, 'MULTIPLAYER_BRIEFING_HEADING_1')" style="Style('standard6.dif')" />
+          </Transform>
+          <Transform x="415" y="0" width="80" height="20">
+            <Text string="InfoMenu/InfoMenuGeneralInfo1" style="RightAligned('standard6.dif')" />
+          </Transform>
+          <Transform x="0" y="15" width="380" height="20">
+            <Text string="LocaleString(Locale/Locale, Locale/Valid, 'MULTIPLAYER_BRIEFING_HEADING_2')" style="Style('standard6.dif')" />
+          </Transform>
+          <Transform x="415" y="15" width="80" height="20">
+            <Text string="InfoMenu/InfoMenuGeneralInfo2" style="RightAligned('standard6.dif')" />
+          </Transform>
+          <Transform x="0" y="30" width="380" height="20">
+            <If condition="Host/Create/GameType is 2 or Host/Create/GameType is 4">
+              <If condition="not (StartingGame is 0)">
+                <Text string="LocaleString(Locale/Locale, Locale/Valid, 'MULTIPLAYER_BRIEFING_HEADING_3')" style="Style('standard6.dif')" />
               </If>
             </If>
-          </Group>
-          <If condition="TransitionEffect is 5">
-            <TimeoutAction timeout-time="3">
-              <ActionList>
-                <SetVariable variable="FocusEffect/GoFadeInButton" value="true" />
-                <SetVariable variable="TransitionEffect" value="0" />
-              </ActionList>
-            </TimeoutAction>
-            <Action>
-              <ActionList>
-                <SetVariable variable="FocusEffect/ButtonAlpha" value="0.0" />
-              </ActionList>
-            </Action>
-          </If>
-        </Group>
-        <If condition="TransitionEffect is 6">
-          <TimeoutAction timeout-time="0">
+            <If condition="Host/Create/GameType is 1 or Host/Create/GameType is 3">
+              <If condition="not (StartingGame is 0)">
+                <Text string="LocaleString(Locale/Locale, Locale/Valid, 'MULTIPLAYER_BRIEFING_HEADING_4')" style="Style('standard6.dif')" />
+              </If>
+            </If>
+            <If condition="StartingGame is 0">
+              <Text string="LocaleString(Locale/Locale, Locale/Valid, 'SINGLEPLAYER_NR_OF_LIVES')" style="Style('standard6.dif')" />
+            </If>
+          </Transform>
+          <Transform x="415" y="30" width="80" height="20">
+            <Text string="InfoMenu/InfoMenuGeneralInfo3" style="RightAligned('standard6.dif')" />
+          </Transform>
+        </Transform>
+        <Transform x="4" y="128" width="497" height="18">
+          <Transform x="0" y="0" width="503" height="17">
+            <Effect>
+              <Color color="#000000" />
+            </Effect>
+            <Picture picture="" />
+          </Transform>
+          <Transform x="1" y="1" width="501" height="15">
+            <Effect>
+              <Color color="0.519531, 0.49219, 0.300781" />
+            </Effect>
+            <Picture picture="" />
+          </Transform>
+          <Transform x="6" y="4" width="100" height="20">
+            <Effect>
+              <Color color="#000000" />
+            </Effect>
+            <Text string="LocaleString(Locale/Locale, Locale/Valid, 'MULTIPLAYER_BRIEFING_OBJECTIVES')" style="Style('standard6.dif')" />
+          </Transform>
+        </Transform>
+        <Transform x="10" y="145" width="490" height="78">
+          <Text string="InfoMenu/InfoMenuObjectives" style="BfStyle('standard6.dif')" />
+        </Transform>
+        <Transform x="4" y="230" width="497" height="18">
+          <Transform x="0" y="0" width="503" height="17">
+            <Effect>
+              <Color color="#000000" />
+            </Effect>
+            <Picture picture="" />
+          </Transform>
+          <Transform x="1" y="1" width="501" height="15">
+            <Effect>
+              <Color color="0.519531, 0.49219, 0.300781" />
+            </Effect>
+            <Picture picture="" />
+          </Transform>
+          <Transform x="6" y="4" width="100" height="20">
+            <Effect>
+              <Color color="#000000" />
+            </Effect>
+            <Text string="LocaleString(Locale/Locale, Locale/Valid, 'MULTIPLAYER_BRIEFING_COMMENTS')" style="Style('standard6.dif')" />
+          </Transform>
+        </Transform>
+        <Transform x="10" y="250" width="490" height="75">
+          <Transform x="0" y="0" width="490" height="20">
+            <Text string="InfoMenu/InfoMenuComments1" style="Style('standard6.dif')" />
+          </Transform>
+          <Transform x="0" y="15" width="490" height="20">
+            <Text string="InfoMenu/InfoMenuComments2" style="Style('standard6.dif')" />
+          </Transform>
+          <Transform x="0" y="30" width="490" height="20">
+            <Text string="InfoMenu/InfoMenuComments3" style="Style('standard6.dif')" />
+          </Transform>
+          <Transform x="0" y="45" width="490" height="20">
+            <Text string="InfoMenu/InfoMenuComments4" style="Style('standard6.dif')" />
+          </Transform>
+          <Transform x="0" y="60" width="490" height="20">
+            <Text string="InfoMenu/InfoMenuComments5" style="Style('standard6.dif')" />
+          </Transform>
+        </Transform>
+      </Transform>
+      <Transform x="144" y="417" width="512" height="64">
+        <Picture picture="Ingame/respawn/ingame_respawn_long_512x64.tga" />
+        <Transform x="192" y="8" width="128" height="128">
+          <Button picture="Menu/knapp3_N.tga" mouse-over-picture="Menu/knapp3_MO.tga" width="109" height="25">
             <ActionList>
-              <SetVariable variable="Load/ShowDefaultLoadingPicture" value="false" />
-              <SetVariable variable="FocusEffect/GoPictureSwitch" value="true" />
+              <SetVariable variable="FocusEffect/GoFadeOut" value="true" />
+              <CallFunction function="Sound/PlayLoadMenuStartGame" />
+            </ActionList>
+          </Button>
+          <Transform x="8" y="9" width="97" height="18">
+            <Text string="LocaleString(Locale/Locale, Locale/Valid, 'MULTIPLAYER_BRIEFING_READY')" style="Style/LoadNavigationStyle" />
+          </Transform>
+          <Transform x="2" y="1" width="106" height="23">
+            <CullEventAction event="Button(0, ButtonPress, Select)">
+              <CallFunction function="Sound/PlayLoadMenuCancel" />
+            </CullEventAction>
+            <CullEventAction event="Type(0, PointerIn)">
+              <CallFunction function="Sound/PlayLoadMenuHighLight" />
+            </CullEventAction>
+          </Transform>
+        </Transform>
+      </Transform>
+    </If>
+    <CullVariableAndEventAction variable="Load/LoadState is 4" event="Button(0, ButtonPress, Enter, 1)">
+      <ActionList>
+        <CallFunction function="InfoMenu/DeActivateInfoMenu" />
+        <CallFunction function="Sound/PlayLoadMenuStartGame" />
+      </ActionList>
+    </CullVariableAndEventAction>
+    <Action>
+      <SetVariable variable="FocusEffect/DebriefingAlpha" value="1.0" />
+    </Action>
+  </If>
+  <If condition="ShowDebriefing is 1 or ShowDebriefing is 2">
+    <Transform x="150" y="100" width="512" height="512">
+      <If condition="StartingGame is 2 or StartingGame is 3">
+        <Action>
+          <SetVariable variable="PlayDSVideo" value="(Load/LevelName is 'PLOTTING HYPERSPACE ROUTE GC_DEATHSTAR' and AxisTicket) is 0" />
+        </Action>
+        <Action>
+          <SetVariable variable="PlayYavinVideo" value="(Load/LevelName is 'PLOTTING HYPERSPACE ROUTE GC_DEATHSTAR' and AlliedTicket) is 0" />
+        </Action>
+        <If condition="PlayDSVideo">
+          <TimeoutAction timeout-time="25">
+            <ActionList>
+              <SetVariable variable="FocusEffect/BgPicAlpha" value="0.0" />
+              <SetVariable variable="FocusEffect/GoFadeOutLoadPicture" value="true" />
+              <SetVariable variable="FocusEffect/GoFadeOut2" value="true" />
+              <SetVariable variable="FocusEffect/GoMoveYOut" value="true" />
               <SetVariable variable="TransitionEffect" value="0" />
             </ActionList>
           </TimeoutAction>
           <Action>
             <ActionList>
-              <SetVariable variable="FocusEffect/LoadAlpha" value="FloatRef()" />
+              <SetVariable variable="FocusEffect/BGAlpha" value="0.0" />
             </ActionList>
           </Action>
-          <If condition="FocusEffect/Alpha is_not 1.0">
-            <TimeoutAction timeout-time="0">
-              <ActionList>
-                <SetVariable variable="FocusEffect/GoFadeIn" value="true" />
-                <SetVariable variable="FocusEffect/GoMoveYIn" value="true" />
-              </ActionList>
+          <Transform x="-150" y="-100" width="800" height="600">
+            <Bink bink-filename="'Movies/DeathStar1'" background-picture="'Icon_scout_1.tga'" fade-time="0" play="PlayBink" />
+            <TimeoutAction timeout-time="15">
+              <SetVariable variable="PlayDSVideo" value="false" />
             </TimeoutAction>
-            <Action>
-              <ActionList>
-                <SetVariable variable="FocusEffect/Alpha" value="0.0" />
-                <SetVariable variable="FocusEffect/LoadAlpha" value="0.0" />
-              </ActionList>
-            </Action>
-          </If>
+          </Transform>
         </If>
-      </If>
-      <If condition="not ShowDebriefing">
-        <Group>
-          <If condition="Load/LoadState is 0 or Load/LoadState is 5 or (Load/LoadState is 1 or Load/LoadState is 2)">
-            <If condition="StartingGame is 0 or (StartingGame is 3 or StartingGame is 2)">
-              <AddSubNextEffect value="FocusEffect/Alpha" end-value="1" start-time="0.0" start-percentage="0.0" end-time="0.2" delay="0.0" up="false" trigger="FocusEffect/GoFadeIn">
-                <ActionList />
-              </AddSubNextEffect>
-              <AddSubNextEffect value="FocusEffect/LoadAlpha" end-value="1" start-time="0.0" start-percentage="0.0" end-time="0.2" delay="0.0" up="false" trigger="FocusEffect/GoFadeInLoadPicture">
-                <ActionList />
-              </AddSubNextEffect>
-              <AddSubNextEffect value="FocusEffect/YPos" end-value="1" start-time="0.0" start-percentage="0.0" end-time="0.2" delay="0.1" up="false" trigger="FocusEffect/GoMoveYIn">
-                <ActionList>
-                  <CallFunction function="ContinueLoading" />
-                </ActionList>
-              </AddSubNextEffect>
-              <AddSubNextEffect value="FocusEffect/Alpha" end-value="0" start-time="0.0" start-percentage="0.0" end-time="0.2" delay="0.1" up="false" trigger="FocusEffect/GoFadeOut">
-                <ActionList>
-                  <CallFunction function="CancelLoading" />
-                </ActionList>
-              </AddSubNextEffect>
-              <AddSubNextEffect value="FocusEffect/LoadAlpha" end-value="0" start-time="0.0" start-percentage="0.0" end-time="0.2" delay="0.1" up="false" trigger="FocusEffect/GoFadeOutLoadPicture">
-                <ActionList />
-              </AddSubNextEffect>
-              <AddSubNextEffect value="FocusEffect/Alpha" end-value="0" start-time="0.0" start-percentage="0.0" end-time="0.2" delay="0.1" up="false" trigger="FocusEffect/GoFadeOut2">
-                <ActionList>
-                  <SetVariable variable="Load/LoadState" value="4" />
-                  <SetVariable variable="FocusEffect/GoFadeIn" value="true" />
-                  <SetVariable variable="TransitionEffect" value="0" />
-                </ActionList>
-              </AddSubNextEffect>
-              <AddSubNextEffect value="FocusEffect/YPos" end-value="15" start-time="0.0" start-percentage="0.0" end-time="0.2" delay="0.0" up="false" trigger="FocusEffect/GoMoveYOut" />
-              <AddSubNextEffect value="FocusEffect/LoadAlpha" end-value="1" start-time="0.0" start-percentage="0.0" end-time="1.0" delay="0.0" up="false" trigger="FocusEffect/GoPictureSwitch">
-                <ActionList>
-                  <SetVariable variable="Load/ShowDefaultLoadingPicture" value="false" />
-                </ActionList>
-              </AddSubNextEffect>
-              <Transform x="0" y="0" width="800" height="600">
-                <Transform x="0" y="85" width="800" height="450">
-                  <Effect>
-                    <MultiplyColor alpha="FocusEffect/BgPicAlpha" />
-                  </Effect>
-                  <Picture picture="Menu/Background.tga" />
-                </Transform>
-                <Effect>
-                  <MultiplyColor alpha="FocusEffect/LoadAlpha" />
-                </Effect>
-                <If condition="not Load/ShowDefaultLoadingPicture">
-                  <VariablePicture first-part="Load/LoadPicture" />
-                </If>
-                <If condition="Load/ShowDefaultLoadingPicture">
-                  <Transform x="0" y="85" width="800" height="450">
-                    <Picture picture="Menu/Background.tga" />
-                  </Transform>
-                </If>
-              </Transform>
-              <Translate x="0" y="FocusEffect/YPos" />
-              <Effect>
-                <MultiplyColor alpha="FocusEffect/Alpha" />
-              </Effect>
-              <Transform x="260" y="500" width="512" height="64">
-                <Transform x="17" y="33" width="260" height="20">
-                  <Transform x="0" y="0" width="260" height="20">
-                    <Picture picture="loadbarbackground.tga" />
-                  </Transform>
-                  <Transform x="2" y="2" width="256" height="16">
-                    <Picture picture="loadingfull_256x16.tga" fill-picture="loadbar.tga" data="Load/LoadPercent" maximum-value="100" size="255" horizontal-align="true" fill-order="true" />
-                  </Transform>
-                </Transform>
-              </Transform>
-              <Transform x="385" y="555" width="16" height="20">
-                <Effect>
-                  <Color color="0.8549, 0.8549, 0.5882" />
-                </Effect>
-                <Action>
-                  <SetVariable variable="MyPercent" value="Load/LoadPercent" />
-                </Action>
-                <Text string="MyPercent" style="Style/LoadHeading8" />
-              </Transform>
-              <Transform x="408" y="555" width="10" height="20">
-                <Effect>
-                  <Color color="0.8549, 0.8549, 0.5882" />
-                </Effect>
-                <Text string="'%'" style="Style/LoadHeading8" />
-              </Transform>
-            </If>
-            <If condition="StartingGame is 1 or StartingGame is 4">
-              <AddSubEffect value="FocusEffect/Alpha" end-value="1" start-time="0.0" start-percentage="0.0" end-time="0.2" delay="0.0" up="false" trigger="FocusEffect/GoFadeIn" />
-              <AddSubEffect value="FocusEffect/LeftPos" end-value="0" start-time="0.0" start-percentage="0.0" end-time="0.2" delay="0.0" up="false" trigger="FocusEffect/GoMoveLeftIn" />
-              <AddSubEffect value="FocusEffect/RightPos" end-value="0" start-time="0.0" start-percentage="0.0" end-time="0.2" delay="0.0" up="false" trigger="FocusEffect/GoMoveRightIn" />
-              <AddSubEffect value="FocusEffect/YPos" end-value="0" start-time="0.0" start-percentage="0.0" end-time="0.2" delay="0.0" up="false" trigger="FocusEffect/GoMoveYIn" />
-              <Group>
-                <If condition="FocusEffect/Abort is 0">
-                  <AddSubNextEffect value="FocusEffect/Alpha" end-value="0" start-time="0.0" start-percentage="0.0" end-time="0.2" delay="0.0" up="false" trigger="FocusEffect/GoFadeOut" />
-                  <AddSubNextEffect value="FocusEffect/BGAlpha" end-value="0.0" start-time="0.0" start-percentage="0.0" end-time="0.2" delay="0.0" up="false" trigger="FocusEffect/GoFadeOut1">
-                    <ActionList>
-                      <SetVariable variable="FocusEffect/BGAlpha" value="0.0" />
-                      <CallFunction function="StartSinglePlayer" />
-                    </ActionList>
-                  </AddSubNextEffect>
-                  <AddSubNextEffect value="FocusEffect/LeftPos" end-value="-30" start-time="0.0" start-percentage="0.0" end-time="0.2" delay="0.0" up="false" trigger="FocusEffect/GoMoveLeftOut" />
-                  <AddSubNextEffect value="FocusEffect/RightPos" end-value="30" start-time="0.0" start-percentage="0.0" end-time="0.2" delay="0.0" up="false" trigger="FocusEffect/GoMoveRightOut" />
-                  <AddSubNextEffect value="FocusEffect/YPos" end-value="30" start-time="0.0" start-percentage="0.0" end-time="0.2" delay="0.0" up="false" trigger="FocusEffect/GoMoveYOut" />
-                </If>
-                <If condition="FocusEffect/Abort is 1">
-                  <AddSubNextEffect value="FocusEffect/Alpha" end-value="0" start-time="0.0" start-percentage="0.0" end-time="0.2" delay="0.0" up="false" trigger="FocusEffect/GoFadeOut">
-                    <ActionList>
-                      <CallFunction function="CancelSinglePlayer" />
-                    </ActionList>
-                  </AddSubNextEffect>
-                  <AddSubNextEffect value="FocusEffect/LeftPos" end-value="-30" start-time="0.0" start-percentage="0.0" end-time="0.2" delay="0.0" up="false" trigger="FocusEffect/GoMoveLeftOut" />
-                  <AddSubNextEffect value="FocusEffect/RightPos" end-value="30" start-time="0.0" start-percentage="0.0" end-time="0.2" delay="0.0" up="false" trigger="FocusEffect/GoMoveRightOut" />
-                </If>
-              </Group>
-              <Transform x="0" y="85" width="800" height="450">
-                <Effect>
-                  <MultiplyColor alpha="FocusEffect/BGAlpha" />
-                </Effect>
-                <Transform x="0" y="-85" width="800" height="600">
-                  <Effect>
-                    <Color color="#000000" />
-                  </Effect>
-                  <Picture picture="" />
-                </Transform>
-                <Picture picture="Menu/Background.tga" />
-              </Transform>
-              <Effect>
-                <MultiplyColor alpha="FocusEffect/Alpha" />
-              </Effect>
-              <Transform x="30" y="55" width="512" height="512">
-                <Translate x="FocusEffect/LeftPos" y="0" />
-                <Picture picture="Briefing/SP_briefing_512x512.tga" />
-                <Transform x="10" y="8" width="100" height="20">
-                  <Effect>
-                    <Color color="#000000" />
-                  </Effect>
-                  <Text string="LocaleString(Locale/Locale, Locale/Valid, 'MULTIPLAYER_MAPNAME')" style="Style/LoadHeading8" />
-                </Transform>
-                <Transform x="4" y="27" width="512" height="512">
-                  <VariablePicture first-part="Briefing/BriefingPicture" />
-                </Transform>
-              </Transform>
-              <Transform x="405" y="55" width="512" height="512">
-                <Translate x="FocusEffect/RightPos" y="0" />
-                <Picture picture="Briefing/SP_briefing_512x512.tga" />
-                <Transform x="10" y="8" width="100" height="20">
-                  <Effect>
-                    <Color color="#000000" />
-                  </Effect>
-                  <Text string="LocaleString(Locale/Locale, Locale/Valid, 'BRIEFING_HEADING')" style="Style/LoadHeading8" />
-                </Transform>
-                <Transform x="10" y="32" width="340" height="350">
-                  <Text string="Briefing/BriefingText" style="BfStyle('standard6.dif')" />
-                </Transform>
-              </Transform>
-              <Translate x="0" y="FocusEffect/YPos" />
-              <Transform x="30" y="455" width="512" height="128">
-                <Picture picture="Briefing/SP_briefing_SMALL_512x128.tga" />
-                <Transform x="10" y="8" width="120" height="20">
-                  <Effect>
-                    <Color color="#000000" />
-                  </Effect>
-                  <Text string="LocaleString(Locale/Locale, Locale/Valid, 'BRIEFING_OBJECTIVES_HEADING')" style="Style/LoadHeading8" />
-                </Transform>
-                <Transform x="10" y="35" width="320" height="65">
-                  <Text string="Briefing/ObjectivesText" style="BfStyle('standard6.dif')" />
-                </Transform>
-              </Transform>
-              <Transform x="405" y="455" width="512" height="128">
-                <Picture picture="Briefing/SP_briefing_SMALL_512x128.tga" />
-                <AddSubNextEffect value="FocusEffect/ButtonAlpha" end-value="1" start-time="0.0" start-percentage="0.0" end-time="0.5" delay="0.0" up="false" trigger="FocusEffect/GoFadeInButton">
-                  <ActionList>
-                    <SetVariable variable="Load/LoadState" value="2" />
-                  </ActionList>
-                </AddSubNextEffect>
-                <Transform x="10" y="8" width="250" height="20">
-                  <Effect>
-                    <Color color="#000000" />
-                  </Effect>
-                  <Text string="Load/LevelName" style="Style/LoadHeading8" />
-                </Transform>
-                <Transform x="50" y="45" width="258" height="18">
-                  <If condition="Load/LoadState is 2">
-                    <Effect>
-                      <MultiplyColor alpha="1.0 minus FocusEffect/ButtonAlpha" />
-                    </Effect>
-                    <Transform x="0" y="0" width="262" height="18">
-                      <Effect>
-                        <Color color="0.5468, 0.5468, 0.5468" />
-                      </Effect>
-                      <Picture picture="" />
-                    </Transform>
-                    <Transform x="2" y="1" width="258" height="16">
-                      <Effect>
-                        <Color color="#000000" />
-                      </Effect>
-                      <Picture picture="" />
-                    </Transform>
-                    <Transform x="3" y="2" width="256" height="14">
-                      <Picture picture="loadingfull_256x16.tga" fill-picture="loading_full_256x16.tga" data="Load/LoadPercent" maximum-value="100" size="256" horizontal-align="true" fill-order="false" />
-                    </Transform>
-                  </If>
-                </Transform>
-                <Transform x="5" y="70" width="360" height="20">
-                  <If condition="Load/LoadState is 2">
-                    <Effect>
-                      <Color color="0.84375, 0.73, 0.65, 1.0 minus FocusEffect/ButtonAlpha" />
-                    </Effect>
-                    <Text string="Briefing/EscapeToCancel" style="CenterAligned('standard6.dif')" />
-                  </If>
-                </Transform>
-                <Transform x="50" y="45" width="258" height="18">
-                  <If condition="Load/LoadState is 1">
-                    <Transform x="0" y="0" width="262" height="18">
-                      <Effect>
-                        <Color color="0.5468, 0.5468, 0.5468" />
-                      </Effect>
-                      <Picture picture="" />
-                    </Transform>
-                    <Transform x="2" y="1" width="258" height="16">
-                      <Effect>
-                        <Color color="#000000" />
-                      </Effect>
-                      <Picture picture="" />
-                    </Transform>
-                    <Transform x="3" y="2" width="256" height="14">
-                      <Picture picture="loadingfull_256x16.tga" fill-picture="loading_full_256x16.tga" data="Load/LoadPercent" maximum-value="100" size="256" horizontal-align="true" fill-order="false" />
-                    </Transform>
-                  </If>
-                </Transform>
-                <Transform x="25" y="50" width="128" height="128">
-                  <If condition="Load/LoadState is 0 or Load/LoadState is 2">
-                    <Effect>
-                      <MultiplyColor alpha="FocusEffect/ButtonAlpha" />
-                    </Effect>
-                    <Button picture="Menu/knappExt_N.tga" mouse-over-picture="Menu/knappExt_MO.tga" width="109" height="25">
-                      <ActionList>
-                        <SetVariable variable="FocusEffect/Abort" value="1" />
-                        <SetVariable variable="FocusEffect/GoFadeOut" value="true" />
-                        <SetVariable variable="FocusEffect/GoFadeOut1" value="true" />
-                        <SetVariable variable="FocusEffect/GoMoveLeftOut" value="true" />
-                        <SetVariable variable="FocusEffect/GoMoveRightOut" value="true" />
-                      </ActionList>
-                    </Button>
-                    <Transform x="5" y="9" width="96" height="18">
-                      <Text string="LocaleString(Locale/Locale, Locale/Valid, 'BRIEFING_ABORT')" style="Style/LoadNavigationStyle" />
-                    </Transform>
-                    <Transform x="2" y="1" width="106" height="23">
-                      <CullEventAction event="Button(0, ButtonPress, Select)">
-                        <CallFunction function="Sound/PlayLoadMenuCancel" />
-                      </CullEventAction>
-                      <CullEventAction event="Type(0, PointerIn)">
-                        <CallFunction function="Sound/PlayLoadMenuHighLight" />
-                      </CullEventAction>
-                    </Transform>
-                  </If>
-                </Transform>
-                <Transform x="225" y="50" width="128" height="128">
-                  <If condition="Load/LoadState is 0">
-                    <Button picture="Menu/knapp3_N.tga" mouse-over-picture="Menu/knapp3_MO.tga" width="109" height="25">
-                      <ActionList>
-                        <CallFunction function="LoadSinglePlayer" />
-                      </ActionList>
-                    </Button>
-                    <Transform x="8" y="9" width="97" height="18">
-                      <Text string="LocaleString(Locale/Locale, Locale/Valid, 'BRIEFING_LOAD')" style="Style/LoadNavigationStyle" />
-                    </Transform>
-                    <Transform x="2" y="1" width="106" height="23">
-                      <CullEventAction event="Button(0, ButtonPress, Select)">
-                        <CallFunction function="Sound/PlayLoadMenuCancel" />
-                      </CullEventAction>
-                      <CullEventAction event="Type(0, PointerIn)">
-                        <CallFunction function="Sound/PlayLoadMenuHighLight" />
-                      </CullEventAction>
-                    </Transform>
-                  </If>
-                </Transform>
-                <Transform x="225" y="50" width="128" height="128">
-                  <If condition="Load/LoadState is 2">
-                    <Effect>
-                      <MultiplyColor alpha="FocusEffect/ButtonAlpha" />
-                    </Effect>
-                    <Button picture="Menu/knapp3_N.tga" mouse-over-picture="Menu/knapp3_MO.tga" width="109" height="25">
-                      <ActionList>
-                        <SetVariable variable="FocusEffect/Abort" value="0" />
-                        <SetVariable variable="FocusEffect/GoFadeOut" value="true" />
-                        <SetVariable variable="FocusEffect/GoFadeOut1" value="true" />
-                        <SetVariable variable="FocusEffect/GoMoveLeftOut" value="true" />
-                        <SetVariable variable="FocusEffect/GoMoveRightOut" value="true" />
-                        <CallFunction function="Sound/PlayLoadMenuStartGame" />
-                      </ActionList>
-                    </Button>
-                    <Transform x="8" y="9" width="97" height="18">
-                      <Text string="LocaleString(Locale/Locale, Locale/Valid, 'BRIEFING_PLAY')" style="Style/LoadNavigationStyle" />
-                    </Transform>
-                    <Transform x="2" y="1" width="106" height="23">
-                      <CullEventAction event="Button(0, ButtonPress, Select)">
-                        <CallFunction function="Sound/PlayLoadMenuCancel" />
-                      </CullEventAction>
-                      <CullEventAction event="Type(0, PointerIn)">
-                        <CallFunction function="Sound/PlayLoadMenuHighLight" />
-                      </CullEventAction>
-                    </Transform>
-                  </If>
-                </Transform>
-                <If condition="Load/LoadState is 1">
-                  <Transform x="5" y="70" width="360" height="20">
-                    <Effect>
-                      <Color color="0.84375, 0.73, 0.65" />
-                    </Effect>
-                    <Text string="Briefing/EscapeToCancel" style="CenterAligned('standard6.dif')" />
-                  </Transform>
-                </If>
-              </Transform>
-            </If>
-          </If>
-          <If condition="Load/LoadState is 4">
-            <AddSubNextEffect value="FocusEffect/Alpha" end-value="1" start-time="0.0" start-percentage="0.0" end-time="0.3" delay="1.0" up="false" trigger="FocusEffect/GoFadeIn">
-              <ActionList>
-                <SetVariable variable="FocusEffect/BGAlpha" value="0.0" />
-              </ActionList>
-            </AddSubNextEffect>
-            <AddSubEffect value="FocusEffect/BGAlpha" end-value="0" start-time="0.0" start-percentage="0.0" end-time="0.3" delay="1.0" up="false" trigger="FocusEffect/GoFadeIn" />
-            <AddSubNextEffect value="FocusEffect/Alpha" end-value="0" start-time="0.0" start-percentage="0.0" end-time="0.3" delay="0.0" up="false" trigger="FocusEffect/GoFadeOut">
-              <ActionList>
-                <CallFunction function="InfoMenu/DeActivateInfoMenu" />
-              </ActionList>
-            </AddSubNextEffect>
-            <Transform x="0" y="0" width="800" height="600">
-              <Effect>
-                <MultiplyColor alpha="FocusEffect/BGAlpha" />
-              </Effect>
-              <Picture picture="" />
-            </Transform>
-            <Effect>
-              <MultiplyColor alpha="FocusEffect/Alpha" />
-            </Effect>
-            <Transform x="144" y="80" width="512" height="512">
-              <Picture picture="Briefing/MP_briefing_512x512.tga" />
-              <Transform x="5" y="-2" width="500" height="20">
-                <Effect>
-                  <Color color="#000000" />
-                </Effect>
-                <Text string="InfoMenu/InfoMenuHeading" style="Style/LoadHeadingStyle" />
-              </Transform>
-              <Transform x="150" y="30" width="240" height="20">
-                <Transform x="40" y="3" width="16" height="16">
-                  <VariablePicture first-part="AxisTicketFlagLoad" />
-                </Transform>
-                <Transform x="65" y="6" width="80" height="20">
-                  <Effect>
-                    <Color color="#000000" />
-                  </Effect>
-                  <Text string="LocaleString(Locale/Locale, Locale/Valid, 'MULTIPLAYER_BRIEFING_VS')" style="CenterAligned('standard6.dif')" />
-                </Transform>
-                <Transform x="150" y="3" width="16" height="16">
-                  <VariablePicture first-part="AlliedTicketFlagLoad" />
-                </Transform>
-              </Transform>
-              <Transform x="4" y="58" width="504" height="20">
-                <Effect>
-                  <Color color="#000000" />
-                </Effect>
-                <Text string="InfoMenu/InfoMenuGameType" style="Style/LoadHeadingLatinCenter11" />
-              </Transform>
-              <Transform x="10" y="82" width="490" height="40">
-                <Transform x="0" y="0" width="380" height="20">
-                  <Text string="LocaleString(Locale/Locale, Locale/Valid, 'MULTIPLAYER_BRIEFING_HEADING_1')" style="Style('standard6.dif')" />
-                </Transform>
-                <Transform x="415" y="0" width="80" height="20">
-                  <Text string="InfoMenu/InfoMenuGeneralInfo1" style="RightAligned('standard6.dif')" />
-                </Transform>
-                <Transform x="0" y="15" width="380" height="20">
-                  <Text string="LocaleString(Locale/Locale, Locale/Valid, 'MULTIPLAYER_BRIEFING_HEADING_2')" style="Style('standard6.dif')" />
-                </Transform>
-                <Transform x="415" y="15" width="80" height="20">
-                  <Text string="InfoMenu/InfoMenuGeneralInfo2" style="RightAligned('standard6.dif')" />
-                </Transform>
-                <Transform x="0" y="30" width="380" height="20">
-                  <Group>
-                    <If condition="Host/Create/GameType is 2 or Host/Create/GameType is 4">
-                      <If condition="not (StartingGame is 0)">
-                        <Text string="LocaleString(Locale/Locale, Locale/Valid, 'MULTIPLAYER_BRIEFING_HEADING_3')" style="Style('standard6.dif')" />
-                      </If>
-                    </If>
-                    <If condition="Host/Create/GameType is 1 or Host/Create/GameType is 3">
-                      <If condition="not (StartingGame is 0)">
-                        <Text string="LocaleString(Locale/Locale, Locale/Valid, 'MULTIPLAYER_BRIEFING_HEADING_4')" style="Style('standard6.dif')" />
-                      </If>
-                    </If>
-                  </Group>
-                  <If condition="StartingGame is 0">
-                    <Text string="LocaleString(Locale/Locale, Locale/Valid, 'SINGLEPLAYER_NR_OF_LIVES')" style="Style('standard6.dif')" />
-                  </If>
-                </Transform>
-                <Transform x="415" y="30" width="80" height="20">
-                  <Text string="InfoMenu/InfoMenuGeneralInfo3" style="RightAligned('standard6.dif')" />
-                </Transform>
-              </Transform>
-              <Transform x="4" y="128" width="497" height="18">
-                <Transform x="0" y="0" width="503" height="17">
-                  <Effect>
-                    <Color color="#000000" />
-                  </Effect>
-                  <Picture picture="" />
-                </Transform>
-                <Transform x="1" y="1" width="501" height="15">
-                  <Effect>
-                    <Color color="0.519531, 0.49219, 0.300781" />
-                  </Effect>
-                  <Picture picture="" />
-                </Transform>
-                <Transform x="6" y="4" width="100" height="20">
-                  <Effect>
-                    <Color color="#000000" />
-                  </Effect>
-                  <Text string="LocaleString(Locale/Locale, Locale/Valid, 'MULTIPLAYER_BRIEFING_OBJECTIVES')" style="Style('standard6.dif')" />
-                </Transform>
-              </Transform>
-              <Transform x="10" y="145" width="490" height="78">
-                <Text string="InfoMenu/InfoMenuObjectives" style="BfStyle('standard6.dif')" />
-              </Transform>
-              <Transform x="4" y="230" width="497" height="18">
-                <Transform x="0" y="0" width="503" height="17">
-                  <Effect>
-                    <Color color="#000000" />
-                  </Effect>
-                  <Picture picture="" />
-                </Transform>
-                <Transform x="1" y="1" width="501" height="15">
-                  <Effect>
-                    <Color color="0.519531, 0.49219, 0.300781" />
-                  </Effect>
-                  <Picture picture="" />
-                </Transform>
-                <Transform x="6" y="4" width="100" height="20">
-                  <Effect>
-                    <Color color="#000000" />
-                  </Effect>
-                  <Text string="LocaleString(Locale/Locale, Locale/Valid, 'MULTIPLAYER_BRIEFING_COMMENTS')" style="Style('standard6.dif')" />
-                </Transform>
-              </Transform>
-              <Transform x="10" y="250" width="490" height="75">
-                <Transform x="0" y="0" width="490" height="20">
-                  <Text string="InfoMenu/InfoMenuComments1" style="Style('standard6.dif')" />
-                </Transform>
-                <Transform x="0" y="15" width="490" height="20">
-                  <Text string="InfoMenu/InfoMenuComments2" style="Style('standard6.dif')" />
-                </Transform>
-                <Transform x="0" y="30" width="490" height="20">
-                  <Text string="InfoMenu/InfoMenuComments3" style="Style('standard6.dif')" />
-                </Transform>
-                <Transform x="0" y="45" width="490" height="20">
-                  <Text string="InfoMenu/InfoMenuComments4" style="Style('standard6.dif')" />
-                </Transform>
-                <Transform x="0" y="60" width="490" height="20">
-                  <Text string="InfoMenu/InfoMenuComments5" style="Style('standard6.dif')" />
-                </Transform>
-              </Transform>
-            </Transform>
-            <Transform x="144" y="417" width="512" height="64">
-              <Picture picture="Ingame/respawn/ingame_respawn_long_512x64.tga" />
-              <Transform x="192" y="8" width="128" height="128">
-                <Button picture="Menu/knapp3_N.tga" mouse-over-picture="Menu/knapp3_MO.tga" width="109" height="25">
-                  <ActionList>
-                    <SetVariable variable="FocusEffect/GoFadeOut" value="true" />
-                    <CallFunction function="Sound/PlayLoadMenuStartGame" />
-                  </ActionList>
-                </Button>
-                <Transform x="8" y="9" width="97" height="18">
-                  <Text string="LocaleString(Locale/Locale, Locale/Valid, 'MULTIPLAYER_BRIEFING_READY')" style="Style/LoadNavigationStyle" />
-                </Transform>
-                <Transform x="2" y="1" width="106" height="23">
-                  <CullEventAction event="Button(0, ButtonPress, Select)">
-                    <CallFunction function="Sound/PlayLoadMenuCancel" />
-                  </CullEventAction>
-                  <CullEventAction event="Type(0, PointerIn)">
-                    <CallFunction function="Sound/PlayLoadMenuHighLight" />
-                  </CullEventAction>
-                </Transform>
-              </Transform>
-            </Transform>
-          </If>
-        </Group>
-        <CullVariableAndEventAction variable="Load/LoadState is 4" event="Button(0, ButtonPress, Enter, 1)">
-          <ActionList>
-            <CallFunction function="InfoMenu/DeActivateInfoMenu" />
-            <CallFunction function="Sound/PlayLoadMenuStartGame" />
-          </ActionList>
-        </CullVariableAndEventAction>
-        <Action>
-          <SetVariable variable="FocusEffect/DebriefingAlpha" value="1.0" />
-        </Action>
-      </If>
-    </Group>
-    <If condition="ShowDebriefing is 1 or ShowDebriefing is 2">
-      <Transform x="150" y="100" width="512" height="512">
-        <If condition="StartingGame is 2 or StartingGame is 3">
+        <If condition="PlayYavinVideo">
+          <TimeoutAction timeout-time="25">
+            <ActionList>
+              <SetVariable variable="FocusEffect/BgPicAlpha" value="0.0" />
+              <SetVariable variable="FocusEffect/GoFadeOutLoadPicture" value="true" />
+              <SetVariable variable="FocusEffect/GoFadeOut2" value="true" />
+              <SetVariable variable="FocusEffect/GoMoveYOut" value="true" />
+              <SetVariable variable="TransitionEffect" value="0" />
+            </ActionList>
+          </TimeoutAction>
           <Action>
-            <SetVariable variable="PlayDSVideo" value="(Load/LevelName is 'PLOTTING HYPERSPACE ROUTE GC_DEATHSTAR' and AxisTicket) is 0" />
+            <ActionList>
+              <SetVariable variable="FocusEffect/BGAlpha" value="0.0" />
+            </ActionList>
           </Action>
-          <Action>
-            <SetVariable variable="PlayYavinVideo" value="(Load/LevelName is 'PLOTTING HYPERSPACE ROUTE GC_DEATHSTAR' and AlliedTicket) is 0" />
-          </Action>
-          <Group>
-            <If condition="PlayDSVideo">
-              <TimeoutAction timeout-time="25">
-                <ActionList>
-                  <SetVariable variable="FocusEffect/BgPicAlpha" value="0.0" />
-                  <SetVariable variable="FocusEffect/GoFadeOutLoadPicture" value="true" />
-                  <SetVariable variable="FocusEffect/GoFadeOut2" value="true" />
-                  <SetVariable variable="FocusEffect/GoMoveYOut" value="true" />
-                  <SetVariable variable="TransitionEffect" value="0" />
-                </ActionList>
-              </TimeoutAction>
-              <Action>
-                <ActionList>
-                  <SetVariable variable="FocusEffect/BGAlpha" value="0.0" />
-                </ActionList>
-              </Action>
-              <Transform x="-150" y="-100" width="800" height="600">
-                <Bink bink-filename="'Movies/DeathStar1'" background-picture="'Icon_scout_1.tga'" fade-time="0" play="PlayBink" />
-                <TimeoutAction timeout-time="15">
-                  <SetVariable variable="PlayDSVideo" value="false" />
-                </TimeoutAction>
-              </Transform>
-            </If>
-            <If condition="PlayYavinVideo">
-              <TimeoutAction timeout-time="25">
-                <ActionList>
-                  <SetVariable variable="FocusEffect/BgPicAlpha" value="0.0" />
-                  <SetVariable variable="FocusEffect/GoFadeOutLoadPicture" value="true" />
-                  <SetVariable variable="FocusEffect/GoFadeOut2" value="true" />
-                  <SetVariable variable="FocusEffect/GoMoveYOut" value="true" />
-                  <SetVariable variable="TransitionEffect" value="0" />
-                </ActionList>
-              </TimeoutAction>
-              <Action>
-                <ActionList>
-                  <SetVariable variable="FocusEffect/BGAlpha" value="0.0" />
-                </ActionList>
-              </Action>
-              <Transform x="-150" y="-100" width="800" height="600">
-                <Bink bink-filename="'Movies/Yavin1'" background-picture="'Icon_scout_1.tga'" fade-time="0" play="PlayBink" />
-                <TimeoutAction timeout-time="15">
-                  <SetVariable variable="PlayYavinVideo" value="false" />
-                </TimeoutAction>
-              </Transform>
-            </If>
-          </Group>
-          <If condition="not PlayDSVideo and not PlayYavinVideo">
-            <Picture picture="Debriefing/MP_debriefing_512x512.tga" />
-            <Transform x="5" y="-2" width="500" height="20">
-              <Effect>
-                <Color color="#000000" />
-              </Effect>
-              <Text string="Load/LevelName" style="Style/LoadHeadingStyle" />
-            </Transform>
-            <Transform x="150" y="30" width="240" height="20">
-              <Transform x="22" y="3" width="16" height="16">
-                <VariablePicture first-part="AxisTicketFlagLoad" />
-              </Transform>
-              <Transform x="42" y="1" width="40" height="20">
-                <Effect>
-                  <Color color="#000000" />
-                </Effect>
-                <Text string="AxisTicket" style="Style/LoadHeadingLatin11" />
-              </Transform>
-            </Transform>
-            <Transform x="250" y="30" width="240" height="20">
-              <Transform x="22" y="3" width="16" height="16">
-                <VariablePicture first-part="AlliedTicketFlagLoad" />
-              </Transform>
-              <Transform x="42" y="1" width="40" height="20">
-                <Effect>
-                  <Color color="#000000" />
-                </Effect>
-                <Text string="AlliedTicket" style="Style/LoadHeadingLatin11" />
-              </Transform>
-            </Transform>
-            <Transform x="8" y="61" width="185" height="20">
-              <Effect>
-                <Color color="#000000" />
-              </Effect>
-              <Text string="LocaleString(Locale/Locale, Locale/Valid, 'DEBRIEFING_HEADING')" style="Style/LoadHeading8" />
-            </Transform>
-            <Transform x="4" y="78" width="512" height="32">
-              <Transform x="0" y="0" width="502" height="18">
-                <Effect>
-                  <Color color="#000000" />
-                </Effect>
-                <Picture picture="" />
-              </Transform>
-              <Transform x="1" y="1" width="501" height="16">
-                <Effect>
-                  <Color color="0.519531, 0.49219, 0.300781" />
-                </Effect>
-                <Picture picture="" />
-              </Transform>
-              <Transform x="50" y="4" width="100" height="20">
-                <Effect>
-                  <Color color="#000000" />
-                </Effect>
-                <Text string="LocaleString(Locale/Locale, Locale/Valid, 'COL_HEADING_PLAYER_NAME')" style="Style('standard6.dif')" />
-              </Transform>
-              <Transform x="218" y="1" width="16" height="16">
-                <Picture picture="Menu/serverinfo/menu_icon_score_16x16.tga" />
-              </Transform>
-              <Transform x="266" y="1" width="16" height="16">
-                <Picture picture="Menu/serverinfo/menu_icon_kills_16x16.tga" />
-              </Transform>
-              <Transform x="318" y="1" width="16" height="16">
-                <Picture picture="Menu/serverinfo/menu_icon_death_16x16.tga" />
-              </Transform>
-              <Transform x="370" y="2" width="16" height="16">
-                <Picture picture="Menu/serverinfo/menu_icon_ping_16x16.tga" />
-              </Transform>
-            </Transform>
-            <Transform x="-5" y="-45" width="500" height="500">
-              <ListBox font="standard6.dif" row-height="76" is-selectable="false" border="true" background-color="#00000000" scrollbar-width="4" frame-color="#ffffff00" select-color="0, 0.1875, 0.539, 0.8" scrollbar-offset="4">
-                <BfListBoxData name="Debriefing/DebriefingList" field="listbox-data">
-                  <Placeholder description="Create new action" />
-                  <Placeholder description="Create new string" />
-                  <Placeholder description="Profile name" />
-                </BfListBoxData>
-              </ListBox>
-            </Transform>
-          </If>
+          <Transform x="-150" y="-100" width="800" height="600">
+            <Bink bink-filename="'Movies/Yavin1'" background-picture="'Icon_scout_1.tga'" fade-time="0" play="PlayBink" />
+            <TimeoutAction timeout-time="15">
+              <SetVariable variable="PlayYavinVideo" value="false" />
+            </TimeoutAction>
+          </Transform>
         </If>
-      </Transform>
-      <Transform x="162" y="20" width="512" height="512">
-        <If condition="StartingGame is 0 or (StartingGame is 1 or StartingGame is 4)">
-          <Effect>
-            <MultiplyColor alpha="FocusEffect/DebriefingAlpha" />
-          </Effect>
-          <Picture picture="Debriefing/SP_debriefing_512x512.tga" />
+        <If condition="not PlayDSVideo and not PlayYavinVideo">
+          <Picture picture="Debriefing/MP_debriefing_512x512.tga" />
           <Transform x="5" y="-2" width="500" height="20">
             <Effect>
               <Color color="#000000" />
             </Effect>
-            <Text string="Debriefing/DebriefingHeading" style="Style/LoadHeadingStyle" />
+            <Text string="Load/LevelName" style="Style/LoadHeadingStyle" />
           </Transform>
           <Transform x="150" y="30" width="240" height="20">
             <Transform x="22" y="3" width="16" height="16">
               <VariablePicture first-part="AxisTicketFlagLoad" />
             </Transform>
-            <Transform x="42" y="1" width="20" height="20">
+            <Transform x="42" y="1" width="40" height="20">
               <Effect>
                 <Color color="#000000" />
               </Effect>
@@ -878,30 +775,20 @@
             <Transform x="22" y="3" width="16" height="16">
               <VariablePicture first-part="AlliedTicketFlagLoad" />
             </Transform>
-            <Transform x="42" y="1" width="20" height="20">
+            <Transform x="42" y="1" width="40" height="20">
               <Effect>
                 <Color color="#000000" />
               </Effect>
               <Text string="AlliedTicket" style="Style/LoadHeadingLatin11" />
             </Transform>
           </Transform>
-          <Transform x="8" y="56" width="490" height="114">
-            <Text string="Debriefing/DebriefingText" style="BfStyle('standard6.dif')" />
+          <Transform x="8" y="61" width="185" height="20">
+            <Effect>
+              <Color color="#000000" />
+            </Effect>
+            <Text string="LocaleString(Locale/Locale, Locale/Valid, 'DEBRIEFING_HEADING')" style="Style/LoadHeading8" />
           </Transform>
-          <Transform x="10" y="180" width="500" height="20">
-            <If condition="StartingGame is 1 or StartingGame is 4">
-              <Transform x="6" y="2" width="201" height="23">
-                <Effect>
-                  <Color color="#000000" />
-                </Effect>
-                <Text string="LocaleString(Locale/Locale, Locale/Valid, 'DEBRIEFING_CAMPAIGN_STATUS')" style="RightAligned('standard6.dif')" />
-              </Transform>
-              <Transform x="220" y="-2" width="128" height="16">
-                <Picture picture="Debriefing/statusbar.tga" fill-picture="Debriefing/statusbar_full.tga" data="CampaignScore" maximum-value="MaxCampaignScore" size="93" horizontal-align="true" fill-order="true" />
-              </Transform>
-            </If>
-          </Transform>
-          <Transform x="5" y="198" width="497" height="18">
+          <Transform x="4" y="78" width="512" height="32">
             <Transform x="0" y="0" width="502" height="18">
               <Effect>
                 <Color color="#000000" />
@@ -914,7 +801,7 @@
               </Effect>
               <Picture picture="" />
             </Transform>
-            <Transform x="22" y="4" width="100" height="20">
+            <Transform x="50" y="4" width="100" height="20">
               <Effect>
                 <Color color="#000000" />
               </Effect>
@@ -929,37 +816,12 @@
             <Transform x="318" y="1" width="16" height="16">
               <Picture picture="Menu/serverinfo/menu_icon_death_16x16.tga" />
             </Transform>
-            <If condition="false">
-              <Transform x="220" y="4" width="100" height="20">
-                <Effect>
-                  <Color color="#000000" />
-                </Effect>
-                <Text string="LocaleString(Locale/Locale, Locale/Valid, 'COL_HEADING_SCORE')" style="Style('standard6.dif')" />
-              </Transform>
-              <Transform x="270" y="4" width="100" height="20">
-                <Effect>
-                  <Color color="#000000" />
-                </Effect>
-                <Text string="LocaleString(Locale/Locale, Locale/Valid, 'COL_HEADING_KILLS')" style="Style('standard6.dif')" />
-              </Transform>
-              <Transform x="320" y="4" width="100" height="20">
-                <Effect>
-                  <Color color="#000000" />
-                </Effect>
-                <Text string="LocaleString(Locale/Locale, Locale/Valid, 'COL_HEADING_DEATHS')" style="Style('standard6.dif')" />
-              </Transform>
-              <Transform x="370" y="4" width="100" height="20">
-                <If condition="false">
-                  <Effect>
-                    <Color color="#000000" />
-                  </Effect>
-                  <Text string="LocaleString(Locale/Locale, Locale/Valid, 'COL_HEADING_PING')" style="Style('standard6.dif')" />
-                </If>
-              </Transform>
-            </If>
+            <Transform x="370" y="2" width="16" height="16">
+              <Picture picture="Menu/serverinfo/menu_icon_ping_16x16.tga" />
+            </Transform>
           </Transform>
-          <Transform x="-5" y="198" width="500" height="500">
-            <ListBox font="standard6.dif" row-height="14" is-selectable="false" border="true" background-color="#00000000" scrollbar-width="4" frame-color="#ffffff00" select-color="0, 0.1875, 0.539, 0.8" scrollbar-offset="4">
+          <Transform x="-5" y="-45" width="500" height="500">
+            <ListBox font="standard6.dif" row-height="76" is-selectable="false" border="true" background-color="#00000000" scrollbar-width="4" frame-color="#ffffff00" select-color="0, 0.1875, 0.539, 0.8" scrollbar-offset="4">
               <BfListBoxData name="Debriefing/DebriefingList" field="listbox-data">
                 <Placeholder description="Create new action" />
                 <Placeholder description="Create new string" />
@@ -967,259 +829,371 @@
               </BfListBoxData>
             </ListBox>
           </Transform>
-          <Transform x="5" y="292" width="512" height="32">
-            <Transform x="0" y="0" width="502" height="17">
-              <Effect>
-                <Color color="#000000" />
-              </Effect>
-              <Picture picture="" />
-            </Transform>
-            <Transform x="1" y="1" width="501" height="15">
-              <Effect>
-                <Color color="0.519531, 0.49219, 0.300781" />
-              </Effect>
-              <Picture picture="" />
-            </Transform>
-            <Transform x="5" y="4" width="200" height="20">
-              <Effect>
-                <Color color="#000000" />
-              </Effect>
-              <Text string="LocaleString(Locale/Locale, Locale/Valid, 'DEBRIEFING_STATISTICS')" style="Style('standard6.dif')" />
-            </Transform>
-          </Transform>
-          <Transform x="5" y="291" width="492" height="230">
-            <ListBox font="standard6.dif" row-height="15" is-selectable="false" background-color="#00000000" scrollbar-width="6" frame-color="#ffffff00" select-color="0.49219, 0.53516, 0.2891" scrollbar-offset="4">
-              <BfListBoxData name="Debriefing/DebriefingStatisticsList" field="listbox-data">
-                <Placeholder description="Create new action" />
-                <Placeholder description="Create new string" />
-                <Placeholder description="Profile name" />
-              </BfListBoxData>
-            </ListBox>
-          </Transform>
         </If>
-      </Transform>
-      <Transform x="162" y="535" width="512" height="64">
-        <If condition="StartingGame is 0 or (StartingGame is 1 or StartingGame is 4)">
+      </If>
+    </Transform>
+    <Transform x="162" y="20" width="512" height="512">
+      <If condition="StartingGame is 0 or (StartingGame is 1 or StartingGame is 4)">
+        <Effect>
+          <MultiplyColor alpha="FocusEffect/DebriefingAlpha" />
+        </Effect>
+        <Picture picture="Debriefing/SP_debriefing_512x512.tga" />
+        <Transform x="5" y="-2" width="500" height="20">
           <Effect>
-            <MultiplyColor alpha="FocusEffect/DebriefingAlpha" />
+            <Color color="#000000" />
           </Effect>
-          <Picture picture="Debriefing/SP_debriefing_SMALL_512x64.tga" />
+          <Text string="Debriefing/DebriefingHeading" style="Style/LoadHeadingStyle" />
+        </Transform>
+        <Transform x="150" y="30" width="240" height="20">
+          <Transform x="22" y="3" width="16" height="16">
+            <VariablePicture first-part="AxisTicketFlagLoad" />
+          </Transform>
+          <Transform x="42" y="1" width="20" height="20">
+            <Effect>
+              <Color color="#000000" />
+            </Effect>
+            <Text string="AxisTicket" style="Style/LoadHeadingLatin11" />
+          </Transform>
+        </Transform>
+        <Transform x="250" y="30" width="240" height="20">
+          <Transform x="22" y="3" width="16" height="16">
+            <VariablePicture first-part="AlliedTicketFlagLoad" />
+          </Transform>
+          <Transform x="42" y="1" width="20" height="20">
+            <Effect>
+              <Color color="#000000" />
+            </Effect>
+            <Text string="AlliedTicket" style="Style/LoadHeadingLatin11" />
+          </Transform>
+        </Transform>
+        <Transform x="8" y="56" width="490" height="114">
+          <Text string="Debriefing/DebriefingText" style="BfStyle('standard6.dif')" />
+        </Transform>
+        <Transform x="10" y="180" width="500" height="20">
           <If condition="StartingGame is 1 or StartingGame is 4">
-            <Transform x="10" y="7" width="128" height="128">
-              <Button picture="Menu/knapp3_N.tga" mouse-over-picture="Menu/knapp3_MO.tga" width="109" height="25">
-                <ActionList>
-                  <SetVariable variable="FocusEffect/GoFadeOut1" value="true" />
-                </ActionList>
-              </Button>
-              <AddSubNextEffect value="FocusEffect/DebriefingAlpha" end-value="0" start-time="0.0" start-percentage="0.0" end-time="0.2" delay="0.0" up="false" trigger="FocusEffect/GoFadeOut1">
-                <ActionList>
-                  <CallFunction function="DoneCampaign" />
-                </ActionList>
-              </AddSubNextEffect>
-              <Transform x="5" y="9" width="96" height="18">
-                <Text string="LocaleString(Locale/Locale, Locale/Valid, 'DEBRIEFING_DONE')" style="Style/LoadNavigationStyle" />
-              </Transform>
-              <Transform x="2" y="1" width="106" height="23">
-                <CullEventAction event="Button(0, ButtonPress, Select)">
-                  <CallFunction function="Sound/PlayLoadMenuCancel" />
-                </CullEventAction>
-                <CullEventAction event="Type(0, PointerIn)">
-                  <CallFunction function="Sound/PlayLoadMenuHighLight" />
-                </CullEventAction>
-              </Transform>
+            <Transform x="6" y="2" width="201" height="23">
+              <Effect>
+                <Color color="#000000" />
+              </Effect>
+              <Text string="LocaleString(Locale/Locale, Locale/Valid, 'DEBRIEFING_CAMPAIGN_STATUS')" style="RightAligned('standard6.dif')" />
             </Transform>
-            <Transform x="200" y="7" width="128" height="128">
-              <Button picture="Menu/knapp3_N.tga" mouse-over-picture="Menu/knapp3_MO.tga" width="109" height="25">
-                <ActionList>
-                  <SetVariable variable="FocusEffect/GoFadeOut2" value="true" />
-                </ActionList>
-              </Button>
-              <AddSubNextEffect value="FocusEffect/DebriefingAlpha" end-value="0" start-time="0.0" start-percentage="0.0" end-time="0.2" delay="0.0" up="false" trigger="FocusEffect/GoFadeOut2">
-                <ActionList>
-                  <CallFunction function="ReplayCampaign" />
-                </ActionList>
-              </AddSubNextEffect>
-              <Transform x="5" y="9" width="96" height="18">
-                <Text string="LocaleString(Locale/Locale, Locale/Valid, 'DEBRIEFING_REPLAY')" style="Style/LoadNavigationStyle" />
-              </Transform>
-              <Transform x="2" y="1" width="106" height="23">
-                <CullEventAction event="Button(0, ButtonPress, Select)">
-                  <CallFunction function="Sound/PlayLoadMenuCancel" />
-                </CullEventAction>
-                <CullEventAction event="Type(0, PointerIn)">
-                  <CallFunction function="Sound/PlayLoadMenuHighLight" />
-                </CullEventAction>
-              </Transform>
-            </Transform>
-            <Transform x="390" y="7" width="128" height="128">
-              <Button picture="Menu/knapp3_N.tga" mouse-over-picture="Menu/knapp3_MO.tga" width="109" height="25">
-                <ActionList>
-                  <SetVariable variable="FocusEffect/GoFadeOut3" value="true" />
-                </ActionList>
-              </Button>
-              <AddSubNextEffect value="FocusEffect/DebriefingAlpha" end-value="0" start-time="0.0" start-percentage="0.0" end-time="0.2" delay="0.0" up="false" trigger="FocusEffect/GoFadeOut3">
-                <ActionList>
-                  <CallFunction function="NextCampaign" />
-                </ActionList>
-              </AddSubNextEffect>
-              <Transform x="5" y="9" width="96" height="18">
-                <Text string="LocaleString(Locale/Locale, Locale/Valid, 'DEBRIEFING_CONTINUE')" style="Style/LoadNavigationStyle" />
-              </Transform>
-              <Transform x="2" y="1" width="106" height="23">
-                <CullEventAction event="Button(0, ButtonPress, Select)">
-                  <CallFunction function="Sound/PlayLoadMenuCancel" />
-                </CullEventAction>
-                <CullEventAction event="Type(0, PointerIn)">
-                  <CallFunction function="Sound/PlayLoadMenuHighLight" />
-                </CullEventAction>
-              </Transform>
+            <Transform x="220" y="-2" width="128" height="16">
+              <Picture picture="Debriefing/statusbar.tga" fill-picture="Debriefing/statusbar_full.tga" data="CampaignScore" maximum-value="MaxCampaignScore" size="93" horizontal-align="true" fill-order="true" />
             </Transform>
           </If>
-          <If condition="StartingGame is 0">
-            <Transform x="10" y="7" width="128" height="128">
-              <Button picture="Menu/knappExt_N.tga" mouse-over-picture="Menu/knappExt_MO.tga" width="109" height="25">
-                <ActionList>
-                  <SetVariable variable="FocusEffect/GoFadeOut1" value="true" />
-                </ActionList>
-              </Button>
-              <AddSubNextEffect value="FocusEffect/DebriefingAlpha" end-value="0" start-time="0.0" start-percentage="0.0" end-time="0.2" delay="0.0" up="false" trigger="FocusEffect/GoFadeOut1">
-                <ActionList>
-                  <CallFunction function="DoneSkirmish" />
-                </ActionList>
-              </AddSubNextEffect>
-              <Transform x="5" y="9" width="96" height="18">
-                <Text string="LocaleString(Locale/Locale, Locale/Valid, 'DEBRIEFING_ABORT')" style="Style/LoadNavigationStyle" />
-              </Transform>
-              <Transform x="2" y="1" width="106" height="23">
-                <CullEventAction event="Button(0, ButtonPress, Select)">
-                  <CallFunction function="Sound/PlayLoadMenuCancel" />
-                </CullEventAction>
-                <CullEventAction event="Type(0, PointerIn)">
-                  <CallFunction function="Sound/PlayLoadMenuHighLight" />
-                </CullEventAction>
-              </Transform>
+        </Transform>
+        <Transform x="5" y="198" width="497" height="18">
+          <Transform x="0" y="0" width="502" height="18">
+            <Effect>
+              <Color color="#000000" />
+            </Effect>
+            <Picture picture="" />
+          </Transform>
+          <Transform x="1" y="1" width="501" height="16">
+            <Effect>
+              <Color color="0.519531, 0.49219, 0.300781" />
+            </Effect>
+            <Picture picture="" />
+          </Transform>
+          <Transform x="22" y="4" width="100" height="20">
+            <Effect>
+              <Color color="#000000" />
+            </Effect>
+            <Text string="LocaleString(Locale/Locale, Locale/Valid, 'COL_HEADING_PLAYER_NAME')" style="Style('standard6.dif')" />
+          </Transform>
+          <Transform x="218" y="1" width="16" height="16">
+            <Picture picture="Menu/serverinfo/menu_icon_score_16x16.tga" />
+          </Transform>
+          <Transform x="266" y="1" width="16" height="16">
+            <Picture picture="Menu/serverinfo/menu_icon_kills_16x16.tga" />
+          </Transform>
+          <Transform x="318" y="1" width="16" height="16">
+            <Picture picture="Menu/serverinfo/menu_icon_death_16x16.tga" />
+          </Transform>
+          <If condition="false">
+            <Transform x="220" y="4" width="100" height="20">
+              <Effect>
+                <Color color="#000000" />
+              </Effect>
+              <Text string="LocaleString(Locale/Locale, Locale/Valid, 'COL_HEADING_SCORE')" style="Style('standard6.dif')" />
             </Transform>
-            <Transform x="390" y="7" width="128" height="128">
-              <Button picture="Menu/knapp3_N.tga" mouse-over-picture="Menu/knapp3_MO.tga" width="109" height="25">
-                <ActionList>
-                  <SetVariable variable="FocusEffect/GoFadeOut2" value="true" />
-                </ActionList>
-              </Button>
-              <AddSubNextEffect value="FocusEffect/DebriefingAlpha" end-value="0" start-time="0.0" start-percentage="0.0" end-time="0.2" delay="0.0" up="false" trigger="FocusEffect/GoFadeOut2">
-                <ActionList>
-                  <CallFunction function="ReplaySkirmish" />
-                </ActionList>
-              </AddSubNextEffect>
-              <Transform x="5" y="9" width="96" height="18">
-                <Text string="LocaleString(Locale/Locale, Locale/Valid, 'DEBRIEFING_REPLAY')" style="Style/LoadNavigationStyle" />
-              </Transform>
-              <Transform x="2" y="1" width="106" height="23">
-                <CullEventAction event="Button(0, ButtonPress, Select)">
-                  <CallFunction function="Sound/PlayLoadMenuCancel" />
-                </CullEventAction>
-                <CullEventAction event="Type(0, PointerIn)">
-                  <CallFunction function="Sound/PlayLoadMenuHighLight" />
-                </CullEventAction>
-              </Transform>
+            <Transform x="270" y="4" width="100" height="20">
+              <Effect>
+                <Color color="#000000" />
+              </Effect>
+              <Text string="LocaleString(Locale/Locale, Locale/Valid, 'COL_HEADING_KILLS')" style="Style('standard6.dif')" />
             </Transform>
-            <If condition="false">
-              <If condition="InhibitMenuBehavior is 3">
-                <Transform x="200" y="7" width="128" height="128">
-                  <Button picture="Menu/knappExt_N.tga" mouse-over-picture="Menu/knappExt_MO.tga" width="107" height="24">
-                    <ActionList>
-                      <CallFunction function="DoneSkirmish" />
-                    </ActionList>
-                  </Button>
-                  <Transform x="5" y="9" width="96" height="18">
-                    <Text string="LocaleString(Locale/Locale, Locale/Valid, 'DEBRIEFING_ABORT')" style="Style/LoadNavigationStyle" />
-                  </Transform>
-                  <Transform x="3" y="0" width="107" height="24">
-                    <CullEventAction event="Button(0, ButtonPress, Select)">
-                      <CallFunction function="Sound/PlayLoadMenuCancel" />
-                    </CullEventAction>
-                    <CullEventAction event="Type(0, PointerIn)">
-                      <CallFunction function="Sound/PlayLoadMenuHighLight" />
-                    </CullEventAction>
-                  </Transform>
-                </Transform>
+            <Transform x="320" y="4" width="100" height="20">
+              <Effect>
+                <Color color="#000000" />
+              </Effect>
+              <Text string="LocaleString(Locale/Locale, Locale/Valid, 'COL_HEADING_DEATHS')" style="Style('standard6.dif')" />
+            </Transform>
+            <Transform x="370" y="4" width="100" height="20">
+              <If condition="false">
+                <Effect>
+                  <Color color="#000000" />
+                </Effect>
+                <Text string="LocaleString(Locale/Locale, Locale/Valid, 'COL_HEADING_PING')" style="Style('standard6.dif')" />
               </If>
+            </Transform>
+          </If>
+        </Transform>
+        <Transform x="-5" y="198" width="500" height="500">
+          <ListBox font="standard6.dif" row-height="14" is-selectable="false" border="true" background-color="#00000000" scrollbar-width="4" frame-color="#ffffff00" select-color="0, 0.1875, 0.539, 0.8" scrollbar-offset="4">
+            <BfListBoxData name="Debriefing/DebriefingList" field="listbox-data">
+              <Placeholder description="Create new action" />
+              <Placeholder description="Create new string" />
+              <Placeholder description="Profile name" />
+            </BfListBoxData>
+          </ListBox>
+        </Transform>
+        <Transform x="5" y="292" width="512" height="32">
+          <Transform x="0" y="0" width="502" height="17">
+            <Effect>
+              <Color color="#000000" />
+            </Effect>
+            <Picture picture="" />
+          </Transform>
+          <Transform x="1" y="1" width="501" height="15">
+            <Effect>
+              <Color color="0.519531, 0.49219, 0.300781" />
+            </Effect>
+            <Picture picture="" />
+          </Transform>
+          <Transform x="5" y="4" width="200" height="20">
+            <Effect>
+              <Color color="#000000" />
+            </Effect>
+            <Text string="LocaleString(Locale/Locale, Locale/Valid, 'DEBRIEFING_STATISTICS')" style="Style('standard6.dif')" />
+          </Transform>
+        </Transform>
+        <Transform x="5" y="291" width="492" height="230">
+          <ListBox font="standard6.dif" row-height="15" is-selectable="false" background-color="#00000000" scrollbar-width="6" frame-color="#ffffff00" select-color="0.49219, 0.53516, 0.2891" scrollbar-offset="4">
+            <BfListBoxData name="Debriefing/DebriefingStatisticsList" field="listbox-data">
+              <Placeholder description="Create new action" />
+              <Placeholder description="Create new string" />
+              <Placeholder description="Profile name" />
+            </BfListBoxData>
+          </ListBox>
+        </Transform>
+      </If>
+    </Transform>
+    <Transform x="162" y="535" width="512" height="64">
+      <If condition="StartingGame is 0 or (StartingGame is 1 or StartingGame is 4)">
+        <Effect>
+          <MultiplyColor alpha="FocusEffect/DebriefingAlpha" />
+        </Effect>
+        <Picture picture="Debriefing/SP_debriefing_SMALL_512x64.tga" />
+        <If condition="StartingGame is 1 or StartingGame is 4">
+          <Transform x="10" y="7" width="128" height="128">
+            <Button picture="Menu/knapp3_N.tga" mouse-over-picture="Menu/knapp3_MO.tga" width="109" height="25">
+              <ActionList>
+                <SetVariable variable="FocusEffect/GoFadeOut1" value="true" />
+              </ActionList>
+            </Button>
+            <AddSubNextEffect value="FocusEffect/DebriefingAlpha" end-value="0" start-time="0.0" start-percentage="0.0" end-time="0.2" delay="0.0" up="false" trigger="FocusEffect/GoFadeOut1">
+              <ActionList>
+                <CallFunction function="DoneCampaign" />
+              </ActionList>
+            </AddSubNextEffect>
+            <Transform x="5" y="9" width="96" height="18">
+              <Text string="LocaleString(Locale/Locale, Locale/Valid, 'DEBRIEFING_DONE')" style="Style/LoadNavigationStyle" />
+            </Transform>
+            <Transform x="2" y="1" width="106" height="23">
+              <CullEventAction event="Button(0, ButtonPress, Select)">
+                <CallFunction function="Sound/PlayLoadMenuCancel" />
+              </CullEventAction>
+              <CullEventAction event="Type(0, PointerIn)">
+                <CallFunction function="Sound/PlayLoadMenuHighLight" />
+              </CullEventAction>
+            </Transform>
+          </Transform>
+          <Transform x="200" y="7" width="128" height="128">
+            <Button picture="Menu/knapp3_N.tga" mouse-over-picture="Menu/knapp3_MO.tga" width="109" height="25">
+              <ActionList>
+                <SetVariable variable="FocusEffect/GoFadeOut2" value="true" />
+              </ActionList>
+            </Button>
+            <AddSubNextEffect value="FocusEffect/DebriefingAlpha" end-value="0" start-time="0.0" start-percentage="0.0" end-time="0.2" delay="0.0" up="false" trigger="FocusEffect/GoFadeOut2">
+              <ActionList>
+                <CallFunction function="ReplayCampaign" />
+              </ActionList>
+            </AddSubNextEffect>
+            <Transform x="5" y="9" width="96" height="18">
+              <Text string="LocaleString(Locale/Locale, Locale/Valid, 'DEBRIEFING_REPLAY')" style="Style/LoadNavigationStyle" />
+            </Transform>
+            <Transform x="2" y="1" width="106" height="23">
+              <CullEventAction event="Button(0, ButtonPress, Select)">
+                <CallFunction function="Sound/PlayLoadMenuCancel" />
+              </CullEventAction>
+              <CullEventAction event="Type(0, PointerIn)">
+                <CallFunction function="Sound/PlayLoadMenuHighLight" />
+              </CullEventAction>
+            </Transform>
+          </Transform>
+          <Transform x="390" y="7" width="128" height="128">
+            <Button picture="Menu/knapp3_N.tga" mouse-over-picture="Menu/knapp3_MO.tga" width="109" height="25">
+              <ActionList>
+                <SetVariable variable="FocusEffect/GoFadeOut3" value="true" />
+              </ActionList>
+            </Button>
+            <AddSubNextEffect value="FocusEffect/DebriefingAlpha" end-value="0" start-time="0.0" start-percentage="0.0" end-time="0.2" delay="0.0" up="false" trigger="FocusEffect/GoFadeOut3">
+              <ActionList>
+                <CallFunction function="NextCampaign" />
+              </ActionList>
+            </AddSubNextEffect>
+            <Transform x="5" y="9" width="96" height="18">
+              <Text string="LocaleString(Locale/Locale, Locale/Valid, 'DEBRIEFING_CONTINUE')" style="Style/LoadNavigationStyle" />
+            </Transform>
+            <Transform x="2" y="1" width="106" height="23">
+              <CullEventAction event="Button(0, ButtonPress, Select)">
+                <CallFunction function="Sound/PlayLoadMenuCancel" />
+              </CullEventAction>
+              <CullEventAction event="Type(0, PointerIn)">
+                <CallFunction function="Sound/PlayLoadMenuHighLight" />
+              </CullEventAction>
+            </Transform>
+          </Transform>
+        </If>
+        <If condition="StartingGame is 0">
+          <Transform x="10" y="7" width="128" height="128">
+            <Button picture="Menu/knappExt_N.tga" mouse-over-picture="Menu/knappExt_MO.tga" width="109" height="25">
+              <ActionList>
+                <SetVariable variable="FocusEffect/GoFadeOut1" value="true" />
+              </ActionList>
+            </Button>
+            <AddSubNextEffect value="FocusEffect/DebriefingAlpha" end-value="0" start-time="0.0" start-percentage="0.0" end-time="0.2" delay="0.0" up="false" trigger="FocusEffect/GoFadeOut1">
+              <ActionList>
+                <CallFunction function="DoneSkirmish" />
+              </ActionList>
+            </AddSubNextEffect>
+            <Transform x="5" y="9" width="96" height="18">
+              <Text string="LocaleString(Locale/Locale, Locale/Valid, 'DEBRIEFING_ABORT')" style="Style/LoadNavigationStyle" />
+            </Transform>
+            <Transform x="2" y="1" width="106" height="23">
+              <CullEventAction event="Button(0, ButtonPress, Select)">
+                <CallFunction function="Sound/PlayLoadMenuCancel" />
+              </CullEventAction>
+              <CullEventAction event="Type(0, PointerIn)">
+                <CallFunction function="Sound/PlayLoadMenuHighLight" />
+              </CullEventAction>
+            </Transform>
+          </Transform>
+          <Transform x="390" y="7" width="128" height="128">
+            <Button picture="Menu/knapp3_N.tga" mouse-over-picture="Menu/knapp3_MO.tga" width="109" height="25">
+              <ActionList>
+                <SetVariable variable="FocusEffect/GoFadeOut2" value="true" />
+              </ActionList>
+            </Button>
+            <AddSubNextEffect value="FocusEffect/DebriefingAlpha" end-value="0" start-time="0.0" start-percentage="0.0" end-time="0.2" delay="0.0" up="false" trigger="FocusEffect/GoFadeOut2">
+              <ActionList>
+                <CallFunction function="ReplaySkirmish" />
+              </ActionList>
+            </AddSubNextEffect>
+            <Transform x="5" y="9" width="96" height="18">
+              <Text string="LocaleString(Locale/Locale, Locale/Valid, 'DEBRIEFING_REPLAY')" style="Style/LoadNavigationStyle" />
+            </Transform>
+            <Transform x="2" y="1" width="106" height="23">
+              <CullEventAction event="Button(0, ButtonPress, Select)">
+                <CallFunction function="Sound/PlayLoadMenuCancel" />
+              </CullEventAction>
+              <CullEventAction event="Type(0, PointerIn)">
+                <CallFunction function="Sound/PlayLoadMenuHighLight" />
+              </CullEventAction>
+            </Transform>
+          </Transform>
+          <If condition="false">
+            <If condition="InhibitMenuBehavior is 3">
+              <Transform x="200" y="7" width="128" height="128">
+                <Button picture="Menu/knappExt_N.tga" mouse-over-picture="Menu/knappExt_MO.tga" width="107" height="24">
+                  <ActionList>
+                    <CallFunction function="DoneSkirmish" />
+                  </ActionList>
+                </Button>
+                <Transform x="5" y="9" width="96" height="18">
+                  <Text string="LocaleString(Locale/Locale, Locale/Valid, 'DEBRIEFING_ABORT')" style="Style/LoadNavigationStyle" />
+                </Transform>
+                <Transform x="3" y="0" width="107" height="24">
+                  <CullEventAction event="Button(0, ButtonPress, Select)">
+                    <CallFunction function="Sound/PlayLoadMenuCancel" />
+                  </CullEventAction>
+                  <CullEventAction event="Type(0, PointerIn)">
+                    <CallFunction function="Sound/PlayLoadMenuHighLight" />
+                  </CullEventAction>
+                </Transform>
+              </Transform>
             </If>
           </If>
         </If>
-      </Transform>
-    </If>
-  </Group>
+      </If>
+    </Transform>
+  </If>
   <Transform x="0" y="0" width="800" height="600">
     <If condition="ShowDebriefing is 3">
       <Effect>
         <MultiplyColor alpha="FocusEffect/SplashScreenAlpha" />
       </Effect>
-      <Group>
-        <Group>
-          <Group>
-            <If condition="CampaignVictory is 1 or (CampaignVictory is 2 or CampaignVictory is 3)">
-              <CullEventAction event="Button(0, ButtonPress, Select)">
-                <ActionList>
-                  <SetVariable variable="Debriefing/ShowHeading" value="false" />
-                  <SetVariable variable="Debriefing/ShowCampaignDebriefing" value="true" />
-                  <SetString variable="Debriefing/DebriefingText" value="LocaleString(Locale/Locale, Locale/Valid, 'DEBRIEFING_ALLIED_VICTORY_HISTORIC')" />
-                </ActionList>
-              </CullEventAction>
-              <Picture picture="Debriefing/Allied_Win_Camp.tga" />
-              <Transform x="0" y="200" width="800" height="20">
-                <If condition="Debriefing/ShowHeading">
-                  <Text string="LocaleString(Locale/Locale, Locale/Valid, 'DEBRIEFING_ALLIED_VICTORY')" style="CenterAligned('Trebuchet MS8.dif')" />
-                </If>
-              </Transform>
-            </If>
-            <If condition="CampaignVictory is 4 or (CampaignVictory is 5 or CampaignVictory is 6)">
-              <CullEventAction event="Button(0, ButtonPress, Select)">
-                <ActionList>
-                  <SetVariable variable="Debriefing/ShowHeading" value="false" />
-                  <SetVariable variable="Debriefing/ShowCampaignDebriefing" value="true" />
-                  <SetString variable="Debriefing/DebriefingText" value="LocaleString(Locale/Locale, Locale/Valid, 'DEBRIEFING_AXIS_VICTORY_HISTORIC')" />
-                </ActionList>
-              </CullEventAction>
-              <Picture picture="Debriefing/Axis_Win_Camp.tga" />
-              <Transform x="0" y="200" width="800" height="20">
-                <If condition="Debriefing/ShowHeading">
-                  <Text string="LocaleString(Locale/Locale, Locale/Valid, 'DEBRIEFING_AXIS_VICTORY')" style="CenterAligned('Trebuchet MS8.dif')" />
-                </If>
-              </Transform>
-            </If>
-          </Group>
-          <If condition="CampaignVictory is 7 or (CampaignVictory is 8 or CampaignVictory is 9)">
-            <CullEventAction event="Button(0, ButtonPress, Select)">
-              <ActionList>
-                <SetVariable variable="Debriefing/ShowHeading" value="false" />
-                <SetVariable variable="Debriefing/ShowCampaignDebriefing" value="true" />
-                <SetString variable="Debriefing/DebriefingText" value="LocaleString(Locale/Locale, Locale/Valid, 'DEBRIEFING_ALLIED_DEFEAT_HISTORIC')" />
-              </ActionList>
-            </CullEventAction>
-            <Picture picture="Debriefing/Allied_Lose_Camp.tga" />
-            <Transform x="0" y="200" width="800" height="20">
-              <If condition="Debriefing/ShowHeading">
-                <Text string="LocaleString(Locale/Locale, Locale/Valid, 'DEBRIEFING_ALLIED_DEFEAT')" style="CenterAligned('Trebuchet MS8.dif')" />
-              </If>
-            </Transform>
+      <If condition="CampaignVictory is 1 or (CampaignVictory is 2 or CampaignVictory is 3)">
+        <CullEventAction event="Button(0, ButtonPress, Select)">
+          <ActionList>
+            <SetVariable variable="Debriefing/ShowHeading" value="false" />
+            <SetVariable variable="Debriefing/ShowCampaignDebriefing" value="true" />
+            <SetString variable="Debriefing/DebriefingText" value="LocaleString(Locale/Locale, Locale/Valid, 'DEBRIEFING_ALLIED_VICTORY_HISTORIC')" />
+          </ActionList>
+        </CullEventAction>
+        <Picture picture="Debriefing/Allied_Win_Camp.tga" />
+        <Transform x="0" y="200" width="800" height="20">
+          <If condition="Debriefing/ShowHeading">
+            <Text string="LocaleString(Locale/Locale, Locale/Valid, 'DEBRIEFING_ALLIED_VICTORY')" style="CenterAligned('Trebuchet MS8.dif')" />
           </If>
-        </Group>
-        <If condition="CampaignVictory is 10 or (CampaignVictory is 11 or CampaignVictory is 12)">
-          <CullEventAction event="Button(0, ButtonPress, Select)">
-            <ActionList>
-              <SetVariable variable="Debriefing/ShowHeading" value="false" />
-              <SetVariable variable="Debriefing/ShowCampaignDebriefing" value="true" />
-              <SetString variable="Debriefing/DebriefingText" value="LocaleString(Locale/Locale, Locale/Valid, 'DEBRIEFING_AXIS_DEFEAT_HISTORIC')" />
-            </ActionList>
-          </CullEventAction>
-          <Picture picture="Debriefing/Axis_Lose_Camp.tga" />
-          <Transform x="0" y="200" width="800" height="20">
-            <If condition="Debriefing/ShowHeading">
-              <Text string="LocaleString(Locale/Locale, Locale/Valid, 'DEBRIEFING_AXIS_DEFEAT')" style="CenterAligned('Trebuchet MS8.dif')" />
-            </If>
-          </Transform>
-        </If>
-      </Group>
+        </Transform>
+      </If>
+      <If condition="CampaignVictory is 4 or (CampaignVictory is 5 or CampaignVictory is 6)">
+        <CullEventAction event="Button(0, ButtonPress, Select)">
+          <ActionList>
+            <SetVariable variable="Debriefing/ShowHeading" value="false" />
+            <SetVariable variable="Debriefing/ShowCampaignDebriefing" value="true" />
+            <SetString variable="Debriefing/DebriefingText" value="LocaleString(Locale/Locale, Locale/Valid, 'DEBRIEFING_AXIS_VICTORY_HISTORIC')" />
+          </ActionList>
+        </CullEventAction>
+        <Picture picture="Debriefing/Axis_Win_Camp.tga" />
+        <Transform x="0" y="200" width="800" height="20">
+          <If condition="Debriefing/ShowHeading">
+            <Text string="LocaleString(Locale/Locale, Locale/Valid, 'DEBRIEFING_AXIS_VICTORY')" style="CenterAligned('Trebuchet MS8.dif')" />
+          </If>
+        </Transform>
+      </If>
+      <If condition="CampaignVictory is 7 or (CampaignVictory is 8 or CampaignVictory is 9)">
+        <CullEventAction event="Button(0, ButtonPress, Select)">
+          <ActionList>
+            <SetVariable variable="Debriefing/ShowHeading" value="false" />
+            <SetVariable variable="Debriefing/ShowCampaignDebriefing" value="true" />
+            <SetString variable="Debriefing/DebriefingText" value="LocaleString(Locale/Locale, Locale/Valid, 'DEBRIEFING_ALLIED_DEFEAT_HISTORIC')" />
+          </ActionList>
+        </CullEventAction>
+        <Picture picture="Debriefing/Allied_Lose_Camp.tga" />
+        <Transform x="0" y="200" width="800" height="20">
+          <If condition="Debriefing/ShowHeading">
+            <Text string="LocaleString(Locale/Locale, Locale/Valid, 'DEBRIEFING_ALLIED_DEFEAT')" style="CenterAligned('Trebuchet MS8.dif')" />
+          </If>
+        </Transform>
+      </If>
+      <If condition="CampaignVictory is 10 or (CampaignVictory is 11 or CampaignVictory is 12)">
+        <CullEventAction event="Button(0, ButtonPress, Select)">
+          <ActionList>
+            <SetVariable variable="Debriefing/ShowHeading" value="false" />
+            <SetVariable variable="Debriefing/ShowCampaignDebriefing" value="true" />
+            <SetString variable="Debriefing/DebriefingText" value="LocaleString(Locale/Locale, Locale/Valid, 'DEBRIEFING_AXIS_DEFEAT_HISTORIC')" />
+          </ActionList>
+        </CullEventAction>
+        <Picture picture="Debriefing/Axis_Lose_Camp.tga" />
+        <Transform x="0" y="200" width="800" height="20">
+          <If condition="Debriefing/ShowHeading">
+            <Text string="LocaleString(Locale/Locale, Locale/Valid, 'DEBRIEFING_AXIS_DEFEAT')" style="CenterAligned('Trebuchet MS8.dif')" />
+          </If>
+        </Transform>
+      </If>
       <Transform x="162" y="20" width="512" height="512">
         <If condition="Debriefing/ShowCampaignDebriefing">
           <Picture picture="Debriefing/SP_debriefing_512x512.tga" />
@@ -1461,158 +1435,152 @@
     <Transform x="265" y="200" width="512" height="128">
       <Picture picture="Menu/menu_addserver_512x128.tga" />
     </Transform>
-    <Group>
-      <Group>
-        <Group>
-          <If condition="Join/ShowFailedToJoin is 1">
-            <Transform x="265" y="200" width="512" height="128">
-              <Transform x="10" y="8" width="120" height="20">
-                <Effect>
-                  <Color color="#000000" />
-                </Effect>
-                <Text string="LocaleString(Locale/Locale, Locale/Valid, 'CONFIRMATION_ERROR')" style="Style/LoadHeading8" />
-              </Transform>
-              <Transform x="10" y="50" width="260" height="20">
-                <Text string="LocaleString(Locale/Locale, Locale/Valid, 'CONFIRMATION_FAILED_TO_CONNECT')" style="CenterAligned('standard6.dif')" />
-              </Transform>
-              <Transform x="110" y="80" width="64" height="32">
-                <Button picture="Menu/buttons/menu_reset_64x32.tga" mouse-over-picture="Menu/buttons/menu_reset_MO_64x32.tga" width="63" height="20">
-                  <ActionList>
-                    <CallFunction function="Join/FailedToJoin" />
-                  </ActionList>
-                </Button>
-                <Transform x="0" y="5" width="63" height="20">
-                  <Text string="LocaleString(Locale/Locale, Locale/Valid, 'CONFIRMATION_OK')" style="CenterAligned('standard6.dif')" />
-                </Transform>
-                <Transform x="1" y="1" width="61" height="18">
-                  <CullEventAction event="Type(0, ButtonPress)">
-                    <CallFunction function="Sound/PlayMenuOk" />
-                  </CullEventAction>
-                  <CullEventAction event="Type(0, PointerIn)">
-                    <CallFunction function="Sound/PlayMenuHighLight" />
-                  </CullEventAction>
-                </Transform>
-              </Transform>
-            </Transform>
-          </If>
-          <If condition="Join/ShowFailedToJoin is 2">
-            <Transform x="265" y="200" width="512" height="128">
-              <Transform x="10" y="8" width="120" height="20">
-                <Effect>
-                  <Color color="#000000" />
-                </Effect>
-                <Text string="LocaleString(Locale/Locale, Locale/Valid, 'CONFIRMATION_ERROR')" style="Style/LoadHeading8" />
-              </Transform>
-              <Transform x="10" y="50" width="260" height="20">
-                <Text string="LocaleString(Locale/Locale, Locale/Valid, 'CONFIRMATION_FAILED_TO_CONNECT_OLD_VERSION')" style="Center('standard6.dif')" />
-              </Transform>
-              <Transform x="15" y="80" width="64" height="32">
-                <Button picture="Menu/buttons/menu_reset_64x32.tga" mouse-over-picture="Menu/buttons/menu_reset_MO_64x32.tga" width="63" height="20">
-                  <ActionList>
-                    <SetVariable variable="Join/ShowFailedToJoin" value="3" />
-                    <CallFunction function="Join/UpdateVersion" />
-                  </ActionList>
-                </Button>
-                <Transform x="0" y="5" width="63" height="20">
-                  <Text string="LocaleString(Locale/Locale, Locale/Valid, 'CONFIRMATION_YES')" style="CenterAligned('standard6.dif')" />
-                </Transform>
-                <Transform x="1" y="1" width="61" height="18">
-                  <CullEventAction event="Type(0, ButtonPress)">
-                    <CallFunction function="Sound/PlayMenuOk" />
-                  </CullEventAction>
-                  <CullEventAction event="Type(0, PointerIn)">
-                    <CallFunction function="Sound/PlayMenuHighLight" />
-                  </CullEventAction>
-                </Transform>
-              </Transform>
-              <Transform x="200" y="80" width="64" height="32">
-                <Button picture="Menu/buttons/menu_reset_64x32.tga" mouse-over-picture="Menu/buttons/menu_reset_MO_64x32.tga" width="63" height="20">
-                  <ActionList>
-                    <CallFunction function="Join/FailedToJoin" />
-                  </ActionList>
-                </Button>
-                <Transform x="0" y="5" width="63" height="20">
-                  <Effect>
-                    <Color color="#ffffff" />
-                  </Effect>
-                  <Text string="LocaleString(Locale/Locale, Locale/Valid, 'CONFIRMATION_NO')" style="CenterAligned('standard6.dif')" />
-                </Transform>
-                <Transform x="1" y="1" width="61" height="18">
-                  <CullEventAction event="Type(0, ButtonPress)">
-                    <CallFunction function="Sound/PlayMenuOk" />
-                  </CullEventAction>
-                  <CullEventAction event="Type(0, PointerIn)">
-                    <CallFunction function="Sound/PlayMenuHighLight" />
-                  </CullEventAction>
-                </Transform>
-              </Transform>
-            </Transform>
-          </If>
-        </Group>
-        <If condition="Join/ShowFailedToJoin is 3">
-          <Transform x="265" y="200" width="512" height="128">
-            <Transform x="10" y="8" width="120" height="20">
-              <Effect>
-                <Color color="#000000" />
-              </Effect>
-              <Text string="LocaleString(Locale/Locale, Locale/Valid, 'CONFIRMATION_HEADING_INFO')" style="Style/LoadHeading8" />
-            </Transform>
-            <Transform x="10" y="50" width="260" height="20">
-              <Text string="LocaleString(Locale/Locale, Locale/Valid, 'CONFIRMATION_LOOKING_FOR_UPDATES')" style="Center('standard6.dif')" />
-            </Transform>
-            <Transform x="110" y="80" width="64" height="32">
-              <Button picture="Menu/buttons/menu_reset_64x32.tga" mouse-over-picture="Menu/buttons/menu_reset_MO_64x32.tga" width="63" height="20">
-                <ActionList>
-                  <CallFunction function="Join/FailedToJoin" />
-                </ActionList>
-              </Button>
-              <Transform x="0" y="5" width="63" height="20">
-                <Text string="LocaleString(Locale/Locale, Locale/Valid, 'CONFIRMATION_ABORT')" style="CenterAligned('standard6.dif')" />
-              </Transform>
-              <Transform x="1" y="1" width="61" height="18">
-                <CullEventAction event="Type(0, ButtonPress)">
-                  <CallFunction function="Sound/PlayMenuOk" />
-                </CullEventAction>
-                <CullEventAction event="Type(0, PointerIn)">
-                  <CallFunction function="Sound/PlayMenuHighLight" />
-                </CullEventAction>
-              </Transform>
-            </Transform>
+    <If condition="Join/ShowFailedToJoin is 1">
+      <Transform x="265" y="200" width="512" height="128">
+        <Transform x="10" y="8" width="120" height="20">
+          <Effect>
+            <Color color="#000000" />
+          </Effect>
+          <Text string="LocaleString(Locale/Locale, Locale/Valid, 'CONFIRMATION_ERROR')" style="Style/LoadHeading8" />
+        </Transform>
+        <Transform x="10" y="50" width="260" height="20">
+          <Text string="LocaleString(Locale/Locale, Locale/Valid, 'CONFIRMATION_FAILED_TO_CONNECT')" style="CenterAligned('standard6.dif')" />
+        </Transform>
+        <Transform x="110" y="80" width="64" height="32">
+          <Button picture="Menu/buttons/menu_reset_64x32.tga" mouse-over-picture="Menu/buttons/menu_reset_MO_64x32.tga" width="63" height="20">
+            <ActionList>
+              <CallFunction function="Join/FailedToJoin" />
+            </ActionList>
+          </Button>
+          <Transform x="0" y="5" width="63" height="20">
+            <Text string="LocaleString(Locale/Locale, Locale/Valid, 'CONFIRMATION_OK')" style="CenterAligned('standard6.dif')" />
           </Transform>
-        </If>
-      </Group>
-      <If condition="Join/ShowFailedToJoin is 4">
-        <Transform x="265" y="200" width="512" height="128">
-          <Transform x="10" y="8" width="120" height="20">
-            <Effect>
-              <Color color="#000000" />
-            </Effect>
-            <Text string="LocaleString(Locale/Locale, Locale/Valid, 'CONFIRMATION_WARNING')" style="Style/LoadHeading8" />
-          </Transform>
-          <Transform x="10" y="50" width="260" height="20">
-            <Text string="LocaleString(Locale/Locale, Locale/Valid, 'CONFIRMATION_FAILED_TO_CONNECT_SERVER_FULL')" style="CenterAligned('standard6.dif')" />
-          </Transform>
-          <Transform x="110" y="80" width="64" height="32">
-            <Button picture="Menu/buttons/menu_reset_64x32.tga" mouse-over-picture="Menu/buttons/menu_reset_MO_64x32.tga" width="63" height="20">
-              <ActionList>
-                <CallFunction function="Join/FailedToJoin" />
-              </ActionList>
-            </Button>
-            <Transform x="0" y="5" width="63" height="20">
-              <Text string="LocaleString(Locale/Locale, Locale/Valid, 'CONFIRMATION_OK')" style="CenterAligned('standard6.dif')" />
-            </Transform>
-            <Transform x="1" y="1" width="61" height="18">
-              <CullEventAction event="Type(0, ButtonPress)">
-                <CallFunction function="Sound/PlayMenuOk" />
-              </CullEventAction>
-              <CullEventAction event="Type(0, PointerIn)">
-                <CallFunction function="Sound/PlayMenuHighLight" />
-              </CullEventAction>
-            </Transform>
+          <Transform x="1" y="1" width="61" height="18">
+            <CullEventAction event="Type(0, ButtonPress)">
+              <CallFunction function="Sound/PlayMenuOk" />
+            </CullEventAction>
+            <CullEventAction event="Type(0, PointerIn)">
+              <CallFunction function="Sound/PlayMenuHighLight" />
+            </CullEventAction>
           </Transform>
         </Transform>
-      </If>
-    </Group>
+      </Transform>
+    </If>
+    <If condition="Join/ShowFailedToJoin is 2">
+      <Transform x="265" y="200" width="512" height="128">
+        <Transform x="10" y="8" width="120" height="20">
+          <Effect>
+            <Color color="#000000" />
+          </Effect>
+          <Text string="LocaleString(Locale/Locale, Locale/Valid, 'CONFIRMATION_ERROR')" style="Style/LoadHeading8" />
+        </Transform>
+        <Transform x="10" y="50" width="260" height="20">
+          <Text string="LocaleString(Locale/Locale, Locale/Valid, 'CONFIRMATION_FAILED_TO_CONNECT_OLD_VERSION')" style="Center('standard6.dif')" />
+        </Transform>
+        <Transform x="15" y="80" width="64" height="32">
+          <Button picture="Menu/buttons/menu_reset_64x32.tga" mouse-over-picture="Menu/buttons/menu_reset_MO_64x32.tga" width="63" height="20">
+            <ActionList>
+              <SetVariable variable="Join/ShowFailedToJoin" value="3" />
+              <CallFunction function="Join/UpdateVersion" />
+            </ActionList>
+          </Button>
+          <Transform x="0" y="5" width="63" height="20">
+            <Text string="LocaleString(Locale/Locale, Locale/Valid, 'CONFIRMATION_YES')" style="CenterAligned('standard6.dif')" />
+          </Transform>
+          <Transform x="1" y="1" width="61" height="18">
+            <CullEventAction event="Type(0, ButtonPress)">
+              <CallFunction function="Sound/PlayMenuOk" />
+            </CullEventAction>
+            <CullEventAction event="Type(0, PointerIn)">
+              <CallFunction function="Sound/PlayMenuHighLight" />
+            </CullEventAction>
+          </Transform>
+        </Transform>
+        <Transform x="200" y="80" width="64" height="32">
+          <Button picture="Menu/buttons/menu_reset_64x32.tga" mouse-over-picture="Menu/buttons/menu_reset_MO_64x32.tga" width="63" height="20">
+            <ActionList>
+              <CallFunction function="Join/FailedToJoin" />
+            </ActionList>
+          </Button>
+          <Transform x="0" y="5" width="63" height="20">
+            <Effect>
+              <Color color="#ffffff" />
+            </Effect>
+            <Text string="LocaleString(Locale/Locale, Locale/Valid, 'CONFIRMATION_NO')" style="CenterAligned('standard6.dif')" />
+          </Transform>
+          <Transform x="1" y="1" width="61" height="18">
+            <CullEventAction event="Type(0, ButtonPress)">
+              <CallFunction function="Sound/PlayMenuOk" />
+            </CullEventAction>
+            <CullEventAction event="Type(0, PointerIn)">
+              <CallFunction function="Sound/PlayMenuHighLight" />
+            </CullEventAction>
+          </Transform>
+        </Transform>
+      </Transform>
+    </If>
+    <If condition="Join/ShowFailedToJoin is 3">
+      <Transform x="265" y="200" width="512" height="128">
+        <Transform x="10" y="8" width="120" height="20">
+          <Effect>
+            <Color color="#000000" />
+          </Effect>
+          <Text string="LocaleString(Locale/Locale, Locale/Valid, 'CONFIRMATION_HEADING_INFO')" style="Style/LoadHeading8" />
+        </Transform>
+        <Transform x="10" y="50" width="260" height="20">
+          <Text string="LocaleString(Locale/Locale, Locale/Valid, 'CONFIRMATION_LOOKING_FOR_UPDATES')" style="Center('standard6.dif')" />
+        </Transform>
+        <Transform x="110" y="80" width="64" height="32">
+          <Button picture="Menu/buttons/menu_reset_64x32.tga" mouse-over-picture="Menu/buttons/menu_reset_MO_64x32.tga" width="63" height="20">
+            <ActionList>
+              <CallFunction function="Join/FailedToJoin" />
+            </ActionList>
+          </Button>
+          <Transform x="0" y="5" width="63" height="20">
+            <Text string="LocaleString(Locale/Locale, Locale/Valid, 'CONFIRMATION_ABORT')" style="CenterAligned('standard6.dif')" />
+          </Transform>
+          <Transform x="1" y="1" width="61" height="18">
+            <CullEventAction event="Type(0, ButtonPress)">
+              <CallFunction function="Sound/PlayMenuOk" />
+            </CullEventAction>
+            <CullEventAction event="Type(0, PointerIn)">
+              <CallFunction function="Sound/PlayMenuHighLight" />
+            </CullEventAction>
+          </Transform>
+        </Transform>
+      </Transform>
+    </If>
+    <If condition="Join/ShowFailedToJoin is 4">
+      <Transform x="265" y="200" width="512" height="128">
+        <Transform x="10" y="8" width="120" height="20">
+          <Effect>
+            <Color color="#000000" />
+          </Effect>
+          <Text string="LocaleString(Locale/Locale, Locale/Valid, 'CONFIRMATION_WARNING')" style="Style/LoadHeading8" />
+        </Transform>
+        <Transform x="10" y="50" width="260" height="20">
+          <Text string="LocaleString(Locale/Locale, Locale/Valid, 'CONFIRMATION_FAILED_TO_CONNECT_SERVER_FULL')" style="CenterAligned('standard6.dif')" />
+        </Transform>
+        <Transform x="110" y="80" width="64" height="32">
+          <Button picture="Menu/buttons/menu_reset_64x32.tga" mouse-over-picture="Menu/buttons/menu_reset_MO_64x32.tga" width="63" height="20">
+            <ActionList>
+              <CallFunction function="Join/FailedToJoin" />
+            </ActionList>
+          </Button>
+          <Transform x="0" y="5" width="63" height="20">
+            <Text string="LocaleString(Locale/Locale, Locale/Valid, 'CONFIRMATION_OK')" style="CenterAligned('standard6.dif')" />
+          </Transform>
+          <Transform x="1" y="1" width="61" height="18">
+            <CullEventAction event="Type(0, ButtonPress)">
+              <CallFunction function="Sound/PlayMenuOk" />
+            </CullEventAction>
+            <CullEventAction event="Type(0, PointerIn)">
+              <CallFunction function="Sound/PlayMenuHighLight" />
+            </CullEventAction>
+          </Transform>
+        </Transform>
+      </Transform>
+    </If>
     <If condition="Join/ShowFailedToJoin is 5">
       <Transform x="265" y="200" width="512" height="128">
         <Transform x="10" y="8" width="120" height="20">

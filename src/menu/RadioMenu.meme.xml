@@ -507,80 +507,78 @@
               </Transform>
             </Transform>
           </If>
-          <Group>
-            <If condition="Radio/RadioGameMode is 2">
-              <Transform x="195" y="0" width="64" height="32">
-                <Picture picture="Radio/Icon_get_enemy_flag.tga" />
-                <Transform x="10" y="8" width="40" height="20">
-                  <Text string="Radio/Key/RadioKey4" style="Style('standard6.dif')" />
-                </Transform>
-                <Transform x="0" y="26" width="64" height="21">
-                  <If condition="Radio/ShowRadioToolTip">
-                    <Effect>
-                      <Color color="Radio/Color/RadioRed, Radio/Color/RadioGreen, Radio/Color/RadioBlue, Radio/Color/RadioAlpha" />
-                    </Effect>
-                    <Text string="LocaleString(Locale/Locale, Locale/Valid, 'RADIO_HEADING_LOCAL_GO_FOR_ENEMY_FLAG')" style="Style/RadioToolTipStyle" type="Radio/TextType" />
-                  </If>
-                </Transform>
+          <If condition="Radio/RadioGameMode is 2">
+            <Transform x="195" y="0" width="64" height="32">
+              <Picture picture="Radio/Icon_get_enemy_flag.tga" />
+              <Transform x="10" y="8" width="40" height="20">
+                <Text string="Radio/Key/RadioKey4" style="Style('standard6.dif')" />
               </Transform>
-              <Transform x="300" y="0" width="64" height="32">
-                <Picture picture="Radio/Icon_get_flag.tga" />
-                <Transform x="10" y="8" width="40" height="20">
-                  <Text string="Radio/Key/RadioKey5" style="Style('standard6.dif')" />
-                </Transform>
-                <Transform x="0" y="40" width="64" height="21">
-                  <If condition="Radio/ShowRadioToolTip">
-                    <Effect>
-                      <Color color="Radio/Color/RadioRed, Radio/Color/RadioGreen, Radio/Color/RadioBlue, Radio/Color/RadioAlpha" />
-                    </Effect>
-                    <Text string="LocaleString(Locale/Locale, Locale/Valid, 'RADIO_HEADING_LOCAL_PROTECT_FLAG')" style="Style/RadioToolTipStyle" type="Radio/TextType" />
-                  </If>
-                </Transform>
+              <Transform x="0" y="26" width="64" height="21">
+                <If condition="Radio/ShowRadioToolTip">
+                  <Effect>
+                    <Color color="Radio/Color/RadioRed, Radio/Color/RadioGreen, Radio/Color/RadioBlue, Radio/Color/RadioAlpha" />
+                  </Effect>
+                  <Text string="LocaleString(Locale/Locale, Locale/Valid, 'RADIO_HEADING_LOCAL_GO_FOR_ENEMY_FLAG')" style="Style/RadioToolTipStyle" type="Radio/TextType" />
+                </If>
               </Transform>
-              <Transform x="365" y="0" width="64" height="32">
-                <Picture picture="Radio/Icon_kill_carrier.tga" />
-                <Transform x="10" y="8" width="40" height="20">
-                  <Text string="Radio/Key/RadioKey6" style="Style('standard6.dif')" />
-                </Transform>
-                <Transform x="0" y="26" width="64" height="21">
-                  <If condition="Radio/ShowRadioToolTip">
-                    <Effect>
-                      <Color color="Radio/Color/RadioRed, Radio/Color/RadioGreen, Radio/Color/RadioBlue, Radio/Color/RadioAlpha" />
-                    </Effect>
-                    <Text string="LocaleString(Locale/Locale, Locale/Valid, 'RADIO_HEADING_LOCAL_GET_FLAG_BACK')" style="Style/RadioToolTipStyle" type="Radio/TextType" />
-                  </If>
-                </Transform>
+            </Transform>
+            <Transform x="300" y="0" width="64" height="32">
+              <Picture picture="Radio/Icon_get_flag.tga" />
+              <Transform x="10" y="8" width="40" height="20">
+                <Text string="Radio/Key/RadioKey5" style="Style('standard6.dif')" />
               </Transform>
-              <Transform x="430" y="0" width="64" height="32">
-                <Picture picture="Radio/Icon_protect_carrier.tga" />
-                <Transform x="10" y="8" width="40" height="20">
-                  <Text string="Radio/Key/RadioKey7" style="Style('standard6.dif')" />
-                </Transform>
-                <Transform x="0" y="40" width="64" height="21">
-                  <If condition="Radio/ShowRadioToolTip">
-                    <Effect>
-                      <Color color="Radio/Color/RadioRed, Radio/Color/RadioGreen, Radio/Color/RadioBlue, Radio/Color/RadioAlpha" />
-                    </Effect>
-                    <Text string="LocaleString(Locale/Locale, Locale/Valid, 'RADIO_HEADING_LOCAL_PROTECT_FLAGCARRIER')" style="Style/RadioToolTipStyle" type="Radio/TextType" />
-                  </If>
-                </Transform>
+              <Transform x="0" y="40" width="64" height="21">
+                <If condition="Radio/ShowRadioToolTip">
+                  <Effect>
+                    <Color color="Radio/Color/RadioRed, Radio/Color/RadioGreen, Radio/Color/RadioBlue, Radio/Color/RadioAlpha" />
+                  </Effect>
+                  <Text string="LocaleString(Locale/Locale, Locale/Valid, 'RADIO_HEADING_LOCAL_PROTECT_FLAG')" style="Style/RadioToolTipStyle" type="Radio/TextType" />
+                </If>
               </Transform>
-              <Transform x="495" y="0" width="64" height="32">
-                <Picture picture="Radio/Icon_cancel.tga" />
-                <Transform x="10" y="8" width="40" height="20">
-                  <Text string="Radio/Key/RadioKey8" style="Style('standard6.dif')" />
-                </Transform>
-                <Transform x="0" y="26" width="64" height="21">
-                  <If condition="Radio/ShowRadioToolTip">
-                    <Effect>
-                      <Color color="Radio/Color/RadioRed, Radio/Color/RadioGreen, Radio/Color/RadioBlue, Radio/Color/RadioAlpha" />
-                    </Effect>
-                    <Text string="LocaleString(Locale/Locale, Locale/Valid, 'RADIO_HEADING_CANCEL')" style="Style/RadioToolTipStyle" type="Radio/TextType" />
-                  </If>
-                </Transform>
+            </Transform>
+            <Transform x="365" y="0" width="64" height="32">
+              <Picture picture="Radio/Icon_kill_carrier.tga" />
+              <Transform x="10" y="8" width="40" height="20">
+                <Text string="Radio/Key/RadioKey6" style="Style('standard6.dif')" />
               </Transform>
-            </If>
-          </Group>
+              <Transform x="0" y="26" width="64" height="21">
+                <If condition="Radio/ShowRadioToolTip">
+                  <Effect>
+                    <Color color="Radio/Color/RadioRed, Radio/Color/RadioGreen, Radio/Color/RadioBlue, Radio/Color/RadioAlpha" />
+                  </Effect>
+                  <Text string="LocaleString(Locale/Locale, Locale/Valid, 'RADIO_HEADING_LOCAL_GET_FLAG_BACK')" style="Style/RadioToolTipStyle" type="Radio/TextType" />
+                </If>
+              </Transform>
+            </Transform>
+            <Transform x="430" y="0" width="64" height="32">
+              <Picture picture="Radio/Icon_protect_carrier.tga" />
+              <Transform x="10" y="8" width="40" height="20">
+                <Text string="Radio/Key/RadioKey7" style="Style('standard6.dif')" />
+              </Transform>
+              <Transform x="0" y="40" width="64" height="21">
+                <If condition="Radio/ShowRadioToolTip">
+                  <Effect>
+                    <Color color="Radio/Color/RadioRed, Radio/Color/RadioGreen, Radio/Color/RadioBlue, Radio/Color/RadioAlpha" />
+                  </Effect>
+                  <Text string="LocaleString(Locale/Locale, Locale/Valid, 'RADIO_HEADING_LOCAL_PROTECT_FLAGCARRIER')" style="Style/RadioToolTipStyle" type="Radio/TextType" />
+                </If>
+              </Transform>
+            </Transform>
+            <Transform x="495" y="0" width="64" height="32">
+              <Picture picture="Radio/Icon_cancel.tga" />
+              <Transform x="10" y="8" width="40" height="20">
+                <Text string="Radio/Key/RadioKey8" style="Style('standard6.dif')" />
+              </Transform>
+              <Transform x="0" y="26" width="64" height="21">
+                <If condition="Radio/ShowRadioToolTip">
+                  <Effect>
+                    <Color color="Radio/Color/RadioRed, Radio/Color/RadioGreen, Radio/Color/RadioBlue, Radio/Color/RadioAlpha" />
+                  </Effect>
+                  <Text string="LocaleString(Locale/Locale, Locale/Valid, 'RADIO_HEADING_CANCEL')" style="Style/RadioToolTipStyle" type="Radio/TextType" />
+                </If>
+              </Transform>
+            </Transform>
+          </If>
         </Transform>
       </If>
       <If condition="Radio/RadioCategory is 5">
@@ -749,22 +747,20 @@
                 </If>
               </Transform>
             </If>
-            <Group>
-              <If condition="Radio/RadioIconType is 0">
-                <Picture picture="Radio/Icon_medic.tga" />
-                <Transform x="10" y="8" width="40" height="20">
-                  <Text string="Radio/Key/RadioKey5" style="Style('standard6.dif')" />
-                </Transform>
-                <Transform x="0" y="26" width="64" height="21">
-                  <If condition="Radio/ShowRadioToolTip">
-                    <Effect>
-                      <Color color="Radio/Color/RadioRed, Radio/Color/RadioGreen, Radio/Color/RadioBlue, Radio/Color/RadioAlpha" />
-                    </Effect>
-                    <Text string="LocaleString(Locale/Locale, Locale/Valid, 'RADIO_HEADING_LOCAL_MEDIC')" style="Style/RadioToolTipStyle" type="Radio/TextType" />
-                  </If>
-                </Transform>
-              </If>
-            </Group>
+            <If condition="Radio/RadioIconType is 0">
+              <Picture picture="Radio/Icon_medic.tga" />
+              <Transform x="10" y="8" width="40" height="20">
+                <Text string="Radio/Key/RadioKey5" style="Style('standard6.dif')" />
+              </Transform>
+              <Transform x="0" y="26" width="64" height="21">
+                <If condition="Radio/ShowRadioToolTip">
+                  <Effect>
+                    <Color color="Radio/Color/RadioRed, Radio/Color/RadioGreen, Radio/Color/RadioBlue, Radio/Color/RadioAlpha" />
+                  </Effect>
+                  <Text string="LocaleString(Locale/Locale, Locale/Valid, 'RADIO_HEADING_LOCAL_MEDIC')" style="Style/RadioToolTipStyle" type="Radio/TextType" />
+                </If>
+              </Transform>
+            </If>
           </Transform>
           <Transform x="365" y="0" width="64" height="32">
             <If condition="Radio/RadioIconType is_not 2">
@@ -781,22 +777,20 @@
                 </If>
               </Transform>
             </If>
-            <Group>
-              <If condition="Radio/RadioIconType is 2">
-                <Picture picture="Radio/Icon_take_cover.tga" />
-                <Transform x="10" y="8" width="40" height="20">
-                  <Text string="Radio/Key/RadioKey6" style="Style('standard6.dif')" />
-                </Transform>
-                <Transform x="0" y="40" width="64" height="21">
-                  <If condition="Radio/ShowRadioToolTip">
-                    <Effect>
-                      <Color color="Radio/Color/RadioRed, Radio/Color/RadioGreen, Radio/Color/RadioBlue, Radio/Color/RadioAlpha" />
-                    </Effect>
-                    <Text string="LocaleString(Locale/Locale, Locale/Valid, 'RADIO_HEADING_LOCAL_CHECK_YOUR_SIX')" style="Style/RadioToolTipStyle" type="Radio/TextType" />
-                  </If>
-                </Transform>
-              </If>
-            </Group>
+            <If condition="Radio/RadioIconType is 2">
+              <Picture picture="Radio/Icon_take_cover.tga" />
+              <Transform x="10" y="8" width="40" height="20">
+                <Text string="Radio/Key/RadioKey6" style="Style('standard6.dif')" />
+              </Transform>
+              <Transform x="0" y="40" width="64" height="21">
+                <If condition="Radio/ShowRadioToolTip">
+                  <Effect>
+                    <Color color="Radio/Color/RadioRed, Radio/Color/RadioGreen, Radio/Color/RadioBlue, Radio/Color/RadioAlpha" />
+                  </Effect>
+                  <Text string="LocaleString(Locale/Locale, Locale/Valid, 'RADIO_HEADING_LOCAL_CHECK_YOUR_SIX')" style="Style/RadioToolTipStyle" type="Radio/TextType" />
+                </If>
+              </Transform>
+            </If>
           </Transform>
           <Transform x="430" y="0" width="64" height="32">
             <If condition="Radio/RadioIconType is_not 3">
@@ -813,22 +807,20 @@
                 </If>
               </Transform>
             </If>
-            <Group>
-              <If condition="Radio/RadioIconType is 3">
-                <Picture picture="Radio/Icon_bail_out.tga" />
-                <Transform x="10" y="8" width="40" height="20">
-                  <Text string="Radio/Key/RadioKey7" style="Style('standard6.dif')" />
-                </Transform>
-                <Transform x="0" y="26" width="64" height="21">
-                  <If condition="Radio/ShowRadioToolTip">
-                    <Effect>
-                      <Color color="Radio/Color/RadioRed, Radio/Color/RadioGreen, Radio/Color/RadioBlue, Radio/Color/RadioAlpha" />
-                    </Effect>
-                    <Text string="LocaleString(Locale/Locale, Locale/Valid, 'EVACUATE!')" style="Style/RadioToolTipStyle" type="Radio/TextType" />
-                  </If>
-                </Transform>
-              </If>
-            </Group>
+            <If condition="Radio/RadioIconType is 3">
+              <Picture picture="Radio/Icon_bail_out.tga" />
+              <Transform x="10" y="8" width="40" height="20">
+                <Text string="Radio/Key/RadioKey7" style="Style('standard6.dif')" />
+              </Transform>
+              <Transform x="0" y="26" width="64" height="21">
+                <If condition="Radio/ShowRadioToolTip">
+                  <Effect>
+                    <Color color="Radio/Color/RadioRed, Radio/Color/RadioGreen, Radio/Color/RadioBlue, Radio/Color/RadioAlpha" />
+                  </Effect>
+                  <Text string="LocaleString(Locale/Locale, Locale/Valid, 'EVACUATE!')" style="Style/RadioToolTipStyle" type="Radio/TextType" />
+                </If>
+              </Transform>
+            </If>
           </Transform>
           <Transform x="495" y="0" width="64" height="32">
             <Picture picture="Radio/Icon_cancel.tga" />
@@ -936,22 +928,20 @@
                 </If>
               </Transform>
             </If>
-            <Group>
-              <If condition="Radio/RadioIconType is_not 0">
-                <Picture picture="Radio/Icon_get_in.tga" />
-                <Transform x="10" y="8" width="40" height="20">
-                  <Text string="Radio/Key/RadioKey5" style="Style('standard6.dif')" />
-                </Transform>
-                <Transform x="0" y="26" width="64" height="21">
-                  <If condition="Radio/ShowRadioToolTip">
-                    <Effect>
-                      <Color color="Radio/Color/RadioRed, Radio/Color/RadioGreen, Radio/Color/RadioBlue, Radio/Color/RadioAlpha" />
-                    </Effect>
-                    <Text string="LocaleString(Locale/Locale, Locale/Valid, 'RADIO_HEADING_LOCAL_GET_IN')" style="Style/RadioToolTipStyle" type="Radio/TextType" />
-                  </If>
-                </Transform>
-              </If>
-            </Group>
+            <If condition="Radio/RadioIconType is_not 0">
+              <Picture picture="Radio/Icon_get_in.tga" />
+              <Transform x="10" y="8" width="40" height="20">
+                <Text string="Radio/Key/RadioKey5" style="Style('standard6.dif')" />
+              </Transform>
+              <Transform x="0" y="26" width="64" height="21">
+                <If condition="Radio/ShowRadioToolTip">
+                  <Effect>
+                    <Color color="Radio/Color/RadioRed, Radio/Color/RadioGreen, Radio/Color/RadioBlue, Radio/Color/RadioAlpha" />
+                  </Effect>
+                  <Text string="LocaleString(Locale/Locale, Locale/Valid, 'RADIO_HEADING_LOCAL_GET_IN')" style="Style/RadioToolTipStyle" type="Radio/TextType" />
+                </If>
+              </Transform>
+            </If>
           </Transform>
           <Transform x="365" y="0" width="64" height="32">
             <Effect>
@@ -1010,129 +1000,127 @@
           </Transform>
         </If>
       </If>
-      <Group>
-        <If condition="Radio/RadioCategory is 0">
-          <Action>
-            <SetVariable variable="Radio/CurrentRadioTimeOut" value="0.0" />
-          </Action>
-          <Transform x="0" y="0" width="260" height="20">
-            <Transform x="0" y="0" width="64" height="32">
-              <Picture picture="Radio/Icon_f1.tga" />
-              <Transform x="5" y="8" width="40" height="20">
-                <Text string="Radio/Key/RadioKey1" style="Style('standard6.dif')" />
-              </Transform>
-              <Transform x="0" y="25" width="63" height="20">
-                <If condition="Radio/ShowRadioToolTip">
-                  <Effect>
-                    <Color color="Radio/Color/RadioRed, Radio/Color/RadioGreen, Radio/Color/RadioBlue, Radio/Color/RadioAlpha" />
-                  </Effect>
-                  <Text string="LocaleString(Locale/Locale, Locale/Valid, 'RADIO_HEADING_RADIO_CONFIRM')" style="Style/RadioToolTipStyle" type="Radio/TextType" />
-                </If>
-              </Transform>
+      <If condition="Radio/RadioCategory is 0">
+        <Action>
+          <SetVariable variable="Radio/CurrentRadioTimeOut" value="0.0" />
+        </Action>
+        <Transform x="0" y="0" width="260" height="20">
+          <Transform x="0" y="0" width="64" height="32">
+            <Picture picture="Radio/Icon_f1.tga" />
+            <Transform x="5" y="8" width="40" height="20">
+              <Text string="Radio/Key/RadioKey1" style="Style('standard6.dif')" />
             </Transform>
-            <Transform x="65" y="0" width="64" height="32">
-              <Picture picture="Radio/Icon_f2.tga" />
-              <Transform x="5" y="8" width="40" height="20">
-                <Text string="Radio/Key/RadioKey2" style="Style('standard6.dif')" />
-              </Transform>
-              <Transform x="0" y="25" width="63" height="20">
-                <If condition="Radio/ShowRadioToolTip">
-                  <Effect>
-                    <Color color="Radio/Color/RadioRed, Radio/Color/RadioGreen, Radio/Color/RadioBlue, Radio/Color/RadioAlpha" />
-                  </Effect>
-                  <Text string="LocaleString(Locale/Locale, Locale/Valid, 'RADIO_HEADING_RADIO_REQUEST')" style="Style/RadioToolTipStyle" type="Radio/TextType" />
-                </If>
-              </Transform>
-            </Transform>
-            <Transform x="130" y="0" width="64" height="32">
-              <Picture picture="Radio/Icon_f3.tga" />
-              <Transform x="5" y="8" width="40" height="20">
-                <Text string="Radio/Key/RadioKey3" style="Style('standard6.dif')" />
-              </Transform>
-              <Transform x="0" y="25" width="63" height="20">
-                <If condition="Radio/ShowRadioToolTip">
-                  <Effect>
-                    <Color color="Radio/Color/RadioRed, Radio/Color/RadioGreen, Radio/Color/RadioBlue, Radio/Color/RadioAlpha" />
-                  </Effect>
-                  <Text string="LocaleString(Locale/Locale, Locale/Valid, 'RADIO_HEADING_RADIO_ENEMY_SPOTTED')" style="Style/RadioToolTipStyle" type="Radio/TextType" />
-                </If>
-              </Transform>
-            </Transform>
-            <Transform x="195" y="0" width="64" height="32">
-              <Picture picture="Radio/Icon_f4.tga" />
-              <Transform x="5" y="8" width="40" height="20">
-                <Text string="Radio/Key/RadioKey4" style="Style('standard6.dif')" />
-              </Transform>
-              <Transform x="0" y="25" width="63" height="20">
-                <If condition="Radio/ShowRadioToolTip">
-                  <Effect>
-                    <Color color="Radio/Color/RadioRed, Radio/Color/RadioGreen, Radio/Color/RadioBlue, Radio/Color/RadioAlpha" />
-                  </Effect>
-                  <Text string="LocaleString(Locale/Locale, Locale/Valid, 'RADIO_HEADING_RADIO_GAME')" style="Style/RadioToolTipStyle" type="Radio/TextType" />
-                </If>
-              </Transform>
+            <Transform x="0" y="25" width="63" height="20">
+              <If condition="Radio/ShowRadioToolTip">
+                <Effect>
+                  <Color color="Radio/Color/RadioRed, Radio/Color/RadioGreen, Radio/Color/RadioBlue, Radio/Color/RadioAlpha" />
+                </Effect>
+                <Text string="LocaleString(Locale/Locale, Locale/Valid, 'RADIO_HEADING_RADIO_CONFIRM')" style="Style/RadioToolTipStyle" type="Radio/TextType" />
+              </If>
             </Transform>
           </Transform>
-          <Transform x="300" y="0" width="260" height="20">
-            <Transform x="0" y="0" width="64" height="32">
-              <Picture picture="Radio/Icon_f5.tga" />
-              <Transform x="5" y="8" width="40" height="20">
-                <Text string="Radio/Key/RadioKey5" style="Style('standard6.dif')" />
-              </Transform>
-              <Transform x="0" y="25" width="63" height="20">
-                <If condition="Radio/ShowRadioToolTip">
-                  <Effect>
-                    <Color color="Radio/Color/RadioRed, Radio/Color/RadioGreen, Radio/Color/RadioBlue, Radio/Color/RadioAlpha" />
-                  </Effect>
-                  <Text string="LocaleString(Locale/Locale, Locale/Valid, 'SHOUT')" style="Style/RadioToolTipStyle" type="Radio/TextType" />
-                </If>
-              </Transform>
+          <Transform x="65" y="0" width="64" height="32">
+            <Picture picture="Radio/Icon_f2.tga" />
+            <Transform x="5" y="8" width="40" height="20">
+              <Text string="Radio/Key/RadioKey2" style="Style('standard6.dif')" />
             </Transform>
-            <Transform x="65" y="0" width="64" height="32">
-              <Picture picture="Radio/Icon_f6.tga" />
-              <Transform x="5" y="8" width="40" height="20">
-                <Text string="Radio/Key/RadioKey6" style="Style('standard6.dif')" />
-              </Transform>
-              <Transform x="0" y="25" width="63" height="20">
-                <If condition="Radio/ShowRadioToolTip">
-                  <Effect>
-                    <Color color="Radio/Color/RadioRed, Radio/Color/RadioGreen, Radio/Color/RadioBlue, Radio/Color/RadioAlpha" />
-                  </Effect>
-                  <Text string="LocaleString(Locale/Locale, Locale/Valid, 'RADIO_HEADING_LOCAL_ALARMS')" style="Style/RadioToolTipStyle" type="Radio/TextType" />
-                </If>
-              </Transform>
-            </Transform>
-            <Transform x="130" y="0" width="64" height="32">
-              <Picture picture="Radio/Icon_f7.tga" />
-              <Transform x="5" y="8" width="40" height="20">
-                <Text string="Radio/Key/RadioKey7" style="Style('standard6.dif')" />
-              </Transform>
-              <Transform x="0" y="25" width="63" height="20">
-                <If condition="Radio/ShowRadioToolTip">
-                  <Effect>
-                    <Color color="Radio/Color/RadioRed, Radio/Color/RadioGreen, Radio/Color/RadioBlue, Radio/Color/RadioAlpha" />
-                  </Effect>
-                  <Text string="LocaleString(Locale/Locale, Locale/Valid, 'RADIO_HEADING_LOCAL_TACTICS')" style="Style/RadioToolTipStyle" type="Radio/TextType" />
-                </If>
-              </Transform>
-            </Transform>
-            <Transform x="195" y="0" width="64" height="32">
-              <Picture picture="Radio/Icon_f8.tga" />
-              <Transform x="5" y="8" width="40" height="20">
-                <Text string="Radio/Key/RadioKey8" style="Style('standard6.dif')" />
-              </Transform>
-              <Transform x="0" y="25" width="63" height="20">
-                <If condition="Radio/ShowRadioToolTip">
-                  <Effect>
-                    <Color color="Radio/Color/RadioRed, Radio/Color/RadioGreen, Radio/Color/RadioBlue, Radio/Color/RadioAlpha" />
-                  </Effect>
-                  <Text string="LocaleString(Locale/Locale, Locale/Valid, 'RADIO_HEADING_ON_OFF')" style="Style/RadioToolTipStyle" type="Radio/TextType" />
-                </If>
-              </Transform>
+            <Transform x="0" y="25" width="63" height="20">
+              <If condition="Radio/ShowRadioToolTip">
+                <Effect>
+                  <Color color="Radio/Color/RadioRed, Radio/Color/RadioGreen, Radio/Color/RadioBlue, Radio/Color/RadioAlpha" />
+                </Effect>
+                <Text string="LocaleString(Locale/Locale, Locale/Valid, 'RADIO_HEADING_RADIO_REQUEST')" style="Style/RadioToolTipStyle" type="Radio/TextType" />
+              </If>
             </Transform>
           </Transform>
-        </If>
-      </Group>
+          <Transform x="130" y="0" width="64" height="32">
+            <Picture picture="Radio/Icon_f3.tga" />
+            <Transform x="5" y="8" width="40" height="20">
+              <Text string="Radio/Key/RadioKey3" style="Style('standard6.dif')" />
+            </Transform>
+            <Transform x="0" y="25" width="63" height="20">
+              <If condition="Radio/ShowRadioToolTip">
+                <Effect>
+                  <Color color="Radio/Color/RadioRed, Radio/Color/RadioGreen, Radio/Color/RadioBlue, Radio/Color/RadioAlpha" />
+                </Effect>
+                <Text string="LocaleString(Locale/Locale, Locale/Valid, 'RADIO_HEADING_RADIO_ENEMY_SPOTTED')" style="Style/RadioToolTipStyle" type="Radio/TextType" />
+              </If>
+            </Transform>
+          </Transform>
+          <Transform x="195" y="0" width="64" height="32">
+            <Picture picture="Radio/Icon_f4.tga" />
+            <Transform x="5" y="8" width="40" height="20">
+              <Text string="Radio/Key/RadioKey4" style="Style('standard6.dif')" />
+            </Transform>
+            <Transform x="0" y="25" width="63" height="20">
+              <If condition="Radio/ShowRadioToolTip">
+                <Effect>
+                  <Color color="Radio/Color/RadioRed, Radio/Color/RadioGreen, Radio/Color/RadioBlue, Radio/Color/RadioAlpha" />
+                </Effect>
+                <Text string="LocaleString(Locale/Locale, Locale/Valid, 'RADIO_HEADING_RADIO_GAME')" style="Style/RadioToolTipStyle" type="Radio/TextType" />
+              </If>
+            </Transform>
+          </Transform>
+        </Transform>
+        <Transform x="300" y="0" width="260" height="20">
+          <Transform x="0" y="0" width="64" height="32">
+            <Picture picture="Radio/Icon_f5.tga" />
+            <Transform x="5" y="8" width="40" height="20">
+              <Text string="Radio/Key/RadioKey5" style="Style('standard6.dif')" />
+            </Transform>
+            <Transform x="0" y="25" width="63" height="20">
+              <If condition="Radio/ShowRadioToolTip">
+                <Effect>
+                  <Color color="Radio/Color/RadioRed, Radio/Color/RadioGreen, Radio/Color/RadioBlue, Radio/Color/RadioAlpha" />
+                </Effect>
+                <Text string="LocaleString(Locale/Locale, Locale/Valid, 'SHOUT')" style="Style/RadioToolTipStyle" type="Radio/TextType" />
+              </If>
+            </Transform>
+          </Transform>
+          <Transform x="65" y="0" width="64" height="32">
+            <Picture picture="Radio/Icon_f6.tga" />
+            <Transform x="5" y="8" width="40" height="20">
+              <Text string="Radio/Key/RadioKey6" style="Style('standard6.dif')" />
+            </Transform>
+            <Transform x="0" y="25" width="63" height="20">
+              <If condition="Radio/ShowRadioToolTip">
+                <Effect>
+                  <Color color="Radio/Color/RadioRed, Radio/Color/RadioGreen, Radio/Color/RadioBlue, Radio/Color/RadioAlpha" />
+                </Effect>
+                <Text string="LocaleString(Locale/Locale, Locale/Valid, 'RADIO_HEADING_LOCAL_ALARMS')" style="Style/RadioToolTipStyle" type="Radio/TextType" />
+              </If>
+            </Transform>
+          </Transform>
+          <Transform x="130" y="0" width="64" height="32">
+            <Picture picture="Radio/Icon_f7.tga" />
+            <Transform x="5" y="8" width="40" height="20">
+              <Text string="Radio/Key/RadioKey7" style="Style('standard6.dif')" />
+            </Transform>
+            <Transform x="0" y="25" width="63" height="20">
+              <If condition="Radio/ShowRadioToolTip">
+                <Effect>
+                  <Color color="Radio/Color/RadioRed, Radio/Color/RadioGreen, Radio/Color/RadioBlue, Radio/Color/RadioAlpha" />
+                </Effect>
+                <Text string="LocaleString(Locale/Locale, Locale/Valid, 'RADIO_HEADING_LOCAL_TACTICS')" style="Style/RadioToolTipStyle" type="Radio/TextType" />
+              </If>
+            </Transform>
+          </Transform>
+          <Transform x="195" y="0" width="64" height="32">
+            <Picture picture="Radio/Icon_f8.tga" />
+            <Transform x="5" y="8" width="40" height="20">
+              <Text string="Radio/Key/RadioKey8" style="Style('standard6.dif')" />
+            </Transform>
+            <Transform x="0" y="25" width="63" height="20">
+              <If condition="Radio/ShowRadioToolTip">
+                <Effect>
+                  <Color color="Radio/Color/RadioRed, Radio/Color/RadioGreen, Radio/Color/RadioBlue, Radio/Color/RadioAlpha" />
+                </Effect>
+                <Text string="LocaleString(Locale/Locale, Locale/Valid, 'RADIO_HEADING_ON_OFF')" style="Style/RadioToolTipStyle" type="Radio/TextType" />
+              </If>
+            </Transform>
+          </Transform>
+        </Transform>
+      </If>
     </If>
   </Transform>
   <CullVariableAction variable="Radio/RadioGameMode is 3">

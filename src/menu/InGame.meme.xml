@@ -616,75 +616,69 @@
       <Picture picture="Icon_reload.tga" />
     </If>
   </Transform>
-  <Group>
-    <Group>
-      <Group>
-        <If condition="ShowFlagIcon">
-          <Transform x="640" y="230" width="64" height="64">
-            <If condition="AxisFlagIcon or AlliedFlagIcon">
-              <Picture picture="Icon_flag.tga" />
-            </If>
-          </Transform>
-          <Transform x="720" y="230" width="64" height="64">
-            <If condition="not (AxisFlagIcon or AlliedFlagIcon)">
-              <Picture picture="Icon_flag.tga" />
-            </If>
-          </Transform>
-        </If>
-        <If condition="ShowNonTakeableFlagIcon">
-          <Transform x="640" y="230" width="64" height="64">
-            <If condition="AxisFlagIcon or AlliedFlagIcon">
-              <Picture picture="Icon_non_takeable_flag.tga" />
-            </If>
-          </Transform>
-          <Transform x="720" y="230" width="64" height="64">
-            <If condition="not (AxisFlagIcon or AlliedFlagIcon)">
-              <Picture picture="Icon_non_takeable_flag.tga" />
-            </If>
-          </Transform>
-        </If>
-      </Group>
-      <If condition="ShowMap">
-        <Clip />
-        <NextNodePlaceholder name="MapPath" />
+  <If condition="ShowFlagIcon">
+    <Transform x="640" y="230" width="64" height="64">
+      <If condition="AxisFlagIcon or AlliedFlagIcon">
+        <Picture picture="Icon_flag.tga" />
       </If>
-    </Group>
-    <If condition="Submarine/ShowDepthHud">
-      <Transform x="-2" y="-2" width="825" height="625">
-        <If condition="not Submarine/DepthHud/FadeDepthHud and (not Submarine/DepthHud/ShowSubmarineCockpit and not Submarine/DepthHud/Done)">
-          <TimeoutAction timeout-time="0.3">
-            <ActionList>
-              <SetVariable variable="Submarine/DepthHud/FadeDepthHud" value="true" />
-            </ActionList>
-          </TimeoutAction>
-        </If>
-        <AddSubNextEffect value="Submarine/DepthHud/DepthHudAlpha" end-value="1.0" start-time="0.0" start-percentage="0.0" end-time="0.5" delay="0.0" up="true" trigger="Submarine/DepthHud/FadeDepthHud">
+    </Transform>
+    <Transform x="720" y="230" width="64" height="64">
+      <If condition="not (AxisFlagIcon or AlliedFlagIcon)">
+        <Picture picture="Icon_flag.tga" />
+      </If>
+    </Transform>
+  </If>
+  <If condition="ShowNonTakeableFlagIcon">
+    <Transform x="640" y="230" width="64" height="64">
+      <If condition="AxisFlagIcon or AlliedFlagIcon">
+        <Picture picture="Icon_non_takeable_flag.tga" />
+      </If>
+    </Transform>
+    <Transform x="720" y="230" width="64" height="64">
+      <If condition="not (AxisFlagIcon or AlliedFlagIcon)">
+        <Picture picture="Icon_non_takeable_flag.tga" />
+      </If>
+    </Transform>
+  </If>
+  <If condition="ShowMap">
+    <Clip />
+    <NextNodePlaceholder name="MapPath" />
+  </If>
+  <If condition="Submarine/ShowDepthHud">
+    <Transform x="-2" y="-2" width="825" height="625">
+      <If condition="not Submarine/DepthHud/FadeDepthHud and (not Submarine/DepthHud/ShowSubmarineCockpit and not Submarine/DepthHud/Done)">
+        <TimeoutAction timeout-time="0.3">
           <ActionList>
-            <CallFunction function="Submarine/ShowDepthHudDone" />
-            <SetVariable variable="Submarine/DepthHud/ShowSubmarineCockpit" value="true" />
+            <SetVariable variable="Submarine/DepthHud/FadeDepthHud" value="true" />
           </ActionList>
-        </AddSubNextEffect>
-        <If condition="Submarine/DepthHud/DepthHudAlpha is 1.0">
-          <TimeoutAction timeout-time="1">
-            <ActionList>
-              <SetVariable variable="Submarine/DepthHud/FadeOutDepthHud" value="true" />
-            </ActionList>
-          </TimeoutAction>
-        </If>
-        <AddSubNextEffect value="Submarine/DepthHud/DepthHudAlpha" end-value="0.0" start-time="0.0" start-percentage="0.0" end-time="0.5" delay="0.0" up="true" trigger="Submarine/DepthHud/FadeOutDepthHud">
+        </TimeoutAction>
+      </If>
+      <AddSubNextEffect value="Submarine/DepthHud/DepthHudAlpha" end-value="1.0" start-time="0.0" start-percentage="0.0" end-time="0.5" delay="0.0" up="true" trigger="Submarine/DepthHud/FadeDepthHud">
+        <ActionList>
+          <CallFunction function="Submarine/ShowDepthHudDone" />
+          <SetVariable variable="Submarine/DepthHud/ShowSubmarineCockpit" value="true" />
+        </ActionList>
+      </AddSubNextEffect>
+      <If condition="Submarine/DepthHud/DepthHudAlpha is 1.0">
+        <TimeoutAction timeout-time="1">
           <ActionList>
-            <SetVariable variable="Submarine/DepthHud/Done" value="true" />
+            <SetVariable variable="Submarine/DepthHud/FadeOutDepthHud" value="true" />
           </ActionList>
-        </AddSubNextEffect>
-      </Transform>
-      <Transform x="0" y="-12" width="825" height="625">
-        <Effect>
-          <Color color="#000000, Submarine/DepthHud/DepthHudAlpha" />
-        </Effect>
-        <Picture picture="" />
-      </Transform>
-    </If>
-  </Group>
+        </TimeoutAction>
+      </If>
+      <AddSubNextEffect value="Submarine/DepthHud/DepthHudAlpha" end-value="0.0" start-time="0.0" start-percentage="0.0" end-time="0.5" delay="0.0" up="true" trigger="Submarine/DepthHud/FadeOutDepthHud">
+        <ActionList>
+          <SetVariable variable="Submarine/DepthHud/Done" value="true" />
+        </ActionList>
+      </AddSubNextEffect>
+    </Transform>
+    <Transform x="0" y="-12" width="825" height="625">
+      <Effect>
+        <Color color="#000000, Submarine/DepthHud/DepthHudAlpha" />
+      </Effect>
+      <Picture picture="" />
+    </Transform>
+  </If>
   <CullVariableAction variable="not Submarine/ShowDepthHud">
     <ActionList>
       <SetVariable variable="Submarine/DepthHud/DepthHudAlpha" value="0.0" />
@@ -705,76 +699,70 @@
   <Transform x="30" y="0" width="800" height="800">
     <If condition="Kit/ShowKit">
       <Transform x="0" y="30" width="256" height="32">
-        <Group>
-          <If condition="Kit/ShowKit is 1">
-            <If condition="ChangeTeam/ShowChangeTeam">
-              <Picture picture="Ingame/respawn/ingame_respawn_kits_tab_256x32.tga" />
-            </If>
+        <If condition="Kit/ShowKit is 1">
+          <If condition="ChangeTeam/ShowChangeTeam">
+            <Picture picture="Ingame/respawn/ingame_respawn_kits_tab_256x32.tga" />
           </If>
-          <If condition="Kit/ShowKit is 2">
-            <If condition="ChangeTeam/ShowChangeTeam">
-              <Picture picture="Ingame/respawn/ingame_respawn_kits_tab2_256x32.tga" />
-            </If>
+        </If>
+        <If condition="Kit/ShowKit is 2">
+          <If condition="ChangeTeam/ShowChangeTeam">
+            <Picture picture="Ingame/respawn/ingame_respawn_kits_tab2_256x32.tga" />
           </If>
-        </Group>
+        </If>
         <If condition="not ChangeTeam/ShowChangeTeam">
           <Picture picture="Ingame/respawn/ingame_respawn_kits_tab3_256x32.tga" />
         </If>
       </Transform>
-      <Group>
-        <Group>
-          <If condition="ChangeTeam/ShowChangeTeam">
-            <Transform x="0" y="30" width="105" height="75">
-              <Transform x="10" y="36" width="80" height="20">
-                <Effect>
-                  <Color color="#ff0000" />
-                </Effect>
-                <Text string="'JOIN IMPERIALS'" style="Style/InGameCenter8" />
-              </Transform>
-              <CullVariableAndEventAction variable="ChangeTeam/AllowTeamChange less_than ChangeTeam/NrOfAllowedTeamChanges" event="Button(0, ButtonPress, Select)">
-                <ActionList>
-                  <SetVariable variable="ChangeTeam/NewTeam" value="1" />
-                  <CallFunction function="ChangeTeam/ChangeTeam" />
-                </ActionList>
-              </CullVariableAndEventAction>
-            </Transform>
-            <Transform x="105" y="30" width="105" height="75">
-              <Transform x="10" y="36" width="80" height="20">
-                <Effect>
-                  <Color color="#0000ff" />
-                </Effect>
-                <Text string="'JOIN REBELS'" style="Style/InGameCenter8" />
-              </Transform>
-              <CullVariableAndEventAction variable="ChangeTeam/AllowTeamChange less_than ChangeTeam/NrOfAllowedTeamChanges" event="Button(0, ButtonPress, Select)">
-                <ActionList>
-                  <SetVariable variable="ChangeTeam/NewTeam" value="2" />
-                  <CallFunction function="ChangeTeam/ChangeTeam" />
-                </ActionList>
-              </CullVariableAndEventAction>
-            </Transform>
-          </If>
-          <If condition="not ChangeTeam/ShowChangeTeam">
-            <If condition="Kit/ShowKit is 1">
-              <Transform x="10" y="58" width="80" height="20">
-                <Effect>
-                  <Color color="#ff0000" />
-                </Effect>
-                <Text string="'IMPERIAL'" style="Style/InGameHeading" />
-              </Transform>
-            </If>
-          </If>
-        </Group>
-        <If condition="not ChangeTeam/ShowChangeTeam">
-          <If condition="Kit/ShowKit is 2">
-            <Transform x="10" y="58" width="80" height="20">
-              <Effect>
-                <Color color="#0000ff" />
-              </Effect>
-              <Text string="'REBEL'" style="Style/InGameHeading" />
-            </Transform>
-          </If>
+      <If condition="ChangeTeam/ShowChangeTeam">
+        <Transform x="0" y="30" width="105" height="75">
+          <Transform x="10" y="36" width="80" height="20">
+            <Effect>
+              <Color color="#ff0000" />
+            </Effect>
+            <Text string="'JOIN IMPERIALS'" style="Style/InGameCenter8" />
+          </Transform>
+          <CullVariableAndEventAction variable="ChangeTeam/AllowTeamChange less_than ChangeTeam/NrOfAllowedTeamChanges" event="Button(0, ButtonPress, Select)">
+            <ActionList>
+              <SetVariable variable="ChangeTeam/NewTeam" value="1" />
+              <CallFunction function="ChangeTeam/ChangeTeam" />
+            </ActionList>
+          </CullVariableAndEventAction>
+        </Transform>
+        <Transform x="105" y="30" width="105" height="75">
+          <Transform x="10" y="36" width="80" height="20">
+            <Effect>
+              <Color color="#0000ff" />
+            </Effect>
+            <Text string="'JOIN REBELS'" style="Style/InGameCenter8" />
+          </Transform>
+          <CullVariableAndEventAction variable="ChangeTeam/AllowTeamChange less_than ChangeTeam/NrOfAllowedTeamChanges" event="Button(0, ButtonPress, Select)">
+            <ActionList>
+              <SetVariable variable="ChangeTeam/NewTeam" value="2" />
+              <CallFunction function="ChangeTeam/ChangeTeam" />
+            </ActionList>
+          </CullVariableAndEventAction>
+        </Transform>
+      </If>
+      <If condition="not ChangeTeam/ShowChangeTeam">
+        <If condition="Kit/ShowKit is 1">
+          <Transform x="10" y="58" width="80" height="20">
+            <Effect>
+              <Color color="#ff0000" />
+            </Effect>
+            <Text string="'IMPERIAL'" style="Style/InGameHeading" />
+          </Transform>
         </If>
-      </Group>
+      </If>
+      <If condition="not ChangeTeam/ShowChangeTeam">
+        <If condition="Kit/ShowKit is 2">
+          <Transform x="10" y="58" width="80" height="20">
+            <Effect>
+              <Color color="#0000ff" />
+            </Effect>
+            <Text string="'REBEL'" style="Style/InGameHeading" />
+          </Transform>
+        </If>
+      </If>
       <Transform x="70" y="95" width="100" height="20">
         <If condition="Kit/ShowKit is 1">
           <Effect>
@@ -1080,14 +1068,12 @@
             </ActionList>
           </Button>
           <Transform x="0" y="9" width="107" height="20">
-            <Group>
-              <If condition="Kit/IsAlive">
-                <Text string="LocaleString(Locale/Locale, Locale/Valid, 'RESPAWN_RESUME')" style="CenterAligned('standard6.dif')" />
-              </If>
-              <If condition="not Kit/IsAlive">
-                <Text string="LocaleString(Locale/Locale, Locale/Valid, 'RESPAWN_DONE')" style="CenterAligned('standard6.dif')" />
-              </If>
-            </Group>
+            <If condition="Kit/IsAlive">
+              <Text string="LocaleString(Locale/Locale, Locale/Valid, 'RESPAWN_RESUME')" style="CenterAligned('standard6.dif')" />
+            </If>
+            <If condition="not Kit/IsAlive">
+              <Text string="LocaleString(Locale/Locale, Locale/Valid, 'RESPAWN_DONE')" style="CenterAligned('standard6.dif')" />
+            </If>
             <Transform x="2" y="1" width="106" height="23">
               <CullEventAction event="Type(0, PointerIn)">
                 <CallFunction function="Kit/OnSpawnButtonMouseOver" />
@@ -1406,14 +1392,12 @@
                 </If>
               </Transform>
               <Transform x="46" y="-7" width="32" height="64">
-                <Group>
-                  <If condition="Ammo/AmmoType is 3">
-                    <Picture picture="Ingame/Heatbar_empty_32x64.tga" fill-picture="Ingame/Heatbar_full_32x64.tga" data="Overheat/OverHeat" maximum-value="1.0" size="42" horizontal-align="false" fill-order="true" />
-                  </If>
-                  <If condition="Ammo/AmmoType is 4">
-                    <Picture picture="Ingame/ReloadTimebar_empty_32x64.tga" fill-picture="Ingame/ReloadTimebar_full_32x64.tga" data="Ammo/PrimaryAmmo" maximum-value="Ammo/MaxPrimaryAmmo" size="42" horizontal-align="false" fill-order="true" />
-                  </If>
-                </Group>
+                <If condition="Ammo/AmmoType is 3">
+                  <Picture picture="Ingame/Heatbar_empty_32x64.tga" fill-picture="Ingame/Heatbar_full_32x64.tga" data="Overheat/OverHeat" maximum-value="1.0" size="42" horizontal-align="false" fill-order="true" />
+                </If>
+                <If condition="Ammo/AmmoType is 4">
+                  <Picture picture="Ingame/ReloadTimebar_empty_32x64.tga" fill-picture="Ingame/ReloadTimebar_full_32x64.tga" data="Ammo/PrimaryAmmo" maximum-value="Ammo/MaxPrimaryAmmo" size="42" horizontal-align="false" fill-order="true" />
+                </If>
                 <If condition="Ammo/AmmoType is 6">
                   <Picture picture="Ingame/Heatbar_empty_32x64.tga" fill-picture="Ingame/Heatbar_full_32x64.tga" data="Ammo/PrimaryAmmo" maximum-value="Ammo/MaxPrimaryAmmo" size="42" horizontal-align="false" fill-order="true" />
                 </If>
@@ -1481,19 +1465,15 @@
         <OccupiedVehicle position="5" draw-debug-pic="true" occupied-vehicle="Occupied/OccupiedData: OccupiedVehicle()" />
       </Transform>
       <Transform x="-37" y="95" width="32" height="64">
-        <Group>
-          <Group>
-            <If condition="Recover/ShowRecover is 4">
-              <Picture picture="Ingame/ReloadTimebar_empty_32x64.tga" fill-picture="Ingame/ReloadTimebar_full_32x64.tga" data="Recover/Recover" maximum-value="1.0" size="42" horizontal-align="false" fill-order="true" />
-            </If>
-            <If condition="Recover/ShowRecover is 5">
-              <Picture picture="Ingame/ReloadTimebar_empty_32x64.tga" fill-picture="Ingame/Heatbar_full_32x64.tga" data="Recover/Recover" maximum-value="1.0" size="42" horizontal-align="false" fill-order="true" />
-            </If>
-          </Group>
-          <If condition="Recover/ShowRecover is 6">
-            <Picture picture="Ingame/ReloadTimebar_empty_32x64.tga" fill-picture="Ingame/Rocketpackbar_full_32x64.tga" data="Recover/Recover" maximum-value="1.0" size="42" horizontal-align="false" fill-order="true" />
-          </If>
-        </Group>
+        <If condition="Recover/ShowRecover is 4">
+          <Picture picture="Ingame/ReloadTimebar_empty_32x64.tga" fill-picture="Ingame/ReloadTimebar_full_32x64.tga" data="Recover/Recover" maximum-value="1.0" size="42" horizontal-align="false" fill-order="true" />
+        </If>
+        <If condition="Recover/ShowRecover is 5">
+          <Picture picture="Ingame/ReloadTimebar_empty_32x64.tga" fill-picture="Ingame/Heatbar_full_32x64.tga" data="Recover/Recover" maximum-value="1.0" size="42" horizontal-align="false" fill-order="true" />
+        </If>
+        <If condition="Recover/ShowRecover is 6">
+          <Picture picture="Ingame/ReloadTimebar_empty_32x64.tga" fill-picture="Ingame/Rocketpackbar_full_32x64.tga" data="Recover/Recover" maximum-value="1.0" size="42" horizontal-align="false" fill-order="true" />
+        </If>
         <If condition="Recover/ShowRecover is 7">
           <Picture picture="Ingame/ReloadTimebar_empty_32x64.tga" fill-picture="Ingame/Staminabar_full_64x32.tga" data="Recover/Recover" maximum-value="1.0" size="42" horizontal-align="false" fill-order="true" />
         </If>
@@ -1737,14 +1717,12 @@
         <Transform x="2" y="-1" width="20" height="20">
           <Transform x="12" y="5" width="16" height="8">
             <If condition="1 less_than_or_equal Radio/NumberOfControlPoints">
-              <Group>
-                <If condition="ControlPoint/ControlPoint1 is 0">
-                  <Picture picture="Ingame/cpbar/cpbar_gray_cp_16x8.tga" />
-                </If>
-                <If condition="ControlPoint/ControlPoint1 is 1">
-                  <Picture picture="Ingame/cpbar/cpbar_red_cp_16x8.tga" />
-                </If>
-              </Group>
+              <If condition="ControlPoint/ControlPoint1 is 0">
+                <Picture picture="Ingame/cpbar/cpbar_gray_cp_16x8.tga" />
+              </If>
+              <If condition="ControlPoint/ControlPoint1 is 1">
+                <Picture picture="Ingame/cpbar/cpbar_red_cp_16x8.tga" />
+              </If>
               <If condition="ControlPoint/ControlPoint1 is 2">
                 <Picture picture="Ingame/cpbar/cpbar_blue_cp_16x8.tga" />
               </If>
@@ -1752,14 +1730,12 @@
           </Transform>
           <Transform x="35" y="5" width="16" height="8">
             <If condition="2 less_than_or_equal Radio/NumberOfControlPoints">
-              <Group>
-                <If condition="ControlPoint/ControlPoint2 is 0">
-                  <Picture picture="Ingame/cpbar/cpbar_gray_cp_16x8.tga" />
-                </If>
-                <If condition="ControlPoint/ControlPoint2 is 1">
-                  <Picture picture="Ingame/cpbar/cpbar_red_cp_16x8.tga" />
-                </If>
-              </Group>
+              <If condition="ControlPoint/ControlPoint2 is 0">
+                <Picture picture="Ingame/cpbar/cpbar_gray_cp_16x8.tga" />
+              </If>
+              <If condition="ControlPoint/ControlPoint2 is 1">
+                <Picture picture="Ingame/cpbar/cpbar_red_cp_16x8.tga" />
+              </If>
               <If condition="ControlPoint/ControlPoint2 is 2">
                 <Picture picture="Ingame/cpbar/cpbar_blue_cp_16x8.tga" />
               </If>
@@ -1767,14 +1743,12 @@
           </Transform>
           <Transform x="57" y="5" width="16" height="8">
             <If condition="3 less_than_or_equal Radio/NumberOfControlPoints">
-              <Group>
-                <If condition="ControlPoint/ControlPoint3 is 0">
-                  <Picture picture="Ingame/cpbar/cpbar_gray_cp_16x8.tga" />
-                </If>
-                <If condition="ControlPoint/ControlPoint3 is 1">
-                  <Picture picture="Ingame/cpbar/cpbar_red_cp_16x8.tga" />
-                </If>
-              </Group>
+              <If condition="ControlPoint/ControlPoint3 is 0">
+                <Picture picture="Ingame/cpbar/cpbar_gray_cp_16x8.tga" />
+              </If>
+              <If condition="ControlPoint/ControlPoint3 is 1">
+                <Picture picture="Ingame/cpbar/cpbar_red_cp_16x8.tga" />
+              </If>
               <If condition="ControlPoint/ControlPoint3 is 2">
                 <Picture picture="Ingame/cpbar/cpbar_blue_cp_16x8.tga" />
               </If>
@@ -1782,14 +1756,12 @@
           </Transform>
           <Transform x="80" y="5" width="16" height="8">
             <If condition="4 less_than_or_equal Radio/NumberOfControlPoints">
-              <Group>
-                <If condition="ControlPoint/ControlPoint4 is 0">
-                  <Picture picture="Ingame/cpbar/cpbar_gray_cp_16x8.tga" />
-                </If>
-                <If condition="ControlPoint/ControlPoint4 is 1">
-                  <Picture picture="Ingame/cpbar/cpbar_red_cp_16x8.tga" />
-                </If>
-              </Group>
+              <If condition="ControlPoint/ControlPoint4 is 0">
+                <Picture picture="Ingame/cpbar/cpbar_gray_cp_16x8.tga" />
+              </If>
+              <If condition="ControlPoint/ControlPoint4 is 1">
+                <Picture picture="Ingame/cpbar/cpbar_red_cp_16x8.tga" />
+              </If>
               <If condition="ControlPoint/ControlPoint4 is 2">
                 <Picture picture="Ingame/cpbar/cpbar_blue_cp_16x8.tga" />
               </If>
@@ -1797,14 +1769,12 @@
           </Transform>
           <Transform x="101" y="5" width="16" height="8">
             <If condition="5 less_than_or_equal Radio/NumberOfControlPoints">
-              <Group>
-                <If condition="ControlPoint/ControlPoint5 is 0">
-                  <Picture picture="Ingame/cpbar/cpbar_gray_cp_16x8.tga" />
-                </If>
-                <If condition="ControlPoint/ControlPoint5 is 1">
-                  <Picture picture="Ingame/cpbar/cpbar_red_cp_16x8.tga" />
-                </If>
-              </Group>
+              <If condition="ControlPoint/ControlPoint5 is 0">
+                <Picture picture="Ingame/cpbar/cpbar_gray_cp_16x8.tga" />
+              </If>
+              <If condition="ControlPoint/ControlPoint5 is 1">
+                <Picture picture="Ingame/cpbar/cpbar_red_cp_16x8.tga" />
+              </If>
               <If condition="ControlPoint/ControlPoint5 is 2">
                 <Picture picture="Ingame/cpbar/cpbar_blue_cp_16x8.tga" />
               </If>
@@ -1812,14 +1782,12 @@
           </Transform>
           <Transform x="122" y="5" width="16" height="8">
             <If condition="6 less_than_or_equal Radio/NumberOfControlPoints">
-              <Group>
-                <If condition="ControlPoint/ControlPoint6 is 0">
-                  <Picture picture="Ingame/cpbar/cpbar_gray_cp_16x8.tga" />
-                </If>
-                <If condition="ControlPoint/ControlPoint6 is 1">
-                  <Picture picture="Ingame/cpbar/cpbar_red_cp_16x8.tga" />
-                </If>
-              </Group>
+              <If condition="ControlPoint/ControlPoint6 is 0">
+                <Picture picture="Ingame/cpbar/cpbar_gray_cp_16x8.tga" />
+              </If>
+              <If condition="ControlPoint/ControlPoint6 is 1">
+                <Picture picture="Ingame/cpbar/cpbar_red_cp_16x8.tga" />
+              </If>
               <If condition="ControlPoint/ControlPoint6 is 2">
                 <Picture picture="Ingame/cpbar/cpbar_blue_cp_16x8.tga" />
               </If>
@@ -1827,14 +1795,12 @@
           </Transform>
           <Transform x="143" y="5" width="16" height="8">
             <If condition="7 less_than_or_equal Radio/NumberOfControlPoints">
-              <Group>
-                <If condition="ControlPoint/ControlPoint7 is 0">
-                  <Picture picture="Ingame/cpbar/cpbar_gray_cp_16x8.tga" />
-                </If>
-                <If condition="ControlPoint/ControlPoint7 is 1">
-                  <Picture picture="Ingame/cpbar/cpbar_red_cp_16x8.tga" />
-                </If>
-              </Group>
+              <If condition="ControlPoint/ControlPoint7 is 0">
+                <Picture picture="Ingame/cpbar/cpbar_gray_cp_16x8.tga" />
+              </If>
+              <If condition="ControlPoint/ControlPoint7 is 1">
+                <Picture picture="Ingame/cpbar/cpbar_red_cp_16x8.tga" />
+              </If>
               <If condition="ControlPoint/ControlPoint7 is 2">
                 <Picture picture="Ingame/cpbar/cpbar_blue_cp_16x8.tga" />
               </If>
@@ -1845,20 +1811,18 @@
     </If>
   </Transform>
   <Transform x="47" y="503" width="32" height="32">
-    <Group>
-      <If condition="MedicNeeded is_not 0 and MedicNeeded is 1">
-        <TimeoutAction timeout-time="1.5">
-          <SetVariable variable="MedicNeeded" value="2" />
-        </TimeoutAction>
-        <Picture picture="Icon_medic_needed_1.tga" />
-      </If>
-      <If condition="MedicNeeded is_not 0 and MedicNeeded is 2">
-        <TimeoutAction timeout-time="1.5">
-          <SetVariable variable="MedicNeeded" value="1" />
-        </TimeoutAction>
-        <Picture picture="Icon_medic_needed_2.tga" />
-      </If>
-    </Group>
+    <If condition="MedicNeeded is_not 0 and MedicNeeded is 1">
+      <TimeoutAction timeout-time="1.5">
+        <SetVariable variable="MedicNeeded" value="2" />
+      </TimeoutAction>
+      <Picture picture="Icon_medic_needed_1.tga" />
+    </If>
+    <If condition="MedicNeeded is_not 0 and MedicNeeded is 2">
+      <TimeoutAction timeout-time="1.5">
+        <SetVariable variable="MedicNeeded" value="1" />
+      </TimeoutAction>
+      <Picture picture="Icon_medic_needed_2.tga" />
+    </If>
     <If condition="MedicNeeded">
       <TimeoutAction timeout-time="10">
         <SetVariable variable="MedicNeeded" value="0" />
@@ -1866,20 +1830,18 @@
     </If>
   </Transform>
   <Transform x="47" y="503" width="32" height="32">
-    <Group>
-      <If condition="EngineerNeeded is_not 0 and EngineerNeeded is 1">
-        <TimeoutAction timeout-time="1.5">
-          <SetVariable variable="EngineerNeeded" value="2" />
-        </TimeoutAction>
-        <Picture picture="Icon_engineer_needed_1.tga" />
-      </If>
-      <If condition="EngineerNeeded is_not 0 and EngineerNeeded is 2">
-        <TimeoutAction timeout-time="1.5">
-          <SetVariable variable="EngineerNeeded" value="1" />
-        </TimeoutAction>
-        <Picture picture="Icon_engineer_needed_2.tga" />
-      </If>
-    </Group>
+    <If condition="EngineerNeeded is_not 0 and EngineerNeeded is 1">
+      <TimeoutAction timeout-time="1.5">
+        <SetVariable variable="EngineerNeeded" value="2" />
+      </TimeoutAction>
+      <Picture picture="Icon_engineer_needed_1.tga" />
+    </If>
+    <If condition="EngineerNeeded is_not 0 and EngineerNeeded is 2">
+      <TimeoutAction timeout-time="1.5">
+        <SetVariable variable="EngineerNeeded" value="1" />
+      </TimeoutAction>
+      <Picture picture="Icon_engineer_needed_2.tga" />
+    </If>
     <If condition="EngineerNeeded">
       <TimeoutAction timeout-time="10">
         <SetVariable variable="EngineerNeeded" value="0" />
@@ -2274,292 +2236,286 @@
     <NodePlaceholder name="RadioLayer" />
   </Group>
   <Transform x="0" y="20" width="20" height="20">
-    <Group>
-      <If condition="ToolTip/Text/Alpha is 0.0 and not ToolTip/Text/ShowToolTipText">
-        <Action>
-          <SetVariable variable="ToolTip/Text/Alpha" value="1.0" />
-        </Action>
-      </If>
-      <If condition="ToolTip/Text/ShowToolTipText">
-        <If condition="not Kit/ShowKit">
-          <AddSubNextEffect value="ToolTip/Text/Alpha" end-value="0.0" start-time="0.0" start-percentage="0.0" end-time="4.0" delay="0.0" up="false" trigger="ToolTip/Text/FadeToolTipText">
-            <ActionList>
-              <SetVariable variable="ToolTip/Text/ShowToolTipText" value="false" />
-            </ActionList>
-          </AddSubNextEffect>
-          <Transform x="10" y="258" width="220" height="20">
-            <Transform x="0" y="0" width="256" height="32">
-              <Effect>
-                <Color color="#ffffff, ToolTip/Text/Alpha" />
-              </Effect>
-              <Picture picture="ToolTip/tooltip_Small_256x32.tga" />
-              <Transform x="5" y="5" width="230" height="20">
-                <Text string="ToolTip/Text/ToolTipState" style="Style/InGame8" />
-              </Transform>
+    <If condition="ToolTip/Text/Alpha is 0.0 and not ToolTip/Text/ShowToolTipText">
+      <Action>
+        <SetVariable variable="ToolTip/Text/Alpha" value="1.0" />
+      </Action>
+    </If>
+    <If condition="ToolTip/Text/ShowToolTipText">
+      <If condition="not Kit/ShowKit">
+        <AddSubNextEffect value="ToolTip/Text/Alpha" end-value="0.0" start-time="0.0" start-percentage="0.0" end-time="4.0" delay="0.0" up="false" trigger="ToolTip/Text/FadeToolTipText">
+          <ActionList>
+            <SetVariable variable="ToolTip/Text/ShowToolTipText" value="false" />
+          </ActionList>
+        </AddSubNextEffect>
+        <Transform x="10" y="258" width="220" height="20">
+          <Transform x="0" y="0" width="256" height="32">
+            <Effect>
+              <Color color="#ffffff, ToolTip/Text/Alpha" />
+            </Effect>
+            <Picture picture="ToolTip/tooltip_Small_256x32.tga" />
+            <Transform x="5" y="5" width="230" height="20">
+              <Text string="ToolTip/Text/ToolTipState" style="Style/InGame8" />
             </Transform>
           </Transform>
-          <Transform x="10" y="283" width="220" height="20">
-            <Transform x="0" y="0" width="256" height="32">
-              <Effect>
-                <Color color="#ffffff, ToolTip/Text/Alpha" />
-              </Effect>
-              <Picture picture="ToolTip/tooltip_Small_256x32.tga" />
-              <Transform x="5" y="5" width="230" height="20">
-                <Text string="ToolTip/Text/ToolTipStateChange" style="Style/InGame8" />
-              </Transform>
+        </Transform>
+        <Transform x="10" y="283" width="220" height="20">
+          <Transform x="0" y="0" width="256" height="32">
+            <Effect>
+              <Color color="#ffffff, ToolTip/Text/Alpha" />
+            </Effect>
+            <Picture picture="ToolTip/tooltip_Small_256x32.tga" />
+            <Transform x="5" y="5" width="230" height="20">
+              <Text string="ToolTip/Text/ToolTipStateChange" style="Style/InGame8" />
             </Transform>
           </Transform>
-        </If>
+        </Transform>
       </If>
-    </Group>
+    </If>
     <If condition="ToolTip/ShowToolTip">
-      <Group>
-        <Group>
-          <If condition="ToolTip/SmallToolTip">
-            <Transform x="480" y="258" width="240" height="250">
-              <Transform x="0" y="0" width="256" height="32">
-                <Picture picture="ToolTip/tooltip_Small_256x32.tga" />
-                <Transform x="5" y="5" width="230" height="20">
-                  <Text string="ToolTip/ToolTipHeading" style="Style/InGameHeading" />
-                </Transform>
-              </Transform>
-              <Transform x="0" y="25" width="256" height="128">
-                <Picture picture="ToolTip/tooltip_256x128.tga" />
-                <Transform x="5" y="5" width="220" height="70">
-                  <Text string="ToolTip/ToolTipKeyString" style="BfStyle('standard6.dif')" />
-                </Transform>
-              </Transform>
-              <Transform x="0" y="122" width="256" height="128">
-                <Picture picture="ToolTip/tooltip_256x128.tga" />
-                <Transform x="0" y="5" width="220" height="80">
-                  <Transform x="80" y="-3" width="1" height="92">
-                    <Effect>
-                      <Color color="#000000, 0.5" />
-                    </Effect>
-                    <Picture picture="" />
-                  </Transform>
-                  <Transform x="5" y="0" width="70" height="20">
-                    <Effect>
-                      <Color color="0.6796, 0.7109, 0.5195" />
-                    </Effect>
-                    <Text string="ToolTip/Key/ToolTipKey0" style="Style('standard6.dif')" />
-                  </Transform>
-                  <Transform x="90" y="0" width="135" height="20">
-                    <Text string="ToolTip/Key/ToolTipKeyText0" style="Style('standard6.dif')" />
-                  </Transform>
-                  <Transform x="5" y="12" width="220" height="20">
-                    <Effect>
-                      <Color color="0.6796, 0.7109, 0.5195" />
-                    </Effect>
-                    <Text string="ToolTip/Key/ToolTipKey1" style="Style('standard6.dif')" />
-                  </Transform>
-                  <Transform x="90" y="12" width="135" height="20">
-                    <Text string="ToolTip/Key/ToolTipKeyText1" style="Style('standard6.dif')" />
-                  </Transform>
-                  <Transform x="5" y="24" width="220" height="20">
-                    <Effect>
-                      <Color color="0.6796, 0.7109, 0.5195" />
-                    </Effect>
-                    <Text string="ToolTip/Key/ToolTipKey2" style="Style('standard6.dif')" />
-                  </Transform>
-                  <Transform x="90" y="24" width="135" height="20">
-                    <Text string="ToolTip/Key/ToolTipKeyText2" style="Style('standard6.dif')" />
-                  </Transform>
-                  <Transform x="5" y="36" width="220" height="20">
-                    <Effect>
-                      <Color color="0.6796, 0.7109, 0.5195" />
-                    </Effect>
-                    <Text string="ToolTip/Key/ToolTipKey3" style="Style('standard6.dif')" />
-                  </Transform>
-                  <Transform x="90" y="36" width="135" height="20">
-                    <Text string="ToolTip/Key/ToolTipKeyText3" style="Style('standard6.dif')" />
-                  </Transform>
-                  <Transform x="5" y="48" width="220" height="20">
-                    <Effect>
-                      <Color color="0.6796, 0.7109, 0.5195" />
-                    </Effect>
-                    <Text string="ToolTip/Key/ToolTipKey4" style="Style('standard6.dif')" />
-                  </Transform>
-                  <Transform x="90" y="48" width="135" height="20">
-                    <Text string="ToolTip/Key/ToolTipKeyText4" style="Style('standard6.dif')" />
-                  </Transform>
-                  <Transform x="5" y="60" width="220" height="20">
-                    <Effect>
-                      <Color color="0.6796, 0.7109, 0.5195" />
-                    </Effect>
-                    <Text string="ToolTip/Key/ToolTipKey5" style="Style('standard6.dif')" />
-                  </Transform>
-                  <Transform x="90" y="60" width="135" height="20">
-                    <Text string="ToolTip/Key/ToolTipKeyText5" style="Style('standard6.dif')" />
-                  </Transform>
-                  <Transform x="5" y="72" width="220" height="20">
-                    <Effect>
-                      <Color color="0.6796, 0.7109, 0.5195" />
-                    </Effect>
-                    <Text string="ToolTip/Key/ToolTipKey6" style="Style('standard6.dif')" />
-                  </Transform>
-                  <Transform x="90" y="72" width="135" height="20">
-                    <Text string="ToolTip/Key/ToolTipKeyText6" style="Style('standard6.dif')" />
-                  </Transform>
-                </Transform>
-              </Transform>
-              <Transform x="0" y="219" width="256" height="32">
-                <Picture picture="ToolTip/tooltip_Small_256x32.tga" />
-                <Transform x="5" y="5" width="230" height="20">
-                  <Text string="ToolTip/ToolTipFooter" style="Style/InGameHeading" />
-                </Transform>
-              </Transform>
+      <If condition="ToolTip/SmallToolTip">
+        <Transform x="480" y="258" width="240" height="250">
+          <Transform x="0" y="0" width="256" height="32">
+            <Picture picture="ToolTip/tooltip_Small_256x32.tga" />
+            <Transform x="5" y="5" width="230" height="20">
+              <Text string="ToolTip/ToolTipHeading" style="Style/InGameHeading" />
             </Transform>
-          </If>
-          <If condition="not ToolTip/SmallToolTip">
-            <Transform x="245" y="258" width="256" height="450">
-              <Transform x="0" y="0" width="256" height="32">
-                <Picture picture="ToolTip/tooltip_Small_256x32.tga" />
-                <Transform x="5" y="5" width="230" height="20">
-                  <Text string="ToolTip/ToolTipHeading" style="Style/InGameHeading" />
-                </Transform>
-              </Transform>
-              <Transform x="0" y="25" width="256" height="256">
-                <Picture picture="ToolTip/tooltip_XL_256x256.tga" />
-                <Transform x="5" y="5" width="220" height="180">
-                  <Text string="ToolTip/ToolTipKeyString" style="BfStyle('standard6.dif')" />
-                </Transform>
-              </Transform>
-            </Transform>
-            <Transform x="480" y="39" width="20" height="20">
-              <Transform x="0" y="219" width="256" height="256">
-                <Picture picture="ToolTip/tooltip_XL_256x256.tga" />
-                <Transform x="0" y="5" width="220" height="80">
-                  <Transform x="80" y="-3" width="1" height="188">
-                    <Effect>
-                      <Color color="#000000, 0.5" />
-                    </Effect>
-                    <Picture picture="" />
-                  </Transform>
-                  <Transform x="5" y="0" width="220" height="20">
-                    <Effect>
-                      <Color color="0.6796, 0.7109, 0.5195" />
-                    </Effect>
-                    <Text string="ToolTip/Key/ToolTipKey0" style="Style('standard6.dif')" />
-                  </Transform>
-                  <Transform x="90" y="0" width="135" height="20">
-                    <Text string="ToolTip/Key/ToolTipKeyText0" style="Style('standard6.dif')" />
-                  </Transform>
-                  <Transform x="5" y="12" width="220" height="20">
-                    <Effect>
-                      <Color color="0.6796, 0.7109, 0.5195" />
-                    </Effect>
-                    <Text string="ToolTip/Key/ToolTipKey1" style="Style('standard6.dif')" />
-                  </Transform>
-                  <Transform x="90" y="12" width="135" height="20">
-                    <Text string="ToolTip/Key/ToolTipKeyText1" style="Style('standard6.dif')" />
-                  </Transform>
-                  <Transform x="5" y="24" width="220" height="20">
-                    <Effect>
-                      <Color color="0.6796, 0.7109, 0.5195" />
-                    </Effect>
-                    <Text string="ToolTip/Key/ToolTipKey2" style="Style('standard6.dif')" />
-                  </Transform>
-                  <Transform x="90" y="24" width="135" height="20">
-                    <Text string="ToolTip/Key/ToolTipKeyText2" style="Style('standard6.dif')" />
-                  </Transform>
-                  <Transform x="5" y="36" width="220" height="20">
-                    <Effect>
-                      <Color color="0.6796, 0.7109, 0.5195" />
-                    </Effect>
-                    <Text string="ToolTip/Key/ToolTipKey3" style="Style('standard6.dif')" />
-                  </Transform>
-                  <Transform x="90" y="36" width="135" height="20">
-                    <Text string="ToolTip/Key/ToolTipKeyText3" style="Style('standard6.dif')" />
-                  </Transform>
-                  <Transform x="5" y="48" width="220" height="20">
-                    <Effect>
-                      <Color color="0.6796, 0.7109, 0.5195" />
-                    </Effect>
-                    <Text string="ToolTip/Key/ToolTipKey4" style="Style('standard6.dif')" />
-                  </Transform>
-                  <Transform x="90" y="48" width="135" height="20">
-                    <Text string="ToolTip/Key/ToolTipKeyText4" style="Style('standard6.dif')" />
-                  </Transform>
-                  <Transform x="5" y="60" width="220" height="20">
-                    <Effect>
-                      <Color color="0.6796, 0.7109, 0.5195" />
-                    </Effect>
-                    <Text string="ToolTip/Key/ToolTipKey5" style="Style('standard6.dif')" />
-                  </Transform>
-                  <Transform x="90" y="60" width="135" height="20">
-                    <Text string="ToolTip/Key/ToolTipKeyText5" style="Style('standard6.dif')" />
-                  </Transform>
-                  <Transform x="5" y="72" width="220" height="20">
-                    <Effect>
-                      <Color color="0.6796, 0.7109, 0.5195" />
-                    </Effect>
-                    <Text string="ToolTip/Key/ToolTipKey6" style="Style('standard6.dif')" />
-                  </Transform>
-                  <Transform x="90" y="72" width="135" height="20">
-                    <Text string="ToolTip/Key/ToolTipKeyText6" style="Style('standard6.dif')" />
-                  </Transform>
-                  <Transform x="5" y="84" width="220" height="20">
-                    <Effect>
-                      <Color color="0.6796, 0.7109, 0.5195" />
-                    </Effect>
-                    <Text string="ToolTip/Key/ToolTipKey7" style="Style('standard6.dif')" />
-                  </Transform>
-                  <Transform x="90" y="84" width="135" height="20">
-                    <Text string="ToolTip/Key/ToolTipKeyText7" style="Style('standard6.dif')" />
-                  </Transform>
-                  <Transform x="5" y="96" width="220" height="20">
-                    <Effect>
-                      <Color color="0.6796, 0.7109, 0.5195" />
-                    </Effect>
-                    <Text string="ToolTip/Key/ToolTipKey8" style="Style('standard6.dif')" />
-                  </Transform>
-                  <Transform x="90" y="96" width="135" height="20">
-                    <Text string="ToolTip/Key/ToolTipKeyText8" style="Style('standard6.dif')" />
-                  </Transform>
-                  <Transform x="5" y="108" width="220" height="20">
-                    <Effect>
-                      <Color color="0.6796, 0.7109, 0.5195" />
-                    </Effect>
-                    <Text string="ToolTip/Key/ToolTipKey9" style="Style('standard6.dif')" />
-                  </Transform>
-                  <Transform x="90" y="108" width="135" height="20">
-                    <Text string="ToolTip/Key/ToolTipKeyText9" style="Style('standard6.dif')" />
-                  </Transform>
-                </Transform>
-              </Transform>
-              <Transform x="0" y="413" width="256" height="32">
-                <Picture picture="ToolTip/tooltip_Small_256x32.tga" />
-                <Transform x="5" y="5" width="230" height="20">
-                  <Text string="ToolTip/ToolTipFooter" style="Style/InGameHeading" />
-                </Transform>
-              </Transform>
-            </Transform>
-          </If>
-        </Group>
-        <If condition="ToolTip/ToolTipIndex is 1">
-          <Transform x="650" y="130" width="16" height="16">
-            <Picture picture="ToolTip/1_16x16.tga" />
           </Transform>
-          <Transform x="700" y="235" width="16" height="16">
-            <Picture picture="ToolTip/2_16x16.tga" />
-          </Transform>
-          <Transform x="695" y="490" width="16" height="16">
-            <Picture picture="ToolTip/3_16x16.tga" />
-          </Transform>
-          <Transform x="100" y="480" width="16" height="16">
-            <Picture picture="ToolTip/4_16x16.tga" />
-          </Transform>
-          <If condition="false">
-            <Transform x="50" y="480" width="16" height="16">
-              <Picture picture="ToolTip/5_16x16.tga" />
+          <Transform x="0" y="25" width="256" height="128">
+            <Picture picture="ToolTip/tooltip_256x128.tga" />
+            <Transform x="5" y="5" width="220" height="70">
+              <Text string="ToolTip/ToolTipKeyString" style="BfStyle('standard6.dif')" />
             </Transform>
-            <Transform x="9" y="20" width="16" height="16">
-              <Picture picture="ToolTip/6_16x16.tga" />
+          </Transform>
+          <Transform x="0" y="122" width="256" height="128">
+            <Picture picture="ToolTip/tooltip_256x128.tga" />
+            <Transform x="0" y="5" width="220" height="80">
+              <Transform x="80" y="-3" width="1" height="92">
+                <Effect>
+                  <Color color="#000000, 0.5" />
+                </Effect>
+                <Picture picture="" />
+              </Transform>
+              <Transform x="5" y="0" width="70" height="20">
+                <Effect>
+                  <Color color="0.6796, 0.7109, 0.5195" />
+                </Effect>
+                <Text string="ToolTip/Key/ToolTipKey0" style="Style('standard6.dif')" />
+              </Transform>
+              <Transform x="90" y="0" width="135" height="20">
+                <Text string="ToolTip/Key/ToolTipKeyText0" style="Style('standard6.dif')" />
+              </Transform>
+              <Transform x="5" y="12" width="220" height="20">
+                <Effect>
+                  <Color color="0.6796, 0.7109, 0.5195" />
+                </Effect>
+                <Text string="ToolTip/Key/ToolTipKey1" style="Style('standard6.dif')" />
+              </Transform>
+              <Transform x="90" y="12" width="135" height="20">
+                <Text string="ToolTip/Key/ToolTipKeyText1" style="Style('standard6.dif')" />
+              </Transform>
+              <Transform x="5" y="24" width="220" height="20">
+                <Effect>
+                  <Color color="0.6796, 0.7109, 0.5195" />
+                </Effect>
+                <Text string="ToolTip/Key/ToolTipKey2" style="Style('standard6.dif')" />
+              </Transform>
+              <Transform x="90" y="24" width="135" height="20">
+                <Text string="ToolTip/Key/ToolTipKeyText2" style="Style('standard6.dif')" />
+              </Transform>
+              <Transform x="5" y="36" width="220" height="20">
+                <Effect>
+                  <Color color="0.6796, 0.7109, 0.5195" />
+                </Effect>
+                <Text string="ToolTip/Key/ToolTipKey3" style="Style('standard6.dif')" />
+              </Transform>
+              <Transform x="90" y="36" width="135" height="20">
+                <Text string="ToolTip/Key/ToolTipKeyText3" style="Style('standard6.dif')" />
+              </Transform>
+              <Transform x="5" y="48" width="220" height="20">
+                <Effect>
+                  <Color color="0.6796, 0.7109, 0.5195" />
+                </Effect>
+                <Text string="ToolTip/Key/ToolTipKey4" style="Style('standard6.dif')" />
+              </Transform>
+              <Transform x="90" y="48" width="135" height="20">
+                <Text string="ToolTip/Key/ToolTipKeyText4" style="Style('standard6.dif')" />
+              </Transform>
+              <Transform x="5" y="60" width="220" height="20">
+                <Effect>
+                  <Color color="0.6796, 0.7109, 0.5195" />
+                </Effect>
+                <Text string="ToolTip/Key/ToolTipKey5" style="Style('standard6.dif')" />
+              </Transform>
+              <Transform x="90" y="60" width="135" height="20">
+                <Text string="ToolTip/Key/ToolTipKeyText5" style="Style('standard6.dif')" />
+              </Transform>
+              <Transform x="5" y="72" width="220" height="20">
+                <Effect>
+                  <Color color="0.6796, 0.7109, 0.5195" />
+                </Effect>
+                <Text string="ToolTip/Key/ToolTipKey6" style="Style('standard6.dif')" />
+              </Transform>
+              <Transform x="90" y="72" width="135" height="20">
+                <Text string="ToolTip/Key/ToolTipKeyText6" style="Style('standard6.dif')" />
+              </Transform>
             </Transform>
-          </If>
+          </Transform>
+          <Transform x="0" y="219" width="256" height="32">
+            <Picture picture="ToolTip/tooltip_Small_256x32.tga" />
+            <Transform x="5" y="5" width="230" height="20">
+              <Text string="ToolTip/ToolTipFooter" style="Style/InGameHeading" />
+            </Transform>
+          </Transform>
+        </Transform>
+      </If>
+      <If condition="not ToolTip/SmallToolTip">
+        <Transform x="245" y="258" width="256" height="450">
+          <Transform x="0" y="0" width="256" height="32">
+            <Picture picture="ToolTip/tooltip_Small_256x32.tga" />
+            <Transform x="5" y="5" width="230" height="20">
+              <Text string="ToolTip/ToolTipHeading" style="Style/InGameHeading" />
+            </Transform>
+          </Transform>
+          <Transform x="0" y="25" width="256" height="256">
+            <Picture picture="ToolTip/tooltip_XL_256x256.tga" />
+            <Transform x="5" y="5" width="220" height="180">
+              <Text string="ToolTip/ToolTipKeyString" style="BfStyle('standard6.dif')" />
+            </Transform>
+          </Transform>
+        </Transform>
+        <Transform x="480" y="39" width="20" height="20">
+          <Transform x="0" y="219" width="256" height="256">
+            <Picture picture="ToolTip/tooltip_XL_256x256.tga" />
+            <Transform x="0" y="5" width="220" height="80">
+              <Transform x="80" y="-3" width="1" height="188">
+                <Effect>
+                  <Color color="#000000, 0.5" />
+                </Effect>
+                <Picture picture="" />
+              </Transform>
+              <Transform x="5" y="0" width="220" height="20">
+                <Effect>
+                  <Color color="0.6796, 0.7109, 0.5195" />
+                </Effect>
+                <Text string="ToolTip/Key/ToolTipKey0" style="Style('standard6.dif')" />
+              </Transform>
+              <Transform x="90" y="0" width="135" height="20">
+                <Text string="ToolTip/Key/ToolTipKeyText0" style="Style('standard6.dif')" />
+              </Transform>
+              <Transform x="5" y="12" width="220" height="20">
+                <Effect>
+                  <Color color="0.6796, 0.7109, 0.5195" />
+                </Effect>
+                <Text string="ToolTip/Key/ToolTipKey1" style="Style('standard6.dif')" />
+              </Transform>
+              <Transform x="90" y="12" width="135" height="20">
+                <Text string="ToolTip/Key/ToolTipKeyText1" style="Style('standard6.dif')" />
+              </Transform>
+              <Transform x="5" y="24" width="220" height="20">
+                <Effect>
+                  <Color color="0.6796, 0.7109, 0.5195" />
+                </Effect>
+                <Text string="ToolTip/Key/ToolTipKey2" style="Style('standard6.dif')" />
+              </Transform>
+              <Transform x="90" y="24" width="135" height="20">
+                <Text string="ToolTip/Key/ToolTipKeyText2" style="Style('standard6.dif')" />
+              </Transform>
+              <Transform x="5" y="36" width="220" height="20">
+                <Effect>
+                  <Color color="0.6796, 0.7109, 0.5195" />
+                </Effect>
+                <Text string="ToolTip/Key/ToolTipKey3" style="Style('standard6.dif')" />
+              </Transform>
+              <Transform x="90" y="36" width="135" height="20">
+                <Text string="ToolTip/Key/ToolTipKeyText3" style="Style('standard6.dif')" />
+              </Transform>
+              <Transform x="5" y="48" width="220" height="20">
+                <Effect>
+                  <Color color="0.6796, 0.7109, 0.5195" />
+                </Effect>
+                <Text string="ToolTip/Key/ToolTipKey4" style="Style('standard6.dif')" />
+              </Transform>
+              <Transform x="90" y="48" width="135" height="20">
+                <Text string="ToolTip/Key/ToolTipKeyText4" style="Style('standard6.dif')" />
+              </Transform>
+              <Transform x="5" y="60" width="220" height="20">
+                <Effect>
+                  <Color color="0.6796, 0.7109, 0.5195" />
+                </Effect>
+                <Text string="ToolTip/Key/ToolTipKey5" style="Style('standard6.dif')" />
+              </Transform>
+              <Transform x="90" y="60" width="135" height="20">
+                <Text string="ToolTip/Key/ToolTipKeyText5" style="Style('standard6.dif')" />
+              </Transform>
+              <Transform x="5" y="72" width="220" height="20">
+                <Effect>
+                  <Color color="0.6796, 0.7109, 0.5195" />
+                </Effect>
+                <Text string="ToolTip/Key/ToolTipKey6" style="Style('standard6.dif')" />
+              </Transform>
+              <Transform x="90" y="72" width="135" height="20">
+                <Text string="ToolTip/Key/ToolTipKeyText6" style="Style('standard6.dif')" />
+              </Transform>
+              <Transform x="5" y="84" width="220" height="20">
+                <Effect>
+                  <Color color="0.6796, 0.7109, 0.5195" />
+                </Effect>
+                <Text string="ToolTip/Key/ToolTipKey7" style="Style('standard6.dif')" />
+              </Transform>
+              <Transform x="90" y="84" width="135" height="20">
+                <Text string="ToolTip/Key/ToolTipKeyText7" style="Style('standard6.dif')" />
+              </Transform>
+              <Transform x="5" y="96" width="220" height="20">
+                <Effect>
+                  <Color color="0.6796, 0.7109, 0.5195" />
+                </Effect>
+                <Text string="ToolTip/Key/ToolTipKey8" style="Style('standard6.dif')" />
+              </Transform>
+              <Transform x="90" y="96" width="135" height="20">
+                <Text string="ToolTip/Key/ToolTipKeyText8" style="Style('standard6.dif')" />
+              </Transform>
+              <Transform x="5" y="108" width="220" height="20">
+                <Effect>
+                  <Color color="0.6796, 0.7109, 0.5195" />
+                </Effect>
+                <Text string="ToolTip/Key/ToolTipKey9" style="Style('standard6.dif')" />
+              </Transform>
+              <Transform x="90" y="108" width="135" height="20">
+                <Text string="ToolTip/Key/ToolTipKeyText9" style="Style('standard6.dif')" />
+              </Transform>
+            </Transform>
+          </Transform>
+          <Transform x="0" y="413" width="256" height="32">
+            <Picture picture="ToolTip/tooltip_Small_256x32.tga" />
+            <Transform x="5" y="5" width="230" height="20">
+              <Text string="ToolTip/ToolTipFooter" style="Style/InGameHeading" />
+            </Transform>
+          </Transform>
+        </Transform>
+      </If>
+      <If condition="ToolTip/ToolTipIndex is 1">
+        <Transform x="650" y="130" width="16" height="16">
+          <Picture picture="ToolTip/1_16x16.tga" />
+        </Transform>
+        <Transform x="700" y="235" width="16" height="16">
+          <Picture picture="ToolTip/2_16x16.tga" />
+        </Transform>
+        <Transform x="695" y="490" width="16" height="16">
+          <Picture picture="ToolTip/3_16x16.tga" />
+        </Transform>
+        <Transform x="100" y="480" width="16" height="16">
+          <Picture picture="ToolTip/4_16x16.tga" />
+        </Transform>
+        <If condition="false">
+          <Transform x="50" y="480" width="16" height="16">
+            <Picture picture="ToolTip/5_16x16.tga" />
+          </Transform>
+          <Transform x="9" y="20" width="16" height="16">
+            <Picture picture="ToolTip/6_16x16.tga" />
+          </Transform>
         </If>
-      </Group>
+      </If>
       <If condition="not Pause/ShowPauseMessage">
         <VariableTimeoutAction current-time="ToolTip/ToolTipTime" timeout-time="ToolTip/MaxToolTipTime">
           <ActionList>
@@ -2608,14 +2564,12 @@
               </ActionList>
             </Button>
             <Transform x="0" y="9" width="114" height="20">
-              <Group>
-                <If condition="Scoreboard/FromSpawnScoreboard">
-                  <Text string="LocaleString(Locale/Locale, Locale/Valid, 'RESPAWN_DONE')" style="CenterAligned('standard6.dif')" />
-                </If>
-                <If condition="not Scoreboard/FromSpawnScoreboard">
-                  <Text string="LocaleString(Locale/Locale, Locale/Valid, 'SCOREBOARD_LOCK')" style="CenterAligned('standard6.dif')" />
-                </If>
-              </Group>
+              <If condition="Scoreboard/FromSpawnScoreboard">
+                <Text string="LocaleString(Locale/Locale, Locale/Valid, 'RESPAWN_DONE')" style="CenterAligned('standard6.dif')" />
+              </If>
+              <If condition="not Scoreboard/FromSpawnScoreboard">
+                <Text string="LocaleString(Locale/Locale, Locale/Valid, 'SCOREBOARD_LOCK')" style="CenterAligned('standard6.dif')" />
+              </If>
               <Transform x="2" y="1" width="106" height="23">
                 <CullEventAction event="Type(0, PointerIn)">
                   <CallFunction function="Kit/OnSpawnButtonMouseOver" />
@@ -2633,12 +2587,10 @@
                 </Button>
                 <Transform x="0" y="9" width="114" height="20">
                   <Text string="'Kick'" style="CenterAligned('standard6.dif')" />
-                  <Group>
-                    <If condition="Kit/IsAlive">
-                      <Text string="LocaleString(Locale/Locale, Locale/Valid, 'RESPAWN_RESUME')" style="CenterAligned('standard6.dif')" />
-                    </If>
-                    <If condition="not Kit/IsAlive" />
-                  </Group>
+                  <If condition="Kit/IsAlive">
+                    <Text string="LocaleString(Locale/Locale, Locale/Valid, 'RESPAWN_RESUME')" style="CenterAligned('standard6.dif')" />
+                  </If>
+                  <If condition="not Kit/IsAlive" />
                   <Transform x="2" y="1" width="106" height="23">
                     <CullEventAction event="Type(0, PointerIn)">
                       <CallFunction function="Kit/OnSpawnButtonMouseOver" />
@@ -3246,14 +3198,12 @@
             </ActionList>
           </Button>
           <Transform x="0" y="9" width="114" height="20">
-            <Group>
-              <If condition="ScoreboardMapVote/FromSpawnMapVote">
-                <Text string="LocaleString(Locale/Locale, Locale/Valid, 'RESPAWN_DONE')" style="CenterAligned('standard6.dif')" />
-              </If>
-              <If condition="not ScoreboardMapVote/FromSpawnMapVote">
-                <Text string="LocaleString(Locale/Locale, Locale/Valid, 'SCOREBOARD_LOCK')" style="CenterAligned('standard6.dif')" />
-              </If>
-            </Group>
+            <If condition="ScoreboardMapVote/FromSpawnMapVote">
+              <Text string="LocaleString(Locale/Locale, Locale/Valid, 'RESPAWN_DONE')" style="CenterAligned('standard6.dif')" />
+            </If>
+            <If condition="not ScoreboardMapVote/FromSpawnMapVote">
+              <Text string="LocaleString(Locale/Locale, Locale/Valid, 'SCOREBOARD_LOCK')" style="CenterAligned('standard6.dif')" />
+            </If>
             <Transform x="2" y="1" width="106" height="23">
               <CullEventAction event="Type(0, PointerIn)">
                 <CallFunction function="Kit/OnSpawnButtonMouseOver" />
